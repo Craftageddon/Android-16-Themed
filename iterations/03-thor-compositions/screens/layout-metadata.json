@@ -1,0 +1,19 @@
+{
+  "coordinateSystem": "logical design units, NOT physical pixels or measured dp",
+  "upper": [
+    960,
+    540
+  ],
+  "lower": [
+    360,
+    414
+  ],
+  "lock": [
+    540,
+    960
+  ],
+  "targetGeometryVerified": false,
+  "sampleValues": true,
+  "screenCount": 6,
+  "nativeIntegration": false
+}

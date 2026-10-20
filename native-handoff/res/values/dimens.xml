@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cg_es_min_touch">48dp</dimen>
+    <dimen name="cg_es_focus_width">2dp</dimen>
+    <dimen name="cg_es_focus_radius">4dp</dimen>
+    <dimen name="cg_es_content_inset">20dp</dimen>
+</resources>

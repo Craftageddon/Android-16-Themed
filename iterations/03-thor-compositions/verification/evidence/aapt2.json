@@ -1,0 +1,12 @@
+{
+  "tool": "Android build-tools 36.1.0 aapt2",
+  "exitCode": 0,
+  "compiledResources": [
+    "drawable_cg_es_focus_boundary.xml.flat",
+    "drawable_cg_es_selection_marker.xml.flat",
+    "values_colors.arsc.flat",
+    "values_dimens.arsc.flat"
+  ],
+  "stderr": "",
+  "scope": "Compilation only; not linking installing or device verification"
+}

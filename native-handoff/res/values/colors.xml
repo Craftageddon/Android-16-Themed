@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cg_es_background">#090E14</color>
+    <color name="cg_es_well">#10171E</color>
+    <color name="cg_es_text">#EEE7D9</color>
+    <color name="cg_es_secondary">#B5BDC6</color>
+    <color name="cg_es_ember">#FF6B24</color>
+    <color name="cg_es_core">#FFC078</color>
+    <color name="cg_es_focus">#D5E7F2</color>
+</resources>

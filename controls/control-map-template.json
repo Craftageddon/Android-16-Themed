@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "status": "UNMEASURED TEMPLATE",
+  "deviceBuildFingerprint": null,
+  "controllerDescriptor": null,
+  "labelConvention": "user-configurable; independent of event mapping",
+  "buttons": {
+    "faceA": null, "faceB": null, "faceX": null, "faceY": null,
+    "dpadUp": null, "dpadDown": null, "dpadLeft": null, "dpadRight": null,
+    "leftShoulder": null, "rightShoulder": null,
+    "leftTriggerButton": null, "rightTriggerButton": null,
+    "leftStickPress": null, "rightStickPress": null,
+    "start": null, "select": null, "home": null, "back": null,
+    "oemMenu": null
+  },
+  "axes": {
+    "leftStickX": null, "leftStickY": null,
+    "rightStickX": null, "rightStickY": null,
+    "leftTrigger": null, "rightTrigger": null
+  },
+  "calibrationFieldsPerAxis": ["androidAxisId", "min", "max", "flat", "fuzz", "deadZone", "invert"],
+  "captureExitEvents": ["explicit-release", "back", "panel-close", "focus-loss", "disconnect", "lid-suspend"],
+  "globalKeymapModified": false
+}

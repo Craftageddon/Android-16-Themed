@@ -1,0 +1,398 @@
+[
+  {
+    "id": "primary_button",
+    "label": "Primary action",
+    "viewBox": [
+      0,
+      0,
+      256,
+      72
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "icon_socket",
+    "label": "Icon socket",
+    "viewBox": [
+      0,
+      0,
+      88,
+      88
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 8,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "toggle",
+    "label": "Toggle",
+    "viewBox": [
+      0,
+      0,
+      104,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 8,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "slider",
+    "label": "Slider",
+    "viewBox": [
+      0,
+      0,
+      280,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "notification",
+    "label": "Notification frame",
+    "viewBox": [
+      0,
+      0,
+      344,
+      112
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "dialog",
+    "label": "Dialog frame",
+    "viewBox": [
+      0,
+      0,
+      344,
+      212
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "quick_tile",
+    "label": "Quick settings tile",
+    "viewBox": [
+      0,
+      0,
+      152,
+      100
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "settings",
+    "label": "Settings symbol",
+    "viewBox": [
+      0,
+      0,
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 8,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi",
+    "label": "Compact Wi-Fi",
+    "viewBox": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 8,
+    "smallSymbol": true,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "battery",
+    "label": "Compact battery",
+    "viewBox": [
+      0,
+      0,
+      28,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 8,
+    "smallSymbol": true,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "navigation",
+    "label": "Back / home navigation",
+    "viewBox": [
+      0,
+      0,
+      112,
+      48
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 8,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "charging_ring",
+    "label": "Charging ring",
+    "viewBox": [
+      0,
+      0,
+      160,
+      160
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "controller_prompts",
+    "label": "Controller prompts",
+    "viewBox": [
+      0,
+      0,
+      272,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "calibration",
+    "label": "Stick / trigger calibration",
+    "viewBox": [
+      0,
+      0,
+      280,
+      160
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "gaming_menu",
+    "label": "Gaming menu",
+    "viewBox": [
+      0,
+      0,
+      312,
+      160
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "display_route",
+    "label": "Display routing",
+    "viewBox": [
+      0,
+      0,
+      312,
+      128
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "game_profile",
+    "label": "Per-game profile",
+    "viewBox": [
+      0,
+      0,
+      312,
+      136
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  },
+  {
+    "id": "performance",
+    "label": "Fan / power / lights",
+    "viewBox": [
+      0,
+      0,
+      312,
+      168
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "safeInsetDp": 20,
+    "smallSymbol": false,
+    "touchTargetDp": 48,
+    "liveTextBaked": false,
+    "status": "Designed; desktop rendered",
+    "deviceVerified": false
+  }
+]

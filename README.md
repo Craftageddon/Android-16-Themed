@@ -8,6 +8,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 |---|---|---|
 | [01 — Material pilot](iterations/01-material-pilot/) | 18 layered component specimens, cold bases, neutral emission masks, seven state previews | Desktop design checkpoint |
 | [02 — Light and legibility](iterations/02-light-and-legibility/) | Clearer emission, sharper sheets, state driver and rich cold hero button | Desktop + bounded Inkscape inspection |
+| [03 — Thor compositions](iterations/03-thor-compositions/) | Six editable screen compositions, rich charging socket, controller mapping template and native resource handoff | Desktop + resource compile checkpoint |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
@@ -16,6 +17,10 @@ The material study above is AI-generated reference art. It defines the intended 
 ![Component pilot](iterations/02-light-and-legibility/previews/pilot-sheet.png)
 
 ![Cold steel with separate runtime light](iterations/02-light-and-legibility/hero/primary-selected.preview.png)
+
+![Thor compositions](iterations/03-thor-compositions/previews/thor-screen-sheet.png)
+
+The [native handoff](native-handoff/README.md) records rendering ownership, controller capture/release, profile/display behavior and unrun target tests. [STATUS.md](STATUS.md) distinguishes current design work from the full 103-package roadmap.
 
 ## Use the assets
 

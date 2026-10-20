@@ -28,11 +28,11 @@ def verify(root):
      im.load();assert im.mode=='RGBA' and im.size==(w*density,h*density),(p,im.size,im.mode)
      alpha=im.getchannel('A');assert alpha.getpixel((0,0))==0,(p,'clipped corner')
      if layer in ['seam','core']:
-      pixels=[p for p in im.getdata() if p[3]>0]
+      pixels=[p for p in im.get_flattened_data() if p[3]>0]
       assert all(r==g==b==255 for r,g,b,a in pixels),'mask is not neutral white'
       if pixels:nonempty_masks+=1
      if layer=='cold':
-      assert not any(r>160 and r>g*1.8 and g>b*1.2 and a>30 for r,g,b,a in im.getdata()),'emission baked into cold base'
+      assert not any(r>160 and r>g*1.8 and g>b*1.2 and a>30 for r,g,b,a in im.get_flattened_data()),'emission baked into cold base'
   checks.append(c['id'])
  for p in root.rglob('*.png'):
   with Image.open(p) as im:im.verify()

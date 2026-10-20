@@ -1,0 +1,56 @@
+{
+  "heroChecks": [
+    {
+      "kind": "primary",
+      "dimensions": [
+        2098,
+        749
+      ],
+      "alphaAndNeutralMasks": "PASS",
+      "coldEmissionAudit": "PASS"
+    },
+    {
+      "kind": "ring",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alphaAndNeutralMasks": "PASS",
+      "coldEmissionAudit": "PASS"
+    }
+  ],
+  "screens": [
+    {
+      "file": "lock-and-charging.svg",
+      "liveTextNodes": 7,
+      "linkedImages": "resolved"
+    },
+    {
+      "file": "thor-lower-calibration.svg",
+      "liveTextNodes": 11,
+      "linkedImages": "resolved"
+    },
+    {
+      "file": "thor-lower-dashboard.svg",
+      "liveTextNodes": 14,
+      "linkedImages": "resolved"
+    },
+    {
+      "file": "thor-lower-profile.svg",
+      "liveTextNodes": 13,
+      "linkedImages": "resolved"
+    },
+    {
+      "file": "thor-upper-launcher.svg",
+      "liveTextNodes": 15,
+      "linkedImages": "resolved"
+    },
+    {
+      "file": "thor-upper-shade.svg",
+      "liveTextNodes": 20,
+      "linkedImages": "resolved"
+    }
+  ],
+  "androidResourceSyntax": "XML parsed; see aapt2.json for actual compiler result",
+  "physicalTarget": "NOT RUN"
+}

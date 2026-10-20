@@ -1,0 +1,14 @@
+case,surface,required_observation,status
+DISP-01,Both displays,Record exact mode density safe areas and touch transforms,NOT RUN
+DISP-02,Rotation and keyboard,No clipped focus text input or touch routing,NOT RUN
+INPUT-01,Game plus lower panel,Game keeps input until explicit capture,NOT RUN
+INPUT-02,Capture release,No stuck buttons on close back focus loss disconnect or lid close,NOT RUN
+INPUT-03,Calibration,Measured native axis values and rollback to prior calibration,NOT RUN
+INPUT-04,External controller,Built-in mapping corrections do not alter external devices,NOT RUN
+PROF-01,Per-app profile,Apply readback manual override and restore are consistent,NOT RUN
+PROF-02,Per-ROM profile,Requires explicit emulator game ID or manual identity,NOT RUN
+LIFE-01,Suspend resume,Display input audio profile and lights restore correctly,NOT RUN
+HW-01,Thermal and power,Native limits authoritative no invented backend paths,NOT RUN
+PERF-01,Frame time memory battery,Measure on both targets with animation visibility variations,NOT RUN
+ACCESS-01,Large text RTL long strings,Real native layout and semantics remain usable,NOT RUN
+REC-01,Update and rollback,Known compatible images and exact artifact hashes,NOT RUN
