@@ -1,5 +1,5 @@
 id,family_or_surface,design_status,evidence_scope,native_integrated,device_verified
-ES-001,Canonical family coverage register,Planned,No new implementation in these checkpoints,No,No
+ES-001,Canonical family coverage register,Partial source register,Iteration 04 accounts for 3423 retained records; 1272 proposed family groups require manual decisions,No,No
 ES-002,Reference and material specification,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
 ES-003,Eighteen-specimen pilot family,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
 ES-004,Steel material masters and texture scale,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
@@ -9,37 +9,37 @@ ES-007,Emission seam hot-core and spill masks,Partial pilot / handoff,18-family 
 ES-008,Shared state precedence and idle glow,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
 ES-009,Typography and live-content rules,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
 ES-010,Optical sizes density and scalable frame rules,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
-ES-011,Primary secondary destructive buttons,Planned,No new implementation in these checkpoints,No,No
-ES-012,Icon buttons sockets and app frames,Planned,No new implementation in these checkpoints,No,No
-ES-013,Toggles switches and state positions,Planned,No new implementation in these checkpoints,No,No
-ES-014,Checkboxes radio buttons selection markers,Planned,No new implementation in these checkpoints,No,No
-ES-015,Sliders rails thumbs and numeric values,Planned,No new implementation in these checkpoints,No,No
-ES-016,Linear circular and indeterminate progress,Planned,No new implementation in these checkpoints,No,No
-ES-017,Tabs segmented controls and section headers,Planned,No new implementation in these checkpoints,No,No
-ES-018,Text search fields and validation,Planned,No new implementation in these checkpoints,No,No
-ES-019,Lists settings rows and disclosure controls,Planned,No new implementation in these checkpoints,No,No
-ES-020,Menus context menus dropdowns and tooltips,Planned,No new implementation in these checkpoints,No,No
-ES-021,Cards panels and widget frames,Planned,No new implementation in these checkpoints,No,No
-ES-022,Notifications expanded grouped and persistent,Planned,No new implementation in these checkpoints,No,No
-ES-023,Dialogs confirmations sheets and toasts,Planned,No new implementation in these checkpoints,No,No
-ES-024,Scrollbars focus rings and navigation hints,Planned,No new implementation in these checkpoints,No,No
-ES-025,Settings category symbols,Planned,No new implementation in these checkpoints,No,No
+ES-011,Primary secondary destructive buttons,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-012,Icon buttons sockets and app frames,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-013,Toggles switches and state positions,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-014,Checkboxes radio buttons selection markers,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-015,Sliders rails thumbs and numeric values,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-016,Linear circular and indeterminate progress,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-017,Tabs segmented controls and section headers,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-018,Text search fields and validation,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-019,Lists settings rows and disclosure controls,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-020,Menus context menus dropdowns and tooltips,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-021,Cards panels and widget frames,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-022,Notifications expanded grouped and persistent,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-023,Dialogs confirmations sheets and toasts,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-024,Scrollbars focus rings and navigation hints,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-025,Settings category symbols,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
 ES-026,Launcher app drawer folder search and widgets,Planned,No new implementation in these checkpoints,No,No
 ES-027,App-specific icon register and housing treatment,Planned,No new implementation in these checkpoints,No,No
-ES-028,Back home recents gestures and navigation rails,Planned,No new implementation in these checkpoints,No,No
-ES-029,Power restart sleep lockdown and screenshot actions,Planned,No new implementation in these checkpoints,No,No
-ES-030,Battery levels critical saver charging unknown,Planned,No new implementation in these checkpoints,No,No
-ES-031,Wi-Fi cellular SIM eSIM network labels and no-internet,Planned,No new implementation in these checkpoints,No,No
-ES-032,Bluetooth NFC hotspot cast and airplane states,Planned,No new implementation in these checkpoints,No,No
-ES-033,Microphone camera privacy and location indicators,Planned,No new implementation in these checkpoints,No,No
-ES-034,Alarm DND vibration mute and audio states,Planned,No new implementation in these checkpoints,No,No
-ES-035,USB download upload sync and storage states,Planned,No new implementation in these checkpoints,No,No
-ES-036,Controller keyboard mouse and input indicators,Planned,No new implementation in these checkpoints,No,No
-ES-037,Dual display external display and screen routing,Planned,No new implementation in these checkpoints,No,No
-ES-038,Fan performance temperature and thermal warnings,Planned,No new implementation in these checkpoints,No,No
-ES-039,Upper lower and phone launcher,Planned,No new implementation in these checkpoints,No,No
+ES-028,Back home recents gestures and navigation rails,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-029,Power restart sleep lockdown and screenshot actions,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-030,Battery levels critical saver charging unknown,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-031,Wi-Fi cellular SIM eSIM network labels and no-internet,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-032,Bluetooth NFC hotspot cast and airplane states,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-033,Microphone camera privacy and location indicators,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-034,Alarm DND vibration mute and audio states,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-035,USB download upload sync and storage states,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-036,Controller keyboard mouse and input indicators,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-037,Dual display external display and screen routing,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-038,Fan performance temperature and thermal warnings,Defined symbol families / iteration 05,136 named entries in compact/detailed treatments; compact XML compiles; device and complete platform state coverage pending,No,No
+ES-039,Upper lower and phone launcher,Partial screen concept,Iteration 03 upper launcher; other launcher modes pending,No,No
 ES-040,App drawer folders widgets and search,Planned,No new implementation in these checkpoints,No,No
-ES-041,Notification shade and quick settings,Planned,No new implementation in these checkpoints,No,No
+ES-041,Notification shade and quick settings,Partial screen and material concept,Iterations 03 and 06 upper shade; rich tile/notification cold masters; native resizing pending,No,No
 ES-042,Settings categories details and search,Planned,No new implementation in these checkpoints,No,No
 ES-043,Power and confirmation flows,Planned,No new implementation in these checkpoints,No,No
 ES-044,Lockscreen and PIN pattern biometric visuals,Planned,No new implementation in these checkpoints,No,No

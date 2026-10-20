@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "21c4fb06349475b1030192c2f4ce5862db3c2baede5fcf50e8a13b447b987cc1"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-20T19:09:11+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "4823adbe903b2d421261212b0689f76d8beae6ae64a15b0ffff67a8b6c8b66be",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-20T19:09:11+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "cbf470e96111d05db5ae154d759ac46c97f16193314fb9f6407f87e428f9cba9",
+      "independence": null,
+      "method": "SVG parsing, alpha and neutral-mask pixel audit",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-20T19:09:11+00:00",
+  "project": "06-material-expansion",
+  "schema": 1,
+  "status": "V2_PASS"
+}
