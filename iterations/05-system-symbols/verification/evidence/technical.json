@@ -1,0 +1,19 @@
+{
+  "components": 272,
+  "auditedLayerPngs": 2176,
+  "decodedPngs": 3539,
+  "parsedSvgs": 1360,
+  "nonemptyNeutralMaskExports": 272,
+  "paletteContrast": {
+    "text": 14.67,
+    "secondary": 9.51,
+    "focus": 14.22
+  },
+  "nativeIntegrated": false,
+  "deviceVerified": false,
+  "scope": "Desktop file and pixel validation only",
+  "distinctRenderedStateLevels": {
+    "battery": 11,
+    "wifi": 5
+  }
+}

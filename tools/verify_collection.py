@@ -1,6 +1,6 @@
 """File/pixel checks for expanded design collections; no target-device inference."""
 from pathlib import Path
-import argparse,csv,json,xml.etree.ElementTree as ET
+import argparse,csv,hashlib,json,xml.etree.ElementTree as ET
 from PIL import Image
 from verify_pilot import contrast
 def verify(root):
@@ -24,6 +24,15 @@ def verify(root):
   with Image.open(p) as im:im.verify()
  tokens=json.loads((root/'tokens.json').read_text());ratios={k:round(contrast(tokens['colors'][k],tokens['colors']['well']),2) for k in ['text','secondary','focus']};assert min(ratios.values())>4.5
  report={'components':len(rows),'auditedLayerPngs':count,'decodedPngs':len(list(root.rglob('*.png'))),'parsedSvgs':len(list(root.rglob('*.svg'))),'nonemptyNeutralMaskExports':neutral,'paletteContrast':ratios,'nativeIntegrated':False,'deviceVerified':False,'scope':'Desktop file and pixel validation only'}
+ if (root/'android/res/drawable').exists():
+  groups={'battery':[f'battery_{i}' for i in range(0,101,10)],'wifi':[f'wifi_{i}' for i in range(5)]};distinct={}
+  for group,names in groups.items():
+   fingerprints=[]
+   for name in names:
+    with Image.open(root/'exports'/f'{name}__compact.idle.preview.png') as im:fingerprints.append(hashlib.sha256(im.convert('RGBA').tobytes()).hexdigest())
+   assert len(set(fingerprints))==len(names),'Visually identical state levels in '+group
+   distinct[group]=len(names)
+  report['distinctRenderedStateLevels']=distinct
  source=root/'source-register/scope-summary.json'
  if source.exists():
   scope=json.loads(source.read_text());assert scope['validDistinctFiles']==3422 and scope['invalidExcluded']==1 and scope['roadmapRows']==103

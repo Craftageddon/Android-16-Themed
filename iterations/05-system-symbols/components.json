@@ -1,0 +1,4898 @@
+[
+  {
+    "id": "battery_0__compact",
+    "symbol": "battery_0",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_0__detailed",
+    "symbol": "battery_0",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_10__compact",
+    "symbol": "battery_10",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_10__detailed",
+    "symbol": "battery_10",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_20__compact",
+    "symbol": "battery_20",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_20__detailed",
+    "symbol": "battery_20",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_30__compact",
+    "symbol": "battery_30",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_30__detailed",
+    "symbol": "battery_30",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_40__compact",
+    "symbol": "battery_40",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_40__detailed",
+    "symbol": "battery_40",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_50__compact",
+    "symbol": "battery_50",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_50__detailed",
+    "symbol": "battery_50",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_60__compact",
+    "symbol": "battery_60",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_60__detailed",
+    "symbol": "battery_60",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_70__compact",
+    "symbol": "battery_70",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_70__detailed",
+    "symbol": "battery_70",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_80__compact",
+    "symbol": "battery_80",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_80__detailed",
+    "symbol": "battery_80",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_90__compact",
+    "symbol": "battery_90",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_90__detailed",
+    "symbol": "battery_90",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_100__compact",
+    "symbol": "battery_100",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_100__detailed",
+    "symbol": "battery_100",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_charging__compact",
+    "symbol": "battery_charging",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_charging__detailed",
+    "symbol": "battery_charging",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_saver__compact",
+    "symbol": "battery_saver",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_saver__detailed",
+    "symbol": "battery_saver",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_critical__compact",
+    "symbol": "battery_critical",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_critical__detailed",
+    "symbol": "battery_critical",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_unknown__compact",
+    "symbol": "battery_unknown",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "battery_unknown__detailed",
+    "symbol": "battery_unknown",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_0__compact",
+    "symbol": "wifi_0",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_0__detailed",
+    "symbol": "wifi_0",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_1__compact",
+    "symbol": "wifi_1",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_1__detailed",
+    "symbol": "wifi_1",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_2__compact",
+    "symbol": "wifi_2",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_2__detailed",
+    "symbol": "wifi_2",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_3__compact",
+    "symbol": "wifi_3",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_3__detailed",
+    "symbol": "wifi_3",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_4__compact",
+    "symbol": "wifi_4",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_4__detailed",
+    "symbol": "wifi_4",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_off__compact",
+    "symbol": "wifi_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_off__detailed",
+    "symbol": "wifi_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_no_internet__compact",
+    "symbol": "wifi_no_internet",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wifi_no_internet__detailed",
+    "symbol": "wifi_no_internet",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_0__compact",
+    "symbol": "cellular_0",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_0__detailed",
+    "symbol": "cellular_0",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_1__compact",
+    "symbol": "cellular_1",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_1__detailed",
+    "symbol": "cellular_1",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_2__compact",
+    "symbol": "cellular_2",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_2__detailed",
+    "symbol": "cellular_2",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_3__compact",
+    "symbol": "cellular_3",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_3__detailed",
+    "symbol": "cellular_3",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_4__compact",
+    "symbol": "cellular_4",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_4__detailed",
+    "symbol": "cellular_4",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_off__compact",
+    "symbol": "cellular_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cellular_off__detailed",
+    "symbol": "cellular_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sim__compact",
+    "symbol": "sim",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sim__detailed",
+    "symbol": "sim",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sim_off__compact",
+    "symbol": "sim_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sim_off__detailed",
+    "symbol": "sim_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "bluetooth_on__compact",
+    "symbol": "bluetooth_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "bluetooth_on__detailed",
+    "symbol": "bluetooth_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "bluetooth_off__compact",
+    "symbol": "bluetooth_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "bluetooth_off__detailed",
+    "symbol": "bluetooth_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "bluetooth_connected__compact",
+    "symbol": "bluetooth_connected",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "bluetooth_connected__detailed",
+    "symbol": "bluetooth_connected",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "nfc_on__compact",
+    "symbol": "nfc_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "nfc_on__detailed",
+    "symbol": "nfc_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "nfc_off__compact",
+    "symbol": "nfc_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "nfc_off__detailed",
+    "symbol": "nfc_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "hotspot_on__compact",
+    "symbol": "hotspot_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "hotspot_on__detailed",
+    "symbol": "hotspot_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "hotspot_off__compact",
+    "symbol": "hotspot_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "hotspot_off__detailed",
+    "symbol": "hotspot_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cast_on__compact",
+    "symbol": "cast_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cast_on__detailed",
+    "symbol": "cast_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cast_off__compact",
+    "symbol": "cast_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cast_off__detailed",
+    "symbol": "cast_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "airplane_on__compact",
+    "symbol": "airplane_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "airplane_on__detailed",
+    "symbol": "airplane_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "airplane_off__compact",
+    "symbol": "airplane_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "airplane_off__detailed",
+    "symbol": "airplane_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "camera_on__compact",
+    "symbol": "camera_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "camera_on__detailed",
+    "symbol": "camera_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "camera_off__compact",
+    "symbol": "camera_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "camera_off__detailed",
+    "symbol": "camera_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "microphone_on__compact",
+    "symbol": "microphone_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "microphone_on__detailed",
+    "symbol": "microphone_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "microphone_off__compact",
+    "symbol": "microphone_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "microphone_off__detailed",
+    "symbol": "microphone_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "location_on__compact",
+    "symbol": "location_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "location_on__detailed",
+    "symbol": "location_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "location_off__compact",
+    "symbol": "location_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "location_off__detailed",
+    "symbol": "location_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "privacy__compact",
+    "symbol": "privacy",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "privacy__detailed",
+    "symbol": "privacy",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "security__compact",
+    "symbol": "security",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "security__detailed",
+    "symbol": "security",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "vpn__compact",
+    "symbol": "vpn",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "vpn__detailed",
+    "symbol": "vpn",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "alarm_on__compact",
+    "symbol": "alarm_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "alarm_on__detailed",
+    "symbol": "alarm_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "alarm_off__compact",
+    "symbol": "alarm_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "alarm_off__detailed",
+    "symbol": "alarm_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "dnd_on__compact",
+    "symbol": "dnd_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "dnd_on__detailed",
+    "symbol": "dnd_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "dnd_off__compact",
+    "symbol": "dnd_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "dnd_off__detailed",
+    "symbol": "dnd_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "audio__compact",
+    "symbol": "audio",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "audio__detailed",
+    "symbol": "audio",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mute__compact",
+    "symbol": "mute",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mute__detailed",
+    "symbol": "mute",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "headphones__compact",
+    "symbol": "headphones",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "headphones__detailed",
+    "symbol": "headphones",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "headset__compact",
+    "symbol": "headset",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "headset__detailed",
+    "symbol": "headset",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "vibration__compact",
+    "symbol": "vibration",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "vibration__detailed",
+    "symbol": "vibration",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "download__compact",
+    "symbol": "download",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "download__detailed",
+    "symbol": "download",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "upload__compact",
+    "symbol": "upload",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "upload__detailed",
+    "symbol": "upload",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sync__compact",
+    "symbol": "sync",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sync__detailed",
+    "symbol": "sync",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "usb__compact",
+    "symbol": "usb",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "usb__detailed",
+    "symbol": "usb",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "storage__compact",
+    "symbol": "storage",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "storage__detailed",
+    "symbol": "storage",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "controller__compact",
+    "symbol": "controller",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "controller__detailed",
+    "symbol": "controller",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "controller_off__compact",
+    "symbol": "controller_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "controller_off__detailed",
+    "symbol": "controller_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "gaming__compact",
+    "symbol": "gaming",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "gaming__detailed",
+    "symbol": "gaming",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "keyboard__compact",
+    "symbol": "keyboard",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "keyboard__detailed",
+    "symbol": "keyboard",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mouse__compact",
+    "symbol": "mouse",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mouse__detailed",
+    "symbol": "mouse",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "display_upper__compact",
+    "symbol": "display_upper",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "display_upper__detailed",
+    "symbol": "display_upper",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "display_lower__compact",
+    "symbol": "display_lower",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "display_lower__detailed",
+    "symbol": "display_lower",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "display_external__compact",
+    "symbol": "display_external",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "display_external__detailed",
+    "symbol": "display_external",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "screen_swap__compact",
+    "symbol": "screen_swap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "screen_swap__detailed",
+    "symbol": "screen_swap",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app_pairs__compact",
+    "symbol": "app_pairs",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app_pairs__detailed",
+    "symbol": "app_pairs",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "rotation__compact",
+    "symbol": "rotation",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "rotation__detailed",
+    "symbol": "rotation",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "fan__compact",
+    "symbol": "fan",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "fan__detailed",
+    "symbol": "fan",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "fan_auto__compact",
+    "symbol": "fan_auto",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "fan_auto__detailed",
+    "symbol": "fan_auto",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "fan_quiet__compact",
+    "symbol": "fan_quiet",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "fan_quiet__detailed",
+    "symbol": "fan_quiet",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "performance__compact",
+    "symbol": "performance",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "performance__detailed",
+    "symbol": "performance",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "performance_balanced__compact",
+    "symbol": "performance_balanced",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "performance_balanced__detailed",
+    "symbol": "performance_balanced",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "performance_fast__compact",
+    "symbol": "performance_fast",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "performance_fast__detailed",
+    "symbol": "performance_fast",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "temperature__compact",
+    "symbol": "temperature",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "temperature__detailed",
+    "symbol": "temperature",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "thermal_warning__compact",
+    "symbol": "thermal_warning",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "thermal_warning__detailed",
+    "symbol": "thermal_warning",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "power__compact",
+    "symbol": "power",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "power__detailed",
+    "symbol": "power",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "restart__compact",
+    "symbol": "restart",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "restart__detailed",
+    "symbol": "restart",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sleep__compact",
+    "symbol": "sleep",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sleep__detailed",
+    "symbol": "sleep",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "lock__compact",
+    "symbol": "lock",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "lock__detailed",
+    "symbol": "lock",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "lockdown__compact",
+    "symbol": "lockdown",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "lockdown__detailed",
+    "symbol": "lockdown",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "screenshot__compact",
+    "symbol": "screenshot",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "screenshot__detailed",
+    "symbol": "screenshot",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "screen_recording__compact",
+    "symbol": "screen_recording",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "screen_recording__detailed",
+    "symbol": "screen_recording",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "home__compact",
+    "symbol": "home",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "home__detailed",
+    "symbol": "home",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "back__compact",
+    "symbol": "back",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "back__detailed",
+    "symbol": "back",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "forward__compact",
+    "symbol": "forward",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "forward__detailed",
+    "symbol": "forward",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "up__compact",
+    "symbol": "up",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "up__detailed",
+    "symbol": "up",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "down__compact",
+    "symbol": "down",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "down__detailed",
+    "symbol": "down",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "recents__compact",
+    "symbol": "recents",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "recents__detailed",
+    "symbol": "recents",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "close__compact",
+    "symbol": "close",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "close__detailed",
+    "symbol": "close",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "check__compact",
+    "symbol": "check",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "check__detailed",
+    "symbol": "check",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "warning__compact",
+    "symbol": "warning",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "warning__detailed",
+    "symbol": "warning",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "error__compact",
+    "symbol": "error",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "error__detailed",
+    "symbol": "error",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "success__compact",
+    "symbol": "success",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "success__detailed",
+    "symbol": "success",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "info__compact",
+    "symbol": "info",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "info__detailed",
+    "symbol": "info",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "about__compact",
+    "symbol": "about",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "about__detailed",
+    "symbol": "about",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "settings__compact",
+    "symbol": "settings",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "settings__detailed",
+    "symbol": "settings",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "system__compact",
+    "symbol": "system",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "system__detailed",
+    "symbol": "system",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "controls__compact",
+    "symbol": "controls",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "controls__detailed",
+    "symbol": "controls",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "apps__compact",
+    "symbol": "apps",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "apps__detailed",
+    "symbol": "apps",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app_drawer__compact",
+    "symbol": "app_drawer",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app_drawer__detailed",
+    "symbol": "app_drawer",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "accounts__compact",
+    "symbol": "accounts",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "accounts__detailed",
+    "symbol": "accounts",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "person__compact",
+    "symbol": "person",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "person__detailed",
+    "symbol": "person",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "accessibility__compact",
+    "symbol": "accessibility",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "accessibility__detailed",
+    "symbol": "accessibility",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "network__compact",
+    "symbol": "network",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "network__detailed",
+    "symbol": "network",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "display__compact",
+    "symbol": "display",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "display__detailed",
+    "symbol": "display",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "search__compact",
+    "symbol": "search",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "search__detailed",
+    "symbol": "search",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "folder__compact",
+    "symbol": "folder",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "folder__detailed",
+    "symbol": "folder",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "document__compact",
+    "symbol": "document",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "document__detailed",
+    "symbol": "document",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "share__compact",
+    "symbol": "share",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "share__detailed",
+    "symbol": "share",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "copy__compact",
+    "symbol": "copy",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "copy__detailed",
+    "symbol": "copy",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "paste__compact",
+    "symbol": "paste",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "paste__detailed",
+    "symbol": "paste",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cut__compact",
+    "symbol": "cut",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "cut__detailed",
+    "symbol": "cut",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "delete__compact",
+    "symbol": "delete",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "delete__detailed",
+    "symbol": "delete",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "edit__compact",
+    "symbol": "edit",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "edit__detailed",
+    "symbol": "edit",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "save__compact",
+    "symbol": "save",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "save__detailed",
+    "symbol": "save",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "attach__compact",
+    "symbol": "attach",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "attach__detailed",
+    "symbol": "attach",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "more__compact",
+    "symbol": "more",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "more__detailed",
+    "symbol": "more",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "play__compact",
+    "symbol": "play",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "play__detailed",
+    "symbol": "play",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "pause__compact",
+    "symbol": "pause",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "pause__detailed",
+    "symbol": "pause",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "stop__compact",
+    "symbol": "stop",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "stop__detailed",
+    "symbol": "stop",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "esim__compact",
+    "symbol": "esim",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "esim__detailed",
+    "symbol": "esim",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sim_warning__compact",
+    "symbol": "sim_warning",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sim_warning__detailed",
+    "symbol": "sim_warning",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mobile_data_on__compact",
+    "symbol": "mobile_data_on",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mobile_data_on__detailed",
+    "symbol": "mobile_data_on",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mobile_data_off__compact",
+    "symbol": "mobile_data_off",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mobile_data_off__detailed",
+    "symbol": "mobile_data_off",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mobile_data_saver__compact",
+    "symbol": "mobile_data_saver",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mobile_data_saver__detailed",
+    "symbol": "mobile_data_saver",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "network_4g__compact",
+    "symbol": "network_4g",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "network_4g__detailed",
+    "symbol": "network_4g",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "network_5g__compact",
+    "symbol": "network_5g",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "network_5g__detailed",
+    "symbol": "network_5g",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "network_lte__compact",
+    "symbol": "network_lte",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "network_lte__detailed",
+    "symbol": "network_lte",
+    "optical": "detailed",
+    "size": [
+      64,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "focusOwnedByContainer": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  }
+]

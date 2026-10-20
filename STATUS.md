@@ -1,11 +1,12 @@
 # Redesign checkpoint status — 2026-10-20
 
-Four source iterations are preserved independently. These are work-in-progress design uploads, not finalized Android/ROM releases.
+Five source iterations are preserved independently. These are work-in-progress design uploads, not finalized Android/ROM releases.
 
 | Work | Current result | Remaining validation |
 |---|---|---|
 | 18-specimen pilot | Designed, layered, desktop rendered | User visual acceptance and physical target comparison |
 | Core component expansion | 46 variants covering ES-011..024 plus initial keyboard/controller caps | Native resizing, text scaling, RTL and target behavior |
+| System symbol expansion | 136 named entries, 272 optical masters, 136 compact Android vectors compiled | Installed-app scope, resource ownership, native/device review |
 | Whole retained-library register | 3,423 records accounted for; 3,422 file hashes verified; 1,272 proposed family groups | Manual family/source decisions and visual comparison |
 | Cold / seam / core / symbol exports | 1x and 2x transparent layers, neutral masks | Native renderer parity and density budget |
 | Detailed primary button and charging socket | Original unlit raster masters plus editable neutral masks | More material harmonization with everyday controls |
