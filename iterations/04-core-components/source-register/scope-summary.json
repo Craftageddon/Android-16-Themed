@@ -1,0 +1,16 @@
+{
+  "retainedRecords": 3423,
+  "validDistinctFiles": 3422,
+  "invalidExcluded": 1,
+  "candidateFamilies": 1272,
+  "roles": {
+    "Candidate current / retained master": 1996,
+    "Audio / font supporting source": 155,
+    "Review / composition reference": 41,
+    "Historical art reference": 1105,
+    "Related brand / website reference": 125,
+    "Invalid / excluded": 1
+  },
+  "roadmapRows": 103,
+  "method": "Byte integrity plus conservative filename/source-role rules. Family matches and chosen sources are proposals, not visual approval. Historical and format variants are not counted as new design work."
+}

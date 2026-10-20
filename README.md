@@ -9,6 +9,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | [01 — Material pilot](iterations/01-material-pilot/) | 18 layered component specimens, cold bases, neutral emission masks, seven state previews | Desktop design checkpoint |
 | [02 — Light and legibility](iterations/02-light-and-legibility/) | Clearer emission, sharper sheets, state driver and rich cold hero button | Desktop + bounded Inkscape inspection |
 | [03 — Thor compositions](iterations/03-thor-compositions/) | Six editable screen compositions, rich charging socket, controller mapping template and native resource handoff | Desktop + resource compile checkpoint |
+| [04 — Core component system](iterations/04-core-components/) | 46 control variants; complete retained-file accounting and proposed source/family register | Desktop design and file validation |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
@@ -21,6 +22,10 @@ The material study above is AI-generated reference art. It defines the intended 
 ![Thor compositions](iterations/03-thor-compositions/previews/thor-screen-sheet.png)
 
 The [native handoff](native-handoff/README.md) records rendering ownership, controller capture/release, profile/display behavior and unrun target tests. [STATUS.md](STATUS.md) distinguishes current design work from the full 103-package roadmap.
+
+![Expanded core system](iterations/04-core-components/previews/components-page-03.png)
+
+The [full source register](iterations/04-core-components/source-register/) accounts for 3,423 retained records: 3,422 valid files and one excluded empty file. Its 1,272 proposed family groups require manual review and are not a count of completed redesigns.
 
 ## Use the assets
 

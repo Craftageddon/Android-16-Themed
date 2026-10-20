@@ -1,0 +1,31 @@
+{
+  "components": 46,
+  "auditedLayerPngs": 368,
+  "decodedPngs": 741,
+  "parsedSvgs": 230,
+  "nonemptyNeutralMaskExports": 180,
+  "paletteContrast": {
+    "text": 14.67,
+    "secondary": 9.51,
+    "focus": 14.22
+  },
+  "nativeIntegrated": false,
+  "deviceVerified": false,
+  "scope": "Desktop file and pixel validation only",
+  "sourceRegister": {
+    "retainedRecords": 3423,
+    "validDistinctFiles": 3422,
+    "invalidExcluded": 1,
+    "candidateFamilies": 1272,
+    "roles": {
+      "Candidate current / retained master": 1996,
+      "Audio / font supporting source": 155,
+      "Review / composition reference": 41,
+      "Historical art reference": 1105,
+      "Related brand / website reference": 125,
+      "Invalid / excluded": 1
+    },
+    "roadmapRows": 103,
+    "method": "Byte integrity plus conservative filename/source-role rules. Family matches and chosen sources are proposals, not visual approval. Historical and format variants are not counted as new design work."
+  }
+}

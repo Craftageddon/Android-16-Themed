@@ -1,0 +1,1336 @@
+[
+  {
+    "id": "button_primary",
+    "label": "Primary button",
+    "roadmap": "ES-011",
+    "size": [
+      256,
+      72
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "button_secondary",
+    "label": "Secondary button",
+    "roadmap": "ES-011",
+    "size": [
+      256,
+      72
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "button_destructive",
+    "label": "Destructive button",
+    "roadmap": "ES-011",
+    "size": [
+      256,
+      72
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "icon_button",
+    "label": "Icon button",
+    "roadmap": "ES-012",
+    "size": [
+      72,
+      72
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "switch_off",
+    "label": "Switch off",
+    "roadmap": "ES-013",
+    "size": [
+      112,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "switch_on",
+    "label": "Switch on",
+    "roadmap": "ES-013",
+    "size": [
+      112,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "check_empty",
+    "label": "Checkbox empty",
+    "roadmap": "ES-014",
+    "size": [
+      48,
+      48
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "check_checked",
+    "label": "Checkbox checked",
+    "roadmap": "ES-014",
+    "size": [
+      48,
+      48
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "check_mixed",
+    "label": "Checkbox mixed",
+    "roadmap": "ES-014",
+    "size": [
+      48,
+      48
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "radio_off",
+    "label": "Radio off",
+    "roadmap": "ES-014",
+    "size": [
+      48,
+      48
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "radio_on",
+    "label": "Radio on",
+    "roadmap": "ES-014",
+    "size": [
+      48,
+      48
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "slider_min",
+    "label": "Slider minimum",
+    "roadmap": "ES-015",
+    "size": [
+      320,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "slider_half",
+    "label": "Slider midpoint",
+    "roadmap": "ES-015",
+    "size": [
+      320,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "slider_max",
+    "label": "Slider maximum",
+    "roadmap": "ES-015",
+    "size": [
+      320,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "progress_empty",
+    "label": "Progress empty",
+    "roadmap": "ES-016",
+    "size": [
+      320,
+      40
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "progress_half",
+    "label": "Progress half",
+    "roadmap": "ES-016",
+    "size": [
+      320,
+      40
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "progress_full",
+    "label": "Progress full",
+    "roadmap": "ES-016",
+    "size": [
+      320,
+      40
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "progress_indeterminate",
+    "label": "Indeterminate window",
+    "roadmap": "ES-016",
+    "size": [
+      320,
+      40
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "progress_ring",
+    "label": "Circular progress",
+    "roadmap": "ES-016",
+    "size": [
+      160,
+      160
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "tabs",
+    "label": "Three tabs",
+    "roadmap": "ES-017",
+    "size": [
+      344,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "section_header",
+    "label": "Section heading",
+    "roadmap": "ES-017",
+    "size": [
+      344,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "text_field",
+    "label": "Text field",
+    "roadmap": "ES-018",
+    "size": [
+      344,
+      80
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "search_field",
+    "label": "Search field",
+    "roadmap": "ES-018",
+    "size": [
+      344,
+      80
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "error_field",
+    "label": "Validation error",
+    "roadmap": "ES-018",
+    "size": [
+      344,
+      104
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "settings_row",
+    "label": "Settings row",
+    "roadmap": "ES-019",
+    "size": [
+      344,
+      80
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "menu_panel",
+    "label": "Context menu",
+    "roadmap": "ES-020",
+    "size": [
+      256,
+      240
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "menu_item",
+    "label": "Context item",
+    "roadmap": "ES-020",
+    "size": [
+      256,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "tooltip",
+    "label": "Tooltip",
+    "roadmap": "ES-020",
+    "size": [
+      240,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "card",
+    "label": "Card / widget",
+    "roadmap": "ES-021",
+    "size": [
+      344,
+      192
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "notification_compact",
+    "label": "Compact notification",
+    "roadmap": "ES-022",
+    "size": [
+      344,
+      112
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "notification_expanded",
+    "label": "Expanded notification",
+    "roadmap": "ES-022",
+    "size": [
+      344,
+      224
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "notification_group",
+    "label": "Grouped notifications",
+    "roadmap": "ES-022",
+    "size": [
+      344,
+      288
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "notification_persistent",
+    "label": "Persistent notification",
+    "roadmap": "ES-022",
+    "size": [
+      344,
+      112
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "dialog",
+    "label": "Dialog",
+    "roadmap": "ES-023",
+    "size": [
+      344,
+      224
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "confirmation",
+    "label": "Confirmation",
+    "roadmap": "ES-023",
+    "size": [
+      344,
+      200
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "bottom_sheet",
+    "label": "Bottom sheet",
+    "roadmap": "ES-023",
+    "size": [
+      360,
+      320
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "toast",
+    "label": "Toast",
+    "roadmap": "ES-023",
+    "size": [
+      280,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "scrollbar",
+    "label": "Scrollbar",
+    "roadmap": "ES-024",
+    "size": [
+      32,
+      192
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "focus_boundary",
+    "label": "Focus boundary",
+    "roadmap": "ES-024",
+    "size": [
+      280,
+      72
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "controller_cap",
+    "label": "Controller button cap",
+    "roadmap": "TH-001",
+    "size": [
+      56,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "shoulder_cap",
+    "label": "Shoulder button cap",
+    "roadmap": "TH-001",
+    "size": [
+      88,
+      48
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "trigger_cap",
+    "label": "Trigger button cap",
+    "roadmap": "TH-004",
+    "size": [
+      88,
+      64
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "keyboard_letter",
+    "label": "Letter key",
+    "roadmap": "ES-048",
+    "size": [
+      56,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "keyboard_space",
+    "label": "Space key",
+    "roadmap": "ES-048",
+    "size": [
+      256,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "keyboard_enter",
+    "label": "Enter key",
+    "roadmap": "ES-048",
+    "size": [
+      104,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "keyboard_modifier",
+    "label": "Modifier key",
+    "roadmap": "ES-048",
+    "size": [
+      88,
+      56
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "symbol"
+    ],
+    "states": [
+      "cold",
+      "idle",
+      "hovered",
+      "selected",
+      "focused",
+      "pressed",
+      "disabled",
+      "reduced"
+    ],
+    "masterHasText": false,
+    "touchTargetDp": 48,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  }
+]
