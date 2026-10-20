@@ -1,0 +1,13 @@
+✔ disabled suppresses light, focus, selection and motion (0.4708ms)
+✔ selection and focus survive the complete press event (0.1323ms)
+✔ reduced motion remains constant over a held press (0.4074ms)
+✔ hidden views never schedule frames and warning settles (0.0937ms)
+✔ idle stays warm while cold is unlit (0.0726ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 59.9901

@@ -235,7 +235,7 @@ class Asset:
     if layer is None and state!='master':
       if state in ['selected','focused','pressed','reduced'] and self.w>40:
         path(root,f'M{self.w*.4:g} {self.h-2:g} h{self.w*.2:g}',stroke='#c8d4df',width=2)
-      if state in ['focused','pressed']:
+      if state in ['focused','pressed'] and self.w>40:
         add(root,'rect',x=1,y=1,width=self.w-2,height=self.h-2,rx=4,fill='none',stroke='#d5e7f2',stroke_width=2)
       if labels:self.preview_text(root)
     return ET.tostring(root,encoding='unicode')

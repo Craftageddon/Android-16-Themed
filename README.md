@@ -7,12 +7,15 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | Checkpoint | Scope | State |
 |---|---|---|
 | [01 — Material pilot](iterations/01-material-pilot/) | 18 layered component specimens, cold bases, neutral emission masks, seven state previews | Desktop design checkpoint |
+| [02 — Light and legibility](iterations/02-light-and-legibility/) | Clearer emission, sharper sheets, state driver and rich cold hero button | Desktop + bounded Inkscape inspection |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
 The material study above is AI-generated reference art. It defines the intended richness of larger artwork; it is not a production atlas and must not be sliced into controls. The editable pilot deliberately simplifies detail for everyday controls. Each later iteration records what improved and what remains unresolved.
 
-![Component pilot](iterations/01-material-pilot/previews/pilot-sheet.png)
+![Component pilot](iterations/02-light-and-legibility/previews/pilot-sheet.png)
+
+![Cold steel with separate runtime light](iterations/02-light-and-legibility/hero/primary-selected.preview.png)
 
 ## Use the assets
 
