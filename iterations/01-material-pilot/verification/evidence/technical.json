@@ -1,0 +1,33 @@
+{
+  "scope": "desktop design checkpoint only",
+  "components": [
+    "primary_button",
+    "icon_socket",
+    "toggle",
+    "slider",
+    "notification",
+    "dialog",
+    "quick_tile",
+    "settings",
+    "wifi",
+    "battery",
+    "navigation",
+    "charging_ring",
+    "controller_prompts",
+    "calibration",
+    "gaming_menu",
+    "display_route",
+    "game_profile",
+    "performance"
+  ],
+  "validatedPng": 272,
+  "nonemptyNeutralMasksAtBothDensities": 66,
+  "contrastOnWell": {
+    "text": 14.67,
+    "secondary": 9.51,
+    "focus": 14.22
+  },
+  "hardware": "NOT RUN",
+  "InkscapeGUI": "NOT RUN",
+  "nativeIntegration": "NOT RUN"
+}
