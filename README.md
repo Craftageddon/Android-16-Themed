@@ -14,6 +14,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | [06 — Rich material expansion](iterations/06-material-expansion/) | Original notification/tile cold masters, separate masks and two live-content screen concepts | Desktop material checkpoint |
 | [07 — Scalable steel frames](iterations/07-scalable-frames/) | Four frame families, 80 real nine-patch density layers and compile/link evidence | Desktop + Android resource checkpoint |
 | [08 — Native Material Lab 0.1.0](iterations/08-native-material-lab/) | Standalone signed APK, Java source, live-text/RTL/width/focus controls and clean rebuild evidence | Built and audited; not installed or device-verified |
+| [09 — Rich scalable controls](iterations/09-rich-scalable-controls/) | Notification/tile-style cold steel, fixed corners, seven separate light/state layers and selected/glowing previews | Layered export + resource compile/link checkpoint; APK unchanged |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
@@ -32,6 +33,10 @@ The [native handoff](native-handoff/README.md) records rendering ownership, cont
 The [full source register](iterations/04-core-components/source-register/) accounts for 3,423 retained records: 3,422 valid files and one excluded empty file. Its 1,272 proposed family groups require manual review and are not a count of completed redesigns.
 
 ## Use the assets
+
+![Rich steel selected and glowing](iterations/09-rich-scalable-controls/previews/button-state-closeup.png)
+
+Iteration 09 matches the heavier tile/notification material and adds neutral reflection/spill masks. Its [four-family comparison sheet](iterations/09-rich-scalable-controls/previews/selected-and-ember-sheet.png) is rendered from the new assets. Material Lab 0.1.0 still uses iteration 07; the richer assets have not been wired into that APK.
 
 The [standalone Material Lab APK](iterations/08-native-material-lab/release/EmberSteel-MaterialLab-0.1.0.apk) is a local preview application with no requested permissions or hardware-control backend. Its [source, offline build instructions and unrun test matrix](iterations/08-native-material-lab/) are preserved. It does not theme SystemUI or modify LineageOS.
 

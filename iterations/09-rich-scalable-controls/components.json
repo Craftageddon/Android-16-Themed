@@ -1,0 +1,126 @@
+[
+  {
+    "id": "button",
+    "size": [
+      192,
+      112
+    ],
+    "minimumSize": [
+      189,
+      109
+    ],
+    "padding": [
+      42,
+      34,
+      42,
+      34
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "sourceColdUnmodified": true,
+    "sourceColdSha256": "ef554e7d6aa1cddba152860e1369cb0ca10b064cf84061dbad065c1bf3bbf2c6",
+    "scaling": "Fixed photographic corners, constant sampled rail cross-sections, neutral runtime masks",
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "field",
+    "size": [
+      224,
+      112
+    ],
+    "minimumSize": [
+      221,
+      109
+    ],
+    "padding": [
+      42,
+      34,
+      42,
+      34
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "sourceColdUnmodified": true,
+    "sourceColdSha256": "ef554e7d6aa1cddba152860e1369cb0ca10b064cf84061dbad065c1bf3bbf2c6",
+    "scaling": "Fixed photographic corners, constant sampled rail cross-sections, neutral runtime masks",
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "panel",
+    "size": [
+      224,
+      176
+    ],
+    "minimumSize": [
+      221,
+      173
+    ],
+    "padding": [
+      42,
+      38,
+      42,
+      38
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "sourceColdUnmodified": true,
+    "sourceColdSha256": "ef554e7d6aa1cddba152860e1369cb0ca10b064cf84061dbad065c1bf3bbf2c6",
+    "scaling": "Fixed photographic corners, constant sampled rail cross-sections, neutral runtime masks",
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "notification",
+    "size": [
+      288,
+      128
+    ],
+    "minimumSize": [
+      285,
+      125
+    ],
+    "padding": [
+      44,
+      36,
+      44,
+      36
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "sourceColdUnmodified": true,
+    "sourceColdSha256": "ef554e7d6aa1cddba152860e1369cb0ca10b064cf84061dbad065c1bf3bbf2c6",
+    "scaling": "Fixed photographic corners, constant sampled rail cross-sections, neutral runtime masks",
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  }
+]

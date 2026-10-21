@@ -1,0 +1,5 @@
+{
+ "ES-004":{"design_status":"Rich scalable material prototype","evidence_scope":"Iteration 09: original cold forged-steel source, fixed textured corners and constant rail cross-sections; final device material acceptance pending"},
+ "ES-007":{"design_status":"Seven-layer material light prototype","evidence_scope":"Iteration 09: separate cold/reflection/spill/seam/core/focus/symbol exports; actual selected/pressed previews; native blend/device parity NOT RUN"},
+ "ES-066":{"design_status":"Richer control material harmonization","evidence_scope":"Iteration 09: four scalable control families reworked to match iteration 06 tile/notification steel; desktop reviewed; whole-screen and device consistency pending"}
+}

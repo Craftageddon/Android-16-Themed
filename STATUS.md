@@ -1,6 +1,6 @@
 # Redesign checkpoint status — 2026-10-21
 
-Eight source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
+Nine source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
 
 | Work | Current result | Remaining validation |
 |---|---|---|
@@ -12,6 +12,7 @@ Eight source iterations are preserved independently. These are work-in-progress 
 | Detailed primary button and charging socket | Original unlit raster masters plus editable neutral masks | More material harmonization with everyday controls |
 | Rich notification and quick-settings material | Two more unchanged cold masters, neutral masks and two logical screen concepts | Space efficiency, final mask alignment and target profiling |
 | Stretchable frame resources | Four original families, 80 density-specific nine-patch layers, 20 linked logical drawables; fixed-cap and uniform-band checks | Native runtime comparison, physical V3 and production memory/performance |
+| Rich scalable material redesign | Four heavier steel families matching notification/tile art; 112 nine-patch configurations with separate reflection/spill/seam/core/focus/selection; desktop selected/glow previews | Not wired into Material Lab 0.1.0; native blend parity and device V3 pending |
 | Standalone native Material Lab | Version 0.1.0 APK builds, signs and aligns; 80 compiled nine-patches; fresh build matches all 83 executable/resource members; no requested permissions | Not installed or run; target rendering, input, RTL/large text, lifecycle and performance NOT RUN |
 | Seven state previews | Cold, idle, selected, focused, pressed, disabled, reduced motion | Actual Android input/lifecycle and accessibility behavior |
 | State resolution reference | Five Node tests pass | Native implementation and target tests |

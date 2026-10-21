@@ -1,0 +1,17 @@
+{
+  "tool": "OpenAI built-in image generation",
+  "date": "2026-10-21",
+  "prompt": "Use case: stylized-concept. Create ONE original COLD blank horizontal forged-steel UI control frame for Craftageddon, matching the supplied square tile and notification frame material references. Approximately 3:1 horizontal aspect ratio, orthographic straight-on, genuine transparent alpha outside, all tips contained with generous padding. Match the reference's thick physically sculpted dark gunmetal, angular pointed corner fittings, chipped layered bevels and restrained worn-steel texture. Small dark copper structural joints at corners. Four strongly modeled corner pieces with straight parallel upper/lower rails and straight side bars, like a horizontal version of the square reference tile. Make a deep dark unlit channel centered inside each rail for later separate neutral emission masks. Quiet solid nearly-black central reading well, uniform #10171e appearance, broad enough for a live label; no texture or objects in reading well. Symmetric overall proportions but original restrained facet details. Corner construction must look like the references, not a thin vector outline. ABSOLUTELY COLD: no glow, ember, fire, orange emission, bloom, glowing cracks, illuminated seam, bright gold, lens effects. No text, icons, labels, checkmarks, backgrounds, shadow backdrop, multi-specimen sheet or typography. This is a blank production cold material source; later code supplies light and live labels.",
+  "referenceRoles": [
+    {
+      "path": "iterations/06-material-expansion/materials/tile/tile-cold.png",
+      "role": "Cold forged-steel material and corner construction reference"
+    },
+    {
+      "path": "iterations/06-material-expansion/materials/notification/notification-cold.png",
+      "role": "Cold bevel, copper joint and recessed channel reference"
+    }
+  ],
+  "productionUse": "Unchanged cold source linked by editable SVG assembly; all light comes from separately authored neutral masks",
+  "license": "Repository CC0"
+}

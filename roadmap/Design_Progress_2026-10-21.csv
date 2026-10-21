@@ -2,10 +2,10 @@ id,family_or_surface,design_status,evidence_scope,native_integrated,device_verif
 ES-001,Canonical family coverage register,Partial source register,Iteration 04 accounts for 3423 retained records; 1272 proposed family groups require manual decisions,No,No
 ES-002,Reference and material specification,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
 ES-003,Eighteen-specimen pilot family,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
-ES-004,Steel material masters and texture scale,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
+ES-004,Steel material masters and texture scale,Rich scalable material prototype,"Iteration 09: original cold forged-steel source, fixed textured corners and constant rail cross-sections; final device material acceptance pending",No,No
 ES-005,Bevels corners finials and copper joints,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
 ES-006,Palette and semantic colors,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
-ES-007,Emission seam hot-core and spill masks,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
+ES-007,Emission seam hot-core and spill masks,Seven-layer material light prototype,Iteration 09: separate cold/reflection/spill/seam/core/focus/symbol exports; actual selected/pressed previews; native blend/device parity NOT RUN,No,No
 ES-008,Shared state precedence and idle glow,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
 ES-009,Typography and live-content rules,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
 ES-010,Optical sizes density and scalable frame rules,Partial scalable resource prototype,"Iteration 07: four frame families, 80 nine-patch density layers, fixed-cap/band checks and compile/link; compact families and target comparison pending",No,No
@@ -64,7 +64,7 @@ ES-062,Framework and SystemUI integration,Planned,No new implementation in these
 ES-063,Launcher and Settings integration,Planned,No new implementation in these checkpoints,No,No
 ES-064,IME lockscreen permission picker and OEM ownership,Planned,No new implementation in these checkpoints,No,No
 ES-065,Reversible packaging install and rollback checkpoints,Planned,No new implementation in these checkpoints,No,No
-ES-066,Material fidelity and whole-screen consistency,Planned,No new implementation in these checkpoints,No,No
+ES-066,Material fidelity and whole-screen consistency,Richer control material harmonization,Iteration 09: four scalable control families reworked to match iteration 06 tile/notification steel; desktop reviewed; whole-screen and device consistency pending,No,No
 ES-067,Mask alpha nine-patch and export validation,Bounded export and nine-patch validation,"Iteration 07: 80 metadata/alpha/mask checks, 960 fixed-corner comparisons and 20 linked logical drawables; full historical-library validation pending",No,No
 ES-068,Actual-size readability contrast and brightness conditions,Native readability lab built; target tests pending,Iteration 08: standalone native live-text/width specimens compiled and packaged; actual readability and brightness conditions NOT RUN,No,No
 ES-069,Text scaling RTL long labels and localization,RTL and large-text lab built; target tests pending,Iteration 08: 100/130/160/200 percent specimen text and RTL/Arabic controls implemented in app source; device acceptance NOT RUN,No,No

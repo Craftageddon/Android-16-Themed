@@ -1,0 +1,10 @@
+{
+  "tool": "Built-in OpenAI image generation",
+  "coldSourcePreserved": true,
+  "canvas": [
+    2172,
+    724
+  ],
+  "sha256": "ef554e7d6aa1cddba152860e1369cb0ca10b064cf84061dbad065c1bf3bbf2c6",
+  "maskAuthoring": "Original SVG masks aligned to dark rails; preview-only tint and blend"
+}
