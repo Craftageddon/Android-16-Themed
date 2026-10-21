@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "36bd8cab5353e4bebee7792a7726cc785f32d71d7f419e2426bb3b46723e5734"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-21T12:56:49+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "6c28df306f9c21a6eb96192fb497a2a0de106aee65d5c196f296b8e3b1d6361f",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-21T12:56:49+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "b9dfcb0b80c8a7ddfaa93ebcbf73c1a7926a7fbef06eb73286b5ba9fb49e40cd",
+      "independence": null,
+      "method": "PNG decode, SVG parse, source hash, neutral-mask pixels, off/cold exact equality, recomposition pixel equality, channel alpha overlap, six Node state tests and all 112 retained nine-patch metadata/stretch/corner tests",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-21T12:56:49+00:00",
+  "project": "10-reference-forge",
+  "schema": 1,
+  "status": "V2_PASS"
+}

@@ -1,6 +1,8 @@
 # Redesign checkpoint status — 2026-10-21
 
-Nine source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
+Ten source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
+
+The current direction is iteration 10 Reference Forge: chipped dark steel, sharp fittings and separate ember layers. Off/unselected is cold. Selected, checked or on enables emission; focus and hover alone do not. This explicitly supersedes archived warm-idle behavior. Three detailed icons have the new material treatment; the full symbol library has not been restyled.
 
 | Work | Current result | Remaining validation |
 |---|---|---|
@@ -15,7 +17,8 @@ Nine source iterations are preserved independently. These are work-in-progress c
 | Rich scalable material redesign | Four heavier steel families matching notification/tile art; 112 nine-patch configurations with separate reflection/spill/seam/core/focus/selection; desktop selected/glow previews | Not wired into Material Lab 0.1.0; native blend parity and device V3 pending |
 | Standalone native Material Lab | Version 0.1.0 APK builds, signs and aligns; 80 compiled nine-patches; fresh build matches all 83 executable/resource members; no requested permissions | Not installed or run; target rendering, input, RTL/large text, lifecycle and performance NOT RUN |
 | Seven state previews | Cold, idle, selected, focused, pressed, disabled, reduced motion | Actual Android input/lifecycle and accessibility behavior |
-| State resolution reference | Five Node tests pass | Native implementation and target tests |
+| State resolution reference | Six cold-off v2 Node tests pass; earlier five-test warm-idle v1 retained as an archive | Native implementation and target tests |
+| Reference Forge material pilot | Three new cold masters, 24 SVGs, 63 transparent layer exports, 24 state renders and four retained scalable frame family comparisons; 450 technical conditions pass | Remaining symbols, compact optical treatment, live Inkscape round trip, native/device blend and performance |
 | Inkscape | Hero primary master opened; linked raster and alpha rendered | Full layer editing and export/reimport round-trip |
 | Thor compositions | Upper launcher/shade, lower dashboard/calibration/profile, charging screen | Exact display metrics, large text, RTL and device behavior |
 | Native handoff resources | Four XML resource files compiled with AAPT2 | Link into verified owner, install and render on target |

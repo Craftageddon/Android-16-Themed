@@ -1,0 +1,14 @@
+✔ idle, hover, focus, press and warning alone cannot ignite an off control (0.8691ms)
+✔ each explicit activation state enables the same independent light layers (0.1501ms)
+✔ neutral focus survives selection and active press without requiring ember (0.1085ms)
+✔ disabled and forced cold suppress emission even with contradictory active flags (0.1185ms)
+✔ press boost applies only to already active controls and retains geometric selection (0.0911ms)
+✔ off transition extinguishes every light and hidden/reduced states schedule no frames (0.6114ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 66.1001

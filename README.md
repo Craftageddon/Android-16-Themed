@@ -15,6 +15,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | [07 — Scalable steel frames](iterations/07-scalable-frames/) | Four frame families, 80 real nine-patch density layers and compile/link evidence | Desktop + Android resource checkpoint |
 | [08 — Native Material Lab 0.1.0](iterations/08-native-material-lab/) | Standalone signed APK, Java source, live-text/RTL/width/focus controls and clean rebuild evidence | Built and audited; not installed or device-verified |
 | [09 — Rich scalable controls](iterations/09-rich-scalable-controls/) | Notification/tile-style cold steel, fixed corners, seven separate light/state layers and selected/glowing previews | Layered export + resource compile/link checkpoint; APK unchanged |
+| [10 — Reference Forge](iterations/10-reference-forge/) | Three chipped-steel detailed icons, neutral light masks, cold-off state contract and four retained frame family comparisons | Three desktop passes + source/state checks; native/device validation pending |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
@@ -33,6 +34,10 @@ The [native handoff](native-handoff/README.md) records rendering ownership, cont
 The [full source register](iterations/04-core-components/source-register/) accounts for 3,423 retained records: 3,422 valid files and one excluded empty file. Its 1,272 proposed family groups require manual review and are not a count of completed redesigns.
 
 ## Use the assets
+
+![Reference Forge cold and on](iterations/10-reference-forge/previews/wifi-off-on.png)
+
+The newest [Reference Forge pass](iterations/10-reference-forge/) follows the sharper blackened-steel reference. **Off/unselected is cold; selected, checked or on lights the separate ember layers.** Focus and hover alone stay cold. This supersedes warm-idle states in older archived examples. Three detailed icons have the new artwork; the rest of the library remains pending. The [control comparison](iterations/10-reference-forge/previews/scalable-controls-off-on.png) uses the retained rich frames with this state rule.
 
 ![Rich steel selected and glowing](iterations/09-rich-scalable-controls/previews/button-state-closeup.png)
 

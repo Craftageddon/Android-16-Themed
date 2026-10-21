@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-21",
+  "components": 3,
+  "reusedFrameFamilies": 4,
+  "reusedNinePatchConfigurations": 112,
+  "assertions": 450,
+  "stateTests": 6,
+  "svgFiles": 24,
+  "pngFiles": 205,
+  "channelOverlapWithColdAlpha": {
+    "wifi": 1.0,
+    "bluetooth": 1.0,
+    "airplane": 1.0
+  },
+  "coldBasePreserved": true,
+  "offExactlyEqualsColdExport": true,
+  "allEmissionMasksNeutral": true,
+  "nativeIntegrated": false,
+  "apkUpdated": false,
+  "deviceVerified": false,
+  "v1Scope": "Three reference-style detailed icons, separate neutral light layers, cold-off contract, and four retained scalable-frame family previews. Three inspected desktop passes. Does not claim the entire library has been restyled.",
+  "v2Method": "PNG decode, SVG parse, source hash, neutral-mask pixels, off/cold exact equality, recomposition pixel equality, channel alpha overlap, six Node state tests and all 112 retained nine-patch metadata/stretch/corner tests"
+}

@@ -1,0 +1,14 @@
+{
+  "source": "../09-rich-scalable-controls",
+  "archiveResources": "exports/scalable-frames/android/res",
+  "families": [
+    "button",
+    "field",
+    "panel",
+    "notification"
+  ],
+  "runtimeStyle": "runtime-style.json",
+  "contract": "Cold when off; use these gains instead of iteration 09 warm-idle gains",
+  "frameGeometryChanged": false,
+  "apkUpdated": false
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "wifi",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "opticalUse": "Detailed artwork at 96dp and above; compact glyphs remain separate",
+    "densityExportsPx": [
+      256,
+      512,
+      1024
+    ],
+    "coldSourceSha256": "e6ecf2e28fd81176c4142ab4a9825beb4a522f1ee23834d86d4733c1d1cfe20b",
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "bluetooth",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "opticalUse": "Detailed artwork at 96dp and above; compact glyphs remain separate",
+    "densityExportsPx": [
+      256,
+      512,
+      1024
+    ],
+    "coldSourceSha256": "d0447ca0cc557efb5ac8e0f329f3cc89b8e1f204a7308f564c9cfc66c0b15349",
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "airplane",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "opticalUse": "Detailed artwork at 96dp and above; compact glyphs remain separate",
+    "densityExportsPx": [
+      256,
+      512,
+      1024
+    ],
+    "coldSourceSha256": "be514ccec62e61e9b07d59b2cc2a392862e1b73cd98a95400c6ab218cbdfa3e1",
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  }
+]

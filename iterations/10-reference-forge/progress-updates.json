@@ -1,0 +1,5 @@
+{
+  "ES-002": {"design_status": "Reference Forge detailed pilot", "evidence_scope": "Iteration 10: three new chipped-steel detailed icons; 3 inspected desktop passes; rest of library pending"},
+  "ES-007": {"design_status": "Separate reference-style light prototype", "evidence_scope": "Iteration 10: separate neutral reflection/spill/seam/core masks, 63 transparent layer exports and 24 state renders; desktop parity passed; native/device NOT RUN"},
+  "ES-008": {"design_status": "Cold-off state contract v2", "evidence_scope": "Iteration 10 supersedes warm idle: emission only for selected/checked/on; focus and hover remain cold; six Node tests passed; Android owner unchanged"}
+}
