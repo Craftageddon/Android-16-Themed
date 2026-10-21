@@ -1,28 +1,28 @@
 id,family_or_surface,design_status,evidence_scope,native_integrated,device_verified
 ES-001,Canonical family coverage register,Partial source register,Iteration 04 accounts for 3423 retained records; 1272 proposed family groups require manual decisions,No,No
 ES-002,Reference and material specification,Reference Forge expanded catalog,Iteration 11: nine sculpted motifs and full authored symbol catalog; historical and unauthored roadmap coverage remains open,No,No
-ES-003,Eighteen-specimen pilot family,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
-ES-004,Steel material masters and texture scale,Rich scalable material prototype,"Iteration 09: original cold forged-steel source, fixed textured corners and constant rail cross-sections; final device material acceptance pending",No,No
-ES-005,Bevels corners finials and copper joints,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
+ES-003,Eighteen-specimen pilot family,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
+ES-004,Steel material masters and texture scale,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
+ES-005,Bevels corners finials and copper joints,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
 ES-006,Palette and semantic colors,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
-ES-007,Emission seam hot-core and spill masks,Separate reference-style light prototype,"Iteration 10: separate neutral reflection/spill/seam/core masks, 63 transparent layer exports and 24 state renders; desktop parity passed; native/device NOT RUN",No,No
+ES-007,Emission seam hot-core and spill masks,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
 ES-008,Shared state precedence and idle glow,Cold-off state owner with off-value lock,Iteration 11: seven Node tests; explicit off-value emission lock; focus/selection neutral cues survive; Android owner unchanged,No,No
-ES-009,Typography and live-content rules,Partial pilot / handoff,18-family material/state pilot; partial family coverage only,No,No
-ES-010,Optical sizes density and scalable frame rules,Partial scalable resource prototype,"Iteration 07: four frame families, 80 nine-patch density layers, fixed-cap/band checks and compile/link; compact families and target comparison pending",No,No
-ES-011,Primary secondary destructive buttons,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-012,Icon buttons sockets and app frames,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-013,Toggles switches and state positions,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-014,Checkboxes radio buttons selection markers,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-015,Sliders rails thumbs and numeric values,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-016,Linear circular and indeterminate progress,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-017,Tabs segmented controls and section headers,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-018,Text search fields and validation,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-019,Lists settings rows and disclosure controls,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-020,Menus context menus dropdowns and tooltips,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-021,Cards panels and widget frames,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-022,Notifications expanded grouped and persistent,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-023,Dialogs confirmations sheets and toasts,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
-ES-024,Scrollbars focus rings and navigation hints,Designed prototype / iteration 04,46 layered variants; file/mask/alpha checks; native behavior and final acceptance pending,No,No
+ES-009,Typography and live-content rules,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
+ES-010,Optical sizes density and scalable frame rules,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
+ES-011,Primary secondary destructive buttons,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-012,Icon buttons sockets and app frames,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-013,Toggles switches and state positions,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-014,Checkboxes radio buttons selection markers,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-015,Sliders rails thumbs and numeric values,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-016,Linear circular and indeterminate progress,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-017,Tabs segmented controls and section headers,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-018,Text search fields and validation,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-019,Lists settings rows and disclosure controls,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-020,Menus context menus dropdowns and tooltips,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-021,Cards panels and widget frames,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-022,Notifications expanded grouped and persistent,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-023,Dialogs confirmations sheets and toasts,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
+ES-024,Scrollbars focus rings and navigation hints,Reference Forge control restyle / iteration 12,All 46 retained core control variants restyled with cold material and separate neutral masks; 18 pilot specimens retained/restyled; native input/accessibility and target acceptance pending,No,No
 ES-025,Settings category symbols,Reference Forge symbol catalog / iteration 11,All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending,No,No
 ES-026,Launcher app drawer folder search and widgets,Planned,No new implementation in these checkpoints,No,No
 ES-027,App-specific icon register and housing treatment,Planned,No new implementation in these checkpoints,No,No
@@ -37,24 +37,24 @@ ES-035,USB download upload sync and storage states,Reference Forge symbol catalo
 ES-036,Controller keyboard mouse and input indicators,Reference Forge symbol catalog / iteration 11,All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending,No,No
 ES-037,Dual display external display and screen routing,Reference Forge symbol catalog / iteration 11,All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending,No,No
 ES-038,Fan performance temperature and thermal warnings,Reference Forge symbol catalog / iteration 11,All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending,No,No
-ES-039,Upper lower and phone launcher,Partial screen concept,Iteration 03 upper launcher; other launcher modes pending,No,No
+ES-039,Upper lower and phone launcher,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
 ES-040,App drawer folders widgets and search,Planned,No new implementation in these checkpoints,No,No
-ES-041,Notification shade and quick settings,Partial screen and material concept,Iterations 03 and 06 upper shade; rich tile/notification cold masters; native resizing pending,No,No
+ES-041,Notification shade and quick settings,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
 ES-042,Settings categories details and search,Planned,No new implementation in these checkpoints,No,No
 ES-043,Power and confirmation flows,Planned,No new implementation in these checkpoints,No,No
-ES-044,Lockscreen and PIN pattern biometric visuals,Planned,No new implementation in these checkpoints,No,No
+ES-044,Lockscreen and PIN pattern biometric visuals,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
 ES-045,Recents and task switching,Planned,No new implementation in these checkpoints,No,No
 ES-046,Share sheet and destination selection,Planned,No new implementation in these checkpoints,No,No
 ES-047,Permission prompts and privacy flows,Planned,No new implementation in these checkpoints,No,No
 ES-048,Files photos and document picking,Planned,No new implementation in these checkpoints,No,No
 ES-049,Clipboard history and paste actions,Planned,No new implementation in these checkpoints,No,No
 ES-050,Screenshot capture crop markup and sharing,Planned,No new implementation in these checkpoints,No,No
-ES-051,Keyboard modifiers symbols suggestions and input states,Planned,No new implementation in these checkpoints,No,No
+ES-051,Keyboard modifiers symbols suggestions and input states,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
 ES-052,Volume mute audio output and connectivity,Planned,No new implementation in these checkpoints,No,No
-ES-053,Thor fan controller display and performance controls,Planned,No new implementation in these checkpoints,No,No
+ES-053,Thor fan controller display and performance controls,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
 ES-054,Multiwindow transitions and multi-display layout changes,Planned,No new implementation in these checkpoints,No,No
 ES-055,Boot wordmark sigil and loading timeline,Planned,No new implementation in these checkpoints,No,No
-ES-056,Charging connection fill full and thermal scenes,Planned,No new implementation in these checkpoints,No,No
+ES-056,Charging connection fill full and thermal scenes,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
 ES-057,Transitions page motion and control feedback,Planned,No new implementation in these checkpoints,No,No
 ES-058,Reconcile earlier 114-motion library with shared states,Planned,No new implementation in these checkpoints,No,No
 ES-059,Wallpapers quiet variants and lockscreen backgrounds,Planned,No new implementation in these checkpoints,No,No
@@ -64,29 +64,29 @@ ES-062,Framework and SystemUI integration,Planned,No new implementation in these
 ES-063,Launcher and Settings integration,Planned,No new implementation in these checkpoints,No,No
 ES-064,IME lockscreen permission picker and OEM ownership,Planned,No new implementation in these checkpoints,No,No
 ES-065,Reversible packaging install and rollback checkpoints,Planned,No new implementation in these checkpoints,No,No
-ES-066,Material fidelity and whole-screen consistency,Richer control material harmonization,Iteration 09: four scalable control families reworked to match iteration 06 tile/notification steel; desktop reviewed; whole-screen and device consistency pending,No,No
-ES-067,Mask alpha nine-patch and export validation,Bounded export and nine-patch validation,"Iteration 07: 80 metadata/alpha/mask checks, 960 fixed-corner comparisons and 20 linked logical drawables; full historical-library validation pending",No,No
+ES-066,Material fidelity and whole-screen consistency,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
+ES-067,Mask alpha nine-patch and export validation,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
 ES-068,Actual-size readability contrast and brightness conditions,Native readability lab built; target tests pending,Iteration 08: standalone native live-text/width specimens compiled and packaged; actual readability and brightness conditions NOT RUN,No,No
 ES-069,Text scaling RTL long labels and localization,RTL and large-text lab built; target tests pending,Iteration 08: 100/130/160/200 percent specimen text and RTL/Arabic controls implemented in app source; device acceptance NOT RUN,No,No
 ES-070,Touch controller focus and accessibility semantics,App-local focus preview built,Iteration 08: native focus/selection layers and foreground-window generic gamepad activation; physical mapping and accessibility tests NOT RUN,No,No
 ES-071,Reduced motion hidden-screen suspension and lifecycle,Static native preview built,"Iteration 08: static lighting with no animation timers; lifecycle behavior, restoration and target review NOT RUN",No,No
 ES-072,Frame timing memory GPU cost and battery measurement,Planned,No new implementation in these checkpoints,No,No
-ES-073,Release sources attribution manifests hashes and evidence,Planned,No new implementation in these checkpoints,No,No
-TH-001,Physical control register and prompt conventions,Partial pilot / handoff,Prompt specimen and unmeasured mapping template,No,No
+ES-073,Release sources attribution manifests hashes and evidence,Bounded Reference Forge visual checkpoint,"Iteration 12: retained control/pilot artwork, four scalable families and eight logical layouts harmonized; live text and controller/keyboard examples; resource/source checks passed; broader flow, native and device scope remains open",No,No
+TH-001,Physical control register and prompt conventions,Reference Forge visual concept,"Iteration 12: cap/prompt or existing Thor screen artwork restyled; logical labels and dimensions only; exact physical mapping, hardware services and device behavior NOT VERIFIED",No,No
 TH-002,Controller-first navigation and focus,Partial pilot / handoff,Focus/selection design and reference state tests,No,No
-TH-003,Input tester and stick calibration,Partial pilot / handoff,Calibration screen composition only,No,No
+TH-003,Input tester and stick calibration,Reference Forge visual concept,"Iteration 12: cap/prompt or existing Thor screen artwork restyled; logical labels and dimensions only; exact physical mapping, hardware services and device behavior NOT VERIFIED",No,No
 TH-004,Trigger modes layout and mappable controls,Planned,No new implementation in these checkpoints,No,No
 TH-005,System shortcuts and controller capture,Partial pilot / handoff,Explicit capture/release design contract only,No,No
 TH-006,Virtual mouse and supported input modes,Planned,No new implementation in these checkpoints,No,No
 TH-007,Touch mapping support assessment,Planned,No new implementation in these checkpoints,No,No
 TH-008,Per-app and per-emulator-game identity,Partial pilot / handoff,Profile identity design contract only,No,No
 TH-009,Game profile apply readback restore and arbitration,Planned,No new implementation in these checkpoints,No,No
-TH-010,Lower-screen gaming control center,Partial pilot / handoff,Lower-screen control-center composition only,No,No
-TH-011,App launch destinations screen swap and app pairs,Partial pilot / handoff,Launch display composition only,No,No
+TH-010,Lower-screen gaming control center,Reference Forge visual concept,"Iteration 12: cap/prompt or existing Thor screen artwork restyled; logical labels and dimensions only; exact physical mapping, hardware services and device behavior NOT VERIFIED",No,No
+TH-011,App launch destinations screen swap and app pairs,Reference Forge visual concept,"Iteration 12: cap/prompt or existing Thor screen artwork restyled; logical labels and dimensions only; exact physical mapping, hardware services and device behavior NOT VERIFIED",No,No
 TH-012,Independent display controls and keyboard targeting,Planned,No new implementation in these checkpoints,No,No
 TH-013,Lid sleep wake and state restoration,Planned,No new implementation in these checkpoints,No,No
 TH-014,Top bottom both capture and supported recording,Planned,No new implementation in these checkpoints,No,No
-TH-015,Fan performance and thermal controls,Partial pilot / handoff,Fan/performance UI specimen only; no backend,No,No
+TH-015,Fan performance and thermal controls,Reference Forge visual concept,"Iteration 12: cap/prompt or existing Thor screen artwork restyled; logical labels and dimensions only; exact physical mapping, hardware services and device behavior NOT VERIFIED",No,No
 TH-016,Supported charging bypass and charge limit,Planned,No new implementation in these checkpoints,No,No
 TH-017,Physical RGB lighting and ember preset,Partial pilot / handoff,Ember lights UI specimen only; no physical lighting tested,No,No
 TH-018,Controller display hardware diagnostics,Planned,No new implementation in these checkpoints,No,No

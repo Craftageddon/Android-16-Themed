@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-21",
+  "components": 64,
+  "kind": "controls",
+  "assertions": 3909,
+  "neutralLayerExports": 768,
+  "recomposedStates": 512,
+  "svgFiles": 78,
+  "pngFiles": 1578,
+  "sculptedChannelOverlap": {},
+  "stateTests": 7,
+  "coldBasesUnchanged": true,
+  "offPixelIdenticalToCold": true,
+  "offValueArtCannotEmit": true,
+  "quietWellPaletteContrast": {
+    "text": 14.9,
+    "secondary": 9.66,
+    "semantic": 10.39
+  },
+  "contrastScope": "Design palette only; actual device brightness, text size and performance not validated",
+  "nativeIntegrated": false,
+  "deviceVerified": false,
+  "apkUpdated": false,
+  "v1Scope": "All 46 retained control variants and all 18 pilot specimens, four newly textured scalable frames and eight existing screen compositions. This is authored-catalog coverage, not complete Android OS coverage.",
+  "v2Method": "Source hashes, alpha, neutral masks, SVG links and unique IDs, exact off/cold and runtime recomposition parity, catalog set equality, PNG/SVG decoding, state-owner tests, quiet-well palette contrast and nine-patch audits where applicable; Android resource compile/link",
+  "compiledConfigurations": 112,
+  "linkedDrawables": 28,
+  "aapt2Version": "Android Asset Packaging Tool (aapt) 2.20-14042983",
+  "nativeRuntimeValidation": false
+}

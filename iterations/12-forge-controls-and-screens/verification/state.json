@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "56aed78a92542bd559e3d971d4cbc3c317b4dbd7f486340d49c3cab240771e0a"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-21T13:47:20+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "70ef4c1ec47621b3b2656350a7cfae9db1346b6a8855d8b16938878d96e6688b",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-21T13:47:20+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "7f9ffeac9e28423b227b5487656e1c6e08e85694e4bf387ee1e94e2c97e6a213",
+      "independence": null,
+      "method": "Source hashes, alpha, neutral masks, SVG links and unique IDs, exact off/cold and runtime recomposition parity, catalog set equality, PNG/SVG decoding, state-owner tests, quiet-well palette contrast and nine-patch audits where applicable; Android resource compile/link",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-21T13:47:20+00:00",
+  "project": "12-forge-controls-and-screens",
+  "schema": 1,
+  "status": "V2_PASS"
+}

@@ -1,0 +1,143 @@
+Binary APK
+Package name=com.craftageddon.forgecheck id=7f
+  type drawable id=01 entryCount=28
+    resource 0x7f010000 drawable/cg_rf_button_cold
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_button_cold.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_button_cold.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_button_cold.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_button_cold.9.png type=PNG
+    resource 0x7f010001 drawable/cg_rf_button_core
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_button_core.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_button_core.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_button_core.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_button_core.9.png type=PNG
+    resource 0x7f010002 drawable/cg_rf_button_focus
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_button_focus.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_button_focus.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_button_focus.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_button_focus.9.png type=PNG
+    resource 0x7f010003 drawable/cg_rf_button_reflection
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_button_reflection.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_button_reflection.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_button_reflection.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_button_reflection.9.png type=PNG
+    resource 0x7f010004 drawable/cg_rf_button_seam
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_button_seam.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_button_seam.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_button_seam.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_button_seam.9.png type=PNG
+    resource 0x7f010005 drawable/cg_rf_button_spill
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_button_spill.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_button_spill.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_button_spill.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_button_spill.9.png type=PNG
+    resource 0x7f010006 drawable/cg_rf_button_symbol
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_button_symbol.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_button_symbol.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_button_symbol.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_button_symbol.9.png type=PNG
+    resource 0x7f010007 drawable/cg_rf_field_cold
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_field_cold.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_field_cold.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_field_cold.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_field_cold.9.png type=PNG
+    resource 0x7f010008 drawable/cg_rf_field_core
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_field_core.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_field_core.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_field_core.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_field_core.9.png type=PNG
+    resource 0x7f010009 drawable/cg_rf_field_focus
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_field_focus.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_field_focus.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_field_focus.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_field_focus.9.png type=PNG
+    resource 0x7f01000a drawable/cg_rf_field_reflection
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_field_reflection.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_field_reflection.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_field_reflection.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_field_reflection.9.png type=PNG
+    resource 0x7f01000b drawable/cg_rf_field_seam
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_field_seam.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_field_seam.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_field_seam.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_field_seam.9.png type=PNG
+    resource 0x7f01000c drawable/cg_rf_field_spill
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_field_spill.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_field_spill.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_field_spill.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_field_spill.9.png type=PNG
+    resource 0x7f01000d drawable/cg_rf_field_symbol
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_field_symbol.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_field_symbol.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_field_symbol.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_field_symbol.9.png type=PNG
+    resource 0x7f01000e drawable/cg_rf_notification_cold
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_notification_cold.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_notification_cold.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_notification_cold.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_notification_cold.9.png type=PNG
+    resource 0x7f01000f drawable/cg_rf_notification_core
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_notification_core.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_notification_core.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_notification_core.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_notification_core.9.png type=PNG
+    resource 0x7f010010 drawable/cg_rf_notification_focus
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_notification_focus.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_notification_focus.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_notification_focus.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_notification_focus.9.png type=PNG
+    resource 0x7f010011 drawable/cg_rf_notification_reflection
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_notification_reflection.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_notification_reflection.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_notification_reflection.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_notification_reflection.9.png type=PNG
+    resource 0x7f010012 drawable/cg_rf_notification_seam
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_notification_seam.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_notification_seam.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_notification_seam.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_notification_seam.9.png type=PNG
+    resource 0x7f010013 drawable/cg_rf_notification_spill
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_notification_spill.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_notification_spill.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_notification_spill.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_notification_spill.9.png type=PNG
+    resource 0x7f010014 drawable/cg_rf_notification_symbol
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_notification_symbol.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_notification_symbol.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_notification_symbol.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_notification_symbol.9.png type=PNG
+    resource 0x7f010015 drawable/cg_rf_panel_cold
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_panel_cold.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_panel_cold.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_panel_cold.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_panel_cold.9.png type=PNG
+    resource 0x7f010016 drawable/cg_rf_panel_core
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_panel_core.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_panel_core.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_panel_core.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_panel_core.9.png type=PNG
+    resource 0x7f010017 drawable/cg_rf_panel_focus
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_panel_focus.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_panel_focus.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_panel_focus.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_panel_focus.9.png type=PNG
+    resource 0x7f010018 drawable/cg_rf_panel_reflection
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_panel_reflection.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_panel_reflection.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_panel_reflection.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_panel_reflection.9.png type=PNG
+    resource 0x7f010019 drawable/cg_rf_panel_seam
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_panel_seam.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_panel_seam.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_panel_seam.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_panel_seam.9.png type=PNG
+    resource 0x7f01001a drawable/cg_rf_panel_spill
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_panel_spill.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_panel_spill.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_panel_spill.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_panel_spill.9.png type=PNG
+    resource 0x7f01001b drawable/cg_rf_panel_symbol
+      (mdpi) (file) res/drawable-mdpi-v4/cg_rf_panel_symbol.9.png type=PNG
+      (hdpi) (file) res/drawable-hdpi-v4/cg_rf_panel_symbol.9.png type=PNG
+      (xhdpi) (file) res/drawable-xhdpi-v4/cg_rf_panel_symbol.9.png type=PNG
+      (xxhdpi) (file) res/drawable-xxhdpi-v4/cg_rf_panel_symbol.9.png type=PNG

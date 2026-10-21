@@ -1,0 +1,18 @@
+{
+  "iteration11Source": "11-forge-symbol-library",
+  "sourceHashes": {
+    "airplane-cold.png": "be514ccec62e61e9b07d59b2cc2a392862e1b73cd98a95400c6ab218cbdfa3e1",
+    "bluetooth-cold.png": "d0447ca0cc557efb5ac8e0f329f3cc89b8e1f204a7308f564c9cfc66c0b15349",
+    "cast-cold.png": "e387e997d3a546fbc5196bf4d89420c5f1e114784cc5b6d5347977a30ef64b6a",
+    "hotspot-cold.png": "1f2071c5ce68c768c8e2c7600735f6a60ba2ba804f44e986866aae4ff5d44b4c",
+    "play-cold.png": "74f834e46c247c9326923baa3bd43e144cb7d26978e03ab7158ed710f8786a60",
+    "power_core-cold.png": "facded78ffcd2f4f6d0dfba8422f844c32274adb0b9dea8b33e5e2270e9553fb",
+    "shield-cold.png": "689455f8ae3395392a97f2e6f01688cdc405abbbe1bad183fefa74d40dac9507",
+    "signal-cold.png": "a707d3d4b4c19ab7c830ea771a1276111e18c719a09b0ca7fa92bceaf55ecce4",
+    "steel-material-original.png": "050fc50e92397b4d6057d78bedc22e5c0ec27cc06a45ef24c01ce5875608b390",
+    "steel-material.png": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+    "wifi-cold.png": "e6ecf2e28fd81176c4142ab4a9825beb4a522f1ee23834d86d4733c1d1cfe20b"
+  },
+  "componentCount": 46,
+  "pilotCount": 18
+}

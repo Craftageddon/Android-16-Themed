@@ -1,0 +1,2434 @@
+[
+  {
+    "id": "control-button_primary",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "button_primary",
+    "size": [
+      256,
+      72
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-button_secondary",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "button_secondary",
+    "size": [
+      256,
+      72
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-button_destructive",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "button_destructive",
+    "size": [
+      256,
+      72
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-icon_button",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      72,
+      144
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "icon_button",
+    "size": [
+      72,
+      72
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-switch_off",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      112,
+      224
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "switch_off",
+    "size": [
+      112,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-switch_on",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      112,
+      224
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "switch_on",
+    "size": [
+      112,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-check_empty",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      48,
+      96
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "check_empty",
+    "size": [
+      48,
+      48
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-check_checked",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      48,
+      96
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "check_checked",
+    "size": [
+      48,
+      48
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-check_mixed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      48,
+      96
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "check_mixed",
+    "size": [
+      48,
+      48
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-radio_off",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      48,
+      96
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "radio_off",
+    "size": [
+      48,
+      48
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-radio_on",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      48,
+      96
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "radio_on",
+    "size": [
+      48,
+      48
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-slider_min",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      320,
+      640
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "slider_min",
+    "size": [
+      320,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-slider_half",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      320,
+      640
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "slider_half",
+    "size": [
+      320,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-slider_max",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      320,
+      640
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "slider_max",
+    "size": [
+      320,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-progress_empty",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      320,
+      640
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "progress_empty",
+    "size": [
+      320,
+      40
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-progress_half",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      320,
+      640
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "progress_half",
+    "size": [
+      320,
+      40
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-progress_full",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      320,
+      640
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "progress_full",
+    "size": [
+      320,
+      40
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-progress_indeterminate",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      320,
+      640
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "progress_indeterminate",
+    "size": [
+      320,
+      40
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-progress_ring",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      160,
+      320
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "progress_ring",
+    "size": [
+      160,
+      160
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-tabs",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "tabs",
+    "size": [
+      344,
+      64
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-section_header",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "section_header",
+    "size": [
+      344,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-text_field",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "text_field",
+    "size": [
+      344,
+      80
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-search_field",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "search_field",
+    "size": [
+      344,
+      80
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-error_field",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "error_field",
+    "size": [
+      344,
+      104
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-settings_row",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "settings_row",
+    "size": [
+      344,
+      80
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-menu_panel",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "menu_panel",
+    "size": [
+      256,
+      240
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-menu_item",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "menu_item",
+    "size": [
+      256,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-tooltip",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      240,
+      480
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "tooltip",
+    "size": [
+      240,
+      64
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-card",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "card",
+    "size": [
+      344,
+      192
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-notification_compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "notification_compact",
+    "size": [
+      344,
+      112
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-notification_expanded",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "notification_expanded",
+    "size": [
+      344,
+      224
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-notification_group",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "notification_group",
+    "size": [
+      344,
+      288
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-notification_persistent",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "notification_persistent",
+    "size": [
+      344,
+      112
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-dialog",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "dialog",
+    "size": [
+      344,
+      224
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-confirmation",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "confirmation",
+    "size": [
+      344,
+      200
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-bottom_sheet",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      360,
+      720
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "bottom_sheet",
+    "size": [
+      360,
+      320
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-toast",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      280,
+      560
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "toast",
+    "size": [
+      280,
+      64
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-scrollbar",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      32,
+      64
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "scrollbar",
+    "size": [
+      32,
+      192
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-focus_boundary",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      280,
+      560
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "focus_boundary",
+    "size": [
+      280,
+      72
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-controller_cap",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      56,
+      112
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "controller_cap",
+    "size": [
+      56,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-shoulder_cap",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      88,
+      176
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "shoulder_cap",
+    "size": [
+      88,
+      48
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-trigger_cap",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      88,
+      176
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "trigger_cap",
+    "size": [
+      88,
+      64
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-keyboard_letter",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      56,
+      112
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "keyboard_letter",
+    "size": [
+      56,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-keyboard_space",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "keyboard_space",
+    "size": [
+      256,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-keyboard_enter",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      104,
+      208
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "keyboard_enter",
+    "size": [
+      104,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "control-keyboard_modifier",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      88,
+      176
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "control",
+    "canonicalId": "keyboard_modifier",
+    "size": [
+      88,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-primary_button",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "primary_button",
+    "size": [
+      256,
+      72
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-icon_socket",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      88,
+      176
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "icon_socket",
+    "size": [
+      88,
+      88
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-toggle",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      104,
+      208
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "toggle",
+    "size": [
+      104,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-slider",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      280,
+      560
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "slider",
+    "size": [
+      280,
+      56
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-notification",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "notification",
+    "size": [
+      344,
+      112
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-dialog",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      344,
+      688
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "dialog",
+    "size": [
+      344,
+      212
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-quick_tile",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      152,
+      304
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "quick_tile",
+    "size": [
+      152,
+      100
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-settings",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      64,
+      128
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "settings",
+    "size": [
+      64,
+      64
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-wifi",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "wifi",
+    "size": [
+      24,
+      24
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-battery",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      28,
+      56
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "battery",
+    "size": [
+      28,
+      24
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-navigation",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      112,
+      224
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "navigation",
+    "size": [
+      112,
+      48
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-charging_ring",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      160,
+      320
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "charging_ring",
+    "size": [
+      160,
+      160
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-controller_prompts",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      272,
+      544
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "controller_prompts",
+    "size": [
+      272,
+      64
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-calibration",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      280,
+      560
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "calibration",
+    "size": [
+      280,
+      160
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-gaming_menu",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      312,
+      624
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "gaming_menu",
+    "size": [
+      312,
+      160
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-display_route",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      312,
+      624
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "display_route",
+    "size": [
+      312,
+      128
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-game_profile",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      312,
+      624
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "game_profile",
+    "size": [
+      312,
+      136
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pilot-performance",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      312,
+      624
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "pilot",
+    "canonicalId": "performance",
+    "size": [
+      312,
+      168
+    ],
+    "geometryState": "Explicit switch/check/progress variant; renderer chooses geometry before lighting",
+    "labelsBaked": false,
+    "fixedAspect": true
+  }
+]

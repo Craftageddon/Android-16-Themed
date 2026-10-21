@@ -1,0 +1,118 @@
+[
+  {
+    "id": "button",
+    "size": [
+      192,
+      112
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "sourceHashes": {
+      "cold": "2001d362a6355b90eca5c114f542299f8e97e3a07b17ee2925365a970259f3db",
+      "reflection": "1701d6e3a0fa5eaf38497c7a12aa8f02d80563f02300df9bfffd8f3bc12da17c",
+      "spill": "be283d7ee64b7b6f2705b701dc982d5e52661aeb4cc1034cc694c6f088b7ba4a",
+      "seam": "5c04b5113565a2a81d3df635f6263e8f4f851ba69c84298b88f692c5a09bc73a",
+      "core": "bfb16c3bd25ce257104b4e99756c2cb0854030c405f14ee3a89a72a6678b1e91",
+      "focus": "49d15dffdcbb0325e33cf3cdb246a8ced29f2549a7c3770cf00fed262b59cc4f",
+      "symbol": "9697dac232de7f2b5aee9620fe7829da8782b84eecd23668baeb71e753bd6905"
+    },
+    "fixedCaps": true,
+    "constantCenterBand": true,
+    "configurations": 28,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "field",
+    "size": [
+      224,
+      112
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "sourceHashes": {
+      "cold": "ba345ffd069c5928a27c3e7f6c17d97f6d3192e899a49edab796d4a864da4495",
+      "reflection": "64eb85e928cae0a50b61a7fd7641a1acd11214b347cc2b6043200ad0074ce0d7",
+      "spill": "f850c9419c79033aaf602cce11dbba13518c1a596abd86d1350a320fe8b1b946",
+      "seam": "72d0d72400a18049f4e64f78ff95d9d0d4953172cef12fd7d1a34b92269e87a0",
+      "core": "a5fc5bcc2c9f5be001deaa50b1b4375f1693490e1b87a12cdc0cc70312d933bb",
+      "focus": "f579571537013f4a8958d5a94bfb9aa512df3f055a220fa5ff3262a7c57c5235",
+      "symbol": "3ec04f69dd8d22864ecceea7630f816ffac7cc940cf10f1109093741d90841d7"
+    },
+    "fixedCaps": true,
+    "constantCenterBand": true,
+    "configurations": 28,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "panel",
+    "size": [
+      224,
+      176
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "sourceHashes": {
+      "cold": "00a9729323b77efee026f8b3021448dc4036b4d3f09b921939763726c9b70b70",
+      "reflection": "08257d0f5034b4982d3226c4a7bd3f2eb7ac69e33dc6c0737b9b3254cbe54324",
+      "spill": "31d81554ff0b53a8352215b41c41e7e9416bd6b604fa33d5b0283da7599332af",
+      "seam": "540878454cd8e7e163a0f9b6595fc0ecaca14b24faa93fc61fe93e9e8591d3d7",
+      "core": "1752351a01c15a72fa7a37b558fbc5b98eadacde5edd16a5e555f8bd9b0211ee",
+      "focus": "894fad7fbad44be8ad2802934f68662455bd32596378ffd07c6d57a29eb5c178",
+      "symbol": "4c0ed3ebd8bebc886aa82aa9b279e717203cf689d85bfc736ece6956aa510da5"
+    },
+    "fixedCaps": true,
+    "constantCenterBand": true,
+    "configurations": 28,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "notification",
+    "size": [
+      288,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "sourceHashes": {
+      "cold": "3765fdba980d083e8b7cab99ad91137d96b6472ab3a0a737bfa15af586559a1b",
+      "reflection": "90e57c1b8fc1d970471790a98303872efe7116f297c0bfe93ca2476662b74649",
+      "spill": "2421133fcd1d45d33e144e4c5f0abd1524114eb5d292f39209d8f544d11a2a25",
+      "seam": "d1dcdd36d102ec092d2444ee6b6732ea919c928e5b17fadfd30e5aba83e0e425",
+      "core": "20ebbece543663d88b6cbf2e1891ea192323c35c165ef6081df16827598dd0f8",
+      "focus": "a50bf40696a96ded5c77b45a9091f78c2a2456bbe546fd27475a90c0544b057b",
+      "symbol": "333784c1df492ec47594a1f4a503b6f367c5d5e50bea2d80f2b4157bb2df6fdd"
+    },
+    "fixedCaps": true,
+    "constantCenterBand": true,
+    "configurations": 28,
+    "nativeIntegrated": false
+  }
+]

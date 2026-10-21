@@ -1,0 +1,108 @@
+{
+  "tool": "Built-in OpenAI image generation",
+  "date": "2026-10-21",
+  "assets": [
+    {
+      "name": "signal",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. Four vertical cellular signal bars rising progressively from left to right. Each bar is thick carved black metal with a narrow dark vertical center groove, a small pointed spear cap, a wide base and very restrained dark copper fittings. Separate freestanding bars with transparent gaps, all on the same baseline."
+    },
+    {
+      "name": "hotspot",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. A wireless antenna/hotspot icon. One central upright tapered metal antenna, a round unlit black socket near its upper-middle, small broad three-footed base. Two concentric curved radio-wave rails to either side of the dark core. Symmetrical readable antenna silhouette, substantial forged arcs with narrow deep black recessed channels."
+    },
+    {
+      "name": "shield",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. An ornate pointed shield outline surrounding a large open circular black socket/ring at center. Shield has sharp upper shoulders and a long pointed lower tip, small spear joints, heavy layered iron rim. Interior gaps genuinely transparent. Circular center has transparent hole, not a solid orb. Deep narrow BLACK ring groove for later runtime light."
+    },
+    {
+      "name": "cast",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. A cast/display icon: one heavy chamfered rectangular monitor outline with a quiet transparent center and 3 thick quarter-circle broadcast rails extending from lower-left corner. A small unlit round socket at broadcast origin. Narrow BLACK carved channels inside the monitor border and each broadcast arc. No stand or extra unrelated symbols."
+    },
+    {
+      "name": "play",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. A large heavy circular steel media control ring with four small spear-point joints at cardinal directions. In the central transparent well a substantial right-pointing triangular play symbol sculpted from layered forged steel. Deep black grooves on the inside of ring and along the play triangle, dark copper edge fittings. NO solid background disk."
+    },
+    {
+      "name": "power_core",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. A large round powered-core socket icon: heavy multi-ring forged steel rim with four spear-point fittings at cardinal directions, concentric deep BLACK recessed ring channels and one round completely DARK unlit obsidian core at center. Symmetrical original machinery socket with rich chipped facets. No letter, no power logo, no baked glow."
+    },
+    {
+      "name": "steel_material",
+      "prompt": "Generate a square edge-to-edge neutral material texture for Craftageddon forged steel SVG surfaces. Dense rough hammered blackened iron with many small chipped facets and short shallow cracks, physical dark steel, dim neutral cool highlights. Flat front-on orthographic scan with even illumination, no objects, no border, no joints, no text, no geometry, no shadows. Texture fills entire canvas. No copper, no gold, no orange, no fire, no emission, no glow. Predominantly near-black steel with restrained small silver chips. This is a reusable opaque cold material texture, not an icon."
+    }
+  ],
+  "coldSources": [
+    {
+      "name": "signal",
+      "file": "signal-cold.png",
+      "sha256": "a707d3d4b4c19ab7c830ea771a1276111e18c719a09b0ca7fa92bceaf55ecce4",
+      "modified": false
+    },
+    {
+      "name": "hotspot",
+      "file": "hotspot-cold.png",
+      "sha256": "1f2071c5ce68c768c8e2c7600735f6a60ba2ba804f44e986866aae4ff5d44b4c",
+      "modified": false
+    },
+    {
+      "name": "cast",
+      "file": "cast-cold.png",
+      "sha256": "e387e997d3a546fbc5196bf4d89420c5f1e114784cc5b6d5347977a30ef64b6a",
+      "modified": false
+    },
+    {
+      "name": "shield",
+      "file": "shield-cold.png",
+      "sha256": "689455f8ae3395392a97f2e6f01688cdc405abbbe1bad183fefa74d40dac9507",
+      "modified": false
+    },
+    {
+      "name": "play",
+      "file": "play-cold.png",
+      "sha256": "74f834e46c247c9326923baa3bd43e144cb7d26978e03ab7158ed710f8786a60",
+      "modified": false
+    },
+    {
+      "name": "power_core",
+      "file": "power_core-cold.png",
+      "sha256": "facded78ffcd2f4f6d0dfba8422f844c32274adb0b9dea8b33e5e2270e9553fb",
+      "modified": false
+    },
+    {
+      "name": "steel_material",
+      "file": "steel-material-original.png",
+      "sha256": "050fc50e92397b4d6057d78bedc22e5c0ec27cc06a45ef24c01ce5875608b390",
+      "modified": false
+    },
+    {
+      "name": "wifi",
+      "file": "wifi-cold.png",
+      "sha256": "e6ecf2e28fd81176c4142ab4a9825beb4a522f1ee23834d86d4733c1d1cfe20b",
+      "modified": false,
+      "fromIteration": 10
+    },
+    {
+      "name": "bluetooth",
+      "file": "bluetooth-cold.png",
+      "sha256": "d0447ca0cc557efb5ac8e0f329f3cc89b8e1f204a7308f564c9cfc66c0b15349",
+      "modified": false,
+      "fromIteration": 10
+    },
+    {
+      "name": "airplane",
+      "file": "airplane-cold.png",
+      "sha256": "be514ccec62e61e9b07d59b2cc2a392862e1b73cd98a95400c6ab218cbdfa3e1",
+      "modified": false,
+      "fromIteration": 10
+    }
+  ],
+  "textureProxy": {
+    "file": "steel-material.png",
+    "size": [
+      256,
+      256
+    ],
+    "method": "SVG image scaling with resvg; no painting, no emission; original preserved",
+    "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+  }
+}

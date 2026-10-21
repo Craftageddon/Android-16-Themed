@@ -1,0 +1,60 @@
+{
+  "scope": "All currently authored catalog specimens, not the full historical register or complete Android OS",
+  "symbolCatalog": {
+    "oldIteration": 5,
+    "namedEntries": 136,
+    "opticalMasters": 272,
+    "replacement": "../11-forge-symbol-library/masters"
+  },
+  "largeMotifs": {
+    "count": 9,
+    "replacement": "../11-forge-symbol-library/masters/hero-*"
+  },
+  "coreControls": {
+    "oldIteration": 4,
+    "variants": 46,
+    "replacement": "masters/control-*"
+  },
+  "pilotSpecimens": {
+    "oldIterations": [
+      1,
+      2,
+      3
+    ],
+    "specimens": 18,
+    "replacement": "masters/pilot-*"
+  },
+  "scalableFrames": {
+    "oldIterations": [
+      7,
+      9
+    ],
+    "families": 4,
+    "newNativeConfigurations": 112,
+    "replacement": "android/res"
+  },
+  "compositions": {
+    "oldIteration3": 6,
+    "oldIteration6": 2,
+    "newCount": 8,
+    "replacement": "screens"
+  },
+  "inputExamples": {
+    "liveControllerLabels": 16,
+    "liveKeyboardRows": 5,
+    "replacement": "examples",
+    "hardwareMappingVerified": false
+  },
+  "unchanged": [
+    "Material Lab APK 0.1.0",
+    "SystemUI, launcher, Settings and hardware services",
+    "Every archived iteration and historical input file"
+  ],
+  "remaining": [
+    "Historical register: 3423 retained records and 1272 proposed family groups still need canonical reconciliation",
+    "Installed-app icons and exact vendor resource ownership",
+    "New unbuilt Android flows, PIN/biometrics, permission/picker/multiwindow surfaces",
+    "Wallpaper, boot/recovery, motion and sound roadmap coverage",
+    "Native implementation, target rendering and physical Thor input/display/performance validation"
+  ]
+}

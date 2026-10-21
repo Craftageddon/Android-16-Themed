@@ -17,6 +17,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | [09 — Rich scalable controls](iterations/09-rich-scalable-controls/) | Notification/tile-style cold steel, fixed corners, seven separate light/state layers and selected/glowing previews | Layered export + resource compile/link checkpoint; APK unchanged |
 | [10 — Reference Forge](iterations/10-reference-forge/) | Three chipped-steel detailed icons, neutral light masks, cold-off state contract and four retained frame family comparisons | Three desktop passes + source/state checks; native/device validation pending |
 | [11 — Forge symbol library](iterations/11-forge-symbol-library/) | All 136 named symbols in two optical treatments and all nine large sculpted motifs | Full authored-symbol coverage; source/resource checks; device validation pending |
+| [12 — Forge controls and screens](iterations/12-forge-controls-and-screens/) | All 46 retained controls, 18 pilots, four new scalable families, eight layouts and live-label input examples | Authored-catalog restyle; 112 resource configurations; native/device validation pending |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
@@ -36,9 +37,9 @@ The [full source register](iterations/04-core-components/source-register/) accou
 
 ## Use the assets
 
-![Reference Forge cold and on](iterations/10-reference-forge/previews/wifi-off-on.png)
+![Reference Forge motifs](iterations/11-forge-symbol-library/previews/nine-motifs-off-on.png)
 
-The newest [Reference Forge pass](iterations/10-reference-forge/) follows the sharper blackened-steel reference. **Off/unselected is cold; selected, checked or on lights the separate ember layers.** Focus and hover alone stay cold. This supersedes warm-idle states in older archived examples. Three detailed icons have the new artwork; the rest of the library remains pending. The [control comparison](iterations/10-reference-forge/previews/scalable-controls-off-on.png) uses the retained rich frames with this state rule.
+The newest Reference Forge passes extend the sharper blackened-steel reference across the [full authored symbol catalog](iterations/11-forge-symbol-library/) and [retained controls/screens](iterations/12-forge-controls-and-screens/). **Off/unselected is cold; selected, checked or on lights the separate ember layers.** Focus and hover alone stay cold; explicit off-value artwork is locked unlit. This supersedes archived warm-idle examples. The [new scalable comparison](iterations/12-forge-controls-and-screens/previews/scalable-frame-states.png) shows actual new textured resources. Historical reconciliation, app-specific icons and unauthored roadmap flows remain open.
 
 ![Rich steel selected and glowing](iterations/09-rich-scalable-controls/previews/button-state-closeup.png)
 
@@ -52,7 +53,7 @@ The [October 21 progress register](roadmap/Design_Progress_2026-10-21.csv) retai
 
 Open any `masters/*.svg` in Inkscape. The named layers are `cold`, `seam`, `core`, and `symbol`. Seam/core layers are hidden in the master, white in the separate mask exports, and tinted only for state previews. Text in contact sheets is illustrative; production text stays live in Android. Both 1x and 2x PNG layers have real alpha.
 
-Every iteration includes `complete-assets.zip` containing its full folder, including the transparent PNG exports. Individual editable SVGs and preview sheets are also browsable in the repository. Extract the archive into an empty folder to use the full pack or run its checksum audit.
+Every iteration preserves a full `complete-assets.zip` locally, including transparent PNG exports. Iterations 01–10 also track that ZIP directly. The larger 11–12 archives are stored on GitHub as verified byte-for-byte parts in each `distribution/` folder; run its `Restore-Archive.ps1` after downloading the repository to restore the ZIP. Individual editable SVGs and preview sheets remain browsable. Extract the ZIP into an empty folder to use the full pack or audit checksums.
 
 ```powershell
 python -m pip install -r requirements.txt

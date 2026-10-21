@@ -1,8 +1,10 @@
 # Redesign checkpoint status — 2026-10-21
 
-Eleven source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
+Twelve source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
 
 The current direction is Reference Forge: chipped dark steel, sharp fittings and separate ember layers. Off/unselected is cold. Selected, checked or on enables emission; focus and hover alone do not. Explicit off-value artwork is locked cold. Iteration 11 applies this to all 136 authored named symbols in compact/detailed treatments and all nine large sculpted motifs. Historical source reconciliation and unauthored roadmap surfaces remain incomplete.
+
+Iteration 12 now restyles every retained control variant (46), all pilot specimens (18), four scalable frame families and all eight existing compositions. Editable controller-prompt and keyboard examples retain live labels. This completes material propagation through the defined authored catalog; it does not complete the 1,272 proposed historical family groups, installed-app icon set, new Android flows or the 103-package implementation roadmap. The older APK remains unchanged.
 
 | Work | Current result | Remaining validation |
 |---|---|---|
@@ -17,7 +19,7 @@ The current direction is Reference Forge: chipped dark steel, sharp fittings and
 | Rich scalable material redesign | Four heavier steel families matching notification/tile art; 112 nine-patch configurations with separate reflection/spill/seam/core/focus/selection; desktop selected/glow previews | Not wired into Material Lab 0.1.0; native blend parity and device V3 pending |
 | Standalone native Material Lab | Version 0.1.0 APK builds, signs and aligns; 80 compiled nine-patches; fresh build matches all 83 executable/resource members; no requested permissions | Not installed or run; target rendering, input, RTL/large text, lifecycle and performance NOT RUN |
 | Seven state previews | Cold, idle, selected, focused, pressed, disabled, reduced motion | Actual Android input/lifecycle and accessibility behavior |
-| State resolution reference | Six cold-off v2 Node tests pass; earlier five-test warm-idle v1 retained as an archive | Native implementation and target tests |
+| State resolution reference | Seven cold-off v2 Node tests pass, including explicit off-value locking; earlier warm-idle v1 is archival | Native implementation and target tests |
 | Reference Forge material pilot | Three new cold masters, 24 SVGs, 63 transparent layer exports, 24 state renders and four retained scalable frame family comparisons; 450 technical conditions pass | Remaining symbols, compact optical treatment, live Inkscape round trip, native/device blend and performance |
 | Inkscape | Hero primary master opened; linked raster and alpha rendered | Full layer editing and export/reimport round-trip |
 | Thor compositions | Upper launcher/shade, lower dashboard/calibration/profile, charging screen | Exact display metrics, large text, RTL and device behavior |

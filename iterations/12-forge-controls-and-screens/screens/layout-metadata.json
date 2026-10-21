@@ -1,0 +1,17 @@
+{
+  "screenCount": 8,
+  "names": [
+    "thor-upper-launcher",
+    "thor-upper-shade",
+    "thor-lower-dashboard",
+    "thor-lower-calibration",
+    "thor-lower-profile",
+    "lock-and-charging",
+    "upper-quick-settings",
+    "lower-game-companion"
+  ],
+  "coordinateSystem": "logical design units; not verified hardware pixels or dp",
+  "nativeIntegrated": false,
+  "targetGeometryVerified": false,
+  "sampleContent": true
+}
