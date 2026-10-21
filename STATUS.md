@@ -1,6 +1,6 @@
 # Redesign checkpoint status — 2026-10-21
 
-Seven source iterations are preserved independently. These are work-in-progress design uploads, not finalized Android/ROM releases.
+Eight source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
 
 | Work | Current result | Remaining validation |
 |---|---|---|
@@ -12,6 +12,7 @@ Seven source iterations are preserved independently. These are work-in-progress 
 | Detailed primary button and charging socket | Original unlit raster masters plus editable neutral masks | More material harmonization with everyday controls |
 | Rich notification and quick-settings material | Two more unchanged cold masters, neutral masks and two logical screen concepts | Space efficiency, final mask alignment and target profiling |
 | Stretchable frame resources | Four original families, 80 density-specific nine-patch layers, 20 linked logical drawables; fixed-cap and uniform-band checks | Native runtime comparison, physical V3 and production memory/performance |
+| Standalone native Material Lab | Version 0.1.0 APK builds, signs and aligns; 80 compiled nine-patches; fresh build matches all 83 executable/resource members; no requested permissions | Not installed or run; target rendering, input, RTL/large text, lifecycle and performance NOT RUN |
 | Seven state previews | Cold, idle, selected, focused, pressed, disabled, reduced motion | Actual Android input/lifecycle and accessibility behavior |
 | State resolution reference | Five Node tests pass | Native implementation and target tests |
 | Inkscape | Hero primary master opened; linked raster and alpha rendered | Full layer editing and export/reimport round-trip |
@@ -21,6 +22,6 @@ Seven source iterations are preserved independently. These are work-in-progress 
 
 The original 103 work-package rows are retained as planning inputs. The source register provides complete retained-file accounting and candidate family mappings; manual canonical-source reconciliation remains incomplete. Four nine-patch families now compile/link, but final production validation, installed-app coverage, sound/motion overhaul, native SystemUI integration, controller calibration backend, firmware changes and physical-device sign-off remain incomplete.
 
-Next design work: bring the everyday frames closer to the rich steel masters, validate true-size glyphs and long/large text in the measured Thor layouts, then implement one reversible native vertical slice. Retain every earlier checkpoint and compare against the same reference board.
+Next work: run the standalone lab in an explicitly chosen test environment, compare native rendering with the desktop sheet, then continue material harmonization and missing everyday flows. Exact Thor baseline, canonical source reconciliation and privileged owner integration remain separate prerequisites. Retain every earlier checkpoint and compare against the same reference board.
 
 Publication is authorized by the user's instruction to upload each iteration to this repository. No approval to flash hardware is inferred from that publication instruction.

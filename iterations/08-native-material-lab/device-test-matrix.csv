@@ -1,0 +1,13 @@
+test,expected,status
+Install and launch on identified test device,Package launches without permission prompts,NOT RUN
+Cold and illuminated pixels,Cold steel stays unchanged and masks align,NOT RUN
+Resize full and narrow,Fixed corners preserve shape and content padding,NOT RUN
+Text 100 to 200 percent,Live labels wrap without clipping or control overlap,NOT RUN
+RTL and Arabic target,Reading direction and glyph shaping remain correct,NOT RUN
+Selected focused press hold,Both geometry cues survive press and release,NOT RUN
+Disabled target,Target cannot activate and all light cues suppress,NOT RUN
+Generic controller input,App-local A activation and B exit with no global capture,NOT RUN
+Rotation and recreation,Scale width RTL cold disabled and selection restore,NOT RUN
+Insets and soft keyboard,Content stays reachable with system bars and IME,NOT RUN
+Actual secondary display,Reported ID matches the hosting display,NOT RUN
+Lifecycle and memory,Material renderer schedules no animation callbacks; native input cursor may blink; bounded texture memory,NOT RUN

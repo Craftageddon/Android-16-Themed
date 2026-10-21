@@ -1,0 +1,6 @@
+{
+ "ES-068":{"design_status":"Native readability lab built; target tests pending","evidence_scope":"Iteration 08: standalone native live-text/width specimens compiled and packaged; actual readability and brightness conditions NOT RUN"},
+ "ES-069":{"design_status":"RTL and large-text lab built; target tests pending","evidence_scope":"Iteration 08: 100/130/160/200 percent specimen text and RTL/Arabic controls implemented in app source; device acceptance NOT RUN"},
+ "ES-070":{"design_status":"App-local focus preview built","evidence_scope":"Iteration 08: native focus/selection layers and foreground-window generic gamepad activation; physical mapping and accessibility tests NOT RUN"},
+ "ES-071":{"design_status":"Static native preview built","evidence_scope":"Iteration 08: static lighting with no animation timers; lifecycle behavior, restoration and target review NOT RUN"}
+}

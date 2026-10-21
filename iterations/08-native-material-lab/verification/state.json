@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "f98010eb71a975d1e1f652f4ca225ab699158f8ee802e3b0eec47a411d0190fb"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-21T11:51:31+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "9cbcd8448e74f21abb6db9e1173a40f50dc6fb8721a022fafca7d200fec82ab6",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-21T11:51:31+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "77210ff7679e76a33e5d220b11f25d6109af7112c84b7dc6d845496c4772c904",
+      "independence": null,
+      "method": "Android resource/Java/DEX build, compiled nine-patch chunks, clean rebuild payload comparison, manifest, signature and ZIP alignment audits",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-21T11:51:31+00:00",
+  "project": "08-native-material-lab",
+  "schema": 1,
+  "status": "V2_PASS"
+}

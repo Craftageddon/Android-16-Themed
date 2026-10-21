@@ -66,10 +66,10 @@ ES-064,IME lockscreen permission picker and OEM ownership,Planned,No new impleme
 ES-065,Reversible packaging install and rollback checkpoints,Planned,No new implementation in these checkpoints,No,No
 ES-066,Material fidelity and whole-screen consistency,Planned,No new implementation in these checkpoints,No,No
 ES-067,Mask alpha nine-patch and export validation,Bounded export and nine-patch validation,"Iteration 07: 80 metadata/alpha/mask checks, 960 fixed-corner comparisons and 20 linked logical drawables; full historical-library validation pending",No,No
-ES-068,Actual-size readability contrast and brightness conditions,Planned,No new implementation in these checkpoints,No,No
-ES-069,Text scaling RTL long labels and localization,Planned,No new implementation in these checkpoints,No,No
-ES-070,Touch controller focus and accessibility semantics,Planned,No new implementation in these checkpoints,No,No
-ES-071,Reduced motion hidden-screen suspension and lifecycle,Planned,No new implementation in these checkpoints,No,No
+ES-068,Actual-size readability contrast and brightness conditions,Native readability lab built; target tests pending,Iteration 08: standalone native live-text/width specimens compiled and packaged; actual readability and brightness conditions NOT RUN,No,No
+ES-069,Text scaling RTL long labels and localization,RTL and large-text lab built; target tests pending,Iteration 08: 100/130/160/200 percent specimen text and RTL/Arabic controls implemented in app source; device acceptance NOT RUN,No,No
+ES-070,Touch controller focus and accessibility semantics,App-local focus preview built,Iteration 08: native focus/selection layers and foreground-window generic gamepad activation; physical mapping and accessibility tests NOT RUN,No,No
+ES-071,Reduced motion hidden-screen suspension and lifecycle,Static native preview built,"Iteration 08: static lighting with no animation timers; lifecycle behavior, restoration and target review NOT RUN",No,No
 ES-072,Frame timing memory GPU cost and battery measurement,Planned,No new implementation in these checkpoints,No,No
 ES-073,Release sources attribution manifests hashes and evidence,Planned,No new implementation in these checkpoints,No,No
 TH-001,Physical control register and prompt conventions,Partial pilot / handoff,Prompt specimen and unmeasured mapping template,No,No

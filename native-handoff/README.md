@@ -4,7 +4,7 @@ This is an implementer handoff and a small independently compilable resource sam
 
 ## Rendering contract
 
-1. Draw the cold base using its unmodified alpha. Never scale a decorated frame non-uniformly. Pilot frames have fixed aspect ratios; adapt with a procedural native frame or an explicitly authored stretch-safe nine-patch later.
+1. Draw the cold base using its unmodified alpha. Never stretch the decorated fixed-aspect hero art non-uniformly. Iteration 07 adds four separately authored stretch-safe nine-patch families with fixed caps and declared minimum sizes; use those for flexible frames. Iteration 08 builds a standalone native preview app but has not been installed or runtime-verified.
 2. Tint the neutral seam mask with the ember token and the core mask with the hot-core token. Apply the state opacity and the current 2.8 preview gain. Clamp after multiplication. Native color-space and bloom output must be compared on hardware before locking that gain.
 3. Draw semantic symbols and live platform text sharply above the material/light. Cache resized static rasters; do not decode the 2098px/1254px hero source on every frame. Author lower-density cached variants for the measured device density.
 4. Draw selection and focus as separate geometry. Disabled suppresses illumination. Cold inspection suppresses illumination without changing the base. A press settles after 160ms; use the shared easing for interpolation. Reduced motion has no blur, breathing, movement or compression. Hidden surfaces schedule no animation.

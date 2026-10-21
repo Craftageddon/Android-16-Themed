@@ -13,6 +13,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | [05 — System symbols](iterations/05-system-symbols/) | 136 named entries in compact/detailed treatments; 136 compiled Android vectors | Desktop design and resource compile checkpoint |
 | [06 — Rich material expansion](iterations/06-material-expansion/) | Original notification/tile cold masters, separate masks and two live-content screen concepts | Desktop material checkpoint |
 | [07 — Scalable steel frames](iterations/07-scalable-frames/) | Four frame families, 80 real nine-patch density layers and compile/link evidence | Desktop + Android resource checkpoint |
+| [08 — Native Material Lab 0.1.0](iterations/08-native-material-lab/) | Standalone signed APK, Java source, live-text/RTL/width/focus controls and clean rebuild evidence | Built and audited; not installed or device-verified |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
@@ -31,6 +32,8 @@ The [native handoff](native-handoff/README.md) records rendering ownership, cont
 The [full source register](iterations/04-core-components/source-register/) accounts for 3,423 retained records: 3,422 valid files and one excluded empty file. Its 1,272 proposed family groups require manual review and are not a count of completed redesigns.
 
 ## Use the assets
+
+The [standalone Material Lab APK](iterations/08-native-material-lab/release/EmberSteel-MaterialLab-0.1.0.apk) is a local preview application with no requested permissions or hardware-control backend. Its [source, offline build instructions and unrun test matrix](iterations/08-native-material-lab/) are preserved. It does not theme SystemUI or modify LineageOS.
 
 ![Scalable steel](iterations/07-scalable-frames/previews/scalable-frame-sheet.png)
 

@@ -1,0 +1,57 @@
+[
+  {
+    "tool": "aapt2.exe",
+    "exitCode": 0,
+    "output": "Android Asset Packaging Tool (aapt) 2.20-14042983\n"
+  },
+  {
+    "tool": "java.exe",
+    "exitCode": 0,
+    "output": "openjdk version \"21.0.10\" 2026-01-20\nOpenJDK Runtime Environment (build 21.0.10+-14961533-b1163.108)\nOpenJDK 64-Bit Server VM (build 21.0.10+-14961533-b1163.108, mixed mode)\n"
+  },
+  {
+    "tool": "aapt2.exe",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "tool": "aapt2.exe",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "tool": "javac.exe",
+    "exitCode": 0,
+    "output": "warning: [options] source value 8 is obsolete and will be removed in a future release\nwarning: [options] target value 8 is obsolete and will be removed in a future release\nwarning: [options] To suppress warnings about obsolete options, use -Xlint:-options.\nNote: Some input files use or override a deprecated API.\nNote: Recompile with -Xlint:deprecation for details.\n3 warnings\n"
+  },
+  {
+    "tool": "java.exe",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "tool": "zipalign.exe",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "tool": "java.exe",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "tool": "java.exe",
+    "exitCode": 0,
+    "output": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): true\nVerified using v3 scheme (APK Signature Scheme v3): true\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: CN=Craftageddon Local Preview, O=Development, C=US\nSigner #1 certificate SHA-256 digest: 5f3215b0aacc31c7c3fd09e7fa51ad2fced222c9581669b168eb46832415cbb9\nSigner #1 certificate SHA-1 digest: 2b1a53a6e68934170dd2b98f1d7be6e60304a33e\nSigner #1 certificate MD5 digest: 1a4e17be606aa235189ec4e58c38d452\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 2048\nSigner #1 public key SHA-256 digest: 8b1d2888b6e6b5380d0125d631271b76098ab7b3d72c60fb6cf16707f4133e33\nSigner #1 public key SHA-1 digest: 609f766a03eba93a4a68d300d0a8cf919d4d9526\nSigner #1 public key MD5 digest: bcec6309731dae63d84f954190d3bf02\n"
+  },
+  {
+    "tool": "zipalign.exe",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "tool": "aapt2.exe",
+    "exitCode": 0,
+    "output": "package: name='com.craftageddon.materiallab' versionCode='1' versionName='0.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'\nminSdkVersion:'26'\ntargetSdkVersion:'36'\napplication-label:'Ember Steel Material Lab'\napplication: label='Ember Steel Material Lab' icon=''\nlaunchable-activity: name='com.craftageddon.materiallab.MainActivity'  label='' icon=''\nfeature-group: label=''\n  uses-feature-not-required: name='android.hardware.touchscreen'\nmain\nsupports-screens: 'small' 'normal' 'large' 'xlarge'\nsupports-any-density: 'true'\nlocales: '--_--'\ndensities: '160' '240' '320' '480'\n"
+  }
+]

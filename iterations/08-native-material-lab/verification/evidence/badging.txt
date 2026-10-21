@@ -1,0 +1,13 @@
+package: name='com.craftageddon.materiallab' versionCode='1' versionName='0.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+minSdkVersion:'26'
+targetSdkVersion:'36'
+application-label:'Ember Steel Material Lab'
+application: label='Ember Steel Material Lab' icon=''
+launchable-activity: name='com.craftageddon.materiallab.MainActivity'  label='' icon=''
+feature-group: label=''
+  uses-feature-not-required: name='android.hardware.touchscreen'
+main
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--'
+densities: '160' '240' '320' '480'

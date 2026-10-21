@@ -1,0 +1,10 @@
+{
+  "freshOfflineBuild": true,
+  "samePackageContents": true,
+  "matchingPayloadMembers": 83,
+  "changedSigningMembers": [],
+  "classesDexSha256": "5bcb80d7bddb3a2a89ce21eda48b619e5fd524378c9e9fadcc56ad0066acb990",
+  "resourcesTableSha256": "2ce6f5ec18655d102dadab34fd991f31fdbf0800733c1387eee23382e97d36eb",
+  "apkBytesIdentical": false,
+  "scope": "Clean rebuild of identical Java/resources; all executable/resource ZIP member bytes match. Signed APK byte identity is not promised."
+}
