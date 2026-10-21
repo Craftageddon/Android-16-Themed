@@ -1,10 +1,10 @@
 {
   "artifacts": {
-    "complete-assets.zip": "5415d9b1c77c96c9dc7481e9cb094b645036686302170cab482d83c383727554"
+    "complete-assets.zip": "32bceb711fcbe4a024cc5928e20d4c9cbf7f435bfe5534455e49ded57bb2b8f2"
   },
   "checks": {
     "1": {
-      "date_utc": "2026-10-21T12:12:57+00:00",
+      "date_utc": "2026-10-21T12:26:06+00:00",
       "evidence": "verification/evidence/V1.txt",
       "evidence_sha256": "e35ecbc4117274a2c9d63c500e31b60b8220497aa97cb97adb9cabfd261f2fc9",
       "independence": null,
@@ -14,9 +14,9 @@
       "reviewer": "Codex desktop verification"
     },
     "2": {
-      "date_utc": "2026-10-21T12:12:57+00:00",
+      "date_utc": "2026-10-21T12:26:06+00:00",
       "evidence": "verification/evidence/V2.txt",
-      "evidence_sha256": "382860b1627065454045ef7034d582a9259ba07cc85b5054082ee03b7a28d873",
+      "evidence_sha256": "6ff5d19e9ecd5765633b5cd9b2191d79d39d1596c8d1a281053ddeee6d2b1412",
       "independence": null,
       "method": "SVG/pixel/alpha/light-separation checks, fixed-cap and constant-band audit, Android resource compile/link",
       "name": "Technical and functional",
@@ -24,7 +24,7 @@
       "reviewer": "Codex desktop verification"
     }
   },
-  "created_at": "2026-10-21T12:12:56+00:00",
+  "created_at": "2026-10-21T12:26:06+00:00",
   "project": "09-rich-scalable-controls",
   "schema": 1,
   "status": "V2_PASS"

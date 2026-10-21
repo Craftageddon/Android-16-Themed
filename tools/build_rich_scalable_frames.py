@@ -7,6 +7,7 @@ from build_scalable_frames import ninepatch,stretch,DENSITIES
 
 LAYERS=['cold','reflection','spill','seam','core','focus','symbol']
 SPECS=[('button',192,112,42,34),('field',224,112,42,34),('panel',224,176,42,38),('notification',288,128,44,36)]
+LIGHT_COLORS={'reflection':'#dd6e32','spill':'#ff5c12','seam':'#ff782a','core':'#ffdda5','focus':'#d5e7f2','symbol':'#ffe5bc'}
 STATES={'cold':[1,0,0,0,0,0,0],'idle':[1,.08,.12,.28,.12,0,0],'hovered':[1,.18,.30,.55,.32,0,0],'selected':[1,.22,.42,.78,.55,0,1],'selected_focused':[1,.22,.42,.78,.55,1,1],'pressed':[1,.60,1,1,1,0,1],'disabled':[.42,0,0,0,0,0,0],'reduced':[1,.22,.42,.78,.55,0,1]}
 
 def xml(r):return ET.tostring(r,encoding='unicode')
@@ -64,10 +65,16 @@ def composite(layers,size,state):
   if gain==0:continue
   im=stretch(layers[name],size)
   if name!='cold':
-   tint={'reflection':'#dd6e32','spill':'#ff5c12','seam':'#ff782a','core':'#ffdda5','focus':'#d5e7f2','symbol':'#ffe5bc'}[name]
+   tint=LIGHT_COLORS[name]
    q=Image.new('RGBA',size,tint);q.putalpha(im.getchannel('A'));im=q
   im.putalpha(im.getchannel('A').point(lambda v:round(v*gain)));out.alpha_composite(im)
  return out
+
+def write_runtime_style(out):
+ spec={'schema':1,'layerOrder':LAYERS,'colors':LIGHT_COLORS,'bodyWell':'#151b21','sampleStateLayerGains':{name:dict(zip(LAYERS,gains)) for name,gains in STATES.items()},'focusOwner':'Interactive owner applies the focus layer independently, including during press. Pressed sample is unfocused.','selectedCue':'Separate geometric symbol; do not rely on emission color alone.','animationImplemented':False,'reducedMotion':'Static selected appearance; no motion or breathing.','coldInspection':'Draw only cold material; preserve original cold pixels.'}
+ (out/'runtime-style.json').write_text(json.dumps(spec,indent=2)+'\n')
+ tokens=copy.deepcopy(TOKENS);tokens['date']='2026-10-21';tokens['colors'].update(well='#151b21',ember=LIGHT_COLORS['seam'],hotCore=LIGHT_COLORS['core'],reflection=LIGHT_COLORS['reflection'],spill=LIGHT_COLORS['spill']);tokens['states']={name:gains[3] for name,gains in STATES.items()};tokens['runtimeStyle']='runtime-style.json contains the authoritative per-layer gains and tints for this iteration.'
+ (out/'tokens.json').write_text(json.dumps(tokens,indent=2)+'\n')
 
 def build(a):
  out=a.out.resolve();assert not out.exists();
@@ -105,6 +112,7 @@ def build(a):
   y=100+i*250;im=composite(collections['button'],(1240,224),state);close.paste(im,(740,y),im);dr.text((50,y+77),title,font=font(29),fill='#eee7d9');f=font(32);box=dr.textbbox((0,0),'Launch game',font=f);dr.text((740+(1240-(box[2]-box[0]))/2,y+90),'Launch game',font=f,fill='#eee7d9')
  close.save(out/'previews/button-state-closeup.png')
  (out/'components.json').write_text(json.dumps(rows,indent=2)+'\n');(out/'tokens.json').write_text(json.dumps(TOKENS,indent=2)+'\n');(out/'source/provenance.json').write_text(json.dumps({'tool':'Built-in OpenAI image generation','coldSourcePreserved':True,'canvas':[sw,sh],'sha256':hashlib.sha256(a.source.read_bytes()).hexdigest(),'maskAuthoring':'Original SVG masks aligned to dark rails; preview-only tint and blend'},indent=2)+'\n')
+ write_runtime_style(out)
  print(json.dumps({'families':4,'layers':len(LAYERS),'ninePatchConfigurations':112,'sourceCanvas':[sw,sh],'pngFiles':len(list(out.rglob('*.png')))}))
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);p.add_argument('--out',type=Path,required=True);build(p.parse_args())

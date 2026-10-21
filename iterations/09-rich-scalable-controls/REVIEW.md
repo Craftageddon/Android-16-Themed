@@ -7,3 +7,5 @@ Review corrected three issues before this checkpoint: the first panel row crowde
 The first image sampling mode also left subtly varying pixels in nominal rail bands. The source-strip image now uses nearest-neighbor SVG rendering; every column/row inside every declared band is exactly constant at all four densities. The subsequent complete pixel and Android compile/link pass succeeded. Decorative source corners were not raster-repainted or non-uniformly stretched.
 
 Both final sheets were inspected. These are actual layered asset renders, not native screenshots. Their cold/selected/pressed comparison shows the requested style and lighting. The earlier APK has not been changed. Final native blend parity and physical target V3 are not run.
+
+The runtime handoff now retains the exact per-layer color/gain matrix rather than inheriting generic pilot tints. Recomposition with that matrix matches all 32 saved state-preview pixel buffers exactly. No visual asset changed during this metadata alignment.

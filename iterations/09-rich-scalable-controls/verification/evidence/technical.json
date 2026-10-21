@@ -19,5 +19,6 @@
   "deviceVerified": false,
   "apkUpdated": false,
   "v2Method": "SVG/pixel/alpha/light-separation checks, fixed-cap and constant-band audit, Android resource compile/link",
-  "scope": "Actual layered export previews; runtime/device V3 remains pending. Earlier Material Lab APK is unchanged."
+  "scope": "Actual layered export previews; runtime/device V3 remains pending. Earlier Material Lab APK is unchanged.",
+  "runtimeStyleMatchingSavedPreviews": 32
 }

@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "layerOrder": [
+    "cold",
+    "reflection",
+    "spill",
+    "seam",
+    "core",
+    "focus",
+    "symbol"
+  ],
+  "colors": {
+    "reflection": "#dd6e32",
+    "spill": "#ff5c12",
+    "seam": "#ff782a",
+    "core": "#ffdda5",
+    "focus": "#d5e7f2",
+    "symbol": "#ffe5bc"
+  },
+  "bodyWell": "#151b21",
+  "sampleStateLayerGains": {
+    "cold": {
+      "cold": 1,
+      "reflection": 0,
+      "spill": 0,
+      "seam": 0,
+      "core": 0,
+      "focus": 0,
+      "symbol": 0
+    },
+    "idle": {
+      "cold": 1,
+      "reflection": 0.08,
+      "spill": 0.12,
+      "seam": 0.28,
+      "core": 0.12,
+      "focus": 0,
+      "symbol": 0
+    },
+    "hovered": {
+      "cold": 1,
+      "reflection": 0.18,
+      "spill": 0.3,
+      "seam": 0.55,
+      "core": 0.32,
+      "focus": 0,
+      "symbol": 0
+    },
+    "selected": {
+      "cold": 1,
+      "reflection": 0.22,
+      "spill": 0.42,
+      "seam": 0.78,
+      "core": 0.55,
+      "focus": 0,
+      "symbol": 1
+    },
+    "selected_focused": {
+      "cold": 1,
+      "reflection": 0.22,
+      "spill": 0.42,
+      "seam": 0.78,
+      "core": 0.55,
+      "focus": 1,
+      "symbol": 1
+    },
+    "pressed": {
+      "cold": 1,
+      "reflection": 0.6,
+      "spill": 1,
+      "seam": 1,
+      "core": 1,
+      "focus": 0,
+      "symbol": 1
+    },
+    "disabled": {
+      "cold": 0.42,
+      "reflection": 0,
+      "spill": 0,
+      "seam": 0,
+      "core": 0,
+      "focus": 0,
+      "symbol": 0
+    },
+    "reduced": {
+      "cold": 1,
+      "reflection": 0.22,
+      "spill": 0.42,
+      "seam": 0.78,
+      "core": 0.55,
+      "focus": 0,
+      "symbol": 1
+    }
+  },
+  "focusOwner": "Interactive owner applies the focus layer independently, including during press. Pressed sample is unfocused.",
+  "selectedCue": "Separate geometric symbol; do not rely on emission color alone.",
+  "animationImplemented": false,
+  "reducedMotion": "Static selected appearance; no motion or breathing.",
+  "coldInspection": "Draw only cold material; preserve original cold pixels."
+}
