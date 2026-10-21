@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "714036229fab02e57e1f6068514150a8d06f12c6ed5dbef2b4d3d519cc0a10fe"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-21T11:36:57+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "e35ecbc4117274a2c9d63c500e31b60b8220497aa97cb97adb9cabfd261f2fc9",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-21T11:36:57+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "d0b632ebd4325e1e60bec9a0baf8e31f6cc07d179db71413c25a9a2651155ae9",
+      "independence": null,
+      "method": "SVG parsing, alpha and neutral-mask pixel audit",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-21T11:36:57+00:00",
+  "project": "07-scalable-frames",
+  "schema": 1,
+  "status": "V2_PASS"
+}

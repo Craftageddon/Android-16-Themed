@@ -12,6 +12,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | [04 — Core component system](iterations/04-core-components/) | 46 control variants; complete retained-file accounting and proposed source/family register | Desktop design and file validation |
 | [05 — System symbols](iterations/05-system-symbols/) | 136 named entries in compact/detailed treatments; 136 compiled Android vectors | Desktop design and resource compile checkpoint |
 | [06 — Rich material expansion](iterations/06-material-expansion/) | Original notification/tile cold masters, separate masks and two live-content screen concepts | Desktop material checkpoint |
+| [07 — Scalable steel frames](iterations/07-scalable-frames/) | Four frame families, 80 real nine-patch density layers and compile/link evidence | Desktop + Android resource checkpoint |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
@@ -30,6 +31,10 @@ The [native handoff](native-handoff/README.md) records rendering ownership, cont
 The [full source register](iterations/04-core-components/source-register/) accounts for 3,423 retained records: 3,422 valid files and one excluded empty file. Its 1,272 proposed family groups require manual review and are not a count of completed redesigns.
 
 ## Use the assets
+
+![Scalable steel](iterations/07-scalable-frames/previews/scalable-frame-sheet.png)
+
+The [October 21 progress register](roadmap/Design_Progress_2026-10-21.csv) retains prior work and records the bounded new scalable-resource evidence. Iteration 07 adds a separate neutral `focus` layer and real Android nine-patch metadata; earlier rich textured artwork keeps its fixed aspect ratio.
 
 Open any `masters/*.svg` in Inkscape. The named layers are `cold`, `seam`, `core`, and `symbol`. Seam/core layers are hidden in the master, white in the separate mask exports, and tinted only for state previews. Text in contact sheets is illustrative; production text stays live in Android. Both 1x and 2x PNG layers have real alpha.
 

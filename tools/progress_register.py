@@ -1,4 +1,5 @@
 """Retain all roadmap rows and add bounded evidence without declaring packages complete."""
+raise SystemExit('Legacy pilot initializer retired: use update_progress.py with an explicit base, updates and output to preserve later work.')
 from pathlib import Path
 import csv
 root=Path(__file__).resolve().parents[1]

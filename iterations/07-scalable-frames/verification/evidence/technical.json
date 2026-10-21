@@ -1,0 +1,19 @@
+{
+  "components": 4,
+  "ninePatchLayers": 80,
+  "densityVariants": 4,
+  "neutralMaskLayers": 64,
+  "identityStretchesChecked": 80,
+  "resizedFixedCornerChecks": 960,
+  "nonuniformBandChecks": 160,
+  "invalidBorderRejected": true,
+  "parsedSvgs": 24,
+  "decodedPngs": 197,
+  "aapt2Version": "Android Asset Packaging Tool (aapt) 2.20-14042983",
+  "compiledDensityResources": 80,
+  "linkedLogicalDrawables": 20,
+  "nativeIntegrated": false,
+  "deviceVerified": false,
+  "scope": "Desktop pixel/metadata checks and Android resource compile/link; runtime V3 pending.",
+  "date": "2026-10-21"
+}

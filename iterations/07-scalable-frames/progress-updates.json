@@ -1,0 +1,4 @@
+{
+ "ES-010":{"design_status":"Partial scalable resource prototype","evidence_scope":"Iteration 07: four frame families, 80 nine-patch density layers, fixed-cap/band checks and compile/link; compact families and target comparison pending"},
+ "ES-067":{"design_status":"Bounded export and nine-patch validation","evidence_scope":"Iteration 07: 80 metadata/alpha/mask checks, 960 fixed-corner comparisons and 20 linked logical drawables; full historical-library validation pending"}
+}

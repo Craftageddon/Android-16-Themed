@@ -1,0 +1,154 @@
+[
+  {
+    "id": "button",
+    "size": [
+      128,
+      64
+    ],
+    "minimumSize": [
+      125,
+      61
+    ],
+    "stretch": [
+      62,
+      66,
+      30,
+      34
+    ],
+    "padding": [
+      20,
+      18,
+      20,
+      18
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "densityScales": {
+      "mdpi": 1,
+      "hdpi": 1.5,
+      "xhdpi": 2,
+      "xxhdpi": 3
+    },
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "field",
+    "size": [
+      160,
+      64
+    ],
+    "minimumSize": [
+      157,
+      61
+    ],
+    "stretch": [
+      78,
+      82,
+      30,
+      34
+    ],
+    "padding": [
+      22,
+      18,
+      22,
+      18
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "densityScales": {
+      "mdpi": 1,
+      "hdpi": 1.5,
+      "xhdpi": 2,
+      "xxhdpi": 3
+    },
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "panel",
+    "size": [
+      160,
+      128
+    ],
+    "minimumSize": [
+      157,
+      125
+    ],
+    "stretch": [
+      78,
+      82,
+      62,
+      66
+    ],
+    "padding": [
+      24,
+      24,
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "densityScales": {
+      "mdpi": 1,
+      "hdpi": 1.5,
+      "xhdpi": 2,
+      "xxhdpi": 3
+    },
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "notification",
+    "size": [
+      192,
+      96
+    ],
+    "minimumSize": [
+      189,
+      93
+    ],
+    "stretch": [
+      94,
+      98,
+      46,
+      50
+    ],
+    "padding": [
+      26,
+      22,
+      26,
+      22
+    ],
+    "layers": [
+      "cold",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "densityScales": {
+      "mdpi": 1,
+      "hdpi": 1.5,
+      "xhdpi": 2,
+      "xxhdpi": 3
+    },
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  }
+]

@@ -1,6 +1,6 @@
-# Redesign checkpoint status — 2026-10-20
+# Redesign checkpoint status — 2026-10-21
 
-Six source iterations are preserved independently. These are work-in-progress design uploads, not finalized Android/ROM releases.
+Seven source iterations are preserved independently. These are work-in-progress design uploads, not finalized Android/ROM releases.
 
 | Work | Current result | Remaining validation |
 |---|---|---|
@@ -11,6 +11,7 @@ Six source iterations are preserved independently. These are work-in-progress de
 | Cold / seam / core / symbol exports | 1x and 2x transparent layers, neutral masks | Native renderer parity and density budget |
 | Detailed primary button and charging socket | Original unlit raster masters plus editable neutral masks | More material harmonization with everyday controls |
 | Rich notification and quick-settings material | Two more unchanged cold masters, neutral masks and two logical screen concepts | Space efficiency, final mask alignment and target profiling |
+| Stretchable frame resources | Four original families, 80 density-specific nine-patch layers, 20 linked logical drawables; fixed-cap and uniform-band checks | Native runtime comparison, physical V3 and production memory/performance |
 | Seven state previews | Cold, idle, selected, focused, pressed, disabled, reduced motion | Actual Android input/lifecycle and accessibility behavior |
 | State resolution reference | Five Node tests pass | Native implementation and target tests |
 | Inkscape | Hero primary master opened; linked raster and alpha rendered | Full layer editing and export/reimport round-trip |
@@ -18,7 +19,7 @@ Six source iterations are preserved independently. These are work-in-progress de
 | Native handoff resources | Four XML resource files compiled with AAPT2 | Link into verified owner, install and render on target |
 | LineageOS/device/kernel work | Roadmap and unrun test matrix only | Exact baseline, reproducible source and device access |
 
-The original 103 work-package rows are retained as planning inputs. The source register now provides complete retained-file accounting and candidate family mappings; manual canonical-source reconciliation remains incomplete. Production nine-patches, installed-app coverage, final sound/motion overhaul, native SystemUI integration, controller calibration backend, firmware changes and physical-device sign-off remain incomplete.
+The original 103 work-package rows are retained as planning inputs. The source register provides complete retained-file accounting and candidate family mappings; manual canonical-source reconciliation remains incomplete. Four nine-patch families now compile/link, but final production validation, installed-app coverage, sound/motion overhaul, native SystemUI integration, controller calibration backend, firmware changes and physical-device sign-off remain incomplete.
 
 Next design work: bring the everyday frames closer to the rich steel masters, validate true-size glyphs and long/large text in the measured Thor layouts, then implement one reversible native vertical slice. Retain every earlier checkpoint and compare against the same reference board.
 
