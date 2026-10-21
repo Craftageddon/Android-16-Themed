@@ -1,0 +1,130 @@
+{
+  "iteration": 13,
+  "sceneCount": 42,
+  "componentMasters": 18,
+  "scope": "New editable flow concepts, not production OS integration",
+  "roadmapEvidence": {
+    "ES-040": [
+      "app-drawer",
+      "folder-open",
+      "widget-picker",
+      "search-results",
+      "search-empty"
+    ],
+    "ES-042": [
+      "search-results",
+      "search-empty",
+      "settings-home",
+      "settings-display"
+    ],
+    "ES-043": [
+      "power-menu"
+    ],
+    "ES-044": [
+      "lock-pin",
+      "lock-pattern",
+      "lock-biometric"
+    ],
+    "ES-045": [
+      "recents-overview",
+      "recents-empty"
+    ],
+    "ES-046": [
+      "share-sheet"
+    ],
+    "ES-047": [
+      "permission-camera",
+      "privacy-dashboard"
+    ],
+    "ES-048": [
+      "photo-picker",
+      "file-picker",
+      "file-picker-error"
+    ],
+    "ES-049": [
+      "clipboard-history"
+    ],
+    "ES-050": [
+      "screenshot-editor"
+    ],
+    "ES-051": [
+      "keyboard-symbols",
+      "keyboard-numbers"
+    ],
+    "ES-052": [
+      "volume-output"
+    ],
+    "ES-054": [
+      "split-layout"
+    ],
+    "TH-001": [
+      "thor-remap",
+      "input-prompts"
+    ],
+    "TH-002": [
+      "input-prompts"
+    ],
+    "TH-003": [
+      "thor-diagnostics"
+    ],
+    "TH-004": [
+      "thor-trigger-modes",
+      "thor-remap",
+      "thor-controls-unavailable"
+    ],
+    "TH-005": [
+      "input-prompts"
+    ],
+    "TH-006": [
+      "thor-virtual-mouse",
+      "thor-controls-unavailable"
+    ],
+    "TH-007": [
+      "thor-touch-mapping",
+      "thor-controls-unavailable"
+    ],
+    "TH-008": [
+      "thor-profiles"
+    ],
+    "TH-009": [
+      "thor-profiles",
+      "thor-profile-readback"
+    ],
+    "TH-012": [
+      "thor-display-controls",
+      "thor-keyboard-target"
+    ],
+    "TH-013": [
+      "thor-lid-resume"
+    ],
+    "TH-014": [
+      "thor-capture"
+    ],
+    "TH-015": [
+      "thor-performance",
+      "thor-thermal-warning",
+      "thor-controls-unavailable"
+    ],
+    "TH-016": [
+      "thor-charge-limit",
+      "thor-controls-unavailable"
+    ],
+    "TH-017": [
+      "thor-rgb-zones",
+      "thor-controls-unavailable"
+    ],
+    "TH-018": [
+      "thor-diagnostics",
+      "thor-controls-unavailable"
+    ]
+  },
+  "remaining": [
+    "Full permission variants, deny/revoke outcomes, picker empty and provider states",
+    "PIN rejection/lockout, biometric failure/unavailable and pattern errors",
+    "Complete IME interaction, suggestion rejection and alternate language layouts",
+    "Thor per-feature unavailable/pending/error/apply/restore/capture arbitration and recording variants",
+    "Wallpapers, boot/recovery/loading, full charging scenes and motion",
+    "Installed-app-specific icons and retained historical source reconciliation",
+    "Native SystemUI/launcher/IME/settings integration, device accessibility and performance"
+  ]
+}

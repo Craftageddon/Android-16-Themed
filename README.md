@@ -18,6 +18,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | [10 — Reference Forge](iterations/10-reference-forge/) | Three chipped-steel detailed icons, neutral light masks, cold-off state contract and four retained frame family comparisons | Three desktop passes + source/state checks; native/device validation pending |
 | [11 — Forge symbol library](iterations/11-forge-symbol-library/) | All 136 named symbols in two optical treatments and all nine large sculpted motifs | Full authored-symbol coverage; source/resource checks; device validation pending |
 | [12 — Forge controls and screens](iterations/12-forge-controls-and-screens/) | All 46 retained controls, 18 pilots, four new scalable families, eight layouts and live-label input examples | Authored-catalog restyle; 112 resource configurations; native/device validation pending |
+| [13 — Android flows and Thor panels](iterations/13-forge-android-and-thor-flows/) | 42 new editable screen concepts, 18 layered controls, cold/selected previews and searchable gallery | Desktop art checkpoint; sample capabilities; full state coverage and native/device work pending |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
@@ -36,6 +37,8 @@ The [native handoff](native-handoff/README.md) records rendering ownership, cont
 The [full source register](iterations/04-core-components/source-register/) accounts for 3,423 retained records: 3,422 valid files and one excluded empty file. Its 1,272 proposed family groups require manual review and are not a count of completed redesigns.
 
 ## Use the assets
+
+The [new Android and Thor flow gallery](iterations/13-forge-android-and-thor-flows/index.html) adds 42 editable concept scenes and 18 control masters. Its [cold/selected comparison](iterations/13-forge-android-and-thor-flows/previews/cold-and-selected-scenes.png) shows the same steel with emission hidden or enabled. These are visual fixtures; full state coverage and native/device validation remain open.
 
 ![Reference Forge motifs](iterations/11-forge-symbol-library/previews/nine-motifs-off-on.png)
 

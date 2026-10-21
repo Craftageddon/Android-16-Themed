@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-21",
+  "newRasterGeneration": false,
+  "method": "Original editable geometry using unchanged existing cold material through SVG patterns. No generated source repainted.",
+  "inputs": [
+    {
+      "file": "steel-material.png",
+      "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+      "from": "iterations/11-forge-symbol-library/source/steel-material.png",
+      "modified": false
+    },
+    {
+      "file": "steel-material-original.png",
+      "sha256": "050fc50e92397b4d6057d78bedc22e5c0ec27cc06a45ef24c01ce5875608b390",
+      "from": "iterations/11-forge-symbol-library/source/steel-material-original.png",
+      "modified": false
+    }
+  ]
+}

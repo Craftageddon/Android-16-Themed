@@ -1,6 +1,8 @@
 # Redesign checkpoint status — 2026-10-21
 
-Twelve source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
+Thirteen source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
+
+Iteration 13 adds 42 new editable screen concepts (25 Android, 17 Thor) and 18 layered control masters, continuing Reference Forge into previously missing flows. Launcher browsing, Settings, recents, power, sharing/permissions, picking, clipboard/capture, audio, unlock and keyboard art now have initial compositions. Thor input/profile/display/capture/cooling/charging/lighting/diagnostic panels use explicit sample fixtures and include an all-cold unavailable-hardware view. This is partial flow/state coverage. The [coverage map](iterations/13-forge-android-and-thor-flows/coverage-map.json) lists remaining artwork; the APK and all native/device integration remain unchanged.
 
 The current direction is Reference Forge: chipped dark steel, sharp fittings and separate ember layers. Off/unselected is cold. Selected, checked or on enables emission; focus and hover alone do not. Explicit off-value artwork is locked cold. Iteration 11 applies this to all 136 authored named symbols in compact/detailed treatments and all nine large sculpted motifs. Historical source reconciliation and unauthored roadmap surfaces remain incomplete.
 

@@ -1,0 +1,668 @@
+[
+  {
+    "id": "pin_key",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "pin_key",
+    "size": [
+      96,
+      88
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "pattern_node",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      72,
+      144
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "pattern_node",
+    "size": [
+      72,
+      72
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "biometric_socket",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      160,
+      320
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "biometric_socket",
+    "size": [
+      160,
+      160
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "volume_rail",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      80,
+      160
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "volume_rail",
+    "size": [
+      80,
+      320
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "app_socket",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      100,
+      200
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "app_socket",
+    "size": [
+      100,
+      100
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "folder_socket",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      200,
+      400
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "folder_socket",
+    "size": [
+      200,
+      160
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "task_card",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      240,
+      480
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "task_card",
+    "size": [
+      240,
+      320
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "media_cell",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      160,
+      320
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "media_cell",
+    "size": [
+      160,
+      160
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "suggestion",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      168,
+      336
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "suggestion",
+    "size": [
+      168,
+      64
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "chord_link",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      240,
+      480
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "chord_link",
+    "size": [
+      240,
+      80
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "stick_gate",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      184,
+      368
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "stick_gate",
+    "size": [
+      184,
+      184
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "trigger_gauge",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      176,
+      352
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "trigger_gauge",
+    "size": [
+      176,
+      240
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "mapping_slot",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      240,
+      480
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "mapping_slot",
+    "size": [
+      240,
+      100
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "display_pair",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      240,
+      480
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "display_pair",
+    "size": [
+      240,
+      176
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "thermal_gauge",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      240,
+      480
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "thermal_gauge",
+    "size": [
+      240,
+      150
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "charge_limit",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      240,
+      480
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "charge_limit",
+    "size": [
+      240,
+      120
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "rgb_zone",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      240,
+      480
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "rgb_zone",
+    "size": [
+      240,
+      120
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "unavailable",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      240,
+      480
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "flow-component",
+    "canonicalId": "unavailable_off",
+    "size": [
+      240,
+      96
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  }
+]

@@ -1,0 +1,10788 @@
+[
+  {
+    "id": "app-drawer",
+    "title": "App library",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-040"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Browse, search and organize",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "App library",
+        "bounds": [
+          30,
+          49,
+          160.02,
+          34
+        ]
+      },
+      {
+        "text": "Browse your apps",
+        "bounds": [
+          32,
+          88,
+          117.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Search apps",
+        "bounds": [
+          96,
+          164,
+          112.0,
+          25
+        ]
+      },
+      {
+        "text": "Games",
+        "bounds": [
+          56.0,
+          354,
+          48.0,
+          20
+        ]
+      },
+      {
+        "text": "Files",
+        "bounds": [
+          210.5,
+          354,
+          31.0,
+          20
+        ]
+      },
+      {
+        "text": "Settings",
+        "bounds": [
+          344.0,
+          354,
+          56.0,
+          20
+        ]
+      },
+      {
+        "text": "Gallery",
+        "bounds": [
+          493.5,
+          354,
+          49.0,
+          20
+        ]
+      },
+      {
+        "text": "Browser",
+        "bounds": [
+          51.5,
+          539,
+          57.0,
+          20
+        ]
+      },
+      {
+        "text": "Music",
+        "bounds": [
+          205.5,
+          539,
+          41.0,
+          20
+        ]
+      },
+      {
+        "text": "Camera",
+        "bounds": [
+          345.0,
+          539,
+          54.0,
+          20
+        ]
+      },
+      {
+        "text": "Clock",
+        "bounds": [
+          499.0,
+          539,
+          38.0,
+          20
+        ]
+      },
+      {
+        "text": "Notes",
+        "bounds": [
+          59.5,
+          724,
+          41.0,
+          20
+        ]
+      },
+      {
+        "text": "Recorder",
+        "bounds": [
+          194.5,
+          724,
+          63.0,
+          20
+        ]
+      },
+      {
+        "text": "Terminal",
+        "bounds": [
+          341.51,
+          724,
+          60.98,
+          20
+        ]
+      },
+      {
+        "text": "Tools",
+        "bounds": [
+          499.51,
+          724,
+          36.98,
+          20
+        ]
+      },
+      {
+        "text": "A\u2013Z",
+        "bounds": [
+          32,
+          879,
+          27.0,
+          20
+        ]
+      },
+      {
+        "text": "12 sample apps",
+        "bounds": [
+          459.0,
+          879,
+          109.0,
+          20
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          140,
+          552,
+          72
+        ]
+      },
+      {
+        "owner": "search",
+        "state": "off",
+        "bounds": [
+          40,
+          157,
+          36,
+          36
+        ]
+      },
+      {
+        "owner": "Games",
+        "state": "on",
+        "bounds": [
+          30,
+          245,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "gaming",
+        "state": "off",
+        "bounds": [
+          55,
+          270,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Files",
+        "state": "off",
+        "bounds": [
+          176,
+          245,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "folder",
+        "state": "off",
+        "bounds": [
+          201,
+          270,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Settings",
+        "state": "off",
+        "bounds": [
+          322,
+          245,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "settings",
+        "state": "off",
+        "bounds": [
+          347,
+          270,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Gallery",
+        "state": "off",
+        "bounds": [
+          468,
+          245,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "apps",
+        "state": "off",
+        "bounds": [
+          493,
+          270,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Browser",
+        "state": "off",
+        "bounds": [
+          30,
+          430,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "network",
+        "state": "off",
+        "bounds": [
+          55,
+          455,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Music",
+        "state": "off",
+        "bounds": [
+          176,
+          430,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "audio",
+        "state": "off",
+        "bounds": [
+          201,
+          455,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Camera",
+        "state": "off",
+        "bounds": [
+          322,
+          430,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "camera_on",
+        "state": "off",
+        "bounds": [
+          347,
+          455,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Clock",
+        "state": "off",
+        "bounds": [
+          468,
+          430,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "alarm_on",
+        "state": "off",
+        "bounds": [
+          493,
+          455,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Notes",
+        "state": "off",
+        "bounds": [
+          30,
+          615,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "document",
+        "state": "off",
+        "bounds": [
+          55,
+          640,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Recorder",
+        "state": "off",
+        "bounds": [
+          176,
+          615,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "microphone_on",
+        "state": "off",
+        "bounds": [
+          201,
+          640,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Terminal",
+        "state": "off",
+        "bounds": [
+          322,
+          615,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "system",
+        "state": "off",
+        "bounds": [
+          347,
+          640,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Tools",
+        "state": "off",
+        "bounds": [
+          468,
+          615,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "controls",
+        "state": "off",
+        "bounds": [
+          493,
+          640,
+          50,
+          50
+        ]
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "folder-open",
+    "title": "Games folder",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-040"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Editable folder and app housings",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Games folder",
+        "bounds": [
+          30,
+          49,
+          187.0,
+          34
+        ]
+      },
+      {
+        "text": "Your saved shortcuts",
+        "bounds": [
+          32,
+          88,
+          134.98,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Games",
+        "bounds": [
+          60,
+          180,
+          79.0,
+          29
+        ]
+      },
+      {
+        "text": "Library",
+        "bounds": [
+          90.5,
+          359,
+          49.0,
+          20
+        ]
+      },
+      {
+        "text": "Streaming",
+        "bounds": [
+          264.0,
+          359,
+          72.0,
+          20
+        ]
+      },
+      {
+        "text": "Arcade",
+        "bounds": [
+          461.0,
+          359,
+          48.0,
+          20
+        ]
+      },
+      {
+        "text": "Emulator",
+        "bounds": [
+          83.5,
+          569,
+          63.0,
+          20
+        ]
+      },
+      {
+        "text": "Companion",
+        "bounds": [
+          259.5,
+          569,
+          81.0,
+          20
+        ]
+      },
+      {
+        "text": "Add app",
+        "bounds": [
+          456.0,
+          569,
+          58.0,
+          20
+        ]
+      },
+      {
+        "text": "Close folder",
+        "bounds": [
+          249.5,
+          859,
+          101.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          150,
+          552,
+          650
+        ]
+      },
+      {
+        "owner": "edit",
+        "state": "off",
+        "bounds": [
+          500,
+          173,
+          40,
+          40
+        ]
+      },
+      {
+        "owner": "Library",
+        "state": "on",
+        "bounds": [
+          65,
+          250,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "gaming",
+        "state": "off",
+        "bounds": [
+          90,
+          275,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Streaming",
+        "state": "off",
+        "bounds": [
+          250,
+          250,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "cast_on",
+        "state": "off",
+        "bounds": [
+          275,
+          275,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Arcade",
+        "state": "off",
+        "bounds": [
+          435,
+          250,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "controller",
+        "state": "off",
+        "bounds": [
+          460,
+          275,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Emulator",
+        "state": "off",
+        "bounds": [
+          65,
+          460,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "system",
+        "state": "off",
+        "bounds": [
+          90,
+          485,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Companion",
+        "state": "off",
+        "bounds": [
+          250,
+          460,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "display_lower",
+        "state": "off",
+        "bounds": [
+          275,
+          485,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Add app",
+        "state": "off",
+        "bounds": [
+          435,
+          460,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "apps",
+        "state": "off",
+        "bounds": [
+          460,
+          485,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Close folder",
+        "state": "off",
+        "bounds": [
+          165,
+          838,
+          270,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Close folder",
+        "state": "off",
+        "bounds": [
+          165,
+          838,
+          270,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "widget-picker",
+    "title": "Widgets",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-040"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Preview sizes before adding",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Widgets",
+        "bounds": [
+          30,
+          49,
+          118.0,
+          34
+        ]
+      },
+      {
+        "text": "Choose a widget for your home screen",
+        "bounds": [
+          32,
+          88,
+          255.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Clock",
+        "bounds": [
+          58,
+          176,
+          56.0,
+          26
+        ]
+      },
+      {
+        "text": "10:24",
+        "bounds": [
+          58,
+          236,
+          165.0,
+          68
+        ]
+      },
+      {
+        "text": "Wednesday, 21 October",
+        "bounds": [
+          60,
+          324,
+          191.98,
+          22
+        ]
+      },
+      {
+        "text": "Now playing",
+        "bounds": [
+          58,
+          440,
+          131.0,
+          26
+        ]
+      },
+      {
+        "text": "Select your music",
+        "bounds": [
+          158,
+          511,
+          188.0,
+          28
+        ]
+      },
+      {
+        "text": "2 \u00d7 2 preview",
+        "bounds": [
+          158,
+          553,
+          103.0,
+          21
+        ]
+      },
+      {
+        "text": "Add clock",
+        "bounds": [
+          114.0,
+          689,
+          84.0,
+          22
+        ]
+      },
+      {
+        "text": "Cancel",
+        "bounds": [
+          416.0,
+          689,
+          56.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          150,
+          552,
+          232
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          410,
+          552,
+          218
+        ]
+      },
+      {
+        "owner": "audio",
+        "state": "off",
+        "bounds": [
+          56,
+          493,
+          76,
+          76
+        ]
+      },
+      {
+        "owner": "Add clock",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          668,
+          264,
+          64
+        ]
+      },
+      {
+        "owner": "Cancel",
+        "state": "off",
+        "bounds": [
+          312,
+          668,
+          264,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Add clock",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          668,
+          264,
+          64
+        ]
+      },
+      {
+        "label": "Cancel",
+        "state": "off",
+        "bounds": [
+          312,
+          668,
+          264,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "search-results",
+    "title": "Search",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-040",
+      "ES-042"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Apps and settings",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Search",
+        "bounds": [
+          30,
+          49,
+          93.0,
+          34
+        ]
+      },
+      {
+        "text": "Apps and settings",
+        "bounds": [
+          32,
+          88,
+          118.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "display",
+        "bounds": [
+          56,
+          169,
+          73.0,
+          27
+        ]
+      },
+      {
+        "text": "Display",
+        "bounds": [
+          104,
+          259,
+          71.0,
+          25
+        ]
+      },
+      {
+        "text": "Brightness, text and color",
+        "bounds": [
+          104,
+          292,
+          167.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          269,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Screen routing",
+        "bounds": [
+          104,
+          371,
+          145.0,
+          25
+        ]
+      },
+      {
+        "text": "Upper and lower display",
+        "bounds": [
+          104,
+          404,
+          162.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          381,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Display companion",
+        "bounds": [
+          104,
+          483,
+          188.0,
+          25
+        ]
+      },
+      {
+        "text": "App",
+        "bounds": [
+          104,
+          516,
+          28.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          493,
+          5.0,
+          21
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          145,
+          552,
+          74
+        ]
+      },
+      {
+        "owner": "close",
+        "state": "off",
+        "bounds": [
+          510,
+          166,
+          32,
+          32
+        ]
+      },
+      {
+        "owner": "Display",
+        "state": "off",
+        "bounds": [
+          24,
+          245,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "display",
+        "state": "off",
+        "bounds": [
+          42,
+          268,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Screen routing",
+        "state": "off",
+        "bounds": [
+          24,
+          357,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "screen_swap",
+        "state": "off",
+        "bounds": [
+          42,
+          380,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Display companion",
+        "state": "off",
+        "bounds": [
+          24,
+          469,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "display_lower",
+        "state": "off",
+        "bounds": [
+          42,
+          492,
+          44,
+          44
+        ]
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "search-empty",
+    "title": "Search",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-040",
+      "ES-042"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "No matching apps or settings",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Search",
+        "bounds": [
+          30,
+          49,
+          93.0,
+          34
+        ]
+      },
+      {
+        "text": "Apps and settings",
+        "bounds": [
+          32,
+          88,
+          118.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "unmatched query",
+        "bounds": [
+          56,
+          169,
+          180.02,
+          27
+        ]
+      },
+      {
+        "text": "No results",
+        "bounds": [
+          238.5,
+          383,
+          123.0,
+          30
+        ]
+      },
+      {
+        "text": "Try a shorter name or another keyword. Your apps and",
+        "bounds": [
+          70,
+          432,
+          433.98,
+          22
+        ]
+      },
+      {
+        "text": "settings are still available from their home pages.",
+        "bounds": [
+          70,
+          459,
+          387.0,
+          22
+        ]
+      },
+      {
+        "text": "Clear search",
+        "bounds": [
+          248.5,
+          671,
+          103.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          145,
+          552,
+          74
+        ]
+      },
+      {
+        "owner": "search",
+        "state": "off",
+        "bounds": [
+          254.0,
+          270,
+          92,
+          92
+        ]
+      },
+      {
+        "owner": "Clear search",
+        "state": "off",
+        "bounds": [
+          150,
+          650,
+          300,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Clear search",
+        "state": "off",
+        "bounds": [
+          150,
+          650,
+          300,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "settings-home",
+    "title": "Settings",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-042"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Quiet text wells, cold category artwork",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Settings",
+        "bounds": [
+          30,
+          49,
+          116.0,
+          34
+        ]
+      },
+      {
+        "text": "Personalize your device",
+        "bounds": [
+          32,
+          88,
+          155.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Network & internet",
+        "bounds": [
+          104,
+          159,
+          194.0,
+          25
+        ]
+      },
+      {
+        "text": "Wi-Fi, connectivity",
+        "bounds": [
+          104,
+          192,
+          121.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          169,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Connected devices",
+        "bounds": [
+          104,
+          277,
+          182.0,
+          25
+        ]
+      },
+      {
+        "text": "Bluetooth, USB, controllers",
+        "bounds": [
+          104,
+          310,
+          176.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          287,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Display",
+        "bounds": [
+          104,
+          395,
+          71.0,
+          25
+        ]
+      },
+      {
+        "text": "Brightness, text, screen routing",
+        "bounds": [
+          104,
+          428,
+          201.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          405,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Sound & vibration",
+        "bounds": [
+          104,
+          513,
+          183.0,
+          25
+        ]
+      },
+      {
+        "text": "Volume, outputs, feedback",
+        "bounds": [
+          104,
+          546,
+          175.98,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          523,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Privacy & security",
+        "bounds": [
+          104,
+          631,
+          176.0,
+          25
+        ]
+      },
+      {
+        "text": "Permissions, lock and privacy",
+        "bounds": [
+          104,
+          664,
+          191.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          641,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Apps & storage",
+        "bounds": [
+          104,
+          749,
+          153.0,
+          25
+        ]
+      },
+      {
+        "text": "Installed apps and files",
+        "bounds": [
+          104,
+          782,
+          152.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          759,
+          5.0,
+          21
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Network & internet",
+        "state": "off",
+        "bounds": [
+          24,
+          145,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "network",
+        "state": "off",
+        "bounds": [
+          42,
+          168,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Connected devices",
+        "state": "off",
+        "bounds": [
+          24,
+          263,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "bluetooth_on",
+        "state": "off",
+        "bounds": [
+          42,
+          286,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Display",
+        "state": "off",
+        "bounds": [
+          24,
+          381,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "display",
+        "state": "off",
+        "bounds": [
+          42,
+          404,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Sound & vibration",
+        "state": "off",
+        "bounds": [
+          24,
+          499,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "audio",
+        "state": "off",
+        "bounds": [
+          42,
+          522,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Privacy & security",
+        "state": "off",
+        "bounds": [
+          24,
+          617,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "privacy",
+        "state": "off",
+        "bounds": [
+          42,
+          640,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Apps & storage",
+        "state": "off",
+        "bounds": [
+          24,
+          735,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "apps",
+        "state": "off",
+        "bounds": [
+          42,
+          758,
+          44,
+          44
+        ]
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "settings-display",
+    "title": "Display",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-042"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Sample settings; value labels stay live",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Display",
+        "bounds": [
+          30,
+          49,
+          104.0,
+          34
+        ]
+      },
+      {
+        "text": "Brightness, appearance and text",
+        "bounds": [
+          32,
+          88,
+          211.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Adaptive brightness",
+        "bounds": [
+          104,
+          159,
+          197.0,
+          25
+        ]
+      },
+      {
+        "text": "Adjust for available light",
+        "bounds": [
+          104,
+          192,
+          163.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          527.0,
+          181,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Brightness",
+        "bounds": [
+          58,
+          286,
+          110.0,
+          26
+        ]
+      },
+      {
+        "text": "65%",
+        "bounds": [
+          502.0,
+          288,
+          38.0,
+          24
+        ]
+      },
+      {
+        "text": "Text size",
+        "bounds": [
+          104,
+          474,
+          84.97,
+          25
+        ]
+      },
+      {
+        "text": "Default",
+        "bounds": [
+          104,
+          507,
+          49.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          484,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Dark appearance",
+        "bounds": [
+          104,
+          586,
+          164.0,
+          25
+        ]
+      },
+      {
+        "text": "Ember Steel",
+        "bounds": [
+          104,
+          619,
+          80.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          527.0,
+          608,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Preview text",
+        "bounds": [
+          247.0,
+          741,
+          106.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Adaptive brightness",
+        "state": "off",
+        "bounds": [
+          24,
+          145,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "display",
+        "state": "off",
+        "bounds": [
+          42,
+          168,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Adaptive brightness state",
+        "state": "on",
+        "bounds": [
+          511,
+          169,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          260,
+          552,
+          170
+        ]
+      },
+      {
+        "owner": "pattern_node",
+        "state": "on",
+        "bounds": [
+          332,
+          332,
+          72,
+          72
+        ]
+      },
+      {
+        "owner": "Text size",
+        "state": "off",
+        "bounds": [
+          24,
+          460,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "accessibility",
+        "state": "off",
+        "bounds": [
+          42,
+          483,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Dark appearance",
+        "state": "off",
+        "bounds": [
+          24,
+          572,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "display",
+        "state": "off",
+        "bounds": [
+          42,
+          595,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Dark appearance state",
+        "state": "on",
+        "bounds": [
+          511,
+          596,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Preview text",
+        "state": "off",
+        "bounds": [
+          24,
+          720,
+          552,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Preview text",
+        "state": "off",
+        "bounds": [
+          24,
+          720,
+          552,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "recents-overview",
+    "title": "Recent apps",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-045"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Select a task or close it",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Recent apps",
+        "bounds": [
+          30,
+          49,
+          170.98,
+          34
+        ]
+      },
+      {
+        "text": "Switch between your open apps",
+        "bounds": [
+          32,
+          88,
+          211.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Game library",
+        "bounds": [
+          99.99,
+          440,
+          112.02,
+          24
+        ]
+      },
+      {
+        "text": "Files",
+        "bounds": [
+          415.0,
+          440,
+          38.0,
+          24
+        ]
+      },
+      {
+        "text": "Clear all",
+        "bounds": [
+          266.0,
+          671,
+          68.0,
+          22
+        ]
+      },
+      {
+        "text": "Selected task opens on confirmation",
+        "bounds": [
+          174.5,
+          754,
+          251.0,
+          20
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Game library",
+        "state": "on",
+        "bounds": [
+          36,
+          210,
+          240,
+          320
+        ]
+      },
+      {
+        "owner": "gaming",
+        "state": "off",
+        "bounds": [
+          123,
+          310,
+          66,
+          66
+        ]
+      },
+      {
+        "owner": "close",
+        "state": "off",
+        "bounds": [
+          226,
+          225,
+          30,
+          30
+        ]
+      },
+      {
+        "owner": "Files",
+        "state": "off",
+        "bounds": [
+          314,
+          210,
+          240,
+          320
+        ]
+      },
+      {
+        "owner": "folder",
+        "state": "off",
+        "bounds": [
+          401,
+          310,
+          66,
+          66
+        ]
+      },
+      {
+        "owner": "close",
+        "state": "off",
+        "bounds": [
+          504,
+          225,
+          30,
+          30
+        ]
+      },
+      {
+        "owner": "Clear all",
+        "state": "off",
+        "bounds": [
+          174,
+          650,
+          252,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Clear all",
+        "state": "off",
+        "bounds": [
+          174,
+          650,
+          252,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "recents-empty",
+    "title": "Recent apps",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-045"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Empty state",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Recent apps",
+        "bounds": [
+          30,
+          49,
+          170.98,
+          34
+        ]
+      },
+      {
+        "text": "Your recent apps",
+        "bounds": [
+          32,
+          88,
+          110.98,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "All clear",
+        "bounds": [
+          252.0,
+          383,
+          96.0,
+          30
+        ]
+      },
+      {
+        "text": "Open an app and it will appear here for quick switching.",
+        "bounds": [
+          70,
+          432,
+          441.0,
+          22
+        ]
+      },
+      {
+        "text": "Go home",
+        "bounds": [
+          261.5,
+          676,
+          77.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "recents",
+        "state": "off",
+        "bounds": [
+          254.0,
+          270,
+          92,
+          92
+        ]
+      },
+      {
+        "owner": "Go home",
+        "state": "off",
+        "bounds": [
+          150,
+          655,
+          300,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Go home",
+        "state": "off",
+        "bounds": [
+          150,
+          655,
+          300,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "power-menu",
+    "title": "Power controls",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-043"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Selection lights only the chosen action",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Power controls",
+        "bounds": [
+          30,
+          49,
+          209.98,
+          34
+        ]
+      },
+      {
+        "text": "Choose an action",
+        "bounds": [
+          32,
+          88,
+          114.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Power off",
+        "bounds": [
+          107.51,
+          341,
+          104.98,
+          27
+        ]
+      },
+      {
+        "text": "Restart",
+        "bounds": [
+          402.0,
+          341,
+          76.0,
+          27
+        ]
+      },
+      {
+        "text": "Lockdown",
+        "bounds": [
+          105.0,
+          581,
+          110.0,
+          27
+        ]
+      },
+      {
+        "text": "Cancel",
+        "bounds": [
+          405.0,
+          581,
+          70.0,
+          27
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Power off",
+        "state": "off",
+        "bounds": [
+          32,
+          205,
+          256,
+          210
+        ]
+      },
+      {
+        "owner": "power",
+        "state": "off",
+        "bounds": [
+          118,
+          237,
+          84,
+          84
+        ]
+      },
+      {
+        "owner": "Restart",
+        "state": "selected_focused",
+        "bounds": [
+          312,
+          205,
+          256,
+          210
+        ]
+      },
+      {
+        "owner": "restart",
+        "state": "off",
+        "bounds": [
+          398,
+          237,
+          84,
+          84
+        ]
+      },
+      {
+        "owner": "Lockdown",
+        "state": "off",
+        "bounds": [
+          32,
+          445,
+          256,
+          210
+        ]
+      },
+      {
+        "owner": "lockdown",
+        "state": "off",
+        "bounds": [
+          118,
+          477,
+          84,
+          84
+        ]
+      },
+      {
+        "owner": "Cancel",
+        "state": "off",
+        "bounds": [
+          312,
+          445,
+          256,
+          210
+        ]
+      },
+      {
+        "owner": "close",
+        "state": "off",
+        "bounds": [
+          398,
+          477,
+          84,
+          84
+        ]
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "permission-camera",
+    "title": "Camera permission",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-047"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Platform-owned prompt visual concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Camera permission",
+        "bounds": [
+          30,
+          49,
+          268.0,
+          34
+        ]
+      },
+      {
+        "text": "Camera access",
+        "bounds": [
+          32,
+          88,
+          97.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Allow camera access?",
+        "bounds": [
+          163.0,
+          350,
+          274.0,
+          31
+        ]
+      },
+      {
+        "text": "Sample Camera needs the camera to take a picture.",
+        "bounds": [
+          68,
+          406,
+          431.0,
+          23
+        ]
+      },
+      {
+        "text": "Choose when access is allowed.",
+        "bounds": [
+          68,
+          434,
+          266.0,
+          23
+        ]
+      },
+      {
+        "text": "While using the app",
+        "bounds": [
+          215.0,
+          576,
+          170.0,
+          22
+        ]
+      },
+      {
+        "text": "Only this time",
+        "bounds": [
+          240.5,
+          656,
+          119.0,
+          22
+        ]
+      },
+      {
+        "text": "Do not allow",
+        "bounds": [
+          246.0,
+          736,
+          108.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          185,
+          552,
+          650
+        ]
+      },
+      {
+        "owner": "camera_on",
+        "state": "off",
+        "bounds": [
+          250,
+          220,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "While using the app",
+        "state": "selected_focused",
+        "bounds": [
+          56,
+          555,
+          488,
+          64
+        ]
+      },
+      {
+        "owner": "Only this time",
+        "state": "off",
+        "bounds": [
+          56,
+          635,
+          488,
+          64
+        ]
+      },
+      {
+        "owner": "Do not allow",
+        "state": "off",
+        "bounds": [
+          56,
+          715,
+          488,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "While using the app",
+        "state": "selected_focused",
+        "bounds": [
+          56,
+          555,
+          488,
+          64
+        ]
+      },
+      {
+        "label": "Only this time",
+        "state": "off",
+        "bounds": [
+          56,
+          635,
+          488,
+          64
+        ]
+      },
+      {
+        "label": "Do not allow",
+        "state": "off",
+        "bounds": [
+          56,
+          715,
+          488,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "privacy-dashboard",
+    "title": "Privacy",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-047"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Recent access and permission entry points",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Privacy",
+        "bounds": [
+          30,
+          49,
+          101.0,
+          34
+        ]
+      },
+      {
+        "text": "Review recent app access",
+        "bounds": [
+          32,
+          88,
+          168.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Camera",
+        "bounds": [
+          104,
+          174,
+          73.0,
+          25
+        ]
+      },
+      {
+        "text": "Sample Camera \u00b7 just now",
+        "bounds": [
+          104,
+          207,
+          171.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          184,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Microphone",
+        "bounds": [
+          104,
+          292,
+          120.0,
+          25
+        ]
+      },
+      {
+        "text": "Sample Recorder \u00b7 18 min ago",
+        "bounds": [
+          104,
+          325,
+          200.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          302,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Location",
+        "bounds": [
+          104,
+          410,
+          85.0,
+          25
+        ]
+      },
+      {
+        "text": "No recent access",
+        "bounds": [
+          104,
+          443,
+          111.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          420,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "You control access",
+        "bounds": [
+          60,
+          576,
+          213.97,
+          28
+        ]
+      },
+      {
+        "text": "Review each app before changing its permissions. Denied",
+        "bounds": [
+          60,
+          622,
+          455.0,
+          22
+        ]
+      },
+      {
+        "text": "access stays denied until you choose otherwise.",
+        "bounds": [
+          60,
+          649,
+          375.02,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Camera",
+        "state": "off",
+        "bounds": [
+          24,
+          160,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "camera_on",
+        "state": "off",
+        "bounds": [
+          42,
+          183,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Microphone",
+        "state": "off",
+        "bounds": [
+          24,
+          278,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "microphone_on",
+        "state": "off",
+        "bounds": [
+          42,
+          301,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Location",
+        "state": "off",
+        "bounds": [
+          24,
+          396,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "location_on",
+        "state": "off",
+        "bounds": [
+          42,
+          419,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          550,
+          552,
+          170
+        ]
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "photo-picker",
+    "title": "Choose photos",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-048"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Selected media only / sample thumbnails",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Choose photos",
+        "bounds": [
+          30,
+          49,
+          208.0,
+          34
+        ]
+      },
+      {
+        "text": "Choose what to share",
+        "bounds": [
+          32,
+          88,
+          142.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Recent",
+        "bounds": [
+          32,
+          143,
+          71.0,
+          26
+        ]
+      },
+      {
+        "text": "2 selected",
+        "bounds": [
+          489.0,
+          147,
+          79.0,
+          22
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          164.5,
+          212,
+          13.0,
+          24
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          352.5,
+          402,
+          13.0,
+          24
+        ]
+      },
+      {
+        "text": "Add 2 photos",
+        "bounds": [
+          143.0,
+          836,
+          114.0,
+          22
+        ]
+      },
+      {
+        "text": "Cancel",
+        "bounds": [
+          456.0,
+          836,
+          56.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Media selection",
+        "state": "on",
+        "bounds": [
+          24,
+          195,
+          176,
+          174
+        ]
+      },
+      {
+        "owner": "Media selection",
+        "state": "off",
+        "bounds": [
+          212,
+          195,
+          176,
+          174
+        ]
+      },
+      {
+        "owner": "Media selection",
+        "state": "off",
+        "bounds": [
+          400,
+          195,
+          176,
+          174
+        ]
+      },
+      {
+        "owner": "Media selection",
+        "state": "off",
+        "bounds": [
+          24,
+          385,
+          176,
+          174
+        ]
+      },
+      {
+        "owner": "Media selection",
+        "state": "on",
+        "bounds": [
+          212,
+          385,
+          176,
+          174
+        ]
+      },
+      {
+        "owner": "Media selection",
+        "state": "off",
+        "bounds": [
+          400,
+          385,
+          176,
+          174
+        ]
+      },
+      {
+        "owner": "Media selection",
+        "state": "off",
+        "bounds": [
+          24,
+          575,
+          176,
+          174
+        ]
+      },
+      {
+        "owner": "Media selection",
+        "state": "off",
+        "bounds": [
+          212,
+          575,
+          176,
+          174
+        ]
+      },
+      {
+        "owner": "Media selection",
+        "state": "off",
+        "bounds": [
+          400,
+          575,
+          176,
+          174
+        ]
+      },
+      {
+        "owner": "Add 2 photos",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          815,
+          352,
+          64
+        ]
+      },
+      {
+        "owner": "Cancel",
+        "state": "off",
+        "bounds": [
+          392,
+          815,
+          184,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Add 2 photos",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          815,
+          352,
+          64
+        ]
+      },
+      {
+        "label": "Cancel",
+        "state": "off",
+        "bounds": [
+          392,
+          815,
+          184,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "file-picker",
+    "title": "Choose a file",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-048"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Document provider list",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Choose a file",
+        "bounds": [
+          30,
+          49,
+          180.0,
+          34
+        ]
+      },
+      {
+        "text": "Browse documents",
+        "bounds": [
+          32,
+          88,
+          125.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Downloads",
+        "bounds": [
+          104,
+          168,
+          107.0,
+          26
+        ]
+      },
+      {
+        "text": "Game notes.txt",
+        "bounds": [
+          104,
+          259,
+          150.0,
+          25
+        ]
+      },
+      {
+        "text": "Text document \u00b7 sample",
+        "bounds": [
+          104,
+          292,
+          157.98,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          269,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Save backup.zip",
+        "bounds": [
+          104,
+          374,
+          158.0,
+          25
+        ]
+      },
+      {
+        "text": "Archive \u00b7 sample",
+        "bounds": [
+          104,
+          407,
+          108.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          384,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Screenshot.png",
+        "bounds": [
+          104,
+          489,
+          153.0,
+          25
+        ]
+      },
+      {
+        "text": "Image \u00b7 sample",
+        "bounds": [
+          104,
+          522,
+          101.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          499,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Profile.json",
+        "bounds": [
+          104,
+          604,
+          112.0,
+          25
+        ]
+      },
+      {
+        "text": "Document \u00b7 sample",
+        "bounds": [
+          104,
+          637,
+          128.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          614,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Cancel",
+        "bounds": [
+          272.0,
+          806,
+          56.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          145,
+          552,
+          72
+        ]
+      },
+      {
+        "owner": "folder",
+        "state": "off",
+        "bounds": [
+          42,
+          160,
+          40,
+          40
+        ]
+      },
+      {
+        "owner": "Game notes.txt",
+        "state": "off",
+        "bounds": [
+          24,
+          245,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "document",
+        "state": "off",
+        "bounds": [
+          42,
+          268,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Save backup.zip",
+        "state": "off",
+        "bounds": [
+          24,
+          360,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "document",
+        "state": "off",
+        "bounds": [
+          42,
+          383,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Screenshot.png",
+        "state": "off",
+        "bounds": [
+          24,
+          475,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "document",
+        "state": "off",
+        "bounds": [
+          42,
+          498,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Profile.json",
+        "state": "off",
+        "bounds": [
+          24,
+          590,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "document",
+        "state": "off",
+        "bounds": [
+          42,
+          613,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Cancel",
+        "state": "off",
+        "bounds": [
+          174,
+          785,
+          252,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Cancel",
+        "state": "off",
+        "bounds": [
+          174,
+          785,
+          252,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "file-picker-error",
+    "title": "Storage unavailable",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-048"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Recoverable provider error",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Storage unavailable",
+        "bounds": [
+          30,
+          49,
+          279.98,
+          34
+        ]
+      },
+      {
+        "text": "Choose another location or try again",
+        "bounds": [
+          32,
+          88,
+          242.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Could not open storage",
+        "bounds": [
+          156.5,
+          383,
+          287.0,
+          30
+        ]
+      },
+      {
+        "text": "The document provider did not respond. Retry, or choose",
+        "bounds": [
+          70,
+          432,
+          458.0,
+          22
+        ]
+      },
+      {
+        "text": "another location. No file was selected.",
+        "bounds": [
+          70,
+          459,
+          298.0,
+          22
+        ]
+      },
+      {
+        "text": "Retry",
+        "bounds": [
+          132.99,
+          686,
+          46.02,
+          22
+        ]
+      },
+      {
+        "text": "Other location",
+        "bounds": [
+          382.5,
+          686,
+          123.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "error",
+        "state": "off",
+        "bounds": [
+          254.0,
+          270,
+          92,
+          92
+        ]
+      },
+      {
+        "owner": "Retry",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          665,
+          264,
+          64
+        ]
+      },
+      {
+        "owner": "Other location",
+        "state": "off",
+        "bounds": [
+          312,
+          665,
+          264,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Retry",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          665,
+          264,
+          64
+        ]
+      },
+      {
+        "label": "Other location",
+        "state": "off",
+        "bounds": [
+          312,
+          665,
+          264,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "share-sheet",
+    "title": "Share screenshot",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-046"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Sample destinations; choose before sending",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Share screenshot",
+        "bounds": [
+          30,
+          49,
+          237.0,
+          34
+        ]
+      },
+      {
+        "text": "Choose how to share",
+        "bounds": [
+          32,
+          88,
+          138.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Screenshot.png",
+        "bounds": [
+          42,
+          395,
+          166.0,
+          27
+        ]
+      },
+      {
+        "text": "Choose an app",
+        "bounds": [
+          32,
+          470,
+          130.0,
+          24
+        ]
+      },
+      {
+        "text": "Save file",
+        "bounds": [
+          75.0,
+          634,
+          58.0,
+          20
+        ]
+      },
+      {
+        "text": "Notes",
+        "bounds": [
+          277.5,
+          634,
+          41.0,
+          20
+        ]
+      },
+      {
+        "text": "Nearby",
+        "bounds": [
+          466.5,
+          634,
+          51.0,
+          20
+        ]
+      },
+      {
+        "text": "Copy image",
+        "bounds": [
+          106.0,
+          771,
+          100.0,
+          22
+        ]
+      },
+      {
+        "text": "Cancel",
+        "bounds": [
+          416.0,
+          771,
+          56.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Media selection",
+        "state": "off",
+        "bounds": [
+          24,
+          155,
+          552,
+          220
+        ]
+      },
+      {
+        "owner": "Save file",
+        "state": "off",
+        "bounds": [
+          54,
+          525,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "folder",
+        "state": "off",
+        "bounds": [
+          79,
+          550,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Notes",
+        "state": "off",
+        "bounds": [
+          248,
+          525,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "document",
+        "state": "off",
+        "bounds": [
+          273,
+          550,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Nearby",
+        "state": "off",
+        "bounds": [
+          442,
+          525,
+          100,
+          100
+        ]
+      },
+      {
+        "owner": "share",
+        "state": "off",
+        "bounds": [
+          467,
+          550,
+          50,
+          50
+        ]
+      },
+      {
+        "owner": "Copy image",
+        "state": "off",
+        "bounds": [
+          24,
+          750,
+          264,
+          64
+        ]
+      },
+      {
+        "owner": "Cancel",
+        "state": "off",
+        "bounds": [
+          312,
+          750,
+          264,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Copy image",
+        "state": "off",
+        "bounds": [
+          24,
+          750,
+          264,
+          64
+        ]
+      },
+      {
+        "label": "Cancel",
+        "state": "off",
+        "bounds": [
+          312,
+          750,
+          264,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clipboard-history",
+    "title": "Clipboard",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-049"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Editable sample entries",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Clipboard",
+        "bounds": [
+          30,
+          49,
+          140.0,
+          34
+        ]
+      },
+      {
+        "text": "Recent copies",
+        "bounds": [
+          32,
+          88,
+          92.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Game notes",
+        "bounds": [
+          58,
+          181,
+          123.0,
+          26
+        ]
+      },
+      {
+        "text": "Remember the display layout.",
+        "bounds": [
+          58,
+          228,
+          236.0,
+          22
+        ]
+      },
+      {
+        "text": "Link",
+        "bounds": [
+          58,
+          346,
+          42.0,
+          26
+        ]
+      },
+      {
+        "text": "https://example.org/sample",
+        "bounds": [
+          58,
+          393,
+          221.0,
+          22
+        ]
+      },
+      {
+        "text": "Profile name",
+        "bounds": [
+          58,
+          511,
+          131.0,
+          26
+        ]
+      },
+      {
+        "text": "Evening session",
+        "bounds": [
+          58,
+          558,
+          125.0,
+          22
+        ]
+      },
+      {
+        "text": "Clear history",
+        "bounds": [
+          246.49,
+          741,
+          107.02,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Game notes",
+        "state": "on",
+        "bounds": [
+          24,
+          160,
+          552,
+          145
+        ]
+      },
+      {
+        "owner": "paste",
+        "state": "off",
+        "bounds": [
+          504,
+          185,
+          40,
+          40
+        ]
+      },
+      {
+        "owner": "Link",
+        "state": "off",
+        "bounds": [
+          24,
+          325,
+          552,
+          145
+        ]
+      },
+      {
+        "owner": "paste",
+        "state": "off",
+        "bounds": [
+          504,
+          350,
+          40,
+          40
+        ]
+      },
+      {
+        "owner": "Profile name",
+        "state": "off",
+        "bounds": [
+          24,
+          490,
+          552,
+          145
+        ]
+      },
+      {
+        "owner": "paste",
+        "state": "off",
+        "bounds": [
+          504,
+          515,
+          40,
+          40
+        ]
+      },
+      {
+        "owner": "Clear history",
+        "state": "off",
+        "bounds": [
+          24,
+          720,
+          552,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Clear history",
+        "state": "off",
+        "bounds": [
+          24,
+          720,
+          552,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "screenshot-editor",
+    "title": "Edit screenshot",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-050"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Crop handles and markup controls",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Edit screenshot",
+        "bounds": [
+          30,
+          49,
+          214.0,
+          34
+        ]
+      },
+      {
+        "text": "Crop, mark up and save a copy",
+        "bounds": [
+          32,
+          88,
+          203.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Crop",
+        "bounds": [
+          72.5,
+          774,
+          39.0,
+          22
+        ]
+      },
+      {
+        "text": "Draw",
+        "bounds": [
+          261.5,
+          774,
+          41.0,
+          22
+        ]
+      },
+      {
+        "text": "Undo",
+        "bounds": [
+          450.0,
+          774,
+          44.0,
+          22
+        ]
+      },
+      {
+        "text": "Save copy",
+        "bounds": [
+          113.0,
+          866,
+          86.0,
+          22
+        ]
+      },
+      {
+        "text": "Cancel",
+        "bounds": [
+          416.0,
+          866,
+          56.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Media selection",
+        "state": "off",
+        "bounds": [
+          24,
+          155,
+          552,
+          510
+        ]
+      },
+      {
+        "owner": "cut",
+        "state": "on",
+        "bounds": [
+          65,
+          710,
+          54,
+          54
+        ]
+      },
+      {
+        "owner": "edit",
+        "state": "off",
+        "bounds": [
+          255,
+          710,
+          54,
+          54
+        ]
+      },
+      {
+        "owner": "back",
+        "state": "off",
+        "bounds": [
+          445,
+          710,
+          54,
+          54
+        ]
+      },
+      {
+        "owner": "Save copy",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          845,
+          264,
+          64
+        ]
+      },
+      {
+        "owner": "Cancel",
+        "state": "off",
+        "bounds": [
+          312,
+          845,
+          264,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Save copy",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          845,
+          264,
+          64
+        ]
+      },
+      {
+        "label": "Cancel",
+        "state": "off",
+        "bounds": [
+          312,
+          845,
+          264,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "volume-output",
+    "title": "Sound output",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-052"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Live volume and route labels",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Sound output",
+        "bounds": [
+          30,
+          49,
+          195.0,
+          34
+        ]
+      },
+      {
+        "text": "Choose where sound plays",
+        "bounds": [
+          32,
+          88,
+          175.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Media",
+        "bounds": [
+          61.5,
+          536,
+          53.0,
+          23
+        ]
+      },
+      {
+        "text": "60%",
+        "bounds": [
+          63.0,
+          566,
+          50.0,
+          29
+        ]
+      },
+      {
+        "text": "Speakers",
+        "bounds": [
+          240,
+          199,
+          87.0,
+          25
+        ]
+      },
+      {
+        "text": "Selected output",
+        "bounds": [
+          240,
+          232,
+          105.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          527.0,
+          221,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Headphones",
+        "bounds": [
+          240,
+          314,
+          123.0,
+          25
+        ]
+      },
+      {
+        "text": "Not connected",
+        "bounds": [
+          240,
+          347,
+          98.0,
+          19
+        ]
+      },
+      {
+        "text": "Bluetooth",
+        "bounds": [
+          240,
+          429,
+          98.0,
+          25
+        ]
+      },
+      {
+        "text": "Choose a device",
+        "bounds": [
+          240,
+          462,
+          108.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          543.0,
+          439,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "Mute media",
+        "bounds": [
+          104,
+          674,
+          118.0,
+          25
+        ]
+      },
+      {
+        "text": "Off",
+        "bounds": [
+          104,
+          707,
+          21.0,
+          19
+        ]
+      },
+      {
+        "text": "Done",
+        "bounds": [
+          277.5,
+          831,
+          45.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "volume_rail",
+        "state": "on",
+        "bounds": [
+          48,
+          180,
+          80,
+          320
+        ]
+      },
+      {
+        "owner": "Speakers",
+        "state": "off",
+        "bounds": [
+          160,
+          185,
+          416,
+          92
+        ]
+      },
+      {
+        "owner": "audio",
+        "state": "off",
+        "bounds": [
+          178,
+          208,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Speakers state",
+        "state": "on",
+        "bounds": [
+          511,
+          209,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Headphones",
+        "state": "off",
+        "bounds": [
+          160,
+          300,
+          416,
+          92
+        ]
+      },
+      {
+        "owner": "headphones",
+        "state": "off",
+        "bounds": [
+          178,
+          323,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Headphones state",
+        "state": "off",
+        "bounds": [
+          511,
+          324,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Bluetooth",
+        "state": "off",
+        "bounds": [
+          160,
+          415,
+          416,
+          92
+        ]
+      },
+      {
+        "owner": "bluetooth_on",
+        "state": "off",
+        "bounds": [
+          178,
+          438,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Mute media",
+        "state": "off",
+        "bounds": [
+          24,
+          660,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "mute",
+        "state": "off",
+        "bounds": [
+          42,
+          683,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Mute media state",
+        "state": "off",
+        "bounds": [
+          511,
+          684,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Done",
+        "state": "off",
+        "bounds": [
+          174,
+          810,
+          252,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Done",
+        "state": "off",
+        "bounds": [
+          174,
+          810,
+          252,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lock-pin",
+    "title": "Enter PIN",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-044"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Credential visual study / sample entry",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Enter PIN",
+        "bounds": [
+          30,
+          49,
+          134.0,
+          34
+        ]
+      },
+      {
+        "text": "Enter your device PIN",
+        "bounds": [
+          32,
+          88,
+          141.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Unlock",
+        "bounds": [
+          254.5,
+          233,
+          91.0,
+          32
+        ]
+      },
+      {
+        "text": "\u25cf \u25cf \u25cb \u25cb \u25cb \u25cb",
+        "bounds": [
+          223.5,
+          294,
+          153.0,
+          29
+        ]
+      },
+      {
+        "text": "1",
+        "bounds": [
+          151.5,
+          393,
+          17.0,
+          34
+        ]
+      },
+      {
+        "text": "2",
+        "bounds": [
+          291.5,
+          393,
+          17.0,
+          34
+        ]
+      },
+      {
+        "text": "3",
+        "bounds": [
+          431.5,
+          393,
+          17.0,
+          34
+        ]
+      },
+      {
+        "text": "4",
+        "bounds": [
+          151.5,
+          508,
+          17.0,
+          34
+        ]
+      },
+      {
+        "text": "5",
+        "bounds": [
+          291.5,
+          508,
+          17.0,
+          34
+        ]
+      },
+      {
+        "text": "6",
+        "bounds": [
+          431.5,
+          508,
+          17.0,
+          34
+        ]
+      },
+      {
+        "text": "7",
+        "bounds": [
+          151.5,
+          623,
+          17.0,
+          34
+        ]
+      },
+      {
+        "text": "8",
+        "bounds": [
+          291.5,
+          623,
+          17.0,
+          34
+        ]
+      },
+      {
+        "text": "9",
+        "bounds": [
+          431.5,
+          623,
+          17.0,
+          34
+        ]
+      },
+      {
+        "text": "0",
+        "bounds": [
+          291.5,
+          738,
+          17.0,
+          34
+        ]
+      },
+      {
+        "text": "\u232b",
+        "bounds": [
+          430.5,
+          738,
+          19.0,
+          34
+        ]
+      },
+      {
+        "text": "Emergency",
+        "bounds": [
+          253.0,
+          887,
+          94.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "lock",
+        "state": "off",
+        "bounds": [
+          265,
+          142,
+          70,
+          70
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "off",
+        "bounds": [
+          112,
+          368,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "off",
+        "bounds": [
+          252,
+          368,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "off",
+        "bounds": [
+          392,
+          368,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "off",
+        "bounds": [
+          112,
+          483,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "selected_focused",
+        "bounds": [
+          252,
+          483,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "off",
+        "bounds": [
+          392,
+          483,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "off",
+        "bounds": [
+          112,
+          598,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "off",
+        "bounds": [
+          252,
+          598,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "off",
+        "bounds": [
+          392,
+          598,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "off",
+        "bounds": [
+          252,
+          713,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "off",
+        "bounds": [
+          392,
+          713,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "Emergency",
+        "state": "off",
+        "bounds": [
+          174,
+          866,
+          252,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Emergency",
+        "state": "off",
+        "bounds": [
+          174,
+          866,
+          252,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lock-pattern",
+    "title": "Draw pattern",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-044"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Sample path lights only chosen nodes",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Draw pattern",
+        "bounds": [
+          30,
+          49,
+          187.0,
+          34
+        ]
+      },
+      {
+        "text": "Unlock your device",
+        "bounds": [
+          32,
+          88,
+          125.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Draw your pattern",
+        "bounds": [
+          181.5,
+          256,
+          237.0,
+          31
+        ]
+      },
+      {
+        "text": "Use PIN",
+        "bounds": [
+          266.5,
+          857,
+          67.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "lock",
+        "state": "off",
+        "bounds": [
+          268,
+          150,
+          64,
+          64
+        ]
+      },
+      {
+        "owner": "pattern_node",
+        "state": "on",
+        "bounds": [
+          120,
+          380,
+          72,
+          72
+        ]
+      },
+      {
+        "owner": "pattern_node",
+        "state": "on",
+        "bounds": [
+          264,
+          380,
+          72,
+          72
+        ]
+      },
+      {
+        "owner": "pattern_node",
+        "state": "off",
+        "bounds": [
+          408,
+          380,
+          72,
+          72
+        ]
+      },
+      {
+        "owner": "pattern_node",
+        "state": "off",
+        "bounds": [
+          120,
+          524,
+          72,
+          72
+        ]
+      },
+      {
+        "owner": "pattern_node",
+        "state": "off",
+        "bounds": [
+          264,
+          524,
+          72,
+          72
+        ]
+      },
+      {
+        "owner": "pattern_node",
+        "state": "on",
+        "bounds": [
+          408,
+          524,
+          72,
+          72
+        ]
+      },
+      {
+        "owner": "pattern_node",
+        "state": "off",
+        "bounds": [
+          120,
+          668,
+          72,
+          72
+        ]
+      },
+      {
+        "owner": "pattern_node",
+        "state": "on",
+        "bounds": [
+          264,
+          668,
+          72,
+          72
+        ]
+      },
+      {
+        "owner": "pattern_node",
+        "state": "off",
+        "bounds": [
+          408,
+          668,
+          72,
+          72
+        ]
+      },
+      {
+        "owner": "Use PIN",
+        "state": "off",
+        "bounds": [
+          174,
+          836,
+          252,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Use PIN",
+        "state": "off",
+        "bounds": [
+          174,
+          836,
+          252,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lock-biometric",
+    "title": "Unlock",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-044"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Platform authentication visual concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Unlock",
+        "bounds": [
+          30,
+          49,
+          98.0,
+          34
+        ]
+      },
+      {
+        "text": "Verify your identity",
+        "bounds": [
+          32,
+          88,
+          124.98,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Touch the sensor",
+        "bounds": [
+          188.52,
+          467,
+          222.95,
+          32
+        ]
+      },
+      {
+        "text": "Use your enrolled biometric or enter your device",
+        "bounds": [
+          84,
+          530,
+          423.0,
+          24
+        ]
+      },
+      {
+        "text": "PIN.",
+        "bounds": [
+          84,
+          559,
+          35.0,
+          24
+        ]
+      },
+      {
+        "text": "Use PIN",
+        "bounds": [
+          266.5,
+          731,
+          67.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "biometric_socket",
+        "state": "on",
+        "bounds": [
+          220,
+          260,
+          160,
+          160
+        ]
+      },
+      {
+        "owner": "Use PIN",
+        "state": "off",
+        "bounds": [
+          150,
+          710,
+          300,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Use PIN",
+        "state": "off",
+        "bounds": [
+          150,
+          710,
+          300,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "keyboard-symbols",
+    "title": "Symbols keyboard",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-051"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Labels and suggestions remain editable",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Symbols keyboard",
+        "bounds": [
+          30,
+          49,
+          259.98,
+          34
+        ]
+      },
+      {
+        "text": "Write a message",
+        "bounds": [
+          32,
+          88,
+          110.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Message",
+        "bounds": [
+          56,
+          191,
+          74.0,
+          23
+        ]
+      },
+      {
+        "text": "A sample entry\u2026",
+        "bounds": [
+          56,
+          243,
+          183.98,
+          29
+        ]
+      },
+      {
+        "text": "Steel",
+        "bounds": [
+          93.5,
+          429,
+          41.0,
+          23
+        ]
+      },
+      {
+        "text": "Ember",
+        "bounds": [
+          277.0,
+          429,
+          54.0,
+          23
+        ]
+      },
+      {
+        "text": "Forge",
+        "bounds": [
+          470.0,
+          429,
+          48.0,
+          23
+        ]
+      },
+      {
+        "text": "!",
+        "bounds": [
+          46.35,
+          534,
+          6.0,
+          26
+        ]
+      },
+      {
+        "text": "@",
+        "bounds": [
+          94.55,
+          534,
+          21.0,
+          26
+        ]
+      },
+      {
+        "text": "#",
+        "bounds": [
+          154.25,
+          534,
+          13.0,
+          26
+        ]
+      },
+      {
+        "text": "$",
+        "bounds": [
+          210.45,
+          534,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": "%",
+        "bounds": [
+          263.15,
+          534,
+          18.0,
+          26
+        ]
+      },
+      {
+        "text": "^",
+        "bounds": [
+          320.35,
+          534,
+          15.0,
+          26
+        ]
+      },
+      {
+        "text": "&",
+        "bounds": [
+          374.55,
+          534,
+          18.0,
+          26
+        ]
+      },
+      {
+        "text": "*",
+        "bounds": [
+          434.75,
+          534,
+          9.0,
+          26
+        ]
+      },
+      {
+        "text": "(",
+        "bounds": [
+          491.45,
+          534,
+          7.0,
+          26
+        ]
+      },
+      {
+        "text": ")",
+        "bounds": [
+          547.15,
+          534,
+          7.0,
+          26
+        ]
+      },
+      {
+        "text": "~",
+        "bounds": [
+          41.85,
+          628,
+          15.0,
+          26
+        ]
+      },
+      {
+        "text": "`",
+        "bounds": [
+          102.05,
+          628,
+          6.0,
+          26
+        ]
+      },
+      {
+        "text": "_",
+        "bounds": [
+          156.25,
+          628,
+          9.0,
+          26
+        ]
+      },
+      {
+        "text": "-",
+        "bounds": [
+          211.95,
+          628,
+          9.0,
+          26
+        ]
+      },
+      {
+        "text": "+",
+        "bounds": [
+          264.65,
+          628,
+          15.0,
+          26
+        ]
+      },
+      {
+        "text": "=",
+        "bounds": [
+          320.35,
+          628,
+          15.0,
+          26
+        ]
+      },
+      {
+        "text": "{",
+        "bounds": [
+          380.05,
+          628,
+          7.0,
+          26
+        ]
+      },
+      {
+        "text": "}",
+        "bounds": [
+          435.75,
+          628,
+          7.0,
+          26
+        ]
+      },
+      {
+        "text": "[",
+        "bounds": [
+          491.45,
+          628,
+          7.0,
+          26
+        ]
+      },
+      {
+        "text": "]",
+        "bounds": [
+          547.15,
+          628,
+          7.0,
+          26
+        ]
+      },
+      {
+        "text": ":",
+        "bounds": [
+          49.94,
+          722,
+          5.0,
+          26
+        ]
+      },
+      {
+        "text": ";",
+        "bounds": [
+          111.83,
+          722,
+          5.0,
+          26
+        ]
+      },
+      {
+        "text": "\"",
+        "bounds": [
+          171.72,
+          722,
+          9.0,
+          26
+        ]
+      },
+      {
+        "text": "'",
+        "bounds": [
+          235.61,
+          722,
+          5.0,
+          26
+        ]
+      },
+      {
+        "text": "<",
+        "bounds": [
+          292.5,
+          722,
+          15.0,
+          26
+        ]
+      },
+      {
+        "text": ">",
+        "bounds": [
+          354.39,
+          722,
+          15.0,
+          26
+        ]
+      },
+      {
+        "text": "?",
+        "bounds": [
+          418.78,
+          722,
+          10.0,
+          26
+        ]
+      },
+      {
+        "text": "/",
+        "bounds": [
+          481.17,
+          722,
+          9.0,
+          26
+        ]
+      },
+      {
+        "text": "|",
+        "bounds": [
+          545.06,
+          722,
+          5.0,
+          26
+        ]
+      },
+      {
+        "text": "ABC",
+        "bounds": [
+          70.0,
+          843,
+          36.0,
+          22
+        ]
+      },
+      {
+        "text": "Space",
+        "bounds": [
+          265.0,
+          843,
+          50.0,
+          22
+        ]
+      },
+      {
+        "text": "Enter",
+        "bounds": [
+          479.5,
+          843,
+          45.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          160,
+          552,
+          190
+        ]
+      },
+      {
+        "owner": "suggestion",
+        "state": "on",
+        "bounds": [
+          30,
+          408,
+          168,
+          64
+        ]
+      },
+      {
+        "owner": "suggestion",
+        "state": "off",
+        "bounds": [
+          220,
+          408,
+          168,
+          64
+        ]
+      },
+      {
+        "owner": "suggestion",
+        "state": "off",
+        "bounds": [
+          410,
+          408,
+          168,
+          64
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24.0,
+          510,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          79.7,
+          510,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          135.4,
+          510,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          191.10000000000002,
+          510,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          246.8,
+          510,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          302.5,
+          510,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          358.20000000000005,
+          510,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          413.90000000000003,
+          510,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          469.6,
+          510,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          525.3,
+          510,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24.0,
+          604,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          79.7,
+          604,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          135.4,
+          604,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          191.10000000000002,
+          604,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          246.8,
+          604,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          302.5,
+          604,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          358.20000000000005,
+          604,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          413.90000000000003,
+          604,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          469.6,
+          604,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          525.3,
+          604,
+          50.7,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24.0,
+          698,
+          56.888888888888886,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          85.88888888888889,
+          698,
+          56.888888888888886,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          147.77777777777777,
+          698,
+          56.888888888888886,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          209.66666666666666,
+          698,
+          56.888888888888886,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          271.55555555555554,
+          698,
+          56.888888888888886,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          333.44444444444446,
+          698,
+          56.888888888888886,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          395.3333333333333,
+          698,
+          56.888888888888886,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          457.2222222222222,
+          698,
+          56.888888888888886,
+          78
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          519.1111111111111,
+          698,
+          56.888888888888886,
+          78
+        ]
+      },
+      {
+        "owner": "ABC",
+        "state": "off",
+        "bounds": [
+          24,
+          822,
+          128,
+          64
+        ]
+      },
+      {
+        "owner": "Space",
+        "state": "off",
+        "bounds": [
+          166,
+          822,
+          248,
+          64
+        ]
+      },
+      {
+        "owner": "Enter",
+        "state": "selected_focused",
+        "bounds": [
+          428,
+          822,
+          148,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "ABC",
+        "state": "off",
+        "bounds": [
+          24,
+          822,
+          128,
+          64
+        ]
+      },
+      {
+        "label": "Space",
+        "state": "off",
+        "bounds": [
+          166,
+          822,
+          248,
+          64
+        ]
+      },
+      {
+        "label": "Enter",
+        "state": "selected_focused",
+        "bounds": [
+          428,
+          822,
+          148,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "keyboard-numbers",
+    "title": "Numbers keyboard",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-051"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Labels and suggestions remain editable",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Numbers keyboard",
+        "bounds": [
+          30,
+          49,
+          270.0,
+          34
+        ]
+      },
+      {
+        "text": "Write a message",
+        "bounds": [
+          32,
+          88,
+          110.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Message",
+        "bounds": [
+          56,
+          191,
+          74.0,
+          23
+        ]
+      },
+      {
+        "text": "A sample entry\u2026",
+        "bounds": [
+          56,
+          243,
+          183.98,
+          29
+        ]
+      },
+      {
+        "text": "Steel",
+        "bounds": [
+          93.5,
+          429,
+          41.0,
+          23
+        ]
+      },
+      {
+        "text": "Ember",
+        "bounds": [
+          277.0,
+          429,
+          54.0,
+          23
+        ]
+      },
+      {
+        "text": "Forge",
+        "bounds": [
+          470.0,
+          429,
+          48.0,
+          23
+        ]
+      },
+      {
+        "text": "1",
+        "bounds": [
+          108.33,
+          516,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": "2",
+        "bounds": [
+          294.0,
+          516,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": "3",
+        "bounds": [
+          479.67,
+          516,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": "4",
+        "bounds": [
+          108.33,
+          600,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": "5",
+        "bounds": [
+          294.0,
+          600,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": "6",
+        "bounds": [
+          479.67,
+          600,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": "7",
+        "bounds": [
+          108.33,
+          684,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": "8",
+        "bounds": [
+          294.0,
+          684,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": "9",
+        "bounds": [
+          479.67,
+          684,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": ".",
+        "bounds": [
+          111.83,
+          768,
+          5.0,
+          26
+        ]
+      },
+      {
+        "text": "0",
+        "bounds": [
+          294.0,
+          768,
+          12.0,
+          26
+        ]
+      },
+      {
+        "text": "\u232b",
+        "bounds": [
+          478.67,
+          768,
+          14.0,
+          26
+        ]
+      },
+      {
+        "text": "ABC",
+        "bounds": [
+          70.0,
+          867,
+          36.0,
+          22
+        ]
+      },
+      {
+        "text": "Space",
+        "bounds": [
+          265.0,
+          867,
+          50.0,
+          22
+        ]
+      },
+      {
+        "text": "Enter",
+        "bounds": [
+          479.5,
+          867,
+          45.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          160,
+          552,
+          190
+        ]
+      },
+      {
+        "owner": "suggestion",
+        "state": "on",
+        "bounds": [
+          30,
+          408,
+          168,
+          64
+        ]
+      },
+      {
+        "owner": "suggestion",
+        "state": "off",
+        "bounds": [
+          220,
+          408,
+          168,
+          64
+        ]
+      },
+      {
+        "owner": "suggestion",
+        "state": "off",
+        "bounds": [
+          410,
+          408,
+          168,
+          64
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24.0,
+          492,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          209.66666666666666,
+          492,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          395.3333333333333,
+          492,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24.0,
+          576,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          209.66666666666666,
+          576,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          395.3333333333333,
+          576,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24.0,
+          660,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          209.66666666666666,
+          660,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          395.3333333333333,
+          660,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24.0,
+          744,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          209.66666666666666,
+          744,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          395.3333333333333,
+          744,
+          180.66666666666666,
+          72
+        ]
+      },
+      {
+        "owner": "ABC",
+        "state": "off",
+        "bounds": [
+          24,
+          846,
+          128,
+          64
+        ]
+      },
+      {
+        "owner": "Space",
+        "state": "off",
+        "bounds": [
+          166,
+          846,
+          248,
+          64
+        ]
+      },
+      {
+        "owner": "Enter",
+        "state": "selected_focused",
+        "bounds": [
+          428,
+          846,
+          148,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "ABC",
+        "state": "off",
+        "bounds": [
+          24,
+          846,
+          128,
+          64
+        ]
+      },
+      {
+        "label": "Space",
+        "state": "off",
+        "bounds": [
+          166,
+          846,
+          248,
+          64
+        ]
+      },
+      {
+        "label": "Enter",
+        "state": "selected_focused",
+        "bounds": [
+          428,
+          846,
+          148,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "split-layout",
+    "title": "Choose layout",
+    "group": "android",
+    "logicalSize": [
+      600,
+      1000
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "ES-054"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Logical window arrangements",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  ANDROID",
+        "bounds": [
+          30,
+          18,
+          209.18,
+          17
+        ]
+      },
+      {
+        "text": "Choose layout",
+        "bounds": [
+          30,
+          49,
+          199.0,
+          34
+        ]
+      },
+      {
+        "text": "Arrange your apps",
+        "bounds": [
+          32,
+          88,
+          122.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          965,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Side by side",
+        "bounds": [
+          104,
+          179,
+          117.0,
+          25
+        ]
+      },
+      {
+        "text": "Preview arrangement",
+        "bounds": [
+          104,
+          212,
+          140.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          527.0,
+          201,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Stacked",
+        "bounds": [
+          104,
+          307,
+          77.0,
+          25
+        ]
+      },
+      {
+        "text": "Preview arrangement",
+        "bounds": [
+          104,
+          340,
+          140.0,
+          19
+        ]
+      },
+      {
+        "text": "Single app",
+        "bounds": [
+          104,
+          435,
+          104.0,
+          25
+        ]
+      },
+      {
+        "text": "Preview arrangement",
+        "bounds": [
+          104,
+          468,
+          140.0,
+          19
+        ]
+      },
+      {
+        "text": "App 1",
+        "bounds": [
+          136.5,
+          685,
+          63.0,
+          28
+        ]
+      },
+      {
+        "text": "App 2",
+        "bounds": [
+          400.5,
+          685,
+          63.0,
+          28
+        ]
+      },
+      {
+        "text": "Use layout",
+        "bounds": [
+          255.0,
+          869,
+          90.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Side by side",
+        "state": "off",
+        "bounds": [
+          24,
+          165,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "app_pairs",
+        "state": "off",
+        "bounds": [
+          42,
+          188,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Side by side state",
+        "state": "on",
+        "bounds": [
+          511,
+          189,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Stacked",
+        "state": "off",
+        "bounds": [
+          24,
+          293,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "display",
+        "state": "off",
+        "bounds": [
+          42,
+          316,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Stacked state",
+        "state": "off",
+        "bounds": [
+          511,
+          317,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Single app",
+        "state": "off",
+        "bounds": [
+          24,
+          421,
+          552,
+          92
+        ]
+      },
+      {
+        "owner": "apps",
+        "state": "off",
+        "bounds": [
+          42,
+          444,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Single app state",
+        "state": "off",
+        "bounds": [
+          511,
+          445,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          590,
+          552,
+          220
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          44,
+          610,
+          246,
+          180
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          310,
+          610,
+          246,
+          180
+        ]
+      },
+      {
+        "owner": "Use layout",
+        "state": "selected_focused",
+        "bounds": [
+          150,
+          848,
+          300,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Use layout",
+        "state": "selected_focused",
+        "bounds": [
+          150,
+          848,
+          300,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-trigger-modes",
+    "title": "Trigger modes",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-004"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Trigger modes",
+        "bounds": [
+          30,
+          49,
+          205.97,
+          34
+        ]
+      },
+      {
+        "text": "Choose how your triggers respond",
+        "bounds": [
+          32,
+          88,
+          227.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Left trigger",
+        "bounds": [
+          87.0,
+          428,
+          122.0,
+          27
+        ]
+      },
+      {
+        "text": "Right trigger",
+        "bounds": [
+          518.5,
+          428,
+          139.0,
+          27
+        ]
+      },
+      {
+        "text": "Analog",
+        "bounds": [
+          121.5,
+          531,
+          61.0,
+          22
+        ]
+      },
+      {
+        "text": "Digital",
+        "bounds": [
+          372.0,
+          531,
+          56.0,
+          22
+        ]
+      },
+      {
+        "text": "Default",
+        "bounds": [
+          616.5,
+          531,
+          63.0,
+          22
+        ]
+      },
+      {
+        "text": "Analog triggers use the full trigger range. Digital mode treats each trigger as a",
+        "bounds": [
+          44,
+          611,
+          658.0,
+          23
+        ]
+      },
+      {
+        "text": "button.",
+        "bounds": [
+          44,
+          639,
+          60.0,
+          23
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "trigger_gauge",
+        "state": "off",
+        "bounds": [
+          60,
+          170,
+          176,
+          240
+        ]
+      },
+      {
+        "owner": "trigger_gauge",
+        "state": "on",
+        "bounds": [
+          500,
+          170,
+          176,
+          240
+        ]
+      },
+      {
+        "owner": "Analog",
+        "state": "selected_focused",
+        "bounds": [
+          40,
+          510,
+          224,
+          64
+        ]
+      },
+      {
+        "owner": "Digital",
+        "state": "off",
+        "bounds": [
+          288,
+          510,
+          224,
+          64
+        ]
+      },
+      {
+        "owner": "Default",
+        "state": "off",
+        "bounds": [
+          536,
+          510,
+          224,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Analog",
+        "state": "selected_focused",
+        "bounds": [
+          40,
+          510,
+          224,
+          64
+        ]
+      },
+      {
+        "label": "Digital",
+        "state": "off",
+        "bounds": [
+          288,
+          510,
+          224,
+          64
+        ]
+      },
+      {
+        "label": "Default",
+        "state": "off",
+        "bounds": [
+          536,
+          510,
+          224,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-remap",
+    "title": "Button mapping",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-004",
+      "TH-001"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Button mapping",
+        "bounds": [
+          30,
+          49,
+          232.0,
+          34
+        ]
+      },
+      {
+        "text": "Customize your button actions",
+        "bounds": [
+          32,
+          88,
+          201.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "A",
+        "bounds": [
+          104,
+          164,
+          15.0,
+          25
+        ]
+      },
+      {
+        "text": "Primary action",
+        "bounds": [
+          104,
+          197,
+          95.0,
+          19
+        ]
+      },
+      {
+        "text": "Edit",
+        "bounds": [
+          719.0,
+          174,
+          29.0,
+          21
+        ]
+      },
+      {
+        "text": "B",
+        "bounds": [
+          104,
+          279,
+          13.0,
+          25
+        ]
+      },
+      {
+        "text": "Back / cancel",
+        "bounds": [
+          104,
+          312,
+          87.0,
+          19
+        ]
+      },
+      {
+        "text": "Edit",
+        "bounds": [
+          719.0,
+          289,
+          29.0,
+          21
+        ]
+      },
+      {
+        "text": "L1",
+        "bounds": [
+          104,
+          394,
+          23.0,
+          25
+        ]
+      },
+      {
+        "text": "Shoulder action",
+        "bounds": [
+          104,
+          427,
+          104.0,
+          19
+        ]
+      },
+      {
+        "text": "Edit",
+        "bounds": [
+          719.0,
+          404,
+          29.0,
+          21
+        ]
+      },
+      {
+        "text": "R1",
+        "bounds": [
+          104,
+          509,
+          26.0,
+          25
+        ]
+      },
+      {
+        "text": "Shoulder action",
+        "bounds": [
+          104,
+          542,
+          104.0,
+          19
+        ]
+      },
+      {
+        "text": "Edit",
+        "bounds": [
+          719.0,
+          519,
+          29.0,
+          21
+        ]
+      },
+      {
+        "text": "Save profile",
+        "bounds": [
+          161.5,
+          671,
+          101.0,
+          22
+        ]
+      },
+      {
+        "text": "Restore defaults",
+        "bounds": [
+          518.5,
+          671,
+          139.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "A",
+        "state": "off",
+        "bounds": [
+          24,
+          150,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "controller",
+        "state": "off",
+        "bounds": [
+          42,
+          173,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "B",
+        "state": "off",
+        "bounds": [
+          24,
+          265,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "controller",
+        "state": "off",
+        "bounds": [
+          42,
+          288,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "L1",
+        "state": "off",
+        "bounds": [
+          24,
+          380,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "controller",
+        "state": "off",
+        "bounds": [
+          42,
+          403,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "R1",
+        "state": "off",
+        "bounds": [
+          24,
+          495,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "controller",
+        "state": "off",
+        "bounds": [
+          42,
+          518,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Save profile",
+        "state": "selected_focused",
+        "bounds": [
+          40,
+          650,
+          344,
+          64
+        ]
+      },
+      {
+        "owner": "Restore defaults",
+        "state": "off",
+        "bounds": [
+          416,
+          650,
+          344,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Save profile",
+        "state": "selected_focused",
+        "bounds": [
+          40,
+          650,
+          344,
+          64
+        ]
+      },
+      {
+        "label": "Restore defaults",
+        "state": "off",
+        "bounds": [
+          416,
+          650,
+          344,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-virtual-mouse",
+    "title": "Virtual mouse",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-006"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Virtual mouse",
+        "bounds": [
+          30,
+          49,
+          196.02,
+          34
+        ]
+      },
+      {
+        "text": "Control the pointer with your controller",
+        "bounds": [
+          32,
+          88,
+          259.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Virtual mouse",
+        "bounds": [
+          104,
+          164,
+          137.02,
+          25
+        ]
+      },
+      {
+        "text": "Enabled for this sample profile",
+        "bounds": [
+          104,
+          197,
+          204.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          727.0,
+          186,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Pointer",
+        "bounds": [
+          131.51,
+          486,
+          68.98,
+          26
+        ]
+      },
+      {
+        "text": "Right stick",
+        "bounds": [
+          352,
+          310,
+          120.0,
+          28
+        ]
+      },
+      {
+        "text": "Move pointer",
+        "bounds": [
+          352,
+          353,
+          124.0,
+          25
+        ]
+      },
+      {
+        "text": "Primary action \u00b7 click",
+        "bounds": [
+          352,
+          402,
+          173.02,
+          23
+        ]
+      },
+      {
+        "text": "Back action \u00b7 exit capture",
+        "bounds": [
+          352,
+          443,
+          209.0,
+          23
+        ]
+      },
+      {
+        "text": "Pointer speed",
+        "bounds": [
+          104,
+          564,
+          134.98,
+          25
+        ]
+      },
+      {
+        "text": "Medium",
+        "bounds": [
+          104,
+          597,
+          55.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          743.0,
+          574,
+          5.0,
+          21
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Virtual mouse",
+        "state": "off",
+        "bounds": [
+          24,
+          150,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "mouse",
+        "state": "off",
+        "bounds": [
+          42,
+          173,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Virtual mouse state",
+        "state": "on",
+        "bounds": [
+          711,
+          174,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "stick_gate",
+        "state": "on",
+        "bounds": [
+          74,
+          285,
+          184,
+          184
+        ]
+      },
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          318,
+          285,
+          458,
+          230
+        ]
+      },
+      {
+        "owner": "Pointer speed",
+        "state": "off",
+        "bounds": [
+          24,
+          550,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "mouse",
+        "state": "off",
+        "bounds": [
+          42,
+          573,
+          44,
+          44
+        ]
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "thor-touch-mapping",
+    "title": "Touch mapping",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-007"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Touch mapping",
+        "bounds": [
+          30,
+          49,
+          220.95,
+          34
+        ]
+      },
+      {
+        "text": "Place your on-screen targets",
+        "bounds": [
+          32,
+          88,
+          187.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Sample game surface",
+        "bounds": [
+          285.5,
+          176,
+          229.0,
+          28
+        ]
+      },
+      {
+        "text": "A",
+        "bounds": [
+          617.5,
+          345,
+          21.0,
+          34
+        ]
+      },
+      {
+        "text": "Drag handles to place targets",
+        "bounds": [
+          283.5,
+          462,
+          233.0,
+          22
+        ]
+      },
+      {
+        "text": "Save layout",
+        "bounds": [
+          150.5,
+          571,
+          99.0,
+          22
+        ]
+      },
+      {
+        "text": "Release capture",
+        "bounds": [
+          520.5,
+          571,
+          135.0,
+          22
+        ]
+      },
+      {
+        "text": "Save this layout for the current game. Release capture to return control to your device.",
+        "bounds": [
+          40,
+          647,
+          681.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "decoration",
+        "state": "off",
+        "bounds": [
+          24,
+          148,
+          752,
+          365
+        ]
+      },
+      {
+        "owner": "stick_gate",
+        "state": "on",
+        "bounds": [
+          90,
+          265,
+          184,
+          184
+        ]
+      },
+      {
+        "owner": "pin_key",
+        "state": "on",
+        "bounds": [
+          580,
+          320,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "Save layout",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          550,
+          352,
+          64
+        ]
+      },
+      {
+        "owner": "Release capture",
+        "state": "off",
+        "bounds": [
+          400,
+          550,
+          376,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Save layout",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          550,
+          352,
+          64
+        ]
+      },
+      {
+        "label": "Release capture",
+        "state": "off",
+        "bounds": [
+          400,
+          550,
+          376,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-profiles",
+    "title": "Game profiles",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-008",
+      "TH-009"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Game profiles",
+        "bounds": [
+          30,
+          49,
+          196.0,
+          34
+        ]
+      },
+      {
+        "text": "Choose a profile for your game",
+        "bounds": [
+          32,
+          88,
+          207.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Evening session",
+        "bounds": [
+          104,
+          169,
+          154.0,
+          25
+        ]
+      },
+      {
+        "text": "Sample Game \u00b7 selected",
+        "bounds": [
+          104,
+          202,
+          159.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          727.0,
+          191,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Quiet session",
+        "bounds": [
+          104,
+          301,
+          130.0,
+          25
+        ]
+      },
+      {
+        "text": "Sample Game \u00b7 saved",
+        "bounds": [
+          104,
+          334,
+          142.0,
+          19
+        ]
+      },
+      {
+        "text": "Default",
+        "bounds": [
+          104,
+          433,
+          72.0,
+          25
+        ]
+      },
+      {
+        "text": "All other apps",
+        "bounds": [
+          104,
+          466,
+          93.0,
+          19
+        ]
+      },
+      {
+        "text": "Preview changes",
+        "bounds": [
+          129.0,
+          621,
+          142.0,
+          22
+        ]
+      },
+      {
+        "text": "New profile",
+        "bounds": [
+          538.5,
+          621,
+          99.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Evening session",
+        "state": "off",
+        "bounds": [
+          24,
+          155,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "gaming",
+        "state": "off",
+        "bounds": [
+          42,
+          178,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Evening session state",
+        "state": "on",
+        "bounds": [
+          711,
+          179,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Quiet session",
+        "state": "off",
+        "bounds": [
+          24,
+          287,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "gaming",
+        "state": "off",
+        "bounds": [
+          42,
+          310,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Quiet session state",
+        "state": "off",
+        "bounds": [
+          711,
+          311,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Default",
+        "state": "off",
+        "bounds": [
+          24,
+          419,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "gaming",
+        "state": "off",
+        "bounds": [
+          42,
+          442,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Default state",
+        "state": "off",
+        "bounds": [
+          711,
+          443,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Preview changes",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          600,
+          352,
+          64
+        ]
+      },
+      {
+        "owner": "New profile",
+        "state": "off",
+        "bounds": [
+          400,
+          600,
+          376,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Preview changes",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          600,
+          352,
+          64
+        ]
+      },
+      {
+        "label": "New profile",
+        "state": "off",
+        "bounds": [
+          400,
+          600,
+          376,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-profile-readback",
+    "title": "Profile result",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-009"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Mixed-result example",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Profile result",
+        "bounds": [
+          30,
+          49,
+          182.0,
+          34
+        ]
+      },
+      {
+        "text": "Review applied and skipped preferences",
+        "bounds": [
+          32,
+          88,
+          268.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Display layout",
+        "bounds": [
+          104,
+          164,
+          139.0,
+          25
+        ]
+      },
+      {
+        "text": "Applied and read back",
+        "bounds": [
+          104,
+          197,
+          151.0,
+          19
+        ]
+      },
+      {
+        "text": "Applied",
+        "bounds": [
+          690.0,
+          174,
+          58.0,
+          21
+        ]
+      },
+      {
+        "text": "Input layout",
+        "bounds": [
+          104,
+          281,
+          122.0,
+          25
+        ]
+      },
+      {
+        "text": "Applied and read back",
+        "bounds": [
+          104,
+          314,
+          151.0,
+          19
+        ]
+      },
+      {
+        "text": "Applied",
+        "bounds": [
+          690.0,
+          291,
+          58.0,
+          21
+        ]
+      },
+      {
+        "text": "Fan preference",
+        "bounds": [
+          104,
+          398,
+          144.98,
+          25
+        ]
+      },
+      {
+        "text": "Service unavailable; unchanged",
+        "bounds": [
+          104,
+          431,
+          207.0,
+          19
+        ]
+      },
+      {
+        "text": "Skipped",
+        "bounds": [
+          688.0,
+          408,
+          60.0,
+          21
+        ]
+      },
+      {
+        "text": "Two preferences were applied and confirmed. The fan preference was skipped and",
+        "bounds": [
+          44,
+          526,
+          692.98,
+          23
+        ]
+      },
+      {
+        "text": "keeps its previous value.",
+        "bounds": [
+          44,
+          554,
+          203.0,
+          23
+        ]
+      },
+      {
+        "text": "Review skipped",
+        "bounds": [
+          134.0,
+          666,
+          132.0,
+          22
+        ]
+      },
+      {
+        "text": "Restore previous",
+        "bounds": [
+          516.5,
+          666,
+          143.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Display layout",
+        "state": "off",
+        "bounds": [
+          24,
+          150,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "success",
+        "state": "off",
+        "bounds": [
+          42,
+          173,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Input layout",
+        "state": "off",
+        "bounds": [
+          24,
+          267,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "controller",
+        "state": "off",
+        "bounds": [
+          42,
+          290,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Fan preference",
+        "state": "off",
+        "bounds": [
+          24,
+          384,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "fan",
+        "state": "off",
+        "bounds": [
+          42,
+          407,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Review skipped",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          645,
+          352,
+          64
+        ]
+      },
+      {
+        "owner": "Restore previous",
+        "state": "off",
+        "bounds": [
+          400,
+          645,
+          376,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Review skipped",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          645,
+          352,
+          64
+        ]
+      },
+      {
+        "label": "Restore previous",
+        "state": "off",
+        "bounds": [
+          400,
+          645,
+          376,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-display-controls",
+    "title": "Displays",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-012"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Displays",
+        "bounds": [
+          30,
+          49,
+          117.0,
+          34
+        ]
+      },
+      {
+        "text": "Adjust each display separately",
+        "bounds": [
+          32,
+          88,
+          200.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Upper display",
+        "bounds": [
+          127.0,
+          311,
+          158.0,
+          28
+        ]
+      },
+      {
+        "text": "70%",
+        "bounds": [
+          169.5,
+          351,
+          73.0,
+          40
+        ]
+      },
+      {
+        "text": "Lower display",
+        "bounds": [
+          515.5,
+          311,
+          157.0,
+          28
+        ]
+      },
+      {
+        "text": "40%",
+        "bounds": [
+          557.5,
+          351,
+          73.0,
+          40
+        ]
+      },
+      {
+        "text": "Linked brightness",
+        "bounds": [
+          104,
+          514,
+          175.0,
+          25
+        ]
+      },
+      {
+        "text": "Off \u00b7 adjust each display separately",
+        "bounds": [
+          104,
+          547,
+          230.0,
+          19
+        ]
+      },
+      {
+        "text": "Keyboard destination",
+        "bounds": [
+          308.5,
+          661,
+          183.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Upper display",
+        "state": "on",
+        "bounds": [
+          24,
+          150,
+          364,
+          320
+        ]
+      },
+      {
+        "owner": "display_upper",
+        "state": "off",
+        "bounds": [
+          150,
+          180,
+          112,
+          112
+        ]
+      },
+      {
+        "owner": "Lower display",
+        "state": "off",
+        "bounds": [
+          412,
+          150,
+          364,
+          320
+        ]
+      },
+      {
+        "owner": "display_lower",
+        "state": "off",
+        "bounds": [
+          538,
+          180,
+          112,
+          112
+        ]
+      },
+      {
+        "owner": "Linked brightness",
+        "state": "off",
+        "bounds": [
+          24,
+          500,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "display",
+        "state": "off",
+        "bounds": [
+          42,
+          523,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Linked brightness state",
+        "state": "off",
+        "bounds": [
+          711,
+          524,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Keyboard destination",
+        "state": "off",
+        "bounds": [
+          24,
+          640,
+          752,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Keyboard destination",
+        "state": "off",
+        "bounds": [
+          24,
+          640,
+          752,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-keyboard-target",
+    "title": "Keyboard destination",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-012"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Keyboard destination",
+        "bounds": [
+          30,
+          49,
+          303.0,
+          34
+        ]
+      },
+      {
+        "text": "Choose where to type",
+        "bounds": [
+          32,
+          88,
+          144.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Focused app",
+        "bounds": [
+          104,
+          184,
+          123.0,
+          25
+        ]
+      },
+      {
+        "text": "Follow the current text field",
+        "bounds": [
+          104,
+          217,
+          182.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          727.0,
+          206,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Upper display",
+        "bounds": [
+          104,
+          309,
+          135.0,
+          25
+        ]
+      },
+      {
+        "text": "Choose before opening the keyboard",
+        "bounds": [
+          104,
+          342,
+          247.0,
+          19
+        ]
+      },
+      {
+        "text": "Lower display",
+        "bounds": [
+          104,
+          434,
+          135.0,
+          25
+        ]
+      },
+      {
+        "text": "Choose before opening the keyboard",
+        "bounds": [
+          104,
+          467,
+          247.0,
+          19
+        ]
+      },
+      {
+        "text": "Use selection",
+        "bounds": [
+          344.0,
+          621,
+          112.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Focused app",
+        "state": "off",
+        "bounds": [
+          24,
+          170,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "keyboard",
+        "state": "off",
+        "bounds": [
+          42,
+          193,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Focused app state",
+        "state": "on",
+        "bounds": [
+          711,
+          194,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Upper display",
+        "state": "off",
+        "bounds": [
+          24,
+          295,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "display_upper",
+        "state": "off",
+        "bounds": [
+          42,
+          318,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Upper display state",
+        "state": "off",
+        "bounds": [
+          711,
+          319,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Lower display",
+        "state": "off",
+        "bounds": [
+          24,
+          420,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "display_lower",
+        "state": "off",
+        "bounds": [
+          42,
+          443,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Lower display state",
+        "state": "off",
+        "bounds": [
+          711,
+          444,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Use selection",
+        "state": "selected_focused",
+        "bounds": [
+          224,
+          600,
+          352,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Use selection",
+        "state": "selected_focused",
+        "bounds": [
+          224,
+          600,
+          352,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-lid-resume",
+    "title": "Lid & resume",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-013"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Lid & resume",
+        "bounds": [
+          30,
+          49,
+          186.0,
+          34
+        ]
+      },
+      {
+        "text": "Choose what happens on close and wake",
+        "bounds": [
+          32,
+          88,
+          271.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "When the lid closes",
+        "bounds": [
+          104,
+          164,
+          191.0,
+          25
+        ]
+      },
+      {
+        "text": "Sleep",
+        "bounds": [
+          104,
+          197,
+          37.0,
+          19
+        ]
+      },
+      {
+        "text": "\u203a",
+        "bounds": [
+          743.0,
+          174,
+          5.0,
+          21
+        ]
+      },
+      {
+        "text": "On resume",
+        "bounds": [
+          104,
+          284,
+          106.0,
+          25
+        ]
+      },
+      {
+        "text": "Restore previous layout",
+        "bounds": [
+          104,
+          317,
+          155.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          727.0,
+          306,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Active input capture",
+        "bounds": [
+          104,
+          404,
+          200.0,
+          25
+        ]
+      },
+      {
+        "text": "Ask before resuming after wake",
+        "bounds": [
+          104,
+          437,
+          209.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          727.0,
+          426,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Your layout will return when the device wakes. Input capture will wait for your",
+        "bounds": [
+          44,
+          531,
+          653.98,
+          23
+        ]
+      },
+      {
+        "text": "confirmation.",
+        "bounds": [
+          44,
+          559,
+          112.0,
+          23
+        ]
+      },
+      {
+        "text": "Done",
+        "bounds": [
+          377.5,
+          671,
+          45.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "When the lid closes",
+        "state": "off",
+        "bounds": [
+          24,
+          150,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "sleep",
+        "state": "off",
+        "bounds": [
+          42,
+          173,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "On resume",
+        "state": "off",
+        "bounds": [
+          24,
+          270,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "screen_swap",
+        "state": "off",
+        "bounds": [
+          42,
+          293,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "On resume state",
+        "state": "on",
+        "bounds": [
+          711,
+          294,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Active input capture",
+        "state": "off",
+        "bounds": [
+          24,
+          390,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "controller",
+        "state": "off",
+        "bounds": [
+          42,
+          413,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Active input capture state",
+        "state": "on",
+        "bounds": [
+          711,
+          414,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Done",
+        "state": "off",
+        "bounds": [
+          224,
+          650,
+          352,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Done",
+        "state": "off",
+        "bounds": [
+          224,
+          650,
+          352,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-capture",
+    "title": "Capture displays",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-014"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Capture displays",
+        "bounds": [
+          30,
+          49,
+          234.0,
+          34
+        ]
+      },
+      {
+        "text": "Choose what to capture",
+        "bounds": [
+          32,
+          88,
+          157.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Upper",
+        "bounds": [
+          109.0,
+          388,
+          70.0,
+          28
+        ]
+      },
+      {
+        "text": "Lower",
+        "bounds": [
+          365.5,
+          388,
+          69.0,
+          28
+        ]
+      },
+      {
+        "text": "Both",
+        "bounds": [
+          629.5,
+          388,
+          53.0,
+          28
+        ]
+      },
+      {
+        "text": "Take screenshot",
+        "bounds": [
+          131.01,
+          546,
+          137.98,
+          22
+        ]
+      },
+      {
+        "text": "Recording options",
+        "bounds": [
+          510.0,
+          546,
+          156.0,
+          22
+        ]
+      },
+      {
+        "text": "Both displays are selected. Review your screenshot before sharing it.",
+        "bounds": [
+          40,
+          637,
+          538.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Upper",
+        "state": "off",
+        "bounds": [
+          24,
+          165,
+          240,
+          300
+        ]
+      },
+      {
+        "owner": "display_upper",
+        "state": "off",
+        "bounds": [
+          79,
+          205,
+          130,
+          130
+        ]
+      },
+      {
+        "owner": "Lower",
+        "state": "off",
+        "bounds": [
+          280,
+          165,
+          240,
+          300
+        ]
+      },
+      {
+        "owner": "display_lower",
+        "state": "off",
+        "bounds": [
+          335,
+          205,
+          130,
+          130
+        ]
+      },
+      {
+        "owner": "Both",
+        "state": "selected_focused",
+        "bounds": [
+          536,
+          165,
+          240,
+          300
+        ]
+      },
+      {
+        "owner": "app_pairs",
+        "state": "off",
+        "bounds": [
+          591,
+          205,
+          130,
+          130
+        ]
+      },
+      {
+        "owner": "Take screenshot",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          525,
+          352,
+          64
+        ]
+      },
+      {
+        "owner": "Recording options",
+        "state": "off",
+        "bounds": [
+          400,
+          525,
+          376,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Take screenshot",
+        "state": "selected_focused",
+        "bounds": [
+          24,
+          525,
+          352,
+          64
+        ]
+      },
+      {
+        "label": "Recording options",
+        "state": "off",
+        "bounds": [
+          400,
+          525,
+          376,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-performance",
+    "title": "Performance & cooling",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-015"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Performance & cooling",
+        "bounds": [
+          30,
+          49,
+          325.0,
+          34
+        ]
+      },
+      {
+        "text": "Balance your game and cooling preferences",
+        "bounds": [
+          32,
+          88,
+          291.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Sample: 42\u00b0C",
+        "bounds": [
+          91.5,
+          315,
+          129.0,
+          26
+        ]
+      },
+      {
+        "text": "Balanced",
+        "bounds": [
+          395,
+          169,
+          88.0,
+          25
+        ]
+      },
+      {
+        "text": "Selected performance mode",
+        "bounds": [
+          395,
+          202,
+          189.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          727.0,
+          191,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Automatic fan",
+        "bounds": [
+          395,
+          289,
+          141.0,
+          25
+        ]
+      },
+      {
+        "text": "Selected cooling policy",
+        "bounds": [
+          395,
+          322,
+          155.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          727.0,
+          311,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Quiet fan",
+        "bounds": [
+          395,
+          409,
+          92.0,
+          25
+        ]
+      },
+      {
+        "text": "Available sample mode",
+        "bounds": [
+          395,
+          442,
+          157.0,
+          19
+        ]
+      },
+      {
+        "text": "Automatic cooling adjusts to demand. Thermal protection may override your",
+        "bounds": [
+          40,
+          551,
+          642.0,
+          23
+        ]
+      },
+      {
+        "text": "preferences when needed.",
+        "bounds": [
+          40,
+          579,
+          222.0,
+          23
+        ]
+      },
+      {
+        "text": "Restore automatic",
+        "bounds": [
+          322.0,
+          671,
+          156.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "thermal_gauge",
+        "state": "off",
+        "bounds": [
+          36,
+          150,
+          240,
+          150
+        ]
+      },
+      {
+        "owner": "Balanced",
+        "state": "off",
+        "bounds": [
+          315,
+          155,
+          461,
+          92
+        ]
+      },
+      {
+        "owner": "performance_balanced",
+        "state": "off",
+        "bounds": [
+          333,
+          178,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Balanced state",
+        "state": "on",
+        "bounds": [
+          711,
+          179,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Automatic fan",
+        "state": "off",
+        "bounds": [
+          315,
+          275,
+          461,
+          92
+        ]
+      },
+      {
+        "owner": "fan_auto",
+        "state": "off",
+        "bounds": [
+          333,
+          298,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Automatic fan state",
+        "state": "on",
+        "bounds": [
+          711,
+          299,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Quiet fan",
+        "state": "off",
+        "bounds": [
+          315,
+          395,
+          461,
+          92
+        ]
+      },
+      {
+        "owner": "fan_quiet",
+        "state": "off",
+        "bounds": [
+          333,
+          418,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Quiet fan state",
+        "state": "off",
+        "bounds": [
+          711,
+          419,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Restore automatic",
+        "state": "off",
+        "bounds": [
+          24,
+          650,
+          752,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Restore automatic",
+        "state": "off",
+        "bounds": [
+          24,
+          650,
+          752,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-thermal-warning",
+    "title": "Cooling required",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-015"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Warning state / sample values",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Cooling required",
+        "bounds": [
+          30,
+          49,
+          239.0,
+          34
+        ]
+      },
+      {
+        "text": "Automatic protection is active",
+        "bounds": [
+          32,
+          88,
+          199.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Let the device cool",
+        "bounds": [
+          287.0,
+          283,
+          226.0,
+          30
+        ]
+      },
+      {
+        "text": "Thermal protection has priority over your profile. Performance changes are",
+        "bounds": [
+          70,
+          332,
+          589.0,
+          22
+        ]
+      },
+      {
+        "text": "temporarily unavailable in this sample state.",
+        "bounds": [
+          70,
+          359,
+          345.0,
+          22
+        ]
+      },
+      {
+        "text": "Keep automatic cooling",
+        "bounds": [
+          299.0,
+          631,
+          202.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "thermal_warning",
+        "state": "off",
+        "bounds": [
+          354.0,
+          170,
+          92,
+          92
+        ]
+      },
+      {
+        "owner": "Keep automatic cooling",
+        "state": "off",
+        "bounds": [
+          100,
+          610,
+          600,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Keep automatic cooling",
+        "state": "off",
+        "bounds": [
+          100,
+          610,
+          600,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-charge-limit",
+    "title": "Charging preferences",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-016"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Charging preferences",
+        "bounds": [
+          30,
+          49,
+          302.0,
+          34
+        ]
+      },
+      {
+        "text": "Manage supported charging options",
+        "bounds": [
+          32,
+          88,
+          242.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Charge limit",
+        "bounds": [
+          104,
+          339,
+          120.0,
+          25
+        ]
+      },
+      {
+        "text": "Sample target: 80%",
+        "bounds": [
+          104,
+          372,
+          129.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          727.0,
+          361,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Charging bypass",
+        "bounds": [
+          104,
+          459,
+          162.0,
+          25
+        ]
+      },
+      {
+        "text": "Unavailable",
+        "bounds": [
+          104,
+          492,
+          78.0,
+          19
+        ]
+      },
+      {
+        "text": "The selected charge limit applies while connected to power. Charging bypass is",
+        "bounds": [
+          40,
+          566,
+          664.98,
+          23
+        ]
+      },
+      {
+        "text": "unavailable in this example.",
+        "bounds": [
+          40,
+          594,
+          233.0,
+          23
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "charge_limit",
+        "state": "on",
+        "bounds": [
+          280,
+          160,
+          240,
+          120
+        ]
+      },
+      {
+        "owner": "Charge limit",
+        "state": "off",
+        "bounds": [
+          24,
+          325,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "battery_charging",
+        "state": "off",
+        "bounds": [
+          42,
+          348,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Charge limit state",
+        "state": "on",
+        "bounds": [
+          711,
+          349,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Charging bypass",
+        "state": "off",
+        "bounds": [
+          24,
+          445,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "usb",
+        "state": "off",
+        "bounds": [
+          42,
+          468,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Charging bypass state",
+        "state": "off",
+        "bounds": [
+          711,
+          469,
+          44,
+          44
+        ]
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "thor-rgb-zones",
+    "title": "Lighting zones",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-017"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Supported-case concept",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Lighting zones",
+        "bounds": [
+          30,
+          49,
+          206.0,
+          34
+        ]
+      },
+      {
+        "text": "Choose a steady ember preset",
+        "bounds": [
+          32,
+          88,
+          200.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Left \u00b7 ember",
+        "bounds": [
+          136.0,
+          319,
+          128.0,
+          28
+        ]
+      },
+      {
+        "text": "Right \u00b7 off",
+        "bounds": [
+          547.5,
+          319,
+          105.0,
+          28
+        ]
+      },
+      {
+        "text": "Link zones",
+        "bounds": [
+          104,
+          419,
+          104.0,
+          25
+        ]
+      },
+      {
+        "text": "Off",
+        "bounds": [
+          104,
+          452,
+          21.0,
+          19
+        ]
+      },
+      {
+        "text": "Effect",
+        "bounds": [
+          104,
+          539,
+          56.0,
+          25
+        ]
+      },
+      {
+        "text": "Steady ember \u00b7 selected preset",
+        "bounds": [
+          104,
+          572,
+          203.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          727.0,
+          561,
+          12.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "rgb_zone",
+        "state": "on",
+        "bounds": [
+          80,
+          180,
+          240,
+          120
+        ]
+      },
+      {
+        "owner": "rgb_zone",
+        "state": "off",
+        "bounds": [
+          480,
+          180,
+          240,
+          120
+        ]
+      },
+      {
+        "owner": "Link zones",
+        "state": "off",
+        "bounds": [
+          24,
+          405,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "controls",
+        "state": "off",
+        "bounds": [
+          42,
+          428,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Link zones state",
+        "state": "off",
+        "bounds": [
+          711,
+          429,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Effect",
+        "state": "off",
+        "bounds": [
+          24,
+          525,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "settings",
+        "state": "off",
+        "bounds": [
+          42,
+          548,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Effect state",
+        "state": "on",
+        "bounds": [
+          711,
+          549,
+          44,
+          44
+        ]
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "thor-diagnostics",
+    "title": "Controller diagnostics",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Illustrative supported case; hardware service and physical mapping unverified",
+    "roadmap": [
+      "TH-003",
+      "TH-018"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Sample input fixture / no live device",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Controller diagnostics",
+        "bounds": [
+          30,
+          49,
+          311.0,
+          34
+        ]
+      },
+      {
+        "text": "Check sticks, triggers and buttons",
+        "bounds": [
+          32,
+          88,
+          219.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Left X 0.00 / Y 0.00",
+        "bounds": [
+          83.0,
+          372,
+          150.0,
+          22
+        ]
+      },
+      {
+        "text": "Right X 0.25 / Y 0.00",
+        "bounds": [
+          345.5,
+          372,
+          163.0,
+          22
+        ]
+      },
+      {
+        "text": "RT 0.50",
+        "bounds": [
+          648.0,
+          371,
+          60.0,
+          23
+        ]
+      },
+      {
+        "text": "Button input",
+        "bounds": [
+          104,
+          454,
+          127.0,
+          25
+        ]
+      },
+      {
+        "text": "A \u00b7 sample pressed",
+        "bounds": [
+          104,
+          487,
+          124.0,
+          19
+        ]
+      },
+      {
+        "text": "\u2713",
+        "bounds": [
+          727.0,
+          476,
+          12.0,
+          22
+        ]
+      },
+      {
+        "text": "Reset sample",
+        "bounds": [
+          144.0,
+          631,
+          112.0,
+          22
+        ]
+      },
+      {
+        "text": "Calibration guide",
+        "bounds": [
+          515.0,
+          631,
+          146.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "stick_gate",
+        "state": "off",
+        "bounds": [
+          66,
+          160,
+          184,
+          184
+        ]
+      },
+      {
+        "owner": "stick_gate",
+        "state": "on",
+        "bounds": [
+          335,
+          160,
+          184,
+          184
+        ]
+      },
+      {
+        "owner": "trigger_gauge",
+        "state": "on",
+        "bounds": [
+          610,
+          155,
+          137.28,
+          187.20000000000002
+        ]
+      },
+      {
+        "owner": "Button input",
+        "state": "off",
+        "bounds": [
+          24,
+          440,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "controller",
+        "state": "off",
+        "bounds": [
+          42,
+          463,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Button input state",
+        "state": "on",
+        "bounds": [
+          711,
+          464,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Reset sample",
+        "state": "off",
+        "bounds": [
+          24,
+          610,
+          352,
+          64
+        ]
+      },
+      {
+        "owner": "Calibration guide",
+        "state": "off",
+        "bounds": [
+          400,
+          610,
+          376,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Reset sample",
+        "state": "off",
+        "bounds": [
+          24,
+          610,
+          352,
+          64
+        ]
+      },
+      {
+        "label": "Calibration guide",
+        "state": "off",
+        "bounds": [
+          400,
+          610,
+          376,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thor-controls-unavailable",
+    "title": "Controls unavailable",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": "Unavailable fixture; all feature controls cold, no active toggle",
+    "roadmap": [
+      "TH-004",
+      "TH-006",
+      "TH-007",
+      "TH-015",
+      "TH-016",
+      "TH-017",
+      "TH-018"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Unverified hardware / safe visual fallback",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Controls unavailable",
+        "bounds": [
+          30,
+          49,
+          289.0,
+          34
+        ]
+      },
+      {
+        "text": "Supported controls could not be found",
+        "bounds": [
+          32,
+          88,
+          258.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Input features",
+        "bounds": [
+          104,
+          159,
+          139.0,
+          25
+        ]
+      },
+      {
+        "text": "No compatible input service",
+        "bounds": [
+          104,
+          192,
+          187.0,
+          19
+        ]
+      },
+      {
+        "text": "Unavailable",
+        "bounds": [
+          660.0,
+          169,
+          88.0,
+          21
+        ]
+      },
+      {
+        "text": "Cooling & performance",
+        "bounds": [
+          104,
+          277,
+          232.0,
+          25
+        ]
+      },
+      {
+        "text": "No supported hardware values",
+        "bounds": [
+          104,
+          310,
+          203.0,
+          19
+        ]
+      },
+      {
+        "text": "Unavailable",
+        "bounds": [
+          660.0,
+          287,
+          88.0,
+          21
+        ]
+      },
+      {
+        "text": "Charge controls",
+        "bounds": [
+          104,
+          395,
+          155.0,
+          25
+        ]
+      },
+      {
+        "text": "No supported charging service",
+        "bounds": [
+          104,
+          428,
+          203.0,
+          19
+        ]
+      },
+      {
+        "text": "Unavailable",
+        "bounds": [
+          660.0,
+          405,
+          88.0,
+          21
+        ]
+      },
+      {
+        "text": "Lighting zones",
+        "bounds": [
+          104,
+          513,
+          145.0,
+          25
+        ]
+      },
+      {
+        "text": "No supported lighting service",
+        "bounds": [
+          104,
+          546,
+          196.0,
+          19
+        ]
+      },
+      {
+        "text": "Unavailable",
+        "bounds": [
+          660.0,
+          523,
+          88.0,
+          21
+        ]
+      },
+      {
+        "text": "View requirements",
+        "bounds": [
+          320.5,
+          671,
+          159.0,
+          22
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Input features",
+        "state": "off",
+        "bounds": [
+          24,
+          145,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "controller",
+        "state": "off",
+        "bounds": [
+          42,
+          168,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Cooling & performance",
+        "state": "off",
+        "bounds": [
+          24,
+          263,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "fan",
+        "state": "off",
+        "bounds": [
+          42,
+          286,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Charge controls",
+        "state": "off",
+        "bounds": [
+          24,
+          381,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "battery_unknown",
+        "state": "off",
+        "bounds": [
+          42,
+          404,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "Lighting zones",
+        "state": "off",
+        "bounds": [
+          24,
+          499,
+          752,
+          92
+        ]
+      },
+      {
+        "owner": "controls",
+        "state": "off",
+        "bounds": [
+          42,
+          522,
+          44,
+          44
+        ]
+      },
+      {
+        "owner": "View requirements",
+        "state": "off",
+        "bounds": [
+          224,
+          650,
+          352,
+          64
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "View requirements",
+        "state": "off",
+        "bounds": [
+          224,
+          650,
+          352,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "input-prompts",
+    "title": "Input prompt language",
+    "group": "thor",
+    "logicalSize": [
+      800,
+      800
+    ],
+    "fixtureOnly": true,
+    "capability": null,
+    "roadmap": [
+      "TH-001",
+      "TH-002",
+      "TH-005"
+    ],
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "textBakedIntoMasters": false,
+    "measuredDeviceGeometry": false,
+    "designNotes": "Directions, tap, hold and chord / logical mapping only",
+    "textBoxes": [
+      {
+        "text": "CRAFTAGEDDON  /  THOR",
+        "bounds": [
+          30,
+          18,
+          181.98,
+          17
+        ]
+      },
+      {
+        "text": "Input prompt language",
+        "bounds": [
+          30,
+          49,
+          331.0,
+          34
+        ]
+      },
+      {
+        "text": "Direction, tap, hold and chord examples",
+        "bounds": [
+          32,
+          88,
+          265.0,
+          19
+        ]
+      },
+      {
+        "text": "Design preview  /  sample states",
+        "bounds": [
+          30,
+          765,
+          190.0,
+          17
+        ]
+      },
+      {
+        "text": "Up",
+        "bounds": [
+          107.0,
+          253,
+          22.0,
+          21
+        ]
+      },
+      {
+        "text": "Up-right",
+        "bounds": [
+          279.5,
+          253,
+          65.0,
+          21
+        ]
+      },
+      {
+        "text": "Right",
+        "bounds": [
+          486.0,
+          253,
+          40.0,
+          21
+        ]
+      },
+      {
+        "text": "Down-right",
+        "bounds": [
+          656.5,
+          253,
+          87.0,
+          21
+        ]
+      },
+      {
+        "text": "Down",
+        "bounds": [
+          96.0,
+          408,
+          44.0,
+          21
+        ]
+      },
+      {
+        "text": "Down-left",
+        "bounds": [
+          274.5,
+          408,
+          75.0,
+          21
+        ]
+      },
+      {
+        "text": "Left",
+        "bounds": [
+          492.0,
+          408,
+          28.0,
+          21
+        ]
+      },
+      {
+        "text": "Up-left",
+        "bounds": [
+          673.5,
+          408,
+          53.0,
+          21
+        ]
+      },
+      {
+        "text": "A",
+        "bounds": [
+          107.5,
+          539,
+          17.0,
+          28
+        ]
+      },
+      {
+        "text": "Tap",
+        "bounds": [
+          100.52,
+          623,
+          30.97,
+          23
+        ]
+      },
+      {
+        "text": "B",
+        "bounds": [
+          302.5,
+          539,
+          15.0,
+          28
+        ]
+      },
+      {
+        "text": "Hold",
+        "bounds": [
+          290.0,
+          623,
+          40.0,
+          23
+        ]
+      },
+      {
+        "text": "L + R",
+        "bounds": [
+          474.5,
+          539,
+          59.0,
+          28
+        ]
+      },
+      {
+        "text": "Chord",
+        "bounds": [
+          478.0,
+          623,
+          52.0,
+          23
+        ]
+      },
+      {
+        "text": "Menu",
+        "bounds": [
+          665.0,
+          539,
+          66.0,
+          28
+        ]
+      },
+      {
+        "text": "Capture",
+        "bounds": [
+          664.5,
+          623,
+          67.0,
+          23
+        ]
+      },
+      {
+        "text": "Prompt labels are examples; confirm physical mappings before use.",
+        "bounds": [
+          144.5,
+          693,
+          511.0,
+          21
+        ]
+      }
+    ],
+    "artworkOwners": [
+      {
+        "owner": "Up",
+        "state": "off",
+        "bounds": [
+          70,
+          150,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "Up-right",
+        "state": "off",
+        "bounds": [
+          264,
+          150,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "Right",
+        "state": "selected_focused",
+        "bounds": [
+          458,
+          150,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "Down-right",
+        "state": "off",
+        "bounds": [
+          652,
+          150,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "Down",
+        "state": "off",
+        "bounds": [
+          70,
+          305,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "Down-left",
+        "state": "off",
+        "bounds": [
+          264,
+          305,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "Left",
+        "state": "off",
+        "bounds": [
+          458,
+          305,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "Up-left",
+        "state": "off",
+        "bounds": [
+          652,
+          305,
+          96,
+          88
+        ]
+      },
+      {
+        "owner": "Tap",
+        "state": "off",
+        "bounds": [
+          28,
+          505,
+          176,
+          96
+        ]
+      },
+      {
+        "owner": "Hold",
+        "state": "on",
+        "bounds": [
+          222,
+          505,
+          176,
+          96
+        ]
+      },
+      {
+        "owner": "Chord",
+        "state": "off",
+        "bounds": [
+          416,
+          505,
+          176,
+          96
+        ]
+      },
+      {
+        "owner": "Capture",
+        "state": "off",
+        "bounds": [
+          610,
+          505,
+          176,
+          96
+        ]
+      }
+    ],
+    "actions": []
+  }
+]

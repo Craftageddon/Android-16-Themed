@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-21",
+  "components": 18,
+  "scenes": 42,
+  "androidScenes": 25,
+  "thorScenes": 17,
+  "checks": 6711,
+  "neutralMasksChecked": 216,
+  "stateCompositesChecked": 144,
+  "liveTextBoxesChecked": 578,
+  "textIntersections": [],
+  "svgFiles": 102,
+  "pngFiles": 489,
+  "stateTests": 7,
+  "v1Scope": "18 new unlabelled layered controls and 42 editable Android/Thor concept scenes reviewed against cold-off/separate-emission requirements. Sample capability fixtures explicit. Remaining states recorded. Exploratory art checkpoint, not complete device coverage.",
+  "v2Method": "SVG/XML parsing, measured text containment and text intersection checks, neutral-mask pixel identity, exact exported state recomposition and off/hover identity, layer/scene state inspection, source hash checks, PNG decode, local gallery reference validation, existing seven state resolver tests. No target runtime, browser interaction, native compilation or performance test claimed.",
+  "nativeIntegration": "NOT RUN",
+  "targetDevice": "NOT RUN",
+  "browserInteraction": "NOT RUN",
+  "fontMetrics": "Windows Segoe UI at logical design sizes; device scaling/localization pending",
+  "galleryFilterScenarios": 6,
+  "browserAttempt": "In-app browser could not reach Windows loopback URL (connection timed out); no browser rendering/interaction pass claimed. Gallery script tested independently in Node VM."
+}

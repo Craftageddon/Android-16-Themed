@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "5370efa2a447ac66ab5867a437ab010e06de814a158be23a922b81eb1cf20b7e"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-21T14:27:31+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "257ed9e8acab8b39afe387473195ce4594f5623315cdc8bbad434086edab472e",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-21T14:27:31+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "529bb68b8ccc72f3dae7a5f22319205c4c841ad1fc8ef9f9cc573cfea89a74e6",
+      "independence": null,
+      "method": "SVG/XML parsing, measured text containment and text intersection checks, neutral-mask pixel identity, exact exported state recomposition and off/hover identity, layer/scene state inspection, source hash checks, PNG decode, local gallery reference validation, existing seven state resolver tests. No target runtime, browser interaction, native compilation or performance test claimed.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-21T14:27:31+00:00",
+  "project": "13-forge-android-and-thor-flows",
+  "schema": 1,
+  "status": "V2_PASS"
+}

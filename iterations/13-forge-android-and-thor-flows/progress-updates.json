@@ -1,0 +1,118 @@
+{
+  "ES-040": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: app-drawer, folder-open, widget-picker, search-results, search-empty. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-042": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: search-results, search-empty, settings-home, settings-display. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-043": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: power-menu. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-044": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: lock-pin, lock-pattern, lock-biometric. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-045": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: recents-overview, recents-empty. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-046": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: share-sheet. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-047": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: permission-camera, privacy-dashboard. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-048": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: photo-picker, file-picker, file-picker-error. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-049": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: clipboard-history. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-050": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: screenshot-editor. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-051": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: keyboard-symbols, keyboard-numbers. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-052": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: volume-output. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "ES-054": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: split-layout. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-001": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-remap, input-prompts. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-002": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: input-prompts. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-003": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-diagnostics. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-004": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-trigger-modes, thor-remap, thor-controls-unavailable. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-005": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: input-prompts. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-006": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-virtual-mouse, thor-controls-unavailable. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-007": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-touch-mapping, thor-controls-unavailable. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-008": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-profiles. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-009": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-profiles, thor-profile-readback. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-012": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-display-controls, thor-keyboard-target. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-013": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-lid-resume. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-014": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-capture. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-015": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-performance, thor-thermal-warning, thor-controls-unavailable. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-016": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-charge-limit, thor-controls-unavailable. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-017": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-rgb-zones, thor-controls-unavailable. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  },
+  "TH-018": {
+    "design_status": "Partial Reference Forge flow artwork / iteration 13",
+    "evidence_scope": "Editable concept scenes: thor-diagnostics, thor-controls-unavailable. Sample content/capability fixtures only; full state coverage, native ownership and device validation remain open."
+  }
+}

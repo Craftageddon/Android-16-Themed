@@ -1,0 +1,6 @@
+{
+  "checks": 12,
+  "scenarios": 6,
+  "result": "PASS",
+  "method": "Actual gallery JavaScript in Node VM with document fixtures; no browser rendering claim"
+}
