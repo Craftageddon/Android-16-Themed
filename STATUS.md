@@ -1,8 +1,8 @@
 # Redesign checkpoint status — 2026-10-21
 
-Ten source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
+Eleven source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
 
-The current direction is iteration 10 Reference Forge: chipped dark steel, sharp fittings and separate ember layers. Off/unselected is cold. Selected, checked or on enables emission; focus and hover alone do not. This explicitly supersedes archived warm-idle behavior. Three detailed icons have the new material treatment; the full symbol library has not been restyled.
+The current direction is Reference Forge: chipped dark steel, sharp fittings and separate ember layers. Off/unselected is cold. Selected, checked or on enables emission; focus and hover alone do not. Explicit off-value artwork is locked cold. Iteration 11 applies this to all 136 authored named symbols in compact/detailed treatments and all nine large sculpted motifs. Historical source reconciliation and unauthored roadmap surfaces remain incomplete.
 
 | Work | Current result | Remaining validation |
 |---|---|---|

@@ -1,0 +1,9275 @@
+[
+  {
+    "id": "battery_0__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_0",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_0__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_0",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_10__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_10",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_10__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_10",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_20__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_20",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_20__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_20",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_30__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_30",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_30__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_30",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_40__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_40",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_40__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_40",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_50__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_50",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_50__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_50",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_60__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_60",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_60__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_60",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_70__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_70",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_70__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_70",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_80__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_80",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_80__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_80",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_90__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_90",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_90__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_90",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_100__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_100",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_100__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_100",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_charging__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_charging",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_charging__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_charging",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_saver__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_saver",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_saver__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_saver",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_critical__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_critical",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_critical__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_critical",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_unknown__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_unknown",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "battery_unknown__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "battery_unknown",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_0__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_0",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_0__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_0",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_1__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_1",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_1__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_1",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_2__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_2",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_2__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_2",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_3__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_3",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_3__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_3",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_4__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_4",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_4__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_4",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_no_internet__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_no_internet",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "wifi_no_internet__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "wifi_no_internet",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_0__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_0",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_0__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_0",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_1__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_1",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_1__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_1",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_2__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_2",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_2__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_2",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_3__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_3",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_3__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_3",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_4__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_4",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_4__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_4",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cellular_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cellular_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "sim__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "sim",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "sim__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "sim",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "sim_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "sim_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "sim_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "sim_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "bluetooth_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "bluetooth_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "bluetooth_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "bluetooth_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "bluetooth_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "bluetooth_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "bluetooth_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "bluetooth_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "bluetooth_connected__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "bluetooth_connected",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "bluetooth_connected__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "bluetooth_connected",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "nfc_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "nfc_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "nfc_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "nfc_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "nfc_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "nfc_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "nfc_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "nfc_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "hotspot_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "hotspot_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "hotspot_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "hotspot_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "hotspot_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "hotspot_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "hotspot_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "hotspot_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cast_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cast_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cast_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cast_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cast_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cast_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cast_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cast_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "airplane_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "airplane_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "airplane_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "airplane_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "airplane_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "airplane_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "airplane_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "airplane_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "camera_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "camera_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "camera_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "camera_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "camera_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "camera_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "camera_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "camera_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "microphone_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "microphone_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "microphone_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "microphone_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "microphone_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "microphone_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "microphone_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "microphone_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "location_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "location_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "location_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "location_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "location_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "location_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "location_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "location_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "privacy__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "privacy",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "privacy__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "privacy",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "security__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "security",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "security__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "security",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "vpn__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "vpn",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "vpn__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "vpn",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "alarm_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "alarm_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "alarm_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "alarm_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "alarm_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "alarm_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "alarm_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "alarm_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "dnd_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "dnd_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "dnd_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "dnd_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "dnd_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "dnd_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "dnd_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "dnd_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "audio__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "audio",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "audio__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "audio",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "mute__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "mute",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "mute__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "mute",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "headphones__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "headphones",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "headphones__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "headphones",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "headset__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "headset",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "headset__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "headset",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "vibration__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "vibration",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "vibration__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "vibration",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "download__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "download",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "download__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "download",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "upload__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "upload",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "upload__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "upload",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "sync__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "sync",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "sync__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "sync",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "usb__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "usb",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "usb__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "usb",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "storage__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "storage",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "storage__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "storage",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "controller__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "controller",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "controller__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "controller",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "controller_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "controller_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "controller_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "controller_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "gaming__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "gaming",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "gaming__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "gaming",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "keyboard__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "keyboard",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "keyboard__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "keyboard",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "mouse__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "mouse",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "mouse__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "mouse",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "display_upper__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "display_upper",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "display_upper__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "display_upper",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "display_lower__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "display_lower",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "display_lower__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "display_lower",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "display_external__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "display_external",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "display_external__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "display_external",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "screen_swap__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "screen_swap",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "screen_swap__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "screen_swap",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "app_pairs__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "app_pairs",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "app_pairs__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "app_pairs",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "rotation__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "rotation",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "rotation__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "rotation",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "fan__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "fan",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "fan__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "fan",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "fan_auto__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "fan_auto",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "fan_auto__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "fan_auto",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "fan_quiet__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "fan_quiet",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "fan_quiet__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "fan_quiet",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "performance__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "performance",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "performance__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "performance",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "performance_balanced__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "performance_balanced",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "performance_balanced__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "performance_balanced",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "performance_fast__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "performance_fast",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "performance_fast__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "performance_fast",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "temperature__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "temperature",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "temperature__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "temperature",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "thermal_warning__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "thermal_warning",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "thermal_warning__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "thermal_warning",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "power__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "power",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "power__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "power",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "restart__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "restart",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "restart__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "restart",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "sleep__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "sleep",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "sleep__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "sleep",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "lock__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "lock",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "lock__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "lock",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "lockdown__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "lockdown",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "lockdown__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "lockdown",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "screenshot__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "screenshot",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "screenshot__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "screenshot",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "screen_recording__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "screen_recording",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "screen_recording__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "screen_recording",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "home__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "home",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "home__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "home",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "back__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "back",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "back__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "back",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "forward__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "forward",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "forward__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "forward",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "up__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "up",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "up__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "up",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "down__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "down",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "down__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "down",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "recents__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "recents",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "recents__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "recents",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "close__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "close",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "close__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "close",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "check__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "check",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "check__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "check",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "warning__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "warning",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "warning__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "warning",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "error__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "error",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "error__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "error",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "success__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "success",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "success__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "success",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "info__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "info",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "info__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "info",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "about__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "about",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "about__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "about",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "settings__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "settings",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "settings__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "settings",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "system__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "system",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "system__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "system",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "controls__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "controls",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "controls__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "controls",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "apps__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "apps",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "apps__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "apps",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "app_drawer__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "app_drawer",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "app_drawer__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "app_drawer",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "accounts__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "accounts",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "accounts__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "accounts",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "person__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "person",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "person__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "person",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "accessibility__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "accessibility",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "accessibility__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "accessibility",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "network__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "network",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "network__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "network",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "display__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "display",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "display__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "display",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "search__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "search",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "search__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "search",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "folder__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "folder",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "folder__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "folder",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "document__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "document",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "document__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "document",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "share__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "share",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "share__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "share",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "copy__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "copy",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "copy__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "copy",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "paste__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "paste",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "paste__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "paste",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cut__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cut",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "cut__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "cut",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "delete__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "delete",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "delete__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "delete",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "edit__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "edit",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "edit__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "edit",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "save__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "save",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "save__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "save",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "attach__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "attach",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "attach__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "attach",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "more__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "more",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "more__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "more",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "play__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "play",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "play__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "play",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "pause__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "pause",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "pause__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "pause",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "stop__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "stop",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "stop__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "stop",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "esim__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "esim",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "esim__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "esim",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "sim_warning__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "sim_warning",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "sim_warning__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "sim_warning",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "mobile_data_on__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "mobile_data_on",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "mobile_data_on__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "mobile_data_on",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "mobile_data_off__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "mobile_data_off",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "mobile_data_off__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": true,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "mobile_data_off",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "mobile_data_saver__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "mobile_data_saver",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "mobile_data_saver__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "mobile_data_saver",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "network_4g__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "network_4g",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "network_4g__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "network_4g",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "network_5g__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "network_5g",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "network_5g__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "network_5g",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "network_lte__compact",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      24,
+      48
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "network_lte",
+    "optical": "compact",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "network_lte__detailed",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      96,
+      192
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "symbol",
+    "symbol": "network_lte",
+    "optical": "detailed",
+    "semanticGeometry": "original iteration 05 geometry; reworked optical material"
+  },
+  {
+    "id": "hero-wifi",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "hero",
+    "motif": "wifi",
+    "optical": "sculpted",
+    "sourceColdUnmodified": true
+  },
+  {
+    "id": "hero-bluetooth",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "hero",
+    "motif": "bluetooth",
+    "optical": "sculpted",
+    "sourceColdUnmodified": true
+  },
+  {
+    "id": "hero-signal",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "hero",
+    "motif": "signal",
+    "optical": "sculpted",
+    "sourceColdUnmodified": true
+  },
+  {
+    "id": "hero-hotspot",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "hero",
+    "motif": "hotspot",
+    "optical": "sculpted",
+    "sourceColdUnmodified": true
+  },
+  {
+    "id": "hero-airplane",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "hero",
+    "motif": "airplane",
+    "optical": "sculpted",
+    "sourceColdUnmodified": true
+  },
+  {
+    "id": "hero-shield",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "hero",
+    "motif": "shield",
+    "optical": "sculpted",
+    "sourceColdUnmodified": true
+  },
+  {
+    "id": "hero-cast",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "hero",
+    "motif": "cast",
+    "optical": "sculpted",
+    "sourceColdUnmodified": true
+  },
+  {
+    "id": "hero-play",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "hero",
+    "motif": "play",
+    "optical": "sculpted",
+    "sourceColdUnmodified": true
+  },
+  {
+    "id": "hero-power_core",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "hero",
+    "motif": "power_core",
+    "optical": "sculpted",
+    "sourceColdUnmodified": true
+  }
+]

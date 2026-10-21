@@ -39,3 +39,7 @@ test('off transition extinguishes every light and hidden/reduced states schedule
     const s=sample(flags); assert.equal(s.animate,false); assert.equal(s.scale,1);
   }
 });
+test('explicit off-value artwork stays cold under selection while neutral cues survive', () => {
+  const s=sample({emissionLockedOff:true,selected:true,on:true,pressed:true,focused:true});
+  assert.deepEqual(light(s),[0,0,0,0]); assert.equal(s.focus,true); assert.equal(s.selection,true);
+});

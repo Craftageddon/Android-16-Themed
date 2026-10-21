@@ -1,0 +1,58 @@
+{
+  "ES-025": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-028": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-029": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-030": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-031": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-032": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-033": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-034": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-035": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-036": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-037": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-038": {
+    "design_status": "Reference Forge symbol catalog / iteration 11",
+    "evidence_scope": "All 136 retained named entries in compact/detailed treatments; nine sculpted motifs; 136 compact XML resources compile/link; native and device acceptance pending"
+  },
+  "ES-002": {
+    "design_status": "Reference Forge expanded catalog",
+    "evidence_scope": "Iteration 11: nine sculpted motifs and full authored symbol catalog; historical and unauthored roadmap coverage remains open"
+  },
+  "ES-008": {
+    "design_status": "Cold-off state owner with off-value lock",
+    "evidence_scope": "Iteration 11: seven Node tests; explicit off-value emission lock; focus/selection neutral cues survive; Android owner unchanged"
+  }
+}

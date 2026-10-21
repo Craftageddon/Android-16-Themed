@@ -1,0 +1,64 @@
+{
+  "tool": "Built-in OpenAI image generation",
+  "date": "2026-10-21",
+  "assets": [
+    {
+      "name": "signal",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. Four vertical cellular signal bars rising progressively from left to right. Each bar is thick carved black metal with a narrow dark vertical center groove, a small pointed spear cap, a wide base and very restrained dark copper fittings. Separate freestanding bars with transparent gaps, all on the same baseline."
+    },
+    {
+      "name": "hotspot",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. A wireless antenna/hotspot icon. One central upright tapered metal antenna, a round unlit black socket near its upper-middle, small broad three-footed base. Two concentric curved radio-wave rails to either side of the dark core. Symmetrical readable antenna silhouette, substantial forged arcs with narrow deep black recessed channels."
+    },
+    {
+      "name": "shield",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. An ornate pointed shield outline surrounding a large open circular black socket/ring at center. Shield has sharp upper shoulders and a long pointed lower tip, small spear joints, heavy layered iron rim. Interior gaps genuinely transparent. Circular center has transparent hole, not a solid orb. Deep narrow BLACK ring groove for later runtime light."
+    },
+    {
+      "name": "cast",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. A cast/display icon: one heavy chamfered rectangular monitor outline with a quiet transparent center and 3 thick quarter-circle broadcast rails extending from lower-left corner. A small unlit round socket at broadcast origin. Narrow BLACK carved channels inside the monitor border and each broadcast arc. No stand or extra unrelated symbols."
+    },
+    {
+      "name": "play",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. A large heavy circular steel media control ring with four small spear-point joints at cardinal directions. In the central transparent well a substantial right-pointing triangular play symbol sculpted from layered forged steel. Deep black grooves on the inside of ring and along the play triangle, dark copper edge fittings. NO solid background disk."
+    },
+    {
+      "name": "power_core",
+      "prompt": "Create one ORIGINAL Craftageddon Android large-format UI icon matching the supplied cold Wi-Fi reference material EXACTLY in visual family: rough deeply chipped blackened forged iron, layered substantial metal bevels, sparse aged dark brown copper joints, gothic spear-point end fittings, deep BLACK carved channels for future runtime emission. Front-on orthographic, centered, single isolated icon, square canvas, 8 percent empty margins, truly transparent RGBA background INCLUDING interior holes. No text, no backdrop, no ground shadow. COLD OFF BASE ONLY: absolutely NO fire, orange/red/yellow glowing pixels, bloom or warm lighting. Copper is dark desaturated physical metal; all channels and center cores are unlit black obsidian. Fine silver chips only on edges. Keep silhouette clear and recognizable. A large round powered-core socket icon: heavy multi-ring forged steel rim with four spear-point fittings at cardinal directions, concentric deep BLACK recessed ring channels and one round completely DARK unlit obsidian core at center. Symmetrical original machinery socket with rich chipped facets. No letter, no power logo, no baked glow."
+    },
+    {
+      "name": "steel_material",
+      "prompt": "Generate a square edge-to-edge neutral material texture for Craftageddon forged steel SVG surfaces. Dense rough hammered blackened iron with many small chipped facets and short shallow cracks, physical dark steel, dim neutral cool highlights. Flat front-on orthographic scan with even illumination, no objects, no border, no joints, no text, no geometry, no shadows. Texture fills entire canvas. No copper, no gold, no orange, no fire, no emission, no glow. Predominantly near-black steel with restrained small silver chips. This is a reusable opaque cold material texture, not an icon."
+    }
+  ],
+  "sources": [
+    {
+      "name": "signal",
+      "path": "iterations/11-forge-symbol-library/source/signal-cold.png"
+    },
+    {
+      "name": "hotspot",
+      "path": "iterations/11-forge-symbol-library/source/hotspot-cold.png"
+    },
+    {
+      "name": "shield",
+      "path": "iterations/11-forge-symbol-library/source/shield-cold.png"
+    },
+    {
+      "name": "cast",
+      "path": "iterations/11-forge-symbol-library/source/cast-cold.png"
+    },
+    {
+      "name": "play",
+      "path": "iterations/11-forge-symbol-library/source/play-cold.png"
+    },
+    {
+      "name": "power_core",
+      "path": "iterations/11-forge-symbol-library/source/power_core-cold.png"
+    },
+    {
+      "name": "steel_material",
+      "path": "iterations/11-forge-symbol-library/source/steel-material-original.png"
+    }
+  ]
+}

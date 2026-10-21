@@ -3,3 +3,5 @@ __pycache__/
 .venv/
 build-work/
 iterations/*/exports/
+iterations/11-forge-symbol-library/complete-assets.zip
+iterations/12-forge-controls-and-screens/complete-assets.zip

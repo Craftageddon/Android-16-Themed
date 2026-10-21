@@ -16,6 +16,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | [08 — Native Material Lab 0.1.0](iterations/08-native-material-lab/) | Standalone signed APK, Java source, live-text/RTL/width/focus controls and clean rebuild evidence | Built and audited; not installed or device-verified |
 | [09 — Rich scalable controls](iterations/09-rich-scalable-controls/) | Notification/tile-style cold steel, fixed corners, seven separate light/state layers and selected/glowing previews | Layered export + resource compile/link checkpoint; APK unchanged |
 | [10 — Reference Forge](iterations/10-reference-forge/) | Three chipped-steel detailed icons, neutral light masks, cold-off state contract and four retained frame family comparisons | Three desktop passes + source/state checks; native/device validation pending |
+| [11 — Forge symbol library](iterations/11-forge-symbol-library/) | All 136 named symbols in two optical treatments and all nine large sculpted motifs | Full authored-symbol coverage; source/resource checks; device validation pending |
 
 ![Material direction](art-direction/ember-steel-study.png)
 

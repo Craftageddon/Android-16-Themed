@@ -1,0 +1,275 @@
+Binary APK
+Package name=com.craftageddon.forgecheck id=7f
+  type drawable id=01 entryCount=136
+    resource 0x7f010000 drawable/cg_rf_about
+      () (file) res/drawable/cg_rf_about.xml type=XML
+    resource 0x7f010001 drawable/cg_rf_accessibility
+      () (file) res/drawable/cg_rf_accessibility.xml type=XML
+    resource 0x7f010002 drawable/cg_rf_accounts
+      () (file) res/drawable/cg_rf_accounts.xml type=XML
+    resource 0x7f010003 drawable/cg_rf_airplane_off
+      () (file) res/drawable/cg_rf_airplane_off.xml type=XML
+    resource 0x7f010004 drawable/cg_rf_airplane_on
+      () (file) res/drawable/cg_rf_airplane_on.xml type=XML
+    resource 0x7f010005 drawable/cg_rf_alarm_off
+      () (file) res/drawable/cg_rf_alarm_off.xml type=XML
+    resource 0x7f010006 drawable/cg_rf_alarm_on
+      () (file) res/drawable/cg_rf_alarm_on.xml type=XML
+    resource 0x7f010007 drawable/cg_rf_app_drawer
+      () (file) res/drawable/cg_rf_app_drawer.xml type=XML
+    resource 0x7f010008 drawable/cg_rf_app_pairs
+      () (file) res/drawable/cg_rf_app_pairs.xml type=XML
+    resource 0x7f010009 drawable/cg_rf_apps
+      () (file) res/drawable/cg_rf_apps.xml type=XML
+    resource 0x7f01000a drawable/cg_rf_attach
+      () (file) res/drawable/cg_rf_attach.xml type=XML
+    resource 0x7f01000b drawable/cg_rf_audio
+      () (file) res/drawable/cg_rf_audio.xml type=XML
+    resource 0x7f01000c drawable/cg_rf_back
+      () (file) res/drawable/cg_rf_back.xml type=XML
+    resource 0x7f01000d drawable/cg_rf_battery_0
+      () (file) res/drawable/cg_rf_battery_0.xml type=XML
+    resource 0x7f01000e drawable/cg_rf_battery_10
+      () (file) res/drawable/cg_rf_battery_10.xml type=XML
+    resource 0x7f01000f drawable/cg_rf_battery_100
+      () (file) res/drawable/cg_rf_battery_100.xml type=XML
+    resource 0x7f010010 drawable/cg_rf_battery_20
+      () (file) res/drawable/cg_rf_battery_20.xml type=XML
+    resource 0x7f010011 drawable/cg_rf_battery_30
+      () (file) res/drawable/cg_rf_battery_30.xml type=XML
+    resource 0x7f010012 drawable/cg_rf_battery_40
+      () (file) res/drawable/cg_rf_battery_40.xml type=XML
+    resource 0x7f010013 drawable/cg_rf_battery_50
+      () (file) res/drawable/cg_rf_battery_50.xml type=XML
+    resource 0x7f010014 drawable/cg_rf_battery_60
+      () (file) res/drawable/cg_rf_battery_60.xml type=XML
+    resource 0x7f010015 drawable/cg_rf_battery_70
+      () (file) res/drawable/cg_rf_battery_70.xml type=XML
+    resource 0x7f010016 drawable/cg_rf_battery_80
+      () (file) res/drawable/cg_rf_battery_80.xml type=XML
+    resource 0x7f010017 drawable/cg_rf_battery_90
+      () (file) res/drawable/cg_rf_battery_90.xml type=XML
+    resource 0x7f010018 drawable/cg_rf_battery_charging
+      () (file) res/drawable/cg_rf_battery_charging.xml type=XML
+    resource 0x7f010019 drawable/cg_rf_battery_critical
+      () (file) res/drawable/cg_rf_battery_critical.xml type=XML
+    resource 0x7f01001a drawable/cg_rf_battery_saver
+      () (file) res/drawable/cg_rf_battery_saver.xml type=XML
+    resource 0x7f01001b drawable/cg_rf_battery_unknown
+      () (file) res/drawable/cg_rf_battery_unknown.xml type=XML
+    resource 0x7f01001c drawable/cg_rf_bluetooth_connected
+      () (file) res/drawable/cg_rf_bluetooth_connected.xml type=XML
+    resource 0x7f01001d drawable/cg_rf_bluetooth_off
+      () (file) res/drawable/cg_rf_bluetooth_off.xml type=XML
+    resource 0x7f01001e drawable/cg_rf_bluetooth_on
+      () (file) res/drawable/cg_rf_bluetooth_on.xml type=XML
+    resource 0x7f01001f drawable/cg_rf_camera_off
+      () (file) res/drawable/cg_rf_camera_off.xml type=XML
+    resource 0x7f010020 drawable/cg_rf_camera_on
+      () (file) res/drawable/cg_rf_camera_on.xml type=XML
+    resource 0x7f010021 drawable/cg_rf_cast_off
+      () (file) res/drawable/cg_rf_cast_off.xml type=XML
+    resource 0x7f010022 drawable/cg_rf_cast_on
+      () (file) res/drawable/cg_rf_cast_on.xml type=XML
+    resource 0x7f010023 drawable/cg_rf_cellular_0
+      () (file) res/drawable/cg_rf_cellular_0.xml type=XML
+    resource 0x7f010024 drawable/cg_rf_cellular_1
+      () (file) res/drawable/cg_rf_cellular_1.xml type=XML
+    resource 0x7f010025 drawable/cg_rf_cellular_2
+      () (file) res/drawable/cg_rf_cellular_2.xml type=XML
+    resource 0x7f010026 drawable/cg_rf_cellular_3
+      () (file) res/drawable/cg_rf_cellular_3.xml type=XML
+    resource 0x7f010027 drawable/cg_rf_cellular_4
+      () (file) res/drawable/cg_rf_cellular_4.xml type=XML
+    resource 0x7f010028 drawable/cg_rf_cellular_off
+      () (file) res/drawable/cg_rf_cellular_off.xml type=XML
+    resource 0x7f010029 drawable/cg_rf_check
+      () (file) res/drawable/cg_rf_check.xml type=XML
+    resource 0x7f01002a drawable/cg_rf_close
+      () (file) res/drawable/cg_rf_close.xml type=XML
+    resource 0x7f01002b drawable/cg_rf_controller
+      () (file) res/drawable/cg_rf_controller.xml type=XML
+    resource 0x7f01002c drawable/cg_rf_controller_off
+      () (file) res/drawable/cg_rf_controller_off.xml type=XML
+    resource 0x7f01002d drawable/cg_rf_controls
+      () (file) res/drawable/cg_rf_controls.xml type=XML
+    resource 0x7f01002e drawable/cg_rf_copy
+      () (file) res/drawable/cg_rf_copy.xml type=XML
+    resource 0x7f01002f drawable/cg_rf_cut
+      () (file) res/drawable/cg_rf_cut.xml type=XML
+    resource 0x7f010030 drawable/cg_rf_delete
+      () (file) res/drawable/cg_rf_delete.xml type=XML
+    resource 0x7f010031 drawable/cg_rf_display
+      () (file) res/drawable/cg_rf_display.xml type=XML
+    resource 0x7f010032 drawable/cg_rf_display_external
+      () (file) res/drawable/cg_rf_display_external.xml type=XML
+    resource 0x7f010033 drawable/cg_rf_display_lower
+      () (file) res/drawable/cg_rf_display_lower.xml type=XML
+    resource 0x7f010034 drawable/cg_rf_display_upper
+      () (file) res/drawable/cg_rf_display_upper.xml type=XML
+    resource 0x7f010035 drawable/cg_rf_dnd_off
+      () (file) res/drawable/cg_rf_dnd_off.xml type=XML
+    resource 0x7f010036 drawable/cg_rf_dnd_on
+      () (file) res/drawable/cg_rf_dnd_on.xml type=XML
+    resource 0x7f010037 drawable/cg_rf_document
+      () (file) res/drawable/cg_rf_document.xml type=XML
+    resource 0x7f010038 drawable/cg_rf_down
+      () (file) res/drawable/cg_rf_down.xml type=XML
+    resource 0x7f010039 drawable/cg_rf_download
+      () (file) res/drawable/cg_rf_download.xml type=XML
+    resource 0x7f01003a drawable/cg_rf_edit
+      () (file) res/drawable/cg_rf_edit.xml type=XML
+    resource 0x7f01003b drawable/cg_rf_error
+      () (file) res/drawable/cg_rf_error.xml type=XML
+    resource 0x7f01003c drawable/cg_rf_esim
+      () (file) res/drawable/cg_rf_esim.xml type=XML
+    resource 0x7f01003d drawable/cg_rf_fan
+      () (file) res/drawable/cg_rf_fan.xml type=XML
+    resource 0x7f01003e drawable/cg_rf_fan_auto
+      () (file) res/drawable/cg_rf_fan_auto.xml type=XML
+    resource 0x7f01003f drawable/cg_rf_fan_quiet
+      () (file) res/drawable/cg_rf_fan_quiet.xml type=XML
+    resource 0x7f010040 drawable/cg_rf_folder
+      () (file) res/drawable/cg_rf_folder.xml type=XML
+    resource 0x7f010041 drawable/cg_rf_forward
+      () (file) res/drawable/cg_rf_forward.xml type=XML
+    resource 0x7f010042 drawable/cg_rf_gaming
+      () (file) res/drawable/cg_rf_gaming.xml type=XML
+    resource 0x7f010043 drawable/cg_rf_headphones
+      () (file) res/drawable/cg_rf_headphones.xml type=XML
+    resource 0x7f010044 drawable/cg_rf_headset
+      () (file) res/drawable/cg_rf_headset.xml type=XML
+    resource 0x7f010045 drawable/cg_rf_home
+      () (file) res/drawable/cg_rf_home.xml type=XML
+    resource 0x7f010046 drawable/cg_rf_hotspot_off
+      () (file) res/drawable/cg_rf_hotspot_off.xml type=XML
+    resource 0x7f010047 drawable/cg_rf_hotspot_on
+      () (file) res/drawable/cg_rf_hotspot_on.xml type=XML
+    resource 0x7f010048 drawable/cg_rf_info
+      () (file) res/drawable/cg_rf_info.xml type=XML
+    resource 0x7f010049 drawable/cg_rf_keyboard
+      () (file) res/drawable/cg_rf_keyboard.xml type=XML
+    resource 0x7f01004a drawable/cg_rf_location_off
+      () (file) res/drawable/cg_rf_location_off.xml type=XML
+    resource 0x7f01004b drawable/cg_rf_location_on
+      () (file) res/drawable/cg_rf_location_on.xml type=XML
+    resource 0x7f01004c drawable/cg_rf_lock
+      () (file) res/drawable/cg_rf_lock.xml type=XML
+    resource 0x7f01004d drawable/cg_rf_lockdown
+      () (file) res/drawable/cg_rf_lockdown.xml type=XML
+    resource 0x7f01004e drawable/cg_rf_microphone_off
+      () (file) res/drawable/cg_rf_microphone_off.xml type=XML
+    resource 0x7f01004f drawable/cg_rf_microphone_on
+      () (file) res/drawable/cg_rf_microphone_on.xml type=XML
+    resource 0x7f010050 drawable/cg_rf_mobile_data_off
+      () (file) res/drawable/cg_rf_mobile_data_off.xml type=XML
+    resource 0x7f010051 drawable/cg_rf_mobile_data_on
+      () (file) res/drawable/cg_rf_mobile_data_on.xml type=XML
+    resource 0x7f010052 drawable/cg_rf_mobile_data_saver
+      () (file) res/drawable/cg_rf_mobile_data_saver.xml type=XML
+    resource 0x7f010053 drawable/cg_rf_more
+      () (file) res/drawable/cg_rf_more.xml type=XML
+    resource 0x7f010054 drawable/cg_rf_mouse
+      () (file) res/drawable/cg_rf_mouse.xml type=XML
+    resource 0x7f010055 drawable/cg_rf_mute
+      () (file) res/drawable/cg_rf_mute.xml type=XML
+    resource 0x7f010056 drawable/cg_rf_network
+      () (file) res/drawable/cg_rf_network.xml type=XML
+    resource 0x7f010057 drawable/cg_rf_network_4g
+      () (file) res/drawable/cg_rf_network_4g.xml type=XML
+    resource 0x7f010058 drawable/cg_rf_network_5g
+      () (file) res/drawable/cg_rf_network_5g.xml type=XML
+    resource 0x7f010059 drawable/cg_rf_network_lte
+      () (file) res/drawable/cg_rf_network_lte.xml type=XML
+    resource 0x7f01005a drawable/cg_rf_nfc_off
+      () (file) res/drawable/cg_rf_nfc_off.xml type=XML
+    resource 0x7f01005b drawable/cg_rf_nfc_on
+      () (file) res/drawable/cg_rf_nfc_on.xml type=XML
+    resource 0x7f01005c drawable/cg_rf_paste
+      () (file) res/drawable/cg_rf_paste.xml type=XML
+    resource 0x7f01005d drawable/cg_rf_pause
+      () (file) res/drawable/cg_rf_pause.xml type=XML
+    resource 0x7f01005e drawable/cg_rf_performance
+      () (file) res/drawable/cg_rf_performance.xml type=XML
+    resource 0x7f01005f drawable/cg_rf_performance_balanced
+      () (file) res/drawable/cg_rf_performance_balanced.xml type=XML
+    resource 0x7f010060 drawable/cg_rf_performance_fast
+      () (file) res/drawable/cg_rf_performance_fast.xml type=XML
+    resource 0x7f010061 drawable/cg_rf_person
+      () (file) res/drawable/cg_rf_person.xml type=XML
+    resource 0x7f010062 drawable/cg_rf_play
+      () (file) res/drawable/cg_rf_play.xml type=XML
+    resource 0x7f010063 drawable/cg_rf_power
+      () (file) res/drawable/cg_rf_power.xml type=XML
+    resource 0x7f010064 drawable/cg_rf_privacy
+      () (file) res/drawable/cg_rf_privacy.xml type=XML
+    resource 0x7f010065 drawable/cg_rf_recents
+      () (file) res/drawable/cg_rf_recents.xml type=XML
+    resource 0x7f010066 drawable/cg_rf_restart
+      () (file) res/drawable/cg_rf_restart.xml type=XML
+    resource 0x7f010067 drawable/cg_rf_rotation
+      () (file) res/drawable/cg_rf_rotation.xml type=XML
+    resource 0x7f010068 drawable/cg_rf_save
+      () (file) res/drawable/cg_rf_save.xml type=XML
+    resource 0x7f010069 drawable/cg_rf_screen_recording
+      () (file) res/drawable/cg_rf_screen_recording.xml type=XML
+    resource 0x7f01006a drawable/cg_rf_screen_swap
+      () (file) res/drawable/cg_rf_screen_swap.xml type=XML
+    resource 0x7f01006b drawable/cg_rf_screenshot
+      () (file) res/drawable/cg_rf_screenshot.xml type=XML
+    resource 0x7f01006c drawable/cg_rf_search
+      () (file) res/drawable/cg_rf_search.xml type=XML
+    resource 0x7f01006d drawable/cg_rf_security
+      () (file) res/drawable/cg_rf_security.xml type=XML
+    resource 0x7f01006e drawable/cg_rf_settings
+      () (file) res/drawable/cg_rf_settings.xml type=XML
+    resource 0x7f01006f drawable/cg_rf_share
+      () (file) res/drawable/cg_rf_share.xml type=XML
+    resource 0x7f010070 drawable/cg_rf_sim
+      () (file) res/drawable/cg_rf_sim.xml type=XML
+    resource 0x7f010071 drawable/cg_rf_sim_off
+      () (file) res/drawable/cg_rf_sim_off.xml type=XML
+    resource 0x7f010072 drawable/cg_rf_sim_warning
+      () (file) res/drawable/cg_rf_sim_warning.xml type=XML
+    resource 0x7f010073 drawable/cg_rf_sleep
+      () (file) res/drawable/cg_rf_sleep.xml type=XML
+    resource 0x7f010074 drawable/cg_rf_stop
+      () (file) res/drawable/cg_rf_stop.xml type=XML
+    resource 0x7f010075 drawable/cg_rf_storage
+      () (file) res/drawable/cg_rf_storage.xml type=XML
+    resource 0x7f010076 drawable/cg_rf_success
+      () (file) res/drawable/cg_rf_success.xml type=XML
+    resource 0x7f010077 drawable/cg_rf_sync
+      () (file) res/drawable/cg_rf_sync.xml type=XML
+    resource 0x7f010078 drawable/cg_rf_system
+      () (file) res/drawable/cg_rf_system.xml type=XML
+    resource 0x7f010079 drawable/cg_rf_temperature
+      () (file) res/drawable/cg_rf_temperature.xml type=XML
+    resource 0x7f01007a drawable/cg_rf_thermal_warning
+      () (file) res/drawable/cg_rf_thermal_warning.xml type=XML
+    resource 0x7f01007b drawable/cg_rf_up
+      () (file) res/drawable/cg_rf_up.xml type=XML
+    resource 0x7f01007c drawable/cg_rf_upload
+      () (file) res/drawable/cg_rf_upload.xml type=XML
+    resource 0x7f01007d drawable/cg_rf_usb
+      () (file) res/drawable/cg_rf_usb.xml type=XML
+    resource 0x7f01007e drawable/cg_rf_vibration
+      () (file) res/drawable/cg_rf_vibration.xml type=XML
+    resource 0x7f01007f drawable/cg_rf_vpn
+      () (file) res/drawable/cg_rf_vpn.xml type=XML
+    resource 0x7f010080 drawable/cg_rf_warning
+      () (file) res/drawable/cg_rf_warning.xml type=XML
+    resource 0x7f010081 drawable/cg_rf_wifi_0
+      () (file) res/drawable/cg_rf_wifi_0.xml type=XML
+    resource 0x7f010082 drawable/cg_rf_wifi_1
+      () (file) res/drawable/cg_rf_wifi_1.xml type=XML
+    resource 0x7f010083 drawable/cg_rf_wifi_2
+      () (file) res/drawable/cg_rf_wifi_2.xml type=XML
+    resource 0x7f010084 drawable/cg_rf_wifi_3
+      () (file) res/drawable/cg_rf_wifi_3.xml type=XML
+    resource 0x7f010085 drawable/cg_rf_wifi_4
+      () (file) res/drawable/cg_rf_wifi_4.xml type=XML
+    resource 0x7f010086 drawable/cg_rf_wifi_no_internet
+      () (file) res/drawable/cg_rf_wifi_no_internet.xml type=XML
+    resource 0x7f010087 drawable/cg_rf_wifi_off
+      () (file) res/drawable/cg_rf_wifi_off.xml type=XML

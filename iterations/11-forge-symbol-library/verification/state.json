@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "b263d366bd42dfa0af3f14be05fc8211443570385f0d84491af57d2c68d8c51d"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-21T13:37:56+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "8281bbdebdfe417d3508a020ce5a7dfd562945f59a61abe55f3be4448dc68d16",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-21T13:37:56+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "fa87bb5ca3bd1d34fa87b9774f837ccfad863c0ba7096ba76c2da5494065aad8",
+      "independence": null,
+      "method": "Source hashes, alpha, neutral masks, SVG links and unique IDs, exact off/cold and runtime recomposition parity, catalog set equality, PNG/SVG decoding, state-owner tests and nine-patch audits where applicable; Android resource compile/link",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-21T13:37:56+00:00",
+  "project": "11-forge-symbol-library",
+  "schema": 1,
+  "status": "V2_PASS"
+}

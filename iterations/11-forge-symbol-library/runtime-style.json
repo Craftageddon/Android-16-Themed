@@ -1,0 +1,171 @@
+{
+  "schema": 2,
+  "colors": {
+    "reflection": "#dc5920",
+    "spill": "#ff4908",
+    "seam": "#ff5b0b",
+    "core": "#ffd083",
+    "focus": "#d5e7f2",
+    "symbol": "#ffe5bc"
+  },
+  "layerOrder": [
+    "cold",
+    "reflection",
+    "spill",
+    "seam",
+    "core",
+    "focus",
+    "symbol"
+  ],
+  "sampleStates": {
+    "off": {
+      "state": "off",
+      "visible": true,
+      "active": false,
+      "focus": false,
+      "selection": false,
+      "baseOpacity": 1,
+      "gains": {
+        "reflection": 0,
+        "spill": 0,
+        "seam": 0,
+        "core": 0,
+        "focus": 0,
+        "symbol": 0
+      },
+      "animate": false,
+      "scale": 1
+    },
+    "hovered": {
+      "state": "off",
+      "visible": true,
+      "active": false,
+      "focus": false,
+      "selection": false,
+      "baseOpacity": 1,
+      "gains": {
+        "reflection": 0,
+        "spill": 0,
+        "seam": 0,
+        "core": 0,
+        "focus": 0,
+        "symbol": 0
+      },
+      "animate": false,
+      "scale": 1
+    },
+    "focused_off": {
+      "state": "off",
+      "visible": true,
+      "active": false,
+      "focus": true,
+      "selection": false,
+      "baseOpacity": 1,
+      "gains": {
+        "reflection": 0,
+        "spill": 0,
+        "seam": 0,
+        "core": 0,
+        "focus": 1,
+        "symbol": 0
+      },
+      "animate": false,
+      "scale": 1
+    },
+    "on": {
+      "state": "on",
+      "visible": true,
+      "active": true,
+      "focus": false,
+      "selection": true,
+      "baseOpacity": 1,
+      "gains": {
+        "reflection": 0.32,
+        "spill": 0.72,
+        "seam": 1,
+        "core": 0.82,
+        "focus": 0,
+        "symbol": 1
+      },
+      "animate": false,
+      "scale": 1
+    },
+    "selected_focused": {
+      "state": "on",
+      "visible": true,
+      "active": true,
+      "focus": true,
+      "selection": true,
+      "baseOpacity": 1,
+      "gains": {
+        "reflection": 0.32,
+        "spill": 0.72,
+        "seam": 1,
+        "core": 0.82,
+        "focus": 1,
+        "symbol": 1
+      },
+      "animate": false,
+      "scale": 1
+    },
+    "active_pressed": {
+      "state": "active_pressed",
+      "visible": true,
+      "active": true,
+      "focus": false,
+      "selection": true,
+      "baseOpacity": 1,
+      "gains": {
+        "reflection": 0.6,
+        "spill": 0.92,
+        "seam": 1,
+        "core": 1,
+        "focus": 0,
+        "symbol": 1
+      },
+      "animate": false,
+      "scale": 1
+    },
+    "disabled": {
+      "state": "disabled",
+      "visible": true,
+      "active": false,
+      "focus": false,
+      "selection": false,
+      "baseOpacity": 0.42,
+      "gains": {
+        "reflection": 0,
+        "spill": 0,
+        "seam": 0,
+        "core": 0,
+        "focus": 0,
+        "symbol": 0
+      },
+      "animate": false,
+      "scale": 1
+    },
+    "reduced": {
+      "state": "on",
+      "visible": true,
+      "active": true,
+      "focus": false,
+      "selection": true,
+      "baseOpacity": 1,
+      "gains": {
+        "reflection": 0.32,
+        "spill": 0.72,
+        "seam": 1,
+        "core": 0.82,
+        "focus": 0,
+        "symbol": 1
+      },
+      "animate": false,
+      "scale": 1
+    }
+  },
+  "activationRule": "enabled && !cold && !emissionLockedOff && (selected || checked || on)",
+  "assetOverride": "Pass components.json emissionLockedOff to the state owner; explicit off geometry stays cold even if selected. Neutral selection/focus cues remain independent.",
+  "compactTreatment": "Flat neutral semantic geometry, tiny optional steady emission; focus and selection owned by container",
+  "motion": "Static, no timers or breathing",
+  "nativeIntegrated": false
+}
