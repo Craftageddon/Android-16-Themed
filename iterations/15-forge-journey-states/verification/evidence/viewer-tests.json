@@ -1,0 +1,1 @@
+{"result":"PASS","checks":5473,"scenes":120,"transitions":263,"scenarioGroups":["initial state","all state choices","all journey choices","every action target","restart per journey","unknown state rejection","offline no-network/no-timer code"],"method":"Actual viewer JavaScript in Node VM with DOM fixtures; browser rendering and native actions not exercised"}

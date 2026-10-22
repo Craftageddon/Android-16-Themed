@@ -2,6 +2,8 @@
 
 An iterative redesign of the Craftageddon Android interface for AYN Thor, based on the earlier dark forged steel and ember artwork.
 
+The repository retains its Android 16 name and earlier checkpoints. The user selected **current official LineageOS 24.0 / AYN odin2thor** for new native integration. [Current goal and evidence](roadmap/ACTIVE_GOAL_2026-10-22.md) distinguish the remaining artwork from native/device completion.
+
 ## Iterations
 
 | Checkpoint | Scope | State |
@@ -20,6 +22,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | [12 — Forge controls and screens](iterations/12-forge-controls-and-screens/) | All 46 retained controls, 18 pilots, four new scalable families, eight layouts and live-label input examples | Authored-catalog restyle; 112 resource configurations; native/device validation pending |
 | [13 — Android flows and Thor panels](iterations/13-forge-android-and-thor-flows/) | 42 new editable screen concepts, 18 layered controls, cold/selected previews and searchable gallery | Desktop art checkpoint; sample capabilities; full state coverage and native/device work pending |
 | [14 — System atmosphere](iterations/14-forge-atmosphere/) | Six layered wallpapers, three atmosphere components and 17 boot/charging/recovery/loading scenes | Static artwork checkpoint; motion and broader visual/native completion remain open |
+| [15 — Journey states](iterations/15-forge-journey-states/) | 120 additional scenes, 24 journey families and 263 offline sample transitions; 18 unchanged masters reused | Desktop state/artwork checkpoint; motion, canonical/app coverage and native/device work pending |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
@@ -39,6 +42,8 @@ The [full source register](iterations/04-core-components/source-register/) accou
 
 ## Use the assets
 
+The [latest journey viewer](iterations/15-forge-journey-states/index.html) covers permission denial/revocation, picker failures, unlock fallbacks, keyboard variants and Thor mapping/profile/capture/hardware outcomes. Open the downloaded HTML locally to follow sample transitions. It changes artwork only and invokes no native or hardware actions.
+
 The [new Android and Thor flow gallery](iterations/13-forge-android-and-thor-flows/index.html) adds 42 editable concept scenes and 18 control masters. Its [cold/selected comparison](iterations/13-forge-android-and-thor-flows/previews/cold-and-selected-scenes.png) shows the same steel with emission hidden or enabled. These are visual fixtures; full state coverage and native/device validation remain open.
 
 ![Reference Forge motifs](iterations/11-forge-symbol-library/previews/nine-motifs-off-on.png)
@@ -57,7 +62,7 @@ The [October 21 progress register](roadmap/Design_Progress_2026-10-21.csv) retai
 
 Open any `masters/*.svg` in Inkscape. The named layers are `cold`, `seam`, `core`, and `symbol`. Seam/core layers are hidden in the master, white in the separate mask exports, and tinted only for state previews. Text in contact sheets is illustrative; production text stays live in Android. Both 1x and 2x PNG layers have real alpha.
 
-Every iteration preserves a full `complete-assets.zip` locally, including transparent PNG exports. Iterations 01–10 also track that ZIP directly. The larger 11–12 archives are stored on GitHub as verified byte-for-byte parts in each `distribution/` folder; run its `Restore-Archive.ps1` after downloading the repository to restore the ZIP. Individual editable SVGs and preview sheets remain browsable. Extract the ZIP into an empty folder to use the full pack or audit checksums.
+Every iteration preserves a full `complete-assets.zip` locally, including its declared source and exports. Iterations 01–10 also track that ZIP directly. The larger 11–15 archives are stored on GitHub as verified byte-for-byte parts in each `distribution/` folder; run its `Restore-Archive.ps1` after downloading the repository to restore the ZIP. Individual editable SVGs and preview sheets remain browsable. Checkpoints 14 onward also supply detached source-artifact signatures with the pinned public identity in the [signing policy](integration/SIGNING_POLICY.md). Extract the ZIP into an empty folder to use the full pack or audit checksums.
 
 ```powershell
 python -m pip install -r requirements.txt

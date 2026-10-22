@@ -7,6 +7,7 @@ iterations/11-forge-symbol-library/complete-assets.zip
 iterations/12-forge-controls-and-screens/complete-assets.zip
 iterations/13-forge-android-and-thor-flows/complete-assets.zip
 iterations/14-forge-atmosphere/complete-assets.zip
+iterations/15-forge-journey-states/complete-assets.zip
 local-secrets/
 *.keystore
 *.jks

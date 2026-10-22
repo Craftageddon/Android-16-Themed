@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "authoredLocale": "en-US",
+  "labels": 592,
+  "aapt2": "Android Asset Packaging Tool (aapt) 2.20-15087165",
+  "toolSha256": "4b09f89d449cc4498fcf5076a4ad6b28f079e565d2737f7881a674580960c8df",
+  "stringsXmlSha256": "dd2856457acde38d40b05ab7f4b0ac384a9ccbe1fcf080bd3ff156cdac873fb0",
+  "compiledResourceSha256": "ce4c9f160bdc884d89f5785e91aac404b367c75dde496e0c2a92e973e7f9afdc",
+  "compiledMembers": [
+    "values_strings.arsc.flat"
+  ],
+  "scope": "Native English string-resource compilation only; application build/installation/rendering NOT RUN",
+  "sandboxAttempt": "Local instrumentation terminated AAPT2 with 3221225477 (0xC0000005), without diagnostics; checked compilation rerun outside instrumentation"
+}
