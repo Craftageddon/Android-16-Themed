@@ -1,0 +1,10 @@
+{
+  "artifact": "complete-assets.zip",
+  "bytes": 51345237,
+  "sha256": "807fde556250d863a2ba3054716ade1a12906605a7c79722171db188e169e1c8",
+  "signature": "complete-assets.zip.sig",
+  "signatureScheme": "RSA-PSS-3072/SHA-256; MGF1-SHA256; saltLength=32; digest prehashed",
+  "publicKeySpkiSha256": "efed639940a40e073b8c30f4f515eb7859d65fd03b660e179006798fc9c6ac9c",
+  "signatureVerified": true,
+  "trustScope": "Craftageddon source-artifact identity; not an APK/OTA/AYN/LineageOS signing certificate"
+}

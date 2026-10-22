@@ -1,0 +1,257 @@
+[
+  {
+    "id": "boot-cold",
+    "title": "Preparing to start",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "forge_crest",
+    "on": false,
+    "progress": null,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "boot-assembly",
+    "title": "Starting",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "forge_crest",
+    "on": true,
+    "progress": 20,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "boot-ready",
+    "title": "Ready",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "forge_crest",
+    "on": true,
+    "progress": 100,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "boot-error",
+    "title": "Could not start",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "forge_crest",
+    "on": false,
+    "progress": null,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "charge-disconnected",
+    "title": "Power disconnected",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "charge_chamber",
+    "on": false,
+    "progress": 25,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "charge-connected",
+    "title": "Power connected",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "charge_chamber",
+    "on": true,
+    "progress": 25,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "charge-25",
+    "title": "Charging",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "charge_chamber",
+    "on": true,
+    "progress": 25,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "charge-50",
+    "title": "Charging",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "charge_chamber",
+    "on": true,
+    "progress": 50,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "charge-80",
+    "title": "Charge limit reached",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "charge_chamber",
+    "on": false,
+    "progress": 80,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "charge-full",
+    "title": "Fully charged",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "charge_chamber",
+    "on": true,
+    "progress": 100,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "charge-thermal",
+    "title": "Charging paused",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "charge_chamber",
+    "on": false,
+    "progress": 68,
+    "warning": true,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "charge-unsupported",
+    "title": "Charging status unavailable",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "charge_chamber",
+    "on": false,
+    "progress": null,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "recovery-menu",
+    "title": "Recovery",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "loading_aperture",
+    "on": false,
+    "progress": null,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "recovery-update",
+    "title": "Installing update",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "loading_aperture",
+    "on": true,
+    "progress": 45,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "recovery-error",
+    "title": "Update not installed",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "loading_aperture",
+    "on": false,
+    "progress": null,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "loading-active",
+    "title": "Loading",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "loading_aperture",
+    "on": true,
+    "progress": null,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  },
+  {
+    "id": "loading-error",
+    "title": "Could not load",
+    "size": [
+      1080,
+      1920
+    ],
+    "hero": "loading_aperture",
+    "on": false,
+    "progress": null,
+    "warning": false,
+    "liveText": true,
+    "fixtureOnly": true,
+    "nativeIntegrated": false
+  }
+]

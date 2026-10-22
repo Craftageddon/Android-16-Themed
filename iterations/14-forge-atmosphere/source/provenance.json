@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-22",
+  "originalGeometry": true,
+  "newRasterGeneration": false,
+  "baselineCommit": "d4883a99cdeecfd0284b1e3051139c3dcc85feec",
+  "inputs": [
+    {
+      "file": "steel-material.png",
+      "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+      "unchanged": true
+    },
+    {
+      "file": "steel-material-original.png",
+      "sha256": "050fc50e92397b4d6057d78bedc22e5c0ec27cc06a45ef24c01ce5875608b390",
+      "unchanged": true
+    },
+    {
+      "file": "power_core-cold.png",
+      "sha256": "facded78ffcd2f4f6d0dfba8422f844c32274adb0b9dea8b33e5e2270e9553fb",
+      "unchanged": true
+    }
+  ]
+}

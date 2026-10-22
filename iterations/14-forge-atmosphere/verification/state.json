@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "807fde556250d863a2ba3054716ade1a12906605a7c79722171db188e169e1c8"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-22T13:31:40+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "4b3d6c1ce84007b62c59f2120bd23becf7d5744792380d05165c0c85a5934203",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-22T13:31:40+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "b255e01e980e904991ca1148a2b5d57eb8b54be1415a50c56047a28c10c711c7",
+      "independence": null,
+      "method": "Source hashes, SVG/PNG decode, unique IDs and local image links, true component alpha, neutral mask equality, exact state recomposition, cold/off/hover identity, wallpaper reading-region seam exclusion, text bounds/intersections, required recovery actions, gallery references and seven cold-off state tests.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-22T13:31:40+00:00",
+  "project": "14-forge-atmosphere",
+  "schema": 1,
+  "status": "V2_PASS"
+}

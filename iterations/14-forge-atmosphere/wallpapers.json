@@ -1,0 +1,98 @@
+[
+  {
+    "id": "wallpaper-thor-upper",
+    "size": [
+      1920,
+      1080
+    ],
+    "readingRegionNormalized": [
+      0.16,
+      0.18,
+      0.4,
+      0.64
+    ],
+    "quiet": false,
+    "production": "Cold plus separate neutral masks; lit PNGs are previews only",
+    "nativeIntegrated": false
+  },
+  {
+    "id": "wallpaper-thor-upper-quiet",
+    "size": [
+      1920,
+      1080
+    ],
+    "readingRegionNormalized": [
+      0.16,
+      0.18,
+      0.4,
+      0.64
+    ],
+    "quiet": true,
+    "production": "Cold plus separate neutral masks; lit PNGs are previews only",
+    "nativeIntegrated": false
+  },
+  {
+    "id": "wallpaper-thor-lower",
+    "size": [
+      1240,
+      1080
+    ],
+    "readingRegionNormalized": [
+      0.16,
+      0.18,
+      0.68,
+      0.24
+    ],
+    "quiet": false,
+    "production": "Cold plus separate neutral masks; lit PNGs are previews only",
+    "nativeIntegrated": false
+  },
+  {
+    "id": "wallpaper-thor-lower-quiet",
+    "size": [
+      1240,
+      1080
+    ],
+    "readingRegionNormalized": [
+      0.16,
+      0.18,
+      0.68,
+      0.24
+    ],
+    "quiet": true,
+    "production": "Cold plus separate neutral masks; lit PNGs are previews only",
+    "nativeIntegrated": false
+  },
+  {
+    "id": "wallpaper-phone",
+    "size": [
+      1080,
+      2400
+    ],
+    "readingRegionNormalized": [
+      0.16,
+      0.15,
+      0.68,
+      0.29
+    ],
+    "quiet": false,
+    "production": "Cold plus separate neutral masks; lit PNGs are previews only",
+    "nativeIntegrated": false
+  },
+  {
+    "id": "wallpaper-phone-quiet",
+    "size": [
+      1080,
+      2400
+    ],
+    "readingRegionNormalized": [
+      0.16,
+      0.15,
+      0.68,
+      0.29
+    ],
+    "quiet": true,
+    "production": "Cold plus separate neutral masks; lit PNGs are previews only",
+    "nativeIntegrated": false
+  }
+]

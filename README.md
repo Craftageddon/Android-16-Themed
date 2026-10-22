@@ -19,6 +19,7 @@ An iterative redesign of the Craftageddon Android interface for AYN Thor, based 
 | [11 — Forge symbol library](iterations/11-forge-symbol-library/) | All 136 named symbols in two optical treatments and all nine large sculpted motifs | Full authored-symbol coverage; source/resource checks; device validation pending |
 | [12 — Forge controls and screens](iterations/12-forge-controls-and-screens/) | All 46 retained controls, 18 pilots, four new scalable families, eight layouts and live-label input examples | Authored-catalog restyle; 112 resource configurations; native/device validation pending |
 | [13 — Android flows and Thor panels](iterations/13-forge-android-and-thor-flows/) | 42 new editable screen concepts, 18 layered controls, cold/selected previews and searchable gallery | Desktop art checkpoint; sample capabilities; full state coverage and native/device work pending |
+| [14 — System atmosphere](iterations/14-forge-atmosphere/) | Six layered wallpapers, three atmosphere components and 17 boot/charging/recovery/loading scenes | Static artwork checkpoint; motion and broader visual/native completion remain open |
 
 ![Material direction](art-direction/ember-steel-study.png)
 

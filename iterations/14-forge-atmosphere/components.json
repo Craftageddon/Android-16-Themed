@@ -1,0 +1,113 @@
+[
+  {
+    "id": "forge_crest",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      512,
+      1024
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "atmosphere-component",
+    "canonicalId": "forge_crest",
+    "size": [
+      512,
+      512
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "charge_chamber",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      512,
+      1024
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "atmosphere-component",
+    "canonicalId": "charge_chamber",
+    "size": [
+      512,
+      512
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  },
+  {
+    "id": "loading_aperture",
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportWidths": [
+      256,
+      512
+    ],
+    "states": [
+      "off",
+      "hovered",
+      "focused_off",
+      "on",
+      "selected_focused",
+      "active_pressed",
+      "disabled",
+      "reduced"
+    ],
+    "emissionLockedOff": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "type": "atmosphere-component",
+    "canonicalId": "loading_aperture",
+    "size": [
+      256,
+      256
+    ],
+    "labelsBaked": false,
+    "fixedAspect": true
+  }
+]

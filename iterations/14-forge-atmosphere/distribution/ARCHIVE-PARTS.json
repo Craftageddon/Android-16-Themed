@@ -1,0 +1,33 @@
+{
+  "archive": "complete-assets.zip",
+  "bytes": 51345237,
+  "sha256": "807fde556250d863a2ba3054716ade1a12906605a7c79722171db188e169e1c8",
+  "parts": [
+    {
+      "file": "complete-assets.zip.part01",
+      "bytes": 12582912,
+      "sha256": "0f3fa9ebf31f121740e2cacf6a8045fab0f01071e1b04038e91ca1fe201eeadb"
+    },
+    {
+      "file": "complete-assets.zip.part02",
+      "bytes": 12582912,
+      "sha256": "9728753cc5895973987e8f3698e73a1e1d48b2a5e7872482fc81743b5ee8022f"
+    },
+    {
+      "file": "complete-assets.zip.part03",
+      "bytes": 12582912,
+      "sha256": "40f692167373b9f5183e04467486db749ba851eca2e8bf599a40951036c484d1"
+    },
+    {
+      "file": "complete-assets.zip.part04",
+      "bytes": 12582912,
+      "sha256": "8abdcf7c591c149921750d71d799a938908b8d4ecc22b3ea400425e2a03e8ba8"
+    },
+    {
+      "file": "complete-assets.zip.part05",
+      "bytes": 1013589,
+      "sha256": "f99ce115316443cc2d9e5bf1a484f150aa9996fe995369a61bd4169d2fda1958"
+    }
+  ],
+  "restore": "Run Restore-Archive.ps1 from this directory; it verifies each part and the assembled ZIP. Full ZIP is also preserved in local deliverables."
+}

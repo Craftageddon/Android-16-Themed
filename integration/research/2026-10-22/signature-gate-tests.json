@@ -1,0 +1,7 @@
+{
+  "tamperedApkRejected": true,
+  "wrongCertificateRejected": true,
+  "knownDevelopmentCertificateRecognized": true,
+  "developmentNotPromotedToRelease": true,
+  "installed": false
+}

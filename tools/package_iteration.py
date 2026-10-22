@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse,datetime,hashlib,json,sys,zipfile
 p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('--date',default='2026-10-20');a=p.parse_args();stamp=datetime.date.fromisoformat(a.date)
 root=a.root.resolve();target=root/'complete-assets.zip'
-files=[p for p in sorted(root.rglob('*')) if p.is_file() and p.name not in ['complete-assets.zip','complete-assets.zip.sha256'] and p.relative_to(root).parts[0]!='distribution']
+files=[p for p in sorted(root.rglob('*')) if p.is_file() and p.name not in ['complete-assets.zip','complete-assets.zip.sha256','complete-assets.zip.sig','complete-assets.zip.sig.json'] and p.relative_to(root).parts[0]!='distribution']
 with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
  for p in files:
   info=zipfile.ZipInfo(p.relative_to(root).as_posix(),(stamp.year,stamp.month,stamp.day,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o100644<<16

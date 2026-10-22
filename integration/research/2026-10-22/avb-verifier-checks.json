@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-22",
+  "method": "Actual extracted AVB images plus in-memory signed-header mutation",
+  "cases": [
+    {
+      "file": "vbmeta.img",
+      "originalSignatureValid": true,
+      "modifiedSignedHeaderRejected": true,
+      "manufacturerTrustNotInferred": true
+    },
+    {
+      "file": "vbmeta_system.img",
+      "originalSignatureValid": true,
+      "modifiedSignedHeaderRejected": true,
+      "manufacturerTrustNotInferred": true
+    }
+  ]
+}

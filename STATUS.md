@@ -1,5 +1,11 @@
 # Redesign checkpoint status — 2026-10-21
 
+## Active goal update — 2026-10-22
+
+The user authorized finishing the remaining visual work and then beginning native integration, and selected official **LineageOS 24.0 / odin2thor**. [The active requirement/evidence register](roadmap/ACTIVE_GOAL_2026-10-22.md) preserves that complete objective. Iteration 14 extends wallpapers and static boot/charging/recovery/loading artwork. Motion, extended flow states, historical/app-specific reconciliation and final target acceptance are not complete, so native integration is not yet counted as started.
+
+[Thor baseline research](integration/research/2026-10-22/THOR_BASELINE.md) verifies the exact AYN target and source branch, records a downloaded factory-image candidate and separates its valid embedded signatures from manufacturer trust. Three retained development preview APKs have valid cryptographic signatures; this does not make them production-signed system packages. No hardware flashing occurred.
+
 Thirteen source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
 
 Iteration 13 adds 42 new editable screen concepts (25 Android, 17 Thor) and 18 layered control masters, continuing Reference Forge into previously missing flows. Launcher browsing, Settings, recents, power, sharing/permissions, picking, clipboard/capture, audio, unlock and keyboard art now have initial compositions. Thor input/profile/display/capture/cooling/charging/lighting/diagnostic panels use explicit sample fixtures and include an all-cold unavailable-hardware view. This is partial flow/state coverage. The [coverage map](iterations/13-forge-android-and-thor-flows/coverage-map.json) lists remaining artwork; the APK and all native/device integration remain unchanged.

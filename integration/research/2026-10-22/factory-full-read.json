@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-22",
+  "archive": "Thor_20260112.7z",
+  "method": "Full archive stream read/decompression with Windows bsdtar; output discarded; bundled utilities never executed",
+  "exitCode": 0,
+  "success": true,
+  "seconds": 54.2,
+  "diagnostics": "",
+  "deviceModified": false
+}

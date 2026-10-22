@@ -1,0 +1,14 @@
+{
+  "candidate": "Thor_20260112.7z",
+  "sourcePage": "https://drive.google.com/file/d/1juGydm1H_PF-ECImn-8t4tWWYSaW0oZ1/view",
+  "manufacturerProvenanceVerified": false,
+  "executed": false,
+  "flashed": false,
+  "status": "downloaded-unverified",
+  "bytes": 1932656353,
+  "contentType": "application/octet-stream",
+  "reportedBytes": "1932656353",
+  "contentDisposition": "attachment; filename=\"Thor_20260112.7z\"",
+  "sha256": "a5421469ae42e40264d3475e25fcd9963ec81658f2081d66c4f7c901d2528029",
+  "archiveIntegrityVerified": false
+}

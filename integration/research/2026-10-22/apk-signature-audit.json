@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-22",
+  "method": "Installed Android apksigner cryptographic verification; no package modification",
+  "artifacts": [
+    {
+      "file": "EmberSteel-MaterialLab-0.1.0.apk",
+      "bytes": 171631,
+      "sha256": "f6df9061d16eea67b9268aeee64c734a6fb74dd58cc422ed5b74f5d7dcf00c00",
+      "cryptographicSignatureValid": true,
+      "certificateSha256": [
+        "5f3215b0aacc31c7c3fd09e7fa51ad2fced222c9581669b168eb46832415cbb9"
+      ],
+      "certificateSubjects": [
+        "CN=Craftageddon Local Preview, O=Development, C=US"
+      ],
+      "schemes": {
+        "v1": false,
+        "v2": true,
+        "v3": true,
+        "v3.1": false,
+        "v4": false
+      },
+      "trust": "signer-not-pinned",
+      "releaseEligible": false,
+      "verificationOutput": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): true\nVerified using v3 scheme (APK Signature Scheme v3): true\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v3.2 scheme (APK Signature Scheme v3.2): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nV3.0 Signer: certificate DN: CN=Craftageddon Local Preview, O=Development, C=US\nV3.0 Signer: certificate SHA-256 digest: 5f3215b0aacc31c7c3fd09e7fa51ad2fced222c9581669b168eb46832415cbb9\nV3.0 Signer: certificate SHA-1 digest: 2b1a53a6e68934170dd2b98f1d7be6e60304a33e\nV3.0 Signer: certificate MD5 digest: 1a4e17be606aa235189ec4e58c38d452\nV3.0 Signer: key algorithm: RSA\nV3.0 Signer: key size (bits): 2048\nV3.0 Signer: public key SHA-256 digest: 8b1d2888b6e6b5380d0125d631271b76098ab7b3d72c60fb6cf16707f4133e33\nV3.0 Signer: public key SHA-1 digest: 609f766a03eba93a4a68d300d0a8cf919d4d9526\nV3.0 Signer: public key MD5 digest: bcec6309731dae63d84f954190d3bf02\n",
+      "deviceInstalled": false
+    },
+    {
+      "file": "Craftageddon-Native-Preview-v0.2.0.apk",
+      "bytes": 4181222,
+      "sha256": "4da16d07c7d556bcac28a871f81fc68d8cc26aaf42ef5ffa1cf1dbe413ec8a4f",
+      "cryptographicSignatureValid": true,
+      "certificateSha256": [
+        "4b78e5c900da7430aff3014a262607be7c67ef36dacd5774a63a48ff7c9558f4"
+      ],
+      "certificateSubjects": [
+        "CN=Craftageddon Preview Debug, O=Local Preview, C=US"
+      ],
+      "schemes": {
+        "v1": false,
+        "v2": false,
+        "v3": true,
+        "v3.1": false,
+        "v4": false
+      },
+      "trust": "signer-not-pinned",
+      "releaseEligible": false,
+      "verificationOutput": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): false\nVerified using v3 scheme (APK Signature Scheme v3): true\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v3.2 scheme (APK Signature Scheme v3.2): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nV3.0 Signer: certificate DN: CN=Craftageddon Preview Debug, O=Local Preview, C=US\nV3.0 Signer: certificate SHA-256 digest: 4b78e5c900da7430aff3014a262607be7c67ef36dacd5774a63a48ff7c9558f4\nV3.0 Signer: certificate SHA-1 digest: d5ae4e6aed230a89db7734a2ea8e8326a48cc7d3\nV3.0 Signer: certificate MD5 digest: 374626ae60546a21d60a38c13b56207f\nV3.0 Signer: key algorithm: RSA\nV3.0 Signer: key size (bits): 2048\nV3.0 Signer: public key SHA-256 digest: 5984754520699f589ae1ec40816ba0aaa90d49828d7d8c632ac2f0f131d14dcb\nV3.0 Signer: public key SHA-1 digest: ac8a15ed2b4b7dea58cbe2fcdd5b7456c2ce22ad\nV3.0 Signer: public key MD5 digest: 2944683b080e2feb61dec56578d72700\n",
+      "deviceInstalled": false
+    },
+    {
+      "file": "Craftageddon-Native-Preview-v0.1.0.apk",
+      "bytes": 4181222,
+      "sha256": "0706297fc5eb6a48bb7d564a270c63b40c58bc493b915c6eb7e059e4a9013c7e",
+      "cryptographicSignatureValid": true,
+      "certificateSha256": [
+        "4b78e5c900da7430aff3014a262607be7c67ef36dacd5774a63a48ff7c9558f4"
+      ],
+      "certificateSubjects": [
+        "CN=Craftageddon Preview Debug, O=Local Preview, C=US"
+      ],
+      "schemes": {
+        "v1": false,
+        "v2": false,
+        "v3": true,
+        "v3.1": false,
+        "v4": false
+      },
+      "trust": "signer-not-pinned",
+      "releaseEligible": false,
+      "verificationOutput": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): false\nVerified using v3 scheme (APK Signature Scheme v3): true\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v3.2 scheme (APK Signature Scheme v3.2): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nV3.0 Signer: certificate DN: CN=Craftageddon Preview Debug, O=Local Preview, C=US\nV3.0 Signer: certificate SHA-256 digest: 4b78e5c900da7430aff3014a262607be7c67ef36dacd5774a63a48ff7c9558f4\nV3.0 Signer: certificate SHA-1 digest: d5ae4e6aed230a89db7734a2ea8e8326a48cc7d3\nV3.0 Signer: certificate MD5 digest: 374626ae60546a21d60a38c13b56207f\nV3.0 Signer: key algorithm: RSA\nV3.0 Signer: key size (bits): 2048\nV3.0 Signer: public key SHA-256 digest: 5984754520699f589ae1ec40816ba0aaa90d49828d7d8c632ac2f0f131d14dcb\nV3.0 Signer: public key SHA-1 digest: ac8a15ed2b4b7dea58cbe2fcdd5b7456c2ce22ad\nV3.0 Signer: public key MD5 digest: 2944683b080e2feb61dec56578d72700\n",
+      "deviceInstalled": false
+    }
+  ],
+  "allSignaturesValid": true,
+  "allReleaseEligible": false
+}

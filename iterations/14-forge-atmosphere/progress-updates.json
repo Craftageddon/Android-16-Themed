@@ -1,0 +1,18 @@
+{
+  "ES-055": {
+    "design_status": "Partial Reference Forge atmosphere / iteration 14",
+    "evidence_scope": "Original forge crest and four editable boot scene concepts; actual boot animation and native integration pending."
+  },
+  "ES-056": {
+    "design_status": "Partial Reference Forge atmosphere / iteration 14",
+    "evidence_scope": "Eight charging scene concepts with cold paused/unavailable states and unchanged sculpted core; motion, actual charging service and target review pending."
+  },
+  "ES-059": {
+    "design_status": "Partial Reference Forge atmosphere / iteration 14",
+    "evidence_scope": "Six standard/quiet wallpaper surfaces with cold production layers and separate neutral masks; upper/lower pixel canvases grounded in upstream wiki; native wallpaper renderer and target review pending."
+  },
+  "ES-073": {
+    "design_status": "Partial Reference Forge atmosphere / iteration 14",
+    "evidence_scope": "Iteration 14 source/export checks and versioned package; target V3 and full release acceptance pending."
+  }
+}
