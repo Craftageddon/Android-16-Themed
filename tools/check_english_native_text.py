@@ -1,0 +1,8 @@
+"""Compile and inventory the English native string handoff with local AAPT2."""
+from pathlib import Path
+import argparse,hashlib,json,subprocess,zipfile
+p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('--aapt2',type=Path,required=True);a=p.parse_args();root=a.root.resolve();tool=a.aapt2.resolve();out=root/'verification/evidence/english-native-res.zip'
+version=subprocess.run([str(tool),'version'],capture_output=True,text=True,check=True);run=subprocess.run([str(tool),'compile','--dir',str(root/'native-text/res'),'-o',str(out)],capture_output=True,text=True);assert run.returncode==0,json.dumps({'returncode':run.returncode,'stdout':run.stdout,'stderr':run.stderr})
+with zipfile.ZipFile(out) as z:
+ assert z.testzip() is None;members=z.namelist();assert members==['values_strings.arsc.flat'],members
+catalog=json.loads((root/'english-text-catalog.json').read_text());report={'result':'PASS','authoredLocale':'en-US','labels':len(catalog['labels']),'aapt2':(version.stdout+version.stderr).strip(),'toolSha256':hashlib.sha256(tool.read_bytes()).hexdigest(),'stringsXmlSha256':hashlib.sha256((root/'native-text/res/values/strings.xml').read_bytes()).hexdigest(),'compiledResourceSha256':hashlib.sha256(out.read_bytes()).hexdigest(),'compiledMembers':members,'scope':'Native English string-resource compilation only; application build/installation/rendering NOT RUN','sandboxAttempt':'Local instrumentation terminated AAPT2 with 3221225477 (0xC0000005), without diagnostics; checked compilation rerun outside instrumentation'};(root/'verification/evidence/english-native-compile.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report))

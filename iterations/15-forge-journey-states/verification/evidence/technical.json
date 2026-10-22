@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-22",
+  "components": 18,
+  "newComponents": 0,
+  "reusedComponents": 18,
+  "scenes": 120,
+  "androidScenes": 63,
+  "thorScenes": 57,
+  "journeyFamilies": 24,
+  "actionTransitions": 263,
+  "checks": 19469,
+  "liveTextBoxesChecked": 1339,
+  "textIntersections": 0,
+  "svgFiles": 258,
+  "pngFiles": 256,
+  "stateTests": 7,
+  "viewerTests": {
+    "result": "PASS",
+    "checks": 5473,
+    "scenes": 120,
+    "transitions": 263,
+    "scenarioGroups": [
+      "initial state",
+      "all state choices",
+      "all journey choices",
+      "every action target",
+      "restart per journey",
+      "unknown state rejection",
+      "offline no-network/no-timer code"
+    ],
+    "method": "Actual viewer JavaScript in Node VM with DOM fixtures; browser rendering and native actions not exercised"
+  },
+  "v1Scope": "120 additional editable Android/Thor journey state scenes, 18 unchanged layered masters reused. Desktop visual/layout passes recorded. Declared missing-state coverage only; no authentication, capture, hardware service or native UI is implemented.",
+  "v2Method": "Explicit target/reachability/consent graph checks; every offline viewer action exercised in Node VM; measured text bounds/intersections and art containment; cold-emission and unavailable/disabled rules; unchanged master/material hashes; SVG reference/ID checks and PNG decode. Existing seven state tests.",
+  "browserRender": "NOT RUN",
+  "nativeIntegration": "NOT RUN",
+  "deviceAcceptance": "NOT RUN",
+  "authoredLocale": "en-US",
+  "authoredText": "English only; complete approved catalog and native strings.xml provided",
+  "nativeImeBehavior": "NOT RUN"
+}

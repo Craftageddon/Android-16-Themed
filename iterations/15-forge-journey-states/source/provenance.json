@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-22",
+  "baseline": "iterations/13-forge-android-and-thor-flows",
+  "newComponentMasters": 0,
+  "reusedMasters": [
+    {
+      "id": "app_socket",
+      "sha256": "598dc86481ff2070db2a8a2c9fe471acbae36b186951c0bafe888068513629d3"
+    },
+    {
+      "id": "biometric_socket",
+      "sha256": "d423252da4994ae4b3119bce7f344fb5db597a8f129e3e466b47af67ece25a2e"
+    },
+    {
+      "id": "charge_limit",
+      "sha256": "10dbf5e4f2dc87456eb9b1861b29fd8f3fab8f6403b2703eb7e7103309da122d"
+    },
+    {
+      "id": "chord_link",
+      "sha256": "040a39ff789dbc578cb56d67687791f8a8201743c74c54b2e16b5271ac7b6b26"
+    },
+    {
+      "id": "display_pair",
+      "sha256": "be9c125120e983f527fa99f35943aef60be6cfac651f8626e0161130ace9a1a2"
+    },
+    {
+      "id": "folder_socket",
+      "sha256": "fa3d4791e1983a892577487c2eff189659dc49cdbbc3d7cb5b8b21b87512d758"
+    },
+    {
+      "id": "mapping_slot",
+      "sha256": "50b1731c1f3ceb30ba30d677fefa9cdf367e677b560fb6ba83ff8c15eea7ad86"
+    },
+    {
+      "id": "media_cell",
+      "sha256": "56df13a75d47460ec72c4466e889d0554f9ff2a1448dee45fc4a591702be561e"
+    },
+    {
+      "id": "pattern_node",
+      "sha256": "83df57485d7388f35a0b151ab7d6f14147cc8000f3dafdc82641a5e1091d6e80"
+    },
+    {
+      "id": "pin_key",
+      "sha256": "f36fe687df2bcdd4123adf365efba4c31a8da46c5b49cbf8e095307f85a3267f"
+    },
+    {
+      "id": "rgb_zone",
+      "sha256": "7d4325ba4944444faac3840f704bed868483316f9927638cd1af38404c4ce59d"
+    },
+    {
+      "id": "stick_gate",
+      "sha256": "fa2f3f18d514712e3df626e1232eac8692c6383c8c89ac4540de0797b38fad68"
+    },
+    {
+      "id": "suggestion",
+      "sha256": "5a38b45e645a345bdc280f1fad17e779f13ddddbf381cdf3950520bf28142e33"
+    },
+    {
+      "id": "task_card",
+      "sha256": "b111b8a55a0c2f535a05bfb8e0c72b1f4b47f72d7684d7ea9f4d05cab209977d"
+    },
+    {
+      "id": "thermal_gauge",
+      "sha256": "5600f5e1e156b988c7f2b63751677d23eccbf611f66a8479d9ea01531ecb7f98"
+    },
+    {
+      "id": "trigger_gauge",
+      "sha256": "0a5d8602b22c2110c14b861022b618ef77f9d0514c8e8c043c6d1a960f55da06"
+    },
+    {
+      "id": "unavailable",
+      "sha256": "775c981cc72fa7f47ac852411b510bc17d47717648f33e9bc57b9d5991f23e78"
+    },
+    {
+      "id": "volume_rail",
+      "sha256": "efcffec4ff4737ab68567aaea7898c2465a56abb5b608ecbfc1d15e64ca20983"
+    }
+  ],
+  "inputs": [
+    {
+      "file": "steel-material-original.png",
+      "sha256": "050fc50e92397b4d6057d78bedc22e5c0ec27cc06a45ef24c01ce5875608b390"
+    },
+    {
+      "file": "steel-material.png",
+      "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+    }
+  ]
+}

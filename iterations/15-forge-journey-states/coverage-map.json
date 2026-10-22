@@ -1,0 +1,185 @@
+{
+  "iteration": 15,
+  "newScenes": 120,
+  "journeyFamilies": 24,
+  "newComponentMasters": 0,
+  "reusedComponentMasters": 18,
+  "scope": "Declared missing state/journey artwork and offline scene navigation; no actual authentication, permission, capture or hardware implementation",
+  "families": {
+    "audio": [
+      "audio-route",
+      "audio-connected",
+      "audio-disconnected"
+    ],
+    "biometric": [
+      "biometric-prompt",
+      "biometric-failed",
+      "biometric-unavailable",
+      "biometric-locked"
+    ],
+    "capture": [
+      "capture-choose",
+      "recording-options",
+      "capture-consent",
+      "capture-denied",
+      "record-countdown",
+      "record-active",
+      "record-paused",
+      "capture-saved",
+      "capture-storage-error",
+      "capture-unavailable"
+    ],
+    "charging": [
+      "charging-ready",
+      "charging-pending",
+      "charging-applied",
+      "charging-error",
+      "charging-unavailable",
+      "charging-restored"
+    ],
+    "clipboard": [
+      "clipboard-empty",
+      "clipboard-sensitive",
+      "clipboard-pasted"
+    ],
+    "display-route": [
+      "display-route",
+      "display-pending",
+      "display-applied",
+      "display-error",
+      "display-unavailable"
+    ],
+    "fan": [
+      "fan-ready",
+      "fan-pending",
+      "fan-applied",
+      "fan-error",
+      "fan-unavailable",
+      "fan-restored"
+    ],
+    "files": [
+      "file-provider",
+      "file-offline",
+      "file-selected",
+      "file-complete",
+      "file-cancelled"
+    ],
+    "input-capture": [
+      "input-capture",
+      "input-released",
+      "input-resume-check"
+    ],
+    "keyboard": [
+      "keyboard-lower",
+      "keyboard-upper",
+      "keyboard-caps",
+      "keyboard-symbols-2",
+      "keyboard-email",
+      "keyboard-url",
+      "suggestion-accepted",
+      "suggestion-rejected"
+    ],
+    "lighting": [
+      "lighting-ready",
+      "lighting-pending",
+      "lighting-applied",
+      "lighting-error",
+      "lighting-unavailable",
+      "lighting-restored"
+    ],
+    "location": [
+      "location-choice",
+      "location-precise",
+      "location-approximate",
+      "location-denied"
+    ],
+    "mapping": [
+      "mapping-edit",
+      "mapping-listening",
+      "mapping-conflict",
+      "mapping-review",
+      "mapping-pending",
+      "mapping-applied",
+      "mapping-error",
+      "mapping-restore",
+      "mapping-restored",
+      "mapping-unavailable"
+    ],
+    "multiwindow": [
+      "multiwindow-unavailable",
+      "multiwindow-single",
+      "multiwindow-ready"
+    ],
+    "notifications": [
+      "notification-permission",
+      "notifications-allowed",
+      "notifications-denied"
+    ],
+    "pattern": [
+      "pattern-entry",
+      "pattern-error"
+    ],
+    "permission": [
+      "permission-request",
+      "permission-allowed",
+      "permission-once",
+      "permission-denied",
+      "permission-settings",
+      "permission-revoked"
+    ],
+    "picker": [
+      "picker-empty",
+      "picker-loading",
+      "picker-results",
+      "picker-selected",
+      "picker-error",
+      "picker-cancelled",
+      "picker-complete"
+    ],
+    "pin": [
+      "pin-entry",
+      "pin-error",
+      "pin-lockout",
+      "unlock-complete"
+    ],
+    "power": [
+      "power-actions",
+      "power-confirm",
+      "restart-confirm",
+      "power-ended"
+    ],
+    "profiles": [
+      "profile-review",
+      "profile-pending",
+      "profile-applied",
+      "profile-partial",
+      "profile-error",
+      "profile-conflict",
+      "profile-restore",
+      "profile-restoring",
+      "profile-restored",
+      "profile-restore-error"
+    ],
+    "screenshot": [
+      "screenshot-saved",
+      "screenshot-storage-full"
+    ],
+    "share": [
+      "share-choices",
+      "share-empty",
+      "share-confirm",
+      "share-complete",
+      "share-cancelled"
+    ],
+    "touch-mapping": [
+      "touch-unsupported"
+    ]
+  },
+  "remaining": [
+    "114-recipe motion reconciliation and actual atmosphere/transition playback",
+    "Historical source dispositions and explicit app icon target coverage",
+    "Final pre-integration visual review; native integration and target V3 afterward"
+  ],
+  "nativeTarget": "AYN odin2thor / LineageOS 24.0",
+  "deviceConnectedAtInventory": false
+}

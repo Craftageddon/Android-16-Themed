@@ -1,0 +1,2374 @@
+{
+  "authoredLocale": "en-US",
+  "textDirection": "ltr",
+  "labels": [
+    {
+      "id": "forge_text_bb7208bc9b5d",
+      "text": "!"
+    },
+    {
+      "id": "forge_text_8a331fdde703",
+      "text": "\""
+    },
+    {
+      "id": "forge_text_334359b90efe",
+      "text": "#"
+    },
+    {
+      "id": "forge_text_09fc96082d34",
+      "text": "$"
+    },
+    {
+      "id": "forge_text_bbf3f11cb5b4",
+      "text": "%"
+    },
+    {
+      "id": "forge_text_951dcee3a7a4",
+      "text": "&"
+    },
+    {
+      "id": "forge_text_265fda17a346",
+      "text": "'"
+    },
+    {
+      "id": "forge_text_32ebb1abcc1c",
+      "text": "("
+    },
+    {
+      "id": "forge_text_ba5ec51d07a4",
+      "text": ")"
+    },
+    {
+      "id": "forge_text_684888c0ebb1",
+      "text": "*"
+    },
+    {
+      "id": "forge_text_a318c24216de",
+      "text": "+"
+    },
+    {
+      "id": "forge_text_3973e022e932",
+      "text": "-"
+    },
+    {
+      "id": "forge_text_c8ad4da2dc70",
+      "text": ".com"
+    },
+    {
+      "id": "forge_text_8a5edab28263",
+      "text": "/"
+    },
+    {
+      "id": "forge_text_5feceb66ffc8",
+      "text": "0"
+    },
+    {
+      "id": "forge_text_35c85fe0b033",
+      "text": "00:24"
+    },
+    {
+      "id": "forge_text_6b86b273ff34",
+      "text": "1"
+    },
+    {
+      "id": "forge_text_a665a4592042",
+      "text": "123"
+    },
+    {
+      "id": "forge_text_d4735e3a265e",
+      "text": "2"
+    },
+    {
+      "id": "forge_text_907050b936ff",
+      "text": "2 selected"
+    },
+    {
+      "id": "forge_text_4e07408562be",
+      "text": "3"
+    },
+    {
+      "id": "forge_text_4b227777d4dd",
+      "text": "4"
+    },
+    {
+      "id": "forge_text_ef2d127de37b",
+      "text": "5"
+    },
+    {
+      "id": "forge_text_e7f6c011776e",
+      "text": "6"
+    },
+    {
+      "id": "forge_text_3385a5300134",
+      "text": "60% \u00b7 sample value"
+    },
+    {
+      "id": "forge_text_7902699be42c",
+      "text": "7"
+    },
+    {
+      "id": "forge_text_2c624232cdd2",
+      "text": "8"
+    },
+    {
+      "id": "forge_text_f44c2a92b5bd",
+      "text": "80% \u00b7 sample choice"
+    },
+    {
+      "id": "forge_text_19581e27de7c",
+      "text": "9"
+    },
+    {
+      "id": "forge_text_e7ac0786668e",
+      "text": ":"
+    },
+    {
+      "id": "forge_text_41b805ea7ac0",
+      "text": ";"
+    },
+    {
+      "id": "forge_text_dabd3aff769f",
+      "text": "<"
+    },
+    {
+      "id": "forge_text_380918b946a5",
+      "text": "="
+    },
+    {
+      "id": "forge_text_62b67e1f685b",
+      "text": ">"
+    },
+    {
+      "id": "forge_text_8a8de823d5ed",
+      "text": "?"
+    },
+    {
+      "id": "forge_text_c3641f8544d7",
+      "text": "@"
+    },
+    {
+      "id": "forge_text_559aead08264",
+      "text": "A"
+    },
+    {
+      "id": "forge_text_c0aebbfde3bc",
+      "text": "A local copy is ready"
+    },
+    {
+      "id": "forge_text_f70b380c0c69",
+      "text": "A \u2192 primary action; B \u2192 back"
+    },
+    {
+      "id": "forge_text_48b9b501a178",
+      "text": "Accept suggestion"
+    },
+    {
+      "id": "forge_text_38d3414e3f49",
+      "text": "Access follows your choice"
+    },
+    {
+      "id": "forge_text_25f2434a0018",
+      "text": "Access lasts for the current session. Closing the session"
+    },
+    {
+      "id": "forge_text_dcdce51f07eb",
+      "text": "Access removed"
+    },
+    {
+      "id": "forge_text_9eede95f6dec",
+      "text": "Add two photos"
+    },
+    {
+      "id": "forge_text_e35f82790a5b",
+      "text": "Alerts will stay silent"
+    },
+    {
+      "id": "forge_text_9d26c02ed8ee",
+      "text": "All requested values were confirmed"
+    },
+    {
+      "id": "forge_text_31675695b5d7",
+      "text": "Allow Sample Game to send notifications?"
+    },
+    {
+      "id": "forge_text_001559c8913c",
+      "text": "Allow notifications"
+    },
+    {
+      "id": "forge_text_b5d0710ab226",
+      "text": "Always authoritative"
+    },
+    {
+      "id": "forge_text_9febd05ee4ac",
+      "text": "Another profile is active"
+    },
+    {
+      "id": "forge_text_f93493b7e363",
+      "text": "App could not move"
+    },
+    {
+      "id": "forge_text_7e07c5e75c26",
+      "text": "App permissions"
+    },
+    {
+      "id": "forge_text_9e311a8fb2ea",
+      "text": "Applied: display and input. Fan was unchanged."
+    },
+    {
+      "id": "forge_text_85045ccc0567",
+      "text": "Apply changes"
+    },
+    {
+      "id": "forge_text_32396f191dcb",
+      "text": "Apply preference"
+    },
+    {
+      "id": "forge_text_eda00df0a060",
+      "text": "Apply profile"
+    },
+    {
+      "id": "forge_text_ee284801e541",
+      "text": "Applying mapping"
+    },
+    {
+      "id": "forge_text_3a6c59e61a92",
+      "text": "Applying preference"
+    },
+    {
+      "id": "forge_text_c88546939335",
+      "text": "Applying profile"
+    },
+    {
+      "id": "forge_text_78b9b22ebb6f",
+      "text": "Approximate"
+    },
+    {
+      "id": "forge_text_b77ff7b7b1d3",
+      "text": "Approximate location selected"
+    },
+    {
+      "id": "forge_text_75bcb7369ca8",
+      "text": "Archive \u00b7 sample"
+    },
+    {
+      "id": "forge_text_d461a493a375",
+      "text": "Automatic"
+    },
+    {
+      "id": "forge_text_00a1b0811376",
+      "text": "Automatic cooling"
+    },
+    {
+      "id": "forge_text_e674447337e8",
+      "text": "Available"
+    },
+    {
+      "id": "forge_text_df7e70e50215",
+      "text": "B"
+    },
+    {
+      "id": "forge_text_76900f1bfd16",
+      "text": "Back"
+    },
+    {
+      "id": "forge_text_a95efa71fa8c",
+      "text": "Back / cancel"
+    },
+    {
+      "id": "forge_text_5e07172ba96a",
+      "text": "Back to preferences"
+    },
+    {
+      "id": "forge_text_c4ad64b028a7",
+      "text": "Back to sharing"
+    },
+    {
+      "id": "forge_text_e9872f54fd4e",
+      "text": "Binding conflict"
+    },
+    {
+      "id": "forge_text_65e64f682abe",
+      "text": "Biometric unlock is temporarily locked"
+    },
+    {
+      "id": "forge_text_8b3919a278cd",
+      "text": "Both apps fit the selected arrangement"
+    },
+    {
+      "id": "forge_text_1f663926e0ac",
+      "text": "Browse a document source"
+    },
+    {
+      "id": "forge_text_d7dea05bb57f",
+      "text": "Button mapping"
+    },
+    {
+      "id": "forge_text_6b23c0d5f35d",
+      "text": "C"
+    },
+    {
+      "id": "forge_text_2d62a91264c3",
+      "text": "CRAFTAGEDDON  /  ANDROID"
+    },
+    {
+      "id": "forge_text_d77f4538a0f0",
+      "text": "CRAFTAGEDDON  /  THOR"
+    },
+    {
+      "id": "forge_text_03494b0d1f80",
+      "text": "Camera"
+    },
+    {
+      "id": "forge_text_fd3193de0456",
+      "text": "Camera access"
+    },
+    {
+      "id": "forge_text_7c8037abb7aa",
+      "text": "Camera access denied"
+    },
+    {
+      "id": "forge_text_ef3b99d8265e",
+      "text": "Camera access is allowed while Sample Camera is in use. You"
+    },
+    {
+      "id": "forge_text_58093430f858",
+      "text": "Camera access is removed. Other features remain available."
+    },
+    {
+      "id": "forge_text_51e7271f90f0",
+      "text": "Camera permission"
+    },
+    {
+      "id": "forge_text_6e5e22e75121",
+      "text": "Camera permission is off"
+    },
+    {
+      "id": "forge_text_19766ed6ccb2",
+      "text": "Cancel"
+    },
+    {
+      "id": "forge_text_bb23c8774a33",
+      "text": "Caps lock"
+    },
+    {
+      "id": "forge_text_93b3ab376b1a",
+      "text": "Capture again"
+    },
+    {
+      "id": "forge_text_b10de31803be",
+      "text": "Capture displays"
+    },
+    {
+      "id": "forge_text_b3ccb2534d3e",
+      "text": "Capture not saved"
+    },
+    {
+      "id": "forge_text_fcbf1c6d4073",
+      "text": "Capture permission was not granted"
+    },
+    {
+      "id": "forge_text_0903d2cdc862",
+      "text": "Capture preview"
+    },
+    {
+      "id": "forge_text_56b1ab0542a6",
+      "text": "Capture saved"
+    },
+    {
+      "id": "forge_text_2a33f1dcdd6e",
+      "text": "Change choice"
+    },
+    {
+      "id": "forge_text_5a72705de45b",
+      "text": "Charge limit"
+    },
+    {
+      "id": "forge_text_f8ef16f719b8",
+      "text": "Charge limit applied"
+    },
+    {
+      "id": "forge_text_4ae832e289fb",
+      "text": "Charge limit unavailable"
+    },
+    {
+      "id": "forge_text_f7dcb0279222",
+      "text": "Charging bypass"
+    },
+    {
+      "id": "forge_text_092ae39158b9",
+      "text": "Choose Sample Notes"
+    },
+    {
+      "id": "forge_text_28e45fa1bd28",
+      "text": "Choose a control to remap"
+    },
+    {
+      "id": "forge_text_ee63978fc3b6",
+      "text": "Choose a destination"
+    },
+    {
+      "id": "forge_text_8082c284bb05",
+      "text": "Choose a document"
+    },
+    {
+      "id": "forge_text_f3eb3b4fc558",
+      "text": "Choose a supported destination"
+    },
+    {
+      "id": "forge_text_d43661e81a17",
+      "text": "Choose a two-app layout"
+    },
+    {
+      "id": "forge_text_b2f8495304de",
+      "text": "Choose accuracy and duration"
+    },
+    {
+      "id": "forge_text_769239f13d47",
+      "text": "Choose an action"
+    },
+    {
+      "id": "forge_text_8b9b4f57f1c7",
+      "text": "Choose an app"
+    },
+    {
+      "id": "forge_text_7c886d6c8222",
+      "text": "Choose an available display for this app."
+    },
+    {
+      "id": "forge_text_8a2bca07ae99",
+      "text": "Choose another"
+    },
+    {
+      "id": "forge_text_0547d2210d8b",
+      "text": "Choose another action, or replace the existing binding after review."
+    },
+    {
+      "id": "forge_text_53a244ca5a69",
+      "text": "Choose another app or destination."
+    },
+    {
+      "id": "forge_text_ed4705f2eeae",
+      "text": "Choose another available output"
+    },
+    {
+      "id": "forge_text_ebadbd6929e8",
+      "text": "Choose another capture"
+    },
+    {
+      "id": "forge_text_4f80a85386e1",
+      "text": "Choose another destination"
+    },
+    {
+      "id": "forge_text_a8dcbda14e29",
+      "text": "Choose another route"
+    },
+    {
+      "id": "forge_text_5f6aee04b3b6",
+      "text": "Choose another source"
+    },
+    {
+      "id": "forge_text_6f9ce22957b3",
+      "text": "Choose another source, or cancel without sharing any"
+    },
+    {
+      "id": "forge_text_28020a05f363",
+      "text": "Choose another value"
+    },
+    {
+      "id": "forge_text_66ea59c577d1",
+      "text": "Choose audio before recording"
+    },
+    {
+      "id": "forge_text_a365bf99be3f",
+      "text": "Choose different photos"
+    },
+    {
+      "id": "forge_text_67c6c6507a74",
+      "text": "Choose headphones"
+    },
+    {
+      "id": "forge_text_04204b695b85",
+      "text": "Choose letters and suggestions"
+    },
+    {
+      "id": "forge_text_abc1dfd6f9bf",
+      "text": "Choose photos"
+    },
+    {
+      "id": "forge_text_ccaf3ebd3380",
+      "text": "Choose suggestion"
+    },
+    {
+      "id": "forge_text_50e7d63e2cb1",
+      "text": "Choose the displays to include"
+    },
+    {
+      "id": "forge_text_7ec3c3292137",
+      "text": "Choose when this app may use your camera"
+    },
+    {
+      "id": "forge_text_bddce3e95028",
+      "text": "Choose where media plays"
+    },
+    {
+      "id": "forge_text_2eb87b393fb6",
+      "text": "Choose whether to return controller input to the game."
+    },
+    {
+      "id": "forge_text_728d152b57eb",
+      "text": "Choose who controls these preferences"
+    },
+    {
+      "id": "forge_text_2c188f4ad132",
+      "text": "Clear clipboard"
+    },
+    {
+      "id": "forge_text_6c72fa0ba971",
+      "text": "Clear sample entry"
+    },
+    {
+      "id": "forge_text_cea4d2e010b8",
+      "text": "Clear selection"
+    },
+    {
+      "id": "forge_text_285d69f0c5d1",
+      "text": "Clipboard"
+    },
+    {
+      "id": "forge_text_389b13db26ed",
+      "text": "Confirm power off"
+    },
+    {
+      "id": "forge_text_25b0910de6a7",
+      "text": "Confirm restart"
+    },
+    {
+      "id": "forge_text_7edc428e5db9",
+      "text": "Confirm the selected displays and audio"
+    },
+    {
+      "id": "forge_text_34363d7eea6f",
+      "text": "Connect before trying again"
+    },
+    {
+      "id": "forge_text_7b4d613cb69e",
+      "text": "Controller input is captured for this game"
+    },
+    {
+      "id": "forge_text_4778c1d9781b",
+      "text": "Cooling mode"
+    },
+    {
+      "id": "forge_text_08c99819e043",
+      "text": "Cooling preference"
+    },
+    {
+      "id": "forge_text_4162ffe5dcac",
+      "text": "Cooling preference applied"
+    },
+    {
+      "id": "forge_text_857e3280668f",
+      "text": "Cooling preference unavailable"
+    },
+    {
+      "id": "forge_text_8a758145d51b",
+      "text": "Copied text and supported images appear here."
+    },
+    {
+      "id": "forge_text_16efcd21d74f",
+      "text": "Could not save"
+    },
+    {
+      "id": "forge_text_3f39d5c348e5",
+      "text": "D"
+    },
+    {
+      "id": "forge_text_0c8c61024745",
+      "text": "Design preview  /  sample states"
+    },
+    {
+      "id": "forge_text_730f66958d23",
+      "text": "Destination unavailable"
+    },
+    {
+      "id": "forge_text_057786f3415f",
+      "text": "Device audio"
+    },
+    {
+      "id": "forge_text_04dfac3671b4",
+      "text": "Disconnected"
+    },
+    {
+      "id": "forge_text_ae5e3911d51a",
+      "text": "Dismiss suggestion"
+    },
+    {
+      "id": "forge_text_9b6b88340681",
+      "text": "Display capture unavailable"
+    },
+    {
+      "id": "forge_text_1e7d9bccc041",
+      "text": "Display layout"
+    },
+    {
+      "id": "forge_text_bc602ca7cf6c",
+      "text": "Display route changed"
+    },
+    {
+      "id": "forge_text_2dcef6cf6c54",
+      "text": "Display routing"
+    },
+    {
+      "id": "forge_text_b8ecdb23e7ad",
+      "text": "Do not allow"
+    },
+    {
+      "id": "forge_text_0bd49caee858",
+      "text": "Do not record"
+    },
+    {
+      "id": "forge_text_9fbbc58e9b1b",
+      "text": "Document ready"
+    },
+    {
+      "id": "forge_text_67a53c87fb5c",
+      "text": "Document selected"
+    },
+    {
+      "id": "forge_text_0bd430dfcfd4",
+      "text": "Draw pattern"
+    },
+    {
+      "id": "forge_text_d3588a9e9068",
+      "text": "Draw your pattern"
+    },
+    {
+      "id": "forge_text_a9f51566bd67",
+      "text": "E"
+    },
+    {
+      "id": "forge_text_d5ef1883268e",
+      "text": "Edit mapping"
+    },
+    {
+      "id": "forge_text_f2488fd4ef4a",
+      "text": "Email address"
+    },
+    {
+      "id": "forge_text_871ef9bdae44",
+      "text": "Email keyboard"
+    },
+    {
+      "id": "forge_text_cb1655db847d",
+      "text": "Ember"
+    },
+    {
+      "id": "forge_text_92c1cdfdf4cb",
+      "text": "Enabled"
+    },
+    {
+      "id": "forge_text_f00b921ff35b",
+      "text": "End session"
+    },
+    {
+      "id": "forge_text_f246c76813b8",
+      "text": "Enter PIN"
+    },
+    {
+      "id": "forge_text_c5a9bd635f16",
+      "text": "Enter your device PIN"
+    },
+    {
+      "id": "forge_text_f67ab10ad4e4",
+      "text": "F"
+    },
+    {
+      "id": "forge_text_cd1b8710d743",
+      "text": "Fan preference"
+    },
+    {
+      "id": "forge_text_abc7e9892806",
+      "text": "Files"
+    },
+    {
+      "id": "forge_text_8899ecd1626d",
+      "text": "Forge"
+    },
+    {
+      "id": "forge_text_48bb1918429e",
+      "text": "Free some space, then try saving the copy again."
+    },
+    {
+      "id": "forge_text_333e0a1e2781",
+      "text": "G"
+    },
+    {
+      "id": "forge_text_26aced503bbb",
+      "text": "Game has controller input"
+    },
+    {
+      "id": "forge_text_8a4761b16c45",
+      "text": "Game on upper display"
+    },
+    {
+      "id": "forge_text_6cc8519b9158",
+      "text": "Go"
+    },
+    {
+      "id": "forge_text_44bd7ae60f47",
+      "text": "H"
+    },
+    {
+      "id": "forge_text_86df32cf524c",
+      "text": "Headphones"
+    },
+    {
+      "id": "forge_text_875d7fc9322e",
+      "text": "Headphones selected"
+    },
+    {
+      "id": "forge_text_a83dd0ccbffe",
+      "text": "I"
+    },
+    {
+      "id": "forge_text_669787d75db9",
+      "text": "Image \u00b7 sample"
+    },
+    {
+      "id": "forge_text_f2d025f10d56",
+      "text": "Input capture"
+    },
+    {
+      "id": "forge_text_a6d2507ad1c2",
+      "text": "Input mapping"
+    },
+    {
+      "id": "forge_text_fecd0dbe21de",
+      "text": "Input released"
+    },
+    {
+      "id": "forge_text_6da43b944e49",
+      "text": "J"
+    },
+    {
+      "id": "forge_text_86be9a55762d",
+      "text": "K"
+    },
+    {
+      "id": "forge_text_8d6175d63b23",
+      "text": "Keep active profile"
+    },
+    {
+      "id": "forge_text_ac02dc862644",
+      "text": "Keep confirmed changes"
+    },
+    {
+      "id": "forge_text_57f2bc0dfc82",
+      "text": "Keep current binding"
+    },
+    {
+      "id": "forge_text_7d55dccbc96e",
+      "text": "Keep current layout"
+    },
+    {
+      "id": "forge_text_a18ff35ccd25",
+      "text": "Keep current mapping"
+    },
+    {
+      "id": "forge_text_e3f2158aae53",
+      "text": "Keep device control"
+    },
+    {
+      "id": "forge_text_06a4eadfd269",
+      "text": "Keep previous"
+    },
+    {
+      "id": "forge_text_775592cfd670",
+      "text": "Keep previous mapping"
+    },
+    {
+      "id": "forge_text_2f8d0de1aabd",
+      "text": "Keep previous preferences, or retry when the service is ready."
+    },
+    {
+      "id": "forge_text_587fa13a9bc4",
+      "text": "Keep the app in a single window or choose another app."
+    },
+    {
+      "id": "forge_text_e480e208378f",
+      "text": "Keep typing"
+    },
+    {
+      "id": "forge_text_72dfcfb0c470",
+      "text": "L"
+    },
+    {
+      "id": "forge_text_ddf688b6226d",
+      "text": "Layout unavailable"
+    },
+    {
+      "id": "forge_text_674e595229ea",
+      "text": "Left stick"
+    },
+    {
+      "id": "forge_text_dad879f6f4b9",
+      "text": "Left zone"
+    },
+    {
+      "id": "forge_text_72779600e35a",
+      "text": "Lighting zones"
+    },
+    {
+      "id": "forge_text_96cc702662e3",
+      "text": "Lighting zones applied"
+    },
+    {
+      "id": "forge_text_a90a18d0722f",
+      "text": "Lighting zones unavailable"
+    },
+    {
+      "id": "forge_text_be4a0fb2d5d0",
+      "text": "Listen for a control"
+    },
+    {
+      "id": "forge_text_5fa05a815f35",
+      "text": "Load sample entry"
+    },
+    {
+      "id": "forge_text_f8f7e66412e5",
+      "text": "Local sample file \u00b7 no personal content"
+    },
+    {
+      "id": "forge_text_15b61974b270",
+      "text": "Location"
+    },
+    {
+      "id": "forge_text_7e1c8a96b2d1",
+      "text": "Location access"
+    },
+    {
+      "id": "forge_text_314f2ac14bad",
+      "text": "Location access off"
+    },
+    {
+      "id": "forge_text_10f92728eb29",
+      "text": "Location is allowed while Sample Maps is in use. You can"
+    },
+    {
+      "id": "forge_text_09d7dc2290a8",
+      "text": "Location permission"
+    },
+    {
+      "id": "forge_text_82b31b708433",
+      "text": "Lower display"
+    },
+    {
+      "id": "forge_text_3b677a18bc9d",
+      "text": "Lowercase"
+    },
+    {
+      "id": "forge_text_08f271887ce9",
+      "text": "M"
+    },
+    {
+      "id": "forge_text_6a654752f360",
+      "text": "Mapping applied"
+    },
+    {
+      "id": "forge_text_700af15d1297",
+      "text": "Mapping not applied"
+    },
+    {
+      "id": "forge_text_64bd1e9e191c",
+      "text": "Mapping restored"
+    },
+    {
+      "id": "forge_text_8012af406521",
+      "text": "Mapping unavailable"
+    },
+    {
+      "id": "forge_text_e0e7d586924f",
+      "text": "Media uses the selected output"
+    },
+    {
+      "id": "forge_text_9c10b33152d3",
+      "text": "Media volume"
+    },
+    {
+      "id": "forge_text_2f77668a9dfb",
+      "text": "Message"
+    },
+    {
+      "id": "forge_text_186352a881d0",
+      "text": "Microphone"
+    },
+    {
+      "id": "forge_text_5b094cd67011",
+      "text": "More symbols"
+    },
+    {
+      "id": "forge_text_49ba63e89af6",
+      "text": "Movement"
+    },
+    {
+      "id": "forge_text_b364cc1c698a",
+      "text": "Moving the app"
+    },
+    {
+      "id": "forge_text_8ce86a6ae65d",
+      "text": "N"
+    },
+    {
+      "id": "forge_text_a994cd47d47c",
+      "text": "Nearby"
+    },
+    {
+      "id": "forge_text_4722f631e622",
+      "text": "No compatible destination was found"
+    },
+    {
+      "id": "forge_text_cb01874138de",
+      "text": "No display or audio was recorded."
+    },
+    {
+      "id": "forge_text_d3711e5f4f28",
+      "text": "No document selected"
+    },
+    {
+      "id": "forge_text_adcbe883e9c2",
+      "text": "No location is shared. You can choose again when a feature"
+    },
+    {
+      "id": "forge_text_e76d52c572cd",
+      "text": "No photo was selected. Retry the source or leave without"
+    },
+    {
+      "id": "forge_text_27baeb0b854f",
+      "text": "No photos in this location"
+    },
+    {
+      "id": "forge_text_ccaaa74a9264",
+      "text": "No photos selected"
+    },
+    {
+      "id": "forge_text_af127f7c419b",
+      "text": "No photos yet"
+    },
+    {
+      "id": "forge_text_50a25e2d5b3e",
+      "text": "No sharing apps"
+    },
+    {
+      "id": "forge_text_0b38e1d22e0f",
+      "text": "No supported hardware value was reported"
+    },
+    {
+      "id": "forge_text_68d2ad8d9859",
+      "text": "No supported input service was found"
+    },
+    {
+      "id": "forge_text_f9f3108a6cc2",
+      "text": "No supported mapping path was found"
+    },
+    {
+      "id": "forge_text_f0406a0e7eb1",
+      "text": "Not allowed"
+    },
+    {
+      "id": "forge_text_e34e5c83e7e3",
+      "text": "Not recognized"
+    },
+    {
+      "id": "forge_text_8a7525b1492f",
+      "text": "Notes"
+    },
+    {
+      "id": "forge_text_2076bf93c9df",
+      "text": "Nothing to paste"
+    },
+    {
+      "id": "forge_text_947a8116a68b",
+      "text": "Nothing was opened"
+    },
+    {
+      "id": "forge_text_c10131d872bb",
+      "text": "Nothing was shared"
+    },
+    {
+      "id": "forge_text_788011833a5a",
+      "text": "Notifications"
+    },
+    {
+      "id": "forge_text_675cade1a25c",
+      "text": "Notifications allowed"
+    },
+    {
+      "id": "forge_text_44a372873865",
+      "text": "Notifications off"
+    },
+    {
+      "id": "forge_text_c4694f2e93d5",
+      "text": "O"
+    },
+    {
+      "id": "forge_text_ca7981b46ecf",
+      "text": "Off"
+    },
+    {
+      "id": "forge_text_a27a76de334e",
+      "text": "One-time access"
+    },
+    {
+      "id": "forge_text_4f8a110a54de",
+      "text": "Only selected media will be shared"
+    },
+    {
+      "id": "forge_text_70ecf1e85624",
+      "text": "Only the selected media are returned to the requesting app."
+    },
+    {
+      "id": "forge_text_a7caf448a5d5",
+      "text": "Only this time"
+    },
+    {
+      "id": "forge_text_df2cdb48632f",
+      "text": "Open app settings"
+    },
+    {
+      "id": "forge_text_082afd6708e1",
+      "text": "Open empty source"
+    },
+    {
+      "id": "forge_text_bcc5bad73b85",
+      "text": "Open sample document"
+    },
+    {
+      "id": "forge_text_1938fc62405c",
+      "text": "Opening the selected source"
+    },
+    {
+      "id": "forge_text_9aba7f11e9af",
+      "text": "Other app features remain available. You can change this"
+    },
+    {
+      "id": "forge_text_c5b670038848",
+      "text": "Output disconnected"
+    },
+    {
+      "id": "forge_text_5c62e091b8c0",
+      "text": "P"
+    },
+    {
+      "id": "forge_text_10c12f26f5c7",
+      "text": "PIN not accepted"
+    },
+    {
+      "id": "forge_text_a86670dbd17a",
+      "text": "Pasted"
+    },
+    {
+      "id": "forge_text_224bee9278ac",
+      "text": "Pattern not recognized"
+    },
+    {
+      "id": "forge_text_858e4ba7a29f",
+      "text": "Pause"
+    },
+    {
+      "id": "forge_text_e159b06187d3",
+      "text": "Paused"
+    },
+    {
+      "id": "forge_text_2b0c1b021bda",
+      "text": "Photos selected"
+    },
+    {
+      "id": "forge_text_8140864ae7c5",
+      "text": "Please wait while the result is confirmed."
+    },
+    {
+      "id": "forge_text_9caa6d40ec11",
+      "text": "Power action selected"
+    },
+    {
+      "id": "forge_text_40223634095a",
+      "text": "Power controls"
+    },
+    {
+      "id": "forge_text_2089aa6cd044",
+      "text": "Power off"
+    },
+    {
+      "id": "forge_text_5838c0bc31bd",
+      "text": "Power off device?"
+    },
+    {
+      "id": "forge_text_13620f4af49b",
+      "text": "Precise"
+    },
+    {
+      "id": "forge_text_28b5332aa928",
+      "text": "Precise location selected"
+    },
+    {
+      "id": "forge_text_a792cea926ab",
+      "text": "Preference not applied"
+    },
+    {
+      "id": "forge_text_ce39342734cb",
+      "text": "Press a button to assign it"
+    },
+    {
+      "id": "forge_text_2aa778912546",
+      "text": "Press a control"
+    },
+    {
+      "id": "forge_text_698b6adc8fb8",
+      "text": "Preview accepted PIN"
+    },
+    {
+      "id": "forge_text_805ca1ba3fc2",
+      "text": "Preview apply failure"
+    },
+    {
+      "id": "forge_text_97651dce702a",
+      "text": "Preview captured control"
+    },
+    {
+      "id": "forge_text_3ff05a54b52b",
+      "text": "Preview confirmed result"
+    },
+    {
+      "id": "forge_text_20a21f848900",
+      "text": "Preview confirmed route"
+    },
+    {
+      "id": "forge_text_062e476880d3",
+      "text": "Preview connection lost"
+    },
+    {
+      "id": "forge_text_098b6fddd409",
+      "text": "Preview disconnected route"
+    },
+    {
+      "id": "forge_text_0a793df7ccd5",
+      "text": "Preview duplicate binding"
+    },
+    {
+      "id": "forge_text_97b6641395f8",
+      "text": "Preview empty source"
+    },
+    {
+      "id": "forge_text_f8dca7f9023c",
+      "text": "Preview failed match"
+    },
+    {
+      "id": "forge_text_affb755f3b29",
+      "text": "Preview failure"
+    },
+    {
+      "id": "forge_text_6a009e259ff0",
+      "text": "Preview full confirmation"
+    },
+    {
+      "id": "forge_text_b405f2d96bc6",
+      "text": "Preview full storage"
+    },
+    {
+      "id": "forge_text_305933b46d71",
+      "text": "Preview lid close and wake"
+    },
+    {
+      "id": "forge_text_563c5204464b",
+      "text": "Preview loaded source"
+    },
+    {
+      "id": "forge_text_f8b2d4a76f1d",
+      "text": "Preview locked device"
+    },
+    {
+      "id": "forge_text_3b8ec6a6fcc8",
+      "text": "Preview lockout"
+    },
+    {
+      "id": "forge_text_332da9b7c5a6",
+      "text": "Preview missing display"
+    },
+    {
+      "id": "forge_text_aca737d5b1be",
+      "text": "Preview no destinations"
+    },
+    {
+      "id": "forge_text_9fb6ce09f0f6",
+      "text": "Preview offline source"
+    },
+    {
+      "id": "forge_text_a84ff1e36cdd",
+      "text": "Preview ownership conflict"
+    },
+    {
+      "id": "forge_text_a9dc94b7531f",
+      "text": "Preview partial result"
+    },
+    {
+      "id": "forge_text_b256922e6bf5",
+      "text": "Preview paste"
+    },
+    {
+      "id": "forge_text_1b24b117dab0",
+      "text": "Preview provider error"
+    },
+    {
+      "id": "forge_text_391a657be702",
+      "text": "Preview readback confirmed"
+    },
+    {
+      "id": "forge_text_f32490a73a2f",
+      "text": "Preview reconnection"
+    },
+    {
+      "id": "forge_text_9c4c8ad634a1",
+      "text": "Preview recording started"
+    },
+    {
+      "id": "forge_text_0074a109ea29",
+      "text": "Preview restore failure"
+    },
+    {
+      "id": "forge_text_2582b1977773",
+      "text": "Preview restored values"
+    },
+    {
+      "id": "forge_text_550caec70657",
+      "text": "Preview retry"
+    },
+    {
+      "id": "forge_text_b94a63487b6c",
+      "text": "Preview route failure"
+    },
+    {
+      "id": "forge_text_23e04b103186",
+      "text": "Preview screen swap"
+    },
+    {
+      "id": "forge_text_e7a83e7bfb09",
+      "text": "Preview screenshot"
+    },
+    {
+      "id": "forge_text_078ce9e4374a",
+      "text": "Preview service error"
+    },
+    {
+      "id": "forge_text_232028d26f73",
+      "text": "Preview storage error"
+    },
+    {
+      "id": "forge_text_b99fa6c06150",
+      "text": "Preview unavailable"
+    },
+    {
+      "id": "forge_text_c687745fa717",
+      "text": "Preview unavailable app"
+    },
+    {
+      "id": "forge_text_6cf85ffcd969",
+      "text": "Preview unsupported app"
+    },
+    {
+      "id": "forge_text_8d68868584d1",
+      "text": "Preview wait completed"
+    },
+    {
+      "id": "forge_text_ac61fa80e715",
+      "text": "Preview wrong PIN"
+    },
+    {
+      "id": "forge_text_89f152cd4606",
+      "text": "Preview wrong pattern"
+    },
+    {
+      "id": "forge_text_b1abbb294437",
+      "text": "Previous layout"
+    },
+    {
+      "id": "forge_text_04d8daa208dd",
+      "text": "Previous preference restored"
+    },
+    {
+      "id": "forge_text_74928ae1ba61",
+      "text": "Previous values restored"
+    },
+    {
+      "id": "forge_text_da2eb576b5f6",
+      "text": "Primary action"
+    },
+    {
+      "id": "forge_text_e69d08d14235",
+      "text": "Profile applied"
+    },
+    {
+      "id": "forge_text_4f18ae5849e9",
+      "text": "Profile not applied"
+    },
+    {
+      "id": "forge_text_0c4813eb656f",
+      "text": "Profile partly applied"
+    },
+    {
+      "id": "forge_text_4ae81572f06e",
+      "text": "Q"
+    },
+    {
+      "id": "forge_text_8c2574892063",
+      "text": "R"
+    },
+    {
+      "id": "forge_text_80e8dd1a5a05",
+      "text": "Recording"
+    },
+    {
+      "id": "forge_text_6f7ae0e0a971",
+      "text": "Recording begins soon"
+    },
+    {
+      "id": "forge_text_be15514e3b78",
+      "text": "Recording includes the displays and audio sources you selected."
+    },
+    {
+      "id": "forge_text_70c02b4d20ec",
+      "text": "Recording not started"
+    },
+    {
+      "id": "forge_text_024bd21625b8",
+      "text": "Recording options"
+    },
+    {
+      "id": "forge_text_a4348acc6d9c",
+      "text": "Recording paused"
+    },
+    {
+      "id": "forge_text_5f5b8ff36f84",
+      "text": "Recording time is paused"
+    },
+    {
+      "id": "forge_text_c2af035a9489",
+      "text": "Release capture"
+    },
+    {
+      "id": "forge_text_bb349bfe6750",
+      "text": "Remove access"
+    },
+    {
+      "id": "forge_text_e87d632d3515",
+      "text": "Request access again"
+    },
+    {
+      "id": "forge_text_6b983a81e5e8",
+      "text": "Restart"
+    },
+    {
+      "id": "forge_text_ccd66b46322b",
+      "text": "Restart device?"
+    },
+    {
+      "id": "forge_text_602f8e637002",
+      "text": "Restore defaults"
+    },
+    {
+      "id": "forge_text_a96885825ddf",
+      "text": "Restore mapping?"
+    },
+    {
+      "id": "forge_text_8dce1362cfdc",
+      "text": "Restore not confirmed"
+    },
+    {
+      "id": "forge_text_e05f9fc07aaa",
+      "text": "Restore preferences?"
+    },
+    {
+      "id": "forge_text_7ee9e26e683a",
+      "text": "Restore previous"
+    },
+    {
+      "id": "forge_text_40242f9a1656",
+      "text": "Restore previous layout"
+    },
+    {
+      "id": "forge_text_087139732059",
+      "text": "Restore previous mapping"
+    },
+    {
+      "id": "forge_text_fa985de49e85",
+      "text": "Restore previous value"
+    },
+    {
+      "id": "forge_text_9a37e5c248b7",
+      "text": "Restore previous values"
+    },
+    {
+      "id": "forge_text_d6b683b9213b",
+      "text": "Restore the values saved before this profile"
+    },
+    {
+      "id": "forge_text_4141486303e8",
+      "text": "Restoring preferences"
+    },
+    {
+      "id": "forge_text_d640c7421da0",
+      "text": "Resume"
+    },
+    {
+      "id": "forge_text_5376212f0e42",
+      "text": "Resume capture"
+    },
+    {
+      "id": "forge_text_d527642ddf7f",
+      "text": "Resume controller capture?"
+    },
+    {
+      "id": "forge_text_942087cc2d41",
+      "text": "Retry"
+    },
+    {
+      "id": "forge_text_affad433fc92",
+      "text": "Retry restore"
+    },
+    {
+      "id": "forge_text_054262cef5a7",
+      "text": "Retry skipped preference"
+    },
+    {
+      "id": "forge_text_6f1757a4aee4",
+      "text": "Retry source"
+    },
+    {
+      "id": "forge_text_14e47529fca1",
+      "text": "Return to power menu"
+    },
+    {
+      "id": "forge_text_48a545a37747",
+      "text": "Review Sample Camera access"
+    },
+    {
+      "id": "forge_text_c0c2fc4d194b",
+      "text": "Review a supported preference"
+    },
+    {
+      "id": "forge_text_a48aa781fcda",
+      "text": "Review available controls"
+    },
+    {
+      "id": "forge_text_67f87da97da0",
+      "text": "Review before replacing your bindings"
+    },
+    {
+      "id": "forge_text_b2dfda6ac957",
+      "text": "Review before using the file"
+    },
+    {
+      "id": "forge_text_2fdce844c3a0",
+      "text": "Review camera choice"
+    },
+    {
+      "id": "forge_text_1ddc0cd9b40e",
+      "text": "Review capture again"
+    },
+    {
+      "id": "forge_text_35704ca88938",
+      "text": "Review capture options"
+    },
+    {
+      "id": "forge_text_d4a9c0a11c04",
+      "text": "Review capture request"
+    },
+    {
+      "id": "forge_text_6a47708f4e14",
+      "text": "Review changes"
+    },
+    {
+      "id": "forge_text_bcbd521c7768",
+      "text": "Review choices"
+    },
+    {
+      "id": "forge_text_850d6b7b2bfa",
+      "text": "Review current values"
+    },
+    {
+      "id": "forge_text_20721be98ff0",
+      "text": "Review game profile"
+    },
+    {
+      "id": "forge_text_338e872745fc",
+      "text": "Review mapping"
+    },
+    {
+      "id": "forge_text_fb221d8eb06d",
+      "text": "Review options"
+    },
+    {
+      "id": "forge_text_914b6c7df684",
+      "text": "Review preference"
+    },
+    {
+      "id": "forge_text_cfecc2f12524",
+      "text": "Review profile"
+    },
+    {
+      "id": "forge_text_74b1f6433fe4",
+      "text": "Review replacement"
+    },
+    {
+      "id": "forge_text_b4cb3366caf4",
+      "text": "Review replacement before applying a different game profile."
+    },
+    {
+      "id": "forge_text_14a4277a52a5",
+      "text": "Review requested changes before applying"
+    },
+    {
+      "id": "forge_text_967bd624c2d5",
+      "text": "Review restore"
+    },
+    {
+      "id": "forge_text_9169e78e7512",
+      "text": "Review the result before retrying. Do not assume a rollback succeeded."
+    },
+    {
+      "id": "forge_text_4bb609be43e8",
+      "text": "Review the selected destination"
+    },
+    {
+      "id": "forge_text_77df0f8e5331",
+      "text": "Right zone"
+    },
+    {
+      "id": "forge_text_8de0b3c47f11",
+      "text": "S"
+    },
+    {
+      "id": "forge_text_be049dcb6623",
+      "text": "Sample Game can send notifications."
+    },
+    {
+      "id": "forge_text_e351426b5551",
+      "text": "Sample Maps receives an approximate location while in use."
+    },
+    {
+      "id": "forge_text_53305dfeeee0",
+      "text": "Sample app requests access for the feature you"
+    },
+    {
+      "id": "forge_text_1479ef6be64d",
+      "text": "Sample entry pasted"
+    },
+    {
+      "id": "forge_text_65a256bde0d1",
+      "text": "Sample notes.txt"
+    },
+    {
+      "id": "forge_text_c91d0791209c",
+      "text": "Sample notes.txt is selected for the requesting app."
+    },
+    {
+      "id": "forge_text_7c180591fd74",
+      "text": "Save a copy locally, or return without sharing it."
+    },
+    {
+      "id": "forge_text_83a2bc3b1e2f",
+      "text": "Save a local copy"
+    },
+    {
+      "id": "forge_text_739edb6b8399",
+      "text": "Save backup.zip"
+    },
+    {
+      "id": "forge_text_466c306b7160",
+      "text": "Save your work before powering off."
+    },
+    {
+      "id": "forge_text_7acd4967ddf1",
+      "text": "Save your work before restarting."
+    },
+    {
+      "id": "forge_text_1a70843a18ae",
+      "text": "Saved values were applied and confirmed"
+    },
+    {
+      "id": "forge_text_30be38811168",
+      "text": "Screenshot saved"
+    },
+    {
+      "id": "forge_text_67b6a55e5b28",
+      "text": "Screenshot.png"
+    },
+    {
+      "id": "forge_text_37892c05f80f",
+      "text": "Select photos"
+    },
+    {
+      "id": "forge_text_a95d4255d6cd",
+      "text": "Select two photos"
+    },
+    {
+      "id": "forge_text_d43272b5e295",
+      "text": "Selected display scope"
+    },
+    {
+      "id": "forge_text_a949e435f208",
+      "text": "Selected output"
+    },
+    {
+      "id": "forge_text_7b0020e5b1aa",
+      "text": "Selected saved bindings"
+    },
+    {
+      "id": "forge_text_d079400edd53",
+      "text": "Selection completed"
+    },
+    {
+      "id": "forge_text_5c5836f6a614",
+      "text": "Sensitive content"
+    },
+    {
+      "id": "forge_text_58321818268d",
+      "text": "Sensitive content is hidden"
+    },
+    {
+      "id": "forge_text_28b3944cdbea",
+      "text": "Sensor unavailable"
+    },
+    {
+      "id": "forge_text_29887a5ff984",
+      "text": "Share"
+    },
+    {
+      "id": "forge_text_1153282c7b09",
+      "text": "Share copy"
+    },
+    {
+      "id": "forge_text_c599b636c312",
+      "text": "Share this copy"
+    },
+    {
+      "id": "forge_text_424413e394af",
+      "text": "Share with Sample Notes?"
+    },
+    {
+      "id": "forge_text_90dd3923d40e",
+      "text": "Sharing cancelled"
+    },
+    {
+      "id": "forge_text_3d6b868896a5",
+      "text": "Sharing complete"
+    },
+    {
+      "id": "forge_text_2e544a292f69",
+      "text": "Shift"
+    },
+    {
+      "id": "forge_text_c72d3958f437",
+      "text": "Shift keyboard"
+    },
+    {
+      "id": "forge_text_7eed6280e46d",
+      "text": "Single window"
+    },
+    {
+      "id": "forge_text_59a3c0efb02c",
+      "text": "Skipped \u00b7 unavailable"
+    },
+    {
+      "id": "forge_text_90e433597a18",
+      "text": "Some previous values could not be restored"
+    },
+    {
+      "id": "forge_text_2f49d851b9fc",
+      "text": "Sound output"
+    },
+    {
+      "id": "forge_text_696fad2b04a5",
+      "text": "Source is offline"
+    },
+    {
+      "id": "forge_text_a3feb81f9af3",
+      "text": "Source unavailable"
+    },
+    {
+      "id": "forge_text_20eac5aae274",
+      "text": "Space"
+    },
+    {
+      "id": "forge_text_c92a7237efe6",
+      "text": "Speakers"
+    },
+    {
+      "id": "forge_text_30756af0134e",
+      "text": "Start recording"
+    },
+    {
+      "id": "forge_text_7eec62fd9d92",
+      "text": "Start recording?"
+    },
+    {
+      "id": "forge_text_5d8d3dc15d95",
+      "text": "Starting in 3"
+    },
+    {
+      "id": "forge_text_a5e577cca89e",
+      "text": "Steady ember"
+    },
+    {
+      "id": "forge_text_14ee47cae09b",
+      "text": "Stee"
+    },
+    {
+      "id": "forge_text_ea9973d1460e",
+      "text": "Steel"
+    },
+    {
+      "id": "forge_text_6be804aeece9",
+      "text": "Stop and save"
+    },
+    {
+      "id": "forge_text_882f004c646b",
+      "text": "Storage is full"
+    },
+    {
+      "id": "forge_text_17f6ea38da58",
+      "text": "Storage is full or unavailable"
+    },
+    {
+      "id": "forge_text_248442043e63",
+      "text": "Suggestion accepted"
+    },
+    {
+      "id": "forge_text_30755e104bc3",
+      "text": "Suggestion dismissed"
+    },
+    {
+      "id": "forge_text_e632b7095b0b",
+      "text": "T"
+    },
+    {
+      "id": "forge_text_00298162096d",
+      "text": "Temporary camera permission"
+    },
+    {
+      "id": "forge_text_d76da3ed9267",
+      "text": "Text document \u00b7 sample"
+    },
+    {
+      "id": "forge_text_751d7b14703a",
+      "text": "Text keyboard"
+    },
+    {
+      "id": "forge_text_0727ff6d07ee",
+      "text": "That PIN was not accepted"
+    },
+    {
+      "id": "forge_text_e75c504be632",
+      "text": "That action already has a binding"
+    },
+    {
+      "id": "forge_text_63488b824eb4",
+      "text": "The app or requested display is unavailable"
+    },
+    {
+      "id": "forge_text_1ebbf8e7d780",
+      "text": "The camera remains unavailable. You can retry the request or"
+    },
+    {
+      "id": "forge_text_ab9779fc0a55",
+      "text": "The chosen power action ends this session."
+    },
+    {
+      "id": "forge_text_ae5682996d6e",
+      "text": "The chosen word is inserted"
+    },
+    {
+      "id": "forge_text_9c24c083e177",
+      "text": "The clipboard content stays hidden in this preview."
+    },
+    {
+      "id": "forge_text_3de75c2c1c1d",
+      "text": "The contents are hidden from this preview. Clear the"
+    },
+    {
+      "id": "forge_text_046b8d3de26f",
+      "text": "The current app stays in one window"
+    },
+    {
+      "id": "forge_text_297c7c98c6d9",
+      "text": "The device has resumed"
+    },
+    {
+      "id": "forge_text_b95927d97756",
+      "text": "The document source cannot be reached. No file was"
+    },
+    {
+      "id": "forge_text_a74263ae8afe",
+      "text": "The input service did not confirm the change"
+    },
+    {
+      "id": "forge_text_0b2fdb6cb34e",
+      "text": "The new values were read back"
+    },
+    {
+      "id": "forge_text_8d17277d7b3c",
+      "text": "The photo provider did not respond"
+    },
+    {
+      "id": "forge_text_452485ca1799",
+      "text": "The previous layout remains active"
+    },
+    {
+      "id": "forge_text_b2a84c129b05",
+      "text": "The previous mapping remains selected."
+    },
+    {
+      "id": "forge_text_c504c50da85e",
+      "text": "The previous mapping was confirmed"
+    },
+    {
+      "id": "forge_text_6feab59ec797",
+      "text": "The previous value remains in effect."
+    },
+    {
+      "id": "forge_text_b1a4dedeedab",
+      "text": "The reported value matches your choice"
+    },
+    {
+      "id": "forge_text_9afa3361809d",
+      "text": "The requested capture path is unavailable"
+    },
+    {
+      "id": "forge_text_af00c38ea340",
+      "text": "The requested destination was confirmed"
+    },
+    {
+      "id": "forge_text_f654792ad87d",
+      "text": "The saved previous mapping will replace the current mapping."
+    },
+    {
+      "id": "forge_text_581583ecf577",
+      "text": "The saved previous value was confirmed"
+    },
+    {
+      "id": "forge_text_7b83934d6870",
+      "text": "The service did not confirm the change"
+    },
+    {
+      "id": "forge_text_3fdbcee058ae",
+      "text": "Thermal protection"
+    },
+    {
+      "id": "forge_text_01afa71b8f18",
+      "text": "This app cannot use the requested layout"
+    },
+    {
+      "id": "forge_text_ce7b51ee107f",
+      "text": "This preference is unavailable until a supported service reports it."
+    },
+    {
+      "id": "forge_text_91434030e947",
+      "text": "Too many attempts"
+    },
+    {
+      "id": "forge_text_1af3c111a1fa",
+      "text": "Touch mapping unavailable"
+    },
+    {
+      "id": "forge_text_d746b261e6dd",
+      "text": "Touch the sensor"
+    },
+    {
+      "id": "forge_text_c722440deb69",
+      "text": "Touch your enrolled sensor"
+    },
+    {
+      "id": "forge_text_d8b8392e2c54",
+      "text": "Try again"
+    },
+    {
+      "id": "forge_text_6c7ca24a015f",
+      "text": "Try again in 30 seconds"
+    },
+    {
+      "id": "forge_text_4f76f0146d79",
+      "text": "Try again later"
+    },
+    {
+      "id": "forge_text_9600bbb9d029",
+      "text": "Try again or use your PIN"
+    },
+    {
+      "id": "forge_text_dad26c980a51",
+      "text": "Try the sensor again"
+    },
+    {
+      "id": "forge_text_58ad0600e7b2",
+      "text": "Try your PIN again"
+    },
+    {
+      "id": "forge_text_5b19aa732e6f",
+      "text": "Try your pattern again"
+    },
+    {
+      "id": "forge_text_ec5c552bb4f3",
+      "text": "Turn notifications off"
+    },
+    {
+      "id": "forge_text_8e930491cde7",
+      "text": "Two photos are ready"
+    },
+    {
+      "id": "forge_text_a9c171bac799",
+      "text": "Two photos selected"
+    },
+    {
+      "id": "forge_text_e934e9d36d44",
+      "text": "Two values applied; one was skipped"
+    },
+    {
+      "id": "forge_text_914e28ba6be3",
+      "text": "Two-app layout"
+    },
+    {
+      "id": "forge_text_a25513c7e0f6",
+      "text": "U"
+    },
+    {
+      "id": "forge_text_ca1844969742",
+      "text": "Unavailable"
+    },
+    {
+      "id": "forge_text_5659e9f24a72",
+      "text": "Undo suggestion"
+    },
+    {
+      "id": "forge_text_4ac709aa58bc",
+      "text": "Unlock"
+    },
+    {
+      "id": "forge_text_ee14edbdfa97",
+      "text": "Unlock your device"
+    },
+    {
+      "id": "forge_text_531c7b28abf2",
+      "text": "Unlocked"
+    },
+    {
+      "id": "forge_text_234db1af7ba4",
+      "text": "Upper + lower"
+    },
+    {
+      "id": "forge_text_4da69df0020a",
+      "text": "Upper and lower displays \u00b7 00:24"
+    },
+    {
+      "id": "forge_text_18b2fe6e5b6e",
+      "text": "Upper display"
+    },
+    {
+      "id": "forge_text_3e03ee297576",
+      "text": "Use PIN"
+    },
+    {
+      "id": "forge_text_c4edb14c5acb",
+      "text": "Use PIN instead"
+    },
+    {
+      "id": "forge_text_dc9e6659e900",
+      "text": "Use a single window"
+    },
+    {
+      "id": "forge_text_41093a8b803f",
+      "text": "Use approximate"
+    },
+    {
+      "id": "forge_text_03f1ff417ef0",
+      "text": "Use precise location"
+    },
+    {
+      "id": "forge_text_5c759be825d3",
+      "text": "Use speakers"
+    },
+    {
+      "id": "forge_text_8ac4cf1e6523",
+      "text": "Use this document"
+    },
+    {
+      "id": "forge_text_9a19b0b12599",
+      "text": "Use your PIN"
+    },
+    {
+      "id": "forge_text_c016af3f2a76",
+      "text": "Use your device PIN to continue"
+    },
+    {
+      "id": "forge_text_de5a6f78116e",
+      "text": "V"
+    },
+    {
+      "id": "forge_text_fcb5f40df9be",
+      "text": "W"
+    },
+    {
+      "id": "forge_text_6382ba0c66ca",
+      "text": "Waiting for confirmation"
+    },
+    {
+      "id": "forge_text_21450b40e647",
+      "text": "Waiting for confirmed values"
+    },
+    {
+      "id": "forge_text_82102babda16",
+      "text": "Waiting for controller input"
+    },
+    {
+      "id": "forge_text_3dc06a68f003",
+      "text": "Waiting for readback of previous values"
+    },
+    {
+      "id": "forge_text_02e02be2d618",
+      "text": "Waiting for the display owner"
+    },
+    {
+      "id": "forge_text_0092dbcacf39",
+      "text": "Waiting for the hardware service"
+    },
+    {
+      "id": "forge_text_dc5382f5933f",
+      "text": "Waiting for the input service"
+    },
+    {
+      "id": "forge_text_d4e6d2388253",
+      "text": "Waiting for the photo provider."
+    },
+    {
+      "id": "forge_text_82b2a6fe809d",
+      "text": "Website address"
+    },
+    {
+      "id": "forge_text_40ceceb554be",
+      "text": "Website keyboard"
+    },
+    {
+      "id": "forge_text_d7ca411a6cde",
+      "text": "While using the app"
+    },
+    {
+      "id": "forge_text_dc9f3f9fa011",
+      "text": "Write a message\u2026"
+    },
+    {
+      "id": "forge_text_4b68ab3847fe",
+      "text": "X"
+    },
+    {
+      "id": "forge_text_18f5384d58bc",
+      "text": "Y"
+    },
+    {
+      "id": "forge_text_9a01e770af76",
+      "text": "You can keep using other features"
+    },
+    {
+      "id": "forge_text_35c5f3737adf",
+      "text": "You can leave this screen without replacing the current mapping."
+    },
+    {
+      "id": "forge_text_d832b279ef11",
+      "text": "You can return to your app or choose another destination."
+    },
+    {
+      "id": "forge_text_75e4222d5f07",
+      "text": "You control future alerts"
+    },
+    {
+      "id": "forge_text_4ed90ad4111e",
+      "text": "You left the document picker."
+    },
+    {
+      "id": "forge_text_e19e2f3cc83d",
+      "text": "You left the photo picker without choosing media."
+    },
+    {
+      "id": "forge_text_ac517b26b243",
+      "text": "Your apps may close"
+    },
+    {
+      "id": "forge_text_797637870b1f",
+      "text": "Your capture could not be saved. Review storage before recording again."
+    },
+    {
+      "id": "forge_text_0d0b5e5db5dc",
+      "text": "Your choice has been kept"
+    },
+    {
+      "id": "forge_text_fb6872cbeff5",
+      "text": "Your choice is confirmed"
+    },
+    {
+      "id": "forge_text_66714a4e69eb",
+      "text": "Your controller is available to system navigation again."
+    },
+    {
+      "id": "forge_text_4548b397d0e5",
+      "text": "Your copy was shared"
+    },
+    {
+      "id": "forge_text_6a0a3d4afa05",
+      "text": "Your current session will end"
+    },
+    {
+      "id": "forge_text_5a1ef3b3a680",
+      "text": "Your device has controller focus again"
+    },
+    {
+      "id": "forge_text_3cd701929aae",
+      "text": "Your device is unlocked and ready to use."
+    },
+    {
+      "id": "forge_text_072756308b4f",
+      "text": "Your local copy is still available."
+    },
+    {
+      "id": "forge_text_fe9e9d68acc6",
+      "text": "Your recording is saved when you stop."
+    },
+    {
+      "id": "forge_text_0bc7d3e618d3",
+      "text": "Your session is ready"
+    },
+    {
+      "id": "forge_text_35fafd22c010",
+      "text": "Your typed word is kept"
+    },
+    {
+      "id": "forge_text_bbeebd879e1d",
+      "text": "Z"
+    },
+    {
+      "id": "forge_text_245843abef9e",
+      "text": "["
+    },
+    {
+      "id": "forge_text_cfae0d4248f7",
+      "text": "]"
+    },
+    {
+      "id": "forge_text_74cd9ef9c7e1",
+      "text": "^"
+    },
+    {
+      "id": "forge_text_d2e2adf7177b",
+      "text": "_"
+    },
+    {
+      "id": "forge_text_8d33f520a3c4",
+      "text": "`"
+    },
+    {
+      "id": "forge_text_ca978112ca1b",
+      "text": "a"
+    },
+    {
+      "id": "forge_text_3e23e8160039",
+      "text": "b"
+    },
+    {
+      "id": "forge_text_2e7d2c03a950",
+      "text": "c"
+    },
+    {
+      "id": "forge_text_e82e09e99195",
+      "text": "can change this in Settings."
+    },
+    {
+      "id": "forge_text_ffa1b8102037",
+      "text": "choice in notification settings."
+    },
+    {
+      "id": "forge_text_18ac3e7343f0",
+      "text": "d"
+    },
+    {
+      "id": "forge_text_3f79bb7b435b",
+      "text": "e"
+    },
+    {
+      "id": "forge_text_ad6e071f47c6",
+      "text": "entry when you no longer need it."
+    },
+    {
+      "id": "forge_text_252f10c83610",
+      "text": "f"
+    },
+    {
+      "id": "forge_text_ec236aa9e28e",
+      "text": "features."
+    },
+    {
+      "id": "forge_text_cd0aa9856147",
+      "text": "g"
+    },
+    {
+      "id": "forge_text_aaa9402664f1",
+      "text": "h"
+    },
+    {
+      "id": "forge_text_100680ad546c",
+      "text": "https://example.com"
+    },
+    {
+      "id": "forge_text_de7d1b721a1e",
+      "text": "i"
+    },
+    {
+      "id": "forge_text_189f40034be7",
+      "text": "j"
+    },
+    {
+      "id": "forge_text_8254c329a928",
+      "text": "k"
+    },
+    {
+      "id": "forge_text_acac86c0e609",
+      "text": "l"
+    },
+    {
+      "id": "forge_text_62c66a7a5dd7",
+      "text": "m"
+    },
+    {
+      "id": "forge_text_88e8d094f976",
+      "text": "media."
+    },
+    {
+      "id": "forge_text_1b16b1df538b",
+      "text": "n"
+    },
+    {
+      "id": "forge_text_7b17fb0bd173",
+      "text": "name@example.com"
+    },
+    {
+      "id": "forge_text_dc9fb6fb6b83",
+      "text": "needs it."
+    },
+    {
+      "id": "forge_text_65c74c15a686",
+      "text": "o"
+    },
+    {
+      "id": "forge_text_148de9c5a7a4",
+      "text": "p"
+    },
+    {
+      "id": "forge_text_8e35c2cd3bf6",
+      "text": "q"
+    },
+    {
+      "id": "forge_text_454349e422f0",
+      "text": "r"
+    },
+    {
+      "id": "forge_text_65f4ecb129a3",
+      "text": "removes access."
+    },
+    {
+      "id": "forge_text_5dc7fc071dd6",
+      "text": "review this app in Settings."
+    },
+    {
+      "id": "forge_text_043a718774c5",
+      "text": "s"
+    },
+    {
+      "id": "forge_text_a1260b5d5a03",
+      "text": "selected."
+    },
+    {
+      "id": "forge_text_d0577e783578",
+      "text": "selected. You can decline and keep using other"
+    },
+    {
+      "id": "forge_text_4982a99e093e",
+      "text": "sharing media."
+    },
+    {
+      "id": "forge_text_fd19b6f38b9d",
+      "text": "switch to approximate location or remove access."
+    },
+    {
+      "id": "forge_text_e3b98a4da31a",
+      "text": "t"
+    },
+    {
+      "id": "forge_text_0bfe935e70c3",
+      "text": "u"
+    },
+    {
+      "id": "forge_text_4c94485e0c21",
+      "text": "v"
+    },
+    {
+      "id": "forge_text_50e721e49c01",
+      "text": "w"
+    },
+    {
+      "id": "forge_text_2d711642b726",
+      "text": "x"
+    },
+    {
+      "id": "forge_text_a1fce4363854",
+      "text": "y"
+    },
+    {
+      "id": "forge_text_594e519ae499",
+      "text": "z"
+    },
+    {
+      "id": "forge_text_cbe5cfdf7c21",
+      "text": "|"
+    },
+    {
+      "id": "forge_text_7ace431cb615",
+      "text": "~"
+    },
+    {
+      "id": "forge_text_01e8ee2044c9",
+      "text": "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022"
+    },
+    {
+      "id": "forge_text_7bb37df5cb36",
+      "text": "\u203a"
+    },
+    {
+      "id": "forge_text_d36cb57cb5e5",
+      "text": "\u21b5"
+    },
+    {
+      "id": "forge_text_99ea73b19a13",
+      "text": "\u21e7"
+    },
+    {
+      "id": "forge_text_623c01a03892",
+      "text": "\u21ea"
+    },
+    {
+      "id": "forge_text_8b1885116845",
+      "text": "\u232b"
+    },
+    {
+      "id": "forge_text_5601d0c0963a",
+      "text": "\u25cb \u25cb \u25cb \u25cb \u25cb \u25cb"
+    },
+    {
+      "id": "forge_text_1dabba21cdad",
+      "text": "\u2713"
+    }
+  ]
+}

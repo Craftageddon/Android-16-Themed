@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "07d9bc8c2a6caf593a506b532b93ab663c587619594c49bc230a80af4551b0b1"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-22T14:17:22+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "0bc26727e3edea39db082d6cc2800a36ab014044074c4d83df85610275f20b40",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-22T14:17:22+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "ccaeb9f5877af101d1fbda57f3c22865f6508481f24b1168b36b69fe23a6afb0",
+      "independence": null,
+      "method": "Explicit target/reachability/consent graph checks; every offline viewer action exercised in Node VM; measured text bounds/intersections and art containment; cold-emission and unavailable/disabled rules; unchanged master/material hashes; SVG reference/ID checks and PNG decode. Existing seven state tests.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-22T14:17:22+00:00",
+  "project": "15-forge-journey-states",
+  "schema": 1,
+  "status": "V2_PASS"
+}

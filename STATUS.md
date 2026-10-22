@@ -1,12 +1,16 @@
-# Redesign checkpoint status — 2026-10-21
+# Redesign checkpoint status — 2026-10-22
 
 ## Active goal update — 2026-10-22
 
-The user authorized finishing the remaining visual work and then beginning native integration, and selected official **LineageOS 24.0 / odin2thor**. [The active requirement/evidence register](roadmap/ACTIVE_GOAL_2026-10-22.md) preserves that complete objective. Iteration 14 extends wallpapers and static boot/charging/recovery/loading artwork. Motion, extended flow states, historical/app-specific reconciliation and final target acceptance are not complete, so native integration is not yet counted as started.
+The user authorized finishing the remaining visual work and then beginning native integration, and selected official **LineageOS 24.0 / odin2thor**. [The active requirement/evidence register](roadmap/ACTIVE_GOAL_2026-10-22.md) preserves that complete objective. Iteration 14 supplies six layered wallpapers, three atmosphere components and seventeen static boot/charging/recovery/loading scenes. Iteration 15 adds 120 editable Android/Thor states across 24 journeys and an offline viewer with 263 sample transitions. Eighteen component masters are reused unchanged rather than counted as new assets. Its bounded checks include 1,339 live text boxes, cold/unavailable rules, graph targets and actual viewer JavaScript in a Node VM.
+
+All current authored text is English (en-US), including iteration 15's native Android string handoff. The user rejected non-English examples; the unpublished keyboard language draft was replaced with English email/website layouts. See the [English UI policy](integration/ENGLISH_UI_POLICY.md).
+
+Motion implementation/reconciliation, historical canonical-source decisions, exact app-icon targets and final scale/readability review remain before native integration begins. No device was attached at the read-only inventory check. Browser/target rendering, real hardware behavior and V3 remain NOT RUN. Source checkpoints use pinned detached signatures; native package signing remains a separate gate.
 
 [Thor baseline research](integration/research/2026-10-22/THOR_BASELINE.md) verifies the exact AYN target and source branch, records a downloaded factory-image candidate and separates its valid embedded signatures from manufacturer trust. Three retained development preview APKs have valid cryptographic signatures; this does not make them production-signed system packages. No hardware flashing occurred.
 
-Thirteen source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases.
+Fifteen source iterations are preserved independently. These are work-in-progress checkpoints, not finalized Android/ROM releases. The detailed iteration-13-era status below remains historical context; the update above and active evidence register control current completion claims.
 
 Iteration 13 adds 42 new editable screen concepts (25 Android, 17 Thor) and 18 layered control masters, continuing Reference Forge into previously missing flows. Launcher browsing, Settings, recents, power, sharing/permissions, picking, clipboard/capture, audio, unlock and keyboard art now have initial compositions. Thor input/profile/display/capture/cooling/charging/lighting/diagnostic panels use explicit sample fixtures and include an all-cold unavailable-hardware view. This is partial flow/state coverage. The [coverage map](iterations/13-forge-android-and-thor-flows/coverage-map.json) lists remaining artwork; the APK and all native/device integration remain unchanged.
 
