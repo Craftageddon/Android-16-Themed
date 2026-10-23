@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-23",
+  "listedOfficialBuild": {
+    "date": "2026-10-19",
+    "datetime": 1792430158,
+    "filename": "lineage-24.0-20261019-nightly-odin2thor-signed.zip",
+    "filepath": "/full/odin2thor/20261019/lineage-24.0-20261019-nightly-odin2thor-signed.zip",
+    "os_patch_level": "2026-10-01",
+    "os_sdk_level": 37,
+    "ota_property_files": "payload_metadata.bin:4764:150226,payload.bin:4764:1339146909,payload_properties.txt:1339151731:156,apex_info.pb:2167:1372,care_map.pb:3586:1131,metadata:69:677,metadata.pb:814:1305                        ",
+    "sha1": "568ab9791afdefd45e5378bd725f4340e37a0daf",
+    "sha256": "631bf332c19afdd464847c69888b181ce91a19b42e75b8cc413c9bc8cc6f7da8",
+    "size": 1339154878,
+    "type": "nightly",
+    "url": "https://mirrorbits.lineageos.org/full/odin2thor/20261019/lineage-24.0-20261019-nightly-odin2thor-signed.zip"
+  },
+  "manifest": {
+    "url": "https://mirrorbits.lineageos.org/full/odin2thor/20261019/build-manifest.xml",
+    "finalUrl": "https://mirrors.ocf.berkeley.edu/lineageos/full/odin2thor/20261019/build-manifest.xml",
+    "sha256": "4bf203ee7ab8b663d0bf6c83d3e35bd349222d3ca228940df191e2aff50d2364",
+    "hashVerified": true,
+    "bytes": 306156
+  },
+  "integrationSourceProjects": [
+    {
+      "name": "LineageOS/android_device_ayn_odin2thor",
+      "path": "device/ayn/odin2thor",
+      "revision": "bd710361dc03c7a72f86095c2b28ae40526f667a",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "local::roomservice"
+    },
+    {
+      "name": "LineageOS/android_device_ayn_qcs8550-common",
+      "path": "device/ayn/qcs8550-common",
+      "revision": "0a1f87ca483ad55dbc41c34ac295c64fad05a674",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "local::roomservice"
+    },
+    {
+      "name": "LineageOS/android_frameworks_base",
+      "path": "frameworks/base",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-cw-fs,pdk-fs,sysui-studio"
+    },
+    {
+      "name": "LineageOS/android_packages_apps_DocumentsUI",
+      "path": "packages/apps/DocumentsUI",
+      "revision": "7f7e65f7600b181647d52aa869290ad63372d169",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-cw-fs,pdk-fs"
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Glimpse",
+      "path": "packages/apps/Glimpse",
+      "revision": "89b473594ec8ad01417624e670912450ce5df7e9",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    {
+      "name": "LineageOS/android_packages_apps_Settings",
+      "path": "packages/apps/Settings",
+      "revision": "b9b9d68135714d9a84741620e9386e1d43931139",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-cw-tvc,pdk-fs,sysui-studio"
+    }
+  ],
+  "otaBytesDownloaded": false,
+  "otaSignatureVerified": false,
+  "installedDeviceCompatibility": "NOT RUN",
+  "scope": "Official listing plus hash-verified build-source manifest; filename and listing do not prove an OTA signature or factory-ROM provenance"
+}

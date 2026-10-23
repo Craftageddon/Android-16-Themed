@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-23",
+  "components": 5,
+  "nativeJavaClasses": 5,
+  "compiledResourceFiles": 119,
+  "unchangedNinePatchSources": 112,
+  "nativeEnglishStrings": 25,
+  "stateCombinations": 64,
+  "nativeTarget": "AYN odin2thor / LineageOS24 / Android17 API37",
+  "v1Scope": "Begin native integration: real Android widget state and separate-mask resources, native English live content, read-only hardware discovery, protected system Quick Settings tile service. No platform-wide styling or target acceptance claimed.",
+  "v2Method": "Two clean builds compare all119 executable/resource members; 64 Java states; 7 style parity samples; original resource hashes; native manifest, English resources, APK certificate/signature/alignment and tamper rejection.",
+  "targetV3": "NOT RUN - user chose to continue without device",
+  "platformRomBuild": "NOT RUN",
+  "packageScope": "Signed native application/source integration checkpoint, not a production ROM",
+  "checkpointScope": "Work-in-progress native application source, build and signature checks; actual Android execution and platform/device acceptance NOT RUN."
+}

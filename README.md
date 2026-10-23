@@ -1,3 +1,11 @@
+# Current Forge visual and native checkpoints
+
+- [All current visual masters and compositions](iterations/17-forge-coverage/README.md): 472 production master files, 189 editable compositions, 36 contact sheets, plus explicit retained-source decisions. [Browse the contact-sheet index](iterations/17-forge-coverage/current-library/index.html) after downloading/cloning.
+- [First native implementation](iterations/18-native-runtime/README.md): API37 Android steel controls, native English labels, a real Quick Settings service and read-only controller/display/battery reporting. [Signed APK](iterations/18-native-runtime/package/Craftageddon-Thor-Native-0.1.0.apk).
+- [Remaining work and acceptance limits](iterations/18-native-runtime/remaining-work.json): full OS integration and Android/device execution remain pending. These are signed work-in-progress checkpoints; no hardware flashing occurred.
+
+Earlier project documentation follows and remains historical context.
+
 # Craftageddon Android 16 — Ember Steel
 
 An iterative redesign of the Craftageddon Android interface for AYN Thor, based on the earlier dark forged steel and ember artwork.

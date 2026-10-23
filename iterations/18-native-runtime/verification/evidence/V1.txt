@@ -1,0 +1,6 @@
+CHECK: V1
+RESULT: PASS
+SCOPE: Work-in-progress native application source, build and signature checks; actual Android execution and platform/device acceptance NOT RUN.
+METHOD: Roadmap and component-family source inspection
+OBSERVATIONS: Begin native integration: real Android widget state and separate-mask resources, native English live content, read-only hardware discovery, protected system Quick Settings tile service. No platform-wide styling or target acceptance claimed.
+Target Android integration, physical device rendering, final accessibility and performance are NOT RUN.
