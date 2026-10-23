@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "date": "2026-10-23",
+  "newValueComponents": 4,
+  "productionLayerExports": 56,
+  "neutralMasksChecked": 48,
+  "checks": 388,
+  "fixedBatteryAndProgressVessels": "Pixel-identical outside their value wells and changing live readouts",
+  "percentageBounds": "68 and 15 percent checked against actual exported SVG geometry",
+  "eqTargets": "Five distinct thumb positions in the exported SVG",
+  "authoredLocale": "en-US",
+  "nativeIntegration": "NOT RUN",
+  "browserAcceptance": "NOT RUN",
+  "scope": "Unlabelled vector sources, true-alpha neutral masks and actual desktop sampler exports; not device or hardware behavior"
+}

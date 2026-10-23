@@ -1,0 +1,17 @@
+✔ exact imported catalog and English visible wording (2.2184ms)
+✔ every recipe yields finite bounded frames throughout playback (5.6637ms)
+✔ off, focus alone and explicit off-value locks never emit (1.3922ms)
+✔ reduced motion, zero animator scale and power saving remain static (2.4006ms)
+✔ hidden, detached and suspended states cannot run or emit (0.5778ms)
+✔ finite recipes finish at exact counted duration; loops stay explicit (0.1218ms)
+✔ mode selection lights one layer; all other choices remain cold (0.1322ms)
+✔ status and focus-only variants stay geometrically steady (0.1462ms)
+✔ invalid clocks and unknown kinds reject rather than fall back to generic pulse (0.2889ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 85.4212

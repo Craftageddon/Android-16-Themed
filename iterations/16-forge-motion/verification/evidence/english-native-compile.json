@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "authoredLocale": "en-US",
+  "labels": 352,
+  "aapt2": "Android Asset Packaging Tool (aapt) 2.20-15087165",
+  "toolSha256": "4b09f89d449cc4498fcf5076a4ad6b28f079e565d2737f7881a674580960c8df",
+  "stringsXmlSha256": "6cc9ec4e00ed351c9176068c819c6de35061fd5c42146205164b61d41d9b479f",
+  "compiledResourceSha256": "161095477f722e959c4951aa8ffe6a0b1958b38497693d5199a1b2190197683d",
+  "compiledMembers": [
+    "values_strings.arsc.flat"
+  ],
+  "scope": "Native English string-resource compilation only; application build/installation/rendering NOT RUN",
+  "execution": "Compilation with authorized local tool access; no instrumentation retry claimed by this run"
+}

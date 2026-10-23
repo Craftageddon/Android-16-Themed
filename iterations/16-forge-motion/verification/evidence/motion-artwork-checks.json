@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "date": "2026-10-23",
+  "counts": {
+    "masters": 30,
+    "layerExports": 0,
+    "neutralMasks": 0,
+    "frames": 1140,
+    "textPoses": 1244,
+    "partTargets": 134
+  },
+  "errors": [],
+  "authoredLocale": "en-US",
+  "method": "Parse actual SVG sources and transformed live text; verify byte provenance; render transparent neutral layers at 1x/2x when requested",
+  "limits": "No browser, native, device, service or physical control acceptance"
+}

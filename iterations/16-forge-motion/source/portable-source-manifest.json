@@ -1,0 +1,621 @@
+{
+  "masters": [
+    {
+      "original": "iterations/11-forge-symbol-library/masters/accounts__detailed.svg",
+      "originalSha256": "84463217eb8819492b49bc7f7d5a536e0749f5ccd62e95a7fd09307ce20e5677",
+      "portableCopy": "source/portable-masters/asset-000.svg",
+      "sha256": "d9e7b78376b81e98e638d3b31829c586ab38161d6741ad0998b49664a7846ac6",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/airplane_on__detailed.svg",
+      "originalSha256": "ea862c559b2046d4ba84673f8f4327f6cd1b86a0a38f04bcc99b18790ee44915",
+      "portableCopy": "source/portable-masters/asset-001.svg",
+      "sha256": "16bdd2e9fdcc559067f19e5d25072b2d917e9a2257a5d4eda3589046c7acce85",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/audio__detailed.svg",
+      "originalSha256": "d16aecb7d596c8c67025aa492fbee6197c1b267dd8c2818f72b8524ede9d312e",
+      "portableCopy": "source/portable-masters/asset-002.svg",
+      "sha256": "6c863421d59e65a61aa56e253a200c68421e6e915b92b79c6106733d19a9ea40",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/back__detailed.svg",
+      "originalSha256": "54b345388a5a620c5db71f9f5286dacbded4b5bc149c6dd639a5153fb61edbbd",
+      "portableCopy": "source/portable-masters/asset-003.svg",
+      "sha256": "aa36a2e606affd681e79b66c2305cde444a10f9b791d25e6aa9360f4678f8bc8",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/bluetooth_on__detailed.svg",
+      "originalSha256": "5343a70ef12cac304a5ad0e3bf7097ee132c0725885ffb4a9975733259f068a9",
+      "portableCopy": "source/portable-masters/asset-004.svg",
+      "sha256": "2ec30c31e69b0904da15652845d661b0a3477856da8e4ea753f43b42d6963a5b",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/cellular_4__detailed.svg",
+      "originalSha256": "807ef5ce2e8ad103a4d74ccfe98b96da6b274b689beb211dab77cc9193367b5f",
+      "portableCopy": "source/portable-masters/asset-005.svg",
+      "sha256": "9cbe36393842b7e76fc73a8367790f1b7380493b2296f9f0db6b95f85fb45486",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/display__detailed.svg",
+      "originalSha256": "f05d34a59cc36eb965feac470b22e5e26758c692cba932f187f8a8d40068b1c7",
+      "portableCopy": "source/portable-masters/asset-006.svg",
+      "sha256": "29fff4379fd3c815cdfa2293ae82c158f1f9c7b8156a6781f99fe3d1ac65b47c",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/display_external__detailed.svg",
+      "originalSha256": "cb8b14965422375de19f3081af9cdc4790c11a269ad1ba49200a8acf4b13c417",
+      "portableCopy": "source/portable-masters/asset-007.svg",
+      "sha256": "a11748f7f87666d32c50f4132f98ca238a18a692c7ce435a1d9eca6ee26f2aa7",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/display_lower__detailed.svg",
+      "originalSha256": "56c7357090010d95a35fc67d0ef8b958cd469ab980ab14b1d433d34811c8d2cc",
+      "portableCopy": "source/portable-masters/asset-008.svg",
+      "sha256": "43d4935b982e3351fee0c41e0e8ed9cd2e8e5de7486f7ed9ffd6cac433c1fa5e",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/display_upper__detailed.svg",
+      "originalSha256": "d60b1e7441d7e3d9b9d83d5c68966edba0bf413f50af7c8db5da88370b87e330",
+      "portableCopy": "source/portable-masters/asset-009.svg",
+      "sha256": "76f9611f402be2de28631b6d54a395478fef71d45afe8934260a8604b5b6d3b1",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/error__detailed.svg",
+      "originalSha256": "a163afd16a990cc8ee3866e215503d9535f7aab3ed083402855720228cdf9afb",
+      "portableCopy": "source/portable-masters/asset-010.svg",
+      "sha256": "17ca8b3242692a207510f9ccba4dc81dc63697b5254bc8c53b7a5561110544a5",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/fan_quiet__detailed.svg",
+      "originalSha256": "6d18b2cb8f7eef24bdcfe5068f0276831a0e5e34c7d02e24a905eadcf8e666f5",
+      "portableCopy": "source/portable-masters/asset-011.svg",
+      "sha256": "927a0e68533f3b1ef315cf6df4a6c227be26a1ff7e0c4e7f6bc07af1e223f927",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/forward__detailed.svg",
+      "originalSha256": "86a8a719471f379fbefab1e5634bc638528bed625e8a72741c13d486163748ac",
+      "portableCopy": "source/portable-masters/asset-012.svg",
+      "sha256": "6a235e0e66b1d4c61c379bd14578230452c6d653b011719fcb4bd367becadc7c",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/hero-cast.svg",
+      "originalSha256": "f12d3e3b166f1db81975408e49d1452c1e385662aa11d9dc81706b080ed33a85",
+      "portableCopy": "source/portable-masters/asset-013.svg",
+      "sha256": "369dd7e513775de5e826f2831b6a1447b40f2007bce1bf91ffb8db4eb6706462",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/hero-power_core.svg",
+      "originalSha256": "078c2ee644b378ad5dba5a060701b77754803dd51801ef45674ff2f4c4fb4bf4",
+      "portableCopy": "source/portable-masters/asset-014.svg",
+      "sha256": "a675d9440e41634152703cefb146f7aeb964b1d09fa5369469ebf845aae93f4a",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/hero-wifi.svg",
+      "originalSha256": "1299e3b0817fce1efaa679204f0903fa566fe8ff6b50ccff5b0d32d4d0bc6cc3",
+      "portableCopy": "source/portable-masters/asset-015.svg",
+      "sha256": "0711d5465b68a4d7090973fcaf41d3a333cab0c4d6256757e1158aa7808eb34e",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/home__detailed.svg",
+      "originalSha256": "2bcbfcae8c42d070f5aa7155826b6a5e2566ad1e2c189c4f3ee2d186e46f888f",
+      "portableCopy": "source/portable-masters/asset-016.svg",
+      "sha256": "fd6ea550342ceb8af854e9bd6b650fa90f41de13e06b86a4d2eb01a1ceb107a4",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/hotspot_on__detailed.svg",
+      "originalSha256": "d73049d3ef0caeed76fe8b00ea5faa7e80edaf05a04afaf00547a77f2d177aa2",
+      "portableCopy": "source/portable-masters/asset-017.svg",
+      "sha256": "89a99fdffe864cb33607f12a32f0d5f2401aa83707613d0d6794ca59ab843dd7",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/info__detailed.svg",
+      "originalSha256": "c55eb314e8d011becf37b8d2eb075295a1bfd9cac3a4a9d5729b2f10b3edf42a",
+      "portableCopy": "source/portable-masters/asset-018.svg",
+      "sha256": "773250b1be2f0cc22aa99a8298abfcd5d2f02c2505579530c2f76067c38e9e0f",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/lock__detailed.svg",
+      "originalSha256": "474233c17e27f9389254d9a4038f56b2fcfd6403cb77aa3cc89e38dcb5d613fb",
+      "portableCopy": "source/portable-masters/asset-019.svg",
+      "sha256": "b3a9d415f04fc641871f77b57542f9e6f99e7b78741d503e871854ec473b6b6c",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/performance_balanced__detailed.svg",
+      "originalSha256": "f8819827bd3c169e5faa9b09d77e5286db51cbf776689add59f75784d5de7233",
+      "portableCopy": "source/portable-masters/asset-020.svg",
+      "sha256": "f3cd9aedfbdce935cb379066c219bdf708648d3f0ffa023b4f648237bd344e23",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/performance_fast__detailed.svg",
+      "originalSha256": "4a842f453d5443df82c6a266b3a874630b4c11a1e973b42b18b5843dedf502cb",
+      "portableCopy": "source/portable-masters/asset-021.svg",
+      "sha256": "80b02cfcc9ee8e712635e7197d8e132b4e4fb4440b40cc5c760084654fb10d01",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/play__detailed.svg",
+      "originalSha256": "5341c31a43b9ef7d5198e3b97d6220ba7d88ddba08fe184e63cf64bfff81bb22",
+      "portableCopy": "source/portable-masters/asset-022.svg",
+      "sha256": "16f33660897106b2866aadf03f1de796a820ac22a9dff3ae9fe5ed0569677bd1",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/rotation__detailed.svg",
+      "originalSha256": "65642f0ed9193f5e192361f50582aafafc789a1c2cb37c62c8acde3798839625",
+      "portableCopy": "source/portable-masters/asset-023.svg",
+      "sha256": "b587a222306db45076724a97475cb93961882d6cac41d8f7f7c36bb9154cb482",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/screen_recording__detailed.svg",
+      "originalSha256": "079194d96a853951b6332aff89d84e8a37c4b54fafd2f5aedb6c65f05f9a45f6",
+      "portableCopy": "source/portable-masters/asset-024.svg",
+      "sha256": "94a8a1bc482988813a0a5a36be3890aa7d77db383bec3242db55550574b97a5a",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/screen_swap__detailed.svg",
+      "originalSha256": "318de1362b321367ee4c172b1a3ac51a9850a1ede8d7ecbcd56aeaa563494dfd",
+      "portableCopy": "source/portable-masters/asset-025.svg",
+      "sha256": "bea4fb3c6cfc1e78a4edc3028b9f1ee9071b2fe170ad84c15e338de41730b25f",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/success__detailed.svg",
+      "originalSha256": "df14988f07b5f676d0c741bf6f4b02357db43f06539f6c0e5b3676b2e6e2659b",
+      "portableCopy": "source/portable-masters/asset-026.svg",
+      "sha256": "3b04dc4e21e8aa5a46b5dc1903319d9785e4dbdfafac019672b9576885942e20",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/sync__detailed.svg",
+      "originalSha256": "062c51dbf0f769c853bd33282b4d40ed5be9f7a0860f2a221f39da6faf0c0ed6",
+      "portableCopy": "source/portable-masters/asset-027.svg",
+      "sha256": "b36484842dd36734eabf22ac7b8a4584d40fdf8cd15cc6681212841886e6e05b",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/usb__detailed.svg",
+      "originalSha256": "4cb5401cd5ceea073f8319430282e5a74e4ae22d0d5d538e07040180d9cffe4d",
+      "portableCopy": "source/portable-masters/asset-028.svg",
+      "sha256": "da429638e6e380c1bd9c0758a6b52c34584314ca024e033f0217e0fc747dc2af",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/vibration__detailed.svg",
+      "originalSha256": "7f6556440ff3739d6c79145893ee769a77880b23f80b650fd13165f7e57684db",
+      "portableCopy": "source/portable-masters/asset-029.svg",
+      "sha256": "538a6a6b35d1229f156c2874821b6d7581b4daaf5220244bd04d8a133ce1932e",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/11-forge-symbol-library/masters/vpn__detailed.svg",
+      "originalSha256": "d6867d5daa32bcce99d885f9e599478e95ca3e991efe069d5cb0aa1773c34209",
+      "portableCopy": "source/portable-masters/asset-030.svg",
+      "sha256": "5bbafe90715e0d0068adb5cf14087c40fd1bcee68b8dbcbe1af54d22a761dc19",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/control-bottom_sheet.svg",
+      "originalSha256": "bf311b4baf0c71212f7e55887d0b78278f66d97ed299582dd423f879a8b90f8e",
+      "portableCopy": "source/portable-masters/asset-031.svg",
+      "sha256": "779362a02c2e3b4b7a91f5385e2b5c89c796e3094020940c31474ec1177ee93b",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/control-button_primary.svg",
+      "originalSha256": "67749053166d2bb0ea0b6fd7fbd44ed212a146532c4e975c61d211db47340153",
+      "portableCopy": "source/portable-masters/asset-032.svg",
+      "sha256": "09ac7647a0efdd581914fdc791100723b825a32403f4009bbc1bb842432db5ee",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/control-card.svg",
+      "originalSha256": "853965b2d0cf93d19d1788c069f7381248dd6d73765d6e32234805ffde16a2a4",
+      "portableCopy": "source/portable-masters/asset-033.svg",
+      "sha256": "90db8b6220f1e3bdd3bd2c2ee7d201c61dbc99bcd06c7278ec7ce1bdb95b4d52",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/control-controller_cap.svg",
+      "originalSha256": "79666f40e514691724cc899e24ca15d34f10976e419aa91db58ff5164e9acbd8",
+      "portableCopy": "source/portable-masters/asset-034.svg",
+      "sha256": "a9373ea32b9a0fbf428b666fa83e1cb8626bd5104193fc991caef1909a816039",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/control-dialog.svg",
+      "originalSha256": "8183eed4f7fc9ecaf5253ee0220a00b9809fcd5fcfb5a6d0ffca68bfdda9be7d",
+      "portableCopy": "source/portable-masters/asset-035.svg",
+      "sha256": "f7e9f06a1e9800a7791a696ed38a1de610b54c60f307e8fe58943b14d915e9d0",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/control-focus_boundary.svg",
+      "originalSha256": "ca14018dc9a965100ba7ceac7be87e7c3087a1c29ccb943172ba361a8584d263",
+      "portableCopy": "source/portable-masters/asset-036.svg",
+      "sha256": "a3131f85e6cb9fe95d813cea817fb536a4d0fa93f8f430264a6b45a22200de3e",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/control-keyboard_letter.svg",
+      "originalSha256": "e0f74465c673745697276d6e61da6f4c57637632e37b987d038ac189e527a921",
+      "portableCopy": "source/portable-masters/asset-037.svg",
+      "sha256": "a7e93250eac5f8391440fcaf6dff7d86bdbd4c636640f6403a231598a17d8780",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/control-notification_compact.svg",
+      "originalSha256": "92d48a4298b96bf98029902e156b4bc120392dfbeb310a90f7f0177f78294eef",
+      "portableCopy": "source/portable-masters/asset-038.svg",
+      "sha256": "d85f187bc7475f70463e45fd56939d70aebfb91cd20efcc9509361c489f2e2f1",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/control-shoulder_cap.svg",
+      "originalSha256": "9144ebe97279f96b0401419c6ec9054c010ead660783f793dafcdcd420b2073f",
+      "portableCopy": "source/portable-masters/asset-039.svg",
+      "sha256": "3fb748e1346c3942f5e51be71e9542a1cc40754b245a3d9011e4b45bc0d50a0c",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/control-toast.svg",
+      "originalSha256": "264fe6c613564dbb9f4769d4358286826505b1514b17b9a555766ba7608d780a",
+      "portableCopy": "source/portable-masters/asset-040.svg",
+      "sha256": "619ac16884d93b2d9d423f4e6769d64f490000429946dcc7b8f94f4a10489ba7",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/pilot-gaming_menu.svg",
+      "originalSha256": "062a91cc997f7f46b0c503b8aa6f7715eea37ba2df672ba23029472370c9ec4c",
+      "portableCopy": "source/portable-masters/asset-041.svg",
+      "sha256": "b8da688963e024a4dfb9fed11d220afbd00d624a5f57bc1c1c6d3a115e0be1f2",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/pilot-navigation.svg",
+      "originalSha256": "f732214654180c71a642ecbebc6baa7100fd897cc93a311433a19fee6099b021",
+      "portableCopy": "source/portable-masters/asset-042.svg",
+      "sha256": "f43f4cbb4d0c30d141ab798868f280346794343e0e13ed7d1411e590a0f27b15",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/pilot-quick_tile.svg",
+      "originalSha256": "cba35fc531baa88dc4622178df83a6b4fd07af1c9a979adc57d66079a473f39b",
+      "portableCopy": "source/portable-masters/asset-043.svg",
+      "sha256": "d28073a2ef1ef1fcbe74f7a45a2a381447f0d17da46748bfea6bbcd655c44429",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/scalable-notification.svg",
+      "originalSha256": "242bc629dd7abdb4b115a2e35f5d574672212108d6eecd1f422627924f8f63c2",
+      "portableCopy": "source/portable-masters/asset-044.svg",
+      "sha256": "9639d0d15a029e4d4836e0e68c5a7efd86c96493efb760935191d20f52a28b9a",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/12-forge-controls-and-screens/masters/scalable-panel.svg",
+      "originalSha256": "bb2e026d1daa35d589ca71e08d99a5d03d604843e31cd0a9e6df59ca3b5d8fe8",
+      "portableCopy": "source/portable-masters/asset-045.svg",
+      "sha256": "68762d89a45054ad903cdec52c812abc4f13d4acb2195d8074b80967bcfd7169",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/13-forge-android-and-thor-flows/masters/biometric_socket.svg",
+      "originalSha256": "d423252da4994ae4b3119bce7f344fb5db597a8f129e3e466b47af67ece25a2e",
+      "portableCopy": "source/portable-masters/asset-046.svg",
+      "sha256": "8bb557ae21751ce6ac65ddc9adcfac370de5712854619321bcc820f618176170",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/13-forge-android-and-thor-flows/masters/display_pair.svg",
+      "originalSha256": "be9c125120e983f527fa99f35943aef60be6cfac651f8626e0161130ace9a1a2",
+      "portableCopy": "source/portable-masters/asset-047.svg",
+      "sha256": "39bb502b92b16ba28d92e307e060c0aa543d48edfe74676fa0cab994db995e8c",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/13-forge-android-and-thor-flows/masters/folder_socket.svg",
+      "originalSha256": "fa3d4791e1983a892577487c2eff189659dc49cdbbc3d7cb5b8b21b87512d758",
+      "portableCopy": "source/portable-masters/asset-048.svg",
+      "sha256": "373764b09ab32a761c381eae4051ccca3ae1d58bdd10affff113c36010dd621f",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/13-forge-android-and-thor-flows/masters/media_cell.svg",
+      "originalSha256": "56df13a75d47460ec72c4466e889d0554f9ff2a1448dee45fc4a591702be561e",
+      "portableCopy": "source/portable-masters/asset-049.svg",
+      "sha256": "f0f31efd692f516e24091efb1557c8ec6f03b474d9cd6ad1f16c61179b20bb7e",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/13-forge-android-and-thor-flows/masters/pattern_node.svg",
+      "originalSha256": "83df57485d7388f35a0b151ab7d6f14147cc8000f3dafdc82641a5e1091d6e80",
+      "portableCopy": "source/portable-masters/asset-050.svg",
+      "sha256": "c074b14d682f7077850b1695f3a4cdc594badf9bb3f2facec67fddc2b9de9006",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/13-forge-android-and-thor-flows/masters/rgb_zone.svg",
+      "originalSha256": "7d4325ba4944444faac3840f704bed868483316f9927638cd1af38404c4ce59d",
+      "portableCopy": "source/portable-masters/asset-051.svg",
+      "sha256": "4c29c47b303c62c6d6281381b642a1213ece67b6553f41782b58fdd31e620818",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/13-forge-android-and-thor-flows/masters/stick_gate.svg",
+      "originalSha256": "fa2f3f18d514712e3df626e1232eac8692c6383c8c89ac4540de0797b38fad68",
+      "portableCopy": "source/portable-masters/asset-052.svg",
+      "sha256": "b29b5dd71b5ad5555134eab05afd36998d3157b213c9d74dd5778cef7588d723",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+      "originalSha256": "b111b8a55a0c2f535a05bfb8e0c72b1f4b47f72d7684d7ea9f4d05cab209977d",
+      "portableCopy": "source/portable-masters/asset-053.svg",
+      "sha256": "e5aba51d3bf8a3be5368c8f0d4c00159a7e4f3c5e56e293dacd3647a99f9b2eb",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/13-forge-android-and-thor-flows/masters/thermal_gauge.svg",
+      "originalSha256": "5600f5e1e156b988c7f2b63751677d23eccbf611f66a8479d9ea01531ecb7f98",
+      "portableCopy": "source/portable-masters/asset-054.svg",
+      "sha256": "8e4a2c22f3e65b2aed542cb0c788f1eb5a5f54dd4c4820e754abb8bc69a1f3f3",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/14-forge-atmosphere/masters/charge_chamber.svg",
+      "originalSha256": "9f4dd89d6091ac42fd35e1c48f28974f5952a7e8147839ae2aff0f8ff339b89c",
+      "portableCopy": "source/portable-masters/asset-055.svg",
+      "sha256": "9118b7d0d1f21aa323d3a230dc4ad05741dd5e213c5df9c15cd1a3fd9bd31141",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/14-forge-atmosphere/masters/forge_crest.svg",
+      "originalSha256": "c32b76aba22bb333df34305abefbd0e4e532288bfcba3de1bba91a17c1b34348",
+      "portableCopy": "source/portable-masters/asset-056.svg",
+      "sha256": "da8901b127947ebb6375cb27885ebdcb812230fbbb63b4772495f0c5c0a616db",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/14-forge-atmosphere/masters/wallpaper-phone-quiet.svg",
+      "originalSha256": "86f66c3faa73a4a7ee66c2f7059e8cae701b610d87317a76889316b52977a97a",
+      "portableCopy": "source/portable-masters/asset-057.svg",
+      "sha256": "8115152b01571169694f2536ef28a40f66adef6a2361a77aaadf18ed54dd4310",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/activity_card.svg",
+      "originalSha256": "7a3d97d628684b4de18f8188d6afaa751824eea135413c019ff7eeffa0a49cf4",
+      "portableCopy": "source/portable-masters/asset-058.svg",
+      "sha256": "7f732009407d875c6be495260ed1dc162af5833577a4c8bd4d5959b2e81502aa",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/biometric_scan.svg",
+      "originalSha256": "049178c874dae525f27d0eb8fd2691c541df685c81f95190f711ed68ba0eaa67",
+      "portableCopy": "source/portable-masters/asset-059.svg",
+      "sha256": "2181a5f00538d17dfbd917a0caad0708ff8812db501aaa3cd6111b9eb2dde943",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/charge_vessel.svg",
+      "originalSha256": "593cfac1e628d7d6caf99ac23fb9ea5de706ec6b3540a46fd53e39a8554def5c",
+      "portableCopy": "source/portable-masters/asset-060.svg",
+      "sha256": "429d0026b25c845601291a7765cb5e83775f26efdc2f18d90f74ac0c5700cc70",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/clipboard_panel.svg",
+      "originalSha256": "63742145cf6415a907dcfa7cb40ef9cc8afc7d16059cf604b98eedfaa2bdec3f",
+      "portableCopy": "source/portable-masters/asset-061.svg",
+      "sha256": "cb577d4aebabd67c6d8cdd783966d70ecb957d826c5ca453648bf4e6630af74c",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/copy_toolbar.svg",
+      "originalSha256": "7dbc504b5238af707d11069b44f9d610dfabe2f018f093028b91c1362fe88e5d",
+      "portableCopy": "source/portable-masters/asset-062.svg",
+      "sha256": "393069cd62fa879b87ab6e132ea5b4bd1e08a6791b0603ed0c801b260b89ce48",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/direction_cap.svg",
+      "originalSha256": "771e81fafecd05eb99519ecfdbdf14e53bde5cb61627ef7b7b1fd6c23475d729",
+      "portableCopy": "source/portable-masters/asset-063.svg",
+      "sha256": "32e3dc86cb88e3acaffe95157c3a8271a2b43bf5e7ecbaa72e19dbcca0e86aa6",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/display_lower_frame.svg",
+      "originalSha256": "3b90a640a44474d5868f15e1571e8340cd576ca9b1bb9c883c4e7d010e166289",
+      "portableCopy": "source/portable-masters/asset-064.svg",
+      "sha256": "23c54a5d78e8f904d3bf90a5d0c2ef62c8bd17189c7ff251ffe70a57573be1a9",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/display_upper_frame.svg",
+      "originalSha256": "8fa1a67b9795830681ae799dd230f25faca3c10a23f3964e1234fc93ec697956",
+      "portableCopy": "source/portable-masters/asset-065.svg",
+      "sha256": "e79e037d31d29196474c616909b58c491575f50fd33b056fce70924b2236d014",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/english_keyboard.svg",
+      "originalSha256": "ff5a026054f236d3adaa3deb81a7bfc80231b3518d9cc73f5c17d95bc2d6c83b",
+      "portableCopy": "source/portable-masters/asset-066.svg",
+      "sha256": "1e57afca5e12157bbd3a09cf1cbb95d46f48833aa57382cdf13f4c968c568a2a",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/eq_band.svg",
+      "originalSha256": "194c1a8f39123d3bccfa07aed727b45ce1c163ad8f6c4269f43657e7807fbe4b",
+      "portableCopy": "source/portable-masters/asset-067.svg",
+      "sha256": "b0480c70007d9315632b7ed5f7235f309c6be89264fa3fdf19fa064a602fedf3",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/face_scan.svg",
+      "originalSha256": "8918f80c85bd6b0787fa581cc3e511736a80dfac0f4b8fcf6504ea4c52cc8b43",
+      "portableCopy": "source/portable-masters/asset-068.svg",
+      "sha256": "e8a893c99ee883aa137be4291bc165ee6e6fc003c72cfcc23b59b3c6799cc3a5",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/fan_curve.svg",
+      "originalSha256": "6fbf6a78200d2710108fd75dd775f9e75626fc7ccd4c611683d52e89c2e64314",
+      "portableCopy": "source/portable-masters/asset-069.svg",
+      "sha256": "bc11e9660cc0c12523befd27d4e08aadb1a573ec6257b2152fcaf485391ff350",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/fan_rotor.svg",
+      "originalSha256": "07052be1aa0bbc9d094568fc3289a5a56ef8a4093e922d0d2bcc81c63bc19cc6",
+      "portableCopy": "source/portable-masters/asset-070.svg",
+      "sha256": "a549df9da376ed4526abeb4197e293cc7c4d47a26767bfdfa6420714494debb8",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/hold_charge.svg",
+      "originalSha256": "787db7617f23074c7b61211b5edd41d3095eff459ec84784dae07b0f5d6443ca",
+      "portableCopy": "source/portable-masters/asset-071.svg",
+      "sha256": "529b2825e0ec4f1f6706ccb82b9f6061a1ef5a58eb0926868cd760e57887a810",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+      "originalSha256": "91989a2186c90a760249988543ca82c1dd2c214cc9d74a6673fcc20aef8b1e25",
+      "portableCopy": "source/portable-masters/asset-072.svg",
+      "sha256": "09cc1666b57956f9ce1dba34e0080bb1a9ab37a1d4a0164e7aabbfb50c027365",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/media_option.svg",
+      "originalSha256": "ab166db0951e2cc8e6aad1965834d191363355bd11132c24c5767c63e225e2dc",
+      "portableCopy": "source/portable-masters/asset-073.svg",
+      "sha256": "a728fd9102a46fb5f844334ddcd62f2bd6a3b1c91229c018d3377ca8cb209ff1",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/milestone_track.svg",
+      "originalSha256": "753e971af6c5e0f94e1eccdbccc390cc70ef581dcd1210484580510a40d7eb50",
+      "portableCopy": "source/portable-masters/asset-074.svg",
+      "sha256": "13788bfb0c12a011520ba25a588672798911523faf7495c3a221f7c08c1c9647",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/owner_panel.svg",
+      "originalSha256": "24e6428c0a2f3bce9d839aa3b8161d5a08b29f4e6b3287a33809d764fec1baa0",
+      "portableCopy": "source/portable-masters/asset-075.svg",
+      "sha256": "a6b732119a41a3dd59e3ffe5503bf3396111ef88971d63523b0a5895b446f14d",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/pip_card.svg",
+      "originalSha256": "14136124bb0595381aacf38c49995117d69c87064f041d9bf82034efea2fc34c",
+      "portableCopy": "source/portable-masters/asset-076.svg",
+      "sha256": "8cdee4c4e78fb54be2ac57b5e737b315aa40b3878433f3dc4bbf25f05a7c3c7f",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/power_actions.svg",
+      "originalSha256": "fff18bab9e144abb3ca822657bfbf35910de175b8529a715ddfff41a6398eeff",
+      "portableCopy": "source/portable-masters/asset-077.svg",
+      "sha256": "bafb672106ca677099aa7d88b0b6e0d4722276b1662cb3c895dca9e8b86fdca6",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/privacy_pill.svg",
+      "originalSha256": "17eee22bcd7e9f14ebdf75e50a22905ec8ae32c319214f075221d16c72b52b32",
+      "portableCopy": "source/portable-masters/asset-078.svg",
+      "sha256": "e5a219ffdcdc012e93b3ed9ff7a7cc6f8f7b2145169ee5071568f2ee96c96b2c",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/progress_vessel.svg",
+      "originalSha256": "5e9437fd4e32b3c357c43bed1c8fe2eb5715da5167157dbf3d3f666407cf3467",
+      "portableCopy": "source/portable-masters/asset-079.svg",
+      "sha256": "21fed19b1884d9222026e243edef45b6038640092abad7a6fb3ca2d96fd226d1",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/quick_bluetooth.svg",
+      "originalSha256": "21dce19aefc9b3c5c228c63e15894eea013e9d13c6ffc04f7151ff37dde59f86",
+      "portableCopy": "source/portable-masters/asset-080.svg",
+      "sha256": "cecb85b39fe32c2a5aa35c0efafdf156f31a9255898d24ec059ce5e284ec5c36",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/quick_dnd.svg",
+      "originalSha256": "d9fbd38d4966f16ee0eac9f8e2ff5e928a7f63fcf4c5fbd13f4266408d452e3d",
+      "portableCopy": "source/portable-masters/asset-081.svg",
+      "sha256": "ebd7dce572d0dc3e5fcb9c24427885e6d11b768b548736ecce3431d9144560e7",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/quick_wifi.svg",
+      "originalSha256": "41ca182e9a9a7b1bec893513c229fadd614b8fa41afeec9aed895a61424849a1",
+      "portableCopy": "source/portable-masters/asset-082.svg",
+      "sha256": "04941c1d42581e5aa46bb02b591ff979c0b59a7202ec1338f8acc8121e5bc618",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/selection_handles.svg",
+      "originalSha256": "f2dca3db3d56b954bc7e1275e7b61fec472c0c13500fe26fad82c90d29006263",
+      "portableCopy": "source/portable-masters/asset-083.svg",
+      "sha256": "9fb6c3878b0bc1cffea3aa4ffa1a82340e03567b1b928ec5bd824ba3380027bf",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/slider_rail.svg",
+      "originalSha256": "5dc5caea8a402d2e2ac7c4658973e2a12727bc681f2c3089bcca64ea5d07a300",
+      "portableCopy": "source/portable-masters/asset-084.svg",
+      "sha256": "17ac2f70c3f1cf5706f9fb52f2db5618a996ddf0886af077ff60878867110116",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/thermal_meter.svg",
+      "originalSha256": "6c23dae1651d80da4bad0cb9488eadf2741739b190f47aa64ef9086f9c9d7771",
+      "portableCopy": "source/portable-masters/asset-085.svg",
+      "sha256": "a7b60e8bae35bc7f6fe5cabb094ce2bf939b7a5864cf285d8ef2ff82a743d1f5",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/touch_targets.svg",
+      "originalSha256": "6e28126242105a50992cb26af6ef4ca4e1dc9b5bdb01983117eccaf5fee42ab8",
+      "portableCopy": "source/portable-masters/asset-086.svg",
+      "sha256": "93f08d4aaf8618135843de5bdf60b0cb95751b265e03de99e0c18f644c195611",
+      "change": "External image paths only; unchanged original raster bytes"
+    },
+    {
+      "original": "iterations/16-forge-motion/masters/trigger_meter.svg",
+      "originalSha256": "962f68015316483c14321e9348b00a776eaa92eb92e8ee28497608e0dc684c44",
+      "portableCopy": "source/portable-masters/asset-087.svg",
+      "sha256": "d6e0e52385a588cc5bf6f8a01ab31f025495c5de73bf1e317e14f240128031be",
+      "change": "External image paths only; unchanged original raster bytes"
+    }
+  ],
+  "scope": "Open these copies in a vector editor; raw original-masters retain exact original bytes and original relative paths"
+}

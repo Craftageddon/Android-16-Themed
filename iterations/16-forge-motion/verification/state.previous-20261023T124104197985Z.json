@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "7c1df4b1a0467d3a18e9e9b56e9c5621ceb54cf6ed9b457f7751964156bc1acf"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-23T12:37:50+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "3330ac5b968994006f1a1ec0e461b3f56bc63ffac877f08276c30b4f30ed49d6",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-23T12:37:50+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "54ff021e8fe68b832e4eed534e490c209b8dba439643fd994fe8ce6fd78288ec",
+      "independence": null,
+      "method": "32 Node tests, all sampled SVG/PNG frames, explicit part targets, transformed live text bounds, byte provenance, 1x/2x transparent neutral-mask pixel checks, independent fixed-vessel and separate-rotor pixel comparisons, and AAPT2 compilation of default English resources.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-23T12:37:49+00:00",
+  "project": "16-forge-motion",
+  "schema": 1,
+  "status": "V2_PASS"
+}

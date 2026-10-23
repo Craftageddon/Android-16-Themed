@@ -15,3 +15,6 @@ local-secrets/
 *.p12
 *.pfx
 *.idsig
+
+iterations/16-forge-motion/complete-assets.zip
+iterations/16-forge-motion/desktop-frames/

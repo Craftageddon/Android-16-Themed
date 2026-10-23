@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="motion_boot_crest_assembly_title" formatted="false">Boot crest assembly</string>
+  <string name="motion_boot_crest_assembly_description" formatted="false">Outer ring, inner rune and core forge as independent layers.</string>
+  <string name="motion_shutdown_collapse_title" formatted="false">Shutdown collapse</string>
+  <string name="motion_shutdown_collapse_description" formatted="false">Active seal contracts into its core before the display extinguishes.</string>
+  <string name="motion_restart_reignition_title" formatted="false">Restart reignition</string>
+  <string name="motion_restart_reignition_description" formatted="false">Core-first restart with a restrained overshoot and halo settle.</string>
+  <string name="motion_lock_screen_aod_pulse_title" formatted="false">Lock screen / AOD pulse</string>
+  <string name="motion_lock_screen_aod_pulse_description" formatted="false">Clock crown breathes without excessive flashing.</string>
+  <string name="motion_lock_screen_aod_pulse_layer_0_label_0" formatted="false">12:00</string>
+  <string name="motion_unlock_confirmation_title" formatted="false">Unlock confirmation</string>
+  <string name="motion_unlock_confirmation_description" formatted="false">Reusable status frame transfers focus to the success rune.</string>
+  <string name="motion_battery_charging_title" formatted="false">Battery charging</string>
+  <string name="motion_battery_charging_description" formatted="false">A single SVG assembly keeps the shell, liquid and 68% readout on one axis.</string>
+  <string name="motion_low_battery_warning_title" formatted="false">Low-battery warning</string>
+  <string name="motion_low_battery_warning_description" formatted="false">The same SVG assembly holds a true 15% fill while the warning rune strikes once.</string>
+  <string name="motion_direct_power_bypass_title" formatted="false">Direct-power bypass</string>
+  <string name="motion_direct_power_bypass_description" formatted="false">Circuit closes around the power bolt with a controlled energy pulse.</string>
+  <string name="motion_system_update_cycle_title" formatted="false">System update cycle</string>
+  <string name="motion_system_update_cycle_description" formatted="false">Rotating update emblem and live determinate progress.</string>
+  <string name="motion_notification_arrival_title" formatted="false">Notification arrival</string>
+  <string name="motion_notification_arrival_description" formatted="false">Top-edge entry, settle, readable hold, then lateral exit.</string>
+  <string name="motion_notification_arrival_layer_0_label_0" formatted="false">Forge complete</string>
+  <string name="motion_heads_up_lifecycle_title" formatted="false">Heads-up lifecycle</string>
+  <string name="motion_heads_up_lifecycle_description" formatted="false">Fast priority entrance with a fixed readable hold interval.</string>
+  <string name="motion_heads_up_lifecycle_layer_0_label_0" formatted="false">Incoming alert</string>
+  <string name="motion_expand_collapse_title" formatted="false">Expand / collapse</string>
+  <string name="motion_expand_collapse_description" formatted="false">Notification frame grows from its header anchor without text distortion.</string>
+  <string name="motion_expand_collapse_layer_0_label_0" formatted="false">2 more lines</string>
+  <string name="motion_grouped_notifications_title" formatted="false">Grouped notifications</string>
+  <string name="motion_grouped_notifications_description" formatted="false">Three cards arrive with staggered depth and unified spacing.</string>
+  <string name="motion_swipe_dismissal_title" formatted="false">Swipe dismissal</string>
+  <string name="motion_swipe_dismissal_description" formatted="false">Card follows the release vector and fades only after threshold.</string>
+  <string name="motion_action_button_press_title" formatted="false">Action-button press</string>
+  <string name="motion_action_button_press_description" formatted="false">Controller, touch and keyboard activation share one press response.</string>
+  <string name="motion_action_button_press_layer_0_label_0" formatted="false">REPLY</string>
+  <string name="motion_progress_notification_title" formatted="false">Progress notification</string>
+  <string name="motion_progress_notification_description" formatted="false">A single forged vessel keeps its molten fill, frame and live status perfectly aligned.</string>
+  <string name="motion_silent_notification_title" formatted="false">Silent notification</string>
+  <string name="motion_silent_notification_description" formatted="false">Subdued entrance and fade preserve hierarchy without a burst.</string>
+  <string name="motion_silent_notification_layer_0_label_0" formatted="false">Silent</string>
+  <string name="motion_toast_snackbar_title" formatted="false">Toast / snackbar</string>
+  <string name="motion_toast_snackbar_description" formatted="false">Bottom-origin entry with live copy and an optional action.</string>
+  <string name="motion_toast_snackbar_layer_0_label_0" formatted="false">Saved  ·  UNDO</string>
+  <string name="motion_shade_pull_down_title" formatted="false">Shade pull-down</string>
+  <string name="motion_shade_pull_down_description" formatted="false">Panel rises from its grip plate and settles on the drag release.</string>
+  <string name="motion_half_to_full_expansion_title" formatted="false">Half-to-full expansion</string>
+  <string name="motion_half_to_full_expansion_description" formatted="false">The same surface expands without reflowing its centered handle.</string>
+  <string name="motion_tile_activate_deactivate_title" formatted="false">Tile activate / deactivate</string>
+  <string name="motion_tile_activate_deactivate_description" formatted="false">A reusable active bezel accepts any live system glyph.</string>
+  <string name="motion_tile_activate_deactivate_layer_0_label_0" formatted="false">On</string>
+  <string name="motion_tile_reorder_title" formatted="false">Tile reorder</string>
+  <string name="motion_tile_reorder_description" formatted="false">Three equal tiles shift with staggered depth and no collisions.</string>
+  <string name="motion_internet_detail_panel_title" formatted="false">Internet detail panel</string>
+  <string name="motion_internet_detail_panel_description" formatted="false">Detail frame opens around the currently selected radio.</string>
+  <string name="motion_internet_detail_panel_layer_0_label_0" formatted="false">INTERNET</string>
+  <string name="motion_wi_fi_state_title" formatted="false">Wi‑Fi state</string>
+  <string name="motion_wi_fi_state_description" formatted="false">Independent arc bands read as a clean beacon pulse.</string>
+  <string name="motion_bluetooth_state_title" formatted="false">Bluetooth state</string>
+  <string name="motion_bluetooth_state_description" formatted="false">Paired-link rune ignites from center without rotating the symbol.</string>
+  <string name="motion_cellular_signal_title" formatted="false">Cellular signal</string>
+  <string name="motion_cellular_signal_description" formatted="false">Signal columns reveal bottom-up and support live strength masking.</string>
+  <string name="motion_hotspot_broadcast_title" formatted="false">Hotspot broadcast</string>
+  <string name="motion_hotspot_broadcast_description" formatted="false">Beacon core and emission arcs breathe as one readable state.</string>
+  <string name="motion_airplane_mode_title" formatted="false">Airplane mode</string>
+  <string name="motion_airplane_mode_description" formatted="false">Winged arrow traverses the activation vector and locks in place.</string>
+  <string name="motion_vpn_tunnel_title" formatted="false">VPN tunnel</string>
+  <string name="motion_vpn_tunnel_description" formatted="false">Shield ring closes around an empty center reserved for live status.</string>
+  <string name="motion_brightness_slider_title" formatted="false">Brightness slider</string>
+  <string name="motion_brightness_slider_description" formatted="false">Sun, rail and thumb remain separate and aligned through the drag.</string>
+  <string name="motion_volume_slider_title" formatted="false">Volume slider</string>
+  <string name="motion_volume_slider_description" formatted="false">Speaker waves, rail and thumb share the same drag-and-settle token.</string>
+  <string name="motion_cast_external_display_title" formatted="false">Cast / external display</string>
+  <string name="motion_cast_external_display_description" formatted="false">Display frame pulses once as the broadcast route connects.</string>
+  <string name="motion_app_launch_title" formatted="false">App launch</string>
+  <string name="motion_app_launch_description" formatted="false">Edge-to-edge app frame grows out of the home portal.</string>
+  <string name="motion_app_close_title" formatted="false">App close</string>
+  <string name="motion_app_close_description" formatted="false">Window returns to a compact origin while its frame extinguishes.</string>
+  <string name="motion_predictive_back_home_title" formatted="false">Predictive back → home</string>
+  <string name="motion_predictive_back_home_description" formatted="false">Back blade previews destination while the home portal gains focus.</string>
+  <string name="motion_predictive_back_task_title" formatted="false">Predictive back → task</string>
+  <string name="motion_predictive_back_task_description" formatted="false">Gesture previews the previous task stack before commit.</string>
+  <string name="motion_overview_recents_title" formatted="false">Overview / recents</string>
+  <string name="motion_overview_recents_description" formatted="false">Task cards fan into depth and settle into a navigable stack.</string>
+  <string name="motion_clear_all_sweep_title" formatted="false">Clear all sweep</string>
+  <string name="motion_clear_all_sweep_description" formatted="false">Overview stack exits on one continuous directional gesture.</string>
+  <string name="motion_picture_in_picture_title" formatted="false">Picture-in-picture</string>
+  <string name="motion_picture_in_picture_description" formatted="false">Window collapses into a miniature corner and returns cleanly.</string>
+  <string name="motion_split_screen_divider_title" formatted="false">Split-screen divider</string>
+  <string name="motion_split_screen_divider_description" formatted="false">Two panels open around a centered, draggable divider.</string>
+  <string name="motion_adaptive_resize_rotation_title" formatted="false">Adaptive resize / rotation</string>
+  <string name="motion_adaptive_resize_rotation_description" formatted="false">Corner brackets rotate and settle around the new bounds.</string>
+  <string name="motion_edge_to_edge_window_title" formatted="false">Edge-to-edge window</string>
+  <string name="motion_edge_to_edge_window_description" formatted="false">Live content remains independent of the forged perimeter.</string>
+  <string name="motion_edge_to_edge_window_layer_0_label_0" formatted="false">LIVE CONTENT</string>
+  <string name="motion_folder_open_close_title" formatted="false">Folder open / close</string>
+  <string name="motion_folder_open_close_description" formatted="false">Four sockets expand from the folder origin with a single pivot.</string>
+  <string name="motion_widget_pickup_drop_title" formatted="false">Widget pickup / drop</string>
+  <string name="motion_widget_pickup_drop_description" formatted="false">Widget frame lifts, scales, and settles without shifting its center.</string>
+  <string name="motion_widget_pickup_drop_layer_0_label_0" formatted="false">WIDGET</string>
+  <string name="motion_bottom_sheet_rise_dismiss_title" formatted="false">Bottom sheet rise / dismiss</string>
+  <string name="motion_bottom_sheet_rise_dismiss_description" formatted="false">Grip plate anchors the sheet through both entrance directions.</string>
+  <string name="motion_bottom_sheet_rise_dismiss_layer_0_label_0" formatted="false">OPTIONS</string>
+  <string name="motion_dialog_destructive_confirm_title" formatted="false">Dialog / destructive confirm</string>
+  <string name="motion_dialog_destructive_confirm_description" formatted="false">Live actions sit inside the frame; the error rune remains separate.</string>
+  <string name="motion_dialog_destructive_confirm_layer_0_label_0" formatted="false">DISCARD?</string>
+  <string name="motion_touch_ripple_title" formatted="false">Touch ripple</string>
+  <string name="motion_touch_ripple_description" formatted="false">Concentric rings dissipate from the exact contact point.</string>
+  <string name="motion_long_press_title" formatted="false">Long press</string>
+  <string name="motion_long_press_description" formatted="false">A separate ember layer charges through the dormant crown while its forged shell stays fixed.</string>
+  <string name="motion_long_press_layer_0_label_0" formatted="false">Hold</string>
+  <string name="motion_swipe_gesture_title" formatted="false">Swipe gesture</string>
+  <string name="motion_swipe_gesture_description" formatted="false">Directional trail follows velocity, then clears after release.</string>
+  <string name="motion_keyboard_ime_slide_title" formatted="false">Keyboard IME slide</string>
+  <string name="motion_keyboard_ime_slide_description" formatted="false">Keyboard deck rises from the system inset and preserves key spacing.</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_0" formatted="false">q</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_1" formatted="false">w</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_2" formatted="false">e</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_3" formatted="false">r</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_4" formatted="false">t</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_5" formatted="false">y</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_6" formatted="false">u</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_7" formatted="false">i</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_8" formatted="false">o</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_9" formatted="false">p</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_10" formatted="false">a</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_11" formatted="false">s</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_12" formatted="false">d</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_13" formatted="false">f</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_14" formatted="false">g</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_15" formatted="false">h</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_16" formatted="false">j</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_17" formatted="false">k</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_18" formatted="false">l</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_19" formatted="false">Shift</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_20" formatted="false">z</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_21" formatted="false">x</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_22" formatted="false">c</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_23" formatted="false">v</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_24" formatted="false">b</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_25" formatted="false">n</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_26" formatted="false">m</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_27" formatted="false">Back</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_28" formatted="false">123</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_29" formatted="false">Space</string>
+  <string name="motion_keyboard_ime_slide_layer_0_label_30" formatted="false">Enter</string>
+  <string name="motion_key_press_title" formatted="false">Key press</string>
+  <string name="motion_key_press_description" formatted="false">Empty keycap accepts live glyphs with a centered press pulse.</string>
+  <string name="motion_key_press_layer_0_label_0" formatted="false">A</string>
+  <string name="motion_suggestion_chip_title" formatted="false">Suggestion chip</string>
+  <string name="motion_suggestion_chip_description" formatted="false">Live suggestion copy uses the same short press token.</string>
+  <string name="motion_suggestion_chip_layer_0_label_0" formatted="false">Crafted</string>
+  <string name="motion_text_selection_handles_title" formatted="false">Text selection handles</string>
+  <string name="motion_text_selection_handles_description" formatted="false">Both handles expand from the active selection range.</string>
+  <string name="motion_text_selection_handles_layer_0_label_0" formatted="false">Craftageddon</string>
+  <string name="motion_copy_paste_toolbar_title" formatted="false">Copy / paste toolbar</string>
+  <string name="motion_copy_paste_toolbar_description" formatted="false">Contextual toolbar opens around live action labels.</string>
+  <string name="motion_copy_paste_toolbar_layer_0_label_0" formatted="false">Cut</string>
+  <string name="motion_copy_paste_toolbar_layer_0_label_1" formatted="false">Copy</string>
+  <string name="motion_copy_paste_toolbar_layer_0_label_2" formatted="false">Paste</string>
+  <string name="motion_fingerprint_authentication_title" formatted="false">Fingerprint authentication</string>
+  <string name="motion_fingerprint_authentication_description" formatted="false">Centered ridge artwork reveals progressively without a scan line.</string>
+  <string name="motion_face_scan_framing_title" formatted="false">Face scan framing</string>
+  <string name="motion_face_scan_framing_description" formatted="false">Four corners and eye focus reveal together, then hold.</string>
+  <string name="motion_pin_lock_unlock_title" formatted="false">PIN lock / unlock</string>
+  <string name="motion_pin_lock_unlock_description" formatted="false">Lock scales once; success state can be layered independently.</string>
+  <string name="motion_permission_emphasis_title" formatted="false">Permission emphasis</string>
+  <string name="motion_permission_emphasis_description" formatted="false">Security emblem yields focus to the explicit allow action.</string>
+  <string name="motion_permission_emphasis_layer_1_label_0" formatted="false">ALLOW</string>
+  <string name="motion_haptic_response_title" formatted="false">Haptic response</string>
+  <string name="motion_haptic_response_description" formatted="false">Three restrained vibration waves visualize device feedback.</string>
+  <string name="motion_accessibility_focus_title" formatted="false">Accessibility focus</string>
+  <string name="motion_accessibility_focus_description" formatted="false">High-contrast focus crown transfers without obscuring content.</string>
+  <string name="motion_accessibility_focus_layer_0_label_0" formatted="false">FOCUS</string>
+  <string name="motion_media_play_pause_title" formatted="false">Media play / pause</string>
+  <string name="motion_media_play_pause_description" formatted="false">Playback ring responds to touch and controller activation.</string>
+  <string name="motion_screenshot_capture_title" formatted="false">Screenshot capture</string>
+  <string name="motion_screenshot_capture_description" formatted="false">Corner frame flashes once, then returns to the base surface.</string>
+  <string name="motion_screen_recording_title" formatted="false">Screen recording</string>
+  <string name="motion_screen_recording_description" formatted="false">Double-ring record indicator breathes at a non-alarming cadence.</string>
+  <string name="motion_screen_recording_caption" formatted="false">REC</string>
+  <string name="motion_system_share_sheet_title" formatted="false">System share sheet</string>
+  <string name="motion_system_share_sheet_description" formatted="false">Share tray expands from its source and exposes live targets.</string>
+  <string name="motion_wallpaper_theme_change_title" formatted="false">Wallpaper / theme change</string>
+  <string name="motion_wallpaper_theme_change_description" formatted="false">Folded panel and sparkle pulse into the newly themed surface.</string>
+  <string name="motion_account_chooser_title" formatted="false">Account chooser</string>
+  <string name="motion_account_chooser_description" formatted="false">Account bezel enters from the active profile direction.</string>
+  <string name="motion_file_photo_picker_title" formatted="false">File / photo picker</string>
+  <string name="motion_file_photo_picker_description" formatted="false">App window and folder origin transfer focus cleanly.</string>
+  <string name="motion_themed_icon_transition_title" formatted="false">Themed icon transition</string>
+  <string name="motion_themed_icon_transition_description" formatted="false">Folder sockets yield to a concentrated themed core.</string>
+  <string name="motion_clamshell_open_close_title" formatted="false">Clamshell open / close</string>
+  <string name="motion_clamshell_open_close_description" formatted="false">Dual-screen hardware unfolds on one centered hinge axis.</string>
+  <string name="motion_top_display_wake_title" formatted="false">Top display wake</string>
+  <string name="motion_top_display_wake_description" formatted="false">Primary AMOLED bezel ignites without moving its content center.</string>
+  <string name="motion_top_display_wake_caption" formatted="false">TOP DISPLAY</string>
+  <string name="motion_bottom_display_wake_title" formatted="false">Bottom display wake</string>
+  <string name="motion_bottom_display_wake_description" formatted="false">Secondary touch display uses the same restrained wake token.</string>
+  <string name="motion_bottom_display_wake_caption" formatted="false">TOUCH DISPLAY</string>
+  <string name="motion_dual_screen_focus_transfer_title" formatted="false">Dual-screen focus transfer</string>
+  <string name="motion_dual_screen_focus_transfer_description" formatted="false">Focus dims on the source bezel and brightens on the destination.</string>
+  <string name="motion_top_bottom_screen_swap_title" formatted="false">Top / bottom screen swap</string>
+  <string name="motion_top_bottom_screen_swap_description" formatted="false">Paired arrows rotate once and settle with no continuous spinning.</string>
+  <string name="motion_screen_specific_app_assignment_title" formatted="false">Screen-specific app assignment</string>
+  <string name="motion_screen_specific_app_assignment_description" formatted="false">App frame transfers from the primary to secondary display anchor.</string>
+  <string name="motion_d_pad_direction_press_title" formatted="false">D-pad direction press</string>
+  <string name="motion_d_pad_direction_press_description" formatted="false">Four-arm control compresses toward the chosen direction.</string>
+  <string name="motion_d_pad_direction_press_layer_0_label_0" formatted="false">Up</string>
+  <string name="motion_d_pad_direction_press_layer_1_label_0" formatted="false">Right</string>
+  <string name="motion_d_pad_direction_press_layer_2_label_0" formatted="false">Down</string>
+  <string name="motion_d_pad_direction_press_layer_3_label_0" formatted="false">Left</string>
+  <string name="motion_analog_stick_response_title" formatted="false">Analog stick response</string>
+  <string name="motion_analog_stick_response_description" formatted="false">Gate, inner ring and thumb cap move as a centered assembly.</string>
+  <string name="motion_face_button_cluster_title" formatted="false">Face-button cluster</string>
+  <string name="motion_face_button_cluster_description" formatted="false">Blank bezels keep A/B/X/Y labels live and perfectly centered.</string>
+  <string name="motion_face_button_cluster_layer_0_label_0" formatted="false">A</string>
+  <string name="motion_face_button_cluster_layer_1_label_0" formatted="false">B</string>
+  <string name="motion_face_button_cluster_layer_2_label_0" formatted="false">X</string>
+  <string name="motion_face_button_cluster_layer_3_label_0" formatted="false">Y</string>
+  <string name="motion_shoulder_trigger_press_title" formatted="false">Shoulder / trigger press</string>
+  <string name="motion_shoulder_trigger_press_description" formatted="false">Mirrored shoulder pieces compress together with a short response.</string>
+  <string name="motion_rear_paddle_press_title" formatted="false">Rear-paddle press</string>
+  <string name="motion_rear_paddle_press_description" formatted="false">Paired paddles use the same micro timing as face controls.</string>
+  <string name="motion_cooling_fan_speed_title" formatted="false">Cooling fan speed</string>
+  <string name="motion_cooling_fan_speed_description" formatted="false">Turbine uses a true centered pivot for every fan-speed ramp.</string>
+  <string name="motion_rgb_breathing_cycle_title" formatted="false">Ember breathing cycle</string>
+  <string name="motion_rgb_breathing_cycle_description" formatted="false">Selected lighting uses separate ember-intensity masks. Cold steel and hue stay fixed; reduced motion is steady.</string>
+  <string name="motion_performance_profile_switch_title" formatted="false">Performance profile switch</string>
+  <string name="motion_performance_profile_switch_description" formatted="false">Performance, balanced and quiet emblems receive staggered focus.</string>
+  <string name="motion_thermal_throttling_state_title" formatted="false">Thermal / throttling state</string>
+  <string name="motion_thermal_throttling_state_description" formatted="false">Thermal gauge reveals bottom-up and intensifies at threshold.</string>
+  <string name="motion_thermal_throttling_state_layer_0_label_0" formatted="false">Thermal limit</string>
+  <string name="motion_charging_direct_power_title" formatted="false">Charging / direct power</string>
+  <string name="motion_charging_direct_power_description" formatted="false">The single-axis battery assembly and bypass circuit remain distinct state layers.</string>
+  <string name="motion_usb_c_dock_connect_title" formatted="false">USB-C / dock connect</string>
+  <string name="motion_usb_c_dock_connect_description" formatted="false">Connector plate rises into its centered port and locks.</string>
+  <string name="motion_external_display_output_title" formatted="false">External display output</string>
+  <string name="motion_external_display_output_description" formatted="false">Display-out arrow commits once the route is established.</string>
+  <string name="motion_hardware_status_overlay_title" formatted="false">Hardware status overlay</string>
+  <string name="motion_hardware_status_overlay_description" formatted="false">Performance, temperature and power indicators group without overlap.</string>
+  <string name="motion_live_update_status_chip_title" formatted="false">Live Update status chip</string>
+  <string name="motion_live_update_status_chip_description" formatted="false">A compact activity capsule arrives from the status area and settles without shifting its live ETA.</string>
+  <string name="motion_live_update_status_chip_layer_0_label_0" formatted="false">ETA 12 MIN</string>
+  <string name="motion_live_update_milestones_title" formatted="false">Live Update milestones</string>
+  <string name="motion_live_update_milestones_description" formatted="false">Five progress points reveal left-to-right while the current step remains readable below.</string>
+  <string name="motion_live_update_milestones_layer_0_label_0" formatted="false">1</string>
+  <string name="motion_live_update_milestones_layer_0_label_1" formatted="false">2</string>
+  <string name="motion_live_update_milestones_layer_0_label_2" formatted="false">3</string>
+  <string name="motion_live_update_milestones_layer_0_label_3" formatted="false">4</string>
+  <string name="motion_live_update_milestones_layer_0_label_4" formatted="false">5</string>
+  <string name="motion_camera_microphone_privacy_title" formatted="false">Camera / microphone privacy</string>
+  <string name="motion_camera_microphone_privacy_description" formatted="false">The privacy indicator expands from its icon sockets into a short-lived explanatory chip.</string>
+  <string name="motion_camera_microphone_privacy_layer_0_label_0" formatted="false">In use</string>
+  <string name="motion_notification_bubble_title" formatted="false">Notification bubble</string>
+  <string name="motion_notification_bubble_description" formatted="false">The conversation bubble grows from its detached badge socket and returns to a stable circular target.</string>
+  <string name="motion_power_menu_title" formatted="false">Power menu</string>
+  <string name="motion_power_menu_description" formatted="false">Three system actions rise as one panel while the selected row retains a fixed text anchor.</string>
+  <string name="motion_power_menu_layer_0_label_0" formatted="false">Power off</string>
+  <string name="motion_power_menu_layer_0_label_1" formatted="false">Restart</string>
+  <string name="motion_power_menu_layer_0_label_2" formatted="false">Lockdown</string>
+  <string name="motion_expanded_volume_mixer_title" formatted="false">Expanded volume mixer</string>
+  <string name="motion_expanded_volume_mixer_description" formatted="false">The full multi-stream mixer settles after its rails and thumbs receive a restrained focus pulse.</string>
+  <string name="motion_expanded_volume_mixer_layer_0_label_0" formatted="false">Media</string>
+  <string name="motion_expanded_volume_mixer_layer_1_label_0" formatted="false">Ring</string>
+  <string name="motion_expanded_volume_mixer_layer_2_label_0" formatted="false">Alarm</string>
+  <string name="motion_screenshot_preview_actions_title" formatted="false">Screenshot preview actions</string>
+  <string name="motion_screenshot_preview_actions_description" formatted="false">The captured preview flashes once, then docks above a separate three-action rail.</string>
+  <string name="motion_screenshot_preview_actions_caption" formatted="false">CAPTURED</string>
+  <string name="motion_clipboard_overlay_title" formatted="false">Clipboard overlay</string>
+  <string name="motion_clipboard_overlay_description" formatted="false">The clipboard surface enters laterally and keeps its confirmation copy inside the blank content cavity.</string>
+  <string name="motion_clipboard_overlay_layer_0_label_0" formatted="false">Copied text</string>
+  <string name="motion_clipboard_overlay_layer_0_label_1" formatted="false">Circuit ready</string>
+  <string name="motion_clipboard_overlay_layer_0_label_2" formatted="false">Copy</string>
+  <string name="motion_clipboard_overlay_layer_0_label_3" formatted="false">Share</string>
+  <string name="motion_clipboard_overlay_layer_0_label_4" formatted="false">Clear</string>
+  <string name="motion_permission_choice_panel_title" formatted="false">Permission choice panel</string>
+  <string name="motion_permission_choice_panel_description" formatted="false">The shield remains fixed while the requested permission row expands into focus.</string>
+  <string name="motion_permission_choice_panel_layer_0_label_0" formatted="false">ALLOW ONCE</string>
+  <string name="motion_predictive_back_activity_title" formatted="false">Predictive back → activity</string>
+  <string name="motion_predictive_back_activity_description" formatted="false">Two independent activity frames preview the cross-activity destination before the edge gesture commits.</string>
+  <string name="motion_predictive_back_activity_layer_0_label_0" formatted="false">Library</string>
+  <string name="motion_predictive_back_activity_layer_1_label_0" formatted="false">Sample game</string>
+  <string name="motion_predictive_back_cancel_title" formatted="false">Predictive back cancel</string>
+  <string name="motion_predictive_back_cancel_description" formatted="false">The destination preview reaches threshold, reverses, and restores the current activity without a snap.</string>
+  <string name="motion_predictive_back_cancel_layer_0_label_0" formatted="false">Library</string>
+  <string name="motion_predictive_back_cancel_layer_1_label_0" formatted="false">Sample game</string>
+  <string name="motion_desktop_window_open_title" formatted="false">Desktop window open</string>
+  <string name="motion_desktop_window_open_description" formatted="false">Caption controls and content frame expand from one centered window origin.</string>
+  <string name="motion_desktop_window_open_layer_0_label_0" formatted="false">DESKTOP</string>
+  <string name="motion_desktop_taskbar_reveal_title" formatted="false">Desktop taskbar reveal</string>
+  <string name="motion_desktop_taskbar_reveal_description" formatted="false">The taskbar rises from the bottom inset and keeps all six app sockets evenly spaced.</string>
+  <string name="motion_pip_controls_reveal_title" formatted="false">PiP controls reveal</string>
+  <string name="motion_pip_controls_reveal_description" formatted="false">Playback controls dock beneath the miniature viewport, then recede without resizing its content.</string>
+  <string name="motion_pip_controls_reveal_caption" formatted="false">PLAYING</string>
+  <string name="motion_quick_settings_edit_tray_title" formatted="false">Quick Settings edit tray</string>
+  <string name="motion_quick_settings_edit_tray_description" formatted="false">Four blank tile sockets enter as a stable edit grid around a centered drag handle.</string>
+  <string name="motion_quick_settings_edit_tray_layer_0_label_0" formatted="false">Wi-Fi</string>
+  <string name="motion_quick_settings_edit_tray_layer_1_label_0" formatted="false">Bluetooth</string>
+  <string name="motion_quick_settings_edit_tray_layer_2_label_0" formatted="false">Quiet</string>
+  <string name="motion_embedded_photo_picker_title" formatted="false">Embedded photo picker</string>
+  <string name="motion_embedded_photo_picker_description" formatted="false">Three media targets expand in place while the selection count locks into the detached badge.</string>
+  <string name="motion_loading_shimmer_sync_title" formatted="false">Loading shimmer / sync</string>
+  <string name="motion_loading_shimmer_sync_description" formatted="false">Four loading rails shimmer as a contained group with no full-screen flash.</string>
+  <string name="motion_loading_shimmer_sync_layer_0_label_0" formatted="false">Syncing</string>
+  <string name="motion_biometric_failure_lockout_title" formatted="false">Biometric failure / lockout</string>
+  <string name="motion_biometric_failure_lockout_description" formatted="false">The biometric socket holds position while error copy and recovery action warn once.</string>
+  <string name="motion_biometric_failure_lockout_caption" formatted="false">TRY AGAIN</string>
+  <string name="motion_hinge_posture_angle_title" formatted="false">Hinge posture / angle</string>
+  <string name="motion_hinge_posture_angle_description" formatted="false">The paired display plates settle around a true hinge pivot while the angle readout stays inside its arc.</string>
+  <string name="motion_hinge_posture_angle_layer_0_label_0" formatted="false">Upper</string>
+  <string name="motion_hinge_posture_angle_layer_1_label_0" formatted="false">Lower</string>
+  <string name="motion_game_assistant_overlay_title" formatted="false">Game Assistant overlay</string>
+  <string name="motion_game_assistant_overlay_description" formatted="false">A dedicated handheld side panel enters from the active display edge and exposes three control rows.</string>
+  <string name="motion_game_assistant_overlay_caption" formatted="false">GAME ASSIST</string>
+  <string name="motion_controller_focus_transfer_title" formatted="false">Controller focus transfer</string>
+  <string name="motion_controller_focus_transfer_description" formatted="false">Matched focus crowns transfer emphasis across a centered controller-navigation chevron.</string>
+  <string name="motion_controller_focus_transfer_layer_0_label_0" formatted="false">Device control</string>
+  <string name="motion_controller_focus_transfer_layer_1_label_0" formatted="false">Game control</string>
+  <string name="motion_touch_mapping_editor_title" formatted="false">Touch-mapping editor</string>
+  <string name="motion_touch_mapping_editor_description" formatted="false">Four draggable binding sockets assemble around the active screen without covering its center.</string>
+  <string name="motion_touch_mapping_editor_layer_0_label_0" formatted="false">A</string>
+  <string name="motion_touch_mapping_editor_layer_0_label_1" formatted="false">B</string>
+  <string name="motion_touch_mapping_editor_layer_0_label_2" formatted="false">X</string>
+  <string name="motion_touch_mapping_editor_layer_0_label_3" formatted="false">Y</string>
+  <string name="motion_analog_trigger_calibration_title" formatted="false">Analog trigger calibration</string>
+  <string name="motion_analog_trigger_calibration_description" formatted="false">Trigger travel and its separate gauge reveal bottom-up to show range and dead-zone calibration.</string>
+  <string name="motion_analog_trigger_calibration_layer_0_label_0" formatted="false">Left trigger</string>
+  <string name="motion_analog_trigger_calibration_layer_1_label_0" formatted="false">Right trigger</string>
+  <string name="motion_dual_screen_app_drag_title" formatted="false">Dual-screen app drag</string>
+  <string name="motion_dual_screen_app_drag_description" formatted="false">A compact app card transfers across the physical hinge gap between the two display frames.</string>
+  <string name="motion_dual_screen_app_drag_layer_0_label_0" formatted="false">Upper</string>
+  <string name="motion_dual_screen_app_drag_layer_1_label_0" formatted="false">Lower</string>
+  <string name="motion_fan_curve_auto_mode_title" formatted="false">Fan curve / auto mode</string>
+  <string name="motion_fan_curve_auto_mode_description" formatted="false">Four control points settle as one curve surface while the active cooling mode remains readable.</string>
+  <string name="motion_fan_curve_auto_mode_layer_0_label_0" formatted="false">Fan speed</string>
+  <string name="motion_fan_curve_auto_mode_layer_0_label_1" formatted="false">Temperature</string>
+  <string name="motion_fan_curve_auto_mode_layer_0_label_2" formatted="false">Auto</string>
+  <string name="motion_rgb_mode_color_select_title" formatted="false">Ember lighting selection</string>
+  <string name="motion_rgb_mode_color_select_description" formatted="false">Selected lighting uses separate ember-intensity masks. Cold steel and hue stay fixed; reduced motion is steady.</string>
+  <string name="motion_rgb_mode_color_select_caption" formatted="false">EMBER</string>
+  <string name="motion_five_band_eq_preset_title" formatted="false">Five-band EQ / preset</string>
+  <string name="motion_five_band_eq_preset_description" formatted="false">Five aligned bands reveal upward while the selected sound profile stays inside its detached cavity.</string>
+  <string name="motion_five_band_eq_preset_layer_0_label_0" formatted="false">Bass</string>
+  <string name="motion_five_band_eq_preset_layer_1_label_0" formatted="false">Low mids</string>
+  <string name="motion_five_band_eq_preset_layer_2_label_0" formatted="false">Mids</string>
+  <string name="motion_five_band_eq_preset_layer_3_label_0" formatted="false">High mids</string>
+  <string name="motion_five_band_eq_preset_layer_4_label_0" formatted="false">Treble</string>
+  <string name="motion_value_percent" formatted="true">%1$d%%</string>
+  <string name="motion_value_temperature" formatted="true">%1$d C</string>
+  <string name="motion_value_gain" formatted="true">%1$s dB</string>
+  <string name="motion_value_selectioncount" formatted="true">%1$d selected</string>
+  <string name="motion_value_angle" formatted="true">%1$d deg</string>
+  <string name="motion_value_milestone" formatted="true">Step %1$d of %2$d</string>
+</resources>

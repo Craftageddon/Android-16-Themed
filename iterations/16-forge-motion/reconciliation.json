@@ -1,0 +1,6796 @@
+[
+  {
+    "id": "boot-crest-assembly",
+    "kind": "Forge",
+    "durationMillis": 2250,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/14-forge-atmosphere/masters/forge_crest.svg",
+        "allowedLayers": [
+          "cold",
+          "focus",
+          "symbol"
+        ],
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/14-forge-atmosphere/masters/forge_crest.svg",
+        "allowedLayers": [
+          "reflection",
+          "spill",
+          "seam"
+        ],
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/14-forge-atmosphere/masters/forge_crest.svg",
+        "allowedLayers": [
+          "core"
+        ],
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Forge",
+    "originalTitle": "Boot crest assembly",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "shutdown-collapse",
+    "kind": "Collapse",
+    "durationMillis": 1400,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/14-forge-atmosphere/masters/forge_crest.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Collapse",
+    "originalTitle": "Shutdown collapse",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "restart-reignition",
+    "kind": "Forge",
+    "durationMillis": 1150,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/14-forge-atmosphere/masters/charge_chamber.svg",
+        "allowedLayers": [
+          "cold",
+          "focus",
+          "symbol"
+        ],
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/14-forge-atmosphere/masters/charge_chamber.svg",
+        "allowedLayers": [
+          "reflection",
+          "spill",
+          "seam"
+        ],
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/14-forge-atmosphere/masters/charge_chamber.svg",
+        "allowedLayers": [
+          "core"
+        ],
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Forge",
+    "originalTitle": "Restart reignition",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "lock-screen-aod-pulse",
+    "kind": "Pulse",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 5,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.85
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "12:00",
+            "x": 172.0,
+            "y": 105.52249134948097,
+            "fontSize": 28.567474048442907
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Pulse",
+    "originalTitle": "Lock screen / AOD pulse",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "unlock-confirmation",
+    "kind": "Focus",
+    "durationMillis": 700,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Status",
+        "legacyCell": 1,
+        "source": "iterations/11-forge-symbol-library/masters/info__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Status",
+        "legacyCell": 2,
+        "source": "iterations/11-forge-symbol-library/masters/success__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.66
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Focus",
+    "originalTitle": "Unlock confirmation",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "battery-charging",
+    "kind": "Fill",
+    "durationMillis": 2100,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/charge_vessel.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 1.0
+        },
+        "targetFill": 0.68,
+        "startFill": 0,
+        "motionParts": [
+          {
+            "part": "fill-window",
+            "mode": "fill-y",
+            "x": 60,
+            "bottom": 244,
+            "width": 80,
+            "height": 180
+          }
+        ],
+        "liveLabels": [
+          {
+            "format": "percent",
+            "x": 100,
+            "y": 270,
+            "fontSize": 22
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Fill",
+    "originalTitle": "Battery charging",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "low-battery-warning",
+    "kind": "Warn",
+    "durationMillis": 1200,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/charge_vessel.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.94
+        },
+        "targetFill": 0.15,
+        "startFill": 0.15,
+        "motionParts": [
+          {
+            "part": "fill-window",
+            "mode": "fill-y",
+            "x": 60,
+            "bottom": 244,
+            "width": 80,
+            "height": 180
+          }
+        ],
+        "liveLabels": [
+          {
+            "format": "percent",
+            "x": 100,
+            "y": 270,
+            "fontSize": 22
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Warn",
+    "originalTitle": "Low-battery warning",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "direct-power-bypass",
+    "kind": "Pulse",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 7,
+        "source": "iterations/11-forge-symbol-library/masters/hero-power_core.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.83
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Pulse",
+    "originalTitle": "Direct-power bypass",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "system-update-cycle",
+    "kind": "Spin",
+    "durationMillis": 1500,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/11-forge-symbol-library/masters/sync__detailed.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": -45,
+          "scale": 1
+        },
+        "displaySize": [
+          120,
+          120
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/progress_vessel.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 55,
+          "scale": 1
+        },
+        "stationary": true,
+        "targetFill": 0.76,
+        "startFill": 0,
+        "motionParts": [
+          {
+            "part": "fill-window",
+            "mode": "fill-x",
+            "x": 36,
+            "y": 59,
+            "width": 288,
+            "height": 29
+          }
+        ],
+        "liveLabels": [
+          {
+            "format": "percent",
+            "x": 180,
+            "y": 43,
+            "fontSize": 24
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Spin",
+    "originalTitle": "System update cycle",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "notification-arrival",
+    "kind": "Slide",
+    "durationMillis": 2400,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 3,
+        "source": "iterations/12-forge-controls-and-screens/masters/scalable-notification.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "Forge complete",
+            "x": 144.0,
+            "y": 71.36572890025576,
+            "fontSize": 22.09718670076726
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Slide",
+    "originalTitle": "Notification arrival",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "heads-up-lifecycle",
+    "kind": "Slide",
+    "durationMillis": 2400,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 3,
+        "source": "iterations/12-forge-controls-and-screens/masters/scalable-notification.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": -7.0,
+          "scale": 0.9
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "Incoming alert",
+            "x": 144.0,
+            "y": 71.52941176470588,
+            "fontSize": 22.58823529411765
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Slide",
+    "originalTitle": "Heads-up lifecycle",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "expand-collapse",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 3,
+        "source": "iterations/12-forge-controls-and-screens/masters/scalable-notification.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.95
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "2 more lines",
+            "x": 144.0,
+            "y": 71.13312693498452,
+            "fontSize": 21.399380804953562
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Expand / collapse",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "grouped-notifications",
+    "kind": "Stack",
+    "durationMillis": 650,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 3,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": -14.0,
+          "y": 12.0,
+          "scale": 0.68
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 3,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 3,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 14.0,
+          "y": -12.0,
+          "scale": 0.76
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Stack",
+    "originalTitle": "Grouped notifications",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "swipe-dismissal",
+    "kind": "Swipe",
+    "durationMillis": 1800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 3,
+        "source": "iterations/12-forge-controls-and-screens/masters/scalable-notification.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": -8.0,
+          "scale": 0.84
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Input",
+        "legacyCell": 3,
+        "source": "iterations/11-forge-symbol-library/masters/forward__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 34.0,
+          "scale": 0.48
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Swipe",
+    "originalTitle": "Swipe dismissal",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "action-button-press",
+    "kind": "Press",
+    "durationMillis": 580,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 6,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-button_primary.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "REPLY",
+            "x": 128.0,
+            "y": 44.36601307189542,
+            "fontSize": 25.098039215686278
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Press",
+    "originalTitle": "Action-button press",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "progress-notification",
+    "kind": "Progress",
+    "durationMillis": 2200,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/progress_vessel.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "targetFill": 0.76,
+        "startFill": 0,
+        "motionParts": [
+          {
+            "part": "fill-window",
+            "mode": "fill-x",
+            "x": 36,
+            "y": 59,
+            "width": 288,
+            "height": 29
+          }
+        ],
+        "liveLabels": [
+          {
+            "format": "percent",
+            "x": 180,
+            "y": 43,
+            "fontSize": 24
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Progress",
+    "originalTitle": "Progress notification",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "silent-notification",
+    "kind": "Fade",
+    "durationMillis": 2800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 3,
+        "source": "iterations/12-forge-controls-and-screens/masters/scalable-notification.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "Silent",
+            "x": 144.0,
+            "y": 71.70053475935829,
+            "fontSize": 23.101604278074863
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Fade",
+    "originalTitle": "Silent notification",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "toast-snackbar",
+    "kind": "Rise",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 9,
+        "source": "iterations/12-forge-controls-and-screens/masters/scalable-panel.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 12.0,
+          "scale": 0.95
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "Saved  \u00b7  UNDO",
+            "x": 112.0,
+            "y": 93.70040485829959,
+            "fontSize": 17.101214574898787
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Rise",
+    "originalTitle": "Toast / snackbar",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "shade-pull-down",
+    "kind": "Rise",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 9,
+        "source": "iterations/12-forge-controls-and-screens/masters/scalable-panel.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 3.0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Rise",
+    "originalTitle": "Shade pull-down",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "half-to-full-expansion",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 9,
+        "source": "iterations/12-forge-controls-and-screens/masters/scalable-panel.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.96
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Half-to-full expansion",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "tile-activate-deactivate",
+    "kind": "Press",
+    "durationMillis": 580,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 5,
+        "source": "iterations/12-forge-controls-and-screens/masters/pilot-quick_tile.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "On",
+            "x": 76.0,
+            "y": 54.967320261437905,
+            "fontSize": 14.901960784313726
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Press",
+    "originalTitle": "Tile activate / deactivate",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "tile-reorder",
+    "kind": "Reorder",
+    "durationMillis": 750,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 5,
+        "source": "iterations/12-forge-controls-and-screens/masters/pilot-quick_tile.svg",
+        "legacyPlacement": {
+          "x": -63.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 5,
+        "source": "iterations/12-forge-controls-and-screens/masters/pilot-quick_tile.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 5,
+        "source": "iterations/12-forge-controls-and-screens/masters/pilot-quick_tile.svg",
+        "legacyPlacement": {
+          "x": 63.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Reorder",
+    "originalTitle": "Tile reorder",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "internet-detail-panel",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 4,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-dialog.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.78
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "INTERNET",
+            "x": 172.0,
+            "y": 122.37707390648568,
+            "fontSize": 31.131221719457013
+          }
+        ]
+      },
+      {
+        "legacyAtlas": "Connectivity",
+        "legacyCell": 1,
+        "source": "iterations/11-forge-symbol-library/masters/hero-wifi.svg",
+        "legacyPlacement": {
+          "x": -25.0,
+          "y": -1.0,
+          "scale": 0.22
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Internet detail panel",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "wi-fi-state",
+    "kind": "Broadcast",
+    "durationMillis": 1250,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "legacyAtlas": "Connectivity",
+        "legacyCell": 1,
+        "source": "iterations/11-forge-symbol-library/masters/hero-wifi.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.78
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Broadcast",
+    "originalTitle": "Wi\u2011Fi state",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "bluetooth-state",
+    "kind": "Pulse",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "legacyAtlas": "Connectivity",
+        "legacyCell": 2,
+        "source": "iterations/11-forge-symbol-library/masters/bluetooth_on__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Pulse",
+    "originalTitle": "Bluetooth state",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "cellular-signal",
+    "kind": "Scan",
+    "durationMillis": 1350,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "legacyAtlas": "Connectivity",
+        "legacyCell": 3,
+        "source": "iterations/11-forge-symbol-library/masters/cellular_4__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.75
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Scan",
+    "originalTitle": "Cellular signal",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "hotspot-broadcast",
+    "kind": "Broadcast",
+    "durationMillis": 1250,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "legacyAtlas": "Connectivity",
+        "legacyCell": 4,
+        "source": "iterations/11-forge-symbol-library/masters/hotspot_on__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.74
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Broadcast",
+    "originalTitle": "Hotspot broadcast",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "airplane-mode",
+    "kind": "Swipe",
+    "durationMillis": 1800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "legacyAtlas": "Connectivity",
+        "legacyCell": 5,
+        "source": "iterations/11-forge-symbol-library/masters/airplane_on__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Swipe",
+    "originalTitle": "Airplane mode",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "vpn-tunnel",
+    "kind": "Pulse",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "legacyAtlas": "Connectivity",
+        "legacyCell": 6,
+        "source": "iterations/11-forge-symbol-library/masters/vpn__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.75
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Pulse",
+    "originalTitle": "VPN tunnel",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "brightness-slider",
+    "kind": "Slider",
+    "durationMillis": 1150,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/slider_rail.svg",
+        "legacyPlacement": {
+          "x": 8,
+          "y": 12,
+          "scale": 0.9
+        },
+        "targetFill": 0.6,
+        "startFill": 0.18,
+        "motionParts": [
+          {
+            "part": "fill-window",
+            "mode": "fill-x",
+            "x": 40,
+            "y": 35,
+            "width": 240,
+            "height": 10
+          },
+          {
+            "part": "thumb",
+            "mode": "move-x",
+            "range": 240
+          }
+        ],
+        "liveLabels": [
+          {
+            "format": "percent",
+            "x": 160,
+            "y": 110,
+            "fontSize": 22
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 8,
+        "source": "iterations/11-forge-symbol-library/masters/display__detailed.svg",
+        "legacyPlacement": {
+          "x": -95,
+          "y": 12,
+          "scale": 0.26
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "stationary": true
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Slider",
+    "originalTitle": "Brightness slider",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "volume-slider",
+    "kind": "Slider",
+    "durationMillis": 1150,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/slider_rail.svg",
+        "legacyPlacement": {
+          "x": 8,
+          "y": 12,
+          "scale": 0.9
+        },
+        "targetFill": 0.42,
+        "startFill": 0.18,
+        "motionParts": [
+          {
+            "part": "fill-window",
+            "mode": "fill-x",
+            "x": 40,
+            "y": 35,
+            "width": 240,
+            "height": 10
+          },
+          {
+            "part": "thumb",
+            "mode": "move-x",
+            "range": 240
+          }
+        ],
+        "liveLabels": [
+          {
+            "format": "percent",
+            "x": 160,
+            "y": 110,
+            "fontSize": 22
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 7,
+        "source": "iterations/11-forge-symbol-library/masters/audio__detailed.svg",
+        "legacyPlacement": {
+          "x": -95,
+          "y": 12,
+          "scale": 0.26
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "stationary": true
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Slider",
+    "originalTitle": "Volume slider",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "cast-external-display",
+    "kind": "Broadcast",
+    "durationMillis": 1250,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "legacyAtlas": "Connectivity",
+        "legacyCell": 7,
+        "source": "iterations/11-forge-symbol-library/masters/hero-cast.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.78
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Broadcast",
+    "originalTitle": "Cast / external display",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "app-launch",
+    "kind": "Launch",
+    "durationMillis": 900,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 2,
+        "source": "iterations/11-forge-symbol-library/masters/home__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 7,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.86
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Launch",
+    "originalTitle": "App launch",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "app-close",
+    "kind": "Collapse",
+    "durationMillis": 1400,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 7,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Collapse",
+    "originalTitle": "App close",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "predictive-back-home",
+    "kind": "Back",
+    "durationMillis": 820,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 1,
+        "source": "iterations/11-forge-symbol-library/masters/back__detailed.svg",
+        "legacyPlacement": {
+          "x": -62.0,
+          "y": 0.0,
+          "scale": 0.46
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 2,
+        "source": "iterations/11-forge-symbol-library/masters/home__detailed.svg",
+        "legacyPlacement": {
+          "x": 43.0,
+          "y": 0.0,
+          "scale": 0.48
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Back",
+    "originalTitle": "Predictive back \u2192 home",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "predictive-back-task",
+    "kind": "Back",
+    "durationMillis": 820,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 1,
+        "source": "iterations/11-forge-symbol-library/masters/back__detailed.svg",
+        "legacyPlacement": {
+          "x": -64.0,
+          "y": 0.0,
+          "scale": 0.42
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 3,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 42.0,
+          "y": 0.0,
+          "scale": 0.5
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Back",
+    "originalTitle": "Predictive back \u2192 task",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "overview-recents",
+    "kind": "Stack",
+    "durationMillis": 650,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 3,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.84
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Stack",
+    "originalTitle": "Overview / recents",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "clear-all-sweep",
+    "kind": "Swipe",
+    "durationMillis": 1800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 3,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.82
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Swipe",
+    "originalTitle": "Clear all sweep",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "picture-in-picture",
+    "kind": "Pip",
+    "durationMillis": 1100,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 5,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.84
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Pip",
+    "originalTitle": "Picture-in-picture",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "split-screen-divider",
+    "kind": "Split",
+    "durationMillis": 950,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 4,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/display_pair.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.86
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Split",
+    "originalTitle": "Split-screen divider",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "adaptive-resize-rotation",
+    "kind": "Rotate",
+    "durationMillis": 1000,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 6,
+        "source": "iterations/11-forge-symbol-library/masters/rotation__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.82
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Rotate",
+    "originalTitle": "Adaptive resize / rotation",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "edge-to-edge-window",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 7,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "LIVE CONTENT",
+            "x": 120.0,
+            "y": 171.1888111888112,
+            "fontSize": 33.56643356643357
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Edge-to-edge window",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "folder-open-close",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 1,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/folder_socket.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.75
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Folder open / close",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "widget-pickup-drop",
+    "kind": "Rise",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 2,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.82
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "WIDGET",
+            "x": 172.0,
+            "y": 105.87087517934003,
+            "fontSize": 29.61262553802009
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Rise",
+    "originalTitle": "Widget pickup / drop",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "bottom-sheet-rise-dismiss",
+    "kind": "Rise",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 9,
+        "source": "iterations/12-forge-controls-and-screens/masters/scalable-panel.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.95
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "OPTIONS",
+            "x": 112.0,
+            "y": 93.70040485829959,
+            "fontSize": 17.101214574898787
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Rise",
+    "originalTitle": "Bottom sheet rise / dismiss",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "dialog-destructive-confirm",
+    "kind": "Launch",
+    "durationMillis": 900,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 4,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-dialog.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.8
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "DISCARD?",
+            "x": 172.0,
+            "y": 122.11764705882354,
+            "fontSize": 30.352941176470587
+          }
+        ]
+      },
+      {
+        "legacyAtlas": "Status",
+        "legacyCell": 4,
+        "source": "iterations/11-forge-symbol-library/masters/error__detailed.svg",
+        "legacyPlacement": {
+          "x": 54.0,
+          "y": 24.0,
+          "scale": 0.27
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Launch",
+    "originalTitle": "Dialog / destructive confirm",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "touch-ripple",
+    "kind": "Tap",
+    "durationMillis": 750,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Input",
+        "legacyCell": 1,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/pattern_node.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Tap",
+    "originalTitle": "Touch ripple",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "long-press",
+    "kind": "Hold",
+    "durationMillis": 1350,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/hold_charge.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "stationary": true,
+        "motionParts": [
+          {
+            "part": "charge-arc",
+            "mode": "stroke-arc",
+            "length": 483.80526865282815
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Hold",
+            "x": 120,
+            "y": 130,
+            "fontSize": 24
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Hold",
+    "originalTitle": "Long press",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "swipe-gesture",
+    "kind": "Swipe",
+    "durationMillis": 1800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Input",
+        "legacyCell": 3,
+        "source": "iterations/11-forge-symbol-library/masters/forward__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.8
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Swipe",
+    "originalTitle": "Swipe gesture",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "keyboard-ime-slide",
+    "kind": "Rise",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/english_keyboard.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 8,
+          "scale": 1.4
+        },
+        "liveLabels": [
+          {
+            "text": "q",
+            "x": 49,
+            "y": 58,
+            "fontSize": 22
+          },
+          {
+            "text": "w",
+            "x": 107,
+            "y": 58,
+            "fontSize": 22
+          },
+          {
+            "text": "e",
+            "x": 165,
+            "y": 58,
+            "fontSize": 22
+          },
+          {
+            "text": "r",
+            "x": 223,
+            "y": 58,
+            "fontSize": 22
+          },
+          {
+            "text": "t",
+            "x": 281,
+            "y": 58,
+            "fontSize": 22
+          },
+          {
+            "text": "y",
+            "x": 339,
+            "y": 58,
+            "fontSize": 22
+          },
+          {
+            "text": "u",
+            "x": 397,
+            "y": 58,
+            "fontSize": 22
+          },
+          {
+            "text": "i",
+            "x": 455,
+            "y": 58,
+            "fontSize": 22
+          },
+          {
+            "text": "o",
+            "x": 513,
+            "y": 58,
+            "fontSize": 22
+          },
+          {
+            "text": "p",
+            "x": 571,
+            "y": 58,
+            "fontSize": 22
+          },
+          {
+            "text": "a",
+            "x": 78,
+            "y": 130,
+            "fontSize": 22
+          },
+          {
+            "text": "s",
+            "x": 136,
+            "y": 130,
+            "fontSize": 22
+          },
+          {
+            "text": "d",
+            "x": 194,
+            "y": 130,
+            "fontSize": 22
+          },
+          {
+            "text": "f",
+            "x": 252,
+            "y": 130,
+            "fontSize": 22
+          },
+          {
+            "text": "g",
+            "x": 310,
+            "y": 130,
+            "fontSize": 22
+          },
+          {
+            "text": "h",
+            "x": 368,
+            "y": 130,
+            "fontSize": 22
+          },
+          {
+            "text": "j",
+            "x": 426,
+            "y": 130,
+            "fontSize": 22
+          },
+          {
+            "text": "k",
+            "x": 484,
+            "y": 130,
+            "fontSize": 22
+          },
+          {
+            "text": "l",
+            "x": 542,
+            "y": 130,
+            "fontSize": 22
+          },
+          {
+            "text": "Shift",
+            "x": 65.0,
+            "y": 202,
+            "fontSize": 20
+          },
+          {
+            "text": "z",
+            "x": 136.0,
+            "y": 202,
+            "fontSize": 20
+          },
+          {
+            "text": "x",
+            "x": 194.0,
+            "y": 202,
+            "fontSize": 20
+          },
+          {
+            "text": "c",
+            "x": 252.0,
+            "y": 202,
+            "fontSize": 20
+          },
+          {
+            "text": "v",
+            "x": 310.0,
+            "y": 202,
+            "fontSize": 20
+          },
+          {
+            "text": "b",
+            "x": 368.0,
+            "y": 202,
+            "fontSize": 20
+          },
+          {
+            "text": "n",
+            "x": 426.0,
+            "y": 202,
+            "fontSize": 20
+          },
+          {
+            "text": "m",
+            "x": 484.0,
+            "y": 202,
+            "fontSize": 20
+          },
+          {
+            "text": "Back",
+            "x": 555.0,
+            "y": 202,
+            "fontSize": 20
+          },
+          {
+            "text": "123",
+            "x": 106.0,
+            "y": 274,
+            "fontSize": 22
+          },
+          {
+            "text": "Space",
+            "x": 300.0,
+            "y": 274,
+            "fontSize": 22
+          },
+          {
+            "text": "Enter",
+            "x": 504.0,
+            "y": 274,
+            "fontSize": 22
+          }
+        ],
+        "motionParts": [
+          {
+            "part": "emit-key-q",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-w",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-e",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-r",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-t",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-y",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-u",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-i",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-o",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-p",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-a",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "emit-key-s",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-d",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-f",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-g",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-h",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-j",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-k",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-l",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-shift",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-z",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-x",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-c",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-v",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-b",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-n",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-m",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-backspace",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-numbers",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-space",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-key-enter",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-q",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-w",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-e",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-r",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-t",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-y",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-u",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-i",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-o",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-p",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-a",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "focus-key-s",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-d",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-f",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-g",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-h",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-j",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-k",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-l",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-shift",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-z",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-x",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-c",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-v",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-b",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-n",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-m",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-backspace",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-numbers",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-space",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-key-enter",
+            "mode": "opacity",
+            "value": 0
+          }
+        ],
+        "sampleSelectedKey": "a",
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Rise",
+    "originalTitle": "Keyboard IME slide",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "key-press",
+    "kind": "Press",
+    "durationMillis": 580,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Input",
+        "legacyCell": 4,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-keyboard_letter.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.56
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "A",
+            "x": 28.0,
+            "y": 31.076923076923077,
+            "fontSize": 9.230769230769228
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Press",
+    "originalTitle": "Key press",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "suggestion-chip",
+    "kind": "Press",
+    "durationMillis": 580,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 6,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-button_primary.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.7
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "Crafted",
+            "x": 128.0,
+            "y": 44.60504201680672,
+            "fontSize": 25.815126050420172
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Press",
+    "originalTitle": "Suggestion chip",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "text-selection-handles",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/selection_handles.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1.2
+        },
+        "stationary": true,
+        "liveLabels": [
+          {
+            "text": "Craftageddon",
+            "x": 180,
+            "y": 59,
+            "fontSize": 24
+          }
+        ],
+        "motionParts": [
+          {
+            "part": "left-handle",
+            "mode": "travel-x",
+            "from": 108,
+            "to": 0
+          },
+          {
+            "part": "right-handle",
+            "mode": "travel-x",
+            "from": -108,
+            "to": 0
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Text selection handles",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "copy-paste-toolbar",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/copy_toolbar.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1.25
+        },
+        "liveLabels": [
+          {
+            "text": "Cut",
+            "x": 60,
+            "y": 96,
+            "fontSize": 20
+          },
+          {
+            "text": "Copy",
+            "x": 164,
+            "y": 96,
+            "fontSize": 20
+          },
+          {
+            "text": "Paste",
+            "x": 268,
+            "y": 96,
+            "fontSize": 20
+          }
+        ],
+        "motionParts": [
+          {
+            "part": "emit-cut",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-copy",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "emit-paste",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-cut",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-copy",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "focus-paste",
+            "mode": "opacity",
+            "value": 0
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Copy / paste toolbar",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "fingerprint-authentication",
+    "kind": "Scan",
+    "durationMillis": 1350,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/biometric_scan.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "stationary": true,
+        "motionParts": [
+          {
+            "part": "scan-window",
+            "mode": "sweep-y",
+            "size": 160,
+            "band": 30
+          }
+        ],
+        "liveLabels": [],
+        "capabilityFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Scan",
+    "originalTitle": "Fingerprint authentication",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "face-scan-framing",
+    "kind": "Scan",
+    "durationMillis": 1350,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/face_scan.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "stationary": true,
+        "motionParts": [
+          {
+            "part": "scan-window",
+            "mode": "sweep-y",
+            "size": 240,
+            "band": 30
+          }
+        ],
+        "liveLabels": [],
+        "capabilityFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Scan",
+    "originalTitle": "Face scan framing",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "pin-lock-unlock",
+    "kind": "Focus",
+    "durationMillis": 700,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Input",
+        "legacyCell": 8,
+        "source": "iterations/11-forge-symbol-library/masters/lock__detailed.svg",
+        "legacyPlacement": {
+          "x": -35.0,
+          "y": 0.0,
+          "scale": 0.55
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Status",
+        "legacyCell": 2,
+        "source": "iterations/11-forge-symbol-library/masters/success__detailed.svg",
+        "legacyPlacement": {
+          "x": 50.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Focus",
+    "originalTitle": "PIN lock / unlock",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "permission-emphasis",
+    "kind": "Focus",
+    "durationMillis": 700,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 1,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": true,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Input",
+        "legacyCell": 8,
+        "source": "iterations/11-forge-symbol-library/masters/lock__detailed.svg",
+        "legacyPlacement": {
+          "x": -42.0,
+          "y": 0.0,
+          "scale": 0.48
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 6,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-button_primary.svg",
+        "legacyPlacement": {
+          "x": 48.0,
+          "y": 0.0,
+          "scale": 0.5
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "ALLOW",
+            "x": 128.0,
+            "y": 48.04705882352941,
+            "fontSize": 36.141176470588235
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Focus",
+    "originalTitle": "Permission emphasis",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "haptic-response",
+    "kind": "Haptic",
+    "durationMillis": 420,
+    "repeat": {
+      "mode": "count",
+      "count": 3
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Input",
+        "legacyCell": 9,
+        "source": "iterations/11-forge-symbol-library/masters/vibration__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Haptic",
+    "originalTitle": "Haptic response",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "accessibility-focus",
+    "kind": "Pulse",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": true,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Status",
+        "legacyCell": 9,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-focus_boundary.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "FOCUS",
+            "x": 140.0,
+            "y": 43.48663101604278,
+            "fontSize": 22.459893048128343
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Pulse",
+    "originalTitle": "Accessibility focus",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "media-play-pause",
+    "kind": "Press",
+    "durationMillis": 580,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Connectivity",
+        "legacyCell": 8,
+        "source": "iterations/11-forge-symbol-library/masters/play__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Press",
+    "originalTitle": "Media play / pause",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "screenshot-capture",
+    "kind": "Flash",
+    "durationMillis": 700,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Controls",
+        "legacyCell": 9,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.82
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Flash",
+    "originalTitle": "Screenshot capture",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "screen-recording",
+    "kind": "Breathe",
+    "durationMillis": 2200,
+    "repeat": {
+      "mode": "loop",
+      "count": 1
+    },
+    "label": "REC",
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "legacyAtlas": "Connectivity",
+        "legacyCell": 9,
+        "source": "iterations/11-forge-symbol-library/masters/screen_recording__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.67
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Breathe",
+    "originalTitle": "Screen recording",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "system-share-sheet",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 9,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-bottom_sheet.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "System share sheet",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "wallpaper-theme-change",
+    "kind": "Pulse",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 6,
+        "source": "iterations/14-forge-atmosphere/masters/wallpaper-phone-quiet.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Pulse",
+    "originalTitle": "Wallpaper / theme change",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "account-chooser",
+    "kind": "Slide",
+    "durationMillis": 2400,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 4,
+        "source": "iterations/11-forge-symbol-library/masters/accounts__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.68
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Slide",
+    "originalTitle": "Account chooser",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "file-photo-picker",
+    "kind": "Focus",
+    "durationMillis": 700,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 7,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": -35.0,
+          "y": 0.0,
+          "scale": 0.58
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 1,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/folder_socket.svg",
+        "legacyPlacement": {
+          "x": 48.0,
+          "y": 0.0,
+          "scale": 0.48
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Focus",
+    "originalTitle": "File / photo picker",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "themed-icon-transition",
+    "kind": "Mode",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Surfaces",
+        "legacyCell": 1,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/folder_socket.svg",
+        "legacyPlacement": {
+          "x": -42.0,
+          "y": 0.0,
+          "scale": 0.48
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Sigil",
+        "legacyCell": 5,
+        "source": "iterations/11-forge-symbol-library/masters/hero-power_core.svg",
+        "legacyPlacement": {
+          "x": 45.0,
+          "y": 0.0,
+          "scale": 0.45
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Mode",
+    "originalTitle": "Themed icon transition",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "clamshell-open-close",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 1,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/display_pair.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.77
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Clamshell open / close",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "top-display-wake",
+    "kind": "Pulse",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": "TOP DISPLAY",
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 2,
+        "source": "iterations/11-forge-symbol-library/masters/display_upper__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Pulse",
+    "originalTitle": "Top display wake",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "bottom-display-wake",
+    "kind": "Pulse",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": "TOUCH DISPLAY",
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 3,
+        "source": "iterations/11-forge-symbol-library/masters/display_lower__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Pulse",
+    "originalTitle": "Bottom display wake",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "dual-screen-focus-transfer",
+    "kind": "Focus",
+    "durationMillis": 700,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": true,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 2,
+        "source": "iterations/11-forge-symbol-library/masters/display_upper__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": -35.0,
+          "scale": 0.56
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 3,
+        "source": "iterations/11-forge-symbol-library/masters/display_lower__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 40.0,
+          "scale": 0.55
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Focus",
+    "originalTitle": "Dual-screen focus transfer",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "top-bottom-screen-swap",
+    "kind": "Swap",
+    "durationMillis": 1000,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 4,
+        "source": "iterations/11-forge-symbol-library/masters/screen_swap__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Swap",
+    "originalTitle": "Top / bottom screen swap",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "screen-specific-app-assignment",
+    "kind": "Focus",
+    "durationMillis": 700,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 2,
+        "source": "iterations/11-forge-symbol-library/masters/display_upper__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": -37.0,
+          "scale": 0.52
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 3,
+        "source": "iterations/11-forge-symbol-library/masters/display_lower__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 39.0,
+          "scale": 0.5
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Navigation",
+        "legacyCell": 7,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 39.0,
+          "scale": 0.26
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Focus",
+    "originalTitle": "Screen-specific app assignment",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "d-pad-direction-press",
+    "kind": "Press",
+    "durationMillis": 580,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/direction_cap.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": -50,
+          "scale": 1
+        },
+        "displaySize": [
+          84,
+          84
+        ],
+        "selected": true,
+        "stationary": false,
+        "focusable": true,
+        "liveLabels": [
+          {
+            "text": "Up",
+            "x": 48,
+            "y": 116,
+            "fontSize": 18
+          }
+        ],
+        "motionParts": [
+          {
+            "part": "arrow",
+            "mode": "fixed-rotate",
+            "angle": 0,
+            "cx": 48,
+            "cy": 48
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/direction_cap.svg",
+        "legacyPlacement": {
+          "x": 50,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          84,
+          84
+        ],
+        "selected": false,
+        "stationary": true,
+        "focusable": false,
+        "liveLabels": [
+          {
+            "text": "Right",
+            "x": 48,
+            "y": 116,
+            "fontSize": 18
+          }
+        ],
+        "motionParts": [
+          {
+            "part": "arrow",
+            "mode": "fixed-rotate",
+            "angle": 90,
+            "cx": 48,
+            "cy": 48
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/direction_cap.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 50,
+          "scale": 1
+        },
+        "displaySize": [
+          84,
+          84
+        ],
+        "selected": false,
+        "stationary": true,
+        "focusable": false,
+        "liveLabels": [
+          {
+            "text": "Down",
+            "x": 48,
+            "y": 116,
+            "fontSize": 18
+          }
+        ],
+        "motionParts": [
+          {
+            "part": "arrow",
+            "mode": "fixed-rotate",
+            "angle": 180,
+            "cx": 48,
+            "cy": 48
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/direction_cap.svg",
+        "legacyPlacement": {
+          "x": -50,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          84,
+          84
+        ],
+        "selected": false,
+        "stationary": true,
+        "focusable": false,
+        "liveLabels": [
+          {
+            "text": "Left",
+            "x": 48,
+            "y": 116,
+            "fontSize": 18
+          }
+        ],
+        "motionParts": [
+          {
+            "part": "arrow",
+            "mode": "fixed-rotate",
+            "angle": 270,
+            "cx": 48,
+            "cy": 48
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Press",
+    "originalTitle": "D-pad direction press",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "analog-stick-response",
+    "kind": "Stick",
+    "durationMillis": 1400,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 6,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/stick_gate.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Stick",
+    "originalTitle": "Analog stick response",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "face-button-cluster",
+    "kind": "Press",
+    "durationMillis": 580,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/direction_cap.svg",
+        "legacyPlacement": {
+          "x": -64.5,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          64,
+          64
+        ],
+        "selected": true,
+        "stationary": false,
+        "focusable": true,
+        "motionParts": [
+          {
+            "part": "arrow",
+            "mode": "opacity",
+            "value": 0
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "A",
+            "x": 48,
+            "y": 56,
+            "fontSize": 24
+          }
+        ],
+        "buttonOrderFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/direction_cap.svg",
+        "legacyPlacement": {
+          "x": -21.5,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          64,
+          64
+        ],
+        "selected": false,
+        "stationary": true,
+        "focusable": false,
+        "motionParts": [
+          {
+            "part": "arrow",
+            "mode": "opacity",
+            "value": 0
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "B",
+            "x": 48,
+            "y": 56,
+            "fontSize": 24
+          }
+        ],
+        "buttonOrderFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/direction_cap.svg",
+        "legacyPlacement": {
+          "x": 21.5,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          64,
+          64
+        ],
+        "selected": false,
+        "stationary": true,
+        "focusable": false,
+        "motionParts": [
+          {
+            "part": "arrow",
+            "mode": "opacity",
+            "value": 0
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "X",
+            "x": 48,
+            "y": 56,
+            "fontSize": 24
+          }
+        ],
+        "buttonOrderFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/direction_cap.svg",
+        "legacyPlacement": {
+          "x": 64.5,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          64,
+          64
+        ],
+        "selected": false,
+        "stationary": true,
+        "focusable": false,
+        "motionParts": [
+          {
+            "part": "arrow",
+            "mode": "opacity",
+            "value": 0
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Y",
+            "x": 48,
+            "y": 56,
+            "fontSize": 24
+          }
+        ],
+        "buttonOrderFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Press",
+    "originalTitle": "Face-button cluster",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "shoulder-trigger-press",
+    "kind": "Press",
+    "durationMillis": 580,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 8,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-shoulder_cap.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.74
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Press",
+    "originalTitle": "Shoulder / trigger press",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "rear-paddle-press",
+    "kind": "Press",
+    "durationMillis": 580,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Thor",
+        "legacyCell": 9,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-controller_cap.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.67
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Press",
+    "originalTitle": "Rear-paddle press",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "cooling-fan-speed",
+    "kind": "Fan",
+    "durationMillis": 1100,
+    "repeat": {
+      "mode": "loop",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 1,
+        "source": "iterations/16-forge-motion/masters/fan_rotor.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "transformTarget": "rotor"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Fan",
+    "originalTitle": "Cooling fan speed",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "rgb-breathing-cycle",
+    "kind": "Breathe",
+    "durationMillis": 2200,
+    "repeat": {
+      "mode": "loop",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 2,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/rgb_zone.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Breathe",
+    "originalTitle": "RGB breathing cycle",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership.",
+    "title": "Ember breathing cycle",
+    "description": "Selected lighting uses separate ember-intensity masks. Cold steel and hue stay fixed; reduced motion is steady."
+  },
+  {
+    "id": "performance-profile-switch",
+    "kind": "Mode",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 3,
+        "source": "iterations/11-forge-symbol-library/masters/fan_quiet__detailed.svg",
+        "legacyPlacement": {
+          "x": -67.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 4,
+        "source": "iterations/11-forge-symbol-library/masters/performance_balanced__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 5,
+        "source": "iterations/11-forge-symbol-library/masters/performance_fast__detailed.svg",
+        "legacyPlacement": {
+          "x": 67.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Mode",
+    "originalTitle": "Performance profile switch",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "thermal-throttling-state",
+    "kind": "Thermal",
+    "durationMillis": 1800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/thermal_meter.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "stationary": true,
+        "targetFill": 0.78,
+        "startFill": 0.2,
+        "motionParts": [
+          {
+            "part": "needle",
+            "mode": "needle",
+            "cx": 150,
+            "cy": 140,
+            "minAngle": -70,
+            "maxAngle": 70
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Thermal limit",
+            "x": 150,
+            "y": 31,
+            "fontSize": 20
+          },
+          {
+            "format": "temperature",
+            "x": 150,
+            "y": 188,
+            "fontSize": 24
+          }
+        ],
+        "capabilityFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Thermal",
+    "originalTitle": "Thermal / throttling state",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "charging-direct-power",
+    "kind": "Fill",
+    "durationMillis": 2100,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/charge_vessel.svg",
+        "legacyPlacement": {
+          "x": -48.0,
+          "y": 0.0,
+          "scale": 0.64
+        },
+        "targetFill": 0.68,
+        "startFill": 0,
+        "motionParts": [
+          {
+            "part": "fill-window",
+            "mode": "fill-y",
+            "x": 60,
+            "bottom": 244,
+            "width": 80,
+            "height": 180
+          }
+        ],
+        "liveLabels": [
+          {
+            "format": "percent",
+            "x": 100,
+            "y": 270,
+            "fontSize": 22
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 7,
+        "source": "iterations/11-forge-symbol-library/masters/hero-power_core.svg",
+        "legacyPlacement": {
+          "x": 50.0,
+          "y": 0.0,
+          "scale": 0.46
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Fill",
+    "originalTitle": "Charging / direct power",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "usb-c-dock-connect",
+    "kind": "Dock",
+    "durationMillis": 900,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 8,
+        "source": "iterations/11-forge-symbol-library/masters/usb__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Dock",
+    "originalTitle": "USB-C / dock connect",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "external-display-output",
+    "kind": "Swipe",
+    "durationMillis": 1800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 9,
+        "source": "iterations/11-forge-symbol-library/masters/display_external__detailed.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Swipe",
+    "originalTitle": "External display output",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "hardware-status-overlay",
+    "kind": "Stack",
+    "durationMillis": 650,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 3,
+        "source": "iterations/11-forge-symbol-library/masters/fan_quiet__detailed.svg",
+        "legacyPlacement": {
+          "x": -67.0,
+          "y": 0.0,
+          "scale": 0.35
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 6,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/thermal_gauge.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.35
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "legacyAtlas": "Performance",
+        "legacyCell": 7,
+        "source": "iterations/11-forge-symbol-library/masters/hero-power_core.svg",
+        "legacyPlacement": {
+          "x": 67.0,
+          "y": 0.0,
+          "scale": 0.35
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Stack",
+    "originalTitle": "Hardware status overlay",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "live-update-status-chip",
+    "kind": "Chip",
+    "durationMillis": 720,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "AndroidSystem",
+        "legacyCell": 1,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-toast.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "ETA 12 MIN",
+            "x": 140.0,
+            "y": 39.1611253196931,
+            "fontSize": 21.483375959079286
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Chip",
+    "originalTitle": "Live Update status chip",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "live-update-milestones",
+    "kind": "March",
+    "durationMillis": 1250,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/milestone_track.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1.2
+        },
+        "stationary": true,
+        "targetFill": 0.5,
+        "startFill": 0,
+        "motionParts": [
+          {
+            "part": "milestone-window",
+            "mode": "fill-x",
+            "x": 60,
+            "y": 73,
+            "width": 300,
+            "height": 10
+          },
+          {
+            "part": "step-0",
+            "mode": "step-emission",
+            "index": 0,
+            "count": 5
+          },
+          {
+            "part": "step-1",
+            "mode": "step-emission",
+            "index": 1,
+            "count": 5
+          },
+          {
+            "part": "step-2",
+            "mode": "step-emission",
+            "index": 2,
+            "count": 5
+          },
+          {
+            "part": "step-3",
+            "mode": "step-emission",
+            "index": 3,
+            "count": 5
+          },
+          {
+            "part": "step-4",
+            "mode": "step-emission",
+            "index": 4,
+            "count": 5
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "1",
+            "x": 60,
+            "y": 85,
+            "fontSize": 20
+          },
+          {
+            "text": "2",
+            "x": 135,
+            "y": 85,
+            "fontSize": 20
+          },
+          {
+            "text": "3",
+            "x": 210,
+            "y": 85,
+            "fontSize": 20
+          },
+          {
+            "text": "4",
+            "x": 285,
+            "y": 85,
+            "fontSize": 20
+          },
+          {
+            "text": "5",
+            "x": 360,
+            "y": 85,
+            "fontSize": 20
+          },
+          {
+            "format": "milestone",
+            "count": 3,
+            "total": 5,
+            "x": 210,
+            "y": 135,
+            "fontSize": 21
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "March",
+    "originalTitle": "Live Update milestones",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "camera-microphone-privacy",
+    "kind": "Chip",
+    "durationMillis": 720,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": true,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/privacy_pill.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.9
+        },
+        "liveLabels": [
+          {
+            "text": "In use",
+            "x": 150,
+            "y": 121,
+            "fontSize": 21
+          }
+        ],
+        "motionParts": [
+          {
+            "part": "emit-camera",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "emit-microphone",
+            "mode": "opacity",
+            "value": 1
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Chip",
+    "originalTitle": "Camera / microphone privacy",
+    "disposition": "steady-status",
+    "dispositionReason": "Confirmed status glyph stays steady; container/in-flight effects belong to their own controls."
+  },
+  {
+    "id": "notification-bubble",
+    "kind": "Bubble",
+    "durationMillis": 780,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "AndroidSystem",
+        "legacyCell": 4,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-notification_compact.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.73
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Bubble",
+    "originalTitle": "Notification bubble",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "power-menu",
+    "kind": "Rise",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/power_actions.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "liveLabels": [
+          {
+            "text": "Power off",
+            "x": 196,
+            "y": 73,
+            "fontSize": 24
+          },
+          {
+            "text": "Restart",
+            "x": 196,
+            "y": 159,
+            "fontSize": 24
+          },
+          {
+            "text": "Lockdown",
+            "x": 196,
+            "y": 245,
+            "fontSize": 24
+          }
+        ],
+        "motionParts": [
+          {
+            "part": "emit-power",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-restart",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "emit-lockdown",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-power",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-restart",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "focus-lockdown",
+            "mode": "opacity",
+            "value": 0
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Rise",
+    "originalTitle": "Power menu",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "expanded-volume-mixer",
+    "kind": "Curve",
+    "durationMillis": 1150,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/eq_band.svg",
+        "legacyPlacement": {
+          "x": -45,
+          "y": 0,
+          "scale": 1
+        },
+        "targetFill": 0.6,
+        "startFill": 0.6,
+        "motionParts": [
+          {
+            "part": "thumb",
+            "mode": "move-y",
+            "range": -220
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Media",
+            "x": 40,
+            "y": 342,
+            "fontSize": 18
+          },
+          {
+            "format": "percent",
+            "x": 40,
+            "y": 298,
+            "fontSize": 18
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/eq_band.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "targetFill": 0.35,
+        "startFill": 0.35,
+        "motionParts": [
+          {
+            "part": "thumb",
+            "mode": "move-y",
+            "range": -220
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Ring",
+            "x": 40,
+            "y": 342,
+            "fontSize": 18
+          },
+          {
+            "format": "percent",
+            "x": 40,
+            "y": 298,
+            "fontSize": 18
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/eq_band.svg",
+        "legacyPlacement": {
+          "x": 45,
+          "y": 0,
+          "scale": 1
+        },
+        "targetFill": 0.7,
+        "startFill": 0.7,
+        "motionParts": [
+          {
+            "part": "thumb",
+            "mode": "move-y",
+            "range": -220
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Alarm",
+            "x": 40,
+            "y": 342,
+            "fontSize": 18
+          },
+          {
+            "format": "percent",
+            "x": 40,
+            "y": 298,
+            "fontSize": 18
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Curve",
+    "originalTitle": "Expanded volume mixer",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "screenshot-preview-actions",
+    "kind": "Capture",
+    "durationMillis": 900,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": "CAPTURED",
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "AndroidSystem",
+        "legacyCell": 7,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/media_cell.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Capture",
+    "originalTitle": "Screenshot preview actions",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "clipboard-overlay",
+    "kind": "Panel",
+    "durationMillis": 820,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/clipboard_panel.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1.2
+        },
+        "liveLabels": [
+          {
+            "text": "Copied text",
+            "x": 220,
+            "y": 62,
+            "fontSize": 24
+          },
+          {
+            "text": "Circuit ready",
+            "x": 220,
+            "y": 108,
+            "fontSize": 21
+          },
+          {
+            "text": "Copy",
+            "x": 100,
+            "y": 195,
+            "fontSize": 18
+          },
+          {
+            "text": "Share",
+            "x": 234,
+            "y": 195,
+            "fontSize": 18
+          },
+          {
+            "text": "Clear",
+            "x": 368,
+            "y": 195,
+            "fontSize": 18
+          }
+        ],
+        "motionParts": [
+          {
+            "part": "emit-copy",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "emit-share",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-delete",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-copy",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "focus-share",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-delete",
+            "mode": "opacity",
+            "value": 0
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Panel",
+    "originalTitle": "Clipboard overlay",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "permission-choice-panel",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "AndroidSystem",
+        "legacyCell": 9,
+        "source": "iterations/12-forge-controls-and-screens/masters/control-dialog.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "ALLOW ONCE",
+            "x": 172.0,
+            "y": 120.79795396419438,
+            "fontSize": 26.39386189258312
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Permission choice panel",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "predictive-back-activity",
+    "kind": "Back",
+    "durationMillis": 820,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/activity_card.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          340,
+          227
+        ],
+        "semanticRole": "back-target",
+        "focusable": false,
+        "liveLabels": [
+          {
+            "text": "Library",
+            "x": 180,
+            "y": 43,
+            "fontSize": 24,
+            "showAtCommit": true
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/activity_card.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          340,
+          227
+        ],
+        "semanticRole": "back-source",
+        "focusable": true,
+        "liveLabels": [
+          {
+            "text": "Sample game",
+            "x": 180,
+            "y": 43,
+            "fontSize": 24
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Back",
+    "originalTitle": "Predictive back \u2192 activity",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "predictive-back-cancel",
+    "kind": "BackCancel",
+    "durationMillis": 920,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/activity_card.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          340,
+          227
+        ],
+        "semanticRole": "back-target",
+        "focusable": false,
+        "liveLabels": [
+          {
+            "text": "Library",
+            "x": 180,
+            "y": 43,
+            "fontSize": 24,
+            "opacity": 0
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/activity_card.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          340,
+          227
+        ],
+        "semanticRole": "back-source",
+        "focusable": true,
+        "liveLabels": [
+          {
+            "text": "Sample game",
+            "x": 180,
+            "y": 43,
+            "fontSize": 24
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "BackCancel",
+    "originalTitle": "Predictive back cancel",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "desktop-window-open",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "inside",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "AndroidWindowing",
+        "legacyCell": 3,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING",
+        "liveLabels": [
+          {
+            "text": "DESKTOP",
+            "x": 120.0,
+            "y": 170.70234113712374,
+            "fontSize": 32.10702341137124
+          }
+        ]
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Desktop window open",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "desktop-taskbar-reveal",
+    "kind": "Rise",
+    "durationMillis": 850,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "AndroidWindowing",
+        "legacyCell": 4,
+        "source": "iterations/12-forge-controls-and-screens/masters/pilot-navigation.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.96
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Rise",
+    "originalTitle": "Desktop taskbar reveal",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "pip-controls-reveal",
+    "kind": "Pip",
+    "durationMillis": 1100,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": "PLAYING",
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/pip_card.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "stationary": true,
+        "motionParts": [
+          {
+            "part": "pip-controls",
+            "mode": "opacity",
+            "from": 0,
+            "to": 1
+          },
+          {
+            "part": "emit-play",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "emit-pause",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "emit-close",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-play",
+            "mode": "opacity",
+            "value": 1
+          },
+          {
+            "part": "focus-pause",
+            "mode": "opacity",
+            "value": 0
+          },
+          {
+            "part": "focus-close",
+            "mode": "opacity",
+            "value": 0
+          }
+        ],
+        "controlLabels": [
+          "Play",
+          "Pause",
+          "Close"
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Pip",
+    "originalTitle": "PiP controls reveal",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "quick-settings-edit-tray",
+    "kind": "Reorder",
+    "durationMillis": 750,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/quick_wifi.svg",
+        "legacyPlacement": {
+          "x": -72,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          116,
+          102
+        ],
+        "semanticRole": "reorder-tile",
+        "fromSlot": 0,
+        "toSlot": 2,
+        "slotStep": 144,
+        "dragged": true,
+        "selected": true,
+        "focusable": true,
+        "liveLabels": [
+          {
+            "text": "Wi-Fi",
+            "x": 80,
+            "y": 115,
+            "fontSize": 19
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/quick_bluetooth.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          116,
+          102
+        ],
+        "semanticRole": "reorder-tile",
+        "fromSlot": 1,
+        "toSlot": 0,
+        "slotStep": 144,
+        "dragged": false,
+        "selected": false,
+        "focusable": false,
+        "liveLabels": [
+          {
+            "text": "Bluetooth",
+            "x": 80,
+            "y": 115,
+            "fontSize": 19
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/quick_dnd.svg",
+        "legacyPlacement": {
+          "x": 72,
+          "y": 0,
+          "scale": 1
+        },
+        "displaySize": [
+          116,
+          102
+        ],
+        "semanticRole": "reorder-tile",
+        "fromSlot": 2,
+        "toSlot": 1,
+        "slotStep": 144,
+        "dragged": false,
+        "selected": false,
+        "focusable": false,
+        "liveLabels": [
+          {
+            "text": "Quiet",
+            "x": 80,
+            "y": 115,
+            "fontSize": 19
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Reorder",
+    "originalTitle": "Quick Settings edit tray",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "embedded-photo-picker",
+    "kind": "Expand",
+    "durationMillis": 800,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/media_option.svg",
+        "legacyPlacement": {
+          "x": -72,
+          "y": -35,
+          "scale": 1
+        },
+        "displaySize": [
+          116,
+          116
+        ],
+        "selected": true,
+        "focusable": true,
+        "liveLabels": [
+          {
+            "format": "selectionCount",
+            "count": 2,
+            "x": 278.620689655,
+            "y": -36,
+            "fontSize": 22
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/media_option.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": -35,
+          "scale": 1
+        },
+        "displaySize": [
+          116,
+          116
+        ],
+        "selected": false,
+        "focusable": false,
+        "liveLabels": [],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/media_option.svg",
+        "legacyPlacement": {
+          "x": 72,
+          "y": -35,
+          "scale": 1
+        },
+        "displaySize": [
+          116,
+          116
+        ],
+        "selected": false,
+        "focusable": false,
+        "liveLabels": [],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/media_option.svg",
+        "legacyPlacement": {
+          "x": -72,
+          "y": 35,
+          "scale": 1
+        },
+        "displaySize": [
+          116,
+          116
+        ],
+        "selected": false,
+        "focusable": false,
+        "liveLabels": [],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/media_option.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 35,
+          "scale": 1
+        },
+        "displaySize": [
+          116,
+          116
+        ],
+        "selected": true,
+        "focusable": false,
+        "liveLabels": [],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/media_option.svg",
+        "legacyPlacement": {
+          "x": 72,
+          "y": 35,
+          "scale": 1
+        },
+        "displaySize": [
+          116,
+          116
+        ],
+        "selected": false,
+        "focusable": false,
+        "liveLabels": [],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Expand",
+    "originalTitle": "Embedded photo picker",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "loading-shimmer-sync",
+    "kind": "Shimmer",
+    "durationMillis": 1400,
+    "repeat": {
+      "mode": "count",
+      "count": 2
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.9
+        },
+        "stationary": true,
+        "motionParts": [
+          {
+            "part": "sweep-window",
+            "mode": "sweep-x",
+            "size": 512,
+            "band": 96
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Syncing",
+            "x": 256,
+            "y": 276,
+            "fontSize": 32
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Shimmer",
+    "originalTitle": "Loading shimmer / sync",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "biometric-failure-lockout",
+    "kind": "Warn",
+    "durationMillis": 1200,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": "TRY AGAIN",
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "AndroidWindowing",
+        "legacyCell": 9,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/biometric_socket.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Warn",
+    "originalTitle": "Biometric failure / lockout",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "hinge-posture-angle",
+    "kind": "Hinge",
+    "durationMillis": 1000,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/display_upper_frame.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": -42.5,
+          "scale": 1
+        },
+        "displaySize": [
+          280,
+          158
+        ],
+        "semanticRole": "hinge-upper",
+        "pivot": [
+          192,
+          216
+        ],
+        "liveLabels": [
+          {
+            "text": "Upper",
+            "x": 192,
+            "y": 42,
+            "fontSize": 24
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/display_lower_frame.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 36.25,
+          "scale": 1
+        },
+        "displaySize": [
+          181,
+          158
+        ],
+        "stationary": true,
+        "pivot": [
+          124,
+          0
+        ],
+        "liveLabels": [
+          {
+            "text": "Lower",
+            "x": 124,
+            "y": 42,
+            "fontSize": 24
+          },
+          {
+            "format": "angle",
+            "x": 124,
+            "y": 243,
+            "fontSize": 22
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Hinge",
+    "originalTitle": "Hinge posture / angle",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "game-assistant-overlay",
+    "kind": "Panel",
+    "durationMillis": 820,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": "GAME ASSIST",
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "ThorAdvanced",
+        "legacyCell": 2,
+        "source": "iterations/12-forge-controls-and-screens/masters/pilot-gaming_menu.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Panel",
+    "originalTitle": "Game Assistant overlay",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "controller-focus-transfer",
+    "kind": "Back",
+    "durationMillis": 820,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": true,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/owner_panel.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": -46,
+          "scale": 0.85
+        },
+        "stationary": true,
+        "liveLabels": [
+          {
+            "text": "Device control",
+            "x": 211,
+            "y": 99,
+            "fontSize": 24
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/owner_panel.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 46,
+          "scale": 0.85
+        },
+        "stationary": true,
+        "liveLabels": [
+          {
+            "text": "Game control",
+            "x": 211,
+            "y": 99,
+            "fontSize": 24
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Back",
+    "originalTitle": "Controller focus transfer",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "touch-mapping-editor",
+    "kind": "Stack",
+    "durationMillis": 650,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/touch_targets.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1.4
+        },
+        "motionParts": [
+          {
+            "part": "target-0",
+            "mode": "emission",
+            "value": 1
+          },
+          {
+            "part": "target-1",
+            "mode": "emission",
+            "value": 0
+          },
+          {
+            "part": "target-2",
+            "mode": "emission",
+            "value": 0
+          },
+          {
+            "part": "target-3",
+            "mode": "emission",
+            "value": 0
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "A",
+            "x": 90,
+            "y": 196,
+            "fontSize": 20
+          },
+          {
+            "text": "B",
+            "x": 330,
+            "y": 126,
+            "fontSize": 20
+          },
+          {
+            "text": "X",
+            "x": 405,
+            "y": 186,
+            "fontSize": 20
+          },
+          {
+            "text": "Y",
+            "x": 350,
+            "y": 243,
+            "fontSize": 20
+          }
+        ],
+        "capabilityFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Stack",
+    "originalTitle": "Touch-mapping editor",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "analog-trigger-calibration",
+    "kind": "Calibrate",
+    "durationMillis": 1250,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/trigger_meter.svg",
+        "legacyPlacement": {
+          "x": -53,
+          "y": 0,
+          "scale": 0.9
+        },
+        "stationary": true,
+        "targetFill": 1,
+        "startFill": 0,
+        "motionParts": [
+          {
+            "part": "fill-window",
+            "mode": "fill-y",
+            "x": 62,
+            "bottom": 196,
+            "width": 52,
+            "height": 92
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Left trigger",
+            "x": 88,
+            "y": 28,
+            "fontSize": 18
+          },
+          {
+            "format": "percent",
+            "x": 88,
+            "y": 219,
+            "fontSize": 20
+          }
+        ],
+        "capabilityFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/trigger_meter.svg",
+        "legacyPlacement": {
+          "x": 53,
+          "y": 0,
+          "scale": 0.9
+        },
+        "stationary": true,
+        "targetFill": 0.72,
+        "startFill": 0,
+        "motionParts": [
+          {
+            "part": "fill-window",
+            "mode": "fill-y",
+            "x": 62,
+            "bottom": 196,
+            "width": 52,
+            "height": 92
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Right trigger",
+            "x": 88,
+            "y": 28,
+            "fontSize": 18
+          },
+          {
+            "format": "percent",
+            "x": 88,
+            "y": 219,
+            "fontSize": 20
+          }
+        ],
+        "capabilityFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Calibrate",
+    "originalTitle": "Analog trigger calibration",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "dual-screen-app-drag",
+    "kind": "Swap",
+    "durationMillis": 1000,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/display_upper_frame.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": -52.5,
+          "scale": 1
+        },
+        "displaySize": [
+          260,
+          147
+        ],
+        "stationary": true,
+        "selected": false,
+        "focusable": false,
+        "liveLabels": [
+          {
+            "text": "Upper",
+            "x": 192,
+            "y": 42,
+            "fontSize": 24
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/display_lower_frame.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 47.5,
+          "scale": 1
+        },
+        "displaySize": [
+          168,
+          147
+        ],
+        "stationary": true,
+        "selected": false,
+        "focusable": false,
+        "liveLabels": [
+          {
+            "text": "Lower",
+            "x": 124,
+            "y": 42,
+            "fontSize": 24
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/activity_card.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": -43.5,
+          "scale": 1
+        },
+        "displaySize": [
+          100,
+          67
+        ],
+        "semanticRole": "screen-drag-card",
+        "liveLabels": [],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Swap",
+    "originalTitle": "Dual-screen app drag",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "fan-curve-auto-mode",
+    "kind": "Curve",
+    "durationMillis": 1150,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/fan_curve.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 1.2
+        },
+        "stationary": true,
+        "targetFill": 1,
+        "startFill": 0,
+        "motionParts": [
+          {
+            "part": "curve-window",
+            "mode": "fill-x",
+            "x": 50,
+            "y": 40,
+            "width": 326,
+            "height": 154
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Fan speed",
+            "x": 110,
+            "y": 29,
+            "fontSize": 18
+          },
+          {
+            "text": "Temperature",
+            "x": 210,
+            "y": 224,
+            "fontSize": 18
+          },
+          {
+            "text": "Auto",
+            "x": 300,
+            "y": 243,
+            "fontSize": 22
+          }
+        ],
+        "capabilityFixture": true,
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Curve",
+    "originalTitle": "Fan curve / auto mode",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  },
+  {
+    "id": "rgb-mode-color-select",
+    "kind": "Breathe",
+    "durationMillis": 2200,
+    "repeat": {
+      "mode": "loop",
+      "count": 1
+    },
+    "label": "EMBER",
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "legacyAtlas": "ThorAdvanced",
+        "legacyCell": 8,
+        "source": "iterations/13-forge-android-and-thor-flows/masters/rgb_zone.svg",
+        "legacyPlacement": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        },
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Breathe",
+    "originalTitle": "RGB mode / color select",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership.",
+    "title": "Ember lighting selection",
+    "description": "Selected lighting uses separate ember-intensity masks. Cold steel and hue stay fixed; reduced motion is steady."
+  },
+  {
+    "id": "five-band-eq-preset",
+    "kind": "Equalize",
+    "durationMillis": 1200,
+    "repeat": {
+      "mode": "count",
+      "count": 1
+    },
+    "label": null,
+    "labelAnchor": "below",
+    "labelLayer": 0,
+    "authoredLocale": "en-US",
+    "focusNeutralOnly": false,
+    "steadyStatus": false,
+    "newLayers": [
+      {
+        "source": "iterations/16-forge-motion/masters/eq_band.svg",
+        "legacyPlacement": {
+          "x": -76,
+          "y": 0,
+          "scale": 0.9
+        },
+        "targetFill": 0.3,
+        "startFill": 0.5,
+        "motionParts": [
+          {
+            "part": "thumb",
+            "mode": "move-y",
+            "range": -220
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Bass",
+            "x": 40,
+            "y": 342,
+            "fontSize": 18
+          },
+          {
+            "format": "gain",
+            "x": 40,
+            "y": 298,
+            "fontSize": 18
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/eq_band.svg",
+        "legacyPlacement": {
+          "x": -38,
+          "y": 0,
+          "scale": 0.9
+        },
+        "targetFill": 0.65,
+        "startFill": 0.5,
+        "motionParts": [
+          {
+            "part": "thumb",
+            "mode": "move-y",
+            "range": -220
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Low mids",
+            "x": 40,
+            "y": 342,
+            "fontSize": 18
+          },
+          {
+            "format": "gain",
+            "x": 40,
+            "y": 298,
+            "fontSize": 18
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/eq_band.svg",
+        "legacyPlacement": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.9
+        },
+        "targetFill": 0.5,
+        "startFill": 0.5,
+        "motionParts": [
+          {
+            "part": "thumb",
+            "mode": "move-y",
+            "range": -220
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Mids",
+            "x": 40,
+            "y": 342,
+            "fontSize": 18
+          },
+          {
+            "format": "gain",
+            "x": 40,
+            "y": 298,
+            "fontSize": 18
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/eq_band.svg",
+        "legacyPlacement": {
+          "x": 38,
+          "y": 0,
+          "scale": 0.9
+        },
+        "targetFill": 0.8,
+        "startFill": 0.5,
+        "motionParts": [
+          {
+            "part": "thumb",
+            "mode": "move-y",
+            "range": -220
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "High mids",
+            "x": 40,
+            "y": 342,
+            "fontSize": 18
+          },
+          {
+            "format": "gain",
+            "x": 40,
+            "y": 298,
+            "fontSize": 18
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      },
+      {
+        "source": "iterations/16-forge-motion/masters/eq_band.svg",
+        "legacyPlacement": {
+          "x": 76,
+          "y": 0,
+          "scale": 0.9
+        },
+        "targetFill": 0.4,
+        "startFill": 0.5,
+        "motionParts": [
+          {
+            "part": "thumb",
+            "mode": "move-y",
+            "range": -220
+          }
+        ],
+        "liveLabels": [
+          {
+            "text": "Treble",
+            "x": 40,
+            "y": 342,
+            "fontSize": 18
+          },
+          {
+            "format": "gain",
+            "x": 40,
+            "y": 298,
+            "fontSize": 18
+          }
+        ],
+        "playbackReviewed": false,
+        "status": "SOURCE_MAPPED_PLAYBACK_PENDING"
+      }
+    ],
+    "pendingArtwork": [],
+    "status": "PENDING",
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "originalKind": "Equalize",
+    "originalTitle": "Five-band EQ / preset",
+    "disposition": "animated",
+    "dispositionReason": "Dedicated geometry/mask timeline with lifecycle and reduced-motion ownership."
+  }
+]

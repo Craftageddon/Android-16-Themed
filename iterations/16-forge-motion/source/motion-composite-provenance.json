@@ -1,0 +1,742 @@
+{
+  "components": [
+    {
+      "id": "fan_rotor",
+      "size": [
+        360.0,
+        360.0
+      ],
+      "motionParts": [
+        "rotor"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "charge_vessel",
+      "size": [
+        200.0,
+        300.0
+      ],
+      "motionParts": [
+        "fill-window"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "progress_vessel",
+      "size": [
+        360.0,
+        128.0
+      ],
+      "motionParts": [
+        "fill-window"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "slider_rail",
+      "size": [
+        320.0,
+        80.0
+      ],
+      "motionParts": [
+        "fill-window",
+        "thumb"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "eq_band",
+      "size": [
+        80.0,
+        320.0
+      ],
+      "motionParts": [
+        "thumb"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "english_keyboard",
+      "size": [
+        620.0,
+        310.0
+      ],
+      "motionParts": [
+        "emit-key-a",
+        "emit-key-b",
+        "emit-key-backspace",
+        "emit-key-c",
+        "emit-key-d",
+        "emit-key-e",
+        "emit-key-enter",
+        "emit-key-f",
+        "emit-key-g",
+        "emit-key-h",
+        "emit-key-i",
+        "emit-key-j",
+        "emit-key-k",
+        "emit-key-l",
+        "emit-key-m",
+        "emit-key-n",
+        "emit-key-numbers",
+        "emit-key-o",
+        "emit-key-p",
+        "emit-key-q",
+        "emit-key-r",
+        "emit-key-s",
+        "emit-key-shift",
+        "emit-key-space",
+        "emit-key-t",
+        "emit-key-u",
+        "emit-key-v",
+        "emit-key-w",
+        "emit-key-x",
+        "emit-key-y",
+        "emit-key-z",
+        "focus-key-a",
+        "focus-key-b",
+        "focus-key-backspace",
+        "focus-key-c",
+        "focus-key-d",
+        "focus-key-e",
+        "focus-key-enter",
+        "focus-key-f",
+        "focus-key-g",
+        "focus-key-h",
+        "focus-key-i",
+        "focus-key-j",
+        "focus-key-k",
+        "focus-key-l",
+        "focus-key-m",
+        "focus-key-n",
+        "focus-key-numbers",
+        "focus-key-o",
+        "focus-key-p",
+        "focus-key-q",
+        "focus-key-r",
+        "focus-key-s",
+        "focus-key-shift",
+        "focus-key-space",
+        "focus-key-t",
+        "focus-key-u",
+        "focus-key-v",
+        "focus-key-w",
+        "focus-key-x",
+        "focus-key-y",
+        "focus-key-z"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "selection_handles",
+      "size": [
+        360.0,
+        150.0
+      ],
+      "motionParts": [
+        "left-handle",
+        "right-handle"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "copy_toolbar",
+      "size": [
+        332.0,
+        112.0
+      ],
+      "motionParts": [
+        "emit-copy",
+        "emit-cut",
+        "emit-paste",
+        "focus-copy",
+        "focus-cut",
+        "focus-paste"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "privacy_pill",
+      "size": [
+        300.0,
+        100.0
+      ],
+      "motionParts": [
+        "emit-camera",
+        "emit-microphone"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "power_actions",
+      "size": [
+        340.0,
+        300.0
+      ],
+      "motionParts": [
+        "emit-lockdown",
+        "emit-power",
+        "emit-restart",
+        "focus-lockdown",
+        "focus-power",
+        "focus-restart"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "clipboard_panel",
+      "size": [
+        440.0,
+        250.0
+      ],
+      "motionParts": [
+        "emit-copy",
+        "emit-delete",
+        "emit-share",
+        "focus-copy",
+        "focus-delete",
+        "focus-share"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "direction_cap",
+      "size": [
+        96.0,
+        96.0
+      ],
+      "motionParts": [
+        "arrow"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "activity_card",
+      "size": [
+        360.0,
+        240.0
+      ],
+      "motionParts": [],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "pip_card",
+      "size": [
+        360.0,
+        240.0
+      ],
+      "motionParts": [
+        "emit-close",
+        "emit-pause",
+        "emit-play",
+        "focus-close",
+        "focus-pause",
+        "focus-play",
+        "pip-controls"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "quick_wifi",
+      "size": [
+        160.0,
+        140.0
+      ],
+      "motionParts": [],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "quick_bluetooth",
+      "size": [
+        160.0,
+        140.0
+      ],
+      "motionParts": [],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "quick_dnd",
+      "size": [
+        160.0,
+        140.0
+      ],
+      "motionParts": [],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "media_option",
+      "size": [
+        160.0,
+        160.0
+      ],
+      "motionParts": [],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "display_upper_frame",
+      "size": [
+        384.0,
+        216.0
+      ],
+      "motionParts": [],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "display_lower_frame",
+      "size": [
+        248.0,
+        216.0
+      ],
+      "motionParts": [],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "owner_panel",
+      "size": [
+        340.0,
+        180.0
+      ],
+      "motionParts": [],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "touch_targets",
+      "size": [
+        500.0,
+        300.0
+      ],
+      "motionParts": [
+        "target-0",
+        "target-1",
+        "target-2",
+        "target-3"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "fan_curve",
+      "size": [
+        420.0,
+        280.0
+      ],
+      "motionParts": [
+        "curve-window"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "hold_charge",
+      "size": [
+        240.0,
+        240.0
+      ],
+      "motionParts": [
+        "charge-arc"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "loading_shimmer",
+      "size": [
+        256.0,
+        256.0
+      ],
+      "motionParts": [
+        "sweep-window"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "milestone_track",
+      "size": [
+        420.0,
+        160.0
+      ],
+      "motionParts": [
+        "milestone-window",
+        "step-0",
+        "step-1",
+        "step-2",
+        "step-3",
+        "step-4"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "thermal_meter",
+      "size": [
+        300.0,
+        220.0
+      ],
+      "motionParts": [
+        "needle"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "trigger_meter",
+      "size": [
+        176.0,
+        240.0
+      ],
+      "motionParts": [
+        "fill-window"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "biometric_scan",
+      "size": [
+        160.0,
+        160.0
+      ],
+      "motionParts": [
+        "scan-window"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    },
+    {
+      "id": "face_scan",
+      "size": [
+        240.0,
+        240.0
+      ],
+      "motionParts": [
+        "scan-window"
+      ],
+      "nativeIntegrated": false,
+      "deviceVerified": false,
+      "coldSource": "Original editable geometry with unchanged existing steel material",
+      "layers": [
+        "cold",
+        "reflection",
+        "spill",
+        "seam",
+        "core",
+        "focus",
+        "symbol"
+      ]
+    }
+  ],
+  "materialSha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+}

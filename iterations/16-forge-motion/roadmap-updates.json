@@ -1,0 +1,14 @@
+{
+  "ES-057": {
+    "design_status": "Reference Forge desktop motion checkpoint",
+    "evidence_scope": "Iteration 16: 114 explicit recipe dispositions (103 animated and 11 steady status), 30 new layered masters, 1140 sampled desktop frames, 32 source tests, 352 compiled English native resources. Browser/native/target acceptance NOT RUN."
+  },
+  "ES-058": {
+    "design_status": "Reference Forge desktop motion checkpoint",
+    "evidence_scope": "Iteration 16: 114 explicit recipe dispositions (103 animated and 11 steady status), 30 new layered masters, 1140 sampled desktop frames, 32 source tests, 352 compiled English native resources. Browser/native/target acceptance NOT RUN."
+  },
+  "ES-071": {
+    "design_status": "Reference Forge desktop motion checkpoint",
+    "evidence_scope": "Iteration 16: 114 explicit recipe dispositions (103 animated and 11 steady status), 30 new layered masters, 1140 sampled desktop frames, 32 source tests, 352 compiled English native resources. Browser/native/target acceptance NOT RUN."
+  }
+}
