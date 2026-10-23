@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-23",
+  "sourcePins": [
+    {
+      "key": "device",
+      "repository": "LineageOS/android_device_ayn_odin2thor",
+      "branch": "lineage-24.0",
+      "commit": "bd710361dc03c7a72f86095c2b28ae40526f667a",
+      "path": "lineage_odin2thor.mk",
+      "sourceUrl": "https://raw.githubusercontent.com/LineageOS/android_device_ayn_odin2thor/bd710361dc03c7a72f86095c2b28ae40526f667a/lineage_odin2thor.mk",
+      "sha256": "869c23b3d8db9e99a4c54134b662f6345ec2323b8059262ab55575a513e7d1e7",
+      "packageId": null,
+      "result": "PASS"
+    },
+    {
+      "key": "files",
+      "repository": "LineageOS/android_packages_apps_DocumentsUI",
+      "branch": "lineage-24.0",
+      "commit": "7f7e65f7600b181647d52aa869290ad63372d169",
+      "path": "AndroidManifest.xml",
+      "sourceUrl": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_DocumentsUI/7f7e65f7600b181647d52aa869290ad63372d169/AndroidManifest.xml",
+      "sha256": "29ac3fc6cd535fcf48cda8bc61e829cd6f78cd3a616a3a095f0caa7752cc3f56",
+      "packageId": "com.android.documentsui",
+      "result": "PASS"
+    },
+    {
+      "key": "gallery",
+      "repository": "LineageOS/android_packages_apps_Glimpse",
+      "branch": "lineage-24.0",
+      "commit": "89b473594ec8ad01417624e670912450ce5df7e9",
+      "path": "app/build.gradle.kts",
+      "sourceUrl": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Glimpse/89b473594ec8ad01417624e670912450ce5df7e9/app/build.gradle.kts",
+      "sha256": "efb66af580cbc7ddf4899b3ab90bb0c80b4831a59fc51bd4011807edadb61778",
+      "packageId": "org.lineageos.glimpse",
+      "result": "PASS"
+    },
+    {
+      "key": "settings",
+      "repository": "LineageOS/android_packages_apps_Settings",
+      "branch": "lineage-24.0",
+      "commit": "0b97deb37dcba757a3130899273fb4c298702f00",
+      "path": "AndroidManifest.xml",
+      "sourceUrl": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Settings/0b97deb37dcba757a3130899273fb4c298702f00/AndroidManifest.xml",
+      "sha256": "7181059dc8268f013228508166e79ab50aefe02b385d58781e19276a70d3913e",
+      "packageId": "com.android.settings",
+      "result": "PASS"
+    }
+  ],
+  "deviceInventory": "User chose to continue without a connected device; installed packages and physical acceptance NOT RUN"
+}

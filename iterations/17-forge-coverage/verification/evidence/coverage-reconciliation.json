@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-23",
+  "retainedRecords": 3423,
+  "validFamilyGroups": 1272,
+  "decisions": {
+    "Historical reference": 654,
+    "Rebuild material": 441,
+    "Redraw geometry": 99,
+    "Supporting source": 78
+  },
+  "unresolvedProductionFamilies": [],
+  "currentReplacementFiles": 358,
+  "method": "Explicit semantic aliases and reviewed source-role dispositions; current path/hash verification. Historical source integrity remains the earlier inventory evidence.",
+  "nativeAndInstalledAppAcceptance": "NOT RUN"
+}

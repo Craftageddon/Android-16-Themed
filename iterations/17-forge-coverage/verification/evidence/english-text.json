@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-23",
+  "authoredLocale": "en-US",
+  "svgFiles": 727,
+  "liveTextNodes": 2156,
+  "nonEnglishAlphabeticLabels": [],
+  "result": "PASS",
+  "scope": [
+    "17-forge-coverage"
+  ],
+  "method": "Parse actual SVG text nodes; reject non-ASCII alphabetic fixtures. English catalog wording reviewed separately. Punctuation/key/status symbols are allowed. No claim about historical APK runtime text."
+}
