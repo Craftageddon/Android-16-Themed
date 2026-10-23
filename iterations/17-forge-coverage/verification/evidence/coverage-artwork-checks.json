@@ -1,0 +1,31 @@
+{
+  "result": "PASS",
+  "date": "2026-10-23",
+  "components": 66,
+  "semanticUtilitySymbols": 28,
+  "opticalUtilityMasters": 56,
+  "authoredAppIdentities": 10,
+  "productionLayerExports": 924,
+  "neutralMasks": 792,
+  "exactStateRecompositions": 528,
+  "adaptiveSafeCircleChecked": [
+    "forge",
+    "pattern_forge",
+    "library",
+    "armory",
+    "emberchat",
+    "portal",
+    "workshop",
+    "files",
+    "gallery",
+    "settings"
+  ],
+  "compiledAndroidResourceFiles": 60,
+  "retainedFileDispositions": 3423,
+  "invalidRecordExcluded": 1,
+  "retainedFamilyDecisions": 1272,
+  "unresolvedNamedProductionFamilies": 0,
+  "authoredLocale": "en-US",
+  "method": "Actual SVG/PNG alpha and neutral channels, exact state recomposition, cold-off equality, native foreground and parsed monochrome safe-circle pixels, AAPT2 resource ZIP, exact family/file key conservation and replacement hashes",
+  "limits": "Semantic reconciliation does not establish installed app coverage or approve every old raster. Native, browser and device acceptance NOT RUN."
+}

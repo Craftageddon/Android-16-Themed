@@ -1,3 +1,11 @@
+# Complete current visual handoff - 2026-10-23
+
+Iteration 17 consolidates **472 current production master files, 189 editable compositions and 36 contact sheets**, and closes all 1,272 retained candidate groups with explicit source-role decisions. It adds 28 missing semantic utility symbols and 10 authored app identities (66 layered masters, 924 production exports). Default native English strings and adaptive-icon/vector resources compile. See [the current library](iterations/17-forge-coverage/README.md) and its bounded review/evidence. This completes the defined authored desktop handoff; installed app coverage and native/device acceptance remain open.
+
+The user explicitly chose to continue without a connected Thor. Native integration is next. The official API now lists the 2026-10-19 LineageOS 24.0 odin2thor build; its 306,156-byte build-source manifest was downloaded and matches the official SHA256. Exact device/framework/app source revisions are pinned. The 1.34GB OTA was not downloaded or signature-verified. The factory-image candidate and signer-trust limitations remain preserved separately. No hardware modification occurred.
+
+Earlier status below is historical context; the latest checkpoint and active requirement register control current completion claims.
+
 # Motion and English text checkpoint - 2026-10-23
 
 Iteration 16 adds 30 missing motion composites and explicit artwork bindings for all 114 retained recipes, with 1,140 sampled desktop frames and 32 passing source tests. All visible wording is English; 352 default Android string resources compile. Cold steel and separate neutral light masks remain intact. See [the motion checkpoint](iterations/16-forge-motion/README.md) and its bounded [desktop review](iterations/16-forge-motion/REVIEW.md). Historical/app-specific reconciliation and native/device acceptance remain open; no device was flashed.

@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "date": "2026-10-23",
+  "portableMasters": 472,
+  "portableCompositions": 189,
+  "liveEnglishTextNodes": 2157,
+  "resolvedImageReferences": 1899,
+  "sharedRasters": 10,
+  "masterSheets": 20,
+  "compositionSheets": 16,
+  "method": "Re-open source and portable XML independently; SHA256 source and copied files; exact geometry/attribute/live-text parity excluding normalized image paths; reference containment and raster hashes; parse all live labels and verify all sheet PNGs.",
+  "limits": "Representative sheets manually inspected. No automated browser, Inkscape editing round trip, native renderer or physical device acceptance claimed."
+}

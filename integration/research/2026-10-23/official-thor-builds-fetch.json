@@ -1,0 +1,10 @@
+{
+  "url": "https://download.lineageos.org/api/v2/devices/odin2thor/builds",
+  "date": "2026-10-23",
+  "httpStatus": 200,
+  "contentType": "application/json",
+  "sha256": "66c70c478b0f18c1006c7682ae13b18a9b4d7e3cbfb02df8a1f4f4496d0d3718",
+  "responseFile": "official-thor-builds-response.json",
+  "jsonType": "list",
+  "scope": "Retrieved official build API metadata only; no ROM download, signature or device compatibility verified"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "key": "files",
+    "repository": "LineageOS/android_packages_apps_DocumentsUI",
+    "commit": "7f7e65f7600b181647d52aa869290ad63372d169",
+    "path": "AndroidManifest.xml",
+    "sourceUrl": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_DocumentsUI/7f7e65f7600b181647d52aa869290ad63372d169/AndroidManifest.xml",
+    "sha256": "29ac3fc6cd535fcf48cda8bc61e829cd6f78cd3a616a3a095f0caa7752cc3f56",
+    "packageId": "com.android.documentsui",
+    "result": "PASS",
+    "baseline": "Hash-verified official odin2thor 24.0 build manifest, 2026-10-19"
+  },
+  {
+    "key": "gallery",
+    "repository": "LineageOS/android_packages_apps_Glimpse",
+    "commit": "89b473594ec8ad01417624e670912450ce5df7e9",
+    "path": "app/build.gradle.kts",
+    "sourceUrl": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Glimpse/89b473594ec8ad01417624e670912450ce5df7e9/app/build.gradle.kts",
+    "sha256": "efb66af580cbc7ddf4899b3ab90bb0c80b4831a59fc51bd4011807edadb61778",
+    "packageId": "org.lineageos.glimpse",
+    "result": "PASS",
+    "baseline": "Hash-verified official odin2thor 24.0 build manifest, 2026-10-19"
+  },
+  {
+    "key": "settings",
+    "repository": "LineageOS/android_packages_apps_Settings",
+    "commit": "b9b9d68135714d9a84741620e9386e1d43931139",
+    "path": "AndroidManifest.xml",
+    "sourceUrl": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Settings/b9b9d68135714d9a84741620e9386e1d43931139/AndroidManifest.xml",
+    "sha256": "7181059dc8268f013228508166e79ab50aefe02b385d58781e19276a70d3913e",
+    "packageId": "com.android.settings",
+    "result": "PASS",
+    "baseline": "Hash-verified official odin2thor 24.0 build manifest, 2026-10-19"
+  }
+]

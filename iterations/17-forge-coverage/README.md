@@ -1,0 +1,15 @@
+# Reference Forge 17 - complete current visual handoff
+
+The current authored catalog is consolidated here: 472 unlabelled production SVG master files, 189 editable screen/input compositions, and 36 contact sheets. Open current-library/index.html manually, or open the individual portable SVGs in Inkscape. All linked PNG material bytes are preserved. Production masters start cold, with separate neutral reflection, spill, seam, core, focus and selection masks. English labels remain editable/live.
+
+The new artwork fills 28 utility-symbol gaps in compact/detailed forms and supplies 10 authored app identities: 66 new masters and 924 transparent production exports. Explicit off-value symbols remain cold in every state. Native resources include cold adaptive foregrounds, safe-area monochrome vectors, compact utility vectors and 38 default English strings; 60 resource files compile with SDK 37 tools.
+
+The full current inventory consists of 164 named utility/system symbols (328 optical masters), 9 sculpted motifs, 64 controls/pilot masters, 4 scalable frames, 18 flow components, 9 atmosphere/wallpaper masters, 30 motion composites and 10 app identities. These are 472 source files, not 472 unrelated semantic families. Eighteen unchanged journey copies are excluded from that count. The 189 review compositions include sample lighting and live English text; they are not production cold backgrounds. Iteration 16 retains the complete 114-recipe motion runtime and sampled frames separately.
+
+All 1,272 proposed retained source families have explicit role decisions linked to current replacements or preserved references: 441 material rebuilds, 99 geometry redraws, 654 historical references and 78 supporting sources. All 3,423 retained records are conserved; one invalid zero-byte record is explicitly excluded. This is source-role reconciliation, not fresh visual approval of every historical raster.
+
+App identities are an authored target list. Files, Gallery and Settings package IDs are verified against the exact official Thor build-source manifest. Seven Craftageddon concept identities have no invented package IDs. The installed Thor app list is unknown; the user chose to continue without a connected device.
+
+The native target is official LineageOS 24.0 / Android 17 / API 37, AYN odin2thor. The official 2026-10-19 OTA listing and hash-verified source manifest are saved under integration/research/2026-10-23 in the repository. The OTA itself was not downloaded or cryptographically verified. The preserved factory-image candidate has separate provenance/trust limitations.
+
+The signed complete-assets.zip is a source/design checkpoint. distribution/ holds checksum-verifiable transport parts for GitHub. The detached RSA-PSS signature authenticates the pinned Craftageddon artifact identity, not an Android platform or manufacturer signer. V1/V2 are bounded desktop/source checks; native integration, performance, accessibility and physical V3 remain pending. No hardware was installed, modified or flashed.

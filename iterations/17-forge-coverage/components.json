@@ -1,0 +1,1784 @@
+[
+  {
+    "id": "pin_dot_empty__compact",
+    "semanticId": "pin_dot_empty",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "pin_dot_empty__detailed",
+    "semanticId": "pin_dot_empty",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "pin_dot_filled__compact",
+    "semanticId": "pin_dot_filled",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "pin_dot_filled__detailed",
+    "semanticId": "pin_dot_filled",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "phone__compact",
+    "semanticId": "phone",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "phone__detailed",
+    "semanticId": "phone",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mail__compact",
+    "semanticId": "mail",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "mail__detailed",
+    "semanticId": "mail",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "photo__compact",
+    "semanticId": "photo",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "photo__detailed",
+    "semanticId": "photo",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "filter__compact",
+    "semanticId": "filter",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "filter__detailed",
+    "semanticId": "filter",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "crop__compact",
+    "semanticId": "crop",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "crop__detailed",
+    "semanticId": "crop",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "draw__compact",
+    "semanticId": "draw",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "draw__detailed",
+    "semanticId": "draw",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "enter__compact",
+    "semanticId": "enter",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "enter__detailed",
+    "semanticId": "enter",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "pin__compact",
+    "semanticId": "pin",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "pin__detailed",
+    "semanticId": "pin",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "undo__compact",
+    "semanticId": "undo",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "undo__detailed",
+    "semanticId": "undo",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "redo__compact",
+    "semanticId": "redo",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "redo__detailed",
+    "semanticId": "redo",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "visibility__compact",
+    "semanticId": "visibility",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "visibility__detailed",
+    "semanticId": "visibility",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "visibility_off__compact",
+    "semanticId": "visibility_off",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": true,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "visibility_off__detailed",
+    "semanticId": "visibility_off",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": true,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "select_all__compact",
+    "semanticId": "select_all",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "select_all__detailed",
+    "semanticId": "select_all",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "media_previous__compact",
+    "semanticId": "media_previous",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "media_previous__detailed",
+    "semanticId": "media_previous",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "media_next__compact",
+    "semanticId": "media_next",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "media_next__detailed",
+    "semanticId": "media_next",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "gesture_bar__compact",
+    "semanticId": "gesture_bar",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "gesture_bar__detailed",
+    "semanticId": "gesture_bar",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "music_note__compact",
+    "semanticId": "music_note",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "music_note__detailed",
+    "semanticId": "music_note",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "send__compact",
+    "semanticId": "send",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "send__detailed",
+    "semanticId": "send",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "flashlight_on__compact",
+    "semanticId": "flashlight_on",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "flashlight_on__detailed",
+    "semanticId": "flashlight_on",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "flashlight_off__compact",
+    "semanticId": "flashlight_off",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": true,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "flashlight_off__detailed",
+    "semanticId": "flashlight_off",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": true,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "unlock__compact",
+    "semanticId": "unlock",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "unlock__detailed",
+    "semanticId": "unlock",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sim_download__compact",
+    "semanticId": "sim_download",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sim_download__detailed",
+    "semanticId": "sim_download",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "fingerprint__compact",
+    "semanticId": "fingerprint",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "fingerprint__detailed",
+    "semanticId": "fingerprint",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "clock__compact",
+    "semanticId": "clock",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "clock__detailed",
+    "semanticId": "clock",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "brightness_high__compact",
+    "semanticId": "brightness_high",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "brightness_high__detailed",
+    "semanticId": "brightness_high",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "brightness_low__compact",
+    "semanticId": "brightness_low",
+    "type": "utility-symbol",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "brightness_low__detailed",
+    "semanticId": "brightness_low",
+    "type": "utility-symbol",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-forge",
+    "semanticId": "forge",
+    "type": "app-identity",
+    "optical": "app",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-pattern_forge",
+    "semanticId": "pattern_forge",
+    "type": "app-identity",
+    "optical": "app",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-library",
+    "semanticId": "library",
+    "type": "app-identity",
+    "optical": "app",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-armory",
+    "semanticId": "armory",
+    "type": "app-identity",
+    "optical": "app",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-emberchat",
+    "semanticId": "emberchat",
+    "type": "app-identity",
+    "optical": "app",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-portal",
+    "semanticId": "portal",
+    "type": "app-identity",
+    "optical": "app",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-workshop",
+    "semanticId": "workshop",
+    "type": "app-identity",
+    "optical": "app",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-files",
+    "semanticId": "files",
+    "type": "app-identity",
+    "optical": "app",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-gallery",
+    "semanticId": "gallery",
+    "type": "app-identity",
+    "optical": "app",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-settings",
+    "semanticId": "settings",
+    "type": "app-identity",
+    "optical": "app",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2
+    ],
+    "emissionLockedOff": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  }
+]

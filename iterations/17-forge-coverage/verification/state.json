@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "5c6754aba45cd92a91118efb5c57c02b5b0cc7c44b77883599075c943560211c"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-23T13:46:28+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "881f59f23b5572db37bc9777a2997afa24f514d16f461b1aa2f567f0dda25562",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-23T13:46:28+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "0ae78d0baca38da7021d4c341915cee8d810bd4cbc02086f5cda64d46d66e9ad",
+      "independence": null,
+      "method": "Independent source/portable XML geometry and live-text parity, SHA256 raster/reference conservation, PNG alpha and neutral masks, exact 528 state recompositions, adaptive safe-circle pixels and AAPT2 resource compilation.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-23T13:46:28+00:00",
+  "project": "17-forge-coverage",
+  "schema": 1,
+  "status": "V2_PASS"
+}
