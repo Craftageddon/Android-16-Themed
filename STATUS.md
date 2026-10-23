@@ -1,3 +1,7 @@
+# Motion and English text checkpoint - 2026-10-23
+
+Iteration 16 adds 30 missing motion composites and explicit artwork bindings for all 114 retained recipes, with 1,140 sampled desktop frames and 32 passing source tests. All visible wording is English; 352 default Android string resources compile. Cold steel and separate neutral light masks remain intact. See [the motion checkpoint](iterations/16-forge-motion/README.md) and its bounded [desktop review](iterations/16-forge-motion/REVIEW.md). Historical/app-specific reconciliation and native/device acceptance remain open; no device was flashed.
+
 # Redesign checkpoint status — 2026-10-22
 
 ## Active goal update — 2026-10-22

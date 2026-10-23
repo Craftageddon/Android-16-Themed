@@ -1,0 +1,202 @@
+TAP version 13
+# Subtest: replaying repeatedly never schedules more than one frame
+ok 1 - replaying repeatedly never schedules more than one frame
+  ---
+  duration_ms: 1.0933
+  type: 'test'
+  ...
+# Subtest: hidden, detached, suspended, reduced and disabled stop pending work
+ok 2 - hidden, detached, suspended, reduced and disabled stop pending work
+  ---
+  duration_ms: 0.6628
+  type: 'test'
+  ...
+# Subtest: hidden return does not silently resume an old loop
+ok 3 - hidden return does not silently resume an old loop
+  ---
+  duration_ms: 0.1157
+  type: 'test'
+  ...
+# Subtest: review loops stop at two cycles without changing retained recipe
+ok 4 - review loops stop at two cycles without changing retained recipe
+  ---
+  duration_ms: 0.104
+  type: 'test'
+  ...
+# Subtest: seek is deterministic and does not own a running clock
+ok 5 - seek is deterministic and does not own a running clock
+  ---
+  duration_ms: 0.1547
+  type: 'test'
+  ...
+# Subtest: disposal and recipe replacement cancel old frames
+ok 6 - disposal and recipe replacement cancel old frames
+  ---
+  duration_ms: 0.0837
+  type: 'test'
+  ...
+# Subtest: replacement never draws the previous recipe into newly bound artwork
+ok 7 - replacement never draws the previous recipe into newly bound artwork
+  ---
+  duration_ms: 0.0814
+  type: 'test'
+  ...
+# Subtest: battery settles to 68 percent without clipping its steel vessel
+ok 8 - battery settles to 68 percent without clipping its steel vessel
+  ---
+  duration_ms: 1.1558
+  type: 'test'
+  ...
+# Subtest: low battery warning holds the actual 15 percent geometry
+ok 9 - low battery warning holds the actual 15 percent geometry
+  ---
+  duration_ms: 0.6368
+  type: 'test'
+  ...
+# Subtest: out-of-range input clamps both geometry and English readout
+ok 10 - out-of-range input clamps both geometry and English readout
+  ---
+  duration_ms: 0.4135
+  type: 'test'
+  ...
+# Subtest: progress and thumb meet at the same exact horizontal value
+ok 11 - progress and thumb meet at the same exact horizontal value
+  ---
+  duration_ms: 0.141
+  type: 'test'
+  ...
+# Subtest: EQ bands reach five independent targets and remain static in reduced motion
+ok 12 - EQ bands reach five independent targets and remain static in reduced motion
+  ---
+  duration_ms: 0.5735
+  type: 'test'
+  ...
+# Subtest: stationary companion symbols cannot inherit the old slider-thumb travel
+ok 13 - stationary companion symbols cannot inherit the old slider-thumb travel
+  ---
+  duration_ms: 0.121
+  type: 'test'
+  ...
+# Subtest: live percentages, temperature, EQ gains and milestones follow the displayed intermediate value
+ok 14 - live percentages, temperature, EQ gains and milestones follow the displayed intermediate value
+  ---
+  duration_ms: 0.1363
+  type: 'test'
+  ...
+# Subtest: all 114 original IDs resolve to actual artwork, without placeholder sources
+ok 15 - all 114 original IDs resolve to actual artwork, without placeholder sources
+  ---
+  duration_ms: 6.8045
+  type: 'test'
+  ...
+# Subtest: all reconciled layers and part channels stay finite and bounded across playback
+ok 16 - all reconciled layers and part channels stay finite and bounded across playback
+  ---
+  duration_ms: 8.0332
+  type: 'test'
+  ...
+# Subtest: new composite reduced-motion poses are invariant in time and preserve target values
+ok 17 - new composite reduced-motion poses are invariant in time and preserve target values
+  ---
+  duration_ms: 1.4257
+  type: 'test'
+  ...
+# Subtest: back commit exposes the destination; cancelled back exactly restores the source
+ok 18 - back commit exposes the destination; cancelled back exactly restores the source
+  ---
+  duration_ms: 0.2057
+  type: 'test'
+  ...
+# Subtest: three-tile edit reordering has no collisions at 101 intermediate poses
+ok 19 - three-tile edit reordering has no collisions at 101 intermediate poses
+  ---
+  duration_ms: 0.5152
+  type: 'test'
+  ...
+# Subtest: display drag reaches the lower content area; hinge leaves share a fixed pivot
+ok 20 - display drag reaches the lower content area; hinge leaves share a fixed pivot
+  ---
+  duration_ms: 0.2763
+  type: 'test'
+  ...
+# Subtest: unselected D-pad and face buttons remain cold while one pressed control owns emission
+ok 21 - unselected D-pad and face buttons remain cold while one pressed control owns emission
+  ---
+  duration_ms: 0.1412
+  type: 'test'
+  ...
+# Subtest: hold, scan, shimmer, milestones, temperature and trigger travel have actual dedicated channels
+ok 22 - hold, scan, shimmer, milestones, temperature and trigger travel have actual dedicated channels
+  ---
+  duration_ms: 0.2371
+  type: 'test'
+  ...
+# Subtest: stopping or reducing a profile selector preserves exactly one selected choice and focus
+ok 23 - stopping or reducing a profile selector preserves exactly one selected choice and focus
+  ---
+  duration_ms: 0.1457
+  type: 'test'
+  ...
+# Subtest: exact imported catalog and English visible wording
+ok 24 - exact imported catalog and English visible wording
+  ---
+  duration_ms: 2.1981
+  type: 'test'
+  ...
+# Subtest: every recipe yields finite bounded frames throughout playback
+ok 25 - every recipe yields finite bounded frames throughout playback
+  ---
+  duration_ms: 6.3674
+  type: 'test'
+  ...
+# Subtest: off, focus alone and explicit off-value locks never emit
+ok 26 - off, focus alone and explicit off-value locks never emit
+  ---
+  duration_ms: 1.4726
+  type: 'test'
+  ...
+# Subtest: reduced motion, zero animator scale and power saving remain static
+ok 27 - reduced motion, zero animator scale and power saving remain static
+  ---
+  duration_ms: 2.4274
+  type: 'test'
+  ...
+# Subtest: hidden, detached and suspended states cannot run or emit
+ok 28 - hidden, detached and suspended states cannot run or emit
+  ---
+  duration_ms: 0.7171
+  type: 'test'
+  ...
+# Subtest: finite recipes finish at exact counted duration; loops require an active owner
+ok 29 - finite recipes finish at exact counted duration; loops require an active owner
+  ---
+  duration_ms: 0.2441
+  type: 'test'
+  ...
+# Subtest: mode selection lights one layer; all other choices remain cold
+ok 30 - mode selection lights one layer; all other choices remain cold
+  ---
+  duration_ms: 0.1356
+  type: 'test'
+  ...
+# Subtest: status and focus-only variants stay geometrically steady
+ok 31 - status and focus-only variants stay geometrically steady
+  ---
+  duration_ms: 0.1185
+  type: 'test'
+  ...
+# Subtest: invalid clocks and unknown kinds reject rather than fall back to generic pulse
+ok 32 - invalid clocks and unknown kinds reject rather than fall back to generic pulse
+  ---
+  duration_ms: 0.2699
+  type: 'test'
+  ...
+1..32
+# tests 32
+# suites 0
+# pass 32
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 91.783

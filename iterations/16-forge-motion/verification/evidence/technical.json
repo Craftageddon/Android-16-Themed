@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-23",
+  "components": 30,
+  "mappedMasters": 88,
+  "reusedMasters": 58,
+  "recipes": 114,
+  "animatedRecipeDispositions": 103,
+  "steadyStatusDispositions": 11,
+  "sampledFrames": 1140,
+  "productionLayerExports": 420,
+  "neutralMasksChecked": 360,
+  "sourceTests": 32,
+  "nativeEnglishStrings": 352,
+  "v1Scope": "114 retained recipe dispositions, 30 new unlabelled layered masters, 58 reused sources, 352 native English strings and dedicated part channels. Desktop checkpoint scope; original timing metadata retained, 11 status indicators intentionally steady.",
+  "v2Method": "32 Node tests, all sampled SVG/PNG frames, explicit part targets, transformed live text bounds, byte provenance, 1x/2x transparent neutral-mask pixel checks, independent fixed-vessel and separate-rotor pixel comparisons, and AAPT2 compilation of default English resources.",
+  "browserAcceptance": "NOT RUN - local-file access blocked; no alternate workaround",
+  "nativeIntegration": "NOT RUN",
+  "targetV3": "NOT RUN",
+  "scope": "Saved source/design checkpoint; no hardware operation or native acceptance claimed"
+}

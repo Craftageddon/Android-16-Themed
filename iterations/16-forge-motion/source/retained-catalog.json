@@ -1,0 +1,3428 @@
+{
+  "sourceVersion": "v7",
+  "sourceFile": "MotionCatalog.generated.kt",
+  "sourceSha256": "f5c5561735c081e155533bf3ff2758559388e8e167df386e989c6837fe366a74",
+  "encoding": "UTF-8",
+  "recipeCount": 114,
+  "authoredLocale": "en-US",
+  "nativeTarget": "LineageOS 24.0 / AYN odin2thor",
+  "scope": "Retained recipes for explicit Reference Forge reconciliation. Import does not establish implemented motion or target acceptance.",
+  "recipes": [
+    {
+      "id": "boot-crest-assembly",
+      "title": "Boot crest assembly",
+      "description": "Outer ring, inner rune and core forge as independent layers.",
+      "category": "Core",
+      "originalScope": "Shared",
+      "kind": "Forge",
+      "durationMillis": 2250,
+      "timingLabel": "2,250 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Sigil",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        },
+        {
+          "atlas": "Sigil",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.84
+        },
+        {
+          "atlas": "Sigil",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.66
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "shutdown-collapse",
+      "title": "Shutdown collapse",
+      "description": "Active seal contracts into its core before the display extinguishes.",
+      "category": "Core",
+      "originalScope": "Shared",
+      "kind": "Collapse",
+      "durationMillis": 1400,
+      "timingLabel": "1,400 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Sigil",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.94
+        },
+        {
+          "atlas": "Sigil",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.55
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "restart-reignition",
+      "title": "Restart reignition",
+      "description": "Core-first restart with a restrained overshoot and halo settle.",
+      "category": "Core",
+      "originalScope": "Shared",
+      "kind": "Forge",
+      "durationMillis": 1150,
+      "timingLabel": "1,150 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Sigil",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        },
+        {
+          "atlas": "Sigil",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.62
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "lock-screen-aod-pulse",
+      "title": "Lock screen / AOD pulse",
+      "description": "Clock crown breathes without excessive flashing.",
+      "category": "Core",
+      "originalScope": "Android16",
+      "kind": "Pulse",
+      "durationMillis": 850,
+      "timingLabel": "850 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.85
+        }
+      ],
+      "originalLabel": "12:00",
+      "label": "12:00",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "unlock-confirmation",
+      "title": "Unlock confirmation",
+      "description": "Reusable status frame transfers focus to the success rune.",
+      "category": "Core",
+      "originalScope": "Android16",
+      "kind": "Focus",
+      "durationMillis": 700,
+      "timingLabel": "700 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Status",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        },
+        {
+          "atlas": "Status",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.66
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "battery-charging",
+      "title": "Battery charging",
+      "description": "A single SVG assembly keeps the shell, liquid and 68% readout on one axis.",
+      "category": "Core",
+      "originalScope": "Shared",
+      "kind": "Fill",
+      "durationMillis": 2100,
+      "timingLabel": "2,100 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Battery",
+          "cell": 68,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 1.0
+        }
+      ],
+      "originalLabel": "68%",
+      "label": "68%",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "low-battery-warning",
+      "title": "Low-battery warning",
+      "description": "The same SVG assembly holds a true 15% fill while the warning rune strikes once.",
+      "category": "Core",
+      "originalScope": "Shared",
+      "kind": "Warn",
+      "durationMillis": 1200,
+      "timingLabel": "1,200 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Battery",
+          "cell": 15,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.94
+        },
+        {
+          "atlas": "Status",
+          "cell": 3,
+          "x": 53.0,
+          "y": 0.0,
+          "scale": 0.25
+        }
+      ],
+      "originalLabel": "15%",
+      "label": "15%",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "direct-power-bypass",
+      "title": "Direct-power bypass",
+      "description": "Circuit closes around the power bolt with a controlled energy pulse.",
+      "category": "Core",
+      "originalScope": "Thor",
+      "kind": "Pulse",
+      "durationMillis": 850,
+      "timingLabel": "850 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Performance",
+          "cell": 7,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.83
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "system-update-cycle",
+      "title": "System update cycle",
+      "description": "Rotating update emblem and live determinate progress.",
+      "category": "Core",
+      "originalScope": "Android16",
+      "kind": "Spin",
+      "durationMillis": 1500,
+      "timingLabel": "1,500 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 3,
+          "x": 0.0,
+          "y": -7.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": "76%",
+      "label": "76%",
+      "controllerButtons": false,
+      "meter": true,
+      "longPressCharge": false
+    },
+    {
+      "id": "notification-arrival",
+      "title": "Notification arrival",
+      "description": "Top-edge entry, settle, readable hold, then lateral exit.",
+      "category": "Notifications",
+      "originalScope": "Android16",
+      "kind": "Slide",
+      "durationMillis": 2400,
+      "timingLabel": "2,400 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        }
+      ],
+      "originalLabel": "Forge complete",
+      "label": "Forge complete",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "heads-up-lifecycle",
+      "title": "Heads-up lifecycle",
+      "description": "Fast priority entrance with a fixed readable hold interval.",
+      "category": "Notifications",
+      "originalScope": "Android16",
+      "kind": "Slide",
+      "durationMillis": 2400,
+      "timingLabel": "2,400 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 3,
+          "x": 0.0,
+          "y": -7.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": "Incoming alert",
+      "label": "Incoming alert",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "expand-collapse",
+      "title": "Expand / collapse",
+      "description": "Notification frame grows from its header anchor without text distortion.",
+      "category": "Notifications",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.95
+        }
+      ],
+      "originalLabel": "2 more lines",
+      "label": "2 more lines",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "grouped-notifications",
+      "title": "Grouped notifications",
+      "description": "Three cards arrive with staggered depth and unified spacing.",
+      "category": "Notifications",
+      "originalScope": "Android16",
+      "kind": "Stack",
+      "durationMillis": 650,
+      "timingLabel": "650 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 3,
+          "x": -14.0,
+          "y": 12.0,
+          "scale": 0.68
+        },
+        {
+          "atlas": "Navigation",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        },
+        {
+          "atlas": "Navigation",
+          "cell": 3,
+          "x": 14.0,
+          "y": -12.0,
+          "scale": 0.76
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "swipe-dismissal",
+      "title": "Swipe dismissal",
+      "description": "Card follows the release vector and fades only after threshold.",
+      "category": "Notifications",
+      "originalScope": "Android16",
+      "kind": "Swipe",
+      "durationMillis": 1800,
+      "timingLabel": "1,800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 3,
+          "x": 0.0,
+          "y": -8.0,
+          "scale": 0.84
+        },
+        {
+          "atlas": "Input",
+          "cell": 3,
+          "x": 0.0,
+          "y": 34.0,
+          "scale": 0.48
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "action-button-press",
+      "title": "Action-button press",
+      "description": "Controller, touch and keyboard activation share one press response.",
+      "category": "Notifications",
+      "originalScope": "Android16",
+      "kind": "Press",
+      "durationMillis": 580,
+      "timingLabel": "580 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": "REPLY",
+      "label": "REPLY",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "progress-notification",
+      "title": "Progress notification",
+      "description": "A single forged vessel keeps its molten fill, frame and live status perfectly aligned.",
+      "category": "Notifications",
+      "originalScope": "Android16",
+      "kind": "Progress",
+      "durationMillis": 2200,
+      "timingLabel": "2,200 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Progress",
+          "cell": 76,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 1.0
+        }
+      ],
+      "originalLabel": "DOWNLOADING  ·  76%",
+      "label": "DOWNLOADING  ·  76%",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "silent-notification",
+      "title": "Silent notification",
+      "description": "Subdued entrance and fade preserve hierarchy without a burst.",
+      "category": "Notifications",
+      "originalScope": "Android16",
+      "kind": "Fade",
+      "durationMillis": 2800,
+      "timingLabel": "2,800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        }
+      ],
+      "originalLabel": "Silent",
+      "label": "Silent",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "toast-snackbar",
+      "title": "Toast / snackbar",
+      "description": "Bottom-origin entry with live copy and an optional action.",
+      "category": "Notifications",
+      "originalScope": "Android16",
+      "kind": "Rise",
+      "durationMillis": 850,
+      "timingLabel": "850 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 9,
+          "x": 0.0,
+          "y": 12.0,
+          "scale": 0.95
+        }
+      ],
+      "originalLabel": "Saved  ·  UNDO",
+      "label": "Saved  ·  UNDO",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "shade-pull-down",
+      "title": "Shade pull-down",
+      "description": "Panel rises from its grip plate and settles on the drag release.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Rise",
+      "durationMillis": 850,
+      "timingLabel": "850 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 9,
+          "x": 0.0,
+          "y": 3.0,
+          "scale": 0.92
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "half-to-full-expansion",
+      "title": "Half-to-full expansion",
+      "description": "The same surface expands without reflowing its centered handle.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.96
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "tile-activate-deactivate",
+      "title": "Tile activate / deactivate",
+      "description": "A reusable active bezel accepts any live system glyph.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Press",
+      "durationMillis": 580,
+      "timingLabel": "580 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": "ϟ",
+      "label": "On",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "tile-reorder",
+      "title": "Tile reorder",
+      "description": "Three equal tiles shift with staggered depth and no collisions.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Reorder",
+      "durationMillis": 750,
+      "timingLabel": "750 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 5,
+          "x": -63.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        {
+          "atlas": "Controls",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        {
+          "atlas": "Controls",
+          "cell": 5,
+          "x": 63.0,
+          "y": 0.0,
+          "scale": 0.38
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "internet-detail-panel",
+      "title": "Internet detail panel",
+      "description": "Detail frame opens around the currently selected radio.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.78
+        },
+        {
+          "atlas": "Connectivity",
+          "cell": 1,
+          "x": -25.0,
+          "y": -1.0,
+          "scale": 0.22
+        }
+      ],
+      "originalLabel": "INTERNET",
+      "label": "INTERNET",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "wi-fi-state",
+      "title": "Wi‑Fi state",
+      "description": "Independent arc bands read as a clean beacon pulse.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Broadcast",
+      "durationMillis": 1250,
+      "timingLabel": "1,250 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Connectivity",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.78
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "bluetooth-state",
+      "title": "Bluetooth state",
+      "description": "Paired-link rune ignites from center without rotating the symbol.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Pulse",
+      "durationMillis": 850,
+      "timingLabel": "850 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Connectivity",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "cellular-signal",
+      "title": "Cellular signal",
+      "description": "Signal columns reveal bottom-up and support live strength masking.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Scan",
+      "durationMillis": 1350,
+      "timingLabel": "1,350 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Connectivity",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.75
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "hotspot-broadcast",
+      "title": "Hotspot broadcast",
+      "description": "Beacon core and emission arcs breathe as one readable state.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Broadcast",
+      "durationMillis": 1250,
+      "timingLabel": "1,250 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Connectivity",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.74
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "airplane-mode",
+      "title": "Airplane mode",
+      "description": "Winged arrow traverses the activation vector and locks in place.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Swipe",
+      "durationMillis": 1800,
+      "timingLabel": "1,800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Connectivity",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "vpn-tunnel",
+      "title": "VPN tunnel",
+      "description": "Shield ring closes around an empty center reserved for live status.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Pulse",
+      "durationMillis": 850,
+      "timingLabel": "850 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Connectivity",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.75
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "brightness-slider",
+      "title": "Brightness slider",
+      "description": "Sun, rail and thumb remain separate and aligned through the drag.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Slider",
+      "durationMillis": 1150,
+      "timingLabel": "1,150 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 7,
+          "x": 0.0,
+          "y": 23.0,
+          "scale": 0.78
+        },
+        {
+          "atlas": "Controls",
+          "cell": 8,
+          "x": -40.0,
+          "y": 23.0,
+          "scale": 0.18
+        },
+        {
+          "atlas": "Surfaces",
+          "cell": 8,
+          "x": -82.0,
+          "y": 23.0,
+          "scale": 0.34
+        }
+      ],
+      "originalLabel": "72%",
+      "label": "72%",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "volume-slider",
+      "title": "Volume slider",
+      "description": "Speaker waves, rail and thumb share the same drag-and-settle token.",
+      "category": "QuickSettings",
+      "originalScope": "Android16",
+      "kind": "Slider",
+      "durationMillis": 1150,
+      "timingLabel": "1,150 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 7,
+          "x": 8.0,
+          "y": 23.0,
+          "scale": 0.74
+        },
+        {
+          "atlas": "Controls",
+          "cell": 8,
+          "x": -35.0,
+          "y": 23.0,
+          "scale": 0.18
+        },
+        {
+          "atlas": "Surfaces",
+          "cell": 7,
+          "x": -82.0,
+          "y": 23.0,
+          "scale": 0.34
+        }
+      ],
+      "originalLabel": "46%",
+      "label": "46%",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "cast-external-display",
+      "title": "Cast / external display",
+      "description": "Display frame pulses once as the broadcast route connects.",
+      "category": "QuickSettings",
+      "originalScope": "Shared",
+      "kind": "Broadcast",
+      "durationMillis": 1250,
+      "timingLabel": "1,250 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Connectivity",
+          "cell": 7,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.78
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "app-launch",
+      "title": "App launch",
+      "description": "Edge-to-edge app frame grows out of the home portal.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Launch",
+      "durationMillis": 900,
+      "timingLabel": "900 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        {
+          "atlas": "Navigation",
+          "cell": 7,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.86
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "app-close",
+      "title": "App close",
+      "description": "Window returns to a compact origin while its frame extinguishes.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Collapse",
+      "durationMillis": 1400,
+      "timingLabel": "1,400 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 7,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "predictive-back-home",
+      "title": "Predictive back → home",
+      "description": "Back blade previews destination while the home portal gains focus.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Back",
+      "durationMillis": 820,
+      "timingLabel": "820 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 1,
+          "x": -62.0,
+          "y": 0.0,
+          "scale": 0.46
+        },
+        {
+          "atlas": "Navigation",
+          "cell": 2,
+          "x": 43.0,
+          "y": 0.0,
+          "scale": 0.48
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "predictive-back-task",
+      "title": "Predictive back → task",
+      "description": "Gesture previews the previous task stack before commit.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Back",
+      "durationMillis": 820,
+      "timingLabel": "820 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 1,
+          "x": -64.0,
+          "y": 0.0,
+          "scale": 0.42
+        },
+        {
+          "atlas": "Navigation",
+          "cell": 3,
+          "x": 42.0,
+          "y": 0.0,
+          "scale": 0.5
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "overview-recents",
+      "title": "Overview / recents",
+      "description": "Task cards fan into depth and settle into a navigable stack.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Stack",
+      "durationMillis": 650,
+      "timingLabel": "650 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.84
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "clear-all-sweep",
+      "title": "Clear all sweep",
+      "description": "Overview stack exits on one continuous directional gesture.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Swipe",
+      "durationMillis": 1800,
+      "timingLabel": "1,800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.82
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "picture-in-picture",
+      "title": "Picture-in-picture",
+      "description": "Window collapses into a miniature corner and returns cleanly.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Pip",
+      "durationMillis": 1100,
+      "timingLabel": "1,100 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.84
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "split-screen-divider",
+      "title": "Split-screen divider",
+      "description": "Two panels open around a centered, draggable divider.",
+      "category": "Navigation",
+      "originalScope": "Shared",
+      "kind": "Split",
+      "durationMillis": 950,
+      "timingLabel": "950 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.86
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "adaptive-resize-rotation",
+      "title": "Adaptive resize / rotation",
+      "description": "Corner brackets rotate and settle around the new bounds.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Rotate",
+      "durationMillis": 1000,
+      "timingLabel": "1,000 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.82
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "edge-to-edge-window",
+      "title": "Edge-to-edge window",
+      "description": "Live content remains independent of the forged perimeter.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 7,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        }
+      ],
+      "originalLabel": "LIVE CONTENT",
+      "label": "LIVE CONTENT",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "folder-open-close",
+      "title": "Folder open / close",
+      "description": "Four sockets expand from the folder origin with a single pivot.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.75
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "widget-pickup-drop",
+      "title": "Widget pickup / drop",
+      "description": "Widget frame lifts, scales, and settles without shifting its center.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Rise",
+      "durationMillis": 850,
+      "timingLabel": "850 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.82
+        }
+      ],
+      "originalLabel": "WIDGET",
+      "label": "WIDGET",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "bottom-sheet-rise-dismiss",
+      "title": "Bottom sheet rise / dismiss",
+      "description": "Grip plate anchors the sheet through both entrance directions.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Rise",
+      "durationMillis": 850,
+      "timingLabel": "850 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.95
+        }
+      ],
+      "originalLabel": "OPTIONS",
+      "label": "OPTIONS",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "dialog-destructive-confirm",
+      "title": "Dialog / destructive confirm",
+      "description": "Live actions sit inside the frame; the error rune remains separate.",
+      "category": "Navigation",
+      "originalScope": "Android16",
+      "kind": "Launch",
+      "durationMillis": 900,
+      "timingLabel": "900 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.8
+        },
+        {
+          "atlas": "Status",
+          "cell": 4,
+          "x": 54.0,
+          "y": 24.0,
+          "scale": 0.27
+        }
+      ],
+      "originalLabel": "DISCARD?",
+      "label": "DISCARD?",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "touch-ripple",
+      "title": "Touch ripple",
+      "description": "Concentric rings dissipate from the exact contact point.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Tap",
+      "durationMillis": 750,
+      "timingLabel": "750 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Input",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "long-press",
+      "title": "Long press",
+      "description": "A separate ember layer charges through the dormant crown while its forged shell stays fixed.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Hold",
+      "durationMillis": 1350,
+      "timingLabel": "1,350 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Input",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.7
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": true
+    },
+    {
+      "id": "swipe-gesture",
+      "title": "Swipe gesture",
+      "description": "Directional trail follows velocity, then clears after release.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Swipe",
+      "durationMillis": 1800,
+      "timingLabel": "1,800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Input",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.8
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "keyboard-ime-slide",
+      "title": "Keyboard IME slide",
+      "description": "Keyboard deck rises from the system inset and preserves key spacing.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Rise",
+      "durationMillis": 850,
+      "timingLabel": "850 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 8,
+          "x": 0.0,
+          "y": 8.0,
+          "scale": 0.86
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "key-press",
+      "title": "Key press",
+      "description": "Empty keycap accepts live glyphs with a centered press pulse.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Press",
+      "durationMillis": 580,
+      "timingLabel": "580 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Input",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.56
+        }
+      ],
+      "originalLabel": "A",
+      "label": "A",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "suggestion-chip",
+      "title": "Suggestion chip",
+      "description": "Live suggestion copy uses the same short press token.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Press",
+      "durationMillis": 580,
+      "timingLabel": "580 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.7
+        }
+      ],
+      "originalLabel": "Crafted",
+      "label": "Crafted",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "text-selection-handles",
+      "title": "Text selection handles",
+      "description": "Both handles expand from the active selection range.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Input",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.8
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "copy-paste-toolbar",
+      "title": "Copy / paste toolbar",
+      "description": "Contextual toolbar opens around live action labels.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Input",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.85
+        }
+      ],
+      "originalLabel": "COPY  ·  PASTE",
+      "label": "COPY  ·  PASTE",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "fingerprint-authentication",
+      "title": "Fingerprint authentication",
+      "description": "Centered ridge artwork reveals progressively without a scan line.",
+      "category": "Input",
+      "originalScope": "Shared",
+      "kind": "Scan",
+      "durationMillis": 1350,
+      "timingLabel": "1,350 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Status",
+          "cell": 8,
+          "x": -8.0,
+          "y": 7.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "face-scan-framing",
+      "title": "Face scan framing",
+      "description": "Four corners and eye focus reveal together, then hold.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Scan",
+      "durationMillis": 1350,
+      "timingLabel": "1,350 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Input",
+          "cell": 7,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.8
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "pin-lock-unlock",
+      "title": "PIN lock / unlock",
+      "description": "Lock scales once; success state can be layered independently.",
+      "category": "Input",
+      "originalScope": "Shared",
+      "kind": "Focus",
+      "durationMillis": 700,
+      "timingLabel": "700 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Input",
+          "cell": 8,
+          "x": -35.0,
+          "y": 0.0,
+          "scale": 0.55
+        },
+        {
+          "atlas": "Status",
+          "cell": 2,
+          "x": 50.0,
+          "y": 0.0,
+          "scale": 0.38
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "permission-emphasis",
+      "title": "Permission emphasis",
+      "description": "Security emblem yields focus to the explicit allow action.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Focus",
+      "durationMillis": 700,
+      "timingLabel": "700 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Input",
+          "cell": 8,
+          "x": -42.0,
+          "y": 0.0,
+          "scale": 0.48
+        },
+        {
+          "atlas": "Controls",
+          "cell": 6,
+          "x": 48.0,
+          "y": 0.0,
+          "scale": 0.5
+        }
+      ],
+      "originalLabel": "ALLOW",
+      "label": "ALLOW",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "haptic-response",
+      "title": "Haptic response",
+      "description": "Three restrained vibration waves visualize device feedback.",
+      "category": "Input",
+      "originalScope": "Shared",
+      "kind": "Haptic",
+      "durationMillis": 420,
+      "timingLabel": "420 ms ×3",
+      "repeat": {
+        "mode": "count",
+        "count": 3
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Input",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "accessibility-focus",
+      "title": "Accessibility focus",
+      "description": "High-contrast focus crown transfers without obscuring content.",
+      "category": "Input",
+      "originalScope": "Android16",
+      "kind": "Pulse",
+      "durationMillis": 850,
+      "timingLabel": "850 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Status",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        }
+      ],
+      "originalLabel": "FOCUS",
+      "label": "FOCUS",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "media-play-pause",
+      "title": "Media play / pause",
+      "description": "Playback ring responds to touch and controller activation.",
+      "category": "Media",
+      "originalScope": "Android16",
+      "kind": "Press",
+      "durationMillis": 580,
+      "timingLabel": "580 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Connectivity",
+          "cell": 8,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "screenshot-capture",
+      "title": "Screenshot capture",
+      "description": "Corner frame flashes once, then returns to the base surface.",
+      "category": "Media",
+      "originalScope": "Android16",
+      "kind": "Flash",
+      "durationMillis": 700,
+      "timingLabel": "700 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Controls",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.82
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "screen-recording",
+      "title": "Screen recording",
+      "description": "Double-ring record indicator breathes at a non-alarming cadence.",
+      "category": "Media",
+      "originalScope": "Android16",
+      "kind": "Breathe",
+      "durationMillis": 2200,
+      "timingLabel": "2,200 ms loop",
+      "repeat": {
+        "mode": "loop",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Connectivity",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.67
+        }
+      ],
+      "originalLabel": "REC",
+      "label": "REC",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "system-share-sheet",
+      "title": "System share sheet",
+      "description": "Share tray expands from its source and exposes live targets.",
+      "category": "Media",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "wallpaper-theme-change",
+      "title": "Wallpaper / theme change",
+      "description": "Folded panel and sparkle pulse into the newly themed surface.",
+      "category": "Media",
+      "originalScope": "Android16",
+      "kind": "Pulse",
+      "durationMillis": 850,
+      "timingLabel": "850 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "account-chooser",
+      "title": "Account chooser",
+      "description": "Account bezel enters from the active profile direction.",
+      "category": "Media",
+      "originalScope": "Android16",
+      "kind": "Slide",
+      "durationMillis": 2400,
+      "timingLabel": "2,400 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.68
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "file-photo-picker",
+      "title": "File / photo picker",
+      "description": "App window and folder origin transfer focus cleanly.",
+      "category": "Media",
+      "originalScope": "Android16",
+      "kind": "Focus",
+      "durationMillis": 700,
+      "timingLabel": "700 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Navigation",
+          "cell": 7,
+          "x": -35.0,
+          "y": 0.0,
+          "scale": 0.58
+        },
+        {
+          "atlas": "Surfaces",
+          "cell": 1,
+          "x": 48.0,
+          "y": 0.0,
+          "scale": 0.48
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "themed-icon-transition",
+      "title": "Themed icon transition",
+      "description": "Folder sockets yield to a concentrated themed core.",
+      "category": "Media",
+      "originalScope": "Android16",
+      "kind": "Mode",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Surfaces",
+          "cell": 1,
+          "x": -42.0,
+          "y": 0.0,
+          "scale": 0.48
+        },
+        {
+          "atlas": "Sigil",
+          "cell": 5,
+          "x": 45.0,
+          "y": 0.0,
+          "scale": 0.45
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "clamshell-open-close",
+      "title": "Clamshell open / close",
+      "description": "Dual-screen hardware unfolds on one centered hinge axis.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.77
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "top-display-wake",
+      "title": "Top display wake",
+      "description": "Primary AMOLED bezel ignites without moving its content center.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Pulse",
+      "durationMillis": 850,
+      "timingLabel": "850 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        }
+      ],
+      "originalLabel": "TOP DISPLAY",
+      "label": "TOP DISPLAY",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "bottom-display-wake",
+      "title": "Bottom display wake",
+      "description": "Secondary touch display uses the same restrained wake token.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Pulse",
+      "durationMillis": 850,
+      "timingLabel": "850 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        }
+      ],
+      "originalLabel": "TOUCH DISPLAY",
+      "label": "TOUCH DISPLAY",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "dual-screen-focus-transfer",
+      "title": "Dual-screen focus transfer",
+      "description": "Focus dims on the source bezel and brightens on the destination.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Focus",
+      "durationMillis": 700,
+      "timingLabel": "700 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 2,
+          "x": 0.0,
+          "y": -35.0,
+          "scale": 0.56
+        },
+        {
+          "atlas": "Thor",
+          "cell": 3,
+          "x": 0.0,
+          "y": 40.0,
+          "scale": 0.55
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "top-bottom-screen-swap",
+      "title": "Top / bottom screen swap",
+      "description": "Paired arrows rotate once and settle with no continuous spinning.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Swap",
+      "durationMillis": 1000,
+      "timingLabel": "1,000 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "screen-specific-app-assignment",
+      "title": "Screen-specific app assignment",
+      "description": "App frame transfers from the primary to secondary display anchor.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Focus",
+      "durationMillis": 700,
+      "timingLabel": "700 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 2,
+          "x": 0.0,
+          "y": -37.0,
+          "scale": 0.52
+        },
+        {
+          "atlas": "Thor",
+          "cell": 3,
+          "x": 0.0,
+          "y": 39.0,
+          "scale": 0.5
+        },
+        {
+          "atlas": "Navigation",
+          "cell": 7,
+          "x": 0.0,
+          "y": 39.0,
+          "scale": 0.26
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "d-pad-direction-press",
+      "title": "D-pad direction press",
+      "description": "Four-arm control compresses toward the chosen direction.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Press",
+      "durationMillis": 580,
+      "timingLabel": "580 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.7
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "analog-stick-response",
+      "title": "Analog stick response",
+      "description": "Gate, inner ring and thumb cap move as a centered assembly.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Stick",
+      "durationMillis": 1400,
+      "timingLabel": "1,400 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "face-button-cluster",
+      "title": "Face-button cluster",
+      "description": "Blank bezels keep A/B/X/Y labels live and perfectly centered.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Press",
+      "durationMillis": 580,
+      "timingLabel": "580 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 7,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.68
+        }
+      ],
+      "originalLabel": "A  B  X  Y",
+      "label": "A  B  X  Y",
+      "controllerButtons": true,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "shoulder-trigger-press",
+      "title": "Shoulder / trigger press",
+      "description": "Mirrored shoulder pieces compress together with a short response.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Press",
+      "durationMillis": 580,
+      "timingLabel": "580 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 8,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.74
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "rear-paddle-press",
+      "title": "Rear-paddle press",
+      "description": "Paired paddles use the same micro timing as face controls.",
+      "category": "ThorControls",
+      "originalScope": "Thor",
+      "kind": "Press",
+      "durationMillis": 580,
+      "timingLabel": "580 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Thor",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.67
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "cooling-fan-speed",
+      "title": "Cooling fan speed",
+      "description": "Turbine uses a true centered pivot for every fan-speed ramp.",
+      "category": "Performance",
+      "originalScope": "Thor",
+      "kind": "Fan",
+      "durationMillis": 1100,
+      "timingLabel": "1,100 ms loop",
+      "repeat": {
+        "mode": "loop",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Performance",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "rgb-breathing-cycle",
+      "title": "RGB breathing cycle",
+      "description": "Segmented ring breathes and color-shifts without a hard flash.",
+      "category": "Performance",
+      "originalScope": "Thor",
+      "kind": "Breathe",
+      "durationMillis": 2200,
+      "timingLabel": "2,200 ms loop",
+      "repeat": {
+        "mode": "loop",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Performance",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "performance-profile-switch",
+      "title": "Performance profile switch",
+      "description": "Performance, balanced and quiet emblems receive staggered focus.",
+      "category": "Performance",
+      "originalScope": "Thor",
+      "kind": "Mode",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Performance",
+          "cell": 3,
+          "x": -67.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        {
+          "atlas": "Performance",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.38
+        },
+        {
+          "atlas": "Performance",
+          "cell": 5,
+          "x": 67.0,
+          "y": 0.0,
+          "scale": 0.38
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "thermal-throttling-state",
+      "title": "Thermal / throttling state",
+      "description": "Thermal gauge reveals bottom-up and intensifies at threshold.",
+      "category": "Performance",
+      "originalScope": "Thor",
+      "kind": "Thermal",
+      "durationMillis": 1800,
+      "timingLabel": "1,800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Performance",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.7
+        }
+      ],
+      "originalLabel": "78°",
+      "label": "78°",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "charging-direct-power",
+      "title": "Charging / direct power",
+      "description": "The single-axis battery assembly and bypass circuit remain distinct state layers.",
+      "category": "Performance",
+      "originalScope": "Thor",
+      "kind": "Fill",
+      "durationMillis": 2100,
+      "timingLabel": "2,100 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Battery",
+          "cell": 68,
+          "x": -48.0,
+          "y": 0.0,
+          "scale": 0.64
+        },
+        {
+          "atlas": "Performance",
+          "cell": 7,
+          "x": 50.0,
+          "y": 0.0,
+          "scale": 0.46
+        }
+      ],
+      "originalLabel": "BYPASS",
+      "label": "BYPASS",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "usb-c-dock-connect",
+      "title": "USB-C / dock connect",
+      "description": "Connector plate rises into its centered port and locks.",
+      "category": "Performance",
+      "originalScope": "Thor",
+      "kind": "Dock",
+      "durationMillis": 900,
+      "timingLabel": "900 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Performance",
+          "cell": 8,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.72
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "external-display-output",
+      "title": "External display output",
+      "description": "Display-out arrow commits once the route is established.",
+      "category": "Performance",
+      "originalScope": "Thor",
+      "kind": "Swipe",
+      "durationMillis": 1800,
+      "timingLabel": "1,800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Performance",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "hardware-status-overlay",
+      "title": "Hardware status overlay",
+      "description": "Performance, temperature and power indicators group without overlap.",
+      "category": "Performance",
+      "originalScope": "Thor",
+      "kind": "Stack",
+      "durationMillis": 650,
+      "timingLabel": "650 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "Performance",
+          "cell": 3,
+          "x": -67.0,
+          "y": 0.0,
+          "scale": 0.35
+        },
+        {
+          "atlas": "Performance",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.35
+        },
+        {
+          "atlas": "Performance",
+          "cell": 7,
+          "x": 67.0,
+          "y": 0.0,
+          "scale": 0.35
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "live-update-status-chip",
+      "title": "Live Update status chip",
+      "description": "A compact activity capsule arrives from the status area and settles without shifting its live ETA.",
+      "category": "AndroidLive",
+      "originalScope": "Android16",
+      "kind": "Chip",
+      "durationMillis": 720,
+      "timingLabel": "720 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidSystem",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        }
+      ],
+      "originalLabel": "ETA 12 MIN",
+      "label": "ETA 12 MIN",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "live-update-milestones",
+      "title": "Live Update milestones",
+      "description": "Five progress points reveal left-to-right while the current step remains readable below.",
+      "category": "AndroidLive",
+      "originalScope": "Android16",
+      "kind": "March",
+      "durationMillis": 1250,
+      "timingLabel": "1,250 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidSystem",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.94
+        }
+      ],
+      "originalLabel": "STEP 3 OF 5",
+      "label": "STEP 3 OF 5",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "camera-microphone-privacy",
+      "title": "Camera / microphone privacy",
+      "description": "The privacy indicator expands from its icon sockets into a short-lived explanatory chip.",
+      "category": "AndroidLive",
+      "originalScope": "Android16",
+      "kind": "Chip",
+      "durationMillis": 720,
+      "timingLabel": "720 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidSystem",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        }
+      ],
+      "originalLabel": "CAMERA + MIC",
+      "label": "CAMERA + MIC",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "notification-bubble",
+      "title": "Notification bubble",
+      "description": "The conversation bubble grows from its detached badge socket and returns to a stable circular target.",
+      "category": "AndroidLive",
+      "originalScope": "Android16",
+      "kind": "Bubble",
+      "durationMillis": 780,
+      "timingLabel": "780 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidSystem",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.73
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "power-menu",
+      "title": "Power menu",
+      "description": "Three system actions rise as one panel while the selected row retains a fixed text anchor.",
+      "category": "AndroidLive",
+      "originalScope": "Android16",
+      "kind": "Rise",
+      "durationMillis": 850,
+      "timingLabel": "850 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidSystem",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.75
+        }
+      ],
+      "originalLabel": "RESTART",
+      "label": "RESTART",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "expanded-volume-mixer",
+      "title": "Expanded volume mixer",
+      "description": "The full multi-stream mixer settles after its rails and thumbs receive a restrained focus pulse.",
+      "category": "AndroidLive",
+      "originalScope": "Android16",
+      "kind": "Curve",
+      "durationMillis": 1150,
+      "timingLabel": "1,150 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidSystem",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": "MEDIA 64%",
+      "label": "MEDIA 64%",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "screenshot-preview-actions",
+      "title": "Screenshot preview actions",
+      "description": "The captured preview flashes once, then docks above a separate three-action rail.",
+      "category": "AndroidLive",
+      "originalScope": "Android16",
+      "kind": "Capture",
+      "durationMillis": 900,
+      "timingLabel": "900 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidSystem",
+          "cell": 7,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": "CAPTURED",
+      "label": "CAPTURED",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "clipboard-overlay",
+      "title": "Clipboard overlay",
+      "description": "The clipboard surface enters laterally and keeps its confirmation copy inside the blank content cavity.",
+      "category": "AndroidLive",
+      "originalScope": "Android16",
+      "kind": "Panel",
+      "durationMillis": 820,
+      "timingLabel": "820 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidSystem",
+          "cell": 8,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": "COPIED",
+      "label": "COPIED",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "permission-choice-panel",
+      "title": "Permission choice panel",
+      "description": "The shield remains fixed while the requested permission row expands into focus.",
+      "category": "AndroidLive",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidSystem",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        }
+      ],
+      "originalLabel": "ALLOW ONCE",
+      "label": "ALLOW ONCE",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "predictive-back-activity",
+      "title": "Predictive back → activity",
+      "description": "Two independent activity frames preview the cross-activity destination before the edge gesture commits.",
+      "category": "AndroidDesktop",
+      "originalScope": "Android16",
+      "kind": "Back",
+      "durationMillis": 820,
+      "timingLabel": "820 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidWindowing",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "predictive-back-cancel",
+      "title": "Predictive back cancel",
+      "description": "The destination preview reaches threshold, reverses, and restores the current activity without a snap.",
+      "category": "AndroidDesktop",
+      "originalScope": "Android16",
+      "kind": "BackCancel",
+      "durationMillis": 920,
+      "timingLabel": "920 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidWindowing",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.8
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "desktop-window-open",
+      "title": "Desktop window open",
+      "description": "Caption controls and content frame expand from one centered window origin.",
+      "category": "AndroidDesktop",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidWindowing",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        }
+      ],
+      "originalLabel": "DESKTOP",
+      "label": "DESKTOP",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "desktop-taskbar-reveal",
+      "title": "Desktop taskbar reveal",
+      "description": "The taskbar rises from the bottom inset and keeps all six app sockets evenly spaced.",
+      "category": "AndroidDesktop",
+      "originalScope": "Android16",
+      "kind": "Rise",
+      "durationMillis": 850,
+      "timingLabel": "850 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidWindowing",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.96
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "pip-controls-reveal",
+      "title": "PiP controls reveal",
+      "description": "Playback controls dock beneath the miniature viewport, then recede without resizing its content.",
+      "category": "AndroidDesktop",
+      "originalScope": "Android16",
+      "kind": "Pip",
+      "durationMillis": 1100,
+      "timingLabel": "1,100 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidWindowing",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        }
+      ],
+      "originalLabel": "PLAYING",
+      "label": "PLAYING",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "quick-settings-edit-tray",
+      "title": "Quick Settings edit tray",
+      "description": "Four blank tile sockets enter as a stable edit grid around a centered drag handle.",
+      "category": "AndroidDesktop",
+      "originalScope": "Android16",
+      "kind": "Reorder",
+      "durationMillis": 750,
+      "timingLabel": "750 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidWindowing",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.86
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "embedded-photo-picker",
+      "title": "Embedded photo picker",
+      "description": "Three media targets expand in place while the selection count locks into the detached badge.",
+      "category": "AndroidDesktop",
+      "originalScope": "Android16",
+      "kind": "Expand",
+      "durationMillis": 800,
+      "timingLabel": "800 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidWindowing",
+          "cell": 7,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": "3",
+      "label": "3",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "loading-shimmer-sync",
+      "title": "Loading shimmer / sync",
+      "description": "Four loading rails shimmer as a contained group with no full-screen flash.",
+      "category": "AndroidDesktop",
+      "originalScope": "Android16",
+      "kind": "Shimmer",
+      "durationMillis": 1400,
+      "timingLabel": "1,400 ms ×2",
+      "repeat": {
+        "mode": "count",
+        "count": 2
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidWindowing",
+          "cell": 8,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": "SYNCING",
+      "label": "SYNCING",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "biometric-failure-lockout",
+      "title": "Biometric failure / lockout",
+      "description": "The biometric socket holds position while error copy and recovery action warn once.",
+      "category": "AndroidDesktop",
+      "originalScope": "Android16",
+      "kind": "Warn",
+      "durationMillis": 1200,
+      "timingLabel": "1,200 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "AndroidWindowing",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": "TRY AGAIN",
+      "label": "TRY AGAIN",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "hinge-posture-angle",
+      "title": "Hinge posture / angle",
+      "description": "The paired display plates settle around a true hinge pivot while the angle readout stays inside its arc.",
+      "category": "ThorAdvanced",
+      "originalScope": "Thor",
+      "kind": "Hinge",
+      "durationMillis": 1000,
+      "timingLabel": "1,000 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "ThorAdvanced",
+          "cell": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.86
+        }
+      ],
+      "originalLabel": "120°",
+      "label": "120°",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "game-assistant-overlay",
+      "title": "Game Assistant overlay",
+      "description": "A dedicated handheld side panel enters from the active display edge and exposes three control rows.",
+      "category": "ThorAdvanced",
+      "originalScope": "Thor",
+      "kind": "Panel",
+      "durationMillis": 820,
+      "timingLabel": "820 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "ThorAdvanced",
+          "cell": 2,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": "GAME ASSIST",
+      "label": "GAME ASSIST",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "controller-focus-transfer",
+      "title": "Controller focus transfer",
+      "description": "Matched focus crowns transfer emphasis across a centered controller-navigation chevron.",
+      "category": "ThorAdvanced",
+      "originalScope": "Thor",
+      "kind": "Back",
+      "durationMillis": 820,
+      "timingLabel": "820 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "ThorAdvanced",
+          "cell": 3,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.82
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "touch-mapping-editor",
+      "title": "Touch-mapping editor",
+      "description": "Four draggable binding sockets assemble around the active screen without covering its center.",
+      "category": "ThorAdvanced",
+      "originalScope": "Thor",
+      "kind": "Stack",
+      "durationMillis": 650,
+      "timingLabel": "650 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "ThorAdvanced",
+          "cell": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.88
+        }
+      ],
+      "originalLabel": "BIND",
+      "label": "BIND",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "analog-trigger-calibration",
+      "title": "Analog trigger calibration",
+      "description": "Trigger travel and its separate gauge reveal bottom-up to show range and dead-zone calibration.",
+      "category": "ThorAdvanced",
+      "originalScope": "Thor",
+      "kind": "Calibrate",
+      "durationMillis": 1250,
+      "timingLabel": "1,250 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "ThorAdvanced",
+          "cell": 5,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.84
+        }
+      ],
+      "originalLabel": null,
+      "label": null,
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "dual-screen-app-drag",
+      "title": "Dual-screen app drag",
+      "description": "A compact app card transfers across the physical hinge gap between the two display frames.",
+      "category": "ThorAdvanced",
+      "originalScope": "Thor",
+      "kind": "Swap",
+      "durationMillis": 1000,
+      "timingLabel": "1,000 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "ThorAdvanced",
+          "cell": 6,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": "MOVE APP",
+      "label": "MOVE APP",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "fan-curve-auto-mode",
+      "title": "Fan curve / auto mode",
+      "description": "Four control points settle as one curve surface while the active cooling mode remains readable.",
+      "category": "ThorAdvanced",
+      "originalScope": "Thor",
+      "kind": "Curve",
+      "durationMillis": 1150,
+      "timingLabel": "1,150 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "ThorAdvanced",
+          "cell": 7,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.9
+        }
+      ],
+      "originalLabel": "AUTO",
+      "label": "AUTO",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "rgb-mode-color-select",
+      "title": "RGB mode / color select",
+      "description": "The segmented lighting ring breathes at a safe cadence and preserves ember as the default mode.",
+      "category": "ThorAdvanced",
+      "originalScope": "Thor",
+      "kind": "Breathe",
+      "durationMillis": 2200,
+      "timingLabel": "2,200 ms loop",
+      "repeat": {
+        "mode": "loop",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "ThorAdvanced",
+          "cell": 8,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.76
+        }
+      ],
+      "originalLabel": "EMBER",
+      "label": "EMBER",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    },
+    {
+      "id": "five-band-eq-preset",
+      "title": "Five-band EQ / preset",
+      "description": "Five aligned bands reveal upward while the selected sound profile stays inside its detached cavity.",
+      "category": "ThorAdvanced",
+      "originalScope": "Thor",
+      "kind": "Equalize",
+      "durationMillis": 1200,
+      "timingLabel": "1,200 ms",
+      "repeat": {
+        "mode": "count",
+        "count": 1
+      },
+      "legacyLayers": [
+        {
+          "atlas": "ThorAdvanced",
+          "cell": 9,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 0.92
+        }
+      ],
+      "originalLabel": "PROFILE",
+      "label": "PROFILE",
+      "controllerButtons": false,
+      "meter": false,
+      "longPressCharge": false
+    }
+  ]
+}

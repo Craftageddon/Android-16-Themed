@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-23",
+  "archiveSha256": "3caa912c433526731f502d9e116887006be8cc5ea2f212f2929b9815c5fa5c39",
+  "bytes": 77521107,
+  "members": 3135,
+  "signatureVerified": true,
+  "transportParts": 7,
+  "restoredArchiveSignatureVerified": true,
+  "tamperedArchiveRejected": true,
+  "allMemberChecksums": "PASS",
+  "keySpkiSha256": "efed639940a40e073b8c30f4f515eb7859d65fd03b660e179006798fc9c6ac9c",
+  "scope": "Source-artifact checkpoint only; not native APK/OTA/AVB signing"
+}

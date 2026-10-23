@@ -1,0 +1,752 @@
+{
+  "masters": [
+    {
+      "source": "iterations/11-forge-symbol-library/masters/accounts__detailed.svg",
+      "originalCopy": "source/original-masters/asset-000.svg",
+      "sha256": "84463217eb8819492b49bc7f7d5a536e0749f5ccd62e95a7fd09307ce20e5677",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/airplane_on__detailed.svg",
+      "originalCopy": "source/original-masters/asset-001.svg",
+      "sha256": "ea862c559b2046d4ba84673f8f4327f6cd1b86a0a38f04bcc99b18790ee44915",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/audio__detailed.svg",
+      "originalCopy": "source/original-masters/asset-002.svg",
+      "sha256": "d16aecb7d596c8c67025aa492fbee6197c1b267dd8c2818f72b8524ede9d312e",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/back__detailed.svg",
+      "originalCopy": "source/original-masters/asset-003.svg",
+      "sha256": "54b345388a5a620c5db71f9f5286dacbded4b5bc149c6dd639a5153fb61edbbd",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/bluetooth_on__detailed.svg",
+      "originalCopy": "source/original-masters/asset-004.svg",
+      "sha256": "5343a70ef12cac304a5ad0e3bf7097ee132c0725885ffb4a9975733259f068a9",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/cellular_4__detailed.svg",
+      "originalCopy": "source/original-masters/asset-005.svg",
+      "sha256": "807ef5ce2e8ad103a4d74ccfe98b96da6b274b689beb211dab77cc9193367b5f",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/display__detailed.svg",
+      "originalCopy": "source/original-masters/asset-006.svg",
+      "sha256": "f05d34a59cc36eb965feac470b22e5e26758c692cba932f187f8a8d40068b1c7",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/display_external__detailed.svg",
+      "originalCopy": "source/original-masters/asset-007.svg",
+      "sha256": "cb8b14965422375de19f3081af9cdc4790c11a269ad1ba49200a8acf4b13c417",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/display_lower__detailed.svg",
+      "originalCopy": "source/original-masters/asset-008.svg",
+      "sha256": "56c7357090010d95a35fc67d0ef8b958cd469ab980ab14b1d433d34811c8d2cc",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/display_upper__detailed.svg",
+      "originalCopy": "source/original-masters/asset-009.svg",
+      "sha256": "d60b1e7441d7e3d9b9d83d5c68966edba0bf413f50af7c8db5da88370b87e330",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/error__detailed.svg",
+      "originalCopy": "source/original-masters/asset-010.svg",
+      "sha256": "a163afd16a990cc8ee3866e215503d9535f7aab3ed083402855720228cdf9afb",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/fan_quiet__detailed.svg",
+      "originalCopy": "source/original-masters/asset-011.svg",
+      "sha256": "6d18b2cb8f7eef24bdcfe5068f0276831a0e5e34c7d02e24a905eadcf8e666f5",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/forward__detailed.svg",
+      "originalCopy": "source/original-masters/asset-012.svg",
+      "sha256": "86a8a719471f379fbefab1e5634bc638528bed625e8a72741c13d486163748ac",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/hero-cast.svg",
+      "originalCopy": "source/original-masters/asset-013.svg",
+      "sha256": "f12d3e3b166f1db81975408e49d1452c1e385662aa11d9dc81706b080ed33a85",
+      "embeddedRasters": [
+        "e387e997d3a546fbc5196bf4d89420c5f1e114784cc5b6d5347977a30ef64b6a"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/hero-power_core.svg",
+      "originalCopy": "source/original-masters/asset-014.svg",
+      "sha256": "078c2ee644b378ad5dba5a060701b77754803dd51801ef45674ff2f4c4fb4bf4",
+      "embeddedRasters": [
+        "facded78ffcd2f4f6d0dfba8422f844c32274adb0b9dea8b33e5e2270e9553fb"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/hero-wifi.svg",
+      "originalCopy": "source/original-masters/asset-015.svg",
+      "sha256": "1299e3b0817fce1efaa679204f0903fa566fe8ff6b50ccff5b0d32d4d0bc6cc3",
+      "embeddedRasters": [
+        "e6ecf2e28fd81176c4142ab4a9825beb4a522f1ee23834d86d4733c1d1cfe20b"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/home__detailed.svg",
+      "originalCopy": "source/original-masters/asset-016.svg",
+      "sha256": "2bcbfcae8c42d070f5aa7155826b6a5e2566ad1e2c189c4f3ee2d186e46f888f",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/hotspot_on__detailed.svg",
+      "originalCopy": "source/original-masters/asset-017.svg",
+      "sha256": "d73049d3ef0caeed76fe8b00ea5faa7e80edaf05a04afaf00547a77f2d177aa2",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/info__detailed.svg",
+      "originalCopy": "source/original-masters/asset-018.svg",
+      "sha256": "c55eb314e8d011becf37b8d2eb075295a1bfd9cac3a4a9d5729b2f10b3edf42a",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/lock__detailed.svg",
+      "originalCopy": "source/original-masters/asset-019.svg",
+      "sha256": "474233c17e27f9389254d9a4038f56b2fcfd6403cb77aa3cc89e38dcb5d613fb",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/performance_balanced__detailed.svg",
+      "originalCopy": "source/original-masters/asset-020.svg",
+      "sha256": "f8819827bd3c169e5faa9b09d77e5286db51cbf776689add59f75784d5de7233",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/performance_fast__detailed.svg",
+      "originalCopy": "source/original-masters/asset-021.svg",
+      "sha256": "4a842f453d5443df82c6a266b3a874630b4c11a1e973b42b18b5843dedf502cb",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/play__detailed.svg",
+      "originalCopy": "source/original-masters/asset-022.svg",
+      "sha256": "5341c31a43b9ef7d5198e3b97d6220ba7d88ddba08fe184e63cf64bfff81bb22",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/rotation__detailed.svg",
+      "originalCopy": "source/original-masters/asset-023.svg",
+      "sha256": "65642f0ed9193f5e192361f50582aafafc789a1c2cb37c62c8acde3798839625",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/screen_recording__detailed.svg",
+      "originalCopy": "source/original-masters/asset-024.svg",
+      "sha256": "079194d96a853951b6332aff89d84e8a37c4b54fafd2f5aedb6c65f05f9a45f6",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/screen_swap__detailed.svg",
+      "originalCopy": "source/original-masters/asset-025.svg",
+      "sha256": "318de1362b321367ee4c172b1a3ac51a9850a1ede8d7ecbcd56aeaa563494dfd",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/success__detailed.svg",
+      "originalCopy": "source/original-masters/asset-026.svg",
+      "sha256": "df14988f07b5f676d0c741bf6f4b02357db43f06539f6c0e5b3676b2e6e2659b",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/sync__detailed.svg",
+      "originalCopy": "source/original-masters/asset-027.svg",
+      "sha256": "062c51dbf0f769c853bd33282b4d40ed5be9f7a0860f2a221f39da6faf0c0ed6",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/usb__detailed.svg",
+      "originalCopy": "source/original-masters/asset-028.svg",
+      "sha256": "4cb5401cd5ceea073f8319430282e5a74e4ae22d0d5d538e07040180d9cffe4d",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/vibration__detailed.svg",
+      "originalCopy": "source/original-masters/asset-029.svg",
+      "sha256": "7f6556440ff3739d6c79145893ee769a77880b23f80b650fd13165f7e57684db",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/11-forge-symbol-library/masters/vpn__detailed.svg",
+      "originalCopy": "source/original-masters/asset-030.svg",
+      "sha256": "d6867d5daa32bcce99d885f9e599478e95ca3e991efe069d5cb0aa1773c34209",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/control-bottom_sheet.svg",
+      "originalCopy": "source/original-masters/asset-031.svg",
+      "sha256": "bf311b4baf0c71212f7e55887d0b78278f66d97ed299582dd423f879a8b90f8e",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/control-button_primary.svg",
+      "originalCopy": "source/original-masters/asset-032.svg",
+      "sha256": "67749053166d2bb0ea0b6fd7fbd44ed212a146532c4e975c61d211db47340153",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/control-card.svg",
+      "originalCopy": "source/original-masters/asset-033.svg",
+      "sha256": "853965b2d0cf93d19d1788c069f7381248dd6d73765d6e32234805ffde16a2a4",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/control-controller_cap.svg",
+      "originalCopy": "source/original-masters/asset-034.svg",
+      "sha256": "79666f40e514691724cc899e24ca15d34f10976e419aa91db58ff5164e9acbd8",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/control-dialog.svg",
+      "originalCopy": "source/original-masters/asset-035.svg",
+      "sha256": "8183eed4f7fc9ecaf5253ee0220a00b9809fcd5fcfb5a6d0ffca68bfdda9be7d",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/control-focus_boundary.svg",
+      "originalCopy": "source/original-masters/asset-036.svg",
+      "sha256": "ca14018dc9a965100ba7ceac7be87e7c3087a1c29ccb943172ba361a8584d263",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/control-keyboard_letter.svg",
+      "originalCopy": "source/original-masters/asset-037.svg",
+      "sha256": "e0f74465c673745697276d6e61da6f4c57637632e37b987d038ac189e527a921",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/control-notification_compact.svg",
+      "originalCopy": "source/original-masters/asset-038.svg",
+      "sha256": "92d48a4298b96bf98029902e156b4bc120392dfbeb310a90f7f0177f78294eef",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/control-shoulder_cap.svg",
+      "originalCopy": "source/original-masters/asset-039.svg",
+      "sha256": "9144ebe97279f96b0401419c6ec9054c010ead660783f793dafcdcd420b2073f",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/control-toast.svg",
+      "originalCopy": "source/original-masters/asset-040.svg",
+      "sha256": "264fe6c613564dbb9f4769d4358286826505b1514b17b9a555766ba7608d780a",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/pilot-gaming_menu.svg",
+      "originalCopy": "source/original-masters/asset-041.svg",
+      "sha256": "062a91cc997f7f46b0c503b8aa6f7715eea37ba2df672ba23029472370c9ec4c",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/pilot-navigation.svg",
+      "originalCopy": "source/original-masters/asset-042.svg",
+      "sha256": "f732214654180c71a642ecbebc6baa7100fd897cc93a311433a19fee6099b021",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/pilot-quick_tile.svg",
+      "originalCopy": "source/original-masters/asset-043.svg",
+      "sha256": "cba35fc531baa88dc4622178df83a6b4fd07af1c9a979adc57d66079a473f39b",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/scalable-notification.svg",
+      "originalCopy": "source/original-masters/asset-044.svg",
+      "sha256": "242bc629dd7abdb4b115a2e35f5d574672212108d6eecd1f422627924f8f63c2",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/12-forge-controls-and-screens/masters/scalable-panel.svg",
+      "originalCopy": "source/original-masters/asset-045.svg",
+      "sha256": "bb2e026d1daa35d589ca71e08d99a5d03d604843e31cd0a9e6df59ca3b5d8fe8",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/13-forge-android-and-thor-flows/masters/biometric_socket.svg",
+      "originalCopy": "source/original-masters/asset-046.svg",
+      "sha256": "d423252da4994ae4b3119bce7f344fb5db597a8f129e3e466b47af67ece25a2e",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/13-forge-android-and-thor-flows/masters/display_pair.svg",
+      "originalCopy": "source/original-masters/asset-047.svg",
+      "sha256": "be9c125120e983f527fa99f35943aef60be6cfac651f8626e0161130ace9a1a2",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/13-forge-android-and-thor-flows/masters/folder_socket.svg",
+      "originalCopy": "source/original-masters/asset-048.svg",
+      "sha256": "fa3d4791e1983a892577487c2eff189659dc49cdbbc3d7cb5b8b21b87512d758",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/13-forge-android-and-thor-flows/masters/media_cell.svg",
+      "originalCopy": "source/original-masters/asset-049.svg",
+      "sha256": "56df13a75d47460ec72c4466e889d0554f9ff2a1448dee45fc4a591702be561e",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/13-forge-android-and-thor-flows/masters/pattern_node.svg",
+      "originalCopy": "source/original-masters/asset-050.svg",
+      "sha256": "83df57485d7388f35a0b151ab7d6f14147cc8000f3dafdc82641a5e1091d6e80",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/13-forge-android-and-thor-flows/masters/rgb_zone.svg",
+      "originalCopy": "source/original-masters/asset-051.svg",
+      "sha256": "7d4325ba4944444faac3840f704bed868483316f9927638cd1af38404c4ce59d",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/13-forge-android-and-thor-flows/masters/stick_gate.svg",
+      "originalCopy": "source/original-masters/asset-052.svg",
+      "sha256": "fa2f3f18d514712e3df626e1232eac8692c6383c8c89ac4540de0797b38fad68",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/13-forge-android-and-thor-flows/masters/task_card.svg",
+      "originalCopy": "source/original-masters/asset-053.svg",
+      "sha256": "b111b8a55a0c2f535a05bfb8e0c72b1f4b47f72d7684d7ea9f4d05cab209977d",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/13-forge-android-and-thor-flows/masters/thermal_gauge.svg",
+      "originalCopy": "source/original-masters/asset-054.svg",
+      "sha256": "5600f5e1e156b988c7f2b63751677d23eccbf611f66a8479d9ea01531ecb7f98",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/14-forge-atmosphere/masters/charge_chamber.svg",
+      "originalCopy": "source/original-masters/asset-055.svg",
+      "sha256": "9f4dd89d6091ac42fd35e1c48f28974f5952a7e8147839ae2aff0f8ff339b89c",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "facded78ffcd2f4f6d0dfba8422f844c32274adb0b9dea8b33e5e2270e9553fb"
+      ]
+    },
+    {
+      "source": "iterations/14-forge-atmosphere/masters/forge_crest.svg",
+      "originalCopy": "source/original-masters/asset-056.svg",
+      "sha256": "c32b76aba22bb333df34305abefbd0e4e532288bfcba3de1bba91a17c1b34348",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/14-forge-atmosphere/masters/wallpaper-phone-quiet.svg",
+      "originalCopy": "source/original-masters/asset-057.svg",
+      "sha256": "86f66c3faa73a4a7ee66c2f7059e8cae701b610d87317a76889316b52977a97a",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/activity_card.svg",
+      "originalCopy": "source/original-masters/asset-058.svg",
+      "sha256": "7a3d97d628684b4de18f8188d6afaa751824eea135413c019ff7eeffa0a49cf4",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/biometric_scan.svg",
+      "originalCopy": "source/original-masters/asset-059.svg",
+      "sha256": "049178c874dae525f27d0eb8fd2691c541df685c81f95190f711ed68ba0eaa67",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/charge_vessel.svg",
+      "originalCopy": "source/original-masters/asset-060.svg",
+      "sha256": "593cfac1e628d7d6caf99ac23fb9ea5de706ec6b3540a46fd53e39a8554def5c",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/clipboard_panel.svg",
+      "originalCopy": "source/original-masters/asset-061.svg",
+      "sha256": "63742145cf6415a907dcfa7cb40ef9cc8afc7d16059cf604b98eedfaa2bdec3f",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/copy_toolbar.svg",
+      "originalCopy": "source/original-masters/asset-062.svg",
+      "sha256": "7dbc504b5238af707d11069b44f9d610dfabe2f018f093028b91c1362fe88e5d",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/direction_cap.svg",
+      "originalCopy": "source/original-masters/asset-063.svg",
+      "sha256": "771e81fafecd05eb99519ecfdbdf14e53bde5cb61627ef7b7b1fd6c23475d729",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/display_lower_frame.svg",
+      "originalCopy": "source/original-masters/asset-064.svg",
+      "sha256": "3b90a640a44474d5868f15e1571e8340cd576ca9b1bb9c883c4e7d010e166289",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/display_upper_frame.svg",
+      "originalCopy": "source/original-masters/asset-065.svg",
+      "sha256": "8fa1a67b9795830681ae799dd230f25faca3c10a23f3964e1234fc93ec697956",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/english_keyboard.svg",
+      "originalCopy": "source/original-masters/asset-066.svg",
+      "sha256": "ff5a026054f236d3adaa3deb81a7bfc80231b3518d9cc73f5c17d95bc2d6c83b",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/eq_band.svg",
+      "originalCopy": "source/original-masters/asset-067.svg",
+      "sha256": "194c1a8f39123d3bccfa07aed727b45ce1c163ad8f6c4269f43657e7807fbe4b",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/face_scan.svg",
+      "originalCopy": "source/original-masters/asset-068.svg",
+      "sha256": "8918f80c85bd6b0787fa581cc3e511736a80dfac0f4b8fcf6504ea4c52cc8b43",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/fan_curve.svg",
+      "originalCopy": "source/original-masters/asset-069.svg",
+      "sha256": "6fbf6a78200d2710108fd75dd775f9e75626fc7ccd4c611683d52e89c2e64314",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/fan_rotor.svg",
+      "originalCopy": "source/original-masters/asset-070.svg",
+      "sha256": "07052be1aa0bbc9d094568fc3289a5a56ef8a4093e922d0d2bcc81c63bc19cc6",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/hold_charge.svg",
+      "originalCopy": "source/original-masters/asset-071.svg",
+      "sha256": "787db7617f23074c7b61211b5edd41d3095eff459ec84784dae07b0f5d6443ca",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+      "originalCopy": "source/original-masters/asset-072.svg",
+      "sha256": "91989a2186c90a760249988543ca82c1dd2c214cc9d74a6673fcc20aef8b1e25",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/media_option.svg",
+      "originalCopy": "source/original-masters/asset-073.svg",
+      "sha256": "ab166db0951e2cc8e6aad1965834d191363355bd11132c24c5767c63e225e2dc",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/milestone_track.svg",
+      "originalCopy": "source/original-masters/asset-074.svg",
+      "sha256": "753e971af6c5e0f94e1eccdbccc390cc70ef581dcd1210484580510a40d7eb50",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/owner_panel.svg",
+      "originalCopy": "source/original-masters/asset-075.svg",
+      "sha256": "24e6428c0a2f3bce9d839aa3b8161d5a08b29f4e6b3287a33809d764fec1baa0",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/pip_card.svg",
+      "originalCopy": "source/original-masters/asset-076.svg",
+      "sha256": "14136124bb0595381aacf38c49995117d69c87064f041d9bf82034efea2fc34c",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/power_actions.svg",
+      "originalCopy": "source/original-masters/asset-077.svg",
+      "sha256": "fff18bab9e144abb3ca822657bfbf35910de175b8529a715ddfff41a6398eeff",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/privacy_pill.svg",
+      "originalCopy": "source/original-masters/asset-078.svg",
+      "sha256": "17eee22bcd7e9f14ebdf75e50a22905ec8ae32c319214f075221d16c72b52b32",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/progress_vessel.svg",
+      "originalCopy": "source/original-masters/asset-079.svg",
+      "sha256": "5e9437fd4e32b3c357c43bed1c8fe2eb5715da5167157dbf3d3f666407cf3467",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/quick_bluetooth.svg",
+      "originalCopy": "source/original-masters/asset-080.svg",
+      "sha256": "21dce19aefc9b3c5c228c63e15894eea013e9d13c6ffc04f7151ff37dde59f86",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/quick_dnd.svg",
+      "originalCopy": "source/original-masters/asset-081.svg",
+      "sha256": "d9fbd38d4966f16ee0eac9f8e2ff5e928a7f63fcf4c5fbd13f4266408d452e3d",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/quick_wifi.svg",
+      "originalCopy": "source/original-masters/asset-082.svg",
+      "sha256": "41ca182e9a9a7b1bec893513c229fadd614b8fa41afeec9aed895a61424849a1",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/selection_handles.svg",
+      "originalCopy": "source/original-masters/asset-083.svg",
+      "sha256": "f2dca3db3d56b954bc7e1275e7b61fec472c0c13500fe26fad82c90d29006263",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/slider_rail.svg",
+      "originalCopy": "source/original-masters/asset-084.svg",
+      "sha256": "5dc5caea8a402d2e2ac7c4658973e2a12727bc681f2c3089bcca64ea5d07a300",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/thermal_meter.svg",
+      "originalCopy": "source/original-masters/asset-085.svg",
+      "sha256": "6c23dae1651d80da4bad0cb9488eadf2741739b190f47aa64ef9086f9c9d7771",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/touch_targets.svg",
+      "originalCopy": "source/original-masters/asset-086.svg",
+      "sha256": "6e28126242105a50992cb26af6ef4ca4e1dc9b5bdb01983117eccaf5fee42ab8",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    },
+    {
+      "source": "iterations/16-forge-motion/masters/trigger_meter.svg",
+      "originalCopy": "source/original-masters/asset-087.svg",
+      "sha256": "962f68015316483c14321e9348b00a776eaa92eb92e8ee28497608e0dc684c44",
+      "embeddedRasters": [
+        "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+      ]
+    }
+  ],
+  "rasters": [
+    {
+      "file": "rasters/839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df.png",
+      "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+      "bytes": 162323
+    },
+    {
+      "file": "rasters/e387e997d3a546fbc5196bf4d89420c5f1e114784cc5b6d5347977a30ef64b6a.png",
+      "sha256": "e387e997d3a546fbc5196bf4d89420c5f1e114784cc5b6d5347977a30ef64b6a",
+      "bytes": 1828995
+    },
+    {
+      "file": "rasters/facded78ffcd2f4f6d0dfba8422f844c32274adb0b9dea8b33e5e2270e9553fb.png",
+      "sha256": "facded78ffcd2f4f6d0dfba8422f844c32274adb0b9dea8b33e5e2270e9553fb",
+      "bytes": 1794978
+    },
+    {
+      "file": "rasters/e6ecf2e28fd81176c4142ab4a9825beb4a522f1ee23834d86d4733c1d1cfe20b.png",
+      "sha256": "e6ecf2e28fd81176c4142ab4a9825beb4a522f1ee23834d86d4733c1d1cfe20b",
+      "bytes": 1330152
+    }
+  ]
+}

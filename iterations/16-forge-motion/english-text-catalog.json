@@ -1,0 +1,2118 @@
+{
+  "authoredLocale": "en-US",
+  "scope": "Current titles, descriptions, captions, static live labels and native formatting resources; no historical originalLabel text",
+  "labels": [
+    {
+      "key": "motion_boot_crest_assembly_title",
+      "text": "Boot crest assembly",
+      "owner": "boot-crest-assembly",
+      "formatted": false
+    },
+    {
+      "key": "motion_boot_crest_assembly_description",
+      "text": "Outer ring, inner rune and core forge as independent layers.",
+      "owner": "boot-crest-assembly",
+      "formatted": false
+    },
+    {
+      "key": "motion_shutdown_collapse_title",
+      "text": "Shutdown collapse",
+      "owner": "shutdown-collapse",
+      "formatted": false
+    },
+    {
+      "key": "motion_shutdown_collapse_description",
+      "text": "Active seal contracts into its core before the display extinguishes.",
+      "owner": "shutdown-collapse",
+      "formatted": false
+    },
+    {
+      "key": "motion_restart_reignition_title",
+      "text": "Restart reignition",
+      "owner": "restart-reignition",
+      "formatted": false
+    },
+    {
+      "key": "motion_restart_reignition_description",
+      "text": "Core-first restart with a restrained overshoot and halo settle.",
+      "owner": "restart-reignition",
+      "formatted": false
+    },
+    {
+      "key": "motion_lock_screen_aod_pulse_title",
+      "text": "Lock screen / AOD pulse",
+      "owner": "lock-screen-aod-pulse",
+      "formatted": false
+    },
+    {
+      "key": "motion_lock_screen_aod_pulse_description",
+      "text": "Clock crown breathes without excessive flashing.",
+      "owner": "lock-screen-aod-pulse",
+      "formatted": false
+    },
+    {
+      "key": "motion_lock_screen_aod_pulse_layer_0_label_0",
+      "text": "12:00",
+      "owner": "lock-screen-aod-pulse",
+      "formatted": false
+    },
+    {
+      "key": "motion_unlock_confirmation_title",
+      "text": "Unlock confirmation",
+      "owner": "unlock-confirmation",
+      "formatted": false
+    },
+    {
+      "key": "motion_unlock_confirmation_description",
+      "text": "Reusable status frame transfers focus to the success rune.",
+      "owner": "unlock-confirmation",
+      "formatted": false
+    },
+    {
+      "key": "motion_battery_charging_title",
+      "text": "Battery charging",
+      "owner": "battery-charging",
+      "formatted": false
+    },
+    {
+      "key": "motion_battery_charging_description",
+      "text": "A single SVG assembly keeps the shell, liquid and 68% readout on one axis.",
+      "owner": "battery-charging",
+      "formatted": false
+    },
+    {
+      "key": "motion_low_battery_warning_title",
+      "text": "Low-battery warning",
+      "owner": "low-battery-warning",
+      "formatted": false
+    },
+    {
+      "key": "motion_low_battery_warning_description",
+      "text": "The same SVG assembly holds a true 15% fill while the warning rune strikes once.",
+      "owner": "low-battery-warning",
+      "formatted": false
+    },
+    {
+      "key": "motion_direct_power_bypass_title",
+      "text": "Direct-power bypass",
+      "owner": "direct-power-bypass",
+      "formatted": false
+    },
+    {
+      "key": "motion_direct_power_bypass_description",
+      "text": "Circuit closes around the power bolt with a controlled energy pulse.",
+      "owner": "direct-power-bypass",
+      "formatted": false
+    },
+    {
+      "key": "motion_system_update_cycle_title",
+      "text": "System update cycle",
+      "owner": "system-update-cycle",
+      "formatted": false
+    },
+    {
+      "key": "motion_system_update_cycle_description",
+      "text": "Rotating update emblem and live determinate progress.",
+      "owner": "system-update-cycle",
+      "formatted": false
+    },
+    {
+      "key": "motion_notification_arrival_title",
+      "text": "Notification arrival",
+      "owner": "notification-arrival",
+      "formatted": false
+    },
+    {
+      "key": "motion_notification_arrival_description",
+      "text": "Top-edge entry, settle, readable hold, then lateral exit.",
+      "owner": "notification-arrival",
+      "formatted": false
+    },
+    {
+      "key": "motion_notification_arrival_layer_0_label_0",
+      "text": "Forge complete",
+      "owner": "notification-arrival",
+      "formatted": false
+    },
+    {
+      "key": "motion_heads_up_lifecycle_title",
+      "text": "Heads-up lifecycle",
+      "owner": "heads-up-lifecycle",
+      "formatted": false
+    },
+    {
+      "key": "motion_heads_up_lifecycle_description",
+      "text": "Fast priority entrance with a fixed readable hold interval.",
+      "owner": "heads-up-lifecycle",
+      "formatted": false
+    },
+    {
+      "key": "motion_heads_up_lifecycle_layer_0_label_0",
+      "text": "Incoming alert",
+      "owner": "heads-up-lifecycle",
+      "formatted": false
+    },
+    {
+      "key": "motion_expand_collapse_title",
+      "text": "Expand / collapse",
+      "owner": "expand-collapse",
+      "formatted": false
+    },
+    {
+      "key": "motion_expand_collapse_description",
+      "text": "Notification frame grows from its header anchor without text distortion.",
+      "owner": "expand-collapse",
+      "formatted": false
+    },
+    {
+      "key": "motion_expand_collapse_layer_0_label_0",
+      "text": "2 more lines",
+      "owner": "expand-collapse",
+      "formatted": false
+    },
+    {
+      "key": "motion_grouped_notifications_title",
+      "text": "Grouped notifications",
+      "owner": "grouped-notifications",
+      "formatted": false
+    },
+    {
+      "key": "motion_grouped_notifications_description",
+      "text": "Three cards arrive with staggered depth and unified spacing.",
+      "owner": "grouped-notifications",
+      "formatted": false
+    },
+    {
+      "key": "motion_swipe_dismissal_title",
+      "text": "Swipe dismissal",
+      "owner": "swipe-dismissal",
+      "formatted": false
+    },
+    {
+      "key": "motion_swipe_dismissal_description",
+      "text": "Card follows the release vector and fades only after threshold.",
+      "owner": "swipe-dismissal",
+      "formatted": false
+    },
+    {
+      "key": "motion_action_button_press_title",
+      "text": "Action-button press",
+      "owner": "action-button-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_action_button_press_description",
+      "text": "Controller, touch and keyboard activation share one press response.",
+      "owner": "action-button-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_action_button_press_layer_0_label_0",
+      "text": "REPLY",
+      "owner": "action-button-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_progress_notification_title",
+      "text": "Progress notification",
+      "owner": "progress-notification",
+      "formatted": false
+    },
+    {
+      "key": "motion_progress_notification_description",
+      "text": "A single forged vessel keeps its molten fill, frame and live status perfectly aligned.",
+      "owner": "progress-notification",
+      "formatted": false
+    },
+    {
+      "key": "motion_silent_notification_title",
+      "text": "Silent notification",
+      "owner": "silent-notification",
+      "formatted": false
+    },
+    {
+      "key": "motion_silent_notification_description",
+      "text": "Subdued entrance and fade preserve hierarchy without a burst.",
+      "owner": "silent-notification",
+      "formatted": false
+    },
+    {
+      "key": "motion_silent_notification_layer_0_label_0",
+      "text": "Silent",
+      "owner": "silent-notification",
+      "formatted": false
+    },
+    {
+      "key": "motion_toast_snackbar_title",
+      "text": "Toast / snackbar",
+      "owner": "toast-snackbar",
+      "formatted": false
+    },
+    {
+      "key": "motion_toast_snackbar_description",
+      "text": "Bottom-origin entry with live copy and an optional action.",
+      "owner": "toast-snackbar",
+      "formatted": false
+    },
+    {
+      "key": "motion_toast_snackbar_layer_0_label_0",
+      "text": "Saved  \u00b7  UNDO",
+      "owner": "toast-snackbar",
+      "formatted": false
+    },
+    {
+      "key": "motion_shade_pull_down_title",
+      "text": "Shade pull-down",
+      "owner": "shade-pull-down",
+      "formatted": false
+    },
+    {
+      "key": "motion_shade_pull_down_description",
+      "text": "Panel rises from its grip plate and settles on the drag release.",
+      "owner": "shade-pull-down",
+      "formatted": false
+    },
+    {
+      "key": "motion_half_to_full_expansion_title",
+      "text": "Half-to-full expansion",
+      "owner": "half-to-full-expansion",
+      "formatted": false
+    },
+    {
+      "key": "motion_half_to_full_expansion_description",
+      "text": "The same surface expands without reflowing its centered handle.",
+      "owner": "half-to-full-expansion",
+      "formatted": false
+    },
+    {
+      "key": "motion_tile_activate_deactivate_title",
+      "text": "Tile activate / deactivate",
+      "owner": "tile-activate-deactivate",
+      "formatted": false
+    },
+    {
+      "key": "motion_tile_activate_deactivate_description",
+      "text": "A reusable active bezel accepts any live system glyph.",
+      "owner": "tile-activate-deactivate",
+      "formatted": false
+    },
+    {
+      "key": "motion_tile_activate_deactivate_layer_0_label_0",
+      "text": "On",
+      "owner": "tile-activate-deactivate",
+      "formatted": false
+    },
+    {
+      "key": "motion_tile_reorder_title",
+      "text": "Tile reorder",
+      "owner": "tile-reorder",
+      "formatted": false
+    },
+    {
+      "key": "motion_tile_reorder_description",
+      "text": "Three equal tiles shift with staggered depth and no collisions.",
+      "owner": "tile-reorder",
+      "formatted": false
+    },
+    {
+      "key": "motion_internet_detail_panel_title",
+      "text": "Internet detail panel",
+      "owner": "internet-detail-panel",
+      "formatted": false
+    },
+    {
+      "key": "motion_internet_detail_panel_description",
+      "text": "Detail frame opens around the currently selected radio.",
+      "owner": "internet-detail-panel",
+      "formatted": false
+    },
+    {
+      "key": "motion_internet_detail_panel_layer_0_label_0",
+      "text": "INTERNET",
+      "owner": "internet-detail-panel",
+      "formatted": false
+    },
+    {
+      "key": "motion_wi_fi_state_title",
+      "text": "Wi\u2011Fi state",
+      "owner": "wi-fi-state",
+      "formatted": false
+    },
+    {
+      "key": "motion_wi_fi_state_description",
+      "text": "Independent arc bands read as a clean beacon pulse.",
+      "owner": "wi-fi-state",
+      "formatted": false
+    },
+    {
+      "key": "motion_bluetooth_state_title",
+      "text": "Bluetooth state",
+      "owner": "bluetooth-state",
+      "formatted": false
+    },
+    {
+      "key": "motion_bluetooth_state_description",
+      "text": "Paired-link rune ignites from center without rotating the symbol.",
+      "owner": "bluetooth-state",
+      "formatted": false
+    },
+    {
+      "key": "motion_cellular_signal_title",
+      "text": "Cellular signal",
+      "owner": "cellular-signal",
+      "formatted": false
+    },
+    {
+      "key": "motion_cellular_signal_description",
+      "text": "Signal columns reveal bottom-up and support live strength masking.",
+      "owner": "cellular-signal",
+      "formatted": false
+    },
+    {
+      "key": "motion_hotspot_broadcast_title",
+      "text": "Hotspot broadcast",
+      "owner": "hotspot-broadcast",
+      "formatted": false
+    },
+    {
+      "key": "motion_hotspot_broadcast_description",
+      "text": "Beacon core and emission arcs breathe as one readable state.",
+      "owner": "hotspot-broadcast",
+      "formatted": false
+    },
+    {
+      "key": "motion_airplane_mode_title",
+      "text": "Airplane mode",
+      "owner": "airplane-mode",
+      "formatted": false
+    },
+    {
+      "key": "motion_airplane_mode_description",
+      "text": "Winged arrow traverses the activation vector and locks in place.",
+      "owner": "airplane-mode",
+      "formatted": false
+    },
+    {
+      "key": "motion_vpn_tunnel_title",
+      "text": "VPN tunnel",
+      "owner": "vpn-tunnel",
+      "formatted": false
+    },
+    {
+      "key": "motion_vpn_tunnel_description",
+      "text": "Shield ring closes around an empty center reserved for live status.",
+      "owner": "vpn-tunnel",
+      "formatted": false
+    },
+    {
+      "key": "motion_brightness_slider_title",
+      "text": "Brightness slider",
+      "owner": "brightness-slider",
+      "formatted": false
+    },
+    {
+      "key": "motion_brightness_slider_description",
+      "text": "Sun, rail and thumb remain separate and aligned through the drag.",
+      "owner": "brightness-slider",
+      "formatted": false
+    },
+    {
+      "key": "motion_volume_slider_title",
+      "text": "Volume slider",
+      "owner": "volume-slider",
+      "formatted": false
+    },
+    {
+      "key": "motion_volume_slider_description",
+      "text": "Speaker waves, rail and thumb share the same drag-and-settle token.",
+      "owner": "volume-slider",
+      "formatted": false
+    },
+    {
+      "key": "motion_cast_external_display_title",
+      "text": "Cast / external display",
+      "owner": "cast-external-display",
+      "formatted": false
+    },
+    {
+      "key": "motion_cast_external_display_description",
+      "text": "Display frame pulses once as the broadcast route connects.",
+      "owner": "cast-external-display",
+      "formatted": false
+    },
+    {
+      "key": "motion_app_launch_title",
+      "text": "App launch",
+      "owner": "app-launch",
+      "formatted": false
+    },
+    {
+      "key": "motion_app_launch_description",
+      "text": "Edge-to-edge app frame grows out of the home portal.",
+      "owner": "app-launch",
+      "formatted": false
+    },
+    {
+      "key": "motion_app_close_title",
+      "text": "App close",
+      "owner": "app-close",
+      "formatted": false
+    },
+    {
+      "key": "motion_app_close_description",
+      "text": "Window returns to a compact origin while its frame extinguishes.",
+      "owner": "app-close",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_home_title",
+      "text": "Predictive back \u2192 home",
+      "owner": "predictive-back-home",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_home_description",
+      "text": "Back blade previews destination while the home portal gains focus.",
+      "owner": "predictive-back-home",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_task_title",
+      "text": "Predictive back \u2192 task",
+      "owner": "predictive-back-task",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_task_description",
+      "text": "Gesture previews the previous task stack before commit.",
+      "owner": "predictive-back-task",
+      "formatted": false
+    },
+    {
+      "key": "motion_overview_recents_title",
+      "text": "Overview / recents",
+      "owner": "overview-recents",
+      "formatted": false
+    },
+    {
+      "key": "motion_overview_recents_description",
+      "text": "Task cards fan into depth and settle into a navigable stack.",
+      "owner": "overview-recents",
+      "formatted": false
+    },
+    {
+      "key": "motion_clear_all_sweep_title",
+      "text": "Clear all sweep",
+      "owner": "clear-all-sweep",
+      "formatted": false
+    },
+    {
+      "key": "motion_clear_all_sweep_description",
+      "text": "Overview stack exits on one continuous directional gesture.",
+      "owner": "clear-all-sweep",
+      "formatted": false
+    },
+    {
+      "key": "motion_picture_in_picture_title",
+      "text": "Picture-in-picture",
+      "owner": "picture-in-picture",
+      "formatted": false
+    },
+    {
+      "key": "motion_picture_in_picture_description",
+      "text": "Window collapses into a miniature corner and returns cleanly.",
+      "owner": "picture-in-picture",
+      "formatted": false
+    },
+    {
+      "key": "motion_split_screen_divider_title",
+      "text": "Split-screen divider",
+      "owner": "split-screen-divider",
+      "formatted": false
+    },
+    {
+      "key": "motion_split_screen_divider_description",
+      "text": "Two panels open around a centered, draggable divider.",
+      "owner": "split-screen-divider",
+      "formatted": false
+    },
+    {
+      "key": "motion_adaptive_resize_rotation_title",
+      "text": "Adaptive resize / rotation",
+      "owner": "adaptive-resize-rotation",
+      "formatted": false
+    },
+    {
+      "key": "motion_adaptive_resize_rotation_description",
+      "text": "Corner brackets rotate and settle around the new bounds.",
+      "owner": "adaptive-resize-rotation",
+      "formatted": false
+    },
+    {
+      "key": "motion_edge_to_edge_window_title",
+      "text": "Edge-to-edge window",
+      "owner": "edge-to-edge-window",
+      "formatted": false
+    },
+    {
+      "key": "motion_edge_to_edge_window_description",
+      "text": "Live content remains independent of the forged perimeter.",
+      "owner": "edge-to-edge-window",
+      "formatted": false
+    },
+    {
+      "key": "motion_edge_to_edge_window_layer_0_label_0",
+      "text": "LIVE CONTENT",
+      "owner": "edge-to-edge-window",
+      "formatted": false
+    },
+    {
+      "key": "motion_folder_open_close_title",
+      "text": "Folder open / close",
+      "owner": "folder-open-close",
+      "formatted": false
+    },
+    {
+      "key": "motion_folder_open_close_description",
+      "text": "Four sockets expand from the folder origin with a single pivot.",
+      "owner": "folder-open-close",
+      "formatted": false
+    },
+    {
+      "key": "motion_widget_pickup_drop_title",
+      "text": "Widget pickup / drop",
+      "owner": "widget-pickup-drop",
+      "formatted": false
+    },
+    {
+      "key": "motion_widget_pickup_drop_description",
+      "text": "Widget frame lifts, scales, and settles without shifting its center.",
+      "owner": "widget-pickup-drop",
+      "formatted": false
+    },
+    {
+      "key": "motion_widget_pickup_drop_layer_0_label_0",
+      "text": "WIDGET",
+      "owner": "widget-pickup-drop",
+      "formatted": false
+    },
+    {
+      "key": "motion_bottom_sheet_rise_dismiss_title",
+      "text": "Bottom sheet rise / dismiss",
+      "owner": "bottom-sheet-rise-dismiss",
+      "formatted": false
+    },
+    {
+      "key": "motion_bottom_sheet_rise_dismiss_description",
+      "text": "Grip plate anchors the sheet through both entrance directions.",
+      "owner": "bottom-sheet-rise-dismiss",
+      "formatted": false
+    },
+    {
+      "key": "motion_bottom_sheet_rise_dismiss_layer_0_label_0",
+      "text": "OPTIONS",
+      "owner": "bottom-sheet-rise-dismiss",
+      "formatted": false
+    },
+    {
+      "key": "motion_dialog_destructive_confirm_title",
+      "text": "Dialog / destructive confirm",
+      "owner": "dialog-destructive-confirm",
+      "formatted": false
+    },
+    {
+      "key": "motion_dialog_destructive_confirm_description",
+      "text": "Live actions sit inside the frame; the error rune remains separate.",
+      "owner": "dialog-destructive-confirm",
+      "formatted": false
+    },
+    {
+      "key": "motion_dialog_destructive_confirm_layer_0_label_0",
+      "text": "DISCARD?",
+      "owner": "dialog-destructive-confirm",
+      "formatted": false
+    },
+    {
+      "key": "motion_touch_ripple_title",
+      "text": "Touch ripple",
+      "owner": "touch-ripple",
+      "formatted": false
+    },
+    {
+      "key": "motion_touch_ripple_description",
+      "text": "Concentric rings dissipate from the exact contact point.",
+      "owner": "touch-ripple",
+      "formatted": false
+    },
+    {
+      "key": "motion_long_press_title",
+      "text": "Long press",
+      "owner": "long-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_long_press_description",
+      "text": "A separate ember layer charges through the dormant crown while its forged shell stays fixed.",
+      "owner": "long-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_long_press_layer_0_label_0",
+      "text": "Hold",
+      "owner": "long-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_swipe_gesture_title",
+      "text": "Swipe gesture",
+      "owner": "swipe-gesture",
+      "formatted": false
+    },
+    {
+      "key": "motion_swipe_gesture_description",
+      "text": "Directional trail follows velocity, then clears after release.",
+      "owner": "swipe-gesture",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_title",
+      "text": "Keyboard IME slide",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_description",
+      "text": "Keyboard deck rises from the system inset and preserves key spacing.",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_0",
+      "text": "q",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_1",
+      "text": "w",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_2",
+      "text": "e",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_3",
+      "text": "r",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_4",
+      "text": "t",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_5",
+      "text": "y",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_6",
+      "text": "u",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_7",
+      "text": "i",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_8",
+      "text": "o",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_9",
+      "text": "p",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_10",
+      "text": "a",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_11",
+      "text": "s",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_12",
+      "text": "d",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_13",
+      "text": "f",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_14",
+      "text": "g",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_15",
+      "text": "h",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_16",
+      "text": "j",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_17",
+      "text": "k",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_18",
+      "text": "l",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_19",
+      "text": "Shift",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_20",
+      "text": "z",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_21",
+      "text": "x",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_22",
+      "text": "c",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_23",
+      "text": "v",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_24",
+      "text": "b",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_25",
+      "text": "n",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_26",
+      "text": "m",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_27",
+      "text": "Back",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_28",
+      "text": "123",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_29",
+      "text": "Space",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_keyboard_ime_slide_layer_0_label_30",
+      "text": "Enter",
+      "owner": "keyboard-ime-slide",
+      "formatted": false
+    },
+    {
+      "key": "motion_key_press_title",
+      "text": "Key press",
+      "owner": "key-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_key_press_description",
+      "text": "Empty keycap accepts live glyphs with a centered press pulse.",
+      "owner": "key-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_key_press_layer_0_label_0",
+      "text": "A",
+      "owner": "key-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_suggestion_chip_title",
+      "text": "Suggestion chip",
+      "owner": "suggestion-chip",
+      "formatted": false
+    },
+    {
+      "key": "motion_suggestion_chip_description",
+      "text": "Live suggestion copy uses the same short press token.",
+      "owner": "suggestion-chip",
+      "formatted": false
+    },
+    {
+      "key": "motion_suggestion_chip_layer_0_label_0",
+      "text": "Crafted",
+      "owner": "suggestion-chip",
+      "formatted": false
+    },
+    {
+      "key": "motion_text_selection_handles_title",
+      "text": "Text selection handles",
+      "owner": "text-selection-handles",
+      "formatted": false
+    },
+    {
+      "key": "motion_text_selection_handles_description",
+      "text": "Both handles expand from the active selection range.",
+      "owner": "text-selection-handles",
+      "formatted": false
+    },
+    {
+      "key": "motion_text_selection_handles_layer_0_label_0",
+      "text": "Craftageddon",
+      "owner": "text-selection-handles",
+      "formatted": false
+    },
+    {
+      "key": "motion_copy_paste_toolbar_title",
+      "text": "Copy / paste toolbar",
+      "owner": "copy-paste-toolbar",
+      "formatted": false
+    },
+    {
+      "key": "motion_copy_paste_toolbar_description",
+      "text": "Contextual toolbar opens around live action labels.",
+      "owner": "copy-paste-toolbar",
+      "formatted": false
+    },
+    {
+      "key": "motion_copy_paste_toolbar_layer_0_label_0",
+      "text": "Cut",
+      "owner": "copy-paste-toolbar",
+      "formatted": false
+    },
+    {
+      "key": "motion_copy_paste_toolbar_layer_0_label_1",
+      "text": "Copy",
+      "owner": "copy-paste-toolbar",
+      "formatted": false
+    },
+    {
+      "key": "motion_copy_paste_toolbar_layer_0_label_2",
+      "text": "Paste",
+      "owner": "copy-paste-toolbar",
+      "formatted": false
+    },
+    {
+      "key": "motion_fingerprint_authentication_title",
+      "text": "Fingerprint authentication",
+      "owner": "fingerprint-authentication",
+      "formatted": false
+    },
+    {
+      "key": "motion_fingerprint_authentication_description",
+      "text": "Centered ridge artwork reveals progressively without a scan line.",
+      "owner": "fingerprint-authentication",
+      "formatted": false
+    },
+    {
+      "key": "motion_face_scan_framing_title",
+      "text": "Face scan framing",
+      "owner": "face-scan-framing",
+      "formatted": false
+    },
+    {
+      "key": "motion_face_scan_framing_description",
+      "text": "Four corners and eye focus reveal together, then hold.",
+      "owner": "face-scan-framing",
+      "formatted": false
+    },
+    {
+      "key": "motion_pin_lock_unlock_title",
+      "text": "PIN lock / unlock",
+      "owner": "pin-lock-unlock",
+      "formatted": false
+    },
+    {
+      "key": "motion_pin_lock_unlock_description",
+      "text": "Lock scales once; success state can be layered independently.",
+      "owner": "pin-lock-unlock",
+      "formatted": false
+    },
+    {
+      "key": "motion_permission_emphasis_title",
+      "text": "Permission emphasis",
+      "owner": "permission-emphasis",
+      "formatted": false
+    },
+    {
+      "key": "motion_permission_emphasis_description",
+      "text": "Security emblem yields focus to the explicit allow action.",
+      "owner": "permission-emphasis",
+      "formatted": false
+    },
+    {
+      "key": "motion_permission_emphasis_layer_1_label_0",
+      "text": "ALLOW",
+      "owner": "permission-emphasis",
+      "formatted": false
+    },
+    {
+      "key": "motion_haptic_response_title",
+      "text": "Haptic response",
+      "owner": "haptic-response",
+      "formatted": false
+    },
+    {
+      "key": "motion_haptic_response_description",
+      "text": "Three restrained vibration waves visualize device feedback.",
+      "owner": "haptic-response",
+      "formatted": false
+    },
+    {
+      "key": "motion_accessibility_focus_title",
+      "text": "Accessibility focus",
+      "owner": "accessibility-focus",
+      "formatted": false
+    },
+    {
+      "key": "motion_accessibility_focus_description",
+      "text": "High-contrast focus crown transfers without obscuring content.",
+      "owner": "accessibility-focus",
+      "formatted": false
+    },
+    {
+      "key": "motion_accessibility_focus_layer_0_label_0",
+      "text": "FOCUS",
+      "owner": "accessibility-focus",
+      "formatted": false
+    },
+    {
+      "key": "motion_media_play_pause_title",
+      "text": "Media play / pause",
+      "owner": "media-play-pause",
+      "formatted": false
+    },
+    {
+      "key": "motion_media_play_pause_description",
+      "text": "Playback ring responds to touch and controller activation.",
+      "owner": "media-play-pause",
+      "formatted": false
+    },
+    {
+      "key": "motion_screenshot_capture_title",
+      "text": "Screenshot capture",
+      "owner": "screenshot-capture",
+      "formatted": false
+    },
+    {
+      "key": "motion_screenshot_capture_description",
+      "text": "Corner frame flashes once, then returns to the base surface.",
+      "owner": "screenshot-capture",
+      "formatted": false
+    },
+    {
+      "key": "motion_screen_recording_title",
+      "text": "Screen recording",
+      "owner": "screen-recording",
+      "formatted": false
+    },
+    {
+      "key": "motion_screen_recording_description",
+      "text": "Double-ring record indicator breathes at a non-alarming cadence.",
+      "owner": "screen-recording",
+      "formatted": false
+    },
+    {
+      "key": "motion_screen_recording_caption",
+      "text": "REC",
+      "owner": "screen-recording",
+      "formatted": false
+    },
+    {
+      "key": "motion_system_share_sheet_title",
+      "text": "System share sheet",
+      "owner": "system-share-sheet",
+      "formatted": false
+    },
+    {
+      "key": "motion_system_share_sheet_description",
+      "text": "Share tray expands from its source and exposes live targets.",
+      "owner": "system-share-sheet",
+      "formatted": false
+    },
+    {
+      "key": "motion_wallpaper_theme_change_title",
+      "text": "Wallpaper / theme change",
+      "owner": "wallpaper-theme-change",
+      "formatted": false
+    },
+    {
+      "key": "motion_wallpaper_theme_change_description",
+      "text": "Folded panel and sparkle pulse into the newly themed surface.",
+      "owner": "wallpaper-theme-change",
+      "formatted": false
+    },
+    {
+      "key": "motion_account_chooser_title",
+      "text": "Account chooser",
+      "owner": "account-chooser",
+      "formatted": false
+    },
+    {
+      "key": "motion_account_chooser_description",
+      "text": "Account bezel enters from the active profile direction.",
+      "owner": "account-chooser",
+      "formatted": false
+    },
+    {
+      "key": "motion_file_photo_picker_title",
+      "text": "File / photo picker",
+      "owner": "file-photo-picker",
+      "formatted": false
+    },
+    {
+      "key": "motion_file_photo_picker_description",
+      "text": "App window and folder origin transfer focus cleanly.",
+      "owner": "file-photo-picker",
+      "formatted": false
+    },
+    {
+      "key": "motion_themed_icon_transition_title",
+      "text": "Themed icon transition",
+      "owner": "themed-icon-transition",
+      "formatted": false
+    },
+    {
+      "key": "motion_themed_icon_transition_description",
+      "text": "Folder sockets yield to a concentrated themed core.",
+      "owner": "themed-icon-transition",
+      "formatted": false
+    },
+    {
+      "key": "motion_clamshell_open_close_title",
+      "text": "Clamshell open / close",
+      "owner": "clamshell-open-close",
+      "formatted": false
+    },
+    {
+      "key": "motion_clamshell_open_close_description",
+      "text": "Dual-screen hardware unfolds on one centered hinge axis.",
+      "owner": "clamshell-open-close",
+      "formatted": false
+    },
+    {
+      "key": "motion_top_display_wake_title",
+      "text": "Top display wake",
+      "owner": "top-display-wake",
+      "formatted": false
+    },
+    {
+      "key": "motion_top_display_wake_description",
+      "text": "Primary AMOLED bezel ignites without moving its content center.",
+      "owner": "top-display-wake",
+      "formatted": false
+    },
+    {
+      "key": "motion_top_display_wake_caption",
+      "text": "TOP DISPLAY",
+      "owner": "top-display-wake",
+      "formatted": false
+    },
+    {
+      "key": "motion_bottom_display_wake_title",
+      "text": "Bottom display wake",
+      "owner": "bottom-display-wake",
+      "formatted": false
+    },
+    {
+      "key": "motion_bottom_display_wake_description",
+      "text": "Secondary touch display uses the same restrained wake token.",
+      "owner": "bottom-display-wake",
+      "formatted": false
+    },
+    {
+      "key": "motion_bottom_display_wake_caption",
+      "text": "TOUCH DISPLAY",
+      "owner": "bottom-display-wake",
+      "formatted": false
+    },
+    {
+      "key": "motion_dual_screen_focus_transfer_title",
+      "text": "Dual-screen focus transfer",
+      "owner": "dual-screen-focus-transfer",
+      "formatted": false
+    },
+    {
+      "key": "motion_dual_screen_focus_transfer_description",
+      "text": "Focus dims on the source bezel and brightens on the destination.",
+      "owner": "dual-screen-focus-transfer",
+      "formatted": false
+    },
+    {
+      "key": "motion_top_bottom_screen_swap_title",
+      "text": "Top / bottom screen swap",
+      "owner": "top-bottom-screen-swap",
+      "formatted": false
+    },
+    {
+      "key": "motion_top_bottom_screen_swap_description",
+      "text": "Paired arrows rotate once and settle with no continuous spinning.",
+      "owner": "top-bottom-screen-swap",
+      "formatted": false
+    },
+    {
+      "key": "motion_screen_specific_app_assignment_title",
+      "text": "Screen-specific app assignment",
+      "owner": "screen-specific-app-assignment",
+      "formatted": false
+    },
+    {
+      "key": "motion_screen_specific_app_assignment_description",
+      "text": "App frame transfers from the primary to secondary display anchor.",
+      "owner": "screen-specific-app-assignment",
+      "formatted": false
+    },
+    {
+      "key": "motion_d_pad_direction_press_title",
+      "text": "D-pad direction press",
+      "owner": "d-pad-direction-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_d_pad_direction_press_description",
+      "text": "Four-arm control compresses toward the chosen direction.",
+      "owner": "d-pad-direction-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_d_pad_direction_press_layer_0_label_0",
+      "text": "Up",
+      "owner": "d-pad-direction-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_d_pad_direction_press_layer_1_label_0",
+      "text": "Right",
+      "owner": "d-pad-direction-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_d_pad_direction_press_layer_2_label_0",
+      "text": "Down",
+      "owner": "d-pad-direction-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_d_pad_direction_press_layer_3_label_0",
+      "text": "Left",
+      "owner": "d-pad-direction-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_analog_stick_response_title",
+      "text": "Analog stick response",
+      "owner": "analog-stick-response",
+      "formatted": false
+    },
+    {
+      "key": "motion_analog_stick_response_description",
+      "text": "Gate, inner ring and thumb cap move as a centered assembly.",
+      "owner": "analog-stick-response",
+      "formatted": false
+    },
+    {
+      "key": "motion_face_button_cluster_title",
+      "text": "Face-button cluster",
+      "owner": "face-button-cluster",
+      "formatted": false
+    },
+    {
+      "key": "motion_face_button_cluster_description",
+      "text": "Blank bezels keep A/B/X/Y labels live and perfectly centered.",
+      "owner": "face-button-cluster",
+      "formatted": false
+    },
+    {
+      "key": "motion_face_button_cluster_layer_0_label_0",
+      "text": "A",
+      "owner": "face-button-cluster",
+      "formatted": false
+    },
+    {
+      "key": "motion_face_button_cluster_layer_1_label_0",
+      "text": "B",
+      "owner": "face-button-cluster",
+      "formatted": false
+    },
+    {
+      "key": "motion_face_button_cluster_layer_2_label_0",
+      "text": "X",
+      "owner": "face-button-cluster",
+      "formatted": false
+    },
+    {
+      "key": "motion_face_button_cluster_layer_3_label_0",
+      "text": "Y",
+      "owner": "face-button-cluster",
+      "formatted": false
+    },
+    {
+      "key": "motion_shoulder_trigger_press_title",
+      "text": "Shoulder / trigger press",
+      "owner": "shoulder-trigger-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_shoulder_trigger_press_description",
+      "text": "Mirrored shoulder pieces compress together with a short response.",
+      "owner": "shoulder-trigger-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_rear_paddle_press_title",
+      "text": "Rear-paddle press",
+      "owner": "rear-paddle-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_rear_paddle_press_description",
+      "text": "Paired paddles use the same micro timing as face controls.",
+      "owner": "rear-paddle-press",
+      "formatted": false
+    },
+    {
+      "key": "motion_cooling_fan_speed_title",
+      "text": "Cooling fan speed",
+      "owner": "cooling-fan-speed",
+      "formatted": false
+    },
+    {
+      "key": "motion_cooling_fan_speed_description",
+      "text": "Turbine uses a true centered pivot for every fan-speed ramp.",
+      "owner": "cooling-fan-speed",
+      "formatted": false
+    },
+    {
+      "key": "motion_rgb_breathing_cycle_title",
+      "text": "Ember breathing cycle",
+      "owner": "rgb-breathing-cycle",
+      "formatted": false
+    },
+    {
+      "key": "motion_rgb_breathing_cycle_description",
+      "text": "Selected lighting uses separate ember-intensity masks. Cold steel and hue stay fixed; reduced motion is steady.",
+      "owner": "rgb-breathing-cycle",
+      "formatted": false
+    },
+    {
+      "key": "motion_performance_profile_switch_title",
+      "text": "Performance profile switch",
+      "owner": "performance-profile-switch",
+      "formatted": false
+    },
+    {
+      "key": "motion_performance_profile_switch_description",
+      "text": "Performance, balanced and quiet emblems receive staggered focus.",
+      "owner": "performance-profile-switch",
+      "formatted": false
+    },
+    {
+      "key": "motion_thermal_throttling_state_title",
+      "text": "Thermal / throttling state",
+      "owner": "thermal-throttling-state",
+      "formatted": false
+    },
+    {
+      "key": "motion_thermal_throttling_state_description",
+      "text": "Thermal gauge reveals bottom-up and intensifies at threshold.",
+      "owner": "thermal-throttling-state",
+      "formatted": false
+    },
+    {
+      "key": "motion_thermal_throttling_state_layer_0_label_0",
+      "text": "Thermal limit",
+      "owner": "thermal-throttling-state",
+      "formatted": false
+    },
+    {
+      "key": "motion_charging_direct_power_title",
+      "text": "Charging / direct power",
+      "owner": "charging-direct-power",
+      "formatted": false
+    },
+    {
+      "key": "motion_charging_direct_power_description",
+      "text": "The single-axis battery assembly and bypass circuit remain distinct state layers.",
+      "owner": "charging-direct-power",
+      "formatted": false
+    },
+    {
+      "key": "motion_usb_c_dock_connect_title",
+      "text": "USB-C / dock connect",
+      "owner": "usb-c-dock-connect",
+      "formatted": false
+    },
+    {
+      "key": "motion_usb_c_dock_connect_description",
+      "text": "Connector plate rises into its centered port and locks.",
+      "owner": "usb-c-dock-connect",
+      "formatted": false
+    },
+    {
+      "key": "motion_external_display_output_title",
+      "text": "External display output",
+      "owner": "external-display-output",
+      "formatted": false
+    },
+    {
+      "key": "motion_external_display_output_description",
+      "text": "Display-out arrow commits once the route is established.",
+      "owner": "external-display-output",
+      "formatted": false
+    },
+    {
+      "key": "motion_hardware_status_overlay_title",
+      "text": "Hardware status overlay",
+      "owner": "hardware-status-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_hardware_status_overlay_description",
+      "text": "Performance, temperature and power indicators group without overlap.",
+      "owner": "hardware-status-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_live_update_status_chip_title",
+      "text": "Live Update status chip",
+      "owner": "live-update-status-chip",
+      "formatted": false
+    },
+    {
+      "key": "motion_live_update_status_chip_description",
+      "text": "A compact activity capsule arrives from the status area and settles without shifting its live ETA.",
+      "owner": "live-update-status-chip",
+      "formatted": false
+    },
+    {
+      "key": "motion_live_update_status_chip_layer_0_label_0",
+      "text": "ETA 12 MIN",
+      "owner": "live-update-status-chip",
+      "formatted": false
+    },
+    {
+      "key": "motion_live_update_milestones_title",
+      "text": "Live Update milestones",
+      "owner": "live-update-milestones",
+      "formatted": false
+    },
+    {
+      "key": "motion_live_update_milestones_description",
+      "text": "Five progress points reveal left-to-right while the current step remains readable below.",
+      "owner": "live-update-milestones",
+      "formatted": false
+    },
+    {
+      "key": "motion_live_update_milestones_layer_0_label_0",
+      "text": "1",
+      "owner": "live-update-milestones",
+      "formatted": false
+    },
+    {
+      "key": "motion_live_update_milestones_layer_0_label_1",
+      "text": "2",
+      "owner": "live-update-milestones",
+      "formatted": false
+    },
+    {
+      "key": "motion_live_update_milestones_layer_0_label_2",
+      "text": "3",
+      "owner": "live-update-milestones",
+      "formatted": false
+    },
+    {
+      "key": "motion_live_update_milestones_layer_0_label_3",
+      "text": "4",
+      "owner": "live-update-milestones",
+      "formatted": false
+    },
+    {
+      "key": "motion_live_update_milestones_layer_0_label_4",
+      "text": "5",
+      "owner": "live-update-milestones",
+      "formatted": false
+    },
+    {
+      "key": "motion_camera_microphone_privacy_title",
+      "text": "Camera / microphone privacy",
+      "owner": "camera-microphone-privacy",
+      "formatted": false
+    },
+    {
+      "key": "motion_camera_microphone_privacy_description",
+      "text": "The privacy indicator expands from its icon sockets into a short-lived explanatory chip.",
+      "owner": "camera-microphone-privacy",
+      "formatted": false
+    },
+    {
+      "key": "motion_camera_microphone_privacy_layer_0_label_0",
+      "text": "In use",
+      "owner": "camera-microphone-privacy",
+      "formatted": false
+    },
+    {
+      "key": "motion_notification_bubble_title",
+      "text": "Notification bubble",
+      "owner": "notification-bubble",
+      "formatted": false
+    },
+    {
+      "key": "motion_notification_bubble_description",
+      "text": "The conversation bubble grows from its detached badge socket and returns to a stable circular target.",
+      "owner": "notification-bubble",
+      "formatted": false
+    },
+    {
+      "key": "motion_power_menu_title",
+      "text": "Power menu",
+      "owner": "power-menu",
+      "formatted": false
+    },
+    {
+      "key": "motion_power_menu_description",
+      "text": "Three system actions rise as one panel while the selected row retains a fixed text anchor.",
+      "owner": "power-menu",
+      "formatted": false
+    },
+    {
+      "key": "motion_power_menu_layer_0_label_0",
+      "text": "Power off",
+      "owner": "power-menu",
+      "formatted": false
+    },
+    {
+      "key": "motion_power_menu_layer_0_label_1",
+      "text": "Restart",
+      "owner": "power-menu",
+      "formatted": false
+    },
+    {
+      "key": "motion_power_menu_layer_0_label_2",
+      "text": "Lockdown",
+      "owner": "power-menu",
+      "formatted": false
+    },
+    {
+      "key": "motion_expanded_volume_mixer_title",
+      "text": "Expanded volume mixer",
+      "owner": "expanded-volume-mixer",
+      "formatted": false
+    },
+    {
+      "key": "motion_expanded_volume_mixer_description",
+      "text": "The full multi-stream mixer settles after its rails and thumbs receive a restrained focus pulse.",
+      "owner": "expanded-volume-mixer",
+      "formatted": false
+    },
+    {
+      "key": "motion_expanded_volume_mixer_layer_0_label_0",
+      "text": "Media",
+      "owner": "expanded-volume-mixer",
+      "formatted": false
+    },
+    {
+      "key": "motion_expanded_volume_mixer_layer_1_label_0",
+      "text": "Ring",
+      "owner": "expanded-volume-mixer",
+      "formatted": false
+    },
+    {
+      "key": "motion_expanded_volume_mixer_layer_2_label_0",
+      "text": "Alarm",
+      "owner": "expanded-volume-mixer",
+      "formatted": false
+    },
+    {
+      "key": "motion_screenshot_preview_actions_title",
+      "text": "Screenshot preview actions",
+      "owner": "screenshot-preview-actions",
+      "formatted": false
+    },
+    {
+      "key": "motion_screenshot_preview_actions_description",
+      "text": "The captured preview flashes once, then docks above a separate three-action rail.",
+      "owner": "screenshot-preview-actions",
+      "formatted": false
+    },
+    {
+      "key": "motion_screenshot_preview_actions_caption",
+      "text": "CAPTURED",
+      "owner": "screenshot-preview-actions",
+      "formatted": false
+    },
+    {
+      "key": "motion_clipboard_overlay_title",
+      "text": "Clipboard overlay",
+      "owner": "clipboard-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_clipboard_overlay_description",
+      "text": "The clipboard surface enters laterally and keeps its confirmation copy inside the blank content cavity.",
+      "owner": "clipboard-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_clipboard_overlay_layer_0_label_0",
+      "text": "Copied text",
+      "owner": "clipboard-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_clipboard_overlay_layer_0_label_1",
+      "text": "Circuit ready",
+      "owner": "clipboard-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_clipboard_overlay_layer_0_label_2",
+      "text": "Copy",
+      "owner": "clipboard-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_clipboard_overlay_layer_0_label_3",
+      "text": "Share",
+      "owner": "clipboard-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_clipboard_overlay_layer_0_label_4",
+      "text": "Clear",
+      "owner": "clipboard-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_permission_choice_panel_title",
+      "text": "Permission choice panel",
+      "owner": "permission-choice-panel",
+      "formatted": false
+    },
+    {
+      "key": "motion_permission_choice_panel_description",
+      "text": "The shield remains fixed while the requested permission row expands into focus.",
+      "owner": "permission-choice-panel",
+      "formatted": false
+    },
+    {
+      "key": "motion_permission_choice_panel_layer_0_label_0",
+      "text": "ALLOW ONCE",
+      "owner": "permission-choice-panel",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_activity_title",
+      "text": "Predictive back \u2192 activity",
+      "owner": "predictive-back-activity",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_activity_description",
+      "text": "Two independent activity frames preview the cross-activity destination before the edge gesture commits.",
+      "owner": "predictive-back-activity",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_activity_layer_0_label_0",
+      "text": "Library",
+      "owner": "predictive-back-activity",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_activity_layer_1_label_0",
+      "text": "Sample game",
+      "owner": "predictive-back-activity",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_cancel_title",
+      "text": "Predictive back cancel",
+      "owner": "predictive-back-cancel",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_cancel_description",
+      "text": "The destination preview reaches threshold, reverses, and restores the current activity without a snap.",
+      "owner": "predictive-back-cancel",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_cancel_layer_0_label_0",
+      "text": "Library",
+      "owner": "predictive-back-cancel",
+      "formatted": false
+    },
+    {
+      "key": "motion_predictive_back_cancel_layer_1_label_0",
+      "text": "Sample game",
+      "owner": "predictive-back-cancel",
+      "formatted": false
+    },
+    {
+      "key": "motion_desktop_window_open_title",
+      "text": "Desktop window open",
+      "owner": "desktop-window-open",
+      "formatted": false
+    },
+    {
+      "key": "motion_desktop_window_open_description",
+      "text": "Caption controls and content frame expand from one centered window origin.",
+      "owner": "desktop-window-open",
+      "formatted": false
+    },
+    {
+      "key": "motion_desktop_window_open_layer_0_label_0",
+      "text": "DESKTOP",
+      "owner": "desktop-window-open",
+      "formatted": false
+    },
+    {
+      "key": "motion_desktop_taskbar_reveal_title",
+      "text": "Desktop taskbar reveal",
+      "owner": "desktop-taskbar-reveal",
+      "formatted": false
+    },
+    {
+      "key": "motion_desktop_taskbar_reveal_description",
+      "text": "The taskbar rises from the bottom inset and keeps all six app sockets evenly spaced.",
+      "owner": "desktop-taskbar-reveal",
+      "formatted": false
+    },
+    {
+      "key": "motion_pip_controls_reveal_title",
+      "text": "PiP controls reveal",
+      "owner": "pip-controls-reveal",
+      "formatted": false
+    },
+    {
+      "key": "motion_pip_controls_reveal_description",
+      "text": "Playback controls dock beneath the miniature viewport, then recede without resizing its content.",
+      "owner": "pip-controls-reveal",
+      "formatted": false
+    },
+    {
+      "key": "motion_pip_controls_reveal_caption",
+      "text": "PLAYING",
+      "owner": "pip-controls-reveal",
+      "formatted": false
+    },
+    {
+      "key": "motion_quick_settings_edit_tray_title",
+      "text": "Quick Settings edit tray",
+      "owner": "quick-settings-edit-tray",
+      "formatted": false
+    },
+    {
+      "key": "motion_quick_settings_edit_tray_description",
+      "text": "Four blank tile sockets enter as a stable edit grid around a centered drag handle.",
+      "owner": "quick-settings-edit-tray",
+      "formatted": false
+    },
+    {
+      "key": "motion_quick_settings_edit_tray_layer_0_label_0",
+      "text": "Wi-Fi",
+      "owner": "quick-settings-edit-tray",
+      "formatted": false
+    },
+    {
+      "key": "motion_quick_settings_edit_tray_layer_1_label_0",
+      "text": "Bluetooth",
+      "owner": "quick-settings-edit-tray",
+      "formatted": false
+    },
+    {
+      "key": "motion_quick_settings_edit_tray_layer_2_label_0",
+      "text": "Quiet",
+      "owner": "quick-settings-edit-tray",
+      "formatted": false
+    },
+    {
+      "key": "motion_embedded_photo_picker_title",
+      "text": "Embedded photo picker",
+      "owner": "embedded-photo-picker",
+      "formatted": false
+    },
+    {
+      "key": "motion_embedded_photo_picker_description",
+      "text": "Three media targets expand in place while the selection count locks into the detached badge.",
+      "owner": "embedded-photo-picker",
+      "formatted": false
+    },
+    {
+      "key": "motion_loading_shimmer_sync_title",
+      "text": "Loading shimmer / sync",
+      "owner": "loading-shimmer-sync",
+      "formatted": false
+    },
+    {
+      "key": "motion_loading_shimmer_sync_description",
+      "text": "Four loading rails shimmer as a contained group with no full-screen flash.",
+      "owner": "loading-shimmer-sync",
+      "formatted": false
+    },
+    {
+      "key": "motion_loading_shimmer_sync_layer_0_label_0",
+      "text": "Syncing",
+      "owner": "loading-shimmer-sync",
+      "formatted": false
+    },
+    {
+      "key": "motion_biometric_failure_lockout_title",
+      "text": "Biometric failure / lockout",
+      "owner": "biometric-failure-lockout",
+      "formatted": false
+    },
+    {
+      "key": "motion_biometric_failure_lockout_description",
+      "text": "The biometric socket holds position while error copy and recovery action warn once.",
+      "owner": "biometric-failure-lockout",
+      "formatted": false
+    },
+    {
+      "key": "motion_biometric_failure_lockout_caption",
+      "text": "TRY AGAIN",
+      "owner": "biometric-failure-lockout",
+      "formatted": false
+    },
+    {
+      "key": "motion_hinge_posture_angle_title",
+      "text": "Hinge posture / angle",
+      "owner": "hinge-posture-angle",
+      "formatted": false
+    },
+    {
+      "key": "motion_hinge_posture_angle_description",
+      "text": "The paired display plates settle around a true hinge pivot while the angle readout stays inside its arc.",
+      "owner": "hinge-posture-angle",
+      "formatted": false
+    },
+    {
+      "key": "motion_hinge_posture_angle_layer_0_label_0",
+      "text": "Upper",
+      "owner": "hinge-posture-angle",
+      "formatted": false
+    },
+    {
+      "key": "motion_hinge_posture_angle_layer_1_label_0",
+      "text": "Lower",
+      "owner": "hinge-posture-angle",
+      "formatted": false
+    },
+    {
+      "key": "motion_game_assistant_overlay_title",
+      "text": "Game Assistant overlay",
+      "owner": "game-assistant-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_game_assistant_overlay_description",
+      "text": "A dedicated handheld side panel enters from the active display edge and exposes three control rows.",
+      "owner": "game-assistant-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_game_assistant_overlay_caption",
+      "text": "GAME ASSIST",
+      "owner": "game-assistant-overlay",
+      "formatted": false
+    },
+    {
+      "key": "motion_controller_focus_transfer_title",
+      "text": "Controller focus transfer",
+      "owner": "controller-focus-transfer",
+      "formatted": false
+    },
+    {
+      "key": "motion_controller_focus_transfer_description",
+      "text": "Matched focus crowns transfer emphasis across a centered controller-navigation chevron.",
+      "owner": "controller-focus-transfer",
+      "formatted": false
+    },
+    {
+      "key": "motion_controller_focus_transfer_layer_0_label_0",
+      "text": "Device control",
+      "owner": "controller-focus-transfer",
+      "formatted": false
+    },
+    {
+      "key": "motion_controller_focus_transfer_layer_1_label_0",
+      "text": "Game control",
+      "owner": "controller-focus-transfer",
+      "formatted": false
+    },
+    {
+      "key": "motion_touch_mapping_editor_title",
+      "text": "Touch-mapping editor",
+      "owner": "touch-mapping-editor",
+      "formatted": false
+    },
+    {
+      "key": "motion_touch_mapping_editor_description",
+      "text": "Four draggable binding sockets assemble around the active screen without covering its center.",
+      "owner": "touch-mapping-editor",
+      "formatted": false
+    },
+    {
+      "key": "motion_touch_mapping_editor_layer_0_label_0",
+      "text": "A",
+      "owner": "touch-mapping-editor",
+      "formatted": false
+    },
+    {
+      "key": "motion_touch_mapping_editor_layer_0_label_1",
+      "text": "B",
+      "owner": "touch-mapping-editor",
+      "formatted": false
+    },
+    {
+      "key": "motion_touch_mapping_editor_layer_0_label_2",
+      "text": "X",
+      "owner": "touch-mapping-editor",
+      "formatted": false
+    },
+    {
+      "key": "motion_touch_mapping_editor_layer_0_label_3",
+      "text": "Y",
+      "owner": "touch-mapping-editor",
+      "formatted": false
+    },
+    {
+      "key": "motion_analog_trigger_calibration_title",
+      "text": "Analog trigger calibration",
+      "owner": "analog-trigger-calibration",
+      "formatted": false
+    },
+    {
+      "key": "motion_analog_trigger_calibration_description",
+      "text": "Trigger travel and its separate gauge reveal bottom-up to show range and dead-zone calibration.",
+      "owner": "analog-trigger-calibration",
+      "formatted": false
+    },
+    {
+      "key": "motion_analog_trigger_calibration_layer_0_label_0",
+      "text": "Left trigger",
+      "owner": "analog-trigger-calibration",
+      "formatted": false
+    },
+    {
+      "key": "motion_analog_trigger_calibration_layer_1_label_0",
+      "text": "Right trigger",
+      "owner": "analog-trigger-calibration",
+      "formatted": false
+    },
+    {
+      "key": "motion_dual_screen_app_drag_title",
+      "text": "Dual-screen app drag",
+      "owner": "dual-screen-app-drag",
+      "formatted": false
+    },
+    {
+      "key": "motion_dual_screen_app_drag_description",
+      "text": "A compact app card transfers across the physical hinge gap between the two display frames.",
+      "owner": "dual-screen-app-drag",
+      "formatted": false
+    },
+    {
+      "key": "motion_dual_screen_app_drag_layer_0_label_0",
+      "text": "Upper",
+      "owner": "dual-screen-app-drag",
+      "formatted": false
+    },
+    {
+      "key": "motion_dual_screen_app_drag_layer_1_label_0",
+      "text": "Lower",
+      "owner": "dual-screen-app-drag",
+      "formatted": false
+    },
+    {
+      "key": "motion_fan_curve_auto_mode_title",
+      "text": "Fan curve / auto mode",
+      "owner": "fan-curve-auto-mode",
+      "formatted": false
+    },
+    {
+      "key": "motion_fan_curve_auto_mode_description",
+      "text": "Four control points settle as one curve surface while the active cooling mode remains readable.",
+      "owner": "fan-curve-auto-mode",
+      "formatted": false
+    },
+    {
+      "key": "motion_fan_curve_auto_mode_layer_0_label_0",
+      "text": "Fan speed",
+      "owner": "fan-curve-auto-mode",
+      "formatted": false
+    },
+    {
+      "key": "motion_fan_curve_auto_mode_layer_0_label_1",
+      "text": "Temperature",
+      "owner": "fan-curve-auto-mode",
+      "formatted": false
+    },
+    {
+      "key": "motion_fan_curve_auto_mode_layer_0_label_2",
+      "text": "Auto",
+      "owner": "fan-curve-auto-mode",
+      "formatted": false
+    },
+    {
+      "key": "motion_rgb_mode_color_select_title",
+      "text": "Ember lighting selection",
+      "owner": "rgb-mode-color-select",
+      "formatted": false
+    },
+    {
+      "key": "motion_rgb_mode_color_select_description",
+      "text": "Selected lighting uses separate ember-intensity masks. Cold steel and hue stay fixed; reduced motion is steady.",
+      "owner": "rgb-mode-color-select",
+      "formatted": false
+    },
+    {
+      "key": "motion_rgb_mode_color_select_caption",
+      "text": "EMBER",
+      "owner": "rgb-mode-color-select",
+      "formatted": false
+    },
+    {
+      "key": "motion_five_band_eq_preset_title",
+      "text": "Five-band EQ / preset",
+      "owner": "five-band-eq-preset",
+      "formatted": false
+    },
+    {
+      "key": "motion_five_band_eq_preset_description",
+      "text": "Five aligned bands reveal upward while the selected sound profile stays inside its detached cavity.",
+      "owner": "five-band-eq-preset",
+      "formatted": false
+    },
+    {
+      "key": "motion_five_band_eq_preset_layer_0_label_0",
+      "text": "Bass",
+      "owner": "five-band-eq-preset",
+      "formatted": false
+    },
+    {
+      "key": "motion_five_band_eq_preset_layer_1_label_0",
+      "text": "Low mids",
+      "owner": "five-band-eq-preset",
+      "formatted": false
+    },
+    {
+      "key": "motion_five_band_eq_preset_layer_2_label_0",
+      "text": "Mids",
+      "owner": "five-band-eq-preset",
+      "formatted": false
+    },
+    {
+      "key": "motion_five_band_eq_preset_layer_3_label_0",
+      "text": "High mids",
+      "owner": "five-band-eq-preset",
+      "formatted": false
+    },
+    {
+      "key": "motion_five_band_eq_preset_layer_4_label_0",
+      "text": "Treble",
+      "owner": "five-band-eq-preset",
+      "formatted": false
+    },
+    {
+      "key": "motion_value_percent",
+      "text": "%1$d%%",
+      "owner": "shared live value",
+      "formatted": true
+    },
+    {
+      "key": "motion_value_temperature",
+      "text": "%1$d C",
+      "owner": "shared live value",
+      "formatted": true
+    },
+    {
+      "key": "motion_value_gain",
+      "text": "%1$s dB",
+      "owner": "shared live value",
+      "formatted": true
+    },
+    {
+      "key": "motion_value_selectioncount",
+      "text": "%1$d selected",
+      "owner": "shared live value",
+      "formatted": true
+    },
+    {
+      "key": "motion_value_angle",
+      "text": "%1$d deg",
+      "owner": "shared live value",
+      "formatted": true
+    },
+    {
+      "key": "motion_value_milestone",
+      "text": "Step %1$d of %2$d",
+      "owner": "shared live value",
+      "formatted": true
+    }
+  ]
+}

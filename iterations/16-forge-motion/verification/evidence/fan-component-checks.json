@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "checks": 43,
+  "neutralMaskExports": 6,
+  "newComponent": "fan_rotor",
+  "sourceSha256": "07052be1aa0bbc9d094568fc3289a5a56ef8a4093e922d0d2bcc81c63bc19cc6",
+  "coldFanFramesIdentical": 5,
+  "rotorPixelChange": "PASS",
+  "stationaryHousingExteriorPixels": "IDENTICAL",
+  "nativeIntegration": "NOT RUN",
+  "scope": "Actual desktop SVG exports and sampled frames only; physical fan/service, browser rendering and target behavior not verified"
+}

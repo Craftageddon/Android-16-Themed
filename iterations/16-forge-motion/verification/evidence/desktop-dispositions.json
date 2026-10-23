@@ -1,0 +1,3427 @@
+{
+  "date": "2026-10-23",
+  "recipes": [
+    {
+      "id": "boot-crest-assembly",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/boot-crest-assembly.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/boot-crest-assembly.025.on.png",
+          "sha256": "98d4f13847e94fd428f19209fc24b4984f50b411be71169d5e8615443eb86c02"
+        },
+        {
+          "file": "desktop-frames/boot-crest-assembly.050.on.png",
+          "sha256": "2cac5db24f0da830d61ba7c23d7d66cccb9c5b8a9433a9a5f83ff82ecacc4a4c"
+        },
+        {
+          "file": "desktop-frames/boot-crest-assembly.075.on.png",
+          "sha256": "2a783ae20a5a7ce9eb18f899188a419c93caed39c1e0fd2d4ffb1a9ce6dc32d9"
+        },
+        {
+          "file": "desktop-frames/boot-crest-assembly.100.on.png",
+          "sha256": "f2d3b9c00582a805a5c962d3bcd219ef6d7e24bbb2b11f2271fccbb6384680d6"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "shutdown-collapse",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/shutdown-collapse.000.on.png",
+          "sha256": "3370e4d491a5fbf95f958c1cf85cc1516307158319c1ae04abc5cf508b509398"
+        },
+        {
+          "file": "desktop-frames/shutdown-collapse.025.on.png",
+          "sha256": "235d2775abe5ece9aebd5bc077801f6450724636ae978415782c9b6821630853"
+        },
+        {
+          "file": "desktop-frames/shutdown-collapse.050.on.png",
+          "sha256": "f936212f0101ddbf2ffe71a4fbda8ca267ca35b038d9730077e9c52394636e67"
+        },
+        {
+          "file": "desktop-frames/shutdown-collapse.075.on.png",
+          "sha256": "80d58c12421279839e5da87167bc1a612fc7ff90ae2b06de33ee73580620489d"
+        },
+        {
+          "file": "desktop-frames/shutdown-collapse.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "restart-reignition",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/restart-reignition.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/restart-reignition.025.on.png",
+          "sha256": "c59b74cb5a05587aadde77ecf005ff2ad197f68823ca07148b2a1bb9ae4fcf5a"
+        },
+        {
+          "file": "desktop-frames/restart-reignition.050.on.png",
+          "sha256": "254886cfdc6ab899df7b066cb2aa5a53444ca9221d3f6e17a4386ab643cae231"
+        },
+        {
+          "file": "desktop-frames/restart-reignition.075.on.png",
+          "sha256": "9454d107a67cafb83704fecf0671270beebd0b2e7e2c4f8c6c1197f8d18d1124"
+        },
+        {
+          "file": "desktop-frames/restart-reignition.100.on.png",
+          "sha256": "9c67036f9e96398e096715cb06b7cc6e8996a1fabcb5a88cf7f2516319d7c2d4"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "lock-screen-aod-pulse",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/lock-screen-aod-pulse.000.on.png",
+          "sha256": "de20459f451856f647453e079c66274d383aa4eb55c72e915ee876de9ceecbd4"
+        },
+        {
+          "file": "desktop-frames/lock-screen-aod-pulse.025.on.png",
+          "sha256": "840895dcd14e09730de579ce19109894037d03dcbef8d91641dbe504579088b4"
+        },
+        {
+          "file": "desktop-frames/lock-screen-aod-pulse.050.on.png",
+          "sha256": "81e26b311c7aab8195c77ec81cce59cad6d8d68561385006ec0cb0aefadff93c"
+        },
+        {
+          "file": "desktop-frames/lock-screen-aod-pulse.075.on.png",
+          "sha256": "840895dcd14e09730de579ce19109894037d03dcbef8d91641dbe504579088b4"
+        },
+        {
+          "file": "desktop-frames/lock-screen-aod-pulse.100.on.png",
+          "sha256": "de20459f451856f647453e079c66274d383aa4eb55c72e915ee876de9ceecbd4"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "unlock-confirmation",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/unlock-confirmation.000.on.png",
+          "sha256": "ae256b602e84827bb6133ae8b3063517648e423fa34d6043331fef1e42da4c3b"
+        },
+        {
+          "file": "desktop-frames/unlock-confirmation.025.on.png",
+          "sha256": "6d0687b99e96d70208c057ee41b9a310a91b47724256f668fabc486b5ee49c7b"
+        },
+        {
+          "file": "desktop-frames/unlock-confirmation.050.on.png",
+          "sha256": "a7d33b029c5ffacdc8e6081d0e9dc26f579718dee56aaaeafebab24455246238"
+        },
+        {
+          "file": "desktop-frames/unlock-confirmation.075.on.png",
+          "sha256": "7819975bc3b6c300ec19a38f202b7010f9450ff0786df91471db62eed45670e5"
+        },
+        {
+          "file": "desktop-frames/unlock-confirmation.100.on.png",
+          "sha256": "98e136fbdc755552b65c04c2e509fcc0ce9009093064845a9e67d2e53c406f86"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "battery-charging",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/battery-charging.000.on.png",
+          "sha256": "0a57ebe6721bf67fae75273f25df52a2c7f239a565f119f8295e664087240eb3"
+        },
+        {
+          "file": "desktop-frames/battery-charging.025.on.png",
+          "sha256": "f080c98b504dd9861adcd10cf4c93ebd209fafa0c36f2752f80a613587737bea"
+        },
+        {
+          "file": "desktop-frames/battery-charging.050.on.png",
+          "sha256": "f31ff6ac49e2f9d5ef0c9d5be32c0b021f03c422cf0f9c02913414edb18fb3b4"
+        },
+        {
+          "file": "desktop-frames/battery-charging.075.on.png",
+          "sha256": "e4f8ad198cfe81d9c60a4d5b195066c97b04fce2495e27b077322d6ab43a892c"
+        },
+        {
+          "file": "desktop-frames/battery-charging.100.on.png",
+          "sha256": "cf6e2bc83d286e7053351418be3241f266d8660136614ee7cf114b256c6ecb54"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "low-battery-warning",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/low-battery-warning.000.on.png",
+          "sha256": "d43b86d7455c03d1e4c8ede5344c06a691440e7a8d40c305aeaf28f4abf80c0c"
+        },
+        {
+          "file": "desktop-frames/low-battery-warning.025.on.png",
+          "sha256": "8bf818995325cf908adb328ae22631e61b87fffcc6b09002aaf709e34b5f14da"
+        },
+        {
+          "file": "desktop-frames/low-battery-warning.050.on.png",
+          "sha256": "7d8343ecbb4deebf6f60a374663fb432cbec2912521c10827156e2500330fa96"
+        },
+        {
+          "file": "desktop-frames/low-battery-warning.075.on.png",
+          "sha256": "8bf818995325cf908adb328ae22631e61b87fffcc6b09002aaf709e34b5f14da"
+        },
+        {
+          "file": "desktop-frames/low-battery-warning.100.on.png",
+          "sha256": "d43b86d7455c03d1e4c8ede5344c06a691440e7a8d40c305aeaf28f4abf80c0c"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "direct-power-bypass",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/direct-power-bypass.000.on.png",
+          "sha256": "ec6d8ac7f98ebb5a899e3e843d1bfe5d39ca827f9eaaaebe0bd05ed450b5baea"
+        },
+        {
+          "file": "desktop-frames/direct-power-bypass.025.on.png",
+          "sha256": "f163be01f3e7200678f0dfb70cef3b9427d98c3ffa0106ba99ee42fa48a4a1de"
+        },
+        {
+          "file": "desktop-frames/direct-power-bypass.050.on.png",
+          "sha256": "b43c367fcf3aa37bd05bcf29e471ae01cb4366bd4be62cdca9662d92e27fffd1"
+        },
+        {
+          "file": "desktop-frames/direct-power-bypass.075.on.png",
+          "sha256": "f163be01f3e7200678f0dfb70cef3b9427d98c3ffa0106ba99ee42fa48a4a1de"
+        },
+        {
+          "file": "desktop-frames/direct-power-bypass.100.on.png",
+          "sha256": "ec6d8ac7f98ebb5a899e3e843d1bfe5d39ca827f9eaaaebe0bd05ed450b5baea"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "system-update-cycle",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/system-update-cycle.000.on.png",
+          "sha256": "3d7d5c2dacb84b0287fe95fe4a0c15cb48222414072d916acda31458c804b1fa"
+        },
+        {
+          "file": "desktop-frames/system-update-cycle.025.on.png",
+          "sha256": "06dc4114c471abe268bc75283e0726654dc54bfb91566b4d68efd7043777677b"
+        },
+        {
+          "file": "desktop-frames/system-update-cycle.050.on.png",
+          "sha256": "98f13da5adb9dcee04d8bccb491f7e9824cc09d17cacba67baa2029b21b9901d"
+        },
+        {
+          "file": "desktop-frames/system-update-cycle.075.on.png",
+          "sha256": "112140013f0cac0d957e63ac71d2c64fc9609a0b07d0198a387a11b9b01cee6a"
+        },
+        {
+          "file": "desktop-frames/system-update-cycle.100.on.png",
+          "sha256": "5af38888b3d0e4741936be55a7b6e0d689272d2274e0e08ed330555773dfc8e6"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "notification-arrival",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/notification-arrival.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/notification-arrival.025.on.png",
+          "sha256": "5e99098ed83c8fc7b694e5a82a6ca9088e41edaaea7e1581e3686fbc47f78774"
+        },
+        {
+          "file": "desktop-frames/notification-arrival.050.on.png",
+          "sha256": "5e99098ed83c8fc7b694e5a82a6ca9088e41edaaea7e1581e3686fbc47f78774"
+        },
+        {
+          "file": "desktop-frames/notification-arrival.075.on.png",
+          "sha256": "ae7ca05c41f725bc1d8f1f52580b9817f9c4f351f15a96c253a175c99d43895c"
+        },
+        {
+          "file": "desktop-frames/notification-arrival.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "heads-up-lifecycle",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/heads-up-lifecycle.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/heads-up-lifecycle.025.on.png",
+          "sha256": "12cfacba2f14ae05c636d454cdb002a46efadc5ff1a53e329b40df80ca5caa5f"
+        },
+        {
+          "file": "desktop-frames/heads-up-lifecycle.050.on.png",
+          "sha256": "12cfacba2f14ae05c636d454cdb002a46efadc5ff1a53e329b40df80ca5caa5f"
+        },
+        {
+          "file": "desktop-frames/heads-up-lifecycle.075.on.png",
+          "sha256": "036cc624b2b8792645375a270d8de9a65c5919d024bef52f75bedd3d29f8ee1a"
+        },
+        {
+          "file": "desktop-frames/heads-up-lifecycle.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "expand-collapse",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/expand-collapse.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/expand-collapse.025.on.png",
+          "sha256": "fbdd8d210c594d7e89b3dd00196c8f96604b8924e2cbc7d2555415c6aa161898"
+        },
+        {
+          "file": "desktop-frames/expand-collapse.050.on.png",
+          "sha256": "93d952d51ef756e617179708cfc421ca8f85db98b820d4543c4c488a6359866f"
+        },
+        {
+          "file": "desktop-frames/expand-collapse.075.on.png",
+          "sha256": "2ac40aec36c459b8fca9436d125729376769f567e0e122fd6c440f8abc41b208"
+        },
+        {
+          "file": "desktop-frames/expand-collapse.100.on.png",
+          "sha256": "9a79aa009bf8da54a9c6b01ce74be863757f4bff9ef52b5d8ee232d1947658b5"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "grouped-notifications",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/grouped-notifications.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/grouped-notifications.025.on.png",
+          "sha256": "45610e5385e42d99929f91c10c805b9b498b79873f508d018bf3b27fb47e84f0"
+        },
+        {
+          "file": "desktop-frames/grouped-notifications.050.on.png",
+          "sha256": "1ea8befb405ee989f6c7b8e0c9ee6580eafaf84a6771fe91480d9e533424c8a8"
+        },
+        {
+          "file": "desktop-frames/grouped-notifications.075.on.png",
+          "sha256": "6e5bfb9095ae42519a3d20a64f7c775283772a6c1766620ed6e6e0ea2042bf62"
+        },
+        {
+          "file": "desktop-frames/grouped-notifications.100.on.png",
+          "sha256": "5ce372c5651e437657c1700d73dab02138329202da61c2f7db227c7682d9a199"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "swipe-dismissal",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/swipe-dismissal.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/swipe-dismissal.025.on.png",
+          "sha256": "d88eda0798371152d43b47954ccd5a0f609d125c075aea1340b626b175b2b439"
+        },
+        {
+          "file": "desktop-frames/swipe-dismissal.050.on.png",
+          "sha256": "a392ceca712ac5fa8e96faff210581c5b83f139cbecba5ef1bd87ef706d1d13f"
+        },
+        {
+          "file": "desktop-frames/swipe-dismissal.075.on.png",
+          "sha256": "f16c8577484bd9ebe624c168af06204cf1a5670eb3c0e9ff40c1058e7d3ec510"
+        },
+        {
+          "file": "desktop-frames/swipe-dismissal.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 4,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "action-button-press",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/action-button-press.000.on.png",
+          "sha256": "a10c82dcf3995d0870a8e808798255d171377360195ed4f775569fdad3f16164"
+        },
+        {
+          "file": "desktop-frames/action-button-press.025.on.png",
+          "sha256": "9593a761d82cdce2a9deadf34921935764d7376ce70f03cbba76804996d1015f"
+        },
+        {
+          "file": "desktop-frames/action-button-press.050.on.png",
+          "sha256": "9746f168f5fd44ca21a128f0e8afeadb4057924f5d1b3c9cf73066bcb32abb79"
+        },
+        {
+          "file": "desktop-frames/action-button-press.075.on.png",
+          "sha256": "9593a761d82cdce2a9deadf34921935764d7376ce70f03cbba76804996d1015f"
+        },
+        {
+          "file": "desktop-frames/action-button-press.100.on.png",
+          "sha256": "a10c82dcf3995d0870a8e808798255d171377360195ed4f775569fdad3f16164"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "progress-notification",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/progress-notification.000.on.png",
+          "sha256": "19d7072ac5ffefca8474f44e678eddd23fc5d6e3b9664d0e27549355112ff863"
+        },
+        {
+          "file": "desktop-frames/progress-notification.025.on.png",
+          "sha256": "9949bee85e897fc669f0c25c6dabe4cf83d2ea72ae977e16bff6fd253da2a205"
+        },
+        {
+          "file": "desktop-frames/progress-notification.050.on.png",
+          "sha256": "ce24a3a06c419a64975a885a538348db892056f37d54ddef03abc98a1ff8d6d3"
+        },
+        {
+          "file": "desktop-frames/progress-notification.075.on.png",
+          "sha256": "246baead213ba964cdfe1e95c0eb78e3efb306c9292fc25093504500f116a8c6"
+        },
+        {
+          "file": "desktop-frames/progress-notification.100.on.png",
+          "sha256": "b25c12636e89a1f0bcb6081bb6938dbf30d541a8e8977aa801de225f15468b88"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "silent-notification",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/silent-notification.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/silent-notification.025.on.png",
+          "sha256": "e800668595ab07cec54837986b240c0337116843c5166cc0e1acfa3805e893ce"
+        },
+        {
+          "file": "desktop-frames/silent-notification.050.on.png",
+          "sha256": "e800668595ab07cec54837986b240c0337116843c5166cc0e1acfa3805e893ce"
+        },
+        {
+          "file": "desktop-frames/silent-notification.075.on.png",
+          "sha256": "e800668595ab07cec54837986b240c0337116843c5166cc0e1acfa3805e893ce"
+        },
+        {
+          "file": "desktop-frames/silent-notification.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 2,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "toast-snackbar",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/toast-snackbar.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/toast-snackbar.025.on.png",
+          "sha256": "4f9a2abb2462df9cdfae32c08c0c57cbcb86c8bdd80e8441c3bdb295ba1a4506"
+        },
+        {
+          "file": "desktop-frames/toast-snackbar.050.on.png",
+          "sha256": "497a5286e886f04eeaf75035601b171c74263571e5dfee77c2d41d752425baf7"
+        },
+        {
+          "file": "desktop-frames/toast-snackbar.075.on.png",
+          "sha256": "720b7d47a7f0cdb24382d2dc86426dc6186431e160439fec4cdc6bdcc1e600d6"
+        },
+        {
+          "file": "desktop-frames/toast-snackbar.100.on.png",
+          "sha256": "0014d93b4c52c560f333998317bdc62137e0644a20212ce4c42b7cbb49c7953f"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "shade-pull-down",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/shade-pull-down.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/shade-pull-down.025.on.png",
+          "sha256": "de718f777e80ddca602f75c393a2cce000e8c16b3934105594c898792bc96f25"
+        },
+        {
+          "file": "desktop-frames/shade-pull-down.050.on.png",
+          "sha256": "56bfced78fcda9b9d7a2733ed73efbe9d18d6c3ede4f8bd12210bb9e3263ed5b"
+        },
+        {
+          "file": "desktop-frames/shade-pull-down.075.on.png",
+          "sha256": "34cba379d087a81c24d9a3ed24375b9599ba5eda4346727d4a1fd5a512463d85"
+        },
+        {
+          "file": "desktop-frames/shade-pull-down.100.on.png",
+          "sha256": "3cdb4fdf0e66e6ec3adf82fc1705a4434493fecccd400a6c9d2a67852c081980"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "half-to-full-expansion",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/half-to-full-expansion.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/half-to-full-expansion.025.on.png",
+          "sha256": "22519fc8c14c3fc27988b662f30da94d840e8866852faefd8bbc687e4ca78bca"
+        },
+        {
+          "file": "desktop-frames/half-to-full-expansion.050.on.png",
+          "sha256": "1d9d249d8e1b9a1a846f04a3c3d477b1390d3ae6393730354b5c4ed7993d630a"
+        },
+        {
+          "file": "desktop-frames/half-to-full-expansion.075.on.png",
+          "sha256": "600fdce906ca804b0f2fc9c7289b7c1c05ee5d3fe3edd316f90c66e590c1dd67"
+        },
+        {
+          "file": "desktop-frames/half-to-full-expansion.100.on.png",
+          "sha256": "4141528a3688134f1a2f3121b025d64e857a9d37aa70910a849835f15c9d5c9c"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "tile-activate-deactivate",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/tile-activate-deactivate.000.on.png",
+          "sha256": "4745d56aeb05e17cec2d979c3505f3d538428c87d8396eee56816288df4dd09a"
+        },
+        {
+          "file": "desktop-frames/tile-activate-deactivate.025.on.png",
+          "sha256": "445f11821e4c21a5751376af84db20f451b8f86a017915cd46881b77450dd844"
+        },
+        {
+          "file": "desktop-frames/tile-activate-deactivate.050.on.png",
+          "sha256": "93d4f5c940fec90619aeb5b505db4f89cab746f9950a73d06044e202b8f5ea22"
+        },
+        {
+          "file": "desktop-frames/tile-activate-deactivate.075.on.png",
+          "sha256": "445f11821e4c21a5751376af84db20f451b8f86a017915cd46881b77450dd844"
+        },
+        {
+          "file": "desktop-frames/tile-activate-deactivate.100.on.png",
+          "sha256": "4745d56aeb05e17cec2d979c3505f3d538428c87d8396eee56816288df4dd09a"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "tile-reorder",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/tile-reorder.000.on.png",
+          "sha256": "aead7d53f802b2a4c2f539665eadbc23da8626ef4c3b5539a3272b2134762d1d"
+        },
+        {
+          "file": "desktop-frames/tile-reorder.025.on.png",
+          "sha256": "d7e1394ee2e459eaa80f4a1837c0a80ec4c9d5fc2d4c968b7ee565f91356ae33"
+        },
+        {
+          "file": "desktop-frames/tile-reorder.050.on.png",
+          "sha256": "a781c125e5239a29cc5eb6d6cc730e561d89ae556813f6fe8b40ca87c2c3ed51"
+        },
+        {
+          "file": "desktop-frames/tile-reorder.075.on.png",
+          "sha256": "d7e1394ee2e459eaa80f4a1837c0a80ec4c9d5fc2d4c968b7ee565f91356ae33"
+        },
+        {
+          "file": "desktop-frames/tile-reorder.100.on.png",
+          "sha256": "aead7d53f802b2a4c2f539665eadbc23da8626ef4c3b5539a3272b2134762d1d"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "internet-detail-panel",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/internet-detail-panel.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/internet-detail-panel.025.on.png",
+          "sha256": "1ffc2378e97c26a15a862081291fe65f871442b783bab8fa8296f7cd97c2ceb2"
+        },
+        {
+          "file": "desktop-frames/internet-detail-panel.050.on.png",
+          "sha256": "389c5693ba34846f91c2a9ac83c6675944cbca48dadcc3814c53a21653e25199"
+        },
+        {
+          "file": "desktop-frames/internet-detail-panel.075.on.png",
+          "sha256": "ef42961b240c0a25e74424823ae36b588d3103ecc1cc8c05aa4b2356984a2457"
+        },
+        {
+          "file": "desktop-frames/internet-detail-panel.100.on.png",
+          "sha256": "ef3f1149320510dc346430ed0e6d71bd906183a88ec2397397e27185cc454af6"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "wi-fi-state",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/wi-fi-state.000.on.png",
+          "sha256": "7af85b7bdcc4eab96721f39c5f2743861fdc9674b254554c9f2f92e6066f866c"
+        },
+        {
+          "file": "desktop-frames/wi-fi-state.025.on.png",
+          "sha256": "7af85b7bdcc4eab96721f39c5f2743861fdc9674b254554c9f2f92e6066f866c"
+        },
+        {
+          "file": "desktop-frames/wi-fi-state.050.on.png",
+          "sha256": "7af85b7bdcc4eab96721f39c5f2743861fdc9674b254554c9f2f92e6066f866c"
+        },
+        {
+          "file": "desktop-frames/wi-fi-state.075.on.png",
+          "sha256": "7af85b7bdcc4eab96721f39c5f2743861fdc9674b254554c9f2f92e6066f866c"
+        },
+        {
+          "file": "desktop-frames/wi-fi-state.100.on.png",
+          "sha256": "7af85b7bdcc4eab96721f39c5f2743861fdc9674b254554c9f2f92e6066f866c"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "bluetooth-state",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/bluetooth-state.000.on.png",
+          "sha256": "ef0ed59b32fd8389a411e9e7399c36e4406c7c616320ab07ae92dd9a60b51e8b"
+        },
+        {
+          "file": "desktop-frames/bluetooth-state.025.on.png",
+          "sha256": "ef0ed59b32fd8389a411e9e7399c36e4406c7c616320ab07ae92dd9a60b51e8b"
+        },
+        {
+          "file": "desktop-frames/bluetooth-state.050.on.png",
+          "sha256": "ef0ed59b32fd8389a411e9e7399c36e4406c7c616320ab07ae92dd9a60b51e8b"
+        },
+        {
+          "file": "desktop-frames/bluetooth-state.075.on.png",
+          "sha256": "ef0ed59b32fd8389a411e9e7399c36e4406c7c616320ab07ae92dd9a60b51e8b"
+        },
+        {
+          "file": "desktop-frames/bluetooth-state.100.on.png",
+          "sha256": "ef0ed59b32fd8389a411e9e7399c36e4406c7c616320ab07ae92dd9a60b51e8b"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "cellular-signal",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/cellular-signal.000.on.png",
+          "sha256": "d5860ac2eaa83aa9c2f36a7e4c8b0e6e36952ee0a3cf1fa174ba8fcb20dfc0ae"
+        },
+        {
+          "file": "desktop-frames/cellular-signal.025.on.png",
+          "sha256": "d5860ac2eaa83aa9c2f36a7e4c8b0e6e36952ee0a3cf1fa174ba8fcb20dfc0ae"
+        },
+        {
+          "file": "desktop-frames/cellular-signal.050.on.png",
+          "sha256": "d5860ac2eaa83aa9c2f36a7e4c8b0e6e36952ee0a3cf1fa174ba8fcb20dfc0ae"
+        },
+        {
+          "file": "desktop-frames/cellular-signal.075.on.png",
+          "sha256": "d5860ac2eaa83aa9c2f36a7e4c8b0e6e36952ee0a3cf1fa174ba8fcb20dfc0ae"
+        },
+        {
+          "file": "desktop-frames/cellular-signal.100.on.png",
+          "sha256": "d5860ac2eaa83aa9c2f36a7e4c8b0e6e36952ee0a3cf1fa174ba8fcb20dfc0ae"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "hotspot-broadcast",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/hotspot-broadcast.000.on.png",
+          "sha256": "011b43ef2bf6d549d5f9a3aef29741abca835533087805fdc85daf0909c94429"
+        },
+        {
+          "file": "desktop-frames/hotspot-broadcast.025.on.png",
+          "sha256": "011b43ef2bf6d549d5f9a3aef29741abca835533087805fdc85daf0909c94429"
+        },
+        {
+          "file": "desktop-frames/hotspot-broadcast.050.on.png",
+          "sha256": "011b43ef2bf6d549d5f9a3aef29741abca835533087805fdc85daf0909c94429"
+        },
+        {
+          "file": "desktop-frames/hotspot-broadcast.075.on.png",
+          "sha256": "011b43ef2bf6d549d5f9a3aef29741abca835533087805fdc85daf0909c94429"
+        },
+        {
+          "file": "desktop-frames/hotspot-broadcast.100.on.png",
+          "sha256": "011b43ef2bf6d549d5f9a3aef29741abca835533087805fdc85daf0909c94429"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "airplane-mode",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/airplane-mode.000.on.png",
+          "sha256": "ec9ed801469d3adfebce16ae8607150f338343a793eaf5014ade8cc3991a5328"
+        },
+        {
+          "file": "desktop-frames/airplane-mode.025.on.png",
+          "sha256": "ec9ed801469d3adfebce16ae8607150f338343a793eaf5014ade8cc3991a5328"
+        },
+        {
+          "file": "desktop-frames/airplane-mode.050.on.png",
+          "sha256": "ec9ed801469d3adfebce16ae8607150f338343a793eaf5014ade8cc3991a5328"
+        },
+        {
+          "file": "desktop-frames/airplane-mode.075.on.png",
+          "sha256": "ec9ed801469d3adfebce16ae8607150f338343a793eaf5014ade8cc3991a5328"
+        },
+        {
+          "file": "desktop-frames/airplane-mode.100.on.png",
+          "sha256": "ec9ed801469d3adfebce16ae8607150f338343a793eaf5014ade8cc3991a5328"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "vpn-tunnel",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/vpn-tunnel.000.on.png",
+          "sha256": "2addb3ee86786e094cbd3402211cfca8f3bba0ee4623964a59a78308d5196b22"
+        },
+        {
+          "file": "desktop-frames/vpn-tunnel.025.on.png",
+          "sha256": "2addb3ee86786e094cbd3402211cfca8f3bba0ee4623964a59a78308d5196b22"
+        },
+        {
+          "file": "desktop-frames/vpn-tunnel.050.on.png",
+          "sha256": "2addb3ee86786e094cbd3402211cfca8f3bba0ee4623964a59a78308d5196b22"
+        },
+        {
+          "file": "desktop-frames/vpn-tunnel.075.on.png",
+          "sha256": "2addb3ee86786e094cbd3402211cfca8f3bba0ee4623964a59a78308d5196b22"
+        },
+        {
+          "file": "desktop-frames/vpn-tunnel.100.on.png",
+          "sha256": "2addb3ee86786e094cbd3402211cfca8f3bba0ee4623964a59a78308d5196b22"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "brightness-slider",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/brightness-slider.000.on.png",
+          "sha256": "e1f25317d10dbc6c6973a864d3963413112cadbed27e64c2eb512ee1db330b6b"
+        },
+        {
+          "file": "desktop-frames/brightness-slider.025.on.png",
+          "sha256": "4df340fb6921a6aa9e3d4b2dd110230a7aa72c97d898642c8dacd90a382b2b29"
+        },
+        {
+          "file": "desktop-frames/brightness-slider.050.on.png",
+          "sha256": "9dbc15423c89779fc3b0ce63ffb52ef8888c3ef889ac23c8034a276b208246e7"
+        },
+        {
+          "file": "desktop-frames/brightness-slider.075.on.png",
+          "sha256": "0a6b3a1b7cebfc4e2d113afc0180ea00a83c928e076b65554bec9b14c2553dd9"
+        },
+        {
+          "file": "desktop-frames/brightness-slider.100.on.png",
+          "sha256": "2232a6941e2738e9338fec2d26b580ec8179b1d0e0d9483fb765bb542e634888"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "volume-slider",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/volume-slider.000.on.png",
+          "sha256": "1d4b019adc040f817b1c463f2c06f333364b8804a8d79160950764327ea744d3"
+        },
+        {
+          "file": "desktop-frames/volume-slider.025.on.png",
+          "sha256": "8614d77ae38cfdf9e5ed1552c26724bc6f1677a9da00824bd9f26fb030b649fe"
+        },
+        {
+          "file": "desktop-frames/volume-slider.050.on.png",
+          "sha256": "ad56fd39014f74136880aa59d48d42b66c14ad3bb23145fa8ffc68377639c33e"
+        },
+        {
+          "file": "desktop-frames/volume-slider.075.on.png",
+          "sha256": "87f778adce87b59225abc8335e2b1fcf8b1ffedb6825ba39f892aa16e75fdc5e"
+        },
+        {
+          "file": "desktop-frames/volume-slider.100.on.png",
+          "sha256": "09a48a2bf17898e1bcf113c6a804246fdbaa4459e852f08ca9c90396071a3cc2"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "cast-external-display",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/cast-external-display.000.on.png",
+          "sha256": "95b3905763f4a19f193b522edb382ccbccb1ac8b51c79620cbc8c6694a6a4340"
+        },
+        {
+          "file": "desktop-frames/cast-external-display.025.on.png",
+          "sha256": "95b3905763f4a19f193b522edb382ccbccb1ac8b51c79620cbc8c6694a6a4340"
+        },
+        {
+          "file": "desktop-frames/cast-external-display.050.on.png",
+          "sha256": "95b3905763f4a19f193b522edb382ccbccb1ac8b51c79620cbc8c6694a6a4340"
+        },
+        {
+          "file": "desktop-frames/cast-external-display.075.on.png",
+          "sha256": "95b3905763f4a19f193b522edb382ccbccb1ac8b51c79620cbc8c6694a6a4340"
+        },
+        {
+          "file": "desktop-frames/cast-external-display.100.on.png",
+          "sha256": "95b3905763f4a19f193b522edb382ccbccb1ac8b51c79620cbc8c6694a6a4340"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "app-launch",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/app-launch.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/app-launch.025.on.png",
+          "sha256": "5f986308123f11786de1c42d93ab42a3fe9f437f4376e3dcb4addc068e4dc7ae"
+        },
+        {
+          "file": "desktop-frames/app-launch.050.on.png",
+          "sha256": "725b6d5540a47e16a8feb9d544ac48cc1647b5d296604c3b01d40e5b57f3d29b"
+        },
+        {
+          "file": "desktop-frames/app-launch.075.on.png",
+          "sha256": "3328d54e724109cf991bc5c81c1abe8a77e60e664afddb5f3cd2ce287024ccfc"
+        },
+        {
+          "file": "desktop-frames/app-launch.100.on.png",
+          "sha256": "adcbbb67dcdf3132e33c81fe9b0c64d6b0afede8052e2101220353880c6a8e5d"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "app-close",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/app-close.000.on.png",
+          "sha256": "c063eb407cc4a20812aea1a16ffbe7a77c9e23f49fa21da9e44332dbf871abdc"
+        },
+        {
+          "file": "desktop-frames/app-close.025.on.png",
+          "sha256": "c79915f7bd9f7d0c9f0fab27e4c1dca79afdd185aac5eef813d7384ef021cb1e"
+        },
+        {
+          "file": "desktop-frames/app-close.050.on.png",
+          "sha256": "835f9b2c756467a7a1070491252c0ae76f3cac2cf7662b18160d8d6a637a961b"
+        },
+        {
+          "file": "desktop-frames/app-close.075.on.png",
+          "sha256": "3746df3917821f69f7257cbca4d99cc888cc85ee6532e8f42d59c531f450b801"
+        },
+        {
+          "file": "desktop-frames/app-close.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "predictive-back-home",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/predictive-back-home.000.on.png",
+          "sha256": "d9c68846870e0da0726768011c27f2c0371957e2e4670618ae1138386a965d2b"
+        },
+        {
+          "file": "desktop-frames/predictive-back-home.025.on.png",
+          "sha256": "e70ac1ed730da5c37d9da88d98d5933f3852d14b08f2360aa64cf47363a6d054"
+        },
+        {
+          "file": "desktop-frames/predictive-back-home.050.on.png",
+          "sha256": "7cf46ea3ed203b6daab9cc1c5343085b735386ddfc6d3bb881e763b7f54c65a3"
+        },
+        {
+          "file": "desktop-frames/predictive-back-home.075.on.png",
+          "sha256": "f495a50a2bc5ef3df1caae4656bcf3180ff4cc40d15e689272bfcb64386abfc6"
+        },
+        {
+          "file": "desktop-frames/predictive-back-home.100.on.png",
+          "sha256": "b8c31401b7b0ab5d7b7822288d645074d3f7fc2f4c471616602714bb649017bf"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "predictive-back-task",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/predictive-back-task.000.on.png",
+          "sha256": "823c849ea920be51af86aee3b731243b390d3aac6c2263223e67a1eb35a08922"
+        },
+        {
+          "file": "desktop-frames/predictive-back-task.025.on.png",
+          "sha256": "1eb0b8046f1acabb5699ae786257b7e0149e2bd520e86a0cbb2723ff675e2bf1"
+        },
+        {
+          "file": "desktop-frames/predictive-back-task.050.on.png",
+          "sha256": "1ccfd6c2bb1d7df7598c1cf8d25dfec8a19750cc2bacc31c1437e8dc86d75673"
+        },
+        {
+          "file": "desktop-frames/predictive-back-task.075.on.png",
+          "sha256": "22baa2ccd1a9f7cece72a8f47ff749de05011ffd65987b391f25447b740d2c0a"
+        },
+        {
+          "file": "desktop-frames/predictive-back-task.100.on.png",
+          "sha256": "7648689aaa093672c69fa162cd6bdaa0f2802162c5e2f1eef7473ac907f89c19"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "overview-recents",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/overview-recents.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/overview-recents.025.on.png",
+          "sha256": "42684d41c388b68d1a3f79bca7854a5589f7d66758bed3842d3d02b89f67c89e"
+        },
+        {
+          "file": "desktop-frames/overview-recents.050.on.png",
+          "sha256": "cdaf297122d2f744048956f01fce2528c5a659fddc7ce6e546b747f2613b5750"
+        },
+        {
+          "file": "desktop-frames/overview-recents.075.on.png",
+          "sha256": "dd1cc3d5fe845bdb262cb0d6433eebf763f9742463054aa95a4cf7ed26909da8"
+        },
+        {
+          "file": "desktop-frames/overview-recents.100.on.png",
+          "sha256": "dd1cc3d5fe845bdb262cb0d6433eebf763f9742463054aa95a4cf7ed26909da8"
+        }
+      ],
+      "distinctSelectedPoses": 4,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "clear-all-sweep",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/clear-all-sweep.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/clear-all-sweep.025.on.png",
+          "sha256": "2b49c4e253d99581bd1dbe50f1f930c547d0d72d69d7b4d6b8f64011337e7511"
+        },
+        {
+          "file": "desktop-frames/clear-all-sweep.050.on.png",
+          "sha256": "f03895d5eb5ea0688d70cf893eda038f2fa58ad5493f4c59c162900783ca791a"
+        },
+        {
+          "file": "desktop-frames/clear-all-sweep.075.on.png",
+          "sha256": "be03c8819454cfbe7dfc951d2e764d46d12d9e12083a1542209fa9905ff09553"
+        },
+        {
+          "file": "desktop-frames/clear-all-sweep.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 4,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "picture-in-picture",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/picture-in-picture.000.on.png",
+          "sha256": "11464649dd893456ae0a46c782e1fdccd70d86e53246e80a4872af520370e3c6"
+        },
+        {
+          "file": "desktop-frames/picture-in-picture.025.on.png",
+          "sha256": "d9d223322b9dc98528208915a3c9757d9e509261092fafa35d96b659e1016d48"
+        },
+        {
+          "file": "desktop-frames/picture-in-picture.050.on.png",
+          "sha256": "620706c7681ce3287e4d655bc873ba697b2183095c8d81be728b59e01170f5e5"
+        },
+        {
+          "file": "desktop-frames/picture-in-picture.075.on.png",
+          "sha256": "2f98878faddc0d907980ae9bcd12ed96360378fb35a1e3cc810ac6de77bf8850"
+        },
+        {
+          "file": "desktop-frames/picture-in-picture.100.on.png",
+          "sha256": "b447d4cddd5734ad405eaf1b1c3e67aed863de651e626c39422b15fbbd1b61f8"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "split-screen-divider",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/split-screen-divider.000.on.png",
+          "sha256": "4a55f823d235ac8162e3fd1f0d0a0d326c32531c38d86b329761e342ad9156c8"
+        },
+        {
+          "file": "desktop-frames/split-screen-divider.025.on.png",
+          "sha256": "99f363322cfe6053e661201b5db1dbe4ba0b0043bfe817af82d7afe97ae65198"
+        },
+        {
+          "file": "desktop-frames/split-screen-divider.050.on.png",
+          "sha256": "692682b2c50df814e9e3ebd6e64d68a99b7b10dbe8b41fbfc1a263c5ef6d83f3"
+        },
+        {
+          "file": "desktop-frames/split-screen-divider.075.on.png",
+          "sha256": "e73c92c50b9131bda25cccb6c7e19da653f1da73530c3ab0301bf9688b009d42"
+        },
+        {
+          "file": "desktop-frames/split-screen-divider.100.on.png",
+          "sha256": "22db1cdb8dc15366aab1c03a6e9b9517b001db20f6d366586105ca6709089033"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "adaptive-resize-rotation",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/adaptive-resize-rotation.000.on.png",
+          "sha256": "8c2dfe5a595846d380dccb8e306db0a6072c49cbdefbafb7e4fd3ba75518b6f6"
+        },
+        {
+          "file": "desktop-frames/adaptive-resize-rotation.025.on.png",
+          "sha256": "375d2c7c8fd6df67ea70cfe495838abce6432b47a8475df3592faa114833b914"
+        },
+        {
+          "file": "desktop-frames/adaptive-resize-rotation.050.on.png",
+          "sha256": "90d2a4cae342077dd52908c4ebd4e16c17c85dd7dd3db998e0e2732c1aa0b638"
+        },
+        {
+          "file": "desktop-frames/adaptive-resize-rotation.075.on.png",
+          "sha256": "fb99c55995346b2c569752ab7f416f5a11a3c821830d22ee04552685cd1c72d8"
+        },
+        {
+          "file": "desktop-frames/adaptive-resize-rotation.100.on.png",
+          "sha256": "afa0510b0e86991f4004e31a543f3a29a2e87829251376ed8984dcb998dc39de"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "edge-to-edge-window",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/edge-to-edge-window.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/edge-to-edge-window.025.on.png",
+          "sha256": "e54580fc2970bccb91a5ddd67877b0ddfe29d9bb43d1d644615146d271e8ec0f"
+        },
+        {
+          "file": "desktop-frames/edge-to-edge-window.050.on.png",
+          "sha256": "9cdd308c12638946ad2b7bf30e112375374e2fe4bc94825e4c60b4ecd98c9f01"
+        },
+        {
+          "file": "desktop-frames/edge-to-edge-window.075.on.png",
+          "sha256": "02f3c1dbc6cfc0916a20f1f74ca6d700aa7a04c84d066d45811c788f3fd711ab"
+        },
+        {
+          "file": "desktop-frames/edge-to-edge-window.100.on.png",
+          "sha256": "489470eccd5885c9be63590a1dbb30246e122386b75f915d73a79e37cb2ef010"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "folder-open-close",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/folder-open-close.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/folder-open-close.025.on.png",
+          "sha256": "aa255af861e86df9c84239802db63d38174c9d969b9dc5b52782682efaf118c7"
+        },
+        {
+          "file": "desktop-frames/folder-open-close.050.on.png",
+          "sha256": "b1a533357b75fdf6c2758073b4891df7d665934e0bd5ea7317b85a36eb0f67f0"
+        },
+        {
+          "file": "desktop-frames/folder-open-close.075.on.png",
+          "sha256": "4fbe2e09b14130ec7643ce3374bdd2bf365e6517e50fb318bbd78e51d98de992"
+        },
+        {
+          "file": "desktop-frames/folder-open-close.100.on.png",
+          "sha256": "a6b07d48ce397b79b3832a902a9884cb93d655b1f2477bde70c6a46c62936d02"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "widget-pickup-drop",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/widget-pickup-drop.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/widget-pickup-drop.025.on.png",
+          "sha256": "8b30c99e6b88a5a0a8f601d55150030337e09ac045c032405b20dde39587d0f1"
+        },
+        {
+          "file": "desktop-frames/widget-pickup-drop.050.on.png",
+          "sha256": "f995e7c50a443d630bb31ec60528b05fb5f12d6a1cd9898f96d01656fb511bb6"
+        },
+        {
+          "file": "desktop-frames/widget-pickup-drop.075.on.png",
+          "sha256": "97b998c88a42f9e35e7c4600532c9e5959b84845259548264520c951b1def0c2"
+        },
+        {
+          "file": "desktop-frames/widget-pickup-drop.100.on.png",
+          "sha256": "25e7964986ba06fb1486d4e1afb0ae5cfa15d86a0ddc5627c8d580a871cc5b68"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "bottom-sheet-rise-dismiss",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/bottom-sheet-rise-dismiss.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/bottom-sheet-rise-dismiss.025.on.png",
+          "sha256": "5d4b6c5198cf8016f2fe488fcfd967707bb76d9039acfbc27fe5c91c083d3835"
+        },
+        {
+          "file": "desktop-frames/bottom-sheet-rise-dismiss.050.on.png",
+          "sha256": "d47835a46eb52bc85c878b42e0cf550a320cbb31240da3335e115074ee54b3e5"
+        },
+        {
+          "file": "desktop-frames/bottom-sheet-rise-dismiss.075.on.png",
+          "sha256": "0c47deb1cd4b68b9cab2d417da1f6190ffa45fd4210e09f8882fa476348bc378"
+        },
+        {
+          "file": "desktop-frames/bottom-sheet-rise-dismiss.100.on.png",
+          "sha256": "5b8cc97b06030b75985ed1c1ab593b2a640633013f63b317b79b02f9d0b5d313"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "dialog-destructive-confirm",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/dialog-destructive-confirm.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/dialog-destructive-confirm.025.on.png",
+          "sha256": "258ca2e9bdc546c37e491400df75af7959726d9b322927c1bc837153bca25a56"
+        },
+        {
+          "file": "desktop-frames/dialog-destructive-confirm.050.on.png",
+          "sha256": "eb3fb3120a576cb83e6f050067426e4bc81ce029a5ac3aff610694b748d16d6e"
+        },
+        {
+          "file": "desktop-frames/dialog-destructive-confirm.075.on.png",
+          "sha256": "63658287f281eb6801976c70b95ca9c2454289ec3fd6decd2e6ab2f081cb14e6"
+        },
+        {
+          "file": "desktop-frames/dialog-destructive-confirm.100.on.png",
+          "sha256": "9fd4c59141b8304fcbcd9a2515c94bfb117f955ef539d1fa5bc04dfc71e45eae"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "touch-ripple",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/touch-ripple.000.on.png",
+          "sha256": "c7fceef131bb7afbc90d97d1dc965b2f8620f7d93fb0b5c4b0f37a2f3fb38c17"
+        },
+        {
+          "file": "desktop-frames/touch-ripple.025.on.png",
+          "sha256": "07e860f61262d9988299652526da9c1ccce92d7be15b652b94d2b2b543ad44fb"
+        },
+        {
+          "file": "desktop-frames/touch-ripple.050.on.png",
+          "sha256": "ac20c8be7a47d6f5785e21eed557795b941e7b639d0d00f2403d3a0566404941"
+        },
+        {
+          "file": "desktop-frames/touch-ripple.075.on.png",
+          "sha256": "6385b270b8fcaa116ae6fa85237235285f47959d4b05096675cd67a93633528b"
+        },
+        {
+          "file": "desktop-frames/touch-ripple.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "long-press",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/long-press.000.on.png",
+          "sha256": "9bf3a1ddd2b24da1e63af347cfd104d59893759cf719be6eb50128d7e2abb274"
+        },
+        {
+          "file": "desktop-frames/long-press.025.on.png",
+          "sha256": "8152ea20af8654197990064463cb9bf1716d69c5ec49857646bdd9808ee50a4a"
+        },
+        {
+          "file": "desktop-frames/long-press.050.on.png",
+          "sha256": "6de9f276c7e798c1b707ca8e4c53672bec017e811ef53a56e8dacd89990ab9d8"
+        },
+        {
+          "file": "desktop-frames/long-press.075.on.png",
+          "sha256": "2a192f7edf02c3a2c87f5760c967efe99eb6fcefe75281d6757cf21657ac6b12"
+        },
+        {
+          "file": "desktop-frames/long-press.100.on.png",
+          "sha256": "ad5b900c8a9c475cbb8c75597dd6f77beb115048299dd1ac0159773f36833a65"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "swipe-gesture",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/swipe-gesture.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/swipe-gesture.025.on.png",
+          "sha256": "7621298568c27dfee8d84f66e9a34925e5b51c7532b108513af9fd5a9d91fce4"
+        },
+        {
+          "file": "desktop-frames/swipe-gesture.050.on.png",
+          "sha256": "2be908baab31bb4bd61db971d2746f422dbe6a7cab244b1ad2499ba7cfd26abf"
+        },
+        {
+          "file": "desktop-frames/swipe-gesture.075.on.png",
+          "sha256": "3a19c1bb0ebb85d942911c2612bc7d4caabc54686ef8f7906cfa9e7de6060ca6"
+        },
+        {
+          "file": "desktop-frames/swipe-gesture.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 4,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "keyboard-ime-slide",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/keyboard-ime-slide.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/keyboard-ime-slide.025.on.png",
+          "sha256": "193227bb408fc73804a46223be3b927266f7b7364545447de37e90d15886d356"
+        },
+        {
+          "file": "desktop-frames/keyboard-ime-slide.050.on.png",
+          "sha256": "2394302c75a72ed1af95eef371305dc9ff7e2d549761546e47f151b2a28e3293"
+        },
+        {
+          "file": "desktop-frames/keyboard-ime-slide.075.on.png",
+          "sha256": "59c4b48c589d24baf20bd3052d40b14a2ce62331ea04e8d3a2af915c40292175"
+        },
+        {
+          "file": "desktop-frames/keyboard-ime-slide.100.on.png",
+          "sha256": "d88be113e3d338c89d5ef219f10c45ee7d84354df9e5d4df9db2a184d6f05c43"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "key-press",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/key-press.000.on.png",
+          "sha256": "98128ea5cb7869f1280fce017c7f9fc022e77ccca00e016bbb2546195a68e29e"
+        },
+        {
+          "file": "desktop-frames/key-press.025.on.png",
+          "sha256": "4eadc2262b6751ae4ea6534dc1472acb87475e11c692981150f87c044b7d805b"
+        },
+        {
+          "file": "desktop-frames/key-press.050.on.png",
+          "sha256": "bf951abbc443fb241a058c480b86bcdfc570e1576bd6dd0a8057cfaf6a03ea33"
+        },
+        {
+          "file": "desktop-frames/key-press.075.on.png",
+          "sha256": "4eadc2262b6751ae4ea6534dc1472acb87475e11c692981150f87c044b7d805b"
+        },
+        {
+          "file": "desktop-frames/key-press.100.on.png",
+          "sha256": "98128ea5cb7869f1280fce017c7f9fc022e77ccca00e016bbb2546195a68e29e"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "suggestion-chip",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/suggestion-chip.000.on.png",
+          "sha256": "637580d60d5109747aeee3a7d38128ca64ff96b7d4e78ca45292bfc64da81a8d"
+        },
+        {
+          "file": "desktop-frames/suggestion-chip.025.on.png",
+          "sha256": "8513c6652c25581d64b65d35149d22f988b6d6f873f10e448b142981f54607f2"
+        },
+        {
+          "file": "desktop-frames/suggestion-chip.050.on.png",
+          "sha256": "df5d7ce911cbdfa8397c6571d3cd530c048c27828b3f2edf6b46f47e10b7e94a"
+        },
+        {
+          "file": "desktop-frames/suggestion-chip.075.on.png",
+          "sha256": "8513c6652c25581d64b65d35149d22f988b6d6f873f10e448b142981f54607f2"
+        },
+        {
+          "file": "desktop-frames/suggestion-chip.100.on.png",
+          "sha256": "637580d60d5109747aeee3a7d38128ca64ff96b7d4e78ca45292bfc64da81a8d"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "text-selection-handles",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/text-selection-handles.000.on.png",
+          "sha256": "7c9803f04fe385eb30825b0237ced8f373a5ba0302a7d45f212e4e2e722298cb"
+        },
+        {
+          "file": "desktop-frames/text-selection-handles.025.on.png",
+          "sha256": "f1a3726e2f11b5aab26c8cb3517b951002672b8175db80825d9669569d97d536"
+        },
+        {
+          "file": "desktop-frames/text-selection-handles.050.on.png",
+          "sha256": "61a757d26f355093531e07233e55a702f6b04214eec05af213e35a2baecaa71f"
+        },
+        {
+          "file": "desktop-frames/text-selection-handles.075.on.png",
+          "sha256": "d01c21f43b5c07e634c71f839883a1148b834183f081809046f0ca2644b77c46"
+        },
+        {
+          "file": "desktop-frames/text-selection-handles.100.on.png",
+          "sha256": "822456889d0e699de38bb27b2fe21ca8e98b3e0d5b4cbc87bd99127818ba64ce"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "copy-paste-toolbar",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/copy-paste-toolbar.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/copy-paste-toolbar.025.on.png",
+          "sha256": "5f9e5322eeabbbb300426484c70e05da3ecdd9512bb049e49c44195610ed1785"
+        },
+        {
+          "file": "desktop-frames/copy-paste-toolbar.050.on.png",
+          "sha256": "a67fc7dc1e4fb1b9bfd5a82dfe39f727e7dc029828385ffd395cd5eb9d39bddb"
+        },
+        {
+          "file": "desktop-frames/copy-paste-toolbar.075.on.png",
+          "sha256": "c859cc6f4abf460078bc491b2ada5f7b66b3b5c9dc97a4c25e0e2fa1f708ac59"
+        },
+        {
+          "file": "desktop-frames/copy-paste-toolbar.100.on.png",
+          "sha256": "b740beb0b15821d0e9ee965cd65c1fc0498f70eef8b2ccb9f820e527bd3cccc7"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "fingerprint-authentication",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/fingerprint-authentication.000.on.png",
+          "sha256": "8b737ecc00522f4662f0c3db0978a57495b9315d6022d31ed0a16b3df3447a8a"
+        },
+        {
+          "file": "desktop-frames/fingerprint-authentication.025.on.png",
+          "sha256": "19f591021d3bcb08cb3bdd21ebe3c0cb98dba330ea184a7a012408171815aec7"
+        },
+        {
+          "file": "desktop-frames/fingerprint-authentication.050.on.png",
+          "sha256": "543bb91794c7714d8e23e1824b1cacef2b3c8fdc3c472437f61caf20e19762cd"
+        },
+        {
+          "file": "desktop-frames/fingerprint-authentication.075.on.png",
+          "sha256": "6320ddefb5545857f15a1a12abfd982b76f80c0e7a5d12d0dd4c3e27be97c0d2"
+        },
+        {
+          "file": "desktop-frames/fingerprint-authentication.100.on.png",
+          "sha256": "7f05824b0b0b49bb814b1028ea4abe7b90ff12d50e9a2f1c20e7c06856acd5f8"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "face-scan-framing",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/face-scan-framing.000.on.png",
+          "sha256": "18c9e60812802a78d2a32652c454f158a40d59c28657c5c6d59bf91aa5eeea4f"
+        },
+        {
+          "file": "desktop-frames/face-scan-framing.025.on.png",
+          "sha256": "b85317593bf52d60a162e5080ece4eab3da87f5b8bd7c4330bb4b05005a93130"
+        },
+        {
+          "file": "desktop-frames/face-scan-framing.050.on.png",
+          "sha256": "3a52755ecbe2fcb6d2dc5824072caeeff6617f48e603e734f82ebacf7e0b0be2"
+        },
+        {
+          "file": "desktop-frames/face-scan-framing.075.on.png",
+          "sha256": "5a14add5455a54457197fe67b65f0ec69c39b0598a47b917289933f27b132dd6"
+        },
+        {
+          "file": "desktop-frames/face-scan-framing.100.on.png",
+          "sha256": "203fcda67379657ba34abd67295ab82248353101d2420aac5401d7da377f8cf9"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "pin-lock-unlock",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/pin-lock-unlock.000.on.png",
+          "sha256": "c0b72d85aa6572303de7ffe3f13e6ce8deefd108d7f0c96546a50ec4b82bb1ee"
+        },
+        {
+          "file": "desktop-frames/pin-lock-unlock.025.on.png",
+          "sha256": "7c964f726cdd33b4e00bb28e03868e70852a14e4661f7192d15e0f13cdf4841d"
+        },
+        {
+          "file": "desktop-frames/pin-lock-unlock.050.on.png",
+          "sha256": "adea76181b08379dc570973c2664606531585330717c484c29faa5d34accb573"
+        },
+        {
+          "file": "desktop-frames/pin-lock-unlock.075.on.png",
+          "sha256": "829eb2ce04316944fad8f32bfc5c8cbacbeb7d4c3d50c6f3fc807160a6bc88b9"
+        },
+        {
+          "file": "desktop-frames/pin-lock-unlock.100.on.png",
+          "sha256": "a6289c583736631ee87a47ea833c57a12d3599a9d9185a644de75443bfa4c865"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "permission-emphasis",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/permission-emphasis.000.on.png",
+          "sha256": "aece2febddd9a9850a7164c0415311224148b4ca12ecbaf4f46573c3caf9f92a"
+        },
+        {
+          "file": "desktop-frames/permission-emphasis.025.on.png",
+          "sha256": "734257cf8a71a06815912e5be52d27af997027c86d343945d646fdaf64e8a5ee"
+        },
+        {
+          "file": "desktop-frames/permission-emphasis.050.on.png",
+          "sha256": "19d9d3176da6340288acdb6c8bedcb81960dd4e58b4d3b810a5a8da96202a774"
+        },
+        {
+          "file": "desktop-frames/permission-emphasis.075.on.png",
+          "sha256": "2c10325b29344e5411ed2000b73e93360db1b4a08135f2445d73ff52769a37d5"
+        },
+        {
+          "file": "desktop-frames/permission-emphasis.100.on.png",
+          "sha256": "a934a8ab6f8f10c93bca1b839f7858a0b0eec3e52d38afe036ba92be7ee87d58"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "haptic-response",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/haptic-response.000.on.png",
+          "sha256": "5f1fdc66083265e26732093789c0ffaba4379b402f04dd2071c2f4cb3d07a844"
+        },
+        {
+          "file": "desktop-frames/haptic-response.025.on.png",
+          "sha256": "584d64611ff7991881b2616b0c49a23a3c1c05b2bc354e0ad89b2d5818f710d2"
+        },
+        {
+          "file": "desktop-frames/haptic-response.050.on.png",
+          "sha256": "19a058c0afc58ebe59decf314d5bff3316b0e1bff954b4fa5e1045502e88efc7"
+        },
+        {
+          "file": "desktop-frames/haptic-response.075.on.png",
+          "sha256": "fcb82e68216e96e270029667012aa2aaa77ea5b4e500db379c88556a59f9b031"
+        },
+        {
+          "file": "desktop-frames/haptic-response.100.on.png",
+          "sha256": "5f1fdc66083265e26732093789c0ffaba4379b402f04dd2071c2f4cb3d07a844"
+        }
+      ],
+      "distinctSelectedPoses": 4,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "accessibility-focus",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/accessibility-focus.000.on.png",
+          "sha256": "d98363ab0d22004ef9bfea6525f8f0c298a4c1c4a4e5350f414179379af6d319"
+        },
+        {
+          "file": "desktop-frames/accessibility-focus.025.on.png",
+          "sha256": "cc154ab4e1d9f727705845f22ff1531165b29b64b7f8be22b86dd5aaaf013934"
+        },
+        {
+          "file": "desktop-frames/accessibility-focus.050.on.png",
+          "sha256": "830679fd3ae819fe6831c7b0b64b8486834c6c6238f8e37a87a4d97a96c7240e"
+        },
+        {
+          "file": "desktop-frames/accessibility-focus.075.on.png",
+          "sha256": "cc154ab4e1d9f727705845f22ff1531165b29b64b7f8be22b86dd5aaaf013934"
+        },
+        {
+          "file": "desktop-frames/accessibility-focus.100.on.png",
+          "sha256": "d98363ab0d22004ef9bfea6525f8f0c298a4c1c4a4e5350f414179379af6d319"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "media-play-pause",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/media-play-pause.000.on.png",
+          "sha256": "1d59a89380426ce14feb6013064d65ece82291a7d4921a286ae025fa4efc3b34"
+        },
+        {
+          "file": "desktop-frames/media-play-pause.025.on.png",
+          "sha256": "696f811c10c13e1a9e2a073e1e84edaf6a331a4cb06203636d476b820c3d5573"
+        },
+        {
+          "file": "desktop-frames/media-play-pause.050.on.png",
+          "sha256": "c0c70dfafa8466c959b44f0a98d664dff81bb7b022d23fc5477d4279cdded093"
+        },
+        {
+          "file": "desktop-frames/media-play-pause.075.on.png",
+          "sha256": "696f811c10c13e1a9e2a073e1e84edaf6a331a4cb06203636d476b820c3d5573"
+        },
+        {
+          "file": "desktop-frames/media-play-pause.100.on.png",
+          "sha256": "1d59a89380426ce14feb6013064d65ece82291a7d4921a286ae025fa4efc3b34"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "screenshot-capture",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/screenshot-capture.000.on.png",
+          "sha256": "3365f540c18d2bfc695d336f0859f0e60c553548c1b641cb71169eca6441b64b"
+        },
+        {
+          "file": "desktop-frames/screenshot-capture.025.on.png",
+          "sha256": "12c76bc2cd76dd4be09c5892c3d7b105c3c0d8eb331b09f78ef7beda9dc70dd4"
+        },
+        {
+          "file": "desktop-frames/screenshot-capture.050.on.png",
+          "sha256": "9705302c6308808efc38bfde5206896bcf741dee00a9528b95257ef683de5884"
+        },
+        {
+          "file": "desktop-frames/screenshot-capture.075.on.png",
+          "sha256": "12c76bc2cd76dd4be09c5892c3d7b105c3c0d8eb331b09f78ef7beda9dc70dd4"
+        },
+        {
+          "file": "desktop-frames/screenshot-capture.100.on.png",
+          "sha256": "3365f540c18d2bfc695d336f0859f0e60c553548c1b641cb71169eca6441b64b"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "screen-recording",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/screen-recording.000.on.png",
+          "sha256": "78096882cee602a9e379639779a13e1a118ac5495d6c221d3df096ebd8426b5f"
+        },
+        {
+          "file": "desktop-frames/screen-recording.025.on.png",
+          "sha256": "78096882cee602a9e379639779a13e1a118ac5495d6c221d3df096ebd8426b5f"
+        },
+        {
+          "file": "desktop-frames/screen-recording.050.on.png",
+          "sha256": "78096882cee602a9e379639779a13e1a118ac5495d6c221d3df096ebd8426b5f"
+        },
+        {
+          "file": "desktop-frames/screen-recording.075.on.png",
+          "sha256": "78096882cee602a9e379639779a13e1a118ac5495d6c221d3df096ebd8426b5f"
+        },
+        {
+          "file": "desktop-frames/screen-recording.100.on.png",
+          "sha256": "78096882cee602a9e379639779a13e1a118ac5495d6c221d3df096ebd8426b5f"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "system-share-sheet",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/system-share-sheet.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/system-share-sheet.025.on.png",
+          "sha256": "e548e9d7ad10f89fe2772279f7dbff9fcb040d4d116eefad18dc8730b2a02552"
+        },
+        {
+          "file": "desktop-frames/system-share-sheet.050.on.png",
+          "sha256": "b9d204850a0f7d3733bff720c2d40e4a5715ad115b68a8bbd941e20b5ff7e2cd"
+        },
+        {
+          "file": "desktop-frames/system-share-sheet.075.on.png",
+          "sha256": "ec53b0f7a31cff374785e3f2dfc1390b9fc465a60aaf58bbef9c836c67f05c2d"
+        },
+        {
+          "file": "desktop-frames/system-share-sheet.100.on.png",
+          "sha256": "3bfa0a1ce8ef43a341054e6198542d0e5c10e1af6a51294f11396c349a3b69f2"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "wallpaper-theme-change",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/wallpaper-theme-change.000.on.png",
+          "sha256": "4ba6aa6f027f8c27d64a0514ef090f6f853179d604ddeab9274a6db9ce1b5657"
+        },
+        {
+          "file": "desktop-frames/wallpaper-theme-change.025.on.png",
+          "sha256": "285c1e8f2a2ae832600a2c032d38d6fec5461888514feb14db0fb0e8369f59fa"
+        },
+        {
+          "file": "desktop-frames/wallpaper-theme-change.050.on.png",
+          "sha256": "d847b09ba671706bc426ed0915460596500760f8fddf00c897760e1699da9f1c"
+        },
+        {
+          "file": "desktop-frames/wallpaper-theme-change.075.on.png",
+          "sha256": "285c1e8f2a2ae832600a2c032d38d6fec5461888514feb14db0fb0e8369f59fa"
+        },
+        {
+          "file": "desktop-frames/wallpaper-theme-change.100.on.png",
+          "sha256": "4ba6aa6f027f8c27d64a0514ef090f6f853179d604ddeab9274a6db9ce1b5657"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "account-chooser",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/account-chooser.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/account-chooser.025.on.png",
+          "sha256": "5272f882b9936d919aa31178b762cf81cff6ed0b9a47ea4e80483cd4c8d61a12"
+        },
+        {
+          "file": "desktop-frames/account-chooser.050.on.png",
+          "sha256": "5272f882b9936d919aa31178b762cf81cff6ed0b9a47ea4e80483cd4c8d61a12"
+        },
+        {
+          "file": "desktop-frames/account-chooser.075.on.png",
+          "sha256": "309d8163c89b4494032e6774c53d30d1210f0c711be15b6b7df90075e2c3be60"
+        },
+        {
+          "file": "desktop-frames/account-chooser.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "file-photo-picker",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/file-photo-picker.000.on.png",
+          "sha256": "149debb1ed5b07c8cc934b1cadfac8e86ebadd8e99f64030e5ff2abdd30f9404"
+        },
+        {
+          "file": "desktop-frames/file-photo-picker.025.on.png",
+          "sha256": "2910af85ca9430564336e75c0ab64247e51fcd9d927a5dd87e27d4be379dc51a"
+        },
+        {
+          "file": "desktop-frames/file-photo-picker.050.on.png",
+          "sha256": "522da53148acb807b444471a63f8ff2267e2ad0a3277c1318f92de8edcdd1826"
+        },
+        {
+          "file": "desktop-frames/file-photo-picker.075.on.png",
+          "sha256": "c6cee85943d573c2c4e1a918c277abb31b34b9a2b739cabfa86037aaf54c07db"
+        },
+        {
+          "file": "desktop-frames/file-photo-picker.100.on.png",
+          "sha256": "c9a580d51dc4311dbc9112c3facac801ee059f6a7ac46caecbbbd5c5907a407d"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "themed-icon-transition",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/themed-icon-transition.000.on.png",
+          "sha256": "bc34aba9caf464edae38e1e40218cfb5fc356eb1c09fdfab40d4b99ac8d290d9"
+        },
+        {
+          "file": "desktop-frames/themed-icon-transition.025.on.png",
+          "sha256": "ebee0bb3dd8a0036740a6497a7928fa534ef92cb614e8726a0ff7cfa2a9d8093"
+        },
+        {
+          "file": "desktop-frames/themed-icon-transition.050.on.png",
+          "sha256": "8c5ae081b162723d8dbcd616d92010f4eaf9c4dffaf611ca2b8f215e48c77a2d"
+        },
+        {
+          "file": "desktop-frames/themed-icon-transition.075.on.png",
+          "sha256": "fefc6739c68bff4b7ac6f02a45dcb2087987d1b21c69d8d9d7ccc6372080de58"
+        },
+        {
+          "file": "desktop-frames/themed-icon-transition.100.on.png",
+          "sha256": "3047c2a1735a031a64235a1aa237c34e5d0a63f78bd14a2a68ad1f27bae0864f"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "clamshell-open-close",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/clamshell-open-close.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/clamshell-open-close.025.on.png",
+          "sha256": "1309b6945a00e89b1086500c8942c231f39f189739f5173007760a76aa856017"
+        },
+        {
+          "file": "desktop-frames/clamshell-open-close.050.on.png",
+          "sha256": "cd19ba495c1e223fbc7dc882406c7b24e840950d1ecd56f7b5eb99c82821d4b6"
+        },
+        {
+          "file": "desktop-frames/clamshell-open-close.075.on.png",
+          "sha256": "e478548222970ab96d0c9a4b9b49018d71d59db55c63e1a8d41a6a5c831bf0b1"
+        },
+        {
+          "file": "desktop-frames/clamshell-open-close.100.on.png",
+          "sha256": "d9762d10528042df92121f286606472c906535cf8445f02f377d106fe7d342a2"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "top-display-wake",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/top-display-wake.000.on.png",
+          "sha256": "93a4f7ac348acc0c2f819e20b2e6b0170b47883f5e88d198d64291cbb0664e1c"
+        },
+        {
+          "file": "desktop-frames/top-display-wake.025.on.png",
+          "sha256": "93a4f7ac348acc0c2f819e20b2e6b0170b47883f5e88d198d64291cbb0664e1c"
+        },
+        {
+          "file": "desktop-frames/top-display-wake.050.on.png",
+          "sha256": "93a4f7ac348acc0c2f819e20b2e6b0170b47883f5e88d198d64291cbb0664e1c"
+        },
+        {
+          "file": "desktop-frames/top-display-wake.075.on.png",
+          "sha256": "93a4f7ac348acc0c2f819e20b2e6b0170b47883f5e88d198d64291cbb0664e1c"
+        },
+        {
+          "file": "desktop-frames/top-display-wake.100.on.png",
+          "sha256": "93a4f7ac348acc0c2f819e20b2e6b0170b47883f5e88d198d64291cbb0664e1c"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "bottom-display-wake",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/bottom-display-wake.000.on.png",
+          "sha256": "586f7d362b449646405542f4eba3bbb3e28146e1a2ded2f8a23082b58192e942"
+        },
+        {
+          "file": "desktop-frames/bottom-display-wake.025.on.png",
+          "sha256": "586f7d362b449646405542f4eba3bbb3e28146e1a2ded2f8a23082b58192e942"
+        },
+        {
+          "file": "desktop-frames/bottom-display-wake.050.on.png",
+          "sha256": "586f7d362b449646405542f4eba3bbb3e28146e1a2ded2f8a23082b58192e942"
+        },
+        {
+          "file": "desktop-frames/bottom-display-wake.075.on.png",
+          "sha256": "586f7d362b449646405542f4eba3bbb3e28146e1a2ded2f8a23082b58192e942"
+        },
+        {
+          "file": "desktop-frames/bottom-display-wake.100.on.png",
+          "sha256": "586f7d362b449646405542f4eba3bbb3e28146e1a2ded2f8a23082b58192e942"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "dual-screen-focus-transfer",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/dual-screen-focus-transfer.000.on.png",
+          "sha256": "0aa777d03848f036a0df692cf9fa836309d367afa48a9f05a59745721caa998e"
+        },
+        {
+          "file": "desktop-frames/dual-screen-focus-transfer.025.on.png",
+          "sha256": "18e7b96938d473b4fdbad8e81a1c3317942542fc18081beaabd9e5c1c5ebbd5d"
+        },
+        {
+          "file": "desktop-frames/dual-screen-focus-transfer.050.on.png",
+          "sha256": "1e752478450d4d33d33a1ca1b970d8d40f81d2cb74e27c1d3fe833467e994e7c"
+        },
+        {
+          "file": "desktop-frames/dual-screen-focus-transfer.075.on.png",
+          "sha256": "62b1b65b134944b2ea08503addb70a393d1b5cda3b40049ae4964fa9e9f9d454"
+        },
+        {
+          "file": "desktop-frames/dual-screen-focus-transfer.100.on.png",
+          "sha256": "2f51719e44662197c7f2b6818d2154b26f2ce99e31c054318a2302f352375f44"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "top-bottom-screen-swap",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/top-bottom-screen-swap.000.on.png",
+          "sha256": "c264643c14d35ee392606cbdc0efa5977179b05aefc6bbc4d3218895ef023c1e"
+        },
+        {
+          "file": "desktop-frames/top-bottom-screen-swap.025.on.png",
+          "sha256": "9bf6a946082dc6e8fbd5f889f705f3fb1360dd0a3205b9f52d81b487943d7d85"
+        },
+        {
+          "file": "desktop-frames/top-bottom-screen-swap.050.on.png",
+          "sha256": "8d16b2694a068ab8151c082a30d256b418422975cb6a54f75d1fdd513c3fba93"
+        },
+        {
+          "file": "desktop-frames/top-bottom-screen-swap.075.on.png",
+          "sha256": "f29a34f3b68823c703054d61963a8ce8bbf2e59650b3ad3d573ca596eae6a2ba"
+        },
+        {
+          "file": "desktop-frames/top-bottom-screen-swap.100.on.png",
+          "sha256": "44dbcc7ba0f026da79c9d55ee3f15f678564d8f79dd2e6fe666d22f70a7bafbf"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "screen-specific-app-assignment",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/screen-specific-app-assignment.000.on.png",
+          "sha256": "1db8e487f41d24f5cfcf80c1c22913fa7db33f74760f8b090ac69d3d1a95a225"
+        },
+        {
+          "file": "desktop-frames/screen-specific-app-assignment.025.on.png",
+          "sha256": "a88669b49844637c10ab22770c5bd529a877ac293fc1c4df250dace4a122d693"
+        },
+        {
+          "file": "desktop-frames/screen-specific-app-assignment.050.on.png",
+          "sha256": "fdc96be49b93b78bc9c4c7bcffad4675bb2eac2f3f470f8b96468ddb4d3c9272"
+        },
+        {
+          "file": "desktop-frames/screen-specific-app-assignment.075.on.png",
+          "sha256": "7429989faa623eb6fe27405f4fcbff32f64e8a674b55d0a59104dae9d272a939"
+        },
+        {
+          "file": "desktop-frames/screen-specific-app-assignment.100.on.png",
+          "sha256": "0bb108c424c3408311539511016c1ed5dc31f45cb0b82117a0a1784a603a359f"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "d-pad-direction-press",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/d-pad-direction-press.000.on.png",
+          "sha256": "1d4eba47f66de6a92fb5c448f9ac74020b60f751144f312d774673bcdc017720"
+        },
+        {
+          "file": "desktop-frames/d-pad-direction-press.025.on.png",
+          "sha256": "703b47e106db47c5b12f70ac4a7ec9572b673cdc57fc0f042be8835a14fca07b"
+        },
+        {
+          "file": "desktop-frames/d-pad-direction-press.050.on.png",
+          "sha256": "8111612c2eed5090d17e44fed4728a3587f51468d68cb82f0a643ef45267b1be"
+        },
+        {
+          "file": "desktop-frames/d-pad-direction-press.075.on.png",
+          "sha256": "703b47e106db47c5b12f70ac4a7ec9572b673cdc57fc0f042be8835a14fca07b"
+        },
+        {
+          "file": "desktop-frames/d-pad-direction-press.100.on.png",
+          "sha256": "1d4eba47f66de6a92fb5c448f9ac74020b60f751144f312d774673bcdc017720"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "analog-stick-response",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/analog-stick-response.000.on.png",
+          "sha256": "8ed1ae5bb2a63caf104adc5abf7da35bd7f7e0d5d8efe9bf00f4dde2e582de57"
+        },
+        {
+          "file": "desktop-frames/analog-stick-response.025.on.png",
+          "sha256": "633660417fa35550f05227d956205acfb2c2b5ac29bab17e09e4cd00a119d333"
+        },
+        {
+          "file": "desktop-frames/analog-stick-response.050.on.png",
+          "sha256": "8ed1ae5bb2a63caf104adc5abf7da35bd7f7e0d5d8efe9bf00f4dde2e582de57"
+        },
+        {
+          "file": "desktop-frames/analog-stick-response.075.on.png",
+          "sha256": "f3e1a5bf466c0eb74962d7b61295ba4f98a85183cd9934eb8c786b3a0ab29f04"
+        },
+        {
+          "file": "desktop-frames/analog-stick-response.100.on.png",
+          "sha256": "8ed1ae5bb2a63caf104adc5abf7da35bd7f7e0d5d8efe9bf00f4dde2e582de57"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "face-button-cluster",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/face-button-cluster.000.on.png",
+          "sha256": "235d2967dfffd9d3635340f8e782c7d79851ad8f3b308535ef9bb6316d41046b"
+        },
+        {
+          "file": "desktop-frames/face-button-cluster.025.on.png",
+          "sha256": "555dbe5a8a02f362971d574f83769e6e41d061ec10ee2ee1c77ec6cdff379585"
+        },
+        {
+          "file": "desktop-frames/face-button-cluster.050.on.png",
+          "sha256": "15cb6cca02cabc3c78a7c10a6995d53ea185920d80b70af5f5a038f42288c913"
+        },
+        {
+          "file": "desktop-frames/face-button-cluster.075.on.png",
+          "sha256": "555dbe5a8a02f362971d574f83769e6e41d061ec10ee2ee1c77ec6cdff379585"
+        },
+        {
+          "file": "desktop-frames/face-button-cluster.100.on.png",
+          "sha256": "235d2967dfffd9d3635340f8e782c7d79851ad8f3b308535ef9bb6316d41046b"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "shoulder-trigger-press",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/shoulder-trigger-press.000.on.png",
+          "sha256": "d45e2d7239c6ae1c0de4beaae8dd5b000aa707c053a5706330974ee0adf6b35d"
+        },
+        {
+          "file": "desktop-frames/shoulder-trigger-press.025.on.png",
+          "sha256": "b2abfc1101f98c930ccc77457a8c0615b17205f86df40b9a5267bfdc0dbf0cae"
+        },
+        {
+          "file": "desktop-frames/shoulder-trigger-press.050.on.png",
+          "sha256": "50fbaa4eb6fb9dcbc80cd8522a32b0661a2137adfc1c265a43c2abd429ba46e3"
+        },
+        {
+          "file": "desktop-frames/shoulder-trigger-press.075.on.png",
+          "sha256": "b2abfc1101f98c930ccc77457a8c0615b17205f86df40b9a5267bfdc0dbf0cae"
+        },
+        {
+          "file": "desktop-frames/shoulder-trigger-press.100.on.png",
+          "sha256": "d45e2d7239c6ae1c0de4beaae8dd5b000aa707c053a5706330974ee0adf6b35d"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "rear-paddle-press",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/rear-paddle-press.000.on.png",
+          "sha256": "807b23227a07723d974082717c6471a9d2fdd7c16bef45a2462b210edfc102cd"
+        },
+        {
+          "file": "desktop-frames/rear-paddle-press.025.on.png",
+          "sha256": "79d6a5cf4d9ad10885a30bb6a6dcc9f099d6dc882f483a2bb3fc1f6da8ea8d55"
+        },
+        {
+          "file": "desktop-frames/rear-paddle-press.050.on.png",
+          "sha256": "c0d5aac6d478ce096e56c0731d4d196bbe7a817095d9e833de416a05e8035a09"
+        },
+        {
+          "file": "desktop-frames/rear-paddle-press.075.on.png",
+          "sha256": "79d6a5cf4d9ad10885a30bb6a6dcc9f099d6dc882f483a2bb3fc1f6da8ea8d55"
+        },
+        {
+          "file": "desktop-frames/rear-paddle-press.100.on.png",
+          "sha256": "807b23227a07723d974082717c6471a9d2fdd7c16bef45a2462b210edfc102cd"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "cooling-fan-speed",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/cooling-fan-speed.000.on.png",
+          "sha256": "c94f2b6d34d84a2ab9721a3a086b2da1b1bfc3a9b10f4ffa2db0925a5cecaad2"
+        },
+        {
+          "file": "desktop-frames/cooling-fan-speed.012.on.png",
+          "sha256": "6967b8419c5481f387bfc6a998b78d54379da0f063f374ab3dd533d02235e4a2"
+        },
+        {
+          "file": "desktop-frames/cooling-fan-speed.037.on.png",
+          "sha256": "6967b8419c5481f387bfc6a998b78d54379da0f063f374ab3dd533d02235e4a2"
+        },
+        {
+          "file": "desktop-frames/cooling-fan-speed.062.on.png",
+          "sha256": "6967b8419c5481f387bfc6a998b78d54379da0f063f374ab3dd533d02235e4a2"
+        },
+        {
+          "file": "desktop-frames/cooling-fan-speed.100.on.png",
+          "sha256": "c94f2b6d34d84a2ab9721a3a086b2da1b1bfc3a9b10f4ffa2db0925a5cecaad2"
+        }
+      ],
+      "distinctSelectedPoses": 2,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "rgb-breathing-cycle",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/rgb-breathing-cycle.000.on.png",
+          "sha256": "2d82b2737496bf09b669201e3d6b7d050659e13bb20e145fba8f05b2a4d64b49"
+        },
+        {
+          "file": "desktop-frames/rgb-breathing-cycle.025.on.png",
+          "sha256": "aed153bb801a636660124b05e5a30d5d015b7ff6b42181c7de5cc4890a3032bb"
+        },
+        {
+          "file": "desktop-frames/rgb-breathing-cycle.050.on.png",
+          "sha256": "2cf55b44b4bbae191c7763cd07dd2da3f5ad1f99aa65846e9996be502407ef0a"
+        },
+        {
+          "file": "desktop-frames/rgb-breathing-cycle.075.on.png",
+          "sha256": "aed153bb801a636660124b05e5a30d5d015b7ff6b42181c7de5cc4890a3032bb"
+        },
+        {
+          "file": "desktop-frames/rgb-breathing-cycle.100.on.png",
+          "sha256": "2d82b2737496bf09b669201e3d6b7d050659e13bb20e145fba8f05b2a4d64b49"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "performance-profile-switch",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/performance-profile-switch.000.on.png",
+          "sha256": "55f72af3cdbb034a8b7ea854937c244e36b937d9023e9d9ec31861a011552065"
+        },
+        {
+          "file": "desktop-frames/performance-profile-switch.025.on.png",
+          "sha256": "8113ac6a8dd4f1788748bfbc0f16494171b5c2dd625e6c3670160dedec98b090"
+        },
+        {
+          "file": "desktop-frames/performance-profile-switch.050.on.png",
+          "sha256": "b38837af3a688c96417bf5b28ebda6fefbba61489151341f491193ab7706c6ac"
+        },
+        {
+          "file": "desktop-frames/performance-profile-switch.075.on.png",
+          "sha256": "f4cc9f13ed9efefff67509a04ecad2f28b43f5a2122e7263295d6b248cbf66be"
+        },
+        {
+          "file": "desktop-frames/performance-profile-switch.100.on.png",
+          "sha256": "3b793962926c9306580e61ff3378556a05bdf69f4865ee448fb88ab3347c40d8"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "thermal-throttling-state",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/thermal-throttling-state.000.on.png",
+          "sha256": "d0a620264ebab6cb388bcbd196117f54a3a67e87b95019566574ab065efcdc57"
+        },
+        {
+          "file": "desktop-frames/thermal-throttling-state.025.on.png",
+          "sha256": "bcb5b14d17f06fafe8bbd8c32369ea7816c7009bb319b340934d1cd9bcb8c0c8"
+        },
+        {
+          "file": "desktop-frames/thermal-throttling-state.050.on.png",
+          "sha256": "ecb1d28c93b5f100b4bf429a5220b6828b4c351e46a0e8b855b13a964574f2cf"
+        },
+        {
+          "file": "desktop-frames/thermal-throttling-state.075.on.png",
+          "sha256": "9fb21f5e7e2348d671d1eb6015e54e2ce31c3d00e196d3318ed84753f9b38ed0"
+        },
+        {
+          "file": "desktop-frames/thermal-throttling-state.100.on.png",
+          "sha256": "69a52bff487e8f187d641508a3d2e0bc9e2207064ae70858899cf101527c17a3"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "charging-direct-power",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/charging-direct-power.000.on.png",
+          "sha256": "2620822abb74cae4ae38631a93c5cfdf275e21679112d7b9a3dd1addf71eab86"
+        },
+        {
+          "file": "desktop-frames/charging-direct-power.025.on.png",
+          "sha256": "3710b540a46b30a032c92c3853d82ab8285b5f6c4027b1c7e2a8d7f501136fef"
+        },
+        {
+          "file": "desktop-frames/charging-direct-power.050.on.png",
+          "sha256": "8c06e0a918e4691f91fcfff447d715700f86a042afa07baa2eb2c35265ccc11b"
+        },
+        {
+          "file": "desktop-frames/charging-direct-power.075.on.png",
+          "sha256": "9ad3886e048e41aea3dcfaed06ba1f81065fcf38a97a1b9cc29b319d9c719e59"
+        },
+        {
+          "file": "desktop-frames/charging-direct-power.100.on.png",
+          "sha256": "a6389a2c13dd01e0225dcf83c7302153726ea1f27df841855ac2aff495d1ee11"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "usb-c-dock-connect",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/usb-c-dock-connect.000.on.png",
+          "sha256": "9c6f8316bffe3017b7217ff0d6f44a207475b4a51cef765bf00ed6016b37e5b9"
+        },
+        {
+          "file": "desktop-frames/usb-c-dock-connect.025.on.png",
+          "sha256": "4d224f8755a8dabe6feea1642ce0c8076364fef0262fc5f9abea787ab11deb13"
+        },
+        {
+          "file": "desktop-frames/usb-c-dock-connect.050.on.png",
+          "sha256": "4f6fb0eaa05f95faf5cfe41ee50830debac1092e7614bb571b0ad43145e13665"
+        },
+        {
+          "file": "desktop-frames/usb-c-dock-connect.075.on.png",
+          "sha256": "44f5e3e1f1bde93c486a1e453eb46c0f84b2e0edaddfb6c8e64cecc807b2ee01"
+        },
+        {
+          "file": "desktop-frames/usb-c-dock-connect.100.on.png",
+          "sha256": "6b7386da44bfe1ac026668a0e31cb7ef63948fd5e498ecf3d7bd7acdb523e9ae"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "external-display-output",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/external-display-output.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/external-display-output.025.on.png",
+          "sha256": "1d444586bff564a07dae417b76d8f44fa36154ffe5661e758899d4788e6dbd09"
+        },
+        {
+          "file": "desktop-frames/external-display-output.050.on.png",
+          "sha256": "3128ce47d8dface367e0e5575004b6391c7ec38b49af14a6155bf33fd09ae921"
+        },
+        {
+          "file": "desktop-frames/external-display-output.075.on.png",
+          "sha256": "9da537a1e2ce774d555669fdc5857f802422565193c5293952306d54eac2f42d"
+        },
+        {
+          "file": "desktop-frames/external-display-output.100.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        }
+      ],
+      "distinctSelectedPoses": 4,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "hardware-status-overlay",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/hardware-status-overlay.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/hardware-status-overlay.025.on.png",
+          "sha256": "57362e5ca94cd277fc14fe01246404a2979eddfd0b1e2e44a36e6b1d7e57a0bd"
+        },
+        {
+          "file": "desktop-frames/hardware-status-overlay.050.on.png",
+          "sha256": "1860b8c513feaf20be11286a726c72486b0259c055839e70e3be7569069177f2"
+        },
+        {
+          "file": "desktop-frames/hardware-status-overlay.075.on.png",
+          "sha256": "ce24391cc836e3ff4a47ccd7ca4817aaccabef89245cfa2f747a7958c3e636bf"
+        },
+        {
+          "file": "desktop-frames/hardware-status-overlay.100.on.png",
+          "sha256": "403285058b309ce1ebb4d486691f3a84e7e3686570236af2d0ca42f8b13eaa8e"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "live-update-status-chip",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/live-update-status-chip.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/live-update-status-chip.025.on.png",
+          "sha256": "84b952a29dc5f2a9304327989444a7d4a698e9cff010198ea31f15ecf88f26af"
+        },
+        {
+          "file": "desktop-frames/live-update-status-chip.050.on.png",
+          "sha256": "ec9df8484003eab1d32a324afe738bb39d717d21abb6b498bcfe00a9b6df81d0"
+        },
+        {
+          "file": "desktop-frames/live-update-status-chip.075.on.png",
+          "sha256": "8590f0b26238dd0b8f5d041b96ac136599e9ddffee3b5ce3187ccd4eb987daec"
+        },
+        {
+          "file": "desktop-frames/live-update-status-chip.100.on.png",
+          "sha256": "fbff88a0622b0c50d1171beb77983b7ef0475e092557f7099507f95e3cc7ddb0"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "live-update-milestones",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/live-update-milestones.000.on.png",
+          "sha256": "a6d2c309483576190ffb344d7f54ca0126cd73a439f644a4146e9ee999c9a79f"
+        },
+        {
+          "file": "desktop-frames/live-update-milestones.025.on.png",
+          "sha256": "8c07b8b1d531cc8c97f9ab357dd0beea901daa8605538d5c255f234144d55d41"
+        },
+        {
+          "file": "desktop-frames/live-update-milestones.050.on.png",
+          "sha256": "caa9e9dd666667874c3784dd991708003158f06cda5dd540d2d2b0b410f0b67c"
+        },
+        {
+          "file": "desktop-frames/live-update-milestones.075.on.png",
+          "sha256": "8a6eaaaf8b86a37d1e9a2e9e38bb3c6267c897dd16eda68777ea0dd400ef1292"
+        },
+        {
+          "file": "desktop-frames/live-update-milestones.100.on.png",
+          "sha256": "64fae63fa8568bc769dc58338fac5445b9c6b6dfc19d6934fdd6db76511903e8"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "camera-microphone-privacy",
+      "disposition": "steady-status",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/camera-microphone-privacy.000.on.png",
+          "sha256": "d5eef2c15a00c73ee06b364017b07b2f16047245c0358f6e6079059b07da2919"
+        },
+        {
+          "file": "desktop-frames/camera-microphone-privacy.025.on.png",
+          "sha256": "d5eef2c15a00c73ee06b364017b07b2f16047245c0358f6e6079059b07da2919"
+        },
+        {
+          "file": "desktop-frames/camera-microphone-privacy.050.on.png",
+          "sha256": "d5eef2c15a00c73ee06b364017b07b2f16047245c0358f6e6079059b07da2919"
+        },
+        {
+          "file": "desktop-frames/camera-microphone-privacy.075.on.png",
+          "sha256": "d5eef2c15a00c73ee06b364017b07b2f16047245c0358f6e6079059b07da2919"
+        },
+        {
+          "file": "desktop-frames/camera-microphone-privacy.100.on.png",
+          "sha256": "d5eef2c15a00c73ee06b364017b07b2f16047245c0358f6e6079059b07da2919"
+        }
+      ],
+      "distinctSelectedPoses": 1,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "notification-bubble",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/notification-bubble.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/notification-bubble.025.on.png",
+          "sha256": "28014fe01023c5058ae501f7e0cc565704a7fc59fcf5673c8b43f0e2f8f9b784"
+        },
+        {
+          "file": "desktop-frames/notification-bubble.050.on.png",
+          "sha256": "624813958b8176cb0d314575c3130642eb5bba2da4561139b90fe67ab5249e81"
+        },
+        {
+          "file": "desktop-frames/notification-bubble.075.on.png",
+          "sha256": "93508da8ba43a444e852df12368bed971d23360c7150524a09a144472265979c"
+        },
+        {
+          "file": "desktop-frames/notification-bubble.100.on.png",
+          "sha256": "5b5b88cdf9ced09bfb4b0c05888cddaabd14454d3448f1e0952caa3a7982e627"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "power-menu",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/power-menu.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/power-menu.025.on.png",
+          "sha256": "c4a518a5e55c96922488404685d1e75ec3ffd2d966b3ee3df95e6e4cc970fab2"
+        },
+        {
+          "file": "desktop-frames/power-menu.050.on.png",
+          "sha256": "1891460c9fca9c90d4d198d305bf9adc67a5b2750017879465e1e652740e3c50"
+        },
+        {
+          "file": "desktop-frames/power-menu.075.on.png",
+          "sha256": "b208eafdc820549f08295063fd9e9913aa920275a24ee4fe6f0a68244a54c182"
+        },
+        {
+          "file": "desktop-frames/power-menu.100.on.png",
+          "sha256": "490b5dd30db180d4024b713dabfcd8253cd02d35c835822dcd900efac78136a4"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "expanded-volume-mixer",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/expanded-volume-mixer.000.on.png",
+          "sha256": "7f1995394e24a2f405659103a9bca9cdc9370d89ca67a2ccd527ba787d695d88"
+        },
+        {
+          "file": "desktop-frames/expanded-volume-mixer.025.on.png",
+          "sha256": "825363d1818cbc0f51cc218c9804692a898d2838e5f565e6c75c563c36c58c09"
+        },
+        {
+          "file": "desktop-frames/expanded-volume-mixer.050.on.png",
+          "sha256": "69d324d8dc6204e435aebfd4343dcfe420ac7abfa56bb8e1fbe8512a98af186d"
+        },
+        {
+          "file": "desktop-frames/expanded-volume-mixer.075.on.png",
+          "sha256": "825363d1818cbc0f51cc218c9804692a898d2838e5f565e6c75c563c36c58c09"
+        },
+        {
+          "file": "desktop-frames/expanded-volume-mixer.100.on.png",
+          "sha256": "7f1995394e24a2f405659103a9bca9cdc9370d89ca67a2ccd527ba787d695d88"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "screenshot-preview-actions",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/screenshot-preview-actions.000.on.png",
+          "sha256": "a3947ba2019667e79ebb6980a1b6aca51f6680497801a953a7dc3e1654d746a9"
+        },
+        {
+          "file": "desktop-frames/screenshot-preview-actions.025.on.png",
+          "sha256": "1a6389f1154c3be1cabc37b08485aa14390e9269d578ebd0cfc6ebf701106032"
+        },
+        {
+          "file": "desktop-frames/screenshot-preview-actions.050.on.png",
+          "sha256": "fa633200643005a9ade6676c9ce39290ecd8e4f200ddf66d46030a0822b5f17a"
+        },
+        {
+          "file": "desktop-frames/screenshot-preview-actions.075.on.png",
+          "sha256": "aa06051766fe084870fa0767b72676897114e2870f205a09be41f81bb01064fc"
+        },
+        {
+          "file": "desktop-frames/screenshot-preview-actions.100.on.png",
+          "sha256": "03bb59f437752fb10d56d1593bcd6686600cdc849ae1d3609d5a51fb3f40d34b"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "clipboard-overlay",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/clipboard-overlay.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/clipboard-overlay.025.on.png",
+          "sha256": "d898a8e224da8f2a3de44b56346b6895b472f7bb4e4ac996b666196461190f7b"
+        },
+        {
+          "file": "desktop-frames/clipboard-overlay.050.on.png",
+          "sha256": "829e99f0134311508e0d2841e4b0878345b7283b0293f13d07cce5afd49052a1"
+        },
+        {
+          "file": "desktop-frames/clipboard-overlay.075.on.png",
+          "sha256": "1f9ac69f03a917071c0c1598dbe99ea04955c42d387b560e1bfb7272f8fa01f1"
+        },
+        {
+          "file": "desktop-frames/clipboard-overlay.100.on.png",
+          "sha256": "3e14273c9981e2ce6566faffa80a90d7cb867d7256a4b3ba95828000c9f29155"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "permission-choice-panel",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/permission-choice-panel.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/permission-choice-panel.025.on.png",
+          "sha256": "20c9b49ded69d3a85bde002b46408324a776cf7d5cea9389ae70581bd22caa87"
+        },
+        {
+          "file": "desktop-frames/permission-choice-panel.050.on.png",
+          "sha256": "48c0902244dc2c05375b11234bc0225f496fb9ae2cc5dbde850dcf7d0048047b"
+        },
+        {
+          "file": "desktop-frames/permission-choice-panel.075.on.png",
+          "sha256": "c9f6a12386b97fc50de3a77685a9f8391111de250007942753a7eef1052bb453"
+        },
+        {
+          "file": "desktop-frames/permission-choice-panel.100.on.png",
+          "sha256": "56e24ecb553a8168405b287b4523813a08d7cb518bfecfb983d59e01793408a6"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "predictive-back-activity",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/predictive-back-activity.000.on.png",
+          "sha256": "1a287fff3c009cc5f3fa239093798976c417100cc39a168be799f0bf94071bd4"
+        },
+        {
+          "file": "desktop-frames/predictive-back-activity.025.on.png",
+          "sha256": "2dfae240e2e7b2ecc5110cbca65a9466f3bb10d64647dbe2638c67b63f98261d"
+        },
+        {
+          "file": "desktop-frames/predictive-back-activity.050.on.png",
+          "sha256": "b8de9253f58b73647934649502c14bf1dc6f42a3cf1d35289db1e324b5c8df6c"
+        },
+        {
+          "file": "desktop-frames/predictive-back-activity.075.on.png",
+          "sha256": "73c8aaf6946ec53c6f141b0e0ce71fb477ad86ead1c1097c48e5a85db2568dc2"
+        },
+        {
+          "file": "desktop-frames/predictive-back-activity.100.on.png",
+          "sha256": "0457df292956f6fc35c013b02694cad97ace4773952dbdd3ebf8195ff2ce0f81"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "predictive-back-cancel",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/predictive-back-cancel.000.on.png",
+          "sha256": "1a287fff3c009cc5f3fa239093798976c417100cc39a168be799f0bf94071bd4"
+        },
+        {
+          "file": "desktop-frames/predictive-back-cancel.025.on.png",
+          "sha256": "83571d4e9c689c9f9799a9a50d87bfce24f42ba56e4c0cbd0fbc6ab5a8c1399e"
+        },
+        {
+          "file": "desktop-frames/predictive-back-cancel.050.on.png",
+          "sha256": "3e626aaa19239eb10a907a52c8761d599b9719a16f6d4d9598a9d0b53c281134"
+        },
+        {
+          "file": "desktop-frames/predictive-back-cancel.075.on.png",
+          "sha256": "83571d4e9c689c9f9799a9a50d87bfce24f42ba56e4c0cbd0fbc6ab5a8c1399e"
+        },
+        {
+          "file": "desktop-frames/predictive-back-cancel.100.on.png",
+          "sha256": "1a287fff3c009cc5f3fa239093798976c417100cc39a168be799f0bf94071bd4"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "desktop-window-open",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/desktop-window-open.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/desktop-window-open.025.on.png",
+          "sha256": "f6de260556d0558f28eb2daab501de5f73d021de464148662ed0737cf21c8901"
+        },
+        {
+          "file": "desktop-frames/desktop-window-open.050.on.png",
+          "sha256": "05e2a3d377e0354c45e7dbaf797ddc50723c6d23965f3a4ffd306e07401dfe13"
+        },
+        {
+          "file": "desktop-frames/desktop-window-open.075.on.png",
+          "sha256": "f34362a7ee4cf453bbd0d9b1699b0f82dfe201242ed9afb363c2b3e4fe976bcd"
+        },
+        {
+          "file": "desktop-frames/desktop-window-open.100.on.png",
+          "sha256": "33165375d45e77741a60fa5194a1d91303e132f5e24c9db7b9ec41b3962dca2a"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "desktop-taskbar-reveal",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/desktop-taskbar-reveal.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/desktop-taskbar-reveal.025.on.png",
+          "sha256": "4f143ba2f1225774a079a90c0dfa2fa04d20884afe37321db69145eb351ab22e"
+        },
+        {
+          "file": "desktop-frames/desktop-taskbar-reveal.050.on.png",
+          "sha256": "032e9b829c84569e474f69674c058567f1083afbf32e40507185bdfc95ae8cb7"
+        },
+        {
+          "file": "desktop-frames/desktop-taskbar-reveal.075.on.png",
+          "sha256": "5c63a4cb9aa83d5cf22dc3fe48102e3f0f64eda5dfd568db8817ceeb88940f83"
+        },
+        {
+          "file": "desktop-frames/desktop-taskbar-reveal.100.on.png",
+          "sha256": "69773df202106062fe6c057472b51b3663b16bfe79c9aacb6b8a7f4f438b0e78"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "pip-controls-reveal",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/pip-controls-reveal.000.on.png",
+          "sha256": "84eeb4ea659e40cd3e2fb7671075d07c6558f89a02a27f5bb0a5dc7e1255e065"
+        },
+        {
+          "file": "desktop-frames/pip-controls-reveal.025.on.png",
+          "sha256": "bb3ace45f6c080d1a5a6a5a0399a3a6b068d3de183111640db9ebe4d59957d14"
+        },
+        {
+          "file": "desktop-frames/pip-controls-reveal.050.on.png",
+          "sha256": "b67d24396382b0d7ec3c0881d3b2cc04a44ad90eaa7e847ca2d0c4c4deecd5c7"
+        },
+        {
+          "file": "desktop-frames/pip-controls-reveal.075.on.png",
+          "sha256": "7547316fe890ae2ca254b8019b52571db117cc7eafc0cbbb307f44fd59898d72"
+        },
+        {
+          "file": "desktop-frames/pip-controls-reveal.100.on.png",
+          "sha256": "217e63a186b1158e3cf1630a4aa0359dc188e2ffcb2d3e2126096dfb1dd4c4a8"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "quick-settings-edit-tray",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/quick-settings-edit-tray.000.on.png",
+          "sha256": "d5b020293727a1ec6b0270c276958f7bd18f3fdefade40300c85dd9c567d817a"
+        },
+        {
+          "file": "desktop-frames/quick-settings-edit-tray.025.on.png",
+          "sha256": "0a7694456bade3405b4568d426e0b99a4ecccca40536f795ee22795032e2730e"
+        },
+        {
+          "file": "desktop-frames/quick-settings-edit-tray.050.on.png",
+          "sha256": "9588d173819bca88ca20258813335afddf60ee267818adaa4d6c5edcfb158574"
+        },
+        {
+          "file": "desktop-frames/quick-settings-edit-tray.075.on.png",
+          "sha256": "e49d928073290fd19ec29c5677d9fd8b37a2ca725bc3051e1baf3606e5a1d09c"
+        },
+        {
+          "file": "desktop-frames/quick-settings-edit-tray.100.on.png",
+          "sha256": "06b7746f89621db64f33ea135f61179b9f5b8ec773be81505fec8a0027f563a4"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "embedded-photo-picker",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/embedded-photo-picker.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/embedded-photo-picker.025.on.png",
+          "sha256": "fa60b878d1e9953c8880b7b660554680710649206c9af9070b885a8fe3451297"
+        },
+        {
+          "file": "desktop-frames/embedded-photo-picker.050.on.png",
+          "sha256": "49f4fac1c89865c593bcf7fe9248b2935c6acc785cd8da4b0edee03dcdd7fa6c"
+        },
+        {
+          "file": "desktop-frames/embedded-photo-picker.075.on.png",
+          "sha256": "07b6351b3b0c03c6fdff2c939e654df53d0e41b0d85b21e650d2e930f936972d"
+        },
+        {
+          "file": "desktop-frames/embedded-photo-picker.100.on.png",
+          "sha256": "32b7fa46b4404ee5b4124aa52a781cc05a508eb9611b078670d82a722984095b"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "loading-shimmer-sync",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/loading-shimmer-sync.000.on.png",
+          "sha256": "56951fc9bcf4a0f5e615d3a2c1e38b1506a4f9713a36db994274ad25150a8fa2"
+        },
+        {
+          "file": "desktop-frames/loading-shimmer-sync.025.on.png",
+          "sha256": "456345d78d45ec550dedc295f1e12e02596e434ed522ceee9042225e14394e5f"
+        },
+        {
+          "file": "desktop-frames/loading-shimmer-sync.050.on.png",
+          "sha256": "f63d8a363e841306c20f9a7a27f0d6639d3aa0f175c072365671bda7ff73a622"
+        },
+        {
+          "file": "desktop-frames/loading-shimmer-sync.075.on.png",
+          "sha256": "56951fc9bcf4a0f5e615d3a2c1e38b1506a4f9713a36db994274ad25150a8fa2"
+        },
+        {
+          "file": "desktop-frames/loading-shimmer-sync.100.on.png",
+          "sha256": "56951fc9bcf4a0f5e615d3a2c1e38b1506a4f9713a36db994274ad25150a8fa2"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "biometric-failure-lockout",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/biometric-failure-lockout.000.on.png",
+          "sha256": "e4ccae1e81ad80b40bbe8b31888d9e3d5022c346ea3bbac2247349e0abcba707"
+        },
+        {
+          "file": "desktop-frames/biometric-failure-lockout.025.on.png",
+          "sha256": "9521ecbc23beff45c1b718b1976f4e40407f9250e3b2f1f53858e0aee21e352e"
+        },
+        {
+          "file": "desktop-frames/biometric-failure-lockout.050.on.png",
+          "sha256": "c09243ec1f40ee7b4c85f901258a665862888b5991ff2638eadfd0cbc1aba9c1"
+        },
+        {
+          "file": "desktop-frames/biometric-failure-lockout.075.on.png",
+          "sha256": "9521ecbc23beff45c1b718b1976f4e40407f9250e3b2f1f53858e0aee21e352e"
+        },
+        {
+          "file": "desktop-frames/biometric-failure-lockout.100.on.png",
+          "sha256": "e4ccae1e81ad80b40bbe8b31888d9e3d5022c346ea3bbac2247349e0abcba707"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "hinge-posture-angle",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/hinge-posture-angle.000.on.png",
+          "sha256": "e28855da895f0a2f36ce9a19d9a8c9c5d5a52fbb48b0d2bf0cd9df1cec4e3238"
+        },
+        {
+          "file": "desktop-frames/hinge-posture-angle.025.on.png",
+          "sha256": "3b991d1a958c9403d89d15e5e951cc83125639be4890082b78b6601b8cda3bb3"
+        },
+        {
+          "file": "desktop-frames/hinge-posture-angle.050.on.png",
+          "sha256": "4d8b2ea53daebc84416e1a546fbcaf4f6d22ee54f914e500434218857daafdd4"
+        },
+        {
+          "file": "desktop-frames/hinge-posture-angle.075.on.png",
+          "sha256": "450d26141996c148f360571051179f0f8d3b286199e04afa73e215a562775faf"
+        },
+        {
+          "file": "desktop-frames/hinge-posture-angle.100.on.png",
+          "sha256": "ca715ae885feb0d05ed1f7b41c09b1b8fc563d0e341b7363126c66cb76c11a69"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "game-assistant-overlay",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/game-assistant-overlay.000.on.png",
+          "sha256": "0d4424b82da328a53c7533f12bfdf977cac0b86de01932fec4b5004e9aaea601"
+        },
+        {
+          "file": "desktop-frames/game-assistant-overlay.025.on.png",
+          "sha256": "736f40e2203116d0b2bb84a8ba33b33d44aacefab874905e10d750cc399721e4"
+        },
+        {
+          "file": "desktop-frames/game-assistant-overlay.050.on.png",
+          "sha256": "087d478f88c4861a1e6f31dd00a88788e956fa12e68c4859d889dd9de60037ca"
+        },
+        {
+          "file": "desktop-frames/game-assistant-overlay.075.on.png",
+          "sha256": "0ed8f11d2fe1a28283e9d028ef5e71a7589814e1a08e46c9d6fc355b5f6cc808"
+        },
+        {
+          "file": "desktop-frames/game-assistant-overlay.100.on.png",
+          "sha256": "89c2619b6d4c395f06535147a184ce6b78c377cef81b10d0920886b628d253d9"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "controller-focus-transfer",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/controller-focus-transfer.000.on.png",
+          "sha256": "f2a8bad794c0a29d65b9d582c02884e6b9eba039439c0aa0de77f3d461e73b88"
+        },
+        {
+          "file": "desktop-frames/controller-focus-transfer.025.on.png",
+          "sha256": "f2a8bad794c0a29d65b9d582c02884e6b9eba039439c0aa0de77f3d461e73b88"
+        },
+        {
+          "file": "desktop-frames/controller-focus-transfer.050.on.png",
+          "sha256": "823440910a3d17b47a36ddc5b22e60e08854bf3259a186ffa4f7c5bd316a802f"
+        },
+        {
+          "file": "desktop-frames/controller-focus-transfer.075.on.png",
+          "sha256": "823440910a3d17b47a36ddc5b22e60e08854bf3259a186ffa4f7c5bd316a802f"
+        },
+        {
+          "file": "desktop-frames/controller-focus-transfer.100.on.png",
+          "sha256": "823440910a3d17b47a36ddc5b22e60e08854bf3259a186ffa4f7c5bd316a802f"
+        }
+      ],
+      "distinctSelectedPoses": 2,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "touch-mapping-editor",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/touch-mapping-editor.000.on.png",
+          "sha256": "bf61b267d3152429afd324be674576be064eca30249c16724e9095f9739e9f4e"
+        },
+        {
+          "file": "desktop-frames/touch-mapping-editor.025.on.png",
+          "sha256": "075965e433135d6b8e918a9a6a867efa0a7628007dbb77043c80199e053530e6"
+        },
+        {
+          "file": "desktop-frames/touch-mapping-editor.050.on.png",
+          "sha256": "4db28808222c2e9f9ecbea74f3d98e267bdeb3a84bdda9836d3a5eeddf2107e9"
+        },
+        {
+          "file": "desktop-frames/touch-mapping-editor.075.on.png",
+          "sha256": "d38041d3acfebc6622508398eaf067c0bcc2a4e2cba92c50d83ece657007c438"
+        },
+        {
+          "file": "desktop-frames/touch-mapping-editor.100.on.png",
+          "sha256": "d38041d3acfebc6622508398eaf067c0bcc2a4e2cba92c50d83ece657007c438"
+        }
+      ],
+      "distinctSelectedPoses": 4,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "analog-trigger-calibration",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/analog-trigger-calibration.000.on.png",
+          "sha256": "152e59c2b0f4256a5ba701b2f7f11a9404a7cd7bf2d5d9e4be091c1b5a988728"
+        },
+        {
+          "file": "desktop-frames/analog-trigger-calibration.025.on.png",
+          "sha256": "b07afebfb7d57cbaba18f83f83f912f1a6414b98984aaf3cb032f990521edf74"
+        },
+        {
+          "file": "desktop-frames/analog-trigger-calibration.050.on.png",
+          "sha256": "0383dd642017b2b787f779bd533abdea9e22f356c833bfc3b0a848f59eeff560"
+        },
+        {
+          "file": "desktop-frames/analog-trigger-calibration.075.on.png",
+          "sha256": "dde4924d607f552a173f74975a2e9d6fdc942f5ace08ed977c01aea122b09b13"
+        },
+        {
+          "file": "desktop-frames/analog-trigger-calibration.100.on.png",
+          "sha256": "6d66a6f9c9abd15ff6d9f3fce36634f5cc98dc6410e5a7edf5970a052f377e0f"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "dual-screen-app-drag",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/dual-screen-app-drag.000.on.png",
+          "sha256": "c9023b2599566db167378c15c41c0b7999e0fb1d8eac39c68e320603afa53a65"
+        },
+        {
+          "file": "desktop-frames/dual-screen-app-drag.025.on.png",
+          "sha256": "22a84f0d3e905486ad4fd88764d06a7efc3ffc425a8c94e7c969b0c15f61fea8"
+        },
+        {
+          "file": "desktop-frames/dual-screen-app-drag.050.on.png",
+          "sha256": "abffb905dfdf9e46b4b0f0a1433e72ef5a4e0fcb284d60f46b364c2adf36ebd0"
+        },
+        {
+          "file": "desktop-frames/dual-screen-app-drag.075.on.png",
+          "sha256": "578f15de886532f0e03728ddab61cc0d3851b82e02ed276c74846efdc71fd28c"
+        },
+        {
+          "file": "desktop-frames/dual-screen-app-drag.100.on.png",
+          "sha256": "0f75b487fa8aa57eab11d59b9574336fb39ff3dc614df714d2212ee396d3c48f"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "fan-curve-auto-mode",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/fan-curve-auto-mode.000.on.png",
+          "sha256": "7435dbe9adb3825bfb04667c13f196205e9c82bb31c9d87969126cdd44861421"
+        },
+        {
+          "file": "desktop-frames/fan-curve-auto-mode.025.on.png",
+          "sha256": "cf6bfcb01c67cc30377f4b4baf5031bc76961f01a8463fdeda5e55a86185073c"
+        },
+        {
+          "file": "desktop-frames/fan-curve-auto-mode.050.on.png",
+          "sha256": "9742619cdaeff5979af0edca4ad832500b62b992fd3f51c95faaef71f6efb10f"
+        },
+        {
+          "file": "desktop-frames/fan-curve-auto-mode.075.on.png",
+          "sha256": "40e4a93f4797e392193e1d355608fd9d90d9aa3864a5e3b8c965ade15084d550"
+        },
+        {
+          "file": "desktop-frames/fan-curve-auto-mode.100.on.png",
+          "sha256": "5606fecb1a153969a95b24540844c58779a7bd2826b37567be6e7298d19d85f8"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "rgb-mode-color-select",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/rgb-mode-color-select.000.on.png",
+          "sha256": "672620dbf64169d94031556aa30d7af4934bb8f31138eb5550deffc470ea9f5f"
+        },
+        {
+          "file": "desktop-frames/rgb-mode-color-select.025.on.png",
+          "sha256": "c332f40b5b043462670e5c3d025ee43fd0a3db6f7c6b69ed65560e7e8a71279f"
+        },
+        {
+          "file": "desktop-frames/rgb-mode-color-select.050.on.png",
+          "sha256": "6fbae3bf29b52ab4e26046abdcfac586321210708af819b0e63c34dff10cc707"
+        },
+        {
+          "file": "desktop-frames/rgb-mode-color-select.075.on.png",
+          "sha256": "c332f40b5b043462670e5c3d025ee43fd0a3db6f7c6b69ed65560e7e8a71279f"
+        },
+        {
+          "file": "desktop-frames/rgb-mode-color-select.100.on.png",
+          "sha256": "672620dbf64169d94031556aa30d7af4934bb8f31138eb5550deffc470ea9f5f"
+        }
+      ],
+      "distinctSelectedPoses": 3,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    },
+    {
+      "id": "five-band-eq-preset",
+      "disposition": "animated",
+      "sampledSelectedFrames": [
+        {
+          "file": "desktop-frames/five-band-eq-preset.000.on.png",
+          "sha256": "0a4195370210f06dc097ef6e3c1340ff65f3f1f7007874d796758b7f4655d410"
+        },
+        {
+          "file": "desktop-frames/five-band-eq-preset.025.on.png",
+          "sha256": "acb0e8c2d2e47f8e0ce781943aa5243de2972e1d73c400345161264f9d25d219"
+        },
+        {
+          "file": "desktop-frames/five-band-eq-preset.050.on.png",
+          "sha256": "22557dc16d081b86f139a8d978920b6bd32695ffd9ed549b9024761cf4b8ed98"
+        },
+        {
+          "file": "desktop-frames/five-band-eq-preset.075.on.png",
+          "sha256": "89bcf8f4ee941a6965799b30ab02aa8180e84914bcd4d176055272ee6829402c"
+        },
+        {
+          "file": "desktop-frames/five-band-eq-preset.100.on.png",
+          "sha256": "38da6e24dcd2cf2cb9b987b32bcb696f85cf4f72b8bdf3a40b345b2140b6ff94"
+        }
+      ],
+      "distinctSelectedPoses": 5,
+      "review": "Representative pose on catalog sheet; automated inventory and dedicated semantic checks. Not browser or target playback.",
+      "nativeIntegrated": false,
+      "deviceVerified": false
+    }
+  ],
+  "animated": 103,
+  "steady": 11
+}
