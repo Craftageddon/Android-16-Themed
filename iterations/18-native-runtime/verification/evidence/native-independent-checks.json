@@ -1,0 +1,27 @@
+{
+  "result": "PASS",
+  "date": "2026-10-23",
+  "cleanBuildsCompared": 2,
+  "identicalExecutableResourceMembers": 119,
+  "stableCertificateSha256": "24426da343edf38e344e9109f995ae353b5a2da9e3c351cf321368951e3541da",
+  "nativeStateCombinations": 64,
+  "nativeStatesComparedAgainstDesktopStyle": [
+    "off",
+    "focused_off",
+    "on",
+    "selected_focused",
+    "active_pressed",
+    "disabled",
+    "reduced"
+  ],
+  "unchangedSourceResources": 115,
+  "nativeEnglishStrings": 25,
+  "defaultLocale": "en-US",
+  "noRequestedPermissions": true,
+  "protectedQuickSettingsService": true,
+  "method": "Fresh separate build compares every executable/resource APK member; independently run compiled Java state probe against saved desktop style JSON; source-to-native resource hashes, compiled manifest/permission checks and actual live native string XML.",
+  "nativeRuntimeAcceptance": "NOT RUN",
+  "dualScreenControllerAcceptance": "NOT RUN",
+  "systemUIPlatformBuild": "NOT RUN",
+  "targetV3": "NOT RUN"
+}

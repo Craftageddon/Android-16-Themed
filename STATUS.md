@@ -1,3 +1,9 @@
+# Native integration started - 2026-10-23
+
+The current authored visual handoff is saved in iteration17 (472 masters, 189 editable compositions, 36 sheets). [Iteration18](iterations/18-native-runtime/README.md) now implements real Android steel controls and a protected Quick Settings tile service, with native English labels, actual battery readout and read-only display/controller inspection. The API37 APK is signed with a stable project application identity; 64 state combinations, 7 desktop-style comparisons and a fresh rebuild of all119 executable/resource members pass. No Android runtime or physical V3 acceptance is claimed.
+
+This fulfills the requested start of native integration after the authored visual handoff. It does not complete the 103-package ROM roadmap. System-wide Compose rendering, other protected owners, native motion, hardware/profile services, actual dual-screen input and final performance/accessibility remain in [the remaining-work record](iterations/18-native-runtime/remaining-work.json). The user chose to continue without a connected device. No hardware was installed, modified or flashed.
+
 # Complete current visual handoff - 2026-10-23
 
 Iteration 17 consolidates **472 current production master files, 189 editable compositions and 36 contact sheets**, and closes all 1,272 retained candidate groups with explicit source-role decisions. It adds 28 missing semantic utility symbols and 10 authored app identities (66 layered masters, 924 production exports). Default native English strings and adaptive-icon/vector resources compile. See [the current library](iterations/17-forge-coverage/README.md) and its bounded review/evidence. This completes the defined authored desktop handoff; installed app coverage and native/device acceptance remain open.

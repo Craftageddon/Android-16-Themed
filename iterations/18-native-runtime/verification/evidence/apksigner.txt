@@ -1,0 +1,18 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V3.0 Signer: certificate DN: CN=Craftageddon Native Integration, O=Craftageddon, C=US
+V3.0 Signer: certificate SHA-256 digest: 24426da343edf38e344e9109f995ae353b5a2da9e3c351cf321368951e3541da
+V3.0 Signer: certificate SHA-1 digest: a32a83519af2d109d6727aa3800b679aabcd3a6d
+V3.0 Signer: certificate MD5 digest: 677525e7aa580d936a4a393f1646c684
+V3.0 Signer: key algorithm: RSA
+V3.0 Signer: key size (bits): 3072
+V3.0 Signer: public key SHA-256 digest: e23079690cd8fcc6e6b70424fb1c66262c1cb327e27cdbc54591be108cb5ae4c
+V3.0 Signer: public key SHA-1 digest: 2e888b4d0dea8a2a7d47fd86a96532d11c467d1f
+V3.0 Signer: public key MD5 digest: 8a98ce77c74d64234fa55846c9290cc9

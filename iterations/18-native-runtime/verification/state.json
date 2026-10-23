@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "c426e2b94aefe8a4483caed42d28e646b2da94292ac984ea7d04237e912e9e63"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-23T14:07:53+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "5e0fde9d19fdf3f21d5829dd7edabfd87458a2109661ca696373d82c1c996981",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-23T14:07:53+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "0ee86b0a70b57cb676ddf0ab8240dd9415b921cc755bdd18a5be10165243201c",
+      "independence": null,
+      "method": "Two clean builds compare all119 executable/resource members; 64 Java states; 7 style parity samples; original resource hashes; native manifest, English resources, APK certificate/signature/alignment and tamper rejection.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-23T14:07:53+00:00",
+  "project": "18-native-runtime",
+  "schema": 1,
+  "status": "V2_PASS"
+}

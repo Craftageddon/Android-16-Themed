@@ -1,0 +1,24 @@
+<resources>
+<string name="app_name">Craftageddon Thor</string>
+<string name="intro">Dark steel stays cold until a control is selected. Focus adds a cool edge.</string>
+<string name="selected_control">Ember control</string>
+<string name="explicit_off_control">Cold-only control</string>
+<string name="unavailable_control">Unavailable control</string>
+<string name="emission_locked">Ember disabled for this control</string>
+<string name="state_on">On</string><string name="state_off">Off</string>
+<string name="tile_label">Ember control</string>
+<string name="qs_help">Add Ember control from Quick Settings to change the same selection.</string>
+<string name="battery_unknown">Battery information unavailable</string>
+<string name="battery_value">Battery: %1$d%% · %2$s</string>
+<string name="charging">Charging</string><string name="not_charging">Not charging</string>
+<string name="details_pending">Reading display and input details…</string>
+<string name="display_heading">Detected displays</string>
+<string name="display_value">Display %1$d: %2$d × %3$d, %4$.1f Hz</string>
+<string name="input_value">Connected game controllers: %1$d</string>
+<string name="refresh_details">Refresh device details</string>
+<string name="device_limit">Device settings stay unchanged. Hardware validation is still pending.</string>
+<string name="input_waiting">Move a controller or press a button to inspect reported input.</string>
+<string name="input_key">Controller key %1$d: %2$s</string>
+<string name="input_axes">Reported axes: X %1$.2f · Y %2$.2f · LT %3$.2f · RT %4$.2f</string>
+<string name="pressed">Pressed</string><string name="released">Released</string>
+</resources>

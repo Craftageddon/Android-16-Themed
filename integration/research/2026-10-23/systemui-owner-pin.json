@@ -1,0 +1,23 @@
+{
+  "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+  "repository": "LineageOS/android_frameworks_base",
+  "sources": [
+    {
+      "path": "packages/SystemUI/src/com/android/systemui/qs/panels/ui/compose/infinitegrid/Tile.kt",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/src/com/android/systemui/qs/panels/ui/compose/infinitegrid/Tile.kt",
+      "sha256": "9299ecd330b8de26a2efded0ac7a4f733be521d07608e4a12a5c518b0378576f"
+    },
+    {
+      "path": "packages/SystemUI/src/com/android/systemui/qs/panels/ui/compose/infinitegrid/CommonTile.kt",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/src/com/android/systemui/qs/panels/ui/compose/infinitegrid/CommonTile.kt",
+      "sha256": "faad1b350fa9341ea113ec70a0cff34abed2aeedf6f5ad50f173fddd131e5229"
+    },
+    {
+      "path": "packages/SystemUI/src/com/android/systemui/qs/panels/ui/compose/infinitegrid/SquishTile.kt",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/src/com/android/systemui/qs/panels/ui/compose/infinitegrid/SquishTile.kt",
+      "sha256": "4f330877e4f0a513603e0864e9fd5abd64350cb8ddca0b6b3a07ffb7e8d66722"
+    }
+  ],
+  "legacyOwnerAbsent": "qs/tileimpl/QSTileViewImpl.kt returns404 at pinned revision; current owner is Compose infinitegrid",
+  "platformBuild": "NOT RUN"
+}
