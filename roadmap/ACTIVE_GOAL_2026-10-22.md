@@ -1,4 +1,14 @@
-# Active goal — 22 October 2026
+# Current full-corpus goal — 26 October 2026
+
+Current objective: **Continue working on what was identified as missing or awaiting reuse approval. Finish the semantic review and then double check a final time.**
+
+This includes the original7048 unassigned visual source families,210 tentative reuse candidates, all native layout/token/motion categories in the full10926-family/16559-file-variant baseline,16 named glyph gaps,20 app/component role bindings, seven actual-owner workflow/output groups, further discovered artwork, and a fresh independent whole-goal double-check after the required work is complete. A bounded checkpoint does not narrow or finish this goal.
+
+[Iteration22](../iterations/22-native-contract-review/README.md) preserves898 native reference/neutral-motion contracts after content/state/dependency review and corrects the earlier resource reference graph.9655 family decisions remain OPEN. Parent preservation does not approve its visual leaves, runtime themes or effective overlays. The210 tentative candidates have recorded art decisions in20; native drop-in/owner acceptance is separate.16 named gaps and further corrections have source/art handoffs. W01/W02 have actual source/art adaptations and bounded compile evidence in21; W03-W07 remain unauthored. Full Soong/Android/device acceptance and the final whole-goal double-check are NOT RUN.
+
+Continue autonomously through tested, signed, published checkpoints. Protect main, preserve previous outputs, use draft checkpoint PRs, keep authored English text and separate cold/neutral light masks. The user deferred device access; no flashing or installation is authorized by this goal. Earlier goal records below remain historical context.
+
+# Earlier goal — 22 October 2026
 
 User objective: **Finish remaining visual work, then begin working on native integration. Look up the LineageOS Thor-specific version, try to find an original copy of the factory Thor ROM, and make sure packages are signed.**
 

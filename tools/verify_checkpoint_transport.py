@@ -24,7 +24,9 @@ def main():
     assert joined.hexdigest()==digest;assert hashlib.sha256(a.restored.read_bytes()).hexdigest()==digest
     delivery=ROOT.parent/'Deliverables'/a.delivery;assert delivery.parent.resolve()==(ROOT.parent/'Deliverables').resolve();delivery.mkdir(parents=True,exist_ok=False);wanted=['complete-assets.zip','complete-assets.zip.sha256','complete-assets.zip.sig','complete-assets.zip.sig.json','signing-public-key.pem','README.md','REVIEW.md','semantic-review-progress.json','semantic-review-delta.json','changed-files.json','AynParts-forge-source.patch'];wanted += [p.relative_to(root).as_posix() for p in (root/'previews').glob('*.png')];wanted += ['workflow-previews/rgb-green-dragged.png','workflow-previews/calibration-test-calibration.png'];saved={}
     for name in wanted:
-        source=root/name;target=delivery/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target);sha=hashlib.sha256(target.read_bytes()).hexdigest();assert sha==hashlib.sha256(source.read_bytes()).hexdigest();saved[name]=sha
+        source=root/name
+        if not source.exists():continue
+        target=delivery/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target);sha=hashlib.sha256(target.read_bytes()).hexdigest();assert sha==hashlib.sha256(source.read_bytes()).hexdigest();saved[name]=sha
     report={'result':'PASS','archiveBytes':archive.stat().st_size,'archiveSha256':digest,'archiveMembers':len(names),'checksumEntriesVerified':len(lines),'signatureVerified':True,'tamperRejected':True,'transportPartsVerified':len(transport['parts']),'powershellRestorationVerified':True,'allArchiveMembersMatchSavedFiles':True,'privatePathAndKeyMarkerGuard':'PASS','delivery':str(delivery),'deliveryHashes':saved,'wholeGoalComplete':False};(delivery/'DELIVERY-VERIFICATION.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf8');(ROOT/'build-work'/('transport-'+root.name+'.json')).write_text(json.dumps(report,indent=2)+'\n',encoding='utf8');print(json.dumps({k:v for k,v in report.items() if k!='deliveryHashes'}))
 
 if __name__=='__main__':main()

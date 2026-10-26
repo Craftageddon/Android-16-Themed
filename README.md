@@ -1,4 +1,6 @@
-[Latest AYN owner adaptation checkpoint](iterations/21-native-workflows/README.md) — actual seven-phase calibration and RGB presentation source, separate steel/light resources,14 real Kotlin and4 Java compilations,11 source-backed workflow fixtures. The wider10,553 family decisions and5 unauthored workflow groups remain open; native/runtime acceptance is not claimed. [Semantic/reuse checkpoint20](iterations/20-semantic-review/README.md).
+[Latest native contract review](iterations/22-native-contract-review/README.md) —898 source-backed preservation decisions, corrected native resource reference scopes, all254 acquired animated-vector variants traced, and actual host parser/SDK37 resource checks.9,655 family decisions and5 unauthored workflow groups remain open. This pass adds no drawings and does not approve dependent artwork or native/device completion.
+
+[AYN owner adaptation checkpoint21](iterations/21-native-workflows/README.md) contains actual seven-phase calibration and RGB presentation source, separate steel/light resources,14 real Kotlin and4 Java compilations and11 source-backed workflow fixtures. [Semantic/reuse checkpoint20](iterations/20-semantic-review/README.md) preserves the larger source corpus and reuse decisions.
 
 # Current Forge visual and native checkpoints
 
@@ -90,4 +92,4 @@ Cold bases must remain free of baked emission. Compact status glyphs use simpler
 
 ## License and provenance
 
-The repository's original [CC0 1.0 license](LICENSE) is retained. New geometry, tooling and generated study art are supplied under that repository license. Historical local references inform the design but are not bundled as production assets. No third-party font binaries, application logos, vendor firmware or proprietary mapping tools are included. See [art direction](art-direction/README.md).
+The repository's original [CC0 1.0 license](LICENSE) is retained for original project geometry, tooling and generated study art. Pinned upstream source/XML/reference artwork keeps its original copyright and license; CC0 does not relicense that evidence. Checkpoint22 preserves original headers and the available [upstream license files](iterations/22-native-contract-review/source/licenses-manifest.json). No third-party font binaries, vendor firmware or proprietary mapping tools are included in this repository. See [art direction](art-direction/README.md).

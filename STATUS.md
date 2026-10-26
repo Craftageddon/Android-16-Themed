@@ -1,3 +1,11 @@
+# Native reference/motion contract review - 2026-10-26
+
+[Iteration22](iterations/22-native-contract-review/README.md) records898 preservation decisions across919 exact source variants:639 reference/state wrappers and259 neutral motion resources. The full10926-family/16559-variant baseline is conserved;9655 family decisions remain OPEN. These are source review counts, not confirmed missing drawings. No new visual assets or native resource changes are claimed in this pass.
+
+The new reference graph corrects historical20 scope/type/reference indexing, including core/res/res and flag(...) resource folders. All254 acquired AVD variants have1149 resolved named target bindings;527 explicit morph endpoint sets have consistent command signatures. The actual cached AndroidX parser passes130816 pair checks. SDK37 compiles/links the actual eight-file DocumentsUI dependency bank for controlled read-only true/false flags. These checks do not establish effective product/overlay selection or Android/device rendering.
+
+Five workflow groups W03-W07, the wider source/art/owner review, additional discovered artwork, full native acceptance and the final independent whole-goal check remain required. The prior472 masters and signed20/21 archives retain their exact hashes. Main and device state are preserved.
+
 # Actual AYN owner presentation adaptation - 2026-10-26
 
 [Iteration21](iterations/21-native-workflows/README.md) authors the actual seven-phase calibration and RGB dialog source/resource adaptation. It preserves source input/clamp expressions, readiness/phase owners, hardware utilities and live/confirm/cancel bodies. New layered gate/position/thumb artwork and compact native frames supply147 PNG resource configurations. The14 actual Kotlin and4 Java source compilations,128 state cases, exact patch application, source hashes, marker/alpha/neutral-mask checks, native-library cloning contract, English/UTF8 checks and11 workflow fixtures pass within their stated scope. Compile-only resource symbols are disclosed; verification JARs are not runtime packages.

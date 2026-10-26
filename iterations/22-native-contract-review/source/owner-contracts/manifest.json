@@ -1,0 +1,15 @@
+[
+  {
+    "project": "packages/apps/DocumentsUI",
+    "path": "Android.bp",
+    "revision": "7f7e65f7600b181647d52aa869290ad63372d169",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_DocumentsUI/7f7e65f7600b181647d52aa869290ad63372d169/Android.bp",
+    "saved": "source/owner-contracts/DocumentsUI-Android.bp",
+    "bytes": 5677,
+    "gitBlobSha1": "b0a2a11d0156099cf3f8ad2737feb08c07ad35ac",
+    "sha256": "05f99024b5f827196e73109ce17368958c1fbf6714cf81e5c72ae18e57c9f7f3",
+    "reasons": [
+      "Product/module/package declaration"
+    ]
+  }
+]

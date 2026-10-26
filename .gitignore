@@ -49,3 +49,16 @@ iterations/20-semantic-review/baseline/resource-files.json
 iterations/20-semantic-review/source/context-manifest.json
 
 iterations/21-native-workflows/complete-assets.zip
+
+iterations/22-native-contract-review/complete-assets.zip
+iterations/22-native-contract-review/semantic-family-ledger.json
+iterations/22-native-contract-review/semantic-review-delta.json
+iterations/22-native-contract-review/native-contract-review.json
+iterations/22-native-contract-review/dedicated-review-still-required.json
+iterations/22-native-contract-review/resource-declarations.json
+iterations/22-native-contract-review/resource-reference-graph.json
+iterations/22-native-contract-review/resource-scope-corrections.json
+iterations/22-native-contract-review/vector-motion-contracts.json
+iterations/22-native-contract-review/morph-path-values.json
+iterations/22-native-contract-review/preserved-contract-dependency-queue.json
+iterations/22-native-contract-review/source/objects-manifest.json

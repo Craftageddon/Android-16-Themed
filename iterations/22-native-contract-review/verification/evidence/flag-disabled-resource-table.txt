@@ -1,0 +1,16 @@
+Binary APK
+Package name=com.craftageddon.contractreview id=7f
+  type anim id=01 entryCount=2
+    resource 0x7f010000 anim/progress_indeterminate_horizontal_rect1
+      () (file) res/anim/progress_indeterminate_horizontal_rect1.xml type=XML
+    resource 0x7f010001 anim/progress_indeterminate_horizontal_rect2
+      () (file) res/anim/progress_indeterminate_horizontal_rect2.xml type=XML
+  type interpolator id=03 entryCount=4
+    resource 0x7f030000 interpolator/progress_indeterminate_horizontal_rect1_scalex
+      () (file) res/interpolator/progress_indeterminate_horizontal_rect1_scalex.xml type=XML
+    resource 0x7f030001 interpolator/progress_indeterminate_horizontal_rect1_translatex
+      () (file) res/interpolator/progress_indeterminate_horizontal_rect1_translatex.xml type=XML
+    resource 0x7f030002 interpolator/progress_indeterminate_horizontal_rect2_scalex
+      () (file) res/interpolator/progress_indeterminate_horizontal_rect2_scalex.xml type=XML
+    resource 0x7f030003 interpolator/progress_indeterminate_horizontal_rect2_translatex
+      () (file) res/interpolator/progress_indeterminate_horizontal_rect2_translatex.xml type=XML

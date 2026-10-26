@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "sourceFileRecords": 16935,
+  "supportingTimingSourceFiles": 79,
+  "parsedUniqueXmlObjects": 8999,
+  "declarations": 75418,
+  "nativeReferenceUses": 57992,
+  "correctedFileScopes": 8577,
+  "referenceResolution": {
+    "Identity or null/empty contract": 12943,
+    "Exact local declaration set; runtime qualifier/overlay selection preserved": 31635,
+    "Runtime theme attribute": 7079,
+    "External library, generated declaration or unindexed source scope": 6317,
+    "Explicit external package; effective package mapping required": 18
+  },
+  "parameterizedPathUses": 158,
+  "unresolvedParameterizedPathUses": 0,
+  "coreResourceRoot": "core/res/res",
+  "effectiveRuntimeResourceSelection": "NOT EVALUATED",
+  "supersedes": "iterations/20-semantic-review/resource-reference-graph.json.gz",
+  "historicalSourceBytesOrArchiveChanged": false,
+  "scope": "Source declarations and reference candidates only. Resource root from actual resource directory; array aliases and short/private/identity reference grammar retained. Metadata symbols are not treated as value declarations. Qualifiers, overlays and external libraries are not implicitly evaluated."
+}
