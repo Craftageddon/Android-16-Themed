@@ -1,0 +1,896 @@
+[
+  {
+    "module": "AynParts",
+    "sourceManifestPackage": "org.lineageos.settings.ayn",
+    "project": "hardware/ayn",
+    "evidence": {
+      "project": "hardware/ayn",
+      "path": "packages/AynParts/AndroidManifest.xml",
+      "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/AndroidManifest.xml",
+      "saved": "source-evidence/hardware/ayn/packages/AynParts/AndroidManifest.xml",
+      "bytes": 3478,
+      "gitBlobSha1": "96f93e45dd21b9aa71190bd87f9b3f95b8510e64",
+      "sha256": "c9f30ab746d85101105ad6655d3cd5b5f6725b28ecd3b6333567cc00251d118a",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 22,
+      "references": [
+        "@drawable/ic_gamepad",
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}sharedUserId": "android.uid.system",
+        "package": "org.lineageos.settings.ayn"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/controller__compact",
+        "source": "iterations/11-forge-symbol-library/masters/controller__compact.svg",
+        "sha256": "e61e9d1595ab0d7bb84eae6773fe470f642eb61fa3827d3c00b811bc676870b6"
+      },
+      {
+        "assetId": "11/controller__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/controller__detailed.svg",
+        "sha256": "99522c19e9f7fa9269ce2b3d7052c07a43966662370895bad216999ccf69d7db"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Launcher3QuickStep",
+    "sourceManifestPackage": "com.android.launcher3",
+    "project": "packages/apps/Launcher3",
+    "evidence": {
+      "project": "packages/apps/Launcher3",
+      "path": "quickstep/AndroidManifest.xml",
+      "revision": "5f26fe66475643ec08fe71a4021946aa57307192",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Launcher3/5f26fe66475643ec08fe71a4021946aa57307192/quickstep/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Launcher3/quickstep/AndroidManifest.xml",
+      "bytes": 10281,
+      "gitBlobSha1": "e8d372c65f275842115fbccf8c3037c88fe81ae3",
+      "sha256": "77965a02b358d9b80f2cda0263b8ffe4f7950f414ff4e76684a5da2199ed5391",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 62,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "com.android.launcher3"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/app_drawer__compact",
+        "source": "iterations/11-forge-symbol-library/masters/app_drawer__compact.svg",
+        "sha256": "04344d6ae2af5fa0d97761a763a2a2cf3b6f64c4e67e875ba15eb0bdb0d58f60"
+      },
+      {
+        "assetId": "11/app_drawer__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/app_drawer__detailed.svg",
+        "sha256": "103a9e90290100d4e5a427188cb8db64590932355305cbe89041f3ecc449bc80"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "LineageParts",
+    "sourceManifestPackage": "org.lineageos.lineageparts",
+    "project": "packages/apps/LineageParts",
+    "evidence": {
+      "project": "packages/apps/LineageParts",
+      "path": "AndroidManifest.xml",
+      "revision": "fdcb4ba35d92eefbdcca96580fb9e8ac8901ed60",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_LineageParts/fdcb4ba35d92eefbdcca96580fb9e8ac8901ed60/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/LineageParts/AndroidManifest.xml",
+      "bytes": 17236,
+      "gitBlobSha1": "67dd1f9a22bfb1be1f55a850a16856b720d5b717",
+      "sha256": "7b71028a2ccb569ab0065bc8533964610930ab44dc9ac13ff2126d76e84b226c",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 138,
+      "references": [
+        "@drawable/ic_settings_buttons",
+        "@drawable/ic_settings_profiles",
+        "@drawable/ic_settings_statusbar",
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "org.lineageos.lineageparts",
+        "{http://schemas.android.com/apk/res/android}sharedUserId": "android.uid.system",
+        "{http://schemas.android.com/apk/res/android}versionCode": "1",
+        "{http://schemas.android.com/apk/res/android}versionName": "1.0"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/settings__compact",
+        "source": "iterations/11-forge-symbol-library/masters/settings__compact.svg",
+        "sha256": "26b50b212f0b03701ee7396ef52eeecc0d1c7033769ef29ea9bfa2ae242eb060"
+      },
+      {
+        "assetId": "11/settings__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/settings__detailed.svg",
+        "sha256": "d48101e4201616476517a11e99c2895ebf59db7a3dd2b62ba85d20b9abe323ce"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "LineageSetupWizard",
+    "sourceManifestPackage": "org.lineageos.setupwizard",
+    "project": "packages/apps/SetupWizard",
+    "evidence": {
+      "project": "packages/apps/SetupWizard",
+      "path": "app/src/main/AndroidManifest.xml",
+      "revision": "69174527a30bc72a28a5d55acdec8ce5edaba9e0",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_SetupWizard/69174527a30bc72a28a5d55acdec8ce5edaba9e0/app/src/main/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/SetupWizard/app/src/main/AndroidManifest.xml",
+      "bytes": 14655,
+      "gitBlobSha1": "79f47ed915eefa16bbfd480aec96f2f7066852f4",
+      "sha256": "4cc2b5c7cbfcbb4555ae6fc5914e9578e1c77578d1cbea65dd63fb6ba8d17d86",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 115,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "org.lineageos.setupwizard",
+        "{http://schemas.android.com/apk/res/android}versionCode": "5",
+        "{http://schemas.android.com/apk/res/android}sharedUserId": "android.uid.system"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [
+      "android.intent.category.HOME"
+    ],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "14/forge_crest",
+        "source": "iterations/14-forge-atmosphere/masters/forge_crest.svg",
+        "sha256": "c32b76aba22bb333df34305abefbd0e4e532288bfcba3de1bba91a17c1b34348"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Updater",
+    "sourceManifestPackage": "org.lineageos.updater",
+    "project": "packages/apps/Updater",
+    "evidence": {
+      "project": "packages/apps/Updater",
+      "path": "app/src/main/AndroidManifest.xml",
+      "revision": "6d50e0bf1b16fe7bca818375a3e734f4959e2e57",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Updater/app/src/main/AndroidManifest.xml",
+      "bytes": 3202,
+      "gitBlobSha1": "1cfa4d1871f4b4bd968401773d9b6a900a634444",
+      "sha256": "bae2b3ab9111d43425cbcf12f353feb354a52feb057a361f22860a7722e003dc",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 30,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "org.lineageos.updater",
+        "{http://schemas.android.com/apk/res/android}versionCode": "1"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/download__compact",
+        "source": "iterations/11-forge-symbol-library/masters/download__compact.svg",
+        "sha256": "2098ff80953ceb3f040cb4cb8d126c76a4835ba36da7e2386f35670693dfc367"
+      },
+      {
+        "assetId": "11/download__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/download__detailed.svg",
+        "sha256": "d7a8d49dd0e5ee499dfbaf2084b0d1d1dc02af0cd920e5312cee271562cd2ef6"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "LatinIME",
+    "sourceManifestPackage": "com.android.inputmethod.latin",
+    "project": "packages/inputmethods/LatinIME",
+    "evidence": {
+      "project": "packages/inputmethods/LatinIME",
+      "path": "java/AndroidManifest.xml",
+      "revision": "e417ba6faa5dbb66ba70a038a52ddc8f60bb5795",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_inputmethods_LatinIME/e417ba6faa5dbb66ba70a038a52ddc8f60bb5795/java/AndroidManifest.xml",
+      "saved": "source-evidence/packages/inputmethods/LatinIME/java/AndroidManifest.xml",
+      "bytes": 9706,
+      "gitBlobSha1": "992748c76367b2adab975decae6c91df4e8b16de",
+      "sha256": "7d207856081166c89b8f5823e1d78879aa2268579086a06fcbe91752ca402b4e",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 70,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "coreApp": "true",
+        "package": "com.android.inputmethod.latin",
+        "{http://schemas.android.com/apk/res/android}versionCode": "30"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [
+      "android.intent.category.LAUNCHER"
+    ],
+    "iconScope": "Source declares launcher entry; enablement/merged manifest NOT verified",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/keyboard__compact",
+        "source": "iterations/11-forge-symbol-library/masters/keyboard__compact.svg",
+        "sha256": "dca4b4f51ef77be106b60b20d3fd632409ca95d154c19f64ca6605749d5c3a12"
+      },
+      {
+        "assetId": "11/keyboard__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/keyboard__detailed.svg",
+        "sha256": "1b3da89ab9310c70c7a94f695885bcfeb734f657ed0ba3fc9277a84cbe0eb51a"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Jelly",
+    "sourceManifestPackage": "org.lineageos.jelly",
+    "project": "packages/apps/Jelly",
+    "evidence": {
+      "project": "packages/apps/Jelly",
+      "path": "app/src/main/AndroidManifest.xml",
+      "revision": "64a74fbbc667b19d789c955677bf68f9b8b3eb7e",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Jelly/64a74fbbc667b19d789c955677bf68f9b8b3eb7e/app/src/main/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Jelly/app/src/main/AndroidManifest.xml",
+      "bytes": 5078,
+      "gitBlobSha1": "39555d2e27fca0cbc987b4d0a342bbf32e3699c6",
+      "sha256": "d83154253e989be8a7f62d1fd63b92143390a82a5f1a7650b68c01f45672e4d5",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 46,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "org.lineageos.jelly"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [
+      "android.intent.category.LAUNCHER"
+    ],
+    "iconScope": "Source declares launcher entry; enablement/merged manifest NOT verified",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/network__compact",
+        "source": "iterations/11-forge-symbol-library/masters/network__compact.svg",
+        "sha256": "a4c8e10b28fe4d716430e1f2119e9cf1eb5967488e309d37ef32969e0a27d147"
+      },
+      {
+        "assetId": "11/network__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/network__detailed.svg",
+        "sha256": "fe869570717d21e18a4ee52b43223a80563ba4336614d5f5793d3e7df46ef135"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "ExactCalculator",
+    "sourceManifestPackage": "com.android.calculator2",
+    "project": "packages/apps/ExactCalculator",
+    "evidence": {
+      "project": "packages/apps/ExactCalculator",
+      "path": "AndroidManifest.xml",
+      "revision": "933974f9fd722e5c79ee0343a251ad5444ac8a23",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_ExactCalculator/933974f9fd722e5c79ee0343a251ad5444ac8a23/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/ExactCalculator/AndroidManifest.xml",
+      "bytes": 1320,
+      "gitBlobSha1": "3bea456470df17edf3662c056df420234bf5f0c4",
+      "sha256": "9a57ee992d3b0f5c271168b4e70b510d114d085903a20760b0e925f3a2f76c70",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 8,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "com.android.calculator2"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [
+      "android.intent.category.LAUNCHER"
+    ],
+    "iconScope": "Source declares launcher entry; enablement/merged manifest NOT verified",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "12/control-keyboard_letter",
+        "source": "iterations/12-forge-controls-and-screens/masters/control-keyboard_letter.svg",
+        "sha256": "e0f74465c673745697276d6e61da6f4c57637632e37b987d038ac189e527a921"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Etar",
+    "sourceManifestPackage": "org.lineageos.etar",
+    "project": "packages/apps/Etar",
+    "evidence": {
+      "project": "packages/apps/Etar",
+      "path": "app/src/main/AndroidManifest.xml",
+      "revision": "8173ec802ed046d1670ec03962e686e393a85335",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Etar/8173ec802ed046d1670ec03962e686e393a85335/app/src/main/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Etar/app/src/main/AndroidManifest.xml",
+      "bytes": 14563,
+      "gitBlobSha1": "55386dc674c23a61b8a1b364d1ec21a37b4576ac",
+      "sha256": "8d7885261228ca92cadca733c750f5f94b68b0227317f37a3c72268db4b42ad1",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 135,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "org.lineageos.etar",
+        "{http://schemas.android.com/apk/res/android}installLocation": "auto"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [
+      "android.intent.category.LAUNCHER"
+    ],
+    "iconScope": "Source declares launcher entry; enablement/merged manifest NOT verified",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "17/clock__compact",
+        "source": "iterations/17-forge-coverage/masters/clock__compact.svg",
+        "sha256": "4697c06acd382143f80a69473c32f6bd79610bfa8ce934d9d48c3ec22e5993e4"
+      },
+      {
+        "assetId": "17/clock__detailed",
+        "source": "iterations/17-forge-coverage/masters/clock__detailed.svg",
+        "sha256": "ea0d452d94b20e40bcd755f683602ee53479f5175b524d7495bc6d93866e3cf0"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Recorder",
+    "sourceManifestPackage": "org.lineageos.recorder",
+    "project": "packages/apps/Recorder",
+    "evidence": {
+      "project": "packages/apps/Recorder",
+      "path": "app/src/main/AndroidManifest.xml",
+      "revision": "624957ca18496e7b63df3d5e4e040f8c99ca72b7",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Recorder/624957ca18496e7b63df3d5e4e040f8c99ca72b7/app/src/main/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Recorder/app/src/main/AndroidManifest.xml",
+      "bytes": 2725,
+      "gitBlobSha1": "c4895423b580d0c30bb084910951a82e1a8dcce7",
+      "sha256": "9dbbc5f113565415989416fc020d6ab5b5800c2dece4e58905dec5619a696ad7",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 22,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "org.lineageos.recorder"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [
+      "android.intent.category.LAUNCHER"
+    ],
+    "iconScope": "Source declares launcher entry; enablement/merged manifest NOT verified",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/microphone_on__compact",
+        "source": "iterations/11-forge-symbol-library/masters/microphone_on__compact.svg",
+        "sha256": "83f5e39ecf3b6193d02dcfbcc1f699b3e45fe957a61d545fe2784b21cba7f49d"
+      },
+      {
+        "assetId": "11/microphone_on__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/microphone_on__detailed.svg",
+        "sha256": "dc5bf4ecfe0e5cce09db905a0891d97456932df6a3200c476652a14ba558c04b"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Twelve",
+    "sourceManifestPackage": "org.lineageos.twelve",
+    "project": "packages/apps/Twelve",
+    "evidence": {
+      "project": "packages/apps/Twelve",
+      "path": "app/src/main/AndroidManifest.xml",
+      "revision": "fb82f3c55451b128e1e29c611e582cb7699f7e24",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Twelve/fb82f3c55451b128e1e29c611e582cb7699f7e24/app/src/main/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Twelve/app/src/main/AndroidManifest.xml",
+      "bytes": 6104,
+      "gitBlobSha1": "4c7e7c2b26ea08308961d9d796a96b174a9423e9",
+      "sha256": "effecef6c4714722a14e4d3bc1a31d5783b841a293497302bef60272cd0eb75e",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 60,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "org.lineageos.twelve"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [
+      "android.intent.category.LAUNCHER"
+    ],
+    "iconScope": "Source declares launcher entry; enablement/merged manifest NOT verified",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "17/music_note__compact",
+        "source": "iterations/17-forge-coverage/masters/music_note__compact.svg",
+        "sha256": "2f067917b40e80cefbb1296a4f0d42123402a1a2d5260e70afffe5040f0e77da"
+      },
+      {
+        "assetId": "17/music_note__detailed",
+        "source": "iterations/17-forge-coverage/masters/music_note__detailed.svg",
+        "sha256": "c040a9de2bf74c4075a293622bd9288172bbabcc9c731ce4a1e69153471a7008"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Seedvault",
+    "sourceManifestPackage": "com.stevesoltys.seedvault",
+    "project": "packages/apps/Seedvault",
+    "evidence": {
+      "project": "packages/apps/Seedvault",
+      "path": "app/src/main/AndroidManifest.xml",
+      "revision": "f47750d208dc69bdd65744e49ceb287b43aa5c00",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Seedvault/f47750d208dc69bdd65744e49ceb287b43aa5c00/app/src/main/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Seedvault/app/src/main/AndroidManifest.xml",
+      "bytes": 8947,
+      "gitBlobSha1": "564e26cfc67160ceb7bfe763f313c131d9016520",
+      "sha256": "a33c2d0181bc5a726cfb1d84053b69e57907eabb15fa74cfc44f15e6d75e748b",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 49,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "com.stevesoltys.seedvault",
+        "{http://schemas.android.com/apk/res/android}versionCode": "36050090",
+        "{http://schemas.android.com/apk/res/android}versionName": "16-5.9"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/security__compact",
+        "source": "iterations/11-forge-symbol-library/masters/security__compact.svg",
+        "sha256": "662c745bd06a50ad4a5d23b90620b597e4c90be3e9354c648307077b35b1cef9"
+      },
+      {
+        "assetId": "11/security__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/security__detailed.svg",
+        "sha256": "46597aaa0458c9fcc211c858e2d4b9e1f87be7454d98774ef2310f23eb79c90b"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "AudioFX",
+    "sourceManifestPackage": "org.lineageos.audiofx",
+    "project": "packages/apps/AudioFX",
+    "evidence": {
+      "project": "packages/apps/AudioFX",
+      "path": "AndroidManifest.xml",
+      "revision": "2fc3a5405fb9d7330ad787e106af8229c7a72830",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_AudioFX/2fc3a5405fb9d7330ad787e106af8229c7a72830/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/AudioFX/AndroidManifest.xml",
+      "bytes": 4204,
+      "gitBlobSha1": "cb10936b9fc97091376433524d211465ad830302",
+      "sha256": "9891f158d4f38a3c00dd5491b79f1c16d3e4df869704c46687a77224691dc3d4",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 41,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "org.lineageos.audiofx",
+        "{http://schemas.android.com/apk/res/android}versionName": "2.2.0",
+        "{http://schemas.android.com/apk/res/android}versionCode": "20200"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [
+      "android.intent.category.LAUNCHER"
+    ],
+    "iconScope": "Source declares launcher entry; enablement/merged manifest NOT verified",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "16/eq_band",
+        "source": "iterations/16-forge-motion/masters/eq_band.svg",
+        "sha256": "194c1a8f39123d3bccfa07aed727b45ce1c163ad8f6c4269f43657e7807fbe4b"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Camelot",
+    "sourceManifestPackage": "org.lineageos.camelot",
+    "project": "packages/apps/Camelot",
+    "evidence": {
+      "project": "packages/apps/Camelot",
+      "path": "app/src/main/AndroidManifest.xml",
+      "revision": "cdaa5702eea5c725599b650bede715550dbd8a4c",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Camelot/cdaa5702eea5c725599b650bede715550dbd8a4c/app/src/main/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Camelot/app/src/main/AndroidManifest.xml",
+      "bytes": 1179,
+      "gitBlobSha1": "5f18f7a18aab9d588aa2e6496abc07effa9e2ece",
+      "sha256": "9ecfa75a63d91f4f0ba9c48e8c6a34488861faeda9b68afbbd0951d2447544ba",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 10,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "org.lineageos.camelot"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/folder__compact",
+        "source": "iterations/11-forge-symbol-library/masters/folder__compact.svg",
+        "sha256": "d090fb3e48e64b0a0c01285780d1a4fcd3f65c36aa86e89a098770491fa01e2c"
+      },
+      {
+        "assetId": "11/folder__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/folder__detailed.svg",
+        "sha256": "b078743874139ac2185cbd003fa391df56b4db36f8614ea051bcd54ee3ebeb3d"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Profiles",
+    "sourceManifestPackage": "org.lineageos.profiles",
+    "project": "packages/apps/Profiles",
+    "evidence": {
+      "project": "packages/apps/Profiles",
+      "path": "AndroidManifest.xml",
+      "revision": "0abb3a177f1532b6b85621a7250a6431027f02a6",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Profiles/0abb3a177f1532b6b85621a7250a6431027f02a6/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Profiles/AndroidManifest.xml",
+      "bytes": 2482,
+      "gitBlobSha1": "af2c963efbdbc7a1d834ce8ce2020cf4360440c0",
+      "sha256": "82fbe0fd7c0f75904d1270bf480d92632b4c190321df918403d0410f981c8c9b",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 23,
+      "references": [],
+      "xmlAttributes": {
+        "package": "org.lineageos.profiles"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/person__compact",
+        "source": "iterations/11-forge-symbol-library/masters/person__compact.svg",
+        "sha256": "4445d3c44c9202e77b6bfc23701f85b4906e62f65c802dc10c988b111fc5f6ad"
+      },
+      {
+        "assetId": "11/person__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/person__detailed.svg",
+        "sha256": "4bff4d91b29ba2b8fa0c84a22eebdfb5f3ca2a91409a85d4bcf42f62799387a9"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Backgrounds",
+    "sourceManifestPackage": "org.lineageos.backgrounds",
+    "project": "packages/apps/Backgrounds",
+    "evidence": {
+      "project": "packages/apps/Backgrounds",
+      "path": "AndroidManifest.xml",
+      "revision": "b087d2df6601aa25939e654028321bb59857d12e",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Backgrounds/b087d2df6601aa25939e654028321bb59857d12e/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Backgrounds/AndroidManifest.xml",
+      "bytes": 644,
+      "gitBlobSha1": "d477d8fa2c7627a7016d0dbb9c35206541c191df",
+      "sha256": "f2fc2a771217d5c383544ed0bed75eb38e1f536445f5feffb563bc912d6278e5",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 5,
+      "references": [],
+      "xmlAttributes": {
+        "package": "org.lineageos.backgrounds"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "17/photo__compact",
+        "source": "iterations/17-forge-coverage/masters/photo__compact.svg",
+        "sha256": "82e113e156605dff7f3d3852b1bfe1fc9f3b4c39be2250a516b1eff5095d8c45"
+      },
+      {
+        "assetId": "17/photo__detailed",
+        "source": "iterations/17-forge-coverage/masters/photo__detailed.svg",
+        "sha256": "ad469c54283913f3e4567702fa357bf030ce3b5244d2f9a4096848a54e318cc5"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "Canvas",
+    "sourceManifestPackage": "org.lineageos.canvas",
+    "project": "packages/apps/Canvas",
+    "evidence": {
+      "project": "packages/apps/Canvas",
+      "path": "app/src/main/AndroidManifest.xml",
+      "revision": "52265a4619e4b0f867903a5c117ec6c01aefc686",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Canvas/52265a4619e4b0f867903a5c117ec6c01aefc686/app/src/main/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/Canvas/app/src/main/AndroidManifest.xml",
+      "bytes": 1485,
+      "gitBlobSha1": "6cd90751fa53fb0fde04ef6dd53aedba814cde93",
+      "sha256": "1c57bb3d66caf6427b993e6827f9067b7698eda5e13a5c22460e55d2b524187f",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 11,
+      "references": [
+        "@mipmap/ic_launcher",
+        "@mipmap/ic_launcher_round"
+      ],
+      "xmlAttributes": {
+        "package": "org.lineageos.canvas"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "17/photo__compact",
+        "source": "iterations/17-forge-coverage/masters/photo__compact.svg",
+        "sha256": "82e113e156605dff7f3d3852b1bfe1fc9f3b4c39be2250a516b1eff5095d8c45"
+      },
+      {
+        "assetId": "17/photo__detailed",
+        "source": "iterations/17-forge-coverage/masters/photo__detailed.svg",
+        "sha256": "ad469c54283913f3e4567702fa357bf030ce3b5244d2f9a4096848a54e318cc5"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "ThemePicker",
+    "sourceManifestPackage": "com.google.android.apps.wallpaper",
+    "project": "packages/apps/ThemePicker",
+    "evidence": {
+      "project": "packages/apps/ThemePicker",
+      "path": "AndroidManifest.xml",
+      "revision": "32f081ec5dac9ec86fb0c0bbc372e91176708660",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_ThemePicker/32f081ec5dac9ec86fb0c0bbc372e91176708660/AndroidManifest.xml",
+      "saved": "source-evidence/packages/apps/ThemePicker/AndroidManifest.xml",
+      "bytes": 5598,
+      "gitBlobSha1": "35b3faffe45e2c5e9ae27f090f033a9d27950e61",
+      "sha256": "9854e51dd36b93af5a94bca9a578aa08c1289a2a353b2a65eccb99bc4aa2ed09",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 45,
+      "references": [
+        "@mipmap/ic_launcher"
+      ],
+      "xmlAttributes": {
+        "package": "com.google.android.apps.wallpaper"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [
+      "android.intent.category.HOME"
+    ],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/settings__compact",
+        "source": "iterations/11-forge-symbol-library/masters/settings__compact.svg",
+        "sha256": "26b50b212f0b03701ee7396ef52eeecc0d1c7033769ef29ea9bfa2ae242eb060"
+      },
+      {
+        "assetId": "11/settings__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/settings__detailed.svg",
+        "sha256": "d48101e4201616476517a11e99c2895ebf59db7a3dd2b62ba85d20b9abe323ce"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "AvatarPicker",
+    "sourceManifestPackage": "com.android.avatarpicker",
+    "project": "packages/apps/AvatarPicker",
+    "evidence": {
+      "project": "packages/apps/AvatarPicker",
+      "path": "AndroidManifest.xml",
+      "revision": "55ea46b9c63f0b9ab96a0b3550d5ca8a97520487",
+      "url": "https://android.googlesource.com/platform/packages/apps/AvatarPicker/+/55ea46b9c63f0b9ab96a0b3550d5ca8a97520487/AndroidManifest.xml?format=TEXT",
+      "saved": "source-evidence/packages/apps/AvatarPicker/AndroidManifest.xml",
+      "bytes": 2648,
+      "gitBlobSha1": "ea1c1d9b31124ab96e7a8d34a4a087bbb288a444",
+      "sha256": "9dabf9ab1d1b866c32aa08d4b15ce3b971bbf4f8878b834f3bf5b20d9d32c4ef",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 13,
+      "references": [],
+      "xmlAttributes": {
+        "package": "com.android.avatarpicker"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/person__compact",
+        "source": "iterations/11-forge-symbol-library/masters/person__compact.svg",
+        "sha256": "4445d3c44c9202e77b6bfc23701f85b4906e62f65c802dc10c988b111fc5f6ad"
+      },
+      {
+        "assetId": "11/person__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/person__detailed.svg",
+        "sha256": "4bff4d91b29ba2b8fa0c84a22eebdfb5f3ca2a91409a85d4bcf42f62799387a9"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  },
+  {
+    "module": "QuickAccessWallet",
+    "sourceManifestPackage": "com.android.systemui.plugin.globalactions.wallet",
+    "project": "packages/apps/QuickAccessWallet",
+    "evidence": {
+      "project": "packages/apps/QuickAccessWallet",
+      "path": "AndroidManifest.xml",
+      "revision": "328a2433f9619ec63b1921e874ec34d86be74e24",
+      "url": "https://android.googlesource.com/platform/packages/apps/QuickAccessWallet/+/328a2433f9619ec63b1921e874ec34d86be74e24/AndroidManifest.xml?format=TEXT",
+      "saved": "source-evidence/packages/apps/QuickAccessWallet/AndroidManifest.xml",
+      "bytes": 933,
+      "gitBlobSha1": "0468ee54fb59f58f4ff29bbef203266e25457a81",
+      "sha256": "f7a430e0b1ac784420d9606c1c083ae34acceb7a1d373499c1ff5649792126fd",
+      "reasons": [
+        "Product/module/package declaration"
+      ],
+      "xmlRoot": "manifest",
+      "xmlNodes": 3,
+      "references": [],
+      "xmlAttributes": {
+        "package": "com.android.systemui.plugin.globalactions.wallet"
+      }
+    },
+    "disposition": "Exact app/component icon binding absent; existing housing/geometry may be reused",
+    "declaredLauncherCategories": [],
+    "iconScope": "Component/home role; not automatically a new launcher icon",
+    "existingTarget": null,
+    "donors": [
+      {
+        "assetId": "11/security__compact",
+        "source": "iterations/11-forge-symbol-library/masters/security__compact.svg",
+        "sha256": "662c745bd06a50ad4a5d23b90620b597e4c90be3e9354c648307077b35b1cef9"
+      },
+      {
+        "assetId": "11/security__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/security__detailed.svg",
+        "sha256": "46597aaa0458c9fcc211c858e2d4b9e1f87be7454d98774ef2310f23eb79c90b"
+      }
+    ],
+    "presence": "Product/module source candidate; not verified installed; conditions and non-launcher components may apply",
+    "packageLimit": "Source platform manifest package only; Gradle/dev variants may differ. Effective compiled package not verified."
+  }
+]

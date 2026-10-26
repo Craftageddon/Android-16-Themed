@@ -1,3 +1,5 @@
+[Latest source audit: concrete visual gaps and remaining coverage](iterations/19-os-resource-audit/VISUAL_GAPS.md) — 16 semantic symbol gaps, 20 source app/component targets and 7 adaptation groups. The authored catalog is not yet a complete built-ROM resource map.
+
 # Current Forge visual and native checkpoints
 
 - [All current visual masters and compositions](iterations/17-forge-coverage/README.md): 472 production master files, 189 editable compositions, 36 contact sheets, plus explicit retained-source decisions. [Browse the contact-sheet index](iterations/17-forge-coverage/current-library/index.html) after downloading/cloning.

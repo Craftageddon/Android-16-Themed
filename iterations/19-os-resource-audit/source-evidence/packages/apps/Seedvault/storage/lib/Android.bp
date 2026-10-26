@@ -1,0 +1,50 @@
+//
+// SPDX-FileCopyrightText: 2021 The Calyx Institute
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_library {
+    name: "seedvault-lib-storage",
+    sdk_version: "current",
+    srcs: [
+        "src/main/java/**/*.kt",
+        "src/main/java/**/*.java",
+        "src/main/proto/*.proto",
+    ],
+    resource_dirs: [
+        "src/main/res",
+    ],
+    proto: {
+        type: "lite",
+        local_include_dirs: ["src/main/proto"],
+    },
+    static_libs: [
+        "seedvault-lib-core",
+        "libprotobuf-java-lite",
+        "androidx.core_core-ktx",
+        "androidx.fragment_fragment-ktx",
+        "androidx.activity_activity-ktx",
+        "androidx.documentfile_documentfile",
+        "androidx.lifecycle_lifecycle-viewmodel-ktx",
+        "androidx.room_room-runtime",
+        "androidx-constraintlayout_constraintlayout",
+        "androidx.work_work-runtime-ktx",
+        "com.google.android.material_material",
+        "kotlinx-coroutines-android",
+        "kotlinx-coroutines-core",
+        "okio-lib",
+    ],
+    plugins: [
+        "androidx.room_room-compiler-plugin",
+    ],
+    manifest: "src/main/AndroidManifest.xml",
+    optimize: {
+        enabled: false,
+    },
+    javacflags: [
+        "-Aroom.schemaLocation=packages/apps/Seedvault/storage/lib/schemas",
+    ],
+    kotlincflags: [
+        "-opt-in=kotlin.RequiresOptIn",
+    ],
+}

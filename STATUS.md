@@ -1,3 +1,9 @@
+# Source resource audit - 2026-10-26
+
+[Iteration 19](iterations/19-os-resource-audit/VISUAL_GAPS.md) compares the authored catalog with exact official Thor build sources. It confirms **16 additional symbol-family gaps**, **20 source app/component binding targets** and **7 owner-specific adaptation groups**. The audit covers 31 projects and five complete framework sections; 554 selected source files have verified content hashes. The 7,048 unassigned source families require semantic/reachability review and are not asserted to be missing drawings.
+
+The previous 472-master handoff describes the authored collection. It does not establish complete Android/Thor resource coverage. The audit preserves every existing master unchanged and adds a source-backed next-work list. Actual installed apps, native/device visual acceptance and full ROM integration remain pending.
+
 # Native integration started - 2026-10-23
 
 The current authored visual handoff is saved in iteration17 (472 masters, 189 editable compositions, 36 sheets). [Iteration18](iterations/18-native-runtime/README.md) now implements real Android steel controls and a protected Quick Settings tile service, with native English labels, actual battery readout and read-only display/controller inspection. The API37 APK is signed with a stable project application identity; 64 state combinations, 7 desktop-style comparisons and a fresh rebuild of all119 executable/resource members pass. No Android runtime or physical V3 acceptance is claimed.

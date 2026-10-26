@@ -1,0 +1,36 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+android_app {
+    name: "ExactCalculator",
+
+    resource_dirs: ["res"],
+
+    sdk_version: "35",
+
+    overrides: ["Calculator"],
+
+    srcs: ["src/**/*.java"],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+
+    product_specific: true,
+
+    static_libs: [
+        // DO NOT EDIT THIS SECTION MANUALLY
+        "androidx.graphics_graphics-shapes",
+        "androidx.gridlayout_gridlayout",
+        "androidx.webkit_webkit",
+        "com.google.android.material_material",
+        "ExactCalculator_com.hp_crcalc",
+        "kotlin-stdlib",
+    ],
+}

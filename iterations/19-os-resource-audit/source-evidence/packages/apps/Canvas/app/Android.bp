@@ -1,0 +1,76 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+android_app {
+    name: "Canvas",
+
+    srcs: ["src/main/java/**/*.kt"],
+    resource_dirs: ["src/main/res"],
+    manifest: "src/main/AndroidManifest.xml",
+
+    sdk_version: "37",
+    product_specific: true,
+
+    aaptflags: [
+        // DO NOT EDIT THIS SECTION MANUALLY
+        "--version-name",
+        "1.0",
+        "--version-code",
+        "1",
+    ],
+
+    use_embedded_native_libs: true,
+
+    static_libs: [
+        // DO NOT EDIT THIS SECTION MANUALLY
+        "androidx.activity_activity-compose",
+        "androidx.compose.animation_animation",
+        "androidx.compose.animation_animation-core",
+        "androidx.compose.foundation_foundation",
+        "androidx.compose.foundation_foundation-layout",
+        "androidx.compose.material_material-icons-core",
+        "androidx.compose.material_material-icons-extended",
+        "androidx.compose.material_material-ripple",
+        "androidx.compose.material3_material3",
+        "androidx.compose.runtime_runtime",
+        "androidx.compose.runtime_runtime-annotation",
+        "androidx.compose.runtime_runtime-retain",
+        "androidx.compose.runtime_runtime-saveable",
+        "androidx.compose.ui_ui",
+        "androidx.compose.ui_ui-geometry",
+        "androidx.compose.ui_ui-graphics",
+        "androidx.compose.ui_ui-text",
+        "androidx.compose.ui_ui-tooling-preview",
+        "androidx.compose.ui_ui-unit",
+        "androidx.compose.ui_ui-util",
+        "androidx.core_core-ktx",
+        "androidx.exifinterface_exifinterface",
+        "androidx.graphics_graphics-shapes",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.lifecycle_lifecycle-runtime-compose",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "androidx.lifecycle_lifecycle-viewmodel-compose",
+        "androidx.lifecycle_lifecycle-viewmodel-savedstate",
+        "androidx.navigation3_navigation3-runtime",
+        "androidx.navigation3_navigation3-ui",
+        "androidx.navigationevent_navigationevent",
+        "androidx.navigationevent_navigationevent-compose",
+        "androidx.savedstate_savedstate",
+        "androidx.savedstate_savedstate-compose",
+        "androidx.window_window-core",
+        "kotlin-stdlib",
+    ],
+
+    optimize: {
+        optimize: true,
+        proguard_flags_files: ["proguard-rules.pro"],
+        shrink_resources: true,
+    },
+}

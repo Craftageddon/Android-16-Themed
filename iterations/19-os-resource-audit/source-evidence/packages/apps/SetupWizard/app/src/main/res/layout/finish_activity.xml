@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2016 The CyanogenMod Project
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<android.widget.FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <org.lineageos.setupwizard.widget.RevealHoleView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        style="@style/SudContentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/brand_logo"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:padding="@dimen/content_margin_left"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/swipe_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/swipe_hint_padding_bottom">
+
+            <ImageView
+                android:id="@+id/swipe_hint_icon"
+                android:layout_width="@dimen/swipe_hint_icon_size"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_swipe_up" />
+
+            <TextView
+                android:id="@+id/swipe_hint_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/swipe_hint_text_margin_top"
+                android:text="@string/swipe_up_to_go_home"
+                android:textAppearance="?attr/textAppearanceBodyMedium"
+                android:textSize="@dimen/swipe_hint_text_size" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.widget.FrameLayout>
