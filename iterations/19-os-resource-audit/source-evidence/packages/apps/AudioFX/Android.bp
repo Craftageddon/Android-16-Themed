@@ -1,0 +1,32 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "AudioFX",
+
+    srcs: ["src/**/*.java"],
+
+    resource_dirs: ["res"],
+
+    static_libs: [
+        "androidx.core_core",
+        "androidx.localbroadcastmanager_localbroadcastmanager",
+        "androidx.viewpager_viewpager",
+        "com.google.android.material_material"
+    ],
+
+    platform_apis: true,
+    privileged: true,
+    privapp_allowlist: "org.lineageos.audiofx.xml",
+    certificate: "platform",
+    system_ext_specific: true,
+
+    overrides: ["MusicFX"],
+
+    optimize: {
+        optimize: true,
+        shrink_resources: true,
+    },
+}

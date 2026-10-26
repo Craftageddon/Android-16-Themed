@@ -22,3 +22,9 @@ iterations/16-forge-motion/desktop-frames/
 iterations/17-forge-coverage/complete-assets.zip
 
 iterations/18-native-runtime/complete-assets.zip
+
+iterations/19-os-resource-audit/complete-assets.zip
+iterations/19-os-resource-audit/resource-files.json
+iterations/19-os-resource-audit/resource-files.csv
+iterations/19-os-resource-audit/resource-family-dispositions.json
+iterations/19-os-resource-audit/resource-family-dispositions.csv

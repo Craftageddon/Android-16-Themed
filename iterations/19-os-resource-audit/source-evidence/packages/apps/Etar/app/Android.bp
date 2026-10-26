@@ -1,0 +1,95 @@
+android_app {
+    name: "Etar",
+    overrides: ["Calendar"],
+
+    asset_dirs: ["src/main/assets"],
+
+    resource_dirs: [
+        "src/main/res",
+        "src_aosp/main/res",
+    ],
+
+    srcs: [
+        "src/main/java/**/*.kt",
+        "src/main/java/**/*.java",
+        "src_aosp/main/java/**/*.java",
+        "src_aosp/main/java/**/*.kt",
+    ],
+
+    manifest: "src/main/AndroidManifest.xml",
+
+    product_specific: true,
+
+    static_libs: [
+        // DO NOT EDIT THIS SECTION MANUALLY
+        "androidx.appcompat_appcompat",
+        "androidx.concurrent_concurrent-futures",
+        "androidx-constraintlayout_constraintlayout",
+        "androidx.core_core-ktx",
+        "Etar-Calendar_androidx.databinding_viewbinding",
+        "androidx.graphics_graphics-shapes",
+        "androidx.lifecycle_lifecycle-livedata-ktx",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "androidx.lifecycle_lifecycle-viewmodel-savedstate",
+        "androidx.preference_preference",
+        "androidx.room_room-runtime",
+        "androidx.savedstate_savedstate",
+        "androidx.sqlite_sqlite",
+        "androidx.sqlite_sqlite-framework",
+        "androidx.work_work-runtime",
+        "com.google.android.material_material",
+        "Etar-Calendar_org.dmfs_lib-recur",
+        "kotlin-stdlib",
+        "kotlinx-coroutines-android",
+    ],
+
+    optimize: {
+        proguard_flags_files: ["proguard-rules.pro"],
+    },
+
+    sdk_version: "37",
+
+    aaptflags: [
+        // DO NOT EDIT THIS SECTION MANUALLY
+        "--version-name",
+        "1.0.57",
+        "--version-code",
+        "57",
+    ] + [
+        "--custom-package",
+        "ws.xsoh.etar",
+    ],
+
+    kotlincflags: ["-Xjvm-default=all"],
+
+    required: [
+        "org.lineageos.etar.allowlist",
+        "initial-package-stopped-states-org.lineageos.etar",
+        "preinstalled-packages-org.lineageos.etar",
+    ],
+}
+
+prebuilt_etc {
+    name: "org.lineageos.etar.allowlist",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "org.lineageos.etar.allowlist.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "initial-package-stopped-states-org.lineageos.etar",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "initial-package-stopped-states-org.lineageos.etar.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-org.lineageos.etar",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-org.lineageos.etar.xml",
+    filename_from_src: true,
+}

@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "79a9efbf60a1f253ee0c555787119d4226e05a39e418163f79c18f7816c35b05"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-26T11:55:39+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "9687184bf7d5b1acb581cb8f96c6e66e7bede40d6ea04396d60f5da72f8f3a0e",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-26T11:55:39+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "0cbf81f17cc11d772ebd4bb49b0692c2634f5c6d7798103e7bf1dd32f71a0732",
+      "independence": null,
+      "method": "Independent raw source Git blob/SHA256 verification, complete tree proof checks, XML parsing, exact CSV/JSON/file/family conservation, source-to-catalog/manifest/donor checks, unchanged472-art-master hashes and rendered upstream reference-sheet review.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-26T11:55:39+00:00",
+  "project": "19-os-resource-audit",
+  "schema": 1,
+  "status": "V2_PASS"
+}

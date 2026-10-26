@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-26",
+  "baseline": "Official2026-10-19 LineageOS24 odin2thor source manifest; intentionally pinned, not latest-build assertion",
+  "sourceProjects": 31,
+  "frameworkSections": 5,
+  "visualSourceFiles": 16559,
+  "resourceFamilies": 10926,
+  "productionCandidateFiles": 16426,
+  "testOrSampleFiles": 133,
+  "hashVerifiedEvidenceFiles": 554,
+  "additionalAppSourceTargets": 20,
+  "familyDispositionCounts": {
+    "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork": 7048,
+    "Name-based reuse candidate; exact geometry/state/owner binding NOT verified": 210,
+    "Native layout/token adaptation; new illustration requirement unreviewed": 3164,
+    "Test/sample source; excluded from production gap count": 125,
+    "Native state/motion adaptation; no automatic new drawing claim": 363,
+    "Reviewed semantic artwork gap": 16
+  },
+  "allOsAssetsClaim": "NOT ESTABLISHED. Complete inventory for listed sections/projects; filename candidates and unassigned families are not visual approval. Not a complete built-ROM resource/overlay reachability audit.",
+  "installedAppInventory": "NOT RUN - device deferred by user",
+  "modifiedOsOrDevice": false,
+  "workflowAdaptationGroups": 7,
+  "declaredLauncherEntryCandidates": 7,
+  "confirmedSemanticCoverageGaps": 16
+}

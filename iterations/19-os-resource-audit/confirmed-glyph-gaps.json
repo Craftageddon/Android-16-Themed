@@ -1,0 +1,730 @@
+[
+  {
+    "id": "G-01",
+    "family": "extra_dim",
+    "label": "Extra dim",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/vd_dim.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/vd_dim.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/vd_dim.xml",
+      "bytes": 1846,
+      "gitBlobSha1": "c649fd0a22b5a139bd7438d75b2bd881812a8541",
+      "sha256": "1421cd4d167779bcff65ad3f0c8fae49702fd47f5e05396a21ee6d490d25583a",
+      "reasons": [
+        "Extra dim"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 4,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}name": "root_vector",
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "17/brightness_low__compact",
+        "source": "iterations/17-forge-coverage/masters/brightness_low__compact.svg",
+        "sha256": "d1e3ce15ede09f61de8399b23c5aa73989cd6e905acad2af41bd66110e7f9ba6"
+      },
+      {
+        "assetId": "17/brightness_low__detailed",
+        "source": "iterations/17-forge-coverage/masters/brightness_low__detailed.svg",
+        "sha256": "c435ee14f050f4f1ecac93714df18f625a2670abcfa938a60aff4fd331d56122"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-02",
+    "family": "night_light",
+    "label": "Night light",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/vd_night_light.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/vd_night_light.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/vd_night_light.xml",
+      "bytes": 2475,
+      "gitBlobSha1": "b9c77a449af9788be191cb84d18b273cf519636b",
+      "sha256": "590f132480e539c91eb1a8cd29622ba57b16e26eb7207afc246ac0e399de5847",
+      "reasons": [
+        "Night light"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 4,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}name": "root_vector",
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "17/brightness_low__compact",
+        "source": "iterations/17-forge-coverage/masters/brightness_low__compact.svg",
+        "sha256": "d1e3ce15ede09f61de8399b23c5aa73989cd6e905acad2af41bd66110e7f9ba6"
+      },
+      {
+        "assetId": "17/brightness_low__detailed",
+        "source": "iterations/17-forge-coverage/masters/brightness_low__detailed.svg",
+        "sha256": "c435ee14f050f4f1ecac93714df18f625a2670abcfa938a60aff4fd331d56122"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-03",
+    "family": "dark_theme",
+    "label": "Dark theme",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/vd_theme.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/vd_theme.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/vd_theme.xml",
+      "bytes": 2088,
+      "gitBlobSha1": "068e9f6ad0c5c733910d695d3c459a0f1bdda17b",
+      "sha256": "514dc2d3b0ee512ecbcc571600548b73062b73a85b57f4bb0fd6dd4e7b881211",
+      "reasons": [
+        "Dark theme"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 7,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}name": "root_vector",
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/display__compact",
+        "source": "iterations/11-forge-symbol-library/masters/display__compact.svg",
+        "sha256": "9079a21117075f93132e203d8a5ca020eb718721e27e29f2299e70e3bb136359"
+      },
+      {
+        "assetId": "11/display__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/display__detailed.svg",
+        "sha256": "f05d34a59cc36eb965feac470b22e5e26758c692cba932f187f8a8d40068b1c7"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-04",
+    "family": "color_inversion",
+    "label": "Color inversion",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_invert_colors.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_invert_colors.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_invert_colors.xml",
+      "bytes": 1220,
+      "gitBlobSha1": "37ea0800a51e61bbb119bb9ce201d0af53a12668",
+      "sha256": "a05ba82c5b3aa63e8d272cb295fccb64d013fe441ddb58393ac4cac4f6ef15aa",
+      "reasons": [
+        "Color inversion"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24.0",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24.0"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/accessibility__compact",
+        "source": "iterations/11-forge-symbol-library/masters/accessibility__compact.svg",
+        "sha256": "abd46eaf806787cb20f616be08d98d1ab4c1bb87df74d82897131e7fc32fe531"
+      },
+      {
+        "assetId": "11/accessibility__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/accessibility__detailed.svg",
+        "sha256": "84ae717e7f9ef000fbc966d0264487d4bbd566dcf95bc669ff18cecae1cedf12"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-05",
+    "family": "color_correction",
+    "label": "Color correction",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_qs_color_correction.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_qs_color_correction.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_qs_color_correction.xml",
+      "bytes": 1138,
+      "gitBlobSha1": "f83cabd7df05386de20c556a8a861c234ebf8069",
+      "sha256": "41cace1c2374fe92e11740f6407dec3b593e63f1a01fa20fcc4b62c59c3a4c12",
+      "reasons": [
+        "Color correction"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/accessibility__compact",
+        "source": "iterations/11-forge-symbol-library/masters/accessibility__compact.svg",
+        "sha256": "abd46eaf806787cb20f616be08d98d1ab4c1bb87df74d82897131e7fc32fe531"
+      },
+      {
+        "assetId": "11/accessibility__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/accessibility__detailed.svg",
+        "sha256": "84ae717e7f9ef000fbc966d0264487d4bbd566dcf95bc669ff18cecae1cedf12"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-06",
+    "family": "live_captions",
+    "label": "Live captions - enabled and disabled",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_volume_odi_captions.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_volume_odi_captions.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_volume_odi_captions.xml",
+      "bytes": 1130,
+      "gitBlobSha1": "5bc5002ebdb961abbb5cb49a1742c9f41e18b1bd",
+      "sha256": "73419ef0064c822701e209da04de9ddb5eab0f4726995c94cf2b7c6947fc3c5e",
+      "reasons": [
+        "Live captions"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [
+        "@color/materialColorOnSurface"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24",
+        "{http://schemas.android.com/apk/res/android}tint": "@color/materialColorOnSurface"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/audio__compact",
+        "source": "iterations/11-forge-symbol-library/masters/audio__compact.svg",
+        "sha256": "3a2904f15636e64b5d2bc64b8d20317e5db1b9b72b86328062e6e714a824c6b8"
+      },
+      {
+        "assetId": "11/audio__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/audio__detailed.svg",
+        "sha256": "d16aecb7d596c8c67025aa492fbee6197c1b267dd8c2818f72b8524ede9d312e"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-07",
+    "family": "hearing_devices",
+    "label": "Hearing devices",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/qs_hearing_devices_icon.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/qs_hearing_devices_icon.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/qs_hearing_devices_icon.xml",
+      "bytes": 1520,
+      "gitBlobSha1": "c1573a3ae5ac2c3110837915a67a6d7f35ad35cd",
+      "sha256": "5feb4612a2f258199d3220975dee6fa7877ed3ff268a4807a3cf467581a89560",
+      "reasons": [
+        "Hearing devices"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "18dp",
+        "{http://schemas.android.com/apk/res/android}height": "18dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/headphones__compact",
+        "source": "iterations/11-forge-symbol-library/masters/headphones__compact.svg",
+        "sha256": "d5651709b67b70f5174c466d2e7f09bdb1d95bc879929fb707b22208e052caad"
+      },
+      {
+        "assetId": "11/headphones__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/headphones__detailed.svg",
+        "sha256": "abe42051c4098602f7f8f22524d3bbcb919a60ffd0b61534832219293ded5adc"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-08",
+    "family": "qr_scanner",
+    "label": "QR code scanner",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_qr_code_scanner.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_qr_code_scanner.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_qr_code_scanner.xml",
+      "bytes": 2852,
+      "gitBlobSha1": "31fd2095eccc5f4c99391c4aa42736b2a76f91ae",
+      "sha256": "675ac53d6a844600e3e785c5e1a137745835ecba7b2974d32dc33abd251f5be2",
+      "reasons": [
+        "QR scanner"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [
+        "@android:color/white"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "960",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "960",
+        "{http://schemas.android.com/apk/res/android}tint": "?attr/colorControlNormal"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/camera_on__compact",
+        "source": "iterations/11-forge-symbol-library/masters/camera_on__compact.svg",
+        "sha256": "f2f1ace4d4fec93825675734f926561cadb2309e295e45ea3fca2851ae2b7dd5"
+      },
+      {
+        "assetId": "11/camera_on__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/camera_on__detailed.svg",
+        "sha256": "6861ef7e5759a005e0406a2d51e162c7729300fb290bbc2b82d8a883b2c70868"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-09",
+    "family": "ethernet",
+    "label": "Ethernet",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_statusbar_ethernet.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_statusbar_ethernet.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_statusbar_ethernet.xml",
+      "bytes": 1447,
+      "gitBlobSha1": "46e753fd7eb84167470f95c21e7379d02937ea09",
+      "sha256": "03e2f241b29b7d2c049ad1b63df287a4fe314744f468782cd4a378d9914fbc68",
+      "reasons": [
+        "Ethernet"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 5,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24.0",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24.0",
+        "{http://schemas.android.com/apk/res/android}tint": "?android:attr/colorControlNormal"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/network__compact",
+        "source": "iterations/11-forge-symbol-library/masters/network__compact.svg",
+        "sha256": "a4c8e10b28fe4d716430e1f2119e9cf1eb5967488e309d37ef32969e0a27d147"
+      },
+      {
+        "assetId": "11/network__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/network__detailed.svg",
+        "sha256": "fe869570717d21e18a4ee52b43223a80563ba4336614d5f5793d3e7df46ef135"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-10",
+    "family": "work_profile",
+    "label": "Work profile - enabled and paused",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_statusbar_work.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_statusbar_work.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_statusbar_work.xml",
+      "bytes": 1242,
+      "gitBlobSha1": "ea8918b1ca1289b4e9a722a6fef596f9d5eb83f0",
+      "sha256": "56db1bb1fbe293aae0f2040ae4d13bece2268f81514f57288a00d2e2d51931f4",
+      "reasons": [
+        "Work profile"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24.0",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24.0",
+        "{http://schemas.android.com/apk/res/android}tint": "?android:attr/colorControlNormal"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/person__compact",
+        "source": "iterations/11-forge-symbol-library/masters/person__compact.svg",
+        "sha256": "4445d3c44c9202e77b6bfc23701f85b4906e62f65c802dc10c988b111fc5f6ad"
+      },
+      {
+        "assetId": "11/person__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/person__detailed.svg",
+        "sha256": "4bff4d91b29ba2b8fa0c84a22eebdfb5f3ca2a91409a85d4bcf42f62799387a9"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-11",
+    "family": "sensors_disabled",
+    "label": "Sensors disabled",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/stat_sys_sensors_off.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/stat_sys_sensors_off.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/stat_sys_sensors_off.xml",
+      "bytes": 1551,
+      "gitBlobSha1": "ca8f9931f14810e5918ed2e5feaae30b9682cf4a",
+      "sha256": "0576e7b85eecef4f7053d06b017c216e67ea2ac6d807ecc1fb9803c72ce3dcdf",
+      "reasons": [
+        "Sensors disabled"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 3,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}insetLeft": "3dp",
+        "{http://schemas.android.com/apk/res/android}insetRight": "3dp",
+        "{http://schemas.android.com/apk/res/android}width": "17dp",
+        "{http://schemas.android.com/apk/res/android}height": "17dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24.0",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24.0"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/privacy__compact",
+        "source": "iterations/11-forge-symbol-library/masters/privacy__compact.svg",
+        "sha256": "2783800e3056ac7995b570bf9bcfb10c9380cf19d53781ee6bd5ea0daa1875c2"
+      },
+      {
+        "assetId": "11/privacy__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/privacy__detailed.svg",
+        "sha256": "2d892dcaf5919bfa2e0d856910378d6678695b8f9350960a7c0622c8ebf355e3"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-12",
+    "family": "wallet",
+    "label": "Wallet",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_qs_wallet.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_qs_wallet.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_qs_wallet.xml",
+      "bytes": 474,
+      "gitBlobSha1": "e146eabecfd37956022c4285166be0ed4a08462e",
+      "sha256": "2d916b653fc2488c89bef9a57bae3ba2908a8e5940ec559facdc62e7b76ee233",
+      "reasons": [
+        "Wallet"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [
+        "@android:color/white"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24",
+        "{http://schemas.android.com/apk/res/android}tint": "?attr/colorControlNormal"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/security__compact",
+        "source": "iterations/11-forge-symbol-library/masters/security__compact.svg",
+        "sha256": "662c745bd06a50ad4a5d23b90620b597e4c90be3e9354c648307077b35b1cef9"
+      },
+      {
+        "assetId": "11/security__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/security__detailed.svg",
+        "sha256": "46597aaa0458c9fcc211c858e2d4b9e1f87be7454d98774ef2310f23eb79c90b"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-13",
+    "family": "keyboard_backlight",
+    "label": "Keyboard backlight",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_keyboard_backlight.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_keyboard_backlight.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_keyboard_backlight.xml",
+      "bytes": 1066,
+      "gitBlobSha1": "cff2839e6f8882ed33c00953d022fb5f59497734",
+      "sha256": "10a7efd106aa2ed4278b03c0620664b9a05c747004a6d5fafbb89b6d51932b18",
+      "reasons": [
+        "Keyboard backlight"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 9,
+      "references": [
+        "@android:color/white"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}height": "11dp",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "12",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "22",
+        "{http://schemas.android.com/apk/res/android}width": "20.166666dp"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/keyboard__compact",
+        "source": "iterations/11-forge-symbol-library/masters/keyboard__compact.svg",
+        "sha256": "dca4b4f51ef77be106b60b20d3fd632409ca95d154c19f64ca6605749d5c3a12"
+      },
+      {
+        "assetId": "11/keyboard__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/keyboard__detailed.svg",
+        "sha256": "1b3da89ab9310c70c7a94f695885bcfeb734f657ed0ba3fc9277a84cbe0eb51a"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-14",
+    "family": "printing",
+    "label": "Printing",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "frameworks/base",
+      "path": "core/res/res/drawable/ic_print.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/core/res/res/drawable/ic_print.xml",
+      "saved": "source-evidence/frameworks/base/core/res/res/drawable/ic_print.xml",
+      "bytes": 1121,
+      "gitBlobSha1": "7aa251300448db4e153067dab240153ba8758850",
+      "sha256": "4d3ef77774c5baacbd4d9271fec10d89cd3c8db1cbaef3310f37444ca9dc2350",
+      "reasons": [
+        "Printing"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24.0",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24.0"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/document__compact",
+        "source": "iterations/11-forge-symbol-library/masters/document__compact.svg",
+        "sha256": "953720239cfb2a0dbd8f805648577a731aa00f137489ffa04b4300de6af9fe7b"
+      },
+      {
+        "assetId": "11/document__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/document__detailed.svg",
+        "sha256": "72c02115c7d6134210f8e1bb3d984aedbf412a51b7e7ab227f64163aa42d339f"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-15",
+    "family": "stylus",
+    "label": "Stylus",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "packages/apps/Settings",
+      "path": "res/drawable/ic_stylus.xml",
+      "revision": "b9b9d68135714d9a84741620e9386e1d43931139",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Settings/b9b9d68135714d9a84741620e9386e1d43931139/res/drawable/ic_stylus.xml",
+      "saved": "source-evidence/packages/apps/Settings/res/drawable/ic_stylus.xml",
+      "bytes": 1249,
+      "gitBlobSha1": "eb52fec041813df32696b1bf875026e8d0fa2d78",
+      "sha256": "3b3a125650ffaa3a4e952a50e73412467955b0f9cd9716f13bae3ac2fb2a2b86",
+      "reasons": [
+        "Stylus"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [
+        "@android:color/white"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "960",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "960",
+        "{http://schemas.android.com/apk/res/android}tint": "?android:attr/colorControlNormal"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/edit__compact",
+        "source": "iterations/11-forge-symbol-library/masters/edit__compact.svg",
+        "sha256": "6061750d5db4914509bbd20a5f4d5eb729e3c27ef266a63b4ef96a0f0ab88ae3"
+      },
+      {
+        "assetId": "11/edit__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/edit__detailed.svg",
+        "sha256": "2ccb62ab72d149f1706675504ab3a7c311e33bdb1ab4f6d7486ad5ba85d52dc0"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  },
+  {
+    "id": "G-16",
+    "family": "favorite",
+    "label": "Favorite star - filled and outline",
+    "priority": "P1",
+    "disposition": "Confirmed dedicated semantic coverage gap in current catalog",
+    "evidence": {
+      "project": "packages/apps/Glimpse",
+      "path": "app/src/main/res/drawable/ic_star.xml",
+      "revision": "89b473594ec8ad01417624e670912450ce5df7e9",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Glimpse/89b473594ec8ad01417624e670912450ce5df7e9/app/src/main/res/drawable/ic_star.xml",
+      "saved": "source-evidence/packages/apps/Glimpse/app/src/main/res/drawable/ic_star.xml",
+      "bytes": 555,
+      "gitBlobSha1": "29cd24de7d9bc28cb05bfaa5d0777e4ea3f24c5e",
+      "sha256": "f547b37e8004c9d5de629cd596a07568edd56d6da66709827cf7cd9a5adfe68b",
+      "reasons": [
+        "Application visual/detail review"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [
+        "@android:color/white"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}tint": "#000000",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      }
+    },
+    "catalogCheck": "No dedicated semantic entry in current472-master catalog; generic nearest donor is not equivalent",
+    "donors": [
+      {
+        "assetId": "11/check__compact",
+        "source": "iterations/11-forge-symbol-library/masters/check__compact.svg",
+        "sha256": "70e6e291d25adf11360bf7f3b09ae3de58e12a771412b8f558e7bcc7abe2a933"
+      },
+      {
+        "assetId": "11/check__detailed",
+        "source": "iterations/11-forge-symbol-library/masters/check__detailed.svg",
+        "sha256": "8fd2216adb9be7d1548d30b55bd642bea96d09a55fedb5d3e3a875025a6e55ae"
+      }
+    ],
+    "required": "Design a dedicated compact/detailed treatment or explicitly approve suitable existing geometry and masks; preserve semantic/state labels and bind to the exact owner",
+    "deviceAvailability": "Source present; feature visibility/support on Thor NOT proven"
+  }
+]

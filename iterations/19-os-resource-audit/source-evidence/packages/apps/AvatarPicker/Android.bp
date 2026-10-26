@@ -1,0 +1,188 @@
+package {
+    default_team: "trendy_team_framework_android_multiuser",
+    default_applicable_licenses: ["packages_apps_AvatarPicker_license"],
+}
+
+license {
+    name: "packages_apps_AvatarPicker_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "NOTICE",
+    ],
+}
+
+android_library {
+
+    name: "AvatarProviderLib",
+    manifest: "AndroidManifest-Provider.xml",
+
+    srcs: [
+        "src/main/java/com/android/avatarpicker/data/*.kt",
+        "src/main/java/com/android/avatarpicker/data/**/*.kt",
+        "src/main/java/com/android/avatarpicker/domain/*.kt",
+        "src/main/java/com/android/avatarpicker/ui/*.kt",
+        "src/main/java/com/android/avatarpicker/ui/**/*.kt",
+        "src/main/java/com/android/avatarpicker/AvatarProviderApp.kt",
+    ],
+
+    resource_dirs: ["src/main/res-export"],
+
+    static_libs: [
+        "androidx.core_core-ktx",
+        "androidx.recyclerview_recyclerview",
+        "com.google.android.material_material",
+        "androidx.test.ext.junit",
+        "androidx.test.ext.truth",
+        "androidx.test.rules",
+        "androidx.test.runner",
+
+        "androidx.activity_activity-compose",
+        "androidx.annotation_annotation",
+        "androidx.appcompat_appcompat",
+        "androidx.compose.animation_animation-graphics",
+        "androidx.compose.animation_animation-core",
+        "androidx.constraintlayout_constraintlayout-compose",
+        "androidx.constraintlayout_constraintlayout-core",
+        "androidx.compose.foundation_foundation",
+        "androidx.compose.material_material-icons-core",
+        "androidx.compose.material_material-icons-extended",
+        "androidx.compose.material_material",
+        "androidx.compose.material3_material3",
+        "androidx.compose.material3_material3-window-size-class",
+        "androidx.compose.runtime_runtime",
+        "androidx.compose.ui_ui",
+        "androidx.compose.ui_ui-tooling",
+        "androidx.lifecycle_lifecycle-viewmodel-compose",
+        "androidx.appcompat_appcompat",
+        "androidx.constraintlayout_constraintlayout-core",
+        "androidx.core_core-ktx",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "setupcompat",
+        "setupdesign",
+    ],
+
+    kotlincflags: ["-Xjvm-default=all"],
+}
+
+android_app {
+    name: "AvatarPicker",
+    manifest: "AndroidManifest.xml",
+
+    srcs: ["src/**/AvatarPickerApp.kt"],
+    resource_dirs: ["src/main/res"],
+
+    certificate: "platform",
+    platform_apis: true,
+    privileged: true,
+    system_ext_specific: true,
+
+    optimize: {
+        enabled: true,
+        optimize: true,
+        shrink_resources: true,
+    },
+
+    static_libs: [
+        "AvatarProviderLib",
+        "androidx.activity_activity-compose",
+        "androidx.annotation_annotation",
+        "androidx.appcompat_appcompat",
+        "androidx.compose.animation_animation-graphics",
+        "androidx.compose.animation_animation-core",
+        "androidx.constraintlayout_constraintlayout-compose",
+        "androidx.constraintlayout_constraintlayout-core",
+        "androidx.compose.foundation_foundation",
+        "androidx.compose.material_material-icons-core",
+        "androidx.compose.material_material-icons-extended",
+        "androidx.compose.material3_material3",
+        "androidx.compose.material3_material3-window-size-class",
+        "androidx.compose.runtime_runtime",
+        "androidx.compose.ui_ui",
+        "androidx.compose.ui_ui-tooling",
+        "androidx.lifecycle_lifecycle-viewmodel-compose",
+        "androidx.lifecycle_lifecycle-viewmodel-ktx",
+    ],
+
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+
+    kotlincflags: ["-Xjvm-default=all"],
+}
+
+
+android_test {
+    name: "AvatarPickerUnitTests",
+    manifest: "AndroidManifestUnit.xml",
+    certificate: "platform",
+    use_resource_processor: true,
+    platform_apis: true,
+    instrumentation_for: "AvatarPicker",
+
+    // Include all test java/kotlin files.
+    srcs: [
+        "src/tests/unit/java/**/*.kt",
+        "src/tests/common/java/**/*.kt",
+    ],
+    resource_dirs: [
+        "src/main/res",
+        "src/tests/common/res",
+    ],
+
+    static_libs: [
+        "AvatarProviderLib",
+        "androidx.arch.core_core-testing",
+        "androidx.test.core",
+        "androidx.test.espresso.core",
+        "androidx.test.rules",
+        "androidx.test.ext.junit",
+        "androidx.preference_preference",
+        "mockito-target-minus-junit4",
+        "platform-test-annotations",
+        "platform-test-rules",
+        "truth",
+        "kotlinx_coroutines_test",
+        "flag-junit",
+    ],
+    kotlincflags: ["-Xjvm-default=all"],
+    test_suites: ["device-tests"],
+}
+
+android_test {
+    name: "AvatarPickerUITests",
+    manifest: "AndroidManifestUI.xml",
+    certificate: "platform",
+    use_resource_processor: true,
+    sdk_version: "current",
+
+    srcs: [
+        "src/tests/ui/java/**/*.kt",
+        "src/tests/common/java/**/*.kt",
+    ],
+    resource_dirs: [
+        "src/main/res",
+        "src/tests/common/res",
+    ],
+
+    static_libs: [
+        "AvatarProviderLib",
+
+        "androidx.test.runner",
+        "androidx.test.ext.junit",
+
+        "androidx.compose.runtime_runtime",
+        "androidx.compose.ui_ui-test-junit4",
+        "androidx.compose.ui_ui-test-manifest",
+
+        "truth",
+    ],
+
+    kotlincflags: ["-Xjvm-default=all"],
+    test_suites: ["device-tests"],
+
+
+}

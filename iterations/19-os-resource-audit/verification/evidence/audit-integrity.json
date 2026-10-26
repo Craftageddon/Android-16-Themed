@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "date": "2026-10-26",
+  "pinnedSourceProjects": 31,
+  "completeTreeSectionsOrProjects": 35,
+  "contentHashCheckedFiles": 554,
+  "fileRecordsConserved": 16559,
+  "familyRecordsConserved": 10926,
+  "confirmedGlyphFamilies": 16,
+  "additionalAppComponentTargets": 20,
+  "workflowAdaptationGroups": 7,
+  "unchangedExistingMasterHashes": 472,
+  "method": "Independent stdlib re-open of pinned manifest, all tree proofs, every saved source byte and XML; Git blob/SHA256 checks; CSV-to-JSON exact conservation; family variant totals; donor/catalog hashes; source identity parsing and explicit unresolved-scope assertions.",
+  "deviceValidation": "NOT RUN - source audit only",
+  "remainingSemanticReview": 7048,
+  "notClaimed": "Complete built-ROM reachability or all visual resources redesigned"
+}

@@ -1,0 +1,35 @@
+//
+// SPDX-FileCopyrightText: 2021 The Calyx Institute
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_library_import {
+    name: "seedvault-lib-zstd-jni",
+    aars: ["zstd-jni-1.5.7-11.aar"],
+    sdk_version: "current",
+    extract_jni: true,
+}
+
+android_library_import {
+    name: "seedvault-logback-android",
+    aars: ["logback-android-3.0.0.aar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "seedvault-lib-protobuf-kotlin-lite",
+    jars: ["protobuf-kotlin-lite-4.35.1.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "seedvault-lib-kotlin-bip39",
+    jars: ["kotlin-bip39-jvm-1.0.9.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "seedvault-lib-chunker",
+    jars: ["seedvault-chunker-0.1.jar"],
+    sdk_version: "current",
+}
