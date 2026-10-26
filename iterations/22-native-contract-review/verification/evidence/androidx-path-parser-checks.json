@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "result": "PASS",
+  "parsedPaths": 511,
+  "pairChecks": 130816,
+  "morphablePairs": 12923,
+  "failures": 0,
+  "acquiredSourcePaths": 504,
+  "syntheticTokenizerCases": 7,
+  "androidxCoreVersion": "1.18.0",
+  "androidxAarSha256": "311d83ac67d394076ec21d12ed2d10a44b59cb2929b7dce00e5a90a93842e37d",
+  "classesJarSha256": "d1f5a319a77555df7e23858ffb5ed45a95ebb4263fa1ab7a993510ceb53555a0",
+  "sdk37JarSha256": "bf1b4387cc7ca94fc6ef684f040d9d16fbf16248e181819f020736ea2053f177",
+  "javaRunnerSha256": "047387db7b796cdd2894d6402205b76ca61076cbd8e555c13a99a13acd1ff97b",
+  "inputFixtureSha256": "e3a0910b1615c3298da9e37edbc7d5759245d1fed5e8e54f82130e8ed3da697c",
+  "libraryOrigin": "Existing read-only Gradle cache; not claimed as the official pinned framework implementation.",
+  "method": "Actual AndroidX PathParser.createNodesFromPathData compares all command types/parameter counts with the separately authored Python records; actual canMorph checks every unordered pair including self pairs.",
+  "androidPathConstructionInterpolationRendering": "NOT RUN",
+  "hardwareOrAndroidExecution": false,
+  "finalWholeGoalDoubleCheck": "NOT RUN"
+}

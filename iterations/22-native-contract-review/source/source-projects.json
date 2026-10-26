@@ -1,0 +1,470 @@
+[
+  {
+    "project": {
+      "name": "LineageOS/android_bootable_recovery",
+      "path": "bootable/recovery",
+      "revision": "37c5d17bec80020b8dbfb0a0d39b4ba93b2b6efd",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_bootable_recovery/git/trees/37c5d17bec80020b8dbfb0a0d39b4ba93b2b6efd?recursive=1",
+    "treeSha": "37c5d17bec80020b8dbfb0a0d39b4ba93b2b6efd",
+    "treeJsonSha256": "8c59586ee8c669987fafecce4f5a0e69705a6d79bc5eb2084054c2101200229f",
+    "treeCache": "source-trees/bootable__recovery.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_build",
+      "path": "build/make",
+      "revision": "90d006387398ae6899145e6531a304500cfa0f70",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk,sysui-studio"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_build/git/trees/90d006387398ae6899145e6531a304500cfa0f70?recursive=1",
+    "treeSha": "90d006387398ae6899145e6531a304500cfa0f70",
+    "treeJsonSha256": "ff62b1840d2c669a2513f4b556d7afc53afa5151d934a26e064ca0f4801c95d0",
+    "treeCache": "source-trees/build__make.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_device_ayn_odin2thor",
+      "path": "device/ayn/odin2thor",
+      "revision": "bd710361dc03c7a72f86095c2b28ae40526f667a",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "local::roomservice"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_device_ayn_odin2thor/git/trees/bd710361dc03c7a72f86095c2b28ae40526f667a?recursive=1",
+    "treeSha": "bd710361dc03c7a72f86095c2b28ae40526f667a",
+    "treeJsonSha256": "9dd9e4b09e0a45767da5758cf962fffa782707c892b96abf05699c5146756d6d",
+    "treeCache": "source-trees/device__ayn__odin2thor.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_device_ayn_qcs8550-common",
+      "path": "device/ayn/qcs8550-common",
+      "revision": "0a1f87ca483ad55dbc41c34ac295c64fad05a674",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "local::roomservice"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_device_ayn_qcs8550-common/git/trees/0a1f87ca483ad55dbc41c34ac295c64fad05a674?recursive=1",
+    "treeSha": "0a1f87ca483ad55dbc41c34ac295c64fad05a674",
+    "treeJsonSha256": "c185c658022bd755fb0fe839c721033a267c3ee0c3064068a809f0e74192f067",
+    "treeCache": "source-trees/device__ayn__qcs8550-common.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_frameworks_base",
+      "path": "frameworks/base",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-cw-fs,pdk-fs,sysui-studio"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_frameworks_base/git/trees/7f6de40b6429462d47ba9ba351b99943269c8067?recursive=1",
+    "treeSha": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "sections": [
+      {
+        "section": "core/res",
+        "treeSha": "3941225c3afea46890a836c2ce46fe189e14218b",
+        "url": "https://api.github.com/repos/LineageOS/android_frameworks_base/git/trees/3941225c3afea46890a836c2ce46fe189e14218b?recursive=1",
+        "jsonSha256": "6bcb940eb26060e20111d3a7abaff1e8df441fc1d4aded560417716801f8f12f",
+        "cache": "source-trees/framework__core__res.json.gz",
+        "entries": 14096,
+        "truncated": false
+      },
+      {
+        "section": "packages/SystemUI",
+        "treeSha": "5c48c76fb5603ab1ecd73081481dc069600fd0db",
+        "url": "https://api.github.com/repos/LineageOS/android_frameworks_base/git/trees/5c48c76fb5603ab1ecd73081481dc069600fd0db?recursive=1",
+        "jsonSha256": "2594dc3066cdeb3365fde987ffb992afd780340dd76ea7548926fe0a216dc38e",
+        "cache": "source-trees/framework__packages__SystemUI.json.gz",
+        "entries": 19960,
+        "truncated": false
+      },
+      {
+        "section": "packages/SettingsLib",
+        "treeSha": "20aaedfc2a3dccdee51b218b21cc92f0b9019f5d",
+        "url": "https://api.github.com/repos/LineageOS/android_frameworks_base/git/trees/20aaedfc2a3dccdee51b218b21cc92f0b9019f5d?recursive=1",
+        "jsonSha256": "705c3b97f0c984fb8705883c44a462626d080a06ebc843f5df01bef17717d896",
+        "cache": "source-trees/framework__packages__SettingsLib.json.gz",
+        "entries": 5714,
+        "truncated": false
+      },
+      {
+        "section": "libs/WindowManager/Shell",
+        "treeSha": "f30d8642df11f50b4c24ea0f277bdf46df3f801b",
+        "url": "https://api.github.com/repos/LineageOS/android_frameworks_base/git/trees/f30d8642df11f50b4c24ea0f277bdf46df3f801b?recursive=1",
+        "jsonSha256": "49d662d388a52cc4cb6b6f344d90faa551cd1712bb29c6fc244456ab50d1d59a",
+        "cache": "source-trees/framework__libs__WindowManager__Shell.json.gz",
+        "entries": 3237,
+        "truncated": false
+      },
+      {
+        "section": "cmds/bootanimation",
+        "treeSha": "6c43f82f8f344499b6bf1ab50ea3fe3750022b78",
+        "url": "https://api.github.com/repos/LineageOS/android_frameworks_base/git/trees/6c43f82f8f344499b6bf1ab50ea3fe3750022b78?recursive=1",
+        "jsonSha256": "e4560e32a556436b7cb179c4b0de32734970450bd0dab7692f997a7612635f0d",
+        "cache": "source-trees/framework__cmds__bootanimation.json.gz",
+        "entries": 13,
+        "truncated": false
+      }
+    ],
+    "scope": "Only explicitly listed complete framework sections; not the entire framework repository"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_hardware_ayn",
+      "path": "hardware/ayn",
+      "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "local::roomservice"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_hardware_ayn/git/trees/374ddeee6272222e8b94290e5bef2e9f74f230ef?recursive=1",
+    "treeSha": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "treeJsonSha256": "9a03eb2295e0e8b48c43513cf1d391fb4a3612a2190ce952b10fbf0d6ffb50c4",
+    "treeCache": "source-trees/hardware__ayn.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_AudioFX",
+      "path": "packages/apps/AudioFX",
+      "revision": "2fc3a5405fb9d7330ad787e106af8229c7a72830",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_AudioFX/git/trees/2fc3a5405fb9d7330ad787e106af8229c7a72830?recursive=1",
+    "treeSha": "2fc3a5405fb9d7330ad787e106af8229c7a72830",
+    "treeJsonSha256": "5cb59f32550978ad567d7934b0fac8b3a29dc78ea25b716c11430dd9d05bba19",
+    "treeCache": "source-trees/packages__apps__AudioFX.json.gz"
+  },
+  {
+    "project": {
+      "name": "platform/packages/apps/AvatarPicker",
+      "path": "packages/apps/AvatarPicker",
+      "remote": "aosp",
+      "revision": "55ea46b9c63f0b9ab96a0b3550d5ca8a97520487",
+      "upstream": "refs/tags/android-17.0.0_r1",
+      "dest-branch": "refs/tags/android-17.0.0_r1",
+      "groups": "pdk-fs"
+    },
+    "url": "https://android.googlesource.com/platform/packages/apps/AvatarPicker/+/55ea46b9c63f0b9ab96a0b3550d5ca8a97520487/",
+    "treeSha": "55ea46b9c63f0b9ab96a0b3550d5ca8a97520487",
+    "treeJsonSha256": "071095d9fc93a0bc337010549f1766cbb318eb91148db04fc9e93e49ddfca58c",
+    "treeCache": "source-trees/packages__apps__AvatarPicker.json.gz",
+    "transport": "Gitiles complete directory traversal"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Backgrounds",
+      "path": "packages/apps/Backgrounds",
+      "revision": "b087d2df6601aa25939e654028321bb59857d12e",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Backgrounds/git/trees/b087d2df6601aa25939e654028321bb59857d12e?recursive=1",
+    "treeSha": "b087d2df6601aa25939e654028321bb59857d12e",
+    "treeJsonSha256": "8c0a2e3c0bfde702302e59882f95360e94389e539995d4523302804f29919bc9",
+    "treeCache": "source-trees/packages__apps__Backgrounds.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Camelot",
+      "path": "packages/apps/Camelot",
+      "revision": "cdaa5702eea5c725599b650bede715550dbd8a4c",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Camelot/git/trees/cdaa5702eea5c725599b650bede715550dbd8a4c?recursive=1",
+    "treeSha": "cdaa5702eea5c725599b650bede715550dbd8a4c",
+    "treeJsonSha256": "90aa8d2530fd2fc592f85bca807fc4ef3fee3343557597a27c2f23aff9a5efb5",
+    "treeCache": "source-trees/packages__apps__Camelot.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Canvas",
+      "path": "packages/apps/Canvas",
+      "revision": "52265a4619e4b0f867903a5c117ec6c01aefc686",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Canvas/git/trees/52265a4619e4b0f867903a5c117ec6c01aefc686?recursive=1",
+    "treeSha": "52265a4619e4b0f867903a5c117ec6c01aefc686",
+    "treeJsonSha256": "25314ad2e10d727c5fc61fa625733ff9001011e27744956d442e8b1d4c73cdaf",
+    "treeCache": "source-trees/packages__apps__Canvas.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_DocumentsUI",
+      "path": "packages/apps/DocumentsUI",
+      "revision": "7f7e65f7600b181647d52aa869290ad63372d169",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-cw-fs,pdk-fs"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_DocumentsUI/git/trees/7f7e65f7600b181647d52aa869290ad63372d169?recursive=1",
+    "treeSha": "7f7e65f7600b181647d52aa869290ad63372d169",
+    "treeJsonSha256": "d7a174208542cbd767212c02e18cfd8c6604043af4c29b1e46e37a9d5f077be1",
+    "treeCache": "source-trees/packages__apps__DocumentsUI.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Etar",
+      "path": "packages/apps/Etar",
+      "revision": "8173ec802ed046d1670ec03962e686e393a85335",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Etar/git/trees/8173ec802ed046d1670ec03962e686e393a85335?recursive=1",
+    "treeSha": "8173ec802ed046d1670ec03962e686e393a85335",
+    "treeJsonSha256": "d4b0d4404167aba1d9ec89949377b79c7a25ea11acd0fd7a30af60051cfd8e2c",
+    "treeCache": "source-trees/packages__apps__Etar.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_ExactCalculator",
+      "path": "packages/apps/ExactCalculator",
+      "revision": "933974f9fd722e5c79ee0343a251ad5444ac8a23",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_ExactCalculator/git/trees/933974f9fd722e5c79ee0343a251ad5444ac8a23?recursive=1",
+    "treeSha": "933974f9fd722e5c79ee0343a251ad5444ac8a23",
+    "treeJsonSha256": "e870052f98fe130e050d1248418a32f1864e3d5ddc961a0999235a7d08d6fca0",
+    "treeCache": "source-trees/packages__apps__ExactCalculator.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Glimpse",
+      "path": "packages/apps/Glimpse",
+      "revision": "89b473594ec8ad01417624e670912450ce5df7e9",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Glimpse/git/trees/89b473594ec8ad01417624e670912450ce5df7e9?recursive=1",
+    "treeSha": "89b473594ec8ad01417624e670912450ce5df7e9",
+    "treeJsonSha256": "bfe9e952a6610449783320549de378347b1d9608c88979b6eccc4bfbd24eee6b",
+    "treeCache": "source-trees/packages__apps__Glimpse.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Jelly",
+      "path": "packages/apps/Jelly",
+      "revision": "64a74fbbc667b19d789c955677bf68f9b8b3eb7e",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Jelly/git/trees/64a74fbbc667b19d789c955677bf68f9b8b3eb7e?recursive=1",
+    "treeSha": "64a74fbbc667b19d789c955677bf68f9b8b3eb7e",
+    "treeJsonSha256": "388a3b703d6955c000cc5ca22eb162a70a467a218005d3efa5708ef9c823ce10",
+    "treeCache": "source-trees/packages__apps__Jelly.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "revision": "5f26fe66475643ec08fe71a4021946aa57307192",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-cw-tvc,pdk-fs,sysui-studio"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Launcher3/git/trees/5f26fe66475643ec08fe71a4021946aa57307192?recursive=1",
+    "treeSha": "5f26fe66475643ec08fe71a4021946aa57307192",
+    "treeJsonSha256": "d5e55fba8f1376effb0ecea39af31b95e47ae4f6fca68d84cb3c2609ac0e1a01",
+    "treeCache": "source-trees/packages__apps__Launcher3.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_LineageParts",
+      "path": "packages/apps/LineageParts",
+      "revision": "fdcb4ba35d92eefbdcca96580fb9e8ac8901ed60",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_LineageParts/git/trees/fdcb4ba35d92eefbdcca96580fb9e8ac8901ed60?recursive=1",
+    "treeSha": "fdcb4ba35d92eefbdcca96580fb9e8ac8901ed60",
+    "treeJsonSha256": "3770ace74307572e65e0e43c65e649d971ba6033b9a783aec06c611adfb3f13a",
+    "treeCache": "source-trees/packages__apps__LineageParts.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Profiles",
+      "path": "packages/apps/Profiles",
+      "revision": "0abb3a177f1532b6b85621a7250a6431027f02a6",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Profiles/git/trees/0abb3a177f1532b6b85621a7250a6431027f02a6?recursive=1",
+    "treeSha": "0abb3a177f1532b6b85621a7250a6431027f02a6",
+    "treeJsonSha256": "f542217f51596f0e714bad6e3c0b85d7dbbce4c2f1fade7dc40be1c1e625dfbd",
+    "treeCache": "source-trees/packages__apps__Profiles.json.gz"
+  },
+  {
+    "project": {
+      "name": "platform/packages/apps/QuickAccessWallet",
+      "path": "packages/apps/QuickAccessWallet",
+      "remote": "aosp",
+      "revision": "328a2433f9619ec63b1921e874ec34d86be74e24",
+      "upstream": "refs/tags/android-17.0.0_r1",
+      "dest-branch": "refs/tags/android-17.0.0_r1",
+      "groups": "pdk-fs"
+    },
+    "url": "https://android.googlesource.com/platform/packages/apps/QuickAccessWallet/+/328a2433f9619ec63b1921e874ec34d86be74e24/",
+    "treeSha": "328a2433f9619ec63b1921e874ec34d86be74e24",
+    "treeJsonSha256": "4eca12e66206203af4c768cfacc729eca954a43bbf4347ad91c91a81c37a3991",
+    "treeCache": "source-trees/packages__apps__QuickAccessWallet.json.gz",
+    "transport": "Gitiles complete directory traversal"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Recorder",
+      "path": "packages/apps/Recorder",
+      "revision": "624957ca18496e7b63df3d5e4e040f8c99ca72b7",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Recorder/git/trees/624957ca18496e7b63df3d5e4e040f8c99ca72b7?recursive=1",
+    "treeSha": "624957ca18496e7b63df3d5e4e040f8c99ca72b7",
+    "treeJsonSha256": "93a89d7ca3366f9ebe9ed5bd978e3c9c99b4ad1301e16cd9e2e2015a67235abd",
+    "treeCache": "source-trees/packages__apps__Recorder.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Seedvault",
+      "path": "packages/apps/Seedvault",
+      "revision": "f47750d208dc69bdd65744e49ceb287b43aa5c00",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Seedvault/git/trees/f47750d208dc69bdd65744e49ceb287b43aa5c00?recursive=1",
+    "treeSha": "f47750d208dc69bdd65744e49ceb287b43aa5c00",
+    "treeJsonSha256": "0d499c984acb0cb68dcd7f1ca344b94be854f0a83f59ef69f3e93ccc396a84b2",
+    "treeCache": "source-trees/packages__apps__Seedvault.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Settings",
+      "path": "packages/apps/Settings",
+      "revision": "b9b9d68135714d9a84741620e9386e1d43931139",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-cw-tvc,pdk-fs,sysui-studio"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Settings/git/trees/b9b9d68135714d9a84741620e9386e1d43931139?recursive=1",
+    "treeSha": "b9b9d68135714d9a84741620e9386e1d43931139",
+    "treeJsonSha256": "8e056d7eb17f0b113f4bb7d3456dc8e8e324a3307bc8405e78184796c93e8436",
+    "treeCache": "source-trees/packages__apps__Settings.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_SetupWizard",
+      "path": "packages/apps/SetupWizard",
+      "revision": "69174527a30bc72a28a5d55acdec8ce5edaba9e0",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_SetupWizard/git/trees/69174527a30bc72a28a5d55acdec8ce5edaba9e0?recursive=1",
+    "treeSha": "69174527a30bc72a28a5d55acdec8ce5edaba9e0",
+    "treeJsonSha256": "f5863ce6fe97281dfdc06a8415125ba91a630731e8a2a76eed3cf6bee01bbe79",
+    "treeCache": "source-trees/packages__apps__SetupWizard.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_ThemePicker",
+      "path": "packages/apps/ThemePicker",
+      "revision": "32f081ec5dac9ec86fb0c0bbc372e91176708660",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-fs,sysui-studio"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_ThemePicker/git/trees/32f081ec5dac9ec86fb0c0bbc372e91176708660?recursive=1",
+    "treeSha": "32f081ec5dac9ec86fb0c0bbc372e91176708660",
+    "treeJsonSha256": "a0324fe2424e0205fcdb7090899f4ab44b8762de8108d1bfde51c7eb4b1c5abf",
+    "treeCache": "source-trees/packages__apps__ThemePicker.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Twelve",
+      "path": "packages/apps/Twelve",
+      "revision": "fb82f3c55451b128e1e29c611e582cb7699f7e24",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Twelve/git/trees/fb82f3c55451b128e1e29c611e582cb7699f7e24?recursive=1",
+    "treeSha": "fb82f3c55451b128e1e29c611e582cb7699f7e24",
+    "treeJsonSha256": "46ad4bf50423e95e62bdb740a033a07b0c6bbe4cc1e14e975b9bc469e709b528",
+    "treeCache": "source-trees/packages__apps__Twelve.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_Updater",
+      "path": "packages/apps/Updater",
+      "revision": "6d50e0bf1b16fe7bca818375a3e734f4959e2e57",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_Updater/git/trees/6d50e0bf1b16fe7bca818375a3e734f4959e2e57?recursive=1",
+    "treeSha": "6d50e0bf1b16fe7bca818375a3e734f4959e2e57",
+    "treeJsonSha256": "97f22465454cf90e231daf827c854ab2a11a4c7089822c1ce1e8aefea28690b6",
+    "treeCache": "source-trees/packages__apps__Updater.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_apps_WallpaperPicker2",
+      "path": "packages/apps/WallpaperPicker2",
+      "revision": "faf11f2e8e1e36b07e3163831d34190ab7187265",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-fs,sysui-studio"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_apps_WallpaperPicker2/git/trees/faf11f2e8e1e36b07e3163831d34190ab7187265?recursive=1",
+    "treeSha": "faf11f2e8e1e36b07e3163831d34190ab7187265",
+    "treeJsonSha256": "31c3397fdde79f162d97f49c157f2c75e4e40507335aeb9581f496b553f61991",
+    "treeCache": "source-trees/packages__apps__WallpaperPicker2.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_inputmethods_LatinIME",
+      "path": "packages/inputmethods/LatinIME",
+      "revision": "e417ba6faa5dbb66ba70a038a52ddc8f60bb5795",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-fs"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_inputmethods_LatinIME/git/trees/e417ba6faa5dbb66ba70a038a52ddc8f60bb5795?recursive=1",
+    "treeSha": "e417ba6faa5dbb66ba70a038a52ddc8f60bb5795",
+    "treeJsonSha256": "7be5283d0368b6d9249b67591135e714fa7a6fb16175e5f31ff0751a89dd073a",
+    "treeCache": "source-trees/packages__inputmethods__LatinIME.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_packages_modules_Permission",
+      "path": "packages/modules/Permission",
+      "revision": "cdbbb94284627e3876c1c5a5591c619d3687de7b",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0",
+      "groups": "pdk-cw-fs,pdk-fs"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_packages_modules_Permission/git/trees/cdbbb94284627e3876c1c5a5591c619d3687de7b?recursive=1",
+    "treeSha": "cdbbb94284627e3876c1c5a5591c619d3687de7b",
+    "treeJsonSha256": "0cd56792e2fceabfb4161e6664af458873eb53a8d0d54d147f361ae252096f0f",
+    "treeCache": "source-trees/packages__modules__Permission.json.gz"
+  },
+  {
+    "project": {
+      "name": "LineageOS/android_vendor_lineage",
+      "path": "vendor/lineage",
+      "revision": "87daf527b0288b60c9cc07c05a5f5aad1660c234",
+      "upstream": "refs/heads/lineage-24.0",
+      "dest-branch": "refs/heads/lineage-24.0"
+    },
+    "url": "https://api.github.com/repos/LineageOS/android_vendor_lineage/git/trees/87daf527b0288b60c9cc07c05a5f5aad1660c234?recursive=1",
+    "treeSha": "87daf527b0288b60c9cc07c05a5f5aad1660c234",
+    "treeJsonSha256": "101cad6da02d1a62f7044528325c5eac8a66905302f97906d9fb49ccfe385ec6",
+    "treeCache": "source-trees/vendor__lineage.json.gz"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-26",
+  "familyRecords": 10926,
+  "sourceFileVariants": 16559,
+  "previousOpenFamilyDecisions": 10553,
+  "newContractPreservationDecisions": 898,
+  "contractDecisions": {
+    "PRESERVE_NEUTRAL_NATIVE_MOTION": 259,
+    "PRESERVE_NATIVE_REFERENCE_CONTRACT": 639
+  },
+  "reviewedVariants": 919,
+  "savedSourceObjects": 1273,
+  "exhaustiveSelectorCasesInCandidateScan": 2050,
+  "openFamilyDecisions": 9655,
+  "allDecisions": {
+    "OPEN": 9655,
+    "APPROVE_SEMANTIC_ART_REUSE": 189,
+    "PRESERVE_TEST_DATA": 125,
+    "PRESERVE_NEUTRAL_NATIVE_MOTION": 259,
+    "PRESERVE_NATIVE_REFERENCE_CONTRACT": 639,
+    "REJECT_DONOR_USE_NEW_REVIEWED_GEOMETRY": 16,
+    "REJECT_DONOR_RETARGET_REVIEWED_ART": 1,
+    "GAP_ART_AUTHORED": 16,
+    "REJECT_WHOLE_RESOURCE_ICON_SWAP": 8,
+    "OWNER_PRESENTATION_ADAPTATION_AUTHORED": 1,
+    "PRESERVE_DATABASE_SCHEMA": 1,
+    "PRESERVE_EMPTY_SLOT": 13,
+    "PRESERVE_BUILD_CONTRACT": 3
+  },
+  "visualAssetsAuthoredInThisPass": 0,
+  "nativeResourcesChangedInThisPass": 0,
+  "semanticDecisionsAreArtworkCompletion": false,
+  "workflowAdaptationsAuthoredPreviously": [
+    "W-01",
+    "W-02"
+  ],
+  "workflowAdaptationsStillUnauthored": [
+    "W-03",
+    "W-04",
+    "W-05",
+    "W-06",
+    "W-07"
+  ],
+  "wholeSemanticReviewFinished": false,
+  "fullGoalComplete": false,
+  "finalWholeGoalDoubleCheck": "NOT RUN - full scope remains unfinished",
+  "scope": "Preserve only reference-only native structures and standard neutral motion whose full variant content meets the stated contract review. Inline visuals/palette/morph paths/custom owners remain open. Dependency declarations are candidates, not runtime qualifier/overlay evaluation.",
+  "supportingTimingSourceFiles": 79,
+  "reviewedBaselineStatusDecisions": {
+    "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork": {
+      "OPEN": 6392,
+      "PRESERVE_NATIVE_REFERENCE_CONTRACT": 639,
+      "PRESERVE_DATABASE_SCHEMA": 1,
+      "PRESERVE_EMPTY_SLOT": 13,
+      "PRESERVE_BUILD_CONTRACT": 3
+    },
+    "Name-based reuse candidate; exact geometry/state/owner binding NOT verified": {
+      "APPROVE_SEMANTIC_ART_REUSE": 189,
+      "REJECT_DONOR_USE_NEW_REVIEWED_GEOMETRY": 16,
+      "REJECT_DONOR_RETARGET_REVIEWED_ART": 1,
+      "REJECT_WHOLE_RESOURCE_ICON_SWAP": 4
+    },
+    "Native layout/token adaptation; new illustration requirement unreviewed": {
+      "OPEN": 3160,
+      "REJECT_WHOLE_RESOURCE_ICON_SWAP": 3,
+      "OWNER_PRESENTATION_ADAPTATION_AUTHORED": 1
+    },
+    "Test/sample source; excluded from production gap count": {
+      "PRESERVE_TEST_DATA": 125
+    },
+    "Native state/motion adaptation; no automatic new drawing claim": {
+      "PRESERVE_NEUTRAL_NATIVE_MOTION": 259,
+      "OPEN": 103,
+      "REJECT_WHOLE_RESOURCE_ICON_SWAP": 1
+    },
+    "Reviewed semantic artwork gap": {
+      "GAP_ART_AUTHORED": 16
+    }
+  },
+  "dependentFamiliesOutsideThisPreservationPass": 1659,
+  "dependencyFamiliesAreConfirmedNewDrawings": false,
+  "supportingTimingCurvesAddedToOriginalArtFamilyCount": false,
+  "referenceGraphAmendment": "The separate22 graph corrects the historical20 resource-root/type/reference index, preserves feature-flag conditions as metadata, and retains all declaration candidates. Original source bytes and signed20/21 archives remain unchanged."
+}

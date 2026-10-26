@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26",
+  "animatedVectorSourceVariants": 254,
+  "targetBindings": 1149,
+  "targetsPresentExactlyOnceInEveryResolvedVectorCandidate": 1149,
+  "propertyCandidateChecks": 2890,
+  "standardTargetPropertyChecks": 2890,
+  "morphAnimators": 527,
+  "distinctPathValues": 504,
+  "pathCommandParseExceptions": 0,
+  "morphEndpointCandidateSignatureAgreement": 527,
+  "reviewedExplicitEndpointBaseSignatureDifferences": 6,
+  "pendingTargetRecords": 0,
+  "nativePathInterpolationOrRendering": "NOT RUN",
+  "sourceObjectRecordsNowSaved": 1208,
+  "scope": "All acquired animated-vector variants, including inline vectors/animators. Complete per-file project/resource-root lookup, all declaration candidates retained. Structural target/property/path command review; not a replacement-art approval or an effective build/runtime resource match."
+}

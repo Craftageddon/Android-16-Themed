@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-26",
+  "result": "PASS",
+  "actualPinnedSources": [
+    {
+      "path": "res/anim/progress_indeterminate_horizontal_rect1.xml",
+      "gitBlobSha1": "4bca4e58b37885582f7d603e4b5e3522ce40e41b",
+      "sha256": "43213c42f5f40c04ba5c0b6861fed478a7e28edc39600484caa95dad6128dbf6"
+    },
+    {
+      "path": "res/anim/progress_indeterminate_horizontal_rect2.xml",
+      "gitBlobSha1": "ff1e67d10aea4ccb784a3cde3c30fd8300021d55",
+      "sha256": "c4c019fe9bb6adf3ac1c42d99748c0cc4c8be8df3394f8bd5c714758e1e960ae"
+    },
+    {
+      "path": "res/flag(com.android.documentsui.flags.use_material3)/drawable/progress_indeterminate_horizontal_material_trimmed_m3.xml",
+      "gitBlobSha1": "3b96d97766cd36bbedee6e4df65e321a0050e89b",
+      "sha256": "e11ad26544fccc2857563aa985a853a4e7204091e9f89fec84df9e72bea1764e"
+    },
+    {
+      "path": "res/flag(com.android.documentsui.flags.use_material3)/drawable/vector_drawable_progress_indeterminate_horizontal_trimmed_m3.xml",
+      "gitBlobSha1": "c8d899ff7e27c2f179b55ad9c6af91f976827832",
+      "sha256": "6c8d7a3545d0b073fb56ba7232806fd1b5d336d6e19e3b22ae52d36f5bd52ac3"
+    },
+    {
+      "path": "res/interpolator/progress_indeterminate_horizontal_rect1_scalex.xml",
+      "gitBlobSha1": "39efe849488c7ddd0499ed2c60592884eb066fc8",
+      "sha256": "873ccbf0440ba063c776aee4b78de3d7553102372dbb4e079aece47644697bbe"
+    },
+    {
+      "path": "res/interpolator/progress_indeterminate_horizontal_rect1_translatex.xml",
+      "gitBlobSha1": "46e0777417fb71cc8c3cb00065b82f778ad21254",
+      "sha256": "b1d491d587c92a77d257ae123e073ecdf596548c723d4636e079b444a06e0a87"
+    },
+    {
+      "path": "res/interpolator/progress_indeterminate_horizontal_rect2_scalex.xml",
+      "gitBlobSha1": "34ebe070fe46c45687082c0113bce67cc643bdd9",
+      "sha256": "f81faf1348e15eb06f2e5d1a62c721ffe655b89561c0dd6fa97c57d2e45230e1"
+    },
+    {
+      "path": "res/interpolator/progress_indeterminate_horizontal_rect2_translatex.xml",
+      "gitBlobSha1": "d740e0137dd3291ba032931a43300f87089d83d3",
+      "sha256": "6db91321dd8a9102ceec37e77e889951a21003c3d7355659f0bb71cd87866561"
+    }
+  ],
+  "resourceFilesCompiled": 8,
+  "sdkApi": 37,
+  "cases": [
+    {
+      "flag": "true",
+      "testFlagReadOnly": true,
+      "flaggedAvdInLinkedTable": true,
+      "unflaggedBaseAnimatorInLinkedTable": true,
+      "linkedResourceBankSha256": "395c3f5a3e0447ebd3521a338fa35d43d39eefa5c6cb7d389a0d0763d5bab03d"
+    },
+    {
+      "flag": "false",
+      "testFlagReadOnly": true,
+      "flaggedAvdInLinkedTable": false,
+      "unflaggedBaseAnimatorInLinkedTable": true,
+      "linkedResourceBankSha256": "704c894d6efa37b89ac042bf7561da5e143816aea3353c041bc085aaf60f9123"
+    }
+  ],
+  "aapt2Sha256": "4b09f89d449cc4498fcf5076a4ad6b28f079e565d2737f7881a674580960c8df",
+  "sdkJarSha256": "bf1b4387cc7ca94fc6ef684f040d9d16fbf16248e181819f020736ea2053f177",
+  "scope": "Actual source resource compile/link and table inspection with native feature flag true/false. A flag directory shares unflagged animator/interpolator dependencies within the resource root.",
+  "toolingObservation": "Sandboxed Windows SDK37 aapt2 exited3221225477 without diagnostics. The source compiler/linker is run outside the sandbox using explicit original resource files, relative paths and directory output; the directory scanner omitted flagged paths. Read-only true/false values are controlled test inputs, not claims about the installed product flag state.",
+  "fullPinnedDocumentsUiSoongBuild": "NOT RUN",
+  "androidExecution": "NOT RUN",
+  "installableApplicationProduced": false,
+  "hardwareActions": "NONE"
+}

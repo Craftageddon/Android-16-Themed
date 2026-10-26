@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "a2a2a892383a889f83e9955640efb030dd965a1269f95370d2c8d74195ab4973"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-26T16:53:35+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "bd1b2b417447c08cdad3e2966cf7a4a624671a767486405d64fe0734d5000c0d",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-26T16:53:35+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "791a18d307050d1047ebce6369c3ecc280f331e8865c9d94134936c2192390b9",
+      "independence": null,
+      "method": "Distinct ledger/source-byte and state-bitmask verification, resource-path provenance, actual AndroidX parser/canMorph execution, actual SDK37 original-resource compilation/linking/table inspection with read-only flag true/false, parameterized path resolution, prior master/archive hashes.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-26T16:53:34+00:00",
+  "project": "22-native-contract-review",
+  "schema": 1,
+  "status": "V2_PASS"
+}
