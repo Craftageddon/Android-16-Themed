@@ -1,0 +1,77 @@
+[
+  {
+    "id": "ayn_gate",
+    "size": [
+      120,
+      120
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2,
+      3
+    ],
+    "productionTextBaked": false,
+    "dynamicDataBaked": false,
+    "nativeFamily": "cg_ayn_gate",
+    "purpose": "Outer120dp stick gate; preserve actual native circle56dp and live crosshair/clamped dot geometry. No center-position illustration is baked into this frame."
+  },
+  {
+    "id": "ayn_dot",
+    "size": [
+      20,
+      20
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2,
+      3
+    ],
+    "productionTextBaked": false,
+    "dynamicDataBaked": false,
+    "nativeFamily": "cg_ayn_dot",
+    "purpose": "Position ornament centered by the actual source clamp; visible cold radius8dp including stroke. Travel and raw/calibrated identity remain native."
+  },
+  {
+    "id": "ayn_rgb_thumb",
+    "size": [
+      36,
+      36
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "exportScales": [
+      1,
+      2,
+      3
+    ],
+    "productionTextBaked": false,
+    "dynamicDataBaked": false,
+    "nativeFamily": "cg_ayn_rgb_thumb",
+    "purpose": "Cold36dp thumb housing. A live native flat RGB channel swatch is drawn separately; gesture glow uses neutral masks."
+  }
+]

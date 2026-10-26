@@ -1,0 +1,6 @@
+CHECK: V1
+RESULT: PASS
+SCOPE: Work-in-progress exact-source AynParts calibration/RGB presentation adaptation; not a completed OS/Thor review or target-device release.
+METHOD: Roadmap and component-family source inspection
+OBSERVATIONS: All seven real calibration phases and actual RGB widget/owner roles map to cold steel and separate neutral masks; live values, phase/cancel/confirm/hardware logic are preserved. Six native frame/control treatments, source patch and unresolved full goal scope are explicit.
+Target Android integration, physical device rendering, final accessibility and performance are NOT RUN.

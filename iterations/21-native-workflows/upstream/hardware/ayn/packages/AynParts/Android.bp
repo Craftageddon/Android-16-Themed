@@ -1,0 +1,48 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "AynParts",
+    defaults: ["SettingsLibDefaults"],
+
+    srcs: ["src/**/*.kt"],
+
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+
+    static_libs: [
+        "androidx.activity_activity-compose",
+        "androidx.compose.foundation_foundation",
+        "androidx.compose.foundation_foundation-layout",
+        "androidx.compose.material3_material3",
+        "androidx.compose.runtime_runtime",
+        "androidx.compose.ui_ui",
+        "androidx.compose.ui_ui-graphics",
+        "androidx.compose.ui_ui-geometry",
+        "androidx.compose.ui_ui-unit",
+        "androidx.compose.animation_animation",
+        "androidx.compose.animation_animation-core",
+        "androidx.core_core",
+        "androidx.lifecycle_lifecycle-viewmodel-compose",
+        "androidx.lifecycle_lifecycle-runtime-compose",
+        "androidx.preference_preference",
+        "kotlinx_coroutines",
+        "org.lineageos.platform.internal",
+        "org.lineageos.settings.resources",
+    ],
+
+    required: [
+        "moorechip_gamepad_idc",
+        "moorechip_gamepad_kl",
+        "ueventd.ayn.rc",
+    ],
+
+    optimize: {
+        optimize: true,
+        proguard_flags_files: ["proguard.flags"],
+        shrink_resources: true,
+    },
+}

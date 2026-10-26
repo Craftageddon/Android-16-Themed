@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "c72087abc409ea5611d850547d72cf745292b0b4b7d5222f5e5f2f29e3563cf3"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-26T15:37:24+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "b506995fa8efd3f7efa25266012133550ebb6fb5568eed836ef788ed6fbba101",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-26T15:37:24+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "2b5c37b894bb94882a16330ac8f3e4d69b2de379a851744b48e18b5290996014",
+      "independence": null,
+      "method": "Clean patch application and exact changed-file parity; source Git blob/SHA256 hashes;14 actual Kotlin and4 Java source compilations, source-pinned Material/AppCompat/Preference libraries, compile-only resource symbols,128 state cases, native resource compile/link, marker/cap/alpha/neutral-mask checks, cold input contrast, source callback/geometry preservation, actual pinned slider cloning bytecode, English/UTF8 workflow fixture checks.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-26T15:37:24+00:00",
+  "project": "21-native-workflows",
+  "schema": 1,
+  "status": "V2_PASS"
+}

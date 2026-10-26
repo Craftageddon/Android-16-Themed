@@ -1,4 +1,4 @@
-[Latest semantic review and artwork checkpoint](iterations/20-semantic-review/README.md) —70 layered master files,210 resolved tentative reuse decisions,20 app/component role bindings and complete source-byte acquisition. The wider family review and7 owner adaptation groups remain open. [Earlier source audit](iterations/19-os-resource-audit/VISUAL_GAPS.md).
+[Latest AYN owner adaptation checkpoint](iterations/21-native-workflows/README.md) — actual seven-phase calibration and RGB presentation source, separate steel/light resources,14 real Kotlin and4 Java compilations,11 source-backed workflow fixtures. The wider10,553 family decisions and5 unauthored workflow groups remain open; native/runtime acceptance is not claimed. [Semantic/reuse checkpoint20](iterations/20-semantic-review/README.md).
 
 # Current Forge visual and native checkpoints
 

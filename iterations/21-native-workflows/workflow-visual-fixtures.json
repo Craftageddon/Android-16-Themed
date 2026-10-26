@@ -1,0 +1,1563 @@
+[
+  {
+    "id": "calibration-intro",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-01",
+      "phase": "Intro",
+      "readyToAdvance": false,
+      "samplePresent": true,
+      "pointInputs": [],
+      "owner": "CalibrationScreen -> PhaseIntroScreen / CalibrationPhaseScreen / TestScreen -> StickVisualizer",
+      "actualPhaseAndHardwareOwnersUnmodified": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Joystick calibration",
+        "position": [
+          480,
+          66
+        ],
+        "size": 28,
+        "anchor": "middle"
+      },
+      {
+        "text": "This wizard will calibrate your analog sticks:",
+        "position": [
+          480,
+          114
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "1. Center \u2014 leave both sticks relaxed",
+        "position": [
+          480,
+          146
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "2\u20133. Range \u2014 rotate each stick in full circles",
+        "position": [
+          480,
+          170
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "4\u20135. Deadzone \u2014 pull and release each stick several times",
+        "position": [
+          480,
+          194
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Next becomes available when enough data is collected. Choose Next to continue.",
+        "position": [
+          480,
+          226
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Start",
+        "position": [
+          480.0,
+          308
+        ],
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "text": "Cancel",
+        "position": [
+          480.0,
+          376
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          432,
+          274,
+          96,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_rf_field",
+        "bounds": [
+          424,
+          342,
+          112,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      }
+    ]
+  },
+  {
+    "id": "calibration-center-no-sample",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-01",
+      "phase": "Center",
+      "readyToAdvance": false,
+      "samplePresent": false,
+      "pointInputs": null,
+      "owner": "CalibrationScreen -> PhaseIntroScreen / CalibrationPhaseScreen / TestScreen -> StickVisualizer",
+      "actualPhaseAndHardwareOwnersUnmodified": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Step 1: Center",
+        "position": [
+          480,
+          66
+        ],
+        "size": 28,
+        "anchor": "middle"
+      },
+      {
+        "text": "Leave both sticks centered and relaxed. Next becomes available once readings are stable.",
+        "position": [
+          480,
+          110
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Next",
+        "position": [
+          480.0,
+          414
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          432,
+          380,
+          96,
+          56
+        ],
+        "state": "disabled",
+        "emissionStrength": 1
+      }
+    ]
+  },
+  {
+    "id": "calibration-center-collecting",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-01",
+      "phase": "Center",
+      "readyToAdvance": false,
+      "samplePresent": true,
+      "pointInputs": [
+        [
+          0.035,
+          -0.02
+        ],
+        [
+          -0.025,
+          0.01
+        ]
+      ],
+      "owner": "CalibrationScreen -> PhaseIntroScreen / CalibrationPhaseScreen / TestScreen -> StickVisualizer",
+      "actualPhaseAndHardwareOwnersUnmodified": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Step 1: Center",
+        "position": [
+          480,
+          66
+        ],
+        "size": 28,
+        "anchor": "middle"
+      },
+      {
+        "text": "Leave both sticks centered and relaxed. Next becomes available once readings are stable.",
+        "position": [
+          480,
+          110
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Next",
+        "position": [
+          480.0,
+          414
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          348,
+          205,
+          120,
+          120
+        ],
+        "state": "on",
+        "emissionStrength": 0.04031128874149275
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          399.68,
+          254.04000000000002,
+          20,
+          20
+        ],
+        "state": "on",
+        "emissionStrength": 0.04031128874149275,
+        "actualInput": [
+          0.035,
+          -0.02
+        ],
+        "sourceDotCenter": [
+          409.68,
+          264.04
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Left stick"
+      },
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          492,
+          205,
+          120,
+          120
+        ],
+        "state": "on",
+        "emissionStrength": 0.02692582403567252
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          540.8,
+          255.48000000000002,
+          20,
+          20
+        ],
+        "state": "on",
+        "emissionStrength": 0.02692582403567252,
+        "actualInput": [
+          -0.025,
+          0.01
+        ],
+        "sourceDotCenter": [
+          550.8,
+          265.48
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Right stick"
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          432,
+          380,
+          96,
+          56
+        ],
+        "state": "disabled",
+        "emissionStrength": 1
+      }
+    ]
+  },
+  {
+    "id": "calibration-center-ready",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-01",
+      "phase": "Center",
+      "readyToAdvance": true,
+      "samplePresent": true,
+      "pointInputs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "owner": "CalibrationScreen -> PhaseIntroScreen / CalibrationPhaseScreen / TestScreen -> StickVisualizer",
+      "actualPhaseAndHardwareOwnersUnmodified": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Step 1: Center",
+        "position": [
+          480,
+          66
+        ],
+        "size": 28,
+        "anchor": "middle"
+      },
+      {
+        "text": "Leave both sticks centered and relaxed. Next becomes available once readings are stable.",
+        "position": [
+          480,
+          110
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Next",
+        "position": [
+          480.0,
+          414
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          348,
+          205,
+          120,
+          120
+        ],
+        "state": "off",
+        "emissionStrength": 0.0
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          398,
+          255,
+          20,
+          20
+        ],
+        "state": "off",
+        "emissionStrength": 0.0,
+        "actualInput": [
+          0,
+          0
+        ],
+        "sourceDotCenter": [
+          408,
+          265
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Left stick"
+      },
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          492,
+          205,
+          120,
+          120
+        ],
+        "state": "off",
+        "emissionStrength": 0.0
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          542,
+          255,
+          20,
+          20
+        ],
+        "state": "off",
+        "emissionStrength": 0.0,
+        "actualInput": [
+          0,
+          0
+        ],
+        "sourceDotCenter": [
+          552,
+          265
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Right stick"
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          432,
+          380,
+          96,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      }
+    ]
+  },
+  {
+    "id": "calibration-range-left",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-01",
+      "phase": "RangeLeft",
+      "readyToAdvance": false,
+      "samplePresent": true,
+      "pointInputs": [
+        [
+          1,
+          1
+        ]
+      ],
+      "owner": "CalibrationScreen -> PhaseIntroScreen / CalibrationPhaseScreen / TestScreen -> StickVisualizer",
+      "actualPhaseAndHardwareOwnersUnmodified": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Step 2: Left stick range",
+        "position": [
+          480,
+          66
+        ],
+        "size": 28,
+        "anchor": "middle"
+      },
+      {
+        "text": "Slowly rotate the left stick in full circles, reaching all extremes. Next becomes available once enough range",
+        "position": [
+          480,
+          110
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "is detected.",
+        "position": [
+          480,
+          134
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Next",
+        "position": [
+          480.0,
+          414
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          420,
+          205,
+          120,
+          120
+        ],
+        "state": "on",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          503.9411254969543,
+          288.94112549695427,
+          20,
+          20
+        ],
+        "state": "on",
+        "emissionStrength": 1,
+        "actualInput": [
+          1,
+          1
+        ],
+        "sourceDotCenter": [
+          513.9411254969543,
+          298.94112549695427
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Left stick"
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          432,
+          380,
+          96,
+          56
+        ],
+        "state": "disabled",
+        "emissionStrength": 1
+      }
+    ]
+  },
+  {
+    "id": "calibration-range-right",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-01",
+      "phase": "RangeRight",
+      "readyToAdvance": true,
+      "samplePresent": true,
+      "pointInputs": [
+        [
+          0.6,
+          -0.8
+        ]
+      ],
+      "owner": "CalibrationScreen -> PhaseIntroScreen / CalibrationPhaseScreen / TestScreen -> StickVisualizer",
+      "actualPhaseAndHardwareOwnersUnmodified": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Step 3: Right stick range",
+        "position": [
+          480,
+          66
+        ],
+        "size": 28,
+        "anchor": "middle"
+      },
+      {
+        "text": "Slowly rotate the right stick in full circles, reaching all extremes. Next becomes available once enough range",
+        "position": [
+          480,
+          110
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "is detected.",
+        "position": [
+          480,
+          134
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Next",
+        "position": [
+          480.0,
+          414
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          420,
+          205,
+          120,
+          120
+        ],
+        "state": "on",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          498.8,
+          216.6,
+          20,
+          20
+        ],
+        "state": "on",
+        "emissionStrength": 1,
+        "actualInput": [
+          0.6,
+          -0.8
+        ],
+        "sourceDotCenter": [
+          508.8,
+          226.6
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Right stick"
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          432,
+          380,
+          96,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      }
+    ]
+  },
+  {
+    "id": "calibration-deadzone-left",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-01",
+      "phase": "DeadzoneLeft",
+      "readyToAdvance": false,
+      "samplePresent": true,
+      "pointInputs": [
+        [
+          0.05,
+          -0.03
+        ]
+      ],
+      "owner": "CalibrationScreen -> PhaseIntroScreen / CalibrationPhaseScreen / TestScreen -> StickVisualizer",
+      "actualPhaseAndHardwareOwnersUnmodified": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Step 4: Left stick deadzone",
+        "position": [
+          480,
+          66
+        ],
+        "size": 28,
+        "anchor": "middle"
+      },
+      {
+        "text": "Pull the left stick to the edge and release it. Repeat at least 3 times from different directions. Next becomes",
+        "position": [
+          480,
+          110
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "available once enough settle data is collected.",
+        "position": [
+          480,
+          134
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Next",
+        "position": [
+          480.0,
+          414
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          420,
+          205,
+          120,
+          120
+        ],
+        "state": "on",
+        "emissionStrength": 0.05830951894845301
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          472.4,
+          253.56,
+          20,
+          20
+        ],
+        "state": "on",
+        "emissionStrength": 0.05830951894845301,
+        "actualInput": [
+          0.05,
+          -0.03
+        ],
+        "sourceDotCenter": [
+          482.4,
+          263.56
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Left stick"
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          432,
+          380,
+          96,
+          56
+        ],
+        "state": "disabled",
+        "emissionStrength": 1
+      }
+    ]
+  },
+  {
+    "id": "calibration-deadzone-right",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-01",
+      "phase": "DeadzoneRight",
+      "readyToAdvance": true,
+      "samplePresent": true,
+      "pointInputs": [
+        [
+          0,
+          0
+        ]
+      ],
+      "owner": "CalibrationScreen -> PhaseIntroScreen / CalibrationPhaseScreen / TestScreen -> StickVisualizer",
+      "actualPhaseAndHardwareOwnersUnmodified": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Step 5: Right stick deadzone",
+        "position": [
+          480,
+          66
+        ],
+        "size": 28,
+        "anchor": "middle"
+      },
+      {
+        "text": "Pull the right stick to the edge and release it. Repeat at least 3 times from different directions. Next",
+        "position": [
+          480,
+          110
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "becomes available once enough settle data is collected.",
+        "position": [
+          480,
+          134
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Next",
+        "position": [
+          480.0,
+          414
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          420,
+          205,
+          120,
+          120
+        ],
+        "state": "off",
+        "emissionStrength": 0.0
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          470,
+          255,
+          20,
+          20
+        ],
+        "state": "off",
+        "emissionStrength": 0.0,
+        "actualInput": [
+          0,
+          0
+        ],
+        "sourceDotCenter": [
+          480,
+          265
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Right stick"
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          432,
+          380,
+          96,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      }
+    ]
+  },
+  {
+    "id": "calibration-test-calibration",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-01",
+      "phase": "Test",
+      "readyToAdvance": true,
+      "samplePresent": true,
+      "pointInputs": [
+        [
+          0.04,
+          -0.02
+        ],
+        [
+          -0.035,
+          0.025
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "owner": "CalibrationScreen -> PhaseIntroScreen / CalibrationPhaseScreen / TestScreen -> StickVisualizer",
+      "actualPhaseAndHardwareOwnersUnmodified": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Test calibration",
+        "position": [
+          480,
+          54
+        ],
+        "size": 28,
+        "anchor": "middle"
+      },
+      {
+        "text": "Compare before and after. The calibrated sticks should center cleanly and reach all edges.",
+        "position": [
+          480,
+          86
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Before (raw)",
+        "position": [
+          480,
+          130
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "After (calibrated)",
+        "position": [
+          480,
+          300
+        ],
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "text": "Retry",
+        "position": [
+          748.0,
+          494
+        ],
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "text": "Accept",
+        "position": [
+          864.0,
+          494
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          348,
+          145,
+          120,
+          120
+        ],
+        "state": "on",
+        "emissionStrength": 0.044721359549995794
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          399.92,
+          194.04,
+          20,
+          20
+        ],
+        "state": "on",
+        "emissionStrength": 0.044721359549995794,
+        "actualInput": [
+          0.04,
+          -0.02
+        ],
+        "sourceDotCenter": [
+          409.92,
+          204.04
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Left stick"
+      },
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          492,
+          145,
+          120,
+          120
+        ],
+        "state": "on",
+        "emissionStrength": 0.04301162633521314
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          540.32,
+          196.2,
+          20,
+          20
+        ],
+        "state": "on",
+        "emissionStrength": 0.04301162633521314,
+        "actualInput": [
+          -0.035,
+          0.025
+        ],
+        "sourceDotCenter": [
+          550.32,
+          206.2
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Right stick"
+      },
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          348,
+          315,
+          120,
+          120
+        ],
+        "state": "off",
+        "emissionStrength": 0.0
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          398,
+          365,
+          20,
+          20
+        ],
+        "state": "off",
+        "emissionStrength": 0.0,
+        "actualInput": [
+          0,
+          0
+        ],
+        "sourceDotCenter": [
+          408,
+          375
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Left stick"
+      },
+      {
+        "family": "cg_ayn_gate",
+        "bounds": [
+          492,
+          315,
+          120,
+          120
+        ],
+        "state": "off",
+        "emissionStrength": 0.0
+      },
+      {
+        "family": "cg_ayn_dot",
+        "bounds": [
+          542,
+          365,
+          20,
+          20
+        ],
+        "state": "off",
+        "emissionStrength": 0.0,
+        "actualInput": [
+          0,
+          0
+        ],
+        "sourceDotCenter": [
+          552,
+          375
+        ],
+        "nativeDotRadius": 8,
+        "accessibleLabel": "Right stick"
+      },
+      {
+        "family": "cg_rf_field",
+        "bounds": [
+          692,
+          460,
+          112,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          816,
+          460,
+          96,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      }
+    ]
+  },
+  {
+    "id": "rgb-idle",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-02",
+      "owner": "RGBPreference -> actual dialog_rgb_sliders IDs",
+      "channels": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "sourceSteps": [
+        5,
+        5,
+        5,
+        17
+      ],
+      "draggedChannelIndex": null,
+      "liveApplyConfirmCancelBodiesUnmodified": true,
+      "trackAndFlatSwatchColorsRemainData": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "RGB lighting",
+        "position": [
+          236,
+          66
+        ],
+        "size": 25,
+        "anchor": "start"
+      },
+      {
+        "text": "Red",
+        "position": [
+          236,
+          102
+        ],
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Green",
+        "position": [
+          236,
+          188
+        ],
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Blue",
+        "position": [
+          236,
+          274
+        ],
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Brightness",
+        "position": [
+          236,
+          360
+        ],
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Cancel",
+        "position": [
+          568.0,
+          490
+        ],
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "text": "OK",
+        "position": [
+          680.0,
+          490
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_rf_panel",
+        "bounds": [
+          200,
+          24,
+          560,
+          500
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_ayn_rgb_thumb",
+        "bounds": [
+          688.0,
+          114,
+          36,
+          36
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_ayn_rgb_thumb",
+        "bounds": [
+          688.0,
+          200,
+          36,
+          36
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_ayn_rgb_thumb",
+        "bounds": [
+          688.0,
+          286,
+          36,
+          36
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_ayn_rgb_thumb",
+        "bounds": [
+          688.0,
+          372,
+          36,
+          36
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          520,
+          456,
+          96,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          632,
+          456,
+          96,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      }
+    ]
+  },
+  {
+    "id": "rgb-green-dragged",
+    "fixtureOnly": true,
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "deviceScreenshot": false,
+    "sourceMapping": {
+      "group": "W-02",
+      "owner": "RGBPreference -> actual dialog_rgb_sliders IDs",
+      "channels": [
+        255,
+        95,
+        20,
+        170
+      ],
+      "sourceSteps": [
+        5,
+        5,
+        5,
+        17
+      ],
+      "draggedChannelIndex": 1,
+      "liveApplyConfirmCancelBodiesUnmodified": true,
+      "trackAndFlatSwatchColorsRemainData": true
+    },
+    "text": [
+      {
+        "text": "Source-backed visual fixture / sample values / not a device screenshot",
+        "position": [
+          24,
+          564
+        ],
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "RGB lighting",
+        "position": [
+          236,
+          66
+        ],
+        "size": 25,
+        "anchor": "start"
+      },
+      {
+        "text": "Red",
+        "position": [
+          236,
+          102
+        ],
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Green",
+        "position": [
+          236,
+          188
+        ],
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "95",
+        "position": [
+          422.3921568627451,
+          186
+        ],
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "text": "Blue",
+        "position": [
+          236,
+          274
+        ],
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Brightness",
+        "position": [
+          236,
+          360
+        ],
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Cancel",
+        "position": [
+          568.0,
+          490
+        ],
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "text": "OK",
+        "position": [
+          680.0,
+          490
+        ],
+        "size": 16,
+        "anchor": "middle"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_rf_panel",
+        "bounds": [
+          200,
+          24,
+          560,
+          500
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_ayn_rgb_thumb",
+        "bounds": [
+          688.0,
+          114,
+          36,
+          36
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_ayn_rgb_thumb",
+        "bounds": [
+          404.3921568627451,
+          200,
+          36,
+          36
+        ],
+        "state": "active_pressed",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_ayn_rgb_thumb",
+        "bounds": [
+          271.45098039215685,
+          286,
+          36,
+          36
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_ayn_rgb_thumb",
+        "bounds": [
+          537.3333333333333,
+          372,
+          36,
+          36
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          520,
+          456,
+          96,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      },
+      {
+        "family": "cg_rf_button",
+        "bounds": [
+          632,
+          456,
+          96,
+          56
+        ],
+        "state": "off",
+        "emissionStrength": 1
+      }
+    ]
+  }
+]

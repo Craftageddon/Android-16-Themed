@@ -1,0 +1,986 @@
+[
+  {
+    "path": "hardware/ayn/packages/AynParts/Android.bp",
+    "kind": "modified",
+    "sha256": "c8c9b9b43ee40a5f3ebca26575ebdfd7ae86dc8591fe3f028eb060273372762d",
+    "bytes": 1383
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_cold.9.png",
+    "kind": "new",
+    "sha256": "70a6e3fd7a81db8082358c5e31d6156e8b407e954e361984570a2805ad154e04",
+    "bytes": 7865
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_core.9.png",
+    "kind": "new",
+    "sha256": "9e2a084ddee09c0120fdec752b610d4a77b0fa4c7c85f2fb84ff9375f3f4adee",
+    "bytes": 453
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_focus.9.png",
+    "kind": "new",
+    "sha256": "ee3df5abe5e81f9405d919c283a374fa2f28f7e0f566cfebbd9c644e0fea8d3c",
+    "bytes": 726
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_reflection.9.png",
+    "kind": "new",
+    "sha256": "269750e91475b4fab0d6ba1d75611795b3922afefa7188d125098a08b0216e60",
+    "bytes": 753
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_seam.9.png",
+    "kind": "new",
+    "sha256": "67e6da482103701ba55dc118ec7b42a9f7ca77a231f63600face6c170a8929a4",
+    "bytes": 636
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_spill.9.png",
+    "kind": "new",
+    "sha256": "e7bf1de4eff3ab2fe834bce57ccc7175b5c584a7a2094d9905b4eac15313d9c8",
+    "bytes": 1035
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_symbol.9.png",
+    "kind": "new",
+    "sha256": "288455e4c89c5dd155e660614a38c1b8cb0761c4931f96d8a61096001a7b65a1",
+    "bytes": 356
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_cold.9.png",
+    "kind": "new",
+    "sha256": "6f7c02f13b0b02e48e3eafc2f40e198ec9abf895e214d1dc7cfdd4e8eae1702f",
+    "bytes": 8373
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_core.9.png",
+    "kind": "new",
+    "sha256": "cf1615facc43b93c6ba2fc712b2da0b84e8e3e96a62d36658cdfc428581396f2",
+    "bytes": 475
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_focus.9.png",
+    "kind": "new",
+    "sha256": "03262af6dcb4dd51cc83d2b148534c368b9357aac48064f45c473cd5131f8f02",
+    "bytes": 738
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_reflection.9.png",
+    "kind": "new",
+    "sha256": "01eb6597c55cb04894cb3efdacd211fae965ecec36ccd2cf234768cb0b887d30",
+    "bytes": 769
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_seam.9.png",
+    "kind": "new",
+    "sha256": "00818286c646c12d44367f706d596e3376039d8ab0ed315685d8a88ee5f64e85",
+    "bytes": 647
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_spill.9.png",
+    "kind": "new",
+    "sha256": "0b5af581f160750f99ec9c8c79af662a44adeab007ed81996dc2a8e2b4f82ada",
+    "bytes": 1039
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_symbol.9.png",
+    "kind": "new",
+    "sha256": "e260160f77fd7b06610639ffbbb382fdf4a9024f27dda9b00e26eed8e5e15b12",
+    "bytes": 365
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_cold.9.png",
+    "kind": "new",
+    "sha256": "e3076e74753e29272e618c84ac8bd7a337e6d0b406a1a3c26dc0d0d11d87d10e",
+    "bytes": 10584
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_core.9.png",
+    "kind": "new",
+    "sha256": "624a1e28204e082255282dc9b49b5ebdf402c61d7e42229f9c61fb3edbd8b7dd",
+    "bytes": 613
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_focus.9.png",
+    "kind": "new",
+    "sha256": "00e91776b5213014cf4a34cb52b74daa20a5eda11a6afedf2f83d17dc1099cb8",
+    "bytes": 880
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_reflection.9.png",
+    "kind": "new",
+    "sha256": "a3c6ba291f6bd3091fe4c6080b71a29055ac9adda727a193fe2ac6fd37d8b1b8",
+    "bytes": 913
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_seam.9.png",
+    "kind": "new",
+    "sha256": "ded9b78deeea4291eebfa08248f1c0b736a350fa11a90deea1d9b51c30003d9b",
+    "bytes": 786
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_spill.9.png",
+    "kind": "new",
+    "sha256": "53be8456098528c4bb9835735b5027ade43348a9eccacbe016eed0e2d86e3da7",
+    "bytes": 1182
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_symbol.9.png",
+    "kind": "new",
+    "sha256": "52e347d0d4e26a79ccf4d8c2088fc707b8befab9e50e347b13b004aaebb3b0cd",
+    "bytes": 487
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_dot_cold.png",
+    "kind": "new",
+    "sha256": "da3efb39f79a4fd4446d6ad33c48574c9425eb5ad16cf35ff41adf6a88557e03",
+    "bytes": 694
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_dot_core.png",
+    "kind": "new",
+    "sha256": "f8e3c2be5c643232248d17296a3a17422718952e6aa529afe9a94dbbab11d3a3",
+    "bytes": 244
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_dot_focus.png",
+    "kind": "new",
+    "sha256": "879de27f80c03f19c30a4f19662f0609490b2c745d2d1f17909e330abf889e36",
+    "bytes": 79
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_dot_reflection.png",
+    "kind": "new",
+    "sha256": "fb82d4a4b67e896a8897340d64d0e17601c472f6fbc8b0b5bf15cf02e0a5d71e",
+    "bytes": 452
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_dot_seam.png",
+    "kind": "new",
+    "sha256": "7a1ed4b0abbe2587d6a136a56f56e22dcc2aaa5ad98d5c8c316fba38b1730f2a",
+    "bytes": 297
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_dot_spill.png",
+    "kind": "new",
+    "sha256": "1b17b171c72c644756f1c0332ead4f9151c92521de066124d0c09afabfea5b43",
+    "bytes": 474
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_dot_symbol.png",
+    "kind": "new",
+    "sha256": "879de27f80c03f19c30a4f19662f0609490b2c745d2d1f17909e330abf889e36",
+    "bytes": 79
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_gate_cold.png",
+    "kind": "new",
+    "sha256": "91bf40527a30a730a6762142835e97a54daa4d9350d52071d699edf56580e312",
+    "bytes": 8680
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_gate_core.png",
+    "kind": "new",
+    "sha256": "baa8c37ac345dcf3bb3245ff1ad719926b8bcad1e08c4339eb7598b5acf93886",
+    "bytes": 1574
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_gate_focus.png",
+    "kind": "new",
+    "sha256": "0a436864f14538afad1f006a2fd5eba41a43c8ae302ea8064bd246896f031bab",
+    "bytes": 303
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_gate_reflection.png",
+    "kind": "new",
+    "sha256": "f5753163f81390583c07407f45eab2d0141f834e6160b3d5ce3b963cf38b00a7",
+    "bytes": 3397
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_gate_seam.png",
+    "kind": "new",
+    "sha256": "6abcbb6d1f3e47994d468d1ec7b5ca7a5d910f81b9aa026506318f287964b0b2",
+    "bytes": 1659
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_gate_spill.png",
+    "kind": "new",
+    "sha256": "bd069d2eedde9a78f5f6691a3a250929f2e49ebb15fe5fd7b5f93e1815141174",
+    "bytes": 4176
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_gate_symbol.png",
+    "kind": "new",
+    "sha256": "e83be5e68c436bcaa3bb5c1575c2a35dc382f39e5a362dc2e21c79646ebc617c",
+    "bytes": 173
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_rgb_thumb_cold.png",
+    "kind": "new",
+    "sha256": "0e7bc4ac69a94de6c4620cd3ba4f1014ba3952e3da14adff6c8020e8adb0ec73",
+    "bytes": 1517
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_rgb_thumb_core.png",
+    "kind": "new",
+    "sha256": "d0fb1d1dbee9696726d4e59c038432175a9692c23f21408b0ff241b824c1e9a2",
+    "bytes": 406
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_rgb_thumb_focus.png",
+    "kind": "new",
+    "sha256": "8e9dbfbce4bf4f69fbd5b48cd41645e34fe5db1adfe5caf056d93a3bc331b1db",
+    "bytes": 85
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_rgb_thumb_reflection.png",
+    "kind": "new",
+    "sha256": "dabc5067028cdc3d7965dd2bfb164a108a296e11c3a51ee6dc018942f58d6eda",
+    "bytes": 814
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_rgb_thumb_seam.png",
+    "kind": "new",
+    "sha256": "b068bbd7e1e3ed2d3f89e44e64ebd70d7d23d6ee462087ae8f58f5a515d44512",
+    "bytes": 455
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_rgb_thumb_spill.png",
+    "kind": "new",
+    "sha256": "6de722553761ad6c2c156e63bf4f6a7b22e87ab4ff6d412bf8a6c931e04edc65",
+    "bytes": 993
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_ayn_rgb_thumb_symbol.png",
+    "kind": "new",
+    "sha256": "8e9dbfbce4bf4f69fbd5b48cd41645e34fe5db1adfe5caf056d93a3bc331b1db",
+    "bytes": 85
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_cold.9.png",
+    "kind": "new",
+    "sha256": "dea4ab24ef563ff8adf3ac8aea00230d0cdd9b48802deddeaebf99b702c33549",
+    "bytes": 3850
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_core.9.png",
+    "kind": "new",
+    "sha256": "f91bea5b2bb7970094c72fd80dace660d9b62e1940daed3d01fe6744a52adeb1",
+    "bytes": 441
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_focus.9.png",
+    "kind": "new",
+    "sha256": "37a65d72fb931f4cf2184ff01690afee213eb06b673f7258cfe07de567664c7d",
+    "bytes": 531
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_reflection.9.png",
+    "kind": "new",
+    "sha256": "1a8b80c7e4a435f6332e660dc75ddf3c29b0ebf90636bd7c7c0e033299660b4a",
+    "bytes": 492
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_seam.9.png",
+    "kind": "new",
+    "sha256": "3516b9708773eafb4e1c4adf869e6fd4ede35aed934c7747b55ae6008d69d222",
+    "bytes": 403
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_spill.9.png",
+    "kind": "new",
+    "sha256": "1dbea08b9c4165527dbbad3fa3d6251c2e862004e463a37fe1f2206686123a18",
+    "bytes": 561
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_symbol.9.png",
+    "kind": "new",
+    "sha256": "dba4b7cea93f1313fd442afcee0e3af2d204f8fa2774bb01c2fa7569a6807d0d",
+    "bytes": 248
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_cold.9.png",
+    "kind": "new",
+    "sha256": "2ff580a925a948b512889b468462f8c6c18c26a4b59e29a1ccf850b000f663ae",
+    "bytes": 4037
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_core.9.png",
+    "kind": "new",
+    "sha256": "a81048180b6ac48efa80d34f96d16a5f7260f4c40dc7853d5dab36abdb2eaf64",
+    "bytes": 444
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_focus.9.png",
+    "kind": "new",
+    "sha256": "5a9d4c8a6f259238e0f96213debd5cf0d6e081868799e282e2f7c17d701ff41b",
+    "bytes": 534
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_reflection.9.png",
+    "kind": "new",
+    "sha256": "a5a75d65fbf9f5eb78209868af3135c0231957612c0406615276e082b6178551",
+    "bytes": 489
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_seam.9.png",
+    "kind": "new",
+    "sha256": "446b3c0e2071534fcd639a397c3bbb81371f378f608b5733ae61a05641cac04c",
+    "bytes": 403
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_spill.9.png",
+    "kind": "new",
+    "sha256": "3b53112153a10f0abb2c6d6bb108c7449b5858bff87991ed2774ea7b6dcded76",
+    "bytes": 564
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_symbol.9.png",
+    "kind": "new",
+    "sha256": "8a26de87de4ce1286af2b3b8a60e4d7202de642b1419d9d10542f3f96c598a51",
+    "bytes": 249
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_cold.9.png",
+    "kind": "new",
+    "sha256": "33854bb819477c7c14b0d8d303e97348d38d222a567b85e6a87a1ec8ee5c799e",
+    "bytes": 4515
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_core.9.png",
+    "kind": "new",
+    "sha256": "80981791afb8e666d95fad980a7d255ee1c0293b03327e8ea266378463751788",
+    "bytes": 542
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_focus.9.png",
+    "kind": "new",
+    "sha256": "0192aec707ab9cecd89448bd1aafa82a7b23a392fe2b933a091ab8ac87a4d9ca",
+    "bytes": 628
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_reflection.9.png",
+    "kind": "new",
+    "sha256": "51a6ec924e6e2cfa63aa6b8d6923f4f3720be77bb169ddb8a8e140000e3f022a",
+    "bytes": 604
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_seam.9.png",
+    "kind": "new",
+    "sha256": "4905fece6af3bbdee6a97744cc6c9b9e03e972b05d0fe8c1c7c140f811462371",
+    "bytes": 515
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_spill.9.png",
+    "kind": "new",
+    "sha256": "c2ee01400bfea0b57d53018585af0880f82a88dd5de1358bbbc0dfeb818ed41f",
+    "bytes": 671
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_symbol.9.png",
+    "kind": "new",
+    "sha256": "5d1b3dabb16fd4cb7e008003837b1645ec2f79aa0f9fcf2f0231ac055d888aa1",
+    "bytes": 321
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_dot_cold.png",
+    "kind": "new",
+    "sha256": "a287c6dbc4fee40399d0d8bf51d0d293819658418b0b5dacd65fcc96392a2bbb",
+    "bytes": 1542
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_dot_core.png",
+    "kind": "new",
+    "sha256": "b206a870ebdad2e5d566a8d675b7bcfd2b0b5a27c19484fe12baf7dd50408654",
+    "bytes": 471
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_dot_focus.png",
+    "kind": "new",
+    "sha256": "d485e8e336dfddf8477ca3cd8563a84429785a1de8c24730f7fb0f0f9f5ba676",
+    "bytes": 85
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_dot_reflection.png",
+    "kind": "new",
+    "sha256": "c48b30c9d31cc34e9188debc5e582635fc472e184db790683d2e8db2a3ebbd67",
+    "bytes": 1076
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_dot_seam.png",
+    "kind": "new",
+    "sha256": "9db475abce8cb2ba565dc2066381335883eaf842f3e79e96028c5f5454e801a7",
+    "bytes": 406
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_dot_spill.png",
+    "kind": "new",
+    "sha256": "be38ab8c6821311011f0ca92a95e5d763bbe572669311d4f648d7cc00c68edab",
+    "bytes": 1015
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_dot_symbol.png",
+    "kind": "new",
+    "sha256": "d485e8e336dfddf8477ca3cd8563a84429785a1de8c24730f7fb0f0f9f5ba676",
+    "bytes": 85
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_gate_cold.png",
+    "kind": "new",
+    "sha256": "228a284fb556d931359fc9b46529e1ab4bcab3d86c1cad120712137660f5db2c",
+    "bytes": 24068
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_gate_core.png",
+    "kind": "new",
+    "sha256": "5edb95aad7cd7f1b4ade12c9e4ef1e53170d401a5c806f3b71bdcb724fd8f876",
+    "bytes": 3437
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_gate_focus.png",
+    "kind": "new",
+    "sha256": "fe124e98459202fde13d7e6c21fe1e8f92692b158e2c187d671e644ac4cdcd28",
+    "bytes": 627
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_gate_reflection.png",
+    "kind": "new",
+    "sha256": "3d2fe92aa40740eb5400f5eb5caa6cba5aa55628f96ad5d25a776a8d0bd3e0b2",
+    "bytes": 8649
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_gate_seam.png",
+    "kind": "new",
+    "sha256": "6f6cab05d5dacbd968c4cf137395d76121f5be128eb454ad649b097eb2d5f2e9",
+    "bytes": 2703
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_gate_spill.png",
+    "kind": "new",
+    "sha256": "eeb7c15f0e112d377755716fadf47b5827c3dcbae6bb549fc6fab49fbd9f1311",
+    "bytes": 9479
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_gate_symbol.png",
+    "kind": "new",
+    "sha256": "5ae2b9a5e9f04e4b94f4453a51e2ef92358a71fa8bba56b893d6aa5dd7b3f4a4",
+    "bytes": 372
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_rgb_thumb_cold.png",
+    "kind": "new",
+    "sha256": "91082dff6d0ed23fa219ca29ae2b4d76c1ba996608eec037c57880a5515660e7",
+    "bytes": 3890
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_rgb_thumb_core.png",
+    "kind": "new",
+    "sha256": "7e53cffd574a8cae8c351b7928e0738fc60e548d2175c71ea00b319019dd1e28",
+    "bytes": 729
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_rgb_thumb_focus.png",
+    "kind": "new",
+    "sha256": "e440dba224b2533c4331b4bcbed6663ea62f253365552e02475187bbd47ae807",
+    "bytes": 100
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_rgb_thumb_reflection.png",
+    "kind": "new",
+    "sha256": "8349c3afc256c2be6e96e85d79d1f420747e722df72e651fe4c4a92b4dba3d27",
+    "bytes": 2027
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_rgb_thumb_seam.png",
+    "kind": "new",
+    "sha256": "580aef9b0784478ffb82d4ed2fd4ae818d3f641ac810fc59c6d31bb302bbbb9e",
+    "bytes": 632
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_rgb_thumb_spill.png",
+    "kind": "new",
+    "sha256": "d9213c9bddda4e8ef52851a85224ae934ffca8ae91dfc039e16d444fa0076774",
+    "bytes": 2099
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_ayn_rgb_thumb_symbol.png",
+    "kind": "new",
+    "sha256": "e440dba224b2533c4331b4bcbed6663ea62f253365552e02475187bbd47ae807",
+    "bytes": 100
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_cold.9.png",
+    "kind": "new",
+    "sha256": "c8220352003b28c8d283898321664019a42906b279e7ba9da61e7a13202f1c93",
+    "bytes": 12330
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_core.9.png",
+    "kind": "new",
+    "sha256": "7e8f79266f12df6426ef41a5c9c668af6c26ec076c5ad1f80edd84da821f9e7e",
+    "bytes": 387
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_focus.9.png",
+    "kind": "new",
+    "sha256": "1c05099914511c2549f006aa5478c857f064080463c31d76e42f7cc2fd62fd42",
+    "bytes": 768
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_reflection.9.png",
+    "kind": "new",
+    "sha256": "e532809c49e4300d0ed5ad832bf11670c41b7cbfc95cbb0fc6a07762c1383995",
+    "bytes": 913
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_seam.9.png",
+    "kind": "new",
+    "sha256": "2310ddd589cbd5f18c44d34ab1876687054ed8dfa268c47bb48d652483e149cb",
+    "bytes": 694
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_spill.9.png",
+    "kind": "new",
+    "sha256": "eff85166ef78d73a78768c926b4ada0b6ad8e9874847558b3dbc445d9dd39398",
+    "bytes": 1331
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_symbol.9.png",
+    "kind": "new",
+    "sha256": "56604e1e93fb7ae91bf415b9690b260855f89587da8210ed84246787bd677736",
+    "bytes": 385
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_cold.9.png",
+    "kind": "new",
+    "sha256": "0721cdfbe65cf3dfed10b45b973dfd4b9d590c68a6d6235af4b095d1edadb720",
+    "bytes": 12879
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_core.9.png",
+    "kind": "new",
+    "sha256": "d941d7710ca89dfa01e55761b30495946b50501c5238fb145fb2749b029081ce",
+    "bytes": 425
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_focus.9.png",
+    "kind": "new",
+    "sha256": "1270c8429c13c243f44398a7b4e46c3f92a699ba116fe6efd370410182bd3a11",
+    "bytes": 815
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_reflection.9.png",
+    "kind": "new",
+    "sha256": "2c41998d1807c30e76474255f8424f214d9ee5ceaed7d056419ef9b741e2597d",
+    "bytes": 955
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_seam.9.png",
+    "kind": "new",
+    "sha256": "a2da362994761e400fba6e270306eb60dc525395ca787a91b75af1fe18d78c52",
+    "bytes": 733
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_spill.9.png",
+    "kind": "new",
+    "sha256": "fabc806cbea0da62affd50f9e902c34294dc7af248cd6e19806e1e82a197794f",
+    "bytes": 1376
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_symbol.9.png",
+    "kind": "new",
+    "sha256": "1577d5510e63e06686eb4e19dfdbb09b2e09a7afbae9cf09996b9441835e5b78",
+    "bytes": 433
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_cold.9.png",
+    "kind": "new",
+    "sha256": "5e36e5030567a8a15f5afa454758d407837c29aab1bdafad510286ef287adb1c",
+    "bytes": 16419
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_core.9.png",
+    "kind": "new",
+    "sha256": "93b525b19e3f73858d7b404e67f374bc3b22abe40cc25e1507f054037c036ab6",
+    "bytes": 607
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_focus.9.png",
+    "kind": "new",
+    "sha256": "6e597b7c9399e4d73d311fc1b21a2d2672d174a791009aecdd45126c371926e9",
+    "bytes": 1008
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_reflection.9.png",
+    "kind": "new",
+    "sha256": "b09911d37cca7d7b71f8e6d7fd97159390f367db40b83c51ed6a0b6682d2566f",
+    "bytes": 1151
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_seam.9.png",
+    "kind": "new",
+    "sha256": "ae961d39dddc0862288963d2513d978cc881574c498bf9983da4402b56515b9b",
+    "bytes": 925
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_spill.9.png",
+    "kind": "new",
+    "sha256": "9e1e993c84679fdf06836a180d5336859644461570091febeae6b8906f12c63d",
+    "bytes": 1589
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_symbol.9.png",
+    "kind": "new",
+    "sha256": "c615c3c1c3bc5990dd0575de4ee8f587df3b5b323b553e088fb190a006fae024",
+    "bytes": 617
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_dot_cold.png",
+    "kind": "new",
+    "sha256": "ec2a1a1dd40a339786895da82fd008c543bec47ce4b5e1a19298c639264fac81",
+    "bytes": 2404
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_dot_core.png",
+    "kind": "new",
+    "sha256": "85472d2c2a7a887cb15b99e17cb8945b279d47cfa6d3bf1d22c3f0ff72a0c597",
+    "bytes": 624
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_dot_focus.png",
+    "kind": "new",
+    "sha256": "dcdae3f16e7e80764d689bc3a0cf58d657298bfc392187e3ca26a6018ad47c66",
+    "bytes": 94
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_dot_reflection.png",
+    "kind": "new",
+    "sha256": "9e21e4acc90beae9081ff585cf9c6ef875e260d38283945ffcb181760b8e0430",
+    "bytes": 1797
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_dot_seam.png",
+    "kind": "new",
+    "sha256": "908f991f8f77db8f2176edd384ff9ba61f774c59ac5120409373f2777713fade",
+    "bytes": 574
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_dot_spill.png",
+    "kind": "new",
+    "sha256": "556fc5e90baf96e729fd04a6677283594b9910379e1cc653760b3c6cf13b6a77",
+    "bytes": 1745
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_dot_symbol.png",
+    "kind": "new",
+    "sha256": "dcdae3f16e7e80764d689bc3a0cf58d657298bfc392187e3ca26a6018ad47c66",
+    "bytes": 94
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_gate_cold.png",
+    "kind": "new",
+    "sha256": "cc20bb3ef3d14c5a96047a63c1494c871fda594b76bb5f3419e08049ccc9df10",
+    "bytes": 45396
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_gate_core.png",
+    "kind": "new",
+    "sha256": "ad1b8f35196ae01f328b672894973d0c2c2ff11183f5f22d3cba25790edaccae",
+    "bytes": 5476
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_gate_focus.png",
+    "kind": "new",
+    "sha256": "669734eed13b493ad593dd61f54a92ef1f18d6b59987e6dff9f55798a03f7433",
+    "bytes": 936
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_gate_reflection.png",
+    "kind": "new",
+    "sha256": "f92cb806166201082a4011311a8fa651586a9a85748e45905643069cc56b5358",
+    "bytes": 14275
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_gate_seam.png",
+    "kind": "new",
+    "sha256": "0551aea4aaa7c5612142314487ab20067a62215303109a5a8b7ab81b1826c851",
+    "bytes": 4389
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_gate_spill.png",
+    "kind": "new",
+    "sha256": "53048ce6b5462aa6e1926b186b2e0573928c95aab3d05cf533ba92cc2ad061f6",
+    "bytes": 15900
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_gate_symbol.png",
+    "kind": "new",
+    "sha256": "7372364f10e6c5577f3c1046db512288c73f4b681e67f5f12098e63a6d5aeacc",
+    "bytes": 670
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_rgb_thumb_cold.png",
+    "kind": "new",
+    "sha256": "94da2e468690ae7f3db9d815f294278a120edf70bc149ac6a27f8705abdbb130",
+    "bytes": 6504
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_rgb_thumb_core.png",
+    "kind": "new",
+    "sha256": "c9ed7f5ad2a6f786a44c68d94fe1860baf2a5470251466be136f5514c217c294",
+    "bytes": 1153
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_rgb_thumb_focus.png",
+    "kind": "new",
+    "sha256": "6d90a03ba4ad4d7be1438c2a8d3ecd117094d4bbdf97e38aad112ae4de63ba89",
+    "bytes": 125
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_rgb_thumb_reflection.png",
+    "kind": "new",
+    "sha256": "adae242ad09d0cfe8ceca395bc22a4ed5457e89dc617c6fdf4f9f4988c7646de",
+    "bytes": 3443
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_rgb_thumb_seam.png",
+    "kind": "new",
+    "sha256": "a9215ab5f1425351677419b62a2ecc47eee1683b6e21de598bc893304f6ceea1",
+    "bytes": 1011
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_rgb_thumb_spill.png",
+    "kind": "new",
+    "sha256": "339b391ac593b748e4cbcecdda0edf4d398370b4dc435df5b86a6dd3e036fcd6",
+    "bytes": 3744
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_ayn_rgb_thumb_symbol.png",
+    "kind": "new",
+    "sha256": "6d90a03ba4ad4d7be1438c2a8d3ecd117094d4bbdf97e38aad112ae4de63ba89",
+    "bytes": 125
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_cold.9.png",
+    "kind": "new",
+    "sha256": "f3cf7df0b8959e85d790b3c0cb0ac247294bf32bdfd377bd8d147e831e780f77",
+    "bytes": 22422
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_core.9.png",
+    "kind": "new",
+    "sha256": "43e3172049af05e7f1d7ecbca3b0c06ac5f88e0f7e5bc9e010ea4b6c77c17d6a",
+    "bytes": 862
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_focus.9.png",
+    "kind": "new",
+    "sha256": "6b8cec2e679e49080a836f3f390e4e74aec6872160ce8c58d2602ac29f9118b9",
+    "bytes": 1134
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_reflection.9.png",
+    "kind": "new",
+    "sha256": "fca2446fa810c7ea8a0f43a134d4bfb6dc04098507ea87c219f5c9cd7c621816",
+    "bytes": 1717
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_seam.9.png",
+    "kind": "new",
+    "sha256": "016a223000b1c0566c5fedef8cc16cba27290146ede65bba3b34cb4219ce4ea4",
+    "bytes": 1006
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_spill.9.png",
+    "kind": "new",
+    "sha256": "00a6fa999357d0e6250e1b69bb9afd60ac79a69272426900f5f92b5254718a0e",
+    "bytes": 2414
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_symbol.9.png",
+    "kind": "new",
+    "sha256": "bd25802d140eb04b73c43f7f2fa33a49c81ebfab51dd12e85159db9b5ec4c291",
+    "bytes": 613
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_cold.9.png",
+    "kind": "new",
+    "sha256": "80fe7ffffdcf0f6c9dc9774d8aadaf99f0abad1960f3d6e2f06907da66845fbe",
+    "bytes": 23600
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_core.9.png",
+    "kind": "new",
+    "sha256": "7c2e391c16f36f91788fbf4d0103809fca9de361dfc6c5b39a9c8825ff812e28",
+    "bytes": 906
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_focus.9.png",
+    "kind": "new",
+    "sha256": "f1ede9b5b05db725d6b67e18f659f6d8e172552768285ba51518947340b5e287",
+    "bytes": 1164
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_reflection.9.png",
+    "kind": "new",
+    "sha256": "4fb1ef12603156b310a2015d44a8a8854be69e34649e6eebdc30ec1a77ca8d2c",
+    "bytes": 1744
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_seam.9.png",
+    "kind": "new",
+    "sha256": "cdff95865458c665de394202dd8d02ad7d6b1fcb7da8b12e98cacf895b842946",
+    "bytes": 1031
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_spill.9.png",
+    "kind": "new",
+    "sha256": "dfe525b3bfb04172ad770b758a1d78f52ea62feab0101abf4265a22425a7bc86",
+    "bytes": 2410
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_symbol.9.png",
+    "kind": "new",
+    "sha256": "544ad3afa0e725b9b7f0b3a4d139dbbfe47c95c2373eb712a88b69bc7ae5724c",
+    "bytes": 643
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_cold.9.png",
+    "kind": "new",
+    "sha256": "07b8101f0af9404b3af70f08e727a8304600eaf4f616c40cb549cef43ad7f7a9",
+    "bytes": 30511
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_core.9.png",
+    "kind": "new",
+    "sha256": "4936f92736f59619eceb5944a245d40523acd71d5ccdbcb26c71c719d0363655",
+    "bytes": 1226
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_focus.9.png",
+    "kind": "new",
+    "sha256": "56e24b8c86a0e445338fa60afcaeb3b60ffed1ebbad2a740042691504dd2cd4c",
+    "bytes": 1487
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_reflection.9.png",
+    "kind": "new",
+    "sha256": "5dd7f0a63d82ad2bb882c38565535a214a9a2753a88c07ea76ad5682b55c105c",
+    "bytes": 2076
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_seam.9.png",
+    "kind": "new",
+    "sha256": "35c521f6f0ce951757ac7975ebb8a582c8dc0bf4e7f7d7c7721dbbe1273a3bd0",
+    "bytes": 1356
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_spill.9.png",
+    "kind": "new",
+    "sha256": "3c7e2d3d591176f6d48944bf89799d8f1f3cc0ca7a4d0f6301fddc9c13ab9a7f",
+    "bytes": 2746
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_symbol.9.png",
+    "kind": "new",
+    "sha256": "bcb2388881c5d3252d1582f801391a1b7bf5aa5e5ee9203f5a63b013ab5d4d74",
+    "bytes": 955
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/layout/dialog_rgb_sliders.xml",
+    "kind": "modified",
+    "sha256": "5f0028bc15e1ec21a4ab9255b54b15afa6553e8c5510d3da853072a1ba311823",
+    "bytes": 3679
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/values/cg_forge_dialog.xml",
+    "kind": "new",
+    "sha256": "6db0c2a803c94a22af4e9bc2eaa6831a7ee2f2ee91e8ad7d90a58ade72764467",
+    "bytes": 267
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/values/cg_forge_strings.xml",
+    "kind": "new",
+    "sha256": "70cd54e829cdf3834ca1e2a833ff4cc7fe797be3fc9c345794df8f173576127c",
+    "bytes": 706
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/res/values/strings.xml",
+    "kind": "modified",
+    "sha256": "6973b830cfa2f5c3a647d0c7185b791e37c4e7bca7bc928a71f15e46bca4c7a6",
+    "bytes": 8007
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/forge/ForgeCompose.kt",
+    "kind": "new",
+    "sha256": "2b13d5fb07437a9b59ba810cb663b1cf296efd5be937ece4a49730087201328d",
+    "bytes": 3467
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/forge/ForgeLayerDrawable.java",
+    "kind": "new",
+    "sha256": "2c5d94d0484363ca917cfc002a306a854967a94602e4dbc23f3f16a0b1a3ed61",
+    "bytes": 4514
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/forge/ForgeResources.java",
+    "kind": "new",
+    "sha256": "423214fedbd13eeba2841706e17a44dde2b20bda6c43368119b0d572df429795",
+    "bytes": 1921
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/forge/ForgeRgbThumbDrawable.java",
+    "kind": "new",
+    "sha256": "04d1f276cce380fbc613bfa4973d7e3843db58a8e043b5d1fed9062b76fa59de",
+    "bytes": 4300
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/forge/ForgeStatePolicy.java",
+    "kind": "new",
+    "sha256": "bf2e2823a6a0099109052ad72302f919deb99d4919c0de557c135bc171f31bad",
+    "bytes": 1085
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationActivity.kt",
+    "kind": "modified",
+    "sha256": "073d960e093c77ee61864f3c6edd87d6df12fea606368d4f867f5a2ce62238a7",
+    "bytes": 993
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt",
+    "kind": "modified",
+    "sha256": "5349cb2ab3dd211b4ea0015c2eabf8b93617e4af7ce8650d186d69714d143b09",
+    "bytes": 5022
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt",
+    "kind": "modified",
+    "sha256": "46da4d48cb42d6a99c12cdbe29bd6aa5f4397a1adc8126ab747823f95b65af58",
+    "bytes": 1152
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt",
+    "kind": "modified",
+    "sha256": "5df3c7fbff3bf83b95558eb36bb6cb034d1c8e456ade125d86ee11a2204a85f3",
+    "bytes": 3257
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/PhaseIntroScreen.kt",
+    "kind": "modified",
+    "sha256": "7edc048cffa411e15032d8990b99e871dbc4f80793d6610f41df11771d6ddf6a",
+    "bytes": 2102
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/TestScreen.kt",
+    "kind": "modified",
+    "sha256": "c5492fba1a1f591434eece03b86e7ccd73e1b3e02085749fcaae8c987c20d635",
+    "bytes": 4002
+  },
+  {
+    "path": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt",
+    "kind": "modified",
+    "sha256": "d0fca077accbbad375f502b2bba9eb14f4928fdb420738537deb8590f6894fd3",
+    "bytes": 5812
+  }
+]

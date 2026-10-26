@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- AynParts main -->
+    <string name="aynparts_app_name" translatable="false">AynParts</string>
+    <string name="ayn_panel_title">Gamepad</string>
+    <string name="ayn_panel_summary">Controls, calibration</string>
+
+    <!-- Gamepad controls category -->
+    <string name="gamepad_controls_category_title">Controls</string>
+    <string name="gamepad_layout_title">Layout</string>
+    <string name="gamepad_trigger_mode_title">Trigger mode</string>
+    <string name="gamepad_digital_trigger_threshold_title">Digital trigger threshold</string>
+    <string name="gamepad_mappable_0_title" translatable="false">M1</string>
+    <string name="gamepad_mappable_1_title" translatable="false">M2</string>
+    <string name="gamepad_ignore_mask_title">Ignore input</string>
+    <string name="gamepad_remapping_title">Remapping</string>
+    <string name="gamepad_remapping_summary">Customize button actions</string>
+
+    <!-- Gamepad calibration category -->
+    <string name="gamepad_calibration_category_title">Calibration</string>
+    <string name="gamepad_joystick_calibration_title">Joysticks</string>
+    <string name="gamepad_joystick_calibration_summary">Calibrate analog sticks</string>
+
+    <!-- Gamepad lights category -->
+    <string name="gamepad_lights_category_title">Lights</string>
+    <string name="gamepad_lights_rgb_lighting_title">RGB lighting</string>
+    <string name="gamepad_lights_rgb_lighting_summary">Customize the RGB lighting</string>
+
+    <!-- Gamepad layout entries -->
+    <string name="layout_xbox" translatable="false">Xbox</string>
+    <string name="layout_nintendo" translatable="false">Nintendo</string>
+
+    <!-- Gamepad trigger mode entries -->
+    <string name="trigger_mode_both">Both</string>
+    <string name="trigger_mode_analog">Analog</string>
+    <string name="trigger_mode_digital">Digital</string>
+
+    <!-- Gamepad digital trigger threshold entries -->
+    <string name="digital_trigger_threshold_half_press">Half press</string>
+    <string name="digital_trigger_threshold_quarter_press">Quarter press</string>
+    <string name="digital_trigger_threshold_three_quarters_press">Three quarters press</string>
+    <string name="digital_trigger_threshold_full_press">Full press</string>
+
+    <!-- Gamepad mappable entries -->
+    <string name="mappable_none">None</string>
+    <string name="mappable_home" translatable="false">HOME</string>
+    <string name="mappable_select" translatable="false">SELECT</string>
+    <string name="mappable_start" translatable="false">START</string>
+    <string name="mappable_back" translatable="false">BACK</string>
+    <string name="mappable_a" translatable="false">A</string>
+    <string name="mappable_b" translatable="false">B</string>
+    <string name="mappable_x" translatable="false">X</string>
+    <string name="mappable_y" translatable="false">Y</string>
+    <string name="mappable_l1" translatable="false">L1</string>
+    <string name="mappable_l2" translatable="false">L2</string>
+    <string name="mappable_l3" translatable="false">L3</string>
+    <string name="mappable_r1" translatable="false">R1</string>
+    <string name="mappable_r2" translatable="false">R2</string>
+    <string name="mappable_r3" translatable="false">R3</string>
+    <string name="mappable_down" translatable="false">DOWN</string>
+    <string name="mappable_up" translatable="false">UP</string>
+    <string name="mappable_left" translatable="false">LEFT</string>
+    <string name="mappable_right" translatable="false">RIGHT</string>
+    <string name="mappable_c" translatable="false">C</string>
+    <string name="mappable_z" translatable="false">Z</string>
+    <string name="mappable_mode" translatable="false">MODE</string>
+    <string name="mappable_assist">Assistant</string>
+    <string name="mappable_app_switch">App switch</string>
+    <string name="mappable_dnd">Do not disturb</string>
+    <string name="mappable_brightness_down">Brightness down</string>
+    <string name="mappable_brightness_up">Brightness up</string>
+    <string name="mappable_volume_down">Volume down</string>
+    <string name="mappable_volume_up">Volume up</string>
+    <string name="mappable_screenshot">Screenshot</string>
+    <string name="mappable_power">Power</string>
+
+    <!-- Gamepad ignore mask entries -->
+    <string name="ignore_mask_none">None</string>
+    <string name="ignore_mask_all">All</string>
+    <string name="ignore_mask_buttons">Buttons</string>
+    <string name="ignore_mask_triggers">Triggers</string>
+    <string name="ignore_mask_sticks">Sticks</string>
+    <string name="ignore_mask_triggers_sticks">Triggers and sticks</string>
+
+    <!-- Gamepad joystick calibration activity -->
+    <string name="calibration_title">Joystick calibration</string>
+    <string name="calibration_intro_description">This wizard will calibrate your analog sticks:\n\n1. Center — leave both sticks relaxed\n2–3. Range — rotate each stick in full circles\n4–5. Deadzone — pull and release each stick several times\n\nEach step advances once enough data is collected.</string>
+    <string name="calibration_start">Start</string>
+    <string name="calibration_cancel">Cancel</string>
+    <string name="calibration_phase_center_title">Step 1: Center</string>
+    <string name="calibration_phase_center_desc">Leave both sticks centered and relaxed. Next will appear once readings are stable.</string>
+    <string name="calibration_phase_range_left_title">Step 2: Left stick range</string>
+    <string name="calibration_phase_range_left_desc">Slowly rotate the left stick in full circles, reaching all extremes. Next will appear once enough range is detected.</string>
+    <string name="calibration_phase_range_right_title">Step 3: Right stick range</string>
+    <string name="calibration_phase_range_right_desc">Slowly rotate the right stick in full circles, reaching all extremes. Next will appear once enough range is detected.</string>
+    <string name="calibration_phase_deadzone_left_title">Step 4: Left stick deadzone</string>
+    <string name="calibration_phase_deadzone_left_desc">Pull the left stick to the edge and release it. Repeat at least 3 times from different directions. Next will appear once enough settle data is collected.</string>
+    <string name="calibration_phase_deadzone_right_title">Step 5: Right stick deadzone</string>
+    <string name="calibration_phase_deadzone_right_desc">Pull the right stick to the edge and release it. Repeat at least 3 times from different directions. Next will appear once enough settle data is collected.</string>
+    <string name="calibration_next">Next</string>
+    <string name="calibration_accept">Accept</string>
+    <string name="calibration_retry">Retry</string>
+    <string name="calibration_test_title">Test calibration</string>
+    <string name="calibration_test_desc">Compare before and after. The calibrated sticks should center cleanly and reach all edges.</string>
+    <string name="calibration_test_before">Before (raw)</string>
+    <string name="calibration_test_after">After (calibrated)</string>
+
+    <!-- Lights -->
+    <string name="lights_rgb_lighting_enable_summary">Use RGB lighting</string>
+    <string name="lights_rgb_mode_category_title">Mode</string>
+    <string name="lights_rgb_mode_global">Global</string>
+    <string name="lights_rgb_mode_per_side">Per-side</string>
+    <string name="lights_rgb_mode_per_led">Per-LED</string>
+    <string name="lights_rgb_left_category_title">Left</string>
+    <string name="lights_rgb_right_category_title">Right</string>
+    <string name="lights_rgb_strip_title">Strip</string>
+    <string name="lights_rgb_stick_title">Stick</string>
+    <string name="lights_rgb_stick_led_title">Stick LED %d</string>
+
+    <!-- Built-in controller -->
+    <string name="builtin_controller">Built-in controller</string>
+</resources>
