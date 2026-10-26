@@ -1,0 +1,1019 @@
+[
+  {
+    "familyId": "F-adfc13a485dd31ea",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "color",
+      "name": "accessibility_magnification_image_button_background",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Native layout/token adaptation; new illustration requirement unreviewed",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/color/accessibility_magnification_image_button_background.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/color/accessibility_magnification_image_button_background.xml"
+    },
+    "decisionKept": "OPEN",
+    "role": "Old palette selector bypassed by the patched magnification widgets; other consumers and global token treatment still require review.",
+    "wholeFamilyAuthoredHere": false
+  },
+  {
+    "familyId": "F-fc42dfbd58d61941",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "color",
+      "name": "accessibility_magnification_image_button_tint",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Native layout/token adaptation; new illustration requirement unreviewed",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/color/accessibility_magnification_image_button_tint.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/color/accessibility_magnification_image_button_tint.xml"
+    },
+    "decisionKept": "OPEN",
+    "role": "Old palette selector bypassed by the patched magnification widgets; other consumers and global token treatment still require review.",
+    "wholeFamilyAuthoredHere": false
+  },
+  {
+    "familyId": "F-f9c0beb418a9777c",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_fullscreen_magnification_border_background",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_fullscreen_magnification_border_background.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_fullscreen_magnification_border_background.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_fullscreen_magnification_border_background.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "edfbe7bed588487924d345102fbcd0e9f36e6058",
+        "sha256": "8a08b202a72054bb409802a530f6bbc5b374014f2059f6cc2ababa0a9380003e",
+        "contentClass": "XML",
+        "xmlRoot": "shape",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-117aa288e5464480",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_magnification_setting_view_bg",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_magnification_setting_view_bg.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_magnification_setting_view_bg.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_magnification_setting_view_bg.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "a25b8b39d22f7a83402d088ad8ce24214d930750",
+        "sha256": "9e1bb64dfce249051ebb163476e8d7551ece190e9ec17ca7df70d89b253b8ec1",
+        "contentClass": "XML",
+        "xmlRoot": "shape",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-6e85d2ef517f2751",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_magnification_setting_view_image_btn_bg",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_magnification_setting_view_image_btn_bg.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_magnification_setting_view_image_btn_bg.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_magnification_setting_view_image_btn_bg.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "16ddcd82402d2eda7927425b806a6bf8345e598e",
+        "sha256": "81c185af5a96da501793e8e2792e0b65b548cfe14c7e14f0fed326102f96186c",
+        "contentClass": "XML",
+        "xmlRoot": "ripple",
+        "size": null,
+        "stateItems": [
+          {
+            "id": "@android:id/mask"
+          },
+          {
+            "id": "@android:id/background"
+          }
+        ]
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-4ae2be901c2b1d92",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_magnification_setting_view_image_btn_layout_bg",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_magnification_setting_view_image_btn_layout_bg.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_magnification_setting_view_image_btn_layout_bg.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_magnification_setting_view_image_btn_layout_bg.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "3bcc9708d106046e459ec60124bb5074f8a663d8",
+        "sha256": "8ef9d8807138ab6c4957f6003c0346b21e47fbf3f58701a14f476a71dc3000bd",
+        "contentClass": "XML",
+        "xmlRoot": "shape",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-9fc9ce5ec9d50e73",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_magnifier_btn_bg",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_magnifier_btn_bg.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_magnifier_btn_bg.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_magnifier_btn_bg.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "f633b3e3702d34603a363b325dcfb3977989a234",
+        "sha256": "43fefbb3e4125cd8cfe1f352029fa5a2869366e1b8c9eae26a4977f4fe4ce797",
+        "contentClass": "XML",
+        "xmlRoot": "shape",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-9ba793ef2a664198",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_window_magnification_background",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_window_magnification_background.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_window_magnification_background.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_window_magnification_background.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "97bd18e0442b7320da630c227a32b0cc60e67d15",
+        "sha256": "c06321d9128c3b5fb386e24b459181d4d1a8b1e98655e8891ce589ad34daf02b",
+        "contentClass": "XML",
+        "xmlRoot": "layer-list",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-e80849ead64a48cc",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_window_magnification_background_change",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_window_magnification_background_change.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_window_magnification_background_change.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_window_magnification_background_change.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "693545bf8b96687db37d6cc55e758ceb6a996162",
+        "sha256": "6365ecec218e5274f26470c7b41d205f48cab2becc8ddd7bbf03c379161b1f36",
+        "contentClass": "XML",
+        "xmlRoot": "layer-list",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-33272704424b169a",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_window_magnification_button_done_bg",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_window_magnification_button_done_bg.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_window_magnification_button_done_bg.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_window_magnification_button_done_bg.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "5c2bf3efae21dcb8b2f05d26568eac0e09c586b5",
+        "sha256": "ee81ff713dfd23fb226f5210f21640a6778dedb6d08e1ed179d5037c09a43d8e",
+        "contentClass": "XML",
+        "xmlRoot": "shape",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-53526338d846477f",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_window_magnification_drag_corner_background",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_window_magnification_drag_corner_background.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_window_magnification_drag_corner_background.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_window_magnification_drag_corner_background.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "c8cd4c9d70c6318858ed50d6bc4c7127220bfe60",
+        "sha256": "145a823628c9e18aaf20ee6d1675062abb19f180c6ed0bfaf50a8e971e79ed96",
+        "contentClass": "XML",
+        "xmlRoot": "shape",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-aa28311d01cb0aa8",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_window_magnification_drag_handle_background",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "66617e16b33afe4164d56e7b038023139dad214f",
+        "sha256": "f39de6faa23a58043c7c29036d6ce45cc9a1ca8001a3dbefca36ad0a69306a16",
+        "contentClass": "XML",
+        "xmlRoot": "shape",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-31e7d8ba4205cd79",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_window_magnification_drag_handle_background_change",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background_change.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background_change.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background_change.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "e367f50632a9ab259eff93b80e68bbd431dee7dc",
+        "sha256": "ceadfdab8e4a0f07c22af3a6a2145fc9168b7ac1a07168a4e8db811dc04cfc14",
+        "contentClass": "XML",
+        "xmlRoot": "shape",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-8a4430fea5c3c319",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_window_magnification_drag_handle_background_change_inset",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background_change_inset.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background_change_inset.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background_change_inset.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "02486bfae9b584199f7170d8edd0a3f90c65c8ca",
+        "sha256": "2fbebfa97dcc0eb89203dd621228ad7479949d988a20dc12c7bcbc12680478e7",
+        "contentClass": "XML",
+        "xmlRoot": "inset",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "PRESERVE_NATIVE_REFERENCE_CONTRACT"
+  },
+  {
+    "familyId": "F-45cb8ac994bb54b5",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "accessibility_window_magnification_drag_handle_background_inset",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background_inset.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background_inset.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/accessibility_window_magnification_drag_handle_background_inset.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "bfb7c47cb130b7c73f8d0b8353c36b3244aa26c9",
+        "sha256": "3685603f0cfdd0feaddfb6efc1c12b31b8f73e97aa68f060594f0b2efcce44c3",
+        "contentClass": "XML",
+        "xmlRoot": "inset",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "PRESERVE_NATIVE_REFERENCE_CONTRACT"
+  },
+  {
+    "familyId": "F-60fdf5c13f1adeb9",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "ic_control_magnification_grey",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/ic_control_magnification_grey.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_control_magnification_grey.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/ic_control_magnification_grey.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "80ce8c11004162753ca4373da9c6857835568f61",
+        "sha256": "012a3836c7c31e5568e385142c0bd487124ae10a55ec3c5a553c33b02ccd8bb2",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-75fdbb3a3334e125",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "ic_magnification_corner_bottom_left",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/ic_magnification_corner_bottom_left.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_magnification_corner_bottom_left.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/ic_magnification_corner_bottom_left.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "d25cd65581165730e5880b2aa7dea3377adb8ce2",
+        "sha256": "e14e8bd3efb1ceba915e955c7828e6fb5bb470114fde3eadbfb7a73a3c09c2a2",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-cf468941c0200bae",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "ic_magnification_corner_bottom_right",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/ic_magnification_corner_bottom_right.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_magnification_corner_bottom_right.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/ic_magnification_corner_bottom_right.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "bb6df3ac1b32cd99d0409daaed0fea4a67b5ee86",
+        "sha256": "a311c3cd9b378a2a58ff241c6e8db09f8a69f4e857eb1484ed35c635091ea63c",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-afdb1bf281777c13",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "ic_magnification_corner_top_left",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/ic_magnification_corner_top_left.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_magnification_corner_top_left.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/ic_magnification_corner_top_left.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "8f259309b747375cbaec541b13200da79d0f2b05",
+        "sha256": "9be3df2a92a178bbdc0f302554612e86a2c478868f5ed277cdb67918c373430a",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-41bf153c86414065",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "ic_magnification_corner_top_right",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/ic_magnification_corner_top_right.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_magnification_corner_top_right.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/ic_magnification_corner_top_right.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "291db44ba8ba40eb6db80c8362c86c83aa2e2d9a",
+        "sha256": "a4b2eae42a806fe6d65fab8f604d7875316ed627e1d766c2ae581fd185e8b40c",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-c024d83122950e21",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "ic_magnification_menu_close",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/ic_magnification_menu_close.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_magnification_menu_close.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/ic_magnification_menu_close.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "a44a484d6e39a2bc568bd5e0f32442d8f48148f9",
+        "sha256": "888a17a2ffa562694ac8338c2f0b13e43f40ddd748eec2f1c5d355ca6a809a4a",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-f78944ca9c1406b3",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "ic_magnification_menu_large",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/ic_magnification_menu_large.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_magnification_menu_large.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/ic_magnification_menu_large.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "401ac73f3e0a3b92f80c8b82e672a9a914477c58",
+        "sha256": "ed514f96d95a1f8112fcad6d273cb13f74433c1e8790c0c6e6c3b60d0ea17592",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-471dd9fc861c3d8d",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "ic_magnification_menu_medium",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/ic_magnification_menu_medium.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_magnification_menu_medium.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/ic_magnification_menu_medium.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "9a850e8fb8113774232d2a70602f7507d5f3bf25",
+        "sha256": "7833b1308b31440c8aa6ccef3dbae8c8be4022e627426c545f6cfdc365d26bd3",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-0814b33c9226053e",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "ic_magnification_menu_small",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/ic_magnification_menu_small.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_magnification_menu_small.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/ic_magnification_menu_small.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "54322c562c5d7c159ac8b0c015f6a02498f3e806",
+        "sha256": "1a211fc106a571c6da78dc2340c113630981607ad74f2de9cd76fe6c875978d0",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-be14f7605ae2b20f",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "drawable",
+      "name": "ic_move_magnification",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/drawable/ic_move_magnification.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_move_magnification.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/drawable/ic_move_magnification.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "079600734bc8da1eccde8de18ec9a698a213a0c8",
+        "sha256": "8a77abe436fc991e8264f6b8975020b1a7fb87001514460df5085b3fd004a04a",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-d49dd6f4298dca19",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "layout",
+      "name": "fullscreen_magnification_border",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Native layout/token adaptation; new illustration requirement unreviewed",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/layout/fullscreen_magnification_border.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/layout/fullscreen_magnification_border.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/layout/fullscreen_magnification_border.xml",
+        "qualifier": "layout",
+        "gitBlobSha1": "5f738c041f54967a86cf309a483df2dcaf840436",
+        "sha256": "ea6f03d9304d6c045f3bff2957d830030b591e98bb49b1141598803d2034cafd",
+        "contentClass": "XML",
+        "xmlRoot": "View",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-9b1ae8cad9a5b37e",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "layout",
+      "name": "magnifier_controllers",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Native layout/token adaptation; new illustration requirement unreviewed",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/layout/magnifier_controllers.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/layout/magnifier_controllers.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/layout/magnifier_controllers.xml",
+        "qualifier": "layout",
+        "gitBlobSha1": "0203cd4f506bed3da6e6b86916d48750530cbbe3",
+        "sha256": "6132d53a4d244a32e9fcc429ae96e79b6c0330d9403527580b84e6777ff6e619",
+        "contentClass": "XML",
+        "xmlRoot": "FrameLayout",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-ce521341cd232e23",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "layout",
+      "name": "window_magnification_settings_view",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Native layout/token adaptation; new illustration requirement unreviewed",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/layout/window_magnification_settings_view.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/layout/window_magnification_settings_view.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/layout/window_magnification_settings_view.xml",
+        "qualifier": "layout",
+        "gitBlobSha1": "dc47de5aaabc0ea1027bc260d0f31fd8fe1f105b",
+        "sha256": "c75ce8eab7f30cefb026835676c404d4229c753a1a0afb603a17070c62e0dd77",
+        "contentClass": "XML",
+        "xmlRoot": "LinearLayout",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  },
+  {
+    "familyId": "F-4d797b3dd2f97aa8",
+    "source": {
+      "project": "frameworks/base",
+      "resourceRoot": "packages/SystemUI/res",
+      "kind": "layout",
+      "name": "window_magnifier_view",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Native layout/token adaptation; new illustration requirement unreviewed",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/SystemUI/res/layout/window_magnifier_view.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/layout/window_magnifier_view.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/SystemUI/res/layout/window_magnifier_view.xml",
+        "qualifier": "layout",
+        "gitBlobSha1": "6286f343aeffabde0c565c4ebe27b8691448c9ba",
+        "sha256": "0c7edee0e345627b7349ad7f349879f7cdc33399941e1af380492916ef01153d",
+        "contentClass": "XML",
+        "xmlRoot": "FrameLayout",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "role": "Actual magnification layout/glyph/material binding or precise native procedural border geometry.",
+    "sourcePatch": "SystemUI-magnification-forge.patch",
+    "checks": "verification/evidence/source-art-checks.json",
+    "stateOwner": "Original selected presets, checked switches, settings-panel visibility and native gesture lifecycle. Fullscreen/window borders exist only in the active owner lifecycle.",
+    "wholeFamilyAuthoredHere": true,
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED"
+  }
+]

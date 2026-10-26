@@ -1,0 +1,236 @@
+[
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnification_inner_border_margin",
+    "value": "17dp",
+    "attributes": {
+      "name": "magnification_inner_border_margin"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnification_setting_background_padding",
+    "value": "24dp",
+    "attributes": {
+      "name": "magnification_setting_background_padding"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnification_setting_drag_size",
+    "value": "56dp",
+    "attributes": {
+      "name": "magnification_setting_drag_size"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnification_setting_view_item_horizontal_spacing",
+    "value": "12dp",
+    "attributes": {
+      "name": "magnification_setting_view_item_horizontal_spacing"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnifier_border_width",
+    "value": "8dp",
+    "attributes": {
+      "name": "magnifier_border_width"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnifier_border_width_fullscreen",
+    "value": "6dp",
+    "attributes": {
+      "name": "magnifier_border_width_fullscreen"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnifier_border_width_fullscreen_with_offset",
+    "value": "12dp",
+    "attributes": {
+      "name": "magnifier_border_width_fullscreen_with_offset"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnifier_corner_radius",
+    "value": "28dp",
+    "attributes": {
+      "name": "magnifier_corner_radius"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnifier_edit_corner_radius",
+    "value": "16dp",
+    "attributes": {
+      "name": "magnifier_edit_corner_radius"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnifier_edit_dash_gap",
+    "value": "20dp",
+    "attributes": {
+      "name": "magnifier_edit_dash_gap"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnifier_edit_outer_corner_radius",
+    "value": "18dp",
+    "attributes": {
+      "name": "magnifier_edit_outer_corner_radius"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnifier_outer_corner_radius",
+    "value": "30dp",
+    "attributes": {
+      "name": "magnifier_outer_corner_radius"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  {
+    "project": "frameworks/base",
+    "resourceRoot": "packages/SystemUI/res",
+    "qualifier": "values",
+    "path": "packages/SystemUI/res/values/dimens.xml",
+    "gitBlobSha1": "937b1a03c4d01e2ad8dc95cb924a1543bec2cf85",
+    "sha256": "5211405f4ff8502ca0c6ae1e26c3c38d349b97c45b5dc42275944573b9591760",
+    "sourceResourceContainer": "packages/SystemUI/res",
+    "pathFeatureFlags": [],
+    "type": "dimen",
+    "name": "magnifier_stroke_width",
+    "value": "2dp",
+    "attributes": {
+      "name": "magnifier_stroke_width"
+    },
+    "children": [],
+    "runtimeResource": true
+  }
+]

@@ -1,3 +1,11 @@
+# Magnification artwork and source checkpoint - 2026-10-26
+
+[Iteration 23](iterations/23-magnification/README.md) adapts actual fullscreen/window magnification, size editing, settings and the retained directional controller. It adds 23 treatments with cold bases and separate neutral masks, 644 native PNG configurations, 28 exact panel aliases, nine editable workflow fixtures, three Java support/rendering classes and source bindings for five actual SystemUI owners. Native English text remains live. Resize and directional targets declare 48dp; hidden targets are excluded from touch regions, and tight settings headers stack using native text measurement.
+
+Scoped verification passes: 68 pinned source hashes, clean patch application and byte parity, 384 state cases, 140 nine-patch checks, 10,164 host geometry cases, three actual Java class compilations, resource compile/link and preservation of the original mirrored-content SurfaceView subtree. The five private-platform owners are not compiled; full pinned Soong, native layout inflation, Android/device/input/accessibility/performance acceptance and V3 remain NOT RUN. Desktop fixtures are not Android screenshots.
+
+The complete goal remains active. Twenty-five new owner decisions reduce open family decisions to 9,630. W01/W02 and W06 have authored source/art handoffs; W03 setup, W04 updater, W05 gallery and W07 boot/charger/recovery remain unauthored. Wider source/art/owner review and a final independent whole-goal double-check remain required. Earlier signed checkpoints and all 472 earlier masters are preserved; no hardware was modified.
+
 # Native reference/motion contract review - 2026-10-26
 
 [Iteration22](iterations/22-native-contract-review/README.md) records898 preservation decisions across919 exact source variants:639 reference/state wrappers and259 neutral motion resources. The full10926-family/16559-variant baseline is conserved;9655 family decisions remain OPEN. These are source review counts, not confirmed missing drawings. No new visual assets or native resource changes are claimed in this pass.

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "result": "PASS",
+  "actualNewJavaClassesCompiled": 3,
+  "allNativeResourceEntriesCompiled": 777,
+  "renderBankApi": 37,
+  "nativeLayouts": "COMPILED ONLY - full SystemUI/Material resource linking and inflation NOT RUN",
+  "defaultSourceDimensionDeclarations": 13,
+  "compileOnlyNativeViewIds": 43,
+  "realGeometryMethodCases": 10164,
+  "geometryMethod": "Compiled actual ForgeBorderGeometry evaluated against separately derived pinned GradientDrawable stroke/corner equations, including small bounds and four density scales.",
+  "api37JarSha256": "bf1b4387cc7ca94fc6ef684f040d9d16fbf16248e181819f020736ea2053f177",
+  "renderingJarSha256": "74c0ab44268f9bb80fbc7c38eede6b58eed6b68baad91e5eb3335c80d578b5eb",
+  "javaSources": {
+    "src/com/android/systemui/accessibility/ForgeBorderGeometry.java": "94d5b70d208c04377468eeaf3d05636b99d5d4f6bc2363cbd0f65747310a8eec",
+    "src/com/android/systemui/accessibility/ForgeMagnificationBorderDrawable.java": "0b0ca911a09646e285870eda9da23cdf606a2e11447dfc99e9a4149c2762b63b",
+    "src/com/android/systemui/accessibility/ForgeMagnificationStyle.java": "7ddb0bad26d0a67ceca57cd0e5fd32245bcd55e68167c5f318fdea07d9f33f61"
+  },
+  "sourceOwnersWithHiddenPlatformApis": "NOT COMPILED - full pinned Soong build remains required",
+  "verificationJarsInstallable": false,
+  "androidExecution": "NOT RUN",
+  "hardwareActions": "NONE"
+}

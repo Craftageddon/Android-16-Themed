@@ -1,0 +1,9 @@
+{
+  "repository": "LineageOS/android_frameworks_base",
+  "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+  "officialManifest": "integration/research/2026-10-23/official-20261019-build-manifest.xml",
+  "manifestSha256": "4bf203ee7ab8b663d0bf6c83d3e35bd349222d3ca228940df191e2aff50d2364",
+  "lineageTarget": "24.0 / Android17 / API37 / AYN odin2thor",
+  "referenceGraph": "iterations/22-native-contract-review/resource-reference-graph.json.gz",
+  "deviceFacts": "No connected-device facts or physical radius/density are invented; runtime owners/resources retain those inputs."
+}

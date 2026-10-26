@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><color name="cg_mag_reflection">#dc5920</color><color name="cg_mag_spill">#ff4908</color><color name="cg_mag_seam">#ff5b0b</color><color name="cg_mag_core">#ffd083</color><color name="cg_mag_focus">#d5e7f2</color><color name="cg_mag_symbol">#ffe5bc</color><color name="cg_mag_text">#eee7d9</color><color name="cg_mag_secondary">#b5bdc6</color><color name="cg_mag_cold_progress">#b8c4cf</color></resources>

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "window",
+    "parameterExampleSize": [
+      294,
+      294
+    ],
+    "sourceStroke": 8.0,
+    "sourceRadius": 28.0,
+    "sourceOuterStroke": 2.0,
+    "sourceOuterRadius": 30.0,
+    "dash": null,
+    "visibleFullscreenStroke": 8.0,
+    "glowInwardOffset": 0,
+    "dynamicRadiusSource": "Native resource dimensions",
+    "fullscreenRadiusShownIsIllustrative": false,
+    "nativeRenderer": "ForgeMagnificationBorderDrawable.java",
+    "geometrySource": "Pinned GradientDrawable half-stroke inset and uniform-radius clamp",
+    "nativeAndroidPixelsVerified": false
+  },
+  {
+    "id": "window-edit",
+    "parameterExampleSize": [
+      330,
+      230
+    ],
+    "sourceStroke": 8.0,
+    "sourceRadius": 16.0,
+    "sourceOuterStroke": 2.0,
+    "sourceOuterRadius": 18.0,
+    "dash": 20.0,
+    "visibleFullscreenStroke": 8.0,
+    "glowInwardOffset": 0,
+    "dynamicRadiusSource": "Native resource dimensions",
+    "fullscreenRadiusShownIsIllustrative": false,
+    "nativeRenderer": "ForgeMagnificationBorderDrawable.java",
+    "geometrySource": "Pinned GradientDrawable half-stroke inset and uniform-radius clamp",
+    "nativeAndroidPixelsVerified": false
+  },
+  {
+    "id": "fullscreen",
+    "parameterExampleSize": [
+      972,
+      552
+    ],
+    "sourceStroke": 12.0,
+    "sourceRadius": 32,
+    "sourceOuterStroke": 0,
+    "sourceOuterRadius": 0,
+    "dash": null,
+    "visibleFullscreenStroke": 6.0,
+    "glowInwardOffset": 3.0,
+    "dynamicRadiusSource": "ScreenDecorationsUtils.getWindowCornerRadius(context)",
+    "fullscreenRadiusShownIsIllustrative": true,
+    "nativeRenderer": "ForgeMagnificationBorderDrawable.java",
+    "geometrySource": "Pinned GradientDrawable half-stroke inset and uniform-radius clamp",
+    "nativeAndroidPixelsVerified": false
+  }
+]

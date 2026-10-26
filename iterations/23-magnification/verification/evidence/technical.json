@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-26",
+  "result": "PASS",
+  "components": 23,
+  "pinnedSourceFilesVerified": 68,
+  "actualSourceOwnersPatched": 5,
+  "newJavaClassesCompiled": 3,
+  "nativeResourceEntriesCompiled": 777,
+  "geometryCases": 10164,
+  "newNativePngConfigurations": 644,
+  "neutralMaskConfigurations": 552,
+  "unchangedPanelPngConfigurations": 28,
+  "stateSelectorCases": 384,
+  "ninePatchSizeChecks": 140,
+  "sourceGlyphContrastStatistics": [
+    {
+      "id": "size_small",
+      "opaquePixelSamples": 809,
+      "medianContrastToWell": 5.297883835376636,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "size_medium",
+      "opaquePixelSamples": 1144,
+      "medianContrastToWell": 4.678556331318808,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "size_large",
+      "opaquePixelSamples": 1360,
+      "medianContrastToWell": 4.731112709560998,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "fullscreen",
+      "opaquePixelSamples": 254,
+      "medianContrastToWell": 4.8917535759053195,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "move",
+      "opaquePixelSamples": 408,
+      "medianContrastToWell": 4.116384760822948,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "close",
+      "opaquePixelSamples": 208,
+      "medianContrastToWell": 4.837462514981457,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "resize_a",
+      "opaquePixelSamples": 174,
+      "medianContrastToWell": 3.966711133528024,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "resize_b",
+      "opaquePixelSamples": 174,
+      "medianContrastToWell": 3.969367996708073,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "corner_top_left",
+      "opaquePixelSamples": 704,
+      "medianContrastToWell": 5.290961192506913,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "corner_top_right",
+      "opaquePixelSamples": 704,
+      "medianContrastToWell": 5.419741245821409,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "corner_bottom_left",
+      "opaquePixelSamples": 704,
+      "medianContrastToWell": 5.483881250217923,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "corner_bottom_right",
+      "opaquePixelSamples": 704,
+      "medianContrastToWell": 5.285067994135564,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "controller",
+      "opaquePixelSamples": 16275,
+      "medianContrastToWell": 4.608950114029781,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "settings_gear",
+      "opaquePixelSamples": 1259,
+      "medianContrastToWell": 4.4308829985507865,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "zoom_in",
+      "opaquePixelSamples": 208,
+      "medianContrastToWell": 3.8397914022477235,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    },
+    {
+      "id": "zoom_out",
+      "opaquePixelSamples": 112,
+      "medianContrastToWell": 4.866713163737616,
+      "scope": "Native-size xhdpi source pixel statistic, not a blanket WCAG or Android/device acceptance claim."
+    }
+  ],
+  "sourceSurfaceViewSubtreesPreserved": 1,
+  "legacyDisjointTouchTargetDensityCases": 521,
+  "sharedGlobalDrawablesNotOverridden": [
+    "ic_add",
+    "ic_remove",
+    "ic_open_in_full",
+    "ic_open_in_new_window",
+    "ic_arrow_top_left_and_bottom_right",
+    "ic_arrow_top_right_and_bottom_left"
+  ],
+  "cleanPatchByteParity": true,
+  "sourceBackedWorkflowFixtures": 9,
+  "previousMastersPreserved": 472,
+  "fullSystemUiSoongBuild": "NOT RUN",
+  "nativeLayoutInflation": "NOT RUN",
+  "androidDeviceExecution": "NOT RUN",
+  "finalWholeGoalDoubleCheck": "NOT RUN - full source/artwork scope remains unfinished",
+  "wholeGoalComplete": false,
+  "checkpointScope": "W06 magnification source/artwork handoff: cold steel and neutral masks, precise procedural border geometry, actual owner states, live English labels, responsive header and48dp declared input targets. Not a finished full-corpus or Android release.",
+  "v1Scope": "Actual fullscreen/window/edit/preset/switch/zoom/legacy-control roles traced; source state, input deltas/timing, mirrored-data surface, native corner/dash values and real scale-property path retained. Global shared glyph resources are not overridden. Full10926-family baseline and remaining work are explicit.",
+  "v2Method": "Clean actual patch application and byte parity;68 pinned source hashes;644 new neutral/cold configurations and28 exact panel resource aliases; native compile/link of rendering bank and three real Java classes;10164 native-geometry method cases,384 color-state cases,140 nine-patch size checks,521 density cases for disjoint48dp directional targets, unchanged SurfaceView subtree, contrast/source English checks and9 strict-XML source-backed fixtures.",
+  "fullGoalComplete": false,
+  "targetV3": "NOT RUN - full pinned SystemUI build, native layout inflation/rendering/input/accessibility and device comparison remain open."
+}

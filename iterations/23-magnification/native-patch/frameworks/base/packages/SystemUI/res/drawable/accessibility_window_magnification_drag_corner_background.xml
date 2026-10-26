@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<inset xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:drawable="@drawable/cg_mag_corner_handle" ns0:insetLeft="@dimen/cg_mag_resize_target_inset" ns0:insetRight="@dimen/cg_mag_resize_target_inset" ns0:insetTop="@dimen/cg_mag_resize_target_inset" ns0:insetBottom="@dimen/cg_mag_resize_target_inset" />

@@ -1,0 +1,20 @@
+[
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "graphics/java/android/graphics/drawable/GradientDrawable.java",
+    "gitBlobSha1": "6a943248fd6432ef7881f3647d1eb26203ea73a8",
+    "sha256": "495711db7f3448ee37a915b2ab9c61c17b2459f602c674d95b21318f4dd55487",
+    "saved": "source/native-contracts/GradientDrawable.java",
+    "url": "https://api.github.com/repos/LineageOS/android_frameworks_base/contents/graphics/java/android/graphics/drawable/GradientDrawable.java?ref=7f6de40b6429462d47ba9ba351b99943269c8067"
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "core/java/com/android/internal/accessibility/common/MagnificationConstants.java",
+    "gitBlobSha1": "6e2537511188213b558f973696f7aaeff4c125e4",
+    "sha256": "f2c5ee5ccfbf907204381d5e474308defe579ab9f9c9c7183659a2f4cf240e93",
+    "saved": "source/native-contracts/MagnificationConstants.java",
+    "url": "https://api.github.com/repos/LineageOS/android_frameworks_base/contents/core/java/com/android/internal/accessibility/common/MagnificationConstants.java?ref=7f6de40b6429462d47ba9ba351b99943269c8067"
+  }
+]

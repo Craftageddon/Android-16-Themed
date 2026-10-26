@@ -1,0 +1,194 @@
+[
+  {
+    "id": "window-panel-selected",
+    "svg": "workflow-previews\\window-panel-selected.svg",
+    "png": "workflow-previews\\window-panel-selected.png",
+    "capability": "all",
+    "mode": "window",
+    "selected": "size_medium",
+    "fontScale": 1,
+    "scrollOffset": 0,
+    "actualClampedScrollOffset": 0,
+    "panelSize": [
+      360,
+      450
+    ],
+    "bodyViewportHeight": 330.0,
+    "bodyContentHeight": 322,
+    "doneHeight": 48,
+    "doneOutsideScroll": true,
+    "zoomShown": 3,
+    "zoomMaximumContext": "Source default8, runtime property can override",
+    "labelsAreDefaultEnglishSourceStrings": true,
+    "fontMetricScope": "Desktop Segoe UI fixture; actual Android font and widget measurement NOT RUN"
+  },
+  {
+    "id": "fullscreen-panel-selected",
+    "svg": "workflow-previews\\fullscreen-panel-selected.svg",
+    "png": "workflow-previews\\fullscreen-panel-selected.png",
+    "capability": "all",
+    "mode": "fullscreen",
+    "selected": "fullscreen",
+    "fontScale": 1,
+    "scrollOffset": 0,
+    "actualClampedScrollOffset": 0,
+    "panelSize": [
+      360,
+      450
+    ],
+    "bodyViewportHeight": 330.0,
+    "bodyContentHeight": 322,
+    "doneHeight": 48,
+    "doneOutsideScroll": true,
+    "zoomShown": 3,
+    "zoomMaximumContext": "Source default8, runtime property can override",
+    "labelsAreDefaultEnglishSourceStrings": true,
+    "fontMetricScope": "Desktop Segoe UI fixture; actual Android font and widget measurement NOT RUN"
+  },
+  {
+    "id": "window-only-panel",
+    "svg": "workflow-previews\\window-only-panel.svg",
+    "png": "workflow-previews\\window-only-panel.png",
+    "capability": "window",
+    "mode": "window",
+    "selected": "size_small",
+    "fontScale": 1,
+    "scrollOffset": 0,
+    "actualClampedScrollOffset": 0,
+    "panelSize": [
+      320,
+      450
+    ],
+    "bodyViewportHeight": 330.0,
+    "bodyContentHeight": 322,
+    "doneHeight": 48,
+    "doneOutsideScroll": true,
+    "zoomShown": 3,
+    "zoomMaximumContext": "Source default8, runtime property can override",
+    "labelsAreDefaultEnglishSourceStrings": true,
+    "fontMetricScope": "Desktop Segoe UI fixture; actual Android font and widget measurement NOT RUN"
+  },
+  {
+    "id": "fullscreen-only-panel",
+    "svg": "workflow-previews\\fullscreen-only-panel.svg",
+    "png": "workflow-previews\\fullscreen-only-panel.png",
+    "capability": "fullscreen",
+    "mode": "fullscreen",
+    "selected": null,
+    "fontScale": 1,
+    "scrollOffset": 0,
+    "actualClampedScrollOffset": 0,
+    "panelSize": [
+      320,
+      360
+    ],
+    "bodyViewportHeight": 240.0,
+    "bodyContentHeight": 216,
+    "doneHeight": 48,
+    "doneOutsideScroll": true,
+    "zoomShown": 3,
+    "zoomMaximumContext": "Source default8, runtime property can override",
+    "labelsAreDefaultEnglishSourceStrings": true,
+    "fontMetricScope": "Desktop Segoe UI fixture; actual Android font and widget measurement NOT RUN"
+  },
+  {
+    "id": "compact-large-text-top",
+    "svg": "workflow-previews\\compact-large-text-top.svg",
+    "png": "workflow-previews\\compact-large-text-top.png",
+    "capability": "all",
+    "mode": "window",
+    "selected": "size_large",
+    "fontScale": 1.5,
+    "scrollOffset": 0,
+    "actualClampedScrollOffset": 0,
+    "panelSize": [
+      240,
+      420
+    ],
+    "bodyViewportHeight": 300.0,
+    "bodyContentHeight": 418.0,
+    "doneHeight": 48,
+    "doneOutsideScroll": true,
+    "zoomShown": 3,
+    "zoomMaximumContext": "Source default8, runtime property can override",
+    "labelsAreDefaultEnglishSourceStrings": true,
+    "fontMetricScope": "Desktop Segoe UI fixture; actual Android font and widget measurement NOT RUN"
+  },
+  {
+    "id": "compact-large-text-bottom",
+    "svg": "workflow-previews\\compact-large-text-bottom.svg",
+    "png": "workflow-previews\\compact-large-text-bottom.png",
+    "capability": "all",
+    "mode": "window",
+    "selected": "size_large",
+    "fontScale": 1.5,
+    "scrollOffset": 170,
+    "actualClampedScrollOffset": 118.0,
+    "panelSize": [
+      240,
+      420
+    ],
+    "bodyViewportHeight": 300.0,
+    "bodyContentHeight": 418.0,
+    "doneHeight": 48,
+    "doneOutsideScroll": true,
+    "zoomShown": 3,
+    "zoomMaximumContext": "Source default8, runtime property can override",
+    "labelsAreDefaultEnglishSourceStrings": true,
+    "fontMetricScope": "Desktop Segoe UI fixture; actual Android font and widget measurement NOT RUN"
+  },
+  {
+    "id": "window-and-settings",
+    "svg": "workflow-previews\\window-and-settings.svg",
+    "png": "workflow-previews\\window-and-settings.png",
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "windowPresetSourceScale": 1.8,
+    "windowRootSize": [
+      324,
+      324
+    ],
+    "surfaceMargin": 20.0,
+    "borderViewMargin": 15.0,
+    "actualNativeScreenshot": false
+  },
+  {
+    "id": "window-size-editing",
+    "svg": "workflow-previews\\window-size-editing.svg",
+    "png": "workflow-previews\\window-size-editing.png",
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "editWindowRootSize": [
+      360,
+      260
+    ],
+    "declaredResizeTouchTargetDp": 48,
+    "visibleResizeHousingDp": 26,
+    "nativeDragIconHidden": true,
+    "actualNativeScreenshot": false
+  },
+  {
+    "id": "fullscreen-border-and-settings-button",
+    "svg": "workflow-previews\\fullscreen-border-and-settings-button.svg",
+    "png": "workflow-previews\\fullscreen-border-and-settings-button.png",
+    "logicalViewport": [
+      960,
+      540
+    ],
+    "fullscreenSurfaceSize": [
+      972,
+      552
+    ],
+    "surfaceOffset": [
+      -6,
+      -6
+    ],
+    "illustrativeCornerRadius": 32,
+    "nativePhysicalRadius": "Runtime owner supplies actual value",
+    "actualNativeScreenshot": false
+  }
+]

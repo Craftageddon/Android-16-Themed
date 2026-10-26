@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-26",
+  "newAuthoredTreatments": 23,
+  "nativeSourceGeometryTreatments": 16,
+  "newControlGeometry": 7,
+  "exactReusedPanelMasters": 1,
+  "proceduralBorderParameterExamples": 3,
+  "proceduralBorderRuntimeImplementations": 1,
+  "newNativePngConfigurations": 644,
+  "reusedPanelPngConfigurations": 28,
+  "coldMaterialTiles": 1,
+  "layerNames": [
+    "cold",
+    "reflection",
+    "spill",
+    "seam",
+    "core",
+    "focus",
+    "symbol"
+  ],
+  "sourceBackedSvgPngWorkflowFixtures": 9,
+  "newJavaRenderingSupportClasses": 3,
+  "actualSourceOwnersModified": 5,
+  "nativeLayoutsModified": 3,
+  "productionBakedEmberRasters": 0,
+  "productionBakedLabels": 0,
+  "scope": "Counts distinguish source geometry/material treatments, new control drawings, exact reuse, procedural parameter snapshots, density exports and workflow previews."
+}

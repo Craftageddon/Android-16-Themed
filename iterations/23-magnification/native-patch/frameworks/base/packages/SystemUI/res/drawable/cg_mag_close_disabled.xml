@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_close_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>

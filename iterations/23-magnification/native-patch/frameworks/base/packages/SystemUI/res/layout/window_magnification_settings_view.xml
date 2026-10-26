@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2022 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<!-- Craftageddon modification: Ember Steel assets, responsive English labels and accessible control targets. -->
+<LinearLayout xmlns:ns0="http://schemas.android.com/apk/res/android" xmlns:ns1="http://schemas.android.com/apk/res-auto" ns0:id="@+id/magnifier_panel_view" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:background="@drawable/accessibility_magnification_setting_view_bg" ns0:orientation="vertical" ns0:padding="@dimen/magnification_setting_background_padding" ns0:focusable="true" ns0:accessibilityPaneTitle="@string/accessibility_magnification_settings_panel_description" ns0:contentDescription="@string/accessibility_magnification_settings_panel_description">
+    <ScrollView ns0:layout_width="match_parent" ns0:layout_height="0dp" ns0:layout_weight="1">
+        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="vertical">
+            <LinearLayout ns0:id="@+id/magnifier_size_view" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="horizontal">
+                <TextView ns0:id="@+id/magnifier_size_title" ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing" ns0:text="@string/accessibility_magnifier_size" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.Title" ns0:focusable="true" ns0:layout_gravity="center_vertical" ns0:textColor="@color/cg_mag_text_state" />
+
+                <Button ns0:id="@+id/magnifier_edit_button" ns0:background="@drawable/cg_mag_control" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/accessibility_magnifier_edit" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.EditButton" ns0:focusable="true" ns0:layout_gravity="center_vertical" ns0:textColor="@color/cg_mag_text_state" ns0:backgroundTint="@null" ns0:minHeight="48dp" />
+            </LinearLayout>
+
+            <LinearLayout ns0:id="@+id/magnifier_size_button_view" ns0:background="@drawable/accessibility_magnification_setting_view_image_btn_layout_bg" ns0:layout_width="match_parent" ns0:layout_height="@dimen/magnification_setting_image_button_height" ns0:minWidth="@dimen/magnification_setting_image_button_background_width" ns0:orientation="horizontal">
+                <ImageButton ns0:id="@+id/magnifier_small_button" ns0:layout_width="0dp" ns0:layout_height="@dimen/magnification_setting_image_button_height" ns0:layout_weight="1" ns0:scaleType="center" ns0:background="@drawable/accessibility_magnification_setting_view_image_btn_bg" ns0:src="@drawable/ic_magnification_menu_small" ns0:tint="@null" ns0:tintMode="src_atop" ns0:contentDescription="@string/accessibility_magnification_small" ns0:backgroundTint="@null" />
+
+                <ImageButton ns0:id="@+id/magnifier_medium_button" ns0:layout_width="0dp" ns0:layout_height="@dimen/magnification_setting_image_button_height" ns0:layout_weight="1" ns0:scaleType="center" ns0:background="@drawable/accessibility_magnification_setting_view_image_btn_bg" ns0:src="@drawable/ic_magnification_menu_medium" ns0:tint="@null" ns0:tintMode="src_atop" ns0:contentDescription="@string/accessibility_magnification_medium" ns0:backgroundTint="@null" />
+
+                <ImageButton ns0:id="@+id/magnifier_large_button" ns0:layout_width="0dp" ns0:layout_height="@dimen/magnification_setting_image_button_height" ns0:layout_weight="1" ns0:scaleType="center" ns0:background="@drawable/accessibility_magnification_setting_view_image_btn_bg" ns0:src="@drawable/ic_magnification_menu_large" ns0:tint="@null" ns0:tintMode="src_atop" ns0:contentDescription="@string/accessibility_magnification_large" ns0:backgroundTint="@null" />
+
+                <ImageButton ns0:id="@+id/magnifier_full_button" ns0:layout_width="0dp" ns0:layout_height="@dimen/magnification_setting_image_button_height" ns0:layout_weight="1" ns0:scaleType="center" ns0:background="@drawable/accessibility_magnification_setting_view_image_btn_bg" ns0:src="@drawable/cg_mag_fullscreen" ns0:tint="@null" ns0:tintMode="src_atop" ns0:contentDescription="@string/accessibility_magnification_fullscreen" ns0:backgroundTint="@null" />
+            </LinearLayout>
+
+            <LinearLayout ns0:id="@+id/magnifier_horizontal_lock_view" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="horizontal" ns0:layout_marginTop="@dimen/magnification_setting_view_margin" ns0:focusable="true">
+
+                <TextView ns0:id="@+id/magnifier_horizontal_lock_title" ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing" ns0:text="@string/accessibility_allow_diagonal_scrolling" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.Title" ns0:labelFor="@id/magnifier_horizontal_lock_switch" ns0:layout_gravity="center_vertical" ns0:textColor="@color/cg_mag_text_state" />
+
+                <com.google.android.material.materialswitch.MaterialSwitch ns0:id="@+id/magnifier_horizontal_lock_switch" ns0:layout_gravity="right|center_vertical" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:clickable="true" ns0:focusable="true" ns0:theme="@style/Theme.Material3.DynamicColors.DayNight" style="@style/SettingslibSwitchStyle.Expressive" ns0:minHeight="@dimen/cg_mag_min_touch_target" ns0:thumb="@drawable/cg_mag_switch_thumb" ns1:track="@drawable/cg_mag_switch_track" ns1:thumbTint="@null" ns1:trackTint="@null" ns1:thumbIcon="@null" ns1:thumbIconTint="@null" ns1:trackDecoration="@null" ns1:trackDecorationTint="@null" />
+
+            </LinearLayout>
+
+            <LinearLayout ns0:id="@+id/magnifier_keyboard_view" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="horizontal" ns0:layout_marginTop="@dimen/magnification_setting_view_margin" ns0:focusable="true" ns0:visibility="gone">
+
+                <TextView ns0:id="@+id/magnifier_keyboard_title" ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing" ns0:text="@string/accessibility_magnify_keyboard" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.Title" ns0:labelFor="@id/magnifier_keyboard_switch" ns0:layout_gravity="center_vertical" ns0:textColor="@color/cg_mag_text_state" />
+
+                <com.google.android.material.materialswitch.MaterialSwitch ns0:id="@+id/magnifier_keyboard_switch" ns0:layout_gravity="right|center_vertical" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:clickable="true" ns0:focusable="true" ns0:theme="@style/Theme.Material3.DynamicColors.DayNight" style="@style/SettingslibSwitchStyle.Expressive" ns0:minHeight="@dimen/cg_mag_min_touch_target" ns0:thumb="@drawable/cg_mag_switch_thumb" ns1:track="@drawable/cg_mag_switch_track" ns1:thumbTint="@null" ns1:trackTint="@null" ns1:thumbIcon="@null" ns1:thumbIconTint="@null" ns1:trackDecoration="@null" ns1:trackDecorationTint="@null" />
+
+            </LinearLayout>
+
+            <LinearLayout ns0:id="@+id/magnifier_typing_view" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="horizontal" ns0:layout_marginTop="@dimen/magnification_setting_view_margin" ns0:focusable="true" ns0:visibility="gone">
+
+                <TextView ns0:id="@+id/magnifier_typing_title" ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing" ns0:text="@string/accessibility_magnify_typing" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.Title" ns0:labelFor="@id/magnifier_typing_switch" ns0:layout_gravity="center_vertical" ns0:textColor="@color/cg_mag_text_state" />
+
+                <com.google.android.material.materialswitch.MaterialSwitch ns0:id="@+id/magnifier_typing_switch" ns0:layout_gravity="right|center_vertical" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:clickable="true" ns0:focusable="true" ns0:theme="@style/Theme.Material3.DynamicColors.DayNight" style="@style/SettingslibSwitchStyle.Expressive" ns0:minHeight="@dimen/cg_mag_min_touch_target" ns0:thumb="@drawable/cg_mag_switch_thumb" ns1:track="@drawable/cg_mag_switch_track" ns1:thumbTint="@null" ns1:trackTint="@null" ns1:thumbIcon="@null" ns1:thumbIconTint="@null" ns1:trackDecoration="@null" ns1:trackDecorationTint="@null" />
+
+            </LinearLayout>
+
+            <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:text="@string/accessibility_magnification_zoom" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.Title" ns0:layout_marginTop="@dimen/magnification_setting_view_margin" ns0:focusable="true" ns0:textColor="@color/cg_mag_text_state" />
+
+            <com.android.systemui.common.ui.view.SeekBarWithIconButtonsView ns0:id="@+id/magnifier_zoom_slider" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns1:progress="0" ns1:iconStartContentDescription="@string/accessibility_control_zoom_out" ns1:iconEndContentDescription="@string/accessibility_control_zoom_in" ns1:tickMark="@android:color/transparent" ns1:seekBarChangeMagnitude="10" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button ns0:id="@+id/magnifier_done_button" ns0:background="@drawable/cg_mag_control" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:text="@string/accessibility_magnification_done" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.DoneButton" ns0:focusable="true" ns0:layout_gravity="center_horizontal" ns0:layout_marginTop="@dimen/magnification_setting_view_margin" ns0:textColor="@color/cg_mag_text_state" ns0:backgroundTint="@null" ns0:minHeight="@dimen/magnification_setting_button_done_height" />
+</LinearLayout>
