@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2019 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<!-- Craftageddon modification: Ember Steel assets, responsive English labels and accessible control targets. -->
+<FrameLayout xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content">
+
+    <View ns0:id="@+id/magnification_inner_border" ns0:layout_width="match_parent" ns0:layout_height="match_parent" ns0:layout_margin="@dimen/magnification_outer_border_margin" ns0:background="@drawable/accessibility_window_magnification_background" />
+
+    <RelativeLayout ns0:layout_width="match_parent" ns0:layout_height="match_parent">
+
+        <View ns0:id="@+id/left_handle" ns0:layout_width="@dimen/magnification_border_drag_size" ns0:layout_height="match_parent" ns0:layout_alignParentStart="true" />
+
+        <View ns0:id="@+id/top_handle" ns0:layout_width="match_parent" ns0:layout_height="@dimen/magnification_border_drag_size" ns0:layout_alignParentTop="true" ns0:accessibilityTraversalAfter="@id/left_handle" />
+
+        <View ns0:id="@+id/right_handle" ns0:layout_width="@dimen/magnification_border_drag_size" ns0:layout_height="match_parent" ns0:layout_alignParentEnd="true" ns0:accessibilityTraversalAfter="@id/top_handle" />
+
+        <View ns0:id="@+id/bottom_handle" ns0:layout_width="match_parent" ns0:layout_height="@dimen/magnification_border_drag_size" ns0:layout_alignParentBottom="true" ns0:accessibilityTraversalAfter="@id/right_handle" />
+
+        <SurfaceView ns0:id="@+id/surface_view" ns0:layout_width="match_parent" ns0:layout_height="match_parent" ns0:layout_margin="@dimen/magnification_mirror_surface_margin" />
+    </RelativeLayout>
+
+    <ImageView ns0:id="@+id/top_right_corner" ns0:background="@drawable/accessibility_window_magnification_drag_corner_background" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_margin="0dp" ns0:layout_gravity="right|top" ns0:scaleType="center" ns0:contentDescription="@string/magnification_drag_corner_to_resize" ns0:src="@drawable/cg_mag_resize_b" ns0:accessibilityTraversalAfter="@id/top_left_corner" />
+
+    <ImageView ns0:id="@+id/top_left_corner" ns0:background="@drawable/accessibility_window_magnification_drag_corner_background" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_margin="0dp" ns0:layout_gravity="left|top" ns0:scaleType="center" ns0:contentDescription="@string/magnification_drag_corner_to_resize" ns0:src="@drawable/cg_mag_resize_a" ns0:accessibilityTraversalAfter="@id/bottom_handle" />
+
+    <ImageView ns0:id="@+id/bottom_right_corner" ns0:background="@drawable/accessibility_window_magnification_drag_corner_background" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_margin="0dp" ns0:layout_gravity="right|bottom" ns0:scaleType="center" ns0:contentDescription="@string/magnification_drag_corner_to_resize" ns0:src="@drawable/cg_mag_resize_a" ns0:accessibilityTraversalAfter="@id/top_right_corner" />
+
+    <ImageView ns0:id="@+id/bottom_left_corner" ns0:background="@drawable/accessibility_window_magnification_drag_corner_background" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_margin="0dp" ns0:layout_gravity="left|bottom" ns0:scaleType="center" ns0:contentDescription="@string/magnification_drag_corner_to_resize" ns0:src="@drawable/cg_mag_resize_b" ns0:accessibilityTraversalAfter="@id/bottom_right_corner" />
+
+    <ImageView ns0:id="@+id/drag_handle" ns0:layout_width="@dimen/magnification_drag_view_size" ns0:layout_height="@dimen/magnification_drag_view_size" ns0:layout_gravity="right|bottom" ns0:padding="@dimen/magnifier_drag_handle_padding" ns0:scaleType="center" ns0:src="@drawable/ic_move_magnification" ns0:background="@drawable/accessibility_window_magnification_drag_handle_background_inset" />
+
+    <ImageView ns0:id="@+id/close_button" ns0:layout_width="48dp" ns0:layout_height="48dp" ns0:layout_margin="30dp" ns0:padding="@dimen/magnification_switch_button_padding" ns0:layout_gravity="right|bottom" ns0:scaleType="center" ns0:visibility="gone" ns0:background="@drawable/accessibility_magnifier_btn_bg" ns0:src="@drawable/ic_magnification_menu_close" ns0:focusable="true" ns0:contentDescription="@string/accessibility_magnification_done" ns0:backgroundTint="@null" />
+</FrameLayout>

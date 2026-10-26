@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:color="@android:color/transparent" /><item ns0:state_focused="true" ns0:color="@color/cg_mag_focus" /><item ns0:color="@android:color/transparent" /></selector>

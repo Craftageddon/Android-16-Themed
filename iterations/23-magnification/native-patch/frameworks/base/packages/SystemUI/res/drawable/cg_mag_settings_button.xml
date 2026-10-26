@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:width="@dimen/magnification_setting_drag_size" ns0:height="@dimen/magnification_setting_drag_size" ns0:drawable="@drawable/cg_mag_control" /><item ns0:gravity="center" ns0:width="36dp" ns0:height="36dp" ns0:drawable="@drawable/cg_mag_settings_gear" /></layer-list>

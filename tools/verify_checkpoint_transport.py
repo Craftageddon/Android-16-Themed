@@ -23,7 +23,9 @@ def main():
         data=(root/'distribution'/part['file']).read_bytes();assert len(data)==part['bytes'] and hashlib.sha256(data).hexdigest()==part['sha256'];joined.update(data)
     assert joined.hexdigest()==digest;assert hashlib.sha256(a.restored.read_bytes()).hexdigest()==digest
     delivery=ROOT.parent/'Deliverables'/a.delivery;assert delivery.parent.resolve()==(ROOT.parent/'Deliverables').resolve();delivery.mkdir(parents=True,exist_ok=False);wanted=['complete-assets.zip','complete-assets.zip.sha256','complete-assets.zip.sig','complete-assets.zip.sig.json','signing-public-key.pem','README.md','REVIEW.md','semantic-review-progress.json','semantic-review-delta.json','changed-files.json','AynParts-forge-source.patch'];wanted += [p.relative_to(root).as_posix() for p in (root/'previews').glob('*.png')];wanted += ['workflow-previews/rgb-green-dragged.png','workflow-previews/calibration-test-calibration.png'];saved={}
-    for name in wanted:
+    wanted += ['SystemUI-magnification-forge.patch','asset-inventory.json','workflow-fixtures.json','owner-binding-review.json','border-parameter-examples.json','verification/evidence/source-art-checks.json','verification/evidence/native-subset-build.json']
+    wanted += [p.relative_to(root).as_posix() for p in (root/'workflow-previews').glob('*') if p.suffix in ['.svg','.png']]
+    for name in dict.fromkeys(wanted):
         source=root/name
         if not source.exists():continue
         target=delivery/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target);sha=hashlib.sha256(target.read_bytes()).hexdigest();assert sha==hashlib.sha256(source.read_bytes()).hexdigest();saved[name]=sha

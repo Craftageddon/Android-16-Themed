@@ -1,0 +1,9 @@
+# Review scope
+
+Multiple passes inspected the cold and active glyph sheet, owner panels, compact large-text scrolling, size editing and fullscreen border fixtures. Cold glyphs were brightened after pixel inspection; every source-glyph xhdpi opaque-pixel median is at least 3:1 against the declared well. This statistic and nominal text contrast do not prove blanket WCAG or Android/device acceptance. PNG masks are neutral; all authored visible text is English, and production skins contain no labels.
+
+Five actual owners carry explicit change notices: FullscreenMagnificationController, WindowMagnificationController, WindowMagnificationSettings, MagnificationModeSwitch and SimpleMirrorWindowControl. Exact reverse-edit and clean Git patch application checks prove the source changes are confined to the recorded bindings, responsive header, press presentation, accessibility close action, control target size and visible-target gating. Gesture accumulation, source crop, movement/scale callback bodies, repeat task and lifecycle/rotation/window flags are retained; the untouched source classes are preserved separately. Full hidden-platform owner compilation remains unrun.
+
+The legacy palette selectors remain OPEN because other/global uses are not approved from this owner handoff. Shared add/remove/fullscreen/resize/gear resources are not globally overridden. The old magnification-prefixed sources receive explicit owner roles; exact wrapper preservation is retained where already reviewed. Frozen earlier checkpoints and all 472 earlier canonical masters remain intact.
+
+The final full-goal double-check is NOT RUN. Remaining 9,630 family decisions, four workflow groups, additional artwork and owner bridges stay required. No source/desktop check is promoted to physical Thor validation or a production ROM release.

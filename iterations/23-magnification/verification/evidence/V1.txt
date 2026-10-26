@@ -1,0 +1,6 @@
+CHECK: V1
+RESULT: PASS
+SCOPE: W06 magnification source/artwork handoff: cold steel and neutral masks, precise procedural border geometry, actual owner states, live English labels, responsive header and48dp declared input targets. Not a finished full-corpus or Android release.
+METHOD: Roadmap and component-family source inspection
+OBSERVATIONS: Actual fullscreen/window/edit/preset/switch/zoom/legacy-control roles traced; source state, input deltas/timing, mirrored-data surface, native corner/dash values and real scale-property path retained. Global shared glyph resources are not overridden. Full10926-family baseline and remaining work are explicit.
+Target Android integration, physical device rendering, final accessibility and performance are NOT RUN.

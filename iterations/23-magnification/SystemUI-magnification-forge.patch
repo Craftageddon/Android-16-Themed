@@ -1,0 +1,1969 @@
+--- /dev/null
++++ b/res/color/cg_mag_core_state.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:color="@android:color/transparent" /><item ns0:state_pressed="true" ns0:color="@color/cg_mag_core" ns0:alpha="1" /><item ns0:state_checked="true" ns0:color="@color/cg_mag_core" ns0:alpha="0.82" /><item ns0:state_selected="true" ns0:color="@color/cg_mag_core" ns0:alpha="0.82" /><item ns0:state_activated="true" ns0:color="@color/cg_mag_core" ns0:alpha="0.82" /><item ns0:color="@android:color/transparent" /></selector>
+--- /dev/null
++++ b/res/color/cg_mag_focus_state.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:color="@android:color/transparent" /><item ns0:state_focused="true" ns0:color="@color/cg_mag_focus" /><item ns0:color="@android:color/transparent" /></selector>
+--- /dev/null
++++ b/res/color/cg_mag_reflection_state.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:color="@android:color/transparent" /><item ns0:state_pressed="true" ns0:color="@color/cg_mag_reflection" ns0:alpha="0.6" /><item ns0:state_checked="true" ns0:color="@color/cg_mag_reflection" ns0:alpha="0.32" /><item ns0:state_selected="true" ns0:color="@color/cg_mag_reflection" ns0:alpha="0.32" /><item ns0:state_activated="true" ns0:color="@color/cg_mag_reflection" ns0:alpha="0.32" /><item ns0:color="@android:color/transparent" /></selector>
+--- /dev/null
++++ b/res/color/cg_mag_seam_state.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:color="@android:color/transparent" /><item ns0:state_pressed="true" ns0:color="@color/cg_mag_seam" ns0:alpha="1" /><item ns0:state_checked="true" ns0:color="@color/cg_mag_seam" ns0:alpha="1" /><item ns0:state_selected="true" ns0:color="@color/cg_mag_seam" ns0:alpha="1" /><item ns0:state_activated="true" ns0:color="@color/cg_mag_seam" ns0:alpha="1" /><item ns0:color="@android:color/transparent" /></selector>
+--- /dev/null
++++ b/res/color/cg_mag_spill_state.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:color="@android:color/transparent" /><item ns0:state_pressed="true" ns0:color="@color/cg_mag_spill" ns0:alpha="0.92" /><item ns0:state_checked="true" ns0:color="@color/cg_mag_spill" ns0:alpha="0.72" /><item ns0:state_selected="true" ns0:color="@color/cg_mag_spill" ns0:alpha="0.72" /><item ns0:state_activated="true" ns0:color="@color/cg_mag_spill" ns0:alpha="0.72" /><item ns0:color="@android:color/transparent" /></selector>
+--- /dev/null
++++ b/res/color/cg_mag_symbol_state.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:color="@android:color/transparent" /><item ns0:state_pressed="true" ns0:color="@color/cg_mag_symbol" ns0:alpha="1" /><item ns0:state_checked="true" ns0:color="@color/cg_mag_symbol" ns0:alpha="1" /><item ns0:state_selected="true" ns0:color="@color/cg_mag_symbol" ns0:alpha="1" /><item ns0:state_activated="true" ns0:color="@color/cg_mag_symbol" ns0:alpha="1" /><item ns0:color="@android:color/transparent" /></selector>
+--- /dev/null
++++ b/res/color/cg_mag_text_state.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:color="@color/cg_mag_secondary" ns0:alpha="0.6" /><item ns0:color="@color/cg_mag_text" /></selector>
+--- a/res/drawable/accessibility_magnification_setting_view_bg.xml
++++ b/res/drawable/accessibility_magnification_setting_view_bg.xml
+@@ -1,22 +1,2 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<shape xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+-    android:shape="rectangle">
+-    <corners android:radius="@dimen/magnification_setting_background_corner_radius" />
+-    <solid android:color="@color/materialColorSurfaceContainer" />
+-</shape>
+\ No newline at end of file
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_panel" /></layer-list>
+--- a/res/drawable/accessibility_magnification_setting_view_image_btn_bg.xml
++++ b/res/drawable/accessibility_magnification_setting_view_image_btn_bg.xml
+@@ -1,30 +1,2 @@
+-<?xml version="1.0" encoding="utf-8"?><!--
+-    Copyright (C) 2023 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:color="?android:attr/colorControlHighlight">
+-    <item android:id="@android:id/mask">
+-        <shape android:shape="rectangle">
+-            <corners android:radius="@dimen/magnification_setting_image_button_corner_radius" />
+-            <solid android:color="@color/accessibility_magnification_image_button_background" />
+-        </shape>
+-    </item>
+-    <item android:id="@android:id/background">
+-        <shape android:shape="rectangle">
+-            <corners android:radius="@dimen/magnification_setting_image_button_corner_radius" />
+-            <solid android:color="@color/accessibility_magnification_image_button_background" />
+-        </shape>
+-    </item>
+-</ripple>
+\ No newline at end of file
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_control" /></layer-list>
+--- a/res/drawable/accessibility_magnification_setting_view_image_btn_layout_bg.xml
++++ b/res/drawable/accessibility_magnification_setting_view_image_btn_layout_bg.xml
+@@ -1,22 +1,2 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<shape xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+-    android:shape="rectangle">
+-    <solid android:color="@color/materialColorSurfaceContainerHigh" />
+-    <corners android:radius="@dimen/magnification_setting_image_button_background_corner_radius" />
+-</shape>
+\ No newline at end of file
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_control" /></layer-list>
+--- a/res/drawable/accessibility_magnifier_btn_bg.xml
++++ b/res/drawable/accessibility_magnifier_btn_bg.xml
+@@ -1,27 +1,2 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<shape xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:shape="oval">
+-    <solid android:color="@color/accessibility_magnifier_bg" />
+-    <size
+-        android:width="56dp"
+-        android:height="56dp"/>
+-    <corners android:radius="2dp"/>
+-    <stroke
+-        android:color="@color/accessibility_magnifier_bg_stroke"
+-        android:width="1dp" />
+- </shape>
+\ No newline at end of file
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_control" /></layer-list>
+--- a/res/drawable/accessibility_window_magnification_button_done_bg.xml
++++ b/res/drawable/accessibility_window_magnification_button_done_bg.xml
+@@ -1,26 +1,2 @@
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<shape xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+-    android:shape="rectangle">
+-    <size
+-        android:width="@dimen/magnification_setting_button_done_width"
+-        android:height="@dimen/magnification_setting_button_done_height"/>
+-    <corners android:radius="@dimen/magnification_setting_button_done_corner_radius"/>
+-    <stroke
+-        android:color="?androidprv:attr/colorAccent"
+-        android:width="1dp" />
+- </shape>
+\ No newline at end of file
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_control" /></layer-list>
+--- a/res/drawable/accessibility_window_magnification_drag_corner_background.xml
++++ b/res/drawable/accessibility_window_magnification_drag_corner_background.xml
+@@ -1,25 +1,2 @@
+-<?xml version="1.0" encoding="UTF-8"?><!--
+-  ~ Copyright (C) 2023 The Android Open Source Project
+-  ~
+-  ~ Licensed under the Apache License, Version 2.0 (the "License");
+-  ~ you may not use this file except in compliance with the License.
+-  ~ You may obtain a copy of the License at
+-  ~
+-  ~      http://www.apache.org/licenses/LICENSE-2.0
+-  ~
+-  ~ Unless required by applicable law or agreed to in writing, software
+-  ~ distributed under the License is distributed on an "AS IS" BASIS,
+-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-  ~ See the License for the specific language governing permissions and
+-  ~ limitations under the License.
+-  -->
+-<shape xmlns:android="http://schemas.android.com/apk/res/android"
+-       android:shape="rectangle">
+-    <size
+-        android:width="@dimen/magnification_window_drag_corner_size"
+-        android:height="@dimen/magnification_window_drag_corner_size"/>
+-    <stroke
+-        android:color="@android:color/black"
+-        android:width="@dimen/magnification_window_drag_corner_stroke"/>
+-    <solid android:color="@color/magnification_drag_corner_background" />
+-</shape>
+\ No newline at end of file
++<?xml version='1.0' encoding='utf-8'?>
++<inset xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:drawable="@drawable/cg_mag_corner_handle" ns0:insetLeft="@dimen/cg_mag_resize_target_inset" ns0:insetRight="@dimen/cg_mag_resize_target_inset" ns0:insetTop="@dimen/cg_mag_resize_target_inset" ns0:insetBottom="@dimen/cg_mag_resize_target_inset" />
+--- a/res/drawable/accessibility_window_magnification_drag_handle_background.xml
++++ b/res/drawable/accessibility_window_magnification_drag_handle_background.xml
+@@ -1,23 +1,2 @@
+-<?xml version="1.0" encoding="UTF-8"?><!--
+-  ~ Copyright (C) 2023 The Android Open Source Project
+-  ~
+-  ~ Licensed under the Apache License, Version 2.0 (the "License");
+-  ~ you may not use this file except in compliance with the License.
+-  ~ You may obtain a copy of the License at
+-  ~
+-  ~      http://www.apache.org/licenses/LICENSE-2.0
+-  ~
+-  ~ Unless required by applicable law or agreed to in writing, software
+-  ~ distributed under the License is distributed on an "AS IS" BASIS,
+-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-  ~ See the License for the specific language governing permissions and
+-  ~ limitations under the License.
+-  -->
+-<shape xmlns:android="http://schemas.android.com/apk/res/android"
+-       android:shape="rectangle">
+-    <stroke
+-        android:color="@color/magnification_drag_handle_stroke"
+-        android:width="@dimen/magnifier_stroke_width"/>
+-    <corners android:radius="@dimen/magnifier_corner_radius" />
+-    <solid android:color="@color/magnification_border_color" />
+-</shape>
+\ No newline at end of file
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_drag_handle" /></layer-list>
+--- a/res/drawable/accessibility_window_magnification_drag_handle_background_change.xml
++++ b/res/drawable/accessibility_window_magnification_drag_handle_background_change.xml
+@@ -1,23 +1,2 @@
+-<?xml version="1.0" encoding="UTF-8"?><!--
+-  ~ Copyright (C) 2023 The Android Open Source Project
+-  ~
+-  ~ Licensed under the Apache License, Version 2.0 (the "License");
+-  ~ you may not use this file except in compliance with the License.
+-  ~ You may obtain a copy of the License at
+-  ~
+-  ~      http://www.apache.org/licenses/LICENSE-2.0
+-  ~
+-  ~ Unless required by applicable law or agreed to in writing, software
+-  ~ distributed under the License is distributed on an "AS IS" BASIS,
+-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-  ~ See the License for the specific language governing permissions and
+-  ~ limitations under the License.
+-  -->
+-<shape xmlns:android="http://schemas.android.com/apk/res/android"
+-       android:shape="rectangle">
+-    <stroke
+-        android:color="@color/magnification_border_color"
+-        android:width="@dimen/magnifier_stroke_width"/>
+-    <corners android:radius="@dimen/magnifier_corner_radius" />
+-    <solid android:color="@color/magnification_drag_handle_background_change" />
+-</shape>
+\ No newline at end of file
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_drag_handle" /></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_close.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_close_disabled" /><item ns0:drawable="@drawable/cg_mag_close_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_close_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_close_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_close_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_close_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_close_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_close_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_close_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_close_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_close_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_close_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_control.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_control_disabled" /><item ns0:drawable="@drawable/cg_mag_control_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_control_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><nine-patch ns0:src="@drawable/cg_mag_control_cold" ns0:dither="true" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_control_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><nine-patch ns0:src="@drawable/cg_mag_control_cold" ns0:dither="true" /></item><item><nine-patch ns0:src="@drawable/cg_mag_control_reflection" ns0:dither="true" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_control_spill" ns0:dither="true" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_control_seam" ns0:dither="true" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_control_core" ns0:dither="true" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_control_focus" ns0:dither="true" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_control_symbol" ns0:dither="true" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_controller.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_controller_disabled" /><item ns0:drawable="@drawable/cg_mag_controller_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_controller_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_controller_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_controller_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_controller_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_controller_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_controller_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_controller_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_controller_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_controller_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_controller_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_bottom_left.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_corner_bottom_left_disabled" /><item ns0:drawable="@drawable/cg_mag_corner_bottom_left_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_bottom_left_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_left_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_bottom_left_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_left_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_left_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_left_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_left_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_left_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_left_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_left_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_bottom_right.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_corner_bottom_right_disabled" /><item ns0:drawable="@drawable/cg_mag_corner_bottom_right_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_bottom_right_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_right_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_bottom_right_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_right_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_right_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_right_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_right_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_right_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_right_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_bottom_right_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_handle.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_corner_handle_disabled" /><item ns0:drawable="@drawable/cg_mag_corner_handle_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_handle_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_corner_handle_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_handle_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_corner_handle_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_handle_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_handle_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_handle_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_handle_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_handle_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_handle_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_top_left.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_corner_top_left_disabled" /><item ns0:drawable="@drawable/cg_mag_corner_top_left_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_top_left_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_corner_top_left_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_top_left_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_corner_top_left_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_left_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_left_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_left_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_left_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_left_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_left_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_top_right.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_corner_top_right_disabled" /><item ns0:drawable="@drawable/cg_mag_corner_top_right_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_top_right_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_corner_top_right_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_corner_top_right_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_corner_top_right_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_right_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_right_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_right_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_right_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_right_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_corner_top_right_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_drag_handle.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_drag_handle_disabled" /><item ns0:drawable="@drawable/cg_mag_drag_handle_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_drag_handle_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_drag_handle_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_drag_handle_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_drag_handle_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_drag_handle_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_drag_handle_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_drag_handle_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_drag_handle_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_drag_handle_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_drag_handle_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_fullscreen.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_fullscreen_disabled" /><item ns0:drawable="@drawable/cg_mag_fullscreen_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_fullscreen_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_fullscreen_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_fullscreen_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_fullscreen_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_fullscreen_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_fullscreen_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_fullscreen_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_fullscreen_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_fullscreen_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_fullscreen_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_move.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_move_disabled" /><item ns0:drawable="@drawable/cg_mag_move_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_move_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_move_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_move_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_move_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_move_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_move_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_move_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_move_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_move_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_move_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_panel.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><nine-patch ns0:src="@drawable/cg_mag_panel_cold" ns0:dither="true" /></item><item><nine-patch ns0:src="@drawable/cg_mag_panel_reflection" ns0:dither="true" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_panel_spill" ns0:dither="true" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_panel_seam" ns0:dither="true" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_panel_core" ns0:dither="true" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_panel_focus" ns0:dither="true" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_panel_symbol" ns0:dither="true" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_resize_a.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_resize_a_disabled" /><item ns0:drawable="@drawable/cg_mag_resize_a_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_resize_a_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_resize_a_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_resize_a_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_resize_a_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_a_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_a_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_a_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_a_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_a_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_a_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_resize_b.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_resize_b_disabled" /><item ns0:drawable="@drawable/cg_mag_resize_b_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_resize_b_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_resize_b_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_resize_b_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_resize_b_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_b_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_b_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_b_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_b_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_b_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_resize_b_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_seek_thumb.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_seek_thumb_disabled" /><item ns0:drawable="@drawable/cg_mag_seek_thumb_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_seek_thumb_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_seek_thumb_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_seek_thumb_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_seek_thumb_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_seek_thumb_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_seek_thumb_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_seek_thumb_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_seek_thumb_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_seek_thumb_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_seek_thumb_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_settings_button.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:width="@dimen/magnification_setting_drag_size" ns0:height="@dimen/magnification_setting_drag_size" ns0:drawable="@drawable/cg_mag_control" /><item ns0:gravity="center" ns0:width="36dp" ns0:height="36dp" ns0:drawable="@drawable/cg_mag_settings_gear" /></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_settings_gear.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_settings_gear_disabled" /><item ns0:drawable="@drawable/cg_mag_settings_gear_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_settings_gear_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_settings_gear_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_settings_gear_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_settings_gear_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_settings_gear_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_settings_gear_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_settings_gear_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_settings_gear_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_settings_gear_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_settings_gear_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_size_large.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_size_large_disabled" /><item ns0:drawable="@drawable/cg_mag_size_large_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_size_large_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_size_large_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_size_large_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_size_large_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_large_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_large_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_large_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_large_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_large_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_large_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_size_medium.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_size_medium_disabled" /><item ns0:drawable="@drawable/cg_mag_size_medium_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_size_medium_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_size_medium_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_size_medium_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_size_medium_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_medium_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_medium_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_medium_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_medium_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_medium_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_medium_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_size_small.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_size_small_disabled" /><item ns0:drawable="@drawable/cg_mag_size_small_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_size_small_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_size_small_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_size_small_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_size_small_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_small_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_small_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_small_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_small_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_small_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_size_small_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_switch_thumb.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_switch_thumb_disabled" /><item ns0:drawable="@drawable/cg_mag_switch_thumb_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_switch_thumb_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_switch_thumb_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_switch_thumb_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_switch_thumb_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_switch_thumb_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_switch_thumb_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_switch_thumb_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_switch_thumb_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_switch_thumb_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_switch_thumb_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_switch_track.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_switch_track_disabled" /><item ns0:drawable="@drawable/cg_mag_switch_track_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_switch_track_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><nine-patch ns0:src="@drawable/cg_mag_switch_track_cold" ns0:dither="true" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_switch_track_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><nine-patch ns0:src="@drawable/cg_mag_switch_track_cold" ns0:dither="true" /></item><item><nine-patch ns0:src="@drawable/cg_mag_switch_track_reflection" ns0:dither="true" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_switch_track_spill" ns0:dither="true" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_switch_track_seam" ns0:dither="true" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_switch_track_core" ns0:dither="true" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_switch_track_focus" ns0:dither="true" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_switch_track_symbol" ns0:dither="true" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_zoom_in.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_zoom_in_disabled" /><item ns0:drawable="@drawable/cg_mag_zoom_in_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_zoom_in_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_zoom_in_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_zoom_in_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_zoom_in_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_in_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_in_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_in_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_in_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_in_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_in_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_zoom_out.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_zoom_out_disabled" /><item ns0:drawable="@drawable/cg_mag_zoom_out_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_zoom_out_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_zoom_out_cold" ns0:dither="true" ns0:gravity="fill" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_zoom_out_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><bitmap ns0:src="@drawable/cg_mag_zoom_out_cold" ns0:dither="true" ns0:gravity="fill" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_out_reflection" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_out_spill" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_out_seam" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_out_core" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_out_focus" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><bitmap ns0:src="@drawable/cg_mag_zoom_out_symbol" ns0:dither="true" ns0:gravity="fill" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_zoom_progress.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:paddingMode="stack"><item ns0:id="@android:id/background" ns0:drawable="@drawable/cg_mag_zoom_rail" /><item ns0:id="@android:id/secondaryProgress"><clip ns0:clipOrientation="horizontal" ns0:gravity="start"><inset ns0:insetTop="5dp" ns0:insetBottom="5dp" ns0:insetLeft="3dp" ns0:insetRight="3dp"><shape ns0:shape="rectangle"><solid ns0:color="#44515e" /><corners ns0:radius="1dp" /></shape></inset></clip></item><item ns0:id="@android:id/progress"><clip ns0:clipOrientation="horizontal" ns0:gravity="start"><inset ns0:insetTop="5dp" ns0:insetBottom="5dp" ns0:insetLeft="3dp" ns0:insetRight="3dp"><shape ns0:shape="rectangle"><solid ns0:color="@color/cg_mag_cold_progress" /><corners ns0:radius="1dp" /></shape></inset></clip></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_zoom_rail.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<selector xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:state_enabled="false" ns0:drawable="@drawable/cg_mag_zoom_rail_disabled" /><item ns0:drawable="@drawable/cg_mag_zoom_rail_layers" /></selector>
+--- /dev/null
++++ b/res/drawable/cg_mag_zoom_rail_disabled.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><nine-patch ns0:src="@drawable/cg_mag_zoom_rail_cold" ns0:dither="true" ns0:alpha="0.42" /></item></layer-list>
+--- /dev/null
++++ b/res/drawable/cg_mag_zoom_rail_layers.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item><nine-patch ns0:src="@drawable/cg_mag_zoom_rail_cold" ns0:dither="true" /></item><item><nine-patch ns0:src="@drawable/cg_mag_zoom_rail_reflection" ns0:dither="true" ns0:tint="@color/cg_mag_reflection_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_zoom_rail_spill" ns0:dither="true" ns0:tint="@color/cg_mag_spill_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_zoom_rail_seam" ns0:dither="true" ns0:tint="@color/cg_mag_seam_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_zoom_rail_core" ns0:dither="true" ns0:tint="@color/cg_mag_core_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_zoom_rail_focus" ns0:dither="true" ns0:tint="@color/cg_mag_focus_state" ns0:tintMode="src_in" /></item><item><nine-patch ns0:src="@drawable/cg_mag_zoom_rail_symbol" ns0:dither="true" ns0:tint="@color/cg_mag_symbol_state" ns0:tintMode="src_in" /></item></layer-list>
+--- a/res/drawable/ic_control_magnification_grey.xml
++++ b/res/drawable/ic_control_magnification_grey.xml
+@@ -1,22 +1,2 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-    Copyright (C) 2019 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-
+-<vector android:height="96dp" android:viewportHeight="24"
+-    android:viewportWidth="24" android:width="96dp" xmlns:android="http://schemas.android.com/apk/res/android">
+-    <path android:fillColor="#757575" android:pathData="M15.54,5.54L13.77,7.3 12,5.54 10.23,7.3 8.46,5.54 12,2zM18.46,15.54l-1.76,-1.77L18.46,12l-1.76,-1.77 1.76,-1.77L22,12zM8.46,18.46l1.77,-1.76L12,18.46l1.77,-1.76 1.77,1.76L12,22zM5.54,8.46l1.76,1.77L5.54,12l1.76,1.77 -1.76,1.77L2,12z"/>
+-    <path android:fillColor="#757575" android:pathData="M12,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+-</vector>
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_controller" /></layer-list>
+--- a/res/drawable/ic_magnification_corner_bottom_left.xml
++++ b/res/drawable/ic_magnification_corner_bottom_left.xml
+@@ -1,33 +1,2 @@
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-  <path
+-      android:pathData="M0,24l0,-4l24,-0l0,4z"
+-      android:strokeWidth="1"
+-      android:fillColor="@color/accessibility_window_magnifier_corner_view_color"
+-      android:fillType="evenOdd"
+-      android:strokeColor="#00000000"/>
+-  <path
+-      android:pathData="M0,24l0,-24l4,-0l0,24z"
+-      android:strokeWidth="1"
+-      android:fillColor="@color/accessibility_window_magnifier_corner_view_color"
+-      android:fillType="evenOdd"
+-      android:strokeColor="#00000000"/>
+-</vector>
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_corner_bottom_left" /></layer-list>
+--- a/res/drawable/ic_magnification_corner_bottom_right.xml
++++ b/res/drawable/ic_magnification_corner_bottom_right.xml
+@@ -1,33 +1,2 @@
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-  <path
+-      android:pathData="M24,24l-4,-0l-0,-24l4,-0z"
+-      android:strokeWidth="1"
+-      android:fillColor="@color/accessibility_window_magnifier_corner_view_color"
+-      android:fillType="evenOdd"
+-      android:strokeColor="#00000000"/>
+-  <path
+-      android:pathData="M24,24l-24,-0l-0,-4l24,-0z"
+-      android:strokeWidth="1"
+-      android:fillColor="@color/accessibility_window_magnifier_corner_view_color"
+-      android:fillType="evenOdd"
+-      android:strokeColor="#00000000"/>
+-</vector>
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_corner_bottom_right" /></layer-list>
+--- a/res/drawable/ic_magnification_corner_top_left.xml
++++ b/res/drawable/ic_magnification_corner_top_left.xml
+@@ -1,33 +1,2 @@
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-  <path
+-      android:pathData="M0,0h4v24h-4z"
+-      android:strokeWidth="1"
+-      android:fillColor="@color/accessibility_window_magnifier_corner_view_color"
+-      android:fillType="evenOdd"
+-      android:strokeColor="#00000000"/>
+-  <path
+-      android:pathData="M0,0h24v4h-24z"
+-      android:strokeWidth="1"
+-      android:fillColor="@color/accessibility_window_magnifier_corner_view_color"
+-      android:fillType="evenOdd"
+-      android:strokeColor="#00000000"/>
+-</vector>
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_corner_top_left" /></layer-list>
+--- a/res/drawable/ic_magnification_corner_top_right.xml
++++ b/res/drawable/ic_magnification_corner_top_right.xml
+@@ -1,33 +1,2 @@
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-  <path
+-      android:pathData="M24,0l-0,4l-24,0l-0,-4z"
+-      android:strokeWidth="1"
+-      android:fillColor="@color/accessibility_window_magnifier_corner_view_color"
+-      android:fillType="evenOdd"
+-      android:strokeColor="#00000000"/>
+-  <path
+-      android:pathData="M24,0l-0,24l-4,0l-0,-24z"
+-      android:strokeWidth="1"
+-      android:fillColor="@color/accessibility_window_magnifier_corner_view_color"
+-      android:fillType="evenOdd"
+-      android:strokeColor="#00000000"/>
+-</vector>
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_corner_top_right" /></layer-list>
+--- a/res/drawable/ic_magnification_menu_close.xml
++++ b/res/drawable/ic_magnification_menu_close.xml
+@@ -1,29 +1,2 @@
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="32dp"
+-    android:height="32dp"
+-    android:viewportWidth="32"
+-    android:viewportHeight="32">
+-  <path
+-      android:pathData="M7.3334,24.6667L24.6674,7.3334M7.3334,7.3334L24.6674,24.6667"
+-      android:strokeLineJoin="round"
+-      android:strokeWidth="1.5"
+-      android:fillColor="#00000000"
+-      android:strokeColor="#000000"
+-      android:fillType="evenOdd"
+-      android:strokeLineCap="round"/>
+-</vector>
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_close" /></layer-list>
+--- a/res/drawable/ic_magnification_menu_large.xml
++++ b/res/drawable/ic_magnification_menu_large.xml
+@@ -1,25 +1,2 @@
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="32dp"
+-    android:height="32dp"
+-    android:viewportWidth="48"
+-    android:viewportHeight="48"
+-    android:tint="?attr/colorControlNormal">
+-  <path
+-      android:fillColor="@android:color/white"
+-      android:pathData="M9.7,29.6H33.75V13.7H9.7ZM7,40Q5.8,40 4.9,39.1Q4,38.2 4,37V11Q4,9.8 4.9,8.9Q5.8,8 7,8H41Q42.2,8 43.1,8.9Q44,9.8 44,11V37Q44,38.2 43.1,39.1Q42.2,40 41,40ZM7,37H41Q41,37 41,37Q41,37 41,37V11Q41,11 41,11Q41,11 41,11H7Q7,11 7,11Q7,11 7,11V37Q7,37 7,37Q7,37 7,37ZM7,37Q7,37 7,37Q7,37 7,37V11Q7,11 7,11Q7,11 7,11Q7,11 7,11Q7,11 7,11V37Q7,37 7,37Q7,37 7,37Z"/>
+-</vector>
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_size_large" /></layer-list>
+--- a/res/drawable/ic_magnification_menu_medium.xml
++++ b/res/drawable/ic_magnification_menu_medium.xml
+@@ -1,25 +1,2 @@
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="32dp"
+-    android:height="32dp"
+-    android:viewportWidth="48"
+-    android:viewportHeight="48"
+-    android:tint="?attr/colorControlNormal">
+-  <path
+-      android:fillColor="@android:color/white"
+-      android:pathData="M9.7,27.6H27.75V13.7H9.7ZM7,40Q5.8,40 4.9,39.1Q4,38.2 4,37V11Q4,9.8 4.9,8.9Q5.8,8 7,8H41Q42.2,8 43.1,8.9Q44,9.8 44,11V37Q44,38.2 43.1,39.1Q42.2,40 41,40ZM7,37H41Q41,37 41,37Q41,37 41,37V11Q41,11 41,11Q41,11 41,11H7Q7,11 7,11Q7,11 7,11V37Q7,37 7,37Q7,37 7,37ZM7,37Q7,37 7,37Q7,37 7,37V11Q7,11 7,11Q7,11 7,11Q7,11 7,11Q7,11 7,11V37Q7,37 7,37Q7,37 7,37Z"/>
+-</vector>
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_size_medium" /></layer-list>
+--- a/res/drawable/ic_magnification_menu_small.xml
++++ b/res/drawable/ic_magnification_menu_small.xml
+@@ -1,25 +1,2 @@
+-<!--
+-    Copyright (C) 2022 The Android Open Source Project
+-
+-    Licensed under the Apache License, Version 2.0 (the "License");
+-    you may not use this file except in compliance with the License.
+-    You may obtain a copy of the License at
+-
+-         http://www.apache.org/licenses/LICENSE-2.0
+-
+-    Unless required by applicable law or agreed to in writing, software
+-    distributed under the License is distributed on an "AS IS" BASIS,
+-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-    See the License for the specific language governing permissions and
+-    limitations under the License.
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="32dp"
+-    android:height="32dp"
+-    android:viewportWidth="48"
+-    android:viewportHeight="48"
+-    android:tint="?attr/colorControlNormal">
+-  <path
+-      android:fillColor="@android:color/white"
+-      android:pathData="M9.7,21.6H17.75V13.7H9.7ZM7,40Q5.8,40 4.9,39.1Q4,38.2 4,37V11Q4,9.8 4.9,8.9Q5.8,8 7,8H41Q42.2,8 43.1,8.9Q44,9.8 44,11V37Q44,38.2 43.1,39.1Q42.2,40 41,40ZM7,37H41Q41,37 41,37Q41,37 41,37V11Q41,11 41,11Q41,11 41,11H7Q7,11 7,11Q7,11 7,11V37Q7,37 7,37Q7,37 7,37ZM7,37Q7,37 7,37Q7,37 7,37V11Q7,11 7,11Q7,11 7,11Q7,11 7,11Q7,11 7,11V37Q7,37 7,37Q7,37 7,37Z"/>
+-</vector>
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_size_small" /></layer-list>
+--- a/res/drawable/ic_move_magnification.xml
++++ b/res/drawable/ic_move_magnification.xml
+@@ -1,25 +1,2 @@
+-<!--
+-     Copyright (C) 2020 The Android Open Source Project
+-
+-     Licensed under the Apache License, Version 2.0 (the "License");
+-     you may not use this file except in compliance with the License.
+-     You may obtain a copy of the License at
+-
+-          http://www.apache.org/licenses/LICENSE-2.0
+-
+-     Unless required by applicable law or agreed to in writing, software
+-     distributed under the License is distributed on an "AS IS" BASIS,
+-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-     See the License for the specific language governing permissions and
+-     limitations under the License.
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24"
+-    android:tint="?attr/colorControlNormal">
+-  <path
+-      android:fillColor="@color/magnification_drag_handle_stroke"
+-      android:pathData="M12,15Q10.75,15 9.875,14.125Q9,13.25 9,12Q9,10.75 9.875,9.875Q10.75,9 12,9Q13.25,9 14.125,9.875Q15,10.75 15,12Q15,13.25 14.125,14.125Q13.25,15 12,15ZM12,22 L7.75,17.75 9.15,16.35 12,19.15 14.85,16.35 16.25,17.75ZM6.25,16.25 L2,12 6.25,7.75 7.65,9.15 4.85,12 7.65,14.85ZM9.15,7.65 L7.75,6.25 12,2 16.25,6.25 14.85,7.65 12,4.85ZM17.75,16.25 L16.35,14.85 19.15,12 16.35,9.15 17.75,7.75 22,12Z"/>
+-</vector>
++<?xml version='1.0' encoding='utf-8'?>
++<layer-list xmlns:ns0="http://schemas.android.com/apk/res/android"><item ns0:drawable="@drawable/cg_mag_move" /></layer-list>
+--- a/res/layout/magnifier_controllers.xml
++++ b/res/layout/magnifier_controllers.xml
+@@ -15,51 +15,20 @@
+   ~ limitations under the License.
+   -->
+ 
+-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:layout_width="@dimen/magnification_controls_size"
+-    android:layout_alignParentBottom="true"
+-    android:layout_alignParentEnd="true"
+-    android:layout_height="@dimen/magnification_controls_size"
+-    android:gravity="center">
++<!-- Craftageddon modification: Ember Steel assets, responsive English labels and accessible control targets. -->
++<FrameLayout xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:layout_width="match_parent" ns0:layout_alignParentBottom="true" ns0:layout_alignParentEnd="true" ns0:layout_height="match_parent" ns0:gravity="center">
+ 
+-  <RelativeLayout
+-      android:layout_width="wrap_content"
+-      android:layout_height="wrap_content">
++  <RelativeLayout ns0:layout_width="match_parent" ns0:layout_height="match_parent">
+ 
+-    <ImageView
+-        android:focusable="true"
+-        android:id="@+id/controller"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:src="@drawable/ic_control_magnification_grey" />
++    <ImageView ns0:focusable="true" ns0:id="@+id/controller" ns0:layout_width="match_parent" ns0:layout_height="match_parent" ns0:src="@drawable/ic_control_magnification_grey" />
+ 
+-    <View
+-        android:id="@+id/left_control"
+-        android:layout_width="@dimen/magnifier_left_right_controls_width"
+-        android:layout_height="@dimen/magnifier_left_right_controls_height"
+-        android:layout_alignLeft="@+id/controller"
+-        android:layout_centerVertical="true" />
++    <View ns0:id="@+id/left_control" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_alignLeft="@+id/controller" ns0:layout_centerVertical="true" />
+ 
+-    <View
+-        android:id="@+id/up_control"
+-        android:layout_width="@dimen/magnifier_up_down_controls_width"
+-        android:layout_height="@dimen/magnifier_up_down_controls_height"
+-        android:layout_alignTop="@+id/controller"
+-        android:layout_centerHorizontal="true" />
++    <View ns0:id="@+id/up_control" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_alignTop="@+id/controller" ns0:layout_centerHorizontal="true" />
+ 
+-    <View
+-        android:id="@+id/right_control"
+-        android:layout_width="@dimen/magnifier_left_right_controls_width"
+-        android:layout_height="@dimen/magnifier_left_right_controls_height"
+-        android:layout_alignRight="@+id/controller"
+-        android:layout_centerVertical="true" />
++    <View ns0:id="@+id/right_control" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_alignRight="@+id/controller" ns0:layout_centerVertical="true" />
+ 
+-    <View
+-        android:id="@+id/down_control"
+-        android:layout_width="@dimen/magnifier_up_down_controls_width"
+-        android:layout_height="@dimen/magnifier_up_down_controls_height"
+-        android:layout_alignBottom="@+id/controller"
+-        android:layout_centerHorizontal="true" />
++    <View ns0:id="@+id/down_control" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_alignBottom="@+id/controller" ns0:layout_centerHorizontal="true" />
+   </RelativeLayout>
+ 
+ </FrameLayout>
+--- a/res/layout/window_magnification_settings_view.xml
++++ b/res/layout/window_magnification_settings_view.xml
+@@ -14,232 +14,55 @@
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-              xmlns:app="http://schemas.android.com/apk/res-auto"
+-    android:id="@+id/magnifier_panel_view"
+-    android:layout_width="wrap_content"
+-    android:layout_height="wrap_content"
+-    android:background="@drawable/accessibility_magnification_setting_view_bg"
+-    android:orientation="vertical"
+-    android:padding="@dimen/magnification_setting_background_padding"
+-    android:focusable="true"
+-    android:accessibilityPaneTitle="@string/accessibility_magnification_settings_panel_description"
+-    android:contentDescription="@string/accessibility_magnification_settings_panel_description">
+-    <ScrollView
+-        android:layout_width="match_parent"
+-        android:layout_height="0dp"
+-        android:layout_weight="1">
+-        <LinearLayout
+-            android:layout_width="match_parent"
+-            android:layout_height="wrap_content"
+-            android:orientation="vertical">
+-            <LinearLayout
+-                android:id="@+id/magnifier_size_view"
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:orientation="horizontal">
+-                <TextView
+-                    android:id="@+id/magnifier_size_title"
+-                    android:layout_width="0dp"
+-                    android:layout_height="wrap_content"
+-                    android:layout_weight="1"
+-                    android:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing"
+-                    android:text="@string/accessibility_magnifier_size"
+-                    android:textAppearance="@style/TextAppearance.MagnificationSetting.Title"
+-                    android:focusable="true"
+-                    android:layout_gravity="center_vertical" />
++<!-- Craftageddon modification: Ember Steel assets, responsive English labels and accessible control targets. -->
++<LinearLayout xmlns:ns0="http://schemas.android.com/apk/res/android" xmlns:ns1="http://schemas.android.com/apk/res-auto" ns0:id="@+id/magnifier_panel_view" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:background="@drawable/accessibility_magnification_setting_view_bg" ns0:orientation="vertical" ns0:padding="@dimen/magnification_setting_background_padding" ns0:focusable="true" ns0:accessibilityPaneTitle="@string/accessibility_magnification_settings_panel_description" ns0:contentDescription="@string/accessibility_magnification_settings_panel_description">
++    <ScrollView ns0:layout_width="match_parent" ns0:layout_height="0dp" ns0:layout_weight="1">
++        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="vertical">
++            <LinearLayout ns0:id="@+id/magnifier_size_view" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="horizontal">
++                <TextView ns0:id="@+id/magnifier_size_title" ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing" ns0:text="@string/accessibility_magnifier_size" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.Title" ns0:focusable="true" ns0:layout_gravity="center_vertical" ns0:textColor="@color/cg_mag_text_state" />
+ 
+-                <Button
+-                    android:id="@+id/magnifier_edit_button"
+-                    android:background="@null"
+-                    android:layout_width="wrap_content"
+-                    android:layout_height="wrap_content"
+-                    android:text="@string/accessibility_magnifier_edit"
+-                    android:textAppearance="@style/TextAppearance.MagnificationSetting.EditButton"
+-                    android:focusable="true"
+-                    android:layout_gravity="center_vertical" />
++                <Button ns0:id="@+id/magnifier_edit_button" ns0:background="@drawable/cg_mag_control" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/accessibility_magnifier_edit" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.EditButton" ns0:focusable="true" ns0:layout_gravity="center_vertical" ns0:textColor="@color/cg_mag_text_state" ns0:backgroundTint="@null" ns0:minHeight="48dp" />
+             </LinearLayout>
+ 
+-            <LinearLayout
+-                android:id="@+id/magnifier_size_button_view"
+-                android:background="@drawable/accessibility_magnification_setting_view_image_btn_layout_bg"
+-                android:layout_width="match_parent"
+-                android:layout_height="@dimen/magnification_setting_image_button_height"
+-                android:minWidth="@dimen/magnification_setting_image_button_background_width"
+-                android:orientation="horizontal">
+-                <ImageButton
+-                    android:id="@+id/magnifier_small_button"
+-                    android:layout_width="0dp"
+-                    android:layout_height="@dimen/magnification_setting_image_button_height"
+-                    android:layout_weight="1"
+-                    android:scaleType="center"
+-                    android:background="@drawable/accessibility_magnification_setting_view_image_btn_bg"
+-                    android:src="@drawable/ic_magnification_menu_small"
+-                    android:tint="@color/accessibility_magnification_image_button_tint"
+-                    android:tintMode="src_atop"
+-                    android:contentDescription="@string/accessibility_magnification_small" />
++            <LinearLayout ns0:id="@+id/magnifier_size_button_view" ns0:background="@drawable/accessibility_magnification_setting_view_image_btn_layout_bg" ns0:layout_width="match_parent" ns0:layout_height="@dimen/magnification_setting_image_button_height" ns0:minWidth="@dimen/magnification_setting_image_button_background_width" ns0:orientation="horizontal">
++                <ImageButton ns0:id="@+id/magnifier_small_button" ns0:layout_width="0dp" ns0:layout_height="@dimen/magnification_setting_image_button_height" ns0:layout_weight="1" ns0:scaleType="center" ns0:background="@drawable/accessibility_magnification_setting_view_image_btn_bg" ns0:src="@drawable/ic_magnification_menu_small" ns0:tint="@null" ns0:tintMode="src_atop" ns0:contentDescription="@string/accessibility_magnification_small" ns0:backgroundTint="@null" />
+ 
+-                <ImageButton
+-                    android:id="@+id/magnifier_medium_button"
+-                    android:layout_width="0dp"
+-                    android:layout_height="@dimen/magnification_setting_image_button_height"
+-                    android:layout_weight="1"
+-                    android:scaleType="center"
+-                    android:background="@drawable/accessibility_magnification_setting_view_image_btn_bg"
+-                    android:src="@drawable/ic_magnification_menu_medium"
+-                    android:tint="@color/accessibility_magnification_image_button_tint"
+-                    android:tintMode="src_atop"
+-                    android:contentDescription="@string/accessibility_magnification_medium" />
++                <ImageButton ns0:id="@+id/magnifier_medium_button" ns0:layout_width="0dp" ns0:layout_height="@dimen/magnification_setting_image_button_height" ns0:layout_weight="1" ns0:scaleType="center" ns0:background="@drawable/accessibility_magnification_setting_view_image_btn_bg" ns0:src="@drawable/ic_magnification_menu_medium" ns0:tint="@null" ns0:tintMode="src_atop" ns0:contentDescription="@string/accessibility_magnification_medium" ns0:backgroundTint="@null" />
+ 
+-                <ImageButton
+-                    android:id="@+id/magnifier_large_button"
+-                    android:layout_width="0dp"
+-                    android:layout_height="@dimen/magnification_setting_image_button_height"
+-                    android:layout_weight="1"
+-                    android:scaleType="center"
+-                    android:background="@drawable/accessibility_magnification_setting_view_image_btn_bg"
+-                    android:src="@drawable/ic_magnification_menu_large"
+-                    android:tint="@color/accessibility_magnification_image_button_tint"
+-                    android:tintMode="src_atop"
+-                    android:contentDescription="@string/accessibility_magnification_large" />
++                <ImageButton ns0:id="@+id/magnifier_large_button" ns0:layout_width="0dp" ns0:layout_height="@dimen/magnification_setting_image_button_height" ns0:layout_weight="1" ns0:scaleType="center" ns0:background="@drawable/accessibility_magnification_setting_view_image_btn_bg" ns0:src="@drawable/ic_magnification_menu_large" ns0:tint="@null" ns0:tintMode="src_atop" ns0:contentDescription="@string/accessibility_magnification_large" ns0:backgroundTint="@null" />
+ 
+-                <ImageButton
+-                    android:id="@+id/magnifier_full_button"
+-                    android:layout_width="0dp"
+-                    android:layout_height="@dimen/magnification_setting_image_button_height"
+-                    android:layout_weight="1"
+-                    android:scaleType="center"
+-                    android:background="@drawable/accessibility_magnification_setting_view_image_btn_bg"
+-                    android:src="@drawable/ic_open_in_full"
+-                    android:tint="@color/accessibility_magnification_image_button_tint"
+-                    android:tintMode="src_atop"
+-                    android:contentDescription="@string/accessibility_magnification_fullscreen" />
++                <ImageButton ns0:id="@+id/magnifier_full_button" ns0:layout_width="0dp" ns0:layout_height="@dimen/magnification_setting_image_button_height" ns0:layout_weight="1" ns0:scaleType="center" ns0:background="@drawable/accessibility_magnification_setting_view_image_btn_bg" ns0:src="@drawable/cg_mag_fullscreen" ns0:tint="@null" ns0:tintMode="src_atop" ns0:contentDescription="@string/accessibility_magnification_fullscreen" ns0:backgroundTint="@null" />
+             </LinearLayout>
+ 
+-            <LinearLayout
+-                android:id="@+id/magnifier_horizontal_lock_view"
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:orientation="horizontal"
+-                android:layout_marginTop="@dimen/magnification_setting_view_margin"
+-                android:focusable="true">
++            <LinearLayout ns0:id="@+id/magnifier_horizontal_lock_view" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="horizontal" ns0:layout_marginTop="@dimen/magnification_setting_view_margin" ns0:focusable="true">
+ 
+-                <TextView
+-                    android:id="@+id/magnifier_horizontal_lock_title"
+-                    android:layout_width="0dp"
+-                    android:layout_height="wrap_content"
+-                    android:layout_weight="1"
+-                    android:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing"
+-                    android:text="@string/accessibility_allow_diagonal_scrolling"
+-                    android:textAppearance="@style/TextAppearance.MagnificationSetting.Title"
+-                    android:labelFor="@id/magnifier_horizontal_lock_switch"
+-                    android:layout_gravity="center_vertical" />
++                <TextView ns0:id="@+id/magnifier_horizontal_lock_title" ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing" ns0:text="@string/accessibility_allow_diagonal_scrolling" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.Title" ns0:labelFor="@id/magnifier_horizontal_lock_switch" ns0:layout_gravity="center_vertical" ns0:textColor="@color/cg_mag_text_state" />
+ 
+-                <com.google.android.material.materialswitch.MaterialSwitch
+-                    android:id="@+id/magnifier_horizontal_lock_switch"
+-                    android:layout_gravity="right|center_vertical"
+-                    android:layout_width="wrap_content"
+-                    android:layout_height="wrap_content"
+-                    android:clickable="true"
+-                    android:focusable="true"
+-                    android:theme="@style/Theme.Material3.DynamicColors.DayNight"
+-                    style="@style/SettingslibSwitchStyle.Expressive" />
++                <com.google.android.material.materialswitch.MaterialSwitch ns0:id="@+id/magnifier_horizontal_lock_switch" ns0:layout_gravity="right|center_vertical" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:clickable="true" ns0:focusable="true" ns0:theme="@style/Theme.Material3.DynamicColors.DayNight" style="@style/SettingslibSwitchStyle.Expressive" ns0:minHeight="@dimen/cg_mag_min_touch_target" ns0:thumb="@drawable/cg_mag_switch_thumb" ns1:track="@drawable/cg_mag_switch_track" ns1:thumbTint="@null" ns1:trackTint="@null" ns1:thumbIcon="@null" ns1:thumbIconTint="@null" ns1:trackDecoration="@null" ns1:trackDecorationTint="@null" />
+ 
+             </LinearLayout>
+ 
+-            <LinearLayout
+-                android:id="@+id/magnifier_keyboard_view"
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:orientation="horizontal"
+-                android:layout_marginTop="@dimen/magnification_setting_view_margin"
+-                android:focusable="true"
+-                android:visibility="gone">
++            <LinearLayout ns0:id="@+id/magnifier_keyboard_view" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="horizontal" ns0:layout_marginTop="@dimen/magnification_setting_view_margin" ns0:focusable="true" ns0:visibility="gone">
+ 
+-                <TextView
+-                    android:id="@+id/magnifier_keyboard_title"
+-                    android:layout_width="0dp"
+-                    android:layout_height="wrap_content"
+-                    android:layout_weight="1"
+-                    android:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing"
+-                    android:text="@string/accessibility_magnify_keyboard"
+-                    android:textAppearance="@style/TextAppearance.MagnificationSetting.Title"
+-                    android:labelFor="@id/magnifier_keyboard_switch"
+-                    android:layout_gravity="center_vertical" />
++                <TextView ns0:id="@+id/magnifier_keyboard_title" ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing" ns0:text="@string/accessibility_magnify_keyboard" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.Title" ns0:labelFor="@id/magnifier_keyboard_switch" ns0:layout_gravity="center_vertical" ns0:textColor="@color/cg_mag_text_state" />
+ 
+-                <com.google.android.material.materialswitch.MaterialSwitch
+-                    android:id="@+id/magnifier_keyboard_switch"
+-                    android:layout_gravity="right|center_vertical"
+-                    android:layout_width="wrap_content"
+-                    android:layout_height="wrap_content"
+-                    android:clickable="true"
+-                    android:focusable="true"
+-                    android:theme="@style/Theme.Material3.DynamicColors.DayNight"
+-                    style="@style/SettingslibSwitchStyle.Expressive" />
++                <com.google.android.material.materialswitch.MaterialSwitch ns0:id="@+id/magnifier_keyboard_switch" ns0:layout_gravity="right|center_vertical" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:clickable="true" ns0:focusable="true" ns0:theme="@style/Theme.Material3.DynamicColors.DayNight" style="@style/SettingslibSwitchStyle.Expressive" ns0:minHeight="@dimen/cg_mag_min_touch_target" ns0:thumb="@drawable/cg_mag_switch_thumb" ns1:track="@drawable/cg_mag_switch_track" ns1:thumbTint="@null" ns1:trackTint="@null" ns1:thumbIcon="@null" ns1:thumbIconTint="@null" ns1:trackDecoration="@null" ns1:trackDecorationTint="@null" />
+ 
+             </LinearLayout>
+ 
+-            <LinearLayout
+-                android:id="@+id/magnifier_typing_view"
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:orientation="horizontal"
+-                android:layout_marginTop="@dimen/magnification_setting_view_margin"
+-                android:focusable="true"
+-                android:visibility="gone">
++            <LinearLayout ns0:id="@+id/magnifier_typing_view" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="horizontal" ns0:layout_marginTop="@dimen/magnification_setting_view_margin" ns0:focusable="true" ns0:visibility="gone">
+ 
+-                <TextView
+-                    android:id="@+id/magnifier_typing_title"
+-                    android:layout_width="0dp"
+-                    android:layout_height="wrap_content"
+-                    android:layout_weight="1"
+-                    android:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing"
+-                    android:text="@string/accessibility_magnify_typing"
+-                    android:textAppearance="@style/TextAppearance.MagnificationSetting.Title"
+-                    android:labelFor="@id/magnifier_typing_switch"
+-                    android:layout_gravity="center_vertical" />
++                <TextView ns0:id="@+id/magnifier_typing_title" ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginEnd="@dimen/magnification_setting_view_item_horizontal_spacing" ns0:text="@string/accessibility_magnify_typing" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.Title" ns0:labelFor="@id/magnifier_typing_switch" ns0:layout_gravity="center_vertical" ns0:textColor="@color/cg_mag_text_state" />
+ 
+-                <com.google.android.material.materialswitch.MaterialSwitch
+-                    android:id="@+id/magnifier_typing_switch"
+-                    android:layout_gravity="right|center_vertical"
+-                    android:layout_width="wrap_content"
+-                    android:layout_height="wrap_content"
+-                    android:clickable="true"
+-                    android:focusable="true"
+-                    android:theme="@style/Theme.Material3.DynamicColors.DayNight"
+-                    style="@style/SettingslibSwitchStyle.Expressive" />
++                <com.google.android.material.materialswitch.MaterialSwitch ns0:id="@+id/magnifier_typing_switch" ns0:layout_gravity="right|center_vertical" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:clickable="true" ns0:focusable="true" ns0:theme="@style/Theme.Material3.DynamicColors.DayNight" style="@style/SettingslibSwitchStyle.Expressive" ns0:minHeight="@dimen/cg_mag_min_touch_target" ns0:thumb="@drawable/cg_mag_switch_thumb" ns1:track="@drawable/cg_mag_switch_track" ns1:thumbTint="@null" ns1:trackTint="@null" ns1:thumbIcon="@null" ns1:thumbIconTint="@null" ns1:trackDecoration="@null" ns1:trackDecorationTint="@null" />
+ 
+             </LinearLayout>
+ 
+-            <TextView
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:text="@string/accessibility_magnification_zoom"
+-                android:textAppearance="@style/TextAppearance.MagnificationSetting.Title"
+-                android:layout_marginTop="@dimen/magnification_setting_view_margin"
+-                android:focusable="true" />
++            <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:text="@string/accessibility_magnification_zoom" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.Title" ns0:layout_marginTop="@dimen/magnification_setting_view_margin" ns0:focusable="true" ns0:textColor="@color/cg_mag_text_state" />
+ 
+-            <com.android.systemui.common.ui.view.SeekBarWithIconButtonsView
+-                android:id="@+id/magnifier_zoom_slider"
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                app:progress="0"
+-                app:iconStartContentDescription="@string/accessibility_control_zoom_out"
+-                app:iconEndContentDescription="@string/accessibility_control_zoom_in"
+-                app:tickMark="@android:color/transparent"
+-                app:seekBarChangeMagnitude="10"
+-                />
++            <com.android.systemui.common.ui.view.SeekBarWithIconButtonsView ns0:id="@+id/magnifier_zoom_slider" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns1:progress="0" ns1:iconStartContentDescription="@string/accessibility_control_zoom_out" ns1:iconEndContentDescription="@string/accessibility_control_zoom_in" ns1:tickMark="@android:color/transparent" ns1:seekBarChangeMagnitude="10" />
+         </LinearLayout>
+     </ScrollView>
+ 
+-    <Button
+-        android:id="@+id/magnifier_done_button"
+-        android:background="@drawable/accessibility_window_magnification_button_done_bg"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="@string/accessibility_magnification_done"
+-        android:textAppearance="@style/TextAppearance.MagnificationSetting.DoneButton"
+-        android:focusable="true"
+-        android:layout_gravity="center_horizontal"
+-        android:layout_marginTop="@dimen/magnification_setting_view_margin"/>
++    <Button ns0:id="@+id/magnifier_done_button" ns0:background="@drawable/cg_mag_control" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:text="@string/accessibility_magnification_done" ns0:textAppearance="@style/TextAppearance.MagnificationSetting.DoneButton" ns0:focusable="true" ns0:layout_gravity="center_horizontal" ns0:layout_marginTop="@dimen/magnification_setting_view_margin" ns0:textColor="@color/cg_mag_text_state" ns0:backgroundTint="@null" ns0:minHeight="@dimen/magnification_setting_button_done_height" />
+ </LinearLayout>
+--- a/res/layout/window_magnifier_view.xml
++++ b/res/layout/window_magnifier_view.xml
+@@ -15,123 +15,33 @@
+   ~ limitations under the License.
+   -->
+ 
+-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-             xmlns:app="http://schemas.android.com/apk/res-auto"
+-    android:layout_width="wrap_content"
+-    android:layout_height="wrap_content">
++<!-- Craftageddon modification: Ember Steel assets, responsive English labels and accessible control targets. -->
++<FrameLayout xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content">
+ 
+-    <View
+-        android:id="@+id/magnification_inner_border"
+-        android:layout_width="match_parent"
+-        android:layout_height="match_parent"
+-        android:layout_margin="@dimen/magnification_outer_border_margin"
+-        android:background="@drawable/accessibility_window_magnification_background"/>
++    <View ns0:id="@+id/magnification_inner_border" ns0:layout_width="match_parent" ns0:layout_height="match_parent" ns0:layout_margin="@dimen/magnification_outer_border_margin" ns0:background="@drawable/accessibility_window_magnification_background" />
+ 
+-    <RelativeLayout
+-        android:layout_width="match_parent"
+-        android:layout_height="match_parent">
++    <RelativeLayout ns0:layout_width="match_parent" ns0:layout_height="match_parent">
+ 
+-        <View
+-            android:id="@+id/left_handle"
+-            android:layout_width="@dimen/magnification_border_drag_size"
+-            android:layout_height="match_parent"
+-            android:layout_alignParentStart="true"/>
++        <View ns0:id="@+id/left_handle" ns0:layout_width="@dimen/magnification_border_drag_size" ns0:layout_height="match_parent" ns0:layout_alignParentStart="true" />
+ 
+-        <View
+-            android:id="@+id/top_handle"
+-            android:layout_width="match_parent"
+-            android:layout_height="@dimen/magnification_border_drag_size"
+-            android:layout_alignParentTop="true"
+-            android:accessibilityTraversalAfter="@id/left_handle"/>
++        <View ns0:id="@+id/top_handle" ns0:layout_width="match_parent" ns0:layout_height="@dimen/magnification_border_drag_size" ns0:layout_alignParentTop="true" ns0:accessibilityTraversalAfter="@id/left_handle" />
+ 
+-        <View
+-            android:id="@+id/right_handle"
+-            android:layout_width="@dimen/magnification_border_drag_size"
+-            android:layout_height="match_parent"
+-            android:layout_alignParentEnd="true"
+-            android:accessibilityTraversalAfter="@id/top_handle"/>
++        <View ns0:id="@+id/right_handle" ns0:layout_width="@dimen/magnification_border_drag_size" ns0:layout_height="match_parent" ns0:layout_alignParentEnd="true" ns0:accessibilityTraversalAfter="@id/top_handle" />
+ 
+-        <View
+-            android:id="@+id/bottom_handle"
+-            android:layout_width="match_parent"
+-            android:layout_height="@dimen/magnification_border_drag_size"
+-            android:layout_alignParentBottom="true"
+-            android:accessibilityTraversalAfter="@id/right_handle"/>
++        <View ns0:id="@+id/bottom_handle" ns0:layout_width="match_parent" ns0:layout_height="@dimen/magnification_border_drag_size" ns0:layout_alignParentBottom="true" ns0:accessibilityTraversalAfter="@id/right_handle" />
+ 
+-        <SurfaceView
+-            android:id="@+id/surface_view"
+-            android:layout_width="match_parent"
+-            android:layout_height="match_parent"
+-            android:layout_margin="@dimen/magnification_mirror_surface_margin"/>
++        <SurfaceView ns0:id="@+id/surface_view" ns0:layout_width="match_parent" ns0:layout_height="match_parent" ns0:layout_margin="@dimen/magnification_mirror_surface_margin" />
+     </RelativeLayout>
+ 
+-    <ImageView
+-        android:id="@+id/top_right_corner"
+-        android:background="@drawable/accessibility_window_magnification_drag_corner_background"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_margin="@dimen/magnification_drag_corner_margin"
+-        android:layout_gravity="right|top"
+-        android:scaleType="center"
+-        android:contentDescription="@string/magnification_drag_corner_to_resize"
+-        android:src="@drawable/ic_arrow_top_right_and_bottom_left"
+-        android:accessibilityTraversalAfter="@id/top_left_corner"/>
++    <ImageView ns0:id="@+id/top_right_corner" ns0:background="@drawable/accessibility_window_magnification_drag_corner_background" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_margin="0dp" ns0:layout_gravity="right|top" ns0:scaleType="center" ns0:contentDescription="@string/magnification_drag_corner_to_resize" ns0:src="@drawable/cg_mag_resize_b" ns0:accessibilityTraversalAfter="@id/top_left_corner" />
+ 
+-    <ImageView
+-        android:id="@+id/top_left_corner"
+-        android:background="@drawable/accessibility_window_magnification_drag_corner_background"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_margin="@dimen/magnification_drag_corner_margin"
+-        android:layout_gravity="left|top"
+-        android:scaleType="center"
+-        android:contentDescription="@string/magnification_drag_corner_to_resize"
+-        android:src="@drawable/ic_arrow_top_left_and_bottom_right"
+-        android:accessibilityTraversalAfter="@id/bottom_handle"/>
++    <ImageView ns0:id="@+id/top_left_corner" ns0:background="@drawable/accessibility_window_magnification_drag_corner_background" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_margin="0dp" ns0:layout_gravity="left|top" ns0:scaleType="center" ns0:contentDescription="@string/magnification_drag_corner_to_resize" ns0:src="@drawable/cg_mag_resize_a" ns0:accessibilityTraversalAfter="@id/bottom_handle" />
+ 
+-    <ImageView
+-        android:id="@+id/bottom_right_corner"
+-        android:background="@drawable/accessibility_window_magnification_drag_corner_background"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_margin="@dimen/magnification_drag_corner_margin"
+-        android:layout_gravity="right|bottom"
+-        android:scaleType="center"
+-        android:contentDescription="@string/magnification_drag_corner_to_resize"
+-        android:src="@drawable/ic_arrow_top_left_and_bottom_right"
+-        android:accessibilityTraversalAfter="@id/top_right_corner"/>
++    <ImageView ns0:id="@+id/bottom_right_corner" ns0:background="@drawable/accessibility_window_magnification_drag_corner_background" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_margin="0dp" ns0:layout_gravity="right|bottom" ns0:scaleType="center" ns0:contentDescription="@string/magnification_drag_corner_to_resize" ns0:src="@drawable/cg_mag_resize_a" ns0:accessibilityTraversalAfter="@id/top_right_corner" />
+ 
+-    <ImageView
+-        android:id="@+id/bottom_left_corner"
+-        android:background="@drawable/accessibility_window_magnification_drag_corner_background"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_margin="@dimen/magnification_drag_corner_margin"
+-        android:layout_gravity="left|bottom"
+-        android:scaleType="center"
+-        android:contentDescription="@string/magnification_drag_corner_to_resize"
+-        android:src="@drawable/ic_arrow_top_right_and_bottom_left"
+-        android:accessibilityTraversalAfter="@id/bottom_right_corner"/>
++    <ImageView ns0:id="@+id/bottom_left_corner" ns0:background="@drawable/accessibility_window_magnification_drag_corner_background" ns0:layout_width="@dimen/cg_mag_min_touch_target" ns0:layout_height="@dimen/cg_mag_min_touch_target" ns0:layout_margin="0dp" ns0:layout_gravity="left|bottom" ns0:scaleType="center" ns0:contentDescription="@string/magnification_drag_corner_to_resize" ns0:src="@drawable/cg_mag_resize_b" ns0:accessibilityTraversalAfter="@id/bottom_right_corner" />
+ 
+-    <ImageView
+-        android:id="@+id/drag_handle"
+-        android:layout_width="@dimen/magnification_drag_view_size"
+-        android:layout_height="@dimen/magnification_drag_view_size"
+-        android:layout_gravity="right|bottom"
+-        android:padding="@dimen/magnifier_drag_handle_padding"
+-        android:scaleType="center"
+-        android:src="@drawable/ic_move_magnification"
+-        android:background="@drawable/accessibility_window_magnification_drag_handle_background_inset"/>
++    <ImageView ns0:id="@+id/drag_handle" ns0:layout_width="@dimen/magnification_drag_view_size" ns0:layout_height="@dimen/magnification_drag_view_size" ns0:layout_gravity="right|bottom" ns0:padding="@dimen/magnifier_drag_handle_padding" ns0:scaleType="center" ns0:src="@drawable/ic_move_magnification" ns0:background="@drawable/accessibility_window_magnification_drag_handle_background_inset" />
+ 
+-    <ImageView
+-        android:id="@+id/close_button"
+-        android:layout_width="40dp"
+-        android:layout_height="40dp"
+-        android:layout_margin="30dp"
+-        android:padding="@dimen/magnification_switch_button_padding"
+-        android:layout_gravity="right|bottom"
+-        android:scaleType="center"
+-        android:visibility="gone"
+-        android:background="@drawable/accessibility_magnifier_btn_bg"
+-        android:src="@drawable/ic_magnification_menu_close" />
++    <ImageView ns0:id="@+id/close_button" ns0:layout_width="48dp" ns0:layout_height="48dp" ns0:layout_margin="30dp" ns0:padding="@dimen/magnification_switch_button_padding" ns0:layout_gravity="right|bottom" ns0:scaleType="center" ns0:visibility="gone" ns0:background="@drawable/accessibility_magnifier_btn_bg" ns0:src="@drawable/ic_magnification_menu_close" ns0:focusable="true" ns0:contentDescription="@string/accessibility_magnification_done" ns0:backgroundTint="@null" />
+ </FrameLayout>
+--- /dev/null
++++ b/res/values/cg_magnification_colors.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<resources><color name="cg_mag_reflection">#dc5920</color><color name="cg_mag_spill">#ff4908</color><color name="cg_mag_seam">#ff5b0b</color><color name="cg_mag_core">#ffd083</color><color name="cg_mag_focus">#d5e7f2</color><color name="cg_mag_symbol">#ffe5bc</color><color name="cg_mag_text">#eee7d9</color><color name="cg_mag_secondary">#b5bdc6</color><color name="cg_mag_cold_progress">#b8c4cf</color></resources>
+--- /dev/null
++++ b/res/values/cg_magnification_dimensions.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<resources><dimen name="cg_mag_min_touch_target">48dp</dimen><dimen name="cg_mag_resize_target_inset">11dp</dimen></resources>
+--- /dev/null
++++ b/src/com/android/systemui/accessibility/ForgeBorderGeometry.java
+@@ -0,0 +1,26 @@
++package com.android.systemui.accessibility;
++
++/** Scalar geometry shared by the source fixtures and native border renderer. */
++public final class ForgeBorderGeometry {
++    private ForgeBorderGeometry() {}
++
++    // Matches the pinned GradientDrawable.ensureValidRect/draw rectangle branch:
++    // inset by half the actual stroke, then clamp one uniform radius in both axes.
++    public static float[] centerline(float width, float height, float stroke, float radius) {
++        if (width <= stroke || height <= stroke || stroke <= 0) return null;
++        float inset = stroke * .5f;
++        float clamped = Math.max(0, Math.min(radius, Math.min(width-stroke, height-stroke)*.5f));
++        return new float[] {inset, inset, width-inset, height-inset, clamped};
++    }
++
++    // Fullscreen's native surface extends outside the physical display. Move
++    // only the light rail into its visible stroke; the native cold footprint
++    // and surface offset stay unchanged.
++    public static float[] glowline(float[] base, float inward) {
++        if (base == null) return null;
++        float delta = Math.max(0, inward);
++        if (base[2]-base[0] <= 2*delta || base[3]-base[1] <= 2*delta) return null;
++        return new float[] {base[0]+delta, base[1]+delta, base[2]-delta, base[3]-delta,
++                Math.max(0, base[4]-delta)};
++    }
++}
+--- /dev/null
++++ b/src/com/android/systemui/accessibility/ForgeMagnificationBorderDrawable.java
+@@ -0,0 +1,190 @@
++package com.android.systemui.accessibility;
++
++import android.content.res.Resources;
++import android.content.res.Resources.Theme;
++import android.graphics.Bitmap;
++import android.graphics.BitmapFactory;
++import android.graphics.BitmapShader;
++import android.graphics.Canvas;
++import android.graphics.Color;
++import android.graphics.ColorFilter;
++import android.graphics.ComposeShader;
++import android.graphics.DashPathEffect;
++import android.graphics.LinearGradient;
++import android.graphics.Matrix;
++import android.graphics.Paint;
++import android.graphics.Path;
++import android.graphics.PixelFormat;
++import android.graphics.PorterDuff;
++import android.graphics.Rect;
++import android.graphics.RectF;
++import android.graphics.Shader;
++import android.graphics.drawable.Drawable;
++import android.graphics.drawable.GradientDrawable;
++import com.android.systemui.res.R;
++
++/** Native rounded/dashed geometry, cold steel, and independent runtime light.
++ * No capture, view polling, timers, user-content bitmap, or input callback.
++ */
++public final class ForgeMagnificationBorderDrawable extends GradientDrawable {
++    public static final int FULLSCREEN = 0;
++    public static final int WINDOW = 1;
++    public static final int WINDOW_EDIT = 2;
++    private final Resources resources;
++    private final Theme theme;
++    private final int role;
++    private final Path main = new Path(), outer = new Path(), glow = new Path();
++    private final Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
++    private final Bitmap material;
++    private final int reflection, spill, seam, core;
++    private float stroke, radius, outerStroke, outerRadius, visibleFullscreenStroke;
++    private float density;
++    private Shader coldShader;
++    private DashPathEffect editDashes;
++    private boolean dirty = true, enabled = true, featureActive = true;
++
++    public ForgeMagnificationBorderDrawable(Resources res, Theme th, int kind) {
++        resources = res; theme = th; role = kind;
++        density = res.getDisplayMetrics().density;
++        material = BitmapFactory.decodeResource(res, R.drawable.cg_mag_steel_material);
++        reflection = res.getColor(R.color.cg_mag_reflection, th);
++        spill = res.getColor(R.color.cg_mag_spill, th);
++        seam = res.getColor(R.color.cg_mag_seam, th);
++        core = res.getColor(R.color.cg_mag_core, th);
++        super.setShape(RECTANGLE);
++        super.setColor(Color.TRANSPARENT);
++        if (kind == FULLSCREEN) {
++            stroke = res.getDimensionPixelSize(R.dimen.magnifier_border_width_fullscreen_with_offset);
++            visibleFullscreenStroke = res.getDimensionPixelSize(R.dimen.magnifier_border_width_fullscreen);
++            // The actual physical display radius is supplied by the unchanged
++            // FullscreenMagnificationController.applyCornerRadiusToBorder().
++            radius = 0;
++        } else {
++            stroke = res.getDimensionPixelSize(R.dimen.magnifier_border_width);
++            outerStroke = res.getDimensionPixelSize(R.dimen.magnifier_stroke_width);
++            radius = res.getDimension(kind == WINDOW_EDIT ? R.dimen.magnifier_edit_corner_radius : R.dimen.magnifier_corner_radius);
++            outerRadius = res.getDimension(kind == WINDOW_EDIT ? R.dimen.magnifier_edit_outer_corner_radius : R.dimen.magnifier_outer_corner_radius);
++        }
++        super.setStroke(Math.round(stroke), Color.WHITE);
++        super.setCornerRadius(radius);
++        paint.setStyle(Paint.Style.STROKE);
++    }
++
++    @Override public void setStroke(int width, int nativeColor) {
++        // Preserve the native caller's exact pixel geometry. Its theme accent
++        // is replaced only by the separate Forge palette, never by a bitmap.
++        stroke = width;
++        super.setStroke(width, Color.WHITE);
++        dirty = true; invalidateSelf();
++    }
++
++    @Override public void setCornerRadius(float value) {
++        radius = value;
++        super.setCornerRadius(value);
++        dirty = true; invalidateSelf();
++    }
++
++    public void setFeatureActive(boolean active) {
++        if (featureActive != active) { featureActive = active; invalidateSelf(); }
++    }
++
++    @Override protected void onBoundsChange(Rect bounds) {
++        super.onBoundsChange(bounds); dirty = true;
++    }
++
++    @Override public boolean isStateful() { return true; }
++
++    @Override protected boolean onStateChange(int[] state) {
++        boolean next = false;
++        for (int value : state) if (value == android.R.attr.state_enabled) next = true;
++        boolean changed = next != enabled; enabled = next;
++        if (changed) invalidateSelf();
++        return changed;
++    }
++
++    private static void setPath(Path path, float[] geometry, Rect bounds) {
++        path.reset();
++        if (geometry == null) return;
++        RectF rect = new RectF(bounds.left+geometry[0], bounds.top+geometry[1],
++                bounds.left+geometry[2], bounds.top+geometry[3]);
++        path.addRoundRect(rect, geometry[4], geometry[4], Path.Direction.CW);
++    }
++
++    private void updatePaths() {
++        Rect bounds = getBounds();
++        density = resources.getDisplayMetrics().density;
++        if (role == FULLSCREEN) visibleFullscreenStroke = resources.getDimensionPixelSize(R.dimen.magnifier_border_width_fullscreen);
++        float[] geometry = ForgeBorderGeometry.centerline(bounds.width(), bounds.height(), stroke, radius);
++        setPath(main, geometry, bounds);
++        setPath(outer, ForgeBorderGeometry.centerline(bounds.width(), bounds.height(), outerStroke, outerRadius), bounds);
++        float inward = role == FULLSCREEN ? Math.max(0, (stroke-visibleFullscreenStroke)*.5f) : 0;
++        setPath(glow, ForgeBorderGeometry.glowline(geometry, inward), bounds);
++        Shader texture = new BitmapShader(material, Shader.TileMode.REPEAT, Shader.TileMode.REPEAT);
++        Matrix transform = new Matrix(); transform.setScale(density, density);
++        transform.postTranslate(bounds.left, bounds.top); texture.setLocalMatrix(transform);
++        Shader bevel = new LinearGradient(bounds.left, bounds.top, bounds.left, bounds.bottom,
++                new int[] {0xff9da9b2,0xff394957,0xff101924,0xff576b7b,0xffb0bec8},
++                new float[] {0,.22f,.52f,.78f,1}, Shader.TileMode.CLAMP);
++        coldShader = new ComposeShader(texture, bevel, PorterDuff.Mode.MULTIPLY);
++        if (role == WINDOW_EDIT) {
++            float dash = resources.getDimension(R.dimen.magnifier_edit_dash_gap);
++            editDashes = new DashPathEffect(new float[] {dash, dash}, 0);
++        }
++        dirty = false;
++    }
++
++    private void stroke(Canvas canvas, Path path, float width, int color, float gain) {
++        if (path.isEmpty() || width <= 0 || gain <= 0) return;
++        paint.setStrokeWidth(width); paint.setShader(null); paint.setColor(color);
++        paint.setAlpha(Math.round(Color.alpha(color)*gain*getAlpha()/255f));
++        canvas.drawPath(path, paint);
++    }
++
++    @Override public void draw(Canvas canvas) {
++        if (dirty) updatePaths();
++        if (main.isEmpty()) return;
++        paint.setPathEffect(editDashes);
++        paint.setShader(coldShader); paint.setStrokeWidth(stroke);
++        paint.setColor(Color.WHITE); paint.setAlpha(Math.round(getAlpha()*(enabled ? 1f : .42f)));
++        canvas.drawPath(main, paint);
++        stroke(canvas, main, Math.min(density*.75f,stroke*.12f), 0xffb2bdc6, enabled?.7f:.294f);
++        // Soft light is a set of independent neutral-width masks evaluated on
++        // the native path. It stays inside the original shell; no magnified
++        // pixels or touchable/content regions are tinted or widened.
++        if (enabled && featureActive && !glow.isEmpty()) {
++            float band = role == FULLSCREEN ? visibleFullscreenStroke : stroke;
++            stroke(canvas, glow, band*.90f, spill, .035f);
++            stroke(canvas, glow, band*.72f, spill, .065f);
++            stroke(canvas, glow, band*.54f, spill, .12f);
++            stroke(canvas, glow, band*.36f, spill, .22f);
++            stroke(canvas, glow, band*.64f, reflection, .32f);
++            stroke(canvas, glow, Math.min(density*2,band*.18f), seam, 1f);
++            stroke(canvas, glow, Math.min(density*.65f,band*.055f), core, .82f);
++        }
++        paint.setPathEffect(null);
++        stroke(canvas, outer, outerStroke, 0xff10171f, enabled ? 1f : .42f);
++    }
++
++    // A whole-object tint would destroy cold/light separation. Every light
++    // color above comes from its own resource and neutral path mask.
++    @Override public void setColorFilter(ColorFilter ignored) {}
++    @Override public int getOpacity() { return PixelFormat.TRANSLUCENT; }
++
++    @Override public ConstantState getConstantState() {
++        final float savedStroke = stroke, savedRadius = radius;
++        final int savedAlpha = getAlpha(); final boolean active = featureActive;
++        final float sourceDensity = resources.getDisplayMetrics().density;
++        return new Drawable.ConstantState() {
++            @Override public Drawable newDrawable() { return create(resources, theme); }
++            @Override public Drawable newDrawable(Resources res) { return create(res, null); }
++            @Override public Drawable newDrawable(Resources res, Theme th) { return create(res, th); }
++            private Drawable create(Resources res, Theme th) {
++                ForgeMagnificationBorderDrawable copy = new ForgeMagnificationBorderDrawable(res, th, role);
++                float scale = res.getDisplayMetrics().density/sourceDensity;
++                copy.setStroke(Math.round(savedStroke*scale), Color.WHITE); copy.setCornerRadius(savedRadius*scale);
++                copy.setAlpha(savedAlpha); copy.setFeatureActive(active); return copy;
++            }
++            @Override public int getChangingConfigurations() { return 0; }
++        };
++    }
++}
+--- /dev/null
++++ b/src/com/android/systemui/accessibility/ForgeMagnificationStyle.java
+@@ -0,0 +1,101 @@
++package com.android.systemui.accessibility;
++
++import android.content.Context;
++import android.graphics.drawable.Drawable;
++import android.graphics.drawable.GradientDrawable;
++import android.view.MotionEvent;
++import android.view.View;
++import android.view.Gravity;
++import android.widget.ImageView;
++import android.widget.LinearLayout;
++import android.widget.SeekBar;
++import android.widget.TextView;
++import com.android.systemui.res.R;
++
++/** Presentation-only bindings to the real magnification view IDs. */
++public final class ForgeMagnificationStyle {
++    private ForgeMagnificationStyle() {}
++
++    public static void installFullscreenBorder(View border, Context context) {
++        Drawable original = border.getBackground();
++        // Retain the existing Wear/custom-background exception. This renderer
++        // supports the exact uniform-radius rectangular source contract.
++        if (!(original instanceof GradientDrawable)) return;
++        GradientDrawable shape = (GradientDrawable) original;
++        if (shape.getShape() != GradientDrawable.RECTANGLE || shape.getCornerRadii() != null) return;
++        ForgeMagnificationBorderDrawable next = new ForgeMagnificationBorderDrawable(
++                context.getResources(), context.getTheme(), ForgeMagnificationBorderDrawable.FULLSCREEN);
++        next.setCornerRadius(shape.getCornerRadius()); next.setAlpha(shape.getAlpha());
++        border.setBackground(next);
++    }
++
++    public static Drawable windowBorder(Context context, boolean editSize) {
++        return new ForgeMagnificationBorderDrawable(context.getResources(), context.getTheme(),
++                editSize ? ForgeMagnificationBorderDrawable.WINDOW_EDIT : ForgeMagnificationBorderDrawable.WINDOW);
++    }
++
++    public static void applySettings(View root) {
++        // This is called before the original owner installs its scale and
++        // callback. No range, value, listener or secure-setting write occurs.
++        SeekBar zoom = root.findViewById(R.id.seekbar);
++        if (zoom != null) {
++            zoom.setThumbTintList(null); zoom.setProgressTintList(null);
++            zoom.setSecondaryProgressTintList(null); zoom.setProgressBackgroundTintList(null);
++            zoom.setThumb(root.getContext().getDrawable(R.drawable.cg_mag_seek_thumb));
++            zoom.setProgressDrawable(root.getContext().getDrawable(R.drawable.cg_mag_zoom_progress));
++        }
++        configureIcon(root, R.id.icon_start, R.id.icon_start_frame, R.drawable.cg_mag_zoom_out);
++        configureIcon(root, R.id.icon_end, R.id.icon_end_frame, R.drawable.cg_mag_zoom_in);
++    }
++
++    private static void configureIcon(View root, int iconId, int frameId, int drawable) {
++        ImageView icon = root.findViewById(iconId); View frame = root.findViewById(frameId);
++        if (icon == null || frame == null) return;
++        icon.setImageTintList(null); icon.clearColorFilter(); icon.setBackground(null);
++        icon.setImageResource(drawable); icon.setDuplicateParentStateEnabled(true);
++        frame.setBackgroundTintList(null);
++        frame.setBackground(root.getContext().getDrawable(R.drawable.cg_mag_control));
++    }
++
++    public static void updateGesturePresentation(View view, MotionEvent event) {
++        int action = event.getActionMasked();
++        if (action == MotionEvent.ACTION_DOWN) view.setPressed(true);
++        else if (action == MotionEvent.ACTION_UP || action == MotionEvent.ACTION_CANCEL) view.setPressed(false);
++    }
++
++    public static void updateLegacyGesturePresentation(View root, MotionEvent event) {
++        if (root == null) return;
++        View graphic = root.findViewById(R.id.controller);
++        if (graphic != null) updateGesturePresentation(graphic, event);
++    }
++
++    public static void clearHiddenGesturePresentation(View... controls) {
++        for (View control : controls) {
++            if (control != null && control.getVisibility() != View.VISIBLE) control.setPressed(false);
++        }
++    }
++
++    public static void updatePanelHeader(View root, int panelWidth) {
++        LinearLayout row = root.findViewById(R.id.magnifier_size_view);
++        TextView title = root.findViewById(R.id.magnifier_size_title);
++        TextView edit = root.findViewById(R.id.magnifier_edit_button);
++        if (row == null || title == null || edit == null) return;
++        int available = panelWidth - 2*root.getResources().getDimensionPixelSize(
++                R.dimen.magnification_setting_background_padding);
++        int gap = root.getResources().getDimensionPixelSize(
++                R.dimen.magnification_setting_view_item_horizontal_spacing);
++        float editWidth = Math.max(edit.getMinimumWidth(), edit.getPaint().measureText(
++                edit.getText().toString()) + edit.getCompoundPaddingLeft() + edit.getCompoundPaddingRight());
++        boolean stacked = title.getPaint().measureText(title.getText().toString()) + editWidth + gap > available;
++        int orientation = stacked ? LinearLayout.VERTICAL : LinearLayout.HORIZONTAL;
++        if (row.getOrientation() == orientation) return;
++        row.setOrientation(orientation);
++        LinearLayout.LayoutParams titleParams = (LinearLayout.LayoutParams) title.getLayoutParams();
++        titleParams.width = stacked ? LinearLayout.LayoutParams.MATCH_PARENT : 0;
++        titleParams.weight = stacked ? 0 : 1;
++        title.setLayoutParams(titleParams);
++        LinearLayout.LayoutParams editParams = (LinearLayout.LayoutParams) edit.getLayoutParams();
++        editParams.gravity = stacked ? Gravity.END : Gravity.CENTER_VERTICAL;
++        edit.setLayoutParams(editParams);
++    }
++}
+--- a/src/com/android/systemui/accessibility/FullscreenMagnificationController.java
++++ b/src/com/android/systemui/accessibility/FullscreenMagnificationController.java
+@@ -14,6 +14,7 @@
+  * limitations under the License.
+  */
+ 
++// Craftageddon modification: Ember Steel presentation and documented accessible control targets.
+ package com.android.systemui.accessibility;
+ 
+ import static android.view.WindowManager.LayoutParams;
+@@ -341,6 +342,7 @@
+             // instead of creating a new one.
+             mFullscreenBorder = LayoutInflater.from(mContext)
+                     .inflate(R.layout.fullscreen_magnification_border, null);
++            ForgeMagnificationStyle.installFullscreenBorder(mFullscreenBorder, mContext);
+             // Set the initial border view alpha manually so we won't show the border
+             // accidentally after we apply show() to the SurfaceControl and before the
+             // animation starts to run.
+--- a/src/com/android/systemui/accessibility/MagnificationModeSwitch.java
++++ b/src/com/android/systemui/accessibility/MagnificationModeSwitch.java
+@@ -14,6 +14,7 @@
+  * limitations under the License.
+  */
+ 
++// Craftageddon modification: Ember Steel presentation and documented accessible control targets.
+ package com.android.systemui.accessibility;
+ 
+ import static android.provider.Settings.Secure.ACCESSIBILITY_MAGNIFICATION_MODE_NONE;
+@@ -453,7 +454,7 @@
+ 
+     @VisibleForTesting
+     static int getIconResId() {
+-        return R.drawable.ic_open_in_new_window;
++        return R.drawable.cg_mag_settings_button;
+     }
+ 
+     private static LayoutParams createLayoutParams(Context context) {
+--- a/src/com/android/systemui/accessibility/SimpleMirrorWindowControl.java
++++ b/src/com/android/systemui/accessibility/SimpleMirrorWindowControl.java
+@@ -14,6 +14,7 @@
+  * limitations under the License.
+  */
+ 
++// Craftageddon modification: Ember Steel presentation and documented accessible control targets.
+ package com.android.systemui.accessibility;
+ 
+ import android.annotation.NonNull;
+@@ -67,6 +68,9 @@
+     @Override
+     View onCreateView(LayoutInflater layoutInflater, Point viewSize) {
+         final View view = layoutInflater.inflate(R.layout.magnifier_controllers, null);
++        final int target = mContext.getResources().getDimensionPixelSize(
++                R.dimen.cg_mag_min_touch_target);
++        viewSize.set(3 * target, 3 * target);
+         final View leftControl = view.findViewById(R.id.left_control);
+         final View upControl = view.findViewById(R.id.up_control);
+         final View rightControl = view.findViewById(R.id.right_control);
+@@ -118,6 +122,7 @@
+ 
+     @Override
+     public boolean onTouch(View v, MotionEvent event) {
++        ForgeMagnificationStyle.updateLegacyGesturePresentation(mControlsView, event);
+         if (handleDragState(event)) {
+             return true;
+         }
+--- a/src/com/android/systemui/accessibility/WindowMagnificationController.java
++++ b/src/com/android/systemui/accessibility/WindowMagnificationController.java
+@@ -14,6 +14,7 @@
+  * limitations under the License.
+  */
+ 
++// Craftageddon modification: Ember Steel presentation and documented accessible control targets.
+ package com.android.systemui.accessibility;
+ 
+ import static android.view.WindowInsets.Type.systemGestures;
+@@ -713,6 +714,8 @@
+         mMirrorSurfaceView = mMirrorView.findViewById(R.id.surface_view);
+ 
+         mMirrorBorderView = mMirrorView.findViewById(R.id.magnification_inner_border);
++        mMirrorBorderView.setBackground(ForgeMagnificationStyle.windowBorder(
++                mContext, mEditSizeEnable));
+ 
+         // Allow taps to go through to the mirror SurfaceView below.
+         mMirrorSurfaceView.addOnLayoutChangeListener(mMirrorSurfaceViewLayoutChangeListener);
+@@ -792,12 +795,24 @@
+         mCloseView.getHitRect(closeArea);
+ 
+         // Add touchable regions for drag and close
+-        touchableRegion.op(dragArea, Region.Op.UNION);
+-        touchableRegion.op(topLeftArea, Region.Op.UNION);
+-        touchableRegion.op(topRightArea, Region.Op.UNION);
+-        touchableRegion.op(bottomLeftArea, Region.Op.UNION);
+-        touchableRegion.op(bottomRightArea, Region.Op.UNION);
+-        touchableRegion.op(closeArea, Region.Op.UNION);
++        if (mDragView.getVisibility() == View.VISIBLE) {
++            touchableRegion.op(dragArea, Region.Op.UNION);
++        }
++        if (mTopLeftCornerView.getVisibility() == View.VISIBLE) {
++            touchableRegion.op(topLeftArea, Region.Op.UNION);
++        }
++        if (mTopRightCornerView.getVisibility() == View.VISIBLE) {
++            touchableRegion.op(topRightArea, Region.Op.UNION);
++        }
++        if (mBottomLeftCornerView.getVisibility() == View.VISIBLE) {
++            touchableRegion.op(bottomLeftArea, Region.Op.UNION);
++        }
++        if (mBottomRightCornerView.getVisibility() == View.VISIBLE) {
++            touchableRegion.op(bottomRightArea, Region.Op.UNION);
++        }
++        if (mCloseView.getVisibility() == View.VISIBLE) {
++            touchableRegion.op(closeArea, Region.Op.UNION);
++        }
+ 
+         return touchableRegion;
+     }
+@@ -956,6 +971,8 @@
+         mRightDrag.setOnTouchListener(this);
+         mBottomDrag.setOnTouchListener(this);
+         mCloseView.setOnTouchListener(this);
++        // Accessibility click uses the same action as the existing touch close.
++        mCloseView.setOnClickListener(v -> setEditMagnifierSizeMode(false));
+         mTopLeftCornerView.setOnTouchListener(this);
+         mTopRightCornerView.setOnTouchListener(this);
+         mBottomLeftCornerView.setOnTouchListener(this);
+@@ -1060,6 +1077,7 @@
+                 || v == mBottomLeftCornerView
+                 || v == mBottomRightCornerView
+                 || v == mCloseView) {
++            ForgeMagnificationStyle.updateGesturePresentation(v, event);
+             return mGestureDetector.onTouch(v, event);
+         }
+         return false;
+@@ -1486,9 +1504,9 @@
+ 
+     private void applyResourcesValues() {
+         // Sets the border appearance for the magnifier window
+-        mMirrorBorderView.setBackground(mResources.getDrawable(mEditSizeEnable
+-                ? R.drawable.accessibility_window_magnification_background_change
+-                : R.drawable.accessibility_window_magnification_background));
++        // Craftageddon border treatment retains the native edit geometry.
++        mMirrorBorderView.setBackground(ForgeMagnificationStyle.windowBorder(
++                mContext, mEditSizeEnable));
+ 
+         // Changes the corner radius of the mMirrorSurfaceView
+         mMirrorSurfaceView.setCornerRadius(
+@@ -1513,6 +1531,9 @@
+             mBottomRightCornerView.setVisibility(View.GONE);
+             mBottomLeftCornerView.setVisibility(View.GONE);
+         }
++        ForgeMagnificationStyle.clearHiddenGesturePresentation(mDragView, mCloseView,
++                mTopLeftCornerView, mTopRightCornerView, mBottomLeftCornerView,
++                mBottomRightCornerView);
+     }
+ 
+     private boolean changeWindowSize(View view, int offsetX, int offsetY) {
+@@ -1641,13 +1662,8 @@
+                 ? R.drawable.accessibility_window_magnification_drag_handle_background_change_inset
+                 : R.drawable.accessibility_window_magnification_drag_handle_background_inset));
+ 
+-        PorterDuffColorFilter filter = new PorterDuffColorFilter(
+-                mContext.getColor(settingsPanelIsShown
+-                        ? R.color.magnification_border_color
+-                        : R.color.magnification_drag_handle_stroke),
+-                PorterDuff.Mode.SRC_ATOP);
+-
+-        mDragView.setColorFilter(filter);
++        mDragView.clearColorFilter();
++        mDragView.setActivated(settingsPanelIsShown);
+     }
+ 
+     private void setBounceEffectDuration(int duration) {
+--- a/src/com/android/systemui/accessibility/WindowMagnificationSettings.java
++++ b/src/com/android/systemui/accessibility/WindowMagnificationSettings.java
+@@ -14,6 +14,7 @@
+  * limitations under the License.
+  */
+ 
++// Craftageddon modification: Ember Steel presentation and documented accessible control targets.
+ package com.android.systemui.accessibility;
+ 
+ import static android.provider.Settings.Secure.ACCESSIBILITY_MAGNIFICATION_MODE_ALL;
+@@ -592,6 +593,7 @@
+         mSettingView.setFocusableInTouchMode(true);
+         mSettingView.setOnTouchListener(this::onTouch);
+         mSettingView.setAccessibilityDelegate(mPanelDelegate);
++        ForgeMagnificationStyle.applySettings(mSettingView);
+         mSettingView.setOnApplyWindowInsetsListener((v, insets) -> {
+             // Adds a pending post check to avoiding redundant calculation because this callback
+             // is sent frequently when the switch icon window dragged by the users.
+@@ -793,6 +795,7 @@
+         windowBounds.inset(windowInsets);
+         int availableHeight = windowBounds.height();
+         // Re-measure the view with the new screen height constraint
++        ForgeMagnificationStyle.updatePanelHeader(mSettingView, mParams.width);
+         int widthMeasureSpec = View.MeasureSpec.makeMeasureSpec(
+                 mParams.width, View.MeasureSpec.EXACTLY);
+         int heightMeasureSpec = View.MeasureSpec.makeMeasureSpec(

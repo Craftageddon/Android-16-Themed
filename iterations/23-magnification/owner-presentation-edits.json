@@ -1,0 +1,134 @@
+[
+  {
+    "path": "src/com/android/systemui/accessibility/FullscreenMagnificationController.java",
+    "edits": [
+      {
+        "before": "package com.android.systemui.accessibility;",
+        "after": "// Craftageddon modification: Ember Steel presentation and documented accessible control targets.\npackage com.android.systemui.accessibility;"
+      },
+      {
+        "before": ".inflate(R.layout.fullscreen_magnification_border, null);",
+        "after": ".inflate(R.layout.fullscreen_magnification_border, null);\n            ForgeMagnificationStyle.installFullscreenBorder(mFullscreenBorder, mContext);"
+      }
+    ],
+    "upstreamSha256": "eb9d05873b9b1459b8acacc89e0941691389d88c9d56ae3f0c45776c4d5a5b2a",
+    "patchedSha256": "07ecd581b6c903383f7d4896c5a465bfabfc6a200a770a53b9b98123b780d8ea",
+    "nativeLineEndingPreserved": true
+  },
+  {
+    "path": "src/com/android/systemui/accessibility/WindowMagnificationController.java",
+    "edits": [
+      {
+        "before": "package com.android.systemui.accessibility;",
+        "after": "// Craftageddon modification: Ember Steel presentation and documented accessible control targets.\npackage com.android.systemui.accessibility;"
+      },
+      {
+        "before": "mMirrorBorderView = mMirrorView.findViewById(R.id.magnification_inner_border);",
+        "after": "mMirrorBorderView = mMirrorView.findViewById(R.id.magnification_inner_border);\n        mMirrorBorderView.setBackground(ForgeMagnificationStyle.windowBorder(\n                mContext, mEditSizeEnable));"
+      },
+      {
+        "before": "mMirrorBorderView.setBackground(mResources.getDrawable(mEditSizeEnable\n                ? R.drawable.accessibility_window_magnification_background_change\n                : R.drawable.accessibility_window_magnification_background));",
+        "after": "// Craftageddon border treatment retains the native edit geometry.\n        mMirrorBorderView.setBackground(ForgeMagnificationStyle.windowBorder(\n                mContext, mEditSizeEnable));"
+      },
+      {
+        "before": "PorterDuffColorFilter filter = new PorterDuffColorFilter(\n                mContext.getColor(settingsPanelIsShown\n                        ? R.color.magnification_border_color\n                        : R.color.magnification_drag_handle_stroke),\n                PorterDuff.Mode.SRC_ATOP);\n\n        mDragView.setColorFilter(filter);",
+        "after": "mDragView.clearColorFilter();\n        mDragView.setActivated(settingsPanelIsShown);"
+      },
+      {
+        "before": "return mGestureDetector.onTouch(v, event);",
+        "after": "ForgeMagnificationStyle.updateGesturePresentation(v, event);\n            return mGestureDetector.onTouch(v, event);"
+      },
+      {
+        "before": "mCloseView.setOnTouchListener(this);",
+        "after": "mCloseView.setOnTouchListener(this);\n        // Accessibility click uses the same action as the existing touch close.\n        mCloseView.setOnClickListener(v -> setEditMagnifierSizeMode(false));"
+      },
+      {
+        "before": "mBottomLeftCornerView.setVisibility(View.GONE);\n        }\n    }\n\n    private boolean changeWindowSize",
+        "after": "mBottomLeftCornerView.setVisibility(View.GONE);\n        }\n        ForgeMagnificationStyle.clearHiddenGesturePresentation(mDragView, mCloseView,\n                mTopLeftCornerView, mTopRightCornerView, mBottomLeftCornerView,\n                mBottomRightCornerView);\n    }\n\n    private boolean changeWindowSize"
+      },
+      {
+        "before": "touchableRegion.op(dragArea, Region.Op.UNION);",
+        "after": "if (mDragView.getVisibility() == View.VISIBLE) {\n            touchableRegion.op(dragArea, Region.Op.UNION);\n        }"
+      },
+      {
+        "before": "touchableRegion.op(topLeftArea, Region.Op.UNION);",
+        "after": "if (mTopLeftCornerView.getVisibility() == View.VISIBLE) {\n            touchableRegion.op(topLeftArea, Region.Op.UNION);\n        }"
+      },
+      {
+        "before": "touchableRegion.op(topRightArea, Region.Op.UNION);",
+        "after": "if (mTopRightCornerView.getVisibility() == View.VISIBLE) {\n            touchableRegion.op(topRightArea, Region.Op.UNION);\n        }"
+      },
+      {
+        "before": "touchableRegion.op(bottomLeftArea, Region.Op.UNION);",
+        "after": "if (mBottomLeftCornerView.getVisibility() == View.VISIBLE) {\n            touchableRegion.op(bottomLeftArea, Region.Op.UNION);\n        }"
+      },
+      {
+        "before": "touchableRegion.op(bottomRightArea, Region.Op.UNION);",
+        "after": "if (mBottomRightCornerView.getVisibility() == View.VISIBLE) {\n            touchableRegion.op(bottomRightArea, Region.Op.UNION);\n        }"
+      },
+      {
+        "before": "touchableRegion.op(closeArea, Region.Op.UNION);",
+        "after": "if (mCloseView.getVisibility() == View.VISIBLE) {\n            touchableRegion.op(closeArea, Region.Op.UNION);\n        }"
+      }
+    ],
+    "upstreamSha256": "5aec91230d9c4ef4b718dc1fba4b7ae42169049dcbd9f655a2e6a872f96aa798",
+    "patchedSha256": "527a667bb165842c783abb84fa6c165f0fc4fb5f4a15a666c038e698aa175840",
+    "nativeLineEndingPreserved": true
+  },
+  {
+    "path": "src/com/android/systemui/accessibility/WindowMagnificationSettings.java",
+    "edits": [
+      {
+        "before": "package com.android.systemui.accessibility;",
+        "after": "// Craftageddon modification: Ember Steel presentation and documented accessible control targets.\npackage com.android.systemui.accessibility;"
+      },
+      {
+        "before": "mSettingView.setAccessibilityDelegate(mPanelDelegate);",
+        "after": "mSettingView.setAccessibilityDelegate(mPanelDelegate);\n        ForgeMagnificationStyle.applySettings(mSettingView);"
+      },
+      {
+        "before": "int widthMeasureSpec = View.MeasureSpec.makeMeasureSpec(",
+        "after": "ForgeMagnificationStyle.updatePanelHeader(mSettingView, mParams.width);\n        int widthMeasureSpec = View.MeasureSpec.makeMeasureSpec("
+      }
+    ],
+    "upstreamSha256": "82ff8f8d53d38dd1943e6f719e76f9da833c10f6552247fde3ce1c33dbe8c87a",
+    "patchedSha256": "56653acc0f4563ec3b3d55eced8c5384172bcc6da7554f1ff7aa912a50c41d1d",
+    "nativeLineEndingPreserved": true
+  },
+  {
+    "path": "src/com/android/systemui/accessibility/MagnificationModeSwitch.java",
+    "edits": [
+      {
+        "before": "package com.android.systemui.accessibility;",
+        "after": "// Craftageddon modification: Ember Steel presentation and documented accessible control targets.\npackage com.android.systemui.accessibility;"
+      },
+      {
+        "before": "return R.drawable.ic_open_in_new_window;",
+        "after": "return R.drawable.cg_mag_settings_button;"
+      }
+    ],
+    "upstreamSha256": "cee091d9fee438ad0ff65cf68288b5519f8ce339517985d2b5627917caf83420",
+    "patchedSha256": "d3bad186a0d857682cb4b5167901fb91c5aecead7fd1acde2b162594b4af863e",
+    "nativeLineEndingPreserved": true
+  },
+  {
+    "path": "src/com/android/systemui/accessibility/SimpleMirrorWindowControl.java",
+    "edits": [
+      {
+        "before": "package com.android.systemui.accessibility;",
+        "after": "// Craftageddon modification: Ember Steel presentation and documented accessible control targets.\npackage com.android.systemui.accessibility;"
+      },
+      {
+        "before": "final View view = layoutInflater.inflate(R.layout.magnifier_controllers, null);",
+        "after": "final View view = layoutInflater.inflate(R.layout.magnifier_controllers, null);\n        final int target = mContext.getResources().getDimensionPixelSize(\n                R.dimen.cg_mag_min_touch_target);\n        viewSize.set(3 * target, 3 * target);"
+      },
+      {
+        "before": "public boolean onTouch(View v, MotionEvent event) {",
+        "after": "public boolean onTouch(View v, MotionEvent event) {\n        ForgeMagnificationStyle.updateLegacyGesturePresentation(mControlsView, event);"
+      }
+    ],
+    "upstreamSha256": "87a0b76558d8e59443871a1fb9e1858f560c50873b9d599af80bea58caf282a7",
+    "patchedSha256": "c28b37c1cb642e1f9ef711c03852530697da3647c43f793711af71b88c5801f3",
+    "nativeLineEndingPreserved": true
+  }
+]

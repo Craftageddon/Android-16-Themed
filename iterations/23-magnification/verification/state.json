@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "4ed6ee06b637a3b50415337902337adc58567bc3a442cb7cd209d155112c01ae"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-26T18:55:08+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "67e1693db3d761c7dd6431baaea075e01390ad452aff82fcf72251e1ae7571b5",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-26T18:55:08+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "85e6fc7330542bac77ede74e8234ed6da81645cb5524e627b7b83f55b4a03311",
+      "independence": null,
+      "method": "Clean actual patch application and byte parity;68 pinned source hashes;644 new neutral/cold configurations and28 exact panel resource aliases; native compile/link of rendering bank and three real Java classes;10164 native-geometry method cases,384 color-state cases,140 nine-patch size checks,521 density cases for disjoint48dp directional targets, unchanged SurfaceView subtree, contrast/source English checks and9 strict-XML source-backed fixtures.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-26T18:55:08+00:00",
+  "project": "23-magnification",
+  "schema": 1,
+  "status": "V2_PASS"
+}
