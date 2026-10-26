@@ -1,0 +1,457 @@
+[
+  {
+    "id": "W-01",
+    "title": "AYN seven-phase calibration and live test UI",
+    "priority": "P2",
+    "disposition": "Existing material/control donors; exact owner/state layout adaptation still required",
+    "sources": [
+      {
+        "project": "hardware/ayn",
+        "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationUiState.kt",
+        "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationUiState.kt",
+        "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationUiState.kt",
+        "bytes": 992,
+        "gitBlobSha1": "ab2491b1e061dce83f9250c7b2b0cc9cb6be917d",
+        "sha256": "f8dac8c74a81b055073919ac3f3f0de3e0fc87eb647a28a8fbf86b80a2f13d43",
+        "reasons": [
+          "AYN source-drawn UI"
+        ]
+      },
+      {
+        "project": "hardware/ayn",
+        "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationScreen.kt",
+        "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationScreen.kt",
+        "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationScreen.kt",
+        "bytes": 1610,
+        "gitBlobSha1": "e7f343f7b584e39b695da44b92a9b4edc05ed461",
+        "sha256": "cde08d2369cdd43eaab28fc5165f84fa8de0a03babbea58de7657622e9d43d93",
+        "reasons": [
+          "AYN source-drawn UI"
+        ]
+      },
+      {
+        "project": "hardware/ayn",
+        "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt",
+        "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt",
+        "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt",
+        "bytes": 4863,
+        "gitBlobSha1": "7a9496bfbe8bd4ff3fb63c368cd79f11f4367755",
+        "sha256": "bc8802064f6ee957dc1cfd9b1f4fa64d83d74e4a3152e5458447a16da31f9928",
+        "reasons": [
+          "AYN source-drawn UI"
+        ]
+      },
+      {
+        "project": "hardware/ayn",
+        "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt",
+        "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt",
+        "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt",
+        "bytes": 1866,
+        "gitBlobSha1": "fd9fa120293da402a393b0ab14af3f54ff02f106",
+        "sha256": "f70fb1f79569fe52453ddf418686e03671c2841878c186f6ac479fc351f2fe27",
+        "reasons": [
+          "AYN source-drawn UI"
+        ]
+      },
+      {
+        "project": "hardware/ayn",
+        "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/TriggerBar.kt",
+        "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/TriggerBar.kt",
+        "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/TriggerBar.kt",
+        "bytes": 1483,
+        "gitBlobSha1": "854cfcec29318dfddba54356bc2207ed3bbde3e8",
+        "sha256": "6e09aa3ad413a5835272f698252c36518b29ec4931353052a1b625c2dd663272",
+        "reasons": [
+          "AYN source-drawn UI"
+        ]
+      },
+      {
+        "project": "hardware/ayn",
+        "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt",
+        "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt",
+        "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt",
+        "bytes": 1163,
+        "gitBlobSha1": "de8cc8e69401f44cf95cbedab8ba84e8cbff1c1f",
+        "sha256": "ca2607034e72a55dc1c95a601be87334a3fc8fe4910ccb508807d6dfb40fcf9d",
+        "reasons": [
+          "AYN source-drawn UI"
+        ]
+      }
+    ],
+    "donorSemanticIds": [
+      "stick_gate",
+      "trigger_meter",
+      "control-controller_cap",
+      "control-button_primary"
+    ],
+    "remaining": "Adapt Intro, Center, RangeLeft, RangeRight, DeadzoneLeft, DeadzoneRight and Test to the real Compose owners. Current generic calibration concepts are donors, not an exact state/owner binding. Preserve live crosshair/dot travel, readiness and actual input values."
+  },
+  {
+    "id": "W-02",
+    "title": "AYN RGB channel dialog and preferences",
+    "priority": "P2",
+    "disposition": "Existing material/control donors; exact owner/state layout adaptation still required",
+    "sources": [
+      {
+        "project": "hardware/ayn",
+        "path": "packages/AynParts/res/layout/dialog_rgb_sliders.xml",
+        "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/res/layout/dialog_rgb_sliders.xml",
+        "saved": "source-evidence/hardware/ayn/packages/AynParts/res/layout/dialog_rgb_sliders.xml",
+        "bytes": 2873,
+        "gitBlobSha1": "47cb3cb5999b25e9783d85e321aaf98f880a1014",
+        "sha256": "3d483d113e63dedccfebb0fa7000ef6228b04b5b67ecfdb732a1b437783b5822",
+        "reasons": [
+          "AYN RGB dialog"
+        ],
+        "xmlRoot": "LinearLayout",
+        "xmlNodes": 5,
+        "references": [],
+        "xmlAttributes": {
+          "{http://schemas.android.com/apk/res/android}layout_width": "match_parent",
+          "{http://schemas.android.com/apk/res/android}layout_height": "wrap_content",
+          "{http://schemas.android.com/apk/res/android}orientation": "vertical",
+          "{http://schemas.android.com/apk/res/android}padding": "24dp",
+          "{http://schemas.android.com/apk/res/android}theme": "@style/Theme.Material3.DynamicColors.DayNight"
+        }
+      },
+      {
+        "project": "hardware/ayn",
+        "path": "packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt",
+        "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt",
+        "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt",
+        "bytes": 4513,
+        "gitBlobSha1": "2f6a8670f04d061d2cc109d55462279167a03bdf",
+        "sha256": "39d5587d797846481fcdd4d283808ba258a89ee010c856a5893800d2e2f9bc20",
+        "reasons": [
+          "AYN source-drawn UI"
+        ]
+      }
+    ],
+    "donorSemanticIds": [
+      "rgb_zone",
+      "control-slider_half",
+      "control-dialog"
+    ],
+    "remaining": "Adapt actual red/green/blue sliders and preference state. Keep channel semantics and numeric values live; separate the steel/ember shell from selected RGB color content."
+  },
+  {
+    "id": "W-03",
+    "title": "First-run setup, restore and navigation/theme guidance",
+    "priority": "P2",
+    "disposition": "Existing material/control donors; exact owner/state layout adaptation still required",
+    "sources": [
+      {
+        "project": "packages/apps/SetupWizard",
+        "path": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+        "revision": "69174527a30bc72a28a5d55acdec8ce5edaba9e0",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_SetupWizard/69174527a30bc72a28a5d55acdec8ce5edaba9e0/app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+        "saved": "source-evidence/packages/apps/SetupWizard/app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+        "bytes": 5726,
+        "gitBlobSha1": "9b80d6255f1321ebd383ae788a239447899f846e",
+        "sha256": "d0ff5b24c0c9cd872f0d18e804c714336a97e38acdca5dcde219cfce99fef616",
+        "reasons": [
+          "Application UI owner"
+        ]
+      },
+      {
+        "project": "packages/apps/SetupWizard",
+        "path": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+        "revision": "69174527a30bc72a28a5d55acdec8ce5edaba9e0",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_SetupWizard/69174527a30bc72a28a5d55acdec8ce5edaba9e0/app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+        "saved": "source-evidence/packages/apps/SetupWizard/app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+        "bytes": 1773,
+        "gitBlobSha1": "e496ace88a7819eb355154d9aef66212a26cfd2f",
+        "sha256": "1a4d055cdf9bdf161061e9ee3e921a2d0c5b88853746c65b0bfbefec25991cbb",
+        "reasons": [
+          "Application UI owner"
+        ]
+      },
+      {
+        "project": "packages/apps/SetupWizard",
+        "path": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+        "revision": "69174527a30bc72a28a5d55acdec8ce5edaba9e0",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_SetupWizard/69174527a30bc72a28a5d55acdec8ce5edaba9e0/app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+        "saved": "source-evidence/packages/apps/SetupWizard/app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+        "bytes": 4724,
+        "gitBlobSha1": "d1066436c529af4393436934bbcf46136f9eb464",
+        "sha256": "18fb17b4552e195cde8dd4a89c1a66ed0dc1e0ea74165be7cc359209c6c4dc66",
+        "reasons": [
+          "Application UI owner"
+        ]
+      },
+      {
+        "project": "packages/apps/SetupWizard",
+        "path": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+        "revision": "69174527a30bc72a28a5d55acdec8ce5edaba9e0",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_SetupWizard/69174527a30bc72a28a5d55acdec8ce5edaba9e0/app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+        "saved": "source-evidence/packages/apps/SetupWizard/app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+        "bytes": 4235,
+        "gitBlobSha1": "f48a5e49da92d4b9b8bc1b77a6499a12438380b7",
+        "sha256": "a8e477f18f56a3ebf95b042b65b353f17be923c61ca6919fd573062010070d94",
+        "reasons": [
+          "Application UI owner"
+        ]
+      }
+    ],
+    "donorSemanticIds": [
+      "forge_crest",
+      "control-dialog",
+      "control-switch_on",
+      "control-button_primary"
+    ],
+    "remaining": "Create owner-matched welcome/restore/navigation/theme compositions and replace or adapt branded guidance illustrations/motion. Existing generic permission/keyboard/boot scenes do not establish these actual setup flows."
+  },
+  {
+    "id": "W-04",
+    "title": "Updater download, progress and error presentation",
+    "priority": "P2",
+    "disposition": "Existing material/control donors; exact owner/state layout adaptation still required",
+    "sources": [
+      {
+        "project": "packages/apps/Updater",
+        "path": "app/src/main/java/org/lineageos/updater/UpdatesActivity.java",
+        "revision": "6d50e0bf1b16fe7bca818375a3e734f4959e2e57",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/java/org/lineageos/updater/UpdatesActivity.java",
+        "saved": "source-evidence/packages/apps/Updater/app/src/main/java/org/lineageos/updater/UpdatesActivity.java",
+        "bytes": 8603,
+        "gitBlobSha1": "2213f441565a8ec07cfe812a9144b6fc15d22827",
+        "sha256": "3ab68bd70863ba69b2b457a43d5dedc5c97222db792805abbec7c64a00625b68",
+        "reasons": [
+          "Application UI owner"
+        ]
+      },
+      {
+        "project": "packages/apps/Updater",
+        "path": "app/src/main/java/org/lineageos/updater/UpdatesScaffoldActivity.kt",
+        "revision": "6d50e0bf1b16fe7bca818375a3e734f4959e2e57",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/java/org/lineageos/updater/UpdatesScaffoldActivity.kt",
+        "saved": "source-evidence/packages/apps/Updater/app/src/main/java/org/lineageos/updater/UpdatesScaffoldActivity.kt",
+        "bytes": 14244,
+        "gitBlobSha1": "bb6bc873b05d718bb818a24d0e6a59325f6a35c0",
+        "sha256": "bf6d6cce757f27ba5e2f9b0b1c40e46a77c50dae75bf4a4cbbbb58f7bf41b3f7",
+        "reasons": [
+          "Application UI owner"
+        ]
+      }
+    ],
+    "donorSemanticIds": [
+      "download",
+      "control-progress_indeterminate",
+      "control-card",
+      "control-dialog"
+    ],
+    "remaining": "Adapt actual update-card/scaffold/progress/error states and existing upstream update illustrations. Recovery concepts alone are not the Updater application interface. This audit performs no update or install."
+  },
+  {
+    "id": "W-05",
+    "title": "Gallery albums, viewer and media details",
+    "priority": "P2",
+    "disposition": "Existing material/control donors; exact owner/state layout adaptation still required",
+    "sources": [
+      {
+        "project": "packages/apps/Glimpse",
+        "path": "app/src/main/res/layout/activity_view.xml",
+        "revision": "89b473594ec8ad01417624e670912450ce5df7e9",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Glimpse/89b473594ec8ad01417624e670912450ce5df7e9/app/src/main/res/layout/activity_view.xml",
+        "saved": "source-evidence/packages/apps/Glimpse/app/src/main/res/layout/activity_view.xml",
+        "bytes": 4222,
+        "gitBlobSha1": "829b08c160c20ca775b4a03cc0ceba5db210b62b",
+        "sha256": "a2d6acedaa015d8352e0b3ed4e1bcea7f9afe39db08f9129a25ce0d59af1bf0a",
+        "reasons": [
+          "Application visual/detail review"
+        ],
+        "xmlRoot": "FrameLayout",
+        "xmlNodes": 12,
+        "references": [
+          "@android:color/black",
+          "@android:color/white",
+          "@drawable/bg_media_viewer_bottom_sheet",
+          "@drawable/bg_media_viewer_top_sheet",
+          "@drawable/ic_back",
+          "@drawable/ic_delete",
+          "@drawable/ic_edit",
+          "@drawable/ic_motion_play",
+          "@drawable/ic_share",
+          "@drawable/ic_star_toggle"
+        ],
+        "xmlAttributes": {
+          "{http://schemas.android.com/apk/res/android}layout_width": "match_parent",
+          "{http://schemas.android.com/apk/res/android}layout_height": "match_parent",
+          "{http://schemas.android.com/apk/res/android}background": "@android:color/black",
+          "{http://schemas.android.com/tools}context": ".ViewActivity"
+        }
+      },
+      {
+        "project": "packages/apps/Glimpse",
+        "path": "app/src/main/res/layout/fragment_albums.xml",
+        "revision": "89b473594ec8ad01417624e670912450ce5df7e9",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Glimpse/89b473594ec8ad01417624e670912450ce5df7e9/app/src/main/res/layout/fragment_albums.xml",
+        "saved": "source-evidence/packages/apps/Glimpse/app/src/main/res/layout/fragment_albums.xml",
+        "bytes": 1179,
+        "gitBlobSha1": "e234d428a19f3fa20a221844bbc2617a483eb520",
+        "sha256": "ac44c52bc9e683726ab0a854b097e1894a9afa173d059b4bf0c64111633fcca1",
+        "reasons": [
+          "Application visual/detail review"
+        ],
+        "xmlRoot": "androidx.coordinatorlayout.widget.CoordinatorLayout",
+        "xmlNodes": 3,
+        "references": [
+          "@layout/no_media_linear_layout"
+        ],
+        "xmlAttributes": {
+          "{http://schemas.android.com/apk/res/android}layout_width": "match_parent",
+          "{http://schemas.android.com/apk/res/android}layout_height": "match_parent",
+          "{http://schemas.android.com/tools}context": ".fragments.AlbumsFragment"
+        }
+      },
+      {
+        "project": "packages/apps/Glimpse",
+        "path": "app/src/main/res/layout/media_info_bottom_sheet_dialog.xml",
+        "revision": "89b473594ec8ad01417624e670912450ce5df7e9",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Glimpse/89b473594ec8ad01417624e670912450ce5df7e9/app/src/main/res/layout/media_info_bottom_sheet_dialog.xml",
+        "saved": "source-evidence/packages/apps/Glimpse/app/src/main/res/layout/media_info_bottom_sheet_dialog.xml",
+        "bytes": 4336,
+        "gitBlobSha1": "cabb9f103054613b88551b776283bd869330edd5",
+        "sha256": "644c6a2813af5dcd83b75e53cbc5241da597e536dc9f1872459e889689b67180",
+        "reasons": [
+          "Application visual/detail review"
+        ],
+        "xmlRoot": "androidx.cardview.widget.CardView",
+        "xmlNodes": 10,
+        "references": [
+          "@android:color/transparent",
+          "@drawable/ic_camera",
+          "@drawable/ic_image",
+          "@drawable/ic_location_on",
+          "@drawable/ic_person"
+        ],
+        "xmlAttributes": {
+          "{http://schemas.android.com/apk/res/android}layout_width": "match_parent",
+          "{http://schemas.android.com/apk/res/android}layout_height": "wrap_content",
+          "{http://schemas.android.com/apk/res/android}layout_margin": "16dp",
+          "{http://schemas.android.com/apk/res-auto}cardBackgroundColor": "@android:color/transparent",
+          "{http://schemas.android.com/apk/res-auto}cardCornerRadius": "16dp",
+          "{http://schemas.android.com/apk/res-auto}cardElevation": "0dp",
+          "{http://schemas.android.com/apk/res-auto}layout_constraintEnd_toEndOf": "parent",
+          "{http://schemas.android.com/apk/res-auto}layout_constraintStart_toStartOf": "parent",
+          "{http://schemas.android.com/apk/res-auto}layout_constraintTop_toTopOf": "parent"
+        }
+      }
+    ],
+    "donorSemanticIds": [
+      "media_cell",
+      "photo",
+      "control-bottom_sheet"
+    ],
+    "remaining": "Map album/viewer/detail layouts, favorites and media states; preserve live image content. Existing photo-picker and media-cell concepts provide donors. Favorite star is separately listed as a confirmed glyph gap."
+  },
+  {
+    "id": "W-06",
+    "title": "Magnification controls and window border",
+    "priority": "P2",
+    "disposition": "Existing material/control donors; exact owner/state layout adaptation still required",
+    "sources": [
+      {
+        "project": "frameworks/base",
+        "path": "packages/SystemUI/res/layout/fullscreen_magnification_border.xml",
+        "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/layout/fullscreen_magnification_border.xml",
+        "saved": "source-evidence/frameworks/base/packages/SystemUI/res/layout/fullscreen_magnification_border.xml",
+        "bytes": 999,
+        "gitBlobSha1": "5f738c041f54967a86cf309a483df2dcaf840436",
+        "sha256": "ea6f03d9304d6c045f3bff2957d830030b591e98bb49b1141598803d2034cafd",
+        "reasons": [
+          "Screen magnification"
+        ],
+        "xmlRoot": "View",
+        "xmlNodes": 1,
+        "references": [
+          "@drawable/accessibility_fullscreen_magnification_border_background"
+        ],
+        "xmlAttributes": {
+          "{http://schemas.android.com/apk/res/android}id": "@+id/magnification_fullscreen_border",
+          "{http://schemas.android.com/apk/res/android}layout_width": "match_parent",
+          "{http://schemas.android.com/apk/res/android}layout_height": "match_parent",
+          "{http://schemas.android.com/apk/res/android}focusable": "false",
+          "{http://schemas.android.com/apk/res/android}background": "@drawable/accessibility_fullscreen_magnification_border_background"
+        }
+      },
+      {
+        "project": "frameworks/base",
+        "path": "packages/SystemUI/res/drawable/ic_control_magnification_grey.xml",
+        "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_control_magnification_grey.xml",
+        "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_control_magnification_grey.xml",
+        "bytes": 1238,
+        "gitBlobSha1": "80ce8c11004162753ca4373da9c6857835568f61",
+        "sha256": "012a3836c7c31e5568e385142c0bd487124ae10a55ec3c5a553c33b02ccd8bb2",
+        "reasons": [
+          "Screen magnification"
+        ],
+        "xmlRoot": "vector",
+        "xmlNodes": 3,
+        "references": [],
+        "xmlAttributes": {
+          "{http://schemas.android.com/apk/res/android}height": "96dp",
+          "{http://schemas.android.com/apk/res/android}viewportHeight": "24",
+          "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+          "{http://schemas.android.com/apk/res/android}width": "96dp"
+        }
+      }
+    ],
+    "donorSemanticIds": [
+      "search",
+      "control-focus_boundary",
+      "control-icon_button"
+    ],
+    "remaining": "Adapt magnifier/window handles and controller layout with proper focus/contrast. Existing search/focus geometry is a donor rather than an approved magnification resource binding."
+  },
+  {
+    "id": "W-07",
+    "title": "Native boot/charger/recovery asset contracts",
+    "priority": "P2",
+    "disposition": "Existing material/control donors; exact owner/state layout adaptation still required",
+    "sources": [
+      {
+        "project": "vendor/lineage",
+        "path": "bootanimation/Android.bp",
+        "revision": "87daf527b0288b60c9cc07c05a5f5aad1660c234",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_vendor_lineage/87daf527b0288b60c9cc07c05a5f5aad1660c234/bootanimation/Android.bp",
+        "saved": "source-evidence/vendor/lineage/bootanimation/Android.bp",
+        "bytes": 1867,
+        "gitBlobSha1": "bcd8e3fa1b308761a890d6caead05c6c0b3b24cc",
+        "sha256": "37842c2da9e07676a705c4c19c27a8c083e05681c405e2e091dfdcd81cd7d33c",
+        "reasons": [
+          "Product/module/package declaration"
+        ]
+      },
+      {
+        "project": "vendor/lineage",
+        "path": "charger/Android.bp",
+        "revision": "87daf527b0288b60c9cc07c05a5f5aad1660c234",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_vendor_lineage/87daf527b0288b60c9cc07c05a5f5aad1660c234/charger/Android.bp",
+        "saved": "source-evidence/vendor/lineage/charger/Android.bp",
+        "bytes": 2274,
+        "gitBlobSha1": "6da0fa02890e72415599bef054b61ecbf1e8bc25",
+        "sha256": "58c524658b3500bd18f15846484c0e5b53367d5b9556651ce09403c420929af1",
+        "reasons": [
+          "Product/module/package declaration"
+        ]
+      }
+    ],
+    "donorSemanticIds": [
+      "forge_crest",
+      "charge_chamber",
+      "loading_aperture"
+    ],
+    "remaining": "Existing static scenes and desktop motion require Android boot-animation/charger/recovery-specific output and live owner integration. Confirm dimensions, ordering, timing and color modes from the actual resource contracts before producing packages."
+  }
+]

@@ -1,3 +1,9 @@
+# Semantic review checkpoint - 2026-10-26
+
+[Iteration20](iterations/20-semantic-review/README.md) preserves the complete16,559-file source corpus and records the210 tentative reuse decisions. Actual source/donor review discovered8 additional glyph corrections, including PIN-entry versus pushpin, notification mute versus speaker mute, error versus cancel, and screenshot versus camera. The checkpoint contains70 layered masters (66 new treatments and4 unchanged aliases),980 production layer exports,560 state previews and20 source-backed app/component role bindings. Sixteen declared application icons receive Forge identities; four iconless manifests gain no invented launcher entries. Sensors Off follows actual privacy-active semantics.
+
+This is ongoing work:10,554 family decisions, the seven exact-source workflow/output adaptations, native owner bridges, further discovered artwork and the final independent double-check remain open. Scoped source/art/export/resource checks pass; no Android runtime, installed package inventory, full ROM rebuild or physical-device acceptance is claimed. Historical masters are preserved and no hardware was modified.
+
 # Source resource audit - 2026-10-26
 
 [Iteration 19](iterations/19-os-resource-audit/VISUAL_GAPS.md) compares the authored catalog with exact official Thor build sources. It confirms **16 additional symbol-family gaps**, **20 source app/component binding targets** and **7 owner-specific adaptation groups**. The audit covers 31 projects and five complete framework sections; 554 selected source files have verified content hashes. The 7,048 unassigned source families require semantic/reachability review and are not asserted to be missing drawings.

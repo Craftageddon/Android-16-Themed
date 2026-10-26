@@ -1,0 +1,402 @@
+[
+  {
+    "id": "accessibility_figure__compact",
+    "semanticId": "accessibility_figure",
+    "type": "source-review-correction",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "A wide-arm accessibility figure remains distinct from a generic person/account silhouette."
+  },
+  {
+    "id": "accessibility_figure__detailed",
+    "semanticId": "accessibility_figure",
+    "type": "source-review-correction",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "A wide-arm accessibility figure remains distinct from a generic person/account silhouette."
+  },
+  {
+    "id": "notifications_muted__compact",
+    "semanticId": "notifications_muted",
+    "type": "source-review-correction",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Native source is a crossed bell; a crossed speaker would change the notification domain."
+  },
+  {
+    "id": "notifications_muted__detailed",
+    "semanticId": "notifications_muted",
+    "type": "source-review-correction",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Native source is a crossed bell; a crossed speaker would change the notification domain."
+  },
+  {
+    "id": "pin_entry__compact",
+    "semanticId": "pin_entry",
+    "type": "source-review-correction",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Actual source shows a numeric PIN pad, not a pushpin. Small geometric numerals are symbol geometry; live labels remain English resources."
+  },
+  {
+    "id": "pin_entry__detailed",
+    "semanticId": "pin_entry",
+    "type": "source-review-correction",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Actual source shows a numeric PIN pad, not a pushpin. Small geometric numerals are symbol geometry; live labels remain English resources."
+  },
+  {
+    "id": "error_alert__compact",
+    "semanticId": "error_alert",
+    "type": "source-review-correction",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Actual source is an exclamation alert; an X conflates an error condition with cancel/close."
+  },
+  {
+    "id": "error_alert__detailed",
+    "semanticId": "error_alert",
+    "type": "source-review-correction",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Actual source is an exclamation alert; an X conflates an error condition with cancel/close."
+  },
+  {
+    "id": "screenshot_frame__compact",
+    "semanticId": "screenshot_frame",
+    "type": "source-review-correction",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Capture brackets and an inner display denote screen capture rather than a physical camera."
+  },
+  {
+    "id": "screenshot_frame__detailed",
+    "semanticId": "screenshot_frame",
+    "type": "source-review-correction",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Capture brackets and an inner display denote screen capture rather than a physical camera."
+  },
+  {
+    "id": "headphones__compact",
+    "semanticId": "headphones",
+    "type": "source-review-correction",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Headphones remain distinct from a headset with microphone."
+  },
+  {
+    "id": "headphones__detailed",
+    "semanticId": "headphones",
+    "type": "source-review-correction",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Headphones remain distinct from a headset with microphone."
+  },
+  {
+    "id": "data_disabled__compact",
+    "semanticId": "data_disabled",
+    "type": "source-review-correction",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": true,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Actual Settings source uses opposed data arrows with a slash; signal-strength bars would change the represented function."
+  },
+  {
+    "id": "data_disabled__detailed",
+    "semanticId": "data_disabled",
+    "type": "source-review-correction",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": true,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Actual Settings source uses opposed data arrows with a slash; signal-strength bars would change the represented function."
+  },
+  {
+    "id": "recents_square__compact",
+    "semanticId": "recents_square",
+    "type": "source-review-correction",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Native recents square remains distinct from the two-bar pause-shaped donor in the three-button navigation context."
+  },
+  {
+    "id": "recents_square__detailed",
+    "semanticId": "recents_square",
+    "type": "source-review-correction",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false,
+    "rationale": "Native recents square remains distinct from the two-bar pause-shaped donor in the three-button navigation context."
+  }
+]

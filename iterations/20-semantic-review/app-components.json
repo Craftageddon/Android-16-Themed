@@ -1,0 +1,338 @@
+[
+  {
+    "id": "app-aynparts",
+    "module": "AynParts",
+    "label": "AYN settings",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-launcher3quickstep",
+    "module": "Launcher3QuickStep",
+    "label": "Trebuchet",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-lineageparts",
+    "module": "LineageParts",
+    "label": "LineageOS settings",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-lineagesetupwizard",
+    "module": "LineageSetupWizard",
+    "label": "Setup",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-updater",
+    "module": "Updater",
+    "label": "Updater",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-latinime",
+    "module": "LatinIME",
+    "label": "Keyboard",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-jelly",
+    "module": "Jelly",
+    "label": "Jelly",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-exactcalculator",
+    "module": "ExactCalculator",
+    "label": "Calculator",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-etar",
+    "module": "Etar",
+    "label": "Calendar",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-recorder",
+    "module": "Recorder",
+    "label": "Recorder",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-twelve",
+    "module": "Twelve",
+    "label": "Twelve",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-seedvault",
+    "module": "Seedvault",
+    "label": "Seedvault",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-audiofx",
+    "module": "AudioFX",
+    "label": "AudioFX",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-camelot",
+    "module": "Camelot",
+    "label": "Camelot",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-canvas",
+    "module": "Canvas",
+    "label": "Canvas",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "app-themepicker",
+    "module": "ThemePicker",
+    "label": "Wallpaper and style",
+    "size": [
+      128,
+      128
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  }
+]

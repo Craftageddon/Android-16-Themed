@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "sourceManifestBindings": 20,
+  "authoredAppIdentities": 16,
+  "noInventedApplicationIcons": 4,
+  "layerExports": 224,
+  "exactStateRecompositions": 128,
+  "nativeAdaptiveSafeZoneChecks": 16,
+  "compiledAndroidResourceEntries": 146,
+  "nativeRuntimeAcceptance": "NOT RUN",
+  "scope": "Manifest/role bindings, authored artwork, export masks and native resource compilation. Not an effective merged manifest, installed application list or live launcher test."
+}

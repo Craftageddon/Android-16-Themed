@@ -1,0 +1,58 @@
+[
+  {
+    "semanticId": "extra_dim",
+    "optical": "compact",
+    "source": "iterations/17-forge-coverage/masters/brightness_low__compact.svg",
+    "sourceSha256": "d1e3ce15ede09f61de8399b23c5aa73989cd6e905acad2af41bd66110e7f9ba6",
+    "target": "masters/extra_dim__compact.svg",
+    "targetSha256": "d1e3ce15ede09f61de8399b23c5aa73989cd6e905acad2af41bd66110e7f9ba6",
+    "status": "Approved reuse of unchanged Forge geometry for this semantic target",
+    "reviewedBy": "Codex under the user instruction to resolve semantic reuse decisions",
+    "reviewedAt": "2026-10-26",
+    "reviewMethod": "Parsed upstream semantic glyph, compared actual rendered cold/on Forge donor, independently checked native compact cold pixel parity and exact donor SVG hashes",
+    "conditions": "Owner retains the distinct semantic resource ID and native English label/content description; this approves artwork reuse, not hardware or OS-owner runtime acceptance",
+    "rationale": "Same established low-brightness metaphor with native Extra dim label"
+  },
+  {
+    "semanticId": "extra_dim",
+    "optical": "detailed",
+    "source": "iterations/17-forge-coverage/masters/brightness_low__detailed.svg",
+    "sourceSha256": "c435ee14f050f4f1ecac93714df18f625a2670abcfa938a60aff4fd331d56122",
+    "target": "masters/extra_dim__detailed.svg",
+    "targetSha256": "c435ee14f050f4f1ecac93714df18f625a2670abcfa938a60aff4fd331d56122",
+    "status": "Approved reuse of unchanged Forge geometry for this semantic target",
+    "reviewedBy": "Codex under the user instruction to resolve semantic reuse decisions",
+    "reviewedAt": "2026-10-26",
+    "reviewMethod": "Parsed upstream semantic glyph, compared actual rendered cold/on Forge donor, independently checked native compact cold pixel parity and exact donor SVG hashes",
+    "conditions": "Owner retains the distinct semantic resource ID and native English label/content description; this approves artwork reuse, not hardware or OS-owner runtime acceptance",
+    "rationale": "Same established low-brightness metaphor with native Extra dim label"
+  },
+  {
+    "semanticId": "stylus",
+    "optical": "compact",
+    "source": "iterations/11-forge-symbol-library/masters/edit__compact.svg",
+    "sourceSha256": "6061750d5db4914509bbd20a5f4d5eb729e3c27ef266a63b4ef96a0f0ab88ae3",
+    "target": "masters/stylus__compact.svg",
+    "targetSha256": "6061750d5db4914509bbd20a5f4d5eb729e3c27ef266a63b4ef96a0f0ab88ae3",
+    "status": "Approved reuse of unchanged Forge geometry for this semantic target",
+    "reviewedBy": "Codex under the user instruction to resolve semantic reuse decisions",
+    "reviewedAt": "2026-10-26",
+    "reviewMethod": "Parsed upstream semantic glyph, compared actual rendered cold/on Forge donor, independently checked native compact cold pixel parity and exact donor SVG hashes",
+    "conditions": "Owner retains the distinct semantic resource ID and native English label/content description; this approves artwork reuse, not hardware or OS-owner runtime acceptance",
+    "rationale": "Same established pen metaphor with native Stylus label; physical-input context supplied by owner"
+  },
+  {
+    "semanticId": "stylus",
+    "optical": "detailed",
+    "source": "iterations/11-forge-symbol-library/masters/edit__detailed.svg",
+    "sourceSha256": "2ccb62ab72d149f1706675504ab3a7c311e33bdb1ab4f6d7486ad5ba85d52dc0",
+    "target": "masters/stylus__detailed.svg",
+    "targetSha256": "2ccb62ab72d149f1706675504ab3a7c311e33bdb1ab4f6d7486ad5ba85d52dc0",
+    "status": "Approved reuse of unchanged Forge geometry for this semantic target",
+    "reviewedBy": "Codex under the user instruction to resolve semantic reuse decisions",
+    "reviewedAt": "2026-10-26",
+    "reviewMethod": "Parsed upstream semantic glyph, compared actual rendered cold/on Forge donor, independently checked native compact cold pixel parity and exact donor SVG hashes",
+    "conditions": "Owner retains the distinct semantic resource ID and native English label/content description; this approves artwork reuse, not hardware or OS-owner runtime acceptance",
+    "rationale": "Same established pen metaphor with native Stylus label; physical-input context supplied by owner"
+  }
+]

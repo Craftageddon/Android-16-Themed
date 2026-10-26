@@ -1,4 +1,4 @@
-[Latest source audit: concrete visual gaps and remaining coverage](iterations/19-os-resource-audit/VISUAL_GAPS.md) — 16 semantic symbol gaps, 20 source app/component targets and 7 adaptation groups. The authored catalog is not yet a complete built-ROM resource map.
+[Latest semantic review and artwork checkpoint](iterations/20-semantic-review/README.md) —70 layered master files,210 resolved tentative reuse decisions,20 app/component role bindings and complete source-byte acquisition. The wider family review and7 owner adaptation groups remain open. [Earlier source audit](iterations/19-os-resource-audit/VISUAL_GAPS.md).
 
 # Current Forge visual and native checkpoints
 

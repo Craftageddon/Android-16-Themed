@@ -1,0 +1,16 @@
+{
+  "result": "REVIEW DECISIONS RECORDED",
+  "tentativeCandidatesResolved": 210,
+  "additionalStructuralNameMatchesRejected": 4,
+  "totalReviewedRows": 214,
+  "decisions": {
+    "APPROVE_SEMANTIC_ART_REUSE": 189,
+    "REJECT_DONOR_USE_NEW_REVIEWED_GEOMETRY": 16,
+    "REJECT_DONOR_RETARGET_REVIEWED_ART": 1,
+    "REJECT_WHOLE_RESOURCE_ICON_SWAP": 8
+  },
+  "nativeDropInApprovals": 0,
+  "newCorrectionSemanticGlyphs": 8,
+  "unchangedPortableDonorMasters": 112,
+  "sourceFamilyReviewElsewhereStillOpen": true
+}

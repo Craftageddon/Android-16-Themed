@@ -1,0 +1,11 @@
+# Scoped checkpoint review - 26 October 2026
+
+V1: PASS for the stated checkpoint scope. The source baseline,16 named gaps,210 tentative reuse candidates,20 app/component targets and seven remaining owner adaptations remain conserved. Actual source/donor comparison sheets were inspected, and semantic exceptions received deliberate corrections instead of filename-derived approval. The wider10,554 open family decisions remain open.
+
+V2: PASS for the actual tests recorded under `verification/evidence/` and `review-corrections/verification/evidence/`. These include complete Git blob/SHA256 byte verification, independent XML/declaration rereads, family/file conservation, preserved historical masters, chosen donor hashes, PNG alpha/neutral-mask checks, exact state recomposition, expanded compact clipping, native XML-to-cold pixel comparisons, manifest bindings, adaptive safe zones and Android resource compilation. The current Sensors Off contract follows actual privacy-owner code. All authored labels are English; UI labels remain live resources. Original source fixtures, including intentionally malformed/empty/stress data, are preserved with their roles rather than mislabeled as art.
+
+Visual review covers the gap sheets,8 correction glyphs, application identities and9 actual-source/donor sheets. This is a desktop artwork/source review. The supplied source renderer normalizes tint for geometry comparison; it is not an Android screenshot or proof of native pixel parity for every upstream vector.
+
+V3: NOT RUN. A final independent whole-goal double-check is premature while source-family decisions and seven owner adaptations remain unfinished. Android execution, effective merged packages/resources, full ROM rebuild, real dual-screen input, performance and device acceptance remain unverified. A successful resource compile, source parse or archive signature does not establish those results.
+
+The70 master files include4 unchanged aliases and66 new treatments. The112 portable approved donor copies are unchanged historical artwork, not112 additional new designs. No owner callback, hardware setting or firmware was changed. Native path-morph targets cannot be replaced blindly with the new geometry.

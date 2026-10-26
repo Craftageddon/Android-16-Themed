@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-26",
+  "indexedFiles": 16559,
+  "uniqueObjectsExpected": 15915,
+  "verifiedObjects": 15915,
+  "verifiedBytes": 77853800,
+  "reusedEvidenceObjects": 152,
+  "errors": 0,
+  "allSourceBytesAcquired": true,
+  "method": "Every object is fetched at its exact pinned public source revision; Git blob SHA1 and SHA256 checked; no upstream code executed"
+}
