@@ -1,0 +1,809 @@
+--- a/hardware/ayn/packages/AynParts/Android.bp
++++ b/hardware/ayn/packages/AynParts/Android.bp
+@@ -7,7 +7,7 @@
+     name: "AynParts",
+     defaults: ["SettingsLibDefaults"],
+ 
+-    srcs: ["src/**/*.kt"],
++    srcs: ["src/**/*.kt", "src/**/*.java"],
+ 
+     certificate: "platform",
+     platform_apis: true,
+--- a/hardware/ayn/packages/AynParts/res/layout/dialog_rgb_sliders.xml
++++ b/hardware/ayn/packages/AynParts/res/layout/dialog_rgb_sliders.xml
+@@ -1,80 +1,15 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:app="http://schemas.android.com/apk/res-auto"
+-    android:layout_width="match_parent"
+-    android:layout_height="wrap_content"
+-    android:orientation="vertical"
+-    android:padding="24dp"
+-    android:theme="@style/Theme.Material3.DynamicColors.DayNight">
++<?xml version='1.0' encoding='utf-8'?>
++<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="false"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp" android:theme="@style/Theme.Material3.DynamicColors.DayNight">
+ 
+-    <!-- Red Slider -->
+-    <com.google.android.material.slider.Slider
+-        android:id="@+id/dialog_slider_red"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:layout_marginBottom="12dp"
+-        android:valueFrom="0"
+-        android:valueTo="255"
+-        android:stepSize="5"
+-        app:tickVisible="false"
+-        app:thumbColor="#FF3B30"
+-        app:trackColorActive="#FF3B30"
+-        app:trackHeight="24dp"
+-        app:thumbHeight="36dp"
+-        app:labelBehavior="floating"
+-        style="@style/SettingslibSliderStyle.Expressive" />
++    
++    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cg_ayn_channel_red" android:textColor="#EEE7D9" android:labelFor="@id/dialog_slider_red" /><com.google.android.material.slider.Slider android:id="@+id/dialog_slider_red" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:valueFrom="0" android:valueTo="255" android:stepSize="5" app:tickVisible="false" app:thumbColor="#FF3B30" app:trackColorActive="#FF3B30" app:trackHeight="24dp" app:thumbHeight="36dp" app:labelBehavior="floating" style="@style/SettingslibSliderStyle.Expressive" android:contentDescription="@string/cg_ayn_channel_red" android:minHeight="48dp" app:thumbWidth="36dp" app:haloColor="#40D5E7F2" />
+ 
+-    <!-- Green Slider -->
+-    <com.google.android.material.slider.Slider
+-        android:id="@+id/dialog_slider_green"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:layout_marginBottom="12dp"
+-        android:valueFrom="0"
+-        android:valueTo="255"
+-        android:stepSize="5"
+-        app:tickVisible="false"
+-        app:thumbColor="#34C759"
+-        app:trackColorActive="#34C759"
+-        app:trackHeight="24dp"
+-        app:thumbHeight="36dp"
+-        app:labelBehavior="floating"
+-        style="@style/SettingslibSliderStyle.Expressive" />
++    
++    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cg_ayn_channel_green" android:textColor="#EEE7D9" android:labelFor="@id/dialog_slider_green" /><com.google.android.material.slider.Slider android:id="@+id/dialog_slider_green" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:valueFrom="0" android:valueTo="255" android:stepSize="5" app:tickVisible="false" app:thumbColor="#34C759" app:trackColorActive="#34C759" app:trackHeight="24dp" app:thumbHeight="36dp" app:labelBehavior="floating" style="@style/SettingslibSliderStyle.Expressive" android:contentDescription="@string/cg_ayn_channel_green" android:minHeight="48dp" app:thumbWidth="36dp" app:haloColor="#40D5E7F2" />
+ 
+-    <!-- Blue Slider -->
+-    <com.google.android.material.slider.Slider
+-        android:id="@+id/dialog_slider_blue"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:layout_marginBottom="12dp"
+-        android:valueFrom="0"
+-        android:valueTo="255"
+-        android:stepSize="5"
+-        app:tickVisible="false"
+-        app:thumbColor="#007AFF"
+-        app:trackColorActive="#007AFF"
+-        app:trackHeight="24dp"
+-        app:thumbHeight="36dp"
+-        app:labelBehavior="floating"
+-        style="@style/SettingslibSliderStyle.Expressive" />
++    
++    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cg_ayn_channel_blue" android:textColor="#EEE7D9" android:labelFor="@id/dialog_slider_blue" /><com.google.android.material.slider.Slider android:id="@+id/dialog_slider_blue" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:valueFrom="0" android:valueTo="255" android:stepSize="5" app:tickVisible="false" app:thumbColor="#007AFF" app:trackColorActive="#007AFF" app:trackHeight="24dp" app:thumbHeight="36dp" app:labelBehavior="floating" style="@style/SettingslibSliderStyle.Expressive" android:contentDescription="@string/cg_ayn_channel_blue" android:minHeight="48dp" app:thumbWidth="36dp" app:haloColor="#40D5E7F2" />
+ 
+-    <!-- Brightness Slider -->
+-    <com.google.android.material.slider.Slider
+-        android:id="@+id/dialog_slider_brightness"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:valueFrom="0"
+-        android:valueTo="255"
+-        android:stepSize="17"
+-        app:tickVisible="false"
+-        app:thumbColor="#FFFFFF"
+-        app:trackColorActive="#FFFFFF"
+-        app:trackHeight="24dp"
+-        app:thumbHeight="36dp"
+-        app:labelBehavior="floating"
+-        style="@style/SettingslibSliderStyle.Expressive" />
+-</LinearLayout>
++    
++    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cg_ayn_channel_brightness" android:textColor="#EEE7D9" android:labelFor="@id/dialog_slider_brightness" /><com.google.android.material.slider.Slider android:id="@+id/dialog_slider_brightness" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="255" android:stepSize="17" app:tickVisible="false" app:thumbColor="#FFFFFF" app:trackColorActive="#FFFFFF" app:trackHeight="24dp" app:thumbHeight="36dp" app:labelBehavior="floating" style="@style/SettingslibSliderStyle.Expressive" android:contentDescription="@string/cg_ayn_channel_brightness" android:minHeight="48dp" app:thumbWidth="36dp" app:haloColor="#40D5E7F2" />
++</LinearLayout></ScrollView>
+--- /dev/null
++++ b/hardware/ayn/packages/AynParts/res/values/cg_forge_dialog.xml
+@@ -0,0 +1 @@
++<resources><style name="cg_ayn_rgb_dialog" parent="android:style/ThemeOverlay.Material.Dark"><item name="android:textColorPrimary">#EEE7D9</item><item name="android:textColorSecondary">#B5BDC6</item><item name="android:colorAccent">#E56620</item></style></resources>
+--- /dev/null
++++ b/hardware/ayn/packages/AynParts/res/values/cg_forge_strings.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<resources><string name="cg_ayn_left_stick" translatable="false">Left stick</string><string name="cg_ayn_right_stick" translatable="false">Right stick</string><string name="cg_ayn_stick_position" translatable="false">X %1$.3f, Y %2$.3f</string><string name="cg_ayn_channel_red" translatable="false">Red</string><string name="cg_ayn_channel_green" translatable="false">Green</string><string name="cg_ayn_channel_blue" translatable="false">Blue</string><string name="cg_ayn_channel_brightness" translatable="false">Brightness</string><string name="cg_ayn_ok" translatable="false">OK</string><string name="cg_ayn_cancel" translatable="false">Cancel</string></resources>
+--- a/hardware/ayn/packages/AynParts/res/values/strings.xml
++++ b/hardware/ayn/packages/AynParts/res/values/strings.xml
+@@ -88,19 +88,19 @@
+ 
+     <!-- Gamepad joystick calibration activity -->
+     <string name="calibration_title">Joystick calibration</string>
+-    <string name="calibration_intro_description">This wizard will calibrate your analog sticks:\n\n1. Center — leave both sticks relaxed\n2–3. Range — rotate each stick in full circles\n4–5. Deadzone — pull and release each stick several times\n\nEach step advances once enough data is collected.</string>
++    <string name="calibration_intro_description">This wizard will calibrate your analog sticks:\n\n1. Center — leave both sticks relaxed\n2–3. Range — rotate each stick in full circles\n4–5. Deadzone — pull and release each stick several times\n\nNext becomes available when enough data is collected. Choose Next to continue.</string>
+     <string name="calibration_start">Start</string>
+     <string name="calibration_cancel">Cancel</string>
+     <string name="calibration_phase_center_title">Step 1: Center</string>
+-    <string name="calibration_phase_center_desc">Leave both sticks centered and relaxed. Next will appear once readings are stable.</string>
++    <string name="calibration_phase_center_desc">Leave both sticks centered and relaxed. Next becomes available once readings are stable.</string>
+     <string name="calibration_phase_range_left_title">Step 2: Left stick range</string>
+-    <string name="calibration_phase_range_left_desc">Slowly rotate the left stick in full circles, reaching all extremes. Next will appear once enough range is detected.</string>
++    <string name="calibration_phase_range_left_desc">Slowly rotate the left stick in full circles, reaching all extremes. Next becomes available once enough range is detected.</string>
+     <string name="calibration_phase_range_right_title">Step 3: Right stick range</string>
+-    <string name="calibration_phase_range_right_desc">Slowly rotate the right stick in full circles, reaching all extremes. Next will appear once enough range is detected.</string>
++    <string name="calibration_phase_range_right_desc">Slowly rotate the right stick in full circles, reaching all extremes. Next becomes available once enough range is detected.</string>
+     <string name="calibration_phase_deadzone_left_title">Step 4: Left stick deadzone</string>
+-    <string name="calibration_phase_deadzone_left_desc">Pull the left stick to the edge and release it. Repeat at least 3 times from different directions. Next will appear once enough settle data is collected.</string>
++    <string name="calibration_phase_deadzone_left_desc">Pull the left stick to the edge and release it. Repeat at least 3 times from different directions. Next becomes available once enough settle data is collected.</string>
+     <string name="calibration_phase_deadzone_right_title">Step 5: Right stick deadzone</string>
+-    <string name="calibration_phase_deadzone_right_desc">Pull the right stick to the edge and release it. Repeat at least 3 times from different directions. Next will appear once enough settle data is collected.</string>
++    <string name="calibration_phase_deadzone_right_desc">Pull the right stick to the edge and release it. Repeat at least 3 times from different directions. Next becomes available once enough settle data is collected.</string>
+     <string name="calibration_next">Next</string>
+     <string name="calibration_accept">Accept</string>
+     <string name="calibration_retry">Retry</string>
+--- /dev/null
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/forge/ForgeCompose.kt
+@@ -0,0 +1,95 @@
++package org.lineageos.settings.ayn.forge
++
++import androidx.compose.foundation.interaction.MutableInteractionSource
++import androidx.compose.foundation.interaction.collectIsFocusedAsState
++import androidx.compose.foundation.interaction.collectIsPressedAsState
++import androidx.compose.foundation.layout.RowScope
++import androidx.compose.foundation.layout.heightIn
++import androidx.compose.foundation.layout.widthIn
++import androidx.compose.material3.Button
++import androidx.compose.material3.ButtonDefaults
++import androidx.compose.material3.MaterialTheme
++import androidx.compose.material3.darkColorScheme
++import androidx.compose.runtime.Composable
++import androidx.compose.runtime.getValue
++import androidx.compose.runtime.remember
++import androidx.compose.ui.Modifier
++import androidx.compose.ui.draw.drawBehind
++import androidx.compose.ui.graphics.Color
++import androidx.compose.ui.graphics.RectangleShape
++import androidx.compose.ui.graphics.nativeCanvas
++import androidx.compose.ui.platform.LocalContext
++import androidx.compose.ui.unit.dp
++import kotlin.math.roundToInt
++
++@Composable
++fun ForgeCalibrationTheme(content: @Composable () -> Unit) {
++    MaterialTheme(
++        colorScheme = darkColorScheme(
++            primary = Color(0xFFE56620),
++            onPrimary = Color(0xFF10151B),
++            background = Color(0xFF080C11),
++            surface = Color(0xFF10151B),
++            onSurface = Color(0xFFEEE7D9),
++            onSurfaceVariant = Color(0xFFB5BDC6),
++        ),
++        content = content,
++    )
++}
++
++@Composable
++fun Modifier.forgeSteel(
++    family: String,
++    active: Boolean = false,
++    enabled: Boolean = true,
++    focused: Boolean = false,
++): Modifier {
++    val context = LocalContext.current
++    val drawable = remember(context, family) { ForgeLayerDrawable(context, family, false) }
++    val states = remember(enabled, focused) {
++        buildList {
++            if (enabled) add(android.R.attr.state_enabled)
++            if (focused) add(android.R.attr.state_focused)
++        }.toIntArray()
++    }
++    return drawBehind {
++        drawable.state = states
++        drawable.setFeatureActive(active)
++        drawable.setBounds(0, 0, size.width.roundToInt(), size.height.roundToInt())
++        drawable.draw(drawContext.canvas.nativeCanvas)
++    }
++}
++
++/** Keep Material's click, enabled, keyboard and accessibility behavior; replace presentation only. */
++@Composable
++fun ForgeButton(
++    onClick: () -> Unit,
++    modifier: Modifier = Modifier,
++    enabled: Boolean = true,
++    outlined: Boolean = false,
++    content: @Composable RowScope.() -> Unit,
++) {
++    val interaction = remember { MutableInteractionSource() }
++    val pressed by interaction.collectIsPressedAsState()
++    val focused by interaction.collectIsFocusedAsState()
++    Button(
++        onClick = onClick,
++        enabled = enabled,
++        interactionSource = interaction,
++        modifier = modifier.widthIn(min = if (outlined) 112.dp else 96.dp).heightIn(min = 56.dp).forgeSteel(
++            family = if (outlined) "cg_rf_field" else "cg_rf_button",
++            active = pressed,
++            enabled = enabled,
++            focused = focused,
++        ),
++        colors = ButtonDefaults.buttonColors(
++            containerColor = Color.Transparent,
++            contentColor = Color(0xFFEEE7D9),
++            disabledContainerColor = Color.Transparent,
++            disabledContentColor = Color(0xFF8F9BA7),
++        ),
++        elevation = null,
++        shape = RectangleShape,
++        content = content,
++    )
++}
+--- /dev/null
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/forge/ForgeLayerDrawable.java
+@@ -0,0 +1,86 @@
++package org.lineageos.settings.ayn.forge;
++
++import android.content.Context;
++import android.content.res.Resources;
++import android.graphics.Canvas;
++import android.graphics.ColorFilter;
++import android.graphics.PixelFormat;
++import android.graphics.PorterDuff;
++import android.graphics.Rect;
++import android.graphics.drawable.Drawable;
++
++/** Native compiled PNG/nine-patch layers; source geometry and light masks stay separate. */
++public final class ForgeLayerDrawable extends Drawable {
++    private static final int[] COLORS = {0xffdc5920, 0xffff4908, 0xffff5b0b,
++            0xffffd083, 0xffd5e7f2, 0xffffe5bc};
++    private final Drawable[] layers = new Drawable[7];
++    private final boolean momentary;
++    private final int intrinsicWidth;
++    private final int intrinsicHeight;
++    private boolean featureActive;
++    private float featureStrength = 1f;
++    private float emissionStrength = 1f;
++    private int alpha = 255;
++    private ForgeStatePolicy policy = ForgeStatePolicy.resolve(true, false, false, false,
++            false, false, false);
++    public ForgeLayerDrawable(Context context, String family, boolean momentary) {
++        this(context.getResources(), context.getTheme(), family, momentary);
++    }
++    public ForgeLayerDrawable(Resources resources, Resources.Theme theme, String family, boolean momentary) {
++        this.momentary = momentary;
++        int[] ids = ForgeResources.layers(family); // Static R references survive resource shrinking.
++        for (int i = 0; i < layers.length; i++) {
++            layers[i] = resources.getDrawable(ids[i], theme).mutate();
++            if (i > 0) layers[i].setColorFilter(COLORS[i-1], PorterDuff.Mode.SRC_IN);
++        }
++        intrinsicWidth = layers[0].getIntrinsicWidth();
++        intrinsicHeight = layers[0].getIntrinsicHeight();
++        setState(new int[] {android.R.attr.state_enabled});
++    }
++    public void setFeatureActive(boolean active) {
++        if (featureActive != active || featureStrength != 1f) {
++            featureActive = active; featureStrength = 1f; onStateChange(getState());
++        }
++    }
++    /** Actual analog amplitude drives lighting; tiny raw-axis noise cannot flash at full gain. */
++    public void setInputStrength(float strength) {
++        float value = Float.isNaN(strength) ? 0f : Math.max(0f, Math.min(1f, strength));
++        if (featureStrength != value || featureActive != (value > 0f)) {
++            featureStrength = value; featureActive = value > 0f; onStateChange(getState());
++        }
++    }
++    private static boolean has(int[] states, int target) {
++        for (int state : states) if (state == target) return true;
++        return false;
++    }
++    @Override public boolean isStateful() { return true; }
++    @Override protected boolean onStateChange(int[] states) {
++        boolean semanticSelection = has(states, android.R.attr.state_checked)
++                || has(states, android.R.attr.state_selected)
++                || (momentary && has(states, android.R.attr.state_pressed));
++        emissionStrength = semanticSelection ? 1f : featureStrength;
++        policy = ForgeStatePolicy.resolve(has(states, android.R.attr.state_enabled),
++                has(states, android.R.attr.state_checked), has(states, android.R.attr.state_selected),
++                has(states, android.R.attr.state_focused), has(states, android.R.attr.state_pressed),
++                featureActive, momentary);
++        invalidateSelf(); return true;
++    }
++    @Override protected void onBoundsChange(Rect bounds) {
++        for (Drawable drawable : layers) drawable.setBounds(bounds);
++    }
++    @Override public void draw(Canvas canvas) {
++        layers[0].setAlpha(Math.round(alpha * policy.base)); layers[0].draw(canvas);
++        for (int i = 1; i < layers.length; i++) {
++            if (policy.gains[i-1] > 0) {
++                float strength = i == 5 ? 1f : emissionStrength; // Neutral focus is independent.
++                layers[i].setAlpha(Math.round(alpha * policy.gains[i-1] * strength)); layers[i].draw(canvas);
++            }
++        }
++    }
++    @Override public int getIntrinsicWidth() { return intrinsicWidth; }
++    @Override public int getIntrinsicHeight() { return intrinsicHeight; }
++    @Override public void setAlpha(int value) { alpha = Math.max(0, Math.min(255, value)); invalidateSelf(); }
++    // Whole-object tint must never recolor the cold steel; only neutral masks are tinted.
++    @Override public void setColorFilter(ColorFilter ignored) {}
++    @Override public int getOpacity() { return PixelFormat.TRANSLUCENT; }
++}
+--- /dev/null
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/forge/ForgeResources.java
+@@ -0,0 +1,16 @@
++package org.lineageos.settings.ayn.forge;
++import org.lineageos.settings.ayn.R;
++/** Explicit references keep every neutral layer reachable during native resource shrinking. */
++final class ForgeResources {
++ static int[] layers(String family) {
++  switch(family) {
++   case "cg_ayn_gate": return new int[] {R.drawable.cg_ayn_gate_cold, R.drawable.cg_ayn_gate_reflection, R.drawable.cg_ayn_gate_spill, R.drawable.cg_ayn_gate_seam, R.drawable.cg_ayn_gate_core, R.drawable.cg_ayn_gate_focus, R.drawable.cg_ayn_gate_symbol};
++   case "cg_ayn_dot": return new int[] {R.drawable.cg_ayn_dot_cold, R.drawable.cg_ayn_dot_reflection, R.drawable.cg_ayn_dot_spill, R.drawable.cg_ayn_dot_seam, R.drawable.cg_ayn_dot_core, R.drawable.cg_ayn_dot_focus, R.drawable.cg_ayn_dot_symbol};
++   case "cg_ayn_rgb_thumb": return new int[] {R.drawable.cg_ayn_rgb_thumb_cold, R.drawable.cg_ayn_rgb_thumb_reflection, R.drawable.cg_ayn_rgb_thumb_spill, R.drawable.cg_ayn_rgb_thumb_seam, R.drawable.cg_ayn_rgb_thumb_core, R.drawable.cg_ayn_rgb_thumb_focus, R.drawable.cg_ayn_rgb_thumb_symbol};
++   case "cg_rf_button": return new int[] {R.drawable.cg_rf_button_cold, R.drawable.cg_rf_button_reflection, R.drawable.cg_rf_button_spill, R.drawable.cg_rf_button_seam, R.drawable.cg_rf_button_core, R.drawable.cg_rf_button_focus, R.drawable.cg_rf_button_symbol};
++   case "cg_rf_field": return new int[] {R.drawable.cg_rf_field_cold, R.drawable.cg_rf_field_reflection, R.drawable.cg_rf_field_spill, R.drawable.cg_rf_field_seam, R.drawable.cg_rf_field_core, R.drawable.cg_rf_field_focus, R.drawable.cg_rf_field_symbol};
++   case "cg_rf_panel": return new int[] {R.drawable.cg_rf_panel_cold, R.drawable.cg_rf_panel_reflection, R.drawable.cg_rf_panel_spill, R.drawable.cg_rf_panel_seam, R.drawable.cg_rf_panel_core, R.drawable.cg_rf_panel_focus, R.drawable.cg_rf_panel_symbol};
++   default: throw new IllegalArgumentException("Unknown Forge family: "+family);
++  }
++ }
++}
+--- /dev/null
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/forge/ForgeRgbThumbDrawable.java
+@@ -0,0 +1,80 @@
++package org.lineageos.settings.ayn.forge;
++
++import android.content.Context;
++import android.content.res.Resources;
++import android.graphics.Canvas;
++import android.graphics.ColorFilter;
++import android.graphics.Paint;
++import android.graphics.PixelFormat;
++import android.graphics.Rect;
++import android.graphics.drawable.Drawable;
++import android.view.View;
++import java.lang.ref.WeakReference;
++
++/** A flat channel-data swatch over cold steel; gesture emission is a separate state. */
++public final class ForgeRgbThumbDrawable extends Drawable implements Drawable.Callback {
++    private final ForgeLayerDrawable housing;
++    private final Paint channel = new Paint(Paint.ANTI_ALIAS_FLAG);
++    private final ThumbState constantState;
++    private int alpha = 255;
++    public ForgeRgbThumbDrawable(Context context, int channelColor, View slider) {
++        this(context.getResources(), context.getTheme(), channelColor, new WeakReference<View>(slider));
++    }
++    private ForgeRgbThumbDrawable(Resources resources, Resources.Theme theme, int channelColor,
++            WeakReference<View> owner) {
++        constantState = new ThumbState(resources, theme, channelColor, owner);
++        housing = new ForgeLayerDrawable(resources, theme, "cg_ayn_rgb_thumb", true);
++        housing.setCallback(this); channel.setColor(channelColor);
++        setState(new int[] {android.R.attr.state_enabled});
++    }
++    @Override public ConstantState getConstantState() { return constantState; }
++    @Override public boolean isStateful() { return true; }
++    @Override protected boolean onStateChange(int[] state) {
++        housing.setState(state); invalidateSelf(); return true;
++    }
++    @Override protected void onBoundsChange(Rect bounds) { housing.setBounds(bounds); }
++    @Override public void draw(Canvas canvas) {
++        View slider = constantState.owner.get();
++        // Material clones custom thumbs and does not forward its state to those clones.
++        // Read the real owner on each requested draw; no polling or extra hardware callback.
++        if (slider != null) housing.setState(slider.getDrawableState());
++        housing.draw(canvas);
++        Rect bounds = getBounds();
++        channel.setAlpha(Math.round(alpha * ((slider != null ? slider.isEnabled() : isEnabled()) ? 1f : .42f)));
++        canvas.drawCircle(bounds.exactCenterX(), bounds.exactCenterY(),
++                Math.min(bounds.width(), bounds.height()) / 9f, channel);
++    }
++    private boolean isEnabled() {
++        for (int state : getState()) if (state == android.R.attr.state_enabled) return true;
++        return false;
++    }
++    @Override public int getIntrinsicWidth() { return housing.getIntrinsicWidth(); }
++    @Override public int getIntrinsicHeight() { return housing.getIntrinsicHeight(); }
++    @Override public void setAlpha(int value) {
++        alpha = Math.max(0, Math.min(255, value)); housing.setAlpha(alpha); invalidateSelf();
++    }
++    @Override public void setColorFilter(ColorFilter ignored) {}
++    @Override public int getOpacity() { return PixelFormat.TRANSLUCENT; }
++    @Override public void invalidateDrawable(Drawable who) { invalidateSelf(); }
++    @Override public void scheduleDrawable(Drawable who, Runnable what, long when) { scheduleSelf(what, when); }
++    @Override public void unscheduleDrawable(Drawable who, Runnable what) { unscheduleSelf(what); }
++    private static final class ThumbState extends ConstantState {
++        final Resources resources;
++        final Resources.Theme theme;
++        final int color;
++        final WeakReference<View> owner;
++        ThumbState(Resources resources, Resources.Theme theme, int color, WeakReference<View> owner) {
++            this.resources = resources; this.theme = theme; this.color = color; this.owner = owner;
++        }
++        @Override public Drawable newDrawable() {
++            return new ForgeRgbThumbDrawable(resources, theme, color, owner);
++        }
++        @Override public Drawable newDrawable(Resources resources) {
++            return new ForgeRgbThumbDrawable(resources, theme, color, owner);
++        }
++        @Override public Drawable newDrawable(Resources resources, Resources.Theme theme) {
++            return new ForgeRgbThumbDrawable(resources, theme, color, owner);
++        }
++        @Override public int getChangingConfigurations() { return 0; }
++    }
++}
+--- /dev/null
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/forge/ForgeStatePolicy.java
+@@ -0,0 +1,25 @@
++package org.lineageos.settings.ayn.forge;
++
++/** Explicit feature/input activation. Focus alone never enables ember. No clock. */
++public final class ForgeStatePolicy {
++    public final boolean active;
++    public final float base;
++    public final float[] gains;
++    private ForgeStatePolicy(boolean active, float base, float[] gains) {
++        this.active = active; this.base = base; this.gains = gains;
++    }
++    public static ForgeStatePolicy resolve(boolean enabled, boolean checked, boolean selected,
++            boolean focused, boolean pressed, boolean featureActive, boolean momentary) {
++        boolean active = enabled && (checked || selected || featureActive || (momentary && pressed));
++        float[] gains = new float[6];
++        if (active) {
++            gains[0] = pressed ? .60f : .32f;
++            gains[1] = pressed ? .92f : .72f;
++            gains[2] = 1f;
++            gains[3] = pressed ? 1f : .82f;
++            gains[5] = 1f;
++        }
++        gains[4] = enabled && focused ? 1f : 0f;
++        return new ForgeStatePolicy(active, enabled ? 1f : .42f, gains);
++    }
++}
+--- a/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationActivity.kt
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationActivity.kt
+@@ -10,12 +10,8 @@
+ import androidx.activity.ComponentActivity
+ import androidx.activity.compose.setContent
+ import androidx.activity.viewModels
+-import androidx.compose.foundation.isSystemInDarkTheme
+ import androidx.compose.material3.MaterialTheme
+-import androidx.compose.material3.dynamicDarkColorScheme
+-import androidx.compose.material3.dynamicLightColorScheme
+ import androidx.compose.runtime.Composable
+-import androidx.compose.ui.platform.LocalContext
+ 
+ class CalibrationActivity : ComponentActivity() {
+     private val viewModel: CalibrationViewModel by viewModels()
+@@ -32,12 +28,5 @@
+ 
+ @Composable
+ private fun DynamicTheme(content: @Composable () -> Unit) {
+-    val context = LocalContext.current
+-    val colorScheme =
+-        if (isSystemInDarkTheme()) {
+-            dynamicDarkColorScheme(context)
+-        } else {
+-            dynamicLightColorScheme(context)
+-        }
+-    MaterialTheme(colorScheme = colorScheme, content = content)
++    org.lineageos.settings.ayn.forge.ForgeCalibrationTheme(content)
+ }
+--- a/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt
+@@ -12,15 +12,17 @@
+ import androidx.compose.foundation.layout.fillMaxSize
+ import androidx.compose.foundation.layout.height
+ import androidx.compose.foundation.layout.padding
+-import androidx.compose.material3.Button
+ import androidx.compose.material3.MaterialTheme
+ import androidx.compose.material3.Text
++import androidx.compose.foundation.rememberScrollState
++import androidx.compose.foundation.verticalScroll
+ import androidx.compose.runtime.Composable
+ import androidx.compose.ui.Alignment
+ import androidx.compose.ui.Modifier
+ import androidx.compose.ui.res.stringResource
+ import androidx.compose.ui.text.style.TextAlign
+ import androidx.compose.ui.unit.dp
++import org.lineageos.settings.ayn.forge.ForgeButton
+ import org.lineageos.settings.ayn.R
+ import org.lineageos.settings.ayn.joystick.components.StickVisualizer
+ 
+@@ -56,7 +58,7 @@
+         }
+ 
+     Column(
+-        modifier = Modifier.fillMaxSize().padding(24.dp),
++        modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp),
+         horizontalAlignment = Alignment.CenterHorizontally,
+         verticalArrangement = Arrangement.Center,
+     ) {
+@@ -112,7 +114,7 @@
+ 
+         Spacer(modifier = Modifier.height(24.dp))
+ 
+-        Button(onClick = onNext, enabled = state.readyToAdvance) {
++        ForgeButton(onClick = onNext, enabled = state.readyToAdvance) {
+             Text(stringResource(R.string.calibration_next))
+         }
+     }
+--- a/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt
+@@ -6,15 +6,14 @@
+ package org.lineageos.settings.ayn.joystick.components
+ 
+ import androidx.compose.foundation.layout.Arrangement
+-import androidx.compose.foundation.layout.Row
++import androidx.compose.foundation.layout.FlowRow
+ import androidx.compose.foundation.layout.fillMaxWidth
+-import androidx.compose.material3.Button
+-import androidx.compose.material3.OutlinedButton
+ import androidx.compose.material3.Text
+ import androidx.compose.runtime.Composable
+ import androidx.compose.ui.Alignment
+ import androidx.compose.ui.Modifier
+ import androidx.compose.ui.unit.dp
++import org.lineageos.settings.ayn.forge.ForgeButton
+ 
+ @Composable
+ fun ButtonGrid(
+@@ -22,15 +21,15 @@
+     modifier: Modifier = Modifier,
+     outlined: Set<Int> = emptySet(),
+ ) {
+-    Row(
++    FlowRow(
+         horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally),
+         modifier = modifier.fillMaxWidth(),
+     ) {
+         buttons.forEachIndexed { index, (label, onClick) ->
+             if (index in outlined) {
+-                OutlinedButton(onClick = onClick) { Text(label) }
++                ForgeButton(outlined = true, onClick = onClick) { Text(label) }
+             } else {
+-                Button(onClick = onClick) { Text(label) }
++                ForgeButton(onClick = onClick) { Text(label) }
+             }
+         }
+     }
+--- a/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt
+@@ -8,6 +8,16 @@
+ import androidx.compose.foundation.Canvas
+ import androidx.compose.foundation.layout.size
+ import androidx.compose.runtime.Composable
++import androidx.compose.runtime.remember
++import androidx.compose.ui.graphics.nativeCanvas
++import androidx.compose.ui.platform.LocalContext
++import androidx.compose.ui.res.stringResource
++import androidx.compose.ui.semantics.contentDescription
++import androidx.compose.ui.semantics.stateDescription
++import androidx.compose.ui.semantics.semantics
++import org.lineageos.settings.ayn.R
++import org.lineageos.settings.ayn.forge.ForgeLayerDrawable
++import kotlin.math.roundToInt
+ import androidx.compose.ui.Modifier
+ import androidx.compose.ui.geometry.Offset
+ import androidx.compose.ui.graphics.Color
+@@ -16,28 +26,38 @@
+ 
+ @Composable
+ fun StickVisualizer(x: Float, y: Float, label: String, modifier: Modifier = Modifier) {
+-    Canvas(modifier = modifier.size(120.dp)) {
++    val context = LocalContext.current
++    val gate = remember(context) { ForgeLayerDrawable(context, "cg_ayn_gate", false) }
++    val dot = remember(context) { ForgeLayerDrawable(context, "cg_ayn_dot", false) }
++    val labelText = when (label) {
++        "L" -> stringResource(R.string.cg_ayn_left_stick)
++        "R" -> stringResource(R.string.cg_ayn_right_stick)
++        else -> label
++    }
++    val position = stringResource(R.string.cg_ayn_stick_position, x, y)
++    Canvas(modifier = modifier.size(120.dp).semantics {
++        contentDescription = labelText
++        stateDescription = position
++    }) {
+         val cx = size.width / 2f
+         val cy = size.height / 2f
+         val radius = size.minDimension / 2f - 4.dp.toPx()
+ 
+-        // Outer circle
+-        drawCircle(
+-            color = Color.Gray,
+-            radius = radius,
+-            center = Offset(cx, cy),
+-            style = Stroke(width = 2.dp.toPx()),
+-        )
++        // The source56dp boundary remains unchanged; the frame has no static center dot.
++        val inputStrength = kotlin.math.sqrt(x * x + y * y).coerceIn(0f, 1f)
++        gate.setInputStrength(inputStrength)
++        gate.setBounds(0, 0, size.width.roundToInt(), size.height.roundToInt())
++        gate.draw(drawContext.canvas.nativeCanvas)
+ 
+         // Crosshair
+         drawLine(
+-            color = Color.DarkGray,
++            color = Color(0xFF627482),
+             start = Offset(cx - radius, cy),
+             end = Offset(cx + radius, cy),
+             strokeWidth = 1.dp.toPx(),
+         )
+         drawLine(
+-            color = Color.DarkGray,
++            color = Color(0xFF627482),
+             start = Offset(cx, cy - radius),
+             end = Offset(cx, cy + radius),
+             strokeWidth = 1.dp.toPx(),
+@@ -50,6 +70,13 @@
+         val scale = if (rawDist > 1f) 1f / rawDist else 1f
+         val dotX = cx + x * scale * maxTravel
+         val dotY = cy + y * scale * maxTravel
+-        drawCircle(color = Color.Green, radius = dotRadius, center = Offset(dotX, dotY))
++        dot.setInputStrength(inputStrength)
++        dot.setBounds(-10, -10, 10, 10)
++        val native = drawContext.canvas.nativeCanvas
++        val saved = native.save()
++        native.translate(dotX, dotY)
++        native.scale(density, density)
++        dot.draw(native)
++        native.restoreToCount(saved)
+     }
+ }
+--- a/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/PhaseIntroScreen.kt
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/PhaseIntroScreen.kt
+@@ -11,22 +11,23 @@
+ import androidx.compose.foundation.layout.fillMaxSize
+ import androidx.compose.foundation.layout.height
+ import androidx.compose.foundation.layout.padding
+-import androidx.compose.material3.Button
+ import androidx.compose.material3.MaterialTheme
+-import androidx.compose.material3.OutlinedButton
+ import androidx.compose.material3.Text
++import androidx.compose.foundation.rememberScrollState
++import androidx.compose.foundation.verticalScroll
+ import androidx.compose.runtime.Composable
+ import androidx.compose.ui.Alignment
+ import androidx.compose.ui.Modifier
+ import androidx.compose.ui.res.stringResource
+ import androidx.compose.ui.text.style.TextAlign
+ import androidx.compose.ui.unit.dp
++import org.lineageos.settings.ayn.forge.ForgeButton
+ import org.lineageos.settings.ayn.R
+ 
+ @Composable
+ fun PhaseIntroScreen(onStart: () -> Unit, onCancel: () -> Unit) {
+     Column(
+-        modifier = Modifier.fillMaxSize().padding(32.dp),
++        modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(32.dp),
+         verticalArrangement = Arrangement.Center,
+         horizontalAlignment = Alignment.CenterHorizontally,
+     ) {
+@@ -43,8 +44,8 @@
+             textAlign = TextAlign.Center,
+         )
+         Spacer(modifier = Modifier.height(32.dp))
+-        Button(onClick = onStart) { Text(stringResource(R.string.calibration_start)) }
++        ForgeButton(onClick = onStart) { Text(stringResource(R.string.calibration_start)) }
+         Spacer(modifier = Modifier.height(12.dp))
+-        OutlinedButton(onClick = onCancel) { Text(stringResource(R.string.calibration_cancel)) }
++        ForgeButton(outlined = true, onClick = onCancel) { Text(stringResource(R.string.calibration_cancel)) }
+     }
+ }
+--- a/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/TestScreen.kt
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/TestScreen.kt
+@@ -6,31 +6,32 @@
+ package org.lineageos.settings.ayn.joystick
+ 
+ import androidx.compose.foundation.layout.Arrangement
+-import androidx.compose.foundation.layout.Box
+ import androidx.compose.foundation.layout.Column
++import androidx.compose.foundation.layout.FlowRow
+ import androidx.compose.foundation.layout.Row
+ import androidx.compose.foundation.layout.Spacer
+ import androidx.compose.foundation.layout.fillMaxSize
+ import androidx.compose.foundation.layout.height
+ import androidx.compose.foundation.layout.padding
+-import androidx.compose.material3.Button
+ import androidx.compose.material3.MaterialTheme
+-import androidx.compose.material3.OutlinedButton
+ import androidx.compose.material3.Text
++import androidx.compose.foundation.rememberScrollState
++import androidx.compose.foundation.verticalScroll
+ import androidx.compose.runtime.Composable
+ import androidx.compose.ui.Alignment
+ import androidx.compose.ui.Modifier
+ import androidx.compose.ui.res.stringResource
+ import androidx.compose.ui.text.style.TextAlign
+ import androidx.compose.ui.unit.dp
++import org.lineageos.settings.ayn.forge.ForgeButton
+ import org.lineageos.settings.ayn.R
+ import org.lineageos.settings.ayn.joystick.components.StickVisualizer
+ 
+ @Composable
+ fun TestScreen(state: CalibrationUiState, onAccept: () -> Unit, onRetry: () -> Unit) {
+-    Box(modifier = Modifier.fillMaxSize().padding(24.dp)) {
++    Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
+         Column(
+-            modifier = Modifier.fillMaxSize(),
++            modifier = Modifier.weight(1f).verticalScroll(rememberScrollState()),
+             horizontalAlignment = Alignment.CenterHorizontally,
+             verticalArrangement = Arrangement.Center,
+         ) {
+@@ -81,12 +82,13 @@
+             }
+         }
+ 
+-        Row(
+-            modifier = Modifier.align(Alignment.BottomEnd),
++        FlowRow(
++            modifier = Modifier.align(Alignment.End),
++            verticalArrangement = Arrangement.spacedBy(12.dp),
+             horizontalArrangement = Arrangement.spacedBy(12.dp),
+         ) {
+-            OutlinedButton(onClick = onRetry) { Text(stringResource(R.string.calibration_retry)) }
+-            Button(onClick = onAccept) { Text(stringResource(R.string.calibration_accept)) }
++            ForgeButton(outlined = true, onClick = onRetry) { Text(stringResource(R.string.calibration_retry)) }
++            ForgeButton(onClick = onAccept) { Text(stringResource(R.string.calibration_accept)) }
+         }
+     }
+ }
+--- a/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt
++++ b/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt
+@@ -17,6 +17,8 @@
+ import com.android.settingslib.widget.preference.app.R as settingslib_R
+ import com.google.android.material.slider.Slider
+ import org.lineageos.settings.ayn.R
++import org.lineageos.settings.ayn.forge.ForgeLayerDrawable
++import org.lineageos.settings.ayn.forge.ForgeRgbThumbDrawable
+ import org.lineageos.settings.ayn.utils.LightUtils
+ 
+ class RGBPreference : DialogPreference {
+@@ -62,6 +64,17 @@
+         val blueSlider = view.findViewById<Slider>(R.id.dialog_slider_blue)
+         val brightnessSlider = view.findViewById<Slider>(R.id.dialog_slider_brightness)
+ 
++        view.background = ForgeLayerDrawable(context, "cg_rf_panel", false)
++        view.setPadding(0, 0, 0, 0) // The retained child owns the original24dp content padding.
++        fun Slider.forgeThumb(channelColor: Int) {
++            val thumb = ForgeRgbThumbDrawable(context, channelColor, this)
++            setCustomThumbDrawable(thumb)
++        }
++        redSlider.forgeThumb(Color.rgb(255, 59, 48))
++        greenSlider.forgeThumb(Color.rgb(52, 199, 89))
++        blueSlider.forgeThumb(Color.rgb(0, 122, 255))
++        brightnessSlider.forgeThumb(Color.WHITE)
++
+         val initialColor = selectedColor
+         val initialBrightness = selectedBrightness
+ 
+@@ -103,10 +116,10 @@
+             LightUtils.applyToHardware(nodeString, getKernelColor(initialColor), initialBrightness)
+         }
+ 
+-        AlertDialog.Builder(context)
++        val dialog = AlertDialog.Builder(context, R.style.cg_ayn_rgb_dialog)
+             .setTitle(title)
+             .setView(view)
+-            .setPositiveButton(android.R.string.ok) { _, _ ->
++            .setPositiveButton(R.string.cg_ayn_ok) { _, _ ->
+                 val stringValue =
+                     "${Color.red(liveColor)}:${Color.green(liveColor)}:${Color.blue(liveColor)}:$liveBrightness"
+                 if (callChangeListener(stringValue)) {
+@@ -115,8 +128,18 @@
+                     liveApply()
+                 }
+             }
+-            .setNegativeButton(android.R.string.cancel) { _, _ -> resetToInitial() }
++            .setNegativeButton(R.string.cg_ayn_cancel) { _, _ -> resetToInitial() }
+             .setOnCancelListener { resetToInitial() }
+             .show()
++        dialog.window?.setBackgroundDrawable(ForgeLayerDrawable(context, "cg_rf_panel", false))
++        for (which in intArrayOf(AlertDialog.BUTTON_POSITIVE, AlertDialog.BUTTON_NEGATIVE)) {
++            dialog.getButton(which).apply {
++                background = ForgeLayerDrawable(context, "cg_rf_button", true)
++                setTextColor(Color.rgb(238, 231, 217))
++                minHeight = (56 * resources.displayMetrics.density).toInt()
++                minWidth = (96 * resources.displayMetrics.density).toInt()
++                isAllCaps = false
++            }
++        }
+     }
+ }

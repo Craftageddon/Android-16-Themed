@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Gamepad layout entries -->
+    <string-array name="gamepad_layout_entries" translatable="false">
+        <item>@string/layout_xbox</item>
+        <item>@string/layout_nintendo</item>
+    </string-array>
+
+    <!-- Gamepad layout values -->
+    <string-array name="gamepad_layout_values" translatable="false">
+        <item>xbox</item>
+        <item>nintendo</item>
+    </string-array>
+
+    <!-- Gamepad trigger mode entries -->
+    <string-array name="gamepad_trigger_mode_entries" translatable="false">
+        <item>@string/trigger_mode_both</item>
+        <item>@string/trigger_mode_analog</item>
+        <item>@string/trigger_mode_digital</item>
+    </string-array>
+
+    <!-- Gamepad trigger mode values -->
+    <string-array name="gamepad_trigger_mode_values" translatable="false">
+        <item>both</item>
+        <item>analog</item>
+        <item>digital</item>
+    </string-array>
+
+    <!-- Gamepad digital trigger threshold entries -->
+    <string-array name="gamepad_digital_trigger_threshold_entries" translatable="false">
+        <item>@string/digital_trigger_threshold_half_press</item>
+        <item>@string/digital_trigger_threshold_quarter_press</item>
+        <item>@string/digital_trigger_threshold_three_quarters_press</item>
+        <item>@string/digital_trigger_threshold_full_press</item>
+    </string-array>
+
+    <!-- Gamepad digital trigger threshold values -->
+    <string-array name="gamepad_digital_trigger_threshold_values" translatable="false">
+        <item>127</item>
+        <item>63</item>
+        <item>189</item>
+        <item>230</item>
+    </string-array>
+
+    <!-- Gamepad mappable entries -->
+    <string-array name="gamepad_mappable_entries" translatable="false">
+        <item>@string/mappable_none</item>
+        <item>@string/mappable_home</item>
+        <item>@string/mappable_select</item>
+        <item>@string/mappable_start</item>
+        <item>@string/mappable_back</item>
+        <item>@string/mappable_a</item>
+        <item>@string/mappable_b</item>
+        <item>@string/mappable_x</item>
+        <item>@string/mappable_y</item>
+        <item>@string/mappable_l1</item>
+        <item>@string/mappable_l2</item>
+        <item>@string/mappable_l3</item>
+        <item>@string/mappable_r1</item>
+        <item>@string/mappable_r2</item>
+        <item>@string/mappable_r3</item>
+        <item>@string/mappable_down</item>
+        <item>@string/mappable_up</item>
+        <item>@string/mappable_left</item>
+        <item>@string/mappable_right</item>
+        <item>@string/mappable_c</item>
+        <item>@string/mappable_z</item>
+        <item>@string/mappable_mode</item>
+        <item>@string/mappable_assist</item>
+        <item>@string/mappable_app_switch</item>
+        <item>@string/mappable_dnd</item>
+        <item>@string/mappable_brightness_down</item>
+        <item>@string/mappable_brightness_up</item>
+        <item>@string/mappable_volume_down</item>
+        <item>@string/mappable_volume_up</item>
+        <item>@string/mappable_screenshot</item>
+        <item>@string/mappable_power</item>
+    </string-array>
+
+    <!-- Gamepad mappable values -->
+    <string-array name="gamepad_mappable_values" translatable="false">
+        <item>none</item>
+        <item>home</item>
+        <item>select</item>
+        <item>start</item>
+        <item>back</item>
+        <item>a</item>
+        <item>b</item>
+        <item>x</item>
+        <item>y</item>
+        <item>l1</item>
+        <item>l2</item>
+        <item>l3</item>
+        <item>r1</item>
+        <item>r2</item>
+        <item>r3</item>
+        <item>down</item>
+        <item>up</item>
+        <item>left</item>
+        <item>right</item>
+        <item>c</item>
+        <item>z</item>
+        <item>mode</item>
+        <item>assist</item>
+        <item>app_switch</item>
+        <item>dnd</item>
+        <item>brightness_down</item>
+        <item>brightness_up</item>
+        <item>volume_down</item>
+        <item>volume_up</item>
+        <item>screenshot</item>
+        <item>power</item>
+    </string-array>
+
+    <!-- Gamepad ignore mask entries -->
+    <string-array name="gamepad_ignore_mask_entries" translatable="false">
+        <item>@string/ignore_mask_none</item>
+        <item>@string/ignore_mask_all</item>
+        <item>@string/ignore_mask_buttons</item>
+        <item>@string/ignore_mask_triggers</item>
+        <item>@string/ignore_mask_sticks</item>
+        <item>@string/ignore_mask_triggers_sticks</item>
+    </string-array>
+
+    <!-- Gamepad ignore mask values -->
+    <string-array name="gamepad_ignore_mask_values" translatable="false">
+        <item>0</item>
+        <item>fffff</item>
+        <item>ffff</item>
+        <item>30000</item>
+        <item>c0000</item>
+        <item>f0000</item>
+    </string-array>
+
+    <!-- RGB mode entries -->
+    <string-array name="rgb_mode_entries" translatable="false">
+        <item>@string/lights_rgb_mode_global</item>
+        <item>@string/lights_rgb_mode_per_side</item>
+        <item>@string/lights_rgb_mode_per_led</item>
+    </string-array>
+
+    <!-- RGB mode values -->
+    <string-array name="rgb_mode_values" translatable="false">
+        <item>global</item>
+        <item>per_side</item>
+        <item>per_led</item>
+    </string-array>
+
+    <!-- RGB preference keys -->
+    <string-array name="rgb_preference_keys" translatable="false">
+        <item>global_lighting</item>
+        <item>left_side</item>
+        <item>right_side</item>
+        <item>left_strip</item>
+        <item>right_strip</item>
+        <item>left_stick</item>
+        <item>right_stick</item>
+        <item>left_led_0</item>
+        <item>left_led_1</item>
+        <item>left_led_2</item>
+        <item>left_led_3</item>
+        <item>right_led_0</item>
+        <item>right_led_1</item>
+        <item>right_led_2</item>
+        <item>right_led_3</item>
+    </string-array>
+
+    <!-- RGB preference nodes -->
+    <string-array name="rgb_preference_nodes" translatable="false">
+        <item>left:stick right:stick left:strip right:strip left:stick:0 left:stick:1 left:stick:2 left:stick:3 right:stick:0 right:stick:1 right:stick:2 right:stick:3</item>
+        <item>left:stick left:strip left:stick:0 left:stick:1 left:stick:2 left:stick:3</item>
+        <item>right:stick right:strip right:stick:0 right:stick:1 right:stick:2 right:stick:3</item>
+        <item>left:strip</item>
+        <item>right:strip</item>
+        <item>left:stick</item>
+        <item>right:stick</item>
+        <item>left:stick:0</item>
+        <item>left:stick:1</item>
+        <item>left:stick:2</item>
+        <item>left:stick:3</item>
+        <item>right:stick:0</item>
+        <item>right:stick:1</item>
+        <item>right:stick:2</item>
+        <item>right:stick:3</item>
+    </string-array>
+
+    <!-- RGB preference defaults -->
+    <string-array name="rgb_preference_defaults" translatable="false">
+        <item>0:165:180:85</item>
+        <item>255:0:0:85</item>
+        <item>0:0:255:85</item>
+        <item>255:0:0:85</item>
+        <item>0:0:255:85</item>
+        <item>255:0:0:85</item>
+        <item>0:0:255:85</item>
+        <item>255:0:0:85</item>
+        <item>255:165:0:85</item>
+        <item>0:255:0:85</item>
+        <item>0:0:255:85</item>
+        <item>255:0:0:85</item>
+        <item>255:165:0:85</item>
+        <item>0:255:0:85</item>
+        <item>0:0:255:85</item>
+    </string-array>
+</resources>

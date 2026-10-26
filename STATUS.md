@@ -1,3 +1,9 @@
+# Actual AYN owner presentation adaptation - 2026-10-26
+
+[Iteration21](iterations/21-native-workflows/README.md) authors the actual seven-phase calibration and RGB dialog source/resource adaptation. It preserves source input/clamp expressions, readiness/phase owners, hardware utilities and live/confirm/cancel bodies. New layered gate/position/thumb artwork and compact native frames supply147 PNG resource configurations. The14 actual Kotlin and4 Java source compilations,128 state cases, exact patch application, source hashes, marker/alpha/neutral-mask checks, native-library cloning contract, English/UTF8 checks and11 workflow fixtures pass within their stated scope. Compile-only resource symbols are disclosed; verification JARs are not runtime packages.
+
+The full goal remains active:10,553 family decisions, five unauthored workflow groups, further discovered artwork, native symbol/app owner bridges and the final independent whole-goal check remain. W-01/W-02 have authored source/artwork and bounded compile evidence; full pinned Soong/Android/device acceptance remains unrun. No hardware was installed, changed or flashed.
+
 # Semantic review checkpoint - 2026-10-26
 
 [Iteration20](iterations/20-semantic-review/README.md) preserves the complete16,559-file source corpus and records the210 tentative reuse decisions. Actual source/donor review discovered8 additional glyph corrections, including PIN-entry versus pushpin, notification mute versus speaker mute, error versus cancel, and screenshot versus camera. The checkpoint contains70 layered masters (66 new treatments and4 unchanged aliases),980 production layer exports,560 state previews and20 source-backed app/component role bindings. Sixteen declared application icons receive Forge identities; four iconless manifests gain no invented launcher entries. Sensors Off follows actual privacy-active semantics.

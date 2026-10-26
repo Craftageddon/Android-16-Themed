@@ -1,0 +1,2354 @@
+[
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_button_cold.9.png",
+    "sourceSha256": "9e6b76ad373087ea0a9859df5d695eb84d8b44d112bdb91ba42b919e81e419f9",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_cold.9.png",
+    "targetSha256": "70a6e3fd7a81db8082358c5e31d6156e8b407e954e361984570a2805ad154e04",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      288,
+      168
+    ],
+    "contentSize": [
+      144,
+      84
+    ],
+    "stretch": [
+      70,
+      74,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_button_core.9.png",
+    "sourceSha256": "d21b4c15c7696ce67afe6c896854eccbcacfbaf2b5c91025ea87e2a555ef97b6",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_core.9.png",
+    "targetSha256": "9e2a084ddee09c0120fdec752b610d4a77b0fa4c7c85f2fb84ff9375f3f4adee",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      288,
+      168
+    ],
+    "contentSize": [
+      144,
+      84
+    ],
+    "stretch": [
+      70,
+      74,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_button_focus.9.png",
+    "sourceSha256": "21875307af628dda10d6c2592cc7d3215a00c9275c0cc94b3f66221fe29d6266",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_focus.9.png",
+    "targetSha256": "ee3df5abe5e81f9405d919c283a374fa2f28f7e0f566cfebbd9c644e0fea8d3c",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      288,
+      168
+    ],
+    "contentSize": [
+      144,
+      84
+    ],
+    "stretch": [
+      70,
+      74,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_button_reflection.9.png",
+    "sourceSha256": "c91c79f7ca792e84101cc75c3bd385b8ba4d4e081a1968896a9587b7e5482c0e",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_reflection.9.png",
+    "targetSha256": "269750e91475b4fab0d6ba1d75611795b3922afefa7188d125098a08b0216e60",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      288,
+      168
+    ],
+    "contentSize": [
+      144,
+      84
+    ],
+    "stretch": [
+      70,
+      74,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_button_seam.9.png",
+    "sourceSha256": "c1a644b98a4f51657291b4b393ad50f6f39e92ea71cb87ba82ea3b5023fcc344",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_seam.9.png",
+    "targetSha256": "67e6da482103701ba55dc118ec7b42a9f7ca77a231f63600face6c170a8929a4",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      288,
+      168
+    ],
+    "contentSize": [
+      144,
+      84
+    ],
+    "stretch": [
+      70,
+      74,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_button_spill.9.png",
+    "sourceSha256": "14dc3e16ccd52b58301e4e72fac0b431873902e5f1b78516d97474da7f81b1fc",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_spill.9.png",
+    "targetSha256": "e7bf1de4eff3ab2fe834bce57ccc7175b5c584a7a2094d9905b4eac15313d9c8",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      288,
+      168
+    ],
+    "contentSize": [
+      144,
+      84
+    ],
+    "stretch": [
+      70,
+      74,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_button_symbol.9.png",
+    "sourceSha256": "32391bf731043056244caebbce929aacf1cb6f94ed800d56acbbc78a0b2a8fa3",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_symbol.9.png",
+    "targetSha256": "288455e4c89c5dd155e660614a38c1b8cb0761c4931f96d8a61096001a7b65a1",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      288,
+      168
+    ],
+    "contentSize": [
+      144,
+      84
+    ],
+    "stretch": [
+      70,
+      74,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_button_cold.9.png",
+    "sourceSha256": "1a1ff641e6d1e3b23297b1009248875a4c52b4800cff1c302e053ef5581e45bc",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_cold.9.png",
+    "targetSha256": "dea4ab24ef563ff8adf3ac8aea00230d0cdd9b48802deddeaebf99b702c33549",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      192,
+      112
+    ],
+    "contentSize": [
+      96,
+      56
+    ],
+    "stretch": [
+      47,
+      49,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_button_core.9.png",
+    "sourceSha256": "ac02e186aa860f7eacc69f86fd14da51bd7f4e62a2815009241fbef3ea698cd7",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_core.9.png",
+    "targetSha256": "f91bea5b2bb7970094c72fd80dace660d9b62e1940daed3d01fe6744a52adeb1",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      192,
+      112
+    ],
+    "contentSize": [
+      96,
+      56
+    ],
+    "stretch": [
+      47,
+      49,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_button_focus.9.png",
+    "sourceSha256": "e78005769ec013b744e5124fdaecb011f8e07520ce4fae614047e7c18f7ac079",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_focus.9.png",
+    "targetSha256": "37a65d72fb931f4cf2184ff01690afee213eb06b673f7258cfe07de567664c7d",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      192,
+      112
+    ],
+    "contentSize": [
+      96,
+      56
+    ],
+    "stretch": [
+      47,
+      49,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_button_reflection.9.png",
+    "sourceSha256": "941168f433620469ebfe604354769550dc3240b7622b83505578809b87fd19bf",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_reflection.9.png",
+    "targetSha256": "1a8b80c7e4a435f6332e660dc75ddf3c29b0ebf90636bd7c7c0e033299660b4a",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      192,
+      112
+    ],
+    "contentSize": [
+      96,
+      56
+    ],
+    "stretch": [
+      47,
+      49,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_button_seam.9.png",
+    "sourceSha256": "2f85bdb415d9c4155939cab1e4a70bd4fd58922fea486dfb8a962936f28e2474",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_seam.9.png",
+    "targetSha256": "3516b9708773eafb4e1c4adf869e6fd4ede35aed934c7747b55ae6008d69d222",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      192,
+      112
+    ],
+    "contentSize": [
+      96,
+      56
+    ],
+    "stretch": [
+      47,
+      49,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_button_spill.9.png",
+    "sourceSha256": "b6ddacc7ff1cf22fbe6e9e62691b565f8fc4d8f3afc12127c1326496ee195436",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_spill.9.png",
+    "targetSha256": "1dbea08b9c4165527dbbad3fa3d6251c2e862004e463a37fe1f2206686123a18",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      192,
+      112
+    ],
+    "contentSize": [
+      96,
+      56
+    ],
+    "stretch": [
+      47,
+      49,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_button_symbol.9.png",
+    "sourceSha256": "c645158133028e24bb8efc87c7a559de896be1669524a8f0f822275894120999",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_symbol.9.png",
+    "targetSha256": "dba4b7cea93f1313fd442afcee0e3af2d204f8fa2774bb01c2fa7569a6807d0d",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      192,
+      112
+    ],
+    "contentSize": [
+      96,
+      56
+    ],
+    "stretch": [
+      47,
+      49,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_button_cold.9.png",
+    "sourceSha256": "d054b820a096dc725cb3381ce22b6ef5fb307804e61211f80b956f3953bb3490",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_cold.9.png",
+    "targetSha256": "c8220352003b28c8d283898321664019a42906b279e7ba9da61e7a13202f1c93",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      384,
+      224
+    ],
+    "contentSize": [
+      192,
+      112
+    ],
+    "stretch": [
+      94,
+      98,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_button_core.9.png",
+    "sourceSha256": "876af0600c388602aedd48cccde5326f2acce6e4238e24fb097e4431d630d28d",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_core.9.png",
+    "targetSha256": "7e8f79266f12df6426ef41a5c9c668af6c26ec076c5ad1f80edd84da821f9e7e",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      384,
+      224
+    ],
+    "contentSize": [
+      192,
+      112
+    ],
+    "stretch": [
+      94,
+      98,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_button_focus.9.png",
+    "sourceSha256": "6ccf6616a91d7c645f095c6c56158bf957c66c93748edf0a8765fa2e223935ab",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_focus.9.png",
+    "targetSha256": "1c05099914511c2549f006aa5478c857f064080463c31d76e42f7cc2fd62fd42",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      384,
+      224
+    ],
+    "contentSize": [
+      192,
+      112
+    ],
+    "stretch": [
+      94,
+      98,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_button_reflection.9.png",
+    "sourceSha256": "e23bf302b0036a271eb8216f85453da7c414e2e6db500df4483efd0e40ec8fd5",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_reflection.9.png",
+    "targetSha256": "e532809c49e4300d0ed5ad832bf11670c41b7cbfc95cbb0fc6a07762c1383995",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      384,
+      224
+    ],
+    "contentSize": [
+      192,
+      112
+    ],
+    "stretch": [
+      94,
+      98,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_button_seam.9.png",
+    "sourceSha256": "96d0d2b200eb1cddee5e0fe655b3c94112f101007fd5d1b153596ff8102da8bb",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_seam.9.png",
+    "targetSha256": "2310ddd589cbd5f18c44d34ab1876687054ed8dfa268c47bb48d652483e149cb",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      384,
+      224
+    ],
+    "contentSize": [
+      192,
+      112
+    ],
+    "stretch": [
+      94,
+      98,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_button_spill.9.png",
+    "sourceSha256": "8dafb3456a1ba9c9ef0134228c4cbb68068ab9b4c7b8b0b7207db1a8ce5bce58",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_spill.9.png",
+    "targetSha256": "eff85166ef78d73a78768c926b4ada0b6ad8e9874847558b3dbc445d9dd39398",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      384,
+      224
+    ],
+    "contentSize": [
+      192,
+      112
+    ],
+    "stretch": [
+      94,
+      98,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_button_symbol.9.png",
+    "sourceSha256": "e0fb66aa1d3ae6e73baaf7763068759d091e2b5ef52b244f99b0a76c710725df",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_symbol.9.png",
+    "targetSha256": "56604e1e93fb7ae91bf415b9690b260855f89587da8210ed84246787bd677736",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      384,
+      224
+    ],
+    "contentSize": [
+      192,
+      112
+    ],
+    "stretch": [
+      94,
+      98,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_button_cold.9.png",
+    "sourceSha256": "8725f258fba18937fbaadb738b95f378c3cbd2e2dc6070e5d982e5b9049b98be",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_cold.9.png",
+    "targetSha256": "f3cf7df0b8959e85d790b3c0cb0ac247294bf32bdfd377bd8d147e831e780f77",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      576,
+      336
+    ],
+    "contentSize": [
+      288,
+      168
+    ],
+    "stretch": [
+      141,
+      147,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_button_core.9.png",
+    "sourceSha256": "31f7e52afa4362d89a654ae1ffe4c860da261c8f4c7075cd4dfcd5f45d7679f2",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_core.9.png",
+    "targetSha256": "43e3172049af05e7f1d7ecbca3b0c06ac5f88e0f7e5bc9e010ea4b6c77c17d6a",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      576,
+      336
+    ],
+    "contentSize": [
+      288,
+      168
+    ],
+    "stretch": [
+      141,
+      147,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_button_focus.9.png",
+    "sourceSha256": "4a3c2f1f40cbec7a4361dd7a743bc8b86984cc31e037bd05326bbbb092298600",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_focus.9.png",
+    "targetSha256": "6b8cec2e679e49080a836f3f390e4e74aec6872160ce8c58d2602ac29f9118b9",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      576,
+      336
+    ],
+    "contentSize": [
+      288,
+      168
+    ],
+    "stretch": [
+      141,
+      147,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_button_reflection.9.png",
+    "sourceSha256": "f67518ed52c23f8e6c87eff41109fdd53d247221c3278ca8f1ca2ff1d62b8429",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_reflection.9.png",
+    "targetSha256": "fca2446fa810c7ea8a0f43a134d4bfb6dc04098507ea87c219f5c9cd7c621816",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      576,
+      336
+    ],
+    "contentSize": [
+      288,
+      168
+    ],
+    "stretch": [
+      141,
+      147,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_button_seam.9.png",
+    "sourceSha256": "d25d6435511448fec1fedc0eaa26a9be6fd911e7691cf86e4d84275e25c678d9",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_seam.9.png",
+    "targetSha256": "016a223000b1c0566c5fedef8cc16cba27290146ede65bba3b34cb4219ce4ea4",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      576,
+      336
+    ],
+    "contentSize": [
+      288,
+      168
+    ],
+    "stretch": [
+      141,
+      147,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_button_spill.9.png",
+    "sourceSha256": "a34b64f64f85544967d302cc01258f99c404815da3c92dafef8b83ddccfe0930",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_spill.9.png",
+    "targetSha256": "00a6fa999357d0e6250e1b69bb9afd60ac79a69272426900f5f92b5254718a0e",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      576,
+      336
+    ],
+    "contentSize": [
+      288,
+      168
+    ],
+    "stretch": [
+      141,
+      147,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_button_symbol.9.png",
+    "sourceSha256": "637034b46638c76f62d489f428f3014c11092e1c02730279fa407600d31527bd",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_symbol.9.png",
+    "targetSha256": "bd25802d140eb04b73c43f7f2fa33a49c81ebfab51dd12e85159db9b5ec4c291",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      576,
+      336
+    ],
+    "contentSize": [
+      288,
+      168
+    ],
+    "stretch": [
+      141,
+      147,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_field_cold.9.png",
+    "sourceSha256": "cc2172e6e0075290c7b31bb798b6d6a129122c4b752dc8fad26958769abe2251",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_cold.9.png",
+    "targetSha256": "6f7c02f13b0b02e48e3eafc2f40e198ec9abf895e214d1dc7cfdd4e8eae1702f",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      168
+    ],
+    "contentSize": [
+      168,
+      84
+    ],
+    "stretch": [
+      82,
+      86,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_field_core.9.png",
+    "sourceSha256": "b1acb454d03224cfb99ff748a6d68dcd5ea5a28c3d4ca0d18062dc288cc2fb28",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_core.9.png",
+    "targetSha256": "cf1615facc43b93c6ba2fc712b2da0b84e8e3e96a62d36658cdfc428581396f2",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      168
+    ],
+    "contentSize": [
+      168,
+      84
+    ],
+    "stretch": [
+      82,
+      86,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_field_focus.9.png",
+    "sourceSha256": "4f3dd9e767d27758e8bc0d403922a31026717ee35a1b044812f43450ea5b1daa",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_focus.9.png",
+    "targetSha256": "03262af6dcb4dd51cc83d2b148534c368b9357aac48064f45c473cd5131f8f02",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      168
+    ],
+    "contentSize": [
+      168,
+      84
+    ],
+    "stretch": [
+      82,
+      86,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_field_reflection.9.png",
+    "sourceSha256": "781b56e41c5d21166e5293260c3298f1911f290cd58277cbe62a4ed88bf7da17",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_reflection.9.png",
+    "targetSha256": "01eb6597c55cb04894cb3efdacd211fae965ecec36ccd2cf234768cb0b887d30",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      168
+    ],
+    "contentSize": [
+      168,
+      84
+    ],
+    "stretch": [
+      82,
+      86,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_field_seam.9.png",
+    "sourceSha256": "ab6f7474a5b9e536acdf0082a6096bacc060f80481a0ec4657913d0be2842b25",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_seam.9.png",
+    "targetSha256": "00818286c646c12d44367f706d596e3376039d8ab0ed315685d8a88ee5f64e85",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      168
+    ],
+    "contentSize": [
+      168,
+      84
+    ],
+    "stretch": [
+      82,
+      86,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_field_spill.9.png",
+    "sourceSha256": "d5ca2957745ecab434702199dcef226e6172ee232c8cce9d674a59cdbf77ab2e",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_spill.9.png",
+    "targetSha256": "0b5af581f160750f99ec9c8c79af662a44adeab007ed81996dc2a8e2b4f82ada",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      168
+    ],
+    "contentSize": [
+      168,
+      84
+    ],
+    "stretch": [
+      82,
+      86,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_field_symbol.9.png",
+    "sourceSha256": "684e8a34b90e1ad3c86bcc16e0274ddeeb38ee0a9ca248347098303d463019a4",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_symbol.9.png",
+    "targetSha256": "e260160f77fd7b06610639ffbbb382fdf4a9024f27dda9b00e26eed8e5e15b12",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      168
+    ],
+    "contentSize": [
+      168,
+      84
+    ],
+    "stretch": [
+      82,
+      86,
+      40,
+      44
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_field_cold.9.png",
+    "sourceSha256": "db987b2a92ab0446955329b671d8df69d4568aada860a1d260e24bbb2866b3e0",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_cold.9.png",
+    "targetSha256": "2ff580a925a948b512889b468462f8c6c18c26a4b59e29a1ccf850b000f663ae",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      112
+    ],
+    "contentSize": [
+      112,
+      56
+    ],
+    "stretch": [
+      55,
+      57,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_field_core.9.png",
+    "sourceSha256": "4986e05e75fc95739da9b95d0cf4e79f01e0ac8d9c338f730abad14dfce122e4",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_core.9.png",
+    "targetSha256": "a81048180b6ac48efa80d34f96d16a5f7260f4c40dc7853d5dab36abdb2eaf64",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      112
+    ],
+    "contentSize": [
+      112,
+      56
+    ],
+    "stretch": [
+      55,
+      57,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_field_focus.9.png",
+    "sourceSha256": "1798acd545cfaba132db3170395c1a5921db798f0e8523ad24e02b2d80087bbb",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_focus.9.png",
+    "targetSha256": "5a9d4c8a6f259238e0f96213debd5cf0d6e081868799e282e2f7c17d701ff41b",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      112
+    ],
+    "contentSize": [
+      112,
+      56
+    ],
+    "stretch": [
+      55,
+      57,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_field_reflection.9.png",
+    "sourceSha256": "efd496970ebb35b7875ac0255dcc5a462506ff206de5a2bcfc9680ed391ff883",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_reflection.9.png",
+    "targetSha256": "a5a75d65fbf9f5eb78209868af3135c0231957612c0406615276e082b6178551",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      112
+    ],
+    "contentSize": [
+      112,
+      56
+    ],
+    "stretch": [
+      55,
+      57,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_field_seam.9.png",
+    "sourceSha256": "35ff8724192590b31b7f1927a3c562a8b48d8ca73fe905a1f1eb8277509152a5",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_seam.9.png",
+    "targetSha256": "446b3c0e2071534fcd639a397c3bbb81371f378f608b5733ae61a05641cac04c",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      112
+    ],
+    "contentSize": [
+      112,
+      56
+    ],
+    "stretch": [
+      55,
+      57,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_field_spill.9.png",
+    "sourceSha256": "fc9579203d927ddf8918113ce9f4c178a5f763383131b1ff744501c43c35ec98",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_spill.9.png",
+    "targetSha256": "3b53112153a10f0abb2c6d6bb108c7449b5858bff87991ed2774ea7b6dcded76",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      112
+    ],
+    "contentSize": [
+      112,
+      56
+    ],
+    "stretch": [
+      55,
+      57,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_field_symbol.9.png",
+    "sourceSha256": "12768cac60263400e68fa9626583acdb1baed09adf1e4b3b5a292751ff636f25",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_symbol.9.png",
+    "targetSha256": "8a26de87de4ce1286af2b3b8a60e4d7202de642b1419d9d10542f3f96c598a51",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      112
+    ],
+    "contentSize": [
+      112,
+      56
+    ],
+    "stretch": [
+      55,
+      57,
+      27,
+      29
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_field_cold.9.png",
+    "sourceSha256": "2db52d9daf4bf95f8b9aea81ba25accadf3b61462691d85444713ecba4070a8b",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_cold.9.png",
+    "targetSha256": "0721cdfbe65cf3dfed10b45b973dfd4b9d590c68a6d6235af4b095d1edadb720",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      224
+    ],
+    "contentSize": [
+      224,
+      112
+    ],
+    "stretch": [
+      110,
+      114,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_field_core.9.png",
+    "sourceSha256": "0dd0c4402a886678d1759cc553732354e3e66aedfca96daad94a2b5066f01564",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_core.9.png",
+    "targetSha256": "d941d7710ca89dfa01e55761b30495946b50501c5238fb145fb2749b029081ce",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      224
+    ],
+    "contentSize": [
+      224,
+      112
+    ],
+    "stretch": [
+      110,
+      114,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_field_focus.9.png",
+    "sourceSha256": "0214028af6215ecd1bd9cd3574e96c3471b2cadbd6da0cec9315eb527dcdd8cd",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_focus.9.png",
+    "targetSha256": "1270c8429c13c243f44398a7b4e46c3f92a699ba116fe6efd370410182bd3a11",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      224
+    ],
+    "contentSize": [
+      224,
+      112
+    ],
+    "stretch": [
+      110,
+      114,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_field_reflection.9.png",
+    "sourceSha256": "3e9b7401abae0174f3a952a24eb3b6ebf9c0f8b9a9693d4d38e68ae822dbd385",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_reflection.9.png",
+    "targetSha256": "2c41998d1807c30e76474255f8424f214d9ee5ceaed7d056419ef9b741e2597d",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      224
+    ],
+    "contentSize": [
+      224,
+      112
+    ],
+    "stretch": [
+      110,
+      114,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_field_seam.9.png",
+    "sourceSha256": "086e433a40f8c919d09c2a4b6caab45d27a87cb1195daed8f1f27b0c67e834d2",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_seam.9.png",
+    "targetSha256": "a2da362994761e400fba6e270306eb60dc525395ca787a91b75af1fe18d78c52",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      224
+    ],
+    "contentSize": [
+      224,
+      112
+    ],
+    "stretch": [
+      110,
+      114,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_field_spill.9.png",
+    "sourceSha256": "7bc9e7583bcedc0035dc8ffcd5f588a041ba8aa325bf4eeb79aadbf801e53a37",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_spill.9.png",
+    "targetSha256": "fabc806cbea0da62affd50f9e902c34294dc7af248cd6e19806e1e82a197794f",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      224
+    ],
+    "contentSize": [
+      224,
+      112
+    ],
+    "stretch": [
+      110,
+      114,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_field_symbol.9.png",
+    "sourceSha256": "7889d405cfc3cc8e480757504ceeb21c1ae125350bebf3fc1c95b109d1018a79",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_symbol.9.png",
+    "targetSha256": "1577d5510e63e06686eb4e19dfdbb09b2e09a7afbae9cf09996b9441835e5b78",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      224
+    ],
+    "contentSize": [
+      224,
+      112
+    ],
+    "stretch": [
+      110,
+      114,
+      54,
+      58
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_field_cold.9.png",
+    "sourceSha256": "3d7be9785e49582c26964130236777947ec2c09cf8243ba7b84e954539667d72",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_cold.9.png",
+    "targetSha256": "80fe7ffffdcf0f6c9dc9774d8aadaf99f0abad1960f3d6e2f06907da66845fbe",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      336
+    ],
+    "contentSize": [
+      336,
+      168
+    ],
+    "stretch": [
+      165,
+      171,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_field_core.9.png",
+    "sourceSha256": "613728f7962a5a508e827fbc959e4aaabc686f96d0fcc996356349f0103f0efc",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_core.9.png",
+    "targetSha256": "7c2e391c16f36f91788fbf4d0103809fca9de361dfc6c5b39a9c8825ff812e28",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      336
+    ],
+    "contentSize": [
+      336,
+      168
+    ],
+    "stretch": [
+      165,
+      171,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_field_focus.9.png",
+    "sourceSha256": "8356ad8ca171f5ecb8d2edca0b1c1d0013f8ad4e8781d9100b7c0b2110f8880d",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_focus.9.png",
+    "targetSha256": "f1ede9b5b05db725d6b67e18f659f6d8e172552768285ba51518947340b5e287",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      336
+    ],
+    "contentSize": [
+      336,
+      168
+    ],
+    "stretch": [
+      165,
+      171,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_field_reflection.9.png",
+    "sourceSha256": "6fce04ea53ed1c28a6c91b1964523ca49919b922975248eb4fafaf7ef7e51339",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_reflection.9.png",
+    "targetSha256": "4fb1ef12603156b310a2015d44a8a8854be69e34649e6eebdc30ec1a77ca8d2c",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      336
+    ],
+    "contentSize": [
+      336,
+      168
+    ],
+    "stretch": [
+      165,
+      171,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_field_seam.9.png",
+    "sourceSha256": "170f38d0f4f4b4606d4ec11cdffce1bbc53ae36c34d745655971fc069c758742",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_seam.9.png",
+    "targetSha256": "cdff95865458c665de394202dd8d02ad7d6b1fcb7da8b12e98cacf895b842946",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      336
+    ],
+    "contentSize": [
+      336,
+      168
+    ],
+    "stretch": [
+      165,
+      171,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_field_spill.9.png",
+    "sourceSha256": "d1ce359b554eafe04ee847746f4b05d06b4dfa4e30682db9d7c825cc939b2191",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_spill.9.png",
+    "targetSha256": "dfe525b3bfb04172ad770b758a1d78f52ea62feab0101abf4265a22425a7bc86",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      336
+    ],
+    "contentSize": [
+      336,
+      168
+    ],
+    "stretch": [
+      165,
+      171,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_field_symbol.9.png",
+    "sourceSha256": "22ab08ff27db8c50fa1217989fa40450ca551fa2f915998325b0e32a3e166b14",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_symbol.9.png",
+    "targetSha256": "544ad3afa0e725b9b7f0b3a4d139dbbfe47c95c2373eb712a88b69bc7ae5724c",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      336
+    ],
+    "contentSize": [
+      336,
+      168
+    ],
+    "stretch": [
+      165,
+      171,
+      81,
+      87
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_panel_cold.9.png",
+    "sourceSha256": "37503963a3eadd79d3e2061700c3c147f9c29c0b5bfb3b5bb0ca684b7ae4f5d3",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_cold.9.png",
+    "targetSha256": "e3076e74753e29272e618c84ac8bd7a337e6d0b406a1a3c26dc0d0d11d87d10e",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      264
+    ],
+    "contentSize": [
+      168,
+      132
+    ],
+    "stretch": [
+      82,
+      86,
+      64,
+      68
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_panel_core.9.png",
+    "sourceSha256": "c94043c72540de8e717e8b5a2210be3c5ff7bd44a1178ffadca71a6977786ea4",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_core.9.png",
+    "targetSha256": "624a1e28204e082255282dc9b49b5ebdf402c61d7e42229f9c61fb3edbd8b7dd",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      264
+    ],
+    "contentSize": [
+      168,
+      132
+    ],
+    "stretch": [
+      82,
+      86,
+      64,
+      68
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_panel_focus.9.png",
+    "sourceSha256": "8417a34105c576e2f96747a1436696244c3745fbbb50b826914283cf7276c030",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_focus.9.png",
+    "targetSha256": "00e91776b5213014cf4a34cb52b74daa20a5eda11a6afedf2f83d17dc1099cb8",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      264
+    ],
+    "contentSize": [
+      168,
+      132
+    ],
+    "stretch": [
+      82,
+      86,
+      64,
+      68
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_panel_reflection.9.png",
+    "sourceSha256": "d15197f6bcdaee72548dc7d3dc3ab09ea5d86daa60e5bdc7743991f2aca676c3",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_reflection.9.png",
+    "targetSha256": "a3c6ba291f6bd3091fe4c6080b71a29055ac9adda727a193fe2ac6fd37d8b1b8",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      264
+    ],
+    "contentSize": [
+      168,
+      132
+    ],
+    "stretch": [
+      82,
+      86,
+      64,
+      68
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_panel_seam.9.png",
+    "sourceSha256": "7b3cd98785d71cb4c7fc0c3ff9338df917590ff6013258dfec04885db1cff5d4",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_seam.9.png",
+    "targetSha256": "ded9b78deeea4291eebfa08248f1c0b736a350fa11a90deea1d9b51c30003d9b",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      264
+    ],
+    "contentSize": [
+      168,
+      132
+    ],
+    "stretch": [
+      82,
+      86,
+      64,
+      68
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_panel_spill.9.png",
+    "sourceSha256": "d5624920ede9bb8e057c3812ce53234d07c29be26e213bfee3be5012914f7010",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_spill.9.png",
+    "targetSha256": "53be8456098528c4bb9835735b5027ade43348a9eccacbe016eed0e2d86e3da7",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      264
+    ],
+    "contentSize": [
+      168,
+      132
+    ],
+    "stretch": [
+      82,
+      86,
+      64,
+      68
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-hdpi/cg_rf_panel_symbol.9.png",
+    "sourceSha256": "4fa55ecd2b31ccabd5f4b6162c195cea0fbd0e717dfc3a9d99870a63e0f3e368",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_symbol.9.png",
+    "targetSha256": "52e347d0d4e26a79ccf4d8c2088fc707b8befab9e50e347b13b004aaebb3b0cd",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      336,
+      264
+    ],
+    "contentSize": [
+      168,
+      132
+    ],
+    "stretch": [
+      82,
+      86,
+      64,
+      68
+    ],
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_panel_cold.9.png",
+    "sourceSha256": "6aefb586c42f0e956f8a44f589fee8e0efa135ff83e50439248e7f6ed1605782",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_cold.9.png",
+    "targetSha256": "33854bb819477c7c14b0d8d303e97348d38d222a567b85e6a87a1ec8ee5c799e",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      176
+    ],
+    "contentSize": [
+      112,
+      88
+    ],
+    "stretch": [
+      55,
+      57,
+      43,
+      45
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_panel_core.9.png",
+    "sourceSha256": "6f8f366f3cdb1db35c2a5ae7cb2c44377edc6d13fbbecc78f6df73c7cac58829",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_core.9.png",
+    "targetSha256": "80981791afb8e666d95fad980a7d255ee1c0293b03327e8ea266378463751788",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      176
+    ],
+    "contentSize": [
+      112,
+      88
+    ],
+    "stretch": [
+      55,
+      57,
+      43,
+      45
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_panel_focus.9.png",
+    "sourceSha256": "e7f83c2700b7faec686cf431259ae71b650b8ecd50cb76b5e09a2900dfdfe970",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_focus.9.png",
+    "targetSha256": "0192aec707ab9cecd89448bd1aafa82a7b23a392fe2b933a091ab8ac87a4d9ca",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      176
+    ],
+    "contentSize": [
+      112,
+      88
+    ],
+    "stretch": [
+      55,
+      57,
+      43,
+      45
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_panel_reflection.9.png",
+    "sourceSha256": "919cdb6e1858c1405a63a9e9e3ebe30d0de329ea95567a84438f494fdeb65a97",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_reflection.9.png",
+    "targetSha256": "51a6ec924e6e2cfa63aa6b8d6923f4f3720be77bb169ddb8a8e140000e3f022a",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      176
+    ],
+    "contentSize": [
+      112,
+      88
+    ],
+    "stretch": [
+      55,
+      57,
+      43,
+      45
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_panel_seam.9.png",
+    "sourceSha256": "23457c8957709da9579eaaa1cc2b847084e6f52f1e4a93428bc923af019e3286",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_seam.9.png",
+    "targetSha256": "4905fece6af3bbdee6a97744cc6c9b9e03e972b05d0fe8c1c7c140f811462371",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      176
+    ],
+    "contentSize": [
+      112,
+      88
+    ],
+    "stretch": [
+      55,
+      57,
+      43,
+      45
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_panel_spill.9.png",
+    "sourceSha256": "673698959f82e9d42f4425f86bb540e4ffcb0ca27e86efcb09a89c8d7b57b7ae",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_spill.9.png",
+    "targetSha256": "c2ee01400bfea0b57d53018585af0880f82a88dd5de1358bbbc0dfeb818ed41f",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      176
+    ],
+    "contentSize": [
+      112,
+      88
+    ],
+    "stretch": [
+      55,
+      57,
+      43,
+      45
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-mdpi/cg_rf_panel_symbol.9.png",
+    "sourceSha256": "a2e4b7b7296f6d7ed37b1c54ec90559ac50cb85f7d1130e452e62c4e588d8e7a",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_symbol.9.png",
+    "targetSha256": "5d1b3dabb16fd4cb7e008003837b1645ec2f79aa0f9fcf2f0231ac055d888aa1",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      224,
+      176
+    ],
+    "contentSize": [
+      112,
+      88
+    ],
+    "stretch": [
+      55,
+      57,
+      43,
+      45
+    ],
+    "padding": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_panel_cold.9.png",
+    "sourceSha256": "5f04c7200a11c6f5879cb46e421299384d470c49c431c178e5496e55a712ddef",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_cold.9.png",
+    "targetSha256": "5e36e5030567a8a15f5afa454758d407837c29aab1bdafad510286ef287adb1c",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      352
+    ],
+    "contentSize": [
+      224,
+      176
+    ],
+    "stretch": [
+      110,
+      114,
+      86,
+      90
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_panel_core.9.png",
+    "sourceSha256": "bf7677f889866d76558a74e715fcf961415becae4dfa23bd68187fa6dd409364",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_core.9.png",
+    "targetSha256": "93b525b19e3f73858d7b404e67f374bc3b22abe40cc25e1507f054037c036ab6",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      352
+    ],
+    "contentSize": [
+      224,
+      176
+    ],
+    "stretch": [
+      110,
+      114,
+      86,
+      90
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_panel_focus.9.png",
+    "sourceSha256": "2d23deaad9f0103cea2811121cc9f8ef14f2ede3df7a28c0b5057927d4806af3",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_focus.9.png",
+    "targetSha256": "6e597b7c9399e4d73d311fc1b21a2d2672d174a791009aecdd45126c371926e9",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      352
+    ],
+    "contentSize": [
+      224,
+      176
+    ],
+    "stretch": [
+      110,
+      114,
+      86,
+      90
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_panel_reflection.9.png",
+    "sourceSha256": "db7ffeafae8647be6ebde447df3b9d973f756ed3ada08e6d90c2d10652062820",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_reflection.9.png",
+    "targetSha256": "b09911d37cca7d7b71f8e6d7fd97159390f367db40b83c51ed6a0b6682d2566f",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      352
+    ],
+    "contentSize": [
+      224,
+      176
+    ],
+    "stretch": [
+      110,
+      114,
+      86,
+      90
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_panel_seam.9.png",
+    "sourceSha256": "6b11784fbe0ac791894403ea7781b4d2cde79339e8d9e48bacbb52f0671660da",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_seam.9.png",
+    "targetSha256": "ae961d39dddc0862288963d2513d978cc881574c498bf9983da4402b56515b9b",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      352
+    ],
+    "contentSize": [
+      224,
+      176
+    ],
+    "stretch": [
+      110,
+      114,
+      86,
+      90
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_panel_spill.9.png",
+    "sourceSha256": "278a43e349defe7248ad25966d4f77f8f4dcf52ad3eb4aee8673d2d6f6c2c737",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_spill.9.png",
+    "targetSha256": "9e1e993c84679fdf06836a180d5336859644461570091febeae6b8906f12c63d",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      352
+    ],
+    "contentSize": [
+      224,
+      176
+    ],
+    "stretch": [
+      110,
+      114,
+      86,
+      90
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xhdpi/cg_rf_panel_symbol.9.png",
+    "sourceSha256": "b7bb36eb5790df5a6e86d4d21228f4a2a802efdfb32f066f8441ed32c5dd751d",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_symbol.9.png",
+    "targetSha256": "c615c3c1c3bc5990dd0575de4ee8f587df3b5b323b553e088fb190a006fae024",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      448,
+      352
+    ],
+    "contentSize": [
+      224,
+      176
+    ],
+    "stretch": [
+      110,
+      114,
+      86,
+      90
+    ],
+    "padding": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_panel_cold.9.png",
+    "sourceSha256": "c111b27a92c45193bd44cc07e30f36c5cadd44a0e718b10baac727bdb2d46bfa",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_cold.9.png",
+    "targetSha256": "07b8101f0af9404b3af70f08e727a8304600eaf4f616c40cb549cef43ad7f7a9",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      528
+    ],
+    "contentSize": [
+      336,
+      264
+    ],
+    "stretch": [
+      165,
+      171,
+      129,
+      135
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_panel_core.9.png",
+    "sourceSha256": "ab75f85fe91f4302c3f897a540f4ddfecbb5a39933eef942dd84ade88a976177",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_core.9.png",
+    "targetSha256": "4936f92736f59619eceb5944a245d40523acd71d5ccdbcb26c71c719d0363655",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      528
+    ],
+    "contentSize": [
+      336,
+      264
+    ],
+    "stretch": [
+      165,
+      171,
+      129,
+      135
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_panel_focus.9.png",
+    "sourceSha256": "c7a3e777062a7c84a8a033ee6b0df2ce5d95e10bc2ac38824d9de3198d6b749b",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_focus.9.png",
+    "targetSha256": "56e24b8c86a0e445338fa60afcaeb3b60ffed1ebbad2a740042691504dd2cd4c",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      528
+    ],
+    "contentSize": [
+      336,
+      264
+    ],
+    "stretch": [
+      165,
+      171,
+      129,
+      135
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_panel_reflection.9.png",
+    "sourceSha256": "06647906719ebb2ae671980159c3f098bdba61b2d1f0254067c141814b2fd362",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_reflection.9.png",
+    "targetSha256": "5dd7f0a63d82ad2bb882c38565535a214a9a2753a88c07ea76ad5682b55c105c",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      528
+    ],
+    "contentSize": [
+      336,
+      264
+    ],
+    "stretch": [
+      165,
+      171,
+      129,
+      135
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_panel_seam.9.png",
+    "sourceSha256": "776e7fd4fa31275dacf44285cccc9042d0463c82886aac8a08ef8503e785b844",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_seam.9.png",
+    "targetSha256": "35c521f6f0ce951757ac7975ebb8a582c8dc0bf4e7f7d7c7721dbbe1273a3bd0",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      528
+    ],
+    "contentSize": [
+      336,
+      264
+    ],
+    "stretch": [
+      165,
+      171,
+      129,
+      135
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_panel_spill.9.png",
+    "sourceSha256": "aa563838b1d03166097f7e3190a243d40817242a778461bedb0075a013120057",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_spill.9.png",
+    "targetSha256": "3c7e2d3d591176f6d48944bf89799d8f1f3cc0ca7a4d0f6301fddc9c13ab9a7f",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      528
+    ],
+    "contentSize": [
+      336,
+      264
+    ],
+    "stretch": [
+      165,
+      171,
+      129,
+      135
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  },
+  {
+    "source": "iterations/18-native-runtime/native/res/drawable-xxhdpi/cg_rf_panel_symbol.9.png",
+    "sourceSha256": "fe834d1dc2e2ddaa6ce8babdd60d2b9a9fe060476e690a30dadfda5ad40f5758",
+    "target": "native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_symbol.9.png",
+    "targetSha256": "bcb2388881c5d3252d1582f801391a1b7bf5aa5e5ee9203f5a63b013ab5d4d74",
+    "opticalScale": 0.5,
+    "sourceContentSize": [
+      672,
+      528
+    ],
+    "contentSize": [
+      336,
+      264
+    ],
+    "stretch": [
+      165,
+      171,
+      129,
+      135
+    ],
+    "padding": [
+      33,
+      33,
+      33,
+      33
+    ],
+    "method": "Resize content only; reconstruct metadata bands separately."
+  }
+]

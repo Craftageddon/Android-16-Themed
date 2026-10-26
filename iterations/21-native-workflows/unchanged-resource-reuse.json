@@ -1,0 +1,20 @@
+[
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/scalable-button.svg",
+    "target": "source/reference-scalable-button.svg",
+    "sha256": "cbca87f0a4843b5118e28c62e8a0fd22210a5ee8534f67d14a1e35595fab162d",
+    "unchanged": true
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/scalable-field.svg",
+    "target": "source/reference-scalable-field.svg",
+    "sha256": "21f7b9c361ac715700ece4fd2cdbbaa1c1d95c374133142adef5480eab2f2cbf",
+    "unchanged": true
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/scalable-panel.svg",
+    "target": "source/reference-scalable-panel.svg",
+    "sha256": "bb2e026d1daa35d589ca71e08d99a5d03d604843e31cd0a9e6df59ca3b5d8fe8",
+    "unchanged": true
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-26",
+  "baseline": "iterations/20-semantic-review/semantic-family-ledger.json.gz",
+  "baselineSha256": "bc394a3b5ece850fb604ecb7565a45a095fb23768fec40263a7c0da8a3e905bc",
+  "familyRecords": 10926,
+  "sourceFileVariants": 16559,
+  "previousOpenFamilyDecisions": 10554,
+  "newContentBackedDecisions": 1,
+  "openFamilyDecisions": 10553,
+  "workflowAdaptationsAuthoredInThisCheckpoint": [
+    "W-01",
+    "W-02"
+  ],
+  "workflowAdaptationsStillUnauthored": [
+    "W-03",
+    "W-04",
+    "W-05",
+    "W-06",
+    "W-07"
+  ],
+  "workflowSourceRole": "Actual owner source/resource adaptation and bounded compilation. Native execution and full pinned Soong acceptance remain separate open gates.",
+  "wholeSemanticReviewFinished": false,
+  "fullGoalComplete": false,
+  "finalWholeGoalDoubleCheck": "NOT RUN - full scope is unfinished"
+}

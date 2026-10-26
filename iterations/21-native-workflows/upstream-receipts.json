@@ -1,0 +1,597 @@
+[
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/Android.bp",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/Android.bp",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/Android.bp",
+    "bytes": 1366,
+    "gitBlobSha1": "a42100029306bf1c5bd17e9c590059279a8d3101",
+    "sha256": "61cf3c0c7754182827b5060ab164baff93d62b9db1e64740827d67828deeaa06",
+    "reasons": [
+      "Product/module/package declaration"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/Android.bp",
+    "baseline": "hardware/ayn/packages/AynParts/Android.bp"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/AndroidManifest.xml",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/AndroidManifest.xml",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/AndroidManifest.xml",
+    "bytes": 3478,
+    "gitBlobSha1": "96f93e45dd21b9aa71190bd87f9b3f95b8510e64",
+    "sha256": "c9f30ab746d85101105ad6655d3cd5b5f6725b28ecd3b6333567cc00251d118a",
+    "reasons": [
+      "Product/module/package declaration"
+    ],
+    "xmlRoot": "manifest",
+    "xmlNodes": 22,
+    "references": [
+      "@drawable/ic_gamepad",
+      "@mipmap/ic_launcher"
+    ],
+    "xmlAttributes": {
+      "{http://schemas.android.com/apk/res/android}sharedUserId": "android.uid.system",
+      "package": "org.lineageos.settings.ayn"
+    },
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/AndroidManifest.xml",
+    "baseline": "hardware/ayn/packages/AynParts/AndroidManifest.xml"
+  },
+  {
+    "owner": "hardware/ayn",
+    "project": "hardware/ayn",
+    "repository": "LineageOS/android_hardware_ayn",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "path": "packages/AynParts/res/drawable/ic_gamepad.xml",
+    "kind": "drawable",
+    "qualifier": "drawable",
+    "resourceName": "ic_gamepad",
+    "sourceSet": "production-candidate",
+    "gitBlobSha1": "3c24047c9b534d76d901fd808bab6e0e284bf503",
+    "bytes": 2646,
+    "url": "https://github.com/LineageOS/android_hardware_ayn/blob/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/res/drawable/ic_gamepad.xml",
+    "sourcePresence": "Pinned source present; installed/reachable resource NOT established",
+    "sha256": "d639d72c61ae5e341c99bfcf12e1395ba86a1a560c7c3c7471d31c8f75cdf053",
+    "baseline": "hardware/ayn/packages/AynParts/res/drawable/ic_gamepad.xml"
+  },
+  {
+    "owner": "hardware/ayn",
+    "project": "hardware/ayn",
+    "repository": "LineageOS/android_hardware_ayn",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "path": "packages/AynParts/res/layout/dialog_rgb_sliders.xml",
+    "kind": "layout",
+    "qualifier": "layout",
+    "resourceName": "dialog_rgb_sliders",
+    "sourceSet": "production-candidate",
+    "gitBlobSha1": "47cb3cb5999b25e9783d85e321aaf98f880a1014",
+    "bytes": 2873,
+    "url": "https://github.com/LineageOS/android_hardware_ayn/blob/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/res/layout/dialog_rgb_sliders.xml",
+    "sourcePresence": "Pinned source present; installed/reachable resource NOT established",
+    "sha256": "3d483d113e63dedccfebb0fa7000ef6228b04b5b67ecfdb732a1b437783b5822",
+    "baseline": "hardware/ayn/packages/AynParts/res/layout/dialog_rgb_sliders.xml"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/res/xml/ayn_panel.xml",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/res/xml/ayn_panel.xml",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/res/xml/ayn_panel.xml",
+    "bytes": 5204,
+    "gitBlobSha1": "9cbdcf6d2daa53c6aca5cf861d9659606cda4063",
+    "sha256": "1722480e716f6f9491d1e868a7de545501bb280fa932097cdfd8dfa5d92a31b8",
+    "reasons": [
+      "AYN preference resource"
+    ],
+    "xmlRoot": "PreferenceScreen",
+    "xmlNodes": 15,
+    "references": [],
+    "xmlAttributes": {
+      "{http://schemas.android.com/apk/res/android}title": "@string/ayn_panel_title"
+    },
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/res/xml/ayn_panel.xml",
+    "baseline": "hardware/ayn/packages/AynParts/res/xml/ayn_panel.xml"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/res/xml/rgb_lighting_panel.xml",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/res/xml/rgb_lighting_panel.xml",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/res/xml/rgb_lighting_panel.xml",
+    "bytes": 1630,
+    "gitBlobSha1": "d2c2f79a4cc29935f416eb96d6a384902ef3e42d",
+    "sha256": "6b33a446db102a51c746261ff7fe13865cb6c44f01a955c94af9a9e4bef9c917",
+    "reasons": [
+      "AYN preference resource"
+    ],
+    "xmlRoot": "PreferenceScreen",
+    "xmlNodes": 6,
+    "references": [],
+    "xmlAttributes": {
+      "{http://schemas.android.com/apk/res/android}title": "@string/gamepad_lights_rgb_lighting_title"
+    },
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/res/xml/rgb_lighting_panel.xml",
+    "baseline": "hardware/ayn/packages/AynParts/res/xml/rgb_lighting_panel.xml"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/AynSettingsActivity.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/AynSettingsActivity.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/AynSettingsActivity.kt",
+    "bytes": 652,
+    "gitBlobSha1": "4b295ac1cfbf54e9c7b8c7e8e38eccd165aeea5d",
+    "sha256": "0442aaf56d3f0737972adb8a25b1ef6cc4bf37e83c771ae2ff42b90d47d383aa",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/AynSettingsActivity.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/AynSettingsActivity.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/AynSettingsFragment.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/AynSettingsFragment.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/AynSettingsFragment.kt",
+    "bytes": 1623,
+    "gitBlobSha1": "28ea668e90a430fb88b76102f08c9641c413b232",
+    "sha256": "5350086d01aa091028584f1a518223a3c03ebf8b01817f8507ecb827e98f0e7c",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/AynSettingsFragment.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/AynSettingsFragment.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/BootCompletedReceiver.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/BootCompletedReceiver.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/BootCompletedReceiver.kt",
+    "bytes": 1514,
+    "gitBlobSha1": "597353299dcb6729a83470159b6fe798a1950a6a",
+    "sha256": "a7e51b3ecd6f64239cd2e57d1d6a2bb3b07f4ac2fea3153f88e77e8c0fed538c",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/BootCompletedReceiver.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/BootCompletedReceiver.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/ConfigPanelSearchIndexablesProvider.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/ConfigPanelSearchIndexablesProvider.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/ConfigPanelSearchIndexablesProvider.kt",
+    "bytes": 3795,
+    "gitBlobSha1": "380a11ddab40b3f862394ef8b4732f10c1036fc2",
+    "sha256": "564f7273b9cfa915adb5b40f06f311f7fba7bd402ffca20f28a4888c0e43d609",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/ConfigPanelSearchIndexablesProvider.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/ConfigPanelSearchIndexablesProvider.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationActivity.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationActivity.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationActivity.kt",
+    "bytes": 1422,
+    "gitBlobSha1": "45245172e96a2d92d1661b7f25592e98d316656d",
+    "sha256": "99932d324a75412cd5e0805999410d8c012e688bbf0ffd3e18f385c1c62dfe67",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationActivity.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationActivity.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationData.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationData.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationData.kt",
+    "bytes": 2741,
+    "gitBlobSha1": "e4c9e86ee0310af41929cb072d012a998ccdf1be",
+    "sha256": "dc8f44423b6159a784fc64cbdb7fea8f9864dadc558be7ef11c53aab5ad2ee52",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationData.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationData.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationEngine.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationEngine.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationEngine.kt",
+    "bytes": 7562,
+    "gitBlobSha1": "8cfac32b0728b4a64114b04c8e9d8474477abccf",
+    "sha256": "a21dc51823527e64d6204032be8cd94984fa9baadc2b476baabcbad2b2b9e243",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationEngine.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationEngine.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPersistence.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPersistence.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPersistence.kt",
+    "bytes": 1306,
+    "gitBlobSha1": "a34f8b9a8445d1e172be11ec6242df5a029a4cf1",
+    "sha256": "162868b25fb56ffa78e877b0a4658f4110e1580534178968fdaf26a1e88fea20",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPersistence.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPersistence.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt",
+    "bytes": 4863,
+    "gitBlobSha1": "7a9496bfbe8bd4ff3fb63c368cd79f11f4367755",
+    "sha256": "bc8802064f6ee957dc1cfd9b1f4fa64d83d74e4a3152e5458447a16da31f9928",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationScreen.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationScreen.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationScreen.kt",
+    "bytes": 1610,
+    "gitBlobSha1": "e7f343f7b584e39b695da44b92a9b4edc05ed461",
+    "sha256": "cde08d2369cdd43eaab28fc5165f84fa8de0a03babbea58de7657622e9d43d93",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationScreen.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationScreen.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationUiState.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationUiState.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationUiState.kt",
+    "bytes": 992,
+    "gitBlobSha1": "ab2491b1e061dce83f9250c7b2b0cc9cb6be917d",
+    "sha256": "f8dac8c74a81b055073919ac3f3f0de3e0fc87eb647a28a8fbf86b80a2f13d43",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationUiState.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationUiState.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationViewModel.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationViewModel.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationViewModel.kt",
+    "bytes": 6193,
+    "gitBlobSha1": "dc3454f8d66297bce8cc7c00f9070ae8b6be9fb3",
+    "sha256": "f466796b7e48a3f31514b6de3e619f7f9534cad6f5237cb79f34b04f81c326d6",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationViewModel.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/CalibrationViewModel.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickConstants.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickConstants.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickConstants.kt",
+    "bytes": 1331,
+    "gitBlobSha1": "9dcdfcb1854f9a11201899f41b35c16e4717705a",
+    "sha256": "96ec616231c7eeb3923c603f49d4550b7b90aeb37dacf87cfa62f1917fa1b473",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickConstants.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickConstants.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickMapping.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickMapping.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickMapping.kt",
+    "bytes": 1463,
+    "gitBlobSha1": "04776cff97ec2607a305f6177c38dabf1c05cc5e",
+    "sha256": "cf719e01a3c8d5dfa26a2f929ab5f52d0529dd2e9d283ae0a24daa65d79890ed",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickMapping.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickMapping.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickSample.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickSample.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickSample.kt",
+    "bytes": 995,
+    "gitBlobSha1": "58d850eae474af9f71dd90d06bfd58919e4866b8",
+    "sha256": "b083f88daeef5a94edd3a14e53228c20152f2ca1bb6d3b18b928764d4af6bd90",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickSample.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickSample.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickSampler.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickSampler.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickSampler.kt",
+    "bytes": 868,
+    "gitBlobSha1": "4723ab3742bfbb686c9af0e9cced8550fd9d1353",
+    "sha256": "7e98fb0dcbddd3a3408fc162c13f713aacabcc59d94adee0d4a601c11f1e9899",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickSampler.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/JoystickSampler.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/PhaseIntroScreen.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/PhaseIntroScreen.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/PhaseIntroScreen.kt",
+    "bytes": 1978,
+    "gitBlobSha1": "148c1a8881721266a215a474ddfdafac72e1e3bd",
+    "sha256": "6eba60dd5aac0bc087e716700dfe105a67b315bfb800e38bb98be661037fcb82",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/PhaseIntroScreen.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/PhaseIntroScreen.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/TestScreen.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/TestScreen.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/TestScreen.kt",
+    "bytes": 3813,
+    "gitBlobSha1": "11d06b5886884aac2ebac368a6cfd5189990f048",
+    "sha256": "c4d32b107aedba6ed107cc2bdd429a4238f5157031a8d4a22aa59a1af305470a",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/TestScreen.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/TestScreen.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt",
+    "bytes": 1163,
+    "gitBlobSha1": "de8cc8e69401f44cf95cbedab8ba84e8cbff1c1f",
+    "sha256": "ca2607034e72a55dc1c95a601be87334a3fc8fe4910ccb508807d6dfb40fcf9d",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt",
+    "bytes": 1866,
+    "gitBlobSha1": "fd9fa120293da402a393b0ab14af3f54ff02f106",
+    "sha256": "f70fb1f79569fe52453ddf418686e03671c2841878c186f6ac479fc351f2fe27",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/TriggerBar.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/TriggerBar.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/TriggerBar.kt",
+    "bytes": 1483,
+    "gitBlobSha1": "854cfcec29318dfddba54356bc2207ed3bbde3e8",
+    "sha256": "6e09aa3ad413a5835272f698252c36518b29ec4931353052a1b625c2dd663272",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/TriggerBar.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/joystick/components/TriggerBar.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingController.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingController.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingController.kt",
+    "bytes": 8466,
+    "gitBlobSha1": "e6b0211e073520083d022155ad867833651e67a5",
+    "sha256": "c9c4b00c4acfe41055b7924ef5feec6d10c0ab435e5b87705047a5a8a54378ca",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingController.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingController.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingSettingsActivity.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingSettingsActivity.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingSettingsActivity.kt",
+    "bytes": 675,
+    "gitBlobSha1": "96dec38b2bd45fc8cd20a5499a85e3b05d84c72f",
+    "sha256": "b8c3cf8dfbefac56dd6803822f5b0ce5c7a1124f7a3fd0f21f890218ea4042c7",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingSettingsActivity.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingSettingsActivity.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingSettingsFragment.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingSettingsFragment.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingSettingsFragment.kt",
+    "bytes": 627,
+    "gitBlobSha1": "59bc3a4408128422d8c07dd101703639a9db7315",
+    "sha256": "baf34ce43bb0a8c47571c5972529e7c881619ef6694ca4bc1c53766020668968",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingSettingsFragment.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/lights/RGBLightingSettingsFragment.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/preferences/NodeListPreference.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/preferences/NodeListPreference.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/preferences/NodeListPreference.kt",
+    "bytes": 2084,
+    "gitBlobSha1": "5427abb7d6849ae1df9513d04b3781d9cd2629bc",
+    "sha256": "f4089807c9fcd8d95aea38ee66df3c796f2ddc5d0c8f7caacaba3790b8523516",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/preferences/NodeListPreference.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/preferences/NodeListPreference.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt",
+    "bytes": 4513,
+    "gitBlobSha1": "2f6a8670f04d061d2cc109d55462279167a03bdf",
+    "sha256": "39d5587d797846481fcdd4d283808ba258a89ee010c856a5893800d2e2f9bc20",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/preferences/RGBPreference.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/utils/LightUtils.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/utils/LightUtils.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/utils/LightUtils.kt",
+    "bytes": 1280,
+    "gitBlobSha1": "25a50b38dccad258219e6ffe75c3df43408dcb37",
+    "sha256": "ef37c2032f0a7a23bdc9c2159deb534ad58ad8f8062fdf2544dd75ea1123271d",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/utils/LightUtils.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/utils/LightUtils.kt"
+  },
+  {
+    "project": "hardware/ayn",
+    "path": "packages/AynParts/src/org/lineageos/settings/ayn/utils/NodeUtils.kt",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/src/org/lineageos/settings/ayn/utils/NodeUtils.kt",
+    "saved": "source-evidence/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/utils/NodeUtils.kt",
+    "bytes": 963,
+    "gitBlobSha1": "32059fc3002d2f4d72add24e97937b12f4b7872f",
+    "sha256": "14afefbb1298f8d586ded11ef259f196355acee5531f0f6feec342eae96b964c",
+    "reasons": [
+      "AYN source-drawn UI"
+    ],
+    "checkpointCopy": "source/context/hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/utils/NodeUtils.kt",
+    "baseline": "hardware/ayn/packages/AynParts/src/org/lineageos/settings/ayn/utils/NodeUtils.kt"
+  },
+  {
+    "owner": "hardware/ayn",
+    "project": "hardware/ayn",
+    "repository": "LineageOS/android_hardware_ayn",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "path": "packages/AynParts/res/values/attrs.xml",
+    "kind": "values-visual",
+    "qualifier": "values-visual",
+    "resourceName": "attrs",
+    "sourceSet": "production-candidate",
+    "gitBlobSha1": "741ca4e97f95a18e5aa2934f56f7c8026e827269",
+    "bytes": 328,
+    "url": "https://github.com/LineageOS/android_hardware_ayn/blob/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/res/values/attrs.xml",
+    "sourcePresence": "Pinned source present; installed/reachable resource NOT established",
+    "sha256": "29fb36bc317ea7fb41f9a72d206c77901ee80c6a84f9210ff04bbb6db0c2e64a",
+    "baseline": "hardware/ayn/packages/AynParts/res/values/attrs.xml"
+  },
+  {
+    "project": "hardware/ayn",
+    "repository": "LineageOS/android_hardware_ayn",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "path": "packages/AynParts/res/values-en-rGB/strings.xml",
+    "kind": "values-auxiliary",
+    "sourceSet": "auxiliary-owner-or-value-data",
+    "gitBlobSha1": "81ff12bad77cfa2bd3238e1c036d9d85f37c63b5",
+    "sha256": "39921ee843307c3c8ed620e4731f3eb4a89f7919e30b5acf7c714763d85154b5",
+    "bytes": 4868,
+    "object": "source/objects/81/ff12bad77cfa2bd3238e1c036d9d85f37c63b5",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/res/values-en-rGB/strings.xml",
+    "baseline": "hardware/ayn/packages/AynParts/res/values-en-rGB/strings.xml"
+  },
+  {
+    "project": "hardware/ayn",
+    "repository": "LineageOS/android_hardware_ayn",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "path": "packages/AynParts/res/values/arrays.xml",
+    "kind": "values-auxiliary",
+    "sourceSet": "auxiliary-owner-or-value-data",
+    "gitBlobSha1": "002a95bf228cb788ff683e40b832e419a233d876",
+    "sha256": "b7c6070867fcbc945997cadf101fee3df2aa0879ea2c59810b5592ad76e6bf45",
+    "bytes": 7526,
+    "object": "source/objects/00/2a95bf228cb788ff683e40b832e419a233d876",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/res/values/arrays.xml",
+    "baseline": "hardware/ayn/packages/AynParts/res/values/arrays.xml"
+  },
+  {
+    "project": "hardware/ayn",
+    "repository": "LineageOS/android_hardware_ayn",
+    "revision": "374ddeee6272222e8b94290e5bef2e9f74f230ef",
+    "path": "packages/AynParts/res/values/strings.xml",
+    "kind": "values-auxiliary",
+    "sourceSet": "auxiliary-owner-or-value-data",
+    "gitBlobSha1": "842f90a86bebbe855ae92a1c9100de8655fcb61e",
+    "sha256": "987ba6559ea786e00b2fa72952221a404d17d4f594da7265081f86b3a28f1337",
+    "bytes": 7948,
+    "object": "source/objects/84/2f90a86bebbe855ae92a1c9100de8655fcb61e",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_hardware_ayn/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/res/values/strings.xml",
+    "baseline": "hardware/ayn/packages/AynParts/res/values/strings.xml"
+  }
+]

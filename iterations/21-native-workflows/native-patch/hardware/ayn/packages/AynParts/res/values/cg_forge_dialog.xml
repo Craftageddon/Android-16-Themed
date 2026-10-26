@@ -1,0 +1,1 @@
+<resources><style name="cg_ayn_rgb_dialog" parent="android:style/ThemeOverlay.Material.Dark"><item name="android:textColorPrimary">#EEE7D9</item><item name="android:textColorSecondary">#B5BDC6</item><item name="android:colorAccent">#E56620</item></style></resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/ayn_panel_title">
+
+    <!-- Gamepad controls category -->
+    <PreferenceCategory
+        android:key="gamepad_controls_category"
+        android:title="@string/gamepad_controls_category_title">
+
+        <!-- Gamepad layout preference -->
+        <org.lineageos.settings.ayn.preferences.NodeListPreference
+            android:key="gamepad_layout"
+            android:title="@string/gamepad_layout_title"
+            android:entries="@array/gamepad_layout_entries"
+            android:entryValues="@array/gamepad_layout_values"
+            app:node="/sys/class/moorechip-joystick/joystick/layout"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- Gamepad trigger mode preference -->
+        <org.lineageos.settings.ayn.preferences.NodeListPreference
+            android:key="gamepad_trigger_mode"
+            android:title="@string/gamepad_trigger_mode_title"
+            android:entries="@array/gamepad_trigger_mode_entries"
+            android:entryValues="@array/gamepad_trigger_mode_values"
+            app:node="/sys/class/moorechip-joystick/joystick/triggers"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- Gamepad digital trigger threshold preference -->
+        <org.lineageos.settings.ayn.preferences.NodeListPreference
+            android:key="gamepad_digital_trigger_threshold"
+            android:title="@string/gamepad_digital_trigger_threshold_title"
+            android:entries="@array/gamepad_digital_trigger_threshold_entries"
+            android:entryValues="@array/gamepad_digital_trigger_threshold_values"
+            app:node="/sys/class/moorechip-joystick/joystick/digital_trigger_threshold"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- Gamepad mappable 0 preference -->
+        <org.lineageos.settings.ayn.preferences.NodeListPreference
+            android:key="gamepad_mappable_0"
+            android:title="@string/gamepad_mappable_0_title"
+            android:entries="@array/gamepad_mappable_entries"
+            android:entryValues="@array/gamepad_mappable_values"
+            android:defaultValue="c"
+            app:node="/sys/class/moorechip-joystick/joystick/m0_function"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- Gamepad mappable 1 preference -->
+        <org.lineageos.settings.ayn.preferences.NodeListPreference
+            android:key="gamepad_mappable_1"
+            android:title="@string/gamepad_mappable_1_title"
+            android:entries="@array/gamepad_mappable_entries"
+            android:entryValues="@array/gamepad_mappable_values"
+            android:defaultValue="z"
+            app:node="/sys/class/moorechip-joystick/joystick/m1_function"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- Gamepad ignore mask preference -->
+        <org.lineageos.settings.ayn.preferences.NodeListPreference
+            android:key="gamepad_ignore_mask"
+            android:title="@string/gamepad_ignore_mask_title"
+            android:entries="@array/gamepad_ignore_mask_entries"
+            android:entryValues="@array/gamepad_ignore_mask_values"
+            app:node="/sys/class/moorechip-joystick/joystick/ignore_mask"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- Gamepad remapping preference -->
+        <Preference
+          android:key="gamepad_remapping"
+          android:title="@string/gamepad_remapping_title"
+          android:summary="@string/gamepad_remapping_summary" />
+    </PreferenceCategory>
+
+    <!-- Gamepad calibration category -->
+    <PreferenceCategory
+        android:key="gamepad_calibration_category"
+        android:title="@string/gamepad_calibration_category_title">
+
+        <!-- Gamepad joystick calibration preference -->
+        <Preference
+            android:key="gamepad_joystick_calibration"
+            android:title="@string/gamepad_joystick_calibration_title"
+            android:summary="@string/gamepad_joystick_calibration_summary" >
+            <intent android:targetPackage="org.lineageos.settings.ayn"
+                    android:targetClass="org.lineageos.settings.ayn.joystick.CalibrationActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <!-- Gamepad lights category -->
+    <PreferenceCategory
+        android:key="gamepad_lights_category"
+        android:title="@string/gamepad_lights_category_title">
+
+        <!-- Gamepad RGB lighting preference  -->
+        <Preference
+            android:key="gamepad_rgb_lights"
+            android:title="@string/gamepad_lights_rgb_lighting_title"
+            android:summary="@string/gamepad_lights_rgb_lighting_summary" >
+            <intent android:targetPackage="org.lineageos.settings.ayn"
+                    android:targetClass="org.lineageos.settings.ayn.lights.RGBLightingSettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,73 @@
+{
+  "result": "PASS",
+  "actualKotlinSourceFilesCompiled": 14,
+  "generatedOwnerOrModelStubs": 0,
+  "kotlinCompiler": "2.3.21",
+  "composeCompiler": "2.3.21",
+  "material3CompatibilityVersion": "1.4.0",
+  "sourceSha256": {
+    "src/org/lineageos/settings/ayn/forge/ForgeCompose.kt": "2b13d5fb07437a9b59ba810cb663b1cf296efd5be937ece4a49730087201328d",
+    "src/org/lineageos/settings/ayn/joystick/PhaseIntroScreen.kt": "7edc048cffa411e15032d8990b99e871dbc4f80793d6610f41df11771d6ddf6a",
+    "src/org/lineageos/settings/ayn/joystick/CalibrationPhaseScreen.kt": "5349cb2ab3dd211b4ea0015c2eabf8b93617e4af7ce8650d186d69714d143b09",
+    "src/org/lineageos/settings/ayn/joystick/TestScreen.kt": "c5492fba1a1f591434eece03b86e7ccd73e1b3e02085749fcaae8c987c20d635",
+    "src/org/lineageos/settings/ayn/joystick/components/ButtonGrid.kt": "46da4d48cb42d6a99c12cdbe29bd6aa5f4397a1adc8126ab747823f95b65af58",
+    "src/org/lineageos/settings/ayn/joystick/components/StickVisualizer.kt": "5df3c7fbff3bf83b95558eb36bb6cb034d1c8e456ade125d86ee11a2204a85f3",
+    "src/org/lineageos/settings/ayn/joystick/CalibrationUiState.kt": "f8dac8c74a81b055073919ac3f3f0de3e0fc87eb647a28a8fbf86b80a2f13d43",
+    "src/org/lineageos/settings/ayn/joystick/CalibrationData.kt": "dc8f44423b6159a784fc64cbdb7fea8f9864dadc558be7ef11c53aab5ad2ee52",
+    "src/org/lineageos/settings/ayn/joystick/JoystickConstants.kt": "96ec616231c7eeb3923c603f49d4550b7b90aeb37dacf87cfa62f1917fa1b473",
+    "src/org/lineageos/settings/ayn/joystick/JoystickMapping.kt": "cf719e01a3c8d5dfa26a2f929ab5f52d0529dd2e9d283ae0a24daa65d79890ed",
+    "src/org/lineageos/settings/ayn/joystick/JoystickSample.kt": "b083f88daeef5a94edd3a14e53228c20152f2ca1bb6d3b18b928764d4af6bd90",
+    "src/org/lineageos/settings/ayn/preferences/RGBPreference.kt": "d0fca077accbbad375f502b2bba9eb14f4928fdb420738537deb8590f6894fd3",
+    "src/org/lineageos/settings/ayn/utils/LightUtils.kt": "ef37c2032f0a7a23bdc9c2159deb534ad58ad8f8062fdf2544dd75ea1123271d",
+    "src/org/lineageos/settings/ayn/utils/NodeUtils.kt": "14afefbb1298f8d586ded11ef259f196355acee5531f0f6feec342eae96b964c"
+  },
+  "jarSha256": "bf7cfec07bb1fc0560b6c29909a0fa139fde5df6ac9f44950aafae020e3c7a75",
+  "scope": "Actual Forge Compose functions, seven-phase presentation, patched RGBPreference and unchanged state/mapping/data/LightUtils/NodeUtils source; official pinned Material/AppCompat/Preference AARs and recorded installed Compose compatibility libraries.",
+  "compileOnlySettingsLibResourceSymbol": {
+    "resource": {
+      "owner": "SettingsLib",
+      "project": "frameworks/base",
+      "repository": "LineageOS/android_frameworks_base",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "path": "packages/SettingsLib/AppPreference/res/layout-v33/preference_app.xml",
+      "kind": "layout",
+      "qualifier": "layout-v33",
+      "resourceName": "preference_app",
+      "sourceSet": "production-candidate",
+      "gitBlobSha1": "b06052ad6a00c7c278477ccf32ca8321b228cfae",
+      "bytes": 3600,
+      "url": "https://github.com/LineageOS/android_frameworks_base/blob/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/AppPreference/res/layout-v33/preference_app.xml",
+      "sourcePresence": "Pinned source present; installed/reachable resource NOT established"
+    },
+    "runtimeIdentifierClaimed": false,
+    "notForRuntimeUse": true
+  },
+  "officialDependencyPin": "0f07e8d60ab0aba46129e427101f96ba459a95c1",
+  "officialDependencies": [
+    {
+      "path": "current/androidx/m2repository/androidx/appcompat/appcompat/1.8.0-alpha01/appcompat-1.8.0-alpha01.aar",
+      "gitBlobSha1": "6d8958ef3d5d6196f6f7d3b83c32dde2abca0654",
+      "sha256": "443345d1d3f114ff199a9a030b3fe9c55c161ab67f6a895bbd66e676f2d5f2e0"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/appcompat/appcompat-resources/1.8.0-alpha01/appcompat-resources-1.8.0-alpha01.aar",
+      "gitBlobSha1": "a944db08af46956e52146142f84d3f158bc56712",
+      "sha256": "53859cfa469311ecaeb7fa6daf77daa2f7043aa5886167f87ff17230001d086f"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/preference/preference/1.3.0-alpha01/preference-1.3.0-alpha01.aar",
+      "gitBlobSha1": "06a4d4363bef1383c27f3eac17fd90ef756b74d0",
+      "sha256": "72881d00299ebabd4243a1fc2b0dabd9ba08186eb4c5e098b7b33c108336f533"
+    },
+    {
+      "path": "current/extras/material-design-x/com/google/android/material/material/1.14.0-alpha99/material-1.14.0-alpha99.aar",
+      "gitBlobSha1": "609ec7055c2dd752b84bed3b12873b88bb53b05b",
+      "sha256": "7b67ae57269a4a06a12514fa69543c1ee0bf27e7856bd6c58677a9e22bcfe68a"
+    }
+  ],
+  "fullPinnedAynPartsSoongBuild": "NOT RUN",
+  "rgbPreferenceKotlinCompile": "PASS",
+  "hardwareUtilitySourceExecuted": false,
+  "verificationJarsForRuntimeInstallation": false,
+  "androidExecution": "NOT RUN"
+}

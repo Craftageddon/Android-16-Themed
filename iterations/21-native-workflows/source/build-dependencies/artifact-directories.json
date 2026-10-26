@@ -1,0 +1,62 @@
+[
+  {
+    "path": "current/androidx/m2repository/androidx/appcompat/appcompat/",
+    "entries": [
+      {
+        "mode": 16384,
+        "type": "tree",
+        "id": "eeb25efe8a86fd1445ec7d7ae09fd69e87c4e9ee",
+        "name": "1.8.0-alpha01"
+      }
+    ],
+    "directoryPayloadSha256": "3a27617ee10a286b42d3d4716e23e1fb5c0f2418b344dfcafc1658ddf5ae12d8"
+  },
+  {
+    "path": "current/androidx/m2repository/androidx/appcompat/appcompat-resources/",
+    "entries": [
+      {
+        "mode": 16384,
+        "type": "tree",
+        "id": "a42b69874d4b46d31274dc95d6befe9b930f2474",
+        "name": "1.8.0-alpha01"
+      }
+    ],
+    "directoryPayloadSha256": "dd744cac071a583cc25f3894bd1f6aa3f608b720b3563065c0b04975cae3a521"
+  },
+  {
+    "path": "current/androidx/m2repository/androidx/preference/preference/",
+    "entries": [
+      {
+        "mode": 16384,
+        "type": "tree",
+        "id": "9f91a257e90a46218b80ec0483f480f0c64f49a7",
+        "name": "1.3.0-alpha01"
+      }
+    ],
+    "directoryPayloadSha256": "e39773f734284c0ac6efe8d6dd428486ef7778e7944474a33eb2bb5f5cd561fa"
+  },
+  {
+    "path": "current/extras/material-design-x/",
+    "entries": [
+      {
+        "mode": 33188,
+        "type": "blob",
+        "id": "db71ae426d8ac72c7876dab655fd3a1cde10a2e4",
+        "name": "Android.bp"
+      },
+      {
+        "mode": 16384,
+        "type": "tree",
+        "id": "a666833d916b341eccb5aaa388c303740d75998e",
+        "name": "com"
+      },
+      {
+        "mode": 16384,
+        "type": "tree",
+        "id": "f9ab215ee5310925d1bb7906e718113c264bfc50",
+        "name": "manifests"
+      }
+    ],
+    "directoryPayloadSha256": "59728bb2cf8e969e21a32d2f56808c1074bc9ba1def5a6ae5c8ae23d6e47e9a6"
+  }
+]

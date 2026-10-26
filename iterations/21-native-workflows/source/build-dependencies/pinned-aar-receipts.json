@@ -1,0 +1,57 @@
+{
+  "repository": "platform/prebuilts/sdk",
+  "revision": "0f07e8d60ab0aba46129e427101f96ba459a95c1",
+  "bpSources": [
+    {
+      "path": "current/extras/material-design-x/Android.bp",
+      "gitBlobSha1": "db71ae426d8ac72c7876dab655fd3a1cde10a2e4",
+      "sha256": "0dd440a51e8eb5465752502123e4a74c8ad26cc210935ec7ba21dea5bd5e04a8",
+      "bytes": 28448,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__extras__material-design-x__Android.bp",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/extras/material-design-x/Android.bp?format=TEXT"
+    }
+  ],
+  "libraries": [
+    {
+      "path": "current/androidx/m2repository/androidx/appcompat/appcompat/1.8.0-alpha01/appcompat-1.8.0-alpha01.aar",
+      "gitBlobSha1": "6d8958ef3d5d6196f6f7d3b83c32dde2abca0654",
+      "sha256": "443345d1d3f114ff199a9a030b3fe9c55c161ab67f6a895bbd66e676f2d5f2e0",
+      "bytes": 1193418,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__appcompat__appcompat__1.8.0-alpha01__appcompat-1.8.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/appcompat/appcompat/1.8.0-alpha01/appcompat-1.8.0-alpha01.aar?format=TEXT",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__appcompat__appcompat__1.8.0-alpha01__appcompat-1.8.0-alpha01.classes.jar",
+      "classesSha256": "da27b8bd6a0b4c2a01e02cd2888e95ca27b76af6ce6d32453d2cb0c6e8741ddd"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/appcompat/appcompat-resources/1.8.0-alpha01/appcompat-resources-1.8.0-alpha01.aar",
+      "gitBlobSha1": "a944db08af46956e52146142f84d3f158bc56712",
+      "sha256": "53859cfa469311ecaeb7fa6daf77daa2f7043aa5886167f87ff17230001d086f",
+      "bytes": 67434,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__appcompat__appcompat-resources__1.8.0-alpha01__appcompat-resources-1.8.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/appcompat/appcompat-resources/1.8.0-alpha01/appcompat-resources-1.8.0-alpha01.aar?format=TEXT",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__appcompat__appcompat-resources__1.8.0-alpha01__appcompat-resources-1.8.0-alpha01.classes.jar",
+      "classesSha256": "28533f74ac2b767d254a15b8bd593a5b06b05e17c6fcad0fe5fa6e8ae5163e92"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/preference/preference/1.3.0-alpha01/preference-1.3.0-alpha01.aar",
+      "gitBlobSha1": "06a4d4363bef1383c27f3eac17fd90ef756b74d0",
+      "sha256": "72881d00299ebabd4243a1fc2b0dabd9ba08186eb4c5e098b7b33c108336f533",
+      "bytes": 251569,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__preference__preference__1.3.0-alpha01__preference-1.3.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/preference/preference/1.3.0-alpha01/preference-1.3.0-alpha01.aar?format=TEXT",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__preference__preference__1.3.0-alpha01__preference-1.3.0-alpha01.classes.jar",
+      "classesSha256": "f6df67e9060b62763da14e8750926fd6f5309f757f50be5c89e9911ca2130427"
+    },
+    {
+      "path": "current/extras/material-design-x/com/google/android/material/material/1.14.0-alpha99/material-1.14.0-alpha99.aar",
+      "gitBlobSha1": "609ec7055c2dd752b84bed3b12873b88bb53b05b",
+      "sha256": "7b67ae57269a4a06a12514fa69543c1ee0bf27e7856bd6c58677a9e22bcfe68a",
+      "bytes": 2536901,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__extras__material-design-x__com__google__android__material__material__1.14.0-alpha99__material-1.14.0-alpha99.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/extras/material-design-x/com/google/android/material/material/1.14.0-alpha99/material-1.14.0-alpha99.aar?format=TEXT",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__extras__material-design-x__com__google__android__material__material__1.14.0-alpha99__material-1.14.0-alpha99.classes.jar",
+      "classesSha256": "1f49bd08be1e9791606b10c00bda724b0c7a690ee0573dbc553e2cbc5288e7ea"
+    }
+  ],
+  "scope": "Exact official source-pin dependency bytes for compilation; not redistributed as Craftageddon art, not executed on hardware."
+}

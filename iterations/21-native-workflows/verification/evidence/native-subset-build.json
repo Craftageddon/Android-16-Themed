@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "date": "2026-10-26",
+  "actualNewJavaClassesCompiled": 4,
+  "compiledNativeResourceEntries": 157,
+  "renderBankLinkedAgainstApi": 37,
+  "nativeRenderingJarSha256": "6c7eecd19471f4996adf3631f38c3c91de6fede0b66d2a96f9bd8e6afe0a2d77",
+  "nativeStateCombinations": 128,
+  "sourceJavaSha256": {
+    "src/org/lineageos/settings/ayn/forge/ForgeLayerDrawable.java": "2c5d94d0484363ca917cfc002a306a854967a94602e4dbc23f3f16a0b1a3ed61",
+    "src/org/lineageos/settings/ayn/forge/ForgeResources.java": "423214fedbd13eeba2841706e17a44dde2b20bda6c43368119b0d572df429795",
+    "src/org/lineageos/settings/ayn/forge/ForgeRgbThumbDrawable.java": "04d1f276cce380fbc613bfa4973d7e3843db58a8e043b5d1fed9062b76fa59de",
+    "src/org/lineageos/settings/ayn/forge/ForgeStatePolicy.java": "bf2e2823a6a0099109052ad72302f919deb99d4919c0de557c135bc171f31bad"
+  },
+  "api37AndroidJarSha256": "bf1b4387cc7ca94fc6ef684f040d9d16fbf16248e181819f020736ea2053f177",
+  "androidExecution": "NOT RUN",
+  "hardwareActions": "None; original hardware callbacks are not invoked by these tests",
+  "fullPinnedAynPartsSoongBuild": "NOT RUN - actual Java/resource subset only",
+  "companionKotlinEvidence": "compose-subset-build.json records the separate actual14-file Kotlin compilation",
+  "verificationJarsForRuntimeInstallation": false
+}

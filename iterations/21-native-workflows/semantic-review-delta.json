@@ -1,0 +1,36 @@
+[
+  {
+    "familyId": "F-8ad759ae17f1d19d",
+    "previousDecision": "OPEN",
+    "decision": "OWNER_PRESENTATION_ADAPTATION_AUTHORED",
+    "source": {
+      "project": "hardware/ayn",
+      "resourceRoot": "packages/AynParts/res",
+      "kind": "layout",
+      "name": "dialog_rgb_sliders",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Native layout/token adaptation; new illustration requirement unreviewed",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "packages/AynParts/res/layout/dialog_rgb_sliders.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_hardware_ayn/blob/374ddeee6272222e8b94290e5bef2e9f74f230ef/packages/AynParts/res/layout/dialog_rgb_sliders.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "packages/AynParts/res/layout/dialog_rgb_sliders.xml",
+        "qualifier": "layout",
+        "gitBlobSha1": "47cb3cb5999b25e9783d85e321aaf98f880a1014",
+        "sha256": "3d483d113e63dedccfebb0fa7000ef6228b04b5b67ecfdb732a1b437783b5822",
+        "contentClass": "XML",
+        "xmlRoot": "LinearLayout",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "treatment": "Native RGB dialog keeps its IDs, ranges, steps and channel colors; adds English labels, a scrollable cold steel shell and cloned owner-state-aware steel thumbs. Confirm/cancel/live apply bodies remain unchanged.",
+    "sourcePatch": "AynParts-forge-source.patch",
+    "checks": "verification/evidence/patch-art-checks.json",
+    "runtimeOrFullSoongAcceptance": "NOT RUN"
+  }
+]
