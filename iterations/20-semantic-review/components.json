@@ -1,0 +1,952 @@
+[
+  {
+    "id": "extra_dim__compact",
+    "semanticId": "extra_dim",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": true,
+    "source": "iterations/17-forge-coverage/masters/brightness_low__compact.svg",
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "extra_dim__detailed",
+    "semanticId": "extra_dim",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": true,
+    "source": "iterations/17-forge-coverage/masters/brightness_low__detailed.svg",
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "night_light__compact",
+    "semanticId": "night_light",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "night_light__detailed",
+    "semanticId": "night_light",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "dark_theme__compact",
+    "semanticId": "dark_theme",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "dark_theme__detailed",
+    "semanticId": "dark_theme",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "color_inversion__compact",
+    "semanticId": "color_inversion",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "color_inversion__detailed",
+    "semanticId": "color_inversion",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "color_correction__compact",
+    "semanticId": "color_correction",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "color_correction__detailed",
+    "semanticId": "color_correction",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "live_captions__compact",
+    "semanticId": "live_captions",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "live_captions__detailed",
+    "semanticId": "live_captions",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "live_captions_off__compact",
+    "semanticId": "live_captions_off",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": true,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "live_captions_off__detailed",
+    "semanticId": "live_captions_off",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": true,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "hearing_devices__compact",
+    "semanticId": "hearing_devices",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "hearing_devices__detailed",
+    "semanticId": "hearing_devices",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "qr_scanner__compact",
+    "semanticId": "qr_scanner",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "qr_scanner__detailed",
+    "semanticId": "qr_scanner",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "ethernet__compact",
+    "semanticId": "ethernet",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "ethernet__detailed",
+    "semanticId": "ethernet",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "work_profile__compact",
+    "semanticId": "work_profile",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "work_profile__detailed",
+    "semanticId": "work_profile",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "work_profile_paused__compact",
+    "semanticId": "work_profile_paused",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": true,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "work_profile_paused__detailed",
+    "semanticId": "work_profile_paused",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": true,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sensors_disabled__compact",
+    "semanticId": "sensors_disabled",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "sensors_disabled__detailed",
+    "semanticId": "sensors_disabled",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wallet__compact",
+    "semanticId": "wallet",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "wallet__detailed",
+    "semanticId": "wallet",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "keyboard_backlight__compact",
+    "semanticId": "keyboard_backlight",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "keyboard_backlight__detailed",
+    "semanticId": "keyboard_backlight",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "printing__compact",
+    "semanticId": "printing",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "printing__detailed",
+    "semanticId": "printing",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "stylus__compact",
+    "semanticId": "stylus",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": true,
+    "source": "iterations/11-forge-symbol-library/masters/edit__compact.svg",
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "stylus__detailed",
+    "semanticId": "stylus",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": true,
+    "source": "iterations/11-forge-symbol-library/masters/edit__detailed.svg",
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "favorite__compact",
+    "semanticId": "favorite",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "favorite__detailed",
+    "semanticId": "favorite",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": false,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "favorite_outline__compact",
+    "semanticId": "favorite_outline",
+    "type": "semantic-source-gap",
+    "optical": "compact",
+    "size": [
+      24,
+      24
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": true,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  },
+  {
+    "id": "favorite_outline__detailed",
+    "semanticId": "favorite_outline",
+    "type": "semantic-source-gap",
+    "optical": "detailed",
+    "size": [
+      96,
+      96
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "emissionLockedOff": true,
+    "unchangedReuse": false,
+    "source": null,
+    "labelsBaked": false,
+    "nativeIntegrated": false,
+    "deviceVerified": false
+  }
+]

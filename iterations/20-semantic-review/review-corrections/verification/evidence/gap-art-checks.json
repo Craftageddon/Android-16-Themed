@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "masterFiles": 16,
+  "newIndependentMasters": 16,
+  "unchangedReuseMasterCopies": 0,
+  "semanticTreatmentsIncludingVariants": 8,
+  "productionExports": 224,
+  "exactStateRecompositions": 128,
+  "nativeCompactPixelComparisons": 8,
+  "compactClipping": [],
+  "authoredEnglishLabels": 8,
+  "method": "Actual PNG alpha and neutral-channel checks; exact independent state recomposition and off/cold equality; expanded-viewport clipping; parse native vector XML independently and compare all cold pixels; unchanged donor byte hashes",
+  "nativeDeviceAcceptance": "NOT RUN"
+}

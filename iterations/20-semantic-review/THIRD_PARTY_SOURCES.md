@@ -1,0 +1,7 @@
+# Upstream sources and notices
+
+The raw objects and context files in this checkpoint are exact, hash-verified public upstream source data at the revisions recorded in `baseline/source-projects.json`, `source-objects.json`, `auxiliary-source-files.json` and `source/context-manifest.json`. Each receipt identifies its project, pinned revision, path and source URL. Existing notices inside those files are preserved. Supporting upstream license/notice files found in the inventoried project tree scopes are also retained as objects with kind `upstream-license` in the auxiliary manifest.
+
+These upstream files retain their respective upstream licenses and copyright notices. They are **not relicensed under the repository's CC0 dedication**. The source corpus contains Android/AOSP, LineageOS and individual application project material; consult each pinned upstream project's license and individual file notices. The retained tree inventory does not claim to collect every project-wide licensing file outside its declared scopes.
+
+New Craftageddon glyph geometry, identity treatments, review tooling and documentation follow this repository's license. Approved donor artwork is unchanged existing Craftageddon art with exact hashes. No third-party font binary, proprietary firmware, private signing key or vendor mapping utility is included. Upstream fixtures/archives remain opaque review data; do not execute or indiscriminately extract them.

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-26",
+  "originalFiles": 16559,
+  "supportingFiles": 297,
+  "declarations": 80970,
+  "nativeReferenceUses": 46221,
+  "referenceResolution": {
+    "Exact local declaration set; runtime qualifier/overlay selection preserved": 23791,
+    "Runtime theme attribute": 6444,
+    "External library, generated declaration or unindexed source scope": 13328,
+    "Identity or null contract": 2638,
+    "Explicit external package; effective package mapping required": 20
+  },
+  "parameterizedPathUses": 156,
+  "unresolvedPathUses": 0,
+  "scopeGuarantee": "Actual project/resource-root/type/name declarations. Candidates remain a set; no Make evaluation, runtime configuration selection or installed-app claim.",
+  "nestedStyleItemsAreIndependentDeclarations": false,
+  "commentsAreReferenceEvidence": false
+}

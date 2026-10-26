@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-26",
+  "principle": "Derive activation from the source owner domain, not a filename containing off. Off/unselected controls stay cold; an enabled privacy mode is an on state.",
+  "sensorsOffMode": {
+    "sources": [
+      {
+        "project": "frameworks/base",
+        "repository": "LineageOS/android_frameworks_base",
+        "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/PhoneStatusBarPolicy.java",
+        "kind": "owner-source",
+        "sourceSet": "auxiliary-owner-or-value-data",
+        "gitBlobSha1": "79e1c25ead1dad19686165a6beba887153dd7cf0",
+        "sha256": "3dd02d035ce292645209cdb48673e385455f42e71d0bc8bce7ca34ea6a7768a9",
+        "bytes": 43259,
+        "object": "source/objects/79/e1c25ead1dad19686165a6beba887153dd7cf0",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/src/com/android/systemui/statusbar/phone/PhoneStatusBarPolicy.java"
+      },
+      {
+        "project": "packages/apps/Settings",
+        "repository": "LineageOS/android_packages_apps_Settings",
+        "revision": "b9b9d68135714d9a84741620e9386e1d43931139",
+        "path": "src/com/android/settings/development/qstile/DevelopmentTiles.java",
+        "kind": "owner-source",
+        "sourceSet": "auxiliary-owner-or-value-data",
+        "gitBlobSha1": "975f067254e47fc7ea16f8862286ff324f9e70f2",
+        "sha256": "788846f1c86d49cc40b4cf32d9ec818ff59143b746d5b51aedab6b89b3a40574",
+        "bytes": 9240,
+        "object": "source/objects/97/5f067254e47fc7ea16f8862286ff324f9e70f2",
+        "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Settings/b9b9d68135714d9a84741620e9386e1d43931139/src/com/android/settings/development/qstile/DevelopmentTiles.java"
+      }
+    ],
+    "evidence": "PhoneStatusBarPolicy makes stat_sys_sensors_off visible when sensor privacy is enabled. DevelopmentTiles.SensorsOff derives isEnabled from isAllSensorPrivacyEnabled and DevelopmentTiles maps isEnabled to Tile.STATE_ACTIVE.",
+    "featureActive": "All-sensor privacy mode enabled",
+    "hardwareState": "Sensors blocked while the privacy feature is active",
+    "emissionLockedOff": false,
+    "coldWhen": "Privacy mode off/unselected",
+    "emberWhen": "Privacy mode on/checked",
+    "label": "Sensors off mode",
+    "previousDraftCorrection": "Removed a draft filename-derived cold lock; it confused hardware-off with feature-off."
+  },
+  "explicitFalseValueVariants": {
+    "live_captions_off": "Caption feature false",
+    "work_profile_paused": "Work mode inactive/paused",
+    "favorite_outline": "Favorite unchecked",
+    "emissionLockedOff": true
+  }
+}

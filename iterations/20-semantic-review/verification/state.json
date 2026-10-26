@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "734f7b39c1a546fe770e64622a9652bcff431cb85867a200532155d8f4e0ce92"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-26T13:40:32+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "be561fa6ab3604eb165d0043b725732c9d6b69d68b844f86db787c67d1e00f71",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-26T13:40:32+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "4f832ed182bac256ac0b855d57feb619cdf20edd32371a7161418bb793a98f23",
+      "independence": null,
+      "method": "Independent reread of Git blob/SHA256 object proofs, XML/value declaration counts, file/family conservation, exact chosen donor hashes, context/master hashes, PIN-versus-pushpin correction, privacy-active state, gzip parity, mask/native-resource and state-recomposition evidence.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-26T13:40:32+00:00",
+  "project": "20-semantic-review",
+  "schema": 1,
+  "status": "V2_PASS"
+}

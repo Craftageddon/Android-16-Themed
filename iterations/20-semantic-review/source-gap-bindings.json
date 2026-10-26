@@ -1,0 +1,667 @@
+[
+  {
+    "gapId": "G-01",
+    "semanticId": "extra_dim",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/vd_dim.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/vd_dim.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/vd_dim.xml",
+      "bytes": 1846,
+      "gitBlobSha1": "c649fd0a22b5a139bd7438d75b2bd881812a8541",
+      "sha256": "1421cd4d167779bcff65ad3f0c8fae49702fd47f5e05396a21ee6d490d25583a",
+      "reasons": [
+        "Extra dim"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 4,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}name": "root_vector",
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/vd_dim.xml"
+    },
+    "decision": "Approve unchanged Forge donor geometry with distinct semantic binding",
+    "offMaster": "masters/extra_dim__detailed.svg",
+    "onMaster": "masters/extra_dim__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_extra_dim.xml",
+    "nativeEnglishLabel": "cg_semantic_extra_dim_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-02",
+    "semanticId": "night_light",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/vd_night_light.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/vd_night_light.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/vd_night_light.xml",
+      "bytes": 2475,
+      "gitBlobSha1": "b9c77a449af9788be191cb84d18b273cf519636b",
+      "sha256": "590f132480e539c91eb1a8cd29622ba57b16e26eb7207afc246ac0e399de5847",
+      "reasons": [
+        "Night light"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 4,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}name": "root_vector",
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/vd_night_light.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/night_light__detailed.svg",
+    "onMaster": "masters/night_light__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_night_light.xml",
+    "nativeEnglishLabel": "cg_semantic_night_light_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-03",
+    "semanticId": "dark_theme",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/vd_theme.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/vd_theme.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/vd_theme.xml",
+      "bytes": 2088,
+      "gitBlobSha1": "068e9f6ad0c5c733910d695d3c459a0f1bdda17b",
+      "sha256": "514dc2d3b0ee512ecbcc571600548b73062b73a85b57f4bb0fd6dd4e7b881211",
+      "reasons": [
+        "Dark theme"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 7,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}name": "root_vector",
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/vd_theme.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/dark_theme__detailed.svg",
+    "onMaster": "masters/dark_theme__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_dark_theme.xml",
+    "nativeEnglishLabel": "cg_semantic_dark_theme_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-04",
+    "semanticId": "color_inversion",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_invert_colors.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_invert_colors.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_invert_colors.xml",
+      "bytes": 1220,
+      "gitBlobSha1": "37ea0800a51e61bbb119bb9ce201d0af53a12668",
+      "sha256": "a05ba82c5b3aa63e8d272cb295fccb64d013fe441ddb58393ac4cac4f6ef15aa",
+      "reasons": [
+        "Color inversion"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24.0",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24.0"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/ic_invert_colors.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/color_inversion__detailed.svg",
+    "onMaster": "masters/color_inversion__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_color_inversion.xml",
+    "nativeEnglishLabel": "cg_semantic_color_inversion_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-05",
+    "semanticId": "color_correction",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_qs_color_correction.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_qs_color_correction.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_qs_color_correction.xml",
+      "bytes": 1138,
+      "gitBlobSha1": "f83cabd7df05386de20c556a8a861c234ebf8069",
+      "sha256": "41cace1c2374fe92e11740f6407dec3b593e63f1a01fa20fcc4b62c59c3a4c12",
+      "reasons": [
+        "Color correction"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/ic_qs_color_correction.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/color_correction__detailed.svg",
+    "onMaster": "masters/color_correction__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_color_correction.xml",
+    "nativeEnglishLabel": "cg_semantic_color_correction_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-06",
+    "semanticId": "live_captions",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_volume_odi_captions.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_volume_odi_captions.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_volume_odi_captions.xml",
+      "bytes": 1130,
+      "gitBlobSha1": "5bc5002ebdb961abbb5cb49a1742c9f41e18b1bd",
+      "sha256": "73419ef0064c822701e209da04de9ddb5eab0f4726995c94cf2b7c6947fc3c5e",
+      "reasons": [
+        "Live captions"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [
+        "@color/materialColorOnSurface"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24",
+        "{http://schemas.android.com/apk/res/android}tint": "@color/materialColorOnSurface"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/ic_volume_odi_captions.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/live_captions_off__detailed.svg",
+    "onMaster": "masters/live_captions__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_live_captions.xml",
+    "nativeEnglishLabel": "cg_semantic_live_captions_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-07",
+    "semanticId": "hearing_devices",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/qs_hearing_devices_icon.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/qs_hearing_devices_icon.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/qs_hearing_devices_icon.xml",
+      "bytes": 1520,
+      "gitBlobSha1": "c1573a3ae5ac2c3110837915a67a6d7f35ad35cd",
+      "sha256": "5feb4612a2f258199d3220975dee6fa7877ed3ff268a4807a3cf467581a89560",
+      "reasons": [
+        "Hearing devices"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "18dp",
+        "{http://schemas.android.com/apk/res/android}height": "18dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/qs_hearing_devices_icon.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/hearing_devices__detailed.svg",
+    "onMaster": "masters/hearing_devices__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_hearing_devices.xml",
+    "nativeEnglishLabel": "cg_semantic_hearing_devices_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-08",
+    "semanticId": "qr_scanner",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_qr_code_scanner.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_qr_code_scanner.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_qr_code_scanner.xml",
+      "bytes": 2852,
+      "gitBlobSha1": "31fd2095eccc5f4c99391c4aa42736b2a76f91ae",
+      "sha256": "675ac53d6a844600e3e785c5e1a137745835ecba7b2974d32dc33abd251f5be2",
+      "reasons": [
+        "QR scanner"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [
+        "@android:color/white"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "960",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "960",
+        "{http://schemas.android.com/apk/res/android}tint": "?attr/colorControlNormal"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/ic_qr_code_scanner.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/qr_scanner__detailed.svg",
+    "onMaster": "masters/qr_scanner__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_qr_scanner.xml",
+    "nativeEnglishLabel": "cg_semantic_qr_scanner_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-09",
+    "semanticId": "ethernet",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_statusbar_ethernet.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_statusbar_ethernet.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_statusbar_ethernet.xml",
+      "bytes": 1447,
+      "gitBlobSha1": "46e753fd7eb84167470f95c21e7379d02937ea09",
+      "sha256": "03e2f241b29b7d2c049ad1b63df287a4fe314744f468782cd4a378d9914fbc68",
+      "reasons": [
+        "Ethernet"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 5,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24.0",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24.0",
+        "{http://schemas.android.com/apk/res/android}tint": "?android:attr/colorControlNormal"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/ic_statusbar_ethernet.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/ethernet__detailed.svg",
+    "onMaster": "masters/ethernet__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_ethernet.xml",
+    "nativeEnglishLabel": "cg_semantic_ethernet_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-10",
+    "semanticId": "work_profile",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_statusbar_work.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_statusbar_work.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_statusbar_work.xml",
+      "bytes": 1242,
+      "gitBlobSha1": "ea8918b1ca1289b4e9a722a6fef596f9d5eb83f0",
+      "sha256": "56db1bb1fbe293aae0f2040ae4d13bece2268f81514f57288a00d2e2d51931f4",
+      "reasons": [
+        "Work profile"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24.0",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24.0",
+        "{http://schemas.android.com/apk/res/android}tint": "?android:attr/colorControlNormal"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/ic_statusbar_work.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/work_profile_paused__detailed.svg",
+    "onMaster": "masters/work_profile__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_work_profile.xml",
+    "nativeEnglishLabel": "cg_semantic_work_profile_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-11",
+    "semanticId": "sensors_disabled",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/stat_sys_sensors_off.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/stat_sys_sensors_off.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/stat_sys_sensors_off.xml",
+      "bytes": 1551,
+      "gitBlobSha1": "ca8f9931f14810e5918ed2e5feaae30b9682cf4a",
+      "sha256": "0576e7b85eecef4f7053d06b017c216e67ea2ac6d807ecc1fb9803c72ce3dcdf",
+      "reasons": [
+        "Sensors disabled"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 3,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}insetLeft": "3dp",
+        "{http://schemas.android.com/apk/res/android}insetRight": "3dp",
+        "{http://schemas.android.com/apk/res/android}width": "17dp",
+        "{http://schemas.android.com/apk/res/android}height": "17dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24.0",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24.0"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/stat_sys_sensors_off.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/sensors_disabled__detailed.svg",
+    "onMaster": "masters/sensors_disabled__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_sensors_disabled.xml",
+    "nativeEnglishLabel": "cg_semantic_sensors_disabled_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation",
+      "sourceDomain": "Sensors Off is an active privacy feature; checked/on enables ember even though the physical sensors are blocked. See state-domain-decisions.json."
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-12",
+    "semanticId": "wallet",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_qs_wallet.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_qs_wallet.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_qs_wallet.xml",
+      "bytes": 474,
+      "gitBlobSha1": "e146eabecfd37956022c4285166be0ed4a08462e",
+      "sha256": "2d916b653fc2488c89bef9a57bae3ba2908a8e5940ec559facdc62e7b76ee233",
+      "reasons": [
+        "Wallet"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [
+        "@android:color/white"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24",
+        "{http://schemas.android.com/apk/res/android}tint": "?attr/colorControlNormal"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/ic_qs_wallet.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/wallet__detailed.svg",
+    "onMaster": "masters/wallet__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_wallet.xml",
+    "nativeEnglishLabel": "cg_semantic_wallet_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-13",
+    "semanticId": "keyboard_backlight",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "packages/SystemUI/res/drawable/ic_keyboard_backlight.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SystemUI/res/drawable/ic_keyboard_backlight.xml",
+      "saved": "source-evidence/frameworks/base/packages/SystemUI/res/drawable/ic_keyboard_backlight.xml",
+      "bytes": 1066,
+      "gitBlobSha1": "cff2839e6f8882ed33c00953d022fb5f59497734",
+      "sha256": "10a7efd106aa2ed4278b03c0620664b9a05c747004a6d5fafbb89b6d51932b18",
+      "reasons": [
+        "Keyboard backlight"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 9,
+      "references": [
+        "@android:color/white"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}height": "11dp",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "12",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "22",
+        "{http://schemas.android.com/apk/res/android}width": "20.166666dp"
+      },
+      "checkpointCopy": "source/context/frameworks/base/packages/SystemUI/res/drawable/ic_keyboard_backlight.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/keyboard_backlight__detailed.svg",
+    "onMaster": "masters/keyboard_backlight__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_keyboard_backlight.xml",
+    "nativeEnglishLabel": "cg_semantic_keyboard_backlight_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-14",
+    "semanticId": "printing",
+    "sourceEvidence": {
+      "project": "frameworks/base",
+      "path": "core/res/res/drawable/ic_print.xml",
+      "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/core/res/res/drawable/ic_print.xml",
+      "saved": "source-evidence/frameworks/base/core/res/res/drawable/ic_print.xml",
+      "bytes": 1121,
+      "gitBlobSha1": "7aa251300448db4e153067dab240153ba8758850",
+      "sha256": "4d3ef77774c5baacbd4d9271fec10d89cd3c8db1cbaef3310f37444ca9dc2350",
+      "reasons": [
+        "Printing"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24.0",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24.0"
+      },
+      "checkpointCopy": "source/context/frameworks/base/core/res/res/drawable/ic_print.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/printing__detailed.svg",
+    "onMaster": "masters/printing__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_printing.xml",
+    "nativeEnglishLabel": "cg_semantic_printing_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-15",
+    "semanticId": "stylus",
+    "sourceEvidence": {
+      "project": "packages/apps/Settings",
+      "path": "res/drawable/ic_stylus.xml",
+      "revision": "b9b9d68135714d9a84741620e9386e1d43931139",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Settings/b9b9d68135714d9a84741620e9386e1d43931139/res/drawable/ic_stylus.xml",
+      "saved": "source-evidence/packages/apps/Settings/res/drawable/ic_stylus.xml",
+      "bytes": 1249,
+      "gitBlobSha1": "eb52fec041813df32696b1bf875026e8d0fa2d78",
+      "sha256": "3b3a125650ffaa3a4e952a50e73412467955b0f9cd9716f13bae3ac2fb2a2b86",
+      "reasons": [
+        "Stylus"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [
+        "@android:color/white"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "960",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "960",
+        "{http://schemas.android.com/apk/res/android}tint": "?android:attr/colorControlNormal"
+      },
+      "checkpointCopy": "source/context/packages/apps/Settings/res/drawable/ic_stylus.xml"
+    },
+    "decision": "Approve unchanged Forge donor geometry with distinct semantic binding",
+    "offMaster": "masters/stylus__detailed.svg",
+    "onMaster": "masters/stylus__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_stylus.xml",
+    "nativeEnglishLabel": "cg_semantic_stylus_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  },
+  {
+    "gapId": "G-16",
+    "semanticId": "favorite",
+    "sourceEvidence": {
+      "project": "packages/apps/Glimpse",
+      "path": "app/src/main/res/drawable/ic_star.xml",
+      "revision": "89b473594ec8ad01417624e670912450ce5df7e9",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Glimpse/89b473594ec8ad01417624e670912450ce5df7e9/app/src/main/res/drawable/ic_star.xml",
+      "saved": "source-evidence/packages/apps/Glimpse/app/src/main/res/drawable/ic_star.xml",
+      "bytes": 555,
+      "gitBlobSha1": "29cd24de7d9bc28cb05bfaa5d0777e4ea3f24c5e",
+      "sha256": "f547b37e8004c9d5de629cd596a07568edd56d6da66709827cf7cd9a5adfe68b",
+      "reasons": [
+        "Application visual/detail review"
+      ],
+      "xmlRoot": "vector",
+      "xmlNodes": 2,
+      "references": [
+        "@android:color/white"
+      ],
+      "xmlAttributes": {
+        "{http://schemas.android.com/apk/res/android}width": "24dp",
+        "{http://schemas.android.com/apk/res/android}height": "24dp",
+        "{http://schemas.android.com/apk/res/android}tint": "#000000",
+        "{http://schemas.android.com/apk/res/android}viewportWidth": "24",
+        "{http://schemas.android.com/apk/res/android}viewportHeight": "24"
+      },
+      "checkpointCopy": "source/context/packages/apps/Glimpse/app/src/main/res/drawable/ic_star.xml"
+    },
+    "decision": "Dedicated new Forge geometry authored",
+    "offMaster": "masters/favorite_outline__detailed.svg",
+    "onMaster": "masters/favorite__detailed.svg",
+    "compactVector": "android/res/drawable/cg_es_favorite.xml",
+    "nativeEnglishLabel": "cg_semantic_favorite_label",
+    "stateContract": {
+      "offOrUnchecked": "Cold base only; neutral focus/selection cues are independent",
+      "onOrChecked": "Separate neutral reflection/spill/seam/core masks tinted by runtime owner",
+      "explicitOffValueGeometry": "Keep actual false-value variants such as captions-off, paused work and unchecked favorites cold. Do not infer this rule from source filenames.",
+      "focusedOnly": "Neutral focus; no ember activation"
+    },
+    "nativeOwnerConversion": "Handoff is not a drop-in replacement for source animated-vector path morphs. The native owner must bind checked/value state to the new layers and preserve callbacks/accessibility. No ROM/runtime acceptance claimed.",
+    "renderReview": "New source-gap sheets inspected; current gap-art verifier must pass after each geometry change"
+  }
+]
