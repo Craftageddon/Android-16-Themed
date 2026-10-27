@@ -1,0 +1,360 @@
+[
+  {
+    "path": "app/src/main/java/org/lineageos/updater/UpdatesScaffoldActivity.kt",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/UpdatesScaffoldActivity.kt",
+    "inputSha256": "bf6d6cce757f27ba5e2f9b0b1c40e46a77c50dae75bf4a4cbbbb58f7bf41b3f7",
+    "patchedSha256": "de63b10b3b382e69de3c9cde23e6371d5527c8e78523fac1dff1ee857cf45fbe",
+    "operations": [
+      {
+        "before": "import com.android.settingslib.spa.framework.theme.SettingsTheme\n",
+        "after": "import org.lineageos.updater.forge.ForgeUpdaterTheme as SettingsTheme\n",
+        "count": 1
+      },
+      {
+        "before": "        enableEdgeToEdge()\n",
+        "after": "        enableEdgeToEdge(\n            statusBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),\n            navigationBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),\n        )\n",
+        "count": 1
+      },
+      {
+        "before": "import com.android.settingslib.spa.widget.preference.Preference\n",
+        "after": "import org.lineageos.updater.forge.ForgePreference as Preference\n",
+        "count": 1
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/preferences/PreferencesActivity.kt",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/preferences/PreferencesActivity.kt",
+    "inputSha256": "a6bb5f8162b1e24eb071a344029763ffe913cf170f0fc142154e4719a2a0b189",
+    "patchedSha256": "f41e9f97f6812ec265f6e4ff6717f36369185cf81cf703563a2075930b68309f",
+    "operations": [
+      {
+        "before": "import com.android.settingslib.spa.framework.theme.SettingsTheme\n",
+        "after": "import org.lineageos.updater.forge.ForgeUpdaterTheme as SettingsTheme\n",
+        "count": 1
+      },
+      {
+        "before": "        enableEdgeToEdge()\n",
+        "after": "        enableEdgeToEdge(\n            statusBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),\n            navigationBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),\n        )\n",
+        "count": 1
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/preferences/PreferencesScreen.kt",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/preferences/PreferencesScreen.kt",
+    "inputSha256": "9a09a7e45625682cd6275e4be655c670c26734710e9c587c80aa6dbb773c3b2e",
+    "patchedSha256": "311204b301fd15d3c0aadb5cc91f8fa947fa2a16226efdb7ea48f0b6d844099a",
+    "operations": [
+      {
+        "before": "import com.android.settingslib.spa.widget.preference.ListPreference\n",
+        "after": "import org.lineageos.updater.forge.ForgeListPreference as ListPreference\n",
+        "count": 1
+      },
+      {
+        "before": "import com.android.settingslib.spa.widget.preference.SwitchPreference\n",
+        "after": "import org.lineageos.updater.forge.ForgeSwitchPreference as SwitchPreference\n",
+        "count": 1
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/deviceinfo/UpdaterCard.kt",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/deviceinfo/UpdaterCard.kt",
+    "inputSha256": "134bcc605803b610b64979773956d40b2f21609847678cdf21d2c23d026fc74e",
+    "patchedSha256": "4f3fabea30c85c352f90780536aebb8b6d423421365b905d3a1b3ac033f23e2b",
+    "operations": [
+      {
+        "before": "import androidx.compose.foundation.layout.Row\n",
+        "after": "import androidx.compose.foundation.layout.FlowRow\nimport androidx.compose.foundation.layout.ExperimentalLayoutApi\n",
+        "count": 1
+      },
+      {
+        "before": "@Composable\nfun UpdaterCard(",
+        "after": "@OptIn(ExperimentalLayoutApi::class)\n@Composable\nfun UpdaterCard(",
+        "count": 1
+      },
+      {
+        "before": "import org.lineageos.updater.R\n",
+        "after": "import org.lineageos.updater.R\nimport org.lineageos.updater.forge.ForgeSteelPanel\n",
+        "count": 1
+      },
+      {
+        "before": "    Card(\n        modifier = modifier.fillMaxWidth(),\n        shape = shape,\n        colors = CardDefaults.cardColors(\n            containerColor = Color.Transparent,\n            contentColor = onBrandColor,\n        ),\n    ) {",
+        "after": "    ForgeSteelPanel(\n        modifier = modifier.fillMaxWidth(),\n    ) {",
+        "count": 1
+      },
+      {
+        "before": "                .background(brandColor)\n                .updaterHeaderPattern(\n                    patternColor = patternColor,\n                    sheenColor = sheenColor,\n                ),",
+        "after": "                .background(Color.Transparent), // Native mark/version geometry stays unchanged.",
+        "count": 1
+      },
+      {
+        "before": "                Row(\n",
+        "after": "                FlowRow(\n",
+        "count": 2
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/deviceinfo/actions/DeviceInfoActionButtons.kt",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/deviceinfo/actions/DeviceInfoActionButtons.kt",
+    "inputSha256": "98dd1e68fd147f1990299ee3892c5788602421dc219cc1507273f146c4ed557e",
+    "patchedSha256": "9ad690da8126c0e779ec6c32f8aa2c0ce836f55920582c76cb8462442c73d69b",
+    "operations": [
+      {
+        "before": "import androidx.compose.foundation.layout.Row\n",
+        "after": "import androidx.compose.foundation.layout.FlowRow\nimport androidx.compose.foundation.layout.ExperimentalLayoutApi\n",
+        "count": 1
+      },
+      {
+        "before": "import org.lineageos.updater.R\n",
+        "after": "import org.lineageos.updater.R\nimport org.lineageos.updater.forge.ForgeUpdateButton\n",
+        "count": 1
+      },
+      {
+        "before": "@Composable\nfun DeviceInfoActionButtons(",
+        "after": "@OptIn(ExperimentalLayoutApi::class)\n@Composable\nfun DeviceInfoActionButtons(",
+        "count": 1
+      },
+      {
+        "before": "    Row(\n",
+        "after": "    FlowRow(\n",
+        "count": 1
+      },
+      {
+        "before": "            .clip(\n                CornerExtraLarge1.copy(\n                    topStart = CornerExtraSmall2.topStart,\n                    topEnd = CornerExtraSmall2.topEnd,\n                )\n            )\n            .background(MaterialTheme.colorScheme.surfaceBright)\n",
+        "after": "            // Each button retains its own fixed-corner steel housing.\n",
+        "count": 1
+      },
+      {
+        "before": "        horizontalArrangement = Arrangement.spacedBy(small1),\n",
+        "after": "        horizontalArrangement = Arrangement.spacedBy(small1),\n        verticalArrangement = Arrangement.spacedBy(small1),\n",
+        "count": 1
+      },
+      {
+        "before": "        TextButton(\n",
+        "after": "        ForgeUpdateButton(\n            outlined = true,\n",
+        "count": 2
+      },
+      {
+        "before": "            colors = buttonColors,\n",
+        "after": "            // Runtime neutral masks replace only the presentation.\n",
+        "count": 2
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/deviceinfo/actions/DeviceInfoTvAction.kt",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/deviceinfo/actions/DeviceInfoTvAction.kt",
+    "inputSha256": "22b096e4470d9706820a13234b7502676c41ced83674bbab1491d7e62aa04111",
+    "patchedSha256": "e97d8fc9f9317fbc23161c56d204f59df5a056e595e8084010bf80fd967792c7",
+    "operations": [
+      {
+        "before": "import org.lineageos.updater.R\n",
+        "after": "import org.lineageos.updater.R\nimport org.lineageos.updater.forge.forgePanel\n",
+        "count": 1
+      },
+      {
+        "before": "        modifier = modifier\n            .fillMaxWidth()\n",
+        "after": "        modifier = modifier\n            .fillMaxWidth()\n            .forgePanel()\n",
+        "count": 1
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/ui/CollapseBar.kt",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/ui/CollapseBar.kt",
+    "inputSha256": "17500f35af3d557b5417fb1041bd6ce51f7ca2b486acb3f113ea61ce4f830e28",
+    "patchedSha256": "152f1c326a9a6be0d719e40ac2379ee2f628cbdbc7d9cee3d2586079b076f0c9",
+    "operations": [
+      {
+        "before": "import org.lineageos.updater.R\n",
+        "after": "import org.lineageos.updater.R\nimport org.lineageos.updater.forge.forgePanel\n",
+        "count": 1
+      },
+      {
+        "before": "            .clickable { onExpandedChange(!expanded) }\n",
+        "after": "            .clickable { onExpandedChange(!expanded) }\n            .forgePanel()\n",
+        "count": 1
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updatescheck/UpdatesCheck.kt",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/updatescheck/UpdatesCheck.kt",
+    "inputSha256": "071e21239c4f1ebc679fcbfbd7f51f8f90f31a6a3b63fe0ee703f3b5051284a4",
+    "patchedSha256": "f6633d832c43f771913255afdf480f007b55301628859b1b0ffb9e31d77694e6",
+    "operations": [
+      {
+        "before": "import org.lineageos.updater.R\n",
+        "after": "import org.lineageos.updater.R\nimport org.lineageos.updater.forge.ForgeUpdateButton\nimport org.lineageos.updater.forge.ForgeUpdateIllustration\n",
+        "count": 1
+      },
+      {
+        "before": "    FilledTonalButton(\n",
+        "after": "    ForgeUpdateButton(\n",
+        "count": 1
+      },
+      {
+        "before": "        colors = ButtonDefaults.filledTonalButtonColors(\n            containerColor = MaterialTheme.colorScheme.surfaceContainerHighest,\n        ),\n",
+        "after": "        // The original click and full-width behavior are retained.\n",
+        "count": 1
+      },
+      {
+        "before": "        Lottie(\n",
+        "after": "        ForgeUpdateIllustration(\n",
+        "count": 1
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/UpdateZeroStatePreference.kt",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/updates/UpdateZeroStatePreference.kt",
+    "inputSha256": "852b06d26fa70517bd0531520fe6b43174a52e408eae98b2433c5e5f457a038b",
+    "patchedSha256": "fd4523bbd5b63fe3c0b5869ecddce8ae6bf37b4ee13e782f212ab628d0f6a0d8",
+    "operations": [
+      {
+        "before": "import com.android.settingslib.spa.framework.theme.SettingsTheme\n",
+        "after": "import com.android.settingslib.spa.framework.theme.SettingsTheme\nimport org.lineageos.updater.forge.ForgeUpdateZeroIllustration\n",
+        "count": 1
+      },
+      {
+        "before": "        Icon(\n            imageVector = Icons.Filled.Verified,\n            contentDescription = null,\n            modifier = Modifier.size(IconSize),\n            tint = colorScheme.primary,\n        )",
+        "after": "        ForgeUpdateZeroIllustration(modifier = Modifier.size(IconSize))",
+        "count": 1
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/action/UpdateActionDialog.kt",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/updates/action/UpdateActionDialog.kt",
+    "inputSha256": "2b63983bc104d97bc1ec07516875d50f218f39fcf9fc76853d148bbf455fe180",
+    "patchedSha256": "ee0bb7c6fcd3ec2359f752681b14643b1a36d5b5dab80f5accfbc6255774782c",
+    "operations": [
+      {
+        "before": "import com.android.settingslib.spa.widget.dialog.SettingsAlertDialogWithIcon\n",
+        "after": "import org.lineageos.updater.forge.ForgeUpdaterAlertDialog as SettingsAlertDialogWithIcon\n",
+        "count": 1
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/UpdatesActivity.java",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/UpdatesActivity.java",
+    "inputSha256": "3ab68bd70863ba69b2b457a43d5dedc5c97222db792805abbec7c64a00625b68",
+    "patchedSha256": "e582720569f88e89e556fb316bce414f19fc00be49e1b4d59ce371d49c693b4d",
+    "operations": [
+      {
+        "before": "import android.app.AlertDialog;\n",
+        "after": "import android.app.AlertDialog;\nimport org.lineageos.updater.forge.ForgeDialogStyle;\n",
+        "count": 1
+      },
+      {
+        "before": "        importDialog.show();\n",
+        "after": "        importDialog.show();\n        ForgeDialogStyle.apply(importDialog, true);\n",
+        "count": 1
+      },
+      {
+        "before": "            new AlertDialog.Builder(this)\n                    .setTitle(R.string.local_update_import)\n                    .setMessage(R.string.local_update_import_failure)\n                    .setPositiveButton(android.R.string.ok, null)\n                    .show();",
+        "after": "            ForgeDialogStyle.show(new AlertDialog.Builder(this)\n                    .setTitle(R.string.local_update_import)\n                    .setMessage(R.string.local_update_import_failure)\n                    .setPositiveButton(android.R.string.ok, null).create(), false);",
+        "count": 1
+      },
+      {
+        "before": "        new AlertDialog.Builder(this)\n                .setTitle(R.string.local_update_import_success_title)\n                .setMessage(getString(\n                        R.string.local_update_import_success_message,\n                        StringUtil.formatBuildDate(this, update.getTimestamp())))\n                .setPositiveButton(android.R.string.ok, null)\n                .show();",
+        "after": "        ForgeDialogStyle.show(new AlertDialog.Builder(this)\n                .setTitle(R.string.local_update_import_success_title)\n                .setMessage(getString(\n                        R.string.local_update_import_success_message,\n                        StringUtil.formatBuildDate(this, update.getTimestamp())))\n                .setPositiveButton(android.R.string.ok, null).create(), false);",
+        "count": 1
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: source-owned steel presentation; original actions/data retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/progress_dialog.xml",
+    "input": "iterations/25-updater-workflows/upstream/packages/apps/Updater/app/src/main/res/layout/progress_dialog.xml",
+    "inputSha256": "89b6e38999f86d070efbcc2270effcbe38c1833cfa81cd45cca172a3c04b9eff",
+    "patchedSha256": "2fccc52b2ad0dc4a49da4ae2ea58940b3a2d0532222cbabed841873e8585fe4c",
+    "operations": [
+      {
+        "before": "    <TextView\n        android:layout_width=\"wrap_content\"",
+        "after": "    <TextView\n        android:layout_width=\"0dp\"\n        android:layout_weight=\"1\"",
+        "count": 1
+      },
+      {
+        "before": "        android:layout_gravity=\"center\"\n",
+        "after": "        android:layout_gravity=\"center_vertical\"\n",
+        "count": 1
+      },
+      {
+        "before": "<LinearLayout",
+        "after": "<!-- Craftageddon: wrapping live import label; original operation retained. -->\n<LinearLayout",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  }
+]

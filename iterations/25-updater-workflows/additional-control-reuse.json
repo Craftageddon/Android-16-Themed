@@ -1,0 +1,282 @@
+[
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_track_cold.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_track_cold.9.png",
+    "sha256": "a96cd64a90cec46920d44d3a83a07fc799ae95f7f2cd7418e646071dbdd56065"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_track_reflection.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_track_reflection.9.png",
+    "sha256": "b10e0f108d546789113e84c7230c96e1e10b264f0c321aeecf08be3e1642005c"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_track_spill.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_track_spill.9.png",
+    "sha256": "756bd3ae7b52a7ebbcdca62e24e0ee5f3ee015c97fd413938a4962628b0d8b06"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_track_seam.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_track_seam.9.png",
+    "sha256": "6b6c0aebb69a35febc99b427e69d5c3058e7a8606b9f7f1ed973cd3dc2f029c1"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_track_core.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_track_core.9.png",
+    "sha256": "d3b536bcb71dbc899e9c4067535b1163684fb92c140dc3ad9ee5499ad894f429"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_track_focus.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_track_focus.9.png",
+    "sha256": "8d047a3d02becf0945ef5c410de4d1190875cdb874b4c544ccd005df87858e0f"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_track_symbol.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_track_symbol.9.png",
+    "sha256": "077ebc5ba609c5caae5b26b0dd9e9d138e67b8c2b5db7e063f2b239a816047a4"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_thumb_cold.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_thumb_cold.png",
+    "sha256": "c9cf213bf6b184c89394af2a3be92195ae4f95cba2b367ed362bc1c5d9b26fd6"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_thumb_reflection.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_thumb_reflection.png",
+    "sha256": "7fe99937c9d36d8b9d547c76f210b7ab8da3e85637c3ef120068abed507afbd0"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_thumb_spill.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_thumb_spill.png",
+    "sha256": "6bbc2021444f31041289c4d5e4c5f553b455f4bc958cf32ccf653261f69a8798"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_thumb_seam.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_thumb_seam.png",
+    "sha256": "46f85c66db0f580c63d868e2cc0c924a39ff62cbc233992ccc56a9852a65146c"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_thumb_core.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_thumb_core.png",
+    "sha256": "89097039d0b982e3704c5ee5e573867b4edef7f05954dfaa1a354fd644ff0eee"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_thumb_focus.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_thumb_focus.png",
+    "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_switch_thumb_symbol.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_switch_thumb_symbol.png",
+    "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_track_cold.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_track_cold.9.png",
+    "sha256": "8ad516726cfc4ffe21b0e287fce1e84374cbf8ae7fab89285babcc87f9e450e7"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_track_reflection.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_track_reflection.9.png",
+    "sha256": "15d8bb4b92e2f016edd784abee1605ed4372bbb320051a031d2a6f6a8ba2b1d3"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_track_spill.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_track_spill.9.png",
+    "sha256": "1c013b39588ca1781c4874f6ef1313ba789185ec93fdada1727462472411112b"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_track_seam.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_track_seam.9.png",
+    "sha256": "1f4c7507dbffe934f14fd59ea1054cff1078d11ad028747e17ec9d5075d8cdec"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_track_core.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_track_core.9.png",
+    "sha256": "0d16badae8292adb98de7d045ad5a3892ccbaf3692393a346f0312172eae97fe"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_track_focus.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_track_focus.9.png",
+    "sha256": "3b2c2b21539035f37ed65a9264cc806a329a3df867bd0260029aad12ccebbe9b"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_track_symbol.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_track_symbol.9.png",
+    "sha256": "e830483a381c2eb11321d80e064d00e2520e5cffac2ac184a9d872acaf69ccd5"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_thumb_cold.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_thumb_cold.png",
+    "sha256": "6c76394ec34cc98bc765df08ef590bbe2f41a3084335f20fe81b47a6c75e3e15"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_thumb_reflection.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_thumb_reflection.png",
+    "sha256": "8c7dd2778213aa855149c6c5cd5e3df1543975569d5abe3b779e8c9d49b9f56d"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_thumb_spill.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_thumb_spill.png",
+    "sha256": "f76593f97861c49f742b24b5bcecadc18a36ceeadcacbc18a704298f4b8923ab"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_thumb_seam.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_thumb_seam.png",
+    "sha256": "72526b92e9422b4f7379d56284b0ac48079e7191b5e98050b6bcd25366f89a17"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_thumb_core.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_thumb_core.png",
+    "sha256": "967ba75d33c8feb7d3b6445d2c1773bce3ed4b3871a3edd03e260f0811cab59a"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_thumb_focus.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_thumb_focus.png",
+    "sha256": "b0a78e5095d79f7cb384f8e12a88ff3aed39844b52d0f217d5104db496475f4b"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_switch_thumb_symbol.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_switch_thumb_symbol.png",
+    "sha256": "b0a78e5095d79f7cb384f8e12a88ff3aed39844b52d0f217d5104db496475f4b"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_track_cold.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_track_cold.9.png",
+    "sha256": "f571647d58a9ad8a2507d6f7a26230748987716e5c3ad7b3700403372604dc52"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_track_reflection.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_track_reflection.9.png",
+    "sha256": "bab27afe34abe73768fc55fe6074a39f1d9ec9d830ea6ed50b1bb0a33bff5dee"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_track_spill.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_track_spill.9.png",
+    "sha256": "2ab8660818f95793de5fe3771c597820f4354526c1b41537669acf43d0c7658a"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_track_seam.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_track_seam.9.png",
+    "sha256": "5569aabb5dc91be0bfd31cb9a37909e270ae3fd097f3aeb176b01022137ed55b"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_track_core.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_track_core.9.png",
+    "sha256": "71e44f0542ce21dfb3ea0192817cd8d75de937c2c4032a2466922094a93fdb6c"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_track_focus.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_track_focus.9.png",
+    "sha256": "afdcbc6766f15dcc3990b02ba6124596ed176ead7489e3a56d31f6b24380429d"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_track_symbol.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_track_symbol.9.png",
+    "sha256": "10b0c15c6c4321db81ec0cc1720c390a006d821644aee70217461bca9075a4c9"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_thumb_cold.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_thumb_cold.png",
+    "sha256": "614207085f58958985de5abdbbd7d8c3470665d482dde2d6cd16be389c50b7fe"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_thumb_reflection.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_thumb_reflection.png",
+    "sha256": "559b036916b644bda487a032ec2f8d6d6f4824a352c897e02ce6e0a4c233b4e7"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_thumb_spill.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_thumb_spill.png",
+    "sha256": "8eb337544c805a573b3811c5c7556db9101bedccc41967c603111d94295fc7e8"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_thumb_seam.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_thumb_seam.png",
+    "sha256": "c6d87d05d26fa890e5cb7203996901a5153da41c7f6ed7ad1b67ed13adacac62"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_thumb_core.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_thumb_core.png",
+    "sha256": "149944a14ce515224d0f686b8bfa05c0f1ba9190d2f93c534d2645502bd5dd1c"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_thumb_focus.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_thumb_focus.png",
+    "sha256": "052c48aa8b5e4f2c40bcd0d1bb7a4b93276276285dfa3e8a971b435dc88fdfee"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_switch_thumb_symbol.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_switch_thumb_symbol.png",
+    "sha256": "052c48aa8b5e4f2c40bcd0d1bb7a4b93276276285dfa3e8a971b435dc88fdfee"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_track_cold.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_track_cold.9.png",
+    "sha256": "a46c028b4792f9547acab85458e7c8a2c85a12325d6921a83c923e51dbfc0753"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_track_reflection.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_track_reflection.9.png",
+    "sha256": "a7e8c532cb2f45ab688b692b0a6471e4eb3a17c3ee7027065ace924a91866aba"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_track_spill.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_track_spill.9.png",
+    "sha256": "4ef296df1d0728f41ae61bfd10fefe2ab588d7d1f1ba754722441df1d4d8e46e"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_track_seam.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_track_seam.9.png",
+    "sha256": "2c5b437c632264aeaeb343e6662efbfd9a514ec176de67d1dfa931a718042507"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_track_core.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_track_core.9.png",
+    "sha256": "06cf361061938ddb8d1bc72f510f4415973b79430e4776ed33e7364ec515d95f"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_track_focus.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_track_focus.9.png",
+    "sha256": "b881268a15c564d6811616a9a959b0f8bd47145e9dfc3dc6217c766024df43b1"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_track_symbol.9.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_track_symbol.9.png",
+    "sha256": "c5a24367c8c3f5b6a3ebf2dda5dd2df24fdb79684d3e3576691b3f2af2bc614a"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_thumb_cold.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_thumb_cold.png",
+    "sha256": "6fcdd6e5b84971476d1a7e91a7c93f05c40422d2aed6e293f32aaf3c10d3ac7b"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_thumb_reflection.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_thumb_reflection.png",
+    "sha256": "e6f1753a653e432df01d46c6f7d36014be649df71b89c567ebdc456ea0162819"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_thumb_spill.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_thumb_spill.png",
+    "sha256": "6a1173b038616bad4fab56c8959f6adaa1d521994d20270506d023b7a98ad655"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_thumb_seam.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_thumb_seam.png",
+    "sha256": "fac801e6dafc34fbf69c973d2008939bfc2f363e230e33eddd8fab2df080893e"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_thumb_core.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_thumb_core.png",
+    "sha256": "fae563e53a196d625b1103be27caac43035e54c4e521d6172864bbed6a8386a0"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_thumb_focus.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_thumb_focus.png",
+    "sha256": "e93cf7cf69e59a49eaaa011e5f0ec7b6e385408ba1b4025b9231832d7c87ec46"
+  },
+  {
+    "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_switch_thumb_symbol.png",
+    "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_switch_thumb_symbol.png",
+    "sha256": "e93cf7cf69e59a49eaaa011e5f0ec7b6e385408ba1b4025b9231832d7c87ec46"
+  }
+]

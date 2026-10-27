@@ -1,0 +1,377 @@
+[
+  {
+    "familyId": "F-9724f78e955fd821",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app/src/main/res",
+      "kind": "drawable",
+      "name": "ic_launcher_background",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "ba0a9ca4355c63e279dceec24fa49dd17ddadb18",
+        "sha256": "49f1bafff226adee7745358830ca5dc33fc233d5c01fae8d8859757107a6c5b5",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "OPEN",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "role": "Original legacy launcher input or unbound system-update vector preserved. Broader/effective consumer selection unresolved; lack of indexed reference is not unreachability proof.",
+    "wholeFamilySemanticReviewRecorded": false
+  },
+  {
+    "familyId": "F-85f0a6eaaa6f5560",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app/src/main/res",
+      "kind": "drawable",
+      "name": "ic_launcher_foreground",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/drawable/ic_launcher_foreground.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "e9b7f8aaf92c87f34acc61b3f55abda465a9edca",
+        "sha256": "e49e16b3546da337c3aa645dc78adc1db2caa60947e577d4323afce0bae27632",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "OPEN",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "role": "Original legacy launcher input or unbound system-update vector preserved. Broader/effective consumer selection unresolved; lack of indexed reference is not unreachability proof.",
+    "wholeFamilySemanticReviewRecorded": false
+  },
+  {
+    "familyId": "F-4fea22930b48f72f",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app/src/main/res",
+      "kind": "drawable",
+      "name": "ic_notification",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/drawable/ic_notification.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/drawable/ic_notification.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/drawable/ic_notification.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "0b520581cf0fb10ac674b5490106d0329545f2fe",
+        "sha256": "28c2cf800de2c5c36e7f6c6ff81f2eeeedafd2f73d8118af88fb703802e55e0a",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "PRESERVE_NATIVE_REFERENCE_CONTRACT",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "rationale": "Native notification/action alpha silhouette; actual UpdaterService, ExportUpdateService and NotificationHelper small-icon consumers are preserved. Rich dialog badge is a separate owner resource; no global bitmap substitution.",
+    "actualOwners": "controller/UpdaterService.java; ExportUpdateService.java; notifications/NotificationHelper.kt; updates/action/UpdateActionDialog.kt",
+    "sourcePatch": "Updater-forge-workflows.patch",
+    "wholeFamilySemanticReviewRecorded": true
+  },
+  {
+    "familyId": "F-b58def1a599d807d",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app/src/main/res",
+      "kind": "drawable",
+      "name": "ic_pause",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Name-based reuse candidate; exact geometry/state/owner binding NOT verified",
+      "reviewedGapId": "",
+      "candidateAssetIds": "11/pause__compact;11/pause__detailed",
+      "examplePath": "app/src/main/res/drawable/ic_pause.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/drawable/ic_pause.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/drawable/ic_pause.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "88091ac74226f50a185d4d7f3ce3dd6232b83de3",
+        "sha256": "de375cba24d76d37ad0babc0c5c2c82a8355429b3f290db064a31569ac5edf52",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "APPROVE_SEMANTIC_ART_REUSE",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "role": "Existing semantic artwork decision retained. Actual Compose pause uses original-donor optical treatment; shared notification vector unchanged.",
+    "newOwnerBindingAuthored": true
+  },
+  {
+    "familyId": "F-9d6c87ac6a356165",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app/src/main/res",
+      "kind": "drawable",
+      "name": "ic_system_update",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/drawable/ic_system_update.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/drawable/ic_system_update.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/drawable/ic_system_update.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "58aa2f7bfc8b21c3be52c811caea0ade395537cc",
+        "sha256": "77ee52a4b55d30e9054bd0b151341726c36679fa07556795a711cf40ebc47ea8",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "OPEN",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "role": "Original legacy launcher input or unbound system-update vector preserved. Broader/effective consumer selection unresolved; lack of indexed reference is not unreachability proof.",
+    "wholeFamilySemanticReviewRecorded": false
+  },
+  {
+    "familyId": "F-1491f8344f8a00ae",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app/src/main/res",
+      "kind": "drawable",
+      "name": "lineage_mark_tight",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/drawable/lineage_mark_tight.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/drawable/lineage_mark_tight.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/drawable/lineage_mark_tight.xml",
+        "qualifier": "drawable",
+        "gitBlobSha1": "1b745414d8c6b8632c8eed50662e286ca8789659",
+        "sha256": "d77a40b93e8642a22d790df3da89d6bbe837d43f8b0c6dc9f2bec14eaf293158",
+        "contentClass": "XML",
+        "xmlRoot": "vector",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "PRESERVE_NATIVE_REFERENCE_CONTRACT",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "rationale": "Original 300:120 brand geometry/translation and white-on-dark treatment stay exact. Scoped cold steel housing replaces the teal header presentation.",
+    "actualOwners": "deviceinfo/UpdaterCard.kt",
+    "sourcePatch": "Updater-forge-workflows.patch",
+    "wholeFamilySemanticReviewRecorded": true
+  },
+  {
+    "familyId": "F-2d7ccdeb605a7e3b",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app/src/main/res",
+      "kind": "layout",
+      "name": "progress_dialog",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Native layout/token adaptation; new illustration requirement unreviewed",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/layout/progress_dialog.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/layout/progress_dialog.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/layout/progress_dialog.xml",
+        "qualifier": "layout",
+        "gitBlobSha1": "2d09673e1ce6742a20334a973646482103fc10d2",
+        "sha256": "89b6e38999f86d070efbcc2270effcbe38c1833cfa81cd45cca172a3c04b9eff",
+        "contentClass": "XML",
+        "xmlRoot": "LinearLayout",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "rationale": "Actual import layout retains indicator ID, indeterminate behavior and 16sp live English label. Weighted text wraps. Owner keeps noncancelable import, show/dismiss order, success/error messages and callbacks; native indicator/ring styled separately.",
+    "actualOwners": "UpdatesActivity.java; res/layout/progress_dialog.xml; forge/ForgeDialogStyle.java",
+    "sourcePatch": "Updater-forge-workflows.patch",
+    "wholeFamilySemanticReviewRecorded": true
+  },
+  {
+    "familyId": "F-e90770c3584cf624",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app/src/main/res",
+      "kind": "mipmap",
+      "name": "ic_launcher",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/mipmap-anydpi/ic_launcher.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+        "qualifier": "mipmap-anydpi",
+        "gitBlobSha1": "75562a8dedc759eda6a412e35d637c121513f165",
+        "sha256": "9d2a73fc667dfc9e954f1114293261120b61eb9cd515cadeaae11e809f4af548",
+        "contentClass": "XML",
+        "xmlRoot": "adaptive-icon",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "PRESERVE_NATIVE_REFERENCE_CONTRACT",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "role": "Actual manifest keeps @mipmap/ic_launcher; cold badge with18 percent inset and original monochrome geometry bound to adaptive owner. Manifest actions/categories unchanged.",
+    "newOwnerBindingAuthored": true
+  },
+  {
+    "familyId": "F-4497e7dff4dcf8ad",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app\\src\\main\\res\\raw",
+      "kind": "raw-visual",
+      "name": "sysupdater_error",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/raw/sysupdater_error.json",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/raw/sysupdater_error.json"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/raw/sysupdater_error.json",
+        "qualifier": "raw-visual",
+        "gitBlobSha1": "5b516a37d13f2d230c270da520cbfd06e27c398e",
+        "sha256": "ba76a4f32466d008a995112a2510649ac620faa44b95821221e64878cba67d6a",
+        "contentClass": "JSON",
+        "xmlRoot": null,
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "rationale": "Original 60fps/60-frame JSON remains exact as one-iteration timing input. New cold exclamation/gear and separate transient red masks replace visual geometry and end cold; original morph paths are not rendered.",
+    "actualOwners": "updatescheck/UpdatesCheck.kt; forge/ForgeIllustrationClock.kt; forge/ForgeIllustrations.kt",
+    "sourcePatch": "Updater-forge-workflows.patch",
+    "wholeFamilySemanticReviewRecorded": true
+  },
+  {
+    "familyId": "F-60006be040654f1c",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app\\src\\main\\res\\raw",
+      "kind": "raw-visual",
+      "name": "sysupdater_progress",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/raw/sysupdater_progress.json",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/raw/sysupdater_progress.json"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/raw/sysupdater_progress.json",
+        "qualifier": "raw-visual",
+        "gitBlobSha1": "3b0ed6bed184d27cba83e457239851c78e2f15d4",
+        "sha256": "48ae8a7c51fd8a9bced387f40c63bd32498efeb6ef1f2558c3827b541bb51036",
+        "contentClass": "JSON",
+        "xmlRoot": null,
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "rationale": "Original 60fps/120-frame JSON stays exact as repeating timing input. New layered update arrow/gear and neutral sweep replace visual paths. Source 2000ms minimum, system scale, lifecycle and iteration roles retained in source; native execution unrun.",
+    "actualOwners": "updatescheck/UpdatesCheck.kt; forge/ForgeIllustrationClock.kt; forge/ForgeIllustrations.kt",
+    "sourcePatch": "Updater-forge-workflows.patch",
+    "wholeFamilySemanticReviewRecorded": true
+  },
+  {
+    "familyId": "F-038aed52a23344a5",
+    "source": {
+      "project": "packages/apps/Updater",
+      "resourceRoot": "app\\src\\main\\res\\values",
+      "kind": "values-visual",
+      "name": "config",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Native layout/token adaptation; new illustration requirement unreviewed",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/values/config.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Updater/blob/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/res/values/config.xml"
+    },
+    "sourceEvidence": [
+      {
+        "path": "app/src/main/res/values/config.xml",
+        "qualifier": "values-visual",
+        "gitBlobSha1": "b4f696a568376d4e57a9e608d5169eb6fb24919d",
+        "sha256": "52b5c7fd07f42b2f15cbdba5acbe888241eeae279e32a0b59ea86f87d971c1cf",
+        "contentClass": "XML",
+        "xmlRoot": "resources",
+        "size": null,
+        "stateItems": []
+      }
+    ],
+    "decisionKept": "OWNER_PRESENTATION_ADAPTATION_AUTHORED",
+    "nativeDropInApproval": false,
+    "fullSoongOrDeviceAcceptance": "NOT RUN",
+    "rationale": "Four typed brand colors and formatted download URL remain exact. Actual UpdaterCard uses cold housing and transparent interior instead of executing its teal pattern modifier. White brand tint and device URL formatting remain source-owned; no global override or effective-overlay acceptance inferred.",
+    "actualOwners": "res/values/config.xml; deviceinfo/UpdaterCard.kt; deviceinfo/actions/DeviceInfoActionButtons.kt",
+    "sourcePatch": "Updater-forge-workflows.patch",
+    "wholeFamilySemanticReviewRecorded": true
+  }
+]

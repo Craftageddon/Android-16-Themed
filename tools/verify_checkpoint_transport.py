@@ -26,6 +26,7 @@ def main():
     wanted += ['SystemUI-magnification-forge.patch','asset-inventory.json','workflow-fixtures.json','owner-binding-review.json','border-parameter-examples.json','verification/evidence/source-art-checks.json','verification/evidence/native-subset-build.json']
     wanted += [p.relative_to(root).as_posix() for p in (root/'workflow-previews').glob('*') if p.suffix in ['.svg','.png']]
     wanted += ['Updater-forge-source.patch','Updater-phase-binding.patch','card-workflow-fixtures.json','owner-workflow-progress.json','asset-inventory.json','verification/evidence/card-stage-checks.json','verification/evidence/material-subset-build.json']
+    wanted += ['Updater-forge-workflows.patch','workflow-screen-fixtures.json','workflow-art-components.json','current-native-files.json','verification/evidence/workflow-source-art-checks.json']
     for name in dict.fromkeys(wanted):
         source=root/name
         if not source.exists():continue

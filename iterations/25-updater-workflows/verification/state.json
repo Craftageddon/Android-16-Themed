@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "8f9a4ddab118110b8ec11ef500d6f0dd51d5ea29d53fb2b3f21bdaacb6ce2aa9"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-27T13:47:40+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "1e1dc8f7941b16de33e47bb078821585e36d445652f88b4e6eaccc9fdcc5fe62",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-27T13:47:40+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "ac100f62780dc3b778d4345e06308acd4d347683d5facab4f04b7754d0e75a55",
+      "independence": null,
+      "method": "90 pinned source identities; clean33-file patch;16 owner reverse chains;480 PNGs/168 exact reuses; resource compilation/link and6 Java/9 whole Kotlin compatibility compilations plus verbatim enum;17720 actual compiled presentation assertions;234 phase cases;43 editable English desktop fixtures;472 preserved masters/signed24 archive;adaptive safe-circle geometry.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-27T13:47:40+00:00",
+  "project": "25-updater-workflows",
+  "schema": 1,
+  "status": "V2_PASS"
+}

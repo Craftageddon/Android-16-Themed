@@ -1,0 +1,22 @@
+{
+  "newArtworkMasters": 8,
+  "newIllustrationMasters": 3,
+  "newMiniGlyphMasters": 5,
+  "materialOnlyDerivativesOfExistingMasters": 3,
+  "exactReusedResourceConfigurations": 168,
+  "newDensityExportConfigurations": 312,
+  "nativePngConfigurations": 480,
+  "neutralMaskConfigurations": 412,
+  "newNativeTextFiles": 16,
+  "modifiedActualNativeSourceOrResourceFiles": 17,
+  "combinedTextPatchFiles": 33,
+  "newRenderingSupportClasses": 6,
+  "newKotlinPresentationFiles": 6,
+  "pinnedOriginalSourceAndDependencyFiles": 90,
+  "editableScreenFixtures": 25,
+  "editableCardFixtures": 18,
+  "comparisonSheets": 7,
+  "sourceProductionBakedGlows": 0,
+  "sourceProductionBakedLabels": 0,
+  "wholeUpdaterNativeAcceptance": false
+}

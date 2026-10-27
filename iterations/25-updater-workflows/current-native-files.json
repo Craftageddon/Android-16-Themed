@@ -1,0 +1,167 @@
+[
+  {
+    "path": "app/src/main/java/org/lineageos/updater/deviceinfo/actions/DeviceInfoActionButtons.kt",
+    "bytes": 3306,
+    "sha256": "9ad690da8126c0e779ec6c32f8aa2c0ce836f55920582c76cb8462442c73d69b"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/deviceinfo/actions/DeviceInfoTvAction.kt",
+    "bytes": 2090,
+    "sha256": "e97d8fc9f9317fbc23161c56d204f59df5a056e595e8084010bf80fd967792c7"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/deviceinfo/UpdaterCard.kt",
+    "bytes": 13199,
+    "sha256": "4f3fabea30c85c352f90780536aebb8b6d423421365b905d3a1b3ac033f23e2b"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeDialogStyle.java",
+    "bytes": 3346,
+    "sha256": "16d8f9d7a6afcfebfb03e08c49b770068479fac80c719ff088769277b05256e8"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeIllustrationClock.kt",
+    "bytes": 1558,
+    "sha256": "b30cefe6c2a021cf93b4080f74fab8318c1518c257977feadf32129216475437"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeIllustrationMotion.java",
+    "bytes": 743,
+    "sha256": "cf8ff6b875775b2d56c647502079ce1c392d70c73b76a3deec20d6f3aba6f6e1"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeIllustrations.kt",
+    "bytes": 3083,
+    "sha256": "ffbe5cfa922b316e7977d5cba3ddb40e9afaed12001df85315e6d8068a78b691"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeLayerDrawable.java",
+    "bytes": 5250,
+    "sha256": "3b937614d42b35e8dc5fae54c2b3633429de2db196b37cd424853d7e2eb2f36e"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeResources.java",
+    "bytes": 4862,
+    "sha256": "7846e8f722edca60495ea8d213ce2b3e4beba7f8fc41dbb6b52d49ef0421c97b"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeSpaAdapters.kt",
+    "bytes": 6180,
+    "sha256": "0da17608264e31555442c7f57e8b769bf9a3a7a793553813ea51d9bc67779688"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeStatePolicy.java",
+    "bytes": 1105,
+    "sha256": "f2c86b451d8a8826c242345f3ce062d663feca07c8dcc4be66281dafb13ee0fb"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeToggleGeometry.java",
+    "bytes": 499,
+    "sha256": "b971c352efc4f1c6a69257325984d6f51d15f646722d8bfccc7d1d06c72125cd"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeUpdatePresentation.kt",
+    "bytes": 1117,
+    "sha256": "b07dc1f372b37412ba678aef76158b2eebc2382ea2419311f9624cddbfc463d0"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeUpdaterCompose.kt",
+    "bytes": 12248,
+    "sha256": "be3c298b0c8e17b18190b25f43e7cb1b88536c0e591d13db213d70ad602f9b96"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/forge/ForgeUpdaterControls.kt",
+    "bytes": 7901,
+    "sha256": "c3b744dd9e975a0cd75abe5248fd493b2eae48e1e26d7b397496d9505fb73b0f"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/preferences/PreferencesActivity.kt",
+    "bytes": 1610,
+    "sha256": "f41e9f97f6812ec265f6e4ff6717f36369185cf81cf703563a2075930b68309f"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/preferences/PreferencesScreen.kt",
+    "bytes": 8524,
+    "sha256": "311204b301fd15d3c0aadb5cc91f8fa947fa2a16226efdb7ea48f0b6d844099a"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/ui/CollapseBar.kt",
+    "bytes": 3423,
+    "sha256": "20152bbb4b9d0dfe122c4a5b8270b34c2bd0d68fc4e91f9db652d11f16ca3c53"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/action/UpdateActionDialog.kt",
+    "bytes": 1543,
+    "sha256": "ee0bb7c6fcd3ec2359f752681b14643b1a36d5b5dab80f5accfbc6255774782c"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/button/ActionBar.kt",
+    "bytes": 6509,
+    "sha256": "8badf40698cd1872dfa490467869249f8f926094882423989635fdb99231453e"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/state/UpdateItemState.kt",
+    "bytes": 966,
+    "sha256": "c37222a913e11abef0b470b3d614f098f33d6d20a3ad2139b593a9613712dfa4"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/state/UpdateItemStateMapper.kt",
+    "bytes": 8526,
+    "sha256": "5e58b413684e790f9cab54acb6fd88551086aa5a5677f81be6e44bda07ed6bbc"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt",
+    "bytes": 13172,
+    "sha256": "cba9d5f9b49aaa5edce0e15ae886e4cbc4ae7f6794c7f95bde86a30c0e8e17fc"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/UpdateZeroStatePreference.kt",
+    "bytes": 3089,
+    "sha256": "fd4523bbd5b63fe3c0b5869ecddce8ae6bf37b4ee13e782f212ab628d0f6a0d8"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/UpdatesActivity.java",
+    "bytes": 8816,
+    "sha256": "e582720569f88e89e556fb316bce414f19fc00be49e1b4d59ce371d49c693b4d"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updatescheck/UpdatesCheck.kt",
+    "bytes": 7492,
+    "sha256": "f6633d832c43f771913255afdf480f007b55301628859b1b0ffb9e31d77694e6"
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/UpdatesScaffoldActivity.kt",
+    "bytes": 14553,
+    "sha256": "de63b10b3b382e69de3c9cde23e6371d5527c8e78523fac1dff1ee857cf45fbe"
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_upd_badge_launcher.xml",
+    "bytes": 266,
+    "sha256": "0b57720115c394261a6baa2529abc51576bab14c1184bf1af257b282281f3abe"
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_upd_badge_monochrome.xml",
+    "bytes": 714,
+    "sha256": "d7aa3c892bbb0d7d8dcbaeb523c3c0fddcf025984b8d4899df1e886ed5b063a8"
+  },
+  {
+    "path": "app/src/main/res/layout/progress_dialog.xml",
+    "bytes": 1254,
+    "sha256": "2fccc52b2ad0dc4a49da4ae2ea58940b3a2d0532222cbabed841873e8585fe4c"
+  },
+  {
+    "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+    "bytes": 433,
+    "sha256": "2638ebe02a6588338eeba90ec68cf2222123a1773eab8a8c2533c4816a0c1e92"
+  },
+  {
+    "path": "app/src/main/res/values/cg_updater_english.xml",
+    "bytes": 109,
+    "sha256": "b2a75d72b79411d251a2245086334897ff2199c4a3db02516cf5670008e1c16d"
+  },
+  {
+    "path": "app/src/main/res/values/cg_updater_icon.xml",
+    "bytes": 115,
+    "sha256": "eb6727108baf69c164ff2cf83e63b5e79b117a05462786f4c164e848834ff108"
+  }
+]

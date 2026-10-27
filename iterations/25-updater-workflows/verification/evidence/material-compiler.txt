@@ -1,0 +1,40 @@
+
+
+
+
+
+C:/Users/spencerm/Craftageddon Assets/Android-16-Themed/iterations/25-updater-workflows/Updater-forge-workflows.patch:178: trailing whitespace.
+/*
+C:/Users/spencerm/Craftageddon Assets/Android-16-Themed/iterations/25-updater-workflows/Updater-forge-workflows.patch:179: trailing whitespace.
+ * SPDX-FileCopyrightText: 2026 Craftageddon
+C:/Users/spencerm/Craftageddon Assets/Android-16-Themed/iterations/25-updater-workflows/Updater-forge-workflows.patch:180: trailing whitespace.
+ * SPDX-License-Identifier: CC0-1.0
+C:/Users/spencerm/Craftageddon Assets/Android-16-Themed/iterations/25-updater-workflows/Updater-forge-workflows.patch:181: trailing whitespace.
+ */
+C:/Users/spencerm/Craftageddon Assets/Android-16-Themed/iterations/25-updater-workflows/Updater-forge-workflows.patch:182: trailing whitespace.
+package org.lineageos.updater.forge;
+warning: squelched 948 whitespace errors
+warning: 953 lines add whitespace errors.
+
+
+
+
+
+
+
+
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+warning: unknown enum constant Scope.LIBRARY_GROUP
+  reason: class file for androidx.annotation.RestrictTo$Scope not found
+Note: C:\Users\spencerm\Craftageddon Assets\Android-16-Themed\iterations\25-updater-workflows\native-patch\packages\apps\Updater\app\src\main\java\org\lineageos\updater\forge\ForgeLayerDrawable.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 warnings
+
+
+
+
+
+PASS phases=13 stateCombinations=234
+

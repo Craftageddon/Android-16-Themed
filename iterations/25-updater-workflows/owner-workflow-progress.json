@@ -1,0 +1,28 @@
+{
+  "workflow": "W-04",
+  "revision": "6d50e0bf1b16fe7bca818375a3e734f4959e2e57",
+  "sourceArtScreensAuthored": [
+    "scaffold and dark palette",
+    "device banner and link actions",
+    "operation cards/actions/progress",
+    "A/B and non-A/B preferences",
+    "AC-forced-on locked switch",
+    "interval picker",
+    "operation dialogs",
+    "legacy import progress/success/error",
+    "checking/offline/error/zero illustrations",
+    "adaptive application icon and scoped action glyphs"
+  ],
+  "tvQr": "Native encoded data/generator preserved; not simulated as a working code",
+  "stillOpen": [
+    "Three legacy/unbound source-family consumer reviews",
+    "Compile actual SPA adapters and complete private Updater owners in pinned Soong",
+    "Effective overlay/resource selection",
+    "Android layout/scroll/input/accessibility/lifecycle and animator behavior",
+    "Physical Thor acceptance"
+  ],
+  "fullSourceFamilyReviewComplete": false,
+  "fullPinnedNativeBuild": "NOT RUN",
+  "fullWorkflowComplete": false,
+  "wholeGoalComplete": false
+}

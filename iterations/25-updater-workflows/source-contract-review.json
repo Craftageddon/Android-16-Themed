@@ -1,0 +1,288 @@
+{
+  "revision": "6d50e0bf1b16fe7bca818375a3e734f4959e2e57",
+  "pinnedSourceFilesVerified": 90,
+  "scope": "Current source phase/action contract inherited from24 and rechecked in25; presentation authored; full native acceptance NOT RUN.",
+  "phaseBindingsProposed": [
+    {
+      "phase": "IDLE",
+      "nativeTitleResource": null,
+      "nativeDefaultEnglish": null,
+      "proposedMaterialRole": "COLD",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "DOWNLOADING",
+      "nativeTitleResource": "downloading_notification",
+      "nativeDefaultEnglish": "Downloading",
+      "proposedMaterialRole": "ACTIVE",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "DOWNLOAD_PAUSED",
+      "nativeTitleResource": "download_paused_notification",
+      "nativeDefaultEnglish": "Download paused",
+      "proposedMaterialRole": "COLD",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "DOWNLOAD_ERROR",
+      "nativeTitleResource": "download_paused_error_notification",
+      "nativeDefaultEnglish": "Download error",
+      "proposedMaterialRole": "ERROR",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "VERIFYING",
+      "nativeTitleResource": "list_verifying_update",
+      "nativeDefaultEnglish": "Verifying update",
+      "proposedMaterialRole": "ACTIVE",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "VERIFICATION_FAILED",
+      "nativeTitleResource": "verification_failed_notification",
+      "nativeDefaultEnglish": "Verification failed",
+      "proposedMaterialRole": "ERROR",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "VERIFIED",
+      "nativeTitleResource": "download_completed_notification",
+      "nativeDefaultEnglish": "Download completed",
+      "proposedMaterialRole": "COLD",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "INSTALLING_RECOVERY",
+      "nativeTitleResource": "dialog_prepare_zip_message",
+      "nativeDefaultEnglish": "Preliminary update preparation",
+      "proposedMaterialRole": "ACTIVE",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "INSTALLING",
+      "nativeTitleResource": "preparing_ota_first_boot",
+      "nativeDefaultEnglish": "Preparing for first boot",
+      "proposedMaterialRole": "ACTIVE",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "FINALIZING",
+      "nativeTitleResource": "finalizing_package",
+      "nativeDefaultEnglish": "Finalizing package installation",
+      "proposedMaterialRole": "ACTIVE",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "INSTALLATION_SUSPENDED",
+      "nativeTitleResource": "installation_suspended_notification",
+      "nativeDefaultEnglish": "Installation suspended",
+      "proposedMaterialRole": "COLD",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "INSTALLATION_FAILED",
+      "nativeTitleResource": "update_failed_notification",
+      "nativeDefaultEnglish": "Update failed",
+      "proposedMaterialRole": "ERROR",
+      "bindingImplemented": true
+    },
+    {
+      "phase": "WAITING_FOR_REBOOT",
+      "nativeTitleResource": "installing_update_finished",
+      "nativeDefaultEnglish": "Update pending reboot",
+      "proposedMaterialRole": "COLD",
+      "bindingImplemented": true
+    }
+  ],
+  "actions": [
+    {
+      "action": "START_DOWNLOAD",
+      "nativeTitleResource": "action_download",
+      "nativeDefaultEnglish": "Download",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "PAUSE_DOWNLOAD",
+      "nativeTitleResource": "action_pause",
+      "nativeDefaultEnglish": "Pause",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "RESUME_DOWNLOAD",
+      "nativeTitleResource": "action_resume",
+      "nativeDefaultEnglish": "Resume",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "CANCEL_DOWNLOAD",
+      "nativeTitleResource": "android:cancel",
+      "nativeDefaultEnglish": null,
+      "androidFrameworkStringNotInvented": true,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "START_INSTALL",
+      "nativeTitleResource": "action_install",
+      "nativeDefaultEnglish": "Install",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "PAUSE_INSTALL",
+      "nativeTitleResource": "action_pause",
+      "nativeDefaultEnglish": "Pause",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "RESUME_INSTALL",
+      "nativeTitleResource": "action_resume",
+      "nativeDefaultEnglish": "Resume",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "CANCEL_INSTALL",
+      "nativeTitleResource": "android:cancel",
+      "nativeDefaultEnglish": null,
+      "androidFrameworkStringNotInvented": true,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "REBOOT",
+      "nativeTitleResource": "reboot",
+      "nativeDefaultEnglish": "Reboot",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "SHOW_INFO",
+      "nativeTitleResource": "action_info",
+      "nativeDefaultEnglish": "Info",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "OPEN_GUIDE",
+      "nativeTitleResource": "action_open_guide",
+      "nativeDefaultEnglish": "Open guide",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "DELETE",
+      "nativeTitleResource": "menu_delete_update",
+      "nativeDefaultEnglish": "Delete",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "EXPORT",
+      "nativeTitleResource": "menu_export_update",
+      "nativeDefaultEnglish": "Export update",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    },
+    {
+      "action": "VIEW_DOWNLOADS",
+      "nativeTitleResource": "menu_view_downloads",
+      "nativeDefaultEnglish": "View on %1$s Downloads",
+      "androidFrameworkStringNotInvented": false,
+      "handlerAndEnablementToPreserve": true
+    }
+  ],
+  "checkStates": [
+    {
+      "state": "Idle",
+      "presentation": "No status illustration; original button/timestamp rules"
+    },
+    {
+      "state": "Checking",
+      "presentation": "Active progress illustration; source minimum display is 2000ms"
+    },
+    {
+      "state": "NoInternet",
+      "presentation": "Error illustration, one iteration; distinct actual English message"
+    },
+    {
+      "state": "Error",
+      "presentation": "Error illustration, one iteration; distinct actual English message"
+    }
+  ],
+  "illustrationSourceContracts": [
+    {
+      "resource": "sysupdater_error",
+      "viewport": [
+        192,
+        192
+      ],
+      "fps": 60,
+      "firstFrame": 0,
+      "lastFrameExclusive": 60,
+      "durationSeconds": 1.0,
+      "layers": 3,
+      "embeddedAssets": 0,
+      "newMaterialAndLightTreatmentAuthored": false
+    },
+    {
+      "resource": "sysupdater_progress",
+      "viewport": [
+        192,
+        192
+      ],
+      "fps": 60,
+      "firstFrame": 0,
+      "lastFrameExclusive": 120,
+      "durationSeconds": 2.0,
+      "layers": 6,
+      "embeddedAssets": 0,
+      "newMaterialAndLightTreatmentAuthored": false
+    }
+  ],
+  "requiredFirstImplementation": "Pass the actual UpdateOperationPhase through UpdateItemState/mapper before rendering. Paused/suspended operations can retain determinate progress and must remain cold. Do not infer active state from localized status text, isInstalling, or non-null progress.",
+  "ownerTargets": [
+    "UpdatesScaffoldActivity.kt",
+    "deviceinfo/UpdaterCard.kt",
+    "deviceinfo/DeviceInfoBanner.kt",
+    "updates/UpdateItem.kt",
+    "updates/button/ActionBar.kt",
+    "updatescheck/UpdatesCheck.kt",
+    "updates/UpdateZeroStatePreference.kt",
+    "updates/action/UpdateActionDialog.kt",
+    "preferences/PreferencesScreen.kt",
+    "preferences/PreferencesActivity.kt"
+  ],
+  "preserve": [
+    "Controller/repository/installer/notification operations and safety dialogs",
+    "Exact action enablement, click callbacks, real progress/ETA/file/build data",
+    "Narrow/wide 600dp layout branch, window density and native text measurement",
+    "Default English strings, existing localization resources and live text",
+    "Check-state minimum duration and one-shot error versus looping progress roles",
+    "Lineage mark geometry/brand identity and actual build information"
+  ],
+  "requiredAuthoring": [
+    "Cold scalable card/button/dialog/rail treatments with separate neutral masks",
+    "Actual Compose owner and state bindings; no whole global-library swap",
+    "Dedicated progress/error illustration treatments and motion rules",
+    "Source-backed compact/wide/large-text/error/paused/blocked/dialog fixtures"
+  ],
+  "requiredGates": [
+    "Source and patch parity",
+    "Actual classes/resources compatibility compilation",
+    "State/mask/layout/English checks and visual passes",
+    "Pinned Soong/SPA/Material dependency build",
+    "Android inflation/render/input checks",
+    "Physical Thor comparison and final whole-goal independent check"
+  ],
+  "artifact24Complete": false,
+  "ledgerDecisionsClosedHere": 0,
+  "nativeCodeExecuted": false,
+  "deviceModified": false,
+  "wholeGoalComplete": false,
+  "pinnedOriginalSourceFiles": 76,
+  "pinnedUiDependencyFiles": 14
+}

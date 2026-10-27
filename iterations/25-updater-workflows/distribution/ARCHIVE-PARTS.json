@@ -1,0 +1,18 @@
+{
+  "archive": "complete-assets.zip",
+  "bytes": 16568437,
+  "sha256": "8f9a4ddab118110b8ec11ef500d6f0dd51d5ea29d53fb2b3f21bdaacb6ce2aa9",
+  "parts": [
+    {
+      "file": "complete-assets.zip.part01",
+      "bytes": 12582912,
+      "sha256": "18d2fc4200f179fc5388ec892cbf893799374a7c96abec9b4e2752cbacf8342c"
+    },
+    {
+      "file": "complete-assets.zip.part02",
+      "bytes": 3985525,
+      "sha256": "cc1dc0c9009652d6d82842f43ac2a140aa3299288d96e1e6d882036816ae4eae"
+    }
+  ],
+  "restore": "Run Restore-Archive.ps1 from this directory; it verifies each part and the assembled ZIP. Full ZIP is also preserved in local deliverables."
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/button/ActionBar.kt",
+    "input": "source/pre-glyph-native/updates/button/ActionBar.kt",
+    "inputSha256": "38b3df42be744b1476a49b2230f993a4cebb0ccdb5ad96e21fe20995d9f26d02",
+    "patchedSha256": "8badf40698cd1872dfa490467869249f8f926094882423989635fdb99231453e",
+    "operations": [
+      {
+        "before": "import com.android.settingslib.spa.widget.scaffold.MoreOptionsAction\n",
+        "after": "import org.lineageos.updater.forge.ForgeMoreOptionsAction as MoreOptionsAction\n",
+        "count": 1
+      },
+      {
+        "before": "import org.lineageos.updater.forge.ForgeUpdateIconButton\n",
+        "after": "import org.lineageos.updater.forge.ForgeUpdateIconButton\nimport org.lineageos.updater.forge.ForgeUpdateGlyph\n",
+        "count": 1
+      },
+      {
+        "before": "                    Icon(\n                        imageVector = button.imageVector,\n                        contentDescription = button.contentDescription,\n                        modifier = Modifier.size(SettingsDimension.itemIconSize),\n                    )\n",
+        "after": "                    if (button.forgeFamily != null) {\n                        ForgeUpdateGlyph(button.forgeFamily, button.contentDescription,\n                            Modifier.size(SettingsDimension.itemIconSize))\n                    } else {\n                    Icon(\n                        imageVector = button.imageVector,\n                        contentDescription = button.contentDescription,\n                        modifier = Modifier.size(SettingsDimension.itemIconSize),\n                    )\n                    }\n",
+        "count": 1
+      },
+      {
+        "before": "        val contentDescription: String? = null,\n",
+        "after": "        val contentDescription: String? = null,\n        val forgeFamily: String? = null,\n",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt",
+    "input": "source/pre-glyph-native/updates/UpdateItem.kt",
+    "inputSha256": "4fe16b7be73400627b37a8f5cb616bb5dfd521a8ba7680db2a52eab4ae76c3c4",
+    "patchedSha256": "cba9d5f9b49aaa5edce0e15ae886e4cbc4ae7f6794c7f95bde86a30c0e8e17fc",
+    "operations": [
+      {
+        "before": "import org.lineageos.updater.forge.ForgeUpdateProgressInfo\n",
+        "after": "import org.lineageos.updater.forge.ForgeUpdateProgressInfo\nimport org.lineageos.updater.forge.ForgeUpdateGlyph\nimport androidx.compose.foundation.layout.size\nimport androidx.compose.ui.unit.dp\n",
+        "count": 1
+      },
+      {
+        "before": "                            Icon(\n                                imageVector = Icons.Outlined.Archive,\n                                contentDescription = null,\n                            )",
+        "after": "                            ForgeUpdateGlyph(\"cg_upd_local\", null, Modifier.size(32.dp))",
+        "count": 1
+      },
+      {
+        "before": "                            Icon(\n                                imageVector = Icons.Outlined.CloudDownload,\n                                contentDescription = null,\n                            )",
+        "after": "                            ForgeUpdateGlyph(\"cg_upd_remote\", null, Modifier.size(32.dp))",
+        "count": 1
+      },
+      {
+        "before": "        imageVector = Icons.Outlined.Pause,\n",
+        "after": "        imageVector = Icons.Outlined.Pause,\n        forgeFamily = \"cg_upd_pause\",\n",
+        "count": 1
+      },
+      {
+        "before": "        imageVector = Icons.Outlined.PlayArrow,\n",
+        "after": "        imageVector = Icons.Outlined.PlayArrow,\n        forgeFamily = \"cg_upd_resume\",\n",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/ui/CollapseBar.kt",
+    "input": "source/pre-glyph-native/ui/CollapseBar.kt",
+    "inputSha256": "152f1c326a9a6be0d719e40ac2379ee2f628cbdbc7d9cee3d2586079b076f0c9",
+    "patchedSha256": "20152bbb4b9d0dfe122c4a5b8270b34c2bd0d68fc4e91f9db652d11f16ca3c53",
+    "operations": [
+      {
+        "before": "import org.lineageos.updater.forge.forgePanel\n",
+        "after": "import org.lineageos.updater.forge.forgePanel\nimport org.lineageos.updater.forge.ForgeUpdateGlyph\n",
+        "count": 1
+      },
+      {
+        "before": "        Icon(\n            imageVector =\n                if (expanded) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown,\n            contentDescription = null,\n            modifier = Modifier\n                .size(SettingsDimension.itemIconSize)\n                .clip(CircleShape)\n                .background(MaterialTheme.colorScheme.surfaceContainerHighest),\n        )\n",
+        "after": "        ForgeUpdateGlyph(\n            if (expanded) \"cg_upd_collapse\" else \"cg_upd_expand\", null,\n            Modifier.size(SettingsDimension.itemIconSize),\n        )\n",
+        "count": 1
+      }
+    ]
+  }
+]

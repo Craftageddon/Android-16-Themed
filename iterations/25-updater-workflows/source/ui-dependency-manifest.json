@@ -1,0 +1,153 @@
+[
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/theme/SettingsDimension.kt",
+    "gitBlobSha1": "a8a8cfc1e6473eb9264855ae45bbb0e017f925cb",
+    "sha256": "4a9b0995f989f0925e41451c0738009b62bc9d66c3be2aba8b897fbae3c857f8",
+    "bytes": 3067,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/theme/SettingsDimension.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/theme/SettingsDimension.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/theme/SettingsSpace.kt",
+    "gitBlobSha1": "69b4abb4c732b35d44078c92387fcd01c609fddf",
+    "sha256": "8fc3340651ab101a7383210278c56d53b694aace0098d79548b4f9737ef8f8d1",
+    "bytes": 1141,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/theme/SettingsSpace.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/theme/SettingsSpace.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/theme/SettingsTheme.kt",
+    "gitBlobSha1": "03e8f7d2a2d897ef1784c877b04566a5ae3a4e4e",
+    "sha256": "4e0f0d363bb32b1d1a737be9b49306e5cf92fb8f9f3e877d25e4f2264acc8278",
+    "bytes": 1571,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/theme/SettingsTheme.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/theme/SettingsTheme.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/dialog/SettingsAlertDialog.kt",
+    "gitBlobSha1": "ddd28dd30fc129008f35206beb1365b5512e017b",
+    "sha256": "6ece0e8d67e4d2758dfe3e7f177d5e60690a3fb2416c2e6c41c7c98bcdca0c19",
+    "bytes": 5797,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/dialog/SettingsAlertDialog.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/dialog/SettingsAlertDialog.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/Preference.kt",
+    "gitBlobSha1": "5d583851e6a54ff584bff5939775a9569700a33d",
+    "sha256": "e07011426021c0bd281e2b340c0a4ccee63251a208aa1388f860644848182234",
+    "bytes": 3977,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/Preference.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/Preference.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/SwitchPreference.kt",
+    "gitBlobSha1": "213530e0e11213053efe10d3df7aacc1bd49bc9c",
+    "sha256": "a9787fdc3bf4ffedfbf4be4d0f834ac88eb7f346a5e4440aa61240051fc0bb7a",
+    "bytes": 5942,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/SwitchPreference.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/SwitchPreference.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/scaffold/SettingsScaffold.kt",
+    "gitBlobSha1": "2b24ee382dc1c074ac7b78e4d6db86cb4c809ee5",
+    "sha256": "a7a239b1d79cb8d41fb49f0f218c3ff7daa231ac9983a1409abbf77a09d0f881",
+    "bytes": 3659,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/scaffold/SettingsScaffold.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/scaffold/SettingsScaffold.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/ui/ProgressBar.kt",
+    "gitBlobSha1": "2988be84b476e776188ca8f630986bd1d8a7d473",
+    "sha256": "95e781a8baa980bf08a84f40e6ef7923b42d590b6f6aab7043d429d8b36d9ab1",
+    "bytes": 3504,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/ui/ProgressBar.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/ui/ProgressBar.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/util/EntryLogger.kt",
+    "gitBlobSha1": "8ff436866502f38eeeffc8ed5d1a43118b16a415",
+    "sha256": "f474b9f1d9f4ba5073e29b3aba418776014f773faf19c0c8831b276b20359ac9",
+    "bytes": 2151,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/util/EntryLogger.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/framework/util/EntryLogger.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/BasePreference.kt",
+    "gitBlobSha1": "bac03f0fb4b73ddb12ef888dcf42a826dd373509",
+    "sha256": "47b45e7b8ea77e07a368261f56cd2d2776201ac3478ae61378e3386b95234af1",
+    "bytes": 2852,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/BasePreference.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/BasePreference.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/ui/Switch.kt",
+    "gitBlobSha1": "8619f31ab0ac569129e65ea153693f6944638781",
+    "sha256": "65c784912a7ff88797b283c41090063354f034fd724f2a8e7090c0f4be4e6de2",
+    "bytes": 3384,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/ui/Switch.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/ui/Switch.kt",
+    "sourceOnlyNotExecuted": true
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/dialog/SettingsAlertDialogWithIcon.kt",
+    "gitBlobSha1": "e143545066461a9d011269bb5227826694793128",
+    "sha256": "21580884423c4896939a0c2b341e2a6dabf13952d848f71b057c033a3558b7c8",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/dialog/SettingsAlertDialogWithIcon.kt",
+    "bytes": 2552,
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/dialog/SettingsAlertDialogWithIcon.kt"
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/ListPreference.kt",
+    "gitBlobSha1": "c6777def1e42ecaecfb44c407e50aaff1417ff6f",
+    "sha256": "d7027bc52228961ffcc02aeaa5fcf9b29839eea9131c9f428ac97b7fa07536b7",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/ListPreference.kt",
+    "bytes": 4915,
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/preference/ListPreference.kt"
+  },
+  {
+    "project": "frameworks/base",
+    "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+    "path": "packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/scaffold/MoreOptions.kt",
+    "gitBlobSha1": "d92a863e53bd07e835ee4930f7ffd819633f56a0",
+    "sha256": "e679d98f2b24dc1ff23a7c45d10ec9efd80b430b69622239d0554c0aee406450",
+    "bytes": 2600,
+    "url": "https://raw.githubusercontent.com/LineageOS/android_frameworks_base/7f6de40b6429462d47ba9ba351b99943269c8067/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/scaffold/MoreOptions.kt",
+    "saved": "source/actual-ui-dependencies/frameworks/base/packages/SettingsLib/Spa/spa/src/com/android/settingslib/spa/widget/scaffold/MoreOptions.kt"
+  }
+]

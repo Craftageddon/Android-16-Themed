@@ -1,0 +1,1805 @@
+--- a/app/src/main/java/org/lineageos/updater/deviceinfo/actions/DeviceInfoActionButtons.kt
++++ b/app/src/main/java/org/lineageos/updater/deviceinfo/actions/DeviceInfoActionButtons.kt
+@@ -3,12 +3,14 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater.deviceinfo.actions
+ 
+ import android.content.Intent
+ import androidx.compose.foundation.background
+ import androidx.compose.foundation.layout.Arrangement
+-import androidx.compose.foundation.layout.Row
++import androidx.compose.foundation.layout.FlowRow
++import androidx.compose.foundation.layout.ExperimentalLayoutApi
+ import androidx.compose.foundation.layout.fillMaxWidth
+ import androidx.compose.foundation.layout.padding
+ import androidx.compose.material3.ButtonDefaults
+@@ -28,45 +30,44 @@
+ import com.android.settingslib.spa.framework.theme.SettingsSpace.small1
+ import com.android.settingslib.spa.framework.theme.SettingsTheme
+ import org.lineageos.updater.R
++import org.lineageos.updater.forge.ForgeUpdateButton
+ import org.lineageos.updater.deviceinfo.DeviceInfoUtils
+ 
++@OptIn(ExperimentalLayoutApi::class)
+ @Composable
+ fun DeviceInfoActionButtons(modifier: Modifier = Modifier) {
+     val context = LocalContext.current
+ 
+-    Row(
++    FlowRow(
+         modifier = modifier
+             .fillMaxWidth()
+-            .clip(
+-                CornerExtraLarge1.copy(
+-                    topStart = CornerExtraSmall2.topStart,
+-                    topEnd = CornerExtraSmall2.topEnd,
+-                )
+-            )
+-            .background(MaterialTheme.colorScheme.surfaceBright)
++            // Each button retains its own fixed-corner steel housing.
+             .padding(SettingsDimension.itemPaddingAround),
+         horizontalArrangement = Arrangement.spacedBy(small1),
++        verticalArrangement = Arrangement.spacedBy(small1),
+     ) {
+         val buttonColors = ButtonDefaults.textButtonColors(
+             contentColor = MaterialTheme.colorScheme.onSurface,
+         )
+-        TextButton(
++        ForgeUpdateButton(
++            outlined = true,
+             onClick = {
+                 val url = context.getString(R.string.menu_changelog_url, DeviceInfoUtils.device)
+                 val intent = Intent(Intent.ACTION_VIEW, url.toUri())
+                 context.startActivity(intent)
+             },
+-            colors = buttonColors,
++            // Runtime neutral masks replace only the presentation.
+         ) {
+             Text(text = stringResource(R.string.show_changelog))
+         }
+-        TextButton(
++        ForgeUpdateButton(
++            outlined = true,
+             onClick = {
+                 val url = context.getString(R.string.report_issue_url)
+                 val intent = Intent(Intent.ACTION_VIEW, url.toUri())
+                 context.startActivity(intent)
+             },
+-            colors = buttonColors,
++            // Runtime neutral masks replace only the presentation.
+         ) {
+             Text(text = stringResource(R.string.report_issues))
+         }
+--- a/app/src/main/java/org/lineageos/updater/deviceinfo/actions/DeviceInfoTvAction.kt
++++ b/app/src/main/java/org/lineageos/updater/deviceinfo/actions/DeviceInfoTvAction.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater.deviceinfo.actions
+ 
+ import androidx.compose.foundation.layout.Column
+@@ -22,12 +23,14 @@
+ import com.android.settingslib.spa.framework.theme.SettingsTheme
+ import com.android.settingslib.spa.widget.ui.SettingsBody
+ import org.lineageos.updater.R
++import org.lineageos.updater.forge.forgePanel
+ 
+ @Composable
+ fun DeviceInfoTvAction(modifier: Modifier = Modifier) {
+     Column(
+         modifier = modifier
+             .fillMaxWidth()
++            .forgePanel()
+             .padding(SettingsDimension.itemPadding),
+         horizontalAlignment = Alignment.CenterHorizontally,
+     ) {
+--- a/app/src/main/java/org/lineageos/updater/deviceinfo/UpdaterCard.kt
++++ b/app/src/main/java/org/lineageos/updater/deviceinfo/UpdaterCard.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater.deviceinfo
+ 
+ import android.graphics.RuntimeShader
+@@ -11,7 +12,8 @@
+ import androidx.compose.foundation.layout.Arrangement
+ import androidx.compose.foundation.layout.Box
+ import androidx.compose.foundation.layout.Column
+-import androidx.compose.foundation.layout.Row
++import androidx.compose.foundation.layout.FlowRow
++import androidx.compose.foundation.layout.ExperimentalLayoutApi
+ import androidx.compose.foundation.layout.Spacer
+ import androidx.compose.foundation.layout.fillMaxWidth
+ import androidx.compose.foundation.layout.height
+@@ -45,6 +47,7 @@
+ import com.android.settingslib.spa.framework.theme.SettingsSpace
+ import com.android.settingslib.spa.framework.theme.SettingsTheme
+ import org.lineageos.updater.R
++import org.lineageos.updater.forge.ForgeSteelPanel
+ import kotlin.math.max
+ import kotlin.math.roundToInt
+ 
+@@ -190,6 +193,7 @@
+     }
+ """
+ 
++@OptIn(ExperimentalLayoutApi::class)
+ @Composable
+ fun UpdaterCard(
+     buildVersion: String,
+@@ -224,25 +228,16 @@
+     }
+     val markWidth = markHeight * MARK_WIDTH_MULTIPLIER
+ 
+-    Card(
++    ForgeSteelPanel(
+         modifier = modifier.fillMaxWidth(),
+-        shape = shape,
+-        colors = CardDefaults.cardColors(
+-            containerColor = Color.Transparent,
+-            contentColor = onBrandColor,
+-        ),
+     ) {
+         Box(
+             modifier = Modifier
+                 .fillMaxWidth()
+-                .background(brandColor)
+-                .updaterHeaderPattern(
+-                    patternColor = patternColor,
+-                    sheenColor = sheenColor,
+-                ),
++                .background(Color.Transparent), // Native mark/version geometry stays unchanged.
+         ) {
+             Column(modifier = Modifier.fillMaxWidth()) {
+-                Row(
++                FlowRow(
+                     modifier = Modifier
+                         .fillMaxWidth()
+                         .padding(SettingsDimension.paddingLarge),
+@@ -269,7 +264,7 @@
+ 
+                 Spacer(modifier = Modifier.height(SettingsSpace.medium5))
+ 
+-                Row(
++                FlowRow(
+                     modifier = Modifier
+                         .fillMaxWidth()
+                         .padding(
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeDialogStyle.java
+@@ -0,0 +1,65 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.updater.forge;
++
++import android.app.AlertDialog;
++import android.content.res.ColorStateList;
++import android.graphics.Rect;
++import android.view.View;
++import android.view.ViewGroup;
++import android.widget.Button;
++import android.widget.TextView;
++import com.google.android.material.progressindicator.CircularProgressIndicator;
++
++/** Presentation only. Dialog cancelability, messages, listeners and show/dismiss order stay with the owner. */
++public final class ForgeDialogStyle {
++    private static final int TEXT = 0xffeee7d9;
++    private static final int COLD = 0xffb5bdc6;
++    private static final int EMBER = 0xffe56620;
++
++    public static AlertDialog show(AlertDialog dialog, boolean running) {
++        dialog.show();
++        apply(dialog, running);
++        return dialog;
++    }
++    public static void apply(AlertDialog dialog, boolean running) {
++        if (dialog.getWindow() == null) return;
++        ForgeLayerDrawable panel = new ForgeLayerDrawable(dialog.getContext(), "cg_rf_panel", false);
++        panel.setFeatureActive(running);
++        dialog.getWindow().setBackgroundDrawable(panel);
++        styleTextAndProgress(dialog.getWindow().getDecorView(), running);
++        for (int which : new int[] {AlertDialog.BUTTON_POSITIVE, AlertDialog.BUTTON_NEGATIVE, AlertDialog.BUTTON_NEUTRAL}) {
++            Button button = dialog.getButton(which);
++            if (button == null) continue;
++            ForgeLayerDrawable body = new ForgeLayerDrawable(dialog.getContext(),
++                    which == AlertDialog.BUTTON_POSITIVE ? "cg_rf_button" : "cg_rf_field", true);
++            button.setBackground(body);
++            button.setMinWidth(Math.max(button.getMinWidth(), body.getIntrinsicWidth()));
++            button.setMinHeight(Math.max(button.getMinHeight(), body.getIntrinsicHeight()));
++            Rect padding = new Rect(); body.getPadding(padding);
++            button.setPadding(Math.max(button.getPaddingLeft(), padding.left),
++                    Math.max(button.getPaddingTop(), padding.top),
++                    Math.max(button.getPaddingRight(), padding.right),
++                    Math.max(button.getPaddingBottom(), padding.bottom));
++            button.setTextColor(new ColorStateList(
++                    new int[][] {new int[] {-android.R.attr.state_enabled}, new int[] {}},
++                    new int[] {0xff8f9ba7, TEXT}));
++        }
++    }
++    private static void styleTextAndProgress(View view, boolean running) {
++        if (view instanceof TextView) ((TextView) view).setTextColor(TEXT);
++        if (view instanceof CircularProgressIndicator) {
++            CircularProgressIndicator indicator = (CircularProgressIndicator) view;
++            indicator.setIndicatorColor(running ? EMBER : COLD);
++            indicator.setTrackColor(0xff27333e);
++            ForgeLayerDrawable ring = new ForgeLayerDrawable(view.getContext(), "cg_upd_switch_thumb", false);
++            ring.setFeatureActive(running); view.setBackground(ring);
++        }
++        if (view instanceof ViewGroup) {
++            ViewGroup group = (ViewGroup) view;
++            for (int i = 0; i < group.getChildCount(); i++) styleTextAndProgress(group.getChildAt(i), running);
++        }
++    }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeIllustrationClock.kt
+@@ -0,0 +1,40 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: Apache-2.0
++ * Uses the same pinned Updater Lottie timing inputs and iteration roles.
++ */
++package org.lineageos.updater.forge
++
++import androidx.compose.runtime.*
++import androidx.compose.ui.Modifier
++import androidx.lifecycle.Lifecycle
++import androidx.lifecycle.compose.LocalLifecycleOwner
++import com.airbnb.lottie.compose.*
++import org.lineageos.updater.R
++
++@Composable
++fun ForgeUpdateIllustration(
++    resId: Int, modifier: Modifier = Modifier,
++    iterations: Int = LottieConstants.IterateForever,
++) {
++    if (resId != R.raw.sysupdater_progress && resId != R.raw.sysupdater_error) {
++        org.lineageos.updater.ui.Lottie(resId,modifier,iterations)
++        return
++    }
++    key(resId) {
++        val lifecycle = LocalLifecycleOwner.current.lifecycle
++        val state by lifecycle.currentStateFlow.collectAsState()
++        val composition by rememberLottieComposition(LottieCompositionSpec.RawRes(resId))
++        val animation by animateLottieCompositionAsState(
++            composition, iterations = iterations,
++            isPlaying = state.isAtLeast(Lifecycle.State.STARTED),
++            restartOnPlay = false,
++            ignoreSystemAnimatorScale = false,
++            cancellationBehavior = LottieCancellationBehavior.Immediately,
++        )
++        ForgeIllustrationLayers(
++            if(resId==R.raw.sysupdater_error) ForgeIllustrationMotion.ERROR else ForgeIllustrationMotion.CHECKING,
++            animation, modifier,
++        )
++    }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeIllustrationMotion.java
+@@ -0,0 +1,16 @@
++package org.lineageos.updater.forge;
++/** Source animation progress drives presentation only; no clock or updater operation exists here. */
++public final class ForgeIllustrationMotion {
++ public static final int CHECKING=0, ERROR=1, READY=2;
++ private static float unit(float v) { return Float.isFinite(v) ? Math.max(0f,Math.min(1f,v)) : 0f; }
++ public static float emission(int kind,float progress) {
++  float p=unit(progress);
++  if(kind==READY)return 0f;
++  if(kind==ERROR) {
++   if(p<=0f||p>=1f)return 0f;
++   double wave=Math.sin(Math.PI*p);return (float)(.8*wave*wave);
++  }
++  return .65f+.35f*(float)Math.sin(Math.PI*p);
++ }
++ public static float rotation(int kind,float progress) { return kind==CHECKING?360f*unit(progress):0f; }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeIllustrations.kt
+@@ -0,0 +1,73 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.updater.forge
++
++import androidx.compose.foundation.layout.Box
++import androidx.compose.runtime.*
++import androidx.compose.ui.Modifier
++import androidx.compose.ui.draw.drawBehind
++import androidx.compose.ui.graphics.nativeCanvas
++import androidx.compose.ui.platform.LocalContext
++import androidx.compose.ui.platform.LocalDensity
++import androidx.compose.ui.semantics.*
++import org.lineageos.updater.R
++import kotlin.math.roundToInt
++
++data class ForgeGesture(val enabled: Boolean = true, val pressed: Boolean = false, val focused: Boolean = false)
++val LocalForgeGesture = staticCompositionLocalOf { ForgeGesture() }
++
++@Composable
++fun ForgeUpdateGlyph(family: String, description: String?, modifier: Modifier = Modifier) {
++    val gesture = LocalForgeGesture.current
++    val d = frame(family, true)
++    val semantics = if (description == null) modifier else modifier.semantics { contentDescription = description }
++    Box(semantics.drawBehind {
++        d.state = buildList {
++            if (gesture.enabled) add(android.R.attr.state_enabled)
++            if (gesture.pressed) add(android.R.attr.state_pressed)
++            if (gesture.focused) add(android.R.attr.state_focused)
++        }.toIntArray()
++        d.setFeatureActive(false)
++        d.setBounds(0,0,size.width.roundToInt(),size.height.roundToInt())
++        d.draw(drawContext.canvas.nativeCanvas)
++    })
++}
++
++@Composable
++fun ForgeIllustrationLayers(kind: Int, progress: Float, modifier: Modifier = Modifier) {
++    val family = when(kind) {
++        ForgeIllustrationMotion.ERROR -> "cg_upd_error"
++        ForgeIllustrationMotion.READY -> "cg_upd_ready"
++        else -> "cg_upd_scan"
++    }
++    val d = frame(family, false)
++    val context = LocalContext.current
++    val density = LocalDensity.current.density
++    val marker = remember(context,density) {
++        context.getDrawable(R.drawable.cg_upd_scan_motion)!!.mutate().also {
++            it.setTint(0xffffd083.toInt())
++        }
++    }
++    Box(modifier.drawBehind {
++        val canvas=drawContext.canvas.nativeCanvas
++        d.state=intArrayOf(android.R.attr.state_enabled)
++        d.setAlertPalette(kind==ForgeIllustrationMotion.ERROR)
++        d.setInputStrength(ForgeIllustrationMotion.emission(kind,progress))
++        d.setBounds(0,0,size.width.roundToInt(),size.height.roundToInt())
++        d.draw(canvas)
++        if(kind==ForgeIllustrationMotion.CHECKING) {
++            marker.setBounds(0,0,size.width.roundToInt(),size.height.roundToInt())
++            marker.alpha=(255*ForgeIllustrationMotion.emission(kind,progress)).roundToInt()
++            val saved=canvas.save()
++            canvas.rotate(ForgeIllustrationMotion.rotation(kind,progress),size.width/2,size.height/2)
++            marker.draw(canvas);canvas.restoreToCount(saved)
++        }
++    })
++}
++
++@Composable
++fun ForgeUpdateZeroIllustration(modifier: Modifier = Modifier) {
++    ForgeIllustrationLayers(ForgeIllustrationMotion.READY,1f,modifier)
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeLayerDrawable.java
+@@ -0,0 +1,98 @@
++package org.lineageos.updater.forge;
++
++import android.content.Context;
++import android.content.res.Resources;
++import android.graphics.Canvas;
++import android.graphics.ColorFilter;
++import android.graphics.PixelFormat;
++import android.graphics.PorterDuff;
++import android.graphics.Rect;
++import android.graphics.drawable.Drawable;
++
++/** Native compiled PNG/nine-patch layers; source geometry and light masks stay separate. */
++public final class ForgeLayerDrawable extends Drawable {
++    private static final int[] COLORS = {0xffdc5920, 0xffff4908, 0xffff5b0b,
++            0xffffd083, 0xffd5e7f2, 0xffffe5bc};
++    private final Drawable[] layers = new Drawable[7];
++    private boolean alertPalette;
++    private final boolean momentary;
++    private final int intrinsicWidth;
++    private final int intrinsicHeight;
++    private boolean featureActive;
++    private float featureStrength = 1f;
++    private float emissionStrength = 1f;
++    private int alpha = 255;
++    private ForgeStatePolicy policy = ForgeStatePolicy.resolve(true, false, false, false,
++            false, false, false);
++    public ForgeLayerDrawable(Context context, String family, boolean momentary) {
++        this(context.getResources(), context.getTheme(), family, momentary);
++    }
++    public ForgeLayerDrawable(Resources resources, Resources.Theme theme, String family, boolean momentary) {
++        this.momentary = momentary;
++        int[] ids = ForgeResources.layers(family); // Static R references survive resource shrinking.
++        for (int i = 0; i < layers.length; i++) {
++            layers[i] = resources.getDrawable(ids[i], theme).mutate();
++            if (i > 0) layers[i].setColorFilter(COLORS[i-1], PorterDuff.Mode.SRC_IN);
++        }
++        intrinsicWidth = layers[0].getIntrinsicWidth();
++        intrinsicHeight = layers[0].getIntrinsicHeight();
++        setState(new int[] {android.R.attr.state_enabled});
++    }
++    /** Runtime alert tint applies to neutral masks only; the cold material stays unchanged. */
++    public void setAlertPalette(boolean alert) {
++        if (alertPalette == alert) return;
++        alertPalette = alert;
++        int[] colors = alert ? new int[] {0xffb83d39, 0xffe13d3d, 0xffff8585,
++                0xffffd6ce, 0xffd5e7f2, 0xffffb0a8} : COLORS;
++        for (int i = 1; i < layers.length; i++)
++            layers[i].setColorFilter(colors[i-1], PorterDuff.Mode.SRC_IN);
++        invalidateSelf();
++    }
++    public void setFeatureActive(boolean active) {
++        if (featureActive != active || featureStrength != 1f) {
++            featureActive = active; featureStrength = 1f; onStateChange(getState());
++        }
++    }
++    /** Actual analog amplitude drives lighting; tiny raw-axis noise cannot flash at full gain. */
++    public void setInputStrength(float strength) {
++        float value = Float.isNaN(strength) ? 0f : Math.max(0f, Math.min(1f, strength));
++        if (featureStrength != value || featureActive != (value > 0f)) {
++            featureStrength = value; featureActive = value > 0f; onStateChange(getState());
++        }
++    }
++    private static boolean has(int[] states, int target) {
++        for (int state : states) if (state == target) return true;
++        return false;
++    }
++    @Override public boolean isStateful() { return true; }
++    @Override protected boolean onStateChange(int[] states) {
++        boolean semanticSelection = has(states, android.R.attr.state_checked)
++                || has(states, android.R.attr.state_selected)
++                || (momentary && has(states, android.R.attr.state_pressed));
++        emissionStrength = semanticSelection ? 1f : featureStrength;
++        policy = ForgeStatePolicy.resolve(has(states, android.R.attr.state_enabled),
++                has(states, android.R.attr.state_checked), has(states, android.R.attr.state_selected),
++                has(states, android.R.attr.state_focused), has(states, android.R.attr.state_pressed),
++                featureActive, momentary);
++        invalidateSelf(); return true;
++    }
++    @Override protected void onBoundsChange(Rect bounds) {
++        for (Drawable drawable : layers) drawable.setBounds(bounds);
++    }
++    @Override public void draw(Canvas canvas) {
++        layers[0].setAlpha(Math.round(alpha * policy.base)); layers[0].draw(canvas);
++        for (int i = 1; i < layers.length; i++) {
++            if (policy.gains[i-1] > 0) {
++                float strength = i == 5 ? 1f : emissionStrength; // Neutral focus is independent.
++                layers[i].setAlpha(Math.round(alpha * policy.gains[i-1] * strength)); layers[i].draw(canvas);
++            }
++        }
++    }
++    @Override public boolean getPadding(Rect padding) { return layers[0].getPadding(padding); }
++    @Override public int getIntrinsicWidth() { return intrinsicWidth; }
++    @Override public int getIntrinsicHeight() { return intrinsicHeight; }
++    @Override public void setAlpha(int value) { alpha = Math.max(0, Math.min(255, value)); invalidateSelf(); }
++    // Whole-object tint must never recolor the cold steel; only neutral masks are tinted.
++    @Override public void setColorFilter(ColorFilter ignored) {}
++    @Override public int getOpacity() { return PixelFormat.TRANSLUCENT; }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeResources.java
+@@ -0,0 +1,26 @@
++package org.lineageos.updater.forge;
++import org.lineageos.updater.R;
++final class ForgeResources {
++ static int[] layers(String family) {
++  switch(family) {
++   case "cg_rf_button": return new int[] {R.drawable.cg_rf_button_cold, R.drawable.cg_rf_button_reflection, R.drawable.cg_rf_button_spill, R.drawable.cg_rf_button_seam, R.drawable.cg_rf_button_core, R.drawable.cg_rf_button_focus, R.drawable.cg_rf_button_symbol};
++   case "cg_rf_field": return new int[] {R.drawable.cg_rf_field_cold, R.drawable.cg_rf_field_reflection, R.drawable.cg_rf_field_spill, R.drawable.cg_rf_field_seam, R.drawable.cg_rf_field_core, R.drawable.cg_rf_field_focus, R.drawable.cg_rf_field_symbol};
++   case "cg_rf_panel": return new int[] {R.drawable.cg_rf_panel_cold, R.drawable.cg_rf_panel_reflection, R.drawable.cg_rf_panel_spill, R.drawable.cg_rf_panel_seam, R.drawable.cg_rf_panel_core, R.drawable.cg_rf_panel_focus, R.drawable.cg_rf_panel_symbol};
++   case "cg_upd_rail": return new int[] {R.drawable.cg_upd_rail_cold, R.drawable.cg_upd_rail_reflection, R.drawable.cg_upd_rail_spill, R.drawable.cg_upd_rail_seam, R.drawable.cg_upd_rail_core, R.drawable.cg_upd_rail_focus, R.drawable.cg_upd_rail_symbol};
++   case "cg_upd_switch_track": return new int[] {R.drawable.cg_upd_switch_track_cold, R.drawable.cg_upd_switch_track_reflection, R.drawable.cg_upd_switch_track_spill, R.drawable.cg_upd_switch_track_seam, R.drawable.cg_upd_switch_track_core, R.drawable.cg_upd_switch_track_focus, R.drawable.cg_upd_switch_track_symbol};
++   case "cg_upd_switch_thumb": return new int[] {R.drawable.cg_upd_switch_thumb_cold, R.drawable.cg_upd_switch_thumb_reflection, R.drawable.cg_upd_switch_thumb_spill, R.drawable.cg_upd_switch_thumb_seam, R.drawable.cg_upd_switch_thumb_core, R.drawable.cg_upd_switch_thumb_focus, R.drawable.cg_upd_switch_thumb_symbol};
++   case "cg_upd_scan": return new int[] {R.drawable.cg_upd_scan_cold, R.drawable.cg_upd_scan_reflection, R.drawable.cg_upd_scan_spill, R.drawable.cg_upd_scan_seam, R.drawable.cg_upd_scan_core, R.drawable.cg_upd_scan_focus, R.drawable.cg_upd_scan_symbol};
++   case "cg_upd_error": return new int[] {R.drawable.cg_upd_error_cold, R.drawable.cg_upd_error_reflection, R.drawable.cg_upd_error_spill, R.drawable.cg_upd_error_seam, R.drawable.cg_upd_error_core, R.drawable.cg_upd_error_focus, R.drawable.cg_upd_error_symbol};
++   case "cg_upd_ready": return new int[] {R.drawable.cg_upd_ready_cold, R.drawable.cg_upd_ready_reflection, R.drawable.cg_upd_ready_spill, R.drawable.cg_upd_ready_seam, R.drawable.cg_upd_ready_core, R.drawable.cg_upd_ready_focus, R.drawable.cg_upd_ready_symbol};
++   case "cg_upd_pause": return new int[] {R.drawable.cg_upd_pause_cold, R.drawable.cg_upd_pause_reflection, R.drawable.cg_upd_pause_spill, R.drawable.cg_upd_pause_seam, R.drawable.cg_upd_pause_core, R.drawable.cg_upd_pause_focus, R.drawable.cg_upd_pause_symbol};
++   case "cg_upd_resume": return new int[] {R.drawable.cg_upd_resume_cold, R.drawable.cg_upd_resume_reflection, R.drawable.cg_upd_resume_spill, R.drawable.cg_upd_resume_seam, R.drawable.cg_upd_resume_core, R.drawable.cg_upd_resume_focus, R.drawable.cg_upd_resume_symbol};
++   case "cg_upd_badge": return new int[] {R.drawable.cg_upd_badge_cold, R.drawable.cg_upd_badge_reflection, R.drawable.cg_upd_badge_spill, R.drawable.cg_upd_badge_seam, R.drawable.cg_upd_badge_core, R.drawable.cg_upd_badge_focus, R.drawable.cg_upd_badge_symbol};
++   case "cg_upd_local": return new int[] {R.drawable.cg_upd_local_cold, R.drawable.cg_upd_local_reflection, R.drawable.cg_upd_local_spill, R.drawable.cg_upd_local_seam, R.drawable.cg_upd_local_core, R.drawable.cg_upd_local_focus, R.drawable.cg_upd_local_symbol};
++   case "cg_upd_remote": return new int[] {R.drawable.cg_upd_remote_cold, R.drawable.cg_upd_remote_reflection, R.drawable.cg_upd_remote_spill, R.drawable.cg_upd_remote_seam, R.drawable.cg_upd_remote_core, R.drawable.cg_upd_remote_focus, R.drawable.cg_upd_remote_symbol};
++   case "cg_upd_expand": return new int[] {R.drawable.cg_upd_expand_cold, R.drawable.cg_upd_expand_reflection, R.drawable.cg_upd_expand_spill, R.drawable.cg_upd_expand_seam, R.drawable.cg_upd_expand_core, R.drawable.cg_upd_expand_focus, R.drawable.cg_upd_expand_symbol};
++   case "cg_upd_collapse": return new int[] {R.drawable.cg_upd_collapse_cold, R.drawable.cg_upd_collapse_reflection, R.drawable.cg_upd_collapse_spill, R.drawable.cg_upd_collapse_seam, R.drawable.cg_upd_collapse_core, R.drawable.cg_upd_collapse_focus, R.drawable.cg_upd_collapse_symbol};
++   case "cg_upd_more": return new int[] {R.drawable.cg_upd_more_cold, R.drawable.cg_upd_more_reflection, R.drawable.cg_upd_more_spill, R.drawable.cg_upd_more_seam, R.drawable.cg_upd_more_core, R.drawable.cg_upd_more_focus, R.drawable.cg_upd_more_symbol};
++   default: throw new IllegalArgumentException("Unknown Forge family: "+family);
++  }
++ }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeSpaAdapters.kt
+@@ -0,0 +1,145 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: Apache-2.0
++ * Public model/logging contracts and choice ordering retain the pinned SPA behavior.
++ */
++package org.lineageos.updater.forge
++
++import androidx.compose.foundation.layout.Column
++import androidx.compose.foundation.layout.Box
++import androidx.compose.foundation.layout.size
++import androidx.compose.ui.unit.dp
++import androidx.compose.foundation.rememberScrollState
++import androidx.compose.foundation.selection.selectableGroup
++import androidx.compose.foundation.verticalScroll
++import androidx.compose.material3.Icon
++import androidx.compose.runtime.*
++import androidx.compose.runtime.saveable.rememberSaveable
++import androidx.compose.ui.Modifier
++import androidx.compose.ui.graphics.vector.ImageVector
++import androidx.compose.ui.res.stringResource
++import com.android.settingslib.spa.framework.theme.SettingsTheme
++import com.android.settingslib.spa.framework.util.wrapOnClickWithLog
++import com.android.settingslib.spa.framework.util.wrapOnSwitchWithLog
++import com.android.settingslib.spa.widget.preference.PreferenceModel
++import com.android.settingslib.spa.widget.preference.SwitchPreferenceModel
++import com.android.settingslib.spa.widget.preference.ListPreferenceModel
++import com.android.settingslib.spa.widget.dialog.AlertDialogButton
++import com.android.settingslib.spa.widget.dialog.getDialogWidth
++import org.lineageos.updater.R
++
++@Composable
++fun ForgeUpdaterTheme(content: @Composable () -> Unit) {
++    SettingsTheme {
++        ForgeUpdaterPalette {
++            CompositionLocalProvider(androidx.compose.material3.LocalContentColor provides SteelText) { content() }
++        }
++    }
++}
++
++@Composable
++fun ForgePreference(model: PreferenceModel, singleLineSummary: Boolean = false) {
++    val click = wrapOnClickWithLog(model.onClick)
++    ForgePreferenceRow(
++        title = model.title, summary = model.summary().toString(), enabled = model.enabled(),
++        titleDescription = model.titleContentDescription,
++        summaryDescription = model.summaryContentDescription(),
++        icon = model.icon, onClick = click,
++    )
++}
++
++@Composable
++fun ForgeSwitchPreference(model: SwitchPreferenceModel) {
++    val checked = model.checked()
++    val changeable = model.changeable()
++    val callback = wrapOnSwitchWithLog(model.onCheckedChange)
++    ForgePreferenceRow(
++        title = model.title, summary = model.summary().toString(),
++        enabled = changeable, featureOn = checked == true,
++        toggleValue = checked, onToggle = callback, icon = model.icon,
++        loadingDescription = if (checked == null) stringResource(R.string.cg_upd_loading) else null,
++        trailing = { ForgeToggleVisual(checked, changeable) },
++    )
++}
++
++@Composable
++fun ForgeListPreference(model: ListPreferenceModel) {
++    var dialogOpened by rememberSaveable { mutableStateOf(false) }
++    if (dialogOpened) {
++        ForgeSteelDialog(
++            title = model.title, width = getDialogWidth(),
++            onDismissRequest = { dialogOpened = false },
++            text = {
++                Column(Modifier.selectableGroup()) {
++                    for (option in model.options) {
++                        ForgeRadioRow(
++                            title = option.text, summary = option.summary,
++                            selected = option.id == model.selectedId.intValue,
++                            enabled = model.enabled(),
++                            onClick = { dialogOpened = false; model.onIdSelected(option.id) },
++                        )
++                    }
++                }
++            },
++        )
++    }
++    // Preserve the actual model-derived summary, empty-options guard and logged open action.
++    ForgePreference(object : PreferenceModel {
++        override val title = model.title
++        override val summary = { model.options.find { it.id == model.selectedId.intValue }?.text ?: "" }
++        override val icon = model.icon
++        override val enabled = model.enabled
++        override val onClick = { dialogOpened = true }.takeIf { model.options.isNotEmpty() }
++    })
++}
++
++@Composable
++fun ForgeUpdaterAlertDialog(
++    onDismissRequest: () -> Unit, confirmButton: AlertDialogButton?,
++    dismissButton: AlertDialogButton?, title: String?, icon: ImageVector,
++    text: (@Composable () -> Unit)?,
++) {
++    ForgeSteelDialog(
++        onDismissRequest = onDismissRequest, title = title, width = getDialogWidth(),
++        icon = { ForgeUpdateGlyph("cg_upd_badge", null, Modifier.size(48.dp)) },
++        text = text,
++        confirm = confirmButton?.let { button -> {
++            ForgeUpdateButton(onClick = button.onClick, enabled = button.enabled) {
++                androidx.compose.material3.Text(button.text)
++            }
++        } },
++        dismiss = dismissButton?.let { button -> {
++            ForgeUpdateButton(onClick = button.onClick, enabled = button.enabled, outlined = true) {
++                androidx.compose.material3.Text(button.text)
++            }
++        } },
++    )
++}
++
++@Composable
++fun ForgeMoreOptionsAction(
++    content: @Composable com.android.settingslib.spa.widget.scaffold.MoreOptionsScope.() -> Unit,
++) {
++    var expanded by rememberSaveable { mutableStateOf(false) }
++    val onDismiss = { expanded = false }
++    Box {
++        ForgeUpdateIconButton(onClick = { expanded = true }) {
++            ForgeUpdateGlyph("cg_upd_more",
++                stringResource(androidx.appcompat.R.string.abc_action_menu_overflow_description),
++                Modifier.size(24.dp))
++        }
++        androidx.compose.material3.DropdownMenu(
++            expanded = expanded, onDismissRequest = onDismiss,
++            modifier = Modifier.forgePanel(),
++            shape = androidx.compose.ui.graphics.RectangleShape,
++            containerColor = androidx.compose.ui.graphics.Color.Transparent,
++        ) {
++            val scope = remember(this) {
++                object : com.android.settingslib.spa.widget.scaffold.MoreOptionsScope() {
++                    override fun dismiss() { onDismiss() }
++                }
++            }
++            scope.content()
++        }
++    }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeStatePolicy.java
+@@ -0,0 +1,25 @@
++package org.lineageos.updater.forge;
++
++/** Explicit feature/input activation. Focus alone never enables ember. No clock. */
++public final class ForgeStatePolicy {
++    public final boolean active;
++    public final float base;
++    public final float[] gains;
++    private ForgeStatePolicy(boolean active, float base, float[] gains) {
++        this.active = active; this.base = base; this.gains = gains;
++    }
++    public static ForgeStatePolicy resolve(boolean enabled, boolean checked, boolean selected,
++            boolean focused, boolean pressed, boolean featureActive, boolean momentary) {
++        boolean active = enabled && (checked || selected || featureActive || (momentary && pressed));
++        float[] gains = new float[6];
++        if (active) {
++            gains[0] = pressed ? .60f : .32f;
++            gains[1] = pressed ? .92f : .72f;
++            gains[2] = 1f;
++            gains[3] = pressed ? 1f : .82f;
++            gains[5] = 1f;
++        }
++        gains[4] = enabled && focused ? 1f : 0f;
++        return new ForgeStatePolicy(active, enabled ? 1f : .42f, gains);
++    }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeToggleGeometry.java
+@@ -0,0 +1,9 @@
++package org.lineageos.updater.forge;
++/** Only presentation geometry; actual checked/changeable callbacks remain in their owners. */
++public final class ForgeToggleGeometry {
++ public static float thumbLeft(Boolean checked, float width, float thumb, boolean rtl) {
++  float travel = Math.max(0f, width - thumb);
++  return checked == null ? travel / 2f : checked.booleanValue() != rtl ? travel : 0f;
++ }
++ public static boolean featureOn(Boolean checked) { return Boolean.TRUE.equals(checked); }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeUpdatePresentation.kt
+@@ -0,0 +1,30 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: Apache-2.0
++ */
++package org.lineageos.updater.forge
++
++import org.lineageos.updater.updates.state.UpdateOperationPhase
++
++enum class ForgeUpdateTone { COLD, ACTIVE, ERROR }
++
++/** Phase is domain data. Progress, translated status and enabled buttons do not imply activity. */
++object ForgeUpdatePresentation {
++    fun tone(phase: UpdateOperationPhase): ForgeUpdateTone = when (phase) {
++        UpdateOperationPhase.DOWNLOADING,
++        UpdateOperationPhase.VERIFYING,
++        UpdateOperationPhase.INSTALLING_RECOVERY,
++        UpdateOperationPhase.INSTALLING,
++        UpdateOperationPhase.FINALIZING -> ForgeUpdateTone.ACTIVE
++
++        UpdateOperationPhase.DOWNLOAD_ERROR,
++        UpdateOperationPhase.VERIFICATION_FAILED,
++        UpdateOperationPhase.INSTALLATION_FAILED -> ForgeUpdateTone.ERROR
++
++        UpdateOperationPhase.IDLE,
++        UpdateOperationPhase.DOWNLOAD_PAUSED,
++        UpdateOperationPhase.VERIFIED,
++        UpdateOperationPhase.INSTALLATION_SUSPENDED,
++        UpdateOperationPhase.WAITING_FOR_REBOOT -> ForgeUpdateTone.COLD
++    }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeUpdaterCompose.kt
+@@ -0,0 +1,276 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.updater.forge
++
++import android.graphics.Rect
++import androidx.compose.foundation.interaction.MutableInteractionSource
++import androidx.compose.foundation.interaction.collectIsFocusedAsState
++import androidx.compose.foundation.interaction.collectIsHoveredAsState
++import androidx.compose.foundation.interaction.collectIsPressedAsState
++import androidx.compose.foundation.layout.Box
++import androidx.compose.foundation.layout.Column
++import androidx.compose.foundation.layout.ColumnScope
++import androidx.compose.foundation.layout.PaddingValues
++import androidx.compose.foundation.layout.RowScope
++import androidx.compose.foundation.layout.fillMaxWidth
++import androidx.compose.foundation.layout.height
++import androidx.compose.foundation.layout.heightIn
++import androidx.compose.foundation.layout.padding
++import androidx.compose.foundation.layout.sizeIn
++import androidx.compose.material3.Button
++import androidx.compose.material3.ButtonDefaults
++import androidx.compose.material3.IconButton
++import androidx.compose.material3.LinearProgressIndicator
++import androidx.compose.material3.MaterialTheme
++import androidx.compose.material3.darkColorScheme
++import androidx.compose.runtime.Composable
++import androidx.compose.runtime.getValue
++import androidx.compose.runtime.remember
++import androidx.compose.ui.Modifier
++import androidx.compose.ui.draw.drawBehind
++import androidx.compose.ui.graphics.Color
++import androidx.compose.ui.graphics.RectangleShape
++import androidx.compose.ui.graphics.nativeCanvas
++import androidx.compose.ui.platform.LocalContext
++import androidx.compose.ui.platform.LocalDensity
++import androidx.compose.ui.unit.dp
++import kotlin.math.roundToInt
++
++internal val SteelText = Color(0xFFEEE7D9)
++internal val ColdSteel = Color(0xFFB5BDC6)
++internal val Ember = Color(0xFFE56620)
++internal val ErrorText = Color(0xFFFF8585)
++
++@Composable
++internal fun frame(family: String, momentary: Boolean): ForgeLayerDrawable {
++    val context = LocalContext.current
++    val density = LocalDensity.current.density
++    return remember(context, family, momentary, density) {
++        ForgeLayerDrawable(context, family, momentary)
++    }
++}
++
++@Composable
++internal fun insets(drawable: ForgeLayerDrawable): PaddingValues {
++    val density = LocalDensity.current
++    return remember(drawable, density) {
++        val p = Rect()
++        drawable.getPadding(p)
++        with(density) { PaddingValues(p.left.toDp(), p.top.toDp(), p.right.toDp(), p.bottom.toDp()) }
++    }
++}
++
++internal fun Modifier.steel(
++    drawable: ForgeLayerDrawable,
++    active: Boolean = false,
++    enabled: Boolean = true,
++    focused: Boolean = false,
++    pressed: Boolean = false,
++): Modifier = drawBehind {
++    drawable.state = buildList {
++        if (enabled) add(android.R.attr.state_enabled)
++        if (focused) add(android.R.attr.state_focused)
++        if (pressed) add(android.R.attr.state_pressed)
++    }.toIntArray()
++    drawable.setFeatureActive(active)
++    drawable.setBounds(0, 0, size.width.roundToInt(), size.height.roundToInt())
++    drawable.draw(drawContext.canvas.nativeCanvas)
++}
++
++/** Card activity follows the actual operation phase. Expansion and progress presence do not activate it. */
++@Composable
++fun ForgeUpdateCard(
++    tone: ForgeUpdateTone,
++    modifier: Modifier = Modifier,
++    content: @Composable ColumnScope.() -> Unit,
++) {
++    val drawable = frame("cg_rf_panel", false)
++    val minimum = with(LocalDensity.current) {
++        Pair(drawable.intrinsicWidth.toDp(), drawable.intrinsicHeight.toDp())
++    }
++    val primary = when (tone) {
++        ForgeUpdateTone.ACTIVE -> Ember
++        ForgeUpdateTone.ERROR -> ErrorText
++        ForgeUpdateTone.COLD -> ColdSteel
++    }
++    MaterialTheme(
++        colorScheme = darkColorScheme(
++            primary = primary,
++            onPrimary = Color(0xFF10151B),
++            background = Color(0xFF080C11),
++            surface = Color(0xFF10151B),
++            surfaceBright = Color(0xFF10151B),
++            onSurface = SteelText,
++            onSurfaceVariant = ColdSteel,
++            onBackground = SteelText,
++            primaryContainer = Color(0xFF2A211B), onPrimaryContainer = SteelText,
++            secondary = ColdSteel, onSecondary = Color(0xFF10151B),
++            secondaryContainer = Color(0xFF1B242C), onSecondaryContainer = SteelText,
++            tertiary = ColdSteel, onTertiary = Color(0xFF10151B),
++            tertiaryContainer = Color(0xFF202A33), onTertiaryContainer = SteelText,
++            surfaceVariant = Color(0xFF1B252E),
++            outline = Color(0xFF65717D), outlineVariant = Color(0xFF36414D),
++            surfaceTint = Color.Transparent, surfaceDim = Color(0xFF080C11),
++            surfaceContainerLowest = Color(0xFF0B1015), surfaceContainerLow = Color(0xFF10151B),
++            surfaceContainer = Color(0xFF151C23), surfaceContainerHigh = Color(0xFF1A242E),
++            surfaceContainerHighest = Color(0xFF202B35),
++            error = ErrorText, onError = Color(0xFF10151B),
++            errorContainer = Color(0xFF3A1818), onErrorContainer = Color(0xFFFFE1DF),
++        ),
++        typography = MaterialTheme.typography,
++        shapes = MaterialTheme.shapes,
++    ) {
++        Column(
++            modifier = modifier.fillMaxWidth()
++                .sizeIn(minWidth = minimum.first, minHeight = minimum.second)
++                .steel(drawable, active = tone == ForgeUpdateTone.ACTIVE)
++                .padding(insets(drawable)),
++            content = content,
++        )
++    }
++}
++
++/** Native click, enabled state, focus, accessibility role and indication are retained. */
++@Composable
++fun ForgeUpdateButton(
++    onClick: () -> Unit,
++    modifier: Modifier = Modifier,
++    enabled: Boolean = true,
++    outlined: Boolean = false,
++    content: @Composable RowScope.() -> Unit,
++) {
++    val drawable = frame(if (outlined) "cg_rf_field" else "cg_rf_button", true)
++    val minimum = with(LocalDensity.current) {
++        Pair(maxOf(48.dp, drawable.intrinsicWidth.toDp()), maxOf(48.dp, drawable.intrinsicHeight.toDp()))
++    }
++    val interaction = remember { MutableInteractionSource() }
++    val pressed by interaction.collectIsPressedAsState()
++    val focused by interaction.collectIsFocusedAsState()
++    val hovered by interaction.collectIsHoveredAsState()
++    Button(
++        onClick = onClick, enabled = enabled, interactionSource = interaction,
++        modifier = modifier.sizeIn(minWidth = minimum.first, minHeight = minimum.second)
++            .steel(drawable, enabled = enabled, focused = focused || hovered, pressed = pressed),
++        contentPadding = insets(drawable),
++        colors = ButtonDefaults.buttonColors(
++            containerColor = Color.Transparent, contentColor = SteelText,
++            disabledContainerColor = Color.Transparent, disabledContentColor = Color(0xFF8F9BA7),
++        ),
++        elevation = null, shape = RectangleShape,
++        content = {
++            androidx.compose.runtime.CompositionLocalProvider(
++                LocalForgeGesture provides ForgeGesture(enabled, pressed, focused || hovered)
++            ) { content() }
++        },
++    )
++}
++
++@Composable
++fun ForgeUpdateIconButton(
++    onClick: () -> Unit,
++    modifier: Modifier = Modifier,
++    enabled: Boolean = true,
++    content: @Composable () -> Unit,
++) {
++    val drawable = frame("cg_rf_button", true)
++    val minimum = with(LocalDensity.current) {
++        Pair(maxOf(48.dp, drawable.intrinsicWidth.toDp()), maxOf(48.dp, drawable.intrinsicHeight.toDp()))
++    }
++    val interaction = remember { MutableInteractionSource() }
++    val pressed by interaction.collectIsPressedAsState()
++    val focused by interaction.collectIsFocusedAsState()
++    val hovered by interaction.collectIsHoveredAsState()
++    IconButton(
++        onClick = onClick, enabled = enabled, interactionSource = interaction,
++        modifier = modifier.sizeIn(minWidth = minimum.first, minHeight = minimum.second)
++            .steel(drawable, enabled = enabled, focused = focused || hovered, pressed = pressed),
++        content = {
++            androidx.compose.runtime.CompositionLocalProvider(
++                LocalForgeGesture provides ForgeGesture(enabled, pressed, focused || hovered)
++            ) { content() }
++        },
++    )
++}
++
++/** Uses the caller's real fraction. Paused/error progress stays steady; no extra clock is introduced. */
++@Composable
++fun ForgeUpdateProgress(progress: Float?, tone: ForgeUpdateTone) {
++    val drawable = frame("cg_upd_rail", false)
++    val color = when (tone) {
++        ForgeUpdateTone.ACTIVE -> Ember
++        ForgeUpdateTone.ERROR -> ErrorText
++        ForgeUpdateTone.COLD -> ColdSteel
++    }
++    Box(
++        modifier = Modifier.fillMaxWidth().heightIn(min = 12.dp)
++            .steel(drawable, active = tone == ForgeUpdateTone.ACTIVE)
++            .padding(insets(drawable)),
++        contentAlignment = androidx.compose.ui.Alignment.Center,
++    ) {
++        val indicator = Modifier.fillMaxWidth().height(4.dp)
++        if (progress == null) {
++            LinearProgressIndicator(modifier = indicator, color = color, trackColor = Color.Transparent)
++        } else {
++            LinearProgressIndicator(progress = { progress }, modifier = indicator,
++                color = color, trackColor = Color.Transparent)
++        }
++    }
++}
++
++/** Retains every live value while allowing long English byte/ETA strings to wrap. */
++@OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
++@Composable
++fun ForgeUpdateProgressInfo(progress: org.lineageos.updater.updates.state.ProgressState.Determinate) {
++    androidx.compose.foundation.layout.FlowRow(
++        modifier = Modifier.fillMaxWidth(),
++        horizontalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(4.dp),
++        verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(4.dp),
++    ) {
++        androidx.compose.material3.Text(
++            text = progress.percent.toInt().toString() + "%",
++            style = MaterialTheme.typography.titleLarge,
++            modifier = Modifier.alignByBaseline(),
++        )
++        if (progress.downloadedSize.isNotEmpty()) {
++            androidx.compose.material3.Text(text = " · " + progress.downloadedSize,
++                modifier = Modifier.alignByBaseline())
++        }
++        if (progress.eta.isNotEmpty()) {
++            androidx.compose.material3.Text(text = progress.eta, modifier = Modifier.alignByBaseline())
++        }
++    }
++}
++
++@Composable
++fun ForgeUpdaterPalette(content: @Composable () -> Unit) {
++    val primary = ColdSteel
++    MaterialTheme(
++        colorScheme = darkColorScheme(
++            primary = primary,
++            onPrimary = Color(0xFF10151B),
++            background = Color(0xFF080C11),
++            surface = Color(0xFF10151B),
++            surfaceBright = Color(0xFF10151B),
++            onSurface = SteelText,
++            onSurfaceVariant = ColdSteel,
++            onBackground = SteelText,
++            primaryContainer = Color(0xFF2A211B), onPrimaryContainer = SteelText,
++            secondary = ColdSteel, onSecondary = Color(0xFF10151B),
++            secondaryContainer = Color(0xFF1B242C), onSecondaryContainer = SteelText,
++            tertiary = ColdSteel, onTertiary = Color(0xFF10151B),
++            tertiaryContainer = Color(0xFF202A33), onTertiaryContainer = SteelText,
++            surfaceVariant = Color(0xFF1B252E),
++            outline = Color(0xFF65717D), outlineVariant = Color(0xFF36414D),
++            surfaceTint = Color.Transparent, surfaceDim = Color(0xFF080C11),
++            surfaceContainerLowest = Color(0xFF0B1015), surfaceContainerLow = Color(0xFF10151B),
++            surfaceContainer = Color(0xFF151C23), surfaceContainerHigh = Color(0xFF1A242E),
++            surfaceContainerHighest = Color(0xFF202B35),
++            error = ErrorText, onError = Color(0xFF10151B),
++            errorContainer = Color(0xFF3A1818), onErrorContainer = Color(0xFFFFE1DF),
++        ),
++        typography = MaterialTheme.typography,
++        shapes = MaterialTheme.shapes,
++    ) { content() }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeUpdaterControls.kt
+@@ -0,0 +1,167 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: Apache-2.0
++ * Presentation semantics adapted from the preserved Apache-2.0 SPA interfaces.
++ */
++package org.lineageos.updater.forge
++
++import androidx.compose.foundation.clickable
++import androidx.compose.foundation.interaction.MutableInteractionSource
++import androidx.compose.foundation.interaction.collectIsFocusedAsState
++import androidx.compose.foundation.interaction.collectIsPressedAsState
++import androidx.compose.foundation.interaction.collectIsHoveredAsState
++import androidx.compose.foundation.layout.*
++import androidx.compose.foundation.rememberScrollState
++import androidx.compose.foundation.selection.selectable
++import androidx.compose.foundation.selection.toggleable
++import androidx.compose.foundation.verticalScroll
++import androidx.compose.material3.*
++import androidx.compose.runtime.*
++import androidx.compose.ui.Modifier
++import androidx.compose.ui.Alignment
++import androidx.compose.ui.draw.drawBehind
++import androidx.compose.ui.graphics.Color
++import androidx.compose.ui.graphics.nativeCanvas
++import androidx.compose.ui.platform.LocalDensity
++import androidx.compose.ui.platform.LocalLayoutDirection
++import androidx.compose.ui.semantics.*
++import androidx.compose.ui.unit.*
++import androidx.compose.ui.window.DialogProperties
++import kotlin.math.roundToInt
++
++@Composable
++fun Modifier.forgePanel(active: Boolean = false, focused: Boolean = false, pressed: Boolean = false): Modifier {
++    val d = frame("cg_rf_panel", false)
++    val minimum = with(LocalDensity.current) { Pair(d.intrinsicWidth.toDp(), d.intrinsicHeight.toDp()) }
++    return sizeIn(minWidth = minimum.first, minHeight = minimum.second)
++        .steel(d, active = active || pressed, focused = focused).padding(insets(d))
++}
++
++@Composable
++fun ForgeSteelPanel(modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
++    Column(modifier.fillMaxWidth().forgePanel(), content = content)
++}
++
++@Composable
++fun ForgePreferenceRow(
++    title: String, summary: String, modifier: Modifier = Modifier,
++    enabled: Boolean = true, featureOn: Boolean = false,
++    onClick: (() -> Unit)? = null,
++    toggleValue: Boolean? = null, onToggle: ((Boolean) -> Unit)? = null,
++    loadingDescription: String? = null,
++    titleDescription: String? = null, summaryDescription: String? = null,
++    icon: (@Composable () -> Unit)? = null,
++    trailing: (@Composable () -> Unit)? = null,
++) {
++    val interaction = remember { MutableInteractionSource() }
++    val focused by interaction.collectIsFocusedAsState()
++    val hovered by interaction.collectIsHoveredAsState()
++    val pressed by interaction.collectIsPressedAsState()
++    var row = modifier.fillMaxWidth()
++    row = when {
++        toggleValue != null && onToggle != null -> row.toggleable(
++            value = toggleValue, enabled = enabled, role = Role.Switch,
++            interactionSource = interaction, indication = androidx.compose.foundation.LocalIndication.current,
++            onValueChange = onToggle)
++        onClick != null -> row.clickable(
++            enabled = enabled, interactionSource = interaction,
++            indication = androidx.compose.foundation.LocalIndication.current, onClick = onClick)
++        else -> row
++    }
++    if (loadingDescription != null) row = row.semantics { stateDescription = loadingDescription }
++    // Interaction may be locked while the real feature remains on (e.g. AC-forced performance mode).
++    Row(
++        modifier = row.forgePanel(active = featureOn, focused = focused || hovered, pressed = enabled && pressed)
++            .heightIn(min = 72.dp).padding(16.dp),
++        verticalAlignment = Alignment.CenterVertically,
++        horizontalArrangement = Arrangement.spacedBy(16.dp),
++    ) {
++        icon?.invoke()
++        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
++            Text(title, style = MaterialTheme.typography.titleMedium,
++                color = if (enabled) SteelText else ColdSteel,
++                modifier = if (titleDescription == null) Modifier else Modifier.semantics {
++                    contentDescription = titleDescription
++                })
++            if (summary.isNotEmpty()) Text(summary, style = MaterialTheme.typography.bodyMedium,
++                color = ColdSteel,
++                modifier = if (summaryDescription == null) Modifier else Modifier.semantics {
++                    contentDescription = summaryDescription
++                })
++        }
++        trailing?.invoke()
++    }
++}
++
++/** Decorative visual only. Its parent owns the single toggle action and Role.Switch. */
++@Composable
++fun ForgeToggleVisual(checked: Boolean?, changeable: Boolean, modifier: Modifier = Modifier) {
++    val track = frame("cg_upd_switch_track", false)
++    val thumb = frame("cg_upd_switch_thumb", false)
++    val rtl = LocalLayoutDirection.current == LayoutDirection.Rtl
++    Box(modifier.width(52.dp).height(48.dp).drawBehind {
++        val on = ForgeToggleGeometry.featureOn(checked)
++        val alpha = if (changeable) 255 else 153
++        for (d in listOf(track, thumb)) {
++            d.state = intArrayOf(android.R.attr.state_enabled)
++            d.setFeatureActive(on)
++            d.alpha = alpha
++        }
++        val h = 32.dp.toPx()
++        val top = (size.height - h) / 2f
++        track.setBounds(0, top.roundToInt(), size.width.roundToInt(), (top + h).roundToInt())
++        track.draw(drawContext.canvas.nativeCanvas)
++        val left = ForgeToggleGeometry.thumbLeft(checked, size.width, h, rtl)
++        thumb.setBounds(left.roundToInt(), top.roundToInt(), (left + h).roundToInt(), (top + h).roundToInt())
++        thumb.draw(drawContext.canvas.nativeCanvas)
++    })
++}
++
++@Composable
++fun ForgeRadioRow(
++    title: String, summary: String, selected: Boolean, enabled: Boolean,
++    onClick: () -> Unit,
++) {
++    val ring = frame("cg_upd_switch_thumb", false)
++    Row(
++        Modifier.fillMaxWidth().selectable(selected = selected, enabled = enabled,
++            onClick = onClick, role = Role.RadioButton).heightIn(min = 56.dp).padding(12.dp),
++        verticalAlignment = Alignment.CenterVertically,
++        horizontalArrangement = Arrangement.spacedBy(16.dp),
++    ) {
++        Box(Modifier.size(32.dp).drawBehind {
++            ring.state = intArrayOf(android.R.attr.state_enabled)
++            ring.setFeatureActive(selected)
++            ring.alpha = if (enabled) 255 else 153
++            ring.setBounds(0, 0, size.width.roundToInt(), size.height.roundToInt())
++            ring.draw(drawContext.canvas.nativeCanvas)
++            if (selected) drawCircle(Ember, radius = 4.dp.toPx())
++        })
++        Column(Modifier.weight(1f)) {
++            Text(title, color = if (enabled) SteelText else ColdSteel)
++            if (summary.isNotEmpty()) Text(summary, style = MaterialTheme.typography.bodyMedium, color = ColdSteel)
++        }
++    }
++}
++
++@OptIn(ExperimentalMaterial3Api::class)
++@Composable
++fun ForgeSteelDialog(
++    onDismissRequest: () -> Unit, title: String?, width: Dp,
++    confirm: (@Composable () -> Unit)? = null,
++    dismiss: (@Composable () -> Unit)? = null,
++    icon: (@Composable () -> Unit)? = null,
++    text: (@Composable () -> Unit)? = null,
++) {
++    AlertDialog(
++        onDismissRequest = onDismissRequest,
++        modifier = Modifier.width(width).forgePanel(),
++        containerColor = Color.Transparent,
++        shape = androidx.compose.ui.graphics.RectangleShape,
++        confirmButton = { confirm?.invoke() }, dismissButton = dismiss,
++        icon = icon,
++        title = title?.let { { Text(it, style = MaterialTheme.typography.headlineSmall) } },
++        text = text?.let { { Column(Modifier.verticalScroll(rememberScrollState())) { it() } } },
++        properties = DialogProperties(usePlatformDefaultWidth = false),
++    )
++}
+--- a/app/src/main/java/org/lineageos/updater/preferences/PreferencesActivity.kt
++++ b/app/src/main/java/org/lineageos/updater/preferences/PreferencesActivity.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater.preferences
+ 
+ import android.os.Bundle
+@@ -13,13 +14,16 @@
+ import androidx.compose.runtime.remember
+ import com.android.settingslib.spa.framework.compose.LocalNavController
+ import com.android.settingslib.spa.framework.compose.NavControllerWrapper
+-import com.android.settingslib.spa.framework.theme.SettingsTheme
++import org.lineageos.updater.forge.ForgeUpdaterTheme as SettingsTheme
+ 
+ class PreferencesActivity : ComponentActivity() {
+ 
+     override fun onCreate(savedInstanceState: Bundle?) {
+         super.onCreate(savedInstanceState)
+-        enableEdgeToEdge()
++        enableEdgeToEdge(
++            statusBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
++            navigationBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
++        )
+         setContent {
+             val navController = remember {
+                 object : NavControllerWrapper {
+--- a/app/src/main/java/org/lineageos/updater/preferences/PreferencesScreen.kt
++++ b/app/src/main/java/org/lineageos/updater/preferences/PreferencesScreen.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater.preferences
+ 
+ import androidx.compose.runtime.Composable
+@@ -15,10 +16,10 @@
+ import androidx.compose.ui.platform.LocalContext
+ import androidx.compose.ui.res.stringResource
+ import androidx.lifecycle.compose.collectAsStateWithLifecycle
+-import com.android.settingslib.spa.widget.preference.ListPreference
++import org.lineageos.updater.forge.ForgeListPreference as ListPreference
+ import com.android.settingslib.spa.widget.preference.ListPreferenceModel
+ import com.android.settingslib.spa.widget.preference.ListPreferenceOption
+-import com.android.settingslib.spa.widget.preference.SwitchPreference
++import org.lineageos.updater.forge.ForgeSwitchPreference as SwitchPreference
+ import com.android.settingslib.spa.widget.preference.SwitchPreferenceModel
+ import com.android.settingslib.spa.widget.scaffold.RegularScaffold
+ import com.android.settingslib.spa.widget.ui.Category
+--- a/app/src/main/java/org/lineageos/updater/ui/CollapseBar.kt
++++ b/app/src/main/java/org/lineageos/updater/ui/CollapseBar.kt
+@@ -6,6 +6,7 @@
+ 
+ @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
+ 
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater.ui
+ 
+ import androidx.compose.foundation.background
+@@ -33,6 +34,8 @@
+ import com.android.settingslib.spa.framework.theme.SettingsSpace
+ import com.android.settingslib.spa.framework.theme.SettingsTheme
+ import org.lineageos.updater.R
++import org.lineageos.updater.forge.forgePanel
++import org.lineageos.updater.forge.ForgeUpdateGlyph
+ 
+ /**
+  * Local copy of SettingsLib's private CollapseBar so Updater can reuse the same expand/collapse
+@@ -56,6 +59,7 @@
+         modifier = modifier
+             .fillMaxWidth()
+             .clickable { onExpandedChange(!expanded) }
++            .forgePanel()
+             .padding(
+                 top = SettingsSpace.extraSmall4,
+                 bottom = SettingsSpace.small1,
+@@ -63,14 +67,9 @@
+                 end = SettingsSpace.small4,
+             ),
+     ) {
+-        Icon(
+-            imageVector =
+-                if (expanded) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown,
+-            contentDescription = null,
+-            modifier = Modifier
+-                .size(SettingsDimension.itemIconSize)
+-                .clip(CircleShape)
+-                .background(MaterialTheme.colorScheme.surfaceContainerHighest),
++        ForgeUpdateGlyph(
++            if (expanded) "cg_upd_collapse" else "cg_upd_expand", null,
++            Modifier.size(SettingsDimension.itemIconSize),
+         )
+         Spacer(Modifier.width(SettingsSpace.extraSmall4))
+         Text(
+--- a/app/src/main/java/org/lineageos/updater/updates/action/UpdateActionDialog.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/action/UpdateActionDialog.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater.updates.action
+ 
+ import androidx.compose.material3.Text
+@@ -12,7 +13,7 @@
+ import androidx.compose.ui.res.vectorResource
+ import androidx.compose.ui.text.AnnotatedString
+ import com.android.settingslib.spa.widget.dialog.AlertDialogButton
+-import com.android.settingslib.spa.widget.dialog.SettingsAlertDialogWithIcon
++import org.lineageos.updater.forge.ForgeUpdaterAlertDialog as SettingsAlertDialogWithIcon
+ import org.lineageos.updater.R
+ 
+ data class AlertDialogState(
+--- a/app/src/main/java/org/lineageos/updater/updates/button/ActionBar.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/button/ActionBar.kt
+@@ -3,10 +3,12 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: steel presentation and wrapping action layout; original callbacks retained.
+ package org.lineageos.updater.updates.button
+ 
+ import androidx.compose.foundation.layout.Arrangement
+-import androidx.compose.foundation.layout.Row
++import androidx.compose.foundation.layout.FlowRow
++import androidx.compose.foundation.layout.ExperimentalLayoutApi
+ import androidx.compose.foundation.layout.Spacer
+ import androidx.compose.foundation.layout.fillMaxWidth
+ import androidx.compose.foundation.layout.padding
+@@ -30,57 +32,66 @@
+ import com.android.settingslib.spa.framework.theme.SettingsDimension
+ import com.android.settingslib.spa.framework.theme.SettingsSpace
+ import com.android.settingslib.spa.framework.theme.SettingsTheme
+-import com.android.settingslib.spa.widget.scaffold.MoreOptionsAction
++import org.lineageos.updater.forge.ForgeMoreOptionsAction as MoreOptionsAction
+ import com.android.settingslib.spa.widget.scaffold.MoreOptionsScope
++import org.lineageos.updater.forge.ForgeUpdateButton
++import org.lineageos.updater.forge.ForgeUpdateIconButton
++import org.lineageos.updater.forge.ForgeUpdateGlyph
+ 
+-@OptIn(ExperimentalMaterial3ExpressiveApi::class)
++@OptIn(ExperimentalMaterial3ExpressiveApi::class, ExperimentalLayoutApi::class)
+ @Composable
+ fun ActionBar(
+     buttons: List<ActionBarButton>,
+     menuContent: (@Composable MoreOptionsScope.() -> Unit)? = null,
+ ) {
+-    Row(
++    FlowRow(
+         modifier = Modifier
+             .fillMaxWidth()
+             .padding(SettingsDimension.buttonPadding),
+         horizontalArrangement = Arrangement.spacedBy(SettingsSpace.extraSmall2),
+-        verticalAlignment = Alignment.CenterVertically,
++        verticalArrangement = Arrangement.spacedBy(SettingsSpace.extraSmall2),
+     ) {
+         buttons.forEach { button ->
+             when (button) {
+-                is ActionBarButton.Tonal -> FilledTonalButton(
++                is ActionBarButton.Tonal -> ForgeUpdateButton(
+                     onClick = button.onClick,
+-                    shapes = ButtonDefaults.shapes(),
++                    // Forged housing supplies the shape.
+                     enabled = button.enabled,
+                 ) {
+                     Text(button.text)
+                 }
+ 
+-                is ActionBarButton.Outlined -> OutlinedButton(
++                is ActionBarButton.Outlined -> ForgeUpdateButton(
++                    outlined = true,
+                     onClick = button.onClick,
+-                    shapes = ButtonDefaults.shapes(),
++                    // Forged housing supplies the shape.
+                     enabled = button.enabled,
+                 ) {
+                     Text(button.text)
+                 }
+ 
+-                is ActionBarButton.Icon -> FilledIconButton(
++                is ActionBarButton.Icon -> ForgeUpdateIconButton(
+                     onClick = button.onClick,
+-                    shapes = IconButtonDefaults.shapes(),
++                    // Forged icon housing supplies the shape.
+                     enabled = button.enabled,
+                 ) {
++                    if (button.forgeFamily != null) {
++                        ForgeUpdateGlyph(button.forgeFamily, button.contentDescription,
++                            Modifier.size(SettingsDimension.itemIconSize))
++                    } else {
+                     Icon(
+                         imageVector = button.imageVector,
+                         contentDescription = button.contentDescription,
+                         modifier = Modifier.size(SettingsDimension.itemIconSize),
+                     )
++                    }
+                 }
+ 
+             }
+         }
+ 
+         if (menuContent != null) {
+-            Spacer(Modifier.weight(1f))
++            // Flow layout keeps the overflow action reachable when labels wrap.
+             MoreOptionsAction(content = menuContent)
+         }
+     }
+@@ -105,6 +116,7 @@
+     data class Icon(
+         val imageVector: ImageVector,
+         val contentDescription: String? = null,
++        val forgeFamily: String? = null,
+         override val enabled: Boolean = true,
+         override val onClick: () -> Unit,
+     ) : ActionBarButton
+--- a/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemState.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemState.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: explicit presentation phase; updater actions and enablement are retained.
+ package org.lineageos.updater.updates.state
+ 
+ import androidx.annotation.StringRes
+@@ -10,6 +11,7 @@
+ 
+ data class UpdateItemState(
+     val downloadId: String,
++    val operationPhase: UpdateOperationPhase,
+     val isLocal: Boolean,
+ 
+     val buildDate: String,
+--- a/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemStateMapper.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemStateMapper.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: explicit presentation phase; updater actions and enablement are retained.
+ package org.lineageos.updater.updates.state
+ 
+ import android.content.Context
+@@ -167,6 +168,7 @@
+ 
+         return UpdateItemState(
+             downloadId = update.downloadId,
++            operationPhase = state.phase,
+             isLocal = state.isFullyDownloaded,
+             buildDate = StringUtil.formatBuildDate(context, update.timestamp),
+             buildVersion = context.getString(
+--- a/app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: explicit presentation phase; updater actions and enablement are retained.
+ package org.lineageos.updater.updates
+ 
+ import android.content.Context
+@@ -43,6 +44,13 @@
+ import com.android.settingslib.spa.widget.preference.PreferenceModel
+ import com.android.settingslib.spa.widget.ui.LinearProgressBar
+ import org.lineageos.updater.R
++import org.lineageos.updater.forge.ForgeUpdateCard
++import org.lineageos.updater.forge.ForgeUpdatePresentation
++import org.lineageos.updater.forge.ForgeUpdateProgress
++import org.lineageos.updater.forge.ForgeUpdateProgressInfo
++import org.lineageos.updater.forge.ForgeUpdateGlyph
++import androidx.compose.foundation.layout.size
++import androidx.compose.ui.unit.dp
+ import org.lineageos.updater.updates.action.UpdateAction
+ import org.lineageos.updater.updates.action.UpdateActionType
+ import org.lineageos.updater.updates.action.UpdateActions
+@@ -50,6 +58,7 @@
+ import org.lineageos.updater.updates.button.ActionBarButton
+ import org.lineageos.updater.updates.state.ProgressState
+ import org.lineageos.updater.updates.state.UpdateItemState
++import org.lineageos.updater.updates.state.UpdateOperationPhase
+ 
+ @OptIn(ExperimentalMaterial3ExpressiveApi::class)
+ @Composable
+@@ -61,11 +70,9 @@
+     modifier: Modifier = Modifier,
+ ) {
+     val context = LocalContext.current
+-    Column(
+-        modifier = modifier
+-            .fillMaxWidth()
+-            .clip(SettingsShape.CornerExtraSmall2)
+-            .background(MaterialTheme.colorScheme.surfaceBright)
++    ForgeUpdateCard(
++        tone = ForgeUpdatePresentation.tone(state.operationPhase),
++        modifier = modifier,
+     ) {
+         key(state.downloadId) {
+             Preference(model = object : PreferenceModel {
+@@ -83,15 +90,9 @@
+                 override val icon = if (!expanded) {
+                     @Composable {
+                         if (state.isLocal) {
+-                            Icon(
+-                                imageVector = Icons.Outlined.Archive,
+-                                contentDescription = null,
+-                            )
++                            ForgeUpdateGlyph("cg_upd_local", null, Modifier.size(32.dp))
+                         } else {
+-                            Icon(
+-                                imageVector = Icons.Outlined.CloudDownload,
+-                                contentDescription = null,
+-                            )
++                            ForgeUpdateGlyph("cg_upd_remote", null, Modifier.size(32.dp))
+                         }
+                     }
+                 } else {
+@@ -111,40 +112,15 @@
+                     ) {
+                         when (val progress = state.progress) {
+                             is ProgressState.Determinate -> {
+-                                Row(
+-                                    modifier = Modifier.fillMaxWidth(),
+-                                ) {
+-                                    Text(
+-                                        text = buildAnnotatedString {
+-                                            withStyle(MaterialTheme.typography.titleLarge.toSpanStyle()) {
+-                                                append(progress.percent.toInt().toString())
+-                                            }
+-                                            append("%")
+-                                        },
+-                                        modifier = Modifier.alignByBaseline(),
+-                                    )
+-
+-                                    if (progress.downloadedSize.isNotEmpty()) {
+-                                        Text(
+-                                            text = " · ${progress.downloadedSize}",
+-                                            modifier = Modifier
+-                                                .weight(1f)
+-                                                .alignByBaseline(),
+-                                        )
+-                                    }
+-
+-                                    if (progress.eta.isNotEmpty()) {
+-                                        Text(
+-                                            text = progress.eta,
+-                                            modifier = Modifier.alignByBaseline(),
+-                                        )
+-                                    }
+-                                }
+-                                LinearProgressBar(progress = progress.percent / 100f)
++                                ForgeUpdateProgressInfo(progress)
++
++                                ForgeUpdateProgress(progress = progress.percent / 100f,
++                                    tone = ForgeUpdatePresentation.tone(state.operationPhase))
+                             }
+ 
+                             ProgressState.Indeterminate -> {
+-                                LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
++                                ForgeUpdateProgress(progress = null,
++                                    tone = ForgeUpdatePresentation.tone(state.operationPhase))
+                             }
+ 
+                             null -> {
+@@ -219,6 +195,7 @@
+     UpdateActionType.PAUSE_DOWNLOAD,
+     UpdateActionType.PAUSE_INSTALL -> ActionBarButton.Icon(
+         imageVector = Icons.Outlined.Pause,
++        forgeFamily = "cg_upd_pause",
+         contentDescription = type.title(context),
+         enabled = enabled,
+         onClick = { onAction(this) },
+@@ -227,6 +204,7 @@
+     UpdateActionType.RESUME_DOWNLOAD,
+     UpdateActionType.RESUME_INSTALL -> ActionBarButton.Icon(
+         imageVector = Icons.Outlined.PlayArrow,
++        forgeFamily = "cg_upd_resume",
+         contentDescription = type.title(context),
+         enabled = enabled,
+         onClick = { onAction(this) },
+@@ -257,6 +235,7 @@
+                 buildDate = "Apr 27",
+                 buildVersion = "LineageOS 23.2",
+                 status = "",
++                operationPhase = UpdateOperationPhase.IDLE,
+                 isLocal = false,
+                 fileSize = "1.1 GB",
+                 androidUpdateInfo = "Android 16",
+@@ -291,6 +270,7 @@
+                 buildDate = "Apr 27",
+                 buildVersion = "LineageOS 23.2",
+                 status = "",
++                operationPhase = UpdateOperationPhase.IDLE,
+                 isLocal = false,
+                 fileSize = "1.1 GB",
+                 androidUpdateInfo = "Major Android upgrade",
+@@ -320,6 +300,7 @@
+                 buildDate = "Apr 27",
+                 buildVersion = "LineageOS 23.2",
+                 status = "Downloading",
++                operationPhase = UpdateOperationPhase.DOWNLOADING,
+                 isLocal = false,
+                 fileSize = "1.1 GB",
+                 androidUpdateInfo = "Android 16",
+--- a/app/src/main/java/org/lineageos/updater/updates/UpdateZeroStatePreference.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/UpdateZeroStatePreference.kt
+@@ -6,6 +6,7 @@
+ 
+ @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
+ 
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater.updates
+ 
+ import androidx.compose.foundation.layout.Arrangement
+@@ -27,6 +28,7 @@
+ import com.android.settingslib.spa.debug.UiModePreviews
+ import com.android.settingslib.spa.framework.theme.SettingsSpace
+ import com.android.settingslib.spa.framework.theme.SettingsTheme
++import org.lineageos.updater.forge.ForgeUpdateZeroIllustration
+ 
+ private val IconSize = 96.dp
+ 
+@@ -42,12 +44,7 @@
+         modifier = modifier.fillMaxWidth(),
+         horizontalAlignment = Alignment.CenterHorizontally,
+     ) {
+-        Icon(
+-            imageVector = Icons.Filled.Verified,
+-            contentDescription = null,
+-            modifier = Modifier.size(IconSize),
+-            tint = colorScheme.primary,
+-        )
++        ForgeUpdateZeroIllustration(modifier = Modifier.size(IconSize))
+         Column(
+             modifier = Modifier.padding(
+                 start = SettingsSpace.medium5,
+--- a/app/src/main/java/org/lineageos/updater/UpdatesActivity.java
++++ b/app/src/main/java/org/lineageos/updater/UpdatesActivity.java
+@@ -2,10 +2,12 @@
+  * SPDX-FileCopyrightText: The LineageOS Project
+  * SPDX-License-Identifier: Apache-2.0
+  */
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater;
+ 
+ import android.app.Activity;
+ import android.app.AlertDialog;
++import org.lineageos.updater.forge.ForgeDialogStyle;
+ import android.content.BroadcastReceiver;
+ import android.content.ComponentName;
+ import android.content.Context;
+@@ -146,6 +148,7 @@
+                 .create();
+ 
+         importDialog.show();
++        ForgeDialogStyle.apply(importDialog, true);
+     }
+ 
+     @Override
+@@ -156,21 +159,19 @@
+         }
+ 
+         if (update == null) {
+-            new AlertDialog.Builder(this)
++            ForgeDialogStyle.show(new AlertDialog.Builder(this)
+                     .setTitle(R.string.local_update_import)
+                     .setMessage(R.string.local_update_import_failure)
+-                    .setPositiveButton(android.R.string.ok, null)
+-                    .show();
++                    .setPositiveButton(android.R.string.ok, null).create(), false);
+             return;
+         }
+ 
+-        new AlertDialog.Builder(this)
++        ForgeDialogStyle.show(new AlertDialog.Builder(this)
+                 .setTitle(R.string.local_update_import_success_title)
+                 .setMessage(getString(
+                         R.string.local_update_import_success_message,
+                         StringUtil.formatBuildDate(this, update.getTimestamp())))
+-                .setPositiveButton(android.R.string.ok, null)
+-                .show();
++                .setPositiveButton(android.R.string.ok, null).create(), false);
+     }
+ 
+     private final ServiceConnection mConnection = new ServiceConnection() {
+--- a/app/src/main/java/org/lineageos/updater/updatescheck/UpdatesCheck.kt
++++ b/app/src/main/java/org/lineageos/updater/updatescheck/UpdatesCheck.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater.updatescheck
+ 
+ import android.content.Context
+@@ -40,6 +41,8 @@
+ import com.android.settingslib.spa.widget.ui.SettingsBody
+ import kotlinx.coroutines.delay
+ import org.lineageos.updater.R
++import org.lineageos.updater.forge.ForgeUpdateButton
++import org.lineageos.updater.forge.ForgeUpdateIllustration
+ import org.lineageos.updater.ui.Lottie
+ import java.util.Date
+ 
+@@ -131,12 +134,10 @@
+     onClick: () -> Unit,
+     modifier: Modifier = Modifier,
+ ) {
+-    FilledTonalButton(
++    ForgeUpdateButton(
+         onClick = onClick,
+         modifier = modifier.fillMaxWidth(),
+-        colors = ButtonDefaults.filledTonalButtonColors(
+-            containerColor = MaterialTheme.colorScheme.surfaceContainerHighest,
+-        ),
++        // The original click and full-width behavior are retained.
+     ) {
+         Text(text = stringResource(R.string.check_for_updates))
+     }
+@@ -156,7 +157,7 @@
+         horizontalAlignment = Alignment.CenterHorizontally,
+         verticalArrangement = Arrangement.spacedBy(SettingsDimension.itemPaddingVertical),
+     ) {
+-        Lottie(
++        ForgeUpdateIllustration(
+             resId = animationResId,
+             modifier = Modifier
+                 .size(AnimationSize)
+--- a/app/src/main/java/org/lineageos/updater/UpdatesScaffoldActivity.kt
++++ b/app/src/main/java/org/lineageos/updater/UpdatesScaffoldActivity.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: source-owned steel presentation; original actions/data retained.
+ package org.lineageos.updater
+ 
+ import android.content.Intent
+@@ -37,8 +38,8 @@
+ import androidx.compose.ui.unit.dp
+ import com.android.settingslib.spa.framework.compose.LocalNavController
+ import com.android.settingslib.spa.framework.compose.NavControllerWrapper
+-import com.android.settingslib.spa.framework.theme.SettingsTheme
+-import com.android.settingslib.spa.widget.preference.Preference
++import org.lineageos.updater.forge.ForgeUpdaterTheme as SettingsTheme
++import org.lineageos.updater.forge.ForgePreference as Preference
+ import com.android.settingslib.spa.widget.preference.PreferenceModel
+ import com.android.settingslib.spa.widget.scaffold.SettingsScaffold
+ import com.android.settingslib.spa.widget.ui.Category
+@@ -63,7 +64,10 @@
+ 
+     override fun onCreate(savedInstanceState: Bundle?) {
+         super.onCreate(savedInstanceState)
+-        enableEdgeToEdge()
++        enableEdgeToEdge(
++            statusBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
++            navigationBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
++        )
+     }
+ 
+     protected fun setupCompose() {
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_upd_badge_launcher.xml
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- 18% inset keeps the entire cold badge inside the 66/108 adaptive safe circle. -->
++<inset xmlns:android="http://schemas.android.com/apk/res/android"
++ android:drawable="@drawable/cg_upd_badge_cold" android:inset="18%"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_upd_badge_monochrome.xml
+@@ -0,0 +1 @@
++<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108"><group android:scaleX="2" android:scaleY="2" android:translateX="30" android:translateY="30"><path android:pathData="M2 12 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0" android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.7" android:strokeLineCap="round" android:strokeLineJoin="round" /><path android:pathData="M12 4 V15 M7 10 L12 15 L17 10 M6 19 H18" android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.7" android:strokeLineCap="round" android:strokeLineJoin="round" /></group></vector>
+\ No newline at end of file
+--- a/app/src/main/res/layout/progress_dialog.xml
++++ b/app/src/main/res/layout/progress_dialog.xml
+@@ -3,6 +3,7 @@
+      SPDX-FileCopyrightText: The LineageOS Project
+      SPDX-License-Identifier: Apache-2.0
+ -->
++<!-- Craftageddon: wrapping live import label; original operation retained. -->
+ <LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+@@ -20,9 +21,10 @@
+         app:indicatorColor="?android:attr/colorAccent"/>
+ 
+     <TextView
+-        android:layout_width="wrap_content"
++        android:layout_width="0dp"
++        android:layout_weight="1"
+         android:layout_height="wrap_content"
+-        android:layout_gravity="center"
++        android:layout_gravity="center_vertical"
+         android:layout_marginStart="16dp"
+         android:text="@string/local_update_import_progress"
+         android:textColor="?android:attr/textColorPrimary"
+--- a/app/src/main/res/mipmap-anydpi/ic_launcher.xml
++++ b/app/src/main/res/mipmap-anydpi/ic_launcher.xml
+@@ -1,9 +1,7 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+-    <background android:drawable="@drawable/ic_launcher_background"/>
+-    <foreground android:drawable="@drawable/ic_launcher_foreground"/>
+-</adaptive-icon>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: actual application icon owner; source notification vectors are preserved. -->
++<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
++ <background android:drawable="@color/cg_upd_icon_background"/>
++ <foreground android:drawable="@drawable/cg_upd_badge_launcher"/>
++ <monochrome android:drawable="@drawable/cg_upd_badge_monochrome"/>
++</adaptive-icon>
+--- /dev/null
++++ b/app/src/main/res/values/cg_updater_english.xml
+@@ -0,0 +1 @@
++<?xml version="1.0" encoding="utf-8"?><resources><string name="cg_upd_loading">Loading</string></resources>
+--- /dev/null
++++ b/app/src/main/res/values/cg_updater_icon.xml
+@@ -0,0 +1 @@
++<?xml version="1.0" encoding="utf-8"?><resources><color name="cg_upd_icon_background">#080c11</color></resources>
