@@ -1,0 +1,31 @@
+{
+  "actualOwnerFilesChanged": 3,
+  "newPurePresentationHelpers": 1,
+  "sourceConstructorsBound": 4,
+  "requiredPhaseHasNoDefault": true,
+  "reverseEditByteParity": true,
+  "files": [
+    {
+      "path": "app/src/main/java/org/lineageos/updater/forge/ForgeUpdatePresentation.kt",
+      "sha256": "b07dc1f372b37412ba678aef76158b2eebc2382ea2419311f9624cddbfc463d0"
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt",
+      "sha256": "d4457c1431a27f3c82e3b84b23d492885b1aba5aef913e1ef0acf62c88ee8612"
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/updater/updates/state/UpdateItemState.kt",
+      "sha256": "c37222a913e11abef0b470b3d614f098f33d6d20a3ad2139b593a9613712dfa4"
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/updater/updates/state/UpdateItemStateMapper.kt",
+      "sha256": "5e58b413684e790f9cab54acb6fd88551086aa5a5677f81be6e44bda07ed6bbc"
+    }
+  ],
+  "controllerInstallerRepositoryActionsModified": false,
+  "rendererBound": false,
+  "newArtworkAuthored": false,
+  "fullNativeBuild": "NOT RUN",
+  "nativeCodeExecuted": false,
+  "wholeGoalComplete": false
+}

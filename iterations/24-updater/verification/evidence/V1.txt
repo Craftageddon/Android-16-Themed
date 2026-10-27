@@ -1,0 +1,6 @@
+CHECK: V1
+RESULT: PASS
+SCOPE: Partial W04 updater card foundation: explicit native phase transport, four reused layered material families, actual card/action/progress source bindings and desktop state fixtures. Not a completed updater or full corpus release.
+METHOD: Roadmap and component-family source inspection
+OBSERVATIONS: All 13 source operation phases and 14 action types are recorded. Native phase, not status text, non-null progress or isInstalling, controls lighting. Original callbacks/enablement/data are preserved. Four workflow groups, the complete 10926-family baseline and final whole-goal check remain required.
+Target Android integration, physical device rendering, final accessibility and performance are NOT RUN.

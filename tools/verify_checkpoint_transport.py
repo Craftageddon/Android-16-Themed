@@ -25,6 +25,7 @@ def main():
     delivery=ROOT.parent/'Deliverables'/a.delivery;assert delivery.parent.resolve()==(ROOT.parent/'Deliverables').resolve();delivery.mkdir(parents=True,exist_ok=False);wanted=['complete-assets.zip','complete-assets.zip.sha256','complete-assets.zip.sig','complete-assets.zip.sig.json','signing-public-key.pem','README.md','REVIEW.md','semantic-review-progress.json','semantic-review-delta.json','changed-files.json','AynParts-forge-source.patch'];wanted += [p.relative_to(root).as_posix() for p in (root/'previews').glob('*.png')];wanted += ['workflow-previews/rgb-green-dragged.png','workflow-previews/calibration-test-calibration.png'];saved={}
     wanted += ['SystemUI-magnification-forge.patch','asset-inventory.json','workflow-fixtures.json','owner-binding-review.json','border-parameter-examples.json','verification/evidence/source-art-checks.json','verification/evidence/native-subset-build.json']
     wanted += [p.relative_to(root).as_posix() for p in (root/'workflow-previews').glob('*') if p.suffix in ['.svg','.png']]
+    wanted += ['Updater-forge-source.patch','Updater-phase-binding.patch','card-workflow-fixtures.json','owner-workflow-progress.json','asset-inventory.json','verification/evidence/card-stage-checks.json','verification/evidence/material-subset-build.json']
     for name in dict.fromkeys(wanted):
         source=root/name
         if not source.exists():continue

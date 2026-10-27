@@ -1,0 +1,450 @@
+[
+  {
+    "group": "androidx.activity",
+    "artifact": "activity",
+    "version": "1.13.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.activity\\activity\\1.13.0\\722e241a3182b6f135b6cc2eb16e37dc9e422339\\activity-1.13.0.aar",
+    "sha256": "bd4f19a5f00effed0eecad0a310b1f2169b9fc66236a3ba743a222eb77747ee1"
+  },
+  {
+    "group": "androidx.activity",
+    "artifact": "activity-compose",
+    "version": "1.13.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.activity\\activity-compose\\1.13.0\\6febbf42ee1a80d0586856e136a0d74f92b16b1d\\activity-compose-1.13.0.aar",
+    "sha256": "2b5da3033d4924e833868e140c3edfc0c03208710b6b9fb2c9d9a47560ba55fa"
+  },
+  {
+    "group": "androidx.activity",
+    "artifact": "activity-ktx",
+    "version": "1.13.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.activity\\activity-ktx\\1.13.0\\2ec3f205b0552ddfc8e87fab6acd8d5e7bb5e6dd\\activity-ktx-1.13.0.aar",
+    "sha256": "b5541dc5f74e35389f1e9fdca8b5770c49d2c1360de16f398ce5c1e07a003244"
+  },
+  {
+    "group": "androidx.annotation",
+    "artifact": "annotation-experimental",
+    "version": "1.4.1",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.annotation\\annotation-experimental\\1.4.1\\7851235e2a16ce50270a74b555edaf9209b42864\\annotation-experimental-1.4.1.aar",
+    "sha256": "6bd4c7c7476f8260cd3bdbb81183583e93fc9f790c27dea7dc314181cbf87aa0"
+  },
+  {
+    "group": "androidx.annotation",
+    "artifact": "annotation-jvm",
+    "version": "1.9.1",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.annotation\\annotation-jvm\\1.9.1\\b17951747e38bf3986a24431b9ba0d039958aa5f\\annotation-jvm-1.9.1.jar",
+    "sha256": "1e343917ebf27ba96fe4dc52b1cad7fd32b738fbc6355bb6cd5b3b305d7212d0"
+  },
+  {
+    "group": "androidx.arch.core",
+    "artifact": "core-common",
+    "version": "2.2.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.arch.core\\core-common\\2.2.0\\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\\core-common-2.2.0.jar",
+    "sha256": "65308a06b1c00ee186cb9e19321383f043b993813f1522c47f4a3e3303bdba41"
+  },
+  {
+    "group": "androidx.arch.core",
+    "artifact": "core-runtime",
+    "version": "2.2.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.arch.core\\core-runtime\\2.2.0\\39705982680d78556b679ef9d5400d4f17509b0b\\core-runtime-2.2.0.aar",
+    "sha256": "a1be5e0caa2b07623862af6ae21b3ab0718123245184d0e30dea81b53f990a47"
+  },
+  {
+    "group": "androidx.autofill",
+    "artifact": "autofill",
+    "version": "1.0.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.autofill\\autofill\\1.0.0\\d95a6e3b895ad8f037dd01d88c87138b6d5eb507\\autofill-1.0.0.aar",
+    "sha256": "c9468f56e05006ea151a426c54957cd0799b8b83a579d2846dd22061f33e5ecd"
+  },
+  {
+    "group": "androidx.collection",
+    "artifact": "collection-jvm",
+    "version": "1.5.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.collection\\collection-jvm\\1.5.0\\7ba2c69414d46ebc2dd76598bdd0a75c54281a57\\collection-jvm-1.5.0.jar",
+    "sha256": "70b35924e4babcdffa37d0e575ee039c56a2d97123342624c48b603233704341"
+  },
+  {
+    "group": "androidx.collection",
+    "artifact": "collection-ktx",
+    "version": "1.5.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.collection\\collection-ktx\\1.5.0\\27c78a926a16a1bf792b2285cf2834e8caae4a07\\collection-ktx-1.5.0.jar",
+    "sha256": "939b4a8697640e77d83e4e8b4c4a9d18f8130198c5961194af8dd9db9dc7c353"
+  },
+  {
+    "group": "androidx.compose.animation",
+    "artifact": "animation-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.animation\\animation-android\\1.12.0\\e49544b3337128d9a477bc0aadb685831b9a49b9\\animation.aar",
+    "sha256": "5be24f9d42832a41e4e5b65f477a2cbb264f65c68533c1afb333a942cb8ff132"
+  },
+  {
+    "group": "androidx.compose.animation",
+    "artifact": "animation-core-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.animation\\animation-core-android\\1.12.0\\c9f403dee017f721165db0ca753844617be56e41\\animation-core.aar",
+    "sha256": "03f26c90e65edd74a6cd38361ee312533d490ca4991a5c838745abda84798f75"
+  },
+  {
+    "group": "androidx.compose.foundation",
+    "artifact": "foundation-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.foundation\\foundation-android\\1.12.0\\479fdcf1502c4d9217834e47b1d46e802c51413e\\foundation.aar",
+    "sha256": "657c05465eddae8ff7a1e55a4a615bc26da9012834a44e1e4282deeb54ae8ea7"
+  },
+  {
+    "group": "androidx.compose.foundation",
+    "artifact": "foundation-layout-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.foundation\\foundation-layout-android\\1.12.0\\ab4d8bfb049bd0252db5bd48f68aed0b7657b868\\foundation-layout.aar",
+    "sha256": "cc326eaae95efe35d6e720ae01f6e9a6a456489c7e5868b4b09719fb63791864"
+  },
+  {
+    "group": "androidx.compose.material",
+    "artifact": "material-ripple-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.material\\material-ripple-android\\1.12.0\\152038a84cdec917b2e03816acaa316fed77bbe1\\material-ripple.aar",
+    "sha256": "14c87d654caf31eec9bdb62d6bea945b3caf219a60b7d4955e61f51526e04a0a"
+  },
+  {
+    "group": "androidx.compose.material3",
+    "artifact": "material3-android",
+    "version": "1.4.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.material3\\material3-android\\1.4.0\\6064b108969ab5557a0c19c7e026554f377cecf5\\material3.aar",
+    "sha256": "3a37e8b36df3822fe1e6059f0f9fafda8800388860477624ac1b9422c418a36e"
+  },
+  {
+    "group": "androidx.compose.runtime",
+    "artifact": "runtime-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.runtime\\runtime-android\\1.12.0\\4a47d1bba2633cf1e3ccfd03286a0e4e719b7ad8\\runtime.aar",
+    "sha256": "4002a4a17696cd182f080fe3663490e4f327f285c569ed844f1c435b8b772ba7"
+  },
+  {
+    "group": "androidx.compose.runtime",
+    "artifact": "runtime-annotation-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.runtime\\runtime-annotation-android\\1.12.0\\f662c50b14a203b81130dfb3f2b02c7acbbb9c86\\runtime-annotation.aar",
+    "sha256": "42c2f260b16cfafb7d5f9d8e5f751059de01fdc529ad3f79117fc40ead1c302c"
+  },
+  {
+    "group": "androidx.compose.runtime",
+    "artifact": "runtime-retain-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.runtime\\runtime-retain-android\\1.12.0\\83de6370dc2b468f5c47c197c97212189890f646\\runtime-retain.aar",
+    "sha256": "754cbe5b3da9eb294268461c0f3ecb9a41684608df6c9c4dfe481a7f781c0532"
+  },
+  {
+    "group": "androidx.compose.runtime",
+    "artifact": "runtime-saveable-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.runtime\\runtime-saveable-android\\1.12.0\\c215beda375b17ea4583b3ba61709b7aafcaf9a5\\runtime-saveable.aar",
+    "sha256": "277ee60d5bc9970ae42716fd6dd4e837a5a2f78517258f0c9d68c2a59d72cefa"
+  },
+  {
+    "group": "androidx.compose.ui",
+    "artifact": "ui-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.ui\\ui-android\\1.12.0\\48012a242c8ccb8bd1d934e537d27597f618973a\\ui.aar",
+    "sha256": "3d2d83c96546c380cbc582329ece0da74a4f9267d52c6dead69c2272bfce0313"
+  },
+  {
+    "group": "androidx.compose.ui",
+    "artifact": "ui-geometry-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.ui\\ui-geometry-android\\1.12.0\\4a1e6d1dafd9c3b32b4a22ac45a82da090af0dc2\\ui-geometry.aar",
+    "sha256": "dbcff0026da04ace1871b5dbeb97fd83e15de310bd0bbb0b0aea031fe29c4c7a"
+  },
+  {
+    "group": "androidx.compose.ui",
+    "artifact": "ui-graphics-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.ui\\ui-graphics-android\\1.12.0\\6a2640119fe1b278be8b634e99c3e35e159f1abb\\ui-graphics.aar",
+    "sha256": "87e7a805779720bf13a6f46a5a75ad80526d0300dbd3acbf48d2a689f71a1c41"
+  },
+  {
+    "group": "androidx.compose.ui",
+    "artifact": "ui-text-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.ui\\ui-text-android\\1.12.0\\4338add40c348a4004766ebe4ebaad555b5baa9e\\ui-text.aar",
+    "sha256": "6928bfad8bc4bb44a01404eea44e4fb0e826a13abe5d292c2c16718a62656bc5"
+  },
+  {
+    "group": "androidx.compose.ui",
+    "artifact": "ui-tooling-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.ui\\ui-tooling-android\\1.12.0\\8f2b93ca13ac2270f8f893508415f3df231b701c\\ui-tooling.aar",
+    "sha256": "36723ddc62068a27648db151ea93b809c2ba040608468c936e608d05568571ba"
+  },
+  {
+    "group": "androidx.compose.ui",
+    "artifact": "ui-tooling-data-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.ui\\ui-tooling-data-android\\1.12.0\\790a2f9f6d45b9b804c3b1109256772e8ac3b87\\ui-tooling-data.aar",
+    "sha256": "111897d4a5b4f0972503c564555733899589a9b8b90b7bdada15bd5445b00654"
+  },
+  {
+    "group": "androidx.compose.ui",
+    "artifact": "ui-tooling-preview-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.ui\\ui-tooling-preview-android\\1.12.0\\421f2963637607d6fba6c9c41db8d1b446456c72\\ui-tooling-preview.aar",
+    "sha256": "b94bf6808e103a99b38ab58a970cf15f7b3f921dc936b0f867b0a42db517c086"
+  },
+  {
+    "group": "androidx.compose.ui",
+    "artifact": "ui-unit-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.ui\\ui-unit-android\\1.12.0\\8d98ac30c8fd549314e881c09d8c1d65963a749f\\ui-unit.aar",
+    "sha256": "932d22c193caa0f7121e705abe8c1d45ecb6505cc1a9981956da4c1fbd5030ee"
+  },
+  {
+    "group": "androidx.compose.ui",
+    "artifact": "ui-util-android",
+    "version": "1.12.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.compose.ui\\ui-util-android\\1.12.0\\85cd30ef4c5074fe76b3d54501f800de8c698040\\ui-util.aar",
+    "sha256": "e7bec48411ba8d894bfcda4e3590b07b4aff5702a8e67b3a6e48eba8e5e531a5"
+  },
+  {
+    "group": "androidx.concurrent",
+    "artifact": "concurrent-futures",
+    "version": "1.1.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.concurrent\\concurrent-futures\\1.1.0\\50b7fb98350d5f42a4e49704b03278542293ba48\\concurrent-futures-1.1.0.jar",
+    "sha256": "0ce067c514a0d1049d1bebdf709e344ed3266fe9744275682937cdcb13334e9e"
+  },
+  {
+    "group": "androidx.core",
+    "artifact": "core",
+    "version": "1.18.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.core\\core\\1.18.0\\ff046a9f2725d94c2eaaa82e08674bb761c17792\\core-1.18.0.aar",
+    "sha256": "311d83ac67d394076ec21d12ed2d10a44b59cb2929b7dce00e5a90a93842e37d"
+  },
+  {
+    "group": "androidx.core",
+    "artifact": "core-ktx",
+    "version": "1.18.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.core\\core-ktx\\1.18.0\\d3e73ac068e614ed84893958bded6b0724717f2\\core-ktx-1.18.0.aar",
+    "sha256": "c7c511e3df838fcbcb61ace36944de6bb7c10eb597be546974f001119939c85d"
+  },
+  {
+    "group": "androidx.core",
+    "artifact": "core-viewtree",
+    "version": "1.0.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.core\\core-viewtree\\1.0.0\\449ba4f495b4d10d18edd01f32f9328be40d5749\\core-viewtree-1.0.0.aar",
+    "sha256": "dc1b678d58ebcf2bfa1587be68ff826694ce3d221251b9ef30d4d4b36297e6de"
+  },
+  {
+    "group": "androidx.customview",
+    "artifact": "customview-poolingcontainer",
+    "version": "1.0.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.customview\\customview-poolingcontainer\\1.0.0\\579fc832cf0e5be08d8d9571850b50d22d9de3c\\customview-poolingcontainer-1.0.0.aar",
+    "sha256": "3584102fc49bf399c56e3b7be4bfe12000c46112320cd8cf85cc0a8f93f3e752"
+  },
+  {
+    "group": "androidx.databinding",
+    "artifact": "databinding-common",
+    "version": "9.3.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.databinding\\databinding-common\\9.3.0\\6f14d56ba3258fd1e803e71bc6c589235141c317\\databinding-common-9.3.0.jar",
+    "sha256": "82816382a2a9dec4f0ab17c79cef08a9e4fe4b97d896ac20d7f215b6dd788b18"
+  },
+  {
+    "group": "androidx.databinding",
+    "artifact": "databinding-compiler-common",
+    "version": "9.3.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.databinding\\databinding-compiler-common\\9.3.0\\7c938429ac30ffa24d6894a22895fd1af769a113\\databinding-compiler-common-9.3.0.jar",
+    "sha256": "853cc2b746437155ef49f3779d760d538df7729479ca137b538eea4f6e61adab"
+  },
+  {
+    "group": "androidx.emoji2",
+    "artifact": "emoji2",
+    "version": "1.4.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.emoji2\\emoji2\\1.4.0\\db99b152737e1ef1cca8e2ff24986a1e1dc8561d\\emoji2-1.4.0.aar",
+    "sha256": "433febd3434a45667176c76a64f3f205ca6335a6b544c5b5d57f25a38a375242"
+  },
+  {
+    "group": "androidx.graphics",
+    "artifact": "graphics-path",
+    "version": "1.0.1",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.graphics\\graphics-path\\1.0.1\\7e243033abd313c7202428422a01d48691378e33\\graphics-path-1.0.1.aar",
+    "sha256": "8ca4032b6d79b351f0b59ad4b580eddbb9423e1652f7c958830687f1eee2ec03"
+  },
+  {
+    "group": "androidx.interpolator",
+    "artifact": "interpolator",
+    "version": "1.0.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.interpolator\\interpolator\\1.0.0\\8a01fa254a23b9388571eb6334b03707c7d122d7\\interpolator-1.0.0.aar",
+    "sha256": "33193135a64fe21fa2c35eec6688f1a76e512606c0fc83dc1b689e37add7732a"
+  },
+  {
+    "group": "androidx.lifecycle",
+    "artifact": "lifecycle-common-java8",
+    "version": "2.9.4",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-common-java8\\2.9.4\\86a8e6b9d0ba0c964fdc7223a38b6ce74bcb24dd\\lifecycle-common-java8-2.9.4.jar",
+    "sha256": "497dd84de9f2fd46324f25f9a3af032d3a23d087e87af515c4b19435f6d6a651"
+  },
+  {
+    "group": "androidx.lifecycle",
+    "artifact": "lifecycle-common-jvm",
+    "version": "2.9.4",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-common-jvm\\2.9.4\\ab739bccdb3541983385af169565c7c035d897e7\\lifecycle-common-jvm-2.9.4.jar",
+    "sha256": "37d89b2101f074ac6c260917dabb185607645ee200aa3018c7c5bde70edcf184"
+  },
+  {
+    "group": "androidx.lifecycle",
+    "artifact": "lifecycle-livedata-core",
+    "version": "2.9.4",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-livedata-core\\2.9.4\\8ffb4401079c231b0a85014cf2e4df02c804d53b\\lifecycle-livedata-core-2.9.4.aar",
+    "sha256": "ea866f0c379d1f92837994010ab5ac0a5d5499dbab521efc71b3bc2b497d6ba4"
+  },
+  {
+    "group": "androidx.lifecycle",
+    "artifact": "lifecycle-process",
+    "version": "2.9.4",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-process\\2.9.4\\6b51ead80ff00bb23d5801f08e67aa6b628e07b5\\lifecycle-process-2.9.4.aar",
+    "sha256": "4784b8d083c211e076d9115bfa1737f7e0f62b553e801cf50caa4400e34a95d6"
+  },
+  {
+    "group": "androidx.lifecycle",
+    "artifact": "lifecycle-runtime-android",
+    "version": "2.9.4",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-runtime-android\\2.9.4\\fd218d3a91d46511975ef11165ffba7d696c04a\\lifecycle-runtime-release.aar",
+    "sha256": "86f16a1330eb23600ba90d0334b3e1db38d3a30c8b1efcd92ca21aa85afa8173"
+  },
+  {
+    "group": "androidx.lifecycle",
+    "artifact": "lifecycle-runtime-compose-android",
+    "version": "2.9.4",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-runtime-compose-android\\2.9.4\\ca8d7bbd9529da9346e0e6a27462fafcdc324ae\\lifecycle-runtime-compose-release.aar",
+    "sha256": "b6803f906a89fd85c77df343dd4aeeb349125ca79e12d55d68d4cf42f42231f6"
+  },
+  {
+    "group": "androidx.lifecycle",
+    "artifact": "lifecycle-runtime-ktx-android",
+    "version": "2.9.4",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-runtime-ktx-android\\2.9.4\\58b7a78b98c61ac487551aa60cd17e1a4d01af96\\lifecycle-runtime-ktx.aar",
+    "sha256": "970199c9ed1ac13d620aa8de7f8abbc28ce80653c3ce328d0ac2f15272b56e1b"
+  },
+  {
+    "group": "androidx.lifecycle",
+    "artifact": "lifecycle-viewmodel-android",
+    "version": "2.9.4",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-viewmodel-android\\2.9.4\\d7f04dd2b3815ea592642340dabc73352c3786a3\\lifecycle-viewmodel-release.aar",
+    "sha256": "4b236b2e504db5ca5d09334fef05aa8cdc31ee35a433c3aa4d0420efa9613332"
+  },
+  {
+    "group": "androidx.lifecycle",
+    "artifact": "lifecycle-viewmodel-ktx",
+    "version": "2.9.4",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-viewmodel-ktx\\2.9.4\\83844a139f46cf3d195148d78f1820ecebf61294\\lifecycle-viewmodel-ktx-2.9.4.aar",
+    "sha256": "b7d58bb86bb8e2ccc607d1f8570e714810f7cfb3feba37d375ff1646383435a1"
+  },
+  {
+    "group": "androidx.lifecycle",
+    "artifact": "lifecycle-viewmodel-savedstate-android",
+    "version": "2.9.4",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-viewmodel-savedstate-android\\2.9.4\\5ec9278f5df344e931a5e57d91f91f181a165055\\lifecycle-viewmodel-savedstate-release.aar",
+    "sha256": "079441c43fa3ff8ea7a02df3b12eec483c3e57583f832cfaff663750527c1421"
+  },
+  {
+    "group": "androidx.navigationevent",
+    "artifact": "navigationevent-android",
+    "version": "1.0.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.navigationevent\\navigationevent-android\\1.0.0\\8171ee9b6046346e0c0aad9b767a99726a81c6dc\\navigationevent.aar",
+    "sha256": "cda4bb83d1c892a208732e99c2d59e4f247ab5c23a1d2524fc004db2e4e9a780"
+  },
+  {
+    "group": "androidx.navigationevent",
+    "artifact": "navigationevent-compose-android",
+    "version": "1.0.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.navigationevent\\navigationevent-compose-android\\1.0.0\\b6c1a5f3174a1d9fdbf8b8244e817ca25d5c773c\\navigationevent-compose.aar",
+    "sha256": "5cee018dbe130b538d2c43cc6f383a109a98f19ba9c8d7a6dda8ca90a2034671"
+  },
+  {
+    "group": "androidx.profileinstaller",
+    "artifact": "profileinstaller",
+    "version": "1.4.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.profileinstaller\\profileinstaller\\1.4.0\\6b6262e9ca50d1f75a496f3b64ebeb092a9d42eb\\profileinstaller-1.4.0.aar",
+    "sha256": "d502141fcce902430f62b674c32aecd0f75262e7ee2cd15c74adb617cd13130a"
+  },
+  {
+    "group": "androidx.savedstate",
+    "artifact": "savedstate-android",
+    "version": "1.3.2",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.savedstate\\savedstate-android\\1.3.2\\2d0bd847019e056e14327f62cab1d6b26f1cb1dc\\savedstate-release.aar",
+    "sha256": "1e26f137705596d09d3f4f52559a29026d9a1a6688be7f1a948316a4f1e39b20"
+  },
+  {
+    "group": "androidx.savedstate",
+    "artifact": "savedstate-compose-android",
+    "version": "1.3.2",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.savedstate\\savedstate-compose-android\\1.3.2\\f19f69cc6e9a996295d61e674f54f7f63454b7e4\\savedstate-compose.aar",
+    "sha256": "93426691f25441cc3179494b25f401a8a468aabbee4c40b90c0327413fd65523"
+  },
+  {
+    "group": "androidx.savedstate",
+    "artifact": "savedstate-ktx",
+    "version": "1.3.2",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.savedstate\\savedstate-ktx\\1.3.2\\d09ffd11731a36f819dedbfe93f941458e63484f\\savedstate-ktx-1.3.2.aar",
+    "sha256": "1c300732ece8e9d0001fb19cc693b0f77f19e77cdf90ca5c4cd56d5e6951d02b"
+  },
+  {
+    "group": "androidx.startup",
+    "artifact": "startup-runtime",
+    "version": "1.1.1",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.startup\\startup-runtime\\1.1.1\\9d4ba67056aff98b69eadc1477c19a1e67cb9470\\startup-runtime-1.1.1.aar",
+    "sha256": "e0a6329a371262fe4c450372b70fdaf33b769ef6917094723787cfce896b1dd3"
+  },
+  {
+    "group": "androidx.tracing",
+    "artifact": "tracing",
+    "version": "1.2.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.tracing\\tracing\\1.2.0\\a6ac2cc501278fdc99c56b428548e0cd1e9300f7\\tracing-1.2.0.aar",
+    "sha256": "6faa90390d1fdbf0adb9a99bf99de67b94c6c6f35aea9510593a9d17973736a2"
+  },
+  {
+    "group": "androidx.versionedparcelable",
+    "artifact": "versionedparcelable",
+    "version": "1.1.1",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.versionedparcelable\\versionedparcelable\\1.1.1\\18e18071e7715679e0593c570217edeb5ca48b9e\\versionedparcelable-1.1.1.aar",
+    "sha256": "57e8d93260d18d5b9007c9eed3c64ad159de90c8609ebfc74a347cbd514535a4"
+  },
+  {
+    "group": "androidx.window",
+    "artifact": "window",
+    "version": "1.5.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.window\\window\\1.5.0\\386d81dd80774e9f495a5750b4d3af206a45004\\window-1.5.0.aar",
+    "sha256": "5de2d48aa578402f46deb5294a955cee62f0c7d8c1840ef626fc7afb8abe22f9"
+  },
+  {
+    "group": "androidx.window",
+    "artifact": "window-core-android",
+    "version": "1.5.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.window\\window-core-android\\1.5.0\\22a9096078eea50902ec3816c054eb41cdc54547\\window-core.aar",
+    "sha256": "d0d50db0756194a6d49a66ad8dafd17b24b4c5fbd8379375056e2eb9bdfeaf22"
+  },
+  {
+    "group": "org.jetbrains",
+    "artifact": "annotations",
+    "version": "23.0.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains\\annotations\\23.0.0\\8cc20c07506ec18e0834947b84a864bfc094484e\\annotations-23.0.0.jar",
+    "sha256": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05"
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "artifact": "kotlinx-coroutines-android",
+    "version": "1.9.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-android\\1.9.0\\6cf3b8df5a2ce8c6b0dffe55657a827c405ee2fe\\kotlinx-coroutines-android-1.9.0.jar",
+    "sha256": "bd783acd2f9738845d58380f46f45b5cde95d0cb03027d56725338b26bfc4d72"
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "artifact": "kotlinx-coroutines-core-jvm",
+    "version": "1.9.0",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-core-jvm\\1.9.0\\9beade4c1c1569e4f36cbd2c37e02e3e41502601\\kotlinx-coroutines-core-jvm-1.9.0.jar",
+    "sha256": "ad89c2892235e670f222d819cb3d81188143cb19a05b59df9889ae4269f5c70a"
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "artifact": "kotlinx-serialization-core-jvm",
+    "version": "1.7.3",
+    "cacheFile": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-serialization-core-jvm\\1.7.3\\1f226780b845ff9206474c05159245d861556249\\kotlinx-serialization-core-jvm-1.7.3.jar",
+    "sha256": "f0adde45864144475385cf4aa7e0b7feb27f61fcf9472665ed98cc971b06b1eb"
+  }
+]

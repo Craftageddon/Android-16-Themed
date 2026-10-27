@@ -1,0 +1,15 @@
+{
+  "newlyAuthoredDrawings": 0,
+  "exactReusedSvgMasters": 4,
+  "exactSourceTextures": 2,
+  "exactReusedNativePngConfigurations": 112,
+  "neutralMaskConfigurations": 96,
+  "editableCardFixtures": 18,
+  "composedCardPreviewPngs": 18,
+  "comparisonSheets": 2,
+  "modifiedActualNativeSourceFiles": 4,
+  "newRenderingAndSupportSourceFiles": 5,
+  "currentTextPatchFiles": 9,
+  "pinnedOriginalSourceAndDependencyFiles": 83,
+  "fullUpdaterWorkflowComplete": false
+}

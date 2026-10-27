@@ -1,0 +1,680 @@
+{
+  "families": 4,
+  "nativePngConfigurations": 112,
+  "newDrawings": 0,
+  "resources": [
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_button_cold.9.png",
+      "sha256": "dea4ab24ef563ff8adf3ac8aea00230d0cdd9b48802deddeaebf99b702c33549",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_button_reflection.9.png",
+      "sha256": "1a8b80c7e4a435f6332e660dc75ddf3c29b0ebf90636bd7c7c0e033299660b4a",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_button_spill.9.png",
+      "sha256": "1dbea08b9c4165527dbbad3fa3d6251c2e862004e463a37fe1f2206686123a18",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_button_seam.9.png",
+      "sha256": "3516b9708773eafb4e1c4adf869e6fd4ede35aed934c7747b55ae6008d69d222",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_button_core.9.png",
+      "sha256": "f91bea5b2bb7970094c72fd80dace660d9b62e1940daed3d01fe6744a52adeb1",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_button_focus.9.png",
+      "sha256": "37a65d72fb931f4cf2184ff01690afee213eb06b673f7258cfe07de567664c7d",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_button_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_button_symbol.9.png",
+      "sha256": "dba4b7cea93f1313fd442afcee0e3af2d204f8fa2774bb01c2fa7569a6807d0d",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_field_cold.9.png",
+      "sha256": "2ff580a925a948b512889b468462f8c6c18c26a4b59e29a1ccf850b000f663ae",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_field_reflection.9.png",
+      "sha256": "a5a75d65fbf9f5eb78209868af3135c0231957612c0406615276e082b6178551",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_field_spill.9.png",
+      "sha256": "3b53112153a10f0abb2c6d6bb108c7449b5858bff87991ed2774ea7b6dcded76",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_field_seam.9.png",
+      "sha256": "446b3c0e2071534fcd639a397c3bbb81371f378f608b5733ae61a05641cac04c",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_field_core.9.png",
+      "sha256": "a81048180b6ac48efa80d34f96d16a5f7260f4c40dc7853d5dab36abdb2eaf64",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_field_focus.9.png",
+      "sha256": "5a9d4c8a6f259238e0f96213debd5cf0d6e081868799e282e2f7c17d701ff41b",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_field_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_field_symbol.9.png",
+      "sha256": "8a26de87de4ce1286af2b3b8a60e4d7202de642b1419d9d10542f3f96c598a51",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_panel_cold.9.png",
+      "sha256": "33854bb819477c7c14b0d8d303e97348d38d222a567b85e6a87a1ec8ee5c799e",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_panel_reflection.9.png",
+      "sha256": "51a6ec924e6e2cfa63aa6b8d6923f4f3720be77bb169ddb8a8e140000e3f022a",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_panel_spill.9.png",
+      "sha256": "c2ee01400bfea0b57d53018585af0880f82a88dd5de1358bbbc0dfeb818ed41f",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_panel_seam.9.png",
+      "sha256": "4905fece6af3bbdee6a97744cc6c9b9e03e972b05d0fe8c1c7c140f811462371",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_panel_core.9.png",
+      "sha256": "80981791afb8e666d95fad980a7d255ee1c0293b03327e8ea266378463751788",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_panel_focus.9.png",
+      "sha256": "0192aec707ab9cecd89448bd1aafa82a7b23a392fe2b933a091ab8ac87a4d9ca",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-mdpi/cg_rf_panel_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_rf_panel_symbol.9.png",
+      "sha256": "5d1b3dabb16fd4cb7e008003837b1645ec2f79aa0f9fcf2f0231ac055d888aa1",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_zoom_rail_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_rail_cold.9.png",
+      "sha256": "11ae5881ee60dec79ff405d4679787da8bb8d5f8c36bdd3e1011245804524459",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_zoom_rail_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_rail_reflection.9.png",
+      "sha256": "22a7ea946949008bcbcd8e7e0133e9d1cecde7152323e699e3e7b49b8317314b",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_zoom_rail_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_rail_spill.9.png",
+      "sha256": "bf25e28c7fe3becc7b19f030d36d70e42f4168f62399c5ad5992de706840687b",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_zoom_rail_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_rail_seam.9.png",
+      "sha256": "287344fed9919dd307536d35577dc777971f28ba086ee811cf2f31a2aa7f374d",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_zoom_rail_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_rail_core.9.png",
+      "sha256": "b80b85f37669d415365b95a0e8d0707f1e0b0fa20a0b92d57aad5d54b4190f57",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_zoom_rail_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_rail_focus.9.png",
+      "sha256": "eda041a33c28cd44a3dce54a9d3f90fda3e911ac1a124c133b3276bf135b7b94",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-mdpi/cg_mag_zoom_rail_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-mdpi/cg_upd_rail_symbol.9.png",
+      "sha256": "a179a69aa46df13e7741a0ba8c7435d4cfb1dbacbac1783ef4445f806f45f952",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_button_cold.9.png",
+      "sha256": "70a6e3fd7a81db8082358c5e31d6156e8b407e954e361984570a2805ad154e04",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_button_reflection.9.png",
+      "sha256": "269750e91475b4fab0d6ba1d75611795b3922afefa7188d125098a08b0216e60",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_button_spill.9.png",
+      "sha256": "e7bf1de4eff3ab2fe834bce57ccc7175b5c584a7a2094d9905b4eac15313d9c8",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_button_seam.9.png",
+      "sha256": "67e6da482103701ba55dc118ec7b42a9f7ca77a231f63600face6c170a8929a4",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_button_core.9.png",
+      "sha256": "9e2a084ddee09c0120fdec752b610d4a77b0fa4c7c85f2fb84ff9375f3f4adee",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_button_focus.9.png",
+      "sha256": "ee3df5abe5e81f9405d919c283a374fa2f28f7e0f566cfebbd9c644e0fea8d3c",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_button_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_button_symbol.9.png",
+      "sha256": "288455e4c89c5dd155e660614a38c1b8cb0761c4931f96d8a61096001a7b65a1",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_field_cold.9.png",
+      "sha256": "6f7c02f13b0b02e48e3eafc2f40e198ec9abf895e214d1dc7cfdd4e8eae1702f",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_field_reflection.9.png",
+      "sha256": "01eb6597c55cb04894cb3efdacd211fae965ecec36ccd2cf234768cb0b887d30",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_field_spill.9.png",
+      "sha256": "0b5af581f160750f99ec9c8c79af662a44adeab007ed81996dc2a8e2b4f82ada",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_field_seam.9.png",
+      "sha256": "00818286c646c12d44367f706d596e3376039d8ab0ed315685d8a88ee5f64e85",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_field_core.9.png",
+      "sha256": "cf1615facc43b93c6ba2fc712b2da0b84e8e3e96a62d36658cdfc428581396f2",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_field_focus.9.png",
+      "sha256": "03262af6dcb4dd51cc83d2b148534c368b9357aac48064f45c473cd5131f8f02",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_field_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_field_symbol.9.png",
+      "sha256": "e260160f77fd7b06610639ffbbb382fdf4a9024f27dda9b00e26eed8e5e15b12",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_panel_cold.9.png",
+      "sha256": "e3076e74753e29272e618c84ac8bd7a337e6d0b406a1a3c26dc0d0d11d87d10e",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_panel_reflection.9.png",
+      "sha256": "a3c6ba291f6bd3091fe4c6080b71a29055ac9adda727a193fe2ac6fd37d8b1b8",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_panel_spill.9.png",
+      "sha256": "53be8456098528c4bb9835735b5027ade43348a9eccacbe016eed0e2d86e3da7",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_panel_seam.9.png",
+      "sha256": "ded9b78deeea4291eebfa08248f1c0b736a350fa11a90deea1d9b51c30003d9b",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_panel_core.9.png",
+      "sha256": "624a1e28204e082255282dc9b49b5ebdf402c61d7e42229f9c61fb3edbd8b7dd",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_panel_focus.9.png",
+      "sha256": "00e91776b5213014cf4a34cb52b74daa20a5eda11a6afedf2f83d17dc1099cb8",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-hdpi/cg_rf_panel_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_rf_panel_symbol.9.png",
+      "sha256": "52e347d0d4e26a79ccf4d8c2088fc707b8befab9e50e347b13b004aaebb3b0cd",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_zoom_rail_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_rail_cold.9.png",
+      "sha256": "2528c772ca56ad4dedc1df9608329d2c56a1b4f9379541ecb0b7d1bc1281ee9c",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_zoom_rail_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_rail_reflection.9.png",
+      "sha256": "b454f9f15e1f63236877afedabffd35ee2d14a45cb32fdfcc23acb8cbe2899d7",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_zoom_rail_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_rail_spill.9.png",
+      "sha256": "a31163aa5805306dd10014cc3b8cae26d52c62c4bbee9de43ddb7c5d111cba16",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_zoom_rail_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_rail_seam.9.png",
+      "sha256": "8c339b964d7a17f15c127769c7700f4cd113fdb88e327a3aa20683afe9f7ef1a",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_zoom_rail_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_rail_core.9.png",
+      "sha256": "7c0ef23ab8b4a0fbacb62e9450c01be163cddcf939404a94ea41fbdac073087b",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_zoom_rail_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_rail_focus.9.png",
+      "sha256": "369baaf19247fa3f77b4ef4e8f097d1ae69ecffc69b508049aeda165688d1b90",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-hdpi/cg_mag_zoom_rail_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-hdpi/cg_upd_rail_symbol.9.png",
+      "sha256": "a23481aa35fdecd0dc7ca729eff74acb7af222270973efca9c139bce29e4a7c4",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_button_cold.9.png",
+      "sha256": "c8220352003b28c8d283898321664019a42906b279e7ba9da61e7a13202f1c93",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_button_reflection.9.png",
+      "sha256": "e532809c49e4300d0ed5ad832bf11670c41b7cbfc95cbb0fc6a07762c1383995",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_button_spill.9.png",
+      "sha256": "eff85166ef78d73a78768c926b4ada0b6ad8e9874847558b3dbc445d9dd39398",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_button_seam.9.png",
+      "sha256": "2310ddd589cbd5f18c44d34ab1876687054ed8dfa268c47bb48d652483e149cb",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_button_core.9.png",
+      "sha256": "7e8f79266f12df6426ef41a5c9c668af6c26ec076c5ad1f80edd84da821f9e7e",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_button_focus.9.png",
+      "sha256": "1c05099914511c2549f006aa5478c857f064080463c31d76e42f7cc2fd62fd42",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_button_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_button_symbol.9.png",
+      "sha256": "56604e1e93fb7ae91bf415b9690b260855f89587da8210ed84246787bd677736",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_field_cold.9.png",
+      "sha256": "0721cdfbe65cf3dfed10b45b973dfd4b9d590c68a6d6235af4b095d1edadb720",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_field_reflection.9.png",
+      "sha256": "2c41998d1807c30e76474255f8424f214d9ee5ceaed7d056419ef9b741e2597d",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_field_spill.9.png",
+      "sha256": "fabc806cbea0da62affd50f9e902c34294dc7af248cd6e19806e1e82a197794f",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_field_seam.9.png",
+      "sha256": "a2da362994761e400fba6e270306eb60dc525395ca787a91b75af1fe18d78c52",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_field_core.9.png",
+      "sha256": "d941d7710ca89dfa01e55761b30495946b50501c5238fb145fb2749b029081ce",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_field_focus.9.png",
+      "sha256": "1270c8429c13c243f44398a7b4e46c3f92a699ba116fe6efd370410182bd3a11",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_field_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_field_symbol.9.png",
+      "sha256": "1577d5510e63e06686eb4e19dfdbb09b2e09a7afbae9cf09996b9441835e5b78",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_panel_cold.9.png",
+      "sha256": "5e36e5030567a8a15f5afa454758d407837c29aab1bdafad510286ef287adb1c",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_panel_reflection.9.png",
+      "sha256": "b09911d37cca7d7b71f8e6d7fd97159390f367db40b83c51ed6a0b6682d2566f",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_panel_spill.9.png",
+      "sha256": "9e1e993c84679fdf06836a180d5336859644461570091febeae6b8906f12c63d",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_panel_seam.9.png",
+      "sha256": "ae961d39dddc0862288963d2513d978cc881574c498bf9983da4402b56515b9b",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_panel_core.9.png",
+      "sha256": "93b525b19e3f73858d7b404e67f374bc3b22abe40cc25e1507f054037c036ab6",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_panel_focus.9.png",
+      "sha256": "6e597b7c9399e4d73d311fc1b21a2d2672d174a791009aecdd45126c371926e9",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xhdpi/cg_rf_panel_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_rf_panel_symbol.9.png",
+      "sha256": "c615c3c1c3bc5990dd0575de4ee8f587df3b5b323b553e088fb190a006fae024",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_zoom_rail_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_rail_cold.9.png",
+      "sha256": "e29f79ceef606f255c375d8dab8e46131632b0317152f9e7c60554ea86e75fcb",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_zoom_rail_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_rail_reflection.9.png",
+      "sha256": "42cadfe76f29405e1266f99120fc3ea947677266cf703bcc4f61a8ca71b496d7",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_zoom_rail_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_rail_spill.9.png",
+      "sha256": "60c6a3b056c209f37ee182281921e92dade831a214d5acaf2103d65aba1aa28c",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_zoom_rail_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_rail_seam.9.png",
+      "sha256": "5734d45c0aee6782a32384a486e8b416c96269f79ba3540de798ab6fcf1e9b90",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_zoom_rail_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_rail_core.9.png",
+      "sha256": "0ea7c3eb5e63862cd0332edc50b35b4a7f1536f9ac1188facd1dc40ebd2a396f",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_zoom_rail_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_rail_focus.9.png",
+      "sha256": "208143046e6b5da8d364f0529da3e151d7289523250781a924d81492a4562668",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xhdpi/cg_mag_zoom_rail_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xhdpi/cg_upd_rail_symbol.9.png",
+      "sha256": "8c7a61183afd0afac7a37f628711aeb84d937b0af9ca118f8b86d93321f6b100",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_button_cold.9.png",
+      "sha256": "f3cf7df0b8959e85d790b3c0cb0ac247294bf32bdfd377bd8d147e831e780f77",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_button_reflection.9.png",
+      "sha256": "fca2446fa810c7ea8a0f43a134d4bfb6dc04098507ea87c219f5c9cd7c621816",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_button_spill.9.png",
+      "sha256": "00a6fa999357d0e6250e1b69bb9afd60ac79a69272426900f5f92b5254718a0e",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_button_seam.9.png",
+      "sha256": "016a223000b1c0566c5fedef8cc16cba27290146ede65bba3b34cb4219ce4ea4",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_button_core.9.png",
+      "sha256": "43e3172049af05e7f1d7ecbca3b0c06ac5f88e0f7e5bc9e010ea4b6c77c17d6a",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_button_focus.9.png",
+      "sha256": "6b8cec2e679e49080a836f3f390e4e74aec6872160ce8c58d2602ac29f9118b9",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_button_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_button_symbol.9.png",
+      "sha256": "bd25802d140eb04b73c43f7f2fa33a49c81ebfab51dd12e85159db9b5ec4c291",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_field_cold.9.png",
+      "sha256": "80fe7ffffdcf0f6c9dc9774d8aadaf99f0abad1960f3d6e2f06907da66845fbe",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_field_reflection.9.png",
+      "sha256": "4fb1ef12603156b310a2015d44a8a8854be69e34649e6eebdc30ec1a77ca8d2c",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_field_spill.9.png",
+      "sha256": "dfe525b3bfb04172ad770b758a1d78f52ea62feab0101abf4265a22425a7bc86",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_field_seam.9.png",
+      "sha256": "cdff95865458c665de394202dd8d02ad7d6b1fcb7da8b12e98cacf895b842946",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_field_core.9.png",
+      "sha256": "7c2e391c16f36f91788fbf4d0103809fca9de361dfc6c5b39a9c8825ff812e28",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_field_focus.9.png",
+      "sha256": "f1ede9b5b05db725d6b67e18f659f6d8e172552768285ba51518947340b5e287",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_field_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_field_symbol.9.png",
+      "sha256": "544ad3afa0e725b9b7f0b3a4d139dbbfe47c95c2373eb712a88b69bc7ae5724c",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_panel_cold.9.png",
+      "sha256": "07b8101f0af9404b3af70f08e727a8304600eaf4f616c40cb549cef43ad7f7a9",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_panel_reflection.9.png",
+      "sha256": "5dd7f0a63d82ad2bb882c38565535a214a9a2753a88c07ea76ad5682b55c105c",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_panel_spill.9.png",
+      "sha256": "3c7e2d3d591176f6d48944bf89799d8f1f3cc0ca7a4d0f6301fddc9c13ab9a7f",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_panel_seam.9.png",
+      "sha256": "35c521f6f0ce951757ac7975ebb8a582c8dc0bf4e7f7d7c7721dbbe1273a3bd0",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_panel_core.9.png",
+      "sha256": "4936f92736f59619eceb5944a245d40523acd71d5ccdbcb26c71c719d0363655",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_panel_focus.9.png",
+      "sha256": "56e24b8c86a0e445338fa60afcaeb3b60ffed1ebbad2a740042691504dd2cd4c",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/21-native-workflows/native-patch/hardware/ayn/packages/AynParts/res/drawable-xxhdpi/cg_rf_panel_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_rf_panel_symbol.9.png",
+      "sha256": "bcb2388881c5d3252d1582f801391a1b7bf5aa5e5ee9203f5a63b013ab5d4d74",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_zoom_rail_cold.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_rail_cold.9.png",
+      "sha256": "c5160030365754981f77ba891efc249ee41c7a62344325cc0e4170eb9539cdc5",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_zoom_rail_reflection.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_rail_reflection.9.png",
+      "sha256": "efec44317bf416a3ce6006b702e3a43889904eaf2002bfa74dfcb0bdeafd3557",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_zoom_rail_spill.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_rail_spill.9.png",
+      "sha256": "c28bf383ddfe1ebeb34631f7a5884ac4f21f6befdfed95b6aa6b47372b41ddd7",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_zoom_rail_seam.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_rail_seam.9.png",
+      "sha256": "20c605833c54d9403a5b8e7611ae5ca66aad37e401dc1ea7f3aacfe8259c7425",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_zoom_rail_core.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_rail_core.9.png",
+      "sha256": "3793325214e01fda17538524154c9fba1a121492b1442683fbbc294f66fe8101",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_zoom_rail_focus.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_rail_focus.9.png",
+      "sha256": "abee3ef4f9c0a4a064649041613b5292170a6a09ca5766bab03b0be32d2b372e",
+      "unchanged": true
+    },
+    {
+      "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/res/drawable-xxhdpi/cg_mag_zoom_rail_symbol.9.png",
+      "target": "native-patch/packages/apps/Updater/app/src/main/res/drawable-xxhdpi/cg_upd_rail_symbol.9.png",
+      "sha256": "75a75b90529a1e1e9a9b86ff7dbdb8c2530973c77a63d5873657e56b3e9ebf07",
+      "unchanged": true
+    }
+  ],
+  "coldAndNeutralMasksRemainSeparate": true
+}

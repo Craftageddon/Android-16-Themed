@@ -1,3 +1,11 @@
+# Updater card foundation — 2026-10-27
+
+[Iteration 24](iterations/24-updater/README.md) binds actual operation phase into the presentation model and applies four existing steel material families to cards, actions and progress rails. Paused/suspended progress stays cold; running operations glow. Action and progress-detail rows wrap. Native text and callbacks remain in their original owners. This adds 18 editable desktop fixtures and reuses 112 native PNG configurations, with four exact SVG aliases and zero newly authored drawings.
+
+Scoped source, mask, patch, state and desktop checks pass, together with actual resource/Java/material-library compatibility compilation. The mapper, UpdateItem and ActionBar are not compiled; full pinned Soong, Android rendering/input/accessibility, device acceptance and V3 remain unrun. Host fixtures execute presentation data/enum/policy types, with no updater/controller/installer operation.
+
+W04 remains partial: scaffold/banner, preferences/controls, dialogs/import/checking/zero/error illustrations and glyph/resource bridges still require work. W03/W05/W07, the full corpus/extra artwork/owner review and final independent whole-goal check remain required. The full 10,926-family/16,559-variant ledger is retained unchanged; 9,630 decisions remain OPEN.
+
 # Magnification artwork and source checkpoint - 2026-10-26
 
 [Iteration 23](iterations/23-magnification/README.md) adapts actual fullscreen/window magnification, size editing, settings and the retained directional controller. It adds 23 treatments with cold bases and separate neutral masks, 644 native PNG configurations, 28 exact panel aliases, nine editable workflow fixtures, three Java support/rendering classes and source bindings for five actual SystemUI owners. Native English text remains live. Resize and directional targets declare 48dp; hidden targets are excluded from touch regions, and tight settings headers stack using native text measurement.

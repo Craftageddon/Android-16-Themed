@@ -1,0 +1,636 @@
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeLayerDrawable.java
+@@ -0,0 +1,87 @@
++package org.lineageos.updater.forge;
++
++import android.content.Context;
++import android.content.res.Resources;
++import android.graphics.Canvas;
++import android.graphics.ColorFilter;
++import android.graphics.PixelFormat;
++import android.graphics.PorterDuff;
++import android.graphics.Rect;
++import android.graphics.drawable.Drawable;
++
++/** Native compiled PNG/nine-patch layers; source geometry and light masks stay separate. */
++public final class ForgeLayerDrawable extends Drawable {
++    private static final int[] COLORS = {0xffdc5920, 0xffff4908, 0xffff5b0b,
++            0xffffd083, 0xffd5e7f2, 0xffffe5bc};
++    private final Drawable[] layers = new Drawable[7];
++    private final boolean momentary;
++    private final int intrinsicWidth;
++    private final int intrinsicHeight;
++    private boolean featureActive;
++    private float featureStrength = 1f;
++    private float emissionStrength = 1f;
++    private int alpha = 255;
++    private ForgeStatePolicy policy = ForgeStatePolicy.resolve(true, false, false, false,
++            false, false, false);
++    public ForgeLayerDrawable(Context context, String family, boolean momentary) {
++        this(context.getResources(), context.getTheme(), family, momentary);
++    }
++    public ForgeLayerDrawable(Resources resources, Resources.Theme theme, String family, boolean momentary) {
++        this.momentary = momentary;
++        int[] ids = ForgeResources.layers(family); // Static R references survive resource shrinking.
++        for (int i = 0; i < layers.length; i++) {
++            layers[i] = resources.getDrawable(ids[i], theme).mutate();
++            if (i > 0) layers[i].setColorFilter(COLORS[i-1], PorterDuff.Mode.SRC_IN);
++        }
++        intrinsicWidth = layers[0].getIntrinsicWidth();
++        intrinsicHeight = layers[0].getIntrinsicHeight();
++        setState(new int[] {android.R.attr.state_enabled});
++    }
++    public void setFeatureActive(boolean active) {
++        if (featureActive != active || featureStrength != 1f) {
++            featureActive = active; featureStrength = 1f; onStateChange(getState());
++        }
++    }
++    /** Actual analog amplitude drives lighting; tiny raw-axis noise cannot flash at full gain. */
++    public void setInputStrength(float strength) {
++        float value = Float.isNaN(strength) ? 0f : Math.max(0f, Math.min(1f, strength));
++        if (featureStrength != value || featureActive != (value > 0f)) {
++            featureStrength = value; featureActive = value > 0f; onStateChange(getState());
++        }
++    }
++    private static boolean has(int[] states, int target) {
++        for (int state : states) if (state == target) return true;
++        return false;
++    }
++    @Override public boolean isStateful() { return true; }
++    @Override protected boolean onStateChange(int[] states) {
++        boolean semanticSelection = has(states, android.R.attr.state_checked)
++                || has(states, android.R.attr.state_selected)
++                || (momentary && has(states, android.R.attr.state_pressed));
++        emissionStrength = semanticSelection ? 1f : featureStrength;
++        policy = ForgeStatePolicy.resolve(has(states, android.R.attr.state_enabled),
++                has(states, android.R.attr.state_checked), has(states, android.R.attr.state_selected),
++                has(states, android.R.attr.state_focused), has(states, android.R.attr.state_pressed),
++                featureActive, momentary);
++        invalidateSelf(); return true;
++    }
++    @Override protected void onBoundsChange(Rect bounds) {
++        for (Drawable drawable : layers) drawable.setBounds(bounds);
++    }
++    @Override public void draw(Canvas canvas) {
++        layers[0].setAlpha(Math.round(alpha * policy.base)); layers[0].draw(canvas);
++        for (int i = 1; i < layers.length; i++) {
++            if (policy.gains[i-1] > 0) {
++                float strength = i == 5 ? 1f : emissionStrength; // Neutral focus is independent.
++                layers[i].setAlpha(Math.round(alpha * policy.gains[i-1] * strength)); layers[i].draw(canvas);
++            }
++        }
++    }
++    @Override public boolean getPadding(Rect padding) { return layers[0].getPadding(padding); }
++    @Override public int getIntrinsicWidth() { return intrinsicWidth; }
++    @Override public int getIntrinsicHeight() { return intrinsicHeight; }
++    @Override public void setAlpha(int value) { alpha = Math.max(0, Math.min(255, value)); invalidateSelf(); }
++    // Whole-object tint must never recolor the cold steel; only neutral masks are tinted.
++    @Override public void setColorFilter(ColorFilter ignored) {}
++    @Override public int getOpacity() { return PixelFormat.TRANSLUCENT; }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeResources.java
+@@ -0,0 +1,13 @@
++package org.lineageos.updater.forge;
++import org.lineageos.updater.R;
++final class ForgeResources {
++ static int[] layers(String family) {
++  switch(family) {
++   case "cg_rf_button": return new int[] {R.drawable.cg_rf_button_cold, R.drawable.cg_rf_button_reflection, R.drawable.cg_rf_button_spill, R.drawable.cg_rf_button_seam, R.drawable.cg_rf_button_core, R.drawable.cg_rf_button_focus, R.drawable.cg_rf_button_symbol};
++   case "cg_rf_field": return new int[] {R.drawable.cg_rf_field_cold, R.drawable.cg_rf_field_reflection, R.drawable.cg_rf_field_spill, R.drawable.cg_rf_field_seam, R.drawable.cg_rf_field_core, R.drawable.cg_rf_field_focus, R.drawable.cg_rf_field_symbol};
++   case "cg_rf_panel": return new int[] {R.drawable.cg_rf_panel_cold, R.drawable.cg_rf_panel_reflection, R.drawable.cg_rf_panel_spill, R.drawable.cg_rf_panel_seam, R.drawable.cg_rf_panel_core, R.drawable.cg_rf_panel_focus, R.drawable.cg_rf_panel_symbol};
++   case "cg_upd_rail": return new int[] {R.drawable.cg_upd_rail_cold, R.drawable.cg_upd_rail_reflection, R.drawable.cg_upd_rail_spill, R.drawable.cg_upd_rail_seam, R.drawable.cg_upd_rail_core, R.drawable.cg_upd_rail_focus, R.drawable.cg_upd_rail_symbol};
++   default: throw new IllegalArgumentException("Unknown Forge family: "+family);
++  }
++ }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeStatePolicy.java
+@@ -0,0 +1,25 @@
++package org.lineageos.updater.forge;
++
++/** Explicit feature/input activation. Focus alone never enables ember. No clock. */
++public final class ForgeStatePolicy {
++    public final boolean active;
++    public final float base;
++    public final float[] gains;
++    private ForgeStatePolicy(boolean active, float base, float[] gains) {
++        this.active = active; this.base = base; this.gains = gains;
++    }
++    public static ForgeStatePolicy resolve(boolean enabled, boolean checked, boolean selected,
++            boolean focused, boolean pressed, boolean featureActive, boolean momentary) {
++        boolean active = enabled && (checked || selected || featureActive || (momentary && pressed));
++        float[] gains = new float[6];
++        if (active) {
++            gains[0] = pressed ? .60f : .32f;
++            gains[1] = pressed ? .92f : .72f;
++            gains[2] = 1f;
++            gains[3] = pressed ? 1f : .82f;
++            gains[5] = 1f;
++        }
++        gains[4] = enabled && focused ? 1f : 0f;
++        return new ForgeStatePolicy(active, enabled ? 1f : .42f, gains);
++    }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeUpdatePresentation.kt
+@@ -0,0 +1,30 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: Apache-2.0
++ */
++package org.lineageos.updater.forge
++
++import org.lineageos.updater.updates.state.UpdateOperationPhase
++
++enum class ForgeUpdateTone { COLD, ACTIVE, ERROR }
++
++/** Phase is domain data. Progress, translated status and enabled buttons do not imply activity. */
++object ForgeUpdatePresentation {
++    fun tone(phase: UpdateOperationPhase): ForgeUpdateTone = when (phase) {
++        UpdateOperationPhase.DOWNLOADING,
++        UpdateOperationPhase.VERIFYING,
++        UpdateOperationPhase.INSTALLING_RECOVERY,
++        UpdateOperationPhase.INSTALLING,
++        UpdateOperationPhase.FINALIZING -> ForgeUpdateTone.ACTIVE
++
++        UpdateOperationPhase.DOWNLOAD_ERROR,
++        UpdateOperationPhase.VERIFICATION_FAILED,
++        UpdateOperationPhase.INSTALLATION_FAILED -> ForgeUpdateTone.ERROR
++
++        UpdateOperationPhase.IDLE,
++        UpdateOperationPhase.DOWNLOAD_PAUSED,
++        UpdateOperationPhase.VERIFIED,
++        UpdateOperationPhase.INSTALLATION_SUSPENDED,
++        UpdateOperationPhase.WAITING_FOR_REBOOT -> ForgeUpdateTone.COLD
++    }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeUpdaterCompose.kt
+@@ -0,0 +1,236 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.updater.forge
++
++import android.graphics.Rect
++import androidx.compose.foundation.interaction.MutableInteractionSource
++import androidx.compose.foundation.interaction.collectIsFocusedAsState
++import androidx.compose.foundation.interaction.collectIsHoveredAsState
++import androidx.compose.foundation.interaction.collectIsPressedAsState
++import androidx.compose.foundation.layout.Box
++import androidx.compose.foundation.layout.Column
++import androidx.compose.foundation.layout.ColumnScope
++import androidx.compose.foundation.layout.PaddingValues
++import androidx.compose.foundation.layout.RowScope
++import androidx.compose.foundation.layout.fillMaxWidth
++import androidx.compose.foundation.layout.height
++import androidx.compose.foundation.layout.heightIn
++import androidx.compose.foundation.layout.padding
++import androidx.compose.foundation.layout.sizeIn
++import androidx.compose.material3.Button
++import androidx.compose.material3.ButtonDefaults
++import androidx.compose.material3.IconButton
++import androidx.compose.material3.LinearProgressIndicator
++import androidx.compose.material3.MaterialTheme
++import androidx.compose.material3.darkColorScheme
++import androidx.compose.runtime.Composable
++import androidx.compose.runtime.getValue
++import androidx.compose.runtime.remember
++import androidx.compose.ui.Modifier
++import androidx.compose.ui.draw.drawBehind
++import androidx.compose.ui.graphics.Color
++import androidx.compose.ui.graphics.RectangleShape
++import androidx.compose.ui.graphics.nativeCanvas
++import androidx.compose.ui.platform.LocalContext
++import androidx.compose.ui.platform.LocalDensity
++import androidx.compose.ui.unit.dp
++import kotlin.math.roundToInt
++
++private val SteelText = Color(0xFFEEE7D9)
++private val ColdSteel = Color(0xFFB5BDC6)
++private val Ember = Color(0xFFE56620)
++private val ErrorText = Color(0xFFFF8585)
++
++@Composable
++private fun frame(family: String, momentary: Boolean): ForgeLayerDrawable {
++    val context = LocalContext.current
++    val density = LocalDensity.current.density
++    return remember(context, family, momentary, density) {
++        ForgeLayerDrawable(context, family, momentary)
++    }
++}
++
++@Composable
++private fun insets(drawable: ForgeLayerDrawable): PaddingValues {
++    val density = LocalDensity.current
++    return remember(drawable, density) {
++        val p = Rect()
++        drawable.getPadding(p)
++        with(density) { PaddingValues(p.left.toDp(), p.top.toDp(), p.right.toDp(), p.bottom.toDp()) }
++    }
++}
++
++private fun Modifier.steel(
++    drawable: ForgeLayerDrawable,
++    active: Boolean = false,
++    enabled: Boolean = true,
++    focused: Boolean = false,
++    pressed: Boolean = false,
++): Modifier = drawBehind {
++    drawable.state = buildList {
++        if (enabled) add(android.R.attr.state_enabled)
++        if (focused) add(android.R.attr.state_focused)
++        if (pressed) add(android.R.attr.state_pressed)
++    }.toIntArray()
++    drawable.setFeatureActive(active)
++    drawable.setBounds(0, 0, size.width.roundToInt(), size.height.roundToInt())
++    drawable.draw(drawContext.canvas.nativeCanvas)
++}
++
++/** Card activity follows the actual operation phase. Expansion and progress presence do not activate it. */
++@Composable
++fun ForgeUpdateCard(
++    tone: ForgeUpdateTone,
++    modifier: Modifier = Modifier,
++    content: @Composable ColumnScope.() -> Unit,
++) {
++    val drawable = frame("cg_rf_panel", false)
++    val minimum = with(LocalDensity.current) {
++        Pair(drawable.intrinsicWidth.toDp(), drawable.intrinsicHeight.toDp())
++    }
++    val primary = when (tone) {
++        ForgeUpdateTone.ACTIVE -> Ember
++        ForgeUpdateTone.ERROR -> ErrorText
++        ForgeUpdateTone.COLD -> ColdSteel
++    }
++    MaterialTheme(
++        colorScheme = darkColorScheme(
++            primary = primary,
++            onPrimary = Color(0xFF10151B),
++            background = Color(0xFF080C11),
++            surface = Color(0xFF10151B),
++            surfaceBright = Color(0xFF10151B),
++            onSurface = SteelText,
++            onSurfaceVariant = ColdSteel,
++            onBackground = SteelText,
++            primaryContainer = Color(0xFF2A211B), onPrimaryContainer = SteelText,
++            secondary = ColdSteel, onSecondary = Color(0xFF10151B),
++            secondaryContainer = Color(0xFF1B242C), onSecondaryContainer = SteelText,
++            tertiary = ColdSteel, onTertiary = Color(0xFF10151B),
++            tertiaryContainer = Color(0xFF202A33), onTertiaryContainer = SteelText,
++            surfaceVariant = Color(0xFF1B252E),
++            outline = Color(0xFF65717D), outlineVariant = Color(0xFF36414D),
++            surfaceTint = Color.Transparent, surfaceDim = Color(0xFF080C11),
++            surfaceContainerLowest = Color(0xFF0B1015), surfaceContainerLow = Color(0xFF10151B),
++            surfaceContainer = Color(0xFF151C23), surfaceContainerHigh = Color(0xFF1A242E),
++            surfaceContainerHighest = Color(0xFF202B35),
++            error = ErrorText, onError = Color(0xFF10151B),
++            errorContainer = Color(0xFF3A1818), onErrorContainer = Color(0xFFFFE1DF),
++        ),
++        typography = MaterialTheme.typography,
++        shapes = MaterialTheme.shapes,
++    ) {
++        Column(
++            modifier = modifier.fillMaxWidth()
++                .sizeIn(minWidth = minimum.first, minHeight = minimum.second)
++                .steel(drawable, active = tone == ForgeUpdateTone.ACTIVE)
++                .padding(insets(drawable)),
++            content = content,
++        )
++    }
++}
++
++/** Native click, enabled state, focus, accessibility role and indication are retained. */
++@Composable
++fun ForgeUpdateButton(
++    onClick: () -> Unit,
++    modifier: Modifier = Modifier,
++    enabled: Boolean = true,
++    outlined: Boolean = false,
++    content: @Composable RowScope.() -> Unit,
++) {
++    val drawable = frame(if (outlined) "cg_rf_field" else "cg_rf_button", true)
++    val minimum = with(LocalDensity.current) {
++        Pair(maxOf(48.dp, drawable.intrinsicWidth.toDp()), maxOf(48.dp, drawable.intrinsicHeight.toDp()))
++    }
++    val interaction = remember { MutableInteractionSource() }
++    val pressed by interaction.collectIsPressedAsState()
++    val focused by interaction.collectIsFocusedAsState()
++    val hovered by interaction.collectIsHoveredAsState()
++    Button(
++        onClick = onClick, enabled = enabled, interactionSource = interaction,
++        modifier = modifier.sizeIn(minWidth = minimum.first, minHeight = minimum.second)
++            .steel(drawable, enabled = enabled, focused = focused || hovered, pressed = pressed),
++        contentPadding = insets(drawable),
++        colors = ButtonDefaults.buttonColors(
++            containerColor = Color.Transparent, contentColor = SteelText,
++            disabledContainerColor = Color.Transparent, disabledContentColor = Color(0xFF8F9BA7),
++        ),
++        elevation = null, shape = RectangleShape,
++        content = content,
++    )
++}
++
++@Composable
++fun ForgeUpdateIconButton(
++    onClick: () -> Unit,
++    modifier: Modifier = Modifier,
++    enabled: Boolean = true,
++    content: @Composable () -> Unit,
++) {
++    val drawable = frame("cg_rf_button", true)
++    val minimum = with(LocalDensity.current) {
++        Pair(maxOf(48.dp, drawable.intrinsicWidth.toDp()), maxOf(48.dp, drawable.intrinsicHeight.toDp()))
++    }
++    val interaction = remember { MutableInteractionSource() }
++    val pressed by interaction.collectIsPressedAsState()
++    val focused by interaction.collectIsFocusedAsState()
++    val hovered by interaction.collectIsHoveredAsState()
++    IconButton(
++        onClick = onClick, enabled = enabled, interactionSource = interaction,
++        modifier = modifier.sizeIn(minWidth = minimum.first, minHeight = minimum.second)
++            .steel(drawable, enabled = enabled, focused = focused || hovered, pressed = pressed),
++        content = content,
++    )
++}
++
++/** Uses the caller's real fraction. Paused/error progress stays steady; no extra clock is introduced. */
++@Composable
++fun ForgeUpdateProgress(progress: Float?, tone: ForgeUpdateTone) {
++    val drawable = frame("cg_upd_rail", false)
++    val color = when (tone) {
++        ForgeUpdateTone.ACTIVE -> Ember
++        ForgeUpdateTone.ERROR -> ErrorText
++        ForgeUpdateTone.COLD -> ColdSteel
++    }
++    Box(
++        modifier = Modifier.fillMaxWidth().heightIn(min = 12.dp)
++            .steel(drawable, active = tone == ForgeUpdateTone.ACTIVE)
++            .padding(insets(drawable)),
++        contentAlignment = androidx.compose.ui.Alignment.Center,
++    ) {
++        val indicator = Modifier.fillMaxWidth().height(4.dp)
++        if (progress == null) {
++            LinearProgressIndicator(modifier = indicator, color = color, trackColor = Color.Transparent)
++        } else {
++            LinearProgressIndicator(progress = { progress }, modifier = indicator,
++                color = color, trackColor = Color.Transparent)
++        }
++    }
++}
++
++/** Retains every live value while allowing long English byte/ETA strings to wrap. */
++@OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
++@Composable
++fun ForgeUpdateProgressInfo(progress: org.lineageos.updater.updates.state.ProgressState.Determinate) {
++    androidx.compose.foundation.layout.FlowRow(
++        modifier = Modifier.fillMaxWidth(),
++        horizontalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(4.dp),
++        verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(4.dp),
++    ) {
++        androidx.compose.material3.Text(
++            text = progress.percent.toInt().toString() + "%",
++            style = MaterialTheme.typography.titleLarge,
++            modifier = Modifier.alignByBaseline(),
++        )
++        if (progress.downloadedSize.isNotEmpty()) {
++            androidx.compose.material3.Text(text = " · " + progress.downloadedSize,
++                modifier = Modifier.alignByBaseline())
++        }
++        if (progress.eta.isNotEmpty()) {
++            androidx.compose.material3.Text(text = progress.eta, modifier = Modifier.alignByBaseline())
++        }
++    }
++}
+--- a/app/src/main/java/org/lineageos/updater/updates/button/ActionBar.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/button/ActionBar.kt
+@@ -3,10 +3,12 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: steel presentation and wrapping action layout; original callbacks retained.
+ package org.lineageos.updater.updates.button
+ 
+ import androidx.compose.foundation.layout.Arrangement
+-import androidx.compose.foundation.layout.Row
++import androidx.compose.foundation.layout.FlowRow
++import androidx.compose.foundation.layout.ExperimentalLayoutApi
+ import androidx.compose.foundation.layout.Spacer
+ import androidx.compose.foundation.layout.fillMaxWidth
+ import androidx.compose.foundation.layout.padding
+@@ -32,41 +34,44 @@
+ import com.android.settingslib.spa.framework.theme.SettingsTheme
+ import com.android.settingslib.spa.widget.scaffold.MoreOptionsAction
+ import com.android.settingslib.spa.widget.scaffold.MoreOptionsScope
++import org.lineageos.updater.forge.ForgeUpdateButton
++import org.lineageos.updater.forge.ForgeUpdateIconButton
+ 
+-@OptIn(ExperimentalMaterial3ExpressiveApi::class)
++@OptIn(ExperimentalMaterial3ExpressiveApi::class, ExperimentalLayoutApi::class)
+ @Composable
+ fun ActionBar(
+     buttons: List<ActionBarButton>,
+     menuContent: (@Composable MoreOptionsScope.() -> Unit)? = null,
+ ) {
+-    Row(
++    FlowRow(
+         modifier = Modifier
+             .fillMaxWidth()
+             .padding(SettingsDimension.buttonPadding),
+         horizontalArrangement = Arrangement.spacedBy(SettingsSpace.extraSmall2),
+-        verticalAlignment = Alignment.CenterVertically,
++        verticalArrangement = Arrangement.spacedBy(SettingsSpace.extraSmall2),
+     ) {
+         buttons.forEach { button ->
+             when (button) {
+-                is ActionBarButton.Tonal -> FilledTonalButton(
++                is ActionBarButton.Tonal -> ForgeUpdateButton(
+                     onClick = button.onClick,
+-                    shapes = ButtonDefaults.shapes(),
++                    // Forged housing supplies the shape.
+                     enabled = button.enabled,
+                 ) {
+                     Text(button.text)
+                 }
+ 
+-                is ActionBarButton.Outlined -> OutlinedButton(
++                is ActionBarButton.Outlined -> ForgeUpdateButton(
++                    outlined = true,
+                     onClick = button.onClick,
+-                    shapes = ButtonDefaults.shapes(),
++                    // Forged housing supplies the shape.
+                     enabled = button.enabled,
+                 ) {
+                     Text(button.text)
+                 }
+ 
+-                is ActionBarButton.Icon -> FilledIconButton(
++                is ActionBarButton.Icon -> ForgeUpdateIconButton(
+                     onClick = button.onClick,
+-                    shapes = IconButtonDefaults.shapes(),
++                    // Forged icon housing supplies the shape.
+                     enabled = button.enabled,
+                 ) {
+                     Icon(
+@@ -80,7 +85,7 @@
+         }
+ 
+         if (menuContent != null) {
+-            Spacer(Modifier.weight(1f))
++            // Flow layout keeps the overflow action reachable when labels wrap.
+             MoreOptionsAction(content = menuContent)
+         }
+     }
+--- a/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemState.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemState.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: explicit presentation phase; updater actions and enablement are retained.
+ package org.lineageos.updater.updates.state
+ 
+ import androidx.annotation.StringRes
+@@ -10,6 +11,7 @@
+ 
+ data class UpdateItemState(
+     val downloadId: String,
++    val operationPhase: UpdateOperationPhase,
+     val isLocal: Boolean,
+ 
+     val buildDate: String,
+--- a/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemStateMapper.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemStateMapper.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: explicit presentation phase; updater actions and enablement are retained.
+ package org.lineageos.updater.updates.state
+ 
+ import android.content.Context
+@@ -167,6 +168,7 @@
+ 
+         return UpdateItemState(
+             downloadId = update.downloadId,
++            operationPhase = state.phase,
+             isLocal = state.isFullyDownloaded,
+             buildDate = StringUtil.formatBuildDate(context, update.timestamp),
+             buildVersion = context.getString(
+--- a/app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: explicit presentation phase; updater actions and enablement are retained.
+ package org.lineageos.updater.updates
+ 
+ import android.content.Context
+@@ -43,6 +44,10 @@
+ import com.android.settingslib.spa.widget.preference.PreferenceModel
+ import com.android.settingslib.spa.widget.ui.LinearProgressBar
+ import org.lineageos.updater.R
++import org.lineageos.updater.forge.ForgeUpdateCard
++import org.lineageos.updater.forge.ForgeUpdatePresentation
++import org.lineageos.updater.forge.ForgeUpdateProgress
++import org.lineageos.updater.forge.ForgeUpdateProgressInfo
+ import org.lineageos.updater.updates.action.UpdateAction
+ import org.lineageos.updater.updates.action.UpdateActionType
+ import org.lineageos.updater.updates.action.UpdateActions
+@@ -50,6 +55,7 @@
+ import org.lineageos.updater.updates.button.ActionBarButton
+ import org.lineageos.updater.updates.state.ProgressState
+ import org.lineageos.updater.updates.state.UpdateItemState
++import org.lineageos.updater.updates.state.UpdateOperationPhase
+ 
+ @OptIn(ExperimentalMaterial3ExpressiveApi::class)
+ @Composable
+@@ -61,11 +67,9 @@
+     modifier: Modifier = Modifier,
+ ) {
+     val context = LocalContext.current
+-    Column(
+-        modifier = modifier
+-            .fillMaxWidth()
+-            .clip(SettingsShape.CornerExtraSmall2)
+-            .background(MaterialTheme.colorScheme.surfaceBright)
++    ForgeUpdateCard(
++        tone = ForgeUpdatePresentation.tone(state.operationPhase),
++        modifier = modifier,
+     ) {
+         key(state.downloadId) {
+             Preference(model = object : PreferenceModel {
+@@ -111,40 +115,15 @@
+                     ) {
+                         when (val progress = state.progress) {
+                             is ProgressState.Determinate -> {
+-                                Row(
+-                                    modifier = Modifier.fillMaxWidth(),
+-                                ) {
+-                                    Text(
+-                                        text = buildAnnotatedString {
+-                                            withStyle(MaterialTheme.typography.titleLarge.toSpanStyle()) {
+-                                                append(progress.percent.toInt().toString())
+-                                            }
+-                                            append("%")
+-                                        },
+-                                        modifier = Modifier.alignByBaseline(),
+-                                    )
+-
+-                                    if (progress.downloadedSize.isNotEmpty()) {
+-                                        Text(
+-                                            text = " · ${progress.downloadedSize}",
+-                                            modifier = Modifier
+-                                                .weight(1f)
+-                                                .alignByBaseline(),
+-                                        )
+-                                    }
+-
+-                                    if (progress.eta.isNotEmpty()) {
+-                                        Text(
+-                                            text = progress.eta,
+-                                            modifier = Modifier.alignByBaseline(),
+-                                        )
+-                                    }
+-                                }
+-                                LinearProgressBar(progress = progress.percent / 100f)
++                                ForgeUpdateProgressInfo(progress)
++
++                                ForgeUpdateProgress(progress = progress.percent / 100f,
++                                    tone = ForgeUpdatePresentation.tone(state.operationPhase))
+                             }
+ 
+                             ProgressState.Indeterminate -> {
+-                                LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
++                                ForgeUpdateProgress(progress = null,
++                                    tone = ForgeUpdatePresentation.tone(state.operationPhase))
+                             }
+ 
+                             null -> {
+@@ -257,6 +236,7 @@
+                 buildDate = "Apr 27",
+                 buildVersion = "LineageOS 23.2",
+                 status = "",
++                operationPhase = UpdateOperationPhase.IDLE,
+                 isLocal = false,
+                 fileSize = "1.1 GB",
+                 androidUpdateInfo = "Android 16",
+@@ -291,6 +271,7 @@
+                 buildDate = "Apr 27",
+                 buildVersion = "LineageOS 23.2",
+                 status = "",
++                operationPhase = UpdateOperationPhase.IDLE,
+                 isLocal = false,
+                 fileSize = "1.1 GB",
+                 androidUpdateInfo = "Major Android upgrade",
+@@ -320,6 +301,7 @@
+                 buildDate = "Apr 27",
+                 buildVersion = "LineageOS 23.2",
+                 status = "Downloading",
++                operationPhase = UpdateOperationPhase.DOWNLOADING,
+                 isLocal = false,
+                 fileSize = "1.1 GB",
+                 androidUpdateInfo = "Android 16",

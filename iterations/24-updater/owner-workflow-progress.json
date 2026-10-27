@@ -1,0 +1,15 @@
+{
+  "workflow": "W-04",
+  "revision": "6d50e0bf1b16fe7bca818375a3e734f4959e2e57",
+  "domainPhaseTransport": "AUTHORED - required phase reaches actual presentation model",
+  "cardActionAndRailPresentation": "AUTHORED - four reused material families",
+  "runningPausedErrorReadyDistinction": "HOST/SOURCE CHECKS PASS",
+  "responsiveActionAndProgressRows": "AUTHORED - desktop fixture checks; Android layout NOT RUN",
+  "actualScaffoldAndDeviceInfoBanner": "NOT AUTHORED",
+  "preferencesAndActualControls": "NOT AUTHORED",
+  "dialogsImportAndIllustrations": "NOT AUTHORED",
+  "remainingGlyphAndNativeResourceBridges": "NOT AUTHORED",
+  "fullPinnedNativeBuild": "NOT RUN",
+  "fullWorkflowComplete": false,
+  "wholeGoalComplete": false
+}
