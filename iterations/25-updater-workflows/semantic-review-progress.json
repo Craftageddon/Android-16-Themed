@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-27",
+  "familyRecords": 10926,
+  "sourceFileVariants": 16559,
+  "previousOpenFamilyDecisions": 9630,
+  "newContentBackedDecisions": 6,
+  "openFamilyDecisions": 9624,
+  "decisions": {
+    "OPEN": 9624,
+    "APPROVE_SEMANTIC_ART_REUSE": 189,
+    "PRESERVE_TEST_DATA": 125,
+    "PRESERVE_NEUTRAL_NATIVE_MOTION": 259,
+    "PRESERVE_NATIVE_REFERENCE_CONTRACT": 641,
+    "REJECT_DONOR_USE_NEW_REVIEWED_GEOMETRY": 16,
+    "REJECT_DONOR_RETARGET_REVIEWED_ART": 1,
+    "GAP_ART_AUTHORED": 16,
+    "REJECT_WHOLE_RESOURCE_ICON_SWAP": 8,
+    "OWNER_PRESENTATION_ADAPTATION_AUTHORED": 30,
+    "PRESERVE_DATABASE_SCHEMA": 1,
+    "PRESERVE_EMPTY_SLOT": 13,
+    "PRESERVE_BUILD_CONTRACT": 3
+  },
+  "previouslyAuthoredWorkflowGroups": [
+    "W-01",
+    "W-02",
+    "W-06"
+  ],
+  "partiallyAuthoredWorkflowGroups": [
+    "W-04"
+  ],
+  "unauthoredWorkflowGroups": [
+    "W-03",
+    "W-05",
+    "W-07"
+  ],
+  "incompleteWorkflowGroups": [
+    "W-03",
+    "W-04",
+    "W-05",
+    "W-07"
+  ],
+  "remainingUpdaterFamilyReviews": [
+    "ic_launcher_background",
+    "ic_launcher_foreground",
+    "ic_system_update"
+  ],
+  "wholeSemanticReviewFinished": false,
+  "wholeGoalComplete": false,
+  "finalWholeGoalDoubleCheck": "NOT RUN - full required scope remains unfinished"
+}

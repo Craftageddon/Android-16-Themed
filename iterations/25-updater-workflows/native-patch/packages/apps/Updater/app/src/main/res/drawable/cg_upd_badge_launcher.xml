@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 18% inset keeps the entire cold badge inside the 66/108 adaptive safe circle. -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+ android:drawable="@drawable/cg_upd_badge_cold" android:inset="18%"/>

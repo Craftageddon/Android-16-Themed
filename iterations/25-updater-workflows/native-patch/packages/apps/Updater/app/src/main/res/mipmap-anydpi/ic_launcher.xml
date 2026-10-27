@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Craftageddon: actual application icon owner; source notification vectors are preserved. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+ <background android:drawable="@color/cg_upd_icon_background"/>
+ <foreground android:drawable="@drawable/cg_upd_badge_launcher"/>
+ <monochrome android:drawable="@drawable/cg_upd_badge_monochrome"/>
+</adaptive-icon>

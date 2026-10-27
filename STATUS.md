@@ -1,3 +1,5 @@
+[Updater workflow checkpoint25](iterations/25-updater-workflows/README.md) adds eight layered drawings, actual screen/control/dialog source bindings, 43 editable desktop fixtures and 480 separate cold/mask exports. Six content-backed decisions leave **9,624 open families**. Full private-owner/SPA/Soong compilation and Android/device acceptance remain unrun; W04 and the full goal remain incomplete.
+
 # Updater card foundation — 2026-10-27
 
 [Iteration 24](iterations/24-updater/README.md) binds actual operation phase into the presentation model and applies four existing steel material families to cards, actions and progress rails. Paused/suspended progress stays cold; running operations glow. Action and progress-detail rows wrap. Native text and callbacks remain in their original owners. This adds 18 editable desktop fixtures and reuses 112 native PNG configurations, with four exact SVG aliases and zero newly authored drawings.

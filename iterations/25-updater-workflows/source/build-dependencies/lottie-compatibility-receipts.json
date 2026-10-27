@@ -1,0 +1,42 @@
+[
+  {
+    "artifact": "lottie",
+    "version": "6.5.2",
+    "url": "https://repo.maven.apache.org/maven2/com/airbnb/android/lottie/6.5.2/lottie-6.5.2.aar",
+    "saved": "iterations\\25-updater-workflows\\source\\build-dependencies\\lottie-6.5.2.aar",
+    "bytes": 414293,
+    "sha256": "ba33ecc031f7e67bd5ab161bd01c6ec92e0607761ae076da26a2c5bf2577bb0c",
+    "sha512": "bf8e37fa93b06fef03856a793bedf596ed5b959846e3a1a9140b7a8f533cb36905305eff8493e172acc88080035256f0f0032b00aa5049fb8d4425c177f5be55",
+    "role": "Compatibility compile input at the exact version declared by the pinned Updater Gradle catalog; not official Soong resolution"
+  },
+  {
+    "artifact": "lottie",
+    "version": "6.5.2",
+    "url": "https://repo.maven.apache.org/maven2/com/airbnb/android/lottie/6.5.2/lottie-6.5.2-sources.jar",
+    "saved": "iterations\\25-updater-workflows\\source\\build-dependencies\\lottie-6.5.2-sources.jar",
+    "bytes": 256549,
+    "sha256": "80800474bd731dbb39c54a3bbf491afd633fd6874d890a16b0078875dd41f889",
+    "sha512": "ae180f405649e919c9583defdad3d819368b72daf2cf9666b6ab713b5bbba59decbc81628eb18d4ddefa6add13b41dda1691470e20d1e3621673c071f9ee9817",
+    "role": "Compatibility compile input at the exact version declared by the pinned Updater Gradle catalog; not official Soong resolution"
+  },
+  {
+    "artifact": "lottie-compose",
+    "version": "6.5.2",
+    "url": "https://repo.maven.apache.org/maven2/com/airbnb/android/lottie-compose/6.5.2/lottie-compose-6.5.2.aar",
+    "saved": "iterations\\25-updater-workflows\\source\\build-dependencies\\lottie-compose-6.5.2.aar",
+    "bytes": 132431,
+    "sha256": "7043340bf753130bbbbfd8563d0f305d546a9e5425a6fefabe602ddaea24b86f",
+    "sha512": "7663bd21594730ba4b437c337b63881415fc837cd07bec2ca78dfed02fcdd5a0907e76581056a70b892f69cae2360a31f5dc9e5a5a791eca36f77c307ad6bd75",
+    "role": "Compatibility compile input at the exact version declared by the pinned Updater Gradle catalog; not official Soong resolution"
+  },
+  {
+    "artifact": "lottie-compose",
+    "version": "6.5.2",
+    "url": "https://repo.maven.apache.org/maven2/com/airbnb/android/lottie-compose/6.5.2/lottie-compose-6.5.2-sources.jar",
+    "saved": "iterations\\25-updater-workflows\\source\\build-dependencies\\lottie-compose-6.5.2-sources.jar",
+    "bytes": 23573,
+    "sha256": "a5cf1176d997c1f0443839d6fc524b5eff83b8c3eaa0bf2a476afe612ca26518",
+    "sha512": "cbb6b81aa65d116505c6ae318d2fd4c7c8e541339ad3caedb801ca5fc7f726ece67bcc6d60f19e343c8e8081df594cb559612400aaddc55a77219d9267c9055c",
+    "role": "Compatibility compile input at the exact version declared by the pinned Updater Gradle catalog; not official Soong resolution"
+  }
+]

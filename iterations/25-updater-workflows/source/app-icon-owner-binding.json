@@ -1,0 +1,31 @@
+{
+  "actualManifest": {
+    "project": "packages/apps/Updater",
+    "path": "app/src/main/AndroidManifest.xml",
+    "revision": "6d50e0bf1b16fe7bca818375a3e734f4959e2e57",
+    "url": "https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/6d50e0bf1b16fe7bca818375a3e734f4959e2e57/app/src/main/AndroidManifest.xml",
+    "saved": "source-evidence/packages/apps/Updater/app/src/main/AndroidManifest.xml",
+    "bytes": 3202,
+    "gitBlobSha1": "1cfa4d1871f4b4bd968401773d9b6a900a634444",
+    "sha256": "bae2b3ab9111d43425cbcf12f353feb354a52feb057a361f22860a7722e003dc",
+    "reasons": [
+      "Product/module/package declaration"
+    ],
+    "xmlRoot": "manifest",
+    "xmlNodes": 30,
+    "references": [
+      "@mipmap/ic_launcher"
+    ],
+    "xmlAttributes": {
+      "package": "org.lineageos.updater",
+      "{http://schemas.android.com/apk/res/android}versionCode": "1"
+    },
+    "checkpointCopy": "source/context/packages/apps/Updater/app/src/main/AndroidManifest.xml"
+  },
+  "sourceLabel": "@string/display_name",
+  "manifestIconIdentifierRetained": "@mipmap/ic_launcher",
+  "coldByDefault": true,
+  "monochromeSource": "iterations\\20-semantic-review\\android-apps\\res\\drawable\\cg_app_updater_monochrome.xml",
+  "originalNotificationVectorsUntouched": true,
+  "effectiveInstalledSelection": "NOT RUN"
+}

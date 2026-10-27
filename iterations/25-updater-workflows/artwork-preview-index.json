@@ -1,0 +1,66 @@
+{
+  "previews": [
+    {
+      "family": "cg_upd_scan",
+      "active": false,
+      "preview": "previews/cg_upd_scan-cold.preview.png"
+    },
+    {
+      "family": "cg_upd_scan",
+      "active": true,
+      "preview": "previews/cg_upd_scan-active.preview.png"
+    },
+    {
+      "family": "cg_upd_error",
+      "active": false,
+      "preview": "previews/cg_upd_error-cold.preview.png"
+    },
+    {
+      "family": "cg_upd_error",
+      "active": true,
+      "preview": "previews/cg_upd_error-active.preview.png"
+    },
+    {
+      "family": "cg_upd_ready",
+      "active": false,
+      "preview": "previews/cg_upd_ready-cold.preview.png"
+    },
+    {
+      "family": "cg_upd_ready",
+      "active": false,
+      "preview": "previews/cg_upd_ready-cold.preview.png"
+    },
+    {
+      "family": "cg_upd_pause",
+      "active": false,
+      "preview": "previews/cg_upd_pause-cold.preview.png"
+    },
+    {
+      "family": "cg_upd_pause",
+      "active": true,
+      "preview": "previews/cg_upd_pause-active.preview.png"
+    },
+    {
+      "family": "cg_upd_resume",
+      "active": false,
+      "preview": "previews/cg_upd_resume-cold.preview.png"
+    },
+    {
+      "family": "cg_upd_resume",
+      "active": true,
+      "preview": "previews/cg_upd_resume-active.preview.png"
+    },
+    {
+      "family": "cg_upd_badge",
+      "active": false,
+      "preview": "previews/cg_upd_badge-cold.preview.png"
+    },
+    {
+      "family": "cg_upd_badge",
+      "active": false,
+      "preview": "previews/cg_upd_badge-cold.preview.png"
+    }
+  ],
+  "deviceScreenshots": false,
+  "productionGlowsBaked": false
+}
