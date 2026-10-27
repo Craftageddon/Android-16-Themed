@@ -1,0 +1,105 @@
+[
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt",
+    "input": "source/phase-stage/app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt",
+    "inputSha256": "d4457c1431a27f3c82e3b84b23d492885b1aba5aef913e1ef0acf62c88ee8612",
+    "patchedSha256": "4fe16b7be73400627b37a8f5cb616bb5dfd521a8ba7680db2a52eab4ae76c3c4",
+    "operations": [
+      {
+        "before": "import org.lineageos.updater.R\n",
+        "after": "import org.lineageos.updater.R\nimport org.lineageos.updater.forge.ForgeUpdateCard\nimport org.lineageos.updater.forge.ForgeUpdatePresentation\nimport org.lineageos.updater.forge.ForgeUpdateProgress\nimport org.lineageos.updater.forge.ForgeUpdateProgressInfo\n",
+        "count": 1
+      },
+      {
+        "before": "    Column(\n        modifier = modifier\n            .fillMaxWidth()\n            .clip(SettingsShape.CornerExtraSmall2)\n            .background(MaterialTheme.colorScheme.surfaceBright)\n    ) {",
+        "after": "    ForgeUpdateCard(\n        tone = ForgeUpdatePresentation.tone(state.operationPhase),\n        modifier = modifier,\n    ) {",
+        "count": 1
+      },
+      {
+        "before": "                                LinearProgressBar(progress = progress.percent / 100f)",
+        "after": "                                ForgeUpdateProgress(progress = progress.percent / 100f,\n                                    tone = ForgeUpdatePresentation.tone(state.operationPhase))",
+        "count": 1
+      },
+      {
+        "before": "                                LinearProgressIndicator(modifier = Modifier.fillMaxWidth())",
+        "after": "                                ForgeUpdateProgress(progress = null,\n                                    tone = ForgeUpdatePresentation.tone(state.operationPhase))",
+        "count": 1
+      },
+      {
+        "before": "                                Row(\n                                    modifier = Modifier.fillMaxWidth(),\n                                ) {\n                                    Text(\n                                        text = buildAnnotatedString {\n                                            withStyle(MaterialTheme.typography.titleLarge.toSpanStyle()) {\n                                                append(progress.percent.toInt().toString())\n                                            }\n                                            append(\"%\")\n                                        },\n                                        modifier = Modifier.alignByBaseline(),\n                                    )\n\n                                    if (progress.downloadedSize.isNotEmpty()) {\n                                        Text(\n                                            text = \" \u00b7 ${progress.downloadedSize}\",\n                                            modifier = Modifier\n                                                .weight(1f)\n                                                .alignByBaseline(),\n                                        )\n                                    }\n\n                                    if (progress.eta.isNotEmpty()) {\n                                        Text(\n                                            text = progress.eta,\n                                            modifier = Modifier.alignByBaseline(),\n                                        )\n                                    }\n                                }\n",
+        "after": "                                ForgeUpdateProgressInfo(progress)\n\n",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/updater/updates/button/ActionBar.kt",
+    "input": "upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/updates/button/ActionBar.kt",
+    "inputSha256": "79ba08b2eabd15f6d7aa382224a83a3d6b78210552fc60f22b5c474aa5152f69",
+    "patchedSha256": "38b3df42be744b1476a49b2230f993a4cebb0ccdb5ad96e21fe20995d9f26d02",
+    "operations": [
+      {
+        "before": "import androidx.compose.foundation.layout.Row\n",
+        "after": "import androidx.compose.foundation.layout.FlowRow\nimport androidx.compose.foundation.layout.ExperimentalLayoutApi\n",
+        "count": 1
+      },
+      {
+        "before": "import com.android.settingslib.spa.widget.scaffold.MoreOptionsScope\n",
+        "after": "import com.android.settingslib.spa.widget.scaffold.MoreOptionsScope\nimport org.lineageos.updater.forge.ForgeUpdateButton\nimport org.lineageos.updater.forge.ForgeUpdateIconButton\n",
+        "count": 1
+      },
+      {
+        "before": "@OptIn(ExperimentalMaterial3ExpressiveApi::class)",
+        "after": "@OptIn(ExperimentalMaterial3ExpressiveApi::class, ExperimentalLayoutApi::class)",
+        "count": 1
+      },
+      {
+        "before": "    Row(\n",
+        "after": "    FlowRow(\n",
+        "count": 1
+      },
+      {
+        "before": "        verticalAlignment = Alignment.CenterVertically,\n",
+        "after": "        verticalArrangement = Arrangement.spacedBy(SettingsSpace.extraSmall2),\n",
+        "count": 1
+      },
+      {
+        "before": "is ActionBarButton.Tonal -> FilledTonalButton(",
+        "after": "is ActionBarButton.Tonal -> ForgeUpdateButton(",
+        "count": 1
+      },
+      {
+        "before": "                    shapes = ButtonDefaults.shapes(),\n",
+        "after": "                    // Forged housing supplies the shape.\n",
+        "count": 2
+      },
+      {
+        "before": "is ActionBarButton.Outlined -> OutlinedButton(",
+        "after": "is ActionBarButton.Outlined -> ForgeUpdateButton(\n                    outlined = true,",
+        "count": 1
+      },
+      {
+        "before": "is ActionBarButton.Icon -> FilledIconButton(",
+        "after": "is ActionBarButton.Icon -> ForgeUpdateIconButton(",
+        "count": 1
+      },
+      {
+        "before": "                    shapes = IconButtonDefaults.shapes(),\n",
+        "after": "                    // Forged icon housing supplies the shape.\n",
+        "count": 1
+      },
+      {
+        "before": "            Spacer(Modifier.weight(1f))\n",
+        "after": "            // Flow layout keeps the overflow action reachable when labels wrap.\n",
+        "count": 1
+      },
+      {
+        "before": "package org.lineageos.updater",
+        "after": "// Craftageddon: steel presentation and wrapping action layout; original callbacks retained.\npackage org.lineageos.updater",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  }
+]

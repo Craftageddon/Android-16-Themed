@@ -1,0 +1,111 @@
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/updater/forge/ForgeUpdatePresentation.kt
+@@ -0,0 +1,30 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: Apache-2.0
++ */
++package org.lineageos.updater.forge
++
++import org.lineageos.updater.updates.state.UpdateOperationPhase
++
++enum class ForgeUpdateTone { COLD, ACTIVE, ERROR }
++
++/** Phase is domain data. Progress, translated status and enabled buttons do not imply activity. */
++object ForgeUpdatePresentation {
++    fun tone(phase: UpdateOperationPhase): ForgeUpdateTone = when (phase) {
++        UpdateOperationPhase.DOWNLOADING,
++        UpdateOperationPhase.VERIFYING,
++        UpdateOperationPhase.INSTALLING_RECOVERY,
++        UpdateOperationPhase.INSTALLING,
++        UpdateOperationPhase.FINALIZING -> ForgeUpdateTone.ACTIVE
++
++        UpdateOperationPhase.DOWNLOAD_ERROR,
++        UpdateOperationPhase.VERIFICATION_FAILED,
++        UpdateOperationPhase.INSTALLATION_FAILED -> ForgeUpdateTone.ERROR
++
++        UpdateOperationPhase.IDLE,
++        UpdateOperationPhase.DOWNLOAD_PAUSED,
++        UpdateOperationPhase.VERIFIED,
++        UpdateOperationPhase.INSTALLATION_SUSPENDED,
++        UpdateOperationPhase.WAITING_FOR_REBOOT -> ForgeUpdateTone.COLD
++    }
++}
+--- a/app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/UpdateItem.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: explicit presentation phase; updater actions and enablement are retained.
+ package org.lineageos.updater.updates
+ 
+ import android.content.Context
+@@ -50,6 +51,7 @@
+ import org.lineageos.updater.updates.button.ActionBarButton
+ import org.lineageos.updater.updates.state.ProgressState
+ import org.lineageos.updater.updates.state.UpdateItemState
++import org.lineageos.updater.updates.state.UpdateOperationPhase
+ 
+ @OptIn(ExperimentalMaterial3ExpressiveApi::class)
+ @Composable
+@@ -257,6 +259,7 @@
+                 buildDate = "Apr 27",
+                 buildVersion = "LineageOS 23.2",
+                 status = "",
++                operationPhase = UpdateOperationPhase.IDLE,
+                 isLocal = false,
+                 fileSize = "1.1 GB",
+                 androidUpdateInfo = "Android 16",
+@@ -291,6 +294,7 @@
+                 buildDate = "Apr 27",
+                 buildVersion = "LineageOS 23.2",
+                 status = "",
++                operationPhase = UpdateOperationPhase.IDLE,
+                 isLocal = false,
+                 fileSize = "1.1 GB",
+                 androidUpdateInfo = "Major Android upgrade",
+@@ -320,6 +324,7 @@
+                 buildDate = "Apr 27",
+                 buildVersion = "LineageOS 23.2",
+                 status = "Downloading",
++                operationPhase = UpdateOperationPhase.DOWNLOADING,
+                 isLocal = false,
+                 fileSize = "1.1 GB",
+                 androidUpdateInfo = "Android 16",
+--- a/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemState.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemState.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: explicit presentation phase; updater actions and enablement are retained.
+ package org.lineageos.updater.updates.state
+ 
+ import androidx.annotation.StringRes
+@@ -10,6 +11,7 @@
+ 
+ data class UpdateItemState(
+     val downloadId: String,
++    val operationPhase: UpdateOperationPhase,
+     val isLocal: Boolean,
+ 
+     val buildDate: String,
+--- a/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemStateMapper.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/state/UpdateItemStateMapper.kt
+@@ -3,6 +3,7 @@
+  * SPDX-License-Identifier: Apache-2.0
+  */
+ 
++// Craftageddon: explicit presentation phase; updater actions and enablement are retained.
+ package org.lineageos.updater.updates.state
+ 
+ import android.content.Context
+@@ -167,6 +168,7 @@
+ 
+         return UpdateItemState(
+             downloadId = update.downloadId,
++            operationPhase = state.phase,
+             isLocal = state.isFullyDownloaded,
+             buildDate = StringUtil.formatBuildDate(context, update.timestamp),
+             buildVersion = context.getString(

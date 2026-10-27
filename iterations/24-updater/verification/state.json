@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "39aa46306a04701bf413b5d2bf5dcf6b3f2b2cc45c6ee80b0eb5d98a796b301e"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-27T12:22:04+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "655164d274a9f1a1197f6d0364e7afc5b7104c9efda4e29177ffe02d898c3e51",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-27T12:22:04+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "33b1cddc43bd972537104bb1c97aac11a7083affc9e410ca09fa751460c88301",
+      "independence": null,
+      "method": "83 pinned source hashes; clean combined patch parity; exact owner reverse edits; 112 unchanged resource configs, 96 neutral masks, resource-derived fixed-cap minimums; SDK37 resource compile/link and three Java rendering classes; four whole Kotlin files plus verbatim native enum declaration with recorded compatibility libraries; 234 host phase cases, 128 actual policy cases, 18 strict-XML desktop fixtures and 472 earlier master hashes.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-27T12:22:04+00:00",
+  "project": "24-updater",
+  "schema": 1,
+  "status": "V2_PASS"
+}

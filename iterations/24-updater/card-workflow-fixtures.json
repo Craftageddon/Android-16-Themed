@@ -1,0 +1,2654 @@
+{
+  "fixtures": [
+    {
+      "id": "idle-expanded",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "IDLE",
+        "tone": "COLD",
+        "expanded": true,
+        "progress": null,
+        "primary": "START_DOWNLOAD",
+        "primaryEnabled": true,
+        "secondary": null,
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "IDLE",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Update size: 1 GB",
+          "x": 43,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Full install: Safe to install over any previous build",
+          "x": 43,
+          "y": 178,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Download",
+          "x": 91.0,
+          "y": 235.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 310,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 326,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            203,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Download",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            238
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/idle-expanded.svg",
+      "preview": "workflow-previews/idle-expanded.preview.png"
+    },
+    {
+      "id": "download-starting",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "DOWNLOADING",
+        "tone": "ACTIVE",
+        "expanded": true,
+        "progress": "indeterminate",
+        "primary": "PAUSE_DOWNLOAD",
+        "primaryEnabled": true,
+        "secondary": "CANCEL_DOWNLOAD",
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "DOWNLOADING",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Downloading",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 199.0,
+          "y": 193.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 268,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 284,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            125,
+            306,
+            12
+          ],
+          "active": true,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            161,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Pause",
+          "sourceNativeIconApproximation": true
+        },
+        {
+          "family": "cg_rf_field",
+          "bounds": [
+            143,
+            161,
+            112,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            196
+          ],
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/download-starting.svg",
+      "preview": "workflow-previews/download-starting.preview.png"
+    },
+    {
+      "id": "downloading",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "DOWNLOADING",
+        "tone": "ACTIVE",
+        "expanded": true,
+        "progress": 62,
+        "primary": "PAUSE_DOWNLOAD",
+        "primaryEnabled": true,
+        "secondary": "CANCEL_DOWNLOAD",
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "DOWNLOADING",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Downloading",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "62%",
+          "x": 43,
+          "y": 149,
+          "size": 24,
+          "anchor": "start"
+        },
+        {
+          "text": "\u00b7 620 MB of 1 GB",
+          "x": 93.0,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "3 min left",
+          "x": 207.0,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 199.0,
+          "y": 234.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 309,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 325,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            166,
+            306,
+            12
+          ],
+          "active": true,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            202,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Pause",
+          "sourceNativeIconApproximation": true
+        },
+        {
+          "family": "cg_rf_field",
+          "bounds": [
+            143,
+            202,
+            112,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            237
+          ],
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/downloading.svg",
+      "preview": "workflow-previews/downloading.preview.png"
+    },
+    {
+      "id": "download-paused",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "DOWNLOAD_PAUSED",
+        "tone": "COLD",
+        "expanded": true,
+        "progress": 62,
+        "primary": "RESUME_DOWNLOAD",
+        "primaryEnabled": true,
+        "secondary": "CANCEL_DOWNLOAD",
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "DOWNLOAD PAUSED",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Download paused",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "62%",
+          "x": 43,
+          "y": 149,
+          "size": 24,
+          "anchor": "start"
+        },
+        {
+          "text": "\u00b7 620 MB of 1 GB",
+          "x": 93.0,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 199.0,
+          "y": 234.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 309,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 325,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            166,
+            306,
+            12
+          ],
+          "active": false,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            202,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Resume",
+          "sourceNativeIconApproximation": true
+        },
+        {
+          "family": "cg_rf_field",
+          "bounds": [
+            143,
+            202,
+            112,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            237
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/download-paused.svg",
+      "preview": "workflow-previews/download-paused.preview.png"
+    },
+    {
+      "id": "offline-paused",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "DOWNLOAD_PAUSED",
+        "tone": "COLD",
+        "expanded": true,
+        "progress": 62,
+        "primary": "RESUME_DOWNLOAD",
+        "primaryEnabled": false,
+        "secondary": "CANCEL_DOWNLOAD",
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "DOWNLOAD PAUSED",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Download paused",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "62%",
+          "x": 43,
+          "y": 149,
+          "size": 24,
+          "anchor": "start"
+        },
+        {
+          "text": "\u00b7 620 MB of 1 GB",
+          "x": 93.0,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 199.0,
+          "y": 234.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 309,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 325,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            166,
+            306,
+            12
+          ],
+          "active": false,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            202,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": false,
+          "accessibleLabel": "Resume",
+          "sourceNativeIconApproximation": true
+        },
+        {
+          "family": "cg_rf_field",
+          "bounds": [
+            143,
+            202,
+            112,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            237
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/offline-paused.svg",
+      "preview": "workflow-previews/offline-paused.preview.png"
+    },
+    {
+      "id": "download-error",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "DOWNLOAD_ERROR",
+        "tone": "ERROR",
+        "expanded": true,
+        "progress": 62,
+        "primary": "RESUME_DOWNLOAD",
+        "primaryEnabled": true,
+        "secondary": "CANCEL_DOWNLOAD",
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "DOWNLOAD ERROR",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Download error",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "62%",
+          "x": 43,
+          "y": 149,
+          "size": 24,
+          "anchor": "start"
+        },
+        {
+          "text": "\u00b7 620 MB of 1 GB",
+          "x": 93.0,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 199.0,
+          "y": 234.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 309,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 325,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            166,
+            306,
+            12
+          ],
+          "active": false,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            202,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Resume",
+          "sourceNativeIconApproximation": true
+        },
+        {
+          "family": "cg_rf_field",
+          "bounds": [
+            143,
+            202,
+            112,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            237
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/download-error.svg",
+      "preview": "workflow-previews/download-error.preview.png"
+    },
+    {
+      "id": "verifying",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "VERIFYING",
+        "tone": "ACTIVE",
+        "expanded": true,
+        "progress": "indeterminate",
+        "primary": "START_INSTALL",
+        "primaryEnabled": false,
+        "secondary": null,
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "VERIFYING",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Verifying update",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Install",
+          "x": 91.0,
+          "y": 193.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 268,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 284,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            125,
+            306,
+            12
+          ],
+          "active": true,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            161,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": false,
+          "accessibleLabel": "Install",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            196
+          ],
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/verifying.svg",
+      "preview": "workflow-previews/verifying.preview.png"
+    },
+    {
+      "id": "verification-failed",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "VERIFICATION_FAILED",
+        "tone": "ERROR",
+        "expanded": true,
+        "progress": null,
+        "primary": "START_DOWNLOAD",
+        "primaryEnabled": true,
+        "secondary": null,
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "VERIFICATION FAILED",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Verification failed",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Update size: 1 GB",
+          "x": 43,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Full install: Safe to install over any previous build",
+          "x": 43,
+          "y": 178,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Download",
+          "x": 91.0,
+          "y": 235.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 310,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 326,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            203,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Download",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            238
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/verification-failed.svg",
+      "preview": "workflow-previews/verification-failed.preview.png"
+    },
+    {
+      "id": "verified-ready",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "VERIFIED",
+        "tone": "COLD",
+        "expanded": true,
+        "progress": null,
+        "primary": "START_INSTALL",
+        "primaryEnabled": true,
+        "secondary": null,
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "VERIFIED",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Download completed",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Update size: 1 GB",
+          "x": 43,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Full install: Safe to install over any previous build",
+          "x": 43,
+          "y": 178,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Install",
+          "x": 91.0,
+          "y": 235.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 310,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 326,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            203,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Install",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            238
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/verified-ready.svg",
+      "preview": "workflow-previews/verified-ready.preview.png"
+    },
+    {
+      "id": "installing",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "INSTALLING",
+        "tone": "ACTIVE",
+        "expanded": true,
+        "progress": 62,
+        "primary": "PAUSE_INSTALL",
+        "primaryEnabled": true,
+        "secondary": "CANCEL_INSTALL",
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "INSTALLING",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Preparing for first boot",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "62%",
+          "x": 43,
+          "y": 149,
+          "size": 24,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 199.0,
+          "y": 234.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 309,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 325,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            166,
+            306,
+            12
+          ],
+          "active": true,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            202,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Pause",
+          "sourceNativeIconApproximation": true
+        },
+        {
+          "family": "cg_rf_field",
+          "bounds": [
+            143,
+            202,
+            112,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            237
+          ],
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/installing.svg",
+      "preview": "workflow-previews/installing.preview.png"
+    },
+    {
+      "id": "installing-recovery",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "INSTALLING_RECOVERY",
+        "tone": "ACTIVE",
+        "expanded": true,
+        "progress": 62,
+        "primary": "CANCEL_INSTALL",
+        "primaryEnabled": true,
+        "secondary": null,
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "INSTALLING RECOVERY",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Preliminary update preparation",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "62%",
+          "x": 43,
+          "y": 149,
+          "size": 24,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 91.0,
+          "y": 234.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 309,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 325,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            166,
+            306,
+            12
+          ],
+          "active": true,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            202,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            237
+          ],
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/installing-recovery.svg",
+      "preview": "workflow-previews/installing-recovery.preview.png"
+    },
+    {
+      "id": "finalizing",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "FINALIZING",
+        "tone": "ACTIVE",
+        "expanded": true,
+        "progress": "indeterminate",
+        "primary": "PAUSE_INSTALL",
+        "primaryEnabled": true,
+        "secondary": "CANCEL_INSTALL",
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "FINALIZING",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Finalizing package installation",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 199.0,
+          "y": 193.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 268,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 284,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            125,
+            306,
+            12
+          ],
+          "active": true,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            161,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Pause",
+          "sourceNativeIconApproximation": true
+        },
+        {
+          "family": "cg_rf_field",
+          "bounds": [
+            143,
+            161,
+            112,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            196
+          ],
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/finalizing.svg",
+      "preview": "workflow-previews/finalizing.preview.png"
+    },
+    {
+      "id": "suspended",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "INSTALLATION_SUSPENDED",
+        "tone": "COLD",
+        "expanded": true,
+        "progress": 62,
+        "primary": "RESUME_INSTALL",
+        "primaryEnabled": true,
+        "secondary": "CANCEL_INSTALL",
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "INSTALLATION SUSPENDED",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Installation suspended",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "62%",
+          "x": 43,
+          "y": 149,
+          "size": 24,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 199.0,
+          "y": 234.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 309,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 325,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            166,
+            306,
+            12
+          ],
+          "active": false,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            202,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Resume",
+          "sourceNativeIconApproximation": true
+        },
+        {
+          "family": "cg_rf_field",
+          "bounds": [
+            143,
+            202,
+            112,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            237
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/suspended.svg",
+      "preview": "workflow-previews/suspended.preview.png"
+    },
+    {
+      "id": "installation-failed",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "INSTALLATION_FAILED",
+        "tone": "ERROR",
+        "expanded": true,
+        "progress": null,
+        "primary": "START_DOWNLOAD",
+        "primaryEnabled": true,
+        "secondary": null,
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "INSTALLATION FAILED",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Update failed",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Update size: 1 GB",
+          "x": 43,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Full install: Safe to install over any previous build",
+          "x": 43,
+          "y": 178,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Download",
+          "x": 91.0,
+          "y": 235.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 310,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 326,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            203,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Download",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            238
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/installation-failed.svg",
+      "preview": "workflow-previews/installation-failed.preview.png"
+    },
+    {
+      "id": "reboot-ready",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "WAITING_FOR_REBOOT",
+        "tone": "COLD",
+        "expanded": true,
+        "progress": null,
+        "primary": "REBOOT",
+        "primaryEnabled": true,
+        "secondary": null,
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "WAITING FOR REBOOT",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Update pending reboot",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Update size: 1 GB",
+          "x": 43,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Full install: Safe to install over any previous build",
+          "x": 43,
+          "y": 178,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Reboot",
+          "x": 91.0,
+          "y": 235.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 310,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 326,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            203,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Reboot",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            238
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/reboot-ready.svg",
+      "preview": "workflow-previews/reboot-ready.preview.png"
+    },
+    {
+      "id": "manual-guide",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "VERIFIED",
+        "tone": "COLD",
+        "expanded": true,
+        "progress": null,
+        "primary": "OPEN_GUIDE",
+        "primaryEnabled": true,
+        "secondary": null,
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": "VERSION_UNSUPPORTED"
+      },
+      "texts": [
+        {
+          "text": "VERIFIED",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 87,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Download completed",
+          "x": 43,
+          "y": 108,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Update size: 1 GB",
+          "x": 43,
+          "y": 139,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Major LineageOS version upgrades must be",
+          "x": 43,
+          "y": 178,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "installed manually. Refer to your device's guide to",
+          "x": 43,
+          "y": 197,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "continue.",
+          "x": 43,
+          "y": 216,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Open guide",
+          "x": 91.0,
+          "y": 273.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 348,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 364,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            241,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Open guide",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            276
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/manual-guide.svg",
+      "preview": "workflow-previews/manual-guide.preview.png"
+    },
+    {
+      "id": "compact-large-text",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 320,
+      "fontScaleSample": 1.5,
+      "spaExpressiveSample": true,
+      "sourceMapping": {
+        "phase": "DOWNLOAD_PAUSED",
+        "tone": "COLD",
+        "expanded": true,
+        "progress": 62,
+        "primary": "RESUME_DOWNLOAD",
+        "primaryEnabled": true,
+        "secondary": "CANCEL_DOWNLOAD",
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "DOWNLOAD PAUSED",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 43,
+          "y": 97,
+          "size": 30,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Download",
+          "x": 43,
+          "y": 129,
+          "size": 21,
+          "anchor": "start"
+        },
+        {
+          "text": "paused",
+          "x": 43,
+          "y": 158,
+          "size": 21,
+          "anchor": "start"
+        },
+        {
+          "text": "62%",
+          "x": 43,
+          "y": 214,
+          "size": 36,
+          "anchor": "start"
+        },
+        {
+          "text": "\u00b7 620 MB of 1 GB",
+          "x": 114.0,
+          "y": 199,
+          "size": 21,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 199.0,
+          "y": 305.825,
+          "size": 21,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 378,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 394,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            43,
+            235,
+            266,
+            12
+          ],
+          "active": false,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            271,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Resume",
+          "sourceNativeIconApproximation": true
+        },
+        {
+          "family": "cg_rf_field",
+          "bounds": [
+            143,
+            271,
+            112,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            320,
+            306
+          ],
+          "active": false,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/compact-large-text.svg",
+      "preview": "workflow-previews/compact-large-text.preview.png"
+    },
+    {
+      "id": "non-expressive-card",
+      "fixtureOnly": true,
+      "deviceScreenshot": false,
+      "logicalCardWidth": 360,
+      "fontScaleSample": 1,
+      "spaExpressiveSample": false,
+      "sourceMapping": {
+        "phase": "DOWNLOADING",
+        "tone": "ACTIVE",
+        "expanded": true,
+        "progress": 62,
+        "primary": "PAUSE_DOWNLOAD",
+        "primaryEnabled": true,
+        "secondary": "CANCEL_DOWNLOAD",
+        "operationAndDataAreSamples": true,
+        "minimumColdFrameMetrics": {
+          "intrinsic": [
+            112,
+            88
+          ],
+          "padding": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "stretch": [
+            [
+              55,
+              57
+            ],
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        "actualOwnerPaths": [
+          "updates/UpdateItem.kt",
+          "updates/button/ActionBar.kt",
+          "updates/state/UpdateItemStateMapper.kt"
+        ],
+        "fontAndLayoutMetricsAreDesktopApproximations": true,
+        "manualInstallBlockSample": null
+      },
+      "texts": [
+        {
+          "text": "DOWNLOADING",
+          "x": 16,
+          "y": 24,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Oct 27",
+          "x": 51,
+          "y": 91,
+          "size": 20,
+          "anchor": "start"
+        },
+        {
+          "text": "LineageOS 24.0 \u2022 Downloading",
+          "x": 51,
+          "y": 112,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "62%",
+          "x": 51,
+          "y": 153,
+          "size": 24,
+          "anchor": "start"
+        },
+        {
+          "text": "\u00b7 620 MB of 1 GB",
+          "x": 101.0,
+          "y": 143,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "3 min left",
+          "x": 215.0,
+          "y": 143,
+          "size": 14,
+          "anchor": "start"
+        },
+        {
+          "text": "Cancel",
+          "x": 199.0,
+          "y": 238.55,
+          "size": 14,
+          "anchor": "middle"
+        },
+        {
+          "text": "Desktop fixture / sample data",
+          "x": 16,
+          "y": 313,
+          "size": 12,
+          "anchor": "start"
+        },
+        {
+          "text": "Native rendering and fonts remain unverified",
+          "x": 16,
+          "y": 329,
+          "size": 11,
+          "anchor": "start"
+        }
+      ],
+      "controls": [
+        {
+          "family": "cg_upd_rail",
+          "bounds": [
+            51,
+            170,
+            298,
+            12
+          ],
+          "active": true,
+          "enabled": true
+        },
+        {
+          "family": "cg_rf_button",
+          "bounds": [
+            43,
+            206,
+            96,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Pause",
+          "sourceNativeIconApproximation": true
+        },
+        {
+          "family": "cg_rf_field",
+          "bounds": [
+            143,
+            206,
+            112,
+            56
+          ],
+          "active": false,
+          "enabled": true,
+          "accessibleLabel": "Cancel",
+          "sourceNativeIconApproximation": false
+        },
+        {
+          "family": "cg_rf_panel",
+          "bounds": [
+            16,
+            44,
+            360,
+            241
+          ],
+          "active": true,
+          "enabled": true
+        }
+      ],
+      "svg": "workflow-previews/non-expressive-card.svg",
+      "preview": "workflow-previews/non-expressive-card.preview.png"
+    }
+  ],
+  "sourceFrameworkCancel": {
+    "project": "frameworks/base",
+    "resourceRoot": "core/res/res",
+    "qualifier": "values",
+    "path": "core/res/res/values/strings.xml",
+    "gitBlobSha1": "4d98c8b87e073f9085cfa015644e60d1e80b9d28",
+    "sha256": "a003ec50db62e7c167de6cee3d46d5228eef6a2b467c79a7fe4dac41789baa66",
+    "sourceResourceContainer": "core/res/res",
+    "pathFeatureFlags": [],
+    "type": "string",
+    "name": "cancel",
+    "value": "Cancel",
+    "attributes": {
+      "name": "cancel"
+    },
+    "children": [],
+    "runtimeResource": true
+  },
+  "newDrawings": 0,
+  "deviceScreenshots": false,
+  "wholeUpdaterWorkflowComplete": false,
+  "remaining": "Scaffold/banner/preferences/dialogs/illustrations and native acceptance remain required."
+}

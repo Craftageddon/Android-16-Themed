@@ -1,0 +1,15 @@
+{
+  "newDrawings": 0,
+  "unchangedNativePngConfigurations": 112,
+  "nativeCardUsesActualPhase": true,
+  "cardExpansionDoesNotActivateLight": true,
+  "actionCallbacksAndEnabledValuesPreserved": true,
+  "actionBarWraps": true,
+  "fullUpdaterWorkflowArtworkComplete": false,
+  "compileAndVisualChecks": "PASS for the recorded library/source/desktop scope only",
+  "nativeExecution": "NOT RUN",
+  "wholeGoalComplete": false,
+  "privateUpdaterOwnersCompile": "NOT RUN",
+  "androidRenderingInputAccessibility": "NOT RUN",
+  "evidence": "verification/evidence/card-stage-checks.json"
+}

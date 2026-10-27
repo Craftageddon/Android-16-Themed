@@ -1,0 +1,36 @@
+
+
+
+
+
+C:/Users/spencerm/Craftageddon Assets/Android-16-Themed/iterations/24-updater/Updater-forge-source.patch:4: trailing whitespace.
+package org.lineageos.updater.forge;
+C:/Users/spencerm/Craftageddon Assets/Android-16-Themed/iterations/24-updater/Updater-forge-source.patch:5: trailing whitespace.
+
+C:/Users/spencerm/Craftageddon Assets/Android-16-Themed/iterations/24-updater/Updater-forge-source.patch:6: trailing whitespace.
+import android.content.Context;
+C:/Users/spencerm/Craftageddon Assets/Android-16-Themed/iterations/24-updater/Updater-forge-source.patch:7: trailing whitespace.
+import android.content.res.Resources;
+C:/Users/spencerm/Craftageddon Assets/Android-16-Themed/iterations/24-updater/Updater-forge-source.patch:8: trailing whitespace.
+import android.graphics.Canvas;
+warning: squelched 356 whitespace errors
+warning: 361 lines add whitespace errors.
+
+
+
+
+
+
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: C:\Users\spencerm\Craftageddon Assets\Android-16-Themed\iterations\24-updater\native-patch\packages\apps\Updater\app\src\main\java\org\lineageos\updater\forge\ForgeLayerDrawable.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+3 warnings
+
+
+
+
+
+PASS phases=13 stateCombinations=234
+

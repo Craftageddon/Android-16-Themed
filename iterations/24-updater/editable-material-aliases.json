@@ -1,0 +1,36 @@
+{
+  "unchangedSvgMasters": 4,
+  "unchangedSourceTextures": 2,
+  "files": [
+    {
+      "source": "iterations/21-native-workflows/masters/scalable-button.svg",
+      "target": "masters/frames/masters/scalable-button.svg",
+      "sha256": "6635b1ca6afe56408949fe912b4db91ae5a350cdeab8babb5b2f610371e45fe5"
+    },
+    {
+      "source": "iterations/21-native-workflows/masters/scalable-field.svg",
+      "target": "masters/frames/masters/scalable-field.svg",
+      "sha256": "0962f7aab32a9788d23130ce68510b2ccb8f51d53bd69ce873387a7b8953228d"
+    },
+    {
+      "source": "iterations/21-native-workflows/masters/scalable-panel.svg",
+      "target": "masters/frames/masters/scalable-panel.svg",
+      "sha256": "14d35c158978eb503036698695bbb826c21ecb2133d4f772ea1ed1aa7cfcd1e3"
+    },
+    {
+      "source": "iterations/21-native-workflows/source/steel-material.png",
+      "target": "masters/frames/source/steel-material.png",
+      "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+    },
+    {
+      "source": "iterations/23-magnification/masters/zoom_rail.svg",
+      "target": "masters/rail/masters/zoom_rail.svg",
+      "sha256": "515b9e5b914cf768b6c8acac2e120dba3064d76ff72f58cc1e3224ca5a45138a"
+    },
+    {
+      "source": "iterations/23-magnification/source/steel-material.png",
+      "target": "masters/rail/source/steel-material.png",
+      "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+    }
+  ]
+}

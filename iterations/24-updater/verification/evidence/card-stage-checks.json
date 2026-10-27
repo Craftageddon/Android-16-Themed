@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "pinnedSourcesVerified": 83,
+  "unchangedPngConfigurations": 112,
+  "neutralMaskConfigurations": 96,
+  "transparentColdConfigurations": 16,
+  "nativeFixedCapChecks": 112,
+  "unchangedEditableSvgMasters": 4,
+  "actualOwnerReverseByteParityFiles": 4,
+  "compiledActualPolicyCases": 128,
+  "hostPhaseCases": 234,
+  "strictXmlCardFixtures": 18,
+  "englishTextEntriesChecked": 140,
+  "offlineTextAndControlBounds": "PASS within desktop font approximation",
+  "previousCanonicalMastersPreserved": 472,
+  "glyphsAndProgressInPreviews": "Desktop approximations; native pixel parity NOT RUN",
+  "fullPinnedUpdaterSoongBuild": "NOT RUN",
+  "androidRenderingInputAccessibility": "NOT RUN",
+  "wholeUpdaterWorkflowComplete": false,
+  "openFamilyDecisions": 9630,
+  "newFamilyDecisions": 0,
+  "remainingOwnerScope": [
+    "Scaffold and device-info banner",
+    "Preferences and their actual controls",
+    "Dialogs, importing and checking/zero/error illustrations",
+    "Actual remaining glyph/native resource bridges"
+  ],
+  "finalWholeGoalDoubleCheck": "NOT RUN - required full scope is unfinished",
+  "wholeGoalComplete": false
+}

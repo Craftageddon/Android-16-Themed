@@ -1,0 +1,121 @@
+{
+  "result": "PASS",
+  "pinnedSourceFilesVerified": 75,
+  "cleanPatchApplyByteParity": true,
+  "sourceEditReverseByteParity": true,
+  "patchParityScope": "Retained phase-only stage; combined material patch is checked separately",
+  "phaseCount": 13,
+  "stateCombinations": 234,
+  "wholeNativeKotlinFilesCompiled": 3,
+  "verbatimNativeEnumDeclarationCompiled": true,
+  "enumExtraction": {
+    "source": "upstream/packages/apps/Updater/app/src/main/java/org/lineageos/updater/updates/state/UpdateOperationState.kt",
+    "sourceSha256": "297b398d47c5ac352afa01ce1b7956f79c13674d1bbb4fa733c700058a6440e8",
+    "startByte": 459,
+    "endByteExclusive": 1260,
+    "verbatimFragmentSha256": "8ae7943c1deb078908a17e02f20472662c1389e3c051b5bcd0a635f852abdaec"
+  },
+  "generatedOwnerOrModelStubs": 0,
+  "compileOnlyResourceKeys": [
+    "action_download",
+    "action_info",
+    "action_install",
+    "action_open_guide",
+    "action_pause",
+    "action_resume",
+    "brand_name",
+    "dialog_prepare_zip_message",
+    "download_completed_notification",
+    "download_paused_error_notification",
+    "download_paused_notification",
+    "downloading_notification",
+    "finalizing_package",
+    "installation_suspended_notification",
+    "installing_update_finished",
+    "list_verifying_update",
+    "menu_delete_update",
+    "menu_export_update",
+    "menu_view_downloads",
+    "preparing_ota_first_boot",
+    "reboot",
+    "update_failed_notification",
+    "verification_failed_notification"
+  ],
+  "compileOnlyResourceIdsForRuntime": false,
+  "kotlinCompilerCompatibilityVersion": "2.3.21",
+  "pinnedUpstreamKotlinVersion": "2.2.0",
+  "classpath": [
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-compiler-embeddable\\2.3.21\\c4b47f8e33cdbeedd8c1415ab9f9ade870388162\\kotlin-compiler-embeddable-2.3.21.jar",
+      "sha256": "d3e70fb011675e77ef00f1a68918d3cd91eed26058977d1e3ea2a37a293233af"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib\\2.3.21\\a2ee2c4e220fee522f0451b723bab2a43f3481a7\\kotlin-stdlib-2.3.21.jar",
+      "sha256": "6f64eac736db9434dd6925b4a518b9d1d17177652320c37916cf9ba3ce7d7d7a"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-script-runtime\\2.3.21\\8dafd7f0eb5efef35a446683a2774fef61c68aeb\\kotlin-script-runtime-2.3.21.jar",
+      "sha256": "ec61bf1229c837fa9f4255f34ca69816138b73158e7ae9b8d964cf92ca6dfd2e"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-reflect\\1.6.10\\1cbe9c92c12a94eea200d23c2bbaedaf3daf5132\\kotlin-reflect-1.6.10.jar",
+      "sha256": "3277ac102ae17aad10a55abec75ff5696c8d109790396434b496e75087854203"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-reflect\\2.2.10\\98d0ca9819d98cb3aa5c0a25793830b6659feee2\\kotlin-reflect-2.2.10.jar",
+      "sha256": "c48db4f8cd1bfd67f72d59255065fb41bfda43ca2942dac4d9deb897aa126ba4"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-reflect\\2.3.20\\3a78af768b3747778b9db000088ea1cbfb996942\\kotlin-reflect-2.3.20.jar",
+      "sha256": "e346fa3c3ff4451f5f707a312887fd4c8555da48cc15fa9db2ba93c33f89f813"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-core-jvm\\1.8.0\\ac1dc37a30a93150b704022f8d895ee1bd3a36b3\\kotlinx-coroutines-core-jvm-1.8.0.jar",
+      "sha256": "9860906a1937490bf5f3b06d2f0e10ef451e65b95b269f22daf68a3d1f5065c5"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-core-jvm\\1.9.0\\9beade4c1c1569e4f36cbd2c37e02e3e41502601\\kotlinx-coroutines-core-jvm-1.9.0.jar",
+      "sha256": "ad89c2892235e670f222d819cb3d81188143cb19a05b59df9889ae4269f5c70a"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains\\annotations\\13.0\\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\\annotations-13.0.jar",
+      "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains\\annotations\\23.0.0\\8cc20c07506ec18e0834947b84a864bfc094484e\\annotations-23.0.0.jar",
+      "sha256": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\androidx.annotation\\annotation-jvm\\1.9.1\\b17951747e38bf3986a24431b9ba0d039958aa5f\\annotation-jvm-1.9.1.jar",
+      "sha256": "1e343917ebf27ba96fe4dc52b1cad7fd32b738fbc6355bb6cd5b3b305d7212d0"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\AppData\\Local\\Android\\Sdk\\platforms\\android-37.0\\android.jar",
+      "sha256": "bf1b4387cc7ca94fc6ef684f040d9d16fbf16248e181819f020736ea2053f177"
+    }
+  ],
+  "nativeInputs": [
+    {
+      "path": "native-patch\\packages\\apps\\Updater\\app\\src\\main\\java\\org\\lineageos\\updater\\updates\\state\\UpdateItemState.kt",
+      "sha256": "c37222a913e11abef0b470b3d614f098f33d6d20a3ad2139b593a9613712dfa4"
+    },
+    {
+      "path": "upstream\\packages\\apps\\Updater\\app\\src\\main\\java\\org\\lineageos\\updater\\updates\\action\\UpdateAction.kt",
+      "sha256": "7b6d657dfcd9e6ad4e307c5f1be59de74b092b3045a6c82ab58facaf047331af"
+    },
+    {
+      "path": "native-patch\\packages\\apps\\Updater\\app\\src\\main\\java\\org\\lineageos\\updater\\forge\\ForgeUpdatePresentation.kt",
+      "sha256": "b07dc1f372b37412ba678aef76158b2eebc2382ea2419311f9624cddbfc463d0"
+    }
+  ],
+  "jarSha256": "7be3aaf0d9081ee5e9a8b5404f18a9c097e44b4851f18060cd74980d5baa8746",
+  "actualMapperCompiled": false,
+  "actualComposeOwnerCompiled": false,
+  "fullPinnedSoongBuild": "NOT RUN",
+  "androidExecution": "NOT RUN",
+  "updaterControllerActionOrInstallerOperationsExecuted": false,
+  "presentationTypesExecutedInHostFixture": true,
+  "newArtworkAuthored": false,
+  "androidRendererExecuted": false,
+  "wholeGoalComplete": false
+}
