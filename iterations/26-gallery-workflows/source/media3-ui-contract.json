@@ -1,0 +1,2419 @@
+{
+  "version": "1.10.0",
+  "sourceUrl": "https://dl.google.com/dl/android/maven2/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0-sources.jar",
+  "sourceJarSha256": "2abea5e2d78f123206a552d99fffd93a54a5c923d78c42416cc5d1d69193c901",
+  "officialAarUrl": "https://dl.google.com/dl/android/maven2/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+  "officialAarMatchesPinnedCommittedArtifact": true,
+  "aarSha256": "ceb6df6e096df142865760d06439baa878aa0dead4eaa7b5fb5e4c30d1589392",
+  "members": [
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "R.txt",
+      "saved": "source/media3-ui/original-resources/R.txt",
+      "sha256": "37d8dd52aacbfb4fcdb31e4a7b8ae6b116407aeffdd34c3680f4cd8471105d5f",
+      "bytes": 20364
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "AndroidManifest.xml",
+      "saved": "source/media3-ui/original-resources/AndroidManifest.xml",
+      "sha256": "43e752979cb4f9ac963817d2fe7dd2992f4c52ea1feb04f21cd6d98b5600ca4f",
+      "bytes": 832
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "classes.jar",
+      "saved": "source/media3-ui/original-resources/classes.jar",
+      "sha256": "fcd7ee52d148406a1cc4fe0cebff7b57de1a1e4404b84e35e94fc1e173f04b6a",
+      "bytes": 197841
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable/exo_rounded_rectangle.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable/exo_rounded_rectangle.xml",
+      "sha256": "379f379b275bf63dbb96b5386922dc82a2da18c7ad097d8495dd17550dc0dbbe",
+      "bytes": 873
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_edit_mode_logo.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_edit_mode_logo.xml",
+      "sha256": "4b6b6766d6ddfc99e538f9ebf88eaa15b73a89e822d80e8b3f7bdea79bffcfde",
+      "bytes": 4533
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+      "sha256": "4f91b3b36e339fb81c46ca098ce77414f6ceaf6ee2aa6753804a6b6832fa19b9",
+      "bytes": 1399
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_check.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_check.xml",
+      "sha256": "98c86b1e4f2a3c3dc9a6899d4b7888bccfe4e831dc3b44c6cbb44c903060b3de",
+      "bytes": 1015
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+      "sha256": "e99ea1867e61e31330848419b1ccf5f94cfdd0c81a73368396be34407f34c9dc",
+      "bytes": 936
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+      "sha256": "3db1e9b9a083a972a4eaa9fc94fb0986f91eb1cf12e17fd2f035b1869272bc03",
+      "bytes": 937
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_default_album_image.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_default_album_image.xml",
+      "sha256": "c89269aa8ff97b91afb04ad3abec381cc3725334114559efb0fd030ca02156ee",
+      "bytes": 1177
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_forward.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_forward.xml",
+      "sha256": "2b2ef130c9da8e517f844faa522e04677b4dfa2ff980d2db353b8b5375098f72",
+      "bytes": 1135
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+      "sha256": "e8b0e7f1e9f987113af8da234beb39f5b49b55b694efe28bded5169688ff8fb1",
+      "bytes": 1024
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+      "sha256": "682923ba58428c63636bf3a23e30bf1a8a1e9b465aad773e74927b71791049e9",
+      "bytes": 1023
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+      "sha256": "ab26504472191b4658f51d57d89dda2ea7c36c42403af31be802c351054f14bb",
+      "bytes": 1036
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+      "sha256": "bb826d006a37764e565e12b000b6a2a8533ecf8cadf422043cdc8f49b52131dc",
+      "bytes": 1022
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_rewind.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_rewind.xml",
+      "sha256": "9609bb155607a0cfd0f18531eefec33a5f1e68806ef1343cc741f38362e8ad97",
+      "bytes": 1142
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_settings.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_settings.xml",
+      "sha256": "9b64b9a7eed443b5e183613ab4812e979a5f47e63a14c979f2d172f9e13ce879",
+      "bytes": 1800
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+      "sha256": "7a05bd66b77b0f50ae2cbf34e14edb90b5e68f1ccffd0b61d8e696747489d947",
+      "bytes": 965
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+      "sha256": "db7fee363c20483613fdb32385c60a3276d7189391d112d610d7d689a831e40f",
+      "bytes": 963
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_speed.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_speed.xml",
+      "sha256": "1acc5feec8ddd950ddf213b9ed0eaa71f78360a99988455b2c25fd358f169452",
+      "bytes": 1499
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+      "sha256": "c465905453aa19f2b34af9d323b1548de2b85e89e1729da03ff4c143ffe46bf8",
+      "bytes": 1468
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+      "sha256": "4b18246da6700ef722f0ce64cee316e4c25c187eb3e77d9f9ce706bc05209be4",
+      "bytes": 1275
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+      "sha256": "cd3f6c4c03f5d63e77cd240025907ef13d31768b8147c7872642abe89ede1c7f",
+      "bytes": 942
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_fullscreen_enter.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fullscreen_enter.xml",
+      "sha256": "388658ad43d5d8b465fe259aa150acd5a1222316918a13be269d4f0cd2910fce",
+      "bytes": 1068
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_fullscreen_exit.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fullscreen_exit.xml",
+      "sha256": "74c254c8128f42431162a941a433c179e37930a0739da26a37eafa162c7e15e9",
+      "bytes": 1066
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_next.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_next.xml",
+      "sha256": "14ab85a15644a6dd83cb1e942e99be336f66e4cdf5fb54ea1c503759dc013f1a",
+      "bytes": 937
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_pause.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_pause.xml",
+      "sha256": "8c8a4ddd858ab2fb07ba9f6815d8809988f11d705d533434ba81aad645b90807",
+      "bytes": 940
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_play.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_play.xml",
+      "sha256": "57966d9c92678633a39f3dcc9274a7b87180ae44fda16a3e23cae7aa2bfd11be",
+      "bytes": 915
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_previous.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_previous.xml",
+      "sha256": "f6e6ba0e142cf8a611c1baafe488a2101c7722c3c5a553693d3c7e16eb06a4d1",
+      "bytes": 935
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+      "sha256": "33cfe04db3849afaa84a066d4f51d7dc55ade42394a58a6d7fe6fb47f2507cb1",
+      "bytes": 994
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+      "sha256": "36320855fbb300cea55d9c4ea82b32595440e5f10bcedd826f148c24072209b5",
+      "bytes": 994
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+      "sha256": "33ac407a93533508391e3a4df62fef8e96abfdbb1e7ac03393dce0cb9debb3c4",
+      "bytes": 1028
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_rewind.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+      "sha256": "4284259fb05b0ab3af0cc22d69b4e43aeb5708c7d33db7c2acdb47a0fe52a885",
+      "bytes": 953
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+      "sha256": "9628c7280fed8654f59872745296ec9784b4b92e70f3bf047f535af1ec06d640",
+      "bytes": 1081
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+      "sha256": "2b5b4a738dbea931973ffbe0269aac45eb042fd88e6204237dea633de60afc19",
+      "bytes": 1081
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-anydpi-v21/exo_icon_stop.xml",
+      "saved": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_stop.xml",
+      "sha256": "1135800337a01dff7e11c3d906aa9fbd7600da92a867e7bc401f3edd311863a7",
+      "bytes": 1019
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_edit_mode_logo.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_edit_mode_logo.png",
+      "sha256": "cec4e1f0fdef99f8e8a4e71a1ab962b406f5ea525d223a0bffb44067165b478e",
+      "bytes": 458
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_audiotrack.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_audiotrack.png",
+      "sha256": "82e12eb83109e1616a8838152e2e38b9d248767d66bdd60738061efb304851b7",
+      "bytes": 390
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_check.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_check.png",
+      "sha256": "3b85c906975c5d1c45e0ce713847dfbce44193f2c5e0f4f62dcd08ceaf027dbf",
+      "bytes": 175
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_chevron_left.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_chevron_left.png",
+      "sha256": "032098bee7f73cb83b080b9e08b757de461310399d2088ded0c781e265b78fb5",
+      "bytes": 140
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_chevron_right.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_chevron_right.png",
+      "sha256": "18bf7046e7350b30719e9272ad46ea255a0f6c953fa0b10bb76575c842658a81",
+      "bytes": 141
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_default_album_image.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_default_album_image.png",
+      "sha256": "4faa6aa3d3ef0ad70a5156dd8581ee772292714d0dbc2d80cd726f109f8d6f19",
+      "bytes": 1362
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_forward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_forward.png",
+      "sha256": "fc87e49a59d8d79f127b2ea02468a77b0a5ebd8b386edf88f7fc03544c29bae6",
+      "bytes": 290
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_fullscreen_enter.png",
+      "sha256": "e6fbaeadcb331445b446b18b910fb5488f0c3d35a65dd4fe2495a10a417cbeba",
+      "bytes": 139
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_fullscreen_exit.png",
+      "sha256": "2a2d66dc0a55947527434d036011ed5f4ede1da9cc0ef02eeb41f57fd7359fee",
+      "bytes": 125
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_pause_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_pause_circle_filled.png",
+      "sha256": "0be36d0b8f4d2d06464c8407cddce5a9a9e47ff17e8d171f028e4eb8d766b49f",
+      "bytes": 362
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_play_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_play_circle_filled.png",
+      "sha256": "d519779d4b7efc5e910c5a4c97fcfac946fac6f35dae95bcd679c782bd98e00a",
+      "bytes": 391
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_rewind.png",
+      "sha256": "95009a92516f125143d115a2ef7fe012acde87a775a8115f6e815878153210a6",
+      "bytes": 289
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_settings.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_settings.png",
+      "sha256": "b6fb74dc0a5e45ff2c2882f01b3f314fff9b708c20efe8c4c90e8951c61effe3",
+      "bytes": 309
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_skip_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_skip_next.png",
+      "sha256": "bff11ca1c9117005c7e18b130ed9bc9e54f9668584b6148ebbf2b7c2779bd988",
+      "bytes": 225
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_skip_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_skip_previous.png",
+      "sha256": "8ee5948e77a1bab2a21b90e025f76ebec3996123f1056c616a5e74cad240ab37",
+      "bytes": 230
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_speed.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_speed.png",
+      "sha256": "6c8b0a751fedb87e037866e1e6ead2255de0464e7aec214bb2f0b132be73765b",
+      "bytes": 386
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_subtitle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_subtitle_off.png",
+      "sha256": "aad5a71685362b1abd71a96cd0422c5ed7ec34ba7339050d4242a96f3c5c58d3",
+      "bytes": 224
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_ic_subtitle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_subtitle_on.png",
+      "sha256": "8fcc7f00e244a5ad09db42f19b69faa5841f72ee6a0f43ce77aa8e6d14a54409",
+      "bytes": 221
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_circular_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_circular_play.png",
+      "sha256": "b8f72870960706c64e11d70ac8c8eb5481d9a65235c7d7babcc0f0f448b4eaca",
+      "bytes": 995
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_fastforward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_fastforward.png",
+      "sha256": "dd6399b11d5363698f819466b9b29dfd829992ecaf2004e454e5dfc594166889",
+      "bytes": 283
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_fullscreen_enter.png",
+      "sha256": "08e96bb2201939b8fc86da6501ad51d469420aa9650aa7b9af89e8b8c4f7bcf0",
+      "bytes": 107
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_fullscreen_exit.png",
+      "sha256": "c323e761a355ff118be5c0acf88f0c118b13cfe4f3972c09dee8d08b5d7db340",
+      "bytes": 105
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_next.png",
+      "sha256": "7626f61df4f0d2e0d6cc76848563a181e3550e92157f7e506519aed669c20a02",
+      "bytes": 264
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_pause.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_pause.png",
+      "sha256": "158672fbac7706849ed6d07bfed214c71c9bd2fb234e2835b1c396d24dd9398a",
+      "bytes": 90
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_play.png",
+      "sha256": "52e4df6817904e8beccf60c07af9ef3c98511205633f1ac3225c3ac8c1e6aeab",
+      "bytes": 233
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_previous.png",
+      "sha256": "a5c0c4f2627a0e78cb0fcf2669b77981f2fc37ca0c802c5cab2172f0f1eaca50",
+      "bytes": 255
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_repeat_all.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_repeat_all.png",
+      "sha256": "d498ca07b1b949f3667d1e2d20582014604ade13ae702ac6d654dd8e7d1c804d",
+      "bytes": 203
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_repeat_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_repeat_off.png",
+      "sha256": "2974f272232e2ed914f2109c953532038257b0677958348e85251fbdd84782f9",
+      "bytes": 223
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_repeat_one.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_repeat_one.png",
+      "sha256": "fa6e2026ac1b283d4df5d7ff841417108c87d1be9befd86d05e1e7c5cb855213",
+      "bytes": 223
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_rewind.png",
+      "sha256": "87a456fcace171a99d20d827d2d8fa81416475a18c9a58d30c41d11ed67b721f",
+      "bytes": 332
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_shuffle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_shuffle_off.png",
+      "sha256": "ebb0d56032f799aa558ac2e04f9e3dd5f62f8e43578966516ec09101cfd8e45f",
+      "bytes": 265
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_shuffle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_shuffle_on.png",
+      "sha256": "e06a1e1e7e95e6bcef5620a8a5aa2b6bc8b5082f51c23bc1a71a2121d3c6063c",
+      "bytes": 268
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_stop.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_stop.png",
+      "sha256": "c3c75a3a94a9b694a2f9f13ca77b8a638220edbf81f2be53c09c4ea0c518728a",
+      "bytes": 90
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-hdpi-v4/exo_icon_vr.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_vr.png",
+      "sha256": "86b98d5052ca09473b54a454eb0ed2738e0e431724e20ec6e8883de847518286",
+      "bytes": 291
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_edit_mode_logo.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_edit_mode_logo.png",
+      "sha256": "4fdf374bc579fdff835309745fcc9fe2af87f832723655ee2c33202179653ba0",
+      "bytes": 265
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_audiotrack.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_audiotrack.png",
+      "sha256": "34c980e2aa67dcd42f4a8763b1e86c5cfdf20d3606658129e8114f39d5ee315f",
+      "bytes": 229
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_check.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_check.png",
+      "sha256": "7ec6e6e036bdca365291156e6b84facdf4d1b5c96e46a63dc7e15c6f7e17ce5f",
+      "bytes": 138
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_chevron_left.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_chevron_left.png",
+      "sha256": "b8a12ebed29620e94a8f8215498a0d27a1d2df540569b778ea2cce93dc25e93b",
+      "bytes": 112
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_chevron_right.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_chevron_right.png",
+      "sha256": "4b689f657e0fdd569422c94d8ba43e22ed24fe29b4ac099d949cfc5700b321fb",
+      "bytes": 113
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_default_album_image.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_default_album_image.png",
+      "sha256": "3370a8dae608693a638f4907970337ccda319408e9b194d6237fc2e3ae9714e3",
+      "bytes": 675
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_forward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_forward.png",
+      "sha256": "5588ffc0c0aea49eb4fe0d1909aadc39d673b5518c0b43a9caeea4782bd1fa6c",
+      "bytes": 187
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_fullscreen_enter.png",
+      "sha256": "bf6ef0f08c9a7e185f5f6ef3f75d062a82292fc3f0cea63749ee95239d61e047",
+      "bytes": 135
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_fullscreen_exit.png",
+      "sha256": "b58f4649de8bae414a7b1b819c3a28ba04bd086c4d7dff2b0d8ceb27bca96c0a",
+      "bytes": 130
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_pause_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_pause_circle_filled.png",
+      "sha256": "ef7a81f73e59812b2ec5254a6cc6d94f02b3ffece334a02593ddcb8e43a0fcb4",
+      "bytes": 220
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_play_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_play_circle_filled.png",
+      "sha256": "1a0874552ef1215430176355f2db5cadd96e7ad2950e86f0d4cb6b2b402df529",
+      "bytes": 247
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_rewind.png",
+      "sha256": "1cb035df884767f381bd4ca19eab52bd4e1abd9e5dc78dd3d2801341eb8cca57",
+      "bytes": 189
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_settings.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_settings.png",
+      "sha256": "1e7e50422dea556b263865a4161fd2f5f2d156d2a59c56e3075873a3bd5ee8c5",
+      "bytes": 193
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_skip_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_skip_next.png",
+      "sha256": "e58fd9135d4d586e33c8a98553c4a7846453221c78c0fe85d8ee103f6c5265b1",
+      "bytes": 164
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_skip_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_skip_previous.png",
+      "sha256": "7acd5e9dacb248e448b4dc163b00b7a7856612e03109fe8ba6be8850967fcb7a",
+      "bytes": 173
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_speed.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_speed.png",
+      "sha256": "5714bf3d7a19c8bb608882ac6e24e7f77316128a6d57c9d70ddfb476ba6dd0be",
+      "bytes": 233
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_subtitle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_subtitle_off.png",
+      "sha256": "4c80b9313ebe8927b8c2111f94b4016d3a5dbb994db00893e2ec4263f413bc8e",
+      "bytes": 174
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_ic_subtitle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_subtitle_on.png",
+      "sha256": "990d05cad83fe88aa122357740a06c95a5d22cadc6a9002e901cbce9f544f8ab",
+      "bytes": 161
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_circular_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_circular_play.png",
+      "sha256": "035a0fb2ebb43c10068d61546b44c2b590b8f0924b375c9a7dd3bc9d9ada4927",
+      "bytes": 457
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_fastforward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_fastforward.png",
+      "sha256": "3bb93ccd29534d11945f44f7d8102d54573322cfea9b132b27deb5b2ac9466ce",
+      "bytes": 173
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_fullscreen_enter.png",
+      "sha256": "3b9bc9995c5f8421940b2572caa814023b349f681b76697a3c944b88aecd9c3c",
+      "bytes": 139
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_fullscreen_exit.png",
+      "sha256": "4578ae8c9e9472c97c0edcdb02b062a3e8717b3c58a76bd11c77ab408b6bf956",
+      "bytes": 146
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_next.png",
+      "sha256": "816dffefaa5e5fa18327db5c7856ad2220150ea85185463977ebb4a255537833",
+      "bytes": 152
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_pause.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_pause.png",
+      "sha256": "af5233f498f505cafff2a05425737209dec892ae7057d9c3d88506de15e93fc7",
+      "bytes": 88
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_play.png",
+      "sha256": "3e9cf50286f92b06fb3cbea4af1cadd14ac152a3302bf7e44ff674f70240eda4",
+      "bytes": 167
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_previous.png",
+      "sha256": "bd8c3ba58c864d5b6a3e799d215d5589b40575cbeef73c41fd7856b71186603c",
+      "bytes": 161
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_repeat_all.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_repeat_all.png",
+      "sha256": "97da735e777ed47155c24e272966bef05d9b2ee7866a4e27ddbffab36aceaf1c",
+      "bytes": 142
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_repeat_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_repeat_off.png",
+      "sha256": "39d6ef683355f7e176dbdd12581510addcfe1dbd20a8c7729b4f92ddd8092a9b",
+      "bytes": 166
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_repeat_one.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_repeat_one.png",
+      "sha256": "c73b3469df710cec5318359ab62683f846708b74812f7cfb84def8b030f53941",
+      "bytes": 160
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_rewind.png",
+      "sha256": "8a6b907d4dd1f6959d1a08270aa314b30ffe3a5255e1005066b8cf110cd26eee",
+      "bytes": 186
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_shuffle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_shuffle_off.png",
+      "sha256": "46970dc913767f377971e7949a0e87f8dd1a2724f765f0eb2bf9988637062881",
+      "bytes": 182
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_shuffle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_shuffle_on.png",
+      "sha256": "c2c8e9c0c6fc7c8f0eafe4ffbd7092bf7e12dda8d0b417037426a3d44d65fbd1",
+      "bytes": 187
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_stop.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_stop.png",
+      "sha256": "cb96de13eaa0b38ad84622b9bf10de3e0d08cabf7556f83702a31df7c7c1e294",
+      "bytes": 88
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-ldpi-v4/exo_icon_vr.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_vr.png",
+      "sha256": "5e657d3c6f66583e6bb01ba33dc7f6d645c2139b405166749469df660f6ba69c",
+      "bytes": 170
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_edit_mode_logo.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_edit_mode_logo.png",
+      "sha256": "d7cce2dd3468b436d2d48d0333377daf116ab5fe32e931f72730c683ae3c040f",
+      "bytes": 368
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_audiotrack.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_audiotrack.png",
+      "sha256": "b6971f0bf87249ea453bedfdc1afcaf92f30b4f4995db5eb4f0c55ddfb422254",
+      "bytes": 206
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_check.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_check.png",
+      "sha256": "7586e016e7d70c6d79bacf43dc4476098474a14fa7735c5aac7fd28469bc1de5",
+      "bytes": 141
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_chevron_left.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_chevron_left.png",
+      "sha256": "bc72da04aa288ee1f1b804848bd89fd1d7b6e4cf4bc3315a37576f818ced8067",
+      "bytes": 113
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_chevron_right.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_chevron_right.png",
+      "sha256": "a23964b719d55755eb8b7a71dbbe02669d919e824ee9948bdd6356ba0ac04ec9",
+      "bytes": 116
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_default_album_image.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_default_album_image.png",
+      "sha256": "8809ca9cefdd16c7e60bb9b93ae0297f90ca6a8b4d529702f26e0343febf6c45",
+      "bytes": 855
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_forward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_forward.png",
+      "sha256": "bb180b2c5fe8e02b28417e6bb19270d29d67ee3701ce01c64d8a8a71a4c3b188",
+      "bytes": 228
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_fullscreen_enter.png",
+      "sha256": "fe1294d738160453704593f5f9be1449ab3e71f1539982b2eb08d8b5734b60a6",
+      "bytes": 98
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_fullscreen_exit.png",
+      "sha256": "121163c23a8e26ff570911801f2fcfc48f042d4a30bf47ab5315f4661172db78",
+      "bytes": 96
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_pause_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_pause_circle_filled.png",
+      "sha256": "045e53923164949c74aff3f93fea2a94ab9c145cce73d63db41430ebf9695d51",
+      "bytes": 282
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_play_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_play_circle_filled.png",
+      "sha256": "6b56948e3d285cdf62c86445a37e36c7668eaa4e8aef48cd62303d34bf51e23d",
+      "bytes": 294
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_rewind.png",
+      "sha256": "48ac7ef3ea0634a452ce25f7e1319f7c4ad3e055b2f87940bf7948cc222f6bef",
+      "bytes": 226
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_settings.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_settings.png",
+      "sha256": "5a3a758c8d989775184d3cae384796c8eeb44479d8656392f4de5b09708da76c",
+      "bytes": 218
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_skip_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_skip_next.png",
+      "sha256": "350f0902eb9a334bebc642fcd16a6d414e85e6bde7e2fd8d653a8bed39b1086e",
+      "bytes": 186
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_skip_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_skip_previous.png",
+      "sha256": "33e658cb85de8bf634bef29d0984d29c5d09191c144bdfaa96629076bcbfe6cd",
+      "bytes": 188
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_speed.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_speed.png",
+      "sha256": "fceb07850bdaa7c93cb9776a55224b24471483cc78708caf705742adcccf92f7",
+      "bytes": 269
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_subtitle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_subtitle_off.png",
+      "sha256": "561dec0510349e7a48e80d7b58f1bb0a4e0eaeca3189f6da0af4f3ae2ab23a42",
+      "bytes": 157
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_ic_subtitle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_subtitle_on.png",
+      "sha256": "5fd40c6de9d824ab04093fd79ed03cfca63ca6e156b91e5a2986b2b299e645dc",
+      "bytes": 145
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_circular_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_circular_play.png",
+      "sha256": "8f92699de32f5f781ffcb3238911bd93be6ebd45570ddd7abfa7655d3c2fb51f",
+      "bytes": 672
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_fastforward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_fastforward.png",
+      "sha256": "a0df8d3b4003b0de54c424e67e3f4c58c4b10a55b3857e472fbca277e93658c8",
+      "bytes": 217
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_fullscreen_enter.png",
+      "sha256": "060725c86c5a869565a2219f10384c07f8cfd5cc41640d772de97b66453e24ce",
+      "bytes": 101
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_fullscreen_exit.png",
+      "sha256": "36e6c0847eaa72ebb182e4aa6698ad561d45f32a91d9740432d2bdf8113bf570",
+      "bytes": 101
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_next.png",
+      "sha256": "7d88944e8062c9f04b4a1c0cba6a57115dfb6f0ac74d9e9710c55f220c4812d0",
+      "bytes": 209
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_pause.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_pause.png",
+      "sha256": "aa82a88aae367b8d84ba9d0fdd9bfd124b9ad2d445549eb72e88529dddac6500",
+      "bytes": 140
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_play.png",
+      "sha256": "456d2f4faa7cf25035f2223ff7dda1e2b2876b9ffaab56c871bf94b31338f996",
+      "bytes": 200
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_previous.png",
+      "sha256": "2ec8d396d7185b702d6f787e568d55e67fbbefb09538b8ffa05341ded8957bbf",
+      "bytes": 180
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_repeat_all.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_repeat_all.png",
+      "sha256": "27bbcb597e8b5fd424fa90222d50b6f78d2ec14d08681591d9c9e0c00c0cd1a3",
+      "bytes": 210
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_repeat_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_repeat_off.png",
+      "sha256": "a7b23a82d794c08f108ecf3c627bde8b6ecda41c772d078fe9fe386d31a2fd90",
+      "bytes": 227
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_repeat_one.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_repeat_one.png",
+      "sha256": "f5e7ebd42942247ce2e4122e9d1e3f2c95f22853812215d89d7725fb2c8c0165",
+      "bytes": 232
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_rewind.png",
+      "sha256": "6d4e1b09125d412076d5bb8bb1a5900ba41250252f27963d7083a2416322ee3b",
+      "bytes": 217
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_shuffle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_shuffle_off.png",
+      "sha256": "b3f53f8d207b20d9aafd5cfc8914fd16c5ad125afb8c175d5c242e3903eb7897",
+      "bytes": 228
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_shuffle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_shuffle_on.png",
+      "sha256": "4b5ade79ba9a38334784a61e997bc3ebaf87a71f47a07cdc5b963e1c62005e4c",
+      "bytes": 230
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_stop.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_stop.png",
+      "sha256": "e36b0b8ad799dae89888a6c73e162d5bf17e1a82481c5593e7b1975b0532b6a4",
+      "bytes": 97
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-mdpi-v4/exo_icon_vr.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_vr.png",
+      "sha256": "8ca9277e1962c804d463895a0ccc8b3f7154ac85fc4b8e9fc04658ec9cbd9b9e",
+      "bytes": 207
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_edit_mode_logo.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_edit_mode_logo.png",
+      "sha256": "57b26a821946f7983091ab8f002175ea6d4bd2b0595b79a4c8559f05cdad1f0a",
+      "bytes": 658
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_audiotrack.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_audiotrack.png",
+      "sha256": "8d5e1dfb710388352d62fab45148504720afc6b2103c5824bc87b90af448376e",
+      "bytes": 346
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_check.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_check.png",
+      "sha256": "a873554e53ae63be8fbdf1307e5399b94900ea2c0bc2a2b700a9cc20527e459c",
+      "bytes": 192
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_chevron_left.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_chevron_left.png",
+      "sha256": "13fa7b6d9d022778c4daa7bd23577f9a5f1421a61e5186fc6a65f38688afecf3",
+      "bytes": 153
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_chevron_right.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_chevron_right.png",
+      "sha256": "1ffb529d55600521623ff692ee9eb0f919305c9fcbe24eb8ee94853f14266e67",
+      "bytes": 157
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_default_album_image.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_default_album_image.png",
+      "sha256": "b9c5d74438d2bd3ff85726d7dfd3dec4754e0c92e3cb270f7b973b0f462a4f13",
+      "bytes": 1892
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_forward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_forward.png",
+      "sha256": "5e65cdb57a86f9dcb8c42029e1fbacda4caeaf5c2d42c1ab9d182a87c4992880",
+      "bytes": 361
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_fullscreen_enter.png",
+      "sha256": "060725c86c5a869565a2219f10384c07f8cfd5cc41640d772de97b66453e24ce",
+      "bytes": 101
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_fullscreen_exit.png",
+      "sha256": "36e6c0847eaa72ebb182e4aa6698ad561d45f32a91d9740432d2bdf8113bf570",
+      "bytes": 101
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_pause_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_pause_circle_filled.png",
+      "sha256": "71009db2deacd24f0990e332240006aeab8d27b99e19b172ceec3390ee19c458",
+      "bytes": 478
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_play_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_play_circle_filled.png",
+      "sha256": "3cf29e7a92b25bbf79b0e4af2761309b8f98ef967e3ee6a8219cc88164511b8c",
+      "bytes": 509
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_rewind.png",
+      "sha256": "211a336a3acb74fe63840aa4a5ee4f5e4cbefdeaf700e3fde266ebee52b39ed8",
+      "bytes": 360
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_settings.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_settings.png",
+      "sha256": "e5b763ba24b3e9566ecbccd90d78ebf60d5fa4084c12780cd7824a151e6298e3",
+      "bytes": 386
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_skip_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_skip_next.png",
+      "sha256": "61e6063a16ff51f9888e8958912e10baef214ca9a2708c7139564d9dbb1511ff",
+      "bytes": 265
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_skip_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_skip_previous.png",
+      "sha256": "715f188a3243ba0f6b2638f2ce7b69a00af06e64c9509cc95fa3ca7eda4e33cd",
+      "bytes": 273
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_speed.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_speed.png",
+      "sha256": "9e177ba7bd8c97181c1f3c6197397a7c88d473d610eaa078ed780de4a8db52ca",
+      "bytes": 501
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_subtitle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_subtitle_off.png",
+      "sha256": "33d85283df238ab6e969efb1f8127819c8dd24828198863e1df29a5e435269cf",
+      "bytes": 214
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_ic_subtitle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_subtitle_on.png",
+      "sha256": "cbdf9de06f32dc5d443091ff6ffd2aae5b67e77aac904499666f5d4821eacbfa",
+      "bytes": 202
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_circular_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_circular_play.png",
+      "sha256": "804c5a64a4bc8e6c3b7693bb29f2dfd20807919b04e65a03f46aa8baa62ced25",
+      "bytes": 1322
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_fastforward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_fastforward.png",
+      "sha256": "a5c7d5634e92a5fb63bf36d5f90e2b27f060c7ecd37d3e5f81acea0a4f4449b2",
+      "bytes": 386
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_fullscreen_enter.png",
+      "sha256": "c201d538b8ceb02e5a01712247d35ca532c3234304cf952e62cdd2848457572d",
+      "bytes": 109
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_fullscreen_exit.png",
+      "sha256": "bcdcd52d56fa7f248b4d2a867d22b18656c3a75dfc0c7a72fd423128451c080d",
+      "bytes": 106
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_next.png",
+      "sha256": "d4a12afb754d61b3a95fa242fbb2bd31696ab8d8b6a694b7ce1901b25760c7f5",
+      "bytes": 269
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_pause.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_pause.png",
+      "sha256": "cb6ad001ba879e3a7db7158fc4273ec4fa8de6705432b2bbb007bcbeeb563d11",
+      "bytes": 164
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_play.png",
+      "sha256": "4c1377c03a352a18769fdb1695bbbeda5348c76740ed093da7bd4854f9607443",
+      "bytes": 270
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_previous.png",
+      "sha256": "9a6071533254af545b37965b5e922ac4afffd9a5295614163f3f94bcda97c9b9",
+      "bytes": 328
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_repeat_all.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_repeat_all.png",
+      "sha256": "06648e14b1826079273b34866a305f43e52bdbd9123ca06ab79fc75aa5e4c275",
+      "bytes": 288
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_repeat_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_repeat_off.png",
+      "sha256": "d58af871904f307930136276f672f93fb2642cdcd70b1e9a89a433090caea7af",
+      "bytes": 322
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_repeat_one.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_repeat_one.png",
+      "sha256": "7421e7b1a19d91d1c5d7c22bb9011d2d331636db3709373a287a1628c3f7f51d",
+      "bytes": 331
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_rewind.png",
+      "sha256": "fc5ffc7a5718a08e25785c1900e8ff6a0e25d43ca1b523c6ea7ab838a21cb261",
+      "bytes": 391
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_shuffle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_shuffle_off.png",
+      "sha256": "38ed8f29810584687e7f7611eac467bff7e2a14c034b119c13d0881ca82949f1",
+      "bytes": 342
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_shuffle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_shuffle_on.png",
+      "sha256": "f653f64de935b06f498ec6bffdee32585ccdd081c26e4062e00a1ba3d3e7eb8e",
+      "bytes": 342
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_stop.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_stop.png",
+      "sha256": "0e3b79e7f6c572b759cd16e92fe75a1d774d0ef9749ae956abc38b55329e31f8",
+      "bytes": 91
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xhdpi-v4/exo_icon_vr.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_vr.png",
+      "sha256": "c3aa9130cf52bd20885f7d20cb080771fd7f454c871886f458f1d02dd3b32ee8",
+      "bytes": 375
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_edit_mode_logo.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_edit_mode_logo.png",
+      "sha256": "67340f6cb415f06d3673c41b028e39fd5b7d2d8212a8817f23ea057e57ec6a4d",
+      "bytes": 998
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_audiotrack.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_audiotrack.png",
+      "sha256": "d9319849145b81bdbe0c8467da8c33cc9968f72e64ca6a0c27930eeefefbdb2e",
+      "bytes": 513
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_check.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_check.png",
+      "sha256": "1827f9310edf8b944a8bceb93b9e75fd22d2904285b800ed75f48b2866ce2490",
+      "bytes": 236
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_chevron_left.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_chevron_left.png",
+      "sha256": "60f67a6bff8cbb35ca0e40ec7103ca47437be822abb15fe2a87f83fd06109340",
+      "bytes": 198
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_chevron_right.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_chevron_right.png",
+      "sha256": "45b1f38a80e2d27db761e834f0dcf9f747d06cbf267efc0819f14416abe925ec",
+      "bytes": 194
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_default_album_image.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_default_album_image.png",
+      "sha256": "1924108704e48963aea84ba82eafae8ea7cad5494138381782d161a7fd179f84",
+      "bytes": 3131
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_forward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_forward.png",
+      "sha256": "acae5b09b09680f7c304bd69c016fb9c4378a8d80a6e74e8994cdedbe7f161a9",
+      "bytes": 526
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_fullscreen_enter.png",
+      "sha256": "964e7d6ccd1140310f5541acfc8f57af7e77e991c592a099eb65b7eddeaa94c3",
+      "bytes": 107
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_fullscreen_exit.png",
+      "sha256": "0383e75b641d374c2eabc76bbd2535e0b0ae307fa166ace7c925ca86f7bf4a4a",
+      "bytes": 105
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_pause_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_pause_circle_filled.png",
+      "sha256": "fd2b9a82ee37a7d30b63b4585cf86cb516b849b62069a6b2758a2645d616c1af",
+      "bytes": 648
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_play_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_play_circle_filled.png",
+      "sha256": "f3f11402c4af9fc19f0293fd0d49a853327beff647b6709c28ab1498614453f3",
+      "bytes": 712
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_rewind.png",
+      "sha256": "49bce56554cded6f998cdfe35a3e781afb21e6c02a41a2977b88ee3bfbd20514",
+      "bytes": 527
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_settings.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_settings.png",
+      "sha256": "f26a3a4bb02dd69e1975cdf4ea9fd75abe3adec41e275fc180d5e26856dee6b4",
+      "bytes": 574
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_skip_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_skip_next.png",
+      "sha256": "2c5ddf5c9fda5f6ffe624e43ab2fa724db2dd224c15cb68fea786558bb4b352f",
+      "bytes": 336
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_skip_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_skip_previous.png",
+      "sha256": "84ee194948de17003eba3dd739327d580c3546a1c3d638f600cba025dc45b106",
+      "bytes": 345
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_speed.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_speed.png",
+      "sha256": "b83028916ef90356b19a07bd1a936a42dcbba8e450d7282f4401132e484df2b9",
+      "bytes": 727
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_subtitle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_subtitle_off.png",
+      "sha256": "c62b615f2cecb59846fcf3fbd8aeff61caca1f2e0788963366fdb656ce9f3b05",
+      "bytes": 281
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_ic_subtitle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_subtitle_on.png",
+      "sha256": "d6f18371f13c7496e8311c52aaccafc87e18afd7b734a49c7ac87b65683d02ae",
+      "bytes": 265
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_circular_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_circular_play.png",
+      "sha256": "eea87a962b45eff12a286371ed7f60b6e8b142d3a6b8cfd484b20683e08462fc",
+      "bytes": 2020
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_fastforward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_fastforward.png",
+      "sha256": "33986362c6d7eec4cf6f94a972397595e73b0ab096c7dd411525b78418fc506f",
+      "bytes": 575
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_fullscreen_enter.png",
+      "sha256": "4a0fbf30f378526f6d6f173223c39df9ad8930168fc102cc38facea2efc85510",
+      "bytes": 123
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_fullscreen_exit.png",
+      "sha256": "c6960a93295fdc86181817f10ad2b34c547d77a66ff48b0932399a41925e9937",
+      "bytes": 123
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_next.png",
+      "sha256": "d90e992018fa0bc5bfe6075889b5618fe0eb8c7609bd96c0ed51d667d26c5425",
+      "bytes": 385
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_pause.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_pause.png",
+      "sha256": "9fafcd809251df20fe7c7131e352ca482f2c3bc7e7b79c9e1ca06fde72116574",
+      "bytes": 111
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_play.png",
+      "sha256": "ed555b25c9d460e889ceab734787d1d4b1464efc5f33bbd8c08696b1909b06fd",
+      "bytes": 378
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_previous.png",
+      "sha256": "130ccff499f51f277394cc8c5a6e9fbb47642463a0e397dc4ed311e8d4b57498",
+      "bytes": 458
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_repeat_all.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_repeat_all.png",
+      "sha256": "0afa5d5b1a018125da8b3a3ebe05a5f9a9f0573a824cf620463a7ca8aa608607",
+      "bytes": 266
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_repeat_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_repeat_off.png",
+      "sha256": "9c8efe05feab6ab5c1c057cb00b9b04e8d654ad2229fb5a7dcdd3f7c57fa32ab",
+      "bytes": 309
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_repeat_one.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_repeat_one.png",
+      "sha256": "f96c36013399e4c25b87c1db213bb7df225f4fbe0458981c9be24b8bf71b1167",
+      "bytes": 309
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_rewind.png",
+      "sha256": "0f6878047b81dd9452156f19e56b51ae837f73d28d66f495bfde1dccca58bdc7",
+      "bytes": 561
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_shuffle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_shuffle_off.png",
+      "sha256": "681874018630ba4956b42b33ce0ea39ca0a3712f428077062c0229234c25735c",
+      "bytes": 438
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_shuffle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_shuffle_on.png",
+      "sha256": "c5fedfb81f882882ce2ae11a3c23d3ca05e9fb49de6434359a720a6892015825",
+      "bytes": 436
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_stop.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_stop.png",
+      "sha256": "581f1d038f2a1aea88ffedc808ba712bcbab9148a4cb8b04f878d7c4a5059834",
+      "bytes": 95
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxhdpi-v4/exo_icon_vr.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_vr.png",
+      "sha256": "12c3e20d46259bb2808367cdf3b0a45c8117ece54d7e97bb7b29c92220b8379d",
+      "bytes": 602
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_edit_mode_logo.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_edit_mode_logo.png",
+      "sha256": "2b9fe01e57556ffbb8e2eec60265e0b077c7b39cd1904c8a7520e77e2d2635fd",
+      "bytes": 1397
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_audiotrack.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_audiotrack.png",
+      "sha256": "faf4e0a026b75b92e3435a97bbefc4a5d910800105ecc70c301ed6b1546e8a26",
+      "bytes": 650
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_check.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_check.png",
+      "sha256": "06d386c39ff71489c00124148fa7519b60e9f915ade1f976aad41b02b3be13e7",
+      "bytes": 277
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_chevron_left.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_chevron_left.png",
+      "sha256": "fa2f1d0bf44ffbf7d5a1f621fbafc8a7805c5727b13982b656ebc05fbb8aa810",
+      "bytes": 248
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_chevron_right.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_chevron_right.png",
+      "sha256": "e0db0f8241a6174fdda30c3949916cf828d1086d14df2efe16b488743582e66c",
+      "bytes": 249
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_default_album_image.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_default_album_image.png",
+      "sha256": "9eb194554e669ed3d8dba2ef73fa7e917be2de7a92feedb88e2936d366895089",
+      "bytes": 4781
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_forward.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_forward.png",
+      "sha256": "d7aef4f3e63754ca839ccef5f0f16464b8f07ccd6e98524997cd2c2a7301d02f",
+      "bytes": 670
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_fullscreen_enter.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_enter.png",
+      "sha256": "c201d538b8ceb02e5a01712247d35ca532c3234304cf952e62cdd2848457572d",
+      "bytes": 109
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_fullscreen_exit.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_exit.png",
+      "sha256": "bcdcd52d56fa7f248b4d2a867d22b18656c3a75dfc0c7a72fd423128451c080d",
+      "bytes": 106
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_pause_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_pause_circle_filled.png",
+      "sha256": "68e4fc56d92bb7d8a41364e154827fac8095223f68b349ceb877a7514996225c",
+      "bytes": 1081
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_play_circle_filled.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_play_circle_filled.png",
+      "sha256": "dc7b251b04974a718f9bb95ffefe97a880368e5d2d4cf7f9f8113d7e7666376c",
+      "bytes": 1152
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_rewind.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_rewind.png",
+      "sha256": "d80ae3ac8f9ab8dbbdb88d54a90b6c788d9725a651f9c96d93e50307c09f9231",
+      "bytes": 673
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_settings.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_settings.png",
+      "sha256": "9d83220d5f507a5ddca70daf9a09cd1eac84a36062303add62ed8f60860a8ac2",
+      "bytes": 752
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_skip_next.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_skip_next.png",
+      "sha256": "28b791b354fe5097bc3f13e1e41f16ac1e1a546b74b54286c28c1d1225d22474",
+      "bytes": 428
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_skip_previous.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_skip_previous.png",
+      "sha256": "b5217179ba9aba86005f0979347adb6d3f0bc0a49a95b32bfeada79799b0bea5",
+      "bytes": 433
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_speed.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_speed.png",
+      "sha256": "2f208cad0bd4e19834664548ca9785edccac8ee843a439d6423912876dde1bc2",
+      "bytes": 955
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_subtitle_off.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_subtitle_off.png",
+      "sha256": "78c824c03ec15624b5f58a6437475151749f6046c936883943cadffae4942985",
+      "bytes": 316
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_ic_subtitle_on.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_subtitle_on.png",
+      "sha256": "65726f08e1d6dd6ea534390e47dba6d99b1067abc6d40790e45468fea74d7b38",
+      "bytes": 305
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/drawable-xxxhdpi-v4/exo_icon_circular_play.png",
+      "saved": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_icon_circular_play.png",
+      "sha256": "38ad79c3744379b41a7cc06b034147cc48ae77b34e323f2e4d5c14ba9fc4bc55",
+      "bytes": 2683
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/font/roboto_medium_numbers.ttf",
+      "saved": "source/media3-ui/original-resources/res/font/roboto_medium_numbers.ttf",
+      "sha256": "acbf6c59d8c5765ffa9af2a839249e2800e0b107aad4045cf5c070765fa29322",
+      "bytes": 3316
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/layout/exo_legacy_player_control_view.xml",
+      "saved": "source/media3-ui/original-resources/res/layout/exo_legacy_player_control_view.xml",
+      "sha256": "41b51e96667a1d596771fc40ca4d2f855fe8afd8365ffbbc0ced1d8a68dde565",
+      "bytes": 3103
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/layout/exo_list_divider.xml",
+      "saved": "source/media3-ui/original-resources/res/layout/exo_list_divider.xml",
+      "sha256": "9d46017b217aafe82f4c07edd4e95a297ac1f508e42fb27155e09247281da2eb",
+      "bytes": 860
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/layout/exo_player_control_view.xml",
+      "saved": "source/media3-ui/original-resources/res/layout/exo_player_control_view.xml",
+      "sha256": "aceaeeb1048e3023c169d02c75c95f2f742becbc75b79a8fc89358e15a7fbc9a",
+      "bytes": 6371
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/layout/exo_player_view.xml",
+      "saved": "source/media3-ui/original-resources/res/layout/exo_player_view.xml",
+      "sha256": "b1cb54f16001e81864eee3be0cc8dd3f7e633755878519e331a52ce9f04ae832",
+      "bytes": 3192
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/layout/exo_styled_settings_list.xml",
+      "saved": "source/media3-ui/original-resources/res/layout/exo_styled_settings_list.xml",
+      "sha256": "67850d4a50a3ec5f96528dda03984f1b3dac9ca26699661d16b44fd4ae63b461",
+      "bytes": 986
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/layout/exo_styled_settings_list_item.xml",
+      "saved": "source/media3-ui/original-resources/res/layout/exo_styled_settings_list_item.xml",
+      "sha256": "1db44f5379612e8ae1ef0fc92e80409a228900dc21f26ddc99e4ec98f322edc7",
+      "bytes": 2473
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/layout/exo_styled_sub_settings_list_item.xml",
+      "saved": "source/media3-ui/original-resources/res/layout/exo_styled_sub_settings_list_item.xml",
+      "sha256": "1be2419d86a70ac763557efe8578836f6139b729973d84f7aa5b20175a7ee185",
+      "bytes": 1931
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/layout/exo_track_selection_dialog.xml",
+      "saved": "source/media3-ui/original-resources/res/layout/exo_track_selection_dialog.xml",
+      "sha256": "32eb1c09e284e1831396d4ed4012efe22e8f075514851f9de57e4fb89e3e1ba6",
+      "bytes": 1010
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/layout-v23/exo_player_control_ffwd_button.xml",
+      "saved": "source/media3-ui/original-resources/res/layout-v23/exo_player_control_ffwd_button.xml",
+      "sha256": "10784d1f3883e67e2e15f531097d2d425e3463d6aaa8c06744cd8af5a9e6595d",
+      "bytes": 1038
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/layout-v23/exo_player_control_rewind_button.xml",
+      "saved": "source/media3-ui/original-resources/res/layout-v23/exo_player_control_rewind_button.xml",
+      "sha256": "a547d8aa181b3e3ab02f49d5944bfdec307379db59bd6a529702ec3f8d596bb2",
+      "bytes": 1036
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values/values.xml",
+      "saved": "source/media3-ui/original-resources/res/values/values.xml",
+      "sha256": "1764a96e8404cd0b597d67bff860ed3e06e879c3513dd6a549230b07b9956065",
+      "bytes": 31849
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-af/values-af.xml",
+      "saved": "source/media3-ui/original-resources/res/values-af/values-af.xml",
+      "sha256": "b811f0bf53dccd38338fc3d5b491cbdc3ee34f3ae43b96b94dc2034dcc7f0ea9",
+      "bytes": 3710
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-am/values-am.xml",
+      "saved": "source/media3-ui/original-resources/res/values-am/values-am.xml",
+      "sha256": "15c0b5815127c114b6795ffe827d6f9ea08f2fbd8cd3c8105c9751b74d7d85a3",
+      "bytes": 4365
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ar/values-ar.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ar/values-ar.xml",
+      "sha256": "663691b12942c2d9e4f5b8d86717920c2eb44aa04cd21ea9cb0a4b28fa116bcf",
+      "bytes": 5216
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-as/values-as.xml",
+      "saved": "source/media3-ui/original-resources/res/values-as/values-as.xml",
+      "sha256": "28cf580ca3a3438839cc66b60ad7b0039ea23641d96029a717d44b2227da7b48",
+      "bytes": 5086
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-az/values-az.xml",
+      "saved": "source/media3-ui/original-resources/res/values-az/values-az.xml",
+      "sha256": "e0ca2a4eb401b1b8790488d03b8dde4ace8f14d37cbf6b1c354e937dcc5b2294",
+      "bytes": 3831
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-b+sr+Latn/values-b+sr+Latn.xml",
+      "saved": "source/media3-ui/original-resources/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+      "sha256": "e8b451f6f1b7f800369147c912bedf642cc27ff96c331ac2b201a4ee6b3e4dd1",
+      "bytes": 3886
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-be/values-be.xml",
+      "saved": "source/media3-ui/original-resources/res/values-be/values-be.xml",
+      "sha256": "18c56d91554cfab41b574ae29f8c93bac466a4bb3ddabf05c1aa1d63f9641c93",
+      "bytes": 4781
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-bg/values-bg.xml",
+      "saved": "source/media3-ui/original-resources/res/values-bg/values-bg.xml",
+      "sha256": "65869c324d84b2de193ea36f87e53f300dbdc1f3341bfa4717bb75d7af267735",
+      "bytes": 4719
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-bn/values-bn.xml",
+      "saved": "source/media3-ui/original-resources/res/values-bn/values-bn.xml",
+      "sha256": "802313e0199476ce5a823ae3f425839b4555b2f435429a796d97d6738dce88d7",
+      "bytes": 4952
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-bs/values-bs.xml",
+      "saved": "source/media3-ui/original-resources/res/values-bs/values-bs.xml",
+      "sha256": "9a31ee6338ca3b18f3af27eae7ae648b0b34d01f1934a6cc620142709dce44a6",
+      "bytes": 4006
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ca/values-ca.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ca/values-ca.xml",
+      "sha256": "bc276e7f88e3e26b8b45afba03f69be13fb98aa6f3540b93fdc84f1348372b3c",
+      "bytes": 3825
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-cs/values-cs.xml",
+      "saved": "source/media3-ui/original-resources/res/values-cs/values-cs.xml",
+      "sha256": "fc6ce1404d5be19eda54f32222c2262436f9e37675af80a402d296b468b7e500",
+      "bytes": 4140
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-da/values-da.xml",
+      "saved": "source/media3-ui/original-resources/res/values-da/values-da.xml",
+      "sha256": "4c3b9ed730fa1cfc4a3324bab256da1dfac8e5331a6369ae9c37ef25082dbb02",
+      "bytes": 3687
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-de/values-de.xml",
+      "saved": "source/media3-ui/original-resources/res/values-de/values-de.xml",
+      "sha256": "a5617cb8693b7394cffb0434202fa211ce7ac2f977cbeb8a919a05e4cd20f307",
+      "bytes": 3857
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-el/values-el.xml",
+      "saved": "source/media3-ui/original-resources/res/values-el/values-el.xml",
+      "sha256": "ac1d2c528072c0a28ed6edc8cdef96b21d151aa9201262fb9cf68d1ad823e4ae",
+      "bytes": 4759
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-en-rAU/values-en-rAU.xml",
+      "saved": "source/media3-ui/original-resources/res/values-en-rAU/values-en-rAU.xml",
+      "sha256": "b92ec7b281e39ec7cc236a5b14b5b3bd4d19f059ac41ce33c82c79abae5195f0",
+      "bytes": 3618
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-en-rGB/values-en-rGB.xml",
+      "saved": "source/media3-ui/original-resources/res/values-en-rGB/values-en-rGB.xml",
+      "sha256": "b92ec7b281e39ec7cc236a5b14b5b3bd4d19f059ac41ce33c82c79abae5195f0",
+      "bytes": 3618
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-en-rIN/values-en-rIN.xml",
+      "saved": "source/media3-ui/original-resources/res/values-en-rIN/values-en-rIN.xml",
+      "sha256": "b92ec7b281e39ec7cc236a5b14b5b3bd4d19f059ac41ce33c82c79abae5195f0",
+      "bytes": 3618
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-es/values-es.xml",
+      "saved": "source/media3-ui/original-resources/res/values-es/values-es.xml",
+      "sha256": "97ec4e74155086a945e8213ea1e1d76ad47419f1b1601b9e8cfe081ef259d77e",
+      "bytes": 3753
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-es-rUS/values-es-rUS.xml",
+      "saved": "source/media3-ui/original-resources/res/values-es-rUS/values-es-rUS.xml",
+      "sha256": "762cd894e4927c889b6119d50e5b5ea509f2917ddd4b4b16d3e7c4ee63f40c83",
+      "bytes": 3747
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-et/values-et.xml",
+      "saved": "source/media3-ui/original-resources/res/values-et/values-et.xml",
+      "sha256": "b5ef540d148412df64412668745c2f78e1f15a0f5502920367b8d711fd01d76d",
+      "bytes": 3748
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-eu/values-eu.xml",
+      "saved": "source/media3-ui/original-resources/res/values-eu/values-eu.xml",
+      "sha256": "3342d33dc41af1ddb28196a37cee9a76153c08bf67e434a71befc2fd6d231579",
+      "bytes": 3832
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-fa/values-fa.xml",
+      "saved": "source/media3-ui/original-resources/res/values-fa/values-fa.xml",
+      "sha256": "4d664f9a5503da6258846f5c33fa4990af017ea5c22faeac7ddb75b084db9f59",
+      "bytes": 4383
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-fi/values-fi.xml",
+      "saved": "source/media3-ui/original-resources/res/values-fi/values-fi.xml",
+      "sha256": "4b9f4c56fe55c5851cb95d518237ae112db700644b619c788cc065b425a5787b",
+      "bytes": 3756
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-fr/values-fr.xml",
+      "saved": "source/media3-ui/original-resources/res/values-fr/values-fr.xml",
+      "sha256": "26b87a08ead5c7782bb5ea6245deb79bede8f05e7ca2760657bde865051a5f9c",
+      "bytes": 3903
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-fr-rCA/values-fr-rCA.xml",
+      "saved": "source/media3-ui/original-resources/res/values-fr-rCA/values-fr-rCA.xml",
+      "sha256": "dc1e20ab4aa3569dac8ed670e978594b23843774c319bb7f7703c9a5816f1b68",
+      "bytes": 3893
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-gl/values-gl.xml",
+      "saved": "source/media3-ui/original-resources/res/values-gl/values-gl.xml",
+      "sha256": "6c9bb6a4c7f7b88196a94886ea202a2eab39a3619fcb1499592df882f4cffa28",
+      "bytes": 3854
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-gu/values-gu.xml",
+      "saved": "source/media3-ui/original-resources/res/values-gu/values-gu.xml",
+      "sha256": "eed0d7bb00c37f9d8cc667328c955816790abb496fc44617ada0d88d8c18f5c6",
+      "bytes": 4822
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-hi/values-hi.xml",
+      "saved": "source/media3-ui/original-resources/res/values-hi/values-hi.xml",
+      "sha256": "ee7ffbdc4579cc5e0fb5a188aed048b772fef6ca78e970239fdba4981629c6ac",
+      "bytes": 4930
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-hr/values-hr.xml",
+      "saved": "source/media3-ui/original-resources/res/values-hr/values-hr.xml",
+      "sha256": "14a45fb8d8e659e237e15edb1e69ee05c00c30e87d87fbc3cc724585fb800312",
+      "bytes": 4072
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-hu/values-hu.xml",
+      "saved": "source/media3-ui/original-resources/res/values-hu/values-hu.xml",
+      "sha256": "f6b8a0cca36ba6dd312d5716080797021474343b162417194749c9f220983a2b",
+      "bytes": 3894
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-hy/values-hy.xml",
+      "saved": "source/media3-ui/original-resources/res/values-hy/values-hy.xml",
+      "sha256": "c195176c95c79dad19d16cda45c250c3fee4914d3a7dac582dee135bf9b4328e",
+      "bytes": 4447
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-in/values-in.xml",
+      "saved": "source/media3-ui/original-resources/res/values-in/values-in.xml",
+      "sha256": "6b03d1100fdf004304bc7e7b8f53c8502f2630c7061e5a08f633dcaab21dd68a",
+      "bytes": 3697
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-is/values-is.xml",
+      "saved": "source/media3-ui/original-resources/res/values-is/values-is.xml",
+      "sha256": "161c431e61166d039e3f299a5926cf7ebeb074f6e8deb9193ab4c78537a73a5c",
+      "bytes": 3802
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-it/values-it.xml",
+      "saved": "source/media3-ui/original-resources/res/values-it/values-it.xml",
+      "sha256": "c82498331f4435a4eee264536610279869ceecb7ccfbff0807214ca6829ef01c",
+      "bytes": 3848
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-iw/values-iw.xml",
+      "saved": "source/media3-ui/original-resources/res/values-iw/values-iw.xml",
+      "sha256": "08d7eea1122a9291ccbd1b142d37286acba9a38bc12918b61f0c67ef047960f9",
+      "bytes": 4217
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ja/values-ja.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ja/values-ja.xml",
+      "sha256": "38fc0285951e04e87e36937485530ddd35c0a7d4f9c5f6f89aa2b703a5c3462b",
+      "bytes": 3860
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ka/values-ka.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ka/values-ka.xml",
+      "sha256": "664a2fbb88e8d95c44a5609fca9d2b5c18323865ae736bb0d49e711ccf9fd46b",
+      "bytes": 5329
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-kk/values-kk.xml",
+      "saved": "source/media3-ui/original-resources/res/values-kk/values-kk.xml",
+      "sha256": "3d381414d370212c08f8f108ed81c9622c3a5a2375611af066e31f39d4219474",
+      "bytes": 4559
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-km/values-km.xml",
+      "saved": "source/media3-ui/original-resources/res/values-km/values-km.xml",
+      "sha256": "e35b39dc1087c1822bb7817c178e35f69d7f56ac655b2aedd29855c1a03a927a",
+      "bytes": 4990
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-kn/values-kn.xml",
+      "saved": "source/media3-ui/original-resources/res/values-kn/values-kn.xml",
+      "sha256": "ef041af06ef5776539e6b23f4744a8ebfa137733f22e9732b56326675158f0a6",
+      "bytes": 5394
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ko/values-ko.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ko/values-ko.xml",
+      "sha256": "d873057ca3fcafe04b0be2718eed6c0b9661ef85cc3fc793713a6d72c43fabcc",
+      "bytes": 3773
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ky/values-ky.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ky/values-ky.xml",
+      "sha256": "1a6862e0a5be1752774d374291345a2fb7f47d65c4e2c3d9af6383f75db946a2",
+      "bytes": 4597
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-lo/values-lo.xml",
+      "saved": "source/media3-ui/original-resources/res/values-lo/values-lo.xml",
+      "sha256": "6639c144a5ae0d402c3a0b91325d2f68817ae03c8e19e26b90a63fd40bbb6c0d",
+      "bytes": 4771
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-lt/values-lt.xml",
+      "saved": "source/media3-ui/original-resources/res/values-lt/values-lt.xml",
+      "sha256": "96c508e19a13d9c6467199ee3a86c3b37faa7bfb034e52999f2ffa9ee71c3e62",
+      "bytes": 4049
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-lv/values-lv.xml",
+      "saved": "source/media3-ui/original-resources/res/values-lv/values-lv.xml",
+      "sha256": "d4a2258945a18e786e97bd81e7e03003fde145d513f0dfd08492c8dfeaaa7c95",
+      "bytes": 4016
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-mk/values-mk.xml",
+      "saved": "source/media3-ui/original-resources/res/values-mk/values-mk.xml",
+      "sha256": "513b90aa60a4272a34f257e702b8c48326e94d1dc9b82f023c19c4eb5052efbf",
+      "bytes": 4539
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ml/values-ml.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ml/values-ml.xml",
+      "sha256": "e92006cb593b18e20a70270188040fc6609f1997fdec17029dc79eae1696955f",
+      "bytes": 5496
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-mn/values-mn.xml",
+      "saved": "source/media3-ui/original-resources/res/values-mn/values-mn.xml",
+      "sha256": "3ff9b8ca8f63d1df79297f6d12dc34a7574e930f18c20d65de9d9e76d1184279",
+      "bytes": 4623
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-mr/values-mr.xml",
+      "saved": "source/media3-ui/original-resources/res/values-mr/values-mr.xml",
+      "sha256": "ed4cd9511680dd41943168dd1dae041c3f1f5bf7326b7c803cfd761ddf89e78f",
+      "bytes": 4778
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ms/values-ms.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ms/values-ms.xml",
+      "sha256": "6c6965437b1b19d73e86fc10a37e955257a92fba2735d7519e5176ca61bf1843",
+      "bytes": 3649
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-my/values-my.xml",
+      "saved": "source/media3-ui/original-resources/res/values-my/values-my.xml",
+      "sha256": "76d17b1d3999ff6fb19a6bb2c4f2f2ec4a11d090fb83ebb1a09fcdd0dc74ba93",
+      "bytes": 5240
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-nb/values-nb.xml",
+      "saved": "source/media3-ui/original-resources/res/values-nb/values-nb.xml",
+      "sha256": "a31660fd17d0b1ef8ba459eb3815134ce759fa02b5e8cefac82186caa779c3a7",
+      "bytes": 3737
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ne/values-ne.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ne/values-ne.xml",
+      "sha256": "e4b97b6d89a2cc3af036ad06e22b94d8cd13984c939887c5125b905a4aec69b0",
+      "bytes": 5449
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-nl/values-nl.xml",
+      "saved": "source/media3-ui/original-resources/res/values-nl/values-nl.xml",
+      "sha256": "8920c07ea22b6a25dfeef7f3476535a67b2e0468f04da8582e427cdab7e84c02",
+      "bytes": 3733
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-or/values-or.xml",
+      "saved": "source/media3-ui/original-resources/res/values-or/values-or.xml",
+      "sha256": "a0435af9476ade6a67be7675c989d9ae5ce19f2d428cbc97874fd8b3c67f0db2",
+      "bytes": 5268
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-pa/values-pa.xml",
+      "saved": "source/media3-ui/original-resources/res/values-pa/values-pa.xml",
+      "sha256": "a76856f4f7e0decaaf26d5ae1cb15b2a2d6c20513b8b8ef597cacee5311845be",
+      "bytes": 4752
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-pl/values-pl.xml",
+      "saved": "source/media3-ui/original-resources/res/values-pl/values-pl.xml",
+      "sha256": "69625f6c0d7695b41d55b6f35718199a795f5c99e6900239dca1e6cb6ed71fae",
+      "bytes": 4186
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-pt/values-pt.xml",
+      "saved": "source/media3-ui/original-resources/res/values-pt/values-pt.xml",
+      "sha256": "2d8e065898cb376fc7368f788fc2f79f8fc965dfcbdd02dc863106b79e8fb06f",
+      "bytes": 3782
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-pt-rPT/values-pt-rPT.xml",
+      "saved": "source/media3-ui/original-resources/res/values-pt-rPT/values-pt-rPT.xml",
+      "sha256": "b065a092959e0b12a5c3ea88bda3a54b8ab548c6a57a9c2e3aa2d99ced6e17c1",
+      "bytes": 3730
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ro/values-ro.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ro/values-ro.xml",
+      "sha256": "dac220f525663802c59c530174bece288591ddbaf424bf97b2d4fdbf531b170b",
+      "bytes": 4009
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ru/values-ru.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ru/values-ru.xml",
+      "sha256": "3d1efb5a4188ab6b85d94d32755a9b5d6b974dc71734ac45e5982bb13d67c7be",
+      "bytes": 4960
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-si/values-si.xml",
+      "saved": "source/media3-ui/original-resources/res/values-si/values-si.xml",
+      "sha256": "f4b36d7eebc83acbeb6584262a226520534b21224a4bfd2c77d752f265f3d379",
+      "bytes": 5004
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-sk/values-sk.xml",
+      "saved": "source/media3-ui/original-resources/res/values-sk/values-sk.xml",
+      "sha256": "f744bc73949f34eec0260fc38425149fa4434f9401918b479e6641fb748fa040",
+      "bytes": 4223
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-sl/values-sl.xml",
+      "saved": "source/media3-ui/original-resources/res/values-sl/values-sl.xml",
+      "sha256": "5af9afb517af4c3e4e4ddcbb559f0c333611792309979a7939901513823ddce7",
+      "bytes": 4158
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-sq/values-sq.xml",
+      "saved": "source/media3-ui/original-resources/res/values-sq/values-sq.xml",
+      "sha256": "fbc0ba12cfa3b774e832da98fac0ca0a529dd59bbe77d095c122a3f80e1ff94f",
+      "bytes": 3886
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-sr/values-sr.xml",
+      "saved": "source/media3-ui/original-resources/res/values-sr/values-sr.xml",
+      "sha256": "8088cec2bd9674a98c7f6a93048efa5c06deaf281191619f1c0d60185a61e6ec",
+      "bytes": 4523
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-sv/values-sv.xml",
+      "saved": "source/media3-ui/original-resources/res/values-sv/values-sv.xml",
+      "sha256": "a4a2b5b811ba02f71ab441dadce41a7321e2ee5a328bc45b3720107f9c809c71",
+      "bytes": 3783
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-sw/values-sw.xml",
+      "saved": "source/media3-ui/original-resources/res/values-sw/values-sw.xml",
+      "sha256": "03d9e6ef294e4772c0b1d166220350f88685083a35ec2dd87d533c28bd2c3445",
+      "bytes": 3786
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ta/values-ta.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ta/values-ta.xml",
+      "sha256": "3cd86b60d6d7a551e2af201fe77abef4c29c93fb26942f5121a95c28ed85a355",
+      "bytes": 5644
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-te/values-te.xml",
+      "saved": "source/media3-ui/original-resources/res/values-te/values-te.xml",
+      "sha256": "fcea89bec9dbd18ff8005b445428e6049a45685da413be5ed70709c2ed2981f6",
+      "bytes": 5395
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-th/values-th.xml",
+      "saved": "source/media3-ui/original-resources/res/values-th/values-th.xml",
+      "sha256": "e79ff11dc403d9c2338ea3eb590e2b6455b40fc9f04f72a102d2f8bacce28f88",
+      "bytes": 4856
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-tl/values-tl.xml",
+      "saved": "source/media3-ui/original-resources/res/values-tl/values-tl.xml",
+      "sha256": "0b7b4cb877ed87b571bc62027efe5330eb4db92e4ad9472c3f54def6db8714bf",
+      "bytes": 3797
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-tr/values-tr.xml",
+      "saved": "source/media3-ui/original-resources/res/values-tr/values-tr.xml",
+      "sha256": "ae86e9f3493aaf174f4bfa2151b16988a7b7615b40d209ce7a72b0461c4f4ed4",
+      "bytes": 3726
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-uk/values-uk.xml",
+      "saved": "source/media3-ui/original-resources/res/values-uk/values-uk.xml",
+      "sha256": "329306f28ecf88edf59f556b9c79594af99a58968a924ae8fba47303a9007fd3",
+      "bytes": 5084
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-ur/values-ur.xml",
+      "saved": "source/media3-ui/original-resources/res/values-ur/values-ur.xml",
+      "sha256": "e2ffc8c2565d8cdf679a566647166fce47cbd88e2679714409ebfb1e8c39b9c0",
+      "bytes": 4227
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-uz/values-uz.xml",
+      "saved": "source/media3-ui/original-resources/res/values-uz/values-uz.xml",
+      "sha256": "614e18ec98d70bf1d4124eb06688d8eec22ff656f564748ad46e13917c6eee92",
+      "bytes": 3801
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-v21/values-v21.xml",
+      "saved": "source/media3-ui/original-resources/res/values-v21/values-v21.xml",
+      "sha256": "d0dfd3b64ed9f2cb7061a060776bf16f0f73d595fa6e0a44fbc55be41714b076",
+      "bytes": 409
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-vi/values-vi.xml",
+      "saved": "source/media3-ui/original-resources/res/values-vi/values-vi.xml",
+      "sha256": "696feb4d4690c615f2f58a2af4cded5ae82be194e98da54b3dac69d5f71744fc",
+      "bytes": 4033
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-zh-rCN/values-zh-rCN.xml",
+      "saved": "source/media3-ui/original-resources/res/values-zh-rCN/values-zh-rCN.xml",
+      "sha256": "8358fa2a1c10574a6a81912cf20cbaa601a7072fc428e56a9dcd8e593e3939e9",
+      "bytes": 3650
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-zh-rHK/values-zh-rHK.xml",
+      "saved": "source/media3-ui/original-resources/res/values-zh-rHK/values-zh-rHK.xml",
+      "sha256": "9a8dfd85ed171179efb4baefb91b364860effdc7e2c6b098380e1c42d90f73ee",
+      "bytes": 3668
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-zh-rTW/values-zh-rTW.xml",
+      "saved": "source/media3-ui/original-resources/res/values-zh-rTW/values-zh-rTW.xml",
+      "sha256": "e74f51557ede45cda9f14af2c860f6e36a88140808fbf16450c5d432fc630e71",
+      "bytes": 3704
+    },
+    {
+      "archive": "upstream/packages/apps/Glimpse/app/libs/androidx/media3/media3-ui/1.10.0/media3-ui-1.10.0.aar",
+      "member": "res/values-zu/values-zu.xml",
+      "saved": "source/media3-ui/original-resources/res/values-zu/values-zu.xml",
+      "sha256": "637b347972064d9a98e1c3b8dd72eeb9df36c85229afb224028dbddeab44d047",
+      "bytes": 3897
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/AspectRatioFrameLayout.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/AspectRatioFrameLayout.java",
+      "sha256": "b1eb7b391373b3bb4c99e69971948e2b3c09f751c3d8d3012056f0034f542d0d",
+      "bytes": 8390
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/BidiUtils.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/BidiUtils.java",
+      "sha256": "eed32af7994279942ccc918042d19fbaf88e9a58c7339e31f458562d589b468d",
+      "bytes": 7196
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/CanvasSubtitleOutput.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/CanvasSubtitleOutput.java",
+      "sha256": "ef52db847a637fee4da08f0b6971585c8b93d37e67ff9b61b1c2eb5c641aecb6",
+      "bytes": 5745
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/CaptionStyleCompat.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/CaptionStyleCompat.java",
+      "sha256": "ba80971b2a0efb99743e5a51d5a76255d606eddba16fac4c6121cbf511ce58a8",
+      "bytes": 5079
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/DefaultMediaDescriptionAdapter.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/DefaultMediaDescriptionAdapter.java",
+      "sha256": "dcb65a430086c2ad465890b1d61252af098dd35163964234a1e133846e97ff4c",
+      "bytes": 3124
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/DefaultTimeBar.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/DefaultTimeBar.java",
+      "sha256": "e591e9be5d4526429388a25daaaad805e21327272e46385b4e8ce67f6e33efaa",
+      "bytes": 35599
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/DefaultTrackNameProvider.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/DefaultTrackNameProvider.java",
+      "sha256": "c2f9f13a3d750c4d4eeac7e1d1effac8d0388429a8fcf2b1b5ffd6b807ac4d83",
+      "bytes": 6660
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/HtmlUtils.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/HtmlUtils.java",
+      "sha256": "3f845c73e11f12818d2b1a9c2e2d8041cc739482a0016a1b881e3722c2ae2062",
+      "bytes": 1441
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/LegacyPlayerControlView.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+      "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+      "bytes": 52718
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/PlayerControlView.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/PlayerControlView.java",
+      "sha256": "cca4f29e0a6c85ffcbf60d439ca46b05a239fc607b575e3a983fda29bb4a9694",
+      "bytes": 103521
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/PlayerControlViewLayoutManager.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/PlayerControlViewLayoutManager.java",
+      "sha256": "b91482607bb1942e8f1e2e1bc6138601c8b33ab218485da1351f9272009cc91a",
+      "bytes": 27346
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/PlayerNotificationManager.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+      "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+      "bytes": 61839
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/PlayerView.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/PlayerView.java",
+      "sha256": "db13fd625fede21cc05a452660e34ca6acd752cb703d527388ce8411d47be0c3",
+      "bytes": 75791
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/SpannedToHtmlConverter.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/SpannedToHtmlConverter.java",
+      "sha256": "075af1531ceb69f8503b4d3f834b8111b5b80835fe5a9e5b34336cc876455cea",
+      "bytes": 14439
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/SubtitlePainter.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/SubtitlePainter.java",
+      "sha256": "b9bea24be79cc3b5a89892fc7ae1103a24a4af4090824bcfb9a164250408b36e",
+      "bytes": 17982
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/SubtitleView.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/SubtitleView.java",
+      "sha256": "9d7ecb60ee3ba256d69841819c9d0593fc8c8c08bc5716c721877f8fcb9344d1",
+      "bytes": 12949
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/SubtitleViewUtils.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/SubtitleViewUtils.java",
+      "sha256": "b931b3a0592e8f1a3da6b8038763bc7b359af3d286e2b370d9cf09c208cd62fe",
+      "bytes": 3548
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/TimeBar.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/TimeBar.java",
+      "sha256": "ca8d9e778f7ff13b4dcb0390f6c277b40f4be49274d83d75279419fb10a39ced",
+      "bytes": 4384
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/TrackNameProvider.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/TrackNameProvider.java",
+      "sha256": "e34ab1c2fb40cf17fcd40782c8bcfd569d0c48f76b2859fb14ef5b6261eb373a",
+      "bytes": 963
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/TrackSelectionDialogBuilder.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/TrackSelectionDialogBuilder.java",
+      "sha256": "e5f138900ab417a1622599035af6d5bc96b642db3d3fe4fdb6bf9cd2cda01433",
+      "bytes": 12838
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/TrackSelectionView.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/TrackSelectionView.java",
+      "sha256": "7d48cd92aeade553e33169b1d5fb59b5b1288b9c0305a4dea431ebac1c4e6265",
+      "bytes": 16734
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/WearUnsuitableOutputPlaybackSuppressionResolverListener.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/WearUnsuitableOutputPlaybackSuppressionResolverListener.java",
+      "sha256": "b18c486aeea5ed76e09be4498df6a305dae992b708349c2bddd29bab4971c4c3",
+      "bytes": 10936
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/WebViewSubtitleOutput.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/WebViewSubtitleOutput.java",
+      "sha256": "2fb32f65f2aa59fbfc41cdbf8edf0a577f3efbb8caec63ff983586ed64f2ae64",
+      "bytes": 15987
+    },
+    {
+      "archive": "source/media3-ui/media3-ui-1.10.0-sources.jar",
+      "member": "androidx/media3/ui/package-info.java",
+      "saved": "source/media3-ui/original-java/androidx/media3/ui/package-info.java",
+      "sha256": "6372b96de6b0d0f9c3203412585ab123276e0e45ef5ec8c42d1781bfd98ad502",
+      "bytes": 708
+    }
+  ],
+  "executed": false
+}

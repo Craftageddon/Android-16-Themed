@@ -1,0 +1,20 @@
+{
+  "W-05": "Partial source/art handoff: all baseline Gallery families reviewed except two legacy launcher leaves. Native Kotlin owners and full integration are uncompiled. Extra dependency consumer review remains.",
+  "authoredSourceGroups": [
+    "grid/thumbnail selection",
+    "viewer favorite/motion-photo/actions",
+    "player control housing/timebar state",
+    "metadata details",
+    "preferences",
+    "permission/confirmation/wallpaper dialogs",
+    "adaptive and neutral monochrome identity"
+  ],
+  "remainingOwnerChecks": [
+    "All changed Kotlin owners against full exact app dependency graph",
+    "Full native library/resource linking, optimization and XML inflation",
+    "Effective overlays and installed app identity",
+    "Picker, dialogs/undo/popups and remaining dependency visual-state coverage",
+    "Native text layout, large-font viewport scrolling, input/focus and accessibility",
+    "Dual-display/rotation/Thor controller acceptance without hardware operations in this checkpoint"
+  ]
+}

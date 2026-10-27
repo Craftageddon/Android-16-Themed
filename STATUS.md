@@ -1,6 +1,8 @@
+[Gallery checkpoint26](iterations/26-gallery-workflows/README.md) adds53 layered treatments,1680 cold/neutral PNG configurations,25 editable workflow specimens and scoped native source bindings.47 content-backed decisions leave **9577 open families**. Nine actual Java classes and bounded resource/state/geometry checks pass; full Kotlin/Soong/Android/device checks and the wider goal remain incomplete.
+
 [Updater workflow checkpoint25](iterations/25-updater-workflows/README.md) adds eight layered drawings, actual screen/control/dialog source bindings, 43 editable desktop fixtures and 480 separate cold/mask exports. Six content-backed decisions leave **9,624 open families**. Full private-owner/SPA/Soong compilation and Android/device acceptance remain unrun; W04 and the full goal remain incomplete.
 
-# Updater card foundation — 2026-10-27
+# Updater card foundation â€” 2026-10-27
 
 [Iteration 24](iterations/24-updater/README.md) binds actual operation phase into the presentation model and applies four existing steel material families to cards, actions and progress rails. Paused/suspended progress stays cold; running operations glow. Action and progress-detail rows wrap. Native text and callbacks remain in their original owners. This adds 18 editable desktop fixtures and reuses 112 native PNG configurations, with four exact SVG aliases and zero newly authored drawings.
 
@@ -60,9 +62,9 @@ Earlier status below is historical context; the latest checkpoint and active req
 
 Iteration 16 adds 30 missing motion composites and explicit artwork bindings for all 114 retained recipes, with 1,140 sampled desktop frames and 32 passing source tests. All visible wording is English; 352 default Android string resources compile. Cold steel and separate neutral light masks remain intact. See [the motion checkpoint](iterations/16-forge-motion/README.md) and its bounded [desktop review](iterations/16-forge-motion/REVIEW.md). Historical/app-specific reconciliation and native/device acceptance remain open; no device was flashed.
 
-# Redesign checkpoint status — 2026-10-22
+# Redesign checkpoint status â€” 2026-10-22
 
-## Active goal update — 2026-10-22
+## Active goal update â€” 2026-10-22
 
 The user authorized finishing the remaining visual work and then beginning native integration, and selected official **LineageOS 24.0 / odin2thor**. [The active requirement/evidence register](roadmap/ACTIVE_GOAL_2026-10-22.md) preserves that complete objective. Iteration 14 supplies six layered wallpapers, three atmosphere components and seventeen static boot/charging/recovery/loading scenes. Iteration 15 adds 120 editable Android/Thor states across 24 journeys and an offline viewer with 263 sample transitions. Eighteen component masters are reused unchanged rather than counted as new assets. Its bounded checks include 1,339 live text boxes, cold/unavailable rules, graph targets and actual viewer JavaScript in a Node VM.
 

@@ -1,3 +1,5 @@
+[Gallery checkpoint26](iterations/26-gallery-workflows/README.md) adds53 layered treatments,1680 cold/neutral PNG configurations,25 editable workflow specimens and scoped native source bindings.47 content-backed decisions leave **9577 open families**. Nine actual Java classes and bounded resource/state/geometry checks pass; full Kotlin/Soong/Android/device checks and the wider goal remain incomplete.
+
 [Updater workflow checkpoint25](iterations/25-updater-workflows/README.md) adds eight layered drawings, actual screen/control/dialog source bindings, 43 editable desktop fixtures and 480 separate cold/mask exports. Six content-backed decisions leave **9,624 open families**. Full private-owner/SPA/Soong compilation and Android/device acceptance remain unrun; W04 and the full goal remain incomplete.
 
 [Updater card foundation 24](iterations/24-updater/README.md) adds actual phase-aware steel cards/actions/rails and 18 editable desktop fixtures. It reuses 112 separate native layer configurations; no new drawings or closed corpus decisions are claimed. The wider updater and full goal remain incomplete, with 9,630 open family decisions and four workflow groups requiring completion.
@@ -16,7 +18,7 @@
 
 Earlier project documentation follows and remains historical context.
 
-# Craftageddon Android 16 — Ember Steel
+# Craftageddon Android 16 â€” Ember Steel
 
 An iterative redesign of the Craftageddon Android interface for AYN Thor, based on the earlier dark forged steel and ember artwork.
 
@@ -26,21 +28,21 @@ The repository retains its Android 16 name and earlier checkpoints. The user sel
 
 | Checkpoint | Scope | State |
 |---|---|---|
-| [01 — Material pilot](iterations/01-material-pilot/) | 18 layered component specimens, cold bases, neutral emission masks, seven state previews | Desktop design checkpoint |
-| [02 — Light and legibility](iterations/02-light-and-legibility/) | Clearer emission, sharper sheets, state driver and rich cold hero button | Desktop + bounded Inkscape inspection |
-| [03 — Thor compositions](iterations/03-thor-compositions/) | Six editable screen compositions, rich charging socket, controller mapping template and native resource handoff | Desktop + resource compile checkpoint |
-| [04 — Core component system](iterations/04-core-components/) | 46 control variants; complete retained-file accounting and proposed source/family register | Desktop design and file validation |
-| [05 — System symbols](iterations/05-system-symbols/) | 136 named entries in compact/detailed treatments; 136 compiled Android vectors | Desktop design and resource compile checkpoint |
-| [06 — Rich material expansion](iterations/06-material-expansion/) | Original notification/tile cold masters, separate masks and two live-content screen concepts | Desktop material checkpoint |
-| [07 — Scalable steel frames](iterations/07-scalable-frames/) | Four frame families, 80 real nine-patch density layers and compile/link evidence | Desktop + Android resource checkpoint |
-| [08 — Native Material Lab 0.1.0](iterations/08-native-material-lab/) | Standalone signed APK, Java source, live-text/RTL/width/focus controls and clean rebuild evidence | Built and audited; not installed or device-verified |
-| [09 — Rich scalable controls](iterations/09-rich-scalable-controls/) | Notification/tile-style cold steel, fixed corners, seven separate light/state layers and selected/glowing previews | Layered export + resource compile/link checkpoint; APK unchanged |
-| [10 — Reference Forge](iterations/10-reference-forge/) | Three chipped-steel detailed icons, neutral light masks, cold-off state contract and four retained frame family comparisons | Three desktop passes + source/state checks; native/device validation pending |
-| [11 — Forge symbol library](iterations/11-forge-symbol-library/) | All 136 named symbols in two optical treatments and all nine large sculpted motifs | Full authored-symbol coverage; source/resource checks; device validation pending |
-| [12 — Forge controls and screens](iterations/12-forge-controls-and-screens/) | All 46 retained controls, 18 pilots, four new scalable families, eight layouts and live-label input examples | Authored-catalog restyle; 112 resource configurations; native/device validation pending |
-| [13 — Android flows and Thor panels](iterations/13-forge-android-and-thor-flows/) | 42 new editable screen concepts, 18 layered controls, cold/selected previews and searchable gallery | Desktop art checkpoint; sample capabilities; full state coverage and native/device work pending |
-| [14 — System atmosphere](iterations/14-forge-atmosphere/) | Six layered wallpapers, three atmosphere components and 17 boot/charging/recovery/loading scenes | Static artwork checkpoint; motion and broader visual/native completion remain open |
-| [15 — Journey states](iterations/15-forge-journey-states/) | 120 additional scenes, 24 journey families and 263 offline sample transitions; 18 unchanged masters reused | Desktop state/artwork checkpoint; motion, canonical/app coverage and native/device work pending |
+| [01 â€” Material pilot](iterations/01-material-pilot/) | 18 layered component specimens, cold bases, neutral emission masks, seven state previews | Desktop design checkpoint |
+| [02 â€” Light and legibility](iterations/02-light-and-legibility/) | Clearer emission, sharper sheets, state driver and rich cold hero button | Desktop + bounded Inkscape inspection |
+| [03 â€” Thor compositions](iterations/03-thor-compositions/) | Six editable screen compositions, rich charging socket, controller mapping template and native resource handoff | Desktop + resource compile checkpoint |
+| [04 â€” Core component system](iterations/04-core-components/) | 46 control variants; complete retained-file accounting and proposed source/family register | Desktop design and file validation |
+| [05 â€” System symbols](iterations/05-system-symbols/) | 136 named entries in compact/detailed treatments; 136 compiled Android vectors | Desktop design and resource compile checkpoint |
+| [06 â€” Rich material expansion](iterations/06-material-expansion/) | Original notification/tile cold masters, separate masks and two live-content screen concepts | Desktop material checkpoint |
+| [07 â€” Scalable steel frames](iterations/07-scalable-frames/) | Four frame families, 80 real nine-patch density layers and compile/link evidence | Desktop + Android resource checkpoint |
+| [08 â€” Native Material Lab 0.1.0](iterations/08-native-material-lab/) | Standalone signed APK, Java source, live-text/RTL/width/focus controls and clean rebuild evidence | Built and audited; not installed or device-verified |
+| [09 â€” Rich scalable controls](iterations/09-rich-scalable-controls/) | Notification/tile-style cold steel, fixed corners, seven separate light/state layers and selected/glowing previews | Layered export + resource compile/link checkpoint; APK unchanged |
+| [10 â€” Reference Forge](iterations/10-reference-forge/) | Three chipped-steel detailed icons, neutral light masks, cold-off state contract and four retained frame family comparisons | Three desktop passes + source/state checks; native/device validation pending |
+| [11 â€” Forge symbol library](iterations/11-forge-symbol-library/) | All 136 named symbols in two optical treatments and all nine large sculpted motifs | Full authored-symbol coverage; source/resource checks; device validation pending |
+| [12 â€” Forge controls and screens](iterations/12-forge-controls-and-screens/) | All 46 retained controls, 18 pilots, four new scalable families, eight layouts and live-label input examples | Authored-catalog restyle; 112 resource configurations; native/device validation pending |
+| [13 â€” Android flows and Thor panels](iterations/13-forge-android-and-thor-flows/) | 42 new editable screen concepts, 18 layered controls, cold/selected previews and searchable gallery | Desktop art checkpoint; sample capabilities; full state coverage and native/device work pending |
+| [14 â€” System atmosphere](iterations/14-forge-atmosphere/) | Six layered wallpapers, three atmosphere components and 17 boot/charging/recovery/loading scenes | Static artwork checkpoint; motion and broader visual/native completion remain open |
+| [15 â€” Journey states](iterations/15-forge-journey-states/) | 120 additional scenes, 24 journey families and 263 offline sample transitions; 18 unchanged masters reused | Desktop state/artwork checkpoint; motion, canonical/app coverage and native/device work pending |
 
 ![Material direction](art-direction/ember-steel-study.png)
 
@@ -80,7 +82,7 @@ The [October 21 progress register](roadmap/Design_Progress_2026-10-21.csv) retai
 
 Open any `masters/*.svg` in Inkscape. The named layers are `cold`, `seam`, `core`, and `symbol`. Seam/core layers are hidden in the master, white in the separate mask exports, and tinted only for state previews. Text in contact sheets is illustrative; production text stays live in Android. Both 1x and 2x PNG layers have real alpha.
 
-Every iteration preserves a full `complete-assets.zip` locally, including its declared source and exports. Iterations 01–10 also track that ZIP directly. The larger 11–15 archives are stored on GitHub as verified byte-for-byte parts in each `distribution/` folder; run its `Restore-Archive.ps1` after downloading the repository to restore the ZIP. Individual editable SVGs and preview sheets remain browsable. Checkpoints 14 onward also supply detached source-artifact signatures with the pinned public identity in the [signing policy](integration/SIGNING_POLICY.md). Extract the ZIP into an empty folder to use the full pack or audit checksums.
+Every iteration preserves a full `complete-assets.zip` locally, including its declared source and exports. Iterations 01â€“10 also track that ZIP directly. The larger 11â€“15 archives are stored on GitHub as verified byte-for-byte parts in each `distribution/` folder; run its `Restore-Archive.ps1` after downloading the repository to restore the ZIP. Individual editable SVGs and preview sheets remain browsable. Checkpoints 14 onward also supply detached source-artifact signatures with the pinned public identity in the [signing policy](integration/SIGNING_POLICY.md). Extract the ZIP into an empty folder to use the full pack or audit checksums.
 
 ```powershell
 python -m pip install -r requirements.txt

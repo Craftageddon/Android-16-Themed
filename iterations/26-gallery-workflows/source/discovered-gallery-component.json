@@ -1,0 +1,39 @@
+{
+  "module": "Glimpse",
+  "sourcePlatformPackage": "org.lineageos.glimpse",
+  "manifest": "upstream/packages/apps/Glimpse/app/src/main/AndroidManifest.xml",
+  "revision": "89b473594ec8ad01417624e670912450ce5df7e9",
+  "applicationIcon": "@mipmap/ic_launcher",
+  "sourceLabel": "@string/app_name",
+  "prior20BindingAbsent": true,
+  "earlierSemanticDonor": {
+    "assetId": "17/app-gallery",
+    "semanticId": "app-gallery",
+    "optical": "component",
+    "source": "iterations/17-forge-coverage/masters/app-gallery.svg",
+    "sha256": "720adbd20683aa3eb8c47478c921ee75518e57b46f00e210fcf3d689ccdf57c1",
+    "size": [
+      128.0,
+      128.0
+    ],
+    "layers": [
+      "cold",
+      "reflection",
+      "spill",
+      "seam",
+      "core",
+      "focus",
+      "symbol"
+    ],
+    "kind": "app-identity",
+    "emissionLockedOff": false,
+    "sourceRole": "Current unlabelled production master",
+    "copies": [],
+    "applicationIntegration": "NOT RUN",
+    "platformIntegration": "NOT RUN",
+    "deviceVerified": false
+  },
+  "newNativeIdentityMaster": "masters/cg_gl_app_gallery.svg",
+  "manifestEntryInvented": false,
+  "installedPackageFacts": "NOT RUN"
+}

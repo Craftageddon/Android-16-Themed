@@ -1,0 +1,692 @@
+{
+  "baselineCorpusExtended": false,
+  "resources": [
+    {
+      "path": "source/media3-ui/original-resources/res/drawable/exo_rounded_rectangle.xml",
+      "sha256": "379f379b275bf63dbb96b5386922dc82a2da18c7ad097d8495dd17550dc0dbbe",
+      "xmlRoot": "shape",
+      "resource": "exo_rounded_rectangle",
+      "qualifier": "drawable",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_edit_mode_logo.xml",
+      "sha256": "4b6b6766d6ddfc99e538f9ebf88eaa15b73a89e822d80e8b3f7bdea79bffcfde",
+      "xmlRoot": "vector",
+      "resource": "exo_edit_mode_logo",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+      "sha256": "4f91b3b36e339fb81c46ca098ce77414f6ceaf6ee2aa6753804a6b6832fa19b9",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_audiotrack",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_audiotrack",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_audiotrack",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_audiotrack"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_check.xml",
+      "sha256": "98c86b1e4f2a3c3dc9a6899d4b7888bccfe4e831dc3b44c6cbb44c903060b3de",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_check",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_check",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_check",
+        "mode": 1,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_check.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_check"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+      "sha256": "e99ea1867e61e31330848419b1ccf5f94cfdd0c81a73368396be34407f34c9dc",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_chevron_left",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_chevron_left",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_chevron_left",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_overflow_hide"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+      "sha256": "3db1e9b9a083a972a4eaa9fc94fb0986f91eb1cf12e17fd2f035b1869272bc03",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_chevron_right",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_chevron_right",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_chevron_right",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_overflow_show"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_default_album_image.xml",
+      "sha256": "c89269aa8ff97b91afb04ad3abec381cc3725334114559efb0fd030ca02156ee",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_default_album_image",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_forward.xml",
+      "sha256": "2b2ef130c9da8e517f844faa522e04677b4dfa2ff980d2db353b8b5375098f72",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_forward",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_forward",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_forward",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_forward.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_fastforward"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+      "sha256": "e8b0e7f1e9f987113af8da234beb39f5b49b55b694efe28bded5169688ff8fb1",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_fullscreen_enter",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_fullscreen_enter",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_fullscreen_enter",
+        "mode": 2,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_fullscreen_enter"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+      "sha256": "682923ba58428c63636bf3a23e30bf1a8a1e9b465aad773e74927b71791049e9",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_fullscreen_exit",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_fullscreen_exit",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_fullscreen_exit",
+        "mode": 1,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_fullscreen_exit"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+      "sha256": "ab26504472191b4658f51d57d89dda2ea7c36c42403af31be802c351054f14bb",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_pause_circle_filled",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_pause_circle_filled",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_pause_circle_filled",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_pause"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+      "sha256": "bb826d006a37764e565e12b000b6a2a8533ecf8cadf422043cdc8f49b52131dc",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_play_circle_filled",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_play_circle_filled",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_play_circle_filled",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_play"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_rewind.xml",
+      "sha256": "9609bb155607a0cfd0f18531eefec33a5f1e68806ef1343cc741f38362e8ad97",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_rewind",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_rewind",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_rewind",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_rewind.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_rewind"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_settings.xml",
+      "sha256": "9b64b9a7eed443b5e183613ab4812e979a5f47e63a14c979f2d172f9e13ce879",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_settings",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_settings",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_settings",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_settings.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_settings"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+      "sha256": "7a05bd66b77b0f50ae2cbf34e14edb90b5e68f1ccffd0b61d8e696747489d947",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_skip_next",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_skip_next",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_skip_next",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_next"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+      "sha256": "db7fee363c20483613fdb32385c60a3276d7189391d112d610d7d689a831e40f",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_skip_previous",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_skip_previous",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_skip_previous",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_previous"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_speed.xml",
+      "sha256": "1acc5feec8ddd950ddf213b9ed0eaa71f78360a99988455b2c25fd358f169452",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_speed",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_speed",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_speed",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_speed.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_speed"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+      "sha256": "c465905453aa19f2b34af9d323b1548de2b85e89e1729da03ff4c143ffe46bf8",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_subtitle_off",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_subtitle_off",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_subtitle_off",
+        "mode": 2,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_subtitle_off"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+      "sha256": "4b18246da6700ef722f0ce64cee316e4c25c187eb3e77d9f9ce706bc05209be4",
+      "xmlRoot": "vector",
+      "resource": "exo_ic_subtitle_on",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_ic_subtitle_on",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_ic_subtitle_on",
+        "mode": 1,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_subtitle_on"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+      "sha256": "cd3f6c4c03f5d63e77cd240025907ef13d31768b8147c7872642abe89ede1c7f",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_fastforward",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_icon_fastforward",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_icon_fastforward",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_simple_fastforward"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fullscreen_enter.xml",
+      "sha256": "388658ad43d5d8b465fe259aa150acd5a1222316918a13be269d4f0cd2910fce",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_fullscreen_enter",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fullscreen_exit.xml",
+      "sha256": "74c254c8128f42431162a941a433c179e37930a0739da26a37eafa162c7e15e9",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_fullscreen_exit",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_next.xml",
+      "sha256": "14ab85a15644a6dd83cb1e942e99be336f66e4cdf5fb54ea1c503759dc013f1a",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_next",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_pause.xml",
+      "sha256": "8c8a4ddd858ab2fb07ba9f6815d8809988f11d705d533434ba81aad645b90807",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_pause",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_play.xml",
+      "sha256": "57966d9c92678633a39f3dcc9274a7b87180ae44fda16a3e23cae7aa2bfd11be",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_play",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_previous.xml",
+      "sha256": "f6e6ba0e142cf8a611c1baafe488a2101c7722c3c5a553693d3c7e16eb06a4d1",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_previous",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+      "sha256": "33cfe04db3849afaa84a066d4f51d7dc55ade42394a58a6d7fe6fb47f2507cb1",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_repeat_all",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_icon_repeat_all",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_icon_repeat_all",
+        "mode": 1,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_repeat_all"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+      "sha256": "36320855fbb300cea55d9c4ea82b32595440e5f10bcedd826f148c24072209b5",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_repeat_off",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_icon_repeat_off",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_icon_repeat_off",
+        "mode": 2,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_repeat_off"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+      "sha256": "33ac407a93533508391e3a4df62fef8e96abfdbb1e7ac03393dce0cb9debb3c4",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_repeat_one",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_icon_repeat_one",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_icon_repeat_one",
+        "mode": 1,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_repeat_one"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+      "sha256": "4284259fb05b0ab3af0cc22d69b4e43aeb5708c7d33db7c2acdb47a0fe52a885",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_rewind",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_icon_rewind",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_icon_rewind",
+        "mode": 0,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_simple_rewind"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+      "sha256": "9628c7280fed8654f59872745296ec9784b4b92e70f3bf047f535af1ec06d640",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_shuffle_off",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_icon_shuffle_off",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_icon_shuffle_off",
+        "mode": 2,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_shuffle_off"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+      "sha256": "2b5b4a738dbea931973ffbe0269aac45eb042fd88e6204237dea633de60afc19",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_shuffle_on",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "SOURCE_GEOMETRY_TREATMENT_AUTHORED",
+      "binding": {
+        "resource": "exo_icon_shuffle_on",
+        "qualifier": "drawable-anydpi-v21",
+        "family": "cg_gl_icon_shuffle_on",
+        "mode": 1,
+        "autoMirrored": false,
+        "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+        "library": "media3-ui1.10.0",
+        "sourceAliases": [
+          "exo_styled_controls_shuffle_on"
+        ]
+      },
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_stop.xml",
+      "sha256": "1135800337a01dff7e11c3d906aa9fbd7600da92a867e7bc401f3edd311863a7",
+      "xmlRoot": "vector",
+      "resource": "exo_icon_stop",
+      "qualifier": "drawable-anydpi-v21",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/layout/exo_legacy_player_control_view.xml",
+      "sha256": "41b51e96667a1d596771fc40ca4d2f855fe8afd8365ffbbc0ced1d8a68dde565",
+      "xmlRoot": "LinearLayout",
+      "resource": "exo_legacy_player_control_view",
+      "qualifier": "layout",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/layout/exo_list_divider.xml",
+      "sha256": "9d46017b217aafe82f4c07edd4e95a297ac1f508e42fb27155e09247281da2eb",
+      "xmlRoot": "View",
+      "resource": "exo_list_divider",
+      "qualifier": "layout",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/layout/exo_player_control_view.xml",
+      "sha256": "aceaeeb1048e3023c169d02c75c95f2f742becbc75b79a8fc89358e15a7fbc9a",
+      "xmlRoot": "merge",
+      "resource": "exo_player_control_view",
+      "qualifier": "layout",
+      "disposition": "NATIVE_LAYOUT_ADAPTATION_AUTHORED",
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/layout/exo_player_view.xml",
+      "sha256": "b1cb54f16001e81864eee3be0cc8dd3f7e633755878519e331a52ce9f04ae832",
+      "xmlRoot": "merge",
+      "resource": "exo_player_view",
+      "qualifier": "layout",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/layout/exo_styled_settings_list.xml",
+      "sha256": "67850d4a50a3ec5f96528dda03984f1b3dac9ca26699661d16b44fd4ae63b461",
+      "xmlRoot": "androidx.recyclerview.widget.RecyclerView",
+      "resource": "exo_styled_settings_list",
+      "qualifier": "layout",
+      "disposition": "NATIVE_LAYOUT_ADAPTATION_AUTHORED",
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/layout/exo_styled_settings_list_item.xml",
+      "sha256": "1db44f5379612e8ae1ef0fc92e80409a228900dc21f26ddc99e4ec98f322edc7",
+      "xmlRoot": "LinearLayout",
+      "resource": "exo_styled_settings_list_item",
+      "qualifier": "layout",
+      "disposition": "NATIVE_LAYOUT_ADAPTATION_AUTHORED",
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/layout/exo_styled_sub_settings_list_item.xml",
+      "sha256": "1be2419d86a70ac763557efe8578836f6139b729973d84f7aa5b20175a7ee185",
+      "xmlRoot": "LinearLayout",
+      "resource": "exo_styled_sub_settings_list_item",
+      "qualifier": "layout",
+      "disposition": "NATIVE_LAYOUT_ADAPTATION_AUTHORED",
+      "nativeAcceptance": "NOT RUN"
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/layout/exo_track_selection_dialog.xml",
+      "sha256": "32eb1c09e284e1831396d4ed4012efe22e8f075514851f9de57e4fb89e3e1ba6",
+      "xmlRoot": "ScrollView",
+      "resource": "exo_track_selection_dialog",
+      "qualifier": "layout",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/layout-v23/exo_player_control_ffwd_button.xml",
+      "sha256": "10784d1f3883e67e2e15f531097d2d425e3463d6aaa8c06744cd8af5a9e6595d",
+      "xmlRoot": "merge",
+      "resource": "exo_player_control_ffwd_button",
+      "qualifier": "layout-v23",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    },
+    {
+      "path": "source/media3-ui/original-resources/res/layout-v23/exo_player_control_rewind_button.xml",
+      "sha256": "a547d8aa181b3e3ab02f49d5944bfdec307379db59bd6a529702ec3f8d596bb2",
+      "xmlRoot": "merge",
+      "resource": "exo_player_control_rewind_button",
+      "qualifier": "layout-v23",
+      "disposition": "PENDING_DEPENDENCY_CONSUMER_REVIEW",
+      "reason": "Exact dependency source retained. Requires positive default/call-site/consumer proof and scoped retain or new-art decision; no absence-based approval."
+    }
+  ],
+  "counts": {
+    "PENDING_DEPENDENCY_CONSUMER_REVIEW": 16,
+    "SOURCE_GEOMETRY_TREATMENT_AUTHORED": 23,
+    "NATIVE_LAYOUT_ADAPTATION_AUTHORED": 4
+  },
+  "knownSourceDefaults": [
+    {
+      "owner": "PlayerView.java",
+      "proof": "showBuffering = SHOW_BUFFERING_NEVER; defaultArtworkId = 0; errorMessageProvider nullable; isInEditMode() branch owns the IDE logo",
+      "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerView.java",
+      "sha256": "db13fd625fede21cc05a452660e34ca6acd752cb703d527388ce8411d47be0c3"
+    },
+    {
+      "owner": "PlayerControlView.java",
+      "proof": "showVrButton = false; setShowVrButton remains native. No global unreachability claim.",
+      "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerControlView.java",
+      "sha256": "cca4f29e0a6c85ffcbf60d439ca46b05a239fc607b575e3a983fda29bb4a9694"
+    }
+  ],
+  "remainingReviewIncludes": [
+    "Other dependency visuals and native default widgets",
+    "Media3 error/buffering/legacy/VR/notification artwork consumers",
+    "Remaining Material/AppCompat dependency visuals, effective resources and library-specific layouts"
+  ]
+}

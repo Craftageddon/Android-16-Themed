@@ -1,0 +1,7470 @@
+[
+  {
+    "id": "grid-albums",
+    "title": "Gallery / albums",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owners": [
+        "MainActivity.kt",
+        "ThumbnailAdapter.kt",
+        "fragment_main.xml",
+        "fragment_main(layout-sw600dp).xml"
+      ],
+      "sampleMode": "albums",
+      "sourceSelectionBlurPx": 15,
+      "photoContent": "Synthetic original landscape, source media loading/clip unchanged"
+    },
+    "englishSourceLabelKeys": [
+      "app_name",
+      "reels_title",
+      "albums_title",
+      "library_title"
+    ],
+    "texts": [
+      {
+        "text": "Gallery / albums",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Gallery",
+        "x": 40,
+        "y": 89,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Photos",
+        "x": 20.0,
+        "y": 332.33333333333337,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Favorites",
+        "x": 185.33333333333334,
+        "y": 332.33333333333337,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Videos",
+        "x": 350.6666666666667,
+        "y": 332.33333333333337,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Photos",
+        "x": 20.0,
+        "y": 519.6666666666667,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Favorites",
+        "x": 185.33333333333334,
+        "y": 519.6666666666667,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Videos",
+        "x": 350.6666666666667,
+        "y": 519.6666666666667,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Photos",
+        "x": 20.0,
+        "y": 707.0000000000001,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Favorites",
+        "x": 185.33333333333334,
+        "y": 707.0000000000001,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Videos",
+        "x": 350.6666666666667,
+        "y": 707.0000000000001,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Reels",
+        "x": 34.0,
+        "y": 786.0,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Albums",
+        "x": 194.0,
+        "y": 786.0,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Library",
+        "x": 354.0,
+        "y": 786.0,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 850,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 870,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_settings",
+        "bounds": [
+          460,
+          65,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16.0,
+          160.0,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          181.33333333333334,
+          160.0,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          346.6666666666667,
+          160.0,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16.0,
+          347.33333333333337,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          181.33333333333334,
+          347.33333333333337,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          346.6666666666667,
+          347.33333333333337,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16.0,
+          534.6666666666667,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          181.33333333333334,
+          534.6666666666667,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          346.6666666666667,
+          534.6666666666667,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          722.0,
+          480,
+          90
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_photo_size_select_actual",
+        "bounds": [
+          80.0,
+          734.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_albums",
+        "bounds": [
+          240.0,
+          734.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_library",
+        "bounds": [
+          400.0,
+          734.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/grid-albums.svg",
+    "preview": "workflow-previews/grid-albums.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "grid-selection",
+    "title": "Gallery / selection",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owners": [
+        "MainActivity.kt",
+        "ThumbnailAdapter.kt",
+        "fragment_main.xml",
+        "fragment_main(layout-sw600dp).xml"
+      ],
+      "sampleMode": "selection",
+      "sourceSelectionBlurPx": 15,
+      "photoContent": "Synthetic original landscape, source media loading/clip unchanged"
+    },
+    "englishSourceLabelKeys": [
+      "app_name",
+      "reels_title",
+      "albums_title",
+      "library_title"
+    ],
+    "texts": [
+      {
+        "text": "Gallery / selection",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Gallery",
+        "x": 40,
+        "y": 89,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 1",
+        "x": 20.0,
+        "y": 332.33333333333337,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 2",
+        "x": 185.33333333333334,
+        "y": 332.33333333333337,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 3",
+        "x": 350.6666666666667,
+        "y": 332.33333333333337,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 4",
+        "x": 20.0,
+        "y": 519.6666666666667,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 5",
+        "x": 185.33333333333334,
+        "y": 519.6666666666667,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 6",
+        "x": 350.6666666666667,
+        "y": 519.6666666666667,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 7",
+        "x": 20.0,
+        "y": 707.0000000000001,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 8",
+        "x": 185.33333333333334,
+        "y": 707.0000000000001,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 9",
+        "x": 350.6666666666667,
+        "y": 707.0000000000001,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "2 selected",
+        "x": 16,
+        "y": 744.0,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Reels",
+        "x": 34.0,
+        "y": 831.0,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Albums",
+        "x": 194.0,
+        "y": 831.0,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Library",
+        "x": 354.0,
+        "y": 831.0,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 895,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 915,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_settings",
+        "bounds": [
+          460,
+          65,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_check_circle",
+        "bounds": [
+          24.0,
+          168.0,
+          28,
+          28
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16.0,
+          160.0,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_check_circle_outline",
+        "bounds": [
+          189.33333333333334,
+          168.0,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          181.33333333333334,
+          160.0,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_check_circle_outline",
+        "bounds": [
+          354.6666666666667,
+          168.0,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          346.6666666666667,
+          160.0,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_check_circle_outline",
+        "bounds": [
+          24.0,
+          355.33333333333337,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16.0,
+          347.33333333333337,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_check_circle",
+        "bounds": [
+          189.33333333333334,
+          355.33333333333337,
+          28,
+          28
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          181.33333333333334,
+          347.33333333333337,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_check_circle_outline",
+        "bounds": [
+          354.6666666666667,
+          355.33333333333337,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          346.6666666666667,
+          347.33333333333337,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_check_circle_outline",
+        "bounds": [
+          24.0,
+          542.6666666666667,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16.0,
+          534.6666666666667,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_check_circle_outline",
+        "bounds": [
+          189.33333333333334,
+          542.6666666666667,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          181.33333333333334,
+          534.6666666666667,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_check_circle_outline",
+        "bounds": [
+          354.6666666666667,
+          542.6666666666667,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          346.6666666666667,
+          534.6666666666667,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          767.0,
+          480,
+          90
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_photo_size_select_actual",
+        "bounds": [
+          80.0,
+          779.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_albums",
+        "bounds": [
+          240.0,
+          779.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_library",
+        "bounds": [
+          400.0,
+          779.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/grid-selection.svg",
+    "preview": "workflow-previews/grid-selection.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "grid-empty",
+    "title": "Gallery / empty",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owners": [
+        "MainActivity.kt",
+        "ThumbnailAdapter.kt",
+        "fragment_main.xml",
+        "fragment_main(layout-sw600dp).xml"
+      ],
+      "sampleMode": "empty",
+      "sourceSelectionBlurPx": 15,
+      "photoContent": "Synthetic original landscape, source media loading/clip unchanged"
+    },
+    "englishSourceLabelKeys": [
+      "app_name",
+      "no_media",
+      "reels_title",
+      "albums_title",
+      "library_title"
+    ],
+    "texts": [
+      {
+        "text": "Gallery / empty",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Gallery",
+        "x": 40,
+        "y": 89,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "No media",
+        "x": 160.0,
+        "y": 320,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Reels",
+        "x": 34.0,
+        "y": 491,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Albums",
+        "x": 194.0,
+        "y": 491,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Library",
+        "x": 354.0,
+        "y": 491,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 555,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 575,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_settings",
+        "bounds": [
+          460,
+          65,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_no_photography",
+        "bounds": [
+          220.0,
+          210,
+          72,
+          72
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          427,
+          480,
+          90
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_photo_size_select_actual",
+        "bounds": [
+          80.0,
+          439,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_albums",
+        "bounds": [
+          240.0,
+          439,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_library",
+        "bounds": [
+          400.0,
+          439,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/grid-empty.svg",
+    "preview": "workflow-previews/grid-empty.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "grid-trash",
+    "title": "Gallery / trash",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owners": [
+        "MainActivity.kt",
+        "ThumbnailAdapter.kt",
+        "fragment_main.xml",
+        "fragment_main(layout-sw600dp).xml"
+      ],
+      "sampleMode": "trash",
+      "sourceSelectionBlurPx": 15,
+      "photoContent": "Synthetic original landscape, source media loading/clip unchanged"
+    },
+    "englishSourceLabelKeys": [
+      "app_name",
+      "warning_bin_time_period",
+      "reels_title",
+      "albums_title",
+      "library_title"
+    ],
+    "texts": [
+      {
+        "text": "Gallery / trash",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Gallery",
+        "x": 40,
+        "y": 89,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 1",
+        "x": 20.0,
+        "y": 332.33333333333337,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 2",
+        "x": 185.33333333333334,
+        "y": 332.33333333333337,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 3",
+        "x": 350.6666666666667,
+        "y": 332.33333333333337,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 4",
+        "x": 20.0,
+        "y": 519.6666666666667,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 5",
+        "x": 185.33333333333334,
+        "y": 519.6666666666667,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 6",
+        "x": 350.6666666666667,
+        "y": 519.6666666666667,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 7",
+        "x": 20.0,
+        "y": 707.0000000000001,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 8",
+        "x": 185.33333333333334,
+        "y": 707.0000000000001,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample 9",
+        "x": 350.6666666666667,
+        "y": 707.0000000000001,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Files will be permanently deleted after 30 days.",
+        "x": 16,
+        "y": 748.0,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Reels",
+        "x": 34.0,
+        "y": 837.0,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Albums",
+        "x": 194.0,
+        "y": 837.0,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Library",
+        "x": 354.0,
+        "y": 837.0,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 901,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 921,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_settings",
+        "bounds": [
+          460,
+          65,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16.0,
+          160.0,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          181.33333333333334,
+          160.0,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          346.6666666666667,
+          160.0,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16.0,
+          347.33333333333337,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          181.33333333333334,
+          347.33333333333337,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          346.6666666666667,
+          347.33333333333337,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16.0,
+          534.6666666666667,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          181.33333333333334,
+          534.6666666666667,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          346.6666666666667,
+          534.6666666666667,
+          149.33333333333334,
+          149.33333333333334
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          773.0,
+          480,
+          90
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_photo_size_select_actual",
+        "bounds": [
+          80.0,
+          785.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_albums",
+        "bounds": [
+          240.0,
+          785.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_library",
+        "bounds": [
+          400.0,
+          785.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/grid-trash.svg",
+    "preview": "workflow-previews/grid-trash.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "grid-wide",
+    "title": "Gallery / albums",
+    "logicalWidth": 960,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owners": [
+        "MainActivity.kt",
+        "ThumbnailAdapter.kt",
+        "fragment_main.xml",
+        "fragment_main(layout-sw600dp).xml"
+      ],
+      "sampleMode": "albums",
+      "sourceSelectionBlurPx": 15,
+      "photoContent": "Synthetic original landscape, source media loading/clip unchanged"
+    },
+    "englishSourceLabelKeys": [
+      "app_name",
+      "reels_title",
+      "albums_title",
+      "library_title"
+    ],
+    "texts": [
+      {
+        "text": "Gallery / albums",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Gallery",
+        "x": 40,
+        "y": 89,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Photos",
+        "x": 140.0,
+        "y": 381.0,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Favorites",
+        "x": 354.0,
+        "y": 381.0,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Videos",
+        "x": 568.0,
+        "y": 381.0,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Photos",
+        "x": 782.0,
+        "y": 381.0,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Favorites",
+        "x": 140.0,
+        "y": 617.0,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Videos",
+        "x": 354.0,
+        "y": 617.0,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Photos",
+        "x": 568.0,
+        "y": 617.0,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Favorites",
+        "x": 782.0,
+        "y": 617.0,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Reels",
+        "x": 30,
+        "y": 151,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Albums",
+        "x": 30,
+        "y": 251,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Library",
+        "x": 30,
+        "y": 351,
+        "size": 13,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 670,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 690,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          960,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_settings",
+        "bounds": [
+          940,
+          65,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          136.0,
+          160.0,
+          198.0,
+          198.0
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          350.0,
+          160.0,
+          198.0,
+          198.0
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          564.0,
+          160.0,
+          198.0,
+          198.0
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          778.0,
+          160.0,
+          198.0,
+          198.0
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          136.0,
+          396.0,
+          198.0,
+          198.0
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          350.0,
+          396.0,
+          198.0,
+          198.0
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          564.0,
+          396.0,
+          198.0,
+          198.0
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          778.0,
+          396.0,
+          198.0,
+          198.0
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_rail",
+        "bounds": [
+          16,
+          48,
+          108,
+          584.0
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_photo_size_select_actual",
+        "bounds": [
+          54,
+          100,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_albums",
+        "bounds": [
+          54,
+          200,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_library",
+        "bounds": [
+          54,
+          300,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/grid-wide.svg",
+    "preview": "workflow-previews/grid-wide.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "viewer-cold",
+    "title": "Viewer / cold",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "ViewActivity.kt",
+      "sampleMode": "cold",
+      "favoriteSource": "displayedMedia.isFavorite",
+      "motionSource": "motionPhoto != null",
+      "readOnlySecureFiltering": "Original source actions and conditions retained"
+    },
+    "englishSourceLabelKeys": [
+      "file_action_add_to_favorites",
+      "file_action_share",
+      "file_action_edit",
+      "file_action_move_to_trash"
+    ],
+    "texts": [
+      {
+        "text": "Viewer / cold",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "sample-landscape.jpg",
+        "x": 82,
+        "y": 85,
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "text": "...",
+        "x": 462,
+        "y": 87,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Add to favorites",
+        "x": 40,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Share",
+        "x": 188,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Edit",
+        "x": 336,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Move to trash",
+        "x": 40,
+        "y": 637,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 748,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 768,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_back",
+        "bounds": [
+          34,
+          63,
+          30,
+          30
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          464,
+          480,
+          246
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_star_border",
+        "bounds": [
+          82.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          176,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_share",
+        "bounds": [
+          230.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          324,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_edit",
+        "bounds": [
+          378.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          575,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_delete",
+        "bounds": [
+          82.0,
+          587,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/viewer-cold.svg",
+    "preview": "workflow-previews/viewer-cold.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "viewer-favorite",
+    "title": "Viewer / favorite",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "ViewActivity.kt",
+      "sampleMode": "favorite",
+      "favoriteSource": "displayedMedia.isFavorite",
+      "motionSource": "motionPhoto != null",
+      "readOnlySecureFiltering": "Original source actions and conditions retained"
+    },
+    "englishSourceLabelKeys": [
+      "file_action_remove_from_favorites",
+      "file_action_share",
+      "file_action_edit",
+      "file_action_move_to_trash"
+    ],
+    "texts": [
+      {
+        "text": "Viewer / favorite",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "sample-landscape.jpg",
+        "x": 82,
+        "y": 85,
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "text": "...",
+        "x": 462,
+        "y": 87,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Remove from",
+        "x": 40,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "favorites",
+        "x": 40,
+        "y": 557,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Share",
+        "x": 188,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Edit",
+        "x": 336,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Move to trash",
+        "x": 40,
+        "y": 656,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 748,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 768,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_back",
+        "bounds": [
+          34,
+          63,
+          30,
+          30
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          464,
+          480,
+          246
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          476,
+          136,
+          98
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_star",
+        "bounds": [
+          82.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          176,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_share",
+        "bounds": [
+          230.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          324,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_edit",
+        "bounds": [
+          378.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          594,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_delete",
+        "bounds": [
+          82.0,
+          606,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/viewer-favorite.svg",
+    "preview": "workflow-previews/viewer-favorite.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "viewer-motion",
+    "title": "Viewer / motion",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "ViewActivity.kt",
+      "sampleMode": "motion",
+      "favoriteSource": "displayedMedia.isFavorite",
+      "motionSource": "motionPhoto != null",
+      "readOnlySecureFiltering": "Original source actions and conditions retained"
+    },
+    "englishSourceLabelKeys": [
+      "file_action_add_to_favorites",
+      "file_action_share",
+      "motion_photo_show_photo",
+      "file_action_edit",
+      "file_action_move_to_trash"
+    ],
+    "texts": [
+      {
+        "text": "Viewer / motion",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "sample-landscape.jpg",
+        "x": 82,
+        "y": 85,
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "text": "...",
+        "x": 462,
+        "y": 87,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Add to favorites",
+        "x": 40,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Share",
+        "x": 188,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Show photo",
+        "x": 336,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Edit",
+        "x": 40,
+        "y": 637,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Move to trash",
+        "x": 188,
+        "y": 637,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 748,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 768,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_back",
+        "bounds": [
+          34,
+          63,
+          30,
+          30
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          464,
+          480,
+          246
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_star_border",
+        "bounds": [
+          82.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          176,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_share",
+        "bounds": [
+          230.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          324,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_motion_play",
+        "bounds": [
+          378.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          575,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_edit",
+        "bounds": [
+          82.0,
+          587,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          176,
+          575,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_delete",
+        "bounds": [
+          230.0,
+          587,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/viewer-motion.svg",
+    "preview": "workflow-previews/viewer-motion.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "viewer-readonly",
+    "title": "Viewer / readonly",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "ViewActivity.kt",
+      "sampleMode": "readonly",
+      "favoriteSource": "displayedMedia.isFavorite",
+      "motionSource": "motionPhoto != null",
+      "readOnlySecureFiltering": "Original source actions and conditions retained"
+    },
+    "englishSourceLabelKeys": [
+      "file_action_share"
+    ],
+    "texts": [
+      {
+        "text": "Viewer / readonly",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "sample-landscape.jpg",
+        "x": 82,
+        "y": 85,
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "text": "...",
+        "x": 462,
+        "y": 87,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Share",
+        "x": 40,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 748,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 768,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_back",
+        "bounds": [
+          34,
+          63,
+          30,
+          30
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          464,
+          480,
+          246
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_share",
+        "bounds": [
+          82.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/viewer-readonly.svg",
+    "preview": "workflow-previews/viewer-readonly.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "viewer-secure",
+    "title": "Viewer / secure",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "ViewActivity.kt",
+      "sampleMode": "secure",
+      "favoriteSource": "displayedMedia.isFavorite",
+      "motionSource": "motionPhoto != null",
+      "readOnlySecureFiltering": "Original source actions and conditions retained"
+    },
+    "englishSourceLabelKeys": [
+      "file_action_add_to_favorites",
+      "file_action_share",
+      "file_action_edit",
+      "file_action_move_to_trash"
+    ],
+    "texts": [
+      {
+        "text": "Viewer / secure",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "sample-landscape.jpg",
+        "x": 82,
+        "y": 85,
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "text": "...",
+        "x": 462,
+        "y": 87,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Add to favorites",
+        "x": 40,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Share",
+        "x": 188,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Edit",
+        "x": 336,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Move to trash",
+        "x": 40,
+        "y": 637,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 748,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 768,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_back",
+        "bounds": [
+          34,
+          63,
+          30,
+          30
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          464,
+          480,
+          246
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_star_border",
+        "bounds": [
+          82.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          176,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_share",
+        "bounds": [
+          230.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          324,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_edit",
+        "bounds": [
+          378.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          575,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_delete",
+        "bounds": [
+          82.0,
+          587,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/viewer-secure.svg",
+    "preview": "workflow-previews/viewer-secure.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "viewer-trash",
+    "title": "Viewer / trash",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "ViewActivity.kt",
+      "sampleMode": "trash",
+      "favoriteSource": "displayedMedia.isFavorite",
+      "motionSource": "motionPhoto != null",
+      "readOnlySecureFiltering": "Original source actions and conditions retained"
+    },
+    "englishSourceLabelKeys": [
+      "file_action_add_to_favorites",
+      "file_action_share",
+      "file_action_edit",
+      "file_action_restore_from_trash"
+    ],
+    "texts": [
+      {
+        "text": "Viewer / trash",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "sample-landscape.jpg",
+        "x": 82,
+        "y": 85,
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "text": "...",
+        "x": 462,
+        "y": 87,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Add to favorites",
+        "x": 40,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Share",
+        "x": 188,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Edit",
+        "x": 336,
+        "y": 538,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Restore from",
+        "x": 40,
+        "y": 637,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "trash",
+        "x": 40,
+        "y": 656,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 748,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 768,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          96
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_back",
+        "bounds": [
+          34,
+          63,
+          30,
+          30
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          464,
+          480,
+          246
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_star_border",
+        "bounds": [
+          82.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          176,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_share",
+        "bounds": [
+          230.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          324,
+          476,
+          136,
+          79
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_edit",
+        "bounds": [
+          378.0,
+          488,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          28,
+          575,
+          136,
+          98
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_restore_from_trash",
+        "bounds": [
+          82.0,
+          587,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/viewer-trash.svg",
+    "preview": "workflow-previews/viewer-trash.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "viewer-fullscreen",
+    "title": "Viewer / fullscreen",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "ViewActivity.kt",
+      "sourceFullscreenBarsHidden": true,
+      "mediaContent": "Synthetic only"
+    },
+    "englishSourceLabelKeys": [],
+    "texts": [
+      {
+        "text": "Viewer / fullscreen",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 486,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 506,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [],
+    "svg": "workflow-previews/viewer-fullscreen.svg",
+    "preview": "workflow-previews/viewer-fullscreen.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "video-playing",
+    "title": "Video / playing",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "MediaViewerAdapter.kt",
+      "sourceState": "LocalPlayerViewModel.isPlaying / ExoPlayer.isPlayingFlow",
+      "isPlayingSample": true,
+      "media3Controller": "Native PlayerControlView, DefaultTimeBar callbacks retained",
+      "seekingEnabledSample": true,
+      "bufferingIndicator": "Native dependency/default progress drawable; further visual review pending"
+    },
+    "englishSourceLabelKeys": [],
+    "texts": [
+      {
+        "text": "Video / playing",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "0:25 / 2:30",
+        "x": 36,
+        "y": 447,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample playback state: playing",
+        "x": 36,
+        "y": 580,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 638,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 658,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16,
+          408,
+          480,
+          60
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_pause_circle_filled",
+        "bounds": [
+          226,
+          235,
+          56,
+          56
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_rewind",
+        "bounds": [
+          66,
+          247,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_icon_fastforward",
+        "bounds": [
+          394,
+          247,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_settings",
+        "bounds": [
+          432,
+          425,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_rail",
+        "bounds": [
+          32,
+          386,
+          448,
+          12
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_seek_thumb",
+        "bounds": [
+          94,
+          376,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/video-playing.svg",
+    "preview": "workflow-previews/video-playing.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "video-paused",
+    "title": "Video / paused",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "MediaViewerAdapter.kt",
+      "sourceState": "LocalPlayerViewModel.isPlaying / ExoPlayer.isPlayingFlow",
+      "isPlayingSample": false,
+      "media3Controller": "Native PlayerControlView, DefaultTimeBar callbacks retained",
+      "seekingEnabledSample": true,
+      "bufferingIndicator": "Native dependency/default progress drawable; further visual review pending"
+    },
+    "englishSourceLabelKeys": [],
+    "texts": [
+      {
+        "text": "Video / paused",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "0:25 / 2:30",
+        "x": 36,
+        "y": 447,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample playback state: paused",
+        "x": 36,
+        "y": 580,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 638,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 658,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16,
+          408,
+          480,
+          60
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_play_circle_filled",
+        "bounds": [
+          226,
+          235,
+          56,
+          56
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_rewind",
+        "bounds": [
+          66,
+          247,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_icon_fastforward",
+        "bounds": [
+          394,
+          247,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_settings",
+        "bounds": [
+          432,
+          425,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_rail",
+        "bounds": [
+          32,
+          386,
+          448,
+          12
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_seek_thumb",
+        "bounds": [
+          94,
+          376,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/video-paused.svg",
+    "preview": "workflow-previews/video-paused.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "video-buffering",
+    "title": "Video / buffering",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "MediaViewerAdapter.kt",
+      "sourceState": "LocalPlayerViewModel.isPlaying / ExoPlayer.isPlayingFlow",
+      "isPlayingSample": false,
+      "media3Controller": "Native PlayerControlView, DefaultTimeBar callbacks retained",
+      "seekingEnabledSample": true,
+      "bufferingIndicator": "Native dependency/default progress drawable; further visual review pending"
+    },
+    "englishSourceLabelKeys": [],
+    "texts": [
+      {
+        "text": "Video / buffering",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "0:25 / 2:30",
+        "x": 36,
+        "y": 447,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample playback state: buffering",
+        "x": 36,
+        "y": 580,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 638,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 658,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16,
+          408,
+          480,
+          60
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_pause_circle_filled",
+        "bounds": [
+          226,
+          235,
+          56,
+          56
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_rewind",
+        "bounds": [
+          66,
+          247,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_icon_fastforward",
+        "bounds": [
+          394,
+          247,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_settings",
+        "bounds": [
+          432,
+          425,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_rail",
+        "bounds": [
+          32,
+          386,
+          448,
+          12
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_seek_thumb",
+        "bounds": [
+          94,
+          376,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/video-buffering.svg",
+    "preview": "workflow-previews/video-buffering.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "video-unseekable",
+    "title": "Video / unseekable",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "MediaViewerAdapter.kt",
+      "sourceState": "LocalPlayerViewModel.isPlaying / ExoPlayer.isPlayingFlow",
+      "isPlayingSample": false,
+      "media3Controller": "Native PlayerControlView, DefaultTimeBar callbacks retained",
+      "seekingEnabledSample": false,
+      "bufferingIndicator": "Native dependency/default progress drawable; further visual review pending"
+    },
+    "englishSourceLabelKeys": [],
+    "texts": [
+      {
+        "text": "Video / unseekable",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "0:25 / 2:30",
+        "x": 36,
+        "y": 447,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample playback state: unseekable",
+        "x": 36,
+        "y": 580,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 638,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 658,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_media_frame",
+        "bounds": [
+          16,
+          408,
+          480,
+          60
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_play_circle_filled",
+        "bounds": [
+          226,
+          235,
+          56,
+          56
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_rewind",
+        "bounds": [
+          66,
+          247,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_icon_fastforward",
+        "bounds": [
+          394,
+          247,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_ic_settings",
+        "bounds": [
+          432,
+          425,
+          28,
+          28
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_rail",
+        "bounds": [
+          32,
+          386,
+          448,
+          12
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_seek_thumb",
+        "bounds": [
+          94,
+          376,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": false,
+        "policyState": "off-locked",
+        "actualHostPolicyGains": [
+          0.42,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/video-unseekable.svg",
+    "preview": "workflow-previews/video-unseekable.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "settings-off",
+    "title": "Gallery settings / off",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owners": [
+        "root_preferences.xml",
+        "ForgeSwitchPreference",
+        "ForgeSeekBarPreference"
+      ],
+      "actualKeys": "All original defaults, dependency key, min5/max30/increment5 retained",
+      "featureValueSample": false,
+      "fontScaleApproximation": 1,
+      "scrollContentShownInFull": true
+    },
+    "englishSourceLabelKeys": [
+      "title_activity_settings",
+      "edge_tap_navigation_enable_title",
+      "edge_tap_navigation_enabled_description",
+      "double_tap_to_seek_enabled_title",
+      "double_tap_to_seek_enabled_description",
+      "double_tap_to_seek_seconds_title",
+      "hide_native_seek_buttons_title",
+      "hide_native_seek_buttons_description",
+      "remember_video_playback_position_enabled_title",
+      "remember_video_playback_position_enabled_description"
+    ],
+    "texts": [
+      {
+        "text": "Gallery settings / off",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Settings",
+        "x": 36,
+        "y": 84,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Edge tap navigation",
+        "x": 40,
+        "y": 147,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Tap left or right edge of screen to navigate between",
+        "x": 40,
+        "y": 173,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "media",
+        "x": 40,
+        "y": 192,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Enable double-tap to seek",
+        "x": 40,
+        "y": 269,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Double-tap the left or right side of the video to skip",
+        "x": 40,
+        "y": 295,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "backward or forward",
+        "x": 40,
+        "y": 314,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Double-tap to seek skip duration",
+        "x": 40,
+        "y": 391,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "10",
+        "x": 420,
+        "y": 435,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Hide native seek buttons",
+        "x": 40,
+        "y": 547,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Hide rewind and fast-forward buttons from the",
+        "x": 40,
+        "y": 573,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "video player controls",
+        "x": 40,
+        "y": 592,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Remember playback position",
+        "x": 40,
+        "y": 669,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Resume videos from the last stopped position",
+        "x": 40,
+        "y": 695,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 795,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 815,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          113,
+          480,
+          116
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          155.0,
+          52,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          404,
+          155.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          235,
+          480,
+          116
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          277.0,
+          52,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          404,
+          277.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          357,
+          480,
+          150
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": false,
+        "policyState": "off-locked",
+        "actualHostPolicyGains": [
+          0.42,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_rail",
+        "bounds": [
+          44,
+          422,
+          340,
+          12
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": false,
+        "policyState": "off-locked",
+        "actualHostPolicyGains": [
+          0.42,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_seek_thumb",
+        "bounds": [
+          96,
+          412,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": false,
+        "policyState": "off-locked",
+        "actualHostPolicyGains": [
+          0.42,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          513,
+          480,
+          116
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          555.0,
+          52,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          404,
+          555.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          635,
+          480,
+          116
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          677.0,
+          52,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          404,
+          677.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/settings-off.svg",
+    "preview": "workflow-previews/settings-off.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "settings-on",
+    "title": "Gallery settings / on",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owners": [
+        "root_preferences.xml",
+        "ForgeSwitchPreference",
+        "ForgeSeekBarPreference"
+      ],
+      "actualKeys": "All original defaults, dependency key, min5/max30/increment5 retained",
+      "featureValueSample": true,
+      "fontScaleApproximation": 1,
+      "scrollContentShownInFull": true
+    },
+    "englishSourceLabelKeys": [
+      "title_activity_settings",
+      "edge_tap_navigation_enable_title",
+      "edge_tap_navigation_enabled_description",
+      "double_tap_to_seek_enabled_title",
+      "double_tap_to_seek_enabled_description",
+      "double_tap_to_seek_seconds_title",
+      "hide_native_seek_buttons_title",
+      "hide_native_seek_buttons_description",
+      "remember_video_playback_position_enabled_title",
+      "remember_video_playback_position_enabled_description"
+    ],
+    "texts": [
+      {
+        "text": "Gallery settings / on",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Settings",
+        "x": 36,
+        "y": 84,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Edge tap navigation",
+        "x": 40,
+        "y": 147,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Tap left or right edge of screen to navigate between",
+        "x": 40,
+        "y": 173,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "media",
+        "x": 40,
+        "y": 192,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Enable double-tap to seek",
+        "x": 40,
+        "y": 269,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Double-tap the left or right side of the video to skip",
+        "x": 40,
+        "y": 295,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "backward or forward",
+        "x": 40,
+        "y": 314,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Double-tap to seek skip duration",
+        "x": 40,
+        "y": 391,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "10",
+        "x": 420,
+        "y": 435,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Hide native seek buttons",
+        "x": 40,
+        "y": 547,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Hide rewind and fast-forward buttons from the",
+        "x": 40,
+        "y": 573,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "video player controls",
+        "x": 40,
+        "y": 592,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Remember playback position",
+        "x": 40,
+        "y": 669,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Resume videos from the last stopped position",
+        "x": 40,
+        "y": 695,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 795,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 815,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          113,
+          480,
+          116
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          155.0,
+          52,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          424,
+          155.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          235,
+          480,
+          116
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          277.0,
+          52,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          424,
+          277.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          357,
+          480,
+          150
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_rail",
+        "bounds": [
+          44,
+          422,
+          340,
+          12
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_seek_thumb",
+        "bounds": [
+          96,
+          412,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          513,
+          480,
+          116
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          555.0,
+          52,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          424,
+          555.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          635,
+          480,
+          116
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          677.0,
+          52,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          424,
+          677.0,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/settings-on.svg",
+    "preview": "workflow-previews/settings-on.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "settings-large",
+    "title": "Gallery settings / on",
+    "logicalWidth": 480,
+    "fontScaleSample": 1.5,
+    "sourceMapping": {
+      "owners": [
+        "root_preferences.xml",
+        "ForgeSwitchPreference",
+        "ForgeSeekBarPreference"
+      ],
+      "actualKeys": "All original defaults, dependency key, min5/max30/increment5 retained",
+      "featureValueSample": true,
+      "fontScaleApproximation": 1.5,
+      "scrollContentShownInFull": true
+    },
+    "englishSourceLabelKeys": [
+      "title_activity_settings",
+      "edge_tap_navigation_enable_title",
+      "edge_tap_navigation_enabled_description",
+      "double_tap_to_seek_enabled_title",
+      "double_tap_to_seek_enabled_description",
+      "double_tap_to_seek_seconds_title",
+      "hide_native_seek_buttons_title",
+      "hide_native_seek_buttons_description",
+      "remember_video_playback_position_enabled_title",
+      "remember_video_playback_position_enabled_description"
+    ],
+    "texts": [
+      {
+        "text": "Gallery settings / on",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Settings",
+        "x": 36,
+        "y": 96,
+        "size": 36,
+        "anchor": "start"
+      },
+      {
+        "text": "Edge tap navigation",
+        "x": 40,
+        "y": 171,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Tap left or right edge of screen to",
+        "x": 40,
+        "y": 207,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "navigate between media",
+        "x": 40,
+        "y": 236,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "Enable double-tap to seek",
+        "x": 40,
+        "y": 310.1,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Double-tap the left or right side of",
+        "x": 40,
+        "y": 346.1,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "the video to skip backward or",
+        "x": 40,
+        "y": 375.1,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "forward",
+        "x": 40,
+        "y": 404.1,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "Double-tap to seek skip duration",
+        "x": 40,
+        "y": 477.55000000000007,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "10",
+        "x": 420,
+        "y": 524.5500000000001,
+        "size": 18,
+        "anchor": "start"
+      },
+      {
+        "text": "Hide native seek buttons",
+        "x": 40,
+        "y": 633.5500000000001,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Hide rewind and fast-forward",
+        "x": 40,
+        "y": 669.5500000000001,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "buttons from the video player",
+        "x": 40,
+        "y": 698.5500000000001,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "controls",
+        "x": 40,
+        "y": 727.5500000000001,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "Remember playback position",
+        "x": 40,
+        "y": 801.0000000000001,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Resume videos from the last",
+        "x": 40,
+        "y": 837.0000000000001,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "stopped position",
+        "x": 40,
+        "y": 866.0000000000001,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 937,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 957,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          129,
+          480,
+          133.10000000000002
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          179.55,
+          52,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          424,
+          179.55,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          268.1,
+          480,
+          161.45000000000002
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          332.82500000000005,
+          52,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          424,
+          332.82500000000005,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          435.55000000000007,
+          480,
+          150
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_rail",
+        "bounds": [
+          44,
+          511.55000000000007,
+          340,
+          12
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_seek_thumb",
+        "bounds": [
+          96,
+          501.55000000000007,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          591.5500000000001,
+          480,
+          161.45000000000002
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          656.2750000000001,
+          52,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          424,
+          656.2750000000001,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          759.0000000000001,
+          480,
+          133.10000000000002
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_track",
+        "bounds": [
+          404,
+          809.5500000000002,
+          52,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "family": "cg_gl_switch_thumb",
+        "bounds": [
+          424,
+          809.5500000000002,
+          32,
+          32
+        ],
+        "actualFeatureSample": true,
+        "enabledSample": true,
+        "policyState": "on",
+        "actualHostPolicyGains": [
+          1.0,
+          0.32,
+          0.72,
+          1.0,
+          0.82,
+          0.0,
+          1.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/settings-large.svg",
+    "preview": "workflow-previews/settings-large.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "details-unknown",
+    "title": "Media information / unknown",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "MediaInfoBottomSheetDialog.kt",
+      "sampleMetadataOnly": true,
+      "cameraArtistInitiallyInvisible": true,
+      "nativeDetailsContainer": "NestedScrollView",
+      "metadataWriterGeocoderPermissions": "Original source code retained"
+    },
+    "englishSourceLabelKeys": [
+      "media_info_add_description_hint"
+    ],
+    "texts": [
+      {
+        "text": "Media information / unknown",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Information",
+        "x": 88,
+        "y": 94,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "sample-landscape.jpg",
+        "x": 88,
+        "y": 120,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Location",
+        "x": 88,
+        "y": 165,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Unknown",
+        "x": 88,
+        "y": 191,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Add a description",
+        "x": 60,
+        "y": 466,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 748,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 768,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          650
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_image",
+        "bounds": [
+          40,
+          78,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_location_on",
+        "bounds": [
+          40,
+          149,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_field",
+        "bounds": [
+          40,
+          420,
+          432,
+          100
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/details-unknown.svg",
+    "preview": "workflow-previews/details-unknown.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "details-sample",
+    "title": "Media information / sample",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "MediaInfoBottomSheetDialog.kt",
+      "sampleMetadataOnly": true,
+      "cameraArtistInitiallyInvisible": true,
+      "nativeDetailsContainer": "NestedScrollView",
+      "metadataWriterGeocoderPermissions": "Original source code retained"
+    },
+    "englishSourceLabelKeys": [
+      "media_info_add_description_hint"
+    ],
+    "texts": [
+      {
+        "text": "Media information / sample",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Information",
+        "x": 88,
+        "y": 94,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "sample-landscape.jpg",
+        "x": 88,
+        "y": 120,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Camera",
+        "x": 88,
+        "y": 165,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample camera",
+        "x": 88,
+        "y": 191,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Artist",
+        "x": 88,
+        "y": 236,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample artist",
+        "x": 88,
+        "y": 262,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Location",
+        "x": 88,
+        "y": 307,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Unknown",
+        "x": 88,
+        "y": 333,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Add a description",
+        "x": 60,
+        "y": 466,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 748,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 768,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          650
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_image",
+        "bounds": [
+          40,
+          78,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_camera",
+        "bounds": [
+          40,
+          149,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_person",
+        "bounds": [
+          40,
+          220,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_location_on",
+        "bounds": [
+          40,
+          291,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_field",
+        "bounds": [
+          40,
+          420,
+          432,
+          100
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/details-sample.svg",
+    "preview": "workflow-previews/details-sample.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "details-large",
+    "title": "Media information / sample",
+    "logicalWidth": 480,
+    "fontScaleSample": 1.5,
+    "sourceMapping": {
+      "owner": "MediaInfoBottomSheetDialog.kt",
+      "sampleMetadataOnly": true,
+      "cameraArtistInitiallyInvisible": true,
+      "nativeDetailsContainer": "NestedScrollView",
+      "metadataWriterGeocoderPermissions": "Original source code retained"
+    },
+    "englishSourceLabelKeys": [
+      "media_info_add_description_hint"
+    ],
+    "texts": [
+      {
+        "text": "Media information / sample",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Information",
+        "x": 88,
+        "y": 102,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "sample-landscape.jpg",
+        "x": 88,
+        "y": 138,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "Camera",
+        "x": 88,
+        "y": 194,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample camera",
+        "x": 88,
+        "y": 230,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "Artist",
+        "x": 88,
+        "y": 286,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Sample artist",
+        "x": 88,
+        "y": 322,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "Location",
+        "x": 88,
+        "y": 378,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Unknown",
+        "x": 88,
+        "y": 414,
+        "size": 21,
+        "anchor": "start"
+      },
+      {
+        "text": "Add a description",
+        "x": 60,
+        "y": 500,
+        "size": 24,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 958,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 978,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          48,
+          480,
+          850
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_image",
+        "bounds": [
+          40,
+          78,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_camera",
+        "bounds": [
+          40,
+          170,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_person",
+        "bounds": [
+          40,
+          262,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_location_on",
+        "bounds": [
+          40,
+          354,
+          32,
+          32
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_field",
+        "bounds": [
+          40,
+          446,
+          432,
+          100
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/details-large.svg",
+    "preview": "workflow-previews/details-large.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "dialog-permission",
+    "title": "Gallery / permission",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "PermissionsUtils.kt",
+      "actualActionsInvoked": false,
+      "frameworkLabels": "Native Cancel and OK, no substitute actions"
+    },
+    "englishSourceLabelKeys": [
+      "manage_media_permission_title",
+      "manage_media_permission_message"
+    ],
+    "texts": [
+      {
+        "text": "Gallery / permission",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Manage media permission",
+        "x": 44,
+        "y": 118,
+        "size": 22,
+        "anchor": "start"
+      },
+      {
+        "text": "To better manage your images and videos, allow the app to",
+        "x": 44,
+        "y": 162,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "manage your media files",
+        "x": 44,
+        "y": 184,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Cancel",
+        "x": 68,
+        "y": 253,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "OK",
+        "x": 324,
+        "y": 253,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 478,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 498,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          70,
+          480,
+          340
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          44,
+          214,
+          150,
+          64
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          300,
+          214,
+          150,
+          64
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/dialog-permission.svg",
+    "preview": "workflow-previews/dialog-permission.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "dialog-wallpaper",
+    "title": "Gallery / wallpaper",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "SetWallpaperActivity.kt",
+      "actualActionsInvoked": false,
+      "frameworkLabels": "Native Cancel and OK, no substitute actions"
+    },
+    "englishSourceLabelKeys": [
+      "set_wallpaper_dialog_title",
+      "set_wallpaper_home_screen",
+      "set_wallpaper_lock_screen",
+      "set_wallpaper_both"
+    ],
+    "texts": [
+      {
+        "text": "Gallery / wallpaper",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Set wallpaper on",
+        "x": 44,
+        "y": 118,
+        "size": 22,
+        "anchor": "start"
+      },
+      {
+        "text": "Home screen",
+        "x": 56,
+        "y": 174,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Lock screen",
+        "x": 56,
+        "y": 242,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Home and lock screen",
+        "x": 56,
+        "y": 310,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 478,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 498,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          70,
+          480,
+          340
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          44,
+          146,
+          424,
+          62
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          44,
+          214,
+          424,
+          62
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          44,
+          282,
+          424,
+          62
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/dialog-wallpaper.svg",
+    "preview": "workflow-previews/dialog-wallpaper.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  },
+  {
+    "id": "dialog-confirmation",
+    "title": "Gallery / confirmation",
+    "logicalWidth": 480,
+    "fontScaleSample": 1,
+    "sourceMapping": {
+      "owner": "MediaDialogsUtils.kt",
+      "actualActionsInvoked": false,
+      "frameworkLabels": "Native Cancel and OK, no substitute actions"
+    },
+    "englishSourceLabelKeys": [
+      "file_action_move_to_trash"
+    ],
+    "texts": [
+      {
+        "text": "Gallery / confirmation",
+        "x": 16,
+        "y": 24,
+        "size": 14,
+        "anchor": "start"
+      },
+      {
+        "text": "Move to trash",
+        "x": 44,
+        "y": 118,
+        "size": 22,
+        "anchor": "start"
+      },
+      {
+        "text": "Are you sure you want to move one file to trash?",
+        "x": 44,
+        "y": 162,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Cancel",
+        "x": 68,
+        "y": 231,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "OK",
+        "x": 324,
+        "y": 231,
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "text": "Desktop specimen / synthetic media and sample values",
+        "x": 16,
+        "y": 478,
+        "size": 12,
+        "anchor": "start"
+      },
+      {
+        "text": "Native rendering and input remain unverified",
+        "x": 16,
+        "y": 498,
+        "size": 12,
+        "anchor": "start"
+      }
+    ],
+    "controls": [
+      {
+        "family": "cg_gl_panel",
+        "bounds": [
+          16,
+          70,
+          480,
+          340
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          44,
+          192,
+          150,
+          64
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "family": "cg_gl_button",
+        "bounds": [
+          300,
+          192,
+          150,
+          64
+        ],
+        "actualFeatureSample": false,
+        "enabledSample": true,
+        "policyState": "cold",
+        "actualHostPolicyGains": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "svg": "workflow-previews/dialog-confirmation.svg",
+    "preview": "workflow-previews/dialog-confirmation.preview.png",
+    "nativeLayoutTest": false,
+    "deviceScreenshot": false,
+    "desktopBounds": "PASS"
+  }
+]

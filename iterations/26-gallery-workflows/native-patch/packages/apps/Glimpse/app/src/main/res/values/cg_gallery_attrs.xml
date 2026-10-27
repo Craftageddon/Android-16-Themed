@@ -1,0 +1,5 @@
+<resources><declare-styleable name="ForgeDrawable">
+ <attr name="cg_forge_family" format="string"/>
+ <attr name="cg_forge_source_value_mode"><enum name="dynamic" value="0"/><enum name="true_value" value="1"/><enum name="false_value" value="2"/></attr>
+ <attr name="cg_forge_momentary" format="boolean"/>
+</declare-styleable></resources>

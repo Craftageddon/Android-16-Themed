@@ -1,0 +1,1 @@
+PASS wrappingCases=1302 geometryAssertions=257083 syntheticMetricsOnly=true

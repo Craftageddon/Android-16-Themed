@@ -1,0 +1,318 @@
+{
+  "result": "PASS",
+  "actualJavaClasses": 9,
+  "nativeSources": {
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeActionLayout.java": "def299b5b076914d640c2bf5d18eb4213906051c29fd5038d1eee353271f0e3e",
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeDrawable.java": "95f5535beb40bf545e4871023d0513330aa02b74766da00c9c78371bd21cce8c",
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeGallerySkin.java": "049182c3f78aa44de982e2bf743f7bdc371690d85fad519b93d3ccc4dba694bf",
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeMaterialSwitch.java": "06443965e76628d9dcefb09821794815d29f928c7028eabacfd9e13b9be13faa",
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeResources.java": "1754b1bb557cd44208da19d443116f099c0337870b483b0337216dc25b913c40",
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeRowPlan.java": "529a7bfd18e14e85a19f738a2c0e72b624045ffdfc49184512d6c7a13b866bd4",
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeSeekBarPreference.java": "2598b79e20ca3f5375e700fe38008fb96f66198f660ba31880dd002bd01429eb",
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeStatePolicy.java": "fb0cae02ab9dd67b6473e96e74fe2e6745f012c3136aa2d0725d8cadfe2f6d5e",
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeSwitchPreference.java": "2a0fc1ff7d0c6017f7eb03430674f9966bd24c06d11b61481c6d8d77aef4f589"
+  },
+  "classpath": [
+    {
+      "path": "C:\\Users\\spencerm\\AppData\\Local\\Android\\Sdk\\platforms\\android-36.1\\android.jar",
+      "sha256": "2981111371989ae7141868d6162070c89f0f1d505f66ac9dc7fdfd4d8c744264"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Documents\\Codex\\2026-08-31\\us\\android-motion\\.gradle-user\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib\\2.3.21\\a2ee2c4e220fee522f0451b723bab2a43f3481a7\\kotlin-stdlib-2.3.21.jar",
+      "sha256": "6f64eac736db9434dd6925b4a518b9d1d17177652320c37916cf9ba3ce7d7d7a"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__navigationevent__navigationevent-android__1.1.0-beta01__navigationevent-android-1.1.0-beta01.classes.jar",
+      "sha256": "3581daf34b2d7d47ab9b5857dc3a9f886f85f2561fc8d566b61c7233f9218e58"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__core__core__1.20.0-alpha01__core-1.20.0-alpha01.classes.jar",
+      "sha256": "f33c2ec62e98b2dea798ccbebfedfa57a42db0727a3a3b40926ae8b3c2ca0fcf"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__core__core-viewtree__1.1.0-alpha01__core-viewtree-1.1.0-alpha01.classes.jar",
+      "sha256": "d0bc6a492eada61212325edf8d9324e11924790c54553e62fb9d44782e8897c0"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__recyclerview__recyclerview__1.5.0-alpha01__recyclerview-1.5.0-alpha01.classes.jar",
+      "sha256": "936e5b900aaddfd77bef9c65417082b033ef9abcad047a725996352b42edd02a"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__activity__activity__1.14.0-alpha01__activity-1.14.0-alpha01.classes.jar",
+      "sha256": "0f2b298f2a10a67ff0e07287cf0ad84e1e9a1322921685b9dc95d246af7c9976"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-common-jvm__2.11.0-alpha03__lifecycle-common-jvm-2.11.0-alpha03.jar",
+      "sha256": "6d233043a3d7607044eede264e26683f970dfbb43c136e1bc94c92eb47e2433d"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-runtime-android__2.11.0-alpha03__lifecycle-runtime-android-2.11.0-alpha03.classes.jar",
+      "sha256": "4ea3833217efc77668143f3ab347e859350ed8e0d70359bf045783cc1756a52e"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-viewmodel-android__2.11.0-alpha03__lifecycle-viewmodel-android-2.11.0-alpha03.classes.jar",
+      "sha256": "a4f13afe6d05b35c7c53869e156a73e32a8fad9bcf14d8a368ecb81b114c69ba"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__savedstate__savedstate-android__1.5.0-alpha02__savedstate-android-1.5.0-alpha02.classes.jar",
+      "sha256": "fa884435d50dfb5277414d167cd696cfeb70973fbe2f569b01347d506e959477"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__annotation__annotation-jvm__1.10.0__annotation-jvm-1.10.0.jar",
+      "sha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__annotation__annotation-experimental__1.6.0__annotation-experimental-1.6.0.classes.jar",
+      "sha256": "89bf8d934802fce832d054bb5f1bd0df87bf9336496c4d3f7fb60cd6c852f343"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__customview__customview__1.2.0-beta01__customview-1.2.0-beta01.classes.jar",
+      "sha256": "d130ae4b7f7bc522b040586ba9a2d588153bd4189d1a33c839c8f3e331a19bea"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__customview__customview-poolingcontainer__1.1.0-beta01__customview-poolingcontainer-1.1.0-beta01.classes.jar",
+      "sha256": "a830b85d69941f3444ee2a17a9e79904afa3c6c4c94db7cedd2ccf90321632f7"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__coordinatorlayout__coordinatorlayout__1.3.0-rc01__coordinatorlayout-1.3.0-rc01.classes.jar",
+      "sha256": "3bd84b301f1e2fccbe64a272e9f9f601db2058a5305ec1e4ab00e43f1b82aee3"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__drawerlayout__drawerlayout__1.3.0-alpha01__drawerlayout-1.3.0-alpha01.classes.jar",
+      "sha256": "9b9e08318ed2e0be53820a05e6837c5035e10800f05dc3b46b2890c2b4d5d7b0"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__fragment__fragment__1.9.0-alpha01__fragment-1.9.0-alpha01.classes.jar",
+      "sha256": "eac9411292bd5f80f22434a014c0c14c28cb84632e665ede296295ffff7e656c"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-livedata-core__2.11.0-alpha03__lifecycle-livedata-core-2.11.0-alpha03.classes.jar",
+      "sha256": "028a49747261c2bebbe31b20bb765e866313766a0f3d4802aae92ce49819ed38"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__appcompat__appcompat__1.8.0-alpha01__appcompat-1.8.0-alpha01.classes.jar",
+      "sha256": "da27b8bd6a0b4c2a01e02cd2888e95ca27b76af6ce6d32453d2cb0c6e8741ddd"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__appcompat__appcompat-resources__1.8.0-alpha01__appcompat-resources-1.8.0-alpha01.classes.jar",
+      "sha256": "28533f74ac2b767d254a15b8bd593a5b06b05e17c6fcad0fe5fa6e8ae5163e92"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__preference__preference__1.3.0-alpha01__preference-1.3.0-alpha01.classes.jar",
+      "sha256": "f6df67e9060b62763da14e8750926fd6f5309f757f50be5c89e9911ca2130427"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-common-ktx-1.10.0.classes.jar",
+      "sha256": "a571067362f25077f33f89cad89a51d3331af70a403db4f4e3a5b6cd07413fda"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-common-1.10.0.classes.jar",
+      "sha256": "b4e6195e56b4cbf60ea269fea67b3418711e1e3f77692e25d182f14d409249d1"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-container-1.10.0.classes.jar",
+      "sha256": "a1b46ca28972146059ce9a62101fa81a9e952aa9f2dc9667c2ca8b991b495bc1"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-database-1.10.0.classes.jar",
+      "sha256": "d4b0509ee93605d4d43da2d458e78bbf728f865dbcd00aa2a726f4daf91d5da2"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-datasource-1.10.0.classes.jar",
+      "sha256": "20ae5a70db934c40619c8f0ae508a1c70e18f115310c284481b64f836863ea4c"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-decoder-1.10.0.classes.jar",
+      "sha256": "37badeeeb625d3bc63274c4055db4e2ab0136d2d6f7fb80a04ba9ee981fbe33d"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-exoplayer-dash-1.10.0.classes.jar",
+      "sha256": "6e9e5d3245c669d57c632dcf35b7a52f52d2c23620c6a33dacdeedfe12b7c828"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-exoplayer-hls-1.10.0.classes.jar",
+      "sha256": "f3ec7207506b017838db6a289a9418374a4aebb5df6dda00b702e9c28b28cdb5"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-exoplayer-rtsp-1.10.0.classes.jar",
+      "sha256": "a9418e3eb78043bbeb14e947cfad1d990649dee974d5d4a0ec08095203e14e1f"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-exoplayer-smoothstreaming-1.10.0.classes.jar",
+      "sha256": "9e237310e498255fb9751b6a345550d4ef46bc6187a2582cbc974b58501217fa"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-exoplayer-1.10.0.classes.jar",
+      "sha256": "f146e94c8c50529a0068533e8da162bfa25d4709f75358d2918fe108a07ebcbc"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-extractor-1.10.0.classes.jar",
+      "sha256": "7b9aba4eb9e1ceee165ea94111ebfa809c54d859e76aec5f8f27feddf398ea7c"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\media3-ui-1.10.0.classes.jar",
+      "sha256": "fcd7ee52d148406a1cc4fe0cebff7b57de1a1e4404b84e35e94fc1e173f04b6a"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\26-gallery-workflows\\upstream\\packages\\apps\\Glimpse\\app\\libs\\com\\adobe\\xmp\\xmpcore\\6.1.11\\xmpcore-6.1.11.jar",
+      "sha256": "8f7033c579b99fa0d9d6ddcb9448875b5e4b577c350002278ce46997d678b737"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\26-gallery-workflows\\upstream\\packages\\apps\\Glimpse\\app\\libs\\com\\github\\bumptech\\glide\\annotations\\5.0.5\\annotations-5.0.5.jar",
+      "sha256": "fb3e596a60c182f3251170bd1e2dfe32ca1d1f0d79763408d1bf168c81d61ae1"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\disklrucache-5.0.5.classes.jar",
+      "sha256": "94f2c47ea708fd3dbf6fb732d74160977ce6053e9ee333c1f7a0b11f6a4c358d"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\gifdecoder-5.0.5.classes.jar",
+      "sha256": "a30710fd6b06e113d6d234bef8756c786a58fd0b2cc396bb87971cbf1e54ec85"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\glide-5.0.5.classes.jar",
+      "sha256": "df2ac85a765a6153b515e036e2291d615fedd80d0c5c408385ec06f9a9f2e8f0"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\okhttp3-integration-5.0.5.classes.jar",
+      "sha256": "bf81bd8b18de5872c7ac5d606efd0741491db029c2dcc6a2adb1ffbe770f1aaa"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\material-1.14.0-alpha10.classes.jar",
+      "sha256": "942ccd64c1b1ebfde0ba0ce84d001f09c527bd8fe408135de7080df49f588b8e"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\okhttp-release.classes.jar",
+      "sha256": "c8a553a9c97aa7b0bd5506a83f14bc6a7bcf321c0061cb9cfbf921d5c7c5bd09"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\26-gallery-workflows\\upstream\\packages\\apps\\Glimpse\\app\\libs\\com\\squareup\\okio\\okio-jvm\\3.16.4\\okio-jvm-3.16.4.jar",
+      "sha256": "2196b993cd34dbbd919e7e01f57a4781b58bee80f86106163e287c20343a96a7"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\zoomimage-core-release.classes.jar",
+      "sha256": "5f84a8b02ac21d442f0b568c780a9c671b9c0ec4b49e7f0bd19e6ea9b5359d7f"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\zoomimage-core-glide-1.4.0.classes.jar",
+      "sha256": "400a9221f0244f8ff99183572fa81c9b42dddaac2b04de622bd8c1f8dbdb2ef8"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\zoomimage-view-glide-1.4.0.classes.jar",
+      "sha256": "43c45ad6c903f9b266714f81a30f4afc9d8319490266f057622ab88f3bc0829a"
+    },
+    {
+      "path": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-controls-20261027-125910-422275\\zoomimage-view-1.4.0.classes.jar",
+      "sha256": "5f485c0c6ff07035fed56a1c7a834da8dc3404105f7ccccbcc8a6c22e219b240"
+    }
+  ],
+  "compatibilityResourceNamespaces": [
+    {
+      "namespace": "androidx.navigationevent",
+      "symbols": 1,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.core",
+      "symbols": 218,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.core.viewtree",
+      "symbols": 1,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.recyclerview",
+      "symbols": 32,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.activity",
+      "symbols": 2,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.lifecycle.runtime",
+      "symbols": 1,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.lifecycle.viewmodel",
+      "symbols": 1,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.savedstate",
+      "symbols": 1,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.customview.poolingcontainer",
+      "symbols": 2,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.coordinatorlayout",
+      "symbols": 28,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.drawerlayout",
+      "symbols": 5,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.fragment",
+      "symbols": 17,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.appcompat",
+      "symbols": 1475,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.appcompat.resources",
+      "symbols": 25,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.preference",
+      "symbols": 281,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.media3.exoplayer",
+      "symbols": 9,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "androidx.media3.ui",
+      "symbols": 479,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "com.bumptech.glide",
+      "symbols": 1,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "com.google.android.material",
+      "symbols": 5326,
+      "source": "Exact committed AAR R.txt, compile only"
+    },
+    {
+      "namespace": "com.github.panpf.zoomimage.view",
+      "symbols": 50,
+      "source": "Exact committed AAR R.txt, compile only"
+    }
+  ],
+  "declaredAppSdk": 36,
+  "installedCompatibilitySdk": "36.1",
+  "allKotlinOwnersCompiled": false,
+  "nativeXmlInflation": "NOT RUN",
+  "fullPinnedSoongBuild": "NOT RUN",
+  "deviceTests": "NOT RUN",
+  "wholeGoalComplete": false
+}
