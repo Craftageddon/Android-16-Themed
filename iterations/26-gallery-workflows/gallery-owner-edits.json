@@ -1,0 +1,595 @@
+[
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/utils/PermissionsUtils.kt",
+    "inputSha256": "d1bfbb316e42a48a0a421bfdd32ebf9db4b22c6d62e1a45f3ac0fbb8f1e77990",
+    "patchedSha256": "ee44312171d98d2e85924534112c3e8d17886e6a381b4d387541e04ca10bfbf3",
+    "operations": [
+      {
+        "before": "import com.google.android.material.dialog.MaterialAlertDialogBuilder\n",
+        "after": "import com.google.android.material.dialog.MaterialAlertDialogBuilder\nimport org.lineageos.glimpse.forge.ForgeGallerySkin\n",
+        "count": 1
+      },
+      {
+        "before": "}.show()",
+        "after": "}.show().also { ForgeGallerySkin.dialog(it) }",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/SetWallpaperActivity.kt",
+    "inputSha256": "b1b3cdb35f649d7a2f9addba19574d1f2e9cb76b06cda71dfa5bd58d4953817d",
+    "patchedSha256": "fe930968f8f1097ccfe9a1fcd42717e32999f485eaa8a21a98f5038a269949cb",
+    "operations": [
+      {
+        "before": "import com.google.android.material.dialog.MaterialAlertDialogBuilder\n",
+        "after": "import com.google.android.material.dialog.MaterialAlertDialogBuilder\nimport org.lineageos.glimpse.forge.ForgeGallerySkin\n",
+        "count": 1
+      },
+      {
+        "before": "}.show()",
+        "after": "}.show().also { ForgeGallerySkin.dialog(it) }",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/GlimpseApplication.kt",
+    "inputSha256": "e86ecf80414480246af5c6813974cc7195ae4e6840fd484614181aea1423cf27",
+    "patchedSha256": "4436fdfcb1d9fa1972bb48d5ae743c3eb8dad86b85f73320fcaa94840b7eada4",
+    "operations": [
+      {
+        "before": "import com.google.android.material.color.DynamicColors\n",
+        "after": "// Craftageddon: fixed palette is defined by local activity themes.\n",
+        "count": 1
+      },
+      {
+        "before": "        // Observe dynamic colors changes\n        DynamicColors.applyToActivitiesIfAvailable(this)",
+        "after": "        // Craftageddon: fixed cold-steel palette; media repository remains unchanged.",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/ui/recyclerview/ThumbnailAdapter.kt",
+    "inputSha256": "7a9a83a8fb19dcf151c20feef12314eecb98d05aa362a6ffe30c37bbef6d5bd2",
+    "patchedSha256": "fb9518d82536291185def130a26086ad5e6869919834b0db04f39fccb246eaf0",
+    "operations": [
+      {
+        "before": "            this.isSelected = isSelected\n",
+        "after": "            this.isSelected = isSelected\n            itemView.isSelected = isSelected // Source SelectionTracker value drives only the rim.\n",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/ui/recyclerview/MediaViewerAdapter.kt",
+    "inputSha256": "4fd63fecaf8fc96758621ba66cb5918b0723a3381f23e35d4c50bb168a062086",
+    "patchedSha256": "813eee837e7047601e054a41e362b773ca6a73840246b2ed9f45045c202cba52",
+    "operations": [
+      {
+        "before": "import org.lineageos.glimpse.R\n",
+        "after": "import org.lineageos.glimpse.R\nimport org.lineageos.glimpse.forge.ForgeGallerySkin\n",
+        "count": 1
+      },
+      {
+        "before": "            playerControlView.player = player\n",
+        "after": "            playerControlView.player = player\n            ForgeGallerySkin.playerControls(playerControlView, player?.isPlaying == true)\n",
+        "count": 1
+      },
+      {
+        "before": "        init {\n",
+        "after": "        init {\n            ForgeGallerySkin.installPlayerControls(playerControlView)\n",
+        "count": 1
+      },
+      {
+        "before": "            observersJob = itemView.findViewTreeLifecycleOwner()?.lifecycleScope?.launch {\n",
+        "after": "            observersJob = itemView.findViewTreeLifecycleOwner()?.lifecycleScope?.launch {\n                launch {\n                    localPlayerViewModel.isPlaying.collectLatest { playing ->\n                        ForgeGallerySkin.playerControls(playerControlView,\n                            playing && playerControlView.player != null)\n                    }\n                }\n",
+        "count": 1
+      },
+      {
+        "before": "            playerControlView.player = null\n",
+        "after": "            playerControlView.player = null\n            ForgeGallerySkin.playerControls(playerControlView, false)\n",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/ViewActivity.kt",
+    "inputSha256": "356e63cb7a03d08bea0f32b58632f8d00ce39a5539f25069ee7d63f2d68a7ad5",
+    "patchedSha256": "2485be69367775ce265e64d400f5c3fc8e560ca718ed244fb6ba760172712769",
+    "operations": [
+      {
+        "before": "import androidx.core.view.ViewCompat\n",
+        "after": "import androidx.core.view.ViewCompat\nimport androidx.core.view.doOnLayout\n",
+        "count": 1
+      },
+      {
+        "before": "    override fun onCreate(savedInstanceState: Bundle?) {",
+        "after": "    private val forgeSheetLayoutListener = View.OnLayoutChangeListener { view, l, t, r, b, oldL, oldT, oldR, oldB ->\n        if (r - l != oldR - oldL || b - t != oldB - oldT) {\n            viewModel.setSheetsHeight(appBarLayout.height, view.height)\n        }\n    }\n\n    override fun onCreate(savedInstanceState: Bundle?) {",
+        "count": 1
+      },
+      {
+        "before": "        // Attach the adapter to the view pager",
+        "after": "        bottomSheetLinearLayout.addOnLayoutChangeListener(forgeSheetLayoutListener)\n\n        // Attach the adapter to the view pager",
+        "count": 1
+      },
+      {
+        "before": "    override fun onDestroy() {",
+        "after": "    override fun onDestroy() {\n        bottomSheetLinearLayout.removeOnLayoutChangeListener(forgeSheetLayoutListener)",
+        "count": 1
+      },
+      {
+        "before": "        appBarLayout.measure(View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED)\n        bottomSheetLinearLayout.measure(\n            View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED\n        )\n\n        viewModel.setSheetsHeight(\n            appBarLayout.measuredHeight,\n            bottomSheetLinearLayout.measuredHeight,\n        )",
+        "after": "        // Native layout owns the real constrained widths, wrapped rows and window insets.\n        bottomSheetLinearLayout.doOnLayout {\n            viewModel.setSheetsHeight(appBarLayout.height, it.height)\n        }",
+        "count": 1
+      },
+      {
+        "before": "                    // Update info button",
+        "after": "                    favoriteButton.contentDescription = favoriteButton.text\n\n                    // Update info button",
+        "count": 1
+      },
+      {
+        "before": "                    // Trigger a sheets height update",
+        "after": "                    motionPhotoToggleButton.contentDescription = motionPhotoToggleButton.text\n\n                    // Trigger a sheets height update",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/ui/dialogs/MediaInfoBottomSheetDialog.kt",
+    "inputSha256": "e6a3d2ed3da657e6095636b9da4d22079aeed1b5a41ac88e6982d5398cafcb2a",
+    "patchedSha256": "09726a169193bdd83a81ad22db9765573b140968e33e88656109c916cb3fe02e",
+    "operations": [
+      {
+        "before": "        setContentView(R.layout.media_info_bottom_sheet_dialog)\n",
+        "after": "        setContentView(R.layout.media_info_bottom_sheet_dialog)\n        // No sample camera/artist data is shown before real EXIF is read.\n        artistInfoListItem.isVisible = false\n        cameraInfoListItem.isVisible = false\n",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/utils/MediaDialogsUtils.kt",
+    "inputSha256": "9b1a1b0c1ecc00a04957a05c6c667d378f3bc77bb73bb4ed78a0d75b80cdaf80",
+    "patchedSha256": "aa5da7bc49a7db313e3eda1cac46dfb84eccb1ba747bac0a0fc3482c38e1c1bf",
+    "operations": [
+      {
+        "before": "import org.lineageos.glimpse.R\n",
+        "after": "import org.lineageos.glimpse.R\nimport org.lineageos.glimpse.forge.ForgeGallerySkin\n",
+        "count": 1
+      },
+      {
+        "before": "            .show()\n",
+        "after": "            .show().also { ForgeGallerySkin.dialog(it) }\n",
+        "count": 1
+      },
+      {
+        "before": "        show()\n",
+        "after": "        ForgeGallerySkin.snackbar(this)\n        show()\n",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/Android.bp",
+    "inputSha256": "0c35402ade0e2a70685fbb67dfc23a05bd7a8ed50c8e5853b04e7ace9e26b324",
+    "patchedSha256": "d88276efba26c2a2393ce78f76fc4b18c7d5f9309592a554f0babd9dd55b48e5",
+    "operations": [
+      {
+        "before": "    srcs: [\"src/main/java/**/*.kt\"],",
+        "after": "    srcs: [\n        \"src/main/java/**/*.kt\",\n        \"src/main/java/**/*.java\",\n    ],",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/thumbnail_view.xml",
+    "inputSha256": "a7e6341ab829950a6fac0eec96be847b1ea57ef6013afae0282215d9f71d934c",
+    "patchedSha256": "f3785f67251b304d84b78b83fb88393234337b446fa3646df2ad8a376e49a127",
+    "operations": [
+      {
+        "before": "    android:padding=\"4dp\">",
+        "after": "    android:padding=\"4dp\"\n    android:foreground=\"@drawable/cg_gl_media_frame\">",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/album_thumbnail_view.xml",
+    "inputSha256": "05ad616b4f2bf96d9c71a5258aee2cd8bf6b639fcee9a90b99fddf9b44f27279",
+    "patchedSha256": "45ec8cdd704cba0451b4c6bbe0b61236f3d9894731ab78abedb88cbfb95f11fd",
+    "operations": [
+      {
+        "before": "    android:padding=\"12dp\">",
+        "after": "    android:padding=\"12dp\"\n    android:foreground=\"@drawable/cg_gl_media_frame\">",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/activity_view.xml",
+    "inputSha256": "a2d6acedaa015d8352e0b3ed4e1bcea7f9afe39db08f9129a25ce0d59af1bf0a",
+    "patchedSha256": "8c804c08597214ea44fe57227ffec1232ab29cab40d84db32a3a8d75a85ae6f0",
+    "operations": [
+      {
+        "before": "    <LinearLayout\n        android:id=\"@+id/bottomSheetLinearLayout\"",
+        "after": "    <org.lineageos.glimpse.forge.ForgeActionLayout\n        android:id=\"@+id/bottomSheetLinearLayout\"",
+        "count": 1
+      },
+      {
+        "before": "    </LinearLayout>",
+        "after": "    </org.lineageos.glimpse.forge.ForgeActionLayout>",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/media_view.xml",
+    "inputSha256": "b1207b71e14ea19609e7cb87c6f933bfbbe06b7b5d3100a0c9058d4fed399159",
+    "patchedSha256": "e2a3b4cf75f584b657ae39ee957f152d99c6ae640784d8a5498691f5119a8c64",
+    "operations": [
+      {
+        "before": "        app:show_next_button=\"false\"",
+        "after": "        app:controller_layout_id=\"@layout/cg_gl_player_controls\"\n        app:show_next_button=\"false\"",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/list_item.xml",
+    "inputSha256": "9b04e95482444be4ebdf89a246261a6dbb36273a878454ac07283e0b0756ccdb",
+    "patchedSha256": "e784acc67d7b5ee2cf688cd53490dcc13a2f6721c2998eebfacfee0c5262ebf9",
+    "operations": [
+      {
+        "before": "    android:paddingVertical=\"12dp\">",
+        "after": "    android:paddingVertical=\"12dp\"\n    android:background=\"@drawable/cg_gl_panel\"\n    android:duplicateParentState=\"true\">",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/media_info_bottom_sheet_dialog.xml",
+    "inputSha256": "644c6a2813af5dcd83b75e53cbc5241da597e536dc9f1872459e889689b67180",
+    "patchedSha256": "46a7f35ee44763b75e28b515b56ba1dc91dbc7031505fa8c2522114d1c4f03df",
+    "operations": [
+      {
+        "before": "    app:cardCornerRadius=\"16dp\"",
+        "after": "    app:cardCornerRadius=\"0dp\"",
+        "count": 1
+      },
+      {
+        "before": "    <LinearLayout\n",
+        "after": "    <androidx.core.widget.NestedScrollView\n        android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:fillViewport=\"false\">\n    <LinearLayout\n",
+        "count": 1
+      },
+      {
+        "before": "        android:orientation=\"vertical\">",
+        "after": "        android:orientation=\"vertical\"\n        android:background=\"@drawable/cg_gl_panel\">",
+        "count": 1
+      },
+      {
+        "before": "\n            android:background=\"?attr/colorSurfaceContainer\"\n            android:backgroundTint=\"?attr/colorSurfaceContainerHighest\"",
+        "after": "\n            android:background=\"@android:color/transparent\"",
+        "count": 1
+      },
+      {
+        "before": "                android:background=\"@android:color/transparent\"",
+        "after": "                android:background=\"@drawable/cg_gl_field\"\n                android:minHeight=\"56dp\"",
+        "count": 1
+      },
+      {
+        "before": "</androidx.cardview.widget.CardView>",
+        "after": "    </androidx.core.widget.NestedScrollView>\n</androidx.cardview.widget.CardView>",
+        "count": 1
+      },
+      {
+        "before": "app:headlineText=\"",
+        "after": "tools:headlineText=\"",
+        "count": 4
+      },
+      {
+        "before": "app:supportingText=\"",
+        "after": "tools:supportingText=\"",
+        "count": 4
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/settingslib_switch.xml",
+    "inputSha256": "ea00416c5a5ec60762e54c245f149dc2f630451d9c3b55983c4ba145f7da5353",
+    "patchedSha256": "1daef7951a1d9f36083d88eb6e735140fbbf5d344424b3968b6dc12ced0ff7fe",
+    "operations": [
+      {
+        "before": "<com.google.android.material.materialswitch.MaterialSwitch",
+        "after": "<org.lineageos.glimpse.forge.ForgeMaterialSwitch",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/settingslib_switch_compat.xml",
+    "inputSha256": "156a66ea09e2e439161fe440cd866f8250cf7e996b6b4278124563fda55a8731",
+    "patchedSha256": "74f8d86ecead321db30b82c8186022877e0b48ac3a821ec8ff7f0bb6e0e3b3e5",
+    "operations": [
+      {
+        "before": "<com.google.android.material.materialswitch.MaterialSwitch",
+        "after": "<org.lineageos.glimpse.forge.ForgeMaterialSwitch",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/xml/root_preferences.xml",
+    "inputSha256": "e963605cef93478a6d44a23c239d4f24886d8e4c6187161c7cbbee8214877a48",
+    "patchedSha256": "d6d215dd45f34a65fb4bb5864ccf641c34ad763327d765398c9c5953b8ca03dc",
+    "operations": [
+      {
+        "before": "<SwitchPreferenceCompat",
+        "after": "<org.lineageos.glimpse.forge.ForgeSwitchPreference",
+        "count": 4
+      },
+      {
+        "before": "<SeekBarPreference",
+        "after": "<org.lineageos.glimpse.forge.ForgeSeekBarPreference",
+        "count": 1
+      },
+      {
+        "before": "            app:iconSpaceReserved=\"false\"",
+        "after": "            app:singleLineTitle=\"false\"\n            app:iconSpaceReserved=\"false\"",
+        "count": 5
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/fragment_main.xml",
+    "inputSha256": "bda7d7cd13e4ed45015fc7b9059cb690654a3be1ae2d3133e7217331a21c1f52",
+    "patchedSha256": "1f9e969b9e03077c454fede1f3f4552dbfb0ecc91f9ca7ce1373505ba1af81da",
+    "operations": [
+      {
+        "before": "    <com.google.android.material.appbar.AppBarLayout\n        android:id=\"@+id/appBarLayout\"\n        android:layout_width=\"0dp\"\n        android:layout_height=\"wrap_content\"\n        android:fitsSystemWindows=\"true\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toTopOf=\"parent\">",
+        "after": "    <com.google.android.material.appbar.AppBarLayout\n        android:id=\"@+id/appBarLayout\"\n        android:layout_width=\"0dp\"\n        android:layout_height=\"wrap_content\"\n        android:fitsSystemWindows=\"true\"\n        android:background=\"@drawable/cg_gl_panel\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toTopOf=\"parent\">",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/fragment_album.xml",
+    "inputSha256": "199b45139a32f7521642e4bb70082a6ca3173747dd79a38b3e31ccded8cfcb8d",
+    "patchedSha256": "ab1b25a093dcc718cb475de5c2ac5375b24c725d91eaf43dc62f64a56c69c48c",
+    "operations": [
+      {
+        "before": "    <com.google.android.material.appbar.AppBarLayout\n        android:id=\"@+id/appBarLayout\"\n        android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:fitsSystemWindows=\"true\"\n        app:liftOnScrollTargetViewId=\"@+id/recyclerView\">",
+        "after": "    <com.google.android.material.appbar.AppBarLayout\n        android:id=\"@+id/appBarLayout\"\n        android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:fitsSystemWindows=\"true\"\n        android:background=\"@drawable/cg_gl_panel\"\n        app:liftOnScrollTargetViewId=\"@+id/recyclerView\">",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/activity_picker.xml",
+    "inputSha256": "b30ed52fec1981eb851ddf4aa21b8c59dbaa961a2ccff95d9ca6b52cdd406eb3",
+    "patchedSha256": "9b5604f01762c75642b63d093f3f17d3236fba191d32060705a457f2c12ddb4d",
+    "operations": [
+      {
+        "before": "    <com.google.android.material.appbar.AppBarLayout\n        android:id=\"@+id/appBarLayout\"\n        android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:fitsSystemWindows=\"true\"\n        app:liftOnScrollTargetViewId=\"@+id/navHostFragment\">",
+        "after": "    <com.google.android.material.appbar.AppBarLayout\n        android:id=\"@+id/appBarLayout\"\n        android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:fitsSystemWindows=\"true\"\n        android:background=\"@drawable/cg_gl_panel\"\n        app:liftOnScrollTargetViewId=\"@+id/navHostFragment\">",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/activity_settings.xml",
+    "inputSha256": "f9c3c98aae18f4e051e2d1a40a82f38293c94b25fef926f8481fcfc70be792ba",
+    "patchedSha256": "2c984dc6a35dfa6c8c3f33faea9359cfe385e3da5abd6125787291d83c495633",
+    "operations": [
+      {
+        "before": "    <com.google.android.material.appbar.AppBarLayout\n        android:id=\"@+id/appBarLayout\"\n        android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:fitsSystemWindows=\"true\"\n        app:liftOnScrollTargetViewId=\"@+id/settings\">",
+        "after": "    <com.google.android.material.appbar.AppBarLayout\n        android:id=\"@+id/appBarLayout\"\n        android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:fitsSystemWindows=\"true\"\n        android:background=\"@drawable/cg_gl_panel\"\n        app:liftOnScrollTargetViewId=\"@+id/settings\">",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout-sw600dp/fragment_main.xml",
+    "inputSha256": "f67ac9f5e4682c33d86f6364462a3686617bcbf579e4a39945a986065568dbb4",
+    "patchedSha256": "603f360a04a4d7d4e1685be5600c9f9999e00041703abcdf3a06bb25ff2fc497",
+    "operations": [
+      {
+        "before": "        android:fitsSystemWindows=\"true\"",
+        "after": "        android:fitsSystemWindows=\"true\"\n        android:background=\"@drawable/cg_gl_panel\"",
+        "count": 1
+      },
+      {
+        "before": "        app:menuGravity=\"center\"",
+        "after": "        android:background=\"@drawable/cg_gl_panel\"\n        app:menuGravity=\"center\"",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/fragment_main.xml",
+    "inputSha256": "1f9e969b9e03077c454fede1f3f4552dbfb0ecc91f9ca7ce1373505ba1af81da",
+    "patchedSha256": "2296b2695a8cfffb731c152517c0d4d268a4522ef6407fe19ffbc48bfb906ee6",
+    "operations": [
+      {
+        "before": "        app:menu=\"@menu/fragment_main_bottom_app_bar\"",
+        "after": "        android:background=\"@drawable/cg_gl_panel\"\n        app:itemIconTint=\"@null\"\n        app:menu=\"@menu/fragment_main_bottom_app_bar\"",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true,
+    "stage": "navigation"
+  },
+  {
+    "path": "app/src/main/res/values/themes.xml",
+    "inputSha256": "e3d50a62fa5529810bbebf5f09368b39d3e0dbe857c66653bae9d60cf5db9611",
+    "patchedSha256": "b6b97d2ff97ea128ff9a56a1028db99ab8882ab5a7b325537e2ab834aa1097ed",
+    "operations": [
+      {
+        "before": "<style name=\"Theme.Glimpse\" parent=\"Theme.Material3.DayNight.NoActionBar\">",
+        "after": "<style name=\"Theme.Glimpse\" parent=\"Theme.Material3.Dark.NoActionBar\">\n        <item name=\"android:colorBackground\">#080c11</item>\n        <item name=\"colorPrimary\">#e56620</item>\n        <item name=\"colorOnPrimary\">#120d09</item>\n        <item name=\"colorPrimaryContainer\">#322216</item>\n        <item name=\"colorOnPrimaryContainer\">#eee7d9</item>\n        <item name=\"colorSecondary\">#b5bdc6</item>\n        <item name=\"colorOnSecondary\">#080c11</item>\n        <item name=\"colorSecondaryContainer\">#202c37</item>\n        <item name=\"colorOnSecondaryContainer\">#eee7d9</item>\n        <item name=\"colorSurface\">#10151b</item>\n        <item name=\"colorOnSurface\">#eee7d9</item>\n        <item name=\"colorOnSurfaceVariant\">#b5bdc6</item>\n        <item name=\"colorSurfaceVariant\">#1b2732</item>\n        <item name=\"colorSurfaceBright\">#17212a</item>\n        <item name=\"colorSurfaceContainerLowest\">#080c11</item>\n        <item name=\"colorSurfaceContainerLow\">#10151b</item>\n        <item name=\"colorSurfaceContainer\">#10151b</item>\n        <item name=\"colorSurfaceContainerHigh\">#17212a</item>\n        <item name=\"colorSurfaceContainerHighest\">#1b2732</item>\n        <item name=\"colorOutline\">#596571</item>\n        <item name=\"colorError\">#ff8585</item>\n        <item name=\"colorOnError\">#240b0c</item>\n        <item name=\"colorControlActivated\">#e56620</item>\n        <item name=\"android:textColorPrimary\">#eee7d9</item>\n        <item name=\"android:textColorSecondary\">#b5bdc6</item>\n        <item name=\"android:windowLightStatusBar\">false</item>\n        <item name=\"android:windowLightNavigationBar\">false</item>\n",
+        "count": 1
+      },
+      {
+        "before": "<style name=\"Theme.Glimpse.MediaViewer\" parent=\"Theme.Material3.Dark.NoActionBar\">",
+        "after": "<style name=\"Theme.Glimpse.MediaViewer\" parent=\"Theme.Material3.Dark.NoActionBar\">\n        <item name=\"android:colorBackground\">#080c11</item>\n        <item name=\"colorPrimary\">#e56620</item>\n        <item name=\"colorOnPrimary\">#120d09</item>\n        <item name=\"colorPrimaryContainer\">#322216</item>\n        <item name=\"colorOnPrimaryContainer\">#eee7d9</item>\n        <item name=\"colorSecondary\">#b5bdc6</item>\n        <item name=\"colorOnSecondary\">#080c11</item>\n        <item name=\"colorSecondaryContainer\">#202c37</item>\n        <item name=\"colorOnSecondaryContainer\">#eee7d9</item>\n        <item name=\"colorSurface\">#10151b</item>\n        <item name=\"colorOnSurface\">#eee7d9</item>\n        <item name=\"colorOnSurfaceVariant\">#b5bdc6</item>\n        <item name=\"colorSurfaceVariant\">#1b2732</item>\n        <item name=\"colorSurfaceBright\">#17212a</item>\n        <item name=\"colorSurfaceContainerLowest\">#080c11</item>\n        <item name=\"colorSurfaceContainerLow\">#10151b</item>\n        <item name=\"colorSurfaceContainer\">#10151b</item>\n        <item name=\"colorSurfaceContainerHigh\">#17212a</item>\n        <item name=\"colorSurfaceContainerHighest\">#1b2732</item>\n        <item name=\"colorOutline\">#596571</item>\n        <item name=\"colorError\">#ff8585</item>\n        <item name=\"colorOnError\">#240b0c</item>\n        <item name=\"colorControlActivated\">#e56620</item>\n        <item name=\"android:textColorPrimary\">#eee7d9</item>\n        <item name=\"android:textColorSecondary\">#b5bdc6</item>\n        <item name=\"android:windowLightStatusBar\">false</item>\n        <item name=\"android:windowLightNavigationBar\">false</item>\n",
+        "count": 1
+      },
+      {
+        "before": "        <item name=\"backgroundTint\">@android:color/transparent</item>",
+        "after": "        <item name=\"android:background\">@drawable/cg_gl_button</item>\n        <item name=\"backgroundTint\">@null</item>",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/values/themes_settingslib.xml",
+    "inputSha256": "2ea870b54b6fb95c5c951ad8c5053be2043ee5c681259396b36478e32adccde1",
+    "patchedSha256": "7e96a872683c5c45b1fc68da41fd97ef2982e787b51af14b7101abe015f17b7f",
+    "operations": [
+      {
+        "before": "<style name=\"Theme.SettingsLib\" parent=\"Theme.Material3Expressive.DayNight.NoActionBar\">",
+        "after": "<style name=\"Theme.SettingsLib\" parent=\"Theme.Material3Expressive.Dark.NoActionBar\">\n        <item name=\"android:colorBackground\">#080c11</item>\n        <item name=\"colorPrimary\">#e56620</item>\n        <item name=\"colorOnPrimary\">#120d09</item>\n        <item name=\"colorPrimaryContainer\">#322216</item>\n        <item name=\"colorOnPrimaryContainer\">#eee7d9</item>\n        <item name=\"colorSecondary\">#b5bdc6</item>\n        <item name=\"colorOnSecondary\">#080c11</item>\n        <item name=\"colorSecondaryContainer\">#202c37</item>\n        <item name=\"colorOnSecondaryContainer\">#eee7d9</item>\n        <item name=\"colorSurface\">#10151b</item>\n        <item name=\"colorOnSurface\">#eee7d9</item>\n        <item name=\"colorOnSurfaceVariant\">#b5bdc6</item>\n        <item name=\"colorSurfaceVariant\">#1b2732</item>\n        <item name=\"colorSurfaceBright\">#17212a</item>\n        <item name=\"colorSurfaceContainerLowest\">#080c11</item>\n        <item name=\"colorSurfaceContainerLow\">#10151b</item>\n        <item name=\"colorSurfaceContainer\">#10151b</item>\n        <item name=\"colorSurfaceContainerHigh\">#17212a</item>\n        <item name=\"colorSurfaceContainerHighest\">#1b2732</item>\n        <item name=\"colorOutline\">#596571</item>\n        <item name=\"colorError\">#ff8585</item>\n        <item name=\"colorOnError\">#240b0c</item>\n        <item name=\"colorControlActivated\">#e56620</item>\n        <item name=\"android:textColorPrimary\">#eee7d9</item>\n        <item name=\"android:textColorSecondary\">#b5bdc6</item>\n        <item name=\"android:windowLightStatusBar\">false</item>\n        <item name=\"android:windowLightNavigationBar\">false</item>\n",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/drawable/bg_media_viewer_top_sheet.xml",
+    "inputSha256": "f8337f2b6de8df10f6729dce1c1d31002ab14aed67cb3ad00b2657db5041bff9",
+    "patchedSha256": "5292163af1313abfb04004d82ce82df37f66c71111cd3c4ca2562157116fe6f0",
+    "operations": [
+      {
+        "before": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--\n     SPDX-FileCopyrightText: The LineageOS Project\n     SPDX-License-Identifier: Apache-2.0\n-->\n<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <item>\n        <shape>\n            <gradient android:angle=\"270\" android:endColor=\"@android:color/transparent\" android:startColor=\"#DD000000\" android:type=\"linear\" />\n        </shape>\n    </item>\n</selector>\n",
+        "after": "<drawable xmlns:app=\"http://schemas.android.com/apk/res-auto\" class=\"org.lineageos.glimpse.forge.ForgeDrawable\" app:cg_forge_family=\"cg_gl_panel\" app:cg_forge_momentary=\"false\"/>\n",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/drawable/bg_media_viewer_bottom_sheet.xml",
+    "inputSha256": "96e9251dd1c7b50c7548686d04ce07d53a60d71d6527382d37d14cb614d9dbc9",
+    "patchedSha256": "5292163af1313abfb04004d82ce82df37f66c71111cd3c4ca2562157116fe6f0",
+    "operations": [
+      {
+        "before": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--\n     SPDX-FileCopyrightText: The LineageOS Project\n     SPDX-License-Identifier: Apache-2.0\n-->\n<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <item>\n        <shape>\n            <gradient android:angle=\"270\" android:endColor=\"#DD000000\" android:startColor=\"@android:color/transparent\" android:type=\"linear\" />\n        </shape>\n    </item>\n</selector>\n",
+        "after": "<drawable xmlns:app=\"http://schemas.android.com/apk/res-auto\" class=\"org.lineageos.glimpse.forge.ForgeDrawable\" app:cg_forge_family=\"cg_gl_panel\" app:cg_forge_momentary=\"false\"/>\n",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/activity_set_wallpaper.xml",
+    "inputSha256": "56acc5c1d756ff42d0dfaa1423739e3d438d00e20bbe8d0676eb9e41f7aa453e",
+    "patchedSha256": "a1bef4cb567688d62421072cc1de1fc6ef27aeb6a4f1582ea7086675ccdd3f8a",
+    "operations": [
+      {
+        "before": "        android:id=\"@+id/setWallpaperButton\"",
+        "after": "        android:id=\"@+id/setWallpaperButton\"\n        android:background=\"@drawable/cg_gl_button\"",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/proguard-rules.pro",
+    "inputSha256": "d692250dca4367339dc75a9f8ea10d80b844cefc1e710c7473f9bb26f5e4c8dc",
+    "patchedSha256": "95876be74611abec1ba72966bafd19fb4769c34454e5cb1bc125e737bb94ec76",
+    "operations": [
+      {
+        "before": "# SPDX-FileCopyrightText: The LineageOS Project\n# SPDX-License-Identifier: Apache-2.0\n\n# Add project specific ProGuard rules here.\n# You can control the set of applied configuration files using the\n# proguardFiles setting in build.gradle.\n#\n# For more details, see\n#   http://developer.android.com/guide/developing/tools/proguard.html\n\n# If your project uses WebView with JS, uncomment the following\n# and specify the fully qualified class name to the JavaScript interface\n# class:\n#-keepclassmembers class fqcn.of.javascript.interface.for.webview {\n#   public *;\n#}\n\n# Uncomment this to preserve the line number information for\n# debugging stack traces.\n#-keepattributes SourceFile,LineNumberTable\n\n# If you keep the line number information, uncomment this to\n# hide the original source file name.\n#-renamesourcefileattribute SourceFile\n",
+        "after": "# SPDX-FileCopyrightText: The LineageOS Project\n# SPDX-License-Identifier: Apache-2.0\n\n# Add project specific ProGuard rules here.\n# You can control the set of applied configuration files using the\n# proguardFiles setting in build.gradle.\n#\n# For more details, see\n#   http://developer.android.com/guide/developing/tools/proguard.html\n\n# If your project uses WebView with JS, uncomment the following\n# and specify the fully qualified class name to the JavaScript interface\n# class:\n#-keepclassmembers class fqcn.of.javascript.interface.for.webview {\n#   public *;\n#}\n\n# Uncomment this to preserve the line number information for\n# debugging stack traces.\n#-keepattributes SourceFile,LineNumberTable\n\n# If you keep the line number information, uncomment this to\n# hide the original source file name.\n#-renamesourcefileattribute SourceFile\n\n# Craftageddon XML-inflated drawable and preference/view constructors.\n-keep class org.lineageos.glimpse.forge.ForgeDrawable { *; }\n-keep class org.lineageos.glimpse.forge.ForgeActionLayout { public <init>(android.content.Context, android.util.AttributeSet); }\n-keep class org.lineageos.glimpse.forge.ForgeMaterialSwitch { public <init>(android.content.Context, android.util.AttributeSet); }\n-keep class org.lineageos.glimpse.forge.ForgeSeekBarPreference { public <init>(android.content.Context, android.util.AttributeSet); }\n-keep class org.lineageos.glimpse.forge.ForgeSwitchPreference { public <init>(android.content.Context, android.util.AttributeSet); }\n",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/SettingsActivity.kt",
+    "inputSha256": "3dee061bff9771291eb5a001dd83381ae3cdb7294802a1afc3fd453f30967380",
+    "patchedSha256": "8171ca3970c9cc26ab5f5ebd70bf40c92f124f3794ce56d86376ef11b85e1ec7",
+    "operations": [
+      {
+        "before": "            setDisplayShowHomeEnabled(true)",
+        "after": "            setDisplayShowHomeEnabled(true)\n            setHomeAsUpIndicator(R.drawable.ic_back)",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/layout/set_wallpaper_dialog_item.xml",
+    "inputSha256": "9385d5bcc91e4f38dccb00c2ddd491c8bc932f05188305c0d9d702b0db797405",
+    "patchedSha256": "757fd82c37d96cf2a06c9b428a4fe517df546a28ffa0c987f18aca35a03a2d2f",
+    "operations": [
+      {
+        "before": "    android:ellipsize=\"marquee\"",
+        "after": "    android:background=\"@drawable/cg_gl_button\"",
+        "count": 1
+      },
+      {
+        "before": "    android:minHeight=\"?attr/listPreferredItemHeightSmall\"",
+        "after": "    android:minHeight=\"56dp\"",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_launcher_monochrome.xml",
+    "inputSha256": "dc1b0ca4c5d1e85cda9bda642b2e2a243578e06683d5949893e4e4702d038595",
+    "patchedSha256": "6a46b5a66664f41f164aa370f3456ea475f19db69ea7911ea38a1df3dad1284b",
+    "operations": [
+      {
+        "before": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--\n     SPDX-FileCopyrightText: The LineageOS Project\n     SPDX-License-Identifier: Apache-2.0\n-->\n<vector xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    android:width=\"108dp\"\n    android:height=\"108dp\"\n    android:viewportWidth=\"108\"\n    android:viewportHeight=\"108\">\n    <path\n        android:fillColor=\"#00000000\"\n        android:pathData=\"M34,39.5L74,39.5A2.5,2.5 0,0 1,76.5 42L76.5,66A2.5,2.5 0,0 1,74 68.5L34,68.5A2.5,2.5 0,0 1,31.5 66L31.5,42A2.5,2.5 0,0 1,34 39.5z\"\n        android:strokeWidth=\"3\"\n        android:strokeColor=\"#ffffffff\" />\n    <path\n        android:fillColor=\"#ffffffff\"\n        android:fillType=\"evenOdd\"\n        android:pathData=\"M72.243,38L63.121,47.121L61,49.243L58.879,47.121L49.757,38H54L58.879,42.879L61,45L63.121,42.879L68,38H72.243Z\" />\n    <path\n        android:fillColor=\"#ffffffff\"\n        android:fillType=\"evenOdd\"\n        android:pathData=\"M78,45V66C78,68.13 76.335,69.871 74.236,69.993L63.621,59.379L78,45Z\" />\n    <path\n        android:fillColor=\"#ffffffff\"\n        android:fillType=\"evenOdd\"\n        android:pathData=\"M70,70H34C31.791,70 30,68.209 30,66V60L45,45L70,70Z\" />\n</vector>\n",
+        "after": "<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:width=\"108dp\" android:height=\"108dp\" android:viewportWidth=\"108\" android:viewportHeight=\"108\"><path android:pathData=\"M24 54 A30 30 0 1 0 84 54 A30 30 0 1 0 24 54\" android:strokeColor=\"#ffffffff\" android:strokeWidth=\"1.4\" android:fillColor=\"#00000000\" /><group android:translateX=\"40\" android:translateY=\"40\" android:scaleX=\"1.1666667\" android:scaleY=\"1.1666667\"><path android:fillColor=\"#ffffffff\" android:pathData=\"M19,5v14L5,19L5,5h14m0,-2L5,3c-1.1,0 -2,0.9 -2,2v14c0,1.1 0.9,2 2,2h14c1.1,0 2,-0.9 2,-2L21,5c0,-1.1 -0.9,-2 -2,-2zM14.14,11.86l-3,3.87L9,13.14 6,17h12l-3.86,-5.14z\" /></group></vector>\n",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+    "inputSha256": "0e4b3cf684141754cc52a72a7579257eb9d4ba45d7c2c4d85a3f8df7158d336b",
+    "patchedSha256": "9464a97af5494313fdbee70ff9c7827d4ec000aa5c7f80c986c540fc0d300881",
+    "operations": [
+      {
+        "before": "@drawable/ic_launcher_background",
+        "after": "@color/cg_gl_icon_background",
+        "count": 1
+      },
+      {
+        "before": "@drawable/ic_launcher_foreground",
+        "after": "@drawable/cg_gl_launcher_foreground",
+        "count": 1
+      }
+    ],
+    "reverseByteParity": true
+  }
+]

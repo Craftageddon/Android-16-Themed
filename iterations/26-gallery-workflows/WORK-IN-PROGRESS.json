@@ -1,0 +1,8 @@
+{
+  "base": "dc2fa9aa2d5e34c04bd852db548fa5d773eae885",
+  "workflow": "W-05",
+  "adaptation": "PARTIALLY AUTHORED, VERIFIED OFFLINE",
+  "sourceFiles": 164,
+  "wholeGoalComplete": false,
+  "remaining": "See REMAINING.md and semantic-review-progress.json"
+}

@@ -1,0 +1,18 @@
+{
+  "baselineGalleryFamilies": 63,
+  "newDecisions": 47,
+  "existingDecisionsReaffirmed": 14,
+  "remainingOpen": [
+    {
+      "familyId": "F-596f0eb4b3060f7e",
+      "resource": "ic_launcher_background",
+      "reason": "Original legacy leaves retained after rebinding the adaptive owner. Repository/downstream consumer and reuse disposition still require review; absence from the new owner is not approval."
+    },
+    {
+      "familyId": "F-8fb1e33b0f8dd637",
+      "resource": "ic_launcher_foreground",
+      "reason": "Original legacy leaves retained after rebinding the adaptive owner. Repository/downstream consumer and reuse disposition still require review; absence from the new owner is not approval."
+    }
+  ],
+  "newDependencyScope": "Media3 dependency drawings/layouts are separate discoveries beyond the original baseline; they are not silently added to or closed in the 10926-family ledger."
+}

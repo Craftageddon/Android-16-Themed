@@ -1,0 +1,188 @@
+[
+  {
+    "familyId": "F-6947bcb021c6601c",
+    "existingDecision": "APPROVE_SEMANTIC_ART_REUSE",
+    "resource": "ic_back",
+    "newNativeBinding": {
+      "resource": "ic_back",
+      "qualifier": "drawable",
+      "family": "cg_gl_back",
+      "mode": 0,
+      "autoMirrored": true,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_back.xml",
+      "familyId": "F-6947bcb021c6601c"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-9372815429ec0d81",
+    "existingDecision": "APPROVE_SEMANTIC_ART_REUSE",
+    "resource": "ic_check",
+    "newNativeBinding": {
+      "resource": "ic_check",
+      "qualifier": "drawable",
+      "family": "cg_gl_check",
+      "mode": 0,
+      "autoMirrored": false,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_check.xml",
+      "familyId": "F-9372815429ec0d81"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-e0d8eaa390dc4a73",
+    "existingDecision": "APPROVE_SEMANTIC_ART_REUSE",
+    "resource": "ic_close",
+    "newNativeBinding": {
+      "resource": "ic_close",
+      "qualifier": "drawable",
+      "family": "cg_gl_close",
+      "mode": 0,
+      "autoMirrored": false,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_close.xml",
+      "familyId": "F-e0d8eaa390dc4a73"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-969215bde3101549",
+    "existingDecision": "APPROVE_SEMANTIC_ART_REUSE",
+    "resource": "ic_delete",
+    "newNativeBinding": {
+      "resource": "ic_delete",
+      "qualifier": "drawable",
+      "family": "cg_gl_delete",
+      "mode": 0,
+      "autoMirrored": false,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_delete.xml",
+      "familyId": "F-969215bde3101549"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-29955df06a180908",
+    "existingDecision": "APPROVE_SEMANTIC_ART_REUSE",
+    "resource": "ic_edit",
+    "newNativeBinding": {
+      "resource": "ic_edit",
+      "qualifier": "drawable",
+      "family": "cg_gl_edit",
+      "mode": 0,
+      "autoMirrored": false,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_edit.xml",
+      "familyId": "F-29955df06a180908"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-298814f5180141c6",
+    "existingDecision": "APPROVE_SEMANTIC_ART_REUSE",
+    "resource": "ic_info",
+    "newNativeBinding": {
+      "resource": "ic_info",
+      "qualifier": "drawable",
+      "family": "cg_gl_info",
+      "mode": 0,
+      "autoMirrored": false,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_info.xml",
+      "familyId": "F-298814f5180141c6"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-f7cb7be4307d1e26",
+    "existingDecision": "APPROVE_SEMANTIC_ART_REUSE",
+    "resource": "ic_location_on",
+    "newNativeBinding": {
+      "resource": "ic_location_on",
+      "qualifier": "drawable",
+      "family": "cg_gl_location_on",
+      "mode": 0,
+      "autoMirrored": false,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_location_on.xml",
+      "familyId": "F-f7cb7be4307d1e26"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-cadc03d86afa4e13",
+    "existingDecision": "APPROVE_SEMANTIC_ART_REUSE",
+    "resource": "ic_person",
+    "newNativeBinding": {
+      "resource": "ic_person",
+      "qualifier": "drawable",
+      "family": "cg_gl_person",
+      "mode": 0,
+      "autoMirrored": false,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_person.xml",
+      "familyId": "F-cadc03d86afa4e13"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-09ba88bd5d25ee8b",
+    "existingDecision": "APPROVE_SEMANTIC_ART_REUSE",
+    "resource": "ic_settings",
+    "newNativeBinding": {
+      "resource": "ic_settings",
+      "qualifier": "drawable",
+      "family": "cg_gl_settings",
+      "mode": 0,
+      "autoMirrored": false,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_settings.xml",
+      "familyId": "F-09ba88bd5d25ee8b"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-3f5fa6d9052542a3",
+    "existingDecision": "APPROVE_SEMANTIC_ART_REUSE",
+    "resource": "ic_share",
+    "newNativeBinding": {
+      "resource": "ic_share",
+      "qualifier": "drawable",
+      "family": "cg_gl_share",
+      "mode": 0,
+      "autoMirrored": false,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_share.xml",
+      "familyId": "F-3f5fa6d9052542a3"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-f7843645925b524a",
+    "existingDecision": "GAP_ART_AUTHORED",
+    "resource": "ic_star",
+    "newNativeBinding": {
+      "resource": "ic_star",
+      "qualifier": "drawable",
+      "family": "cg_gl_star",
+      "mode": 1,
+      "autoMirrored": false,
+      "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_star.xml",
+      "familyId": "F-f7843645925b524a"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-b7eab9dab5961cc6",
+    "existingDecision": "PRESERVE_NATIVE_REFERENCE_CONTRACT",
+    "resource": "ic_star_toggle",
+    "newNativeBinding": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-dcd7afa038188772",
+    "existingDecision": "PRESERVE_NATIVE_REFERENCE_CONTRACT",
+    "resource": "settingslib_switch_thumb_icon",
+    "newNativeBinding": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "familyId": "F-442273b5b1b73818",
+    "existingDecision": "PRESERVE_NATIVE_REFERENCE_CONTRACT",
+    "resource": "ic_launcher",
+    "newNativeBinding": null,
+    "nativeAcceptance": "NOT RUN"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "8d43b9056dc4c917fc3c4390c9e0c53a6cc18640c3dd633da8a1580f7db614b9"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-27T18:05:50+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "f2e4b64499410d8a962d9b5d6af0ad6a4668e639e6c356ff39a456de2fe98e22",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-27T18:05:50+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "c416bf082220d6afd604bf8365367a7fd6ed3f5197fea324dc261f79cb3e38c7",
+      "independence": null,
+      "method": "Pinned source/blob checks, pixel/mask transparency audit, clean patch byte parity, actual nine Java API compilation, SDK resource format/bank linking,1536 policy and1302 geometry cases, desktop rendering review",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-27T18:05:50+00:00",
+  "project": "26-gallery-workflows",
+  "schema": 1,
+  "status": "V2_PASS"
+}

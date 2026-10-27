@@ -1,0 +1,11 @@
+{
+  "project": "frameworks/base",
+  "revision": "7f6de40b6429462d47ba9ba351b99943269c8067",
+  "path": "graphics/java/android/graphics/drawable/DrawableInflater.java",
+  "url": "https://api.github.com/repos/LineageOS/android_frameworks_base/contents/graphics/java/android/graphics/drawable/DrawableInflater.java?ref=7f6de40b6429462d47ba9ba351b99943269c8067",
+  "gitBlobSha1": "831fe09c365fb7a1e06b66b1c5bc87cd1fc3626a",
+  "sha256": "1c14ec436bd89bc4995155f3cbb81db42cab240e7119e1452a810a71705925d5",
+  "bytes": 9222,
+  "saved": "source/pinned-framework/graphics/java/android/graphics/drawable/DrawableInflater.java",
+  "sourceOnlyNotExecuted": true
+}

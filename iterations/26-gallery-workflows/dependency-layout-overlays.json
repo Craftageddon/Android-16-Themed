@@ -1,0 +1,30 @@
+[
+  {
+    "source": "source/media3-ui/original-resources/res/layout/exo_player_control_view.xml",
+    "sourceSha256": "aceaeeb1048e3023c169d02c75c95f2f742becbc75b79a8fc89358e15a7fbc9a",
+    "target": "app/src/main/res/layout/cg_gl_player_controls.xml",
+    "patchedSha256": "f3d9189afbb07ddde35e79725bf10184ee66192bd18f054c37a514c4496db1c9",
+    "retainsNativeIdsAndActions": true
+  },
+  {
+    "source": "source/media3-ui/original-resources/res/layout/exo_styled_settings_list.xml",
+    "sourceSha256": "67850d4a50a3ec5f96528dda03984f1b3dac9ca26699661d16b44fd4ae63b461",
+    "target": "app/src/main/res/layout/exo_styled_settings_list.xml",
+    "patchedSha256": "715bd7dbbcb828e9e56f4f3f74992ac53343949d26a0a7f707c29a787b2be2bd",
+    "retainsNativeIdsAndActions": true
+  },
+  {
+    "source": "source/media3-ui/original-resources/res/layout/exo_styled_settings_list_item.xml",
+    "sourceSha256": "1db44f5379612e8ae1ef0fc92e80409a228900dc21f26ddc99e4ec98f322edc7",
+    "target": "app/src/main/res/layout/exo_styled_settings_list_item.xml",
+    "patchedSha256": "392d66cf3d83eb44d34aa0d325c6bdb848e7180502357d57698b30bbc7998130",
+    "retainsNativeIdsAndActions": true
+  },
+  {
+    "source": "source/media3-ui/original-resources/res/layout/exo_styled_sub_settings_list_item.xml",
+    "sourceSha256": "1be2419d86a70ac763557efe8578836f6139b729973d84f7aa5b20175a7ee185",
+    "target": "app/src/main/res/layout/exo_styled_sub_settings_list_item.xml",
+    "patchedSha256": "411b2d3b9ff7dc87c5bd144ac8e115e9b700acdb0c2ae89d2b3499b79203fb82",
+    "retainsNativeIdsAndActions": true
+  }
+]

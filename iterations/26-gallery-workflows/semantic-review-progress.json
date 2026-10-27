@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-27",
+  "familyRecords": 10926,
+  "sourceFileVariants": 16559,
+  "previousOpenFamilyDecisions": 9624,
+  "newContentBackedDecisions": 47,
+  "openFamilyDecisions": 9577,
+  "decisions": {
+    "OPEN": 9577,
+    "APPROVE_SEMANTIC_ART_REUSE": 189,
+    "PRESERVE_TEST_DATA": 125,
+    "PRESERVE_NEUTRAL_NATIVE_MOTION": 259,
+    "PRESERVE_NATIVE_REFERENCE_CONTRACT": 649,
+    "REJECT_DONOR_USE_NEW_REVIEWED_GEOMETRY": 16,
+    "REJECT_DONOR_RETARGET_REVIEWED_ART": 1,
+    "GAP_ART_AUTHORED": 16,
+    "REJECT_WHOLE_RESOURCE_ICON_SWAP": 8,
+    "OWNER_PRESENTATION_ADAPTATION_AUTHORED": 66,
+    "PRESERVE_EMPTY_SLOT": 14,
+    "PRESERVE_BUILD_CONTRACT": 5,
+    "PRESERVE_DATABASE_SCHEMA": 1
+  },
+  "previouslyAuthoredWorkflowGroups": [
+    "W-01",
+    "W-02",
+    "W-06"
+  ],
+  "partiallyAuthoredWorkflowGroups": [
+    "W-04",
+    "W-05"
+  ],
+  "unauthoredWorkflowGroups": [
+    "W-03",
+    "W-07"
+  ],
+  "incompleteWorkflowGroups": [
+    "W-03",
+    "W-04",
+    "W-05",
+    "W-07"
+  ],
+  "remainingGalleryFamilyReviews": [
+    {
+      "familyId": "F-596f0eb4b3060f7e",
+      "resource": "ic_launcher_background",
+      "reason": "Original legacy leaves retained after rebinding the adaptive owner. Repository/downstream consumer and reuse disposition still require review; absence from the new owner is not approval."
+    },
+    {
+      "familyId": "F-8fb1e33b0f8dd637",
+      "resource": "ic_launcher_foreground",
+      "reason": "Original legacy leaves retained after rebinding the adaptive owner. Repository/downstream consumer and reuse disposition still require review; absence from the new owner is not approval."
+    }
+  ],
+  "wholeSemanticReviewFinished": false,
+  "wholeGoalComplete": false,
+  "finalWholeGoalDoubleCheck": "NOT RUN - all required scope must be complete first"
+}

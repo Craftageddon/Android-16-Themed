@@ -1,0 +1,594 @@
+[
+  {
+    "resource": "ic_albums",
+    "qualifier": "drawable",
+    "family": "cg_gl_albums",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_albums.xml",
+    "familyId": "F-6a199b4cc4e8cd94"
+  },
+  {
+    "resource": "ic_back",
+    "qualifier": "drawable",
+    "family": "cg_gl_back",
+    "mode": 0,
+    "autoMirrored": true,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_back.xml",
+    "familyId": "F-6947bcb021c6601c"
+  },
+  {
+    "resource": "ic_camera",
+    "qualifier": "drawable",
+    "family": "cg_gl_camera",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_camera.xml",
+    "familyId": "F-552c769f2f2e4f6c"
+  },
+  {
+    "resource": "ic_check",
+    "qualifier": "drawable",
+    "family": "cg_gl_check",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_check.xml",
+    "familyId": "F-9372815429ec0d81"
+  },
+  {
+    "resource": "ic_check_circle",
+    "qualifier": "drawable",
+    "family": "cg_gl_check_circle",
+    "mode": 1,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_check_circle.xml",
+    "familyId": "F-4e960f343bd8ad14"
+  },
+  {
+    "resource": "ic_check_circle_outline",
+    "qualifier": "drawable",
+    "family": "cg_gl_check_circle_outline",
+    "mode": 2,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_check_circle_outline.xml",
+    "familyId": "F-5705bef1c2c634fb"
+  },
+  {
+    "resource": "ic_close",
+    "qualifier": "drawable",
+    "family": "cg_gl_close",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_close.xml",
+    "familyId": "F-e0d8eaa390dc4a73"
+  },
+  {
+    "resource": "ic_contact_page",
+    "qualifier": "drawable",
+    "family": "cg_gl_contact_page",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_contact_page.xml",
+    "familyId": "F-2279591febed25e7"
+  },
+  {
+    "resource": "ic_delete",
+    "qualifier": "drawable",
+    "family": "cg_gl_delete",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_delete.xml",
+    "familyId": "F-969215bde3101549"
+  },
+  {
+    "resource": "ic_delete_forever",
+    "qualifier": "drawable",
+    "family": "cg_gl_delete_forever",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_delete_forever.xml",
+    "familyId": "F-935d58a3ba598138"
+  },
+  {
+    "resource": "ic_delete_sweep",
+    "qualifier": "drawable",
+    "family": "cg_gl_delete_sweep",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_delete_sweep.xml",
+    "familyId": "F-ead3fcedbca8487c"
+  },
+  {
+    "resource": "ic_done",
+    "qualifier": "drawable",
+    "family": "cg_gl_done",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_done.xml",
+    "familyId": "F-68519774b6321515"
+  },
+  {
+    "resource": "ic_edit",
+    "qualifier": "drawable",
+    "family": "cg_gl_edit",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_edit.xml",
+    "familyId": "F-29955df06a180908"
+  },
+  {
+    "resource": "ic_image",
+    "qualifier": "drawable",
+    "family": "cg_gl_image",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_image.xml",
+    "familyId": "F-4be7ade2a8196eda"
+  },
+  {
+    "resource": "ic_info",
+    "qualifier": "drawable",
+    "family": "cg_gl_info",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_info.xml",
+    "familyId": "F-298814f5180141c6"
+  },
+  {
+    "resource": "ic_library",
+    "qualifier": "drawable",
+    "family": "cg_gl_library",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_library.xml",
+    "familyId": "F-3271524df1e9eb66"
+  },
+  {
+    "resource": "ic_location_on",
+    "qualifier": "drawable",
+    "family": "cg_gl_location_on",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_location_on.xml",
+    "familyId": "F-f7cb7be4307d1e26"
+  },
+  {
+    "resource": "ic_motion_play",
+    "qualifier": "drawable",
+    "family": "cg_gl_motion_play",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_motion_play.xml",
+    "familyId": "F-c177a69c4ff9546d"
+  },
+  {
+    "resource": "ic_no_photography",
+    "qualifier": "drawable",
+    "family": "cg_gl_no_photography",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_no_photography.xml",
+    "familyId": "F-64c210100f265409"
+  },
+  {
+    "resource": "ic_person",
+    "qualifier": "drawable",
+    "family": "cg_gl_person",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_person.xml",
+    "familyId": "F-cadc03d86afa4e13"
+  },
+  {
+    "resource": "ic_photo_size_select_actual",
+    "qualifier": "drawable",
+    "family": "cg_gl_photo_size_select_actual",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_photo_size_select_actual.xml",
+    "familyId": "F-88296e1288b762ce"
+  },
+  {
+    "resource": "ic_play_circle_outline",
+    "qualifier": "drawable",
+    "family": "cg_gl_play_circle_outline",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_play_circle_outline.xml",
+    "familyId": "F-f03946f1c9822309"
+  },
+  {
+    "resource": "ic_restore_from_trash",
+    "qualifier": "drawable",
+    "family": "cg_gl_restore_from_trash",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_restore_from_trash.xml",
+    "familyId": "F-6ebeff9697ab85e7"
+  },
+  {
+    "resource": "ic_settings",
+    "qualifier": "drawable",
+    "family": "cg_gl_settings",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_settings.xml",
+    "familyId": "F-09ba88bd5d25ee8b"
+  },
+  {
+    "resource": "ic_share",
+    "qualifier": "drawable",
+    "family": "cg_gl_share",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_share.xml",
+    "familyId": "F-3f5fa6d9052542a3"
+  },
+  {
+    "resource": "ic_star",
+    "qualifier": "drawable",
+    "family": "cg_gl_star",
+    "mode": 1,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_star.xml",
+    "familyId": "F-f7843645925b524a"
+  },
+  {
+    "resource": "ic_star_border",
+    "qualifier": "drawable",
+    "family": "cg_gl_star_border",
+    "mode": 2,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_star_border.xml",
+    "familyId": "F-832f69f4b57fb7e2"
+  },
+  {
+    "resource": "ic_video_camera_back",
+    "qualifier": "drawable",
+    "family": "cg_gl_video_camera_back",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_video_camera_back.xml",
+    "familyId": "F-e883091a2c237573"
+  },
+  {
+    "resource": "exo_ic_audiotrack",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_audiotrack",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_audiotrack"
+    ]
+  },
+  {
+    "resource": "exo_ic_check",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_check",
+    "mode": 1,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_check.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_check"
+    ]
+  },
+  {
+    "resource": "exo_ic_chevron_left",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_chevron_left",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_overflow_hide"
+    ]
+  },
+  {
+    "resource": "exo_ic_chevron_right",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_chevron_right",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_overflow_show"
+    ]
+  },
+  {
+    "resource": "exo_ic_forward",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_forward",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_forward.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_fastforward"
+    ]
+  },
+  {
+    "resource": "exo_ic_fullscreen_enter",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_fullscreen_enter",
+    "mode": 2,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_fullscreen_enter"
+    ]
+  },
+  {
+    "resource": "exo_ic_fullscreen_exit",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_fullscreen_exit",
+    "mode": 1,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_fullscreen_exit"
+    ]
+  },
+  {
+    "resource": "exo_ic_pause_circle_filled",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_pause_circle_filled",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_pause"
+    ]
+  },
+  {
+    "resource": "exo_ic_play_circle_filled",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_play_circle_filled",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_play"
+    ]
+  },
+  {
+    "resource": "exo_ic_rewind",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_rewind",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_rewind.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_rewind"
+    ]
+  },
+  {
+    "resource": "exo_ic_settings",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_settings",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_settings.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_settings"
+    ]
+  },
+  {
+    "resource": "exo_ic_skip_next",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_skip_next",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_next"
+    ]
+  },
+  {
+    "resource": "exo_ic_skip_previous",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_skip_previous",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_previous"
+    ]
+  },
+  {
+    "resource": "exo_ic_speed",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_speed",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_speed.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_speed"
+    ]
+  },
+  {
+    "resource": "exo_ic_subtitle_off",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_subtitle_off",
+    "mode": 2,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_subtitle_off"
+    ]
+  },
+  {
+    "resource": "exo_ic_subtitle_on",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_ic_subtitle_on",
+    "mode": 1,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_subtitle_on"
+    ]
+  },
+  {
+    "resource": "exo_icon_fastforward",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_icon_fastforward",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_simple_fastforward"
+    ]
+  },
+  {
+    "resource": "exo_icon_repeat_all",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_icon_repeat_all",
+    "mode": 1,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_repeat_all"
+    ]
+  },
+  {
+    "resource": "exo_icon_repeat_off",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_icon_repeat_off",
+    "mode": 2,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_repeat_off"
+    ]
+  },
+  {
+    "resource": "exo_icon_repeat_one",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_icon_repeat_one",
+    "mode": 1,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_repeat_one"
+    ]
+  },
+  {
+    "resource": "exo_icon_rewind",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_icon_rewind",
+    "mode": 0,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_simple_rewind"
+    ]
+  },
+  {
+    "resource": "exo_icon_shuffle_off",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_icon_shuffle_off",
+    "mode": 2,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_shuffle_off"
+    ]
+  },
+  {
+    "resource": "exo_icon_shuffle_on",
+    "qualifier": "drawable-anydpi-v21",
+    "family": "cg_gl_icon_shuffle_on",
+    "mode": 1,
+    "autoMirrored": false,
+    "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+    "library": "media3-ui1.10.0",
+    "sourceAliases": [
+      "exo_styled_controls_shuffle_on"
+    ]
+  },
+  {
+    "resource": "cg_gl_media_frame",
+    "qualifier": "drawable",
+    "family": "cg_gl_media_frame",
+    "mode": 0,
+    "autoMirrored": false,
+    "role": "actual thumbnail/album foreground"
+  },
+  {
+    "resource": "cg_gl_panel",
+    "qualifier": "drawable",
+    "family": "cg_gl_panel",
+    "mode": 0,
+    "autoMirrored": false,
+    "role": "scoped native material/control"
+  },
+  {
+    "resource": "cg_gl_button",
+    "qualifier": "drawable",
+    "family": "cg_gl_button",
+    "mode": 0,
+    "autoMirrored": false,
+    "role": "scoped native material/control"
+  },
+  {
+    "resource": "cg_gl_field",
+    "qualifier": "drawable",
+    "family": "cg_gl_field",
+    "mode": 0,
+    "autoMirrored": false,
+    "role": "scoped native material/control"
+  },
+  {
+    "resource": "cg_gl_rail",
+    "qualifier": "drawable",
+    "family": "cg_gl_rail",
+    "mode": 0,
+    "autoMirrored": false,
+    "role": "scoped native material/control"
+  },
+  {
+    "resource": "cg_gl_switch_track",
+    "qualifier": "drawable",
+    "family": "cg_gl_switch_track",
+    "mode": 0,
+    "autoMirrored": false,
+    "role": "scoped native material/control"
+  },
+  {
+    "resource": "cg_gl_switch_thumb",
+    "qualifier": "drawable",
+    "family": "cg_gl_switch_thumb",
+    "mode": 0,
+    "autoMirrored": false,
+    "role": "scoped native material/control"
+  },
+  {
+    "resource": "cg_gl_seek_thumb",
+    "qualifier": "drawable",
+    "family": "cg_gl_seek_thumb",
+    "mode": 0,
+    "autoMirrored": false,
+    "role": "scoped native material/control"
+  }
+]

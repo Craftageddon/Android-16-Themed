@@ -1,0 +1,396 @@
+{
+  "repository": "platform/prebuilts/sdk",
+  "revision": "0f07e8d60ab0aba46129e427101f96ba459a95c1",
+  "libraries": [
+    {
+      "path": "current/androidx/m2repository/androidx/navigationevent/navigationevent-android/1.1.0-beta01/navigationevent-android-1.1.0-beta01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigationevent/navigationevent-android/1.1.0-beta01/navigationevent-android-1.1.0-beta01.aar?format=TEXT",
+      "gitBlobSha1": "634e5d972c49e06a49a0c16a415951f6cfa2f075",
+      "sha256": "0a68935b8e8ecbc8317fec6cbbc51cc802b9a6f7641f6f874f42137079b17800",
+      "bytes": 49048,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__navigationevent__navigationevent-android__1.1.0-beta01__navigationevent-android-1.1.0-beta01.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__navigationevent__navigationevent-android__1.1.0-beta01__navigationevent-android-1.1.0-beta01.classes.jar",
+      "classesSha256": "3581daf34b2d7d47ab9b5857dc3a9f886f85f2561fc8d566b61c7233f9218e58",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__navigationevent__navigationevent-android__1.1.0-beta01__navigationevent-android-1.1.0-beta01.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/navigationevent/navigationevent-android/1.1.0-beta01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigationevent/navigationevent-android/1.1.0-beta01/Android.bp?format=TEXT",
+        "gitBlobSha1": "0117bbe6cb6336762d280bc0ca1826c083c8688f",
+        "sha256": "e46ffd989df15603e2e1f0ce08bed7fdffaf0aaa6c13e4d98e68ab156c501901",
+        "bytes": 1298,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__navigationevent__navigationevent-android__1.1.0-beta01__Android.bp"
+      },
+      "artifact": "navigationevent/navigationevent-android",
+      "version": "1.1.0-beta01"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/core/core/1.20.0-alpha01/core-1.20.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/core/core/1.20.0-alpha01/core-1.20.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "5f7d06bbfd393f4e0ee5510c439c55eac86c03a9",
+      "sha256": "761fb6bac8614d6e0050a98a9d2048fa5bc980df3c6429b337915da895fc3fd2",
+      "bytes": 1400080,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__core__core__1.20.0-alpha01__core-1.20.0-alpha01.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__core__core__1.20.0-alpha01__core-1.20.0-alpha01.classes.jar",
+      "classesSha256": "f33c2ec62e98b2dea798ccbebfedfa57a42db0727a3a3b40926ae8b3c2ca0fcf",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__core__core__1.20.0-alpha01__core-1.20.0-alpha01.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/core/core/1.20.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/core/core/1.20.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "ba910e1763e79d10a4d5a399f9e25329f05590af",
+        "sha256": "8512a8c687da784099aaddc17120d1aab30fae0f16263bc6561c890d179aaa7e",
+        "bytes": 1635,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__core__core__1.20.0-alpha01__Android.bp"
+      },
+      "artifact": "core/core",
+      "version": "1.20.0-alpha01"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/core/core-viewtree/1.1.0-alpha01/core-viewtree-1.1.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/core/core-viewtree/1.1.0-alpha01/core-viewtree-1.1.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "e00c87567e488dfc93141d4e7836262630bb6d0b",
+      "sha256": "b2efc91a9a5cb130ffa83276a3e24c64c50229192c690a2ad8e3cb8915b441c2",
+      "bytes": 6810,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__core__core-viewtree__1.1.0-alpha01__core-viewtree-1.1.0-alpha01.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__core__core-viewtree__1.1.0-alpha01__core-viewtree-1.1.0-alpha01.classes.jar",
+      "classesSha256": "d0bc6a492eada61212325edf8d9324e11924790c54553e62fb9d44782e8897c0",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__core__core-viewtree__1.1.0-alpha01__core-viewtree-1.1.0-alpha01.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/core/core-viewtree/1.1.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/core/core-viewtree/1.1.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "e8c3c893a426a89407e9a92f3dc5e8f803e3a182",
+        "sha256": "b799498016b5d4ba1834ca8f2642a5997335bebae63755e73c3a4de5605ee49e",
+        "bytes": 1030,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__core__core-viewtree__1.1.0-alpha01__Android.bp"
+      },
+      "artifact": "core/core-viewtree",
+      "version": "1.1.0-alpha01"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/recyclerview/recyclerview/1.5.0-alpha01/recyclerview-1.5.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/recyclerview/recyclerview/1.5.0-alpha01/recyclerview-1.5.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "d48062ef26a844d1db87e02b399736a8b041c561",
+      "sha256": "c29561de03c5504f6b92a102f0e3439b6f76143f7df74df625c77459ed13eee8",
+      "bytes": 452881,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__recyclerview__recyclerview__1.5.0-alpha01__recyclerview-1.5.0-alpha01.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__recyclerview__recyclerview__1.5.0-alpha01__recyclerview-1.5.0-alpha01.classes.jar",
+      "classesSha256": "936e5b900aaddfd77bef9c65417082b033ef9abcad047a725996352b42edd02a",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__recyclerview__recyclerview__1.5.0-alpha01__recyclerview-1.5.0-alpha01.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/recyclerview/recyclerview/1.5.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/recyclerview/recyclerview/1.5.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "2c28c3aa5b28f37360be7e0bbe468b0171e1f008",
+        "sha256": "661ed3612b03cdb3c1aa65867b27995e773ef40a767057cb466a40ce2025f441",
+        "bytes": 1325,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__recyclerview__recyclerview__1.5.0-alpha01__Android.bp"
+      },
+      "artifact": "recyclerview/recyclerview",
+      "version": "1.5.0-alpha01"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/activity/activity/1.14.0-alpha01/activity-1.14.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/activity/activity/1.14.0-alpha01/activity-1.14.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "287ccad9fb28ef3d46b97df5391624826beb4706",
+      "sha256": "83272247d0103b53cf7815d40ad278cdbc39aac8bc6051b507540c23adbcbbd4",
+      "bytes": 222655,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__activity__activity__1.14.0-alpha01__activity-1.14.0-alpha01.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__activity__activity__1.14.0-alpha01__activity-1.14.0-alpha01.classes.jar",
+      "classesSha256": "0f2b298f2a10a67ff0e07287cf0ad84e1e9a1322921685b9dc95d246af7c9976",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__activity__activity__1.14.0-alpha01__activity-1.14.0-alpha01.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/activity/activity/1.14.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/activity/activity/1.14.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "5e76790b2763c4ecee0d695e36d7f40f639ea3a1",
+        "sha256": "68d5a3b5d20b9eed70246402c6bb0db7b19338c0291585b7324f3d19a3cee1df",
+        "bytes": 1560,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__activity__activity__1.14.0-alpha01__Android.bp"
+      },
+      "artifact": "activity/activity",
+      "version": "1.14.0-alpha01"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-common-jvm/2.11.0-alpha03/lifecycle-common-jvm-2.11.0-alpha03.jar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-common-jvm/2.11.0-alpha03/lifecycle-common-jvm-2.11.0-alpha03.jar?format=TEXT",
+      "gitBlobSha1": "030b6a6aae7e6e89d322cc86e9b1fd5619df2d14",
+      "sha256": "6d233043a3d7607044eede264e26683f970dfbb43c136e1bc94c92eb47e2433d",
+      "bytes": 65491,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-common-jvm__2.11.0-alpha03__lifecycle-common-jvm-2.11.0-alpha03.jar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-common-jvm__2.11.0-alpha03__lifecycle-common-jvm-2.11.0-alpha03.jar",
+      "classesSha256": "6d233043a3d7607044eede264e26683f970dfbb43c136e1bc94c92eb47e2433d",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-common-jvm/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-common-jvm/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "35f0f9a38f6d8a8477f933b59bd8d6b0fa4e7ba6",
+        "sha256": "daf2796c41e352ac489dce36824c266869f0c8e561d12efd19303c9b057f67a6",
+        "bytes": 1081,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-common-jvm__2.11.0-alpha03__Android.bp"
+      },
+      "artifact": "lifecycle/lifecycle-common-jvm",
+      "version": "2.11.0-alpha03"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-android/2.11.0-alpha03/lifecycle-runtime-android-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-android/2.11.0-alpha03/lifecycle-runtime-android-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "7b0e806260046d29f97fb8a721668bbda1f59aa7",
+      "sha256": "7a331736f2c70f36881c0efd8953daf58a792459ba24291152b5ab430fb858dd",
+      "bytes": 84950,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-runtime-android__2.11.0-alpha03__lifecycle-runtime-android-2.11.0-alpha03.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-runtime-android__2.11.0-alpha03__lifecycle-runtime-android-2.11.0-alpha03.classes.jar",
+      "classesSha256": "4ea3833217efc77668143f3ab347e859350ed8e0d70359bf045783cc1756a52e",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-runtime-android__2.11.0-alpha03__lifecycle-runtime-android-2.11.0-alpha03.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-android/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-android/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "eae11022580d1194bab561eab72b3b43374a08b5",
+        "sha256": "a4064e21ea7f3d74eb16a51567d4ffe4d77179c74f83043527cc39704c72a90a",
+        "bytes": 1419,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-runtime-android__2.11.0-alpha03__Android.bp"
+      },
+      "artifact": "lifecycle/lifecycle-runtime-android",
+      "version": "2.11.0-alpha03"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-android/2.11.0-alpha03/lifecycle-viewmodel-android-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-android/2.11.0-alpha03/lifecycle-viewmodel-android-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "3ed198a3efdad8e4382dcb11b050f3e90f759a96",
+      "sha256": "01c32a9550764bc89b5aa32806d6eb5c8ee437bb87b380119aa196dec8d1eb94",
+      "bytes": 68136,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-viewmodel-android__2.11.0-alpha03__lifecycle-viewmodel-android-2.11.0-alpha03.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-viewmodel-android__2.11.0-alpha03__lifecycle-viewmodel-android-2.11.0-alpha03.classes.jar",
+      "classesSha256": "a4f13afe6d05b35c7c53869e156a73e32a8fad9bcf14d8a368ecb81b114c69ba",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-viewmodel-android__2.11.0-alpha03__lifecycle-viewmodel-android-2.11.0-alpha03.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-android/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-android/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "857010a84a484cd60afc2d59f3dc925128e3d659",
+        "sha256": "1c78d9262ed305f6e920800df97ae787a495258aa25bd0ee6f2d9642f5417607",
+        "bytes": 1247,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-viewmodel-android__2.11.0-alpha03__Android.bp"
+      },
+      "artifact": "lifecycle/lifecycle-viewmodel-android",
+      "version": "2.11.0-alpha03"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/savedstate/savedstate-android/1.5.0-alpha02/savedstate-android-1.5.0-alpha02.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/savedstate/savedstate-android/1.5.0-alpha02/savedstate-android-1.5.0-alpha02.aar?format=TEXT",
+      "gitBlobSha1": "bb061cb35317da287862eeef40911435655c056d",
+      "sha256": "8254dca1093eb9cb7f83d9401686b283b524c97fea9f3635a2c191a8fc3b9c96",
+      "bytes": 261397,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__savedstate__savedstate-android__1.5.0-alpha02__savedstate-android-1.5.0-alpha02.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__savedstate__savedstate-android__1.5.0-alpha02__savedstate-android-1.5.0-alpha02.classes.jar",
+      "classesSha256": "fa884435d50dfb5277414d167cd696cfeb70973fbe2f569b01347d506e959477",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__savedstate__savedstate-android__1.5.0-alpha02__savedstate-android-1.5.0-alpha02.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/savedstate/savedstate-android/1.5.0-alpha02/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/savedstate/savedstate-android/1.5.0-alpha02/Android.bp?format=TEXT",
+        "gitBlobSha1": "ce03e1c18405239fa10de5ee5555d0c88aed2d28",
+        "sha256": "d91699ad62a80fad28c19ee3e31a116123e55f4fbbbe2b35c4fca5acde6a5f4a",
+        "bytes": 1310,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__savedstate__savedstate-android__1.5.0-alpha02__Android.bp"
+      },
+      "artifact": "savedstate/savedstate-android",
+      "version": "1.5.0-alpha02"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/annotation/annotation-jvm/1.10.0/annotation-jvm-1.10.0.jar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/annotation/annotation-jvm/1.10.0/annotation-jvm-1.10.0.jar?format=TEXT",
+      "gitBlobSha1": "36a890533fdc880ddc212768b6aeba804b189b67",
+      "sha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697",
+      "bytes": 62171,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__annotation__annotation-jvm__1.10.0__annotation-jvm-1.10.0.jar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__annotation__annotation-jvm__1.10.0__annotation-jvm-1.10.0.jar",
+      "classesSha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/annotation/annotation-jvm/1.10.0/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/annotation/annotation-jvm/1.10.0/Android.bp?format=TEXT",
+        "gitBlobSha1": "195143cb53444d2dd25ef415d8878bd5865d4d30",
+        "sha256": "1f85e492ba523a95dbcb54147bc28b7adc7ec4816e636e256e238e3625eb34e4",
+        "bytes": 996,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__annotation__annotation-jvm__1.10.0__Android.bp"
+      },
+      "artifact": "annotation/annotation-jvm",
+      "version": "1.10.0"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/annotation/annotation-experimental/1.6.0/annotation-experimental-1.6.0.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/annotation/annotation-experimental/1.6.0/annotation-experimental-1.6.0.aar?format=TEXT",
+      "gitBlobSha1": "5c656b1122495d941755407612c83a0b0df69d01",
+      "sha256": "86ca66e1b758b439918140f87f6513d4d806d3d5637dfdac04495f3b1f5ed102",
+      "bytes": 44831,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__annotation__annotation-experimental__1.6.0__annotation-experimental-1.6.0.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__annotation__annotation-experimental__1.6.0__annotation-experimental-1.6.0.classes.jar",
+      "classesSha256": "89bf8d934802fce832d054bb5f1bd0df87bf9336496c4d3f7fb60cd6c852f343",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__annotation__annotation-experimental__1.6.0__annotation-experimental-1.6.0.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/annotation/annotation-experimental/1.6.0/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/annotation/annotation-experimental/1.6.0/Android.bp?format=TEXT",
+        "gitBlobSha1": "5634f323d9e2d73aa69c65da6adbefbfb5790144",
+        "sha256": "a15e165f0434d2ea6c4204329303fd3e5ad055f33f93af083e9cdc6513729ae4",
+        "bytes": 1048,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__annotation__annotation-experimental__1.6.0__Android.bp"
+      },
+      "artifact": "annotation/annotation-experimental",
+      "version": "1.6.0"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/customview/customview/1.2.0-beta01/customview-1.2.0-beta01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/customview/customview/1.2.0-beta01/customview-1.2.0-beta01.aar?format=TEXT",
+      "gitBlobSha1": "d5e34a5b28c8d2dce073eeccb0ece2e71d1d214b",
+      "sha256": "351b97657edece721547f6116ab036df2f8fba00a2f07468524368fb1fa297b7",
+      "bytes": 40668,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__customview__customview__1.2.0-beta01__customview-1.2.0-beta01.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__customview__customview__1.2.0-beta01__customview-1.2.0-beta01.classes.jar",
+      "classesSha256": "d130ae4b7f7bc522b040586ba9a2d588153bd4189d1a33c839c8f3e331a19bea",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__customview__customview__1.2.0-beta01__customview-1.2.0-beta01.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/customview/customview/1.2.0-beta01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/customview/customview/1.2.0-beta01/Android.bp?format=TEXT",
+        "gitBlobSha1": "33123bd672f49bc3b2cef2e59483c2fe4b3321e3",
+        "sha256": "c6a2ad209fb44edeee8507b528deb9c17cbef6427fd94a1022bcc44fd0aea4fb",
+        "bytes": 1163,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__customview__customview__1.2.0-beta01__Android.bp"
+      },
+      "artifact": "customview/customview",
+      "version": "1.2.0-beta01"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/customview/customview-poolingcontainer/1.1.0-beta01/customview-poolingcontainer-1.1.0-beta01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/customview/customview-poolingcontainer/1.1.0-beta01/customview-poolingcontainer-1.1.0-beta01.aar?format=TEXT",
+      "gitBlobSha1": "f2df529b06c4b03f361ead1d1092503d5d27e885",
+      "sha256": "e4947598c1ec7b8f419a358c85e3def8bb0fe0b89989592a837470111c777ecc",
+      "bytes": 10337,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__customview__customview-poolingcontainer__1.1.0-beta01__customview-poolingcontainer-1.1.0-beta01.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__customview__customview-poolingcontainer__1.1.0-beta01__customview-poolingcontainer-1.1.0-beta01.classes.jar",
+      "classesSha256": "a830b85d69941f3444ee2a17a9e79904afa3c6c4c94db7cedd2ccf90321632f7",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__customview__customview-poolingcontainer__1.1.0-beta01__customview-poolingcontainer-1.1.0-beta01.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/customview/customview-poolingcontainer/1.1.0-beta01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/customview/customview-poolingcontainer/1.1.0-beta01/Android.bp?format=TEXT",
+        "gitBlobSha1": "91c29765530a8446f8d5dc95d321df7dda5c4fab",
+        "sha256": "b3366b2ec84f4c9f752ec41f1e749b778f873f04c717359e4cecc23579c36602",
+        "bytes": 1097,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__customview__customview-poolingcontainer__1.1.0-beta01__Android.bp"
+      },
+      "artifact": "customview/customview-poolingcontainer",
+      "version": "1.1.0-beta01"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/coordinatorlayout/coordinatorlayout/1.3.0-rc01/coordinatorlayout-1.3.0-rc01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/coordinatorlayout/coordinatorlayout/1.3.0-rc01/coordinatorlayout-1.3.0-rc01.aar?format=TEXT",
+      "gitBlobSha1": "18ac1bed758f6e51f8a49342242953d00df7d2c8",
+      "sha256": "329d07091df634473147d15b2cb78a3870a1a62cf5e6d9aac5fdb3cd47aede24",
+      "bytes": 52675,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__coordinatorlayout__coordinatorlayout__1.3.0-rc01__coordinatorlayout-1.3.0-rc01.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__coordinatorlayout__coordinatorlayout__1.3.0-rc01__coordinatorlayout-1.3.0-rc01.classes.jar",
+      "classesSha256": "3bd84b301f1e2fccbe64a272e9f9f601db2058a5305ec1e4ab00e43f1b82aee3",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__coordinatorlayout__coordinatorlayout__1.3.0-rc01__coordinatorlayout-1.3.0-rc01.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/coordinatorlayout/coordinatorlayout/1.3.0-rc01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/coordinatorlayout/coordinatorlayout/1.3.0-rc01/Android.bp?format=TEXT",
+        "gitBlobSha1": "bede3f44e8e27c3bd116bfc5692fc9b070f6e245",
+        "sha256": "6ec06342270e9ed8779c0bfb8a7aaa1b0c57a4b0be50682fe0f39d367e32b764",
+        "bytes": 1224,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__coordinatorlayout__coordinatorlayout__1.3.0-rc01__Android.bp"
+      },
+      "artifact": "coordinatorlayout/coordinatorlayout",
+      "version": "1.3.0-rc01"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/drawerlayout/drawerlayout/1.3.0-alpha01/drawerlayout-1.3.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/drawerlayout/drawerlayout/1.3.0-alpha01/drawerlayout-1.3.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "f6dee245bffecff33a1d1f2e5305a1e785796ba9",
+      "sha256": "2bfbf84c0f063278e67b6e4b7746c1c99dbe5f5c054f0dc6c3bf42ca8897d217",
+      "bytes": 38700,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__drawerlayout__drawerlayout__1.3.0-alpha01__drawerlayout-1.3.0-alpha01.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__drawerlayout__drawerlayout__1.3.0-alpha01__drawerlayout-1.3.0-alpha01.classes.jar",
+      "classesSha256": "9b9e08318ed2e0be53820a05e6837c5035e10800f05dc3b46b2890c2b4d5d7b0",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__drawerlayout__drawerlayout__1.3.0-alpha01__drawerlayout-1.3.0-alpha01.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/drawerlayout/drawerlayout/1.3.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/drawerlayout/drawerlayout/1.3.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "5a27338608b3c326a54379ec947d12af97de4544",
+        "sha256": "7acee6900a8dc48e8aadf845975e8344825eaa0c166df9a1ef39bdb426f9395b",
+        "bytes": 1170,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__drawerlayout__drawerlayout__1.3.0-alpha01__Android.bp"
+      },
+      "artifact": "drawerlayout/drawerlayout",
+      "version": "1.3.0-alpha01"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/fragment/fragment/1.9.0-alpha01/fragment-1.9.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/fragment/fragment/1.9.0-alpha01/fragment-1.9.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "247c8b957a9459b7a1aa61327b5b50039f31ceb6",
+      "sha256": "3eda6a736fa8feea755e2b4ab1dd98f983cd8d303f2231c1f4c5c0d253661f91",
+      "bytes": 399712,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__fragment__fragment__1.9.0-alpha01__fragment-1.9.0-alpha01.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__fragment__fragment__1.9.0-alpha01__fragment-1.9.0-alpha01.classes.jar",
+      "classesSha256": "eac9411292bd5f80f22434a014c0c14c28cb84632e665ede296295ffff7e656c",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__fragment__fragment__1.9.0-alpha01__fragment-1.9.0-alpha01.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/fragment/fragment/1.9.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/fragment/fragment/1.9.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "a9c727e3e517b5ce3ab913ccd137eeaa407dd3d9",
+        "sha256": "9cdd997f9a99299f49eada162baa796526373a50c5947b0657d39c620d23f93a",
+        "bytes": 1727,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__fragment__fragment__1.9.0-alpha01__Android.bp"
+      },
+      "artifact": "fragment/fragment",
+      "version": "1.9.0-alpha01"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-livedata-core/2.11.0-alpha03/lifecycle-livedata-core-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-livedata-core/2.11.0-alpha03/lifecycle-livedata-core-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "b8a6f68433dc3508d1e9b6d59a00065f57939eb3",
+      "sha256": "4f158d778a99997bd6fb963c0980b6b81f4fbb2a2dcae0f429d31680f2f408cd",
+      "bytes": 34105,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-livedata-core__2.11.0-alpha03__lifecycle-livedata-core-2.11.0-alpha03.aar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-livedata-core__2.11.0-alpha03__lifecycle-livedata-core-2.11.0-alpha03.classes.jar",
+      "classesSha256": "028a49747261c2bebbe31b20bb765e866313766a0f3d4802aae92ce49819ed38",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-livedata-core__2.11.0-alpha03__lifecycle-livedata-core-2.11.0-alpha03.R.txt",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-livedata-core/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-livedata-core/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "961e5d77e52def29d14be404e6765bfb354e90a6",
+        "sha256": "8078050eed40532d8004f9abf1ef5111fe075ab3d0af5ee1e09e837102ea8996",
+        "bytes": 1208,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__lifecycle__lifecycle-livedata-core__2.11.0-alpha03__Android.bp"
+      },
+      "artifact": "lifecycle/lifecycle-livedata-core",
+      "version": "2.11.0-alpha03"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/appcompat/appcompat/1.8.0-alpha01/appcompat-1.8.0-alpha01.aar",
+      "gitBlobSha1": "6d8958ef3d5d6196f6f7d3b83c32dde2abca0654",
+      "sha256": "443345d1d3f114ff199a9a030b3fe9c55c161ab67f6a895bbd66e676f2d5f2e0",
+      "bytes": 1193418,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__appcompat__appcompat__1.8.0-alpha01__appcompat-1.8.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/appcompat/appcompat/1.8.0-alpha01/appcompat-1.8.0-alpha01.aar?format=TEXT",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__appcompat__appcompat__1.8.0-alpha01__appcompat-1.8.0-alpha01.classes.jar",
+      "classesSha256": "da27b8bd6a0b4c2a01e02cd2888e95ca27b76af6ce6d32453d2cb0c6e8741ddd",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__appcompat__appcompat__1.8.0-alpha01__appcompat-1.8.0-alpha01.R.txt"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/appcompat/appcompat-resources/1.8.0-alpha01/appcompat-resources-1.8.0-alpha01.aar",
+      "gitBlobSha1": "a944db08af46956e52146142f84d3f158bc56712",
+      "sha256": "53859cfa469311ecaeb7fa6daf77daa2f7043aa5886167f87ff17230001d086f",
+      "bytes": 67434,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__appcompat__appcompat-resources__1.8.0-alpha01__appcompat-resources-1.8.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/appcompat/appcompat-resources/1.8.0-alpha01/appcompat-resources-1.8.0-alpha01.aar?format=TEXT",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__appcompat__appcompat-resources__1.8.0-alpha01__appcompat-resources-1.8.0-alpha01.classes.jar",
+      "classesSha256": "28533f74ac2b767d254a15b8bd593a5b06b05e17c6fcad0fe5fa6e8ae5163e92",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__appcompat__appcompat-resources__1.8.0-alpha01__appcompat-resources-1.8.0-alpha01.R.txt"
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/preference/preference/1.3.0-alpha01/preference-1.3.0-alpha01.aar",
+      "gitBlobSha1": "06a4d4363bef1383c27f3eac17fd90ef756b74d0",
+      "sha256": "72881d00299ebabd4243a1fc2b0dabd9ba08186eb4c5e098b7b33c108336f533",
+      "bytes": 251569,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__preference__preference__1.3.0-alpha01__preference-1.3.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/preference/preference/1.3.0-alpha01/preference-1.3.0-alpha01.aar?format=TEXT",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\ayn21-platform-dependencies\\current__androidx__m2repository__androidx__preference__preference__1.3.0-alpha01__preference-1.3.0-alpha01.classes.jar",
+      "classesSha256": "f6df67e9060b62763da14e8750926fd6f5309f757f50be5c89e9911ca2130427",
+      "resourceSymbols": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery26-platform\\current__androidx__m2repository__androidx__preference__preference__1.3.0-alpha01__preference-1.3.0-alpha01.R.txt"
+    }
+  ],
+  "purpose": "Actual source API compatibility compile, not Soong build",
+  "licenses": "Original dependency licenses retained in source artifacts; no relicensing."
+}

@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "actualRendererClasses": 3,
+  "actualPolicyCases": 1536,
+  "nativeSources": {
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeStatePolicy.java": "fb0cae02ab9dd67b6473e96e74fe2e6745f012c3136aa2d0725d8cadfe2f6d5e",
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeResources.java": "1754b1bb557cd44208da19d443116f099c0337870b483b0337216dc25b913c40",
+    "app/src/main/java/org/lineageos/glimpse/forge/ForgeDrawable.java": "95f5535beb40bf545e4871023d0513330aa02b74766da00c9c78371bd21cce8c"
+  },
+  "sdkJar": "C:\\Users\\spencerm\\AppData\\Local\\Android\\Sdk\\platforms\\android-36.1\\android.jar",
+  "sdkJarSha256": "2981111371989ae7141868d6162070c89f0f1d505f66ac9dc7fdfd4d8c744264",
+  "libraryJarSha256": "b2dddf10cb5ddf9430aeba2981db75447815a7502b10492909199e18fd4374b6",
+  "actualAppOwnersCompiled": false,
+  "fullPinnedSoongBuild": "NOT RUN",
+  "nativeXmlInflation": "NOT RUN",
+  "wholeGoalComplete": false
+}
