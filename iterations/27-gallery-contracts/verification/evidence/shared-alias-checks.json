@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "styledAliasesScoped": 23,
+  "legacyAndNotificationAliasesPreserved": 22,
+  "oldSharedOverridesRemoved": 23,
+  "priorCrossConsumerEffectsCorrected": 9,
+  "unchangedPngConfigurations": 1680,
+  "actualKotlinOwnersCompiled": 72,
+  "nativeXmlInflation": "NOT RUN",
+  "fullSoongBuild": "NOT RUN",
+  "wholeGoalComplete": false
+}

@@ -1,0 +1,686 @@
+[
+  {
+    "path": "app/Android.bp",
+    "beforeSha256": "0c35402ade0e2a70685fbb67dfc23a05bd7a8ed50c8e5853b04e7ace9e26b324",
+    "afterSha256": "d88276efba26c2a2393ce78f76fc4b18c7d5f9309592a554f0babd9dd55b48e5",
+    "deleted": false
+  },
+  {
+    "path": "app/proguard-rules.pro",
+    "beforeSha256": "d692250dca4367339dc75a9f8ea10d80b844cefc1e710c7473f9bb26f5e4c8dc",
+    "afterSha256": "95876be74611abec1ba72966bafd19fb4769c34454e5cb1bc125e737bb94ec76",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/GlimpseApplication.kt",
+    "beforeSha256": "e86ecf80414480246af5c6813974cc7195ae4e6840fd484614181aea1423cf27",
+    "afterSha256": "4436fdfcb1d9fa1972bb48d5ae743c3eb8dad86b85f73320fcaa94840b7eada4",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/SetWallpaperActivity.kt",
+    "beforeSha256": "b1b3cdb35f649d7a2f9addba19574d1f2e9cb76b06cda71dfa5bd58d4953817d",
+    "afterSha256": "fe930968f8f1097ccfe9a1fcd42717e32999f485eaa8a21a98f5038a269949cb",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/SettingsActivity.kt",
+    "beforeSha256": "3dee061bff9771291eb5a001dd83381ae3cdb7294802a1afc3fd453f30967380",
+    "afterSha256": "8171ca3970c9cc26ab5f5ebd70bf40c92f124f3794ce56d86376ef11b85e1ec7",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/ViewActivity.kt",
+    "beforeSha256": "356e63cb7a03d08bea0f32b58632f8d00ce39a5539f25069ee7d63f2d68a7ad5",
+    "afterSha256": "2485be69367775ce265e64d400f5c3fc8e560ca718ed244fb6ba760172712769",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/forge/ForgeActionLayout.java",
+    "beforeSha256": null,
+    "afterSha256": "def299b5b076914d640c2bf5d18eb4213906051c29fd5038d1eee353271f0e3e",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/forge/ForgeDrawable.java",
+    "beforeSha256": null,
+    "afterSha256": "95f5535beb40bf545e4871023d0513330aa02b74766da00c9c78371bd21cce8c",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/forge/ForgeGallerySkin.java",
+    "beforeSha256": null,
+    "afterSha256": "049182c3f78aa44de982e2bf743f7bdc371690d85fad519b93d3ccc4dba694bf",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/forge/ForgeMaterialSwitch.java",
+    "beforeSha256": null,
+    "afterSha256": "06443965e76628d9dcefb09821794815d29f928c7028eabacfd9e13b9be13faa",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/forge/ForgeResources.java",
+    "beforeSha256": null,
+    "afterSha256": "1754b1bb557cd44208da19d443116f099c0337870b483b0337216dc25b913c40",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/forge/ForgeRowPlan.java",
+    "beforeSha256": null,
+    "afterSha256": "529a7bfd18e14e85a19f738a2c0e72b624045ffdfc49184512d6c7a13b866bd4",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/forge/ForgeSeekBarPreference.java",
+    "beforeSha256": null,
+    "afterSha256": "2598b79e20ca3f5375e700fe38008fb96f66198f660ba31880dd002bd01429eb",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/forge/ForgeStatePolicy.java",
+    "beforeSha256": null,
+    "afterSha256": "fb0cae02ab9dd67b6473e96e74fe2e6745f012c3136aa2d0725d8cadfe2f6d5e",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/forge/ForgeSwitchPreference.java",
+    "beforeSha256": null,
+    "afterSha256": "2a0fc1ff7d0c6017f7eb03430674f9966bd24c06d11b61481c6d8d77aef4f589",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/ui/dialogs/MediaInfoBottomSheetDialog.kt",
+    "beforeSha256": "e6a3d2ed3da657e6095636b9da4d22079aeed1b5a41ac88e6982d5398cafcb2a",
+    "afterSha256": "09726a169193bdd83a81ad22db9765573b140968e33e88656109c916cb3fe02e",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/ui/recyclerview/MediaViewerAdapter.kt",
+    "beforeSha256": "4fd63fecaf8fc96758621ba66cb5918b0723a3381f23e35d4c50bb168a062086",
+    "afterSha256": "813eee837e7047601e054a41e362b773ca6a73840246b2ed9f45045c202cba52",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/ui/recyclerview/ThumbnailAdapter.kt",
+    "beforeSha256": "7a9a83a8fb19dcf151c20feef12314eecb98d05aa362a6ffe30c37bbef6d5bd2",
+    "afterSha256": "fb9518d82536291185def130a26086ad5e6869919834b0db04f39fccb246eaf0",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/utils/MediaDialogsUtils.kt",
+    "beforeSha256": "9b1a1b0c1ecc00a04957a05c6c667d378f3bc77bb73bb4ed78a0d75b80cdaf80",
+    "afterSha256": "aa5da7bc49a7db313e3eda1cac46dfb84eccb1ba747bac0a0fc3482c38e1c1bf",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/glimpse/utils/PermissionsUtils.kt",
+    "beforeSha256": "d1bfbb316e42a48a0a421bfdd32ebf9db4b22c6d62e1a45f3ac0fbb8f1e77990",
+    "afterSha256": "ee44312171d98d2e85924534112c3e8d17886e6a381b4d387541e04ca10bfbf3",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/color/cg_gl_progress_color.xml",
+    "beforeSha256": null,
+    "afterSha256": "41221c1ae37b897123eed27e1534cda2a71b594be56bc03773982b536f8dbb4a",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_audiotrack.xml",
+    "beforeSha256": null,
+    "afterSha256": "717ce90e11f4ac1ca49a4be946150f867be5502a6295a075ca38e6c73c70bded",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_check.xml",
+    "beforeSha256": null,
+    "afterSha256": "6168f145c4599b506ae50be0cd3e5cf4cba3cb33ac898ae0b9457140e8f281cf",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_chevron_left.xml",
+    "beforeSha256": null,
+    "afterSha256": "237ced61b463d846fa5f578ab8e8ce4db3ae2b5abc2d5e2d980bae55056e7a0d",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_chevron_right.xml",
+    "beforeSha256": null,
+    "afterSha256": "73f9865b989b08fcb4a9bd6d39e88eb7f8596fb0a3ed9eebabc8152b3d548e9d",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_forward.xml",
+    "beforeSha256": null,
+    "afterSha256": "122bc69ace132907e37d83b3b3a4ca18b34dfca9bb8bc9a7c976fc2b9d7979d1",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_fullscreen_enter.xml",
+    "beforeSha256": null,
+    "afterSha256": "cbf0396db44cf47da1b36e21baa143efc47762d5c661571883169a0415ac1064",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_fullscreen_exit.xml",
+    "beforeSha256": null,
+    "afterSha256": "4e0fd411b31a1d2d64655e61fcc9a276aedcb54c95b1ca55c7315f6fd6981fb5",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_pause_circle_filled.xml",
+    "beforeSha256": null,
+    "afterSha256": "ddf0c3821382f296258686e6482112fdc926ac7698c2fdc5428a100dcd9da003",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_play_circle_filled.xml",
+    "beforeSha256": null,
+    "afterSha256": "34b5c3820792fca0223c77bad463cbcd145e76ae3dabe8b22e490eb906e01e63",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_rewind.xml",
+    "beforeSha256": null,
+    "afterSha256": "d97b6b096503f35176d09c0964ded6f8456074999ff7cb52aa228ee787be88df",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_settings.xml",
+    "beforeSha256": null,
+    "afterSha256": "e3b66584eef323f0f13f9fc0891604cb3a34ef842613aac89e67d2f0b31e2ab0",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_skip_next.xml",
+    "beforeSha256": null,
+    "afterSha256": "75c24c19a87a30cf0a940781a64a512e2200532028a64081e09f71d4d8ab442f",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_skip_previous.xml",
+    "beforeSha256": null,
+    "afterSha256": "e03ed5349d2935635a49c634a70114eccd466739e732a954c8f85dfd746cf293",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_speed.xml",
+    "beforeSha256": null,
+    "afterSha256": "ae60c99c77372b20ac405cf8226b96a9eeaf8ac7c6448108d7abf15e92896d0c",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_subtitle_off.xml",
+    "beforeSha256": null,
+    "afterSha256": "c5d293d0c95bc3b7abc31e561b302693fea6687dce934ed867eeaeb216621e63",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_subtitle_on.xml",
+    "beforeSha256": null,
+    "afterSha256": "04148210a8207945a76f9dfa6d26f9ff57e517d027f93b97f8aed8cd4d7d4b2c",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_fastforward.xml",
+    "beforeSha256": null,
+    "afterSha256": "4c83d551f218d53c1278bbf3c42e553185dab9faa5c05944f1eeb8f4c20c4e86",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_all.xml",
+    "beforeSha256": null,
+    "afterSha256": "fa3388569bada986420602bb433b6f6a7bd2bec95f3dbd869e54ca76812010fc",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_off.xml",
+    "beforeSha256": null,
+    "afterSha256": "ee6eafa060b6d3685396a54c77952e6a3ec014923975581f4cdc8dc1ed5527de",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_one.xml",
+    "beforeSha256": null,
+    "afterSha256": "8a906429184a1dead6932eaefb497eb0ae929e6ab5b6eaccbf8c35b56bbea71f",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_rewind.xml",
+    "beforeSha256": null,
+    "afterSha256": "22a850b582dc516d0c891153150f3af1eac5b16f91e0f34918aa0e17c6c414e1",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_shuffle_off.xml",
+    "beforeSha256": null,
+    "afterSha256": "a38052219c9047fa62656a0ab3abae2dfe49d2ac7baf484c0607d56c04eb7fe6",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_shuffle_on.xml",
+    "beforeSha256": null,
+    "afterSha256": "4e1518e6eacd9e275a094d2ead79f652047a1235e637140e5589e0b8f0d7073b",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/bg_media_viewer_bottom_sheet.xml",
+    "beforeSha256": "96e9251dd1c7b50c7548686d04ce07d53a60d71d6527382d37d14cb614d9dbc9",
+    "afterSha256": "5292163af1313abfb04004d82ce82df37f66c71111cd3c4ca2562157116fe6f0",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/bg_media_viewer_top_sheet.xml",
+    "beforeSha256": "f8337f2b6de8df10f6729dce1c1d31002ab14aed67cb3ad00b2657db5041bff9",
+    "afterSha256": "5292163af1313abfb04004d82ce82df37f66c71111cd3c4ca2562157116fe6f0",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_button.xml",
+    "beforeSha256": null,
+    "afterSha256": "3bd572a38b5b31f4691e566f8b8a67a54e3c7258ae576bc0b33540bfdcc0f7db",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_field.xml",
+    "beforeSha256": null,
+    "afterSha256": "564c4ee5877109c4a79380491a0d22973f83b8f9545b015117be429b2292b766",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_launcher_foreground.xml",
+    "beforeSha256": null,
+    "afterSha256": "8b178167e3309f66b0ecb0387ce48c973baab8c15db1376f7c3dbff1ea70896c",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_media_frame.xml",
+    "beforeSha256": null,
+    "afterSha256": "cbebff26808f13a05d80c12a30f47a842bd610157a8287cd7f48b0ef6b741a66",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_panel.xml",
+    "beforeSha256": null,
+    "afterSha256": "d0a4835593177113672a395d50af3831bd13ad744b12d90650fde7e5440b3199",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_player_error_panel.xml",
+    "beforeSha256": null,
+    "afterSha256": "ddafc87ab009075d3a858fd9862f461df3ed9dd21d4ea7e0d15b9e1990e58ed3",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_rail.xml",
+    "beforeSha256": null,
+    "afterSha256": "fa6648902c9565b9bb16b1aeda90e71113c679d6956697635ec84886de7610de",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_seek_progress.xml",
+    "beforeSha256": null,
+    "afterSha256": "ea5d8f0965b3cabe61f959a47018d77a5d303accf5cd7ce9d54386df19506fbc",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_seek_thumb.xml",
+    "beforeSha256": null,
+    "afterSha256": "f7e901e1d99089cfbdba8638080608135b9617fae826c188b6081103fd4848cd",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_switch_thumb.xml",
+    "beforeSha256": null,
+    "afterSha256": "b24c9522de493b084619b748c31cd63efd3a6a83291c7fa7f8b4c515c0e691de",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/cg_gl_switch_track.xml",
+    "beforeSha256": null,
+    "afterSha256": "20ac9c36da1d92114c4e3c524f35f91a401a69997b48625e391dbd5c255af8c8",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_albums.xml",
+    "beforeSha256": "51e0a48bafbbc87dc0a6ffe191e691b5fc219571e374cc6c05e30eb48041568f",
+    "afterSha256": "f62b81bd401c0b1c55fcd58e3307004c2c8fe54d7fa269764fe884df2e53192f",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_back.xml",
+    "beforeSha256": "e8c1e3deadc7857eef22be8038cc492facef37070e1511b132b8bca97bc341a2",
+    "afterSha256": "b3ce8f98cb1597c2a73fd2bd621fa666d15481277122f4f64b45342a0f8c6f13",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_camera.xml",
+    "beforeSha256": "f1206992434129833e938cbbe83e21afe6a88d4d87ea5965c5d1272d9493cb21",
+    "afterSha256": "ddacfe2e832a9cd8e502a0d6c625759b902c36054c3c4e7e774f07a82c7c3586",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_check.xml",
+    "beforeSha256": "471a1f3f60a018bae719f44e956f9a30a81ba670fecfbf4a7658d8234137ce3e",
+    "afterSha256": "e7de347bf6cfcd10fd6269cb5617ce1cdefbcdd8c33e438a833aed34db8efaeb",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_check_circle.xml",
+    "beforeSha256": "58bb864cb10d437b53d7d0a7cb46ca3ec9ed0df5b11deca51d95d2c3d90fcec1",
+    "afterSha256": "fcc842d1eb14130aa317c90d05924e30e953fb2805b5b35c01606d4dc8ec300b",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_check_circle_outline.xml",
+    "beforeSha256": "b0fb71b353999d0f72dd545075bdaa31efa7314dbacde86d3fe8e94e8ce701cf",
+    "afterSha256": "2eed88a5238500d6c74ee6d665d9b5b369ed9db62f85d2f683b7d9d58c73cdc1",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_close.xml",
+    "beforeSha256": "30869055f5be12c4cd230076841ba2f0b14fe04ea6a259ee378d29b33df114b3",
+    "afterSha256": "d0a944db91a96cd31ad55dec7d413ed1f17ccfcbe3656f35651c8f188b852926",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_contact_page.xml",
+    "beforeSha256": "22073b3d84d7d923689c238b5ed2a42228d02843531ead3df9bf622bafddc28b",
+    "afterSha256": "ead1e5ea678850c92c5c19f64dabda3e6c5bb9d87e79e8aa9c644c4f81818a7b",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_delete.xml",
+    "beforeSha256": "cb56f6b5ae601709eeab8c145d37c77b72fe69f7084106c1306f67a2b2a553ae",
+    "afterSha256": "f882309b2c533404dfa742a89825a61cbbb8304f0d6ab45e0ccceab3974c333d",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_delete_forever.xml",
+    "beforeSha256": "7df61019573964d3893580a3099729dcd072f13eaf7e9e6bb1f8559b96f9ebd4",
+    "afterSha256": "2baecbb78302623e0a276798b56dcde0fb9bc737dfc8624b856432dd472478fb",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_delete_sweep.xml",
+    "beforeSha256": "db4dc41a9cc7c35dfdc01d784795fdf4a3efc01bf36abe4917f0d33316a611ce",
+    "afterSha256": "0c147e893b9945d46694378ddc9a6d8a23474a782c0f50d267e60e041e64f0c4",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_done.xml",
+    "beforeSha256": "d24fcd67faf413269925dede52940e75a8182d75bda1133c8dcb0d7b331d5cce",
+    "afterSha256": "9207625af346fe88b30b95a3855e85a9e7e9d93931e28b5d887160e404631d6f",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_edit.xml",
+    "beforeSha256": "fc29f9118e707dd3a7b6b146f72fb32dce2c73f80acddeb2d2f3d715361a0d73",
+    "afterSha256": "0a73efe3b4f2551f23d6f069ca62b4fa61ace1ad8e8d53edcdf2b96590c6de4b",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_image.xml",
+    "beforeSha256": "a939d9b5d4f0634340035105b8ff489bb8a694d26c01fc7108f1b58332ea0634",
+    "afterSha256": "7bd363997e98449ffbe586833a1c5ddc8f70c853ed1bc49e2e05a2418cf69859",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_info.xml",
+    "beforeSha256": "8b2ddb3f231ef450a1cfeb80eaca5f8b4439dcfc0c36c9ffd15cf3174414dd28",
+    "afterSha256": "d2b1d540145a28d2995c6f8411a12c34157d9ec6f6fff39eec7b8541ea02f54e",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+    "beforeSha256": "5db1cf4513fe352a599316c510f73fe621ee0f4c7be5e8cb4e77d536481a3613",
+    "afterSha256": "8a31181f11e2e1a4b3466538a7216237cd07f154ad52799ac6aca92830779c9e",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+    "beforeSha256": "e405affb0c53d16e3a671a9d7538660645c02677fa4295bf97163626fe5f39d2",
+    "afterSha256": "925875d6d6b8e931f627d4a9413a37442671ece288924d1dfe132fb2b62f6001",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_launcher_monochrome.xml",
+    "beforeSha256": "dc1b0ca4c5d1e85cda9bda642b2e2a243578e06683d5949893e4e4702d038595",
+    "afterSha256": "6a46b5a66664f41f164aa370f3456ea475f19db69ea7911ea38a1df3dad1284b",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_library.xml",
+    "beforeSha256": "809376bd1f70dd3307161983da5cde5a2b7f793736e24ad10725dab33ac68028",
+    "afterSha256": "047b133bd637d7b2c5fc2f7ee332f574defe05d0c373b74420a206c424b67a27",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_location_on.xml",
+    "beforeSha256": "82c250ce9640b786a3f1295c03d05be9402de1683d8083ac69201c22461355de",
+    "afterSha256": "43590d96e5f041b763d4038673f10b38d71dbe2748b34e0905ebe3b14c90c869",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_motion_play.xml",
+    "beforeSha256": "a2751e04eb8e9792815a60bb73c4b22d4f2a1c997cd3205a64d739e95c456f47",
+    "afterSha256": "49cc60158f4518f91af02968a46c38c6202f92610d1d9be9d537d09d36348dce",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_no_photography.xml",
+    "beforeSha256": "51bdb7d7fdd36963eb374beec6f4ce84399112344a26f514c8a2b3fe45cfabbd",
+    "afterSha256": "43d67c07d12e743f7b8fc4d01b79a73dc201ed85d046f8587631019e22fd9af1",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_person.xml",
+    "beforeSha256": "fa1400ac301f3e94c3b741b8232f70f9676b1da2e2ac5b81b5ab13728bfb5d8f",
+    "afterSha256": "c982ad8db58653e46421f1074428bc8e9769787468745e0982baaf6cd254849b",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_photo_size_select_actual.xml",
+    "beforeSha256": "d77e49c38721893cda12bc330c3af52dfa3f70bf744e706c576f67f9c6bdcadb",
+    "afterSha256": "3628aa9fe1947b3f82b012dae8c35ff1224cf341e104b8eb96e7be2e7093cc95",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_play_circle_outline.xml",
+    "beforeSha256": "250753e6dda407e095fb8f443d992aca7df49e568d61afa39bac9af5499b9290",
+    "afterSha256": "b7ba73a33f89763e65d2c7757a7023964eac7b8c0fc621ef5865dcdc921e61be",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_restore_from_trash.xml",
+    "beforeSha256": "d27c8eb9293841e9fc7f2499589d2fe8e5a8cbd0611316a6929c77a46a8afbb7",
+    "afterSha256": "c241b2eadc563f950015fa45ffa1c98bf7ac1f35cd117fe2ceb16f58c4bc80fd",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_settings.xml",
+    "beforeSha256": "4e13eb1bdd1126feb1387d5f42838e1b63987f40dc3f81d418e49f80feedfd96",
+    "afterSha256": "132c923ec22c23b951ff293950c4928aac666f3b5fb6d481939c4b03f7b3d2fa",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_share.xml",
+    "beforeSha256": "2ea8936ef94a0ee9434e4bf8fbaa6564aa753d8c12cd709196ebbe2ce23a9266",
+    "afterSha256": "e69fb5ad2d82825eebb57dba987e2770ce6c07c15420b2871b3fd4465ef9dcf4",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_star.xml",
+    "beforeSha256": "f547b37e8004c9d5de629cd596a07568edd56d6da66709827cf7cd9a5adfe68b",
+    "afterSha256": "465534fa8a02de87cf17e339a6895270dfc5bddf690f5cfc24fd6a8bf4e02777",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_star_border.xml",
+    "beforeSha256": "e5080df4ad310d4bf205e0721cc90bbdda41b6eba416c7647f7452dd19c10ad5",
+    "afterSha256": "db89f95656d5a35632bae07d3b53e237bb37c89cea6364bb2c4aa06f342a37c8",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_video_camera_back.xml",
+    "beforeSha256": "028feb4d9dbcc2c794e6672df6abf13e10e2955f25d2020161d8b512822166aa",
+    "afterSha256": "64617ff881896fe78015674d135068719aef230d2144aea9adb2b72b31356a3e",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout-sw600dp/fragment_main.xml",
+    "beforeSha256": "f67ac9f5e4682c33d86f6364462a3686617bcbf579e4a39945a986065568dbb4",
+    "afterSha256": "603f360a04a4d7d4e1685be5600c9f9999e00041703abcdf3a06bb25ff2fc497",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/activity_picker.xml",
+    "beforeSha256": "b30ed52fec1981eb851ddf4aa21b8c59dbaa961a2ccff95d9ca6b52cdd406eb3",
+    "afterSha256": "9b5604f01762c75642b63d093f3f17d3236fba191d32060705a457f2c12ddb4d",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/activity_set_wallpaper.xml",
+    "beforeSha256": "56acc5c1d756ff42d0dfaa1423739e3d438d00e20bbe8d0676eb9e41f7aa453e",
+    "afterSha256": "a1bef4cb567688d62421072cc1de1fc6ef27aeb6a4f1582ea7086675ccdd3f8a",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/activity_settings.xml",
+    "beforeSha256": "f9c3c98aae18f4e051e2d1a40a82f38293c94b25fef926f8481fcfc70be792ba",
+    "afterSha256": "2c984dc6a35dfa6c8c3f33faea9359cfe385e3da5abd6125787291d83c495633",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/activity_view.xml",
+    "beforeSha256": "a2d6acedaa015d8352e0b3ed4e1bcea7f9afe39db08f9129a25ce0d59af1bf0a",
+    "afterSha256": "8c804c08597214ea44fe57227ffec1232ab29cab40d84db32a3a8d75a85ae6f0",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/album_thumbnail_view.xml",
+    "beforeSha256": "05ad616b4f2bf96d9c71a5258aee2cd8bf6b639fcee9a90b99fddf9b44f27279",
+    "afterSha256": "45ec8cdd704cba0451b4c6bbe0b61236f3d9894731ab78abedb88cbfb95f11fd",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/cg_gl_player_controls.xml",
+    "beforeSha256": null,
+    "afterSha256": "f3d9189afbb07ddde35e79725bf10184ee66192bd18f054c37a514c4496db1c9",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/cg_gl_player_view.xml",
+    "beforeSha256": null,
+    "afterSha256": "273c1a1fde0b209aceefef086d177e1650df5ba7214dec3bdcce14dd21e6f038",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/exo_styled_settings_list.xml",
+    "beforeSha256": null,
+    "afterSha256": "715bd7dbbcb828e9e56f4f3f74992ac53343949d26a0a7f707c29a787b2be2bd",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/exo_styled_settings_list_item.xml",
+    "beforeSha256": null,
+    "afterSha256": "392d66cf3d83eb44d34aa0d325c6bdb848e7180502357d57698b30bbc7998130",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/exo_styled_sub_settings_list_item.xml",
+    "beforeSha256": null,
+    "afterSha256": "411b2d3b9ff7dc87c5bd144ac8e115e9b700acdb0c2ae89d2b3499b79203fb82",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/fragment_album.xml",
+    "beforeSha256": "199b45139a32f7521642e4bb70082a6ca3173747dd79a38b3e31ccded8cfcb8d",
+    "afterSha256": "ab1b25a093dcc718cb475de5c2ac5375b24c725d91eaf43dc62f64a56c69c48c",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/fragment_main.xml",
+    "beforeSha256": "bda7d7cd13e4ed45015fc7b9059cb690654a3be1ae2d3133e7217331a21c1f52",
+    "afterSha256": "2296b2695a8cfffb731c152517c0d4d268a4522ef6407fe19ffbc48bfb906ee6",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/list_item.xml",
+    "beforeSha256": "9b04e95482444be4ebdf89a246261a6dbb36273a878454ac07283e0b0756ccdb",
+    "afterSha256": "e784acc67d7b5ee2cf688cd53490dcc13a2f6721c2998eebfacfee0c5262ebf9",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/media_info_bottom_sheet_dialog.xml",
+    "beforeSha256": "644c6a2813af5dcd83b75e53cbc5241da597e536dc9f1872459e889689b67180",
+    "afterSha256": "46a7f35ee44763b75e28b515b56ba1dc91dbc7031505fa8c2522114d1c4f03df",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/media_view.xml",
+    "beforeSha256": "b1207b71e14ea19609e7cb87c6f933bfbbe06b7b5d3100a0c9058d4fed399159",
+    "afterSha256": "bbe7f49c12eef9724f74e41b2a7f608405e8bbb1c9c356308e6fae2b2c07e607",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/set_wallpaper_dialog_item.xml",
+    "beforeSha256": "9385d5bcc91e4f38dccb00c2ddd491c8bc932f05188305c0d9d702b0db797405",
+    "afterSha256": "757fd82c37d96cf2a06c9b428a4fe517df546a28ffa0c987f18aca35a03a2d2f",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/settingslib_switch.xml",
+    "beforeSha256": "ea00416c5a5ec60762e54c245f149dc2f630451d9c3b55983c4ba145f7da5353",
+    "afterSha256": "1daef7951a1d9f36083d88eb6e735140fbbf5d344424b3968b6dc12ced0ff7fe",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/settingslib_switch_compat.xml",
+    "beforeSha256": "156a66ea09e2e439161fe440cd866f8250cf7e996b6b4278124563fda55a8731",
+    "afterSha256": "74f8d86ecead321db30b82c8186022877e0b48ac3a821ec8ff7f0bb6e0e3b3e5",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/layout/thumbnail_view.xml",
+    "beforeSha256": "a7e6341ab829950a6fac0eec96be847b1ea57ef6013afae0282215d9f71d934c",
+    "afterSha256": "f3785f67251b304d84b78b83fb88393234337b446fa3646df2ad8a376e49a127",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/values/cg_gallery_attrs.xml",
+    "beforeSha256": null,
+    "afterSha256": "57f9b3d4b2b31f02bd5da37370ae988042c5dbbe1afe48c5ed90c8f0c28c046f",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/values/cg_gallery_colors.xml",
+    "beforeSha256": null,
+    "afterSha256": "4f006d3820883a576f749491924ac2d542417336d9d141ed1932e0047fe975df",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/values/cg_gallery_media3_aliases.xml",
+    "beforeSha256": null,
+    "afterSha256": "b4ffb648ef852a528f72f541cd3f1b8c6fa612adf0124f545e0ec5134a3032b7",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/values/themes.xml",
+    "beforeSha256": "e3d50a62fa5529810bbebf5f09368b39d3e0dbe857c66653bae9d60cf5db9611",
+    "afterSha256": "b6b97d2ff97ea128ff9a56a1028db99ab8882ab5a7b325537e2ab834aa1097ed",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/values/themes_settingslib.xml",
+    "beforeSha256": "2ea870b54b6fb95c5c951ad8c5053be2043ee5c681259396b36478e32adccde1",
+    "afterSha256": "7e96a872683c5c45b1fc68da41fd97ef2982e787b51af14b7101abe015f17b7f",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/xml/root_preferences.xml",
+    "beforeSha256": "e963605cef93478a6d44a23c239d4f24886d8e4c6187161c7cbbee8214877a48",
+    "afterSha256": "d6d215dd45f34a65fb4bb5864ccf641c34ad763327d765398c9c5953b8ca03dc",
+    "deleted": false
+  }
+]

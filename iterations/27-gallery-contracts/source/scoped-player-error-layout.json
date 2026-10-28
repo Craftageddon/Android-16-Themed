@@ -1,0 +1,74 @@
+{
+  "result": "PASS",
+  "source": "source\\media3-ui\\original-resources\\res\\layout\\exo_player_view.xml",
+  "sourceSha256": "b1cb54f16001e81864eee3be0cc8dd3f7e633755878519e331a52ce9f04ae832",
+  "target": "app/src/main/res/layout/cg_gl_player_view.xml",
+  "patchedSha256": "273c1a1fde0b209aceefef086d177e1650df5ba7214dec3bdcce14dd21e6f038",
+  "actualOwner": "app/src/main/res/layout/media_view.xml",
+  "actualOwnerSha256": "bbe7f49c12eef9724f74e41b2a7f608405e8bbb1c9c356308e6fae2b2c07e607",
+  "nativeIdAndWidgetParity": [
+    [
+      "androidx.media3.ui.AspectRatioFrameLayout",
+      "@id/exo_content_frame"
+    ],
+    [
+      "View",
+      "@id/exo_shutter"
+    ],
+    [
+      "ImageView",
+      "@id/exo_image"
+    ],
+    [
+      "ImageView",
+      "@id/exo_artwork"
+    ],
+    [
+      "androidx.media3.ui.SubtitleView",
+      "@id/exo_subtitles"
+    ],
+    [
+      "ProgressBar",
+      "@id/exo_buffering"
+    ],
+    [
+      "TextView",
+      "@id/exo_error_message"
+    ],
+    [
+      "FrameLayout",
+      "@id/exo_ad_overlay"
+    ],
+    [
+      "FrameLayout",
+      "@id/exo_overlay"
+    ],
+    [
+      "View",
+      "@id/exo_controller_placeholder"
+    ]
+  ],
+  "onlySubtreeChange": {
+    "before": "android:background=\"@drawable/exo_rounded_rectangle\"",
+    "after": "android:background=\"@drawable/cg_gl_player_error_panel\""
+  },
+  "errorBackground": {
+    "family": "cg_gl_panel",
+    "sourceValueMode": "false_value",
+    "featureOn": false,
+    "runtimeMessageSource": "PlayerView.updateErrorMessage keeps nullable custom/error provider messages and original visibility conditions"
+  },
+  "globalLibraryErrorShapeUnchanged": true,
+  "protectedNativeContracts": [
+    "surface insertion",
+    "image and artwork view scale and IDs",
+    "subtitles",
+    "buffering visibility",
+    "shutter",
+    "ads and overlay containers",
+    "controller placeholder",
+    "error text dimensions and padding"
+  ],
+  "nativeInflation": "NOT RUN",
+  "wholeGoalComplete": false
+}

@@ -1,0 +1,4840 @@
+{
+  "result": "PASS",
+  "physicalDrawableAndLayoutVariants": 232,
+  "families": 45,
+  "counts": {
+    "parsedXmlVariants": 43,
+    "decodedPngVariants": 189
+  },
+  "dispositions": {
+    "PRESERVE_IDE_PREVIEW_CONTRACT": 1,
+    "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED": 23,
+    "ARTWORK_OWNER_REVIEW_PENDING": 1,
+    "SHARED_OWNER_PRESENTATION_PENDING": 10,
+    "SCOPED_ERROR_PANEL_AUTHORED_SHARED_SOURCE_RETAINED": 1,
+    "TRACK_DIALOG_PRESENTATION_PENDING": 2,
+    "PRESERVE_NATIVE_AMOUNT_LAYOUT_CONTRACT": 2,
+    "NATIVE_LAYOUT_PRESENTATION_AUTHORED": 4,
+    "SCOPED_MEDIA_LAYOUT_AUTHORED": 1
+  },
+  "resources": [
+    {
+      "kind": "drawable",
+      "resource": "exo_edit_mode_logo",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_edit_mode_logo.xml",
+          "sha256": "4b6b6766d6ddfc99e538f9ebf88eaa15b73a89e822d80e8b3f7bdea79bffcfde",
+          "bytes": 4533,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "312.5",
+            "312.5"
+          ],
+          "pathCount": 7
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_edit_mode_logo.png",
+          "sha256": "cec4e1f0fdef99f8e8a4e71a1ab962b406f5ea525d223a0bffb44067165b478e",
+          "bytes": 458,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "ac9c8dcdec1a0fc79d7d8604665df0c9cc86610a966267f9799ce2766afdd4e0"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_edit_mode_logo.png",
+          "sha256": "4fdf374bc579fdff835309745fcc9fe2af87f832723655ee2c33202179653ba0",
+          "bytes": 265,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "249497dd992ace9878c8efe517241fc9b034b9f49d772e7ebed9197302a38d73"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_edit_mode_logo.png",
+          "sha256": "d7cce2dd3468b436d2d48d0333377daf116ab5fe32e931f72730c683ae3c040f",
+          "bytes": 368,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "93970c53b2d2b945bea13f9ec47eafeb21fc82cc90ae87c33b630d022d3abe6c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_edit_mode_logo.png",
+          "sha256": "57b26a821946f7983091ab8f002175ea6d4bd2b0595b79a4c8559f05cdad1f0a",
+          "bytes": 658,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "6d514094903d4ce1a6de06294839799df1d83b06ee68721ab7f2cb85f5b938f3"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_edit_mode_logo.png",
+          "sha256": "67340f6cb415f06d3673c41b028e39fd5b7d2d8212a8817f23ea057e57ec6a4d",
+          "bytes": 998,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "29bb95791378d3543b1cf9482bea3c535eface2592cdfbdeb2ba507eea20b60f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_edit_mode_logo.png",
+          "sha256": "2b9fe01e57556ffbb8e2eec60265e0b077c7b39cd1904c8a7520e77e2d2635fd",
+          "bytes": 1397,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "51fdbf515693ce1a38d103b6b9fb3ba03f316489af464042e1ff9b5ef9527b99"
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "PRESERVE_IDE_PREVIEW_CONTRACT",
+      "rationale": "The positive isInEditMode constructor branch creates an IDE preview ImageView and returns before normal player inflation; configureEditModeLogo assigns this media-library identity and preview background. Preserve the recognizable third-party development logo, not an app control or textual UI.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerView.java",
+          "sha256": "db13fd625fede21cc05a452660e34ca6acd752cb703d527388ce8411d47be0c3",
+          "lines": [
+            {
+              "line": 360,
+              "text": "if (isInEditMode()) {"
+            },
+            {
+              "line": 378,
+              "text": "configureEditModeLogo(context, getResources(), logo);"
+            },
+            {
+              "line": 1833,
+              "text": "logo.setImageDrawable(getDrawable(context, resources, R.drawable.exo_edit_mode_logo));"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_audiotrack",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+          "sha256": "4f91b3b36e339fb81c46ca098ce77414f6ceaf6ee2aa6753804a6b6832fa19b9",
+          "bytes": 1399,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24",
+            "24"
+          ],
+          "pathCount": 3
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_audiotrack.png",
+          "sha256": "82e12eb83109e1616a8838152e2e38b9d248767d66bdd60738061efb304851b7",
+          "bytes": 390,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "b8427eac2b361e5c62542273dd58be4252c9c951b9b971eb2cd9950c193dc220"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_audiotrack.png",
+          "sha256": "34c980e2aa67dcd42f4a8763b1e86c5cfdf20d3606658129e8114f39d5ee315f",
+          "bytes": 229,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "641a96ae3b4046f7a89d3e6c4df09f596f72edc2c4d59987eefdff1d2c7934fe"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_audiotrack.png",
+          "sha256": "b6971f0bf87249ea453bedfdc1afcaf92f30b4f4995db5eb4f0c55ddfb422254",
+          "bytes": 206,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "143e2fe15f59e3daf2493e8a878ac60458ef58810f8ea2b91b458d3c9525ada9"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_audiotrack.png",
+          "sha256": "8d5e1dfb710388352d62fab45148504720afc6b2103c5824bc87b90af448376e",
+          "bytes": 346,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "b0b6ac20ba49774577b16606f1988f7d7c698616b1389ead45916afc7a7942d3"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_audiotrack.png",
+          "sha256": "d9319849145b81bdbe0c8467da8c33cc9968f72e64ca6a0c27930eeefefbdb2e",
+          "bytes": 513,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "b6adad6172f783374e0813a087a9e8249acfc15e720fbf1defab1e4ead74f265"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_audiotrack.png",
+          "sha256": "faf4e0a026b75b92e3435a97bbefc4a5d910800105ecc70c301ed6b1546e8a26",
+          "bytes": 650,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "dbb58b56e7ebc1daaf053ae758d3ad5d12280a047659ac6a76ac74efec77e138"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_audiotrack",
+          "target": "@drawable/exo_ic_audiotrack"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_audiotrack",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_audiotrack",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_audiotrack"
+            ],
+            "priorSharedLeaf": "exo_ic_audiotrack"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_check",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_check.xml",
+          "sha256": "98c86b1e4f2a3c3dc9a6899d4b7888bccfe4e831dc3b44c6cbb44c903060b3de",
+          "bytes": 1015,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24",
+            "24"
+          ],
+          "pathCount": 2
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_check.png",
+          "sha256": "3b85c906975c5d1c45e0ce713847dfbce44193f2c5e0f4f62dcd08ceaf027dbf",
+          "bytes": 175,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "3bfb8eed2ed8f3528a0b3131b4108e2257db4ef405128d9cd7c2a756bbefec4f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_check.png",
+          "sha256": "7ec6e6e036bdca365291156e6b84facdf4d1b5c96e46a63dc7e15c6f7e17ce5f",
+          "bytes": 138,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "64205f0d53d0d889d74b0ff77baf58ddcee5778b17cd74408aaf47a635794b2a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_check.png",
+          "sha256": "7586e016e7d70c6d79bacf43dc4476098474a14fa7735c5aac7fd28469bc1de5",
+          "bytes": 141,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "8e916fedfe92fc39612858668b2a1a2ca2de610a0c1a9ea4ccbb295a50b4b29c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_check.png",
+          "sha256": "a873554e53ae63be8fbdf1307e5399b94900ea2c0bc2a2b700a9cc20527e459c",
+          "bytes": 192,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "a19308e11e61c54833047d446a0400e1bb8b3d3252b48ad9e444fed6a86ee8b9"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_check.png",
+          "sha256": "1827f9310edf8b944a8bceb93b9e75fd22d2904285b800ed75f48b2866ce2490",
+          "bytes": 236,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "330b727fc0282f709773d3f5c7c4b31c673993df959dbec7fc6ed4a95226b86c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_check.png",
+          "sha256": "06d386c39ff71489c00124148fa7519b60e9f915ade1f976aad41b02b3be13e7",
+          "bytes": 277,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "b0bde96056c0b8b43ea1feff3a94037ca6db94f730b3add17c62d6273ec5e829"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_check",
+          "target": "@drawable/exo_ic_check"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_check",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_check",
+            "mode": 1,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_check.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_check"
+            ],
+            "priorSharedLeaf": "exo_ic_check"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_chevron_left",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+          "sha256": "e99ea1867e61e31330848419b1ccf5f94cfdd0c81a73368396be34407f34c9dc",
+          "bytes": 936,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_chevron_left.png",
+          "sha256": "032098bee7f73cb83b080b9e08b757de461310399d2088ded0c781e265b78fb5",
+          "bytes": 140,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "85b4430e6a2f4d9e686960ff1205935157390e1c78512eeaee68e1729fc37708"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_chevron_left.png",
+          "sha256": "b8a12ebed29620e94a8f8215498a0d27a1d2df540569b778ea2cce93dc25e93b",
+          "bytes": 112,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "e5645f74f682c599fba234129d5d5d08ab88c7feeb67a3c3f3e353b7e36bd267"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_chevron_left.png",
+          "sha256": "bc72da04aa288ee1f1b804848bd89fd1d7b6e4cf4bc3315a37576f818ced8067",
+          "bytes": 113,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "12323adf422a4258b2d7f2e2c8c981869b18539b4e14b3e018c1fe4526670bfe"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_chevron_left.png",
+          "sha256": "13fa7b6d9d022778c4daa7bd23577f9a5f1421a61e5186fc6a65f38688afecf3",
+          "bytes": 153,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "03033c63943e614f58e569c3cc41a9c2a51cd63593a1525aeed0b04b6e9ffe20"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_chevron_left.png",
+          "sha256": "60f67a6bff8cbb35ca0e40ec7103ca47437be822abb15fe2a87f83fd06109340",
+          "bytes": 198,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "d802a155345e41c3c17fc27d425eafc0feaeb39fe9dbc379a65574d61b82a2f1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_chevron_left.png",
+          "sha256": "fa2f1d0bf44ffbf7d5a1f621fbafc8a7805c5727b13982b656ebc05fbb8aa810",
+          "bytes": 248,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "eb2c1f91622f2393f5282552ba206aaad9d31bc5f4f4557ed9d72cfee3489826"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_overflow_hide",
+          "target": "@drawable/exo_ic_chevron_left"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_chevron_left",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_chevron_left",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_overflow_hide"
+            ],
+            "priorSharedLeaf": "exo_ic_chevron_left"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_chevron_right",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+          "sha256": "3db1e9b9a083a972a4eaa9fc94fb0986f91eb1cf12e17fd2f035b1869272bc03",
+          "bytes": 937,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_chevron_right.png",
+          "sha256": "18bf7046e7350b30719e9272ad46ea255a0f6c953fa0b10bb76575c842658a81",
+          "bytes": 141,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "86f4df37d565fe800f45e91241f4cd92b53d8ebd755606cee5e70588a828db8c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_chevron_right.png",
+          "sha256": "4b689f657e0fdd569422c94d8ba43e22ed24fe29b4ac099d949cfc5700b321fb",
+          "bytes": 113,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "184caa60c304c37a14ddc0f212ac1dbcac17ec7acd2b5fcef0a1467123106db4"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_chevron_right.png",
+          "sha256": "a23964b719d55755eb8b7a71dbbe02669d919e824ee9948bdd6356ba0ac04ec9",
+          "bytes": 116,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "e520c85451e3fa9d5a89f5f63b91bc259c118a0293c63df0c8b98add0224b88a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_chevron_right.png",
+          "sha256": "1ffb529d55600521623ff692ee9eb0f919305c9fcbe24eb8ee94853f14266e67",
+          "bytes": 157,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "26b701e173b6efe24a786d65d753b86be5c48076a8f04a3a6edbf46e20b8bc36"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_chevron_right.png",
+          "sha256": "45b1f38a80e2d27db761e834f0dcf9f747d06cbf267efc0819f14416abe925ec",
+          "bytes": 194,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "fe8e26fb0ec78afa7c5323eded9025af9482edf59e4e4e2ef9b1152e57325275"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_chevron_right.png",
+          "sha256": "e0db0f8241a6174fdda30c3949916cf828d1086d14df2efe16b488743582e66c",
+          "bytes": 249,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "dea892fbbf1a58f47e071bc5c83332dbc325fdab34d9beb7c074344673b9bf43"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_overflow_show",
+          "target": "@drawable/exo_ic_chevron_right"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_chevron_right",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_chevron_right",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_overflow_show"
+            ],
+            "priorSharedLeaf": "exo_ic_chevron_right"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_default_album_image",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_default_album_image.xml",
+          "sha256": "c89269aa8ff97b91afb04ad3abec381cc3725334114559efb0fd030ca02156ee",
+          "bytes": 1177,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "512",
+            "512"
+          ],
+          "pathCount": 2
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_default_album_image.png",
+          "sha256": "4faa6aa3d3ef0ad70a5156dd8581ee772292714d0dbc2d80cd726f109f8d6f19",
+          "bytes": 1362,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            768,
+            768
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "d236b491b1de979fec4d7a8f681bff4e4f65ac04ca5faae9ebd7622c80e8dc3b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_default_album_image.png",
+          "sha256": "3370a8dae608693a638f4907970337ccda319408e9b194d6237fc2e3ae9714e3",
+          "bytes": 675,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            384,
+            384
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "73a37fcbd24b21cdaad57730304bddd220c40c7a92523473ff7e5d106e9c73b1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_default_album_image.png",
+          "sha256": "8809ca9cefdd16c7e60bb9b93ae0297f90ca6a8b4d529702f26e0343febf6c45",
+          "bytes": 855,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "30e4606b991344c558072baf03d569bf8b1207142a0497a1d7bb65c663856a98"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_default_album_image.png",
+          "sha256": "b9c5d74438d2bd3ff85726d7dfd3dec4754e0c92e3cb270f7b973b0f462a4f13",
+          "bytes": 1892,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "d4e0ef99975e4d5cd9b8795b3af3aab824a0e8b729ca46e3ce38a8efd89fe4ab"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_default_album_image.png",
+          "sha256": "1924108704e48963aea84ba82eafae8ea7cad5494138381782d161a7fd179f84",
+          "bytes": 3131,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            1536,
+            1536
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "58aa1809ddbed039c56c7e92d699ea2094e07084d1b4733447de51984408ba9f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_default_album_image.png",
+          "sha256": "9eb194554e669ed3d8dba2ef73fa7e917be2de7a92feedb88e2936d366895089",
+          "bytes": 4781,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "6066386bd82782d7b5f4df1f178b08c855e3d7b542fb6fd0cc272ae1e2567e02"
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "ARTWORK_OWNER_REVIEW_PENDING",
+      "rationale": "Actual512dp source vector is an opaque gray album field with a musical-note silhouette. It is distinct from video imagery and Gallery photo identity. No positive application display/default-art owner is established yet; retain source and leave artwork disposition open, without inferring approval from absence of references.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerView.java",
+          "sha256": "db13fd625fede21cc05a452660e34ca6acd752cb703d527388ce8411d47be0c3",
+          "lines": [
+            {
+              "line": 389,
+              "text": "int defaultArtworkId = 0;"
+            },
+            {
+              "line": 412,
+              "text": "a.getResourceId(R.styleable.PlayerView_default_artwork, defaultArtworkId);"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_forward",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_forward.xml",
+          "sha256": "2b2ef130c9da8e517f844faa522e04677b4dfa2ff980d2db353b8b5375098f72",
+          "bytes": 1135,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24",
+            "24"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_forward.png",
+          "sha256": "fc87e49a59d8d79f127b2ea02468a77b0a5ebd8b386edf88f7fc03544c29bae6",
+          "bytes": 290,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "5c7a33b7833a3543795b6b31f731b6526ced1e49e5d7a7b4f8721573b0dbef40"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_forward.png",
+          "sha256": "5588ffc0c0aea49eb4fe0d1909aadc39d673b5518c0b43a9caeea4782bd1fa6c",
+          "bytes": 187,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "897a1db35d7f22d22f4702e80043cffaafed4d3cdd65ad0c76f272c9f31a01ef"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_forward.png",
+          "sha256": "bb180b2c5fe8e02b28417e6bb19270d29d67ee3701ce01c64d8a8a71a4c3b188",
+          "bytes": 228,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "0ba5808268edaa6f79cde6fc7d4e7e1c29c4706a8b56c33fcffcff8c77e9a11b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_forward.png",
+          "sha256": "5e65cdb57a86f9dcb8c42029e1fbacda4caeaf5c2d42c1ab9d182a87c4992880",
+          "bytes": 361,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "11b789888cec525090107fa15a1d36b624ca695b318d3a1a5698a85c39fafb20"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_forward.png",
+          "sha256": "acae5b09b09680f7c304bd69c016fb9c4378a8d80a6e74e8994cdedbe7f161a9",
+          "bytes": 526,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "29d30373655a2049041f1ee6c84b02b5ece8e69eb800175e7b60cb7f44fe3b74"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_forward.png",
+          "sha256": "d7aef4f3e63754ca839ccef5f0f16464b8f07ccd6e98524997cd2c2a7301d02f",
+          "bytes": 670,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "b4aeed9dbc4a1ddba99107e737ab251e877e5f850f3927bc2bf77838b9336a88"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_fastforward",
+          "target": "@drawable/exo_ic_forward"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_forward",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_forward",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_forward.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_fastforward"
+            ],
+            "priorSharedLeaf": "exo_ic_forward"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_fullscreen_enter",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+          "sha256": "e8b0e7f1e9f987113af8da234beb39f5b49b55b694efe28bded5169688ff8fb1",
+          "bytes": 1024,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_fullscreen_enter.png",
+          "sha256": "e6fbaeadcb331445b446b18b910fb5488f0c3d35a65dd4fe2495a10a417cbeba",
+          "bytes": 139,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "7dae8a137ca631dac2cf2ec64648664a3ce95ed938c396f708344e8d6dfdc3c3"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_fullscreen_enter.png",
+          "sha256": "bf6ef0f08c9a7e185f5f6ef3f75d062a82292fc3f0cea63749ee95239d61e047",
+          "bytes": 135,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "f0ab98184d6ff77783795990990153f409ab8ae1d8bd9ea1d17fe07c9b31f441"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_fullscreen_enter.png",
+          "sha256": "fe1294d738160453704593f5f9be1449ab3e71f1539982b2eb08d8b5734b60a6",
+          "bytes": 98,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "0afc19d6e36447d92e9ca4a5b447695862fc2bb81015fc89f0d82b661b576c9c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_fullscreen_enter.png",
+          "sha256": "060725c86c5a869565a2219f10384c07f8cfd5cc41640d772de97b66453e24ce",
+          "bytes": 101,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "5bd5db84db8ea2387bbb65dfc6864cf0aed9aebc39394d5c0cdda9d2d1f6e01e"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_fullscreen_enter.png",
+          "sha256": "964e7d6ccd1140310f5541acfc8f57af7e77e991c592a099eb65b7eddeaa94c3",
+          "bytes": 107,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "3c606f474812947c95726fae14cd62a37d0fb20b7330d8f21b40bfacbabbeddd"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_enter.png",
+          "sha256": "c201d538b8ceb02e5a01712247d35ca532c3234304cf952e62cdd2848457572d",
+          "bytes": 109,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "7afa62f3cf9a604775cc5157d22a4f225e3855051e9e88115995601157c3436b"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_fullscreen_enter",
+          "target": "@drawable/exo_ic_fullscreen_enter"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_fullscreen_enter",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_fullscreen_enter",
+            "mode": 2,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_fullscreen_enter"
+            ],
+            "priorSharedLeaf": "exo_ic_fullscreen_enter"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_fullscreen_exit",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+          "sha256": "682923ba58428c63636bf3a23e30bf1a8a1e9b465aad773e74927b71791049e9",
+          "bytes": 1023,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_fullscreen_exit.png",
+          "sha256": "2a2d66dc0a55947527434d036011ed5f4ede1da9cc0ef02eeb41f57fd7359fee",
+          "bytes": 125,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "7fdfb9fc697a4388bd34e1f048309991a7f02abeea991a4698a9384824c07940"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_fullscreen_exit.png",
+          "sha256": "b58f4649de8bae414a7b1b819c3a28ba04bd086c4d7dff2b0d8ceb27bca96c0a",
+          "bytes": 130,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "df932b5206e6f35fb47394d9754f108a29e4ab629d18fb7896be53bc293bfd11"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_fullscreen_exit.png",
+          "sha256": "121163c23a8e26ff570911801f2fcfc48f042d4a30bf47ab5315f4661172db78",
+          "bytes": 96,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "617f5daabd1d15ed556d54ba460a2313e03cd7928424756a451cca4c506bd515"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_fullscreen_exit.png",
+          "sha256": "36e6c0847eaa72ebb182e4aa6698ad561d45f32a91d9740432d2bdf8113bf570",
+          "bytes": 101,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "87befeed5d0d8021a7d5875e441531bc2d0f21d491dd0663df58e158c334a20a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_fullscreen_exit.png",
+          "sha256": "0383e75b641d374c2eabc76bbd2535e0b0ae307fa166ace7c925ca86f7bf4a4a",
+          "bytes": 105,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "783616292fa8224e6def37dc7b69d65a893ecddaa4fe6779fa99cfdba4edd496"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_exit.png",
+          "sha256": "bcdcd52d56fa7f248b4d2a867d22b18656c3a75dfc0c7a72fd423128451c080d",
+          "bytes": 106,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "cfa7458c8d46658a5dd74307c8e6321d5c14f6d4c5863f6181621577f1a0763b"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_fullscreen_exit",
+          "target": "@drawable/exo_ic_fullscreen_exit"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_fullscreen_exit",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_fullscreen_exit",
+            "mode": 1,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_fullscreen_exit"
+            ],
+            "priorSharedLeaf": "exo_ic_fullscreen_exit"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_pause_circle_filled",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+          "sha256": "ab26504472191b4658f51d57d89dda2ea7c36c42403af31be802c351054f14bb",
+          "bytes": 1036,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_pause_circle_filled.png",
+          "sha256": "0be36d0b8f4d2d06464c8407cddce5a9a9e47ff17e8d171f028e4eb8d766b49f",
+          "bytes": 362,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            60,
+            60
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "35b7ed3fbc22a80bb4ee9f90f8aadfc1e2ef564a78c2704e3f1288a10c9be38d"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_pause_circle_filled.png",
+          "sha256": "ef7a81f73e59812b2ec5254a6cc6d94f02b3ffece334a02593ddcb8e43a0fcb4",
+          "bytes": 220,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            30,
+            30
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "3fb479cad4edbd62d6298859ab302227f990e59aebbcf161f8df4fc9819158bc"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_pause_circle_filled.png",
+          "sha256": "045e53923164949c74aff3f93fea2a94ab9c145cce73d63db41430ebf9695d51",
+          "bytes": 282,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            40,
+            40
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "1169f114d6c28ecf65b2dd26e8725538f09b51765ae817f11799d064bc690c39"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_pause_circle_filled.png",
+          "sha256": "71009db2deacd24f0990e332240006aeab8d27b99e19b172ceec3390ee19c458",
+          "bytes": 478,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            80,
+            80
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "f06a0406d0bdf1618ccbf7a2f4f0a305a2d8a9fd383481ad4b0eb0d7842db412"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_pause_circle_filled.png",
+          "sha256": "fd2b9a82ee37a7d30b63b4585cf86cb516b849b62069a6b2758a2645d616c1af",
+          "bytes": 648,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            120,
+            120
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "b0166f18abc0150bf4b23895b86d314fb980fc4775d3359956317364bcf0bd0a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_pause_circle_filled.png",
+          "sha256": "68e4fc56d92bb7d8a41364e154827fac8095223f68b349ceb877a7514996225c",
+          "bytes": 1081,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            160,
+            160
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "d738ea235cddc83d34cb83c0025352fcbff795690b4574aaf1ef8fa807e62065"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_pause",
+          "target": "@drawable/exo_ic_pause_circle_filled"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_pause_circle_filled",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_pause_circle_filled",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_pause"
+            ],
+            "priorSharedLeaf": "exo_ic_pause_circle_filled"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_play_circle_filled",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+          "sha256": "bb826d006a37764e565e12b000b6a2a8533ecf8cadf422043cdc8f49b52131dc",
+          "bytes": 1022,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_play_circle_filled.png",
+          "sha256": "d519779d4b7efc5e910c5a4c97fcfac946fac6f35dae95bcd679c782bd98e00a",
+          "bytes": 391,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            60,
+            60
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "ee8997a1087b87dde9524ab8c801f8bd9616d51b577a5f4eda17ebb1624854db"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_play_circle_filled.png",
+          "sha256": "1a0874552ef1215430176355f2db5cadd96e7ad2950e86f0d4cb6b2b402df529",
+          "bytes": 247,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            30,
+            30
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "50b1adaf56d366bc8ab6e3a54bdc70bb0dfaa95d82d97f4dde7ec74965727de2"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_play_circle_filled.png",
+          "sha256": "6b56948e3d285cdf62c86445a37e36c7668eaa4e8aef48cd62303d34bf51e23d",
+          "bytes": 294,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            40,
+            40
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "1cd9d66a39e00453367bfbb57639f1e8ab3569df6e920bb712e218c59fcee356"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_play_circle_filled.png",
+          "sha256": "3cf29e7a92b25bbf79b0e4af2761309b8f98ef967e3ee6a8219cc88164511b8c",
+          "bytes": 509,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            80,
+            80
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "338f3c77a60ee79f1a3ed947daedace8351c93e15abf65f43dacd0d4977f3a89"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_play_circle_filled.png",
+          "sha256": "f3f11402c4af9fc19f0293fd0d49a853327beff647b6709c28ab1498614453f3",
+          "bytes": 712,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            120,
+            120
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "0939272e542a6b93ded1c0dcf32925ca1fba44376b5e721878ba569dd617275b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_play_circle_filled.png",
+          "sha256": "dc7b251b04974a718f9bb95ffefe97a880368e5d2d4cf7f9f8113d7e7666376c",
+          "bytes": 1152,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            160,
+            160
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "55b68861bf3175c6a696b3e8d478561f29ce624e05f1ae0083964cddc809a96e"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_play",
+          "target": "@drawable/exo_ic_play_circle_filled"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_play_circle_filled",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_play_circle_filled",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_play"
+            ],
+            "priorSharedLeaf": "exo_ic_play_circle_filled"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_rewind",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_rewind.xml",
+          "sha256": "9609bb155607a0cfd0f18531eefec33a5f1e68806ef1343cc741f38362e8ad97",
+          "bytes": 1142,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24",
+            "24"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_rewind.png",
+          "sha256": "95009a92516f125143d115a2ef7fe012acde87a775a8115f6e815878153210a6",
+          "bytes": 289,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "3d19b119f26825ed2197ecabd447be78182a742f20fe733da4071466bb63dfb7"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_rewind.png",
+          "sha256": "1cb035df884767f381bd4ca19eab52bd4e1abd9e5dc78dd3d2801341eb8cca57",
+          "bytes": 189,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "d74d73bc775b62a56e66e5fc48ff1f081ecad85139b30a8e82c5686747c8d052"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_rewind.png",
+          "sha256": "48ac7ef3ea0634a452ce25f7e1319f7c4ad3e055b2f87940bf7948cc222f6bef",
+          "bytes": 226,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "20ffa8148f8b8e13c37f553e7cf53470e03b29b55298c792d0f9d1b57b361176"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_rewind.png",
+          "sha256": "211a336a3acb74fe63840aa4a5ee4f5e4cbefdeaf700e3fde266ebee52b39ed8",
+          "bytes": 360,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "edaffb64cd5d4e7d118ef9d4b6e5c8978e97648ae234ca8211e4c511f82ee7db"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_rewind.png",
+          "sha256": "49bce56554cded6f998cdfe35a3e781afb21e6c02a41a2977b88ee3bfbd20514",
+          "bytes": 527,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "180368c629e058f83e1d4bcfaf5bf0110c57b8448024d7ea5af1179f555a62e0"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_rewind.png",
+          "sha256": "d80ae3ac8f9ab8dbbdb88d54a90b6c788d9725a651f9c96d93e50307c09f9231",
+          "bytes": 673,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "39b227c9be2366dc9b1ce6beaa0ebf0a4e4b2112ba1e15a1e858dc007bcf25b7"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_rewind",
+          "target": "@drawable/exo_ic_rewind"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_rewind",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_rewind",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_rewind.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_rewind"
+            ],
+            "priorSharedLeaf": "exo_ic_rewind"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_settings",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_settings.xml",
+          "sha256": "9b64b9a7eed443b5e183613ab4812e979a5f47e63a14c979f2d172f9e13ce879",
+          "bytes": 1800,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_settings.png",
+          "sha256": "b6fb74dc0a5e45ff2c2882f01b3f314fff9b708c20efe8c4c90e8951c61effe3",
+          "bytes": 309,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "7221f1d52601e0e91901b40c9cfa6d3ceaa556890a8284c3cccaac8a601a40fb"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_settings.png",
+          "sha256": "1e7e50422dea556b263865a4161fd2f5f2d156d2a59c56e3075873a3bd5ee8c5",
+          "bytes": 193,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "a202f684c4a2f2fc97a8560a45637dec21c7e1515765bec8b0873150a5896978"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_settings.png",
+          "sha256": "5a3a758c8d989775184d3cae384796c8eeb44479d8656392f4de5b09708da76c",
+          "bytes": 218,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "0189b243f41366390838c57cd740bbd5228f1d38ccbce587ef947f710f7a9bf9"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_settings.png",
+          "sha256": "e5b763ba24b3e9566ecbccd90d78ebf60d5fa4084c12780cd7824a151e6298e3",
+          "bytes": 386,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "333c6922e1e1c0a4bc6ed18d9bd7699c615578a8e905085b502921f5a4c61b25"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_settings.png",
+          "sha256": "f26a3a4bb02dd69e1975cdf4ea9fd75abe3adec41e275fc180d5e26856dee6b4",
+          "bytes": 574,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "c978de521fcaa3d395c06007536ed145f987d65d7b1ac9acd3da0e0a2c15d161"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_settings.png",
+          "sha256": "9d83220d5f507a5ddca70daf9a09cd1eac84a36062303add62ed8f60860a8ac2",
+          "bytes": 752,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "f89788c3af5b954b5ac6a7aa22f06fbb18a31797db02cc3afb8cc2b1706eecde"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_settings",
+          "target": "@drawable/exo_ic_settings"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_settings",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_settings",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_settings.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_settings"
+            ],
+            "priorSharedLeaf": "exo_ic_settings"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_skip_next",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+          "sha256": "7a05bd66b77b0f50ae2cbf34e14edb90b5e68f1ccffd0b61d8e696747489d947",
+          "bytes": 965,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_skip_next.png",
+          "sha256": "bff11ca1c9117005c7e18b130ed9bc9e54f9668584b6148ebbf2b7c2779bd988",
+          "bytes": 225,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            60,
+            60
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "a96bd2ef89d216149e3455363313be976ceb75aaa6ee557ee1985a69acdcf448"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_skip_next.png",
+          "sha256": "e58fd9135d4d586e33c8a98553c4a7846453221c78c0fe85d8ee103f6c5265b1",
+          "bytes": 164,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            30,
+            30
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "1a662fca524eb10c761d4cd8840755ba21c90dcc19bb66ae8793972b3d122b5b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_skip_next.png",
+          "sha256": "350f0902eb9a334bebc642fcd16a6d414e85e6bde7e2fd8d653a8bed39b1086e",
+          "bytes": 186,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            40,
+            40
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "aeaf924c0e6a12062df745ea1ba8ed1df1be4ebad1ff96fa386df9f9bc577acd"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_skip_next.png",
+          "sha256": "61e6063a16ff51f9888e8958912e10baef214ca9a2708c7139564d9dbb1511ff",
+          "bytes": 265,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            80,
+            80
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "1e7767eeefd063ebffd85ed51d83c72a1b59daad6b840cc13b5cbe2d81951f6d"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_skip_next.png",
+          "sha256": "2c5ddf5c9fda5f6ffe624e43ab2fa724db2dd224c15cb68fea786558bb4b352f",
+          "bytes": 336,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            120,
+            120
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "c8da3f1eba1cc47fb69d06c1f00408d2ed6e4be1e83508b0da4cd9a3b17825f1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_skip_next.png",
+          "sha256": "28b791b354fe5097bc3f13e1e41f16ac1e1a546b74b54286c28c1d1225d22474",
+          "bytes": 428,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            160,
+            160
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "a66547eb4a542da4a509e81f99fc9df7068297397500fe02ea4df0893f1ed3c6"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_next",
+          "target": "@drawable/exo_ic_skip_next"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_skip_next",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_skip_next",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_next"
+            ],
+            "priorSharedLeaf": "exo_ic_skip_next"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_skip_previous",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+          "sha256": "db7fee363c20483613fdb32385c60a3276d7189391d112d610d7d689a831e40f",
+          "bytes": 963,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_skip_previous.png",
+          "sha256": "8ee5948e77a1bab2a21b90e025f76ebec3996123f1056c616a5e74cad240ab37",
+          "bytes": 230,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            60,
+            60
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "65357bc8813778e51bda25ef162bc0889cf7b7fc468b72dde2bc7aaf82004afa"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_skip_previous.png",
+          "sha256": "7acd5e9dacb248e448b4dc163b00b7a7856612e03109fe8ba6be8850967fcb7a",
+          "bytes": 173,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            30,
+            30
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "5ce4b393e15383bd57be782afe759b691beb0c1f11ab2ed03c7cff1574f36a41"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_skip_previous.png",
+          "sha256": "33e658cb85de8bf634bef29d0984d29c5d09191c144bdfaa96629076bcbfe6cd",
+          "bytes": 188,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            40,
+            40
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "ee606952ecc3c57ca705db103a43334b40e32c68334a5e7739d7b785fbea25b5"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_skip_previous.png",
+          "sha256": "715f188a3243ba0f6b2638f2ce7b69a00af06e64c9509cc95fa3ca7eda4e33cd",
+          "bytes": 273,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            80,
+            80
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "39ccb33f8e90ba6600dd7fc550aafb68e0674c2af1288e2de52c9294a1b2298b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_skip_previous.png",
+          "sha256": "84ee194948de17003eba3dd739327d580c3546a1c3d638f600cba025dc45b106",
+          "bytes": 345,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            120,
+            120
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "af0e2f6eeb8bfc1fba5178c9c0cbb6b8dff0cfc65d1b45ee4508f713181ef515"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_skip_previous.png",
+          "sha256": "b5217179ba9aba86005f0979347adb6d3f0bc0a49a95b32bfeada79799b0bea5",
+          "bytes": 433,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            160,
+            160
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "7c5bb73f4db0b2e23638612313dca750308c35a8b162c5b5369285133dd1d7c3"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_previous",
+          "target": "@drawable/exo_ic_skip_previous"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_skip_previous",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_skip_previous",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_previous"
+            ],
+            "priorSharedLeaf": "exo_ic_skip_previous"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_speed",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_speed.xml",
+          "sha256": "1acc5feec8ddd950ddf213b9ed0eaa71f78360a99988455b2c25fd358f169452",
+          "bytes": 1499,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24",
+            "24"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_speed.png",
+          "sha256": "6c8b0a751fedb87e037866e1e6ead2255de0464e7aec214bb2f0b132be73765b",
+          "bytes": 386,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "18e1dc804e766602e43bce8d1ad27469e48d5d7499b5911d46fae213c538e6bb"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_speed.png",
+          "sha256": "5714bf3d7a19c8bb608882ac6e24e7f77316128a6d57c9d70ddfb476ba6dd0be",
+          "bytes": 233,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "c84f1fd078e0b1beffa4765ecfaf8c5e9af9b7e01a88a09c2c1243b7e723e572"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_speed.png",
+          "sha256": "fceb07850bdaa7c93cb9776a55224b24471483cc78708caf705742adcccf92f7",
+          "bytes": 269,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "30c0b624667cb7779d84b74542588af66ada27a2c6162d6007262b5f23088b65"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_speed.png",
+          "sha256": "9e177ba7bd8c97181c1f3c6197397a7c88d473d610eaa078ed780de4a8db52ca",
+          "bytes": 501,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "0d75d41a5b8d511a5a2038db2e3d52a1c23362e5028018172a74dc56cafa9312"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_speed.png",
+          "sha256": "b83028916ef90356b19a07bd1a936a42dcbba8e450d7282f4401132e484df2b9",
+          "bytes": 727,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "70b1edf1aeb702dce61cd4d482531f1e3a48d21c70fe9b60e4bfa95e2c7ee964"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_speed.png",
+          "sha256": "2f208cad0bd4e19834664548ca9785edccac8ee843a439d6423912876dde1bc2",
+          "bytes": 955,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "3ff7d89e1b8827edccb0fc7209fe22320592b708a4725a9b2fd7680ab08670a1"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_speed",
+          "target": "@drawable/exo_ic_speed"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_speed",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_speed",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_speed.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_speed"
+            ],
+            "priorSharedLeaf": "exo_ic_speed"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_subtitle_off",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+          "sha256": "c465905453aa19f2b34af9d323b1548de2b85e89e1729da03ff4c143ffe46bf8",
+          "bytes": 1468,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24",
+            "24"
+          ],
+          "pathCount": 4
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_subtitle_off.png",
+          "sha256": "aad5a71685362b1abd71a96cd0422c5ed7ec34ba7339050d4242a96f3c5c58d3",
+          "bytes": 224,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "c68f002583e7ae365e66721aefda38aeb44f5df78ca525a8adad0812fba2b2b3"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_subtitle_off.png",
+          "sha256": "4c80b9313ebe8927b8c2111f94b4016d3a5dbb994db00893e2ec4263f413bc8e",
+          "bytes": 174,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "a9e29675086b68c9e91a94e9b877c6a92b6d1d31ed11fce6eeb5357623679dc1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_subtitle_off.png",
+          "sha256": "561dec0510349e7a48e80d7b58f1bb0a4e0eaeca3189f6da0af4f3ae2ab23a42",
+          "bytes": 157,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "ad81e99f3a90194b88d0ad1bcdd621f88f19578da46614a5ece177b44acbb611"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_subtitle_off.png",
+          "sha256": "33d85283df238ab6e969efb1f8127819c8dd24828198863e1df29a5e435269cf",
+          "bytes": 214,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "425144144f12648a69edb73a71515e590c9796e5e2b59d3e9ce401ff429d3ffc"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_subtitle_off.png",
+          "sha256": "c62b615f2cecb59846fcf3fbd8aeff61caca1f2e0788963366fdb656ce9f3b05",
+          "bytes": 281,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "a1fc4b28694eaf2c1ba7ffc3555d18b4afb93d650a7468cedadd26bf74fb1edb"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_subtitle_off.png",
+          "sha256": "78c824c03ec15624b5f58a6437475151749f6046c936883943cadffae4942985",
+          "bytes": 316,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "3d46c92949d1669104e8bf51d30d65e5482b81d40a62e0f98fc6668a44568f58"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_subtitle_off",
+          "target": "@drawable/exo_ic_subtitle_off"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_subtitle_off",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_subtitle_off",
+            "mode": 2,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_subtitle_off"
+            ],
+            "priorSharedLeaf": "exo_ic_subtitle_off"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_ic_subtitle_on",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+          "sha256": "4b18246da6700ef722f0ce64cee316e4c25c187eb3e77d9f9ce706bc05209be4",
+          "bytes": 1275,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24",
+            "24"
+          ],
+          "pathCount": 2
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_ic_subtitle_on.png",
+          "sha256": "8fcc7f00e244a5ad09db42f19b69faa5841f72ee6a0f43ce77aa8e6d14a54409",
+          "bytes": 221,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "3a539c096236940c4e18b749c61788309be26a006089f09a8c0efdf0a52be42c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_ic_subtitle_on.png",
+          "sha256": "990d05cad83fe88aa122357740a06c95a5d22cadc6a9002e901cbce9f544f8ab",
+          "bytes": 161,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            18,
+            18
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "dbe636ec0b1a4fc46c9c538255bbfe39be669ed4014c088465a9652461d055b9"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_ic_subtitle_on.png",
+          "sha256": "5fd40c6de9d824ab04093fd79ed03cfca63ca6e156b91e5a2986b2b299e645dc",
+          "bytes": 145,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "909129578db9b7e6762e2188a169e4c1cccc7baaf05963c694a1e4950df18152"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_ic_subtitle_on.png",
+          "sha256": "cbdf9de06f32dc5d443091ff6ffd2aae5b67e77aac904499666f5d4821eacbfa",
+          "bytes": 202,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "c4c0da2e5b471fed1768362d3cb74d0a1360edbcdd1cf21f4199fe1ba3304d70"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_ic_subtitle_on.png",
+          "sha256": "d6f18371f13c7496e8311c52aaccafc87e18afd7b734a49c7ac87b65683d02ae",
+          "bytes": 265,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "d73da5424a1f34f1b9aa7a6ac07363dd1695e8fbaf7a93f3ca8f5d1469cb10b5"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_ic_subtitle_on.png",
+          "sha256": "65726f08e1d6dd6ea534390e47dba6d99b1067abc6d40790e45468fea74d7b38",
+          "bytes": 305,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "c8753250301787dd759585f5e995740806cd01dd1b26bcad8bb172e995b509fd"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_styled_controls_subtitle_on",
+          "target": "@drawable/exo_ic_subtitle_on"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_ic_subtitle_on",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_ic_subtitle_on",
+            "mode": 1,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_subtitle_on"
+            ],
+            "priorSharedLeaf": "exo_ic_subtitle_on"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_circular_play",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_circular_play.png",
+          "sha256": "b8f72870960706c64e11d70ac8c8eb5481d9a65235c7d7babcc0f0f448b4eaca",
+          "bytes": 995,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "e021d043686d7682a46107f646707a66e487315b236e304ec41d7f6e95174127"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_circular_play.png",
+          "sha256": "035a0fb2ebb43c10068d61546b44c2b590b8f0924b375c9a7dd3bc9d9ada4927",
+          "bytes": 457,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "cec3ae63c57c67eb70896333f4e699317658645b7f9c809e2df572e78be3b9f6"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_circular_play.png",
+          "sha256": "8f92699de32f5f781ffcb3238911bd93be6ebd45570ddd7abfa7655d3c2fb51f",
+          "bytes": 672,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "ebdbf95ef6bf80bd35ab068bdf816164e0313d464aac1ddb2234ba1fcab16cde"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_circular_play.png",
+          "sha256": "804c5a64a4bc8e6c3b7693bb29f2dfd20807919b04e65a03f46aa8baa62ced25",
+          "bytes": 1322,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "9313f9b1637fac5dd1f3f9cd9c270c55b1c8b48a701cacf683c776c91eac74c3"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_circular_play.png",
+          "sha256": "eea87a962b45eff12a286371ed7f60b6e8b142d3a6b8cfd484b20683e08462fc",
+          "bytes": 2020,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            144,
+            144
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "d53e54b84b3b52d0628939802c229679fcaf1bc3aea6f915ef0e1a79faddf619"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_icon_circular_play.png",
+          "sha256": "38ad79c3744379b41a7cc06b034147cc48ae77b34e323f2e4d5c14ba9fc4bc55",
+          "bytes": 2683,
+          "qualifier": "drawable-xxxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "f91521864b589004eefacdcc1e0da4815081609885c4130eb8f544ef38337878"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_notification_small_icon",
+          "target": "@drawable/exo_icon_circular_play"
+        }
+      ],
+      "disposition": "SHARED_OWNER_PRESENTATION_PENDING",
+      "rationale": "Actual legacy styles/controller or notification builder bind this source glyph. Preserve current native role, dimensions, tint behavior and source images while the shared-owner presentation needs its own scoped adaptation. No global untouched consumer is declared visually complete.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+          "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+          "lines": [
+            {
+              "line": 371,
+              "text": "smallIconResourceId = R.drawable.exo_notification_small_icon;"
+            },
+            {
+              "line": 372,
+              "text": "playActionIconResourceId = R.drawable.exo_notification_play;"
+            },
+            {
+              "line": 374,
+              "text": "stopActionIconResourceId = R.drawable.exo_notification_stop;"
+            }
+          ]
+        },
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+          "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+          "lines": [
+            {
+              "line": 376,
+              "text": "int controllerLayoutId = R.layout.exo_legacy_player_control_view;"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_fastforward",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+          "sha256": "cd3f6c4c03f5d63e77cd240025907ef13d31768b8147c7872642abe89ede1c7f",
+          "bytes": 942,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_fastforward.png",
+          "sha256": "dd6399b11d5363698f819466b9b29dfd829992ecaf2004e454e5dfc594166889",
+          "bytes": 283,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "4ff06c13b4745d75f54ca75dab71cbcca84d6e4887109c52679d2461aaa16e51"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_fastforward.png",
+          "sha256": "3bb93ccd29534d11945f44f7d8102d54573322cfea9b132b27deb5b2ac9466ce",
+          "bytes": 173,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "c732892f358d7b2b9caf6d48f9f142ebca483910a9439c029afec935811a5c14"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_fastforward.png",
+          "sha256": "a0df8d3b4003b0de54c424e67e3f4c58c4b10a55b3857e472fbca277e93658c8",
+          "bytes": 217,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "5bf0f3b1712a8696897e313160c5039059ff8659b517128e7b42528dbc3f98dc"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_fastforward.png",
+          "sha256": "a5c7d5634e92a5fb63bf36d5f90e2b27f060c7ecd37d3e5f81acea0a4f4449b2",
+          "bytes": 386,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "d2e0b9bc9168850f90116c72b4e94b1009249323b28b96930ee819c797060c0f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_fastforward.png",
+          "sha256": "33986362c6d7eec4cf6f94a972397595e73b0ab096c7dd411525b78418fc506f",
+          "bytes": 575,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "f71e82eec6eb7c207b7e256327e67ce97e59a7de58b5db7c62a4332a212acf9f"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_fastforward",
+          "target": "@drawable/exo_icon_fastforward"
+        },
+        {
+          "alias": "exo_notification_fastforward",
+          "target": "@drawable/exo_icon_fastforward"
+        },
+        {
+          "alias": "exo_styled_controls_simple_fastforward",
+          "target": "@drawable/exo_icon_fastforward"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_icon_fastforward",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_icon_fastforward",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_simple_fastforward"
+            ],
+            "priorSharedLeaf": "exo_icon_fastforward"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_fullscreen_enter",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fullscreen_enter.xml",
+          "sha256": "388658ad43d5d8b465fe259aa150acd5a1222316918a13be269d4f0cd2910fce",
+          "bytes": 1068,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24",
+            "24"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_fullscreen_enter.png",
+          "sha256": "08e96bb2201939b8fc86da6501ad51d469420aa9650aa7b9af89e8b8c4f7bcf0",
+          "bytes": 107,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "b4ff782aa042a4b16a7106ad4a358d87e8391b6a88d050b6dbfb2d3e7ef4b10c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_fullscreen_enter.png",
+          "sha256": "3b9bc9995c5f8421940b2572caa814023b349f681b76697a3c944b88aecd9c3c",
+          "bytes": 139,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "20acda6150d182cac1fe0b799b8dc3000f00da1a46d8c2e1b4b4cf1633d3490f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_fullscreen_enter.png",
+          "sha256": "060725c86c5a869565a2219f10384c07f8cfd5cc41640d772de97b66453e24ce",
+          "bytes": 101,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "5bd5db84db8ea2387bbb65dfc6864cf0aed9aebc39394d5c0cdda9d2d1f6e01e"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_fullscreen_enter.png",
+          "sha256": "c201d538b8ceb02e5a01712247d35ca532c3234304cf952e62cdd2848457572d",
+          "bytes": 109,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "7afa62f3cf9a604775cc5157d22a4f225e3855051e9e88115995601157c3436b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_fullscreen_enter.png",
+          "sha256": "4a0fbf30f378526f6d6f173223c39df9ad8930168fc102cc38facea2efc85510",
+          "bytes": 123,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            144,
+            144
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "7ebf36555eeb98775100f19637b1085dc811553a773b6ed5e9c9d889b8688738"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_fullscreen_enter",
+          "target": "@drawable/exo_icon_fullscreen_enter"
+        }
+      ],
+      "disposition": "SHARED_OWNER_PRESENTATION_PENDING",
+      "rationale": "Actual legacy styles/controller or notification builder bind this source glyph. Preserve current native role, dimensions, tint behavior and source images while the shared-owner presentation needs its own scoped adaptation. No global untouched consumer is declared visually complete.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+          "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+          "lines": [
+            {
+              "line": 371,
+              "text": "smallIconResourceId = R.drawable.exo_notification_small_icon;"
+            },
+            {
+              "line": 372,
+              "text": "playActionIconResourceId = R.drawable.exo_notification_play;"
+            },
+            {
+              "line": 374,
+              "text": "stopActionIconResourceId = R.drawable.exo_notification_stop;"
+            }
+          ]
+        },
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+          "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+          "lines": [
+            {
+              "line": 376,
+              "text": "int controllerLayoutId = R.layout.exo_legacy_player_control_view;"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_fullscreen_exit",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fullscreen_exit.xml",
+          "sha256": "74c254c8128f42431162a941a433c179e37930a0739da26a37eafa162c7e15e9",
+          "bytes": 1066,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24",
+            "24"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_fullscreen_exit.png",
+          "sha256": "c323e761a355ff118be5c0acf88f0c118b13cfe4f3972c09dee8d08b5d7db340",
+          "bytes": 105,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            72,
+            72
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "52a526e8ffefdd5740f7b1e18e3fdab0420c8277a8aea9a05646762754fcab81"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_fullscreen_exit.png",
+          "sha256": "4578ae8c9e9472c97c0edcdb02b062a3e8717b3c58a76bd11c77ab408b6bf956",
+          "bytes": 146,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            36,
+            36
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "b925f68998d8833e0777ae0e5fe4314867638c5497317a64f09fd91c63944ea6"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_fullscreen_exit.png",
+          "sha256": "36e6c0847eaa72ebb182e4aa6698ad561d45f32a91d9740432d2bdf8113bf570",
+          "bytes": 101,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "87befeed5d0d8021a7d5875e441531bc2d0f21d491dd0663df58e158c334a20a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_fullscreen_exit.png",
+          "sha256": "bcdcd52d56fa7f248b4d2a867d22b18656c3a75dfc0c7a72fd423128451c080d",
+          "bytes": 106,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "cfa7458c8d46658a5dd74307c8e6321d5c14f6d4c5863f6181621577f1a0763b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_fullscreen_exit.png",
+          "sha256": "c6960a93295fdc86181817f10ad2b34c547d77a66ff48b0932399a41925e9937",
+          "bytes": 123,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            144,
+            144
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "95c246be196238139a99b96189e7cbe1f775409bf93521acfdf21e7777af3d36"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_fullscreen_exit",
+          "target": "@drawable/exo_icon_fullscreen_exit"
+        }
+      ],
+      "disposition": "SHARED_OWNER_PRESENTATION_PENDING",
+      "rationale": "Actual legacy styles/controller or notification builder bind this source glyph. Preserve current native role, dimensions, tint behavior and source images while the shared-owner presentation needs its own scoped adaptation. No global untouched consumer is declared visually complete.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+          "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+          "lines": [
+            {
+              "line": 371,
+              "text": "smallIconResourceId = R.drawable.exo_notification_small_icon;"
+            },
+            {
+              "line": 372,
+              "text": "playActionIconResourceId = R.drawable.exo_notification_play;"
+            },
+            {
+              "line": 374,
+              "text": "stopActionIconResourceId = R.drawable.exo_notification_stop;"
+            }
+          ]
+        },
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+          "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+          "lines": [
+            {
+              "line": 376,
+              "text": "int controllerLayoutId = R.layout.exo_legacy_player_control_view;"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_next",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_next.xml",
+          "sha256": "14ab85a15644a6dd83cb1e942e99be336f66e4cdf5fb54ea1c503759dc013f1a",
+          "bytes": 937,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_next.png",
+          "sha256": "7626f61df4f0d2e0d6cc76848563a181e3550e92157f7e506519aed669c20a02",
+          "bytes": 264,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "d5a4a054fd57c32144ec54436721035d3fdefb518dcde3fa42ac61c2c5f71cef"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_next.png",
+          "sha256": "816dffefaa5e5fa18327db5c7856ad2220150ea85185463977ebb4a255537833",
+          "bytes": 152,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "e04ed72ab409a95089bb51b1aa600cb643243f291d0e521aab79b8135af59d9b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_next.png",
+          "sha256": "7d88944e8062c9f04b4a1c0cba6a57115dfb6f0ac74d9e9710c55f220c4812d0",
+          "bytes": 209,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "933b6b3e67c0e2a92d3d0d2dc826178024bcb261bf98f2f0689dc6e3ef5a0af1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_next.png",
+          "sha256": "d4a12afb754d61b3a95fa242fbb2bd31696ab8d8b6a694b7ce1901b25760c7f5",
+          "bytes": 269,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "63c041e6e332ba547614bd1ae994574bb87c0f9b6bf4c66fa831327cfc93fd51"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_next.png",
+          "sha256": "d90e992018fa0bc5bfe6075889b5618fe0eb8c7609bd96c0ed51d667d26c5425",
+          "bytes": 385,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "46a744c1238a7818f03c59a705d8f490c5714a591e7c9f2598362948f0a10e0c"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_next",
+          "target": "@drawable/exo_icon_next"
+        },
+        {
+          "alias": "exo_notification_next",
+          "target": "@drawable/exo_icon_next"
+        }
+      ],
+      "disposition": "SHARED_OWNER_PRESENTATION_PENDING",
+      "rationale": "Actual legacy styles/controller or notification builder bind this source glyph. Preserve current native role, dimensions, tint behavior and source images while the shared-owner presentation needs its own scoped adaptation. No global untouched consumer is declared visually complete.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+          "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+          "lines": [
+            {
+              "line": 371,
+              "text": "smallIconResourceId = R.drawable.exo_notification_small_icon;"
+            },
+            {
+              "line": 372,
+              "text": "playActionIconResourceId = R.drawable.exo_notification_play;"
+            },
+            {
+              "line": 374,
+              "text": "stopActionIconResourceId = R.drawable.exo_notification_stop;"
+            }
+          ]
+        },
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+          "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+          "lines": [
+            {
+              "line": 376,
+              "text": "int controllerLayoutId = R.layout.exo_legacy_player_control_view;"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_pause",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_pause.xml",
+          "sha256": "8c8a4ddd858ab2fb07ba9f6815d8809988f11d705d533434ba81aad645b90807",
+          "bytes": 940,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_pause.png",
+          "sha256": "158672fbac7706849ed6d07bfed214c71c9bd2fb234e2835b1c396d24dd9398a",
+          "bytes": 90,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "58bcaa99f17ef6f7a2fb124527497861d49b68b0549878d0e5d419f6d3789b69"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_pause.png",
+          "sha256": "af5233f498f505cafff2a05425737209dec892ae7057d9c3d88506de15e93fc7",
+          "bytes": 88,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "b065b1d87948d86e661d0fa53684f4bf6d3d1ef6ac573e950a6c23ee8fad8d6e"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_pause.png",
+          "sha256": "aa82a88aae367b8d84ba9d0fdd9bfd124b9ad2d445549eb72e88529dddac6500",
+          "bytes": 140,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "aa35baa94b850780811bdcc57eb35ee13ddfe5a5222d1d3ff50c8db9ac906e52"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_pause.png",
+          "sha256": "cb6ad001ba879e3a7db7158fc4273ec4fa8de6705432b2bbb007bcbeeb563d11",
+          "bytes": 164,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "f97c12f59752cf28109c1972383bea10ce3ed35670dad2a8f6153563c938a7fd"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_pause.png",
+          "sha256": "9fafcd809251df20fe7c7131e352ca482f2c3bc7e7b79c9e1ca06fde72116574",
+          "bytes": 111,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "f00740de77f5e0345083f3e0a9fb6e39d801415f31069df1e5cc867b66180a8f"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_pause",
+          "target": "@drawable/exo_icon_pause"
+        },
+        {
+          "alias": "exo_notification_pause",
+          "target": "@drawable/exo_icon_pause"
+        }
+      ],
+      "disposition": "SHARED_OWNER_PRESENTATION_PENDING",
+      "rationale": "Actual legacy styles/controller or notification builder bind this source glyph. Preserve current native role, dimensions, tint behavior and source images while the shared-owner presentation needs its own scoped adaptation. No global untouched consumer is declared visually complete.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+          "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+          "lines": [
+            {
+              "line": 371,
+              "text": "smallIconResourceId = R.drawable.exo_notification_small_icon;"
+            },
+            {
+              "line": 372,
+              "text": "playActionIconResourceId = R.drawable.exo_notification_play;"
+            },
+            {
+              "line": 374,
+              "text": "stopActionIconResourceId = R.drawable.exo_notification_stop;"
+            }
+          ]
+        },
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+          "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+          "lines": [
+            {
+              "line": 376,
+              "text": "int controllerLayoutId = R.layout.exo_legacy_player_control_view;"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_play",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_play.xml",
+          "sha256": "57966d9c92678633a39f3dcc9274a7b87180ae44fda16a3e23cae7aa2bfd11be",
+          "bytes": 915,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_play.png",
+          "sha256": "52e4df6817904e8beccf60c07af9ef3c98511205633f1ac3225c3ac8c1e6aeab",
+          "bytes": 233,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "d0aa59695cc47ce4abdd66f2e469e7bec2b8b3bf87867b12e999c2157f4837dd"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_play.png",
+          "sha256": "3e9cf50286f92b06fb3cbea4af1cadd14ac152a3302bf7e44ff674f70240eda4",
+          "bytes": 167,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "38ac1f280e337e2f95e04d6bd78345e5fab0f38dcc8fae67eede22bbbc11f2bd"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_play.png",
+          "sha256": "456d2f4faa7cf25035f2223ff7dda1e2b2876b9ffaab56c871bf94b31338f996",
+          "bytes": 200,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "a599c8cfc177113256dc3ea5d45ab0227d38aa9e3baf4e27ea11b3e46b80596a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_play.png",
+          "sha256": "4c1377c03a352a18769fdb1695bbbeda5348c76740ed093da7bd4854f9607443",
+          "bytes": 270,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "bf401e025ba41eb221da2a001583b759019224fc161082012e5f43c9e51375de"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_play.png",
+          "sha256": "ed555b25c9d460e889ceab734787d1d4b1464efc5f33bbd8c08696b1909b06fd",
+          "bytes": 378,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "87cc715c0e2df67a8a26cc2ee1462e7a8f1ed0dce47ef328527033fa8b676ab2"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_play",
+          "target": "@drawable/exo_icon_play"
+        },
+        {
+          "alias": "exo_notification_play",
+          "target": "@drawable/exo_icon_play"
+        }
+      ],
+      "disposition": "SHARED_OWNER_PRESENTATION_PENDING",
+      "rationale": "Actual legacy styles/controller or notification builder bind this source glyph. Preserve current native role, dimensions, tint behavior and source images while the shared-owner presentation needs its own scoped adaptation. No global untouched consumer is declared visually complete.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+          "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+          "lines": [
+            {
+              "line": 371,
+              "text": "smallIconResourceId = R.drawable.exo_notification_small_icon;"
+            },
+            {
+              "line": 372,
+              "text": "playActionIconResourceId = R.drawable.exo_notification_play;"
+            },
+            {
+              "line": 374,
+              "text": "stopActionIconResourceId = R.drawable.exo_notification_stop;"
+            }
+          ]
+        },
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+          "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+          "lines": [
+            {
+              "line": 376,
+              "text": "int controllerLayoutId = R.layout.exo_legacy_player_control_view;"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_previous",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_previous.xml",
+          "sha256": "f6e6ba0e142cf8a611c1baafe488a2101c7722c3c5a553693d3c7e16eb06a4d1",
+          "bytes": 935,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_previous.png",
+          "sha256": "a5c0c4f2627a0e78cb0fcf2669b77981f2fc37ca0c802c5cab2172f0f1eaca50",
+          "bytes": 255,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "affaf85a36c4c17c8f51e93e512ba4e0ca9b023ac46c4a2376797d99e96d5464"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_previous.png",
+          "sha256": "bd8c3ba58c864d5b6a3e799d215d5589b40575cbeef73c41fd7856b71186603c",
+          "bytes": 161,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "21f559f2baa801aecabb93d74f4d2d19ceb19e34f9276249370851b6b8213fa2"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_previous.png",
+          "sha256": "2ec8d396d7185b702d6f787e568d55e67fbbefb09538b8ffa05341ded8957bbf",
+          "bytes": 180,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "fffc1c41a80e1ee5ae1449d49836477597e18592b71a98d9e03a9ed9f0494fbb"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_previous.png",
+          "sha256": "9a6071533254af545b37965b5e922ac4afffd9a5295614163f3f94bcda97c9b9",
+          "bytes": 328,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "ac0449232246e61595d759d780f19730228b0770badd471fd89b025e572f41de"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_previous.png",
+          "sha256": "130ccff499f51f277394cc8c5a6e9fbb47642463a0e397dc4ed311e8d4b57498",
+          "bytes": 458,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "80d9a66926f460bdd4fd4c7d5f227c8efe4d65c1d14aba21c44f898c4be7c520"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_previous",
+          "target": "@drawable/exo_icon_previous"
+        },
+        {
+          "alias": "exo_notification_previous",
+          "target": "@drawable/exo_icon_previous"
+        }
+      ],
+      "disposition": "SHARED_OWNER_PRESENTATION_PENDING",
+      "rationale": "Actual legacy styles/controller or notification builder bind this source glyph. Preserve current native role, dimensions, tint behavior and source images while the shared-owner presentation needs its own scoped adaptation. No global untouched consumer is declared visually complete.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+          "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+          "lines": [
+            {
+              "line": 371,
+              "text": "smallIconResourceId = R.drawable.exo_notification_small_icon;"
+            },
+            {
+              "line": 372,
+              "text": "playActionIconResourceId = R.drawable.exo_notification_play;"
+            },
+            {
+              "line": 374,
+              "text": "stopActionIconResourceId = R.drawable.exo_notification_stop;"
+            }
+          ]
+        },
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+          "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+          "lines": [
+            {
+              "line": 376,
+              "text": "int controllerLayoutId = R.layout.exo_legacy_player_control_view;"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_repeat_all",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+          "sha256": "33cfe04db3849afaa84a066d4f51d7dc55ade42394a58a6d7fe6fb47f2507cb1",
+          "bytes": 994,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_repeat_all.png",
+          "sha256": "d498ca07b1b949f3667d1e2d20582014604ade13ae702ac6d654dd8e7d1c804d",
+          "bytes": 203,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "c8ec4445746c48475e17c6edd80aaa1d213cee578d3e8b95d73432cbafc1ff54"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_repeat_all.png",
+          "sha256": "97da735e777ed47155c24e272966bef05d9b2ee7866a4e27ddbffab36aceaf1c",
+          "bytes": 142,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "2fc449f49fd0555a07ed1c06f88e71ee1a9ee91bfcce0bb68ca74605e0209214"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_repeat_all.png",
+          "sha256": "27bbcb597e8b5fd424fa90222d50b6f78d2ec14d08681591d9c9e0c00c0cd1a3",
+          "bytes": 210,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "83833ef081135d096cbdc5af3377b870950783dd996bd0001af914f3ca6dfb0f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_repeat_all.png",
+          "sha256": "06648e14b1826079273b34866a305f43e52bdbd9123ca06ab79fc75aa5e4c275",
+          "bytes": 288,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "e89f484aa272fe7b3471003725a566a73d6ff043ef27d60840b4de80864af7ec"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_repeat_all.png",
+          "sha256": "0afa5d5b1a018125da8b3a3ebe05a5f9a9f0573a824cf620463a7ca8aa608607",
+          "bytes": 266,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "80a34ad6dc9e3da19f65826cab81a827f0d618d021069d94fd58253985ce64db"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_repeat_all",
+          "target": "@drawable/exo_icon_repeat_all"
+        },
+        {
+          "alias": "exo_styled_controls_repeat_all",
+          "target": "@drawable/exo_icon_repeat_all"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_icon_repeat_all",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_icon_repeat_all",
+            "mode": 1,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_repeat_all"
+            ],
+            "priorSharedLeaf": "exo_icon_repeat_all"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_repeat_off",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+          "sha256": "36320855fbb300cea55d9c4ea82b32595440e5f10bcedd826f148c24072209b5",
+          "bytes": 994,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_repeat_off.png",
+          "sha256": "2974f272232e2ed914f2109c953532038257b0677958348e85251fbdd84782f9",
+          "bytes": 223,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "fd16894307708e2f50e86927bc4f177a13047c72e5d5cf2077e56f232de9fe84"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_repeat_off.png",
+          "sha256": "39d6ef683355f7e176dbdd12581510addcfe1dbd20a8c7729b4f92ddd8092a9b",
+          "bytes": 166,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "0b878b8f59739639c2edb75b5a49de9076ba2343e37f9268ef3dbaeb1b4ec205"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_repeat_off.png",
+          "sha256": "a7b23a82d794c08f108ecf3c627bde8b6ecda41c772d078fe9fe386d31a2fd90",
+          "bytes": 227,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "183dbb19fe4e9dc443d2b76fabe555e1b8371979802e6a1909e1bea986235ee4"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_repeat_off.png",
+          "sha256": "d58af871904f307930136276f672f93fb2642cdcd70b1e9a89a433090caea7af",
+          "bytes": 322,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "1d53feac6a8188f9ecdc2b13e2f5c2b4f4f5cef4e259bfbd1db2af52e956019c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_repeat_off.png",
+          "sha256": "9c8efe05feab6ab5c1c057cb00b9b04e8d654ad2229fb5a7dcdd3f7c57fa32ab",
+          "bytes": 309,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "2896c05748bc72c0a3fd71a1a14dec8dc49d378656021be8ea76c128e4f00f9f"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_repeat_off",
+          "target": "@drawable/exo_icon_repeat_off"
+        },
+        {
+          "alias": "exo_styled_controls_repeat_off",
+          "target": "@drawable/exo_icon_repeat_off"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_icon_repeat_off",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_icon_repeat_off",
+            "mode": 2,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_repeat_off"
+            ],
+            "priorSharedLeaf": "exo_icon_repeat_off"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_repeat_one",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+          "sha256": "33ac407a93533508391e3a4df62fef8e96abfdbb1e7ac03393dce0cb9debb3c4",
+          "bytes": 1028,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_repeat_one.png",
+          "sha256": "fa6e2026ac1b283d4df5d7ff841417108c87d1be9befd86d05e1e7c5cb855213",
+          "bytes": 223,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "291f6d429382ae5b5eca880b1263d4828f7a5168736abc2ab0400d8d58acd288"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_repeat_one.png",
+          "sha256": "c73b3469df710cec5318359ab62683f846708b74812f7cfb84def8b030f53941",
+          "bytes": 160,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "80037eaf6aab21829790d5872964e10c9115e7b5afc8279b4c0a1ce22b2a63e1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_repeat_one.png",
+          "sha256": "f5e7ebd42942247ce2e4122e9d1e3f2c95f22853812215d89d7725fb2c8c0165",
+          "bytes": 232,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "a80565caa2704ea35c5b897b1ceef4382dbc8ca0d0509150f480a9bc9ce172af"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_repeat_one.png",
+          "sha256": "7421e7b1a19d91d1c5d7c22bb9011d2d331636db3709373a287a1628c3f7f51d",
+          "bytes": 331,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "02efbddc92c5b4f10c5ebdb39f73ca443a381f26cf6c6a666427c235e9136408"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_repeat_one.png",
+          "sha256": "f96c36013399e4c25b87c1db213bb7df225f4fbe0458981c9be24b8bf71b1167",
+          "bytes": 309,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "e2173a58e2f25a5ca78fe6731b883422fe91cf0114a20cf1c82ca5e3ddc84055"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_repeat_one",
+          "target": "@drawable/exo_icon_repeat_one"
+        },
+        {
+          "alias": "exo_styled_controls_repeat_one",
+          "target": "@drawable/exo_icon_repeat_one"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_icon_repeat_one",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_icon_repeat_one",
+            "mode": 1,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_repeat_one"
+            ],
+            "priorSharedLeaf": "exo_icon_repeat_one"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_rewind",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+          "sha256": "4284259fb05b0ab3af0cc22d69b4e43aeb5708c7d33db7c2acdb47a0fe52a885",
+          "bytes": 953,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_rewind.png",
+          "sha256": "87a456fcace171a99d20d827d2d8fa81416475a18c9a58d30c41d11ed67b721f",
+          "bytes": 332,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "RGBA",
+          "decodedRgbaSha256": "3ce891a81004a4a194df74225d1387ac7450b3704b9377bed3434e1563e3cdfa"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_rewind.png",
+          "sha256": "8a6b907d4dd1f6959d1a08270aa314b30ffe3a5255e1005066b8cf110cd26eee",
+          "bytes": 186,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "754830feb5cb16765471d6d9af60c4125735799746aa4fb6bad659eee37e464e"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_rewind.png",
+          "sha256": "6d4e1b09125d412076d5bb8bb1a5900ba41250252f27963d7083a2416322ee3b",
+          "bytes": 217,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "bfbbf15cfd1f14fce91a0dfc133fdede1a1a60973947a6306b918939bb37bac7"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_rewind.png",
+          "sha256": "fc5ffc7a5718a08e25785c1900e8ff6a0e25d43ca1b523c6ea7ab838a21cb261",
+          "bytes": 391,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "57eb772afb2383821fae7c2f85015fadbe84579edfe9c7e7fdd705b3198b1ceb"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_rewind.png",
+          "sha256": "0f6878047b81dd9452156f19e56b51ae837f73d28d66f495bfde1dccca58bdc7",
+          "bytes": 561,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "P",
+          "decodedRgbaSha256": "7657b0ff14080954fa6f2dab7d6edeed9ecc9a0ba2a67909b9088d4f176a869b"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_rewind",
+          "target": "@drawable/exo_icon_rewind"
+        },
+        {
+          "alias": "exo_notification_rewind",
+          "target": "@drawable/exo_icon_rewind"
+        },
+        {
+          "alias": "exo_styled_controls_simple_rewind",
+          "target": "@drawable/exo_icon_rewind"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_icon_rewind",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_icon_rewind",
+            "mode": 0,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_simple_rewind"
+            ],
+            "priorSharedLeaf": "exo_icon_rewind"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_shuffle_off",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+          "sha256": "9628c7280fed8654f59872745296ec9784b4b92e70f3bf047f535af1ec06d640",
+          "bytes": 1081,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_shuffle_off.png",
+          "sha256": "ebb0d56032f799aa558ac2e04f9e3dd5f62f8e43578966516ec09101cfd8e45f",
+          "bytes": 265,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "89d3df8ea30cfe0c9bce13158743c0a1d276421742b7d4042b0e576540915b65"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_shuffle_off.png",
+          "sha256": "46970dc913767f377971e7949a0e87f8dd1a2724f765f0eb2bf9988637062881",
+          "bytes": 182,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "a06ba00799e1e6e2b36a16515bb93645a643a194bc639c6b030e9d02085118bb"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_shuffle_off.png",
+          "sha256": "b3f53f8d207b20d9aafd5cfc8914fd16c5ad125afb8c175d5c242e3903eb7897",
+          "bytes": 228,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "e290865bfe1e4870459abb9e143cb430d0af2e1af6a7b8182f00171950c04591"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_shuffle_off.png",
+          "sha256": "38ed8f29810584687e7f7611eac467bff7e2a14c034b119c13d0881ca82949f1",
+          "bytes": 342,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "5bbaf5a6a3f2f6d3b5d935d5da514cbeb0c3823d935862e5e90ffadd919fc107"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_shuffle_off.png",
+          "sha256": "681874018630ba4956b42b33ce0ea39ca0a3712f428077062c0229234c25735c",
+          "bytes": 438,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "3506fed50415e5eaec2a799608a326092295bc1ce89f22c562edf07e7d290024"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_shuffle_off",
+          "target": "@drawable/exo_icon_shuffle_off"
+        },
+        {
+          "alias": "exo_styled_controls_shuffle_off",
+          "target": "@drawable/exo_icon_shuffle_off"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_icon_shuffle_off",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_icon_shuffle_off",
+            "mode": 2,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_shuffle_off"
+            ],
+            "priorSharedLeaf": "exo_icon_shuffle_off"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_shuffle_on",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+          "sha256": "2b5b4a738dbea931973ffbe0269aac45eb042fd88e6204237dea633de60afc19",
+          "bytes": 1081,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24.0",
+            "24.0"
+          ],
+          "pathCount": 1
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_shuffle_on.png",
+          "sha256": "e06a1e1e7e95e6bcef5620a8a5aa2b6bc8b5082f51c23bc1a71a2121d3c6063c",
+          "bytes": 268,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "3a508d490cf1ecad1c0faff7d1ac61a659efc73504423383de0b81e992b9e665"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_shuffle_on.png",
+          "sha256": "c2c8e9c0c6fc7c8f0eafe4ffbd7092bf7e12dda8d0b417037426a3d44d65fbd1",
+          "bytes": 187,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "dd3b0d28351946ae73a49cc607dc5e3c4db9fb80580c1aae2ff3b2458f94d880"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_shuffle_on.png",
+          "sha256": "4b5ade79ba9a38334784a61e997bc3ebaf87a71f47a07cdc5b963e1c62005e4c",
+          "bytes": 230,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "40feea21446874139a86907447528a4f8c87f7ae5b4b634ea83c2e20dec405f1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_shuffle_on.png",
+          "sha256": "f653f64de935b06f498ec6bffdee32585ccdd081c26e4062e00a1ba3d3e7eb8e",
+          "bytes": 342,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "612c7783e3dd3252493995f57ceabebf58b207545551a9900a13c2aaf4099077"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_shuffle_on.png",
+          "sha256": "c5fedfb81f882882ce2ae11a3c23d3ca05e9fb49de6434359a720a6892015825",
+          "bytes": 436,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "4bdd3504757e43a2149a28d592f724186f32f2a2727cef9626c1c8550636ba2e"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_shuffle_on",
+          "target": "@drawable/exo_icon_shuffle_on"
+        },
+        {
+          "alias": "exo_styled_controls_shuffle_on",
+          "target": "@drawable/exo_icon_shuffle_on"
+        }
+      ],
+      "disposition": "STYLED_ALIAS_PRESENTATION_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Source glyph geometry has its scoped steel/mask bridge for the styled player aliases only. Every original vector and density bitmap remains intact for other alias owners. This is not visual completion of legacy or notification consumers.",
+      "sourceContentAndConsumers": [
+        {
+          "scopedBinding": {
+            "resource": "cg_gl_m3_exo_icon_shuffle_on",
+            "qualifier": "drawable-anydpi-v21",
+            "family": "cg_gl_icon_shuffle_on",
+            "mode": 1,
+            "autoMirrored": false,
+            "source": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+            "library": "media3-ui1.10.0",
+            "sourceAliases": [
+              "exo_styled_controls_shuffle_on"
+            ],
+            "priorSharedLeaf": "exo_icon_shuffle_on"
+          }
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_stop",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_stop.xml",
+          "sha256": "1135800337a01dff7e11c3d906aa9fbd7600da92a867e7bc401f3edd311863a7",
+          "bytes": 1019,
+          "qualifier": "drawable-anydpi-v21",
+          "format": ".xml",
+          "xmlRoot": "vector",
+          "nativeViewport": [
+            "24",
+            "24"
+          ],
+          "pathCount": 2
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_stop.png",
+          "sha256": "c3c75a3a94a9b694a2f9f13ca77b8a638220edbf81f2be53c09c4ea0c518728a",
+          "bytes": 90,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "ca86293b584ea445f05415332a12664149fe914a1b187444e7050b6cac0298ad"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_stop.png",
+          "sha256": "cb96de13eaa0b38ad84622b9bf10de3e0d08cabf7556f83702a31df7c7c1e294",
+          "bytes": 88,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "fcb6673b7da614fb9ac3e100088cd4a4b10ff857fb4c09edf82f652dba501cbc"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_stop.png",
+          "sha256": "e36b0b8ad799dae89888a6c73e162d5bf17e1a82481c5593e7b1975b0532b6a4",
+          "bytes": 97,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "021ff598c3f639d92ae40259046502b1238d4bd9b254fcb017e40525d4f56dc1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_stop.png",
+          "sha256": "0e3b79e7f6c572b759cd16e92fe75a1d774d0ef9749ae956abc38b55329e31f8",
+          "bytes": 91,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "a1ee94898babafe936ad55c3441a03dbdf65db4f028270d9e55c975ec9fd2c07"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_stop.png",
+          "sha256": "581f1d038f2a1aea88ffedc808ba712bcbab9148a4cb8b04f878d7c4a5059834",
+          "bytes": 95,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "1",
+          "decodedRgbaSha256": "f8d4be24ab0742f85452e8285c0785e06ca0cc60bf6f53d337b55a921c33a24f"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_notification_stop",
+          "target": "@drawable/exo_icon_stop"
+        }
+      ],
+      "disposition": "SHARED_OWNER_PRESENTATION_PENDING",
+      "rationale": "Actual legacy styles/controller or notification builder bind this source glyph. Preserve current native role, dimensions, tint behavior and source images while the shared-owner presentation needs its own scoped adaptation. No global untouched consumer is declared visually complete.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+          "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+          "lines": [
+            {
+              "line": 371,
+              "text": "smallIconResourceId = R.drawable.exo_notification_small_icon;"
+            },
+            {
+              "line": 372,
+              "text": "playActionIconResourceId = R.drawable.exo_notification_play;"
+            },
+            {
+              "line": 374,
+              "text": "stopActionIconResourceId = R.drawable.exo_notification_stop;"
+            }
+          ]
+        },
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+          "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+          "lines": [
+            {
+              "line": 376,
+              "text": "int controllerLayoutId = R.layout.exo_legacy_player_control_view;"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_icon_vr",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_vr.png",
+          "sha256": "86b98d5052ca09473b54a454eb0ed2738e0e431724e20ec6e8883de847518286",
+          "bytes": 291,
+          "qualifier": "drawable-hdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            48,
+            48
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "a0cd00f3d2e953ad73afed56a3fa7a594b8af52fb98401e5632c4a191afcfc4a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_vr.png",
+          "sha256": "5e657d3c6f66583e6bb01ba33dc7f6d645c2139b405166749469df660f6ba69c",
+          "bytes": 170,
+          "qualifier": "drawable-ldpi-v4",
+          "format": ".png",
+          "dimensions": [
+            24,
+            24
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "ef29d8d10ea75c9a264d6aaa628a785ff2e43dec82fbbd40a44ca1b0195f0fa2"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_vr.png",
+          "sha256": "8ca9277e1962c804d463895a0ccc8b3f7154ac85fc4b8e9fc04658ec9cbd9b9e",
+          "bytes": 207,
+          "qualifier": "drawable-mdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            32,
+            32
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "0f5acbbb6f25fced59d671a23b27077dfb65b988d56162040f42c9264fbaf2c6"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_vr.png",
+          "sha256": "c3aa9130cf52bd20885f7d20cb080771fd7f454c871886f458f1d02dd3b32ee8",
+          "bytes": 375,
+          "qualifier": "drawable-xhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "661f865247a457988bd4ea62f544603c36d8d243650cf6ed20b0ed6fe602d4e7"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_vr.png",
+          "sha256": "12c3e20d46259bb2808367cdf3b0a45c8117ece54d7e97bb7b29c92220b8379d",
+          "bytes": 602,
+          "qualifier": "drawable-xxhdpi-v4",
+          "format": ".png",
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "LA",
+          "decodedRgbaSha256": "0aa2b90abf875bd31512debacce8696e94af56d3dba4f2c0a0ce7a1c605c0bc8"
+        }
+      ],
+      "consumerAliases": [
+        {
+          "alias": "exo_legacy_controls_vr",
+          "target": "@drawable/exo_icon_vr"
+        },
+        {
+          "alias": "exo_styled_controls_vr",
+          "target": "@drawable/exo_icon_vr"
+        }
+      ],
+      "disposition": "SHARED_OWNER_PRESENTATION_PENDING",
+      "rationale": "Actual legacy styles/controller or notification builder bind this source glyph. Preserve current native role, dimensions, tint behavior and source images while the shared-owner presentation needs its own scoped adaptation. No global untouched consumer is declared visually complete.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+          "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+          "lines": [
+            {
+              "line": 371,
+              "text": "smallIconResourceId = R.drawable.exo_notification_small_icon;"
+            },
+            {
+              "line": 372,
+              "text": "playActionIconResourceId = R.drawable.exo_notification_play;"
+            },
+            {
+              "line": 374,
+              "text": "stopActionIconResourceId = R.drawable.exo_notification_stop;"
+            }
+          ]
+        },
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+          "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+          "lines": [
+            {
+              "line": 376,
+              "text": "int controllerLayoutId = R.layout.exo_legacy_player_control_view;"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "drawable",
+      "resource": "exo_rounded_rectangle",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable/exo_rounded_rectangle.xml",
+          "sha256": "379f379b275bf63dbb96b5386922dc82a2da18c7ad097d8495dd17550dc0dbbe",
+          "bytes": 873,
+          "qualifier": "drawable",
+          "format": ".xml",
+          "xmlRoot": "shape",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "SCOPED_ERROR_PANEL_AUTHORED_SHARED_SOURCE_RETAINED",
+      "rationale": "Native16dp rounded error shape remains globally intact. Gallery selects a source-identical player subtree whose only visual substitution is a cold steel error panel. Actual error provider/custom message and native visibility still own content; error is not a toggled-on feature.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerView.java",
+          "sha256": "db13fd625fede21cc05a452660e34ca6acd752cb703d527388ce8411d47be0c3",
+          "lines": [
+            {
+              "line": 568,
+              "text": "errorMessageView.setVisibility(View.GONE);"
+            },
+            {
+              "line": 1774,
+              "text": "private void updateErrorMessage() {"
+            },
+            {
+              "line": 1777,
+              "text": "errorMessageView.setText(customErrorMessage);"
+            },
+            {
+              "line": 1783,
+              "text": "CharSequence errorMessage = errorMessageProvider.getErrorMessage(error).second;"
+            },
+            {
+              "line": 1787,
+              "text": "errorMessageView.setVisibility(View.GONE);"
+            }
+          ]
+        },
+        {
+          "result": "PASS",
+          "source": "source\\media3-ui\\original-resources\\res\\layout\\exo_player_view.xml",
+          "sourceSha256": "b1cb54f16001e81864eee3be0cc8dd3f7e633755878519e331a52ce9f04ae832",
+          "target": "app/src/main/res/layout/cg_gl_player_view.xml",
+          "patchedSha256": "273c1a1fde0b209aceefef086d177e1650df5ba7214dec3bdcce14dd21e6f038",
+          "actualOwner": "app/src/main/res/layout/media_view.xml",
+          "actualOwnerSha256": "bbe7f49c12eef9724f74e41b2a7f608405e8bbb1c9c356308e6fae2b2c07e607",
+          "nativeIdAndWidgetParity": [
+            [
+              "androidx.media3.ui.AspectRatioFrameLayout",
+              "@id/exo_content_frame"
+            ],
+            [
+              "View",
+              "@id/exo_shutter"
+            ],
+            [
+              "ImageView",
+              "@id/exo_image"
+            ],
+            [
+              "ImageView",
+              "@id/exo_artwork"
+            ],
+            [
+              "androidx.media3.ui.SubtitleView",
+              "@id/exo_subtitles"
+            ],
+            [
+              "ProgressBar",
+              "@id/exo_buffering"
+            ],
+            [
+              "TextView",
+              "@id/exo_error_message"
+            ],
+            [
+              "FrameLayout",
+              "@id/exo_ad_overlay"
+            ],
+            [
+              "FrameLayout",
+              "@id/exo_overlay"
+            ],
+            [
+              "View",
+              "@id/exo_controller_placeholder"
+            ]
+          ],
+          "onlySubtreeChange": {
+            "before": "android:background=\"@drawable/exo_rounded_rectangle\"",
+            "after": "android:background=\"@drawable/cg_gl_player_error_panel\""
+          },
+          "errorBackground": {
+            "family": "cg_gl_panel",
+            "sourceValueMode": "false_value",
+            "featureOn": false,
+            "runtimeMessageSource": "PlayerView.updateErrorMessage keeps nullable custom/error provider messages and original visibility conditions"
+          },
+          "globalLibraryErrorShapeUnchanged": true,
+          "protectedNativeContracts": [
+            "surface insertion",
+            "image and artwork view scale and IDs",
+            "subtitles",
+            "buffering visibility",
+            "shutter",
+            "ads and overlay containers",
+            "controller placeholder",
+            "error text dimensions and padding"
+          ],
+          "nativeInflation": "NOT RUN",
+          "wholeGoalComplete": false
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "layout",
+      "resource": "exo_legacy_player_control_view",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/layout/exo_legacy_player_control_view.xml",
+          "sha256": "41b51e96667a1d596771fc40ca4d2f855fe8afd8365ffbbc0ced1d8a68dde565",
+          "bytes": 3103,
+          "qualifier": "layout",
+          "format": ".xml",
+          "xmlRoot": "LinearLayout",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "SHARED_OWNER_PRESENTATION_PENDING",
+      "rationale": "Positive LegacyPlayerControlView default layout contains native action controls plus position/duration and a timebar placeholder. Retain IDs, styles, action visibility and time binding; its legacy presentation needs a separate adaptation.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+          "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+          "lines": [
+            {
+              "line": 376,
+              "text": "int controllerLayoutId = R.layout.exo_legacy_player_control_view;"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "layout",
+      "resource": "exo_list_divider",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/layout/exo_list_divider.xml",
+          "sha256": "9d46017b217aafe82f4c07edd4e95a297ac1f508e42fb27155e09247281da2eb",
+          "bytes": 860,
+          "qualifier": "layout",
+          "format": ".xml",
+          "xmlRoot": "View",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "TRACK_DIALOG_PRESENTATION_PENDING",
+      "rationale": "Actual one-pixel native listDivider themed View is inserted at two TrackSelectionView call sites. It is a separator, not a missing illustration; native track dialog styling and effective theme still need acceptance.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/TrackSelectionView.java",
+          "sha256": "7d48cd92aeade553e33169b1d5fb59b5b1288b9c0305a4dea431ebac1c4e6265",
+          "lines": [
+            {
+              "line": 146,
+              "text": "addView(inflater.inflate(R.layout.exo_list_divider, this, false));"
+            },
+            {
+              "line": 294,
+              "text": "addView(inflater.inflate(R.layout.exo_list_divider, this, false));"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "layout",
+      "resource": "exo_player_control_ffwd_button",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/layout-v23/exo_player_control_ffwd_button.xml",
+          "sha256": "10784d1f3883e67e2e15f531097d2d425e3463d6aaa8c06744cd8af5a9e6595d",
+          "bytes": 1038,
+          "qualifier": "layout-v23",
+          "format": ".xml",
+          "xmlRoot": "merge",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "PRESERVE_NATIVE_AMOUNT_LAYOUT_CONTRACT",
+      "rationale": "Native API23+ merge/Button layout intentionally sets singleLine=false to avoid its documented Material layout bug. The styled amount-button housing is retargeted by scoped aliases; actual time amount text, matching ID, style and native formatting remain unchanged.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerControlView.java",
+          "sha256": "cca4f29e0a6c85ffcbf60d439ca46b05a239fc607b575e3a983fda29bb4a9694",
+          "lines": [
+            {
+              "line": 732,
+              "text": "TextView rewButtonWithAmount = findViewById(R.id.exo_rew_with_amount);"
+            },
+            {
+              "line": 751,
+              "text": "TextView ffwdButtonWithAmount = findViewById(R.id.exo_ffwd_with_amount);"
+            },
+            {
+              "line": 1358,
+              "text": "rewindButtonTextView.setText(String.valueOf(rewindSec));"
+            },
+            {
+              "line": 1372,
+              "text": "fastForwardButtonTextView.setText(String.valueOf(fastForwardSec));"
+            },
+            {
+              "line": 1552,
+              "text": "durationView.setText(Util.getStringForTime(formatBuilder, formatter, durationMs));"
+            },
+            {
+              "line": 1581,
+              "text": "positionView.setText(Util.getStringForTime(formatBuilder, formatter, position));"
+            },
+            {
+              "line": 2009,
+              "text": "positionView.setText(Util.getStringForTime(formatBuilder, formatter, position));"
+            },
+            {
+              "line": 2041,
+              "text": "positionView.setText(Util.getStringForTime(formatBuilder, formatter, position));"
+            },
+            {
+              "line": 2160,
+              "text": "holder.mainTextView.setText(mainTexts[position]);"
+            },
+            {
+              "line": 2165,
+              "text": "holder.subTextView.setText(subTexts[position]);"
+            },
+            {
+              "line": 2269,
+              "text": "holder.textView.setText(playbackSpeedTexts[position]);"
+            },
+            {
+              "line": 2334,
+              "text": "holder.textView.setText(R.string.exo_track_selection_none);"
+            },
+            {
+              "line": 2382,
+              "text": "holder.textView.setText(R.string.exo_track_selection_auto);"
+            },
+            {
+              "line": 2489,
+              "text": "holder.textView.setText(track.trackName);"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "layout",
+      "resource": "exo_player_control_rewind_button",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/layout-v23/exo_player_control_rewind_button.xml",
+          "sha256": "a547d8aa181b3e3ab02f49d5944bfdec307379db59bd6a529702ec3f8d596bb2",
+          "bytes": 1036,
+          "qualifier": "layout-v23",
+          "format": ".xml",
+          "xmlRoot": "merge",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "PRESERVE_NATIVE_AMOUNT_LAYOUT_CONTRACT",
+      "rationale": "Native API23+ merge/Button layout intentionally sets singleLine=false to avoid its documented Material layout bug. The styled amount-button housing is retargeted by scoped aliases; actual time amount text, matching ID, style and native formatting remain unchanged.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/PlayerControlView.java",
+          "sha256": "cca4f29e0a6c85ffcbf60d439ca46b05a239fc607b575e3a983fda29bb4a9694",
+          "lines": [
+            {
+              "line": 732,
+              "text": "TextView rewButtonWithAmount = findViewById(R.id.exo_rew_with_amount);"
+            },
+            {
+              "line": 751,
+              "text": "TextView ffwdButtonWithAmount = findViewById(R.id.exo_ffwd_with_amount);"
+            },
+            {
+              "line": 1358,
+              "text": "rewindButtonTextView.setText(String.valueOf(rewindSec));"
+            },
+            {
+              "line": 1372,
+              "text": "fastForwardButtonTextView.setText(String.valueOf(fastForwardSec));"
+            },
+            {
+              "line": 1552,
+              "text": "durationView.setText(Util.getStringForTime(formatBuilder, formatter, durationMs));"
+            },
+            {
+              "line": 1581,
+              "text": "positionView.setText(Util.getStringForTime(formatBuilder, formatter, position));"
+            },
+            {
+              "line": 2009,
+              "text": "positionView.setText(Util.getStringForTime(formatBuilder, formatter, position));"
+            },
+            {
+              "line": 2041,
+              "text": "positionView.setText(Util.getStringForTime(formatBuilder, formatter, position));"
+            },
+            {
+              "line": 2160,
+              "text": "holder.mainTextView.setText(mainTexts[position]);"
+            },
+            {
+              "line": 2165,
+              "text": "holder.subTextView.setText(subTexts[position]);"
+            },
+            {
+              "line": 2269,
+              "text": "holder.textView.setText(playbackSpeedTexts[position]);"
+            },
+            {
+              "line": 2334,
+              "text": "holder.textView.setText(R.string.exo_track_selection_none);"
+            },
+            {
+              "line": 2382,
+              "text": "holder.textView.setText(R.string.exo_track_selection_auto);"
+            },
+            {
+              "line": 2489,
+              "text": "holder.textView.setText(track.trackName);"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "layout",
+      "resource": "exo_player_control_view",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/layout/exo_player_control_view.xml",
+          "sha256": "aceaeeb1048e3023c169d02c75c95f2f742becbc75b79a8fc89358e15a7fbc9a",
+          "bytes": 6371,
+          "qualifier": "layout",
+          "format": ".xml",
+          "xmlRoot": "merge",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "NATIVE_LAYOUT_PRESENTATION_AUTHORED",
+      "rationale": "Pinned native layout is adapted through the recorded scoped layout/row treatment, preserving action and data IDs. Code compilation and actual resource linking pass; native XML inflation is not run.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-resources/res/layout/exo_player_control_view.xml",
+          "sourceSha256": "aceaeeb1048e3023c169d02c75c95f2f742becbc75b79a8fc89358e15a7fbc9a",
+          "target": "app/src/main/res/layout/cg_gl_player_controls.xml",
+          "patchedSha256": "f3d9189afbb07ddde35e79725bf10184ee66192bd18f054c37a514c4496db1c9",
+          "retainsNativeIdsAndActions": true
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "layout",
+      "resource": "exo_player_view",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/layout/exo_player_view.xml",
+          "sha256": "b1cb54f16001e81864eee3be0cc8dd3f7e633755878519e331a52ce9f04ae832",
+          "bytes": 3192,
+          "qualifier": "layout",
+          "format": ".xml",
+          "xmlRoot": "merge",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "SCOPED_MEDIA_LAYOUT_AUTHORED",
+      "rationale": "The10 original media widgets/IDs, native surface insertion, shutter, artwork, image, subtitle, buffering and overlay hierarchy remain unchanged. Gallery selects cg_gl_player_view through the real player_layout_id; only the error background reference differs.",
+      "sourceContentAndConsumers": [
+        {
+          "result": "PASS",
+          "source": "source\\media3-ui\\original-resources\\res\\layout\\exo_player_view.xml",
+          "sourceSha256": "b1cb54f16001e81864eee3be0cc8dd3f7e633755878519e331a52ce9f04ae832",
+          "target": "app/src/main/res/layout/cg_gl_player_view.xml",
+          "patchedSha256": "273c1a1fde0b209aceefef086d177e1650df5ba7214dec3bdcce14dd21e6f038",
+          "actualOwner": "app/src/main/res/layout/media_view.xml",
+          "actualOwnerSha256": "bbe7f49c12eef9724f74e41b2a7f608405e8bbb1c9c356308e6fae2b2c07e607",
+          "nativeIdAndWidgetParity": [
+            [
+              "androidx.media3.ui.AspectRatioFrameLayout",
+              "@id/exo_content_frame"
+            ],
+            [
+              "View",
+              "@id/exo_shutter"
+            ],
+            [
+              "ImageView",
+              "@id/exo_image"
+            ],
+            [
+              "ImageView",
+              "@id/exo_artwork"
+            ],
+            [
+              "androidx.media3.ui.SubtitleView",
+              "@id/exo_subtitles"
+            ],
+            [
+              "ProgressBar",
+              "@id/exo_buffering"
+            ],
+            [
+              "TextView",
+              "@id/exo_error_message"
+            ],
+            [
+              "FrameLayout",
+              "@id/exo_ad_overlay"
+            ],
+            [
+              "FrameLayout",
+              "@id/exo_overlay"
+            ],
+            [
+              "View",
+              "@id/exo_controller_placeholder"
+            ]
+          ],
+          "onlySubtreeChange": {
+            "before": "android:background=\"@drawable/exo_rounded_rectangle\"",
+            "after": "android:background=\"@drawable/cg_gl_player_error_panel\""
+          },
+          "errorBackground": {
+            "family": "cg_gl_panel",
+            "sourceValueMode": "false_value",
+            "featureOn": false,
+            "runtimeMessageSource": "PlayerView.updateErrorMessage keeps nullable custom/error provider messages and original visibility conditions"
+          },
+          "globalLibraryErrorShapeUnchanged": true,
+          "protectedNativeContracts": [
+            "surface insertion",
+            "image and artwork view scale and IDs",
+            "subtitles",
+            "buffering visibility",
+            "shutter",
+            "ads and overlay containers",
+            "controller placeholder",
+            "error text dimensions and padding"
+          ],
+          "nativeInflation": "NOT RUN",
+          "wholeGoalComplete": false
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "layout",
+      "resource": "exo_styled_settings_list",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/layout/exo_styled_settings_list.xml",
+          "sha256": "67850d4a50a3ec5f96528dda03984f1b3dac9ca26699661d16b44fd4ae63b461",
+          "bytes": 986,
+          "qualifier": "layout",
+          "format": ".xml",
+          "xmlRoot": "androidx.recyclerview.widget.RecyclerView",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "NATIVE_LAYOUT_PRESENTATION_AUTHORED",
+      "rationale": "Pinned native layout is adapted through the recorded scoped layout/row treatment, preserving action and data IDs. Code compilation and actual resource linking pass; native XML inflation is not run.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-resources/res/layout/exo_styled_settings_list.xml",
+          "sourceSha256": "67850d4a50a3ec5f96528dda03984f1b3dac9ca26699661d16b44fd4ae63b461",
+          "target": "app/src/main/res/layout/exo_styled_settings_list.xml",
+          "patchedSha256": "715bd7dbbcb828e9e56f4f3f74992ac53343949d26a0a7f707c29a787b2be2bd",
+          "retainsNativeIdsAndActions": true
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "layout",
+      "resource": "exo_styled_settings_list_item",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/layout/exo_styled_settings_list_item.xml",
+          "sha256": "1db44f5379612e8ae1ef0fc92e80409a228900dc21f26ddc99e4ec98f322edc7",
+          "bytes": 2473,
+          "qualifier": "layout",
+          "format": ".xml",
+          "xmlRoot": "LinearLayout",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "NATIVE_LAYOUT_PRESENTATION_AUTHORED",
+      "rationale": "Pinned native layout is adapted through the recorded scoped layout/row treatment, preserving action and data IDs. Code compilation and actual resource linking pass; native XML inflation is not run.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-resources/res/layout/exo_styled_settings_list_item.xml",
+          "sourceSha256": "1db44f5379612e8ae1ef0fc92e80409a228900dc21f26ddc99e4ec98f322edc7",
+          "target": "app/src/main/res/layout/exo_styled_settings_list_item.xml",
+          "patchedSha256": "392d66cf3d83eb44d34aa0d325c6bdb848e7180502357d57698b30bbc7998130",
+          "retainsNativeIdsAndActions": true
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "layout",
+      "resource": "exo_styled_sub_settings_list_item",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/layout/exo_styled_sub_settings_list_item.xml",
+          "sha256": "1be2419d86a70ac763557efe8578836f6139b729973d84f7aa5b20175a7ee185",
+          "bytes": 1931,
+          "qualifier": "layout",
+          "format": ".xml",
+          "xmlRoot": "LinearLayout",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "NATIVE_LAYOUT_PRESENTATION_AUTHORED",
+      "rationale": "Pinned native layout is adapted through the recorded scoped layout/row treatment, preserving action and data IDs. Code compilation and actual resource linking pass; native XML inflation is not run.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-resources/res/layout/exo_styled_sub_settings_list_item.xml",
+          "sourceSha256": "1be2419d86a70ac763557efe8578836f6139b729973d84f7aa5b20175a7ee185",
+          "target": "app/src/main/res/layout/exo_styled_sub_settings_list_item.xml",
+          "patchedSha256": "411b2d3b9ff7dc87c5bd144ac8e115e9b700acdb0c2ae89d2b3499b79203fb82",
+          "retainsNativeIdsAndActions": true
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    },
+    {
+      "kind": "layout",
+      "resource": "exo_track_selection_dialog",
+      "variants": [
+        {
+          "path": "source/media3-ui/original-resources/res/layout/exo_track_selection_dialog.xml",
+          "sha256": "32eb1c09e284e1831396d4ed4012efe22e8f075514851f9de57e4fb89e3e1ba6",
+          "bytes": 1010,
+          "qualifier": "layout",
+          "format": ".xml",
+          "xmlRoot": "ScrollView",
+          "nativeViewport": [
+            null,
+            null
+          ],
+          "pathCount": 0
+        }
+      ],
+      "consumerAliases": [],
+      "disposition": "TRACK_DIALOG_PRESENTATION_PENDING",
+      "rationale": "Actual ScrollView wraps TrackSelectionView; two builder branches inflate it and retain track options, scrolling and selection callbacks. Preserve the container/schema while its dialog presentation remains a separate pending owner.",
+      "sourceContentAndConsumers": [
+        {
+          "source": "source/media3-ui/original-java/androidx/media3/ui/TrackSelectionDialogBuilder.java",
+          "sha256": "e5f138900ab417a1622599035af6d5bc96b642db3d3fe4fdb6bf9cd2cda01433",
+          "lines": [
+            {
+              "line": 258,
+              "text": "View dialogView = dialogInflater.inflate(R.layout.exo_track_selection_dialog, /* root= */ null);"
+            },
+            {
+              "line": 287,
+              "text": "dialogInflater.inflate(R.layout.exo_track_selection_dialog, /* root= */ null);"
+            }
+          ]
+        }
+      ],
+      "nativeAcceptance": "NOT RUN",
+      "globalVisualCompletion": false
+    }
+  ],
+  "baselineCorpusExtended": false,
+  "sharedOwnerPresentationStillPending": true,
+  "defaultAlbumArtworkOwnerStillPending": true,
+  "remainingAdditionalScope": [
+    "Material/AppCompat/platform-widget visual families and actual effective themes",
+    "Native XML inflation, text layout, accessibility and Thor input/display acceptance"
+  ],
+  "wholeGoalComplete": false
+}

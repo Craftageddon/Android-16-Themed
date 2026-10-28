@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_skip_previous" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>

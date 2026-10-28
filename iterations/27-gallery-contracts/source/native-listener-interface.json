@@ -1,0 +1,11 @@
+{
+  "module": "guava-listenablefuture-prebuilt-jar",
+  "repository": "platform/prebuilts/tools",
+  "revision": "b157d1c3bff39161f34ccc44dffbe9568f3bece2",
+  "path": "common/m2/repository/com/google/guava/guava/listenablefuture/1.0/listenablefuture-1.0.jar",
+  "url": "https://android.googlesource.com/platform/prebuilts/tools/+/b157d1c3bff39161f34ccc44dffbe9568f3bece2/common/m2/repository/com/google/guava/guava/listenablefuture/1.0/listenablefuture-1.0.jar?format=TEXT",
+  "gitBlobSha1": "5e676925fa90da084afc26f2c9ae38c8201ec044",
+  "sha256": "e4ad7607e5c0477c6f890ef26a49cb8d1bb4dffb650bab4502afee64644e3069",
+  "bytes": 3149,
+  "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5e676925fa90da084afc26f2c9ae38c8201ec044.jar"
+}

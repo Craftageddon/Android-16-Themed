@@ -1,0 +1,3015 @@
+{
+  "sdkRepository": "platform/prebuilts/sdk",
+  "sdkRevision": "0f07e8d60ab0aba46129e427101f96ba459a95c1",
+  "platformLibraries": [
+    {
+      "path": "current/androidx/m2repository/androidx/activity/activity/1.14.0-alpha01/activity-1.14.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/activity/activity/1.14.0-alpha01/activity-1.14.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "287ccad9fb28ef3d46b97df5391624826beb4706",
+      "sha256": "83272247d0103b53cf7815d40ad278cdbc39aac8bc6051b507540c23adbcbbd4",
+      "bytes": 222655,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\287ccad9fb28ef3d46b97df5391624826beb4706.aar",
+      "package": "androidx.activity",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\287ccad9fb28ef3d46b97df5391624826beb4706.classes.jar",
+      "classesSha256": "0f2b298f2a10a67ff0e07287cf0ad84e1e9a1322921685b9dc95d246af7c9976",
+      "module": "androidx.activity_activity",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/activity/activity/1.14.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/activity/activity/1.14.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "5e76790b2763c4ecee0d695e36d7f40f639ea3a1",
+        "sha256": "68d5a3b5d20b9eed70246402c6bb0db7b19338c0291585b7324f3d19a3cee1df",
+        "bytes": 1560,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5e76790b2763c4ecee0d695e36d7f40f639ea3a1.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.core_core-ktx",
+        "androidx.core_core-viewtree",
+        "androidx.lifecycle_lifecycle-common",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "androidx.lifecycle_lifecycle-viewmodel-savedstate",
+        "androidx.navigationevent_navigationevent",
+        "androidx.profileinstaller_profileinstaller",
+        "androidx.savedstate_savedstate",
+        "androidx.tracing_tracing",
+        "kotlin-stdlib",
+        "kotlinx_coroutines"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/appcompat/appcompat/1.8.0-alpha01/appcompat-1.8.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/appcompat/appcompat/1.8.0-alpha01/appcompat-1.8.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "6d8958ef3d5d6196f6f7d3b83c32dde2abca0654",
+      "sha256": "443345d1d3f114ff199a9a030b3fe9c55c161ab67f6a895bbd66e676f2d5f2e0",
+      "bytes": 1193418,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\6d8958ef3d5d6196f6f7d3b83c32dde2abca0654.aar",
+      "package": "androidx.appcompat",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\6d8958ef3d5d6196f6f7d3b83c32dde2abca0654.classes.jar",
+      "classesSha256": "da27b8bd6a0b4c2a01e02cd2888e95ca27b76af6ce6d32453d2cb0c6e8741ddd",
+      "module": "androidx.appcompat_appcompat",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/appcompat/appcompat/1.8.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/appcompat/appcompat/1.8.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "8d484b925c07042424664ae7d27a6ba2af158a56",
+        "sha256": "245ab693b1938c9e7122ac26a19cc81d75820ccbdc10af8bb84671737ff45b74",
+        "bytes": 1759,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\8d484b925c07042424664ae7d27a6ba2af158a56.bp"
+      },
+      "declaredDependencies": [
+        "androidx.activity_activity",
+        "androidx.annotation_annotation",
+        "androidx.appcompat_appcompat-resources",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.core_core-ktx",
+        "androidx.cursoradapter_cursoradapter",
+        "androidx.drawerlayout_drawerlayout",
+        "androidx.emoji2_emoji2",
+        "androidx.emoji2_emoji2-views-helper",
+        "androidx.fragment_fragment",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "androidx.profileinstaller_profileinstaller",
+        "androidx.resourceinspection_resourceinspection-annotation",
+        "androidx.savedstate_savedstate",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/constraintlayout/constraintlayout/2.3.0-alpha01/constraintlayout-2.3.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/constraintlayout/constraintlayout/2.3.0-alpha01/constraintlayout-2.3.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "7e41c907977dd88af8dc0d319d23be7f37c2fa74",
+      "sha256": "eea98e45854c6b297c934b03a200c206c7d3b76527a862beff0107cb37fb8983",
+      "bytes": 503587,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\7e41c907977dd88af8dc0d319d23be7f37c2fa74.aar",
+      "package": "androidx.constraintlayout.widget",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\7e41c907977dd88af8dc0d319d23be7f37c2fa74.classes.jar",
+      "classesSha256": "d0fba04dec229b82c74311e1788b5e8691dd383d0b181d0b70e8b3f6035d1676",
+      "module": "androidx-constraintlayout_constraintlayout",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/constraintlayout/constraintlayout/2.3.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/constraintlayout/constraintlayout/2.3.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "c3ec87f0e5fa8c5479e91bbe9bc607e46330906f",
+        "sha256": "64b31c4c6ce98a41be860a32fcf1ac2fda8f0851db64df3a1c4f24cf2fae650c",
+        "bytes": 1251,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c3ec87f0e5fa8c5479e91bbe9bc607e46330906f.bp"
+      },
+      "declaredDependencies": [
+        "androidx.appcompat_appcompat",
+        "androidx.constraintlayout_constraintlayout-core",
+        "androidx.core_core",
+        "androidx.profileinstaller_profileinstaller",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/core/core-ktx/1.20.0-alpha01/core-ktx-1.20.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/core/core-ktx/1.20.0-alpha01/core-ktx-1.20.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "51e840d8f8f3c42e446db98164cebd106291480d",
+      "sha256": "d0ae77ae7cc46a4f0ffb803dc99a7325329f176ac0267ac96b6be0803dcc31bc",
+      "bytes": 183964,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\51e840d8f8f3c42e446db98164cebd106291480d.aar",
+      "package": "androidx.core.ktx",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\51e840d8f8f3c42e446db98164cebd106291480d.classes.jar",
+      "classesSha256": "37a5f10ec99a7f137e26840efeea1294fa1b1c01ec011cba017d951cd3ec7625",
+      "module": "androidx.core_core-ktx",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/core/core-ktx/1.20.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/core/core-ktx/1.20.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "885b13af21f197a3739aabe44920379d5effdb47",
+        "sha256": "82f9e7277f321a4e45e5810051110da3e04f68a4f71f15249bcf7c152c82bcbd",
+        "bytes": 1093,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\885b13af21f197a3739aabe44920379d5effdb47.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.core_core",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/exifinterface/exifinterface/1.4.0-rc01/exifinterface-1.4.0-rc01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/exifinterface/exifinterface/1.4.0-rc01/exifinterface-1.4.0-rc01.aar?format=TEXT",
+      "gitBlobSha1": "2f75a4ac167f2c6cb0fbab79c3c62d8bea9d5c6c",
+      "sha256": "631b29d4e569dc8946ebf38ce4bb5be36b947c9c8d3cac2b19a40259ac366177",
+      "bytes": 75391,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\2f75a4ac167f2c6cb0fbab79c3c62d8bea9d5c6c.aar",
+      "package": "androidx.exifinterface",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\2f75a4ac167f2c6cb0fbab79c3c62d8bea9d5c6c.classes.jar",
+      "classesSha256": "84838b014173d1c80a6bde1807ed30382bebe6bd5530505bb11f48cd62794a74",
+      "module": "androidx.exifinterface_exifinterface",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/exifinterface/exifinterface/1.4.0-rc01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/exifinterface/exifinterface/1.4.0-rc01/Android.bp?format=TEXT",
+        "gitBlobSha1": "a6710fda6bfc88c1e2eb517fbb4c2c90f27bf35a",
+        "sha256": "7e9ae0eda9676a063b2c588f78845c1df578ed5ec315d55658b0523b681d19ad",
+        "bytes": 1098,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\a6710fda6bfc88c1e2eb517fbb4c2c90f27bf35a.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/fragment/fragment-ktx/1.9.0-alpha01/fragment-ktx-1.9.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/fragment/fragment-ktx/1.9.0-alpha01/fragment-ktx-1.9.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "d271ddb179af019c7382549321b96a256823c7da",
+      "sha256": "34b8ca02f4e75dbbc3801aa78622f05e67b1b5fe0fce921720c7b7fcfee1fd34",
+      "bytes": 28474,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d271ddb179af019c7382549321b96a256823c7da.aar",
+      "package": "androidx.fragment.ktx",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d271ddb179af019c7382549321b96a256823c7da.classes.jar",
+      "classesSha256": "591fa1a3210d238a405a3ba4de74fdabb01298d2a18086e1ef143ad8137eb257",
+      "module": "androidx.fragment_fragment-ktx",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/fragment/fragment-ktx/1.9.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/fragment/fragment-ktx/1.9.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "bf6e92af7ca6ea251e79a1c0ef5f98ddd03cd353",
+        "sha256": "78636fb21b2d39e1c05ce89c90f2b92eec693a6fa54722fe83ae6c1e4d885a21",
+        "bytes": 1233,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\bf6e92af7ca6ea251e79a1c0ef5f98ddd03cd353.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.fragment_fragment",
+        "androidx.lifecycle_lifecycle-common",
+        "androidx.lifecycle_lifecycle-viewmodel-ktx",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/graphics/graphics-shapes-android/1.1.0-rc01/graphics-shapes-android-1.1.0-rc01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/graphics/graphics-shapes-android/1.1.0-rc01/graphics-shapes-android-1.1.0-rc01.aar?format=TEXT",
+      "gitBlobSha1": "93764e447f584fc45520f45168681cfaa8b763d5",
+      "sha256": "7686379e8086417634b556f9aa2e813d73d74babff479d19beb2188987d8543c",
+      "bytes": 127955,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\93764e447f584fc45520f45168681cfaa8b763d5.aar",
+      "package": "androidx.graphics.shapes",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\93764e447f584fc45520f45168681cfaa8b763d5.classes.jar",
+      "classesSha256": "aa5d231a39a672484d05f4c0989211c93ad7e6c3600338fd4946329378a08280",
+      "module": "androidx.graphics_graphics-shapes",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/graphics/graphics-shapes-android/1.1.0-rc01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/graphics/graphics-shapes-android/1.1.0-rc01/Android.bp?format=TEXT",
+        "gitBlobSha1": "48b7c8b42070b254fd1f0105b48bde6db7f1d9cc",
+        "sha256": "517b4070e56cf0645b782ed9ffe132e0630184ef36b4ff61029a497fc9088881",
+        "bytes": 1216,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\48b7c8b42070b254fd1f0105b48bde6db7f1d9cc.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.annotation_annotation-experimental",
+        "androidx.collection_collection",
+        "androidx.core_core-ktx",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-android/2.11.0-alpha03/lifecycle-runtime-android-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-android/2.11.0-alpha03/lifecycle-runtime-android-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "7b0e806260046d29f97fb8a721668bbda1f59aa7",
+      "sha256": "7a331736f2c70f36881c0efd8953daf58a792459ba24291152b5ab430fb858dd",
+      "bytes": 84950,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\7b0e806260046d29f97fb8a721668bbda1f59aa7.aar",
+      "package": "androidx.lifecycle.runtime",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\7b0e806260046d29f97fb8a721668bbda1f59aa7.classes.jar",
+      "classesSha256": "4ea3833217efc77668143f3ab347e859350ed8e0d70359bf045783cc1756a52e",
+      "module": "androidx.lifecycle_lifecycle-runtime",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-android/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-android/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "eae11022580d1194bab561eab72b3b43374a08b5",
+        "sha256": "a4064e21ea7f3d74eb16a51567d4ffe4d77179c74f83043527cc39704c72a90a",
+        "bytes": 1419,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\eae11022580d1194bab561eab72b3b43374a08b5.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.arch.core_core-common",
+        "androidx.arch.core_core-runtime",
+        "androidx.collection_collection",
+        "androidx.core_core-viewtree",
+        "androidx.lifecycle_lifecycle-common",
+        "androidx.profileinstaller_profileinstaller",
+        "jspecify",
+        "kotlin-stdlib",
+        "kotlinx_coroutines_android"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-ktx-android/2.11.0-alpha03/lifecycle-runtime-ktx-android-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-ktx-android/2.11.0-alpha03/lifecycle-runtime-ktx-android-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "fd6f49afb5b9b397a7e909a3184a50910cae2547",
+      "sha256": "cba576dd2c31ae89962f73c698e82041d0b7c6498f88541490e175b794d6dce7",
+      "bytes": 5174,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\fd6f49afb5b9b397a7e909a3184a50910cae2547.aar",
+      "package": "androidx.lifecycle.ktx",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\fd6f49afb5b9b397a7e909a3184a50910cae2547.classes.jar",
+      "classesSha256": "95ea38cd0a98671eca1d677e3e88aeca38e153ae887f24d4081f9c17410084be",
+      "module": "androidx.lifecycle_lifecycle-runtime-ktx",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-ktx-android/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-runtime-ktx-android/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "16f497814db8176002971810fe1ab4b6ea6f7f7a",
+        "sha256": "3f63f2c8b041c0a281bb27b718ae8bf9f805102eadb12a9bfd87c69072ef139b",
+        "bytes": 1188,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\16f497814db8176002971810fe1ab4b6ea6f7f7a.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.lifecycle_lifecycle-runtime",
+        "kotlin-stdlib",
+        "kotlinx_coroutines_android"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-service/2.11.0-alpha03/lifecycle-service-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-service/2.11.0-alpha03/lifecycle-service-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "4f4655577e230998d25ce8242222bd47e39ad9bc",
+      "sha256": "0055518c6a6eeff7654372c7af0cf787b52d0532330fa833042add1055c3b525",
+      "bytes": 9779,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\4f4655577e230998d25ce8242222bd47e39ad9bc.aar",
+      "package": "androidx.lifecycle.service",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\4f4655577e230998d25ce8242222bd47e39ad9bc.classes.jar",
+      "classesSha256": "b104dd4ebca16f5ab27327f4f8eeca1cde64e5d2e9e3f13da1c612bb18eb9e84",
+      "module": "androidx.lifecycle_lifecycle-service",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-service/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-service/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "21ddca76a900443894f89560a75558f9465ade6b",
+        "sha256": "0cf3b2cb8c4c900622f6269bd00b4e8ee596554538ffce042d0db891c1d10692",
+        "bytes": 1092,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\21ddca76a900443894f89560a75558f9465ade6b.bp"
+      },
+      "declaredDependencies": [
+        "androidx.lifecycle_lifecycle-runtime",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-savedstate-android/2.11.0-alpha03/lifecycle-viewmodel-savedstate-android-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-savedstate-android/2.11.0-alpha03/lifecycle-viewmodel-savedstate-android-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "6722c6dc5ac7ffba35c08a04f814f152da30fe09",
+      "sha256": "82fe5ad6d574f9819cee8e1f86d3666c4195f7abe57d573663d33d34541fb8a5",
+      "bytes": 80416,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\6722c6dc5ac7ffba35c08a04f814f152da30fe09.aar",
+      "package": "androidx.lifecycle.viewmodel.savedstate",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\6722c6dc5ac7ffba35c08a04f814f152da30fe09.classes.jar",
+      "classesSha256": "12f792761503d02147fcf5689a0879021f0d5d67d83066996cd8db2468aa36e7",
+      "module": "androidx.lifecycle_lifecycle-viewmodel-savedstate",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-savedstate-android/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-savedstate-android/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "e72722a1e0f2c56e7b995b7a7beeca6e78a926a1",
+        "sha256": "34ea97f6a49a92f3ce331054ef10d32ef6f47a7dd4630e6aabb3b2d40d6d598c",
+        "bytes": 1495,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e72722a1e0f2c56e7b995b7a7beeca6e78a926a1.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core-ktx",
+        "androidx.lifecycle_lifecycle-common",
+        "androidx.lifecycle_lifecycle-livedata-core",
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "androidx.savedstate_savedstate",
+        "kotlin-stdlib",
+        "kotlinx_coroutines",
+        "kotlinx_coroutines_android",
+        "kotlinx_serialization_core"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/navigation/navigation-common-android/2.10.0-alpha03/navigation-common-android-2.10.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-common-android/2.10.0-alpha03/navigation-common-android-2.10.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "cf2e2c521fdc0511c9d98f5a138d4bd95c03585e",
+      "sha256": "e0d60a32c87cf73d08e6a098e4ff9e729869028dc78ae26be9758110c6a3f30b",
+      "bytes": 348558,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\cf2e2c521fdc0511c9d98f5a138d4bd95c03585e.aar",
+      "package": "androidx.navigation.common",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\cf2e2c521fdc0511c9d98f5a138d4bd95c03585e.classes.jar",
+      "classesSha256": "40aee2f0f8b85b4e4c74b810caa356a630c3fada8d947eb6346fbe89e433b34e",
+      "module": "androidx.navigation_navigation-common",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/navigation/navigation-common-android/2.10.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-common-android/2.10.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "f04b69bc516e5e4a0db3bd87cb2fe8a08552b145",
+        "sha256": "5aedf6b91d32d7b6b938dfdc4f12ff0d32a54688bbc5809110f3cac0dac4a69b",
+        "bytes": 1557,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\f04b69bc516e5e4a0db3bd87cb2fe8a08552b145.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core-ktx",
+        "androidx.lifecycle_lifecycle-common",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "androidx.lifecycle_lifecycle-viewmodel-savedstate",
+        "androidx.profileinstaller_profileinstaller",
+        "androidx.savedstate_savedstate",
+        "androidx.savedstate_savedstate-ktx",
+        "kotlin-stdlib",
+        "kotlinx_serialization_core"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/navigation/navigation-fragment-ktx/2.10.0-alpha03/navigation-fragment-ktx-2.10.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-fragment-ktx/2.10.0-alpha03/navigation-fragment-ktx-2.10.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "c0c725d57cad0b8d5356011ed5d1f818d1b6af64",
+      "sha256": "747da07922380eea85dce9481d72586a77bfe4a9f466cea9054a9cf63c896219",
+      "bytes": 5653,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c0c725d57cad0b8d5356011ed5d1f818d1b6af64.aar",
+      "package": "androidx.navigation.fragment.ktx",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c0c725d57cad0b8d5356011ed5d1f818d1b6af64.classes.jar",
+      "classesSha256": "9893a4fc750cdb6ca0e6dcce9187e1667f9c7b525b66bfde35a5accd650f8bb4",
+      "module": "androidx.navigation_navigation-fragment-ktx",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/navigation/navigation-fragment-ktx/2.10.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-fragment-ktx/2.10.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "ef5291c080baa0fd16edf2213084e6376fb44055",
+        "sha256": "0855f67d43f35d48e3a7497f61ead279ab397a7ddca1d039d5f1efb4392e26e9",
+        "bytes": 1108,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\ef5291c080baa0fd16edf2213084e6376fb44055.bp"
+      },
+      "declaredDependencies": [
+        "androidx.navigation_navigation-fragment",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/navigation/navigation-runtime-android/2.10.0-alpha03/navigation-runtime-android-2.10.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-runtime-android/2.10.0-alpha03/navigation-runtime-android-2.10.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "5b7f4a0743477437bc2e9fa776fd173de08f613a",
+      "sha256": "981a611e8145e4226a9786bd28c6e6c37b6a4d3ee2afa7447adb7fdf7823cb1f",
+      "bytes": 181255,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5b7f4a0743477437bc2e9fa776fd173de08f613a.aar",
+      "package": "androidx.navigation",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5b7f4a0743477437bc2e9fa776fd173de08f613a.classes.jar",
+      "classesSha256": "cfe588579cc724bd72726f93b05987c3b6318cd8abccad77009818ccba32000d",
+      "module": "androidx.navigation_navigation-runtime",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/navigation/navigation-runtime-android/2.10.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-runtime-android/2.10.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "fbd6fc0e779a7621417af3186383303b3482ed4a",
+        "sha256": "be3c15b0877e2c18c736b72c15883454c3c242970b38e04ee0fd767fe4bc7bcc",
+        "bytes": 1596,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\fbd6fc0e779a7621417af3186383303b3482ed4a.bp"
+      },
+      "declaredDependencies": [
+        "androidx.activity_activity-ktx",
+        "androidx.annotation_annotation-experimental",
+        "androidx.collection_collection",
+        "androidx.core_core-ktx",
+        "androidx.lifecycle_lifecycle-common",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "androidx.lifecycle_lifecycle-viewmodel-ktx",
+        "androidx.navigation_navigation-common",
+        "kotlin-stdlib",
+        "kotlinx_coroutines",
+        "kotlinx_serialization_core"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/navigation/navigation-ui-ktx/2.10.0-alpha03/navigation-ui-ktx-2.10.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-ui-ktx/2.10.0-alpha03/navigation-ui-ktx-2.10.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "64eb1c81ffaf3c2f649396149861a2a387fb328f",
+      "sha256": "ec6d18610a59b0a5bf3aa8e350c7c3f54e5f08d1c827f351e05054b0dd00642f",
+      "bytes": 5617,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\64eb1c81ffaf3c2f649396149861a2a387fb328f.aar",
+      "package": "androidx.navigation.ui.ktx",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\64eb1c81ffaf3c2f649396149861a2a387fb328f.classes.jar",
+      "classesSha256": "391f3cb37f1ba947da2fe8bbdf70b59f763b8dcf98be8187fe18fd4d821e3984",
+      "module": "androidx.navigation_navigation-ui-ktx",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/navigation/navigation-ui-ktx/2.10.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-ui-ktx/2.10.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "11c0cbada71ea52ae652fec8088b18143eb415bf",
+        "sha256": "a257cb4cebbe00306242702e50837f01c06d622f53cc47a5c6d9585a260328df",
+        "bytes": 1090,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\11c0cbada71ea52ae652fec8088b18143eb415bf.bp"
+      },
+      "declaredDependencies": [
+        "androidx.navigation_navigation-ui",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/navigationevent/navigationevent-android/1.1.0-beta01/navigationevent-android-1.1.0-beta01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigationevent/navigationevent-android/1.1.0-beta01/navigationevent-android-1.1.0-beta01.aar?format=TEXT",
+      "gitBlobSha1": "634e5d972c49e06a49a0c16a415951f6cfa2f075",
+      "sha256": "0a68935b8e8ecbc8317fec6cbbc51cc802b9a6f7641f6f874f42137079b17800",
+      "bytes": 49048,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\634e5d972c49e06a49a0c16a415951f6cfa2f075.aar",
+      "package": "androidx.navigationevent",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\634e5d972c49e06a49a0c16a415951f6cfa2f075.classes.jar",
+      "classesSha256": "3581daf34b2d7d47ab9b5857dc3a9f886f85f2561fc8d566b61c7233f9218e58",
+      "module": "androidx.navigationevent_navigationevent",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/navigationevent/navigationevent-android/1.1.0-beta01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigationevent/navigationevent-android/1.1.0-beta01/Android.bp?format=TEXT",
+        "gitBlobSha1": "0117bbe6cb6336762d280bc0ca1826c083c8688f",
+        "sha256": "e46ffd989df15603e2e1f0ce08bed7fdffaf0aaa6c13e4d98e68ab156c501901",
+        "bytes": 1298,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\0117bbe6cb6336762d280bc0ca1826c083c8688f.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.compose.runtime_runtime-annotation",
+        "androidx.core_core-viewtree",
+        "kotlin-stdlib",
+        "kotlinx_coroutines",
+        "kotlinx_coroutines_android"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/preference/preference/1.3.0-alpha01/preference-1.3.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/preference/preference/1.3.0-alpha01/preference-1.3.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "06a4d4363bef1383c27f3eac17fd90ef756b74d0",
+      "sha256": "72881d00299ebabd4243a1fc2b0dabd9ba08186eb4c5e098b7b33c108336f533",
+      "bytes": 251569,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\06a4d4363bef1383c27f3eac17fd90ef756b74d0.aar",
+      "package": "androidx.preference",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\06a4d4363bef1383c27f3eac17fd90ef756b74d0.classes.jar",
+      "classesSha256": "f6df67e9060b62763da14e8750926fd6f5309f757f50be5c89e9911ca2130427",
+      "module": "androidx.preference_preference",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/preference/preference/1.3.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/preference/preference/1.3.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "d08bcc614d3b01f1a1dfd973b3accdf605c2e23e",
+        "sha256": "52566a90d3fad6db53565d268cd003c48b3870c629b6b08436939b76cd2343f8",
+        "bytes": 1345,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d08bcc614d3b01f1a1dfd973b3accdf605c2e23e.bp"
+      },
+      "declaredDependencies": [
+        "androidx.activity_activity-ktx",
+        "androidx.annotation_annotation",
+        "androidx.appcompat_appcompat",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.fragment_fragment-ktx",
+        "androidx.recyclerview_recyclerview",
+        "androidx.slidingpanelayout_slidingpanelayout"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/recyclerview/recyclerview/1.5.0-alpha01/recyclerview-1.5.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/recyclerview/recyclerview/1.5.0-alpha01/recyclerview-1.5.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "d48062ef26a844d1db87e02b399736a8b041c561",
+      "sha256": "c29561de03c5504f6b92a102f0e3439b6f76143f7df74df625c77459ed13eee8",
+      "bytes": 452881,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d48062ef26a844d1db87e02b399736a8b041c561.aar",
+      "package": "androidx.recyclerview",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d48062ef26a844d1db87e02b399736a8b041c561.classes.jar",
+      "classesSha256": "936e5b900aaddfd77bef9c65417082b033ef9abcad047a725996352b42edd02a",
+      "module": "androidx.recyclerview_recyclerview",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/recyclerview/recyclerview/1.5.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/recyclerview/recyclerview/1.5.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "2c28c3aa5b28f37360be7e0bbe468b0171e1f008",
+        "sha256": "661ed3612b03cdb3c1aa65867b27995e773ef40a767057cb466a40ce2025f441",
+        "bytes": 1325,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\2c28c3aa5b28f37360be7e0bbe468b0171e1f008.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.customview_customview",
+        "androidx.customview_customview-poolingcontainer",
+        "androidx.profileinstaller_profileinstaller",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/recyclerview/recyclerview-selection/1.3.0-alpha01/recyclerview-selection-1.3.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/recyclerview/recyclerview-selection/1.3.0-alpha01/recyclerview-selection-1.3.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "6826f9ec861c3147707e5d7d96c095ced91f82ed",
+      "sha256": "f88034701b7b75b954c7f44729d497af8b52d2ed51730ff211d60718ea0b4612",
+      "bytes": 111920,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\6826f9ec861c3147707e5d7d96c095ced91f82ed.aar",
+      "package": "androidx.recyclerview.selection",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\6826f9ec861c3147707e5d7d96c095ced91f82ed.classes.jar",
+      "classesSha256": "ea3337efb0bd64275baec30499701459b93d4ae719a9680f5ee2d9b3815306c3",
+      "module": "androidx.recyclerview_recyclerview-selection",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/recyclerview/recyclerview-selection/1.3.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/recyclerview/recyclerview-selection/1.3.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "ff124b5d9088ef6c53ef687f248238f99d807fad",
+        "sha256": "368a4a52fde3a9020baf9b88c7fecc5e4dffdcb6d8e0dae579e28a560459e72a",
+        "bytes": 1236,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\ff124b5d9088ef6c53ef687f248238f99d807fad.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.recyclerview_recyclerview",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/savedstate/savedstate-android/1.5.0-alpha02/savedstate-android-1.5.0-alpha02.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/savedstate/savedstate-android/1.5.0-alpha02/savedstate-android-1.5.0-alpha02.aar?format=TEXT",
+      "gitBlobSha1": "bb061cb35317da287862eeef40911435655c056d",
+      "sha256": "8254dca1093eb9cb7f83d9401686b283b524c97fea9f3635a2c191a8fc3b9c96",
+      "bytes": 261397,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\bb061cb35317da287862eeef40911435655c056d.aar",
+      "package": "androidx.savedstate",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\bb061cb35317da287862eeef40911435655c056d.classes.jar",
+      "classesSha256": "fa884435d50dfb5277414d167cd696cfeb70973fbe2f569b01347d506e959477",
+      "module": "androidx.savedstate_savedstate",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/savedstate/savedstate-android/1.5.0-alpha02/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/savedstate/savedstate-android/1.5.0-alpha02/Android.bp?format=TEXT",
+        "gitBlobSha1": "ce03e1c18405239fa10de5ee5555d0c88aed2d28",
+        "sha256": "d91699ad62a80fad28c19ee3e31a116123e55f4fbbbe2b35c4fca5acde6a5f4a",
+        "bytes": 1310,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\ce03e1c18405239fa10de5ee5555d0c88aed2d28.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core-ktx",
+        "androidx.core_core-viewtree",
+        "androidx.lifecycle_lifecycle-common",
+        "kotlin-stdlib",
+        "kotlinx_coroutines",
+        "kotlinx_serialization_core"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/viewpager2/viewpager2/1.2.0-alpha01/viewpager2-1.2.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/viewpager2/viewpager2/1.2.0-alpha01/viewpager2-1.2.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "c1eceef4ce46096493560b8c8f50e77791974f82",
+      "sha256": "1133564997e72ddf52d84ee6eb1ec79aa1f2126c6d3664f75d404ec1342de352",
+      "bytes": 70973,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c1eceef4ce46096493560b8c8f50e77791974f82.aar",
+      "package": "androidx.viewpager2",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c1eceef4ce46096493560b8c8f50e77791974f82.classes.jar",
+      "classesSha256": "2dc065f30c2047882024e4abfc9ad2a32f2c8b0b8585be9ce08dfb233d967329",
+      "module": "androidx.viewpager2_viewpager2",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/viewpager2/viewpager2/1.2.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/viewpager2/viewpager2/1.2.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "2d2cc1804a694767a22364730e75b1fb14514f2c",
+        "sha256": "8b0ebb95f937a2e22893de5dff55a30aaa3ac54df66fca782d407985879ff959",
+        "bytes": 1258,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\2d2cc1804a694767a22364730e75b1fb14514f2c.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.annotation_annotation-experimental",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.fragment_fragment",
+        "androidx.recyclerview_recyclerview"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/annotation/annotation-jvm/1.10.0/annotation-jvm-1.10.0.jar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/annotation/annotation-jvm/1.10.0/annotation-jvm-1.10.0.jar?format=TEXT",
+      "gitBlobSha1": "36a890533fdc880ddc212768b6aeba804b189b67",
+      "sha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697",
+      "bytes": 62171,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\36a890533fdc880ddc212768b6aeba804b189b67.jar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\36a890533fdc880ddc212768b6aeba804b189b67.jar",
+      "classesSha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697",
+      "module": "androidx.annotation_annotation",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/annotation/annotation-jvm/1.10.0/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/annotation/annotation-jvm/1.10.0/Android.bp?format=TEXT",
+        "gitBlobSha1": "195143cb53444d2dd25ef415d8878bd5865d4d30",
+        "sha256": "1f85e492ba523a95dbcb54147bc28b7adc7ec4816e636e256e238e3625eb34e4",
+        "bytes": 996,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\195143cb53444d2dd25ef415d8878bd5865d4d30.bp"
+      },
+      "declaredDependencies": [
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/core/core-viewtree/1.1.0-alpha01/core-viewtree-1.1.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/core/core-viewtree/1.1.0-alpha01/core-viewtree-1.1.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "e00c87567e488dfc93141d4e7836262630bb6d0b",
+      "sha256": "b2efc91a9a5cb130ffa83276a3e24c64c50229192c690a2ad8e3cb8915b441c2",
+      "bytes": 6810,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e00c87567e488dfc93141d4e7836262630bb6d0b.aar",
+      "package": "androidx.core.viewtree",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e00c87567e488dfc93141d4e7836262630bb6d0b.classes.jar",
+      "classesSha256": "d0bc6a492eada61212325edf8d9324e11924790c54553e62fb9d44782e8897c0",
+      "module": "androidx.core_core-viewtree",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/core/core-viewtree/1.1.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/core/core-viewtree/1.1.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "e8c3c893a426a89407e9a92f3dc5e8f803e3a182",
+        "sha256": "b799498016b5d4ba1834ca8f2642a5997335bebae63755e73c3a4de5605ee49e",
+        "bytes": 1030,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e8c3c893a426a89407e9a92f3dc5e8f803e3a182.bp"
+      },
+      "declaredDependencies": [
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-common-jvm/2.11.0-alpha03/lifecycle-common-jvm-2.11.0-alpha03.jar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-common-jvm/2.11.0-alpha03/lifecycle-common-jvm-2.11.0-alpha03.jar?format=TEXT",
+      "gitBlobSha1": "030b6a6aae7e6e89d322cc86e9b1fd5619df2d14",
+      "sha256": "6d233043a3d7607044eede264e26683f970dfbb43c136e1bc94c92eb47e2433d",
+      "bytes": 65491,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\030b6a6aae7e6e89d322cc86e9b1fd5619df2d14.jar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\030b6a6aae7e6e89d322cc86e9b1fd5619df2d14.jar",
+      "classesSha256": "6d233043a3d7607044eede264e26683f970dfbb43c136e1bc94c92eb47e2433d",
+      "module": "androidx.lifecycle_lifecycle-common",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-common-jvm/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-common-jvm/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "35f0f9a38f6d8a8477f933b59bd8d6b0fa4e7ba6",
+        "sha256": "daf2796c41e352ac489dce36824c266869f0c8e561d12efd19303c9b057f67a6",
+        "bytes": 1081,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\35f0f9a38f6d8a8477f933b59bd8d6b0fa4e7ba6.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "jspecify",
+        "kotlin-stdlib",
+        "kotlinx_coroutines"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-android/2.11.0-alpha03/lifecycle-viewmodel-android-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-android/2.11.0-alpha03/lifecycle-viewmodel-android-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "3ed198a3efdad8e4382dcb11b050f3e90f759a96",
+      "sha256": "01c32a9550764bc89b5aa32806d6eb5c8ee437bb87b380119aa196dec8d1eb94",
+      "bytes": 68136,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\3ed198a3efdad8e4382dcb11b050f3e90f759a96.aar",
+      "package": "androidx.lifecycle.viewmodel",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\3ed198a3efdad8e4382dcb11b050f3e90f759a96.classes.jar",
+      "classesSha256": "a4f13afe6d05b35c7c53869e156a73e32a8fad9bcf14d8a368ecb81b114c69ba",
+      "module": "androidx.lifecycle_lifecycle-viewmodel",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-android/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-android/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "857010a84a484cd60afc2d59f3dc925128e3d659",
+        "sha256": "1c78d9262ed305f6e920800df97ae787a495258aa25bd0ee6f2d9642f5417607",
+        "bytes": 1247,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\857010a84a484cd60afc2d59f3dc925128e3d659.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core-viewtree",
+        "kotlin-stdlib",
+        "kotlinx_coroutines",
+        "kotlinx_coroutines_android"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/profileinstaller/profileinstaller/1.5.0-alpha01/profileinstaller-1.5.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/profileinstaller/profileinstaller/1.5.0-alpha01/profileinstaller-1.5.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "c706c80e5cecd21773dbc617734db450fb51b303",
+      "sha256": "7b1adf6685dec400e42b9a3c4b1b324f5c966abee1e9bb34e5a36d8218fff30a",
+      "bytes": 54534,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c706c80e5cecd21773dbc617734db450fb51b303.aar",
+      "package": "androidx.profileinstaller",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c706c80e5cecd21773dbc617734db450fb51b303.classes.jar",
+      "classesSha256": "9191d81721909a7ca9194f78c8f98eade9bc2d606f8daaafd7d477b5c146e9c7",
+      "module": "androidx.profileinstaller_profileinstaller",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/profileinstaller/profileinstaller/1.5.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/profileinstaller/profileinstaller/1.5.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "d27bd5fd377af680d1be5962de0b8d1745e30bfc",
+        "sha256": "2e1e81d36e709e19d7a327e7b4a12373a45b59e9f735cd1f1f029c8daba48542",
+        "bytes": 1251,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d27bd5fd377af680d1be5962de0b8d1745e30bfc.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.concurrent_concurrent-futures",
+        "androidx.startup_startup-runtime",
+        "guava-listenablefuture-prebuilt-jar",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/tracing/tracing-android/2.0.0-alpha04/tracing-android-2.0.0-alpha04.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/tracing/tracing-android/2.0.0-alpha04/tracing-android-2.0.0-alpha04.aar?format=TEXT",
+      "gitBlobSha1": "91166f6dc14de42d9eb4661f6a4c3498709a13ef",
+      "sha256": "158e748a0655f69ef4e0a53cf98baa468fef491e0a3b0b857fd253a34c925ebd",
+      "bytes": 120142,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\91166f6dc14de42d9eb4661f6a4c3498709a13ef.aar",
+      "package": "androidx.tracing",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\91166f6dc14de42d9eb4661f6a4c3498709a13ef.classes.jar",
+      "classesSha256": "b7c35cb19e945eb9f463450196b73663229ea2a8d3362ad0363da17ed28188a3",
+      "module": "androidx.tracing_tracing",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/tracing/tracing-android/2.0.0-alpha04/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/tracing/tracing-android/2.0.0-alpha04/Android.bp?format=TEXT",
+        "gitBlobSha1": "fb8e41c19dbbd832ef82a2cc0c9ed2ad5fbce04a",
+        "sha256": "a049ab1c5673a771a0d046440a16af526e4f69ad586917d2f30522875ea6fcb7",
+        "bytes": 1143,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\fb8e41c19dbbd832ef82a2cc0c9ed2ad5fbce04a.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "kotlin-stdlib",
+        "kotlinx_coroutines"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/appcompat/appcompat-resources/1.8.0-alpha01/appcompat-resources-1.8.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/appcompat/appcompat-resources/1.8.0-alpha01/appcompat-resources-1.8.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "a944db08af46956e52146142f84d3f158bc56712",
+      "sha256": "53859cfa469311ecaeb7fa6daf77daa2f7043aa5886167f87ff17230001d086f",
+      "bytes": 67434,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\a944db08af46956e52146142f84d3f158bc56712.aar",
+      "package": "androidx.appcompat.resources",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\a944db08af46956e52146142f84d3f158bc56712.classes.jar",
+      "classesSha256": "28533f74ac2b767d254a15b8bd593a5b06b05e17c6fcad0fe5fa6e8ae5163e92",
+      "module": "androidx.appcompat_appcompat-resources",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/appcompat/appcompat-resources/1.8.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/appcompat/appcompat-resources/1.8.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "c6834cbafc58aee92666a924037f039a5ab87d52",
+        "sha256": "08f013de514c0d055ce10a5faa533ce0fdf8b0a834a1ca1d3fabe53ee7e044eb",
+        "bytes": 1290,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c6834cbafc58aee92666a924037f039a5ab87d52.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.vectordrawable_vectordrawable",
+        "androidx.vectordrawable_vectordrawable-animated",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/collection/collection-jvm/1.7.0-alpha01/collection-jvm-1.7.0-alpha01.jar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/collection/collection-jvm/1.7.0-alpha01/collection-jvm-1.7.0-alpha01.jar?format=TEXT",
+      "gitBlobSha1": "31916d98413d91c98becb9cc5283a272fa3a32e9",
+      "sha256": "b03612b004a8582476e8366f6ab4171ac97484b5fce838193d823de9c33553ed",
+      "bytes": 917129,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\31916d98413d91c98becb9cc5283a272fa3a32e9.jar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\31916d98413d91c98becb9cc5283a272fa3a32e9.jar",
+      "classesSha256": "b03612b004a8582476e8366f6ab4171ac97484b5fce838193d823de9c33553ed",
+      "module": "androidx.collection_collection",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/collection/collection-jvm/1.7.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/collection/collection-jvm/1.7.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "1e396d9524d02c8089ec3bd43236cc020f5fdf82",
+        "sha256": "f63c0e40bc79683155465db6aa03c6b40dc31adab3f314d08bff698caa0e2542",
+        "bytes": 1039,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\1e396d9524d02c8089ec3bd43236cc020f5fdf82.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/core/core/1.20.0-alpha01/core-1.20.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/core/core/1.20.0-alpha01/core-1.20.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "5f7d06bbfd393f4e0ee5510c439c55eac86c03a9",
+      "sha256": "761fb6bac8614d6e0050a98a9d2048fa5bc980df3c6429b337915da895fc3fd2",
+      "bytes": 1400080,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5f7d06bbfd393f4e0ee5510c439c55eac86c03a9.aar",
+      "package": "androidx.core",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5f7d06bbfd393f4e0ee5510c439c55eac86c03a9.classes.jar",
+      "classesSha256": "f33c2ec62e98b2dea798ccbebfedfa57a42db0727a3a3b40926ae8b3c2ca0fcf",
+      "module": "androidx.core_core",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/core/core/1.20.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/core/core/1.20.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "ba910e1763e79d10a4d5a399f9e25329f05590af",
+        "sha256": "8512a8c687da784099aaddc17120d1aab30fae0f16263bc6561c890d179aaa7e",
+        "bytes": 1635,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\ba910e1763e79d10a4d5a399f9e25329f05590af.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.annotation_annotation-experimental",
+        "androidx.collection_collection",
+        "androidx.concurrent_concurrent-futures",
+        "androidx.core_core-viewtree",
+        "androidx.interpolator_interpolator",
+        "androidx.lifecycle_lifecycle-common",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.tracing_tracing",
+        "androidx.versionedparcelable_versionedparcelable",
+        "guava-listenablefuture-prebuilt-jar",
+        "jspecify",
+        "kotlin-stdlib",
+        "kotlinx_coroutines"
+      ],
+      "declaredCompileLibraries": [
+        "framework-sdkextensions.stubs"
+      ]
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/cursoradapter/cursoradapter/1.1.0-alpha01/cursoradapter-1.1.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/cursoradapter/cursoradapter/1.1.0-alpha01/cursoradapter-1.1.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "c561be1ea508969afa49d16bba83d645a2bfd6d6",
+      "sha256": "5c6da25c5dfffe3d9e43678889d2a58c8704dea46b75946f9df4f469db79f307",
+      "bytes": 16459,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c561be1ea508969afa49d16bba83d645a2bfd6d6.aar",
+      "package": "androidx.cursoradapter",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c561be1ea508969afa49d16bba83d645a2bfd6d6.classes.jar",
+      "classesSha256": "0b72e584f64f2c425c9d9410effe0fd674ed365ab84e54099023398b3592fe41",
+      "module": "androidx.cursoradapter_cursoradapter",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/cursoradapter/cursoradapter/1.1.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/cursoradapter/cursoradapter/1.1.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "a4a83e13cdf633565d06e7e33daee50fc5e9dbdb",
+        "sha256": "f55018bb89fefa2d3f8092b64bff109b99f185091b1ed996b1f310f437eabd25",
+        "bytes": 1101,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\a4a83e13cdf633565d06e7e33daee50fc5e9dbdb.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/drawerlayout/drawerlayout/1.3.0-alpha01/drawerlayout-1.3.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/drawerlayout/drawerlayout/1.3.0-alpha01/drawerlayout-1.3.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "f6dee245bffecff33a1d1f2e5305a1e785796ba9",
+      "sha256": "2bfbf84c0f063278e67b6e4b7746c1c99dbe5f5c054f0dc6c3bf42ca8897d217",
+      "bytes": 38700,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\f6dee245bffecff33a1d1f2e5305a1e785796ba9.aar",
+      "package": "androidx.drawerlayout",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\f6dee245bffecff33a1d1f2e5305a1e785796ba9.classes.jar",
+      "classesSha256": "9b9e08318ed2e0be53820a05e6837c5035e10800f05dc3b46b2890c2b4d5d7b0",
+      "module": "androidx.drawerlayout_drawerlayout",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/drawerlayout/drawerlayout/1.3.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/drawerlayout/drawerlayout/1.3.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "5a27338608b3c326a54379ec947d12af97de4544",
+        "sha256": "7acee6900a8dc48e8aadf845975e8344825eaa0c166df9a1ef39bdb426f9395b",
+        "bytes": 1170,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5a27338608b3c326a54379ec947d12af97de4544.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.core_core",
+        "androidx.customview_customview",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/emoji2/emoji2/1.6.0/emoji2-1.6.0.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/emoji2/emoji2/1.6.0/emoji2-1.6.0.aar?format=TEXT",
+      "gitBlobSha1": "af6e5a0d311f8259799129a56171503ae4171bb5",
+      "sha256": "bd8a765ef5f5a610f50011a225aa0b12bfb419a336a1d3214a66be90d720a470",
+      "bytes": 153287,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\af6e5a0d311f8259799129a56171503ae4171bb5.aar",
+      "package": "androidx.emoji2",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\af6e5a0d311f8259799129a56171503ae4171bb5.classes.jar",
+      "classesSha256": "2147c12bd3af1affe5dbf621d7c1e3c4744b62f112e49296deeae2601dcb5772",
+      "module": "androidx.emoji2_emoji2",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/emoji2/emoji2/1.6.0/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/emoji2/emoji2/1.6.0/Android.bp?format=TEXT",
+        "gitBlobSha1": "ad6f8cd210d8fcaf6db9590d810b8e889c1a86fc",
+        "sha256": "b385f4f70b2f1812367d9a14bde317c06bb465ee65b31d94a52ee93aa20fb51e",
+        "bytes": 1236,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\ad6f8cd210d8fcaf6db9590d810b8e889c1a86fc.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.lifecycle_lifecycle-process",
+        "androidx.startup_startup-runtime",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/emoji2/emoji2-views-helper/1.6.0/emoji2-views-helper-1.6.0.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/emoji2/emoji2-views-helper/1.6.0/emoji2-views-helper-1.6.0.aar?format=TEXT",
+      "gitBlobSha1": "30154f6bd7a60d215f8634ff0a259f8b79c083af",
+      "sha256": "46742f9cf996b68646c6a6cfc30f88e71e7a52429a893eed4d7c92abffe4e8ae",
+      "bytes": 25085,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\30154f6bd7a60d215f8634ff0a259f8b79c083af.aar",
+      "package": "androidx.emoji2.viewsintegration",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\30154f6bd7a60d215f8634ff0a259f8b79c083af.classes.jar",
+      "classesSha256": "30df6fcb49cbbd2ad04c301619627fa1826bf646c7f0bc9e6b702505c3fe10dc",
+      "module": "androidx.emoji2_emoji2-views-helper",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/emoji2/emoji2-views-helper/1.6.0/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/emoji2/emoji2-views-helper/1.6.0/Android.bp?format=TEXT",
+        "gitBlobSha1": "ef022a1d93369fbc9835cb718b87e0cd25aa41f4",
+        "sha256": "db3b3bdce7a32f46479c80105b0795f4cb59fc4eb93eb87706608824d678932f",
+        "bytes": 1162,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\ef022a1d93369fbc9835cb718b87e0cd25aa41f4.bp"
+      },
+      "declaredDependencies": [
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.emoji2_emoji2",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/fragment/fragment/1.9.0-alpha01/fragment-1.9.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/fragment/fragment/1.9.0-alpha01/fragment-1.9.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "247c8b957a9459b7a1aa61327b5b50039f31ceb6",
+      "sha256": "3eda6a736fa8feea755e2b4ab1dd98f983cd8d303f2231c1f4c5c0d253661f91",
+      "bytes": 399712,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\247c8b957a9459b7a1aa61327b5b50039f31ceb6.aar",
+      "package": "androidx.fragment",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\247c8b957a9459b7a1aa61327b5b50039f31ceb6.classes.jar",
+      "classesSha256": "eac9411292bd5f80f22434a014c0c14c28cb84632e665ede296295ffff7e656c",
+      "module": "androidx.fragment_fragment",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/fragment/fragment/1.9.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/fragment/fragment/1.9.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "a9c727e3e517b5ce3ab913ccd137eeaa407dd3d9",
+        "sha256": "9cdd997f9a99299f49eada162baa796526373a50c5947b0657d39c620d23f93a",
+        "bytes": 1727,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\a9c727e3e517b5ce3ab913ccd137eeaa407dd3d9.bp"
+      },
+      "declaredDependencies": [
+        "androidx.activity_activity",
+        "androidx.annotation_annotation",
+        "androidx.annotation_annotation-experimental",
+        "androidx.arch.core_core-common",
+        "androidx.collection_collection",
+        "androidx.core_core-ktx",
+        "androidx.lifecycle_lifecycle-common",
+        "androidx.lifecycle_lifecycle-livedata-core",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "androidx.lifecycle_lifecycle-viewmodel-savedstate",
+        "androidx.loader_loader",
+        "androidx.profileinstaller_profileinstaller",
+        "androidx.savedstate_savedstate",
+        "androidx.viewpager_viewpager",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/resourceinspection/resourceinspection-annotation/1.1.0-alpha01/resourceinspection-annotation-1.1.0-alpha01.jar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/resourceinspection/resourceinspection-annotation/1.1.0-alpha01/resourceinspection-annotation-1.1.0-alpha01.jar?format=TEXT",
+      "gitBlobSha1": "4be19136f060f3fe76dfc6a0895fd803706cc68e",
+      "sha256": "0d9f27e1b1bb71a468ba6b79de436bed8978589988ae27fdb97895e32f91bc3f",
+      "bytes": 6606,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\4be19136f060f3fe76dfc6a0895fd803706cc68e.jar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\4be19136f060f3fe76dfc6a0895fd803706cc68e.jar",
+      "classesSha256": "0d9f27e1b1bb71a468ba6b79de436bed8978589988ae27fdb97895e32f91bc3f",
+      "module": "androidx.resourceinspection_resourceinspection-annotation",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/resourceinspection/resourceinspection-annotation/1.1.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/resourceinspection/resourceinspection-annotation/1.1.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "5211b767ff53504b89c9f2d0252cffebf27364f2",
+        "sha256": "ebf37b7868fac853053521c82558783c14da5334c79f146fd884844a3cbad753",
+        "bytes": 1036,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5211b767ff53504b89c9f2d0252cffebf27364f2.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/constraintlayout/constraintlayout-core/1.2.0-alpha01/constraintlayout-core-1.2.0-alpha01.jar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/constraintlayout/constraintlayout-core/1.2.0-alpha01/constraintlayout-core-1.2.0-alpha01.jar?format=TEXT",
+      "gitBlobSha1": "014ba810e7ea0e8f89b55981bb93e7236d009137",
+      "sha256": "106e96377951819b3ddaadf493798d4fb75767cf2fa1da505e0455c2a7c57f74",
+      "bytes": 585665,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\014ba810e7ea0e8f89b55981bb93e7236d009137.jar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\014ba810e7ea0e8f89b55981bb93e7236d009137.jar",
+      "classesSha256": "106e96377951819b3ddaadf493798d4fb75767cf2fa1da505e0455c2a7c57f74",
+      "module": "androidx.constraintlayout_constraintlayout-core",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/constraintlayout/constraintlayout-core/1.2.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/constraintlayout/constraintlayout-core/1.2.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "495ed21fb405e1faccf855da83652430981665c5",
+        "sha256": "3b5f549f724f82adbf1e92342fa133ab9aff80dee3763fa74d77314c0e6f3280",
+        "bytes": 1038,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\495ed21fb405e1faccf855da83652430981665c5.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "jspecify"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-ktx/2.11.0-alpha03/lifecycle-viewmodel-ktx-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-ktx/2.11.0-alpha03/lifecycle-viewmodel-ktx-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "6593f4898778c8d58b668482138a8eb7b09ac8ac",
+      "sha256": "533a1ed265f2d87ccce41052644a12025153fe7c83cc2328ba1df7bc12250c35",
+      "bytes": 5649,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\6593f4898778c8d58b668482138a8eb7b09ac8ac.aar",
+      "package": "androidx.lifecycle.viewmodel.ktx",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\6593f4898778c8d58b668482138a8eb7b09ac8ac.classes.jar",
+      "classesSha256": "9a5f9d11d586226fa98b3f288aa8dada5a9868850e5bf41c12089cf436a815b8",
+      "module": "androidx.lifecycle_lifecycle-viewmodel-ktx",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-ktx/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-viewmodel-ktx/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "e299d9d82424b246414e0db87c408fdc0e35d30e",
+        "sha256": "28a8edcf0027a8cf1c5901603b57cff7cf6864d0a743bb2ae22e81fca3832524",
+        "bytes": 1144,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e299d9d82424b246414e0db87c408fdc0e35d30e.bp"
+      },
+      "declaredDependencies": [
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "kotlin-stdlib",
+        "kotlinx_coroutines_android"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/annotation/annotation-experimental/1.6.0/annotation-experimental-1.6.0.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/annotation/annotation-experimental/1.6.0/annotation-experimental-1.6.0.aar?format=TEXT",
+      "gitBlobSha1": "5c656b1122495d941755407612c83a0b0df69d01",
+      "sha256": "86ca66e1b758b439918140f87f6513d4d806d3d5637dfdac04495f3b1f5ed102",
+      "bytes": 44831,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5c656b1122495d941755407612c83a0b0df69d01.aar",
+      "package": "androidx.annotation.experimental",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5c656b1122495d941755407612c83a0b0df69d01.classes.jar",
+      "classesSha256": "89bf8d934802fce832d054bb5f1bd0df87bf9336496c4d3f7fb60cd6c852f343",
+      "module": "androidx.annotation_annotation-experimental",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/annotation/annotation-experimental/1.6.0/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/annotation/annotation-experimental/1.6.0/Android.bp?format=TEXT",
+        "gitBlobSha1": "5634f323d9e2d73aa69c65da6adbefbfb5790144",
+        "sha256": "a15e165f0434d2ea6c4204329303fd3e5ad055f33f93af083e9cdc6513729ae4",
+        "bytes": 1048,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5634f323d9e2d73aa69c65da6adbefbfb5790144.bp"
+      },
+      "declaredDependencies": [
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/arch/core/core-common/2.3.0-alpha01/core-common-2.3.0-alpha01.jar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/arch/core/core-common/2.3.0-alpha01/core-common-2.3.0-alpha01.jar?format=TEXT",
+      "gitBlobSha1": "e4bf7228257e4d7d2055232e82a426cd25117946",
+      "sha256": "1440fa4e5d315758f60cb6d2d58d52f7779268d3044c0593596e9fd943539507",
+      "bytes": 15944,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e4bf7228257e4d7d2055232e82a426cd25117946.jar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e4bf7228257e4d7d2055232e82a426cd25117946.jar",
+      "classesSha256": "1440fa4e5d315758f60cb6d2d58d52f7779268d3044c0593596e9fd943539507",
+      "module": "androidx.arch.core_core-common",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/arch/core/core-common/2.3.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/arch/core/core-common/2.3.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "7863864cd51da178ac49c4b6b737192c7182eb9d",
+        "sha256": "d07e09faaf107ea981f9c5020a28b6e7929199b12ed8d9f834219139de76a6b7",
+        "bytes": 991,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\7863864cd51da178ac49c4b6b737192c7182eb9d.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/arch/core/core-runtime/2.3.0-alpha01/core-runtime-2.3.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/arch/core/core-runtime/2.3.0-alpha01/core-runtime-2.3.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "60413888e87b1ccad134669b3cfde7aa1d99b6c9",
+      "sha256": "a70d41ac134f9be5bc6ab1040c94b3a5de53406a97429a64ca8cb8615c0d45c0",
+      "bytes": 11123,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\60413888e87b1ccad134669b3cfde7aa1d99b6c9.aar",
+      "package": "androidx.arch.core",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\60413888e87b1ccad134669b3cfde7aa1d99b6c9.classes.jar",
+      "classesSha256": "652411d6ebfbfa8e40eac8655ab6e726f0984bc6bfce177ee57943486b5a387d",
+      "module": "androidx.arch.core_core-runtime",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/arch/core/core-runtime/2.3.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/arch/core/core-runtime/2.3.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "b86d43367bcbddd7eccfd308d85b4457ef4108e9",
+        "sha256": "66282a999b1c1e256d2fac74d53ba485770e16463d18248ca8aa8e65fdd12372",
+        "bytes": 1092,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\b86d43367bcbddd7eccfd308d85b4457ef4108e9.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.arch.core_core-common"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-livedata-core/2.11.0-alpha03/lifecycle-livedata-core-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-livedata-core/2.11.0-alpha03/lifecycle-livedata-core-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "b8a6f68433dc3508d1e9b6d59a00065f57939eb3",
+      "sha256": "4f158d778a99997bd6fb963c0980b6b81f4fbb2a2dcae0f429d31680f2f408cd",
+      "bytes": 34105,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\b8a6f68433dc3508d1e9b6d59a00065f57939eb3.aar",
+      "package": "androidx.lifecycle.livedata.core",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\b8a6f68433dc3508d1e9b6d59a00065f57939eb3.classes.jar",
+      "classesSha256": "028a49747261c2bebbe31b20bb765e866313766a0f3d4802aae92ce49819ed38",
+      "module": "androidx.lifecycle_lifecycle-livedata-core",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-livedata-core/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-livedata-core/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "961e5d77e52def29d14be404e6765bfb354e90a6",
+        "sha256": "8078050eed40532d8004f9abf1ef5111fe075ab3d0af5ee1e09e837102ea8996",
+        "bytes": 1208,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\961e5d77e52def29d14be404e6765bfb354e90a6.bp"
+      },
+      "declaredDependencies": [
+        "androidx.arch.core_core-common",
+        "androidx.arch.core_core-runtime",
+        "androidx.lifecycle_lifecycle-common",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/savedstate/savedstate-ktx/1.5.0-alpha02/savedstate-ktx-1.5.0-alpha02.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/savedstate/savedstate-ktx/1.5.0-alpha02/savedstate-ktx-1.5.0-alpha02.aar?format=TEXT",
+      "gitBlobSha1": "a457f0486cd342015bd3880ebb9b26723b8f99e7",
+      "sha256": "f682919ac4d7737d9eeaf54c2a24ecf7dfde13d590a99733265e2650488c6b43",
+      "bytes": 5601,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\a457f0486cd342015bd3880ebb9b26723b8f99e7.aar",
+      "package": "androidx.savedstate.ktx",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\a457f0486cd342015bd3880ebb9b26723b8f99e7.classes.jar",
+      "classesSha256": "9a7ea345055979d69d4fc65815a819ac0a01ef06187ba48ba89aba6f582dab5c",
+      "module": "androidx.savedstate_savedstate-ktx",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/savedstate/savedstate-ktx/1.5.0-alpha02/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/savedstate/savedstate-ktx/1.5.0-alpha02/Android.bp?format=TEXT",
+        "gitBlobSha1": "e9595558d8e40dc5f1a4db5973d72285222bc453",
+        "sha256": "09da31f893da911014e78c33bb17d1fd1e0457432214f5bd175fcdeefebffef1",
+        "bytes": 1080,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e9595558d8e40dc5f1a4db5973d72285222bc453.bp"
+      },
+      "declaredDependencies": [
+        "androidx.savedstate_savedstate",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/navigation/navigation-fragment/2.10.0-alpha03/navigation-fragment-2.10.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-fragment/2.10.0-alpha03/navigation-fragment-2.10.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "effbfdbd6e33b0868b48528a29b303dd8d6362a2",
+      "sha256": "0ddd236a2802657cb19e63a2ad2a5a05391e4dfd1a9c33dfc53efe960e8b9a79",
+      "bytes": 96690,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\effbfdbd6e33b0868b48528a29b303dd8d6362a2.aar",
+      "package": "androidx.navigation.fragment",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\effbfdbd6e33b0868b48528a29b303dd8d6362a2.classes.jar",
+      "classesSha256": "a6fc198b58890d779b413734c9cf9b2ee8d2d42edfa2fff4d4e055afe144fc71",
+      "module": "androidx.navigation_navigation-fragment",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/navigation/navigation-fragment/2.10.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-fragment/2.10.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "96d70eefb9555c57b89e616b05a9aeea74865b9a",
+        "sha256": "0297f34d73059c2d626e8caeed33316e3895c3b5bc35069fac9a814bf9600fab",
+        "bytes": 1579,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\96d70eefb9555c57b89e616b05a9aeea74865b9a.bp"
+      },
+      "declaredDependencies": [
+        "androidx.activity_activity",
+        "androidx.core_core-ktx",
+        "androidx.fragment_fragment-ktx",
+        "androidx.lifecycle_lifecycle-common",
+        "androidx.lifecycle_lifecycle-livedata-core",
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "androidx.navigation_navigation-common",
+        "androidx.navigation_navigation-runtime",
+        "androidx.savedstate_savedstate",
+        "androidx.slidingpanelayout_slidingpanelayout",
+        "kotlin-stdlib",
+        "kotlinx_coroutines",
+        "kotlinx_serialization_core"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/activity/activity-ktx/1.14.0-alpha01/activity-ktx-1.14.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/activity/activity-ktx/1.14.0-alpha01/activity-ktx-1.14.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "f507271d7694eb5f921c27ca26552f19e42e2f20",
+      "sha256": "d1632684556e6c39184def886811fd362a7b16c26e894e8d385a4794a7a0a114",
+      "bytes": 5596,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\f507271d7694eb5f921c27ca26552f19e42e2f20.aar",
+      "package": "androidx.activity.ktx",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\f507271d7694eb5f921c27ca26552f19e42e2f20.classes.jar",
+      "classesSha256": "64f979583092bd51ff7f54aafded6d84b0584403a91dc1964f8a5c9af22ff415",
+      "module": "androidx.activity_activity-ktx",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/activity/activity-ktx/1.14.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/activity/activity-ktx/1.14.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "018a22140a22b99f58afa97733a845185e02f57a",
+        "sha256": "e1bff0e637744aa04340160a5565cc78ae031eb058c5f2620e6c98c48b6d93c4",
+        "bytes": 1223,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\018a22140a22b99f58afa97733a845185e02f57a.bp"
+      },
+      "declaredDependencies": [
+        "androidx.activity_activity",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "androidx.lifecycle_lifecycle-viewmodel-ktx",
+        "androidx.savedstate_savedstate-ktx",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/navigation/navigation-ui/2.10.0-alpha03/navigation-ui-2.10.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-ui/2.10.0-alpha03/navigation-ui-2.10.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "41ec0d4a133e2f417c1a05cf325e622312d5bdc0",
+      "sha256": "b129ebcdc2872b9e97a326961220380d4417c189d0ce6e028e74140486b8a696",
+      "bytes": 93446,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\41ec0d4a133e2f417c1a05cf325e622312d5bdc0.aar",
+      "package": "androidx.navigation.ui",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\41ec0d4a133e2f417c1a05cf325e622312d5bdc0.classes.jar",
+      "classesSha256": "bfaf1b6225e7db0613808075f945894e9f05ec6b1b1bdf967ad4ac7c18ff6fc7",
+      "module": "androidx.navigation_navigation-ui",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/navigation/navigation-ui/2.10.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/navigation/navigation-ui/2.10.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "12f8894bd5d4218f762aaf5dcf05f71b5db4cc34",
+        "sha256": "23de90e0e95682dcd19956084d80203c63390ca2bffb5800728da49b9f539e61",
+        "bytes": 1444,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\12f8894bd5d4218f762aaf5dcf05f71b5db4cc34.bp"
+      },
+      "declaredDependencies": [
+        "androidx.appcompat_appcompat",
+        "androidx.coordinatorlayout_coordinatorlayout",
+        "androidx.core_core-ktx",
+        "androidx.customview_customview",
+        "androidx.drawerlayout_drawerlayout",
+        "androidx.navigation_navigation-common",
+        "androidx.navigation_navigation-runtime",
+        "androidx.transition_transition",
+        "com.google.android.material_material",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/compose/runtime/runtime-annotation-android/1.12.0-alpha01/runtime-annotation-android-1.12.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/compose/runtime/runtime-annotation-android/1.12.0-alpha01/runtime-annotation-android-1.12.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "b32416a91b317483efb35d479e5abb316fc3dbd0",
+      "sha256": "05c21b5e181cc48dffd4a01c29404b894883fe179d169c2f3aa4ce14ab802fe3",
+      "bytes": 8893,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\b32416a91b317483efb35d479e5abb316fc3dbd0.aar",
+      "package": "androidx.compose.runtime.annotation",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\b32416a91b317483efb35d479e5abb316fc3dbd0.classes.jar",
+      "classesSha256": "0d992f72fdb4f02447253beab2d805b666e806a92a2ffed8bd865c5ccad9e06d",
+      "module": "androidx.compose.runtime_runtime-annotation",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/compose/runtime/runtime-annotation-android/1.12.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/compose/runtime/runtime-annotation-android/1.12.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "ee2de221dc2e945fabdfe42f986a6516a78f4c9b",
+        "sha256": "0ed05b0bb843479ba2d83febd79ee008676c5b63b795f0fdbfc538cc2e43b401",
+        "bytes": 1060,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\ee2de221dc2e945fabdfe42f986a6516a78f4c9b.bp"
+      },
+      "declaredDependencies": [
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/slidingpanelayout/slidingpanelayout/1.3.0-alpha01/slidingpanelayout-1.3.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/slidingpanelayout/slidingpanelayout/1.3.0-alpha01/slidingpanelayout-1.3.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "5ae979de45347cbd9608a44e25b3ff459c41aad2",
+      "sha256": "bef85b351bbb45f93c7785ef68d62e2f644f78e62de7faad0dad48b3f253a70e",
+      "bytes": 70875,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5ae979de45347cbd9608a44e25b3ff459c41aad2.aar",
+      "package": "androidx.slidingpanelayout",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5ae979de45347cbd9608a44e25b3ff459c41aad2.classes.jar",
+      "classesSha256": "2654729e64d4795e07d270146fbbbe29eedee72ff48ecd3020a713e71a7e4d9c",
+      "module": "androidx.slidingpanelayout_slidingpanelayout",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/slidingpanelayout/slidingpanelayout/1.3.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/slidingpanelayout/slidingpanelayout/1.3.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "2d6630b2c4873cfe6d7d15f577328c1cc9ddd69c",
+        "sha256": "b647fa82c1b76d41c90e66308b3a7929ed8823d9b0b44e3d1e2b89d5725be8b7",
+        "bytes": 1220,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\2d6630b2c4873cfe6d7d15f577328c1cc9ddd69c.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.core_core-ktx",
+        "androidx.customview_customview",
+        "androidx.transition_transition",
+        "androidx.window_window"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/customview/customview/1.2.0-beta01/customview-1.2.0-beta01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/customview/customview/1.2.0-beta01/customview-1.2.0-beta01.aar?format=TEXT",
+      "gitBlobSha1": "d5e34a5b28c8d2dce073eeccb0ece2e71d1d214b",
+      "sha256": "351b97657edece721547f6116ab036df2f8fba00a2f07468524368fb1fa297b7",
+      "bytes": 40668,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d5e34a5b28c8d2dce073eeccb0ece2e71d1d214b.aar",
+      "package": "androidx.customview",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d5e34a5b28c8d2dce073eeccb0ece2e71d1d214b.classes.jar",
+      "classesSha256": "d130ae4b7f7bc522b040586ba9a2d588153bd4189d1a33c839c8f3e331a19bea",
+      "module": "androidx.customview_customview",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/customview/customview/1.2.0-beta01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/customview/customview/1.2.0-beta01/Android.bp?format=TEXT",
+        "gitBlobSha1": "33123bd672f49bc3b2cef2e59483c2fe4b3321e3",
+        "sha256": "c6a2ad209fb44edeee8507b528deb9c17cbef6427fd94a1022bcc44fd0aea4fb",
+        "bytes": 1163,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\33123bd672f49bc3b2cef2e59483c2fe4b3321e3.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/customview/customview-poolingcontainer/1.1.0-beta01/customview-poolingcontainer-1.1.0-beta01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/customview/customview-poolingcontainer/1.1.0-beta01/customview-poolingcontainer-1.1.0-beta01.aar?format=TEXT",
+      "gitBlobSha1": "f2df529b06c4b03f361ead1d1092503d5d27e885",
+      "sha256": "e4947598c1ec7b8f419a358c85e3def8bb0fe0b89989592a837470111c777ecc",
+      "bytes": 10337,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\f2df529b06c4b03f361ead1d1092503d5d27e885.aar",
+      "package": "androidx.customview.poolingcontainer",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\f2df529b06c4b03f361ead1d1092503d5d27e885.classes.jar",
+      "classesSha256": "a830b85d69941f3444ee2a17a9e79904afa3c6c4c94db7cedd2ccf90321632f7",
+      "module": "androidx.customview_customview-poolingcontainer",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/customview/customview-poolingcontainer/1.1.0-beta01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/customview/customview-poolingcontainer/1.1.0-beta01/Android.bp?format=TEXT",
+        "gitBlobSha1": "91c29765530a8446f8d5dc95d321df7dda5c4fab",
+        "sha256": "b3366b2ec84f4c9f752ec41f1e749b778f873f04c717359e4cecc23579c36602",
+        "bytes": 1097,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\91c29765530a8446f8d5dc95d321df7dda5c4fab.bp"
+      },
+      "declaredDependencies": [
+        "androidx.core_core-ktx",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/vectordrawable/vectordrawable-animated/1.2.0/vectordrawable-animated-1.2.0.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/vectordrawable/vectordrawable-animated/1.2.0/vectordrawable-animated-1.2.0.aar?format=TEXT",
+      "gitBlobSha1": "a270e21e3ec564b5912a71603f7d6b5c6cdd7405",
+      "sha256": "8fc0ca57a3cdf876493bc0cb2938e5986da147db945a9fdaea11ac306518c875",
+      "bytes": 38592,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\a270e21e3ec564b5912a71603f7d6b5c6cdd7405.aar",
+      "package": "androidx.vectordrawable.animated",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\a270e21e3ec564b5912a71603f7d6b5c6cdd7405.classes.jar",
+      "classesSha256": "d2c6556395332732ce871fe88a50f0865f66cbd4290d054d5bf2a023c34b5934",
+      "module": "androidx.vectordrawable_vectordrawable-animated",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/vectordrawable/vectordrawable-animated/1.2.0/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/vectordrawable/vectordrawable-animated/1.2.0/Android.bp?format=TEXT",
+        "gitBlobSha1": "a0f6a9a4f18a9e0351093f3219680479770cde74",
+        "sha256": "e179bd25e3fb2f370c2f5c2f4d77926b5c6a9481eb3d175e7ebd2bd7189664a7",
+        "bytes": 1237,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\a0f6a9a4f18a9e0351093f3219680479770cde74.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.interpolator_interpolator",
+        "androidx.vectordrawable_vectordrawable"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/cardview/cardview/1.1.0-alpha01/cardview-1.1.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/cardview/cardview/1.1.0-alpha01/cardview-1.1.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "14bc0754929c2c24efa87573067f80344f26f2aa",
+      "sha256": "952d5c6e54be714e7e9b8a8d8855ff7443ff917b2f696701f1e81075e37f7371",
+      "bytes": 25642,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\14bc0754929c2c24efa87573067f80344f26f2aa.aar",
+      "package": "androidx.cardview",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\14bc0754929c2c24efa87573067f80344f26f2aa.classes.jar",
+      "classesSha256": "299544fa8aad66588cd74227f56c4a3b132fec784b4a96cc7692a28e5f9bb32c",
+      "module": "androidx.cardview_cardview",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/cardview/cardview/1.1.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/cardview/cardview/1.1.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "d44a788a14ff00da5b43940b5d5943a42ddc87c3",
+        "sha256": "c9fa89dc6ec7db86a2c14b6c6309c533311014ae5a7b4c9fef0d76894b8ae2ec",
+        "bytes": 1116,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d44a788a14ff00da5b43940b5d5943a42ddc87c3.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.core_core",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/coordinatorlayout/coordinatorlayout/1.3.0-rc01/coordinatorlayout-1.3.0-rc01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/coordinatorlayout/coordinatorlayout/1.3.0-rc01/coordinatorlayout-1.3.0-rc01.aar?format=TEXT",
+      "gitBlobSha1": "18ac1bed758f6e51f8a49342242953d00df7d2c8",
+      "sha256": "329d07091df634473147d15b2cb78a3870a1a62cf5e6d9aac5fdb3cd47aede24",
+      "bytes": 52675,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\18ac1bed758f6e51f8a49342242953d00df7d2c8.aar",
+      "package": "androidx.coordinatorlayout",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\18ac1bed758f6e51f8a49342242953d00df7d2c8.classes.jar",
+      "classesSha256": "3bd84b301f1e2fccbe64a272e9f9f601db2058a5305ec1e4ab00e43f1b82aee3",
+      "module": "androidx.coordinatorlayout_coordinatorlayout",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/coordinatorlayout/coordinatorlayout/1.3.0-rc01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/coordinatorlayout/coordinatorlayout/1.3.0-rc01/Android.bp?format=TEXT",
+        "gitBlobSha1": "bede3f44e8e27c3bd116bfc5692fc9b070f6e245",
+        "sha256": "6ec06342270e9ed8779c0bfb8a7aaa1b0c57a4b0be50682fe0f39d367e32b764",
+        "bytes": 1224,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\bede3f44e8e27c3bd116bfc5692fc9b070f6e245.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.customview_customview",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/dynamicanimation/dynamicanimation/1.1.0/dynamicanimation-1.1.0.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/dynamicanimation/dynamicanimation/1.1.0/dynamicanimation-1.1.0.aar?format=TEXT",
+      "gitBlobSha1": "f716a99f826fb75716def9d9eba1fc4680d33a70",
+      "sha256": "a0a68a18e0eba1fe66ce002c9e1b81441d318a26c2e7f59a3f2729e0395439ec",
+      "bytes": 39422,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\f716a99f826fb75716def9d9eba1fc4680d33a70.aar",
+      "package": "androidx.dynamicanimation",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\f716a99f826fb75716def9d9eba1fc4680d33a70.classes.jar",
+      "classesSha256": "3a34abb1671045ea05bc6f7703c6a3ef183a64bb4da58fbde75378c87072ecf1",
+      "module": "androidx.dynamicanimation_dynamicanimation",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/dynamicanimation/dynamicanimation/1.1.0/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/dynamicanimation/dynamicanimation/1.1.0/Android.bp?format=TEXT",
+        "gitBlobSha1": "00a76b60bac8c43a1b6baf241901f3b6f266ffdb",
+        "sha256": "4cdf6747ebe935e8c3db159cf9f368a202e07a69fcbd98a0a9ae423bbc2872d2",
+        "bytes": 1132,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\00a76b60bac8c43a1b6baf241901f3b6f266ffdb.bp"
+      },
+      "declaredDependencies": [
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/transition/transition/1.7.0-rc01/transition-1.7.0-rc01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/transition/transition/1.7.0-rc01/transition-1.7.0-rc01.aar?format=TEXT",
+      "gitBlobSha1": "b99af2d9eeb63ef156a7240099119e423417a76f",
+      "sha256": "be7dc80c930bdeaa6f02fc7593a458a23f91200b838e73e048cd205a1529cbd4",
+      "bytes": 192596,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\b99af2d9eeb63ef156a7240099119e423417a76f.aar",
+      "package": "androidx.transition",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\b99af2d9eeb63ef156a7240099119e423417a76f.classes.jar",
+      "classesSha256": "c095235fa6f648b00cf273c7d5263289355fc3aa42eb6e24813dea11c022a8b7",
+      "module": "androidx.transition_transition",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/transition/transition/1.7.0-rc01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/transition/transition/1.7.0-rc01/Android.bp?format=TEXT",
+        "gitBlobSha1": "4a0d42d74d647c25656bbb7c42c6da82c34b7427",
+        "sha256": "2b864251dbd97239e5f5751efbcba2264ead5bcdaed95609da3ecadfb2789de8",
+        "bytes": 1215,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\4a0d42d74d647c25656bbb7c42c6da82c34b7427.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.dynamicanimation_dynamicanimation",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/vectordrawable/vectordrawable/1.2.0/vectordrawable-1.2.0.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/vectordrawable/vectordrawable/1.2.0/vectordrawable-1.2.0.aar?format=TEXT",
+      "gitBlobSha1": "b3192594d3a26af950e600b8c683898abeb5b664",
+      "sha256": "97102b2b569a98e8bf5d08e2006913279181c10f3bd552602e94cc4eccf78fad",
+      "bytes": 36854,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\b3192594d3a26af950e600b8c683898abeb5b664.aar",
+      "package": "androidx.vectordrawable",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\b3192594d3a26af950e600b8c683898abeb5b664.classes.jar",
+      "classesSha256": "0360d2f07b53c80f5bad6819fcfbd84e6ff94cc6dd340e4c7dea0e77d4e0057b",
+      "module": "androidx.vectordrawable_vectordrawable",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/vectordrawable/vectordrawable/1.2.0/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/vectordrawable/vectordrawable/1.2.0/Android.bp?format=TEXT",
+        "gitBlobSha1": "0d50d2533b14868a0fd5ca4d2079aa0668c57825",
+        "sha256": "5226418091b443736b41fb99bf751b234a2afd2a906524f4e3ac74b2630c6710",
+        "bytes": 1123,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\0d50d2533b14868a0fd5ca4d2079aa0668c57825.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/startup/startup-runtime/1.2.0-alpha02/startup-runtime-1.2.0-alpha02.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/startup/startup-runtime/1.2.0-alpha02/startup-runtime-1.2.0-alpha02.aar?format=TEXT",
+      "gitBlobSha1": "3445136139470cbabd1d2b88127a7b90194d13a9",
+      "sha256": "984e7430c026acc5a959aae7085b9b0ec4a2f743c03bc4d65438d8e3e6669a76",
+      "bytes": 20232,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\3445136139470cbabd1d2b88127a7b90194d13a9.aar",
+      "package": "androidx.startup",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\3445136139470cbabd1d2b88127a7b90194d13a9.classes.jar",
+      "classesSha256": "2c85c3f44f77405e90c9201dc6972a1b296867459d878edaf992a8ab0694cbf6",
+      "module": "androidx.startup_startup-runtime",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/startup/startup-runtime/1.2.0-alpha02/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/startup/startup-runtime/1.2.0-alpha02/Android.bp?format=TEXT",
+        "gitBlobSha1": "c13e92518824bcdb478469a37c06acef852d8197",
+        "sha256": "02c3f5a208b61c0eedba6a2f16c68f5193557d38a8efc480af956b0115e16b4e",
+        "bytes": 1090,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\c13e92518824bcdb478469a37c06acef852d8197.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.tracing_tracing"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/concurrent/concurrent-futures/1.3.0-rc01/concurrent-futures-1.3.0-rc01.jar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/concurrent/concurrent-futures/1.3.0-rc01/concurrent-futures-1.3.0-rc01.jar?format=TEXT",
+      "gitBlobSha1": "086cb99557ee23f6daa14044c1bad4af3d468241",
+      "sha256": "ec28bca5f13f06dd12e1e9b463757c45d7729d9bde5a95c703e844663b1e5d63",
+      "bytes": 30556,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\086cb99557ee23f6daa14044c1bad4af3d468241.jar",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\086cb99557ee23f6daa14044c1bad4af3d468241.jar",
+      "classesSha256": "ec28bca5f13f06dd12e1e9b463757c45d7729d9bde5a95c703e844663b1e5d63",
+      "module": "androidx.concurrent_concurrent-futures",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/concurrent/concurrent-futures/1.3.0-rc01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/concurrent/concurrent-futures/1.3.0-rc01/Android.bp?format=TEXT",
+        "gitBlobSha1": "926b0d80924d90c3aab1564f587bf712758ba9be",
+        "sha256": "e9d4df00f5db5a71fb580e9cbe60f9c714d500f973cbea2b60bb52afcde46a2d",
+        "bytes": 1070,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\926b0d80924d90c3aab1564f587bf712758ba9be.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "guava-listenablefuture-prebuilt-jar",
+        "jspecify"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/interpolator/interpolator/1.1.0-alpha01/interpolator-1.1.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/interpolator/interpolator/1.1.0-alpha01/interpolator-1.1.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "54f803c3c1c46fa2bd3f1df8fa0da9e1b78313dd",
+      "sha256": "da101481d82108ae985d2d3fffe306a53ab906830042fa82da5f16e3156ca98d",
+      "bytes": 14575,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\54f803c3c1c46fa2bd3f1df8fa0da9e1b78313dd.aar",
+      "package": "androidx.interpolator",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\54f803c3c1c46fa2bd3f1df8fa0da9e1b78313dd.classes.jar",
+      "classesSha256": "dc3ea0c179e7e8d8038cfa685cdde819bd2e293682df4304606feb73c9d6e407",
+      "module": "androidx.interpolator_interpolator",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/interpolator/interpolator/1.1.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/interpolator/interpolator/1.1.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "239b23ddd42ced6b40df1cf98a33541278a766b1",
+        "sha256": "9611b807f4295265f2105410d286234986bccd7f23470407426dc9924379c32f",
+        "bytes": 1078,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\239b23ddd42ced6b40df1cf98a33541278a766b1.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/versionedparcelable/versionedparcelable/1.2.0-rc01/versionedparcelable-1.2.0-rc01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/versionedparcelable/versionedparcelable/1.2.0-rc01/versionedparcelable-1.2.0-rc01.aar?format=TEXT",
+      "gitBlobSha1": "3ab72b84d431ae7a3e90507b3fc0516136a81b97",
+      "sha256": "4f904d5674bc5eadb667b906ed8472236743dac8e21375b761891679cee9664a",
+      "bytes": 38868,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\3ab72b84d431ae7a3e90507b3fc0516136a81b97.aar",
+      "package": "androidx.versionedparcelable",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\3ab72b84d431ae7a3e90507b3fc0516136a81b97.classes.jar",
+      "classesSha256": "1afe0c3dd5ff601b37a7bbf37f6c5ee9ff38424443a27e61b4d90c5bef83bdc7",
+      "module": "androidx.versionedparcelable_versionedparcelable",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/versionedparcelable/versionedparcelable/1.2.0-rc01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/versionedparcelable/versionedparcelable/1.2.0-rc01/Android.bp?format=TEXT",
+        "gitBlobSha1": "3163dfab34907ae111b7c4c344ee55475209d8ff",
+        "sha256": "11faa451a38cee3250dd0f42f7915af2ce7075b569c4c03d93eb18a93f49f2f5",
+        "bytes": 1113,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\3163dfab34907ae111b7c4c344ee55475209d8ff.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-process/2.11.0-alpha03/lifecycle-process-2.11.0-alpha03.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-process/2.11.0-alpha03/lifecycle-process-2.11.0-alpha03.aar?format=TEXT",
+      "gitBlobSha1": "ef3e421f532b86f7c254905a04157e49f643b5c4",
+      "sha256": "4202635e17ce585f9520c4f52ee666d7ba1bd9054c846800c22c78265b47e817",
+      "bytes": 19829,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\ef3e421f532b86f7c254905a04157e49f643b5c4.aar",
+      "package": "androidx.lifecycle.process",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\ef3e421f532b86f7c254905a04157e49f643b5c4.classes.jar",
+      "classesSha256": "732b92fee0d41d21fb43e0014202cae6a1c2f8b25532438e70b11c9e59566c8d",
+      "module": "androidx.lifecycle_lifecycle-process",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/lifecycle/lifecycle-process/2.11.0-alpha03/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/lifecycle/lifecycle-process/2.11.0-alpha03/Android.bp?format=TEXT",
+        "gitBlobSha1": "0d852fc36332a6af4888bd416ac6d9feb7951258",
+        "sha256": "2884922ed39b8fa17ad1b7784f65b109b4b4ead63615743b168ab5ca049740d0",
+        "bytes": 1178,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\0d852fc36332a6af4888bd416ac6d9feb7951258.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.startup_startup-runtime",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/loader/loader/1.2.0-alpha01/loader-1.2.0-alpha01.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/loader/loader/1.2.0-alpha01/loader-1.2.0-alpha01.aar?format=TEXT",
+      "gitBlobSha1": "375631d257f9df7613a20160a1f9944db9dcf8ac",
+      "sha256": "b594dff965bacb3fa3f23c1585d3914bb5dbe36be3a84de03cdf2e97a0f6a8ca",
+      "bytes": 35428,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\375631d257f9df7613a20160a1f9944db9dcf8ac.aar",
+      "package": "androidx.loader",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\375631d257f9df7613a20160a1f9944db9dcf8ac.classes.jar",
+      "classesSha256": "16816f299c366d2371727a6ed447b6b83d26ad8d089f6686228ad217237310a6",
+      "module": "androidx.loader_loader",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/loader/loader/1.2.0-alpha01/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/loader/loader/1.2.0-alpha01/Android.bp?format=TEXT",
+        "gitBlobSha1": "1aca6f7aea8257b9402a68b5449e4587a20df6eb",
+        "sha256": "46fbf79d594dd2e35d2f63ed72cad5e485156ce3f9a1c94456c46e74d69ad16a",
+        "bytes": 1256,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\1aca6f7aea8257b9402a68b5449e4587a20df6eb.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.lifecycle_lifecycle-livedata-core",
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "jspecify",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/viewpager/viewpager/1.1.0-alpha02/viewpager-1.1.0-alpha02.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/viewpager/viewpager/1.1.0-alpha02/viewpager-1.1.0-alpha02.aar?format=TEXT",
+      "gitBlobSha1": "50748888340fb4a50cff1d19161fa644470214aa",
+      "sha256": "5aa42c6f080448ee789f24f23260834c5c2513aadfaa6aa2a9b20c549c2a06b6",
+      "bytes": 58378,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\50748888340fb4a50cff1d19161fa644470214aa.aar",
+      "package": "androidx.viewpager",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\50748888340fb4a50cff1d19161fa644470214aa.classes.jar",
+      "classesSha256": "1f71751e6e065422089fc28d35e2061b4643766b3e44fb54b43e25ec6f172c81",
+      "module": "androidx.viewpager_viewpager",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/viewpager/viewpager/1.1.0-alpha02/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/viewpager/viewpager/1.1.0-alpha02/Android.bp?format=TEXT",
+        "gitBlobSha1": "0950658c8b30e58095dcfdfaf06487a87361104a",
+        "sha256": "d834a80d37b4103a315ef895c852f37184648f2542416020e6a417bce7df6205",
+        "bytes": 1116,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\0950658c8b30e58095dcfdfaf06487a87361104a.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.core_core",
+        "androidx.customview_customview"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/window/window/1.6.0-alpha02/window-1.6.0-alpha02.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/window/window/1.6.0-alpha02/window-1.6.0-alpha02.aar?format=TEXT",
+      "gitBlobSha1": "113fb128289861b87a6e1cf9e4df4cbd014c323d",
+      "sha256": "dd8e0071a9d50181ff735a1ee81f75153f4b3dc2ea420be45cc9df36863a3def",
+      "bytes": 525752,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\113fb128289861b87a6e1cf9e4df4cbd014c323d.aar",
+      "package": "androidx.window",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\113fb128289861b87a6e1cf9e4df4cbd014c323d.classes.jar",
+      "classesSha256": "fc930b2bd5969533c88d1fae4dfda6cd4605b9c1ba5c2dc90896bf840ab9cf29",
+      "module": "androidx.window_window",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/window/window/1.6.0-alpha02/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/window/window/1.6.0-alpha02/Android.bp?format=TEXT",
+        "gitBlobSha1": "716423be0ce6cc0854e0dede00d4ca1ca25e56e4",
+        "sha256": "201679c1b576bcdcaad2d307c0a786a7073cd235484230367fe9c0235a677250",
+        "bytes": 1335,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\716423be0ce6cc0854e0dede00d4ca1ca25e56e4.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.window_window-core",
+        "jspecify",
+        "kotlin-stdlib",
+        "kotlinx_coroutines_android"
+      ],
+      "declaredCompileLibraries": []
+    },
+    {
+      "path": "current/androidx/m2repository/androidx/window/window-core-android/1.6.0-alpha02/window-core-android-1.6.0-alpha02.aar",
+      "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/window/window-core-android/1.6.0-alpha02/window-core-android-1.6.0-alpha02.aar?format=TEXT",
+      "gitBlobSha1": "1b99341de2b36427af0b89bcd7f42bf5ebe83744",
+      "sha256": "7cbe9f05e86531f8dfdd367600a30fab7967548cd97c9eeaeca7098ad9180d8b",
+      "bytes": 20782,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\1b99341de2b36427af0b89bcd7f42bf5ebe83744.aar",
+      "package": "androidx.window.core",
+      "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\1b99341de2b36427af0b89bcd7f42bf5ebe83744.classes.jar",
+      "classesSha256": "89f75c1628fca48bf6f053bb4599f304f391a7ee7e6a93aa676bdf4da97720e7",
+      "module": "androidx.window_window-core",
+      "buildDeclaration": {
+        "path": "current/androidx/m2repository/androidx/window/window-core-android/1.6.0-alpha02/Android.bp",
+        "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/current/androidx/m2repository/androidx/window/window-core-android/1.6.0-alpha02/Android.bp?format=TEXT",
+        "gitBlobSha1": "dc6e6ef3b4963330500c9c09f5fa42729f9843e5",
+        "sha256": "504f67ba8fe266b7c25efbae82b52c6a202120578668562237b431b2e7ba6fe9",
+        "bytes": 1078,
+        "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\dc6e6ef3b4963330500c9c09f5fa42729f9843e5.bp"
+      },
+      "declaredDependencies": [
+        "androidx.annotation_annotation",
+        "kotlin-stdlib"
+      ],
+      "declaredCompileLibraries": []
+    }
+  ],
+  "appCommittedModulesReached": [
+    "Glimpse_androidx.media3_media3-common-ktx",
+    "Glimpse_androidx.media3_media3-exoplayer",
+    "Glimpse_androidx.media3_media3-exoplayer-dash",
+    "Glimpse_androidx.media3_media3-exoplayer-hls",
+    "Glimpse_androidx.media3_media3-exoplayer-rtsp",
+    "Glimpse_androidx.media3_media3-exoplayer-smoothstreaming",
+    "Glimpse_androidx.media3_media3-ui",
+    "Glimpse_com.adobe.xmp_xmpcore",
+    "Glimpse_com.github.bumptech.glide_glide",
+    "Glimpse_com.github.bumptech.glide_okhttp3-integration",
+    "Glimpse_com.google.android.material_material",
+    "Glimpse_com.squareup.okhttp3_okhttp",
+    "Glimpse_com.squareup.okhttp3_okhttp-android",
+    "Glimpse_io.github.panpf.zoomimage_zoomimage-core-android",
+    "Glimpse_io.github.panpf.zoomimage_zoomimage-view-glide",
+    "Glimpse_androidx.media3_media3-common",
+    "Glimpse_androidx.media3_media3-container",
+    "Glimpse_androidx.media3_media3-database",
+    "Glimpse_androidx.media3_media3-datasource",
+    "Glimpse_androidx.media3_media3-decoder",
+    "Glimpse_androidx.media3_media3-extractor",
+    "Glimpse_com.github.bumptech.glide_annotations",
+    "Glimpse_com.github.bumptech.glide_disklrucache",
+    "Glimpse_com.github.bumptech.glide_gifdecoder",
+    "Glimpse_com.squareup.okio_okio",
+    "Glimpse_io.github.panpf.zoomimage_zoomimage-core-glide",
+    "Glimpse_io.github.panpf.zoomimage_zoomimage-view",
+    "Glimpse_com.squareup.okio_okio-jvm",
+    "Glimpse_io.github.panpf.zoomimage_zoomimage-core"
+  ],
+  "additionalNativeModuleContracts": [
+    "com.google.android.material_material",
+    "error_prone_annotations",
+    "guava",
+    "guava-listenablefuture-prebuilt-jar",
+    "jspecify",
+    "kotlin-stdlib",
+    "kotlinx-coroutines-android",
+    "kotlinx-coroutines-core",
+    "kotlinx_coroutines",
+    "kotlinx_coroutines_android",
+    "kotlinx_serialization_core"
+  ],
+  "sdk36": {
+    "path": "36/public/android.jar",
+    "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/0f07e8d60ab0aba46129e427101f96ba459a95c1/36/public/android.jar?format=TEXT",
+    "gitBlobSha1": "e560471790469782b41614eac5f290f5388d0d79",
+    "sha256": "d9eb9da824d9e247a352f570f01e1169e725b2954bca9e283a71786c59b59f9a",
+    "bytes": 27768026,
+    "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e560471790469782b41614eac5f290f5388d0d79.jar",
+    "classesJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e560471790469782b41614eac5f290f5388d0d79.jar",
+    "classesSha256": "d9eb9da824d9e247a352f570f01e1169e725b2954bca9e283a71786c59b59f9a",
+    "containsFrameworkResourceTable": true
+  },
+  "externalDeclarations": [
+    {
+      "project": "external/kotlinc",
+      "revision": "200271076d3a9dc6b576497792a4a6fad78994fc",
+      "url": "https://android.googlesource.com/platform/external/kotlinc/+/200271076d3a9dc6b576497792a4a6fad78994fc/Android.bp?format=TEXT",
+      "sha256": "6c506564d3d869bec423c96b34b45588c5da23f594c219fd4b1e295851726c39",
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\external\\external__kotlinc__Android.bp",
+      "modules": {
+        "kotlin_stdlib_defaults": {
+          "name": "kotlin_stdlib_defaults",
+          "kind": "java_defaults",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-annotations": {
+          "name": "kotlin-annotations",
+          "kind": "java_import",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [
+            "lib/annotations-13.0.jar"
+          ],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-compose-compiler-plugin": {
+          "name": "kotlin-compose-compiler-plugin",
+          "kind": "kotlin_plugin",
+          "static_libs": [
+            "kotlin-compose-compiler-hosted"
+          ],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-compose-compiler-embeddable-plugin": {
+          "name": "kotlin-compose-compiler-embeddable-plugin",
+          "kind": "kotlin_plugin",
+          "static_libs": [
+            "kotlin-compose-compiler-embeddable"
+          ],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-reflect": {
+          "name": "kotlin-reflect",
+          "kind": "java_import",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [
+            "lib/kotlin-reflect.jar"
+          ],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-stdlib": {
+          "name": "kotlin-stdlib",
+          "kind": "java_import",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [
+            "lib/kotlin-stdlib.jar"
+          ],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-stdlib-jdk7": {
+          "name": "kotlin-stdlib-jdk7",
+          "kind": "java_import",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [
+            "lib/kotlin-stdlib-jdk7.jar"
+          ],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-stdlib-jdk8": {
+          "name": "kotlin-stdlib-jdk8",
+          "kind": "java_import",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [
+            "lib/kotlin-stdlib-jdk8.jar",
+            "lib/kotlin-stdlib-jdk7.jar"
+          ],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-test": {
+          "name": "kotlin-test",
+          "kind": "java_import",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [
+            "lib/kotlin-test.jar",
+            "lib/kotlin-test-junit.jar"
+          ],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-parcelize-runtime": {
+          "name": "kotlin-parcelize-runtime",
+          "kind": "java_import",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [
+            "lib/parcelize-runtime.jar"
+          ],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-serialize-compiler-plugin-lib": {
+          "name": "kotlin-serialize-compiler-plugin-lib",
+          "kind": "java_import_host",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [
+            "lib/kotlin-serialization-compiler-plugin.jar"
+          ],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-serialize-compiler-plugin": {
+          "name": "kotlin-serialize-compiler-plugin",
+          "kind": "kotlin_plugin",
+          "static_libs": [
+            "kotlin-serialize-compiler-plugin-lib"
+          ],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-parcelize-compiler-plugin-lib": {
+          "name": "kotlin-parcelize-compiler-plugin-lib",
+          "kind": "java_import_host",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [
+            "lib/parcelize-compiler.jar"
+          ],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlin-parcelize-compiler-plugin": {
+          "name": "kotlin-parcelize-compiler-plugin",
+          "kind": "kotlin_plugin",
+          "static_libs": [
+            "kotlin-parcelize-compiler-plugin-lib"
+          ],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlinc-trove4j": {
+          "name": "kotlinc-trove4j",
+          "kind": "java_import_host",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [
+            "lib/trove4j.jar"
+          ],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_license": {
+          "name": "external_kotlinc_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_aether_license": {
+          "name": "external_kotlinc_aether_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_aosp_license": {
+          "name": "external_kotlinc_aosp_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_args4j_license": {
+          "name": "external_kotlinc_args4j_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_asm_license": {
+          "name": "external_kotlinc_asm_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_asmble_license": {
+          "name": "external_kotlinc_asmble_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_assemblyscript_license": {
+          "name": "external_kotlinc_assemblyscript_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_boost_license": {
+          "name": "external_kotlinc_boost_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_closure_compiler_license": {
+          "name": "external_kotlinc_closure_compiler_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_dart_license": {
+          "name": "external_kotlinc_dart_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_fastutil_license": {
+          "name": "external_kotlinc_fastutil_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_gradle_license": {
+          "name": "external_kotlinc_gradle_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_guava_license": {
+          "name": "external_kotlinc_guava_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_gwt_license": {
+          "name": "external_kotlinc_gwt_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_jquery_license": {
+          "name": "external_kotlinc_jquery_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_jshashtable_license": {
+          "name": "external_kotlinc_jshashtable_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_karma_teamcity_reporter_license": {
+          "name": "external_kotlinc_karma_teamcity_reporter_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_karma_license": {
+          "name": "external_kotlinc_karma_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_lodash_license": {
+          "name": "external_kotlinc_lodash_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_lombok_license": {
+          "name": "external_kotlinc_lombok_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_maven_license": {
+          "name": "external_kotlinc_maven_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_mocha_teamcity_reporter_license": {
+          "name": "external_kotlinc_mocha_teamcity_reporter_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_prototype_license": {
+          "name": "external_kotlinc_prototype_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_qunit_license": {
+          "name": "external_kotlinc_qunit_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_rhino_license": {
+          "name": "external_kotlinc_rhino_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_scala_license": {
+          "name": "external_kotlinc_scala_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_sun_license": {
+          "name": "external_kotlinc_sun_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_teamcity_service_messages_license": {
+          "name": "external_kotlinc_teamcity_service_messages_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_trove_license": {
+          "name": "external_kotlinc_trove_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_trove_readme_license": {
+          "name": "external_kotlinc_trove_readme_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_testdata_dagger_license": {
+          "name": "external_kotlinc_testdata_dagger_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_testdata_eclipse_distribution_license": {
+          "name": "external_kotlinc_testdata_eclipse_distribution_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_testdata_eclipse_license": {
+          "name": "external_kotlinc_testdata_eclipse_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_testdata_findbugs_license": {
+          "name": "external_kotlinc_testdata_findbugs_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_testdata_jspecify_license": {
+          "name": "external_kotlinc_testdata_jspecify_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_testdata_lombok_license": {
+          "name": "external_kotlinc_testdata_lombok_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_testdata_rxjava_license": {
+          "name": "external_kotlinc_testdata_rxjava_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "external_kotlinc_testdata_spring_license": {
+          "name": "external_kotlinc_testdata_spring_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        }
+      }
+    },
+    {
+      "project": "external/kotlinx.coroutines",
+      "revision": "16161f019a518241332c1cad686a3e9404c0d5cf",
+      "url": "https://android.googlesource.com/platform/external/kotlinx.coroutines/+/16161f019a518241332c1cad686a3e9404c0d5cf/Android.bp?format=TEXT",
+      "sha256": "346cb0f57f7179d3c4b90dbb622f09a0e868e5bede468040172c73720c44974b",
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\external\\external__kotlinx.coroutines__Android.bp",
+      "modules": {
+        "external_kotlinx.coroutines_license": {
+          "name": "external_kotlinx.coroutines_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlinx_coroutines-host": {
+          "name": "kotlinx_coroutines-host",
+          "kind": "java_library_host",
+          "static_libs": [
+            "kotlinx_atomicfu"
+          ],
+          "libs": [
+            "annotations",
+            "kotlinx-coroutines-android-annotation-stubs"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "kotlinx-coroutines-core/jvm/src/**/*.kt",
+            "kotlinx-coroutines-core/jdk8/src/**/*.kt"
+          ],
+          "exclude_srcs": []
+        },
+        "kotlinx_coroutines-device": {
+          "name": "kotlinx_coroutines-device",
+          "kind": "java_host_for_device",
+          "static_libs": [],
+          "libs": [
+            "kotlinx_coroutines-host"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlinx_coroutines": {
+          "name": "kotlinx_coroutines",
+          "kind": "java_library",
+          "static_libs": [
+            "kotlinx_coroutines-host"
+          ],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlinx_coroutines_android": {
+          "name": "kotlinx_coroutines_android",
+          "kind": "java_library",
+          "static_libs": [
+            "kotlinx_coroutines"
+          ],
+          "libs": [
+            "androidx.annotation_annotation"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "ui/kotlinx-coroutines-android/src/**/*.kt"
+          ],
+          "exclude_srcs": []
+        },
+        "kotlinx_coroutines_test": {
+          "name": "kotlinx_coroutines_test",
+          "kind": "java_library",
+          "static_libs": [],
+          "libs": [
+            "kotlinx_coroutines"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "kotlinx-coroutines-test/jvm/src/**/*.kt"
+          ],
+          "exclude_srcs": []
+        },
+        "kotlinx-coroutines-android-annotation-stubs": {
+          "name": "kotlinx-coroutines-android-annotation-stubs",
+          "kind": "java_library",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "android-annotation-stubs/src/**/*.java"
+          ],
+          "exclude_srcs": []
+        },
+        "kotlinx-coroutines-core": {
+          "name": "kotlinx-coroutines-core",
+          "kind": "java_library",
+          "static_libs": [
+            "kotlinx_coroutines"
+          ],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlinx-coroutines-core-jvm": {
+          "name": "kotlinx-coroutines-core-jvm",
+          "kind": "java_library",
+          "static_libs": [
+            "kotlinx_coroutines"
+          ],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlinx-coroutines-android": {
+          "name": "kotlinx-coroutines-android",
+          "kind": "java_library",
+          "static_libs": [
+            "kotlinx_coroutines_android",
+            "kotlinx_coroutines"
+          ],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "kotlinx-coroutines-play-services": {
+          "name": "kotlinx-coroutines-play-services",
+          "kind": "filegroup",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "integration/kotlinx-coroutines-play-services/src/**/*.kt"
+          ],
+          "exclude_srcs": []
+        },
+        "kotlinx_coroutines_guava": {
+          "name": "kotlinx_coroutines_guava",
+          "kind": "java_library",
+          "static_libs": [],
+          "libs": [
+            "kotlinx_coroutines",
+            "kotlin-stdlib-jdk8",
+            "guava"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "integration/kotlinx-coroutines-guava/src/**/*.kt"
+          ],
+          "exclude_srcs": []
+        },
+        "kotlinx_coroutines_reactive": {
+          "name": "kotlinx_coroutines_reactive",
+          "kind": "java_library",
+          "static_libs": [],
+          "libs": [
+            "kotlin-stdlib",
+            "kotlinx_coroutines",
+            "rxjava"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "reactive/kotlinx-coroutines-reactive/src/**/*.kt"
+          ],
+          "exclude_srcs": []
+        },
+        "kotlinx_coroutines_rx2": {
+          "name": "kotlinx_coroutines_rx2",
+          "kind": "java_library",
+          "static_libs": [],
+          "libs": [
+            "kotlin-stdlib",
+            "kotlinx_coroutines",
+            "kotlinx_coroutines_reactive",
+            "rxjava"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "reactive/kotlinx-coroutines-rx2/src/**/*.kt"
+          ],
+          "exclude_srcs": []
+        }
+      }
+    },
+    {
+      "project": "external/guava",
+      "revision": "f53eb3ca330b274507e184b4261e5284fd29b4b3",
+      "url": "https://android.googlesource.com/platform/external/guava/+/f53eb3ca330b274507e184b4261e5284fd29b4b3/Android.bp?format=TEXT",
+      "sha256": "c07746ac989cf3e670e0ebdf60e8fb00d896c879ee28c0855041bc95063ecfd3",
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\external\\external__guava__Android.bp",
+      "modules": {
+        "external_guava_license": {
+          "name": "external_guava_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "guava": {
+          "name": "guava",
+          "kind": "java_library",
+          "static_libs": [
+            "guava-android"
+          ],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "guava-both": {
+          "name": "guava-both",
+          "kind": "java_library",
+          "static_libs": [
+            "jsr305"
+          ],
+          "libs": [
+            "guava-android-annotation-stubs",
+            "error_prone_annotations"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "futures/failureaccess/**/*.java"
+          ],
+          "exclude_srcs": []
+        },
+        "guava-jre": {
+          "name": "guava-jre",
+          "kind": "java_library_host",
+          "static_libs": [
+            "guava-both"
+          ],
+          "libs": [
+            "guava-android-annotation-stubs",
+            "error_prone_annotations"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "guava/src/**/*.java"
+          ],
+          "exclude_srcs": []
+        },
+        "guava-testlib": {
+          "name": "guava-testlib",
+          "kind": "java_library_host",
+          "static_libs": [],
+          "libs": [
+            "error_prone_annotations",
+            "guava",
+            "guava-android-annotation-stubs",
+            "jsr305",
+            "junit"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "guava-testlib/src/**/*.java"
+          ],
+          "exclude_srcs": []
+        },
+        "guava-android-host": {
+          "name": "guava-android-host",
+          "kind": "java_library_host",
+          "static_libs": [
+            "guava-both"
+          ],
+          "libs": [
+            "guava-android-annotation-stubs",
+            "error_prone_annotations"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "android/guava/src/**/*.java"
+          ],
+          "exclude_srcs": []
+        },
+        "guava-android": {
+          "name": "guava-android",
+          "kind": "java_host_for_device",
+          "static_libs": [],
+          "libs": [
+            "guava-android-host"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "guava-android-annotation-stubs": {
+          "name": "guava-android-annotation-stubs",
+          "kind": "java_library",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "android-annotation-stubs/src/**/*.java"
+          ],
+          "exclude_srcs": []
+        },
+        "guava-android-testlib-host": {
+          "name": "guava-android-testlib-host",
+          "kind": "java_library_host",
+          "static_libs": [],
+          "libs": [
+            "error_prone_annotations",
+            "guava-android-annotation-stubs",
+            "guava-android-host",
+            "junit"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "android/guava-testlib/src/**/*.java"
+          ],
+          "exclude_srcs": []
+        },
+        "guava-android-testlib": {
+          "name": "guava-android-testlib",
+          "kind": "java_host_for_device",
+          "static_libs": [],
+          "libs": [
+            "guava-android-testlib-host"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        }
+      }
+    },
+    {
+      "project": "external/jspecify",
+      "revision": "af61f8ce0b6851abd4fc230ab2c1861c16b4fe56",
+      "url": "https://android.googlesource.com/platform/external/jspecify/+/af61f8ce0b6851abd4fc230ab2c1861c16b4fe56/Android.bp?format=TEXT",
+      "sha256": "5b74469ee69cac8b009262579baf9ca963c4c464993085b65c464ca5a001e921",
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\external\\external__jspecify__Android.bp",
+      "modules": {
+        "external_jspecify_license": {
+          "name": "external_jspecify_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "jspecify": {
+          "name": "jspecify",
+          "kind": "java_library",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "src/main/**/*.java"
+          ],
+          "exclude_srcs": []
+        }
+      }
+    },
+    {
+      "project": "external/error_prone",
+      "revision": "1667c79d1fe4211579c8210773961d65fc0d32a9",
+      "url": "https://android.googlesource.com/platform/external/error_prone/+/1667c79d1fe4211579c8210773961d65fc0d32a9/Android.bp?format=TEXT",
+      "sha256": "a8647e651304f9b1a6ff3740aade8723cd0628e711fdc9c18b17ec01790f959f",
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\external\\external__error_prone__Android.bp",
+      "modules": {
+        "external_error_prone_license": {
+          "name": "external_error_prone_license",
+          "kind": "license",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "error_prone_javac_defaults": {
+          "name": "error_prone_javac_defaults",
+          "kind": "java_defaults",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "error_prone_annotations": {
+          "name": "error_prone_annotations",
+          "kind": "java_library",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "annotations/src/main/java/**/*.java"
+          ],
+          "exclude_srcs": [
+            "annotations/src/main/java/module-info.java"
+          ]
+        },
+        "error_prone_annotation": {
+          "name": "error_prone_annotation",
+          "kind": "java_library_host",
+          "static_libs": [],
+          "libs": [
+            "guava"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "annotation/src/main/java/**/*.java"
+          ],
+          "exclude_srcs": []
+        },
+        "error_prone_error_properties": {
+          "name": "error_prone_error_properties",
+          "kind": "filegroup",
+          "static_libs": [],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "check_api/src/main/java/com/google/errorprone/errors.properties"
+          ],
+          "exclude_srcs": []
+        },
+        "error_prone_check_api": {
+          "name": "error_prone_check_api",
+          "kind": "java_library_host",
+          "static_libs": [
+            "auto_common",
+            "auto_value_annotations",
+            "caffeine-prebuilt",
+            "checkerframework_dataflow_errorprone_prebuilt_jar",
+            "error_prone_annotation",
+            "error_prone_annotations",
+            "guava",
+            "java_diff_utils",
+            "jsr330"
+          ],
+          "libs": [
+            "auto_value_memoized_extension_annotations",
+            "jspecify"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "check_api/src/main/java/**/*.java"
+          ],
+          "exclude_srcs": []
+        },
+        "error_prone_core": {
+          "name": "error_prone_core",
+          "kind": "java_library_host",
+          "static_libs": [
+            "error_prone_check_api",
+            "google_java_format",
+            "libprotobuf-java-full",
+            "pcollections"
+          ],
+          "libs": [
+            "auto_service_annotations",
+            "jspecify"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "core/src/main/java/**/*.java",
+            "core/src/main/proto/api_diff.proto",
+            "refaster/src/main/java/**/*.java"
+          ],
+          "exclude_srcs": []
+        },
+        "error_prone_plugin": {
+          "name": "error_prone_plugin",
+          "kind": "java_plugin",
+          "static_libs": [
+            "error_prone_core"
+          ],
+          "libs": [],
+          "aars": [],
+          "jars": [],
+          "srcs": [],
+          "exclude_srcs": []
+        },
+        "error_prone_test_helpers": {
+          "name": "error_prone_test_helpers",
+          "kind": "java_library_host",
+          "static_libs": [
+            "error_prone_check_api",
+            "jimfs"
+          ],
+          "libs": [
+            "compile-testing-prebuilt",
+            "error_prone_annotations",
+            "google_java_format",
+            "hamcrest",
+            "hamcrest-library",
+            "jspecify",
+            "junit",
+            "truth"
+          ],
+          "aars": [],
+          "jars": [],
+          "srcs": [
+            "test_helpers/src/main/java/**/*.java"
+          ],
+          "exclude_srcs": []
+        }
+      }
+    }
+  ],
+  "purpose": "Exact source/API dependency inventory; full Soong build not executed",
+  "wholeGoalComplete": false
+}

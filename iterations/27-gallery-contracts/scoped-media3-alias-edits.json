@@ -1,0 +1,363 @@
+[
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_audiotrack.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_audiotrack.xml",
+    "sharedNativeLeaf": "exo_ic_audiotrack",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+    "sourceLeafSha256": "4f91b3b36e339fb81c46ca098ce77414f6ceaf6ee2aa6753804a6b6832fa19b9",
+    "layerFamily": "cg_gl_ic_audiotrack",
+    "oldBridgeBytesSha256": "717ce90e11f4ac1ca49a4be946150f867be5502a6295a075ca38e6c73c70bded",
+    "newBridgeBytesSha256": "717ce90e11f4ac1ca49a4be946150f867be5502a6295a075ca38e6c73c70bded",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_audiotrack"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_check.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_check.xml",
+    "sharedNativeLeaf": "exo_ic_check",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_check.xml",
+    "sourceLeafSha256": "98c86b1e4f2a3c3dc9a6899d4b7888bccfe4e831dc3b44c6cbb44c903060b3de",
+    "layerFamily": "cg_gl_ic_check",
+    "oldBridgeBytesSha256": "6168f145c4599b506ae50be0cd3e5cf4cba3cb33ac898ae0b9457140e8f281cf",
+    "newBridgeBytesSha256": "6168f145c4599b506ae50be0cd3e5cf4cba3cb33ac898ae0b9457140e8f281cf",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_check"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_chevron_left.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_chevron_left.xml",
+    "sharedNativeLeaf": "exo_ic_chevron_left",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+    "sourceLeafSha256": "e99ea1867e61e31330848419b1ccf5f94cfdd0c81a73368396be34407f34c9dc",
+    "layerFamily": "cg_gl_ic_chevron_left",
+    "oldBridgeBytesSha256": "237ced61b463d846fa5f578ab8e8ce4db3ae2b5abc2d5e2d980bae55056e7a0d",
+    "newBridgeBytesSha256": "237ced61b463d846fa5f578ab8e8ce4db3ae2b5abc2d5e2d980bae55056e7a0d",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_overflow_hide"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_chevron_right.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_chevron_right.xml",
+    "sharedNativeLeaf": "exo_ic_chevron_right",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+    "sourceLeafSha256": "3db1e9b9a083a972a4eaa9fc94fb0986f91eb1cf12e17fd2f035b1869272bc03",
+    "layerFamily": "cg_gl_ic_chevron_right",
+    "oldBridgeBytesSha256": "73f9865b989b08fcb4a9bd6d39e88eb7f8596fb0a3ed9eebabc8152b3d548e9d",
+    "newBridgeBytesSha256": "73f9865b989b08fcb4a9bd6d39e88eb7f8596fb0a3ed9eebabc8152b3d548e9d",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_overflow_show"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_forward.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_forward.xml",
+    "sharedNativeLeaf": "exo_ic_forward",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_forward.xml",
+    "sourceLeafSha256": "2b2ef130c9da8e517f844faa522e04677b4dfa2ff980d2db353b8b5375098f72",
+    "layerFamily": "cg_gl_ic_forward",
+    "oldBridgeBytesSha256": "122bc69ace132907e37d83b3b3a4ca18b34dfca9bb8bc9a7c976fc2b9d7979d1",
+    "newBridgeBytesSha256": "122bc69ace132907e37d83b3b3a4ca18b34dfca9bb8bc9a7c976fc2b9d7979d1",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_fastforward"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_fullscreen_enter.xml",
+    "sharedNativeLeaf": "exo_ic_fullscreen_enter",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+    "sourceLeafSha256": "e8b0e7f1e9f987113af8da234beb39f5b49b55b694efe28bded5169688ff8fb1",
+    "layerFamily": "cg_gl_ic_fullscreen_enter",
+    "oldBridgeBytesSha256": "cbf0396db44cf47da1b36e21baa143efc47762d5c661571883169a0415ac1064",
+    "newBridgeBytesSha256": "cbf0396db44cf47da1b36e21baa143efc47762d5c661571883169a0415ac1064",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_fullscreen_enter"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_fullscreen_exit.xml",
+    "sharedNativeLeaf": "exo_ic_fullscreen_exit",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+    "sourceLeafSha256": "682923ba58428c63636bf3a23e30bf1a8a1e9b465aad773e74927b71791049e9",
+    "layerFamily": "cg_gl_ic_fullscreen_exit",
+    "oldBridgeBytesSha256": "4e0fd411b31a1d2d64655e61fcc9a276aedcb54c95b1ca55c7315f6fd6981fb5",
+    "newBridgeBytesSha256": "4e0fd411b31a1d2d64655e61fcc9a276aedcb54c95b1ca55c7315f6fd6981fb5",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_fullscreen_exit"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_pause_circle_filled.xml",
+    "sharedNativeLeaf": "exo_ic_pause_circle_filled",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+    "sourceLeafSha256": "ab26504472191b4658f51d57d89dda2ea7c36c42403af31be802c351054f14bb",
+    "layerFamily": "cg_gl_ic_pause_circle_filled",
+    "oldBridgeBytesSha256": "ddf0c3821382f296258686e6482112fdc926ac7698c2fdc5428a100dcd9da003",
+    "newBridgeBytesSha256": "ddf0c3821382f296258686e6482112fdc926ac7698c2fdc5428a100dcd9da003",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_pause"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_play_circle_filled.xml",
+    "sharedNativeLeaf": "exo_ic_play_circle_filled",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+    "sourceLeafSha256": "bb826d006a37764e565e12b000b6a2a8533ecf8cadf422043cdc8f49b52131dc",
+    "layerFamily": "cg_gl_ic_play_circle_filled",
+    "oldBridgeBytesSha256": "34b5c3820792fca0223c77bad463cbcd145e76ae3dabe8b22e490eb906e01e63",
+    "newBridgeBytesSha256": "34b5c3820792fca0223c77bad463cbcd145e76ae3dabe8b22e490eb906e01e63",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_play"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_rewind.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_rewind.xml",
+    "sharedNativeLeaf": "exo_ic_rewind",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_rewind.xml",
+    "sourceLeafSha256": "9609bb155607a0cfd0f18531eefec33a5f1e68806ef1343cc741f38362e8ad97",
+    "layerFamily": "cg_gl_ic_rewind",
+    "oldBridgeBytesSha256": "d97b6b096503f35176d09c0964ded6f8456074999ff7cb52aa228ee787be88df",
+    "newBridgeBytesSha256": "d97b6b096503f35176d09c0964ded6f8456074999ff7cb52aa228ee787be88df",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_rewind"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_settings.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_settings.xml",
+    "sharedNativeLeaf": "exo_ic_settings",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_settings.xml",
+    "sourceLeafSha256": "9b64b9a7eed443b5e183613ab4812e979a5f47e63a14c979f2d172f9e13ce879",
+    "layerFamily": "cg_gl_ic_settings",
+    "oldBridgeBytesSha256": "e3b66584eef323f0f13f9fc0891604cb3a34ef842613aac89e67d2f0b31e2ab0",
+    "newBridgeBytesSha256": "e3b66584eef323f0f13f9fc0891604cb3a34ef842613aac89e67d2f0b31e2ab0",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_settings"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_skip_next.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_skip_next.xml",
+    "sharedNativeLeaf": "exo_ic_skip_next",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+    "sourceLeafSha256": "7a05bd66b77b0f50ae2cbf34e14edb90b5e68f1ccffd0b61d8e696747489d947",
+    "layerFamily": "cg_gl_ic_skip_next",
+    "oldBridgeBytesSha256": "75c24c19a87a30cf0a940781a64a512e2200532028a64081e09f71d4d8ab442f",
+    "newBridgeBytesSha256": "75c24c19a87a30cf0a940781a64a512e2200532028a64081e09f71d4d8ab442f",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_next"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_skip_previous.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_skip_previous.xml",
+    "sharedNativeLeaf": "exo_ic_skip_previous",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+    "sourceLeafSha256": "db7fee363c20483613fdb32385c60a3276d7189391d112d610d7d689a831e40f",
+    "layerFamily": "cg_gl_ic_skip_previous",
+    "oldBridgeBytesSha256": "e03ed5349d2935635a49c634a70114eccd466739e732a954c8f85dfd746cf293",
+    "newBridgeBytesSha256": "e03ed5349d2935635a49c634a70114eccd466739e732a954c8f85dfd746cf293",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_previous"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_speed.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_speed.xml",
+    "sharedNativeLeaf": "exo_ic_speed",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_speed.xml",
+    "sourceLeafSha256": "1acc5feec8ddd950ddf213b9ed0eaa71f78360a99988455b2c25fd358f169452",
+    "layerFamily": "cg_gl_ic_speed",
+    "oldBridgeBytesSha256": "ae60c99c77372b20ac405cf8226b96a9eeaf8ac7c6448108d7abf15e92896d0c",
+    "newBridgeBytesSha256": "ae60c99c77372b20ac405cf8226b96a9eeaf8ac7c6448108d7abf15e92896d0c",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_speed"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_subtitle_off.xml",
+    "sharedNativeLeaf": "exo_ic_subtitle_off",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+    "sourceLeafSha256": "c465905453aa19f2b34af9d323b1548de2b85e89e1729da03ff4c143ffe46bf8",
+    "layerFamily": "cg_gl_ic_subtitle_off",
+    "oldBridgeBytesSha256": "c5d293d0c95bc3b7abc31e561b302693fea6687dce934ed867eeaeb216621e63",
+    "newBridgeBytesSha256": "c5d293d0c95bc3b7abc31e561b302693fea6687dce934ed867eeaeb216621e63",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_subtitle_off"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_ic_subtitle_on.xml",
+    "sharedNativeLeaf": "exo_ic_subtitle_on",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+    "sourceLeafSha256": "4b18246da6700ef722f0ce64cee316e4c25c187eb3e77d9f9ce706bc05209be4",
+    "layerFamily": "cg_gl_ic_subtitle_on",
+    "oldBridgeBytesSha256": "04148210a8207945a76f9dfa6d26f9ff57e517d027f93b97f8aed8cd4d7d4b2c",
+    "newBridgeBytesSha256": "04148210a8207945a76f9dfa6d26f9ff57e517d027f93b97f8aed8cd4d7d4b2c",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_subtitle_on"
+    ],
+    "otherAliasesPreserved": [],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_icon_fastforward.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_icon_fastforward.xml",
+    "sharedNativeLeaf": "exo_icon_fastforward",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+    "sourceLeafSha256": "cd3f6c4c03f5d63e77cd240025907ef13d31768b8147c7872642abe89ede1c7f",
+    "layerFamily": "cg_gl_icon_fastforward",
+    "oldBridgeBytesSha256": "4c83d551f218d53c1278bbf3c42e553185dab9faa5c05944f1eeb8f4c20c4e86",
+    "newBridgeBytesSha256": "4c83d551f218d53c1278bbf3c42e553185dab9faa5c05944f1eeb8f4c20c4e86",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_simple_fastforward"
+    ],
+    "otherAliasesPreserved": [
+      "exo_legacy_controls_fastforward",
+      "exo_notification_fastforward"
+    ],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_icon_repeat_all.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_all.xml",
+    "sharedNativeLeaf": "exo_icon_repeat_all",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+    "sourceLeafSha256": "33cfe04db3849afaa84a066d4f51d7dc55ade42394a58a6d7fe6fb47f2507cb1",
+    "layerFamily": "cg_gl_icon_repeat_all",
+    "oldBridgeBytesSha256": "fa3388569bada986420602bb433b6f6a7bd2bec95f3dbd869e54ca76812010fc",
+    "newBridgeBytesSha256": "fa3388569bada986420602bb433b6f6a7bd2bec95f3dbd869e54ca76812010fc",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_repeat_all"
+    ],
+    "otherAliasesPreserved": [
+      "exo_legacy_controls_repeat_all"
+    ],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_icon_repeat_off.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_off.xml",
+    "sharedNativeLeaf": "exo_icon_repeat_off",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+    "sourceLeafSha256": "36320855fbb300cea55d9c4ea82b32595440e5f10bcedd826f148c24072209b5",
+    "layerFamily": "cg_gl_icon_repeat_off",
+    "oldBridgeBytesSha256": "ee6eafa060b6d3685396a54c77952e6a3ec014923975581f4cdc8dc1ed5527de",
+    "newBridgeBytesSha256": "ee6eafa060b6d3685396a54c77952e6a3ec014923975581f4cdc8dc1ed5527de",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_repeat_off"
+    ],
+    "otherAliasesPreserved": [
+      "exo_legacy_controls_repeat_off"
+    ],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_icon_repeat_one.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_one.xml",
+    "sharedNativeLeaf": "exo_icon_repeat_one",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+    "sourceLeafSha256": "33ac407a93533508391e3a4df62fef8e96abfdbb1e7ac03393dce0cb9debb3c4",
+    "layerFamily": "cg_gl_icon_repeat_one",
+    "oldBridgeBytesSha256": "8a906429184a1dead6932eaefb497eb0ae929e6ab5b6eaccbf8c35b56bbea71f",
+    "newBridgeBytesSha256": "8a906429184a1dead6932eaefb497eb0ae929e6ab5b6eaccbf8c35b56bbea71f",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_repeat_one"
+    ],
+    "otherAliasesPreserved": [
+      "exo_legacy_controls_repeat_one"
+    ],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_icon_rewind.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_icon_rewind.xml",
+    "sharedNativeLeaf": "exo_icon_rewind",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+    "sourceLeafSha256": "4284259fb05b0ab3af0cc22d69b4e43aeb5708c7d33db7c2acdb47a0fe52a885",
+    "layerFamily": "cg_gl_icon_rewind",
+    "oldBridgeBytesSha256": "22a850b582dc516d0c891153150f3af1eac5b16f91e0f34918aa0e17c6c414e1",
+    "newBridgeBytesSha256": "22a850b582dc516d0c891153150f3af1eac5b16f91e0f34918aa0e17c6c414e1",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_simple_rewind"
+    ],
+    "otherAliasesPreserved": [
+      "exo_legacy_controls_rewind",
+      "exo_notification_rewind"
+    ],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_icon_shuffle_off.xml",
+    "sharedNativeLeaf": "exo_icon_shuffle_off",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+    "sourceLeafSha256": "9628c7280fed8654f59872745296ec9784b4b92e70f3bf047f535af1ec06d640",
+    "layerFamily": "cg_gl_icon_shuffle_off",
+    "oldBridgeBytesSha256": "a38052219c9047fa62656a0ab3abae2dfe49d2ac7baf484c0607d56c04eb7fe6",
+    "newBridgeBytesSha256": "a38052219c9047fa62656a0ab3abae2dfe49d2ac7baf484c0607d56c04eb7fe6",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_shuffle_off"
+    ],
+    "otherAliasesPreserved": [
+      "exo_legacy_controls_shuffle_off"
+    ],
+    "rasterLayersChanged": false
+  },
+  {
+    "priorOverride": "drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+    "newScopedOverride": "drawable-anydpi-v21/cg_gl_m3_exo_icon_shuffle_on.xml",
+    "sharedNativeLeaf": "exo_icon_shuffle_on",
+    "sourceLeaf": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+    "sourceLeafSha256": "2b5b4a738dbea931973ffbe0269aac45eb042fd88e6204237dea633de60afc19",
+    "layerFamily": "cg_gl_icon_shuffle_on",
+    "oldBridgeBytesSha256": "4e1518e6eacd9e275a094d2ead79f652047a1235e637140e5589e0b8f0d7073b",
+    "newBridgeBytesSha256": "4e1518e6eacd9e275a094d2ead79f652047a1235e637140e5589e0b8f0d7073b",
+    "styledAliasesRetargeted": [
+      "exo_styled_controls_shuffle_on"
+    ],
+    "otherAliasesPreserved": [
+      "exo_legacy_controls_shuffle_on"
+    ],
+    "rasterLayersChanged": false
+  }
+]

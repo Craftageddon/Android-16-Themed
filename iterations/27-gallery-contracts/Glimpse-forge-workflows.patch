@@ -1,0 +1,2533 @@
+--- a/app/Android.bp
++++ b/app/Android.bp
+@@ -10,7 +10,10 @@
+ android_app {
+     name: "Glimpse",
+ 
+-    srcs: ["src/main/java/**/*.kt"],
++    srcs: [
++        "src/main/java/**/*.kt",
++        "src/main/java/**/*.java",
++    ],
+     resource_dirs: ["src/main/res"],
+     manifest: "src/main/AndroidManifest.xml",
+ 
+--- a/app/proguard-rules.pro
++++ b/app/proguard-rules.pro
+@@ -22,3 +22,10 @@
+ # If you keep the line number information, uncomment this to
+ # hide the original source file name.
+ #-renamesourcefileattribute SourceFile
++
++# Craftageddon XML-inflated drawable and preference/view constructors.
++-keep class org.lineageos.glimpse.forge.ForgeDrawable { *; }
++-keep class org.lineageos.glimpse.forge.ForgeActionLayout { public <init>(android.content.Context, android.util.AttributeSet); }
++-keep class org.lineageos.glimpse.forge.ForgeMaterialSwitch { public <init>(android.content.Context, android.util.AttributeSet); }
++-keep class org.lineageos.glimpse.forge.ForgeSeekBarPreference { public <init>(android.content.Context, android.util.AttributeSet); }
++-keep class org.lineageos.glimpse.forge.ForgeSwitchPreference { public <init>(android.content.Context, android.util.AttributeSet); }
+--- a/app/src/main/java/org/lineageos/glimpse/GlimpseApplication.kt
++++ b/app/src/main/java/org/lineageos/glimpse/GlimpseApplication.kt
+@@ -6,7 +6,7 @@
+ package org.lineageos.glimpse
+ 
+ import android.app.Application
+-import com.google.android.material.color.DynamicColors
++// Craftageddon: fixed palette is defined by local activity themes.
+ import org.lineageos.glimpse.repository.MediaRepository
+ 
+ class GlimpseApplication : Application() {
+@@ -15,7 +15,6 @@
+     override fun onCreate() {
+         super.onCreate()
+ 
+-        // Observe dynamic colors changes
+-        DynamicColors.applyToActivitiesIfAvailable(this)
++        // Craftageddon: fixed cold-steel palette; media repository remains unchanged.
+     }
+ }
+--- a/app/src/main/java/org/lineageos/glimpse/SetWallpaperActivity.kt
++++ b/app/src/main/java/org/lineageos/glimpse/SetWallpaperActivity.kt
+@@ -18,6 +18,7 @@
+ import androidx.core.view.WindowInsetsCompat
+ import com.google.android.material.button.MaterialButton
+ import com.google.android.material.dialog.MaterialAlertDialogBuilder
++import org.lineageos.glimpse.forge.ForgeGallerySkin
+ import org.lineageos.glimpse.ext.load
+ import org.lineageos.glimpse.ext.updateMargin
+ 
+@@ -98,7 +99,7 @@
+                     val flags = positionToFlag[which]
+                     setWallpaper(wallpaperUri, flags)
+                     finish()
+-                }.show()
++                }.show().also { ForgeGallerySkin.dialog(it) }
+         }
+     }
+ 
+--- a/app/src/main/java/org/lineageos/glimpse/SettingsActivity.kt
++++ b/app/src/main/java/org/lineageos/glimpse/SettingsActivity.kt
+@@ -47,6 +47,7 @@
+         supportActionBar?.apply {
+             setDisplayHomeAsUpEnabled(true)
+             setDisplayShowHomeEnabled(true)
++            setHomeAsUpIndicator(R.drawable.ic_back)
+         }
+     }
+ 
+--- a/app/src/main/java/org/lineageos/glimpse/ViewActivity.kt
++++ b/app/src/main/java/org/lineageos/glimpse/ViewActivity.kt
+@@ -23,6 +23,7 @@
+ import androidx.core.os.bundleOf
+ import androidx.core.util.Consumer
+ import androidx.core.view.ViewCompat
++import androidx.core.view.doOnLayout
+ import androidx.core.view.WindowInsetsCompat
+ import androidx.core.view.isVisible
+ import androidx.core.view.updatePadding
+@@ -177,6 +178,12 @@
+     // Permissions
+     private val permissionsChecker = PermissionsChecker(this, PermissionsUtils.mainPermissions)
+ 
++    private val forgeSheetLayoutListener = View.OnLayoutChangeListener { view, l, t, r, b, oldL, oldT, oldR, oldB ->
++        if (r - l != oldR - oldL || b - t != oldB - oldT) {
++            viewModel.setSheetsHeight(appBarLayout.height, view.height)
++        }
++    }
++
+     override fun onCreate(savedInstanceState: Bundle?) {
+         super.onCreate(savedInstanceState)
+ 
+@@ -209,6 +216,8 @@
+ 
+             windowInsets
+         }
++
++        bottomSheetLinearLayout.addOnLayoutChangeListener(forgeSheetLayoutListener)
+ 
+         // Attach the adapter to the view pager
+         viewPager.adapter = mediaViewerAdapter
+@@ -332,6 +341,7 @@
+     }
+ 
+     override fun onDestroy() {
++        bottomSheetLinearLayout.removeOnLayoutChangeListener(forgeSheetLayoutListener)
+         saveCurrentVideoPosition()
+ 
+         removeOnNewIntentListener(intentListener)
+@@ -453,6 +463,8 @@
+                         }
+                     )
+ 
++                    favoriteButton.contentDescription = favoriteButton.text
++
+                     // Update info button
+                     infoButton.isVisible = displayedMedia != null
+ 
+@@ -492,6 +504,8 @@
+                             false -> R.string.motion_photo_show_video
+                         }
+                     )
++
++                    motionPhotoToggleButton.contentDescription = motionPhotoToggleButton.text
+ 
+                     // Trigger a sheets height update
+                     updateSheetsHeight()
+@@ -568,15 +582,10 @@
+     }
+ 
+     private fun updateSheetsHeight() {
+-        appBarLayout.measure(View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED)
+-        bottomSheetLinearLayout.measure(
+-            View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED
+-        )
+-
+-        viewModel.setSheetsHeight(
+-            appBarLayout.measuredHeight,
+-            bottomSheetLinearLayout.measuredHeight,
+-        )
++        // Native layout owns the real constrained widths, wrapped rows and window insets.
++        bottomSheetLinearLayout.doOnLayout {
++            viewModel.setSheetsHeight(appBarLayout.height, it.height)
++        }
+     }
+ 
+     private fun dismissKeyguardAndRun(runnable: () -> Unit) {
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/glimpse/forge/ForgeActionLayout.java
+@@ -0,0 +1,65 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.glimpse.forge;
++import android.content.Context;
++import android.text.Layout;
++import android.util.AttributeSet;
++import android.view.Gravity;
++import android.view.View;
++import android.widget.LinearLayout;
++import android.widget.Space;
++import android.widget.TextView;
++import java.util.ArrayList;
++/** Retains the source LinearLayout type/IDs/inset spacers while native text drives wrapping. */
++public final class ForgeActionLayout extends LinearLayout {
++ private final ArrayList<View> content=new ArrayList<>();
++ private ForgeRowPlan.Plan plan;private int startSpace,endSpace,available,gap;
++ public ForgeActionLayout(Context c,AttributeSet a){super(c,a);gap=Math.round(4*c.getResources().getDisplayMetrics().density);}
++ @Override protected void onMeasure(int widthSpec,int heightSpec){
++  int width=MeasureSpec.getSize(widthSpec);
++  if(MeasureSpec.getMode(widthSpec)==MeasureSpec.UNSPECIFIED){
++   width=getWidth()>0?getWidth():getRootView().getWidth();
++   if(width<=0)width=getResources().getDisplayMetrics().widthPixels;
++  }
++  content.clear();startSpace=endSpace=0;
++  for(int i=0;i<getChildCount();i++){
++   View v=getChildAt(i);if(v.getVisibility()==GONE)continue;
++   if(v instanceof Space){int w=Math.max(0,v.getLayoutParams().width);if(i==0)startSpace=w;else if(i==getChildCount()-1)endSpace=w;continue;}
++   content.add(v);
++  }
++  available=Math.max(1,width-getPaddingLeft()-getPaddingRight()-startSpace-endSpace);
++  int[] widths=new int[content.size()],heights=new int[content.size()];
++  for(int i=0;i<content.size();i++){
++   View v=content.get(i);MarginLayoutParams p=(MarginLayoutParams)v.getLayoutParams();
++   int desired=v.getMinimumWidth(),cap=Math.max(1,available-p.leftMargin-p.rightMargin);
++   if(v instanceof TextView){
++    TextView t=(TextView)v;CharSequence text=t.getText();
++    if(t.getTransformationMethod()!=null)text=t.getTransformationMethod().getTransformation(text,t);
++    if(text!=null)desired=Math.max(desired,(int)Math.ceil(Layout.getDesiredWidth(text,t.getPaint()))+t.getCompoundPaddingLeft()+t.getCompoundPaddingRight());
++    cap=Math.min(cap,t.getMaxWidth());
++   }
++   int w=Math.max(1,Math.min(cap,desired));
++   v.measure(MeasureSpec.makeMeasureSpec(w,MeasureSpec.EXACTLY),MeasureSpec.makeMeasureSpec(0,MeasureSpec.UNSPECIFIED));
++   widths[i]=v.getMeasuredWidth()+p.leftMargin+p.rightMargin;
++   heights[i]=v.getMeasuredHeight()+p.topMargin+p.bottomMargin;
++  }
++  plan=ForgeRowPlan.pack(available,gap,widths,heights,(getGravity()&Gravity.HORIZONTAL_GRAVITY_MASK)==Gravity.CENTER_HORIZONTAL);
++  setMeasuredDimension(resolveSize(width,widthSpec),resolveSize(plan.height+getPaddingTop()+getPaddingBottom(),heightSpec));
++ }
++ @Override protected void onLayout(boolean changed,int l,int t,int r,int b){
++  if(plan==null)return;boolean rtl=getLayoutDirection()==LAYOUT_DIRECTION_RTL;
++  for(int i=0;i<content.size();i++){
++   View v=content.get(i);MarginLayoutParams p=(MarginLayoutParams)v.getLayoutParams();
++   int total=v.getMeasuredWidth()+p.leftMargin+p.rightMargin;
++   int left=getPaddingLeft()+startSpace+(rtl?available-plan.x[i]-total:plan.x[i])+p.leftMargin;
++   int top=getPaddingTop()+plan.y[i]+p.topMargin;
++   v.layout(left,top,left+v.getMeasuredWidth(),top+v.getMeasuredHeight());
++  }
++  for(int i=0;i<getChildCount();i++)if(getChildAt(i) instanceof Space){
++   View v=getChildAt(i);int w=Math.max(0,v.getLayoutParams().width);
++   int x=i==0?getPaddingLeft():getWidth()-getPaddingRight()-w;v.layout(x,getPaddingTop(),x+w,getHeight()-getPaddingBottom());
++  }
++ }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/glimpse/forge/ForgeDrawable.java
+@@ -0,0 +1,108 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.glimpse.forge;
++import android.content.res.Resources;
++import android.content.res.TypedArray;
++import org.lineageos.glimpse.R;
++import android.content.res.ColorStateList;
++import android.graphics.Canvas;
++import android.graphics.ColorFilter;
++import android.graphics.PixelFormat;
++import android.graphics.PorterDuff;
++import android.graphics.Rect;
++import android.graphics.drawable.Drawable;
++import android.util.AttributeSet;
++import org.xmlpull.v1.XmlPullParser;
++import org.xmlpull.v1.XmlPullParserException;
++import java.io.IOException;
++/** Native XML-loadable separate layers. Whole-icon tint never recolors cold steel. */
++public final class ForgeDrawable extends Drawable {
++ private static final String NS="http://schemas.android.com/apk/res/android";
++ private static final int[] COLORS={0xffdc5920,0xffff4908,0xffff5b0b,0xffffd083,0xffd5e7f2,0xffffe5bc};
++ private final Drawable[] layers=new Drawable[7];
++ private Resources resources;private String family;private boolean momentary=true,mirrored,feature;
++ private int mode,alpha=255,width=-1,height=-1;
++ private ForgeStatePolicy policy=ForgeStatePolicy.resolve(0,true,false,false,false,false,false,false,false,true);
++ /** Required by the pinned framework DrawableInflater public no-arg constructor contract. */
++ public ForgeDrawable(){}
++ public ForgeDrawable(Resources r,Resources.Theme theme,String family){
++     init(r,theme,family,0,true,false);
++ }
++ private ForgeDrawable(Resources r,Resources.Theme theme,String f,int m,boolean press,boolean mirror){
++     init(r,theme,f,m,press,mirror);
++ }
++ private void init(Resources r,Resources.Theme theme,String f,int m,boolean press,boolean mirror){
++  resources=r;family=f;mode=m;momentary=press;mirrored=mirror;
++  int[] ids=ForgeResources.layers(f);
++  for(int i=0;i<7;i++){
++   layers[i]=r.getDrawable(ids[i],theme).mutate();
++   if(i>0)layers[i].setColorFilter(COLORS[i-1],PorterDuff.Mode.SRC_IN);
++  }
++  width=layers[0].getIntrinsicWidth();height=layers[0].getIntrinsicHeight();
++  setState(new int[]{android.R.attr.state_enabled});onStateChange(getState());
++ }
++ @Override public void inflate(Resources r,XmlPullParser parser,AttributeSet attrs,Resources.Theme theme)
++       throws XmlPullParserException,IOException{
++  super.inflate(r,parser,attrs,theme);
++  TypedArray a=theme==null?r.obtainAttributes(attrs,R.styleable.ForgeDrawable):
++      theme.obtainStyledAttributes(attrs,R.styleable.ForgeDrawable,0,0);
++  String f;int m;boolean press;
++  try{f=a.getString(R.styleable.ForgeDrawable_cg_forge_family);
++      m=a.getInt(R.styleable.ForgeDrawable_cg_forge_source_value_mode,0);
++      press=a.getBoolean(R.styleable.ForgeDrawable_cg_forge_momentary,true);
++  }finally{a.recycle();}
++  if(f==null)throw new XmlPullParserException("A Forge family is required");
++  if(m<0||m>2)throw new XmlPullParserException("Invalid Forge source-value mode");
++  init(r,theme,f,m,press,attrs.getAttributeBooleanValue(NS,"autoMirrored",false));
++ }
++ public void setFeatureActive(boolean value){
++  if(feature!=value){feature=value;onStateChange(getState());}
++ }
++ private static boolean has(int[] s,int a){for(int v:s)if(v==a)return true;return false;}
++ @Override protected boolean onStateChange(int[] s){
++  policy=ForgeStatePolicy.resolve(mode,has(s,android.R.attr.state_enabled),
++      has(s,android.R.attr.state_checked),has(s,android.R.attr.state_selected),
++      has(s,android.R.attr.state_activated),has(s,android.R.attr.state_focused),
++      has(s,android.R.attr.state_hovered),has(s,android.R.attr.state_pressed),feature,momentary);
++  invalidateSelf();return true;
++ }
++ @Override public boolean isStateful(){return true;}
++ @Override protected void onBoundsChange(Rect b){if(layers[0]!=null)for(Drawable d:layers)d.setBounds(b);}
++ @Override public void draw(Canvas canvas){
++  if(layers[0]==null)return;
++  int saved=canvas.save();
++  if(mirrored&&getLayoutDirection()==1)canvas.scale(-1f,1f,getBounds().exactCenterX(),getBounds().exactCenterY());
++  layers[0].setAlpha(Math.round(alpha*policy.base));layers[0].draw(canvas);
++  for(int i=1;i<7;i++)if(policy.gains[i-1]>0){
++   layers[i].setAlpha(Math.round(alpha*policy.gains[i-1]));layers[i].draw(canvas);
++  }
++  canvas.restoreToCount(saved);
++ }
++ @Override public boolean getPadding(Rect p){if(layers[0]==null){p.set(0,0,0,0);return false;}return layers[0].getPadding(p);}
++ @Override public int getIntrinsicWidth(){return width;}
++ @Override public int getIntrinsicHeight(){return height;}
++ @Override public void setAlpha(int a){alpha=Math.max(0,Math.min(255,a));invalidateSelf();}
++ @Override public int getAlpha(){return alpha;}
++ @Override public void setColorFilter(ColorFilter ignored){}
++ @Override public void setTint(int ignored){}
++ @Override public void setTintList(ColorStateList ignored){}
++ @Override public void setTintMode(PorterDuff.Mode ignored){}
++ @Override public int getOpacity(){return PixelFormat.TRANSLUCENT;}
++ @Override public void setAutoMirrored(boolean value){mirrored=value;invalidateSelf();}
++ @Override public boolean isAutoMirrored(){return mirrored;}
++ @Override public boolean onLayoutDirectionChanged(int direction){invalidateSelf();return mirrored;}
++ /** Every clone gets independent layer objects and cold initial state. Never cache a mutable instance. */
++ @Override public ConstantState getConstantState(){
++  if(resources==null)return null;
++  final Resources original=resources;final String f=family;final int m=mode;
++  final boolean press=momentary,mirror=mirrored;final int changing=getChangingConfigurations();
++  return new ConstantState(){
++   @Override public Drawable newDrawable(){return new ForgeDrawable(original,null,f,m,press,mirror);}
++   @Override public Drawable newDrawable(Resources r){return new ForgeDrawable(r==null?original:r,null,f,m,press,mirror);}
++   @Override public Drawable newDrawable(Resources r,Resources.Theme t){return new ForgeDrawable(r==null?original:r,t,f,m,press,mirror);}
++   @Override public int getChangingConfigurations(){return changing;}
++  };
++ }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/glimpse/forge/ForgeGallerySkin.java
+@@ -0,0 +1,61 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.glimpse.forge;
++import android.content.res.ColorStateList;
++import android.graphics.Rect;
++import android.view.View;
++import android.widget.Button;
++import androidx.appcompat.app.AlertDialog;
++import androidx.media3.ui.DefaultTimeBar;
++import com.google.android.material.snackbar.Snackbar;
++/** Scoped view-only adapters; no file, player, repository or permission operation. */
++public final class ForgeGallerySkin {
++ private static final int TEXT=0xffeee7d9,COLD=0xffb5bdc6,EMBER=0xffe56620;
++ private static ForgeDrawable skin(View v,String family){return new ForgeDrawable(v.getResources(),v.getContext().getTheme(),family);}
++ private static void button(View v){button(v,"cg_gl_button");}
++ private static void button(View v,String family){
++  if(v==null)return;ForgeDrawable d=skin(v,family);Rect p=new Rect();d.getPadding(p);
++  v.setBackgroundTintList(null);v.setBackground(d);
++  v.setPadding(Math.max(v.getPaddingLeft(),p.left),Math.max(v.getPaddingTop(),p.top),
++      Math.max(v.getPaddingRight(),p.right),Math.max(v.getPaddingBottom(),p.bottom));
++ }
++ public static void preference(View row,boolean actualFeature){
++  row.setBackgroundTintList(null);row.setBackground(skin(row,"cg_gl_panel"));
++  row.setMinimumHeight(Math.max(row.getMinimumHeight(),row.getBackground().getMinimumHeight()));
++  row.setActivated(actualFeature);
++ }
++ public static void installPlayerControls(View root){
++  View bottom=root.findViewById(androidx.media3.ui.R.id.exo_bottom_bar);
++  if(bottom!=null){bottom.setBackgroundTintList(null);bottom.setBackground(skin(bottom,"cg_gl_media_frame"));}
++  for(int id:new int[]{androidx.media3.ui.R.id.exo_play_pause,androidx.media3.ui.R.id.exo_rew,
++      androidx.media3.ui.R.id.exo_ffwd,androidx.media3.ui.R.id.exo_rew_with_amount,
++      androidx.media3.ui.R.id.exo_ffwd_with_amount,androidx.media3.ui.R.id.exo_settings,
++      androidx.media3.ui.R.id.exo_subtitle,androidx.media3.ui.R.id.exo_overflow_show,
++      androidx.media3.ui.R.id.exo_overflow_hide})button(root.findViewById(id),"cg_gl_media_frame");
++ }
++ public static void playerControls(View root,boolean isPlaying){
++  View bottom=root.findViewById(androidx.media3.ui.R.id.exo_bottom_bar);
++  if(bottom!=null&&bottom.getBackground() instanceof ForgeDrawable)
++      ((ForgeDrawable)bottom.getBackground()).setFeatureActive(isPlaying);
++  View bar=root.findViewById(androidx.media3.ui.R.id.exo_progress);
++  if(bar instanceof DefaultTimeBar){
++   bar.setActivated(isPlaying);DefaultTimeBar time=(DefaultTimeBar)bar;
++   time.setPlayedColor(isPlaying?EMBER:COLD);time.setScrubberColor(isPlaying?EMBER:COLD);
++   time.setBufferedColor(0xff596571);time.setUnplayedColor(0xff27333e);
++  }
++ }
++ public static void dialog(AlertDialog d){
++  if(d.getWindow()!=null)d.getWindow().setBackgroundDrawable(new ForgeDrawable(d.getContext().getResources(),d.getContext().getTheme(),"cg_gl_panel"));
++  for(int which:new int[]{AlertDialog.BUTTON_POSITIVE,AlertDialog.BUTTON_NEGATIVE,AlertDialog.BUTTON_NEUTRAL}){
++   Button b=d.getButton(which);if(b==null)continue;button(b);
++   b.setMinHeight(Math.max(b.getMinHeight(),b.getBackground().getMinimumHeight()));
++   b.setTextColor(new ColorStateList(new int[][]{new int[]{-android.R.attr.state_enabled},new int[]{}},new int[]{0xff8f9ba7,TEXT}));
++  }
++ }
++ public static void snackbar(Snackbar bar){
++  View v=bar.getView();v.setBackgroundTintList(null);v.setBackground(skin(v,"cg_gl_panel"));
++  bar.setTextColor(TEXT);bar.setActionTextColor(COLD);
++ }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/glimpse/forge/ForgeMaterialSwitch.java
+@@ -0,0 +1,20 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.glimpse.forge;
++import android.content.Context;
++import android.util.AttributeSet;
++import com.google.android.material.materialswitch.MaterialSwitch;
++/** Existing preference owns checked state, dependency enablement and callbacks. */
++public final class ForgeMaterialSwitch extends MaterialSwitch {
++ public ForgeMaterialSwitch(Context c,AttributeSet a){
++  super(c,a);
++  setThumbIconDrawable(null);setTrackDecorationDrawable(null);
++  setThumbIconTintList(null);setTrackDecorationTintList(null);
++  setThumbTintList(null);setTrackTintList(null);
++  setThumbDrawable(new ForgeDrawable(c.getResources(),c.getTheme(),"cg_gl_switch_thumb"));
++  setTrackDrawable(new ForgeDrawable(c.getResources(),c.getTheme(),"cg_gl_switch_track"));
++  setSwitchMinWidth(Math.round(52*c.getResources().getDisplayMetrics().density));
++ }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/glimpse/forge/ForgeResources.java
+@@ -0,0 +1,68 @@
++package org.lineageos.glimpse.forge;
++import org.lineageos.glimpse.R;
++/** Static references preserve independent masks under resource shrinking. */
++public final class ForgeResources {
++ public static int[] layers(String family){ switch(family){
++ case "cg_gl_albums": return new int[]{R.drawable.cg_gl_albums_cold,R.drawable.cg_gl_albums_reflection,R.drawable.cg_gl_albums_spill,R.drawable.cg_gl_albums_seam,R.drawable.cg_gl_albums_core,R.drawable.cg_gl_albums_focus,R.drawable.cg_gl_albums_symbol};
++ case "cg_gl_app_gallery": return new int[]{R.drawable.cg_gl_app_gallery_cold,R.drawable.cg_gl_app_gallery_reflection,R.drawable.cg_gl_app_gallery_spill,R.drawable.cg_gl_app_gallery_seam,R.drawable.cg_gl_app_gallery_core,R.drawable.cg_gl_app_gallery_focus,R.drawable.cg_gl_app_gallery_symbol};
++ case "cg_gl_back": return new int[]{R.drawable.cg_gl_back_cold,R.drawable.cg_gl_back_reflection,R.drawable.cg_gl_back_spill,R.drawable.cg_gl_back_seam,R.drawable.cg_gl_back_core,R.drawable.cg_gl_back_focus,R.drawable.cg_gl_back_symbol};
++ case "cg_gl_button": return new int[]{R.drawable.cg_gl_button_cold,R.drawable.cg_gl_button_reflection,R.drawable.cg_gl_button_spill,R.drawable.cg_gl_button_seam,R.drawable.cg_gl_button_core,R.drawable.cg_gl_button_focus,R.drawable.cg_gl_button_symbol};
++ case "cg_gl_camera": return new int[]{R.drawable.cg_gl_camera_cold,R.drawable.cg_gl_camera_reflection,R.drawable.cg_gl_camera_spill,R.drawable.cg_gl_camera_seam,R.drawable.cg_gl_camera_core,R.drawable.cg_gl_camera_focus,R.drawable.cg_gl_camera_symbol};
++ case "cg_gl_check": return new int[]{R.drawable.cg_gl_check_cold,R.drawable.cg_gl_check_reflection,R.drawable.cg_gl_check_spill,R.drawable.cg_gl_check_seam,R.drawable.cg_gl_check_core,R.drawable.cg_gl_check_focus,R.drawable.cg_gl_check_symbol};
++ case "cg_gl_check_circle": return new int[]{R.drawable.cg_gl_check_circle_cold,R.drawable.cg_gl_check_circle_reflection,R.drawable.cg_gl_check_circle_spill,R.drawable.cg_gl_check_circle_seam,R.drawable.cg_gl_check_circle_core,R.drawable.cg_gl_check_circle_focus,R.drawable.cg_gl_check_circle_symbol};
++ case "cg_gl_check_circle_outline": return new int[]{R.drawable.cg_gl_check_circle_outline_cold,R.drawable.cg_gl_check_circle_outline_reflection,R.drawable.cg_gl_check_circle_outline_spill,R.drawable.cg_gl_check_circle_outline_seam,R.drawable.cg_gl_check_circle_outline_core,R.drawable.cg_gl_check_circle_outline_focus,R.drawable.cg_gl_check_circle_outline_symbol};
++ case "cg_gl_close": return new int[]{R.drawable.cg_gl_close_cold,R.drawable.cg_gl_close_reflection,R.drawable.cg_gl_close_spill,R.drawable.cg_gl_close_seam,R.drawable.cg_gl_close_core,R.drawable.cg_gl_close_focus,R.drawable.cg_gl_close_symbol};
++ case "cg_gl_contact_page": return new int[]{R.drawable.cg_gl_contact_page_cold,R.drawable.cg_gl_contact_page_reflection,R.drawable.cg_gl_contact_page_spill,R.drawable.cg_gl_contact_page_seam,R.drawable.cg_gl_contact_page_core,R.drawable.cg_gl_contact_page_focus,R.drawable.cg_gl_contact_page_symbol};
++ case "cg_gl_delete": return new int[]{R.drawable.cg_gl_delete_cold,R.drawable.cg_gl_delete_reflection,R.drawable.cg_gl_delete_spill,R.drawable.cg_gl_delete_seam,R.drawable.cg_gl_delete_core,R.drawable.cg_gl_delete_focus,R.drawable.cg_gl_delete_symbol};
++ case "cg_gl_delete_forever": return new int[]{R.drawable.cg_gl_delete_forever_cold,R.drawable.cg_gl_delete_forever_reflection,R.drawable.cg_gl_delete_forever_spill,R.drawable.cg_gl_delete_forever_seam,R.drawable.cg_gl_delete_forever_core,R.drawable.cg_gl_delete_forever_focus,R.drawable.cg_gl_delete_forever_symbol};
++ case "cg_gl_delete_sweep": return new int[]{R.drawable.cg_gl_delete_sweep_cold,R.drawable.cg_gl_delete_sweep_reflection,R.drawable.cg_gl_delete_sweep_spill,R.drawable.cg_gl_delete_sweep_seam,R.drawable.cg_gl_delete_sweep_core,R.drawable.cg_gl_delete_sweep_focus,R.drawable.cg_gl_delete_sweep_symbol};
++ case "cg_gl_done": return new int[]{R.drawable.cg_gl_done_cold,R.drawable.cg_gl_done_reflection,R.drawable.cg_gl_done_spill,R.drawable.cg_gl_done_seam,R.drawable.cg_gl_done_core,R.drawable.cg_gl_done_focus,R.drawable.cg_gl_done_symbol};
++ case "cg_gl_edit": return new int[]{R.drawable.cg_gl_edit_cold,R.drawable.cg_gl_edit_reflection,R.drawable.cg_gl_edit_spill,R.drawable.cg_gl_edit_seam,R.drawable.cg_gl_edit_core,R.drawable.cg_gl_edit_focus,R.drawable.cg_gl_edit_symbol};
++ case "cg_gl_field": return new int[]{R.drawable.cg_gl_field_cold,R.drawable.cg_gl_field_reflection,R.drawable.cg_gl_field_spill,R.drawable.cg_gl_field_seam,R.drawable.cg_gl_field_core,R.drawable.cg_gl_field_focus,R.drawable.cg_gl_field_symbol};
++ case "cg_gl_ic_audiotrack": return new int[]{R.drawable.cg_gl_ic_audiotrack_cold,R.drawable.cg_gl_ic_audiotrack_reflection,R.drawable.cg_gl_ic_audiotrack_spill,R.drawable.cg_gl_ic_audiotrack_seam,R.drawable.cg_gl_ic_audiotrack_core,R.drawable.cg_gl_ic_audiotrack_focus,R.drawable.cg_gl_ic_audiotrack_symbol};
++ case "cg_gl_ic_check": return new int[]{R.drawable.cg_gl_ic_check_cold,R.drawable.cg_gl_ic_check_reflection,R.drawable.cg_gl_ic_check_spill,R.drawable.cg_gl_ic_check_seam,R.drawable.cg_gl_ic_check_core,R.drawable.cg_gl_ic_check_focus,R.drawable.cg_gl_ic_check_symbol};
++ case "cg_gl_ic_chevron_left": return new int[]{R.drawable.cg_gl_ic_chevron_left_cold,R.drawable.cg_gl_ic_chevron_left_reflection,R.drawable.cg_gl_ic_chevron_left_spill,R.drawable.cg_gl_ic_chevron_left_seam,R.drawable.cg_gl_ic_chevron_left_core,R.drawable.cg_gl_ic_chevron_left_focus,R.drawable.cg_gl_ic_chevron_left_symbol};
++ case "cg_gl_ic_chevron_right": return new int[]{R.drawable.cg_gl_ic_chevron_right_cold,R.drawable.cg_gl_ic_chevron_right_reflection,R.drawable.cg_gl_ic_chevron_right_spill,R.drawable.cg_gl_ic_chevron_right_seam,R.drawable.cg_gl_ic_chevron_right_core,R.drawable.cg_gl_ic_chevron_right_focus,R.drawable.cg_gl_ic_chevron_right_symbol};
++ case "cg_gl_ic_forward": return new int[]{R.drawable.cg_gl_ic_forward_cold,R.drawable.cg_gl_ic_forward_reflection,R.drawable.cg_gl_ic_forward_spill,R.drawable.cg_gl_ic_forward_seam,R.drawable.cg_gl_ic_forward_core,R.drawable.cg_gl_ic_forward_focus,R.drawable.cg_gl_ic_forward_symbol};
++ case "cg_gl_ic_fullscreen_enter": return new int[]{R.drawable.cg_gl_ic_fullscreen_enter_cold,R.drawable.cg_gl_ic_fullscreen_enter_reflection,R.drawable.cg_gl_ic_fullscreen_enter_spill,R.drawable.cg_gl_ic_fullscreen_enter_seam,R.drawable.cg_gl_ic_fullscreen_enter_core,R.drawable.cg_gl_ic_fullscreen_enter_focus,R.drawable.cg_gl_ic_fullscreen_enter_symbol};
++ case "cg_gl_ic_fullscreen_exit": return new int[]{R.drawable.cg_gl_ic_fullscreen_exit_cold,R.drawable.cg_gl_ic_fullscreen_exit_reflection,R.drawable.cg_gl_ic_fullscreen_exit_spill,R.drawable.cg_gl_ic_fullscreen_exit_seam,R.drawable.cg_gl_ic_fullscreen_exit_core,R.drawable.cg_gl_ic_fullscreen_exit_focus,R.drawable.cg_gl_ic_fullscreen_exit_symbol};
++ case "cg_gl_ic_pause_circle_filled": return new int[]{R.drawable.cg_gl_ic_pause_circle_filled_cold,R.drawable.cg_gl_ic_pause_circle_filled_reflection,R.drawable.cg_gl_ic_pause_circle_filled_spill,R.drawable.cg_gl_ic_pause_circle_filled_seam,R.drawable.cg_gl_ic_pause_circle_filled_core,R.drawable.cg_gl_ic_pause_circle_filled_focus,R.drawable.cg_gl_ic_pause_circle_filled_symbol};
++ case "cg_gl_ic_play_circle_filled": return new int[]{R.drawable.cg_gl_ic_play_circle_filled_cold,R.drawable.cg_gl_ic_play_circle_filled_reflection,R.drawable.cg_gl_ic_play_circle_filled_spill,R.drawable.cg_gl_ic_play_circle_filled_seam,R.drawable.cg_gl_ic_play_circle_filled_core,R.drawable.cg_gl_ic_play_circle_filled_focus,R.drawable.cg_gl_ic_play_circle_filled_symbol};
++ case "cg_gl_ic_rewind": return new int[]{R.drawable.cg_gl_ic_rewind_cold,R.drawable.cg_gl_ic_rewind_reflection,R.drawable.cg_gl_ic_rewind_spill,R.drawable.cg_gl_ic_rewind_seam,R.drawable.cg_gl_ic_rewind_core,R.drawable.cg_gl_ic_rewind_focus,R.drawable.cg_gl_ic_rewind_symbol};
++ case "cg_gl_ic_settings": return new int[]{R.drawable.cg_gl_ic_settings_cold,R.drawable.cg_gl_ic_settings_reflection,R.drawable.cg_gl_ic_settings_spill,R.drawable.cg_gl_ic_settings_seam,R.drawable.cg_gl_ic_settings_core,R.drawable.cg_gl_ic_settings_focus,R.drawable.cg_gl_ic_settings_symbol};
++ case "cg_gl_ic_skip_next": return new int[]{R.drawable.cg_gl_ic_skip_next_cold,R.drawable.cg_gl_ic_skip_next_reflection,R.drawable.cg_gl_ic_skip_next_spill,R.drawable.cg_gl_ic_skip_next_seam,R.drawable.cg_gl_ic_skip_next_core,R.drawable.cg_gl_ic_skip_next_focus,R.drawable.cg_gl_ic_skip_next_symbol};
++ case "cg_gl_ic_skip_previous": return new int[]{R.drawable.cg_gl_ic_skip_previous_cold,R.drawable.cg_gl_ic_skip_previous_reflection,R.drawable.cg_gl_ic_skip_previous_spill,R.drawable.cg_gl_ic_skip_previous_seam,R.drawable.cg_gl_ic_skip_previous_core,R.drawable.cg_gl_ic_skip_previous_focus,R.drawable.cg_gl_ic_skip_previous_symbol};
++ case "cg_gl_ic_speed": return new int[]{R.drawable.cg_gl_ic_speed_cold,R.drawable.cg_gl_ic_speed_reflection,R.drawable.cg_gl_ic_speed_spill,R.drawable.cg_gl_ic_speed_seam,R.drawable.cg_gl_ic_speed_core,R.drawable.cg_gl_ic_speed_focus,R.drawable.cg_gl_ic_speed_symbol};
++ case "cg_gl_ic_subtitle_off": return new int[]{R.drawable.cg_gl_ic_subtitle_off_cold,R.drawable.cg_gl_ic_subtitle_off_reflection,R.drawable.cg_gl_ic_subtitle_off_spill,R.drawable.cg_gl_ic_subtitle_off_seam,R.drawable.cg_gl_ic_subtitle_off_core,R.drawable.cg_gl_ic_subtitle_off_focus,R.drawable.cg_gl_ic_subtitle_off_symbol};
++ case "cg_gl_ic_subtitle_on": return new int[]{R.drawable.cg_gl_ic_subtitle_on_cold,R.drawable.cg_gl_ic_subtitle_on_reflection,R.drawable.cg_gl_ic_subtitle_on_spill,R.drawable.cg_gl_ic_subtitle_on_seam,R.drawable.cg_gl_ic_subtitle_on_core,R.drawable.cg_gl_ic_subtitle_on_focus,R.drawable.cg_gl_ic_subtitle_on_symbol};
++ case "cg_gl_icon_fastforward": return new int[]{R.drawable.cg_gl_icon_fastforward_cold,R.drawable.cg_gl_icon_fastforward_reflection,R.drawable.cg_gl_icon_fastforward_spill,R.drawable.cg_gl_icon_fastforward_seam,R.drawable.cg_gl_icon_fastforward_core,R.drawable.cg_gl_icon_fastforward_focus,R.drawable.cg_gl_icon_fastforward_symbol};
++ case "cg_gl_icon_repeat_all": return new int[]{R.drawable.cg_gl_icon_repeat_all_cold,R.drawable.cg_gl_icon_repeat_all_reflection,R.drawable.cg_gl_icon_repeat_all_spill,R.drawable.cg_gl_icon_repeat_all_seam,R.drawable.cg_gl_icon_repeat_all_core,R.drawable.cg_gl_icon_repeat_all_focus,R.drawable.cg_gl_icon_repeat_all_symbol};
++ case "cg_gl_icon_repeat_off": return new int[]{R.drawable.cg_gl_icon_repeat_off_cold,R.drawable.cg_gl_icon_repeat_off_reflection,R.drawable.cg_gl_icon_repeat_off_spill,R.drawable.cg_gl_icon_repeat_off_seam,R.drawable.cg_gl_icon_repeat_off_core,R.drawable.cg_gl_icon_repeat_off_focus,R.drawable.cg_gl_icon_repeat_off_symbol};
++ case "cg_gl_icon_repeat_one": return new int[]{R.drawable.cg_gl_icon_repeat_one_cold,R.drawable.cg_gl_icon_repeat_one_reflection,R.drawable.cg_gl_icon_repeat_one_spill,R.drawable.cg_gl_icon_repeat_one_seam,R.drawable.cg_gl_icon_repeat_one_core,R.drawable.cg_gl_icon_repeat_one_focus,R.drawable.cg_gl_icon_repeat_one_symbol};
++ case "cg_gl_icon_rewind": return new int[]{R.drawable.cg_gl_icon_rewind_cold,R.drawable.cg_gl_icon_rewind_reflection,R.drawable.cg_gl_icon_rewind_spill,R.drawable.cg_gl_icon_rewind_seam,R.drawable.cg_gl_icon_rewind_core,R.drawable.cg_gl_icon_rewind_focus,R.drawable.cg_gl_icon_rewind_symbol};
++ case "cg_gl_icon_shuffle_off": return new int[]{R.drawable.cg_gl_icon_shuffle_off_cold,R.drawable.cg_gl_icon_shuffle_off_reflection,R.drawable.cg_gl_icon_shuffle_off_spill,R.drawable.cg_gl_icon_shuffle_off_seam,R.drawable.cg_gl_icon_shuffle_off_core,R.drawable.cg_gl_icon_shuffle_off_focus,R.drawable.cg_gl_icon_shuffle_off_symbol};
++ case "cg_gl_icon_shuffle_on": return new int[]{R.drawable.cg_gl_icon_shuffle_on_cold,R.drawable.cg_gl_icon_shuffle_on_reflection,R.drawable.cg_gl_icon_shuffle_on_spill,R.drawable.cg_gl_icon_shuffle_on_seam,R.drawable.cg_gl_icon_shuffle_on_core,R.drawable.cg_gl_icon_shuffle_on_focus,R.drawable.cg_gl_icon_shuffle_on_symbol};
++ case "cg_gl_image": return new int[]{R.drawable.cg_gl_image_cold,R.drawable.cg_gl_image_reflection,R.drawable.cg_gl_image_spill,R.drawable.cg_gl_image_seam,R.drawable.cg_gl_image_core,R.drawable.cg_gl_image_focus,R.drawable.cg_gl_image_symbol};
++ case "cg_gl_info": return new int[]{R.drawable.cg_gl_info_cold,R.drawable.cg_gl_info_reflection,R.drawable.cg_gl_info_spill,R.drawable.cg_gl_info_seam,R.drawable.cg_gl_info_core,R.drawable.cg_gl_info_focus,R.drawable.cg_gl_info_symbol};
++ case "cg_gl_library": return new int[]{R.drawable.cg_gl_library_cold,R.drawable.cg_gl_library_reflection,R.drawable.cg_gl_library_spill,R.drawable.cg_gl_library_seam,R.drawable.cg_gl_library_core,R.drawable.cg_gl_library_focus,R.drawable.cg_gl_library_symbol};
++ case "cg_gl_location_on": return new int[]{R.drawable.cg_gl_location_on_cold,R.drawable.cg_gl_location_on_reflection,R.drawable.cg_gl_location_on_spill,R.drawable.cg_gl_location_on_seam,R.drawable.cg_gl_location_on_core,R.drawable.cg_gl_location_on_focus,R.drawable.cg_gl_location_on_symbol};
++ case "cg_gl_media_frame": return new int[]{R.drawable.cg_gl_media_frame_cold,R.drawable.cg_gl_media_frame_reflection,R.drawable.cg_gl_media_frame_spill,R.drawable.cg_gl_media_frame_seam,R.drawable.cg_gl_media_frame_core,R.drawable.cg_gl_media_frame_focus,R.drawable.cg_gl_media_frame_symbol};
++ case "cg_gl_motion_play": return new int[]{R.drawable.cg_gl_motion_play_cold,R.drawable.cg_gl_motion_play_reflection,R.drawable.cg_gl_motion_play_spill,R.drawable.cg_gl_motion_play_seam,R.drawable.cg_gl_motion_play_core,R.drawable.cg_gl_motion_play_focus,R.drawable.cg_gl_motion_play_symbol};
++ case "cg_gl_no_photography": return new int[]{R.drawable.cg_gl_no_photography_cold,R.drawable.cg_gl_no_photography_reflection,R.drawable.cg_gl_no_photography_spill,R.drawable.cg_gl_no_photography_seam,R.drawable.cg_gl_no_photography_core,R.drawable.cg_gl_no_photography_focus,R.drawable.cg_gl_no_photography_symbol};
++ case "cg_gl_panel": return new int[]{R.drawable.cg_gl_panel_cold,R.drawable.cg_gl_panel_reflection,R.drawable.cg_gl_panel_spill,R.drawable.cg_gl_panel_seam,R.drawable.cg_gl_panel_core,R.drawable.cg_gl_panel_focus,R.drawable.cg_gl_panel_symbol};
++ case "cg_gl_person": return new int[]{R.drawable.cg_gl_person_cold,R.drawable.cg_gl_person_reflection,R.drawable.cg_gl_person_spill,R.drawable.cg_gl_person_seam,R.drawable.cg_gl_person_core,R.drawable.cg_gl_person_focus,R.drawable.cg_gl_person_symbol};
++ case "cg_gl_photo_size_select_actual": return new int[]{R.drawable.cg_gl_photo_size_select_actual_cold,R.drawable.cg_gl_photo_size_select_actual_reflection,R.drawable.cg_gl_photo_size_select_actual_spill,R.drawable.cg_gl_photo_size_select_actual_seam,R.drawable.cg_gl_photo_size_select_actual_core,R.drawable.cg_gl_photo_size_select_actual_focus,R.drawable.cg_gl_photo_size_select_actual_symbol};
++ case "cg_gl_play_circle_outline": return new int[]{R.drawable.cg_gl_play_circle_outline_cold,R.drawable.cg_gl_play_circle_outline_reflection,R.drawable.cg_gl_play_circle_outline_spill,R.drawable.cg_gl_play_circle_outline_seam,R.drawable.cg_gl_play_circle_outline_core,R.drawable.cg_gl_play_circle_outline_focus,R.drawable.cg_gl_play_circle_outline_symbol};
++ case "cg_gl_rail": return new int[]{R.drawable.cg_gl_rail_cold,R.drawable.cg_gl_rail_reflection,R.drawable.cg_gl_rail_spill,R.drawable.cg_gl_rail_seam,R.drawable.cg_gl_rail_core,R.drawable.cg_gl_rail_focus,R.drawable.cg_gl_rail_symbol};
++ case "cg_gl_restore_from_trash": return new int[]{R.drawable.cg_gl_restore_from_trash_cold,R.drawable.cg_gl_restore_from_trash_reflection,R.drawable.cg_gl_restore_from_trash_spill,R.drawable.cg_gl_restore_from_trash_seam,R.drawable.cg_gl_restore_from_trash_core,R.drawable.cg_gl_restore_from_trash_focus,R.drawable.cg_gl_restore_from_trash_symbol};
++ case "cg_gl_seek_thumb": return new int[]{R.drawable.cg_gl_seek_thumb_cold,R.drawable.cg_gl_seek_thumb_reflection,R.drawable.cg_gl_seek_thumb_spill,R.drawable.cg_gl_seek_thumb_seam,R.drawable.cg_gl_seek_thumb_core,R.drawable.cg_gl_seek_thumb_focus,R.drawable.cg_gl_seek_thumb_symbol};
++ case "cg_gl_settings": return new int[]{R.drawable.cg_gl_settings_cold,R.drawable.cg_gl_settings_reflection,R.drawable.cg_gl_settings_spill,R.drawable.cg_gl_settings_seam,R.drawable.cg_gl_settings_core,R.drawable.cg_gl_settings_focus,R.drawable.cg_gl_settings_symbol};
++ case "cg_gl_share": return new int[]{R.drawable.cg_gl_share_cold,R.drawable.cg_gl_share_reflection,R.drawable.cg_gl_share_spill,R.drawable.cg_gl_share_seam,R.drawable.cg_gl_share_core,R.drawable.cg_gl_share_focus,R.drawable.cg_gl_share_symbol};
++ case "cg_gl_star": return new int[]{R.drawable.cg_gl_star_cold,R.drawable.cg_gl_star_reflection,R.drawable.cg_gl_star_spill,R.drawable.cg_gl_star_seam,R.drawable.cg_gl_star_core,R.drawable.cg_gl_star_focus,R.drawable.cg_gl_star_symbol};
++ case "cg_gl_star_border": return new int[]{R.drawable.cg_gl_star_border_cold,R.drawable.cg_gl_star_border_reflection,R.drawable.cg_gl_star_border_spill,R.drawable.cg_gl_star_border_seam,R.drawable.cg_gl_star_border_core,R.drawable.cg_gl_star_border_focus,R.drawable.cg_gl_star_border_symbol};
++ case "cg_gl_switch_thumb": return new int[]{R.drawable.cg_gl_switch_thumb_cold,R.drawable.cg_gl_switch_thumb_reflection,R.drawable.cg_gl_switch_thumb_spill,R.drawable.cg_gl_switch_thumb_seam,R.drawable.cg_gl_switch_thumb_core,R.drawable.cg_gl_switch_thumb_focus,R.drawable.cg_gl_switch_thumb_symbol};
++ case "cg_gl_switch_track": return new int[]{R.drawable.cg_gl_switch_track_cold,R.drawable.cg_gl_switch_track_reflection,R.drawable.cg_gl_switch_track_spill,R.drawable.cg_gl_switch_track_seam,R.drawable.cg_gl_switch_track_core,R.drawable.cg_gl_switch_track_focus,R.drawable.cg_gl_switch_track_symbol};
++ case "cg_gl_video_camera_back": return new int[]{R.drawable.cg_gl_video_camera_back_cold,R.drawable.cg_gl_video_camera_back_reflection,R.drawable.cg_gl_video_camera_back_spill,R.drawable.cg_gl_video_camera_back_seam,R.drawable.cg_gl_video_camera_back_core,R.drawable.cg_gl_video_camera_back_focus,R.drawable.cg_gl_video_camera_back_symbol};
++ default:throw new IllegalArgumentException("Unknown Forge family "+family);
++ }}
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/glimpse/forge/ForgeRowPlan.java
+@@ -0,0 +1,29 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.glimpse.forge;
++/** Pure wrapping geometry; inputs are measured native children, never guessed text metrics. */
++public final class ForgeRowPlan {
++ public static final class Plan {
++  public final int[] x,y;public final int height;
++  private Plan(int[] x,int[] y,int h){this.x=x;this.y=y;height=h;}
++ }
++ public static Plan pack(int available,int gap,int[] widths,int[] heights,boolean center){
++  if(available<=0||gap<0||widths.length!=heights.length)throw new IllegalArgumentException("Invalid row geometry");
++  int[] x=new int[widths.length],y=new int[widths.length];int at=0,top=0;
++  while(at<widths.length){
++   int end=at,used=0,rh=0;
++   while(end<widths.length){
++    if(widths[end]<0||heights[end]<0||widths[end]>available)throw new IllegalArgumentException("Unconstrained native child");
++    int next=used+(end==at?0:gap)+widths[end];
++    if(end>at&&next>available)break;
++    used=next;rh=Math.max(rh,heights[end]);end++;
++   }
++   int left=center?(available-used)/2:0;
++   for(int i=at;i<end;i++){x[i]=left;y[i]=top;left+=widths[i]+gap;}
++   top+=rh+(end<widths.length?gap:0);at=end;
++  }
++  return new Plan(x,y,top);
++ }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/glimpse/forge/ForgeSeekBarPreference.java
+@@ -0,0 +1,29 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.glimpse.forge;
++import android.content.Context;
++import android.util.AttributeSet;
++import android.widget.SeekBar;
++import androidx.preference.PreferenceManager;
++import androidx.preference.PreferenceViewHolder;
++import androidx.preference.SeekBarPreference;
++import org.lineageos.glimpse.R;
++/** Native min/max/increment, numeric value and persistence remain in SeekBarPreference. */
++public final class ForgeSeekBarPreference extends SeekBarPreference {
++ public ForgeSeekBarPreference(Context c,AttributeSet a){super(c,a);}
++ @Override public void onBindViewHolder(PreferenceViewHolder h){
++  super.onBindViewHolder(h);
++  boolean feature=PreferenceManager.getDefaultSharedPreferences(getContext())
++       .getBoolean("double_tap_to_seek_enabled",false);
++  ForgeGallerySkin.preference(h.itemView,feature);
++  SeekBar bar=(SeekBar)h.findViewById(androidx.preference.R.id.seekbar);
++  if(bar==null)return;
++  bar.setThumb(new ForgeDrawable(getContext().getResources(),getContext().getTheme(),"cg_gl_seek_thumb"));
++  bar.setProgressDrawable(getContext().getDrawable(R.drawable.cg_gl_seek_progress));
++  bar.setThumbTintList(null);bar.setProgressTintList(null);bar.setProgressBackgroundTintList(null);
++  // Exact source dependency key, not progress, widget presence or generic enabled state.
++  bar.setActivated(feature);
++ }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/glimpse/forge/ForgeStatePolicy.java
+@@ -0,0 +1,22 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.glimpse.forge;
++/** Source-owned values, interaction and neutral focus remain distinct. No clock or media action. */
++public final class ForgeStatePolicy {
++ public static final int DYNAMIC=0, TRUE_VALUE=1, FALSE_VALUE=2;
++ public final boolean active; public final float base; public final float[] gains;
++ private ForgeStatePolicy(boolean a,float b,float[] g){active=a;base=b;gains=g;}
++ public static ForgeStatePolicy resolve(int mode,boolean enabled,boolean checked,boolean selected,
++         boolean activated,boolean focused,boolean hovered,boolean pressed,boolean feature,boolean momentary){
++  if(mode<0||mode>2)throw new IllegalArgumentException("Unknown source value mode");
++  boolean active=mode==TRUE_VALUE || (mode==DYNAMIC &&
++      (checked||selected||activated||feature||(enabled&&momentary&&pressed)));
++  float[] g=new float[6];float strength=enabled?1f:.6f;
++  if(active){g[0]=(enabled&&pressed?.60f:.32f)*strength;g[1]=(enabled&&pressed?.92f:.72f)*strength;
++      g[2]=strength;g[3]=(enabled&&pressed?1f:.82f)*strength;g[5]=strength;}
++  g[4]=enabled&&(focused||hovered)?1f:0f;
++  return new ForgeStatePolicy(active,enabled?1f:.42f,g);
++ }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/glimpse/forge/ForgeSwitchPreference.java
+@@ -0,0 +1,16 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.glimpse.forge;
++import android.content.Context;
++import android.util.AttributeSet;
++import androidx.preference.PreferenceViewHolder;
++import androidx.preference.SwitchPreferenceCompat;
++/** Actual native preference value drives the row; original persistence/actions stay in the base owner. */
++public final class ForgeSwitchPreference extends SwitchPreferenceCompat {
++ public ForgeSwitchPreference(Context c,AttributeSet a){super(c,a);}
++ @Override public void onBindViewHolder(PreferenceViewHolder h){
++  super.onBindViewHolder(h);ForgeGallerySkin.preference(h.itemView,isChecked());
++ }
++}
+--- a/app/src/main/java/org/lineageos/glimpse/ui/dialogs/MediaInfoBottomSheetDialog.kt
++++ b/app/src/main/java/org/lineageos/glimpse/ui/dialogs/MediaInfoBottomSheetDialog.kt
+@@ -81,6 +81,9 @@
+ 
+     init {
+         setContentView(R.layout.media_info_bottom_sheet_dialog)
++        // No sample camera/artist data is shown before real EXIF is read.
++        artistInfoListItem.isVisible = false
++        cameraInfoListItem.isVisible = false
+ 
+         ViewCompat.setOnApplyWindowInsetsListener(contentView) { _, windowInsets ->
+             val insets = windowInsets.getInsets(
+--- a/app/src/main/java/org/lineageos/glimpse/ui/recyclerview/MediaViewerAdapter.kt
++++ b/app/src/main/java/org/lineageos/glimpse/ui/recyclerview/MediaViewerAdapter.kt
+@@ -22,6 +22,7 @@
+ import kotlinx.coroutines.flow.collectLatest
+ import kotlinx.coroutines.launch
+ import org.lineageos.glimpse.R
++import org.lineageos.glimpse.forge.ForgeGallerySkin
+ import org.lineageos.glimpse.ext.fade
+ import org.lineageos.glimpse.ext.load
+ import org.lineageos.glimpse.models.Media
+@@ -94,6 +95,7 @@
+ 
+             playerView.player = player
+             playerControlView.player = player
++            ForgeGallerySkin.playerControls(playerControlView, player?.isPlaying == true)
+ 
+             // Update media gesture listener
+             updateMediaGestureListener(isNowVideoPlayer)
+@@ -133,6 +135,7 @@
+         private var observersJob: Job? = null
+ 
+         init {
++            ForgeGallerySkin.installPlayerControls(playerControlView)
+             imageView.setOnClickListener {
+                 localPlayerViewModel.toggleFullscreenMode()
+             }
+@@ -180,6 +183,12 @@
+         fun onViewAttachedToWindow() {
+             observersJob = itemView.findViewTreeLifecycleOwner()?.lifecycleScope?.launch {
+                 launch {
++                    localPlayerViewModel.isPlaying.collectLatest { playing ->
++                        ForgeGallerySkin.playerControls(playerControlView,
++                            playing && playerControlView.player != null)
++                    }
++                }
++                launch {
+                     localPlayerViewModel.mediaPosition.collectLatest(mediaPositionObserver)
+                 }
+                 launch {
+@@ -204,6 +213,7 @@
+             mediaGestureListener.player = null
+             playerView.player = null
+             playerControlView.player = null
++            ForgeGallerySkin.playerControls(playerControlView, false)
+         }
+     }
+ }
+--- a/app/src/main/java/org/lineageos/glimpse/ui/recyclerview/ThumbnailAdapter.kt
++++ b/app/src/main/java/org/lineageos/glimpse/ui/recyclerview/ThumbnailAdapter.kt
+@@ -154,6 +154,7 @@
+         fun bind(media: Media, isSelected: Boolean = false) {
+             this.media = media
+             this.isSelected = isSelected
++            itemView.isSelected = isSelected // Source SelectionTracker value drives only the rim.
+ 
+             itemView.setOnClickListener {
+                 onItemSelected(media)
+--- a/app/src/main/java/org/lineageos/glimpse/utils/MediaDialogsUtils.kt
++++ b/app/src/main/java/org/lineageos/glimpse/utils/MediaDialogsUtils.kt
+@@ -12,6 +12,7 @@
+ import com.google.android.material.dialog.MaterialAlertDialogBuilder
+ import com.google.android.material.snackbar.Snackbar
+ import org.lineageos.glimpse.R
++import org.lineageos.glimpse.forge.ForgeGallerySkin
+ 
+ object MediaDialogsUtils {
+     private fun <T> openDialog(
+@@ -35,7 +36,7 @@
+             .setNegativeButton(android.R.string.cancel) { _, _ ->
+                 // Do nothing
+             }
+-            .show()
++            .show().also { ForgeGallerySkin.dialog(it) }
+     }
+ 
+     private fun showResultSnackbar(
+@@ -67,6 +68,7 @@
+             setAction(R.string.file_action_undo_action) { it() }
+         }
+ 
++        ForgeGallerySkin.snackbar(this)
+         show()
+     }.also {
+         if (succeeded) {
+--- a/app/src/main/java/org/lineageos/glimpse/utils/PermissionsUtils.kt
++++ b/app/src/main/java/org/lineageos/glimpse/utils/PermissionsUtils.kt
+@@ -16,6 +16,7 @@
+ import androidx.core.content.ContextCompat
+ import androidx.preference.PreferenceManager
+ import com.google.android.material.dialog.MaterialAlertDialogBuilder
++import org.lineageos.glimpse.forge.ForgeGallerySkin
+ import org.lineageos.glimpse.R
+ import org.lineageos.glimpse.ext.manageMediaPermissionDialogDismissed
+ 
+@@ -67,7 +68,7 @@
+                 })
+             }.setNeutralButton(android.R.string.cancel) { _, _ ->
+                 sharedPreferences.manageMediaPermissionDialogDismissed = true
+-            }.show()
++            }.show().also { ForgeGallerySkin.dialog(it) }
+     }
+ 
+     private fun canManageMedia(context: Context) =
+--- /dev/null
++++ b/app/src/main/res/color/cg_gl_progress_color.xml
+@@ -0,0 +1,5 @@
++<selector xmlns:android="http://schemas.android.com/apk/res/android">
++ <item android:state_activated="true" android:state_enabled="false" android:color="#99e56620"/>
++ <item android:state_activated="true" android:color="@color/cg_gl_ember"/>
++ <item android:color="@color/cg_gl_cold"/>
++</selector>
+\ No newline at end of file
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_audiotrack.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_audiotrack" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_check.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_check" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_chevron_left.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_chevron_left" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_chevron_right.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_chevron_right" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_forward.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_forward" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_fullscreen_enter.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_fullscreen_enter" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_fullscreen_exit.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_fullscreen_exit" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_pause_circle_filled.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_pause_circle_filled" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_play_circle_filled.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_play_circle_filled" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_rewind.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_rewind" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_settings.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_settings" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_skip_next.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_skip_next" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_skip_previous.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_skip_previous" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_speed.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_speed" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_subtitle_off.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_subtitle_off" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_subtitle_on.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_subtitle_on" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_fastforward.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_fastforward" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_all.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_repeat_all" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_off.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_repeat_off" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_one.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_repeat_one" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_rewind.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_rewind" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_shuffle_off.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_shuffle_off" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_shuffle_on.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_shuffle_on" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/bg_media_viewer_bottom_sheet.xml
++++ b/app/src/main/res/drawable/bg_media_viewer_bottom_sheet.xml
+@@ -1,12 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+-    <item>
+-        <shape>
+-            <gradient android:angle="270" android:endColor="#DD000000" android:startColor="@android:color/transparent" android:type="linear" />
+-        </shape>
+-    </item>
+-</selector>
++<drawable xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_panel" app:cg_forge_momentary="false"/>
+--- a/app/src/main/res/drawable/bg_media_viewer_top_sheet.xml
++++ b/app/src/main/res/drawable/bg_media_viewer_top_sheet.xml
+@@ -1,12 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+-    <item>
+-        <shape>
+-            <gradient android:angle="270" android:endColor="@android:color/transparent" android:startColor="#DD000000" android:type="linear" />
+-        </shape>
+-    </item>
+-</selector>
++<drawable xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_panel" app:cg_forge_momentary="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_button.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_button" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_field.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_field" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_launcher_foreground.xml
+@@ -0,0 +1 @@
++<inset xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/ic_launcher_foreground" android:inset="0dp"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_media_frame.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_media_frame" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_panel.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_panel" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_player_error_panel.xml
+@@ -0,0 +1 @@
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_panel" app:cg_forge_source_value_mode="false_value"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_rail.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_rail" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_seek_progress.xml
+@@ -0,0 +1,8 @@
++<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
++ <item android:id="@android:id/background" android:height="12dp" android:gravity="center_vertical" android:drawable="@drawable/cg_gl_rail"/>
++ <item android:id="@android:id/progress" android:height="4dp" android:gravity="center_vertical">
++  <clip android:clipOrientation="horizontal" android:gravity="start">
++   <shape><corners android:radius="2dp"/><solid android:color="@color/cg_gl_progress_color"/></shape>
++  </clip>
++ </item>
++</layer-list>
+\ No newline at end of file
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_seek_thumb.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_seek_thumb" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_switch_thumb.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_switch_thumb" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_switch_track.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_switch_track" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_albums.xml
++++ b/app/src/main/res/drawable/ic_albums.xml
+@@ -1,22 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M3,11V19H13V21H3C1.895,21 1,20.105 1,19V11C1,9.895 1.895,9 3,9H7V11H3Z" />
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M17,5H9L9,21H7V5C7,3.895 7.895,3 9,3H17C18.105,3 19,3.895 19,5V13H17V5Z" />
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:fillType="evenOdd"
+-        android:pathData="M21,15H13L13,19H21V15ZM13,13C11.895,13 11,13.895 11,15V19C11,20.105 11.895,21 13,21H21C22.105,21 23,20.105 23,19V15C23,13.895 22.105,13 21,13H13Z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_albums" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_back.xml
++++ b/app/src/main/res/drawable/ic_back.xml
+@@ -1,16 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:autoMirrored="true"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M20,11H7.83l5.59,-5.59L12,4l-8,8 8,8 1.41,-1.41L7.83,13H20v-2z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_back" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="true"/>
+--- a/app/src/main/res/drawable/ic_camera.xml
++++ b/app/src/main/res/drawable/ic_camera.xml
+@@ -1,16 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:fillType="evenOdd"
+-        android:pathData="M9.19,4.857C9.484,4.328 10.042,4 10.647,4H15.353C15.958,4 16.516,4.328 16.81,4.857L18,7H13H8L9.19,4.857ZM12.952,7H8L3.393,7.768C2.589,7.902 2,8.597 2,9.412V17.333C2,18.254 2.746,19 3.667,19H8.101C6.805,17.73 6,15.959 6,14C6,10.15 9.108,7.026 12.952,7ZM17.899,19C19.195,17.73 20,15.959 20,14C20,10.15 16.892,7.026 13.048,7H18L20.737,7.684C21.479,7.87 22,8.537 22,9.301V17.333C22,18.254 21.254,19 20.333,19H17.899ZM6,10C6,10.552 5.552,11 5,11C4.448,11 4,10.552 4,10C4,9.448 4.448,9 5,9C5.552,9 6,9.448 6,10ZM13,19C15.761,19 18,16.761 18,14C18,11.239 15.761,9 13,9C10.239,9 8,11.239 8,14C8,16.761 10.239,19 13,19Z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_camera" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_check.xml
++++ b/app/src/main/res/drawable/ic_check.xml
+@@ -1,17 +1,3 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M382,720L154,492L211,435L382,606L749,239L806,296L382,720Z" />
+-
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_check" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_check_circle.xml
++++ b/app/src/main/res/drawable/ic_check_circle.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM10,17l-5,-5 1.41,-1.41L10,14.17l7.59,-7.59L19,8l-9,9z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_check_circle" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_check_circle_outline.xml
++++ b/app/src/main/res/drawable/ic_check_circle_outline.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM12,20c-4.41,0 -8,-3.59 -8,-8s3.59,-8 8,-8 8,3.59 8,8 -3.59,8 -8,8zM16.59,7.58L10,14.17l-2.59,-2.58L6,13l4,4 8,-8z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_check_circle_outline" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_close.xml
++++ b/app/src/main/res/drawable/ic_close.xml
+@@ -1,17 +1,3 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M256,760L200,704L424,480L200,256L256,200L480,424L704,200L760,256L536,480L760,704L704,760L480,536L256,760Z" />
+-
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_close" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_contact_page.xml
++++ b/app/src/main/res/drawable/ic_contact_page.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M13.17,4L18,8.83V20H6V4H13.17M14,2H6C4.9,2 4,2.9 4,4v16c0,1.1 0.9,2 2,2h12c1.1,0 2,-0.9 2,-2V8L14,2L14,2zM12,14c1.1,0 2,-0.9 2,-2c0,-1.1 -0.9,-2 -2,-2s-2,0.9 -2,2C10,13.1 10.9,14 12,14zM16,17.43c0,-0.81 -0.48,-1.53 -1.22,-1.85C13.93,15.21 12.99,15 12,15c-0.99,0 -1.93,0.21 -2.78,0.58C8.48,15.9 8,16.62 8,17.43V18h8V17.43z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_contact_page" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_delete.xml
++++ b/app/src/main/res/drawable/ic_delete.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M16,9v10H8V9h8m-1.5,-6h-5l-1,1H5v2h14V4h-3.5l-1,-1zM18,7H6v12c0,1.1 0.9,2 2,2h8c1.1,0 2,-0.9 2,-2V7z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_delete" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_delete_forever.xml
++++ b/app/src/main/res/drawable/ic_delete_forever.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M14.12,10.47L12,12.59l-2.13,-2.12 -1.41,1.41L10.59,14l-2.12,2.12 1.41,1.41L12,15.41l2.12,2.12 1.41,-1.41L13.41,14l2.12,-2.12zM15.5,4l-1,-1h-5l-1,1H5v2h14V4zM6,19c0,1.1 0.9,2 2,2h8c1.1,0 2,-0.9 2,-2V7H6v12zM8,9h8v10H8V9z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_delete_forever" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_delete_sweep.xml
++++ b/app/src/main/res/drawable/ic_delete_sweep.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M15,16h4v2h-4zM15,8h7v2h-7zM15,12h6v2h-6zM3,18c0,1.1 0.9,2 2,2h6c1.1,0 2,-0.9 2,-2L13,8L3,8v10zM5,10h6v8L5,18v-8zM10,4L6,4L5,5L2,5v2h12L14,5h-3z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_delete_sweep" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_done.xml
++++ b/app/src/main/res/drawable/ic_done.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M382,720L154,492L211,435L382,606L749,239L806,296L382,720Z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_done" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_edit.xml
++++ b/app/src/main/res/drawable/ic_edit.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M14.06,9.02l0.92,0.92L5.92,19L5,19v-0.92l9.06,-9.06M17.66,3c-0.25,0 -0.51,0.1 -0.7,0.29l-1.83,1.83 3.75,3.75 1.83,-1.83c0.39,-0.39 0.39,-1.02 0,-1.41l-2.34,-2.34c-0.2,-0.2 -0.45,-0.29 -0.71,-0.29zM14.06,6.19L3,17.25L3,21h3.75L17.81,9.94l-3.75,-3.75z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_edit" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_image.xml
++++ b/app/src/main/res/drawable/ic_image.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M19,5v14L5,19L5,5h14m0,-2L5,3c-1.1,0 -2,0.9 -2,2v14c0,1.1 0.9,2 2,2h14c1.1,0 2,-0.9 2,-2L21,5c0,-1.1 -0.9,-2 -2,-2zM14.14,11.86l-3,3.87L9,13.14 6,17h12l-3.86,-5.14z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_image" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_info.xml
++++ b/app/src/main/res/drawable/ic_info.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="?attr/colorControlNormal"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M11,7h2v2h-2zM11,11h2v6h-2zM12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM12,20c-4.41,0 -8,-3.59 -8,-8s3.59,-8 8,-8 8,3.59 8,8 -3.59,8 -8,8z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_info" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_launcher_background.xml
++++ b/app/src/main/res/drawable/ic_launcher_background.xml
+@@ -1,26 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <group>
+-        <clip-path android:pathData="M0,0h108v108h-108z" />
+-        <path
+-            android:fillColor="#CBDEFB"
+-            android:pathData="M0,0h108v108h-108z" />
+-        <path
+-            android:fillColor="#00354A"
+-            android:pathData="M15,108L78,45L141,108H15Z" />
+-        <path
+-            android:fillColor="#0092E4"
+-            android:pathData="M-18,108L45,45L108,108H-18Z" />
+-        <path
+-            android:fillColor="#F09F38"
+-            android:pathData="M61,13L45,29L61,45L77,29L61,13Z" />
+-    </group>
++<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
++ <path android:pathData="M0,0h108v108h-108z" android:fillColor="@color/cg_gl_icon_background"/>
+ </vector>
+--- a/app/src/main/res/drawable/ic_launcher_foreground.xml
++++ b/app/src/main/res/drawable/ic_launcher_foreground.xml
+@@ -1,37 +1,5 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:aapt="http://schemas.android.com/aapt"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <group>
+-        <clip-path android:pathData="M0,0h108v108h-108z" />
+-        <path
+-            android:fillColor="#ffffff"
+-            android:fillType="evenOdd"
+-            android:pathData="M108,0H0V108H108V0ZM34,38C31.791,38 30,39.791 30,42V66C30,68.209 31.791,70 34,70H74C76.209,70 78,68.209 78,66V42C78,39.791 76.209,38 74,38H34Z" />
+-        <path
+-            android:fillAlpha="0.6"
+-            android:pathData="M28.54,28.54m-72,0a72,72 0,1 1,144 0a72,72 0,1 1,-144 0">
+-            <aapt:attr name="android:fillColor">
+-                <gradient
+-                    android:centerX="28.54"
+-                    android:centerY="28.54"
+-                    android:gradientRadius="72"
+-                    android:type="radial">
+-                    <item
+-                        android:color="#19FFFFFF"
+-                        android:offset="0" />
+-                    <item
+-                        android:color="#00FFFFFF"
+-                        android:offset="1" />
+-                </gradient>
+-            </aapt:attr>
+-        </path>
+-    </group>
+-</vector>
++<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
++ <item android:width="108dp" android:height="108dp" android:gravity="center">
++  <inset android:inset="20%"><bitmap android:src="@drawable/cg_gl_app_gallery_cold" android:gravity="fill" android:filter="true"/></inset>
++ </item>
++</layer-list>
+--- a/app/src/main/res/drawable/ic_launcher_monochrome.xml
++++ b/app/src/main/res/drawable/ic_launcher_monochrome.xml
+@@ -1,28 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M34,39.5L74,39.5A2.5,2.5 0,0 1,76.5 42L76.5,66A2.5,2.5 0,0 1,74 68.5L34,68.5A2.5,2.5 0,0 1,31.5 66L31.5,42A2.5,2.5 0,0 1,34 39.5z"
+-        android:strokeWidth="3"
+-        android:strokeColor="#ffffffff" />
+-    <path
+-        android:fillColor="#ffffffff"
+-        android:fillType="evenOdd"
+-        android:pathData="M72.243,38L63.121,47.121L61,49.243L58.879,47.121L49.757,38H54L58.879,42.879L61,45L63.121,42.879L68,38H72.243Z" />
+-    <path
+-        android:fillColor="#ffffffff"
+-        android:fillType="evenOdd"
+-        android:pathData="M78,45V66C78,68.13 76.335,69.871 74.236,69.993L63.621,59.379L78,45Z" />
+-    <path
+-        android:fillColor="#ffffffff"
+-        android:fillType="evenOdd"
+-        android:pathData="M70,70H34C31.791,70 30,68.209 30,66V60L45,45L70,70Z" />
+-</vector>
++<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108"><path android:pathData="M24 54 A30 30 0 1 0 84 54 A30 30 0 1 0 24 54" android:strokeColor="#ffffffff" android:strokeWidth="1.4" android:fillColor="#00000000" /><group android:translateX="40" android:translateY="40" android:scaleX="1.1666667" android:scaleY="1.1666667"><path android:fillColor="#ffffffff" android:pathData="M19,5v14L5,19L5,5h14m0,-2L5,3c-1.1,0 -2,0.9 -2,2v14c0,1.1 0.9,2 2,2h14c1.1,0 2,-0.9 2,-2L21,5c0,-1.1 -0.9,-2 -2,-2zM14.14,11.86l-3,3.87L9,13.14 6,17h12l-3.86,-5.14z" /></group></vector>
+--- a/app/src/main/res/drawable/ic_library.xml
++++ b/app/src/main/res/drawable/ic_library.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="?attr/colorControlNormal"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M320,640L800,640Q800,640 800,640Q800,640 800,640L800,160Q800,160 800,160Q800,160 800,160L720,160L720,440L620,380L520,440L520,160L320,160Q320,160 320,160Q320,160 320,160L320,640Q320,640 320,640Q320,640 320,640ZM320,720Q287,720 263.5,696.5Q240,673 240,640L240,160Q240,127 263.5,103.5Q287,80 320,80L800,80Q833,80 856.5,103.5Q880,127 880,160L880,640Q880,673 856.5,696.5Q833,720 800,720L320,720ZM160,880Q127,880 103.5,856.5Q80,833 80,800L80,240L160,240L160,800Q160,800 160,800Q160,800 160,800L720,800L720,880L160,880ZM520,160L520,160L620,160L720,160L720,160L520,160ZM320,160Q320,160 320,160Q320,160 320,160L320,160Q320,160 320,160Q320,160 320,160L520,160L520,160L620,160L720,160L720,160L800,160Q800,160 800,160Q800,160 800,160L800,160Q800,160 800,160Q800,160 800,160L320,160Z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_library" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_location_on.xml
++++ b/app/src/main/res/drawable/ic_location_on.xml
+@@ -1,18 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M12,2C8.13,2 5,5.13 5,9c0,5.25 7,13 7,13s7,-7.75 7,-13c0,-3.87 -3.13,-7 -7,-7zM7,9c0,-2.76 2.24,-5 5,-5s5,2.24 5,5c0,2.88 -2.88,7.19 -5,9.88C9.92,16.21 7,11.85 7,9z" />
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M12,9m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_location_on" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_motion_play.xml
++++ b/app/src/main/res/drawable/ic_motion_play.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="?attr/colorControlNormal"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M400,640L640,480L400,320L400,640ZM480,880Q397,880 324,848.5Q251,817 197,763Q143,709 111.5,636Q80,563 80,480Q80,437 89,395.5Q98,354 115,315L177,377Q169,403 164.5,428.5Q160,454 160,480Q160,614 253,707Q346,800 480,800Q614,800 707,707Q800,614 800,480Q800,346 707,253Q614,160 480,160Q453,160 427.5,164.5Q402,169 377,177L316,116Q356,98 396,89Q436,80 480,80Q563,80 636,111.5Q709,143 763,197Q817,251 848.5,324Q880,397 880,480Q880,563 848.5,636Q817,709 763,763Q709,817 636,848.5Q563,880 480,880ZM220,280Q195,280 177.5,262.5Q160,245 160,220Q160,195 177.5,177.5Q195,160 220,160Q245,160 262.5,177.5Q280,195 280,220Q280,245 262.5,262.5Q245,280 220,280ZM480,480Q480,480 480,480Q480,480 480,480Q480,480 480,480Q480,480 480,480Q480,480 480,480Q480,480 480,480Q480,480 480,480Q480,480 480,480Z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_motion_play" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_no_photography.xml
++++ b/app/src/main/res/drawable/ic_no_photography.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M880,765L800,685L800,280Q800,280 800,280Q800,280 800,280L638,280L565,200L395,200L357,242L300,185L360,120L600,120L674,200L800,200Q833,200 856.5,223.5Q880,247 880,280L880,765ZM160,840Q127,840 103.5,816.5Q80,793 80,760L80,280Q80,247 103.5,223.5Q127,200 160,200L201,200L281,280L160,280Q160,280 160,280Q160,280 160,280L160,760Q160,760 160,760Q160,760 160,760L761,760L841,840L160,840ZM626,625Q601,659 563.5,679.5Q526,700 480,700Q405,700 352.5,647.5Q300,595 300,520Q300,474 320.5,436.5Q341,399 375,374L433,432Q409,445 394.5,468Q380,491 380,520Q380,562 409,591Q438,620 480,620Q509,620 532,605.5Q555,591 568,567L626,625ZM608,392Q633,416 646.5,449Q660,482 660,520Q660,526 660,532Q660,538 659,544L456,341Q462,340 468,340Q474,340 480,340Q518,340 551,353.5Q584,367 608,392ZM819,932L27,140L84,83L876,875L819,932ZM407,520L407,520L407,520Q407,520 407,520Q407,520 407,520L407,520Q407,520 407,520Q407,520 407,520L407,520ZM578,463L578,463L578,463Q578,463 578,463Q578,463 578,463L578,463L578,463L578,463L578,463Z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_no_photography" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_person.xml
++++ b/app/src/main/res/drawable/ic_person.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M12,6c1.1,0 2,0.9 2,2s-0.9,2 -2,2 -2,-0.9 -2,-2 0.9,-2 2,-2m0,10c2.7,0 5.8,1.29 6,2L6,18c0.23,-0.72 3.31,-2 6,-2m0,-12C9.79,4 8,5.79 8,8s1.79,4 4,4 4,-1.79 4,-4 -1.79,-4 -4,-4zM12,14c-2.67,0 -8,1.34 -8,4v2h16v-2c0,-2.66 -5.33,-4 -8,-4z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_person" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_photo_size_select_actual.xml
++++ b/app/src/main/res/drawable/ic_photo_size_select_actual.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M21,3H3C2,3 1,4 1,5v14c0,1.1 0.9,2 2,2h18c1,0 2,-1 2,-2V5c0,-1 -1,-2 -2,-2zM5,17l3.5,-4.5 2.5,3.01L14.5,11l4.5,6H5z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_photo_size_select_actual" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_play_circle_outline.xml
++++ b/app/src/main/res/drawable/ic_play_circle_outline.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M10,16.5l6,-4.5 -6,-4.5v9zM12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM12,20c-4.41,0 -8,-3.59 -8,-8s3.59,-8 8,-8 8,3.59 8,8 -3.59,8 -8,8z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_play_circle_outline" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_restore_from_trash.xml
++++ b/app/src/main/res/drawable/ic_restore_from_trash.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M15.5,4l-1,-1h-5l-1,1L5,4v2h14L19,4zM6,19c0,1.1 0.9,2 2,2h8c1.1,0 2,-0.9 2,-2L18,7L6,7v12zM8,14L8,9h8v10L8,19v-5zM10,18h4v-4h2l-4,-4 -4,4h2z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_restore_from_trash" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_settings.xml
++++ b/app/src/main/res/drawable/ic_settings.xml
+@@ -1,17 +1,3 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M370,880L354,752Q341,747 329.5,740Q318,733 307,725L188,775L78,585L181,507Q180,500 180,493.5Q180,487 180,480Q180,473 180,466.5Q180,460 181,453L78,375L188,185L307,235Q318,227 330,220Q342,213 354,208L370,80L590,80L606,208Q619,213 630.5,220Q642,227 653,235L772,185L882,375L779,453Q780,460 780,466.5Q780,473 780,480Q780,487 780,493.5Q780,500 778,507L881,585L771,775L653,725Q642,733 630,740Q618,747 606,752L590,880L370,880ZM440,800L519,800L533,694Q564,686 590.5,670.5Q617,655 639,633L738,674L777,606L691,541Q696,527 698,511.5Q700,496 700,480Q700,464 698,448.5Q696,433 691,419L777,354L738,286L639,328Q617,305 590.5,289.5Q564,274 533,266L520,160L441,160L427,266Q396,274 369.5,289.5Q343,305 321,327L222,286L183,354L269,418Q264,433 262,448Q260,463 260,480Q260,496 262,511Q264,526 269,541L183,606L222,674L321,632Q343,655 369.5,670.5Q396,686 427,694L440,800ZM482,620Q540,620 581,579Q622,538 622,480Q622,422 581,381Q540,340 482,340Q423,340 382.5,381Q342,422 342,480Q342,538 382.5,579Q423,620 482,620ZM480,480L480,480Q480,480 480,480Q480,480 480,480L480,480L480,480L480,480Q480,480 480,480Q480,480 480,480Q480,480 480,480Q480,480 480,480L480,480L480,480L480,480Q480,480 480,480Q480,480 480,480L480,480L480,480L480,480Q480,480 480,480Q480,480 480,480L480,480L480,480L480,480Q480,480 480,480Q480,480 480,480Q480,480 480,480Q480,480 480,480L480,480L480,480L480,480Q480,480 480,480Q480,480 480,480L480,480L480,480Z" />
+-
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_settings" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_share.xml
++++ b/app/src/main/res/drawable/ic_share.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M18,16.08c-0.76,0 -1.44,0.3 -1.96,0.77L8.91,12.7c0.05,-0.23 0.09,-0.46 0.09,-0.7s-0.04,-0.47 -0.09,-0.7l7.05,-4.11c0.54,0.5 1.25,0.81 2.04,0.81 1.66,0 3,-1.34 3,-3s-1.34,-3 -3,-3 -3,1.34 -3,3c0,0.24 0.04,0.47 0.09,0.7L8.04,9.81C7.5,9.31 6.79,9 6,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3c0.79,0 1.5,-0.31 2.04,-0.81l7.12,4.16c-0.05,0.21 -0.08,0.43 -0.08,0.65 0,1.61 1.31,2.92 2.92,2.92s2.92,-1.31 2.92,-2.92c0,-1.61 -1.31,-2.92 -2.92,-2.92zM18,4c0.55,0 1,0.45 1,1s-0.45,1 -1,1 -1,-0.45 -1,-1 0.45,-1 1,-1zM6,13c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1 1,0.45 1,1 -0.45,1 -1,1zM18,20.02c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1 1,0.45 1,1 -0.45,1 -1,1z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_share" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_star.xml
++++ b/app/src/main/res/drawable/ic_star.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M12,17.27L18.18,21l-1.64,-7.03L22,9.24l-7.19,-0.61L12,2 9.19,8.63 2,9.24l5.46,4.73L5.82,21z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_star" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_star_border.xml
++++ b/app/src/main/res/drawable/ic_star_border.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M22,9.24l-7.19,-0.62L12,2 9.19,8.63 2,9.24l5.46,4.73L5.82,21 12,17.27 18.18,21l-1.63,-7.03L22,9.24zM12,15.4l-3.76,2.27 1,-4.28 -3.32,-2.88 4.38,-0.38L12,6.1l1.71,4.04 4.38,0.38 -3.32,2.88 1,4.28L12,15.4z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_star_border" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_video_camera_back.xml
++++ b/app/src/main/res/drawable/ic_video_camera_back.xml
+@@ -1,15 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:tint="#000000"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M18,10.48V6c0,-1.1 -0.9,-2 -2,-2H4C2.9,4 2,4.9 2,6v12c0,1.1 0.9,2 2,2h12c1.1,0 2,-0.9 2,-2v-4.48l4,3.98v-11L18,10.48zM16,18H4V6h12V18zM11.62,11.5L9,15l-1.62,-2.17L5,16h10L11.62,11.5z" />
+-</vector>
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_video_camera_back" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/layout-sw600dp/fragment_main.xml
++++ b/app/src/main/res/layout-sw600dp/fragment_main.xml
+@@ -15,6 +15,7 @@
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:fitsSystemWindows="true"
++        android:background="@drawable/cg_gl_panel"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+@@ -57,6 +58,7 @@
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+         app:menu="@menu/fragment_main_bottom_app_bar"
++        android:background="@drawable/cg_gl_panel"
+         app:menuGravity="center" />
+ 
+ </androidx.constraintlayout.widget.ConstraintLayout>
+--- a/app/src/main/res/layout/activity_picker.xml
++++ b/app/src/main/res/layout/activity_picker.xml
+@@ -15,6 +15,7 @@
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:fitsSystemWindows="true"
++        android:background="@drawable/cg_gl_panel"
+         app:liftOnScrollTargetViewId="@+id/navHostFragment">
+ 
+         <com.google.android.material.appbar.MaterialToolbar
+--- a/app/src/main/res/layout/activity_set_wallpaper.xml
++++ b/app/src/main/res/layout/activity_set_wallpaper.xml
+@@ -16,6 +16,7 @@
+ 
+     <Button
+         android:id="@+id/setWallpaperButton"
++        android:background="@drawable/cg_gl_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom|center_horizontal"
+--- a/app/src/main/res/layout/activity_settings.xml
++++ b/app/src/main/res/layout/activity_settings.xml
+@@ -16,6 +16,7 @@
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:fitsSystemWindows="true"
++        android:background="@drawable/cg_gl_panel"
+         app:liftOnScrollTargetViewId="@+id/settings">
+ 
+         <com.google.android.material.appbar.CollapsingToolbarLayout
+--- a/app/src/main/res/layout/activity_view.xml
++++ b/app/src/main/res/layout/activity_view.xml
+@@ -37,7 +37,7 @@
+ 
+     </com.google.android.material.appbar.AppBarLayout>
+ 
+-    <LinearLayout
++    <org.lineageos.glimpse.forge.ForgeActionLayout
+         android:id="@+id/bottomSheetLinearLayout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+@@ -92,6 +92,6 @@
+             android:layout_width="16dp"
+             android:layout_height="match_parent" />
+ 
+-    </LinearLayout>
++    </org.lineageos.glimpse.forge.ForgeActionLayout>
+ 
+ </FrameLayout>
+--- a/app/src/main/res/layout/album_thumbnail_view.xml
++++ b/app/src/main/res/layout/album_thumbnail_view.xml
+@@ -7,7 +7,8 @@
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+-    android:padding="12dp">
++    android:padding="12dp"
++    android:foreground="@drawable/cg_gl_media_frame">
+ 
+     <ImageView
+         android:id="@+id/thumbnailImageView"
+--- /dev/null
++++ b/app/src/main/res/layout/cg_gl_player_controls.xml
+@@ -0,0 +1,167 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright 2020 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
++
++  <!-- 0dp dimensions are used to prevent this view from influencing the size of
++       the parent view if it uses "wrap_content". It is expanded to occupy the
++       entirety of the parent in code, after the parent's size has been
++       determined. See: https://github.com/google/ExoPlayer/issues/8726.
++  -->
++  <View android:id="@id/exo_controls_background"
++      android:layout_width="0dp"
++      android:layout_height="0dp"
++      android:background="@color/exo_black_opacity_60"/>
++
++  <FrameLayout android:id="@id/exo_bottom_bar"
++      android:layout_width="match_parent"
++      android:layout_height="@dimen/exo_styled_bottom_bar_height"
++      android:layout_marginTop="@dimen/exo_styled_bottom_bar_margin_top"
++      android:layout_gravity="bottom"
++      android:background="@color/exo_bottom_bar_background"
++      android:layoutDirection="ltr">
++
++    <LinearLayout android:id="@id/exo_time"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:paddingStart="@dimen/exo_styled_bottom_bar_time_padding"
++        android:paddingEnd="@dimen/exo_styled_bottom_bar_time_padding"
++        android:paddingLeft="@dimen/exo_styled_bottom_bar_time_padding"
++        android:paddingRight="@dimen/exo_styled_bottom_bar_time_padding"
++        android:layout_gravity="center_vertical|start"
++        android:layoutDirection="ltr"
++        android:importantForAccessibility="noHideDescendants">
++
++      <TextView android:id="@id/exo_position"
++          style="@style/ExoStyledControls.TimeText.Position"/>
++
++      <TextView
++          style="@style/ExoStyledControls.TimeText.Separator"/>
++
++      <TextView android:id="@id/exo_duration"
++          style="@style/ExoStyledControls.TimeText.Duration"/>
++
++    </LinearLayout>
++
++    <LinearLayout android:id="@id/exo_basic_controls"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="center_vertical|end"
++        android:layoutDirection="ltr">
++
++      <ImageButton android:id="@id/exo_vr"
++          style="@style/ExoStyledControls.Button.Bottom.VR"/>
++
++      <ImageButton android:id="@id/exo_shuffle"
++          style="@style/ExoStyledControls.Button.Bottom.Shuffle"/>
++
++      <ImageButton android:id="@id/exo_repeat_toggle"
++          style="@style/ExoStyledControls.Button.Bottom.RepeatToggle"/>
++
++      <ImageButton android:id="@id/exo_subtitle"
++          style="@style/ExoStyledControls.Button.Bottom.CC"/>
++
++      <ImageButton android:id="@id/exo_settings"
++          style="@style/ExoStyledControls.Button.Bottom.Settings"/>
++
++      <ImageButton android:id="@id/exo_fullscreen"
++          style="@style/ExoStyledControls.Button.Bottom.FullScreen"/>
++
++      <ImageButton android:id="@id/exo_overflow_show"
++          style="@style/ExoStyledControls.Button.Bottom.OverflowShow"/>
++
++    </LinearLayout>
++
++    <HorizontalScrollView android:id="@id/exo_extra_controls_scroll_view"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="center_vertical|end"
++        android:visibility="invisible">
++
++      <LinearLayout android:id="@id/exo_extra_controls"
++          android:layout_width="wrap_content"
++          android:layout_height="wrap_content"
++          android:layoutDirection="ltr">
++
++        <ImageButton android:id="@id/exo_overflow_hide"
++            style="@style/ExoStyledControls.Button.Bottom.OverflowHide"/>
++
++      </LinearLayout>
++
++    </HorizontalScrollView>
++
++  </FrameLayout>
++
++  <androidx.media3.ui.DefaultTimeBar android:id="@id/exo_progress"
++      android:layout_width="match_parent"
++      android:layout_height="48dp"
++      app:scrubber_drawable="@drawable/cg_gl_seek_thumb"
++      android:layout_gravity="bottom"
++      android:layout_marginBottom="@dimen/exo_styled_progress_margin_bottom"/>
++
++  <LinearLayout android:id="@id/exo_minimal_controls"
++      android:layout_width="wrap_content"
++      android:layout_height="wrap_content"
++      android:layout_gravity="bottom|end"
++      android:layout_marginBottom="@dimen/exo_styled_minimal_controls_margin_bottom"
++      android:orientation="horizontal"
++      android:gravity="center_vertical"
++      android:layoutDirection="ltr">
++
++    <ImageButton android:id="@id/exo_minimal_fullscreen"
++        style="@style/ExoStyledControls.Button.Bottom.FullScreen"/>
++
++  </LinearLayout>
++
++  <LinearLayout
++      android:id="@id/exo_center_controls"
++      android:layout_width="wrap_content"
++      android:layout_height="wrap_content"
++      android:layout_gravity="center"
++      android:background="@android:color/transparent"
++      android:gravity="center"
++      android:padding="@dimen/exo_styled_controls_padding"
++      android:clipToPadding="false"
++      android:layoutDirection="ltr">
++
++    <ImageButton android:id="@id/exo_prev"
++        style="@style/ExoStyledControls.Button.Center.Previous"/>
++
++    <include layout="@layout/exo_player_control_rewind_button" />
++
++    <ImageButton android:id="@id/exo_play_pause"
++        style="@style/ExoStyledControls.Button.Center.PlayPause"/>
++
++    <include layout="@layout/exo_player_control_ffwd_button" />
++
++    <ImageButton android:id="@id/exo_next"
++        style="@style/ExoStyledControls.Button.Center.Next"/>
++
++  </LinearLayout>
++
++  <LinearLayout
++      android:id="@+id/exo_top_controls"
++      android:layout_width="wrap_content"
++      android:layout_height="wrap_content"
++      android:layout_gravity="top|end"
++      android:background="@android:color/transparent">
++    <View
++        android:id="@+id/exo_media_route_button_placeholder"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:visibility="gone"/>
++  </LinearLayout>
++
++</merge>
+--- /dev/null
++++ b/app/src/main/res/layout/cg_gl_player_view.xml
+@@ -0,0 +1,81 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2020 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<merge xmlns:android="http://schemas.android.com/apk/res/android">
++
++  <androidx.media3.ui.AspectRatioFrameLayout android:id="@id/exo_content_frame"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:layout_gravity="center">
++
++    <!-- Video surface will be inserted as the first child of the content frame. -->
++
++    <View android:id="@id/exo_shutter"
++      android:layout_width="match_parent"
++      android:layout_height="match_parent"
++      android:background="@android:color/black"/>
++
++    <ImageView android:id="@id/exo_image"
++      android:layout_width="match_parent"
++      android:layout_height="match_parent"
++      android:scaleType="fitXY"
++      android:contentDescription="@null"/>
++
++    <ImageView android:id="@id/exo_artwork"
++      android:layout_width="match_parent"
++      android:layout_height="match_parent"
++      android:scaleType="fitXY"
++      android:contentDescription="@null"/>
++
++    <androidx.media3.ui.SubtitleView android:id="@id/exo_subtitles"
++      android:layout_width="match_parent"
++      android:layout_height="match_parent"/>
++
++    <ProgressBar android:id="@id/exo_buffering"
++      android:layout_width="wrap_content"
++      android:layout_height="wrap_content"
++      android:indeterminate="true"
++      android:layout_gravity="center"/>
++
++    <TextView android:id="@id/exo_error_message"
++      android:layout_width="wrap_content"
++      android:layout_height="@dimen/exo_error_message_height"
++      android:layout_gravity="center"
++      android:layout_marginBottom="@dimen/exo_error_message_margin_bottom"
++      android:gravity="center"
++      android:textColor="@color/exo_white"
++      android:textSize="@dimen/exo_error_message_text_size"
++      android:background="@drawable/cg_gl_player_error_panel"
++      android:paddingLeft="@dimen/exo_error_message_text_padding_horizontal"
++      android:paddingRight="@dimen/exo_error_message_text_padding_horizontal"
++      android:paddingTop="@dimen/exo_error_message_text_padding_vertical"
++      android:paddingBottom="@dimen/exo_error_message_text_padding_vertical"/>
++
++  </androidx.media3.ui.AspectRatioFrameLayout>
++
++  <FrameLayout android:id="@id/exo_ad_overlay"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"/>
++
++  <FrameLayout android:id="@id/exo_overlay"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"/>
++
++  <View android:id="@id/exo_controller_placeholder"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"/>
++
++</merge>
++
+--- /dev/null
++++ b/app/src/main/res/layout/exo_styled_settings_list.xml
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright 2020 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<androidx.recyclerview.widget.RecyclerView
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    android:id="@+id/exo_settings_listview"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:background="@drawable/cg_gl_panel"
++    android:scrollbars="vertical"/>
+--- /dev/null
++++ b/app/src/main/res/layout/exo_styled_settings_list_item.xml
+@@ -0,0 +1,63 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright 2020 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="wrap_content"
++    android:minWidth="@dimen/exo_setting_width"
++    android:minHeight="@dimen/exo_settings_height"
++    android:background="@drawable/cg_gl_panel"
++    android:layoutDirection="locale"
++    android:orientation="horizontal">
++
++    <ImageView
++        android:id="@+id/exo_icon"
++        android:layout_width="@dimen/exo_settings_icon_size"
++        android:layout_height="@dimen/exo_settings_icon_size"
++        android:layout_marginLeft="8dp"
++        android:layout_marginRight="8dp"
++        android:layout_marginTop="12dp"/>
++
++    <LinearLayout
++        android:layout_width="0dp"
++        android:layout_weight="1"
++        android:layout_height="wrap_content"
++        android:minHeight="@dimen/exo_settings_height"
++        android:layout_marginLeft="2dp"
++        android:layout_marginRight="2dp"
++        android:paddingEnd="4dp"
++        android:paddingRight="4dp"
++        android:gravity="center|start"
++        android:layoutDirection="locale"
++        android:orientation="vertical">
++
++        <TextView
++            android:id="@+id/exo_main_text"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:textColor="@color/exo_white"
++            android:textDirection="locale"
++            android:textSize="@dimen/exo_settings_main_text_size"/>
++
++        <TextView
++            android:id="@+id/exo_sub_text"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:textColor="@color/exo_white_opacity_70"
++            android:textDirection="locale"
++            android:textSize="@dimen/exo_settings_sub_text_size"/>
++    </LinearLayout>
++
++</LinearLayout>
+--- /dev/null
++++ b/app/src/main/res/layout/exo_styled_sub_settings_list_item.xml
+@@ -0,0 +1,48 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright 2020 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="wrap_content"
++    android:minWidth="@dimen/exo_setting_width"
++    android:minHeight="@dimen/exo_settings_height"
++    android:background="@drawable/cg_gl_panel"
++    android:layoutDirection="locale"
++    android:orientation="horizontal">
++
++    <ImageView
++        android:id="@+id/exo_check"
++        android:layout_width="@dimen/exo_settings_icon_size"
++        android:layout_height="@dimen/exo_settings_icon_size"
++        android:layout_marginLeft="8dp"
++        android:layout_marginRight="8dp"
++        android:layout_marginTop="12dp"
++        android:visibility="invisible"
++        android:src="@drawable/exo_styled_controls_check"/>
++
++    <TextView
++        android:id="@+id/exo_text"
++        android:layout_width="0dp"
++        android:layout_weight="1"
++        android:layout_height="wrap_content"
++        android:minHeight="@dimen/exo_settings_height"
++        android:layout_marginEnd="4dp"
++        android:layout_marginRight="4dp"
++        android:gravity="center|start"
++        android:textColor="@color/exo_white"
++        android:textDirection="locale"
++        android:textSize="@dimen/exo_settings_main_text_size"/>
++
++</LinearLayout>
+--- a/app/src/main/res/layout/fragment_album.xml
++++ b/app/src/main/res/layout/fragment_album.xml
+@@ -15,6 +15,7 @@
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:fitsSystemWindows="true"
++        android:background="@drawable/cg_gl_panel"
+         app:liftOnScrollTargetViewId="@+id/recyclerView">
+ 
+         <com.google.android.material.appbar.MaterialToolbar
+--- a/app/src/main/res/layout/fragment_main.xml
++++ b/app/src/main/res/layout/fragment_main.xml
+@@ -15,6 +15,7 @@
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:fitsSystemWindows="true"
++        android:background="@drawable/cg_gl_panel"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+@@ -56,6 +57,8 @@
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
++        android:background="@drawable/cg_gl_panel"
++        app:itemIconTint="@null"
+         app:menu="@menu/fragment_main_bottom_app_bar" />
+ 
+ </androidx.constraintlayout.widget.ConstraintLayout>
+--- a/app/src/main/res/layout/list_item.xml
++++ b/app/src/main/res/layout/list_item.xml
+@@ -11,7 +11,9 @@
+     android:gravity="center_vertical"
+     android:orientation="horizontal"
+     android:paddingHorizontal="16dp"
+-    android:paddingVertical="12dp">
++    android:paddingVertical="12dp"
++    android:background="@drawable/cg_gl_panel"
++    android:duplicateParentState="true">
+ 
+     <FrameLayout
+         android:id="@+id/leadingViewContainerFrameLayout"
+--- a/app/src/main/res/layout/media_info_bottom_sheet_dialog.xml
++++ b/app/src/main/res/layout/media_info_bottom_sheet_dialog.xml
+@@ -10,22 +10,26 @@
+     android:layout_height="wrap_content"
+     android:layout_margin="16dp"
+     app:cardBackgroundColor="@android:color/transparent"
+-    app:cardCornerRadius="16dp"
++    app:cardCornerRadius="0dp"
+     app:cardElevation="0dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent">
+ 
++    <androidx.core.widget.NestedScrollView
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:fillViewport="false">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+-        android:orientation="vertical">
++        android:orientation="vertical"
++        android:background="@drawable/cg_gl_panel">
+ 
+         <androidx.constraintlayout.widget.ConstraintLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+-            android:background="?attr/colorSurfaceContainer"
+-            android:backgroundTint="?attr/colorSurfaceContainerHighest"
++            android:background="@android:color/transparent"
+             android:padding="16dp">
+ 
+             <TextView
+@@ -48,7 +52,8 @@
+                 android:id="@+id/descriptionEditText"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+-                android:background="@android:color/transparent"
++                android:background="@drawable/cg_gl_field"
++                android:minHeight="56dp"
+                 android:hint="@string/media_info_add_description_hint"
+                 android:importantForAutofill="no"
+                 android:inputType="text"
+@@ -65,31 +70,32 @@
+         <org.lineageos.glimpse.ui.views.ListItem
+             android:id="@+id/artistInfoListItem"
+             style="@style/Theme.Glimpse.MediaInfoBottomSheetDialog.ListItem"
+-            app:headlineText="John Doe"
++            tools:headlineText="John Doe"
+             app:leadingIconImage="@drawable/ic_person"
+-            app:supportingText="MS Paint • Copyright, The LineageOS Project, 2023" />
++            tools:supportingText="MS Paint • Copyright, The LineageOS Project, 2023" />
+ 
+         <org.lineageos.glimpse.ui.views.ListItem
+             android:id="@+id/cameraInfoListItem"
+             style="@style/Theme.Glimpse.MediaInfoBottomSheetDialog.ListItem"
+-            app:headlineText="Galaxy XX"
++            tools:headlineText="Galaxy XX"
+             app:leadingIconImage="@drawable/ic_camera"
+-            app:supportingText="1/3616s • ƒ/2.4 • 28mm" />
++            tools:supportingText="1/3616s • ƒ/2.4 • 28mm" />
+ 
+         <org.lineageos.glimpse.ui.views.ListItem
+             android:id="@+id/mediaInfoListItem"
+             style="@style/Theme.Glimpse.MediaInfoBottomSheetDialog.ListItem"
+-            app:headlineText="Image.jpg"
++            tools:headlineText="Image.jpg"
+             app:leadingIconImage="@drawable/ic_image"
+-            app:supportingText="image/jpg • 12.0MP • 3000 x 4000" />
++            tools:supportingText="image/jpg • 12.0MP • 3000 x 4000" />
+ 
+         <org.lineageos.glimpse.ui.views.ListItem
+             android:id="@+id/locationInfoListItem"
+             style="@style/Theme.Glimpse.MediaInfoBottomSheetDialog.ListItem"
+             android:visibility="gone"
+-            app:headlineText="Ohio, US"
++            tools:headlineText="Ohio, US"
+             app:leadingIconImage="@drawable/ic_location_on"
+-            app:supportingText="39.961152990628904 • -82.9963749073814" />
++            tools:supportingText="39.961152990628904 • -82.9963749073814" />
+     </LinearLayout>
+ 
++    </androidx.core.widget.NestedScrollView>
+ </androidx.cardview.widget.CardView>
+--- a/app/src/main/res/layout/media_view.xml
++++ b/app/src/main/res/layout/media_view.xml
+@@ -22,6 +22,8 @@
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:visibility="gone"
++        app:player_layout_id="@layout/cg_gl_player_view"
++        app:controller_layout_id="@layout/cg_gl_player_controls"
+         app:show_next_button="false"
+         app:show_previous_button="false"
+         app:show_shuffle_button="false"
+--- a/app/src/main/res/layout/set_wallpaper_dialog_item.xml
++++ b/app/src/main/res/layout/set_wallpaper_dialog_item.xml
+@@ -14,8 +14,8 @@
+     style="?attr/materialAlertDialogBodyTextStyle"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+-    android:ellipsize="marquee"
++    android:background="@drawable/cg_gl_button"
+     android:gravity="center_vertical"
+-    android:minHeight="?attr/listPreferredItemHeightSmall"
++    android:minHeight="56dp"
+     android:paddingStart="?attr/listPreferredItemPaddingLeft"
+     android:paddingEnd="?attr/listPreferredItemPaddingRight" />
+--- a/app/src/main/res/layout/settingslib_switch.xml
++++ b/app/src/main/res/layout/settingslib_switch.xml
+@@ -3,7 +3,7 @@
+      SPDX-FileCopyrightText: The LineageOS Project
+      SPDX-License-Identifier: Apache-2.0
+ -->
+-<com.google.android.material.materialswitch.MaterialSwitch xmlns:android="http://schemas.android.com/apk/res/android"
++<org.lineageos.glimpse.forge.ForgeMaterialSwitch xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@android:id/switch_widget"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+--- a/app/src/main/res/layout/settingslib_switch_compat.xml
++++ b/app/src/main/res/layout/settingslib_switch_compat.xml
+@@ -3,7 +3,7 @@
+      SPDX-FileCopyrightText: The LineageOS Project
+      SPDX-License-Identifier: Apache-2.0
+ -->
+-<com.google.android.material.materialswitch.MaterialSwitch xmlns:android="http://schemas.android.com/apk/res/android"
++<org.lineageos.glimpse.forge.ForgeMaterialSwitch xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/switchWidget"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+--- a/app/src/main/res/layout/thumbnail_view.xml
++++ b/app/src/main/res/layout/thumbnail_view.xml
+@@ -7,7 +7,8 @@
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+-    android:padding="4dp">
++    android:padding="4dp"
++    android:foreground="@drawable/cg_gl_media_frame">
+ 
+     <ImageView
+         android:id="@+id/thumbnailImageView"
+--- /dev/null
++++ b/app/src/main/res/values/cg_gallery_attrs.xml
+@@ -0,0 +1,5 @@
++<resources><declare-styleable name="ForgeDrawable">
++ <attr name="cg_forge_family" format="string"/>
++ <attr name="cg_forge_source_value_mode"><enum name="dynamic" value="0"/><enum name="true_value" value="1"/><enum name="false_value" value="2"/></attr>
++ <attr name="cg_forge_momentary" format="boolean"/>
++</declare-styleable></resources>
+--- /dev/null
++++ b/app/src/main/res/values/cg_gallery_colors.xml
+@@ -0,0 +1,4 @@
++<resources>
++ <color name="cg_gl_ember">#e56620</color><color name="cg_gl_cold">#b5bdc6</color>
++ <color name="cg_gl_icon_background">#080c11</color>
++</resources>
+\ No newline at end of file
+--- /dev/null
++++ b/app/src/main/res/values/cg_gallery_media3_aliases.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<resources><drawable name="exo_styled_controls_audiotrack">@drawable/cg_gl_m3_exo_ic_audiotrack</drawable><drawable name="exo_styled_controls_check">@drawable/cg_gl_m3_exo_ic_check</drawable><drawable name="exo_styled_controls_overflow_hide">@drawable/cg_gl_m3_exo_ic_chevron_left</drawable><drawable name="exo_styled_controls_overflow_show">@drawable/cg_gl_m3_exo_ic_chevron_right</drawable><drawable name="exo_styled_controls_fastforward">@drawable/cg_gl_m3_exo_ic_forward</drawable><drawable name="exo_styled_controls_fullscreen_enter">@drawable/cg_gl_m3_exo_ic_fullscreen_enter</drawable><drawable name="exo_styled_controls_fullscreen_exit">@drawable/cg_gl_m3_exo_ic_fullscreen_exit</drawable><drawable name="exo_styled_controls_pause">@drawable/cg_gl_m3_exo_ic_pause_circle_filled</drawable><drawable name="exo_styled_controls_play">@drawable/cg_gl_m3_exo_ic_play_circle_filled</drawable><drawable name="exo_styled_controls_rewind">@drawable/cg_gl_m3_exo_ic_rewind</drawable><drawable name="exo_styled_controls_settings">@drawable/cg_gl_m3_exo_ic_settings</drawable><drawable name="exo_styled_controls_next">@drawable/cg_gl_m3_exo_ic_skip_next</drawable><drawable name="exo_styled_controls_previous">@drawable/cg_gl_m3_exo_ic_skip_previous</drawable><drawable name="exo_styled_controls_speed">@drawable/cg_gl_m3_exo_ic_speed</drawable><drawable name="exo_styled_controls_subtitle_off">@drawable/cg_gl_m3_exo_ic_subtitle_off</drawable><drawable name="exo_styled_controls_subtitle_on">@drawable/cg_gl_m3_exo_ic_subtitle_on</drawable><drawable name="exo_styled_controls_simple_fastforward">@drawable/cg_gl_m3_exo_icon_fastforward</drawable><drawable name="exo_styled_controls_repeat_all">@drawable/cg_gl_m3_exo_icon_repeat_all</drawable><drawable name="exo_styled_controls_repeat_off">@drawable/cg_gl_m3_exo_icon_repeat_off</drawable><drawable name="exo_styled_controls_repeat_one">@drawable/cg_gl_m3_exo_icon_repeat_one</drawable><drawable name="exo_styled_controls_simple_rewind">@drawable/cg_gl_m3_exo_icon_rewind</drawable><drawable name="exo_styled_controls_shuffle_off">@drawable/cg_gl_m3_exo_icon_shuffle_off</drawable><drawable name="exo_styled_controls_shuffle_on">@drawable/cg_gl_m3_exo_icon_shuffle_on</drawable></resources>
+--- a/app/src/main/res/values/themes.xml
++++ b/app/src/main/res/values/themes.xml
+@@ -5,7 +5,35 @@
+ -->
+ <resources>
+     <!-- Base application theme -->
+-    <style name="Theme.Glimpse" parent="Theme.Material3.DayNight.NoActionBar">
++    <style name="Theme.Glimpse" parent="Theme.Material3.Dark.NoActionBar">
++        <item name="android:colorBackground">#080c11</item>
++        <item name="colorPrimary">#e56620</item>
++        <item name="colorOnPrimary">#120d09</item>
++        <item name="colorPrimaryContainer">#322216</item>
++        <item name="colorOnPrimaryContainer">#eee7d9</item>
++        <item name="colorSecondary">#b5bdc6</item>
++        <item name="colorOnSecondary">#080c11</item>
++        <item name="colorSecondaryContainer">#202c37</item>
++        <item name="colorOnSecondaryContainer">#eee7d9</item>
++        <item name="colorSurface">#10151b</item>
++        <item name="colorOnSurface">#eee7d9</item>
++        <item name="colorOnSurfaceVariant">#b5bdc6</item>
++        <item name="colorSurfaceVariant">#1b2732</item>
++        <item name="colorSurfaceBright">#17212a</item>
++        <item name="colorSurfaceContainerLowest">#080c11</item>
++        <item name="colorSurfaceContainerLow">#10151b</item>
++        <item name="colorSurfaceContainer">#10151b</item>
++        <item name="colorSurfaceContainerHigh">#17212a</item>
++        <item name="colorSurfaceContainerHighest">#1b2732</item>
++        <item name="colorOutline">#596571</item>
++        <item name="colorError">#ff8585</item>
++        <item name="colorOnError">#240b0c</item>
++        <item name="colorControlActivated">#e56620</item>
++        <item name="android:textColorPrimary">#eee7d9</item>
++        <item name="android:textColorSecondary">#b5bdc6</item>
++        <item name="android:windowLightStatusBar">false</item>
++        <item name="android:windowLightNavigationBar">false</item>
++
+         <item name="android:windowLayoutInDisplayCutoutMode">always</item>
+         <item name="windowActionModeOverlay">true</item>
+     </style>
+@@ -24,6 +52,34 @@
+ 
+     <!-- Media viewer -->
+     <style name="Theme.Glimpse.MediaViewer" parent="Theme.Material3.Dark.NoActionBar">
++        <item name="android:colorBackground">#080c11</item>
++        <item name="colorPrimary">#e56620</item>
++        <item name="colorOnPrimary">#120d09</item>
++        <item name="colorPrimaryContainer">#322216</item>
++        <item name="colorOnPrimaryContainer">#eee7d9</item>
++        <item name="colorSecondary">#b5bdc6</item>
++        <item name="colorOnSecondary">#080c11</item>
++        <item name="colorSecondaryContainer">#202c37</item>
++        <item name="colorOnSecondaryContainer">#eee7d9</item>
++        <item name="colorSurface">#10151b</item>
++        <item name="colorOnSurface">#eee7d9</item>
++        <item name="colorOnSurfaceVariant">#b5bdc6</item>
++        <item name="colorSurfaceVariant">#1b2732</item>
++        <item name="colorSurfaceBright">#17212a</item>
++        <item name="colorSurfaceContainerLowest">#080c11</item>
++        <item name="colorSurfaceContainerLow">#10151b</item>
++        <item name="colorSurfaceContainer">#10151b</item>
++        <item name="colorSurfaceContainerHigh">#17212a</item>
++        <item name="colorSurfaceContainerHighest">#1b2732</item>
++        <item name="colorOutline">#596571</item>
++        <item name="colorError">#ff8585</item>
++        <item name="colorOnError">#240b0c</item>
++        <item name="colorControlActivated">#e56620</item>
++        <item name="android:textColorPrimary">#eee7d9</item>
++        <item name="android:textColorSecondary">#b5bdc6</item>
++        <item name="android:windowLightStatusBar">false</item>
++        <item name="android:windowLightNavigationBar">false</item>
++
+         <item name="android:windowLayoutInDisplayCutoutMode">always</item>
+     </style>
+ 
+@@ -42,7 +98,8 @@
+         <item name="android:padding">8dp</item>
+         <item name="android:textAppearance">?attr/textAppearanceCaption</item>
+         <item name="android:textColor">@android:color/white</item>
+-        <item name="backgroundTint">@android:color/transparent</item>
++        <item name="android:background">@drawable/cg_gl_button</item>
++        <item name="backgroundTint">@null</item>
+         <item name="rippleColor">?attr/colorControlHighlight</item>
+     </style>
+ 
+--- a/app/src/main/res/values/themes_settingslib.xml
++++ b/app/src/main/res/values/themes_settingslib.xml
+@@ -5,7 +5,35 @@
+ -->
+ <resources>
+     <!-- Settings activity theme. -->
+-    <style name="Theme.SettingsLib" parent="Theme.Material3Expressive.DayNight.NoActionBar">
++    <style name="Theme.SettingsLib" parent="Theme.Material3Expressive.Dark.NoActionBar">
++        <item name="android:colorBackground">#080c11</item>
++        <item name="colorPrimary">#e56620</item>
++        <item name="colorOnPrimary">#120d09</item>
++        <item name="colorPrimaryContainer">#322216</item>
++        <item name="colorOnPrimaryContainer">#eee7d9</item>
++        <item name="colorSecondary">#b5bdc6</item>
++        <item name="colorOnSecondary">#080c11</item>
++        <item name="colorSecondaryContainer">#202c37</item>
++        <item name="colorOnSecondaryContainer">#eee7d9</item>
++        <item name="colorSurface">#10151b</item>
++        <item name="colorOnSurface">#eee7d9</item>
++        <item name="colorOnSurfaceVariant">#b5bdc6</item>
++        <item name="colorSurfaceVariant">#1b2732</item>
++        <item name="colorSurfaceBright">#17212a</item>
++        <item name="colorSurfaceContainerLowest">#080c11</item>
++        <item name="colorSurfaceContainerLow">#10151b</item>
++        <item name="colorSurfaceContainer">#10151b</item>
++        <item name="colorSurfaceContainerHigh">#17212a</item>
++        <item name="colorSurfaceContainerHighest">#1b2732</item>
++        <item name="colorOutline">#596571</item>
++        <item name="colorError">#ff8585</item>
++        <item name="colorOnError">#240b0c</item>
++        <item name="colorControlActivated">#e56620</item>
++        <item name="android:textColorPrimary">#eee7d9</item>
++        <item name="android:textColorSecondary">#b5bdc6</item>
++        <item name="android:windowLightStatusBar">false</item>
++        <item name="android:windowLightNavigationBar">false</item>
++
+         <item name="android:listPreferredItemPaddingLeft">24dp</item>
+         <item name="android:listPreferredItemPaddingStart">24dp</item>
+         <item name="alertDialogTheme">@style/Theme.SettingsLib.AlertDialog</item>
+--- a/app/src/main/res/xml/root_preferences.xml
++++ b/app/src/main/res/xml/root_preferences.xml
+@@ -10,8 +10,9 @@
+         app:iconSpaceReserved="false"
+         app:title="@string/general_header">
+ 
+-        <SwitchPreferenceCompat
++        <org.lineageos.glimpse.forge.ForgeSwitchPreference
+             app:defaultValue="false"
++            app:singleLineTitle="false"
+             app:iconSpaceReserved="false"
+             app:key="edge_tap_navigation_enabled"
+             app:summary="@string/edge_tap_navigation_enabled_description"
+@@ -23,17 +24,19 @@
+         app:iconSpaceReserved="false"
+         app:title="@string/video_header">
+ 
+-        <SwitchPreferenceCompat
++        <org.lineageos.glimpse.forge.ForgeSwitchPreference
+             app:defaultValue="false"
++            app:singleLineTitle="false"
+             app:iconSpaceReserved="false"
+             app:key="double_tap_to_seek_enabled"
+             app:summary="@string/double_tap_to_seek_enabled_description"
+             app:title="@string/double_tap_to_seek_enabled_title" />
+ 
+-        <SeekBarPreference
++        <org.lineageos.glimpse.forge.ForgeSeekBarPreference
+             android:max="30"
+             app:defaultValue="10"
+             app:dependency="double_tap_to_seek_enabled"
++            app:singleLineTitle="false"
+             app:iconSpaceReserved="false"
+             app:key="double_tap_to_seek_seconds"
+             app:min="5"
+@@ -42,15 +45,17 @@
+             app:summary="@string/double_tap_to_seek_seconds_description"
+             app:title="@string/double_tap_to_seek_seconds_title" />
+ 
+-        <SwitchPreferenceCompat
++        <org.lineageos.glimpse.forge.ForgeSwitchPreference
+             app:defaultValue="false"
++            app:singleLineTitle="false"
+             app:iconSpaceReserved="false"
+             app:key="hide_native_seek_buttons"
+             app:summary="@string/hide_native_seek_buttons_description"
+             app:title="@string/hide_native_seek_buttons_title" />
+ 
+-        <SwitchPreferenceCompat
++        <org.lineageos.glimpse.forge.ForgeSwitchPreference
+             app:defaultValue="false"
++            app:singleLineTitle="false"
+             app:iconSpaceReserved="false"
+             app:key="remember_video_playback_position_enabled"
+             app:summary="@string/remember_video_playback_position_enabled_description"

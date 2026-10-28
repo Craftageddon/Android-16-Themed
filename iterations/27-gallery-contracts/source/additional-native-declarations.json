@@ -1,0 +1,143 @@
+[
+  {
+    "path": "Android.bp",
+    "url": "https://android.googlesource.com/platform/external/jsr305/+/2b168afb93e04776c7e185c7fcb8b00137121725/Android.bp?format=TEXT",
+    "gitBlobSha1": "3766d81458af7e6ec9fb4efc1078e4e5359d8a47",
+    "sha256": "7d0fa4af754e539af164e483796c2853fd030973336b8d07e92c3507a44ccf39",
+    "bytes": 2198,
+    "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\3766d81458af7e6ec9fb4efc1078e4e5359d8a47.bp",
+    "executed": false,
+    "project": "external/jsr305",
+    "revision": "2b168afb93e04776c7e185c7fcb8b00137121725",
+    "modules": {
+      "external_jsr305_license": {
+        "name": "external_jsr305_license",
+        "kind": "license",
+        "static_libs": [],
+        "libs": [],
+        "aars": [],
+        "jars": [],
+        "srcs": [],
+        "exclude_srcs": []
+      },
+      "jsr305": {
+        "name": "jsr305",
+        "kind": "java_library_static",
+        "static_libs": [],
+        "libs": [],
+        "aars": [],
+        "jars": [],
+        "srcs": [
+          "ri/src/main/java/**/*.java"
+        ],
+        "exclude_srcs": []
+      }
+    }
+  },
+  {
+    "path": "Android.bp",
+    "url": "https://android.googlesource.com/platform/external/kotlinx.atomicfu/+/867bc63054d694773bd0aef56eeb51296f2f6b03/Android.bp?format=TEXT",
+    "gitBlobSha1": "18b40f69d31da309a9d3c87acd382a34d09b0f4d",
+    "sha256": "290c44fc9fc2509cc60314315fab82563788d098208eee4c8e3ef891cd9f6e33",
+    "bytes": 1405,
+    "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\18b40f69d31da309a9d3c87acd382a34d09b0f4d.bp",
+    "executed": false,
+    "project": "external/kotlinx.atomicfu",
+    "revision": "867bc63054d694773bd0aef56eeb51296f2f6b03",
+    "modules": {
+      "external_kotlinx.atomicfu_license": {
+        "name": "external_kotlinx.atomicfu_license",
+        "kind": "license",
+        "static_libs": [],
+        "libs": [],
+        "aars": [],
+        "jars": [],
+        "srcs": [],
+        "exclude_srcs": []
+      },
+      "kotlinx_atomicfu": {
+        "name": "kotlinx_atomicfu",
+        "kind": "java_library",
+        "static_libs": [],
+        "libs": [],
+        "aars": [],
+        "jars": [],
+        "srcs": [
+          "atomicfu/src/jvmMain/**/*.kt"
+        ],
+        "exclude_srcs": [
+          "atomicfu/src/jvmMain/kotlin/kotlinx/atomicfu/LockFreedomTestEnvironment.kt"
+        ]
+      }
+    }
+  },
+  {
+    "path": "Android.bp",
+    "url": "https://android.googlesource.com/platform/external/kotlinx.serialization/+/6e219320253dcd5c0a6f19b2785f1d37bc8edcf0/Android.bp?format=TEXT",
+    "gitBlobSha1": "b71e62c373607c1cb5d79af997dfb5aeca1b0378",
+    "sha256": "09c17f4013203434b15dc732f113a4b7b342364c5122708d921f9ce27f65c172",
+    "bytes": 3325,
+    "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\b71e62c373607c1cb5d79af997dfb5aeca1b0378.bp",
+    "executed": false,
+    "project": "external/kotlinx.serialization",
+    "revision": "6e219320253dcd5c0a6f19b2785f1d37bc8edcf0",
+    "modules": {
+      "kotlinx_serialization_core": {
+        "name": "kotlinx_serialization_core",
+        "kind": "java_library",
+        "static_libs": [],
+        "libs": [],
+        "aars": [],
+        "jars": [],
+        "srcs": [
+          "core/jvmMain/src/kotlinx/serialization/**/*.kt"
+        ],
+        "exclude_srcs": []
+      },
+      "kotlinx_serialization_json": {
+        "name": "kotlinx_serialization_json",
+        "kind": "java_library",
+        "static_libs": [
+          "kotlinx_serialization_core"
+        ],
+        "libs": [],
+        "aars": [],
+        "jars": [],
+        "srcs": [
+          "formats/json/jvmMain/src/kotlinx/serialization/**/*.kt"
+        ],
+        "exclude_srcs": []
+      },
+      "kotlinx_serialization_core_manifest": {
+        "name": "kotlinx_serialization_core_manifest",
+        "kind": "genrule",
+        "static_libs": [],
+        "libs": [],
+        "aars": [],
+        "jars": [],
+        "srcs": [
+          "METADATA",
+          "core/build.gradle.kts"
+        ],
+        "exclude_srcs": []
+      },
+      "kotlinx_serialization_core_test": {
+        "name": "kotlinx_serialization_core_test",
+        "kind": "java_test",
+        "static_libs": [
+          "kotlinx_serialization_core",
+          "kotlin-reflect",
+          "kotlin-test",
+          "junit"
+        ],
+        "libs": [],
+        "aars": [],
+        "jars": [],
+        "srcs": [
+          "core/jvmTest/src/**/*.kt"
+        ],
+        "exclude_srcs": []
+      }
+    }
+  }
+]

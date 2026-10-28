@@ -1,0 +1,25 @@
+{
+  "baseCommit": "9249fbce95583e4addc8b110a3527622eac9f29b",
+  "purpose": "Finish source-backed media dependency review, tighten shared asset scope and compile complete native Gallery owners",
+  "sourceGlyphsRetargeted": 23,
+  "styledAliasesRetargeted": 23,
+  "legacyOrNotificationAliasesPreserved": [
+    "exo_legacy_controls_fastforward",
+    "exo_legacy_controls_repeat_all",
+    "exo_legacy_controls_repeat_off",
+    "exo_legacy_controls_repeat_one",
+    "exo_legacy_controls_rewind",
+    "exo_legacy_controls_shuffle_off",
+    "exo_legacy_controls_shuffle_on",
+    "exo_notification_fastforward",
+    "exo_notification_rewind"
+  ],
+  "newArtwork": "No new drawings/raster exports. Existing cold/mask masters are reused in the two active original icon leaves and a scoped cold player error panel.",
+  "allKotlinOwnerCompilation": "PASS -72 actual Kotlin files plus 9 Java classes",
+  "fullPinnedSoongBuild": "NOT RUN",
+  "wholeGoalComplete": false,
+  "fullPinnedResourceLink": "PASS -82 actual AAR resource sets, pinned SDK 36",
+  "nativeDependencySourceCompilation": "PASS -925 actual source files across 10 native modules",
+  "openBaselineFamilyDecisions": 9575,
+  "nativeInflationAndDeviceAcceptance": "NOT RUN"
+}

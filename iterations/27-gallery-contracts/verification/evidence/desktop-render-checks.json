@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "editableExistingWorkflowFixturesRegenerated": 25,
+  "existingAssetAndWorkflowSheetsRegenerated": 9,
+  "additionalEditableComposition": "workflow-previews/adaptive-icon-and-error.svg",
+  "sourceImageAuditSheet": "previews/media3-original-source-review.preview.png",
+  "renderer": "Existing local resvg, live English SVG text, approximate desktop Segoe UI metrics",
+  "nativeAndroidScreenshot": false,
+  "nativeInflation": "NOT RUN",
+  "wholeGoalComplete": false
+}

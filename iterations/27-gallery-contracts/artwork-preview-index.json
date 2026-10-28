@@ -1,0 +1,325 @@
+{
+  "components": [
+    {
+      "family": "cg_gl_albums",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_back",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_camera",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_check",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_check_circle",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_check_circle_outline",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_close",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_contact_page",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_delete",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_delete_forever",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_delete_sweep",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_done",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_edit",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_image",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_info",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_library",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_location_on",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_motion_play",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_no_photography",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_person",
+      "sheet": 1,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_photo_size_select_actual",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_play_circle_outline",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_restore_from_trash",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_settings",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_share",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_star",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_star_border",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_video_camera_back",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_audiotrack",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_check",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_chevron_left",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_chevron_right",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_forward",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_fullscreen_enter",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_fullscreen_exit",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_pause_circle_filled",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_play_circle_filled",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_rewind",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_settings",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_skip_next",
+      "sheet": 2,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_skip_previous",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_speed",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_subtitle_off",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_ic_subtitle_on",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_icon_fastforward",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_icon_repeat_all",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_icon_repeat_off",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_icon_repeat_one",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_icon_rewind",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_icon_shuffle_off",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_icon_shuffle_on",
+      "sheet": 3,
+      "logicalSize": 24,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_media_frame",
+      "sheet": 3,
+      "logicalSize": 96,
+      "deviceScreenshot": false
+    },
+    {
+      "family": "cg_gl_app_gallery",
+      "sheet": 3,
+      "logicalSize": 128,
+      "deviceScreenshot": false
+    }
+  ],
+  "materialSheet": "previews/gallery-control-materials.preview.png",
+  "assetLayerSamplesNotNativeUiStates": true,
+  "deviceScreenshots": false
+}

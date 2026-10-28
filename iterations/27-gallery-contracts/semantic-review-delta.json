@@ -1,0 +1,66 @@
+[
+  {
+    "familyId": "F-596f0eb4b3060f7e",
+    "previousDecision": "OPEN",
+    "decision": "OWNER_PRESENTATION_ADAPTATION_AUTHORED",
+    "source": {
+      "project": "packages/apps/Glimpse",
+      "resourceRoot": "app/src/main/res",
+      "kind": "drawable",
+      "name": "ic_launcher_background",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Glimpse/blob/89b473594ec8ad01417624e670912450ce5df7e9/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    "rationale": "Original108dp landscape/aperture leaves are reworked in their actual retained adaptive child names: opaque dark field plus the approved cold steel photo badge, with explicit108dp foreground bounds and20percent safe inset. Original composition and source hashes are retained; this is an active leaf adaptation, not retirement by absence.",
+    "evidence": {
+      "sourceLeaf": {
+        "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+        "originalSha256": "5db1cf4513fe352a599316c510f73fe621ee0f4c7be5e8cb4e77d536481a3613",
+        "patchedSha256": "8a31181f11e2e1a4b3466538a7216237cd07f154ad52799ac6aca92830779c9e"
+      },
+      "actualAdaptiveOwner": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "resourceLink": "verification/evidence/full-resource-link.json",
+      "compiledContracts": "verification/evidence/compiled-gallery-contracts.json",
+      "originalSourcesPreserved": true,
+      "runtimeOrDeviceAcceptance": "NOT RUN",
+      "wholeGoalComplete": false
+    }
+  },
+  {
+    "familyId": "F-8fb1e33b0f8dd637",
+    "previousDecision": "OPEN",
+    "decision": "OWNER_PRESENTATION_ADAPTATION_AUTHORED",
+    "source": {
+      "project": "packages/apps/Glimpse",
+      "resourceRoot": "app/src/main/res",
+      "kind": "drawable",
+      "name": "ic_launcher_foreground",
+      "sourceSet": "production-candidate",
+      "variants": 1,
+      "status": "Unassigned visual source family; requires semantic review; NOT counted as confirmed missing artwork",
+      "reviewedGapId": "",
+      "candidateAssetIds": "",
+      "examplePath": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sourceUrl": "https://github.com/LineageOS/android_packages_apps_Glimpse/blob/89b473594ec8ad01417624e670912450ce5df7e9/app/src/main/res/drawable/ic_launcher_foreground.xml"
+    },
+    "rationale": "Original108dp landscape/aperture leaves are reworked in their actual retained adaptive child names: opaque dark field plus the approved cold steel photo badge, with explicit108dp foreground bounds and20percent safe inset. Original composition and source hashes are retained; this is an active leaf adaptation, not retirement by absence.",
+    "evidence": {
+      "sourceLeaf": {
+        "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+        "originalSha256": "e405affb0c53d16e3a671a9d7538660645c02677fa4295bf97163626fe5f39d2",
+        "patchedSha256": "925875d6d6b8e931f627d4a9413a37442671ece288924d1dfe132fb2b62f6001"
+      },
+      "actualAdaptiveOwner": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "resourceLink": "verification/evidence/full-resource-link.json",
+      "compiledContracts": "verification/evidence/compiled-gallery-contracts.json",
+      "originalSourcesPreserved": true,
+      "runtimeOrDeviceAcceptance": "NOT RUN",
+      "wholeGoalComplete": false
+    }
+  }
+]

@@ -1,0 +1,306 @@
+{
+  "result": "PASS",
+  "actualAarsLinked": 82,
+  "actualEffectiveAppResourceInputsVerified": 1800,
+  "compiledAliasesVerified": 45,
+  "aliasChecks": [
+    {
+      "alias": "exo_styled_controls_audiotrack",
+      "target": "cg_gl_m3_exo_ic_audiotrack",
+      "compiledResourceId": "0x7f080288",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_check",
+      "target": "cg_gl_m3_exo_ic_check",
+      "compiledResourceId": "0x7f080289",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_overflow_hide",
+      "target": "cg_gl_m3_exo_ic_chevron_left",
+      "compiledResourceId": "0x7f08028e",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_overflow_show",
+      "target": "cg_gl_m3_exo_ic_chevron_right",
+      "compiledResourceId": "0x7f08028f",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_fastforward",
+      "target": "cg_gl_m3_exo_ic_forward",
+      "compiledResourceId": "0x7f08028a",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_fullscreen_enter",
+      "target": "cg_gl_m3_exo_ic_fullscreen_enter",
+      "compiledResourceId": "0x7f08028b",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_fullscreen_exit",
+      "target": "cg_gl_m3_exo_ic_fullscreen_exit",
+      "compiledResourceId": "0x7f08028c",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_pause",
+      "target": "cg_gl_m3_exo_ic_pause_circle_filled",
+      "compiledResourceId": "0x7f080290",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_play",
+      "target": "cg_gl_m3_exo_ic_play_circle_filled",
+      "compiledResourceId": "0x7f080291",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_rewind",
+      "target": "cg_gl_m3_exo_ic_rewind",
+      "compiledResourceId": "0x7f080296",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_settings",
+      "target": "cg_gl_m3_exo_ic_settings",
+      "compiledResourceId": "0x7f080297",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_next",
+      "target": "cg_gl_m3_exo_ic_skip_next",
+      "compiledResourceId": "0x7f08028d",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_previous",
+      "target": "cg_gl_m3_exo_ic_skip_previous",
+      "compiledResourceId": "0x7f080292",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_speed",
+      "target": "cg_gl_m3_exo_ic_speed",
+      "compiledResourceId": "0x7f08029c",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_subtitle_off",
+      "target": "cg_gl_m3_exo_ic_subtitle_off",
+      "compiledResourceId": "0x7f08029d",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_subtitle_on",
+      "target": "cg_gl_m3_exo_ic_subtitle_on",
+      "compiledResourceId": "0x7f08029e",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_simple_fastforward",
+      "target": "cg_gl_m3_exo_icon_fastforward",
+      "compiledResourceId": "0x7f08029a",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_repeat_all",
+      "target": "cg_gl_m3_exo_icon_repeat_all",
+      "compiledResourceId": "0x7f080293",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_repeat_off",
+      "target": "cg_gl_m3_exo_icon_repeat_off",
+      "compiledResourceId": "0x7f080294",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_repeat_one",
+      "target": "cg_gl_m3_exo_icon_repeat_one",
+      "compiledResourceId": "0x7f080295",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_simple_rewind",
+      "target": "cg_gl_m3_exo_icon_rewind",
+      "compiledResourceId": "0x7f08029b",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_shuffle_off",
+      "target": "cg_gl_m3_exo_icon_shuffle_off",
+      "compiledResourceId": "0x7f080298",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_styled_controls_shuffle_on",
+      "target": "cg_gl_m3_exo_icon_shuffle_on",
+      "compiledResourceId": "0x7f080299",
+      "role": "styled_player"
+    },
+    {
+      "alias": "exo_legacy_controls_fastforward",
+      "target": "exo_icon_fastforward",
+      "compiledResourceId": "0x7f080271",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_fullscreen_enter",
+      "target": "exo_icon_fullscreen_enter",
+      "compiledResourceId": "0x7f080272",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_fullscreen_exit",
+      "target": "exo_icon_fullscreen_exit",
+      "compiledResourceId": "0x7f080273",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_next",
+      "target": "exo_icon_next",
+      "compiledResourceId": "0x7f080274",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_pause",
+      "target": "exo_icon_pause",
+      "compiledResourceId": "0x7f080275",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_play",
+      "target": "exo_icon_play",
+      "compiledResourceId": "0x7f080276",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_previous",
+      "target": "exo_icon_previous",
+      "compiledResourceId": "0x7f080277",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_repeat_all",
+      "target": "exo_icon_repeat_all",
+      "compiledResourceId": "0x7f080278",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_repeat_off",
+      "target": "exo_icon_repeat_off",
+      "compiledResourceId": "0x7f080279",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_repeat_one",
+      "target": "exo_icon_repeat_one",
+      "compiledResourceId": "0x7f08027a",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_rewind",
+      "target": "exo_icon_rewind",
+      "compiledResourceId": "0x7f08027b",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_shuffle_off",
+      "target": "exo_icon_shuffle_off",
+      "compiledResourceId": "0x7f08027c",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_shuffle_on",
+      "target": "exo_icon_shuffle_on",
+      "compiledResourceId": "0x7f08027d",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_legacy_controls_vr",
+      "target": "exo_icon_vr",
+      "compiledResourceId": "0x7f08027e",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_notification_fastforward",
+      "target": "exo_icon_fastforward",
+      "compiledResourceId": "0x7f08027f",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_notification_next",
+      "target": "exo_icon_next",
+      "compiledResourceId": "0x7f080280",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_notification_pause",
+      "target": "exo_icon_pause",
+      "compiledResourceId": "0x7f080281",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_notification_play",
+      "target": "exo_icon_play",
+      "compiledResourceId": "0x7f080282",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_notification_previous",
+      "target": "exo_icon_previous",
+      "compiledResourceId": "0x7f080283",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_notification_rewind",
+      "target": "exo_icon_rewind",
+      "compiledResourceId": "0x7f080284",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_notification_small_icon",
+      "target": "exo_icon_circular_play",
+      "compiledResourceId": "0x7f080285",
+      "role": "native_shared_consumer"
+    },
+    {
+      "alias": "exo_notification_stop",
+      "target": "exo_icon_stop",
+      "compiledResourceId": "0x7f080286",
+      "role": "native_shared_consumer"
+    }
+  ],
+  "compiledXmlDumps": {
+    "res/drawable/ic_launcher_background.xml": {
+      "dump": "verification/evidence/compiled-ic_launcher_background.txt",
+      "dumpSha256": "1f7dc0c26a1196164696f5c07ab3874b06052e4e6346d6f18a118abd1098c698"
+    },
+    "res/drawable/ic_launcher_foreground.xml": {
+      "dump": "verification/evidence/compiled-ic_launcher_foreground.txt",
+      "dumpSha256": "59687ffb01bb8acfc2a9201346cc36600c4f461689904a798b9a67c0414c06cf"
+    },
+    "res/mipmap-anydpi-v21/ic_launcher.xml": {
+      "dump": "verification/evidence/compiled-ic_launcher.txt",
+      "dumpSha256": "293837367452618b933e749a57fcd42ee461b348a0c6054e9c64566fc77e4211"
+    },
+    "res/layout/cg_gl_player_view.xml": {
+      "dump": "verification/evidence/compiled-cg_gl_player_view.txt",
+      "dumpSha256": "5445a76e96e55899d5d943661a7993623f6cd19d90abb167e76fa20c2f9db5af"
+    }
+  },
+  "sourceOwnerJavaCompiled": 9,
+  "sourceOwnerKotlinCompiled": 72,
+  "allCurrentOwnerSourceHashesVerified": true,
+  "explicitAdaptiveIntrinsicDp": 108,
+  "adaptiveSafeCircleAlphaPixels": 37784,
+  "originalSourceVariantsReviewed": 232,
+  "pngVariantsDecoded": 189,
+  "officialSoongBuild": "NOT RUN",
+  "nativeXmlInflation": "NOT RUN",
+  "wholeGoalComplete": false
+}

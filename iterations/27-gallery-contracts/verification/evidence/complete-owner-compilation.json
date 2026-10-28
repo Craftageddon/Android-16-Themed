@@ -1,0 +1,990 @@
+{
+  "result": "PASS",
+  "work": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030",
+  "actualJavaSources": 9,
+  "actualKotlinSources": 72,
+  "sourceFiles": {
+    "androidx/media3/ui/PlayerControlView.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\androidx\\media3\\ui\\PlayerControlView.kt",
+      "sha256": "fb72af4455e8063fc9d48357ad30a77803c8b4c00dc3220f542746cc9da33879"
+    },
+    "org/lineageos/glimpse/GlimpseApplication.kt": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\GlimpseApplication.kt",
+      "sha256": "4436fdfcb1d9fa1972bb48d5ae743c3eb8dad86b85f73320fcaa94840b7eada4"
+    },
+    "org/lineageos/glimpse/MainActivity.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\MainActivity.kt",
+      "sha256": "399175bee78c021ea9d95549c9e9b4652180e1de149d5d52700812e7c87f0b17"
+    },
+    "org/lineageos/glimpse/PickerActivity.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\PickerActivity.kt",
+      "sha256": "a1782ce8636187f1b9d03b1d97885726b41229f03c7e256d3e7bc5ec8060a186"
+    },
+    "org/lineageos/glimpse/SettingsActivity.kt": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\SettingsActivity.kt",
+      "sha256": "8171ca3970c9cc26ab5f5ebd70bf40c92f124f3794ce56d86376ef11b85e1ec7"
+    },
+    "org/lineageos/glimpse/SetWallpaperActivity.kt": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\SetWallpaperActivity.kt",
+      "sha256": "fe930968f8f1097ccfe9a1fcd42717e32999f485eaa8a21a98f5038a269949cb"
+    },
+    "org/lineageos/glimpse/ViewActivity.kt": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ViewActivity.kt",
+      "sha256": "2485be69367775ce265e64d400f5c3fc8e560ca718ed244fb6ba760172712769"
+    },
+    "org/lineageos/glimpse/datasources/LocalDataSource.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\datasources\\LocalDataSource.kt",
+      "sha256": "1dd4b362ffd64e74269bcd497ce52cbc73fb65d02f9fe724db868d14fe3609f7"
+    },
+    "org/lineageos/glimpse/datasources/MediaDataSource.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\datasources\\MediaDataSource.kt",
+      "sha256": "90dead28f9661ff85b79b745dcaab34525e708eacd8a6eba7688d15ab137557e"
+    },
+    "org/lineageos/glimpse/datasources/MediaError.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\datasources\\MediaError.kt",
+      "sha256": "88af66426616c3e2145aec433f937e0f53a0486d86c24c73b297478f8fe95979"
+    },
+    "org/lineageos/glimpse/ext/AndroidViewModel.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\AndroidViewModel.kt",
+      "sha256": "63b9eb3749104c4dcf91bcea9f8be881b75be6b3f0813d633a6b423887ad83a9"
+    },
+    "org/lineageos/glimpse/ext/AppBarLayout.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\AppBarLayout.kt",
+      "sha256": "4cfc733989919e7177f98a596920e3a28b743fef060e984fec264c39c947821e"
+    },
+    "org/lineageos/glimpse/ext/Bundle.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Bundle.kt",
+      "sha256": "065d7fc58a2bd3978994c8ad9f36a93872e0a0da152a13d3c165ecc0a2d2bd7f"
+    },
+    "org/lineageos/glimpse/ext/Call.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Call.kt",
+      "sha256": "7d8d91ba4e1087ee5d571efe27fd41200c471ef2d899ef788bcfdf55a90f913c"
+    },
+    "org/lineageos/glimpse/ext/ClipData.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\ClipData.kt",
+      "sha256": "98a3f0204a08186f697b3923f576a62dda0d884f9f6aaf367cd8bda50e651652"
+    },
+    "org/lineageos/glimpse/ext/ConflatedCallbackFlow.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\ConflatedCallbackFlow.kt",
+      "sha256": "16bc1c16c0d729a2342a881a4c750a1e0fe8cee2ca87b45b8c09e2e59b79ff97"
+    },
+    "org/lineageos/glimpse/ext/ContentResolver.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\ContentResolver.kt",
+      "sha256": "eaa93f720ce0d5d0ad791412bd9ff8d9ba4de6d95def27eb766749430ca23255"
+    },
+    "org/lineageos/glimpse/ext/Context.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Context.kt",
+      "sha256": "906dbe780e4a48c46a2084f870275596a8f8b2b236735d7388baf2f28aa0e75e"
+    },
+    "org/lineageos/glimpse/ext/Cursor.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Cursor.kt",
+      "sha256": "c088667c5e5b32306992ef9f7703613e9125bec89e39013abb8542d1871bf345"
+    },
+    "org/lineageos/glimpse/ext/Double.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Double.kt",
+      "sha256": "bf184d85c6db15c8cd0400f6e859e4d5cda576c2721a1ed6f95c1da9133789c9"
+    },
+    "org/lineageos/glimpse/ext/ExifInterface.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\ExifInterface.kt",
+      "sha256": "e09a538472935eaf778c9ddecdccb021058652d1d37b1940dc756d8fdbebbf52"
+    },
+    "org/lineageos/glimpse/ext/Flow.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Flow.kt",
+      "sha256": "37f2e787cca60c566d1339d22e95dc3cc33d3b1d509fe5dc40fe778d9b96e3d0"
+    },
+    "org/lineageos/glimpse/ext/Fragment.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Fragment.kt",
+      "sha256": "43f80070c2dbcbcaf3fe9c71f406899b30093bd9ad8a62409705ad6f0bf37a8b"
+    },
+    "org/lineageos/glimpse/ext/ImageView.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\ImageView.kt",
+      "sha256": "f5a7cbf2bc28a26a19ae5f14155e7935504771ee0bcf5492762d1e5bf3ddb9fc"
+    },
+    "org/lineageos/glimpse/ext/Int.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Int.kt",
+      "sha256": "dc8f67a3c950bdd88c796fc026b3f20eb73df061b2db8422b507f0681b85183e"
+    },
+    "org/lineageos/glimpse/ext/Intent.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Intent.kt",
+      "sha256": "d8ad290bce6fae350a3b3dbc521ea59323687406054ad79460e17b05f725ef67"
+    },
+    "org/lineageos/glimpse/ext/Lifecycle.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Lifecycle.kt",
+      "sha256": "dc3ac488a49e7193ebaa87a91c5d60a6eeeae6492a158fb2442676b13663887e"
+    },
+    "org/lineageos/glimpse/ext/Parcel.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Parcel.kt",
+      "sha256": "b0cca427ff10b9d21c6a1cccef8e2d081dc3e8ca0444b58c53fbbf372ffa073c"
+    },
+    "org/lineageos/glimpse/ext/Player.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Player.kt",
+      "sha256": "ad6cbb15943c4eab39fab446468f18251f7bc3923c40f5860a03e2386c31e831"
+    },
+    "org/lineageos/glimpse/ext/PlayerControlView.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\PlayerControlView.kt",
+      "sha256": "aca1480c9bc22f6ebd14a592092f970b27f60031f287e3fb9987bd86beaa5a13"
+    },
+    "org/lineageos/glimpse/ext/SelectionTracker.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\SelectionTracker.kt",
+      "sha256": "867d6eeb3cab26f81f20c3daf56e6246a9c89c9e84a48b419183022bd6daf77f"
+    },
+    "org/lineageos/glimpse/ext/SharedPreferences.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\SharedPreferences.kt",
+      "sha256": "d32761309dd5328ac8540ec6c434d85688c4bb06f3d074c992db439a7148f150"
+    },
+    "org/lineageos/glimpse/ext/View.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\View.kt",
+      "sha256": "f3b33700cefc065ea1a414451b6c3e751025810bb22d7b69354f40314c0c437d"
+    },
+    "org/lineageos/glimpse/ext/Window.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ext\\Window.kt",
+      "sha256": "79037549449b3919ac846ed185cb2edd68de420a31bfad77c398552192245f50"
+    },
+    "org/lineageos/glimpse/fragments/AlbumFragment.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\fragments\\AlbumFragment.kt",
+      "sha256": "d98575e0c1b6fdfae1526065e6f7242a18da3d89ad5dac60f0818bfe6ecaa0bb"
+    },
+    "org/lineageos/glimpse/fragments/AlbumsFragment.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\fragments\\AlbumsFragment.kt",
+      "sha256": "dbe1db6f3b8a81deebae7187017ea59ae7a2e779bdb3102cde745c1548335435"
+    },
+    "org/lineageos/glimpse/fragments/LibraryFragment.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\fragments\\LibraryFragment.kt",
+      "sha256": "729b5d3e54d30ed86421821018a66a628a44c268795b9d09463e773ddb2e0536"
+    },
+    "org/lineageos/glimpse/fragments/MainFragment.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\fragments\\MainFragment.kt",
+      "sha256": "cc3ea01e44b0ce6111e9efecfc11ec971056db0bb24b9244d02640773254cf23"
+    },
+    "org/lineageos/glimpse/models/Album.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\models\\Album.kt",
+      "sha256": "40d4bd75b9b659b18341f783e6800a24e5fc9f0c275caa588b6b73bea0bcdaf3"
+    },
+    "org/lineageos/glimpse/models/AlbumType.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\models\\AlbumType.kt",
+      "sha256": "10c309be37aa7b64bd43bfc45a5623c85ce530025efaf10865ca6eb668b1bfbf"
+    },
+    "org/lineageos/glimpse/models/ColumnIndexCache.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\models\\ColumnIndexCache.kt",
+      "sha256": "b6a56b9196fb04aec42aae2d56da90ddfbf7a8294470681a2f22b5bb5ea6efa2"
+    },
+    "org/lineageos/glimpse/models/Media.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\models\\Media.kt",
+      "sha256": "62bc9044f255aeb088910ab743214c89b9b493558c393bb16c3c0cbab6db53e7"
+    },
+    "org/lineageos/glimpse/models/MediaItem.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\models\\MediaItem.kt",
+      "sha256": "e98407c1682baf4809fd2f5eface63cda4c701c6c5ccbe0207e0d2274844be12"
+    },
+    "org/lineageos/glimpse/models/MediaType.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\models\\MediaType.kt",
+      "sha256": "0aa057c2f9222f90a2458ef6139a5dc88cf85a9bf1e3c2a98359d985d511a63d"
+    },
+    "org/lineageos/glimpse/models/MotionPhoto.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\models\\MotionPhoto.kt",
+      "sha256": "efea1131fa2999a171a29f550aac403a3cd7537ef4566b8989ed868fe01dd507"
+    },
+    "org/lineageos/glimpse/models/RequestStatus.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\models\\RequestStatus.kt",
+      "sha256": "a6a03322808bf5986348d9b58f9f1d33cf088555f7c3aff7186c7808e714efd4"
+    },
+    "org/lineageos/glimpse/models/Thumbnail.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\models\\Thumbnail.kt",
+      "sha256": "0b669ed86412ff9da63338da2fa68311dde9fbbef6ef383526225076e4ed6619"
+    },
+    "org/lineageos/glimpse/models/UniqueItem.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\models\\UniqueItem.kt",
+      "sha256": "ac870c81a23609275b37f3302f0679d4d0a6e8a72cd9ca68a1015fa8f1ddfab2"
+    },
+    "org/lineageos/glimpse/query/Query.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\query\\Query.kt",
+      "sha256": "9cc73e6bf66501c7e5131c8be80438ab78cc00d2563b7195901ecfaa3045fd8a"
+    },
+    "org/lineageos/glimpse/repository/MediaRepository.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\repository\\MediaRepository.kt",
+      "sha256": "8a328c484393bfb98e4b8644cc6dc5ed2c349559e3ed81afce88a93657ca5d40"
+    },
+    "org/lineageos/glimpse/ui/MediaGestureListener.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\MediaGestureListener.kt",
+      "sha256": "531d8ceca97d237382331410bfc01c18a1b22cd5fe4b2741273b76ba31df5ee0"
+    },
+    "org/lineageos/glimpse/utils/MediaDialogsUtils.kt": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\utils\\MediaDialogsUtils.kt",
+      "sha256": "aa5da7bc49a7db313e3eda1cac46dfb84eccb1ba747bac0a0fc3482c38e1c1bf"
+    },
+    "org/lineageos/glimpse/utils/MimeUtils.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\utils\\MimeUtils.kt",
+      "sha256": "7b3c38447c9f0d6ac5ad5e25551096a75722902dd3be51c032c964b0a9ed57c6"
+    },
+    "org/lineageos/glimpse/utils/MotionPhotoExtractor.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\utils\\MotionPhotoExtractor.kt",
+      "sha256": "4d4dde90a073961a1d9114dd681cfd7aebcec305fffa0c3409dcbe7b070e81a5"
+    },
+    "org/lineageos/glimpse/utils/PermissionsChecker.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\utils\\PermissionsChecker.kt",
+      "sha256": "013a41a6fef3440fc14e178d798dadea9c57d0d9aa8df31ef616f2939bace944"
+    },
+    "org/lineageos/glimpse/utils/PermissionsUtils.kt": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\utils\\PermissionsUtils.kt",
+      "sha256": "ee44312171d98d2e85924534112c3e8d17886e6a381b4d387541e04ca10bfbf3"
+    },
+    "org/lineageos/glimpse/viewmodels/AlbumsViewModel.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\viewmodels\\AlbumsViewModel.kt",
+      "sha256": "95fe60ec56fa237959679c35e378b6ea73d80c935896d6bc87d0fd45bc099a84"
+    },
+    "org/lineageos/glimpse/viewmodels/AlbumViewModel.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\viewmodels\\AlbumViewModel.kt",
+      "sha256": "5fe789cc9315e8162618ae6680ad16f376e58fa7b32108ac2d3fb4558934699c"
+    },
+    "org/lineageos/glimpse/viewmodels/GlimpseViewModel.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\viewmodels\\GlimpseViewModel.kt",
+      "sha256": "271a9ba83083f9b3391dadab96193a45eefd12478b169724a003d3c5e7799558"
+    },
+    "org/lineageos/glimpse/viewmodels/IntentsViewModel.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\viewmodels\\IntentsViewModel.kt",
+      "sha256": "5b0a4517c65ecf9d46ef6699408aaeef139551b91380580e469aa973e897e419"
+    },
+    "org/lineageos/glimpse/viewmodels/LocalPlayerViewModel.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\viewmodels\\LocalPlayerViewModel.kt",
+      "sha256": "2f39b195103d50892c430e1a30c3eae73e0e943286ef7b661cdb8ff653b156f8"
+    },
+    "org/lineageos/glimpse/ui/dialogs/MediaInfoBottomSheetDialog.kt": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\dialogs\\MediaInfoBottomSheetDialog.kt",
+      "sha256": "09726a169193bdd83a81ad22db9765573b140968e33e88656109c916cb3fe02e"
+    },
+    "org/lineageos/glimpse/ui/recyclerview/AlbumThumbnailLayoutManager.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\recyclerview\\AlbumThumbnailLayoutManager.kt",
+      "sha256": "255fc857b7c8c9a3c009f1497153d9012f0421bb6fcfb832381f5b8fcbd5ed60"
+    },
+    "org/lineageos/glimpse/ui/recyclerview/DisplayAwareGridLayoutManager.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\recyclerview\\DisplayAwareGridLayoutManager.kt",
+      "sha256": "de06f2c44a66e31cb28be532114c921fd9f0868cefc48d98c18023451c898098"
+    },
+    "org/lineageos/glimpse/ui/recyclerview/MediaViewerAdapter.kt": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\recyclerview\\MediaViewerAdapter.kt",
+      "sha256": "813eee837e7047601e054a41e362b773ca6a73840246b2ed9f45045c202cba52"
+    },
+    "org/lineageos/glimpse/ui/recyclerview/SimpleListAdapter.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\recyclerview\\SimpleListAdapter.kt",
+      "sha256": "9dd5571ab7f4dfe0fd12b1dc068d4e702b58b4baa24222e4e3ee1d9e851c7b2b"
+    },
+    "org/lineageos/glimpse/ui/recyclerview/ThumbnailAdapter.kt": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\recyclerview\\ThumbnailAdapter.kt",
+      "sha256": "fb9518d82536291185def130a26086ad5e6869919834b0db04f39fccb246eaf0"
+    },
+    "org/lineageos/glimpse/ui/recyclerview/ThumbnailItemDetailsLookup.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\recyclerview\\ThumbnailItemDetailsLookup.kt",
+      "sha256": "aab953df32653fee2e77eaacafd8615624e9ed251709492dff32a2dc91be6ae9"
+    },
+    "org/lineageos/glimpse/ui/recyclerview/ThumbnailLayoutManager.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\recyclerview\\ThumbnailLayoutManager.kt",
+      "sha256": "1f22746a04c60c77639a8ceb0e32b8e28bd3753bca284bf3d166a6adf03ee5e2"
+    },
+    "org/lineageos/glimpse/ui/recyclerview/UniqueItemDiffCallback.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\recyclerview\\UniqueItemDiffCallback.kt",
+      "sha256": "3b88ea793638d0f2b5b2e896087e54e6f0089c8cbdd002a9c1154431042575fe"
+    },
+    "org/lineageos/glimpse/ui/views/ListItem.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\ui\\views\\ListItem.kt",
+      "sha256": "4c250205d9f387bf245760876d36aa368da4efe7f0f4f2423e35da65e20e410f"
+    },
+    "org/lineageos/glimpse/utils/media3/ByteBufferDataSource.kt": {
+      "source": "iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\utils\\media3\\ByteBufferDataSource.kt",
+      "sha256": "b2bd5067527c00c63ed1bbec39d99ffac77a9e83e46793ee0c2d6485d0f253e3"
+    },
+    "org/lineageos/glimpse/forge/ForgeActionLayout.java": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\forge\\ForgeActionLayout.java",
+      "sha256": "def299b5b076914d640c2bf5d18eb4213906051c29fd5038d1eee353271f0e3e"
+    },
+    "org/lineageos/glimpse/forge/ForgeDrawable.java": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\forge\\ForgeDrawable.java",
+      "sha256": "95f5535beb40bf545e4871023d0513330aa02b74766da00c9c78371bd21cce8c"
+    },
+    "org/lineageos/glimpse/forge/ForgeGallerySkin.java": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\forge\\ForgeGallerySkin.java",
+      "sha256": "049182c3f78aa44de982e2bf743f7bdc371690d85fad519b93d3ccc4dba694bf"
+    },
+    "org/lineageos/glimpse/forge/ForgeMaterialSwitch.java": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\forge\\ForgeMaterialSwitch.java",
+      "sha256": "06443965e76628d9dcefb09821794815d29f928c7028eabacfd9e13b9be13faa"
+    },
+    "org/lineageos/glimpse/forge/ForgeResources.java": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\forge\\ForgeResources.java",
+      "sha256": "1754b1bb557cd44208da19d443116f099c0337870b483b0337216dc25b913c40"
+    },
+    "org/lineageos/glimpse/forge/ForgeRowPlan.java": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\forge\\ForgeRowPlan.java",
+      "sha256": "529a7bfd18e14e85a19f738a2c0e72b624045ffdfc49184512d6c7a13b866bd4"
+    },
+    "org/lineageos/glimpse/forge/ForgeSeekBarPreference.java": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\forge\\ForgeSeekBarPreference.java",
+      "sha256": "2598b79e20ca3f5375e700fe38008fb96f66198f660ba31880dd002bd01429eb"
+    },
+    "org/lineageos/glimpse/forge/ForgeStatePolicy.java": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\forge\\ForgeStatePolicy.java",
+      "sha256": "fb0cae02ab9dd67b6473e96e74fe2e6745f012c3136aa2d0725d8cadfe2f6d5e"
+    },
+    "org/lineageos/glimpse/forge/ForgeSwitchPreference.java": {
+      "source": "iterations\\27-gallery-contracts\\native-patch\\packages\\apps\\Glimpse\\app\\src\\main\\java\\org\\lineageos\\glimpse\\forge\\ForgeSwitchPreference.java",
+      "sha256": "2a0fc1ff7d0c6017f7eb03430674f9966bd24c06d11b61481c6d8d77aef4f589"
+    }
+  },
+  "commands": [
+    {
+      "stage": "java",
+      "command": [
+        "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\javac.exe",
+        "@C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\javac.args"
+      ],
+      "exitCode": 0,
+      "log": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\java.log"
+    },
+    {
+      "stage": "kotlin",
+      "command": [
+        "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\java.exe",
+        "-Xmx4096m",
+        "-cp",
+        "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\fb794be912bab43196dfa974b3e6d447e7f03d34.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\9f249d08de3bff8d3acfecf573ba2127de5ecb0b.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\7f17dad029fa6bfeaac39f6ee5731d70db3ede8e.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\89a3cf103abd43eded75766c132240c5335c1e68.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\1df3a347835cc5d85c9818a60b44791f3f86576e.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d933c19fb9dd651120321d619cb60869033c4642.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\0b174bffda33e2e13047e5dd2dadd7e392079e58.jar",
+        "org.jetbrains.kotlin.cli.jvm.K2JVMCompiler",
+        "@C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\kotlinc.args"
+      ],
+      "exitCode": 0,
+      "log": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\kotlin.log"
+    },
+    {
+      "stage": "jar",
+      "command": [
+        "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\jar.exe",
+        "cf",
+        "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\Glimpse-source-classes.jar",
+        "-C",
+        "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\java",
+        ".",
+        "-C",
+        "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\kotlin",
+        "."
+      ],
+      "exitCode": 0,
+      "log": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\jar.log"
+    }
+  ],
+  "nativeSourceDependencies": [
+    {
+      "module": "androidx.activity_activity",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib17\\classes.jar",
+      "sha256": "0f2b298f2a10a67ff0e07287cf0ad84e1e9a1322921685b9dc95d246af7c9976",
+      "namespace": "androidx.activity"
+    },
+    {
+      "module": "androidx.annotation_annotation",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\36a890533fdc880ddc212768b6aeba804b189b67.jar",
+      "sha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697"
+    },
+    {
+      "module": "kotlin-stdlib",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\1df3a347835cc5d85c9818a60b44791f3f86576e.jar",
+      "sha256": "073d176769242ecc972d6b6499c8343ac4c83c86062fed6f43b6b4f5af8a81ff"
+    },
+    {
+      "module": "androidx.core_core-ktx",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib10\\classes.jar",
+      "sha256": "37a5f10ec99a7f137e26840efeea1294fa1b1c01ec011cba017d951cd3ec7625",
+      "namespace": "androidx.core.ktx"
+    },
+    {
+      "module": "androidx.core_core",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib09\\classes.jar",
+      "sha256": "f33c2ec62e98b2dea798ccbebfedfa57a42db0727a3a3b40926ae8b3c2ca0fcf",
+      "namespace": "androidx.core"
+    },
+    {
+      "module": "androidx.annotation_annotation-experimental",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib00\\classes.jar",
+      "sha256": "89bf8d934802fce832d054bb5f1bd0df87bf9336496c4d3f7fb60cd6c852f343",
+      "namespace": "androidx.annotation.experimental"
+    },
+    {
+      "module": "androidx.collection_collection",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\31916d98413d91c98becb9cc5283a272fa3a32e9.jar",
+      "sha256": "b03612b004a8582476e8366f6ab4171ac97484b5fce838193d823de9c33553ed"
+    },
+    {
+      "module": "jspecify",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\jspecify.jar",
+      "sha256": "c73df7bc94cadcd75ad604cdfcd97f66552a1480c975d92a6c60ad31e888da49"
+    },
+    {
+      "module": "androidx.concurrent_concurrent-futures",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\086cb99557ee23f6daa14044c1bad4af3d468241.jar",
+      "sha256": "ec28bca5f13f06dd12e1e9b463757c45d7729d9bde5a95c703e844663b1e5d63"
+    },
+    {
+      "module": "guava-listenablefuture-prebuilt-jar",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\5e676925fa90da084afc26f2c9ae38c8201ec044.jar",
+      "sha256": "e4ad7607e5c0477c6f890ef26a49cb8d1bb4dffb650bab4502afee64644e3069"
+    },
+    {
+      "module": "androidx.core_core-viewtree",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib01\\classes.jar",
+      "sha256": "d0bc6a492eada61212325edf8d9324e11924790c54553e62fb9d44782e8897c0",
+      "namespace": "androidx.core.viewtree"
+    },
+    {
+      "module": "androidx.interpolator_interpolator",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib02\\classes.jar",
+      "sha256": "dc3ea0c179e7e8d8038cfa685cdde819bd2e293682df4304606feb73c9d6e407",
+      "namespace": "androidx.interpolator"
+    },
+    {
+      "module": "androidx.lifecycle_lifecycle-common",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\030b6a6aae7e6e89d322cc86e9b1fd5619df2d14.jar",
+      "sha256": "6d233043a3d7607044eede264e26683f970dfbb43c136e1bc94c92eb47e2433d"
+    },
+    {
+      "module": "kotlinx_coroutines",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx_coroutines-host.jar",
+      "sha256": "5e97053f5921638707474636eedbbef94c6dc1bee1be3490a596a212a2f61015"
+    },
+    {
+      "module": "kotlinx_atomicfu",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx_atomicfu.jar",
+      "sha256": "b0c39f0fdae830afe8c7ba0bdd51189507a92487a9914d6af96d2e76a20a64e8"
+    },
+    {
+      "module": "androidx.lifecycle_lifecycle-runtime",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib07\\classes.jar",
+      "sha256": "4ea3833217efc77668143f3ab347e859350ed8e0d70359bf045783cc1756a52e",
+      "namespace": "androidx.lifecycle.runtime"
+    },
+    {
+      "module": "androidx.arch.core_core-common",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\e4bf7228257e4d7d2055232e82a426cd25117946.jar",
+      "sha256": "1440fa4e5d315758f60cb6d2d58d52f7779268d3044c0593596e9fd943539507"
+    },
+    {
+      "module": "androidx.arch.core_core-runtime",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib03\\classes.jar",
+      "sha256": "652411d6ebfbfa8e40eac8655ab6e726f0984bc6bfce177ee57943486b5a387d",
+      "namespace": "androidx.arch.core"
+    },
+    {
+      "module": "androidx.profileinstaller_profileinstaller",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib06\\classes.jar",
+      "sha256": "9191d81721909a7ca9194f78c8f98eade9bc2d606f8daaafd7d477b5c146e9c7",
+      "namespace": "androidx.profileinstaller"
+    },
+    {
+      "module": "androidx.startup_startup-runtime",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib05\\classes.jar",
+      "sha256": "2c85c3f44f77405e90c9201dc6972a1b296867459d878edaf992a8ab0694cbf6",
+      "namespace": "androidx.startup"
+    },
+    {
+      "module": "androidx.tracing_tracing",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib04\\classes.jar",
+      "sha256": "b7c35cb19e945eb9f463450196b73663229ea2a8d3362ad0363da17ed28188a3",
+      "namespace": "androidx.tracing"
+    },
+    {
+      "module": "kotlinx_coroutines_android",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx_coroutines_android.jar",
+      "sha256": "6e2663ad0f2f03df6dc2d3c32fed3282264186bac9b2e56743c0312d3625231c"
+    },
+    {
+      "module": "androidx.versionedparcelable_versionedparcelable",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib08\\classes.jar",
+      "sha256": "1afe0c3dd5ff601b37a7bbf37f6c5ee9ff38424443a27e61b4d90c5bef83bdc7",
+      "namespace": "androidx.versionedparcelable"
+    },
+    {
+      "module": "androidx.lifecycle_lifecycle-viewmodel",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib11\\classes.jar",
+      "sha256": "a4f13afe6d05b35c7c53869e156a73e32a8fad9bcf14d8a368ecb81b114c69ba",
+      "namespace": "androidx.lifecycle.viewmodel"
+    },
+    {
+      "module": "androidx.lifecycle_lifecycle-viewmodel-savedstate",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib14\\classes.jar",
+      "sha256": "12f792761503d02147fcf5689a0879021f0d5d67d83066996cd8db2468aa36e7",
+      "namespace": "androidx.lifecycle.viewmodel.savedstate"
+    },
+    {
+      "module": "androidx.lifecycle_lifecycle-livedata-core",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib12\\classes.jar",
+      "sha256": "028a49747261c2bebbe31b20bb765e866313766a0f3d4802aae92ce49819ed38",
+      "namespace": "androidx.lifecycle.livedata.core"
+    },
+    {
+      "module": "androidx.savedstate_savedstate",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib13\\classes.jar",
+      "sha256": "fa884435d50dfb5277414d167cd696cfeb70973fbe2f569b01347d506e959477",
+      "namespace": "androidx.savedstate"
+    },
+    {
+      "module": "kotlinx_serialization_core",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx_serialization_core.jar",
+      "sha256": "8d0bed9492dccd3191ac662b8752d30139ea3492952d76f36ec020f122283d46"
+    },
+    {
+      "module": "androidx.navigationevent_navigationevent",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib16\\classes.jar",
+      "sha256": "3581daf34b2d7d47ab9b5857dc3a9f886f85f2561fc8d566b61c7233f9218e58",
+      "namespace": "androidx.navigationevent"
+    },
+    {
+      "module": "androidx.compose.runtime_runtime-annotation",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib15\\classes.jar",
+      "sha256": "0d992f72fdb4f02447253beab2d805b666e806a92a2ffed8bd865c5ccad9e06d",
+      "namespace": "androidx.compose.runtime.annotation"
+    },
+    {
+      "module": "androidx.appcompat_appcompat",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib30\\classes.jar",
+      "sha256": "da27b8bd6a0b4c2a01e02cd2888e95ca27b76af6ce6d32453d2cb0c6e8741ddd",
+      "namespace": "androidx.appcompat"
+    },
+    {
+      "module": "androidx.appcompat_appcompat-resources",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib20\\classes.jar",
+      "sha256": "28533f74ac2b767d254a15b8bd593a5b06b05e17c6fcad0fe5fa6e8ae5163e92",
+      "namespace": "androidx.appcompat.resources"
+    },
+    {
+      "module": "androidx.vectordrawable_vectordrawable",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib18\\classes.jar",
+      "sha256": "0360d2f07b53c80f5bad6819fcfbd84e6ff94cc6dd340e4c7dea0e77d4e0057b",
+      "namespace": "androidx.vectordrawable"
+    },
+    {
+      "module": "androidx.vectordrawable_vectordrawable-animated",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib19\\classes.jar",
+      "sha256": "d2c6556395332732ce871fe88a50f0865f66cbd4290d054d5bf2a023c34b5934",
+      "namespace": "androidx.vectordrawable.animated"
+    },
+    {
+      "module": "androidx.cursoradapter_cursoradapter",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib21\\classes.jar",
+      "sha256": "0b72e584f64f2c425c9d9410effe0fd674ed365ab84e54099023398b3592fe41",
+      "namespace": "androidx.cursoradapter"
+    },
+    {
+      "module": "androidx.drawerlayout_drawerlayout",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib23\\classes.jar",
+      "sha256": "9b9e08318ed2e0be53820a05e6837c5035e10800f05dc3b46b2890c2b4d5d7b0",
+      "namespace": "androidx.drawerlayout"
+    },
+    {
+      "module": "androidx.customview_customview",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib22\\classes.jar",
+      "sha256": "d130ae4b7f7bc522b040586ba9a2d588153bd4189d1a33c839c8f3e331a19bea",
+      "namespace": "androidx.customview"
+    },
+    {
+      "module": "androidx.emoji2_emoji2",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib25\\classes.jar",
+      "sha256": "2147c12bd3af1affe5dbf621d7c1e3c4744b62f112e49296deeae2601dcb5772",
+      "namespace": "androidx.emoji2"
+    },
+    {
+      "module": "androidx.lifecycle_lifecycle-process",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib24\\classes.jar",
+      "sha256": "732b92fee0d41d21fb43e0014202cae6a1c2f8b25532438e70b11c9e59566c8d",
+      "namespace": "androidx.lifecycle.process"
+    },
+    {
+      "module": "androidx.emoji2_emoji2-views-helper",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib26\\classes.jar",
+      "sha256": "30df6fcb49cbbd2ad04c301619627fa1826bf646c7f0bc9e6b702505c3fe10dc",
+      "namespace": "androidx.emoji2.viewsintegration"
+    },
+    {
+      "module": "androidx.fragment_fragment",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib29\\classes.jar",
+      "sha256": "eac9411292bd5f80f22434a014c0c14c28cb84632e665ede296295ffff7e656c",
+      "namespace": "androidx.fragment"
+    },
+    {
+      "module": "androidx.loader_loader",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib27\\classes.jar",
+      "sha256": "16816f299c366d2371727a6ed447b6b83d26ad8d089f6686228ad217237310a6",
+      "namespace": "androidx.loader"
+    },
+    {
+      "module": "androidx.viewpager_viewpager",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib28\\classes.jar",
+      "sha256": "1f71751e6e065422089fc28d35e2061b4643766b3e44fb54b43e25ec6f172c81",
+      "namespace": "androidx.viewpager"
+    },
+    {
+      "module": "androidx.resourceinspection_resourceinspection-annotation",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\4be19136f060f3fe76dfc6a0895fd803706cc68e.jar",
+      "sha256": "0d9f27e1b1bb71a468ba6b79de436bed8978589988ae27fdb97895e32f91bc3f"
+    },
+    {
+      "module": "androidx-constraintlayout_constraintlayout",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib31\\classes.jar",
+      "sha256": "d0fba04dec229b82c74311e1788b5e8691dd383d0b181d0b70e8b3f6035d1676",
+      "namespace": "androidx.constraintlayout.widget"
+    },
+    {
+      "module": "androidx.constraintlayout_constraintlayout-core",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\014ba810e7ea0e8f89b55981bb93e7236d009137.jar",
+      "sha256": "106e96377951819b3ddaadf493798d4fb75767cf2fa1da505e0455c2a7c57f74"
+    },
+    {
+      "module": "androidx.exifinterface_exifinterface",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib32\\classes.jar",
+      "sha256": "84838b014173d1c80a6bde1807ed30382bebe6bd5530505bb11f48cd62794a74",
+      "namespace": "androidx.exifinterface"
+    },
+    {
+      "module": "androidx.fragment_fragment-ktx",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib34\\classes.jar",
+      "sha256": "591fa1a3210d238a405a3ba4de74fdabb01298d2a18086e1ef143ad8137eb257",
+      "namespace": "androidx.fragment.ktx"
+    },
+    {
+      "module": "androidx.lifecycle_lifecycle-viewmodel-ktx",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib33\\classes.jar",
+      "sha256": "9a5f9d11d586226fa98b3f288aa8dada5a9868850e5bf41c12089cf436a815b8",
+      "namespace": "androidx.lifecycle.viewmodel.ktx"
+    },
+    {
+      "module": "androidx.graphics_graphics-shapes",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib35\\classes.jar",
+      "sha256": "aa5d231a39a672484d05f4c0989211c93ad7e6c3600338fd4946329378a08280",
+      "namespace": "androidx.graphics.shapes"
+    },
+    {
+      "module": "androidx.lifecycle_lifecycle-runtime-ktx",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib36\\classes.jar",
+      "sha256": "95ea38cd0a98671eca1d677e3e88aeca38e153ae887f24d4081f9c17410084be",
+      "namespace": "androidx.lifecycle.ktx"
+    },
+    {
+      "module": "androidx.lifecycle_lifecycle-service",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib37\\classes.jar",
+      "sha256": "b104dd4ebca16f5ab27327f4f8eeca1cde64e5d2e9e3f13da1c612bb18eb9e84",
+      "namespace": "androidx.lifecycle.service"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-common-ktx",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib39\\classes.jar",
+      "sha256": "a571067362f25077f33f89cad89a51d3331af70a403db4f4e3a5b6cd07413fda",
+      "namespace": "androidx.media3.common.ktx"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-common",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib38\\classes.jar",
+      "sha256": "b4e6195e56b4cbf60ea269fea67b3418711e1e3f77692e25d182f14d409249d1",
+      "namespace": "androidx.media3.common"
+    },
+    {
+      "module": "guava",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\guava-android-host.jar",
+      "sha256": "320abff158f58c33a465953c71a43164e5736983da4800cefd848b112a7d4161"
+    },
+    {
+      "module": "jsr305",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\jsr305.jar",
+      "sha256": "eea5da80cad20ce7d08ef5533a9e28a93cb5ed82cc3415fc0531735186e7df22"
+    },
+    {
+      "module": "error_prone_annotations",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\error_prone_annotations.jar",
+      "sha256": "5c95657c99fa1c1f602b1d5486a0a618d6b0e79c761d5d7e772885fbae7af0c9"
+    },
+    {
+      "module": "guava-android-annotation-stubs",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\guava-android-annotation-stubs.jar",
+      "sha256": "100b2d143114e0c47fe8a114baabfe4968d8835e3d9542d3d33c0524f09cacf7"
+    },
+    {
+      "module": "kotlinx-coroutines-android",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx_coroutines_android.jar",
+      "sha256": "6e2663ad0f2f03df6dc2d3c32fed3282264186bac9b2e56743c0312d3625231c"
+    },
+    {
+      "module": "kotlinx-coroutines-core",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx_coroutines-host.jar",
+      "sha256": "5e97053f5921638707474636eedbbef94c6dc1bee1be3490a596a212a2f61015"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-exoplayer",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib45\\classes.jar",
+      "sha256": "f146e94c8c50529a0068533e8da162bfa25d4709f75358d2918fe108a07ebcbc",
+      "namespace": "androidx.media3.exoplayer"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-container",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib40\\classes.jar",
+      "sha256": "a1b46ca28972146059ce9a62101fa81a9e952aa9f2dc9667c2ca8b991b495bc1",
+      "namespace": "androidx.media3.container"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-database",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib41\\classes.jar",
+      "sha256": "d4b0509ee93605d4d43da2d458e78bbf728f865dbcd00aa2a726f4daf91d5da2",
+      "namespace": "androidx.media3.database"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-datasource",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib42\\classes.jar",
+      "sha256": "20ae5a70db934c40619c8f0ae508a1c70e18f115310c284481b64f836863ea4c",
+      "namespace": "androidx.media3.datasource"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-decoder",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib43\\classes.jar",
+      "sha256": "37badeeeb625d3bc63274c4055db4e2ab0136d2d6f7fb80a04ba9ee981fbe33d",
+      "namespace": "androidx.media3.decoder"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-extractor",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib44\\classes.jar",
+      "sha256": "7b9aba4eb9e1ceee165ea94111ebfa809c54d859e76aec5f8f27feddf398ea7c",
+      "namespace": "androidx.media3.extractor"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-exoplayer-dash",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib46\\classes.jar",
+      "sha256": "6e9e5d3245c669d57c632dcf35b7a52f52d2c23620c6a33dacdeedfe12b7c828",
+      "namespace": "androidx.media3.exoplayer.dash"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-exoplayer-hls",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib47\\classes.jar",
+      "sha256": "f3ec7207506b017838db6a289a9418374a4aebb5df6dda00b702e9c28b28cdb5",
+      "namespace": "androidx.media3.exoplayer.hls"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-exoplayer-rtsp",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib48\\classes.jar",
+      "sha256": "a9418e3eb78043bbeb14e947cfad1d990649dee974d5d4a0ec08095203e14e1f",
+      "namespace": "androidx.media3.exoplayer.rtsp"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-exoplayer-smoothstreaming",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib49\\classes.jar",
+      "sha256": "9e237310e498255fb9751b6a345550d4ef46bc6187a2582cbc974b58501217fa",
+      "namespace": "androidx.media3.exoplayer.smoothstreaming"
+    },
+    {
+      "module": "Glimpse_androidx.media3_media3-ui",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib52\\classes.jar",
+      "sha256": "fcd7ee52d148406a1cc4fe0cebff7b57de1a1e4404b84e35e94fc1e173f04b6a",
+      "namespace": "androidx.media3.ui"
+    },
+    {
+      "module": "androidx.recyclerview_recyclerview",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib51\\classes.jar",
+      "sha256": "936e5b900aaddfd77bef9c65417082b033ef9abcad047a725996352b42edd02a",
+      "namespace": "androidx.recyclerview"
+    },
+    {
+      "module": "androidx.customview_customview-poolingcontainer",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib50\\classes.jar",
+      "sha256": "a830b85d69941f3444ee2a17a9e79904afa3c6c4c94db7cedd2ccf90321632f7",
+      "namespace": "androidx.customview.poolingcontainer"
+    },
+    {
+      "module": "androidx.navigation_navigation-common",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib54\\classes.jar",
+      "sha256": "40aee2f0f8b85b4e4c74b810caa356a630c3fada8d947eb6346fbe89e433b34e",
+      "namespace": "androidx.navigation.common"
+    },
+    {
+      "module": "androidx.savedstate_savedstate-ktx",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib53\\classes.jar",
+      "sha256": "9a7ea345055979d69d4fc65815a819ac0a01ef06187ba48ba89aba6f582dab5c",
+      "namespace": "androidx.savedstate.ktx"
+    },
+    {
+      "module": "androidx.navigation_navigation-fragment-ktx",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib63\\classes.jar",
+      "sha256": "9893a4fc750cdb6ca0e6dcce9187e1667f9c7b525b66bfde35a5accd650f8bb4",
+      "namespace": "androidx.navigation.fragment.ktx"
+    },
+    {
+      "module": "androidx.navigation_navigation-fragment",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib62\\classes.jar",
+      "sha256": "a6fc198b58890d779b413734c9cf9b2ee8d2d42edfa2fff4d4e055afe144fc71",
+      "namespace": "androidx.navigation.fragment"
+    },
+    {
+      "module": "androidx.navigation_navigation-runtime",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib56\\classes.jar",
+      "sha256": "cfe588579cc724bd72726f93b05987c3b6318cd8abccad77009818ccba32000d",
+      "namespace": "androidx.navigation"
+    },
+    {
+      "module": "androidx.activity_activity-ktx",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib55\\classes.jar",
+      "sha256": "64f979583092bd51ff7f54aafded6d84b0584403a91dc1964f8a5c9af22ff415",
+      "namespace": "androidx.activity.ktx"
+    },
+    {
+      "module": "androidx.slidingpanelayout_slidingpanelayout",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib61\\classes.jar",
+      "sha256": "2654729e64d4795e07d270146fbbbe29eedee72ff48ecd3020a713e71a7e4d9c",
+      "namespace": "androidx.slidingpanelayout"
+    },
+    {
+      "module": "androidx.transition_transition",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib58\\classes.jar",
+      "sha256": "c095235fa6f648b00cf273c7d5263289355fc3aa42eb6e24813dea11c022a8b7",
+      "namespace": "androidx.transition"
+    },
+    {
+      "module": "androidx.dynamicanimation_dynamicanimation",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib57\\classes.jar",
+      "sha256": "3a34abb1671045ea05bc6f7703c6a3ef183a64bb4da58fbde75378c87072ecf1",
+      "namespace": "androidx.dynamicanimation"
+    },
+    {
+      "module": "androidx.window_window",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib60\\classes.jar",
+      "sha256": "fc930b2bd5969533c88d1fae4dfda6cd4605b9c1ba5c2dc90896bf840ab9cf29",
+      "namespace": "androidx.window"
+    },
+    {
+      "module": "androidx.window_window-core",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib59\\classes.jar",
+      "sha256": "89f75c1628fca48bf6f053bb4599f304f391a7ee7e6a93aa676bdf4da97720e7",
+      "namespace": "androidx.window.core"
+    },
+    {
+      "module": "androidx.navigation_navigation-ui-ktx",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib69\\classes.jar",
+      "sha256": "391f3cb37f1ba947da2fe8bbdf70b59f763b8dcf98be8187fe18fd4d821e3984",
+      "namespace": "androidx.navigation.ui.ktx"
+    },
+    {
+      "module": "androidx.navigation_navigation-ui",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib68\\classes.jar",
+      "sha256": "bfaf1b6225e7db0613808075f945894e9f05ec6b1b1bdf967ad4ac7c18ff6fc7",
+      "namespace": "androidx.navigation.ui"
+    },
+    {
+      "module": "androidx.coordinatorlayout_coordinatorlayout",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib64\\classes.jar",
+      "sha256": "3bd84b301f1e2fccbe64a272e9f9f601db2058a5305ec1e4ab00e43f1b82aee3",
+      "namespace": "androidx.coordinatorlayout"
+    },
+    {
+      "module": "com.google.android.material_material-nodeps",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib67\\classes.jar",
+      "sha256": "1f49bd08be1e9791606b10c00bda724b0c7a690ee0573dbc553e2cbc5288e7ea",
+      "namespace": "com.google.android.material"
+    },
+    {
+      "module": "androidx.cardview_cardview",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib65\\classes.jar",
+      "sha256": "299544fa8aad66588cd74227f56c4a3b132fec784b4a96cc7692a28e5f9bb32c",
+      "namespace": "androidx.cardview"
+    },
+    {
+      "module": "androidx.viewpager2_viewpager2",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib66\\classes.jar",
+      "sha256": "2dc065f30c2047882024e4abfc9ad2a32f2c8b0b8585be9ce08dfb233d967329",
+      "namespace": "androidx.viewpager2"
+    },
+    {
+      "module": "androidx.preference_preference",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib70\\classes.jar",
+      "sha256": "f6df67e9060b62763da14e8750926fd6f5309f757f50be5c89e9911ca2130427",
+      "namespace": "androidx.preference"
+    },
+    {
+      "module": "androidx.recyclerview_recyclerview-selection",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib71\\classes.jar",
+      "sha256": "ea3337efb0bd64275baec30499701459b93d4ae719a9680f5ee2d9b3815306c3",
+      "namespace": "androidx.recyclerview.selection"
+    },
+    {
+      "module": "Glimpse_com.adobe.xmp_xmpcore",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\libs\\com\\adobe\\xmp\\xmpcore\\6.1.11\\xmpcore-6.1.11.jar",
+      "sha256": "8f7033c579b99fa0d9d6ddcb9448875b5e4b577c350002278ce46997d678b737"
+    },
+    {
+      "module": "Glimpse_com.github.bumptech.glide_glide",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib74\\classes.jar",
+      "sha256": "df2ac85a765a6153b515e036e2291d615fedd80d0c5c408385ec06f9a9f2e8f0",
+      "namespace": "com.bumptech.glide"
+    },
+    {
+      "module": "Glimpse_com.github.bumptech.glide_annotations",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\libs\\com\\github\\bumptech\\glide\\annotations\\5.0.5\\annotations-5.0.5.jar",
+      "sha256": "fb3e596a60c182f3251170bd1e2dfe32ca1d1f0d79763408d1bf168c81d61ae1"
+    },
+    {
+      "module": "Glimpse_com.github.bumptech.glide_disklrucache",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib72\\classes.jar",
+      "sha256": "94f2c47ea708fd3dbf6fb732d74160977ce6053e9ee333c1f7a0b11f6a4c358d",
+      "namespace": "com.bumptech.glide.disklrucache"
+    },
+    {
+      "module": "Glimpse_com.github.bumptech.glide_gifdecoder",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib73\\classes.jar",
+      "sha256": "a30710fd6b06e113d6d234bef8756c786a58fd0b2cc396bb87971cbf1e54ec85",
+      "namespace": "com.bumptech.glide.gifdecoder"
+    },
+    {
+      "module": "Glimpse_com.github.bumptech.glide_okhttp3-integration",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib76\\classes.jar",
+      "sha256": "bf81bd8b18de5872c7ac5d606efd0741491db029c2dcc6a2adb1ffbe770f1aaa",
+      "namespace": "com.bumptech.glide.integration.okhttp"
+    },
+    {
+      "module": "Glimpse_com.squareup.okhttp3_okhttp-android",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib75\\classes.jar",
+      "sha256": "c8a553a9c97aa7b0bd5506a83f14bc6a7bcf321c0061cb9cfbf921d5c7c5bd09",
+      "namespace": "okhttp.okhttp3"
+    },
+    {
+      "module": "Glimpse_com.squareup.okio_okio-jvm",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\27-gallery-contracts\\upstream\\packages\\apps\\Glimpse\\app\\libs\\com\\squareup\\okio\\okio-jvm\\3.16.4\\okio-jvm-3.16.4.jar",
+      "sha256": "2196b993cd34dbbd919e7e01f57a4781b58bee80f86106163e287c20343a96a7"
+    },
+    {
+      "module": "Glimpse_com.google.android.material_material",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib77\\classes.jar",
+      "sha256": "942ccd64c1b1ebfde0ba0ce84d001f09c527bd8fe408135de7080df49f588b8e",
+      "namespace": "com.google.android.material"
+    },
+    {
+      "module": "Glimpse_io.github.panpf.zoomimage_zoomimage-core-android",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib78\\classes.jar",
+      "sha256": "5f84a8b02ac21d442f0b568c780a9c671b9c0ec4b49e7f0bd19e6ea9b5359d7f",
+      "namespace": "com.github.panpf.zoomimage.core"
+    },
+    {
+      "module": "Glimpse_io.github.panpf.zoomimage_zoomimage-view-glide",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib81\\classes.jar",
+      "sha256": "43c45ad6c903f9b266714f81a30f4afc9d8319490266f057622ab88f3bc0829a",
+      "namespace": "com.github.panpf.zoomimage.view.glide"
+    },
+    {
+      "module": "Glimpse_io.github.panpf.zoomimage_zoomimage-core-glide",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib79\\classes.jar",
+      "sha256": "400a9221f0244f8ff99183572fa81c9b42dddaac2b04de622bd8c1f8dbdb2ef8",
+      "namespace": "com.github.panpf.zoomimage.core.glide"
+    },
+    {
+      "module": "Glimpse_io.github.panpf.zoomimage_zoomimage-view",
+      "classpath": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\lib80\\classes.jar",
+      "sha256": "5f485c0c6ff07035fed56a1c7a834da8dc3404105f7ccccbcc8a6c22e219b240",
+      "namespace": "com.github.panpf.zoomimage.view"
+    }
+  ],
+  "resourceLinkSha256": "9705b6aeccf4e379bac0c177073579f30bfaeecf3d7d2fd9865f014922c78eb9",
+  "sdk36Sha256": "d9eb9da824d9e247a352f570f01e1169e725b2954bca9e283a71786c59b59f9a",
+  "pinnedCompilerRevision": "200271076d3a9dc6b576497792a4a6fad78994fc",
+  "classJar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\Glimpse-source-classes.jar",
+  "classJarSha256": "2b99b99672afdac56d70af49a3518182af63afb63ad905de2f6bc5f4f94d8342",
+  "modelsOrControllersSubstituted": false,
+  "officialSoongInvocation": "NOT RUN",
+  "nativeInflationAndDeviceTests": "NOT RUN",
+  "wholeGoalComplete": false
+}

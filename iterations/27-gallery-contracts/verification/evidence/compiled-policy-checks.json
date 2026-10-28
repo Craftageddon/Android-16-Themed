@@ -1,0 +1,83 @@
+{
+  "result": "PASS",
+  "actualCompiledAppJarSha256": "2b99b99672afdac56d70af49a3518182af63afb63ad905de2f6bc5f4f94d8342",
+  "policyCases": 1536,
+  "policyAssertions": 14076,
+  "wrappingCases": 1302,
+  "geometryAssertions": 257083,
+  "probes": [
+    {
+      "probe": "GalleryPolicyProbe",
+      "probeSourceSha256": "41b96870df8d8a4604c3c074a460ce45b7a43e4e449daed586c34d44ddce1b49",
+      "testDefinition": "compile_gallery_core.py",
+      "testDefinitionSha256": "2aa8e1859d05872bca6a55d8a029d798304bb53cf45b7ed7d5aad7c31b8ddad1",
+      "commands": [
+        {
+          "command": [
+            "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\javac.exe",
+            "--release",
+            "17",
+            "-proc:none",
+            "-cp",
+            "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\Glimpse-source-classes.jar",
+            "-d",
+            "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-policy-20261028-073047-331140",
+            "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-policy-20261028-073047-331140\\GalleryPolicyProbe.java"
+          ],
+          "exitCode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\java.exe",
+            "-cp",
+            "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-policy-20261028-073047-331140;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\Glimpse-source-classes.jar",
+            "GalleryPolicyProbe"
+          ],
+          "exitCode": 0,
+          "stdout": "cold|false|1.0|0.0|0.0|0.0|0.0|0.0|0.0\nfocused|false|1.0|0.0|0.0|0.0|0.0|1.0|0.0\nhovered|false|1.0|0.0|0.0|0.0|0.0|1.0|0.0\npressed|true|1.0|0.6|0.92|1.0|1.0|0.0|1.0\non|true|1.0|0.32|0.72|1.0|0.82|0.0|1.0\non-locked|true|0.42|0.192|0.43200004|0.6|0.492|0.0|0.6\noff-locked|false|0.42|0.0|0.0|0.0|0.0|0.0|0.0\nPASS policyAssertions=14076 cases=1536 mediaOperations=0\n",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "probe": "GalleryRowsProbe",
+      "probeSourceSha256": "e6df315339654d649ad2ca5f4b188aed6e6b7998c8f81e86facc4cc6b027339e",
+      "testDefinition": "compile_gallery_controls.py",
+      "testDefinitionSha256": "5de89ca9caede4f4c38b9558c6711e64925c37c4c8ddf2acbdc3558d3409b949",
+      "commands": [
+        {
+          "command": [
+            "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\javac.exe",
+            "--release",
+            "17",
+            "-proc:none",
+            "-cp",
+            "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\Glimpse-source-classes.jar",
+            "-d",
+            "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-policy-20261028-073047-331140",
+            "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-policy-20261028-073047-331140\\GalleryRowsProbe.java"
+          ],
+          "exitCode": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\java.exe",
+            "-cp",
+            "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-policy-20261028-073047-331140;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-owners-20261028-072654-148030\\Glimpse-source-classes.jar",
+            "GalleryRowsProbe"
+          ],
+          "exitCode": 0,
+          "stdout": "PASS wrappingCases=1302 geometryAssertions=257083 syntheticMetricsOnly=true\n",
+          "stderr": ""
+        }
+      ]
+    }
+  ],
+  "mediaOperationsExecuted": false,
+  "nativeAndroidLayoutTests": false,
+  "wholeGoalComplete": false
+}

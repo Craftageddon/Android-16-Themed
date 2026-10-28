@@ -1,0 +1,1201 @@
+{
+  "nativeConsumers": [
+    {
+      "alias": "exo_legacy_controls_fastforward",
+      "sourceAlias": "exo_icon_fastforward",
+      "effectiveChain": [
+        "exo_legacy_controls_fastforward",
+        "exo_icon_fastforward"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+          "sha256": "cd3f6c4c03f5d63e77cd240025907ef13d31768b8147c7872642abe89ede1c7f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_fastforward.png",
+          "sha256": "dd6399b11d5363698f819466b9b29dfd829992ecaf2004e454e5dfc594166889"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_fastforward.png",
+          "sha256": "3bb93ccd29534d11945f44f7d8102d54573322cfea9b132b27deb5b2ac9466ce"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_fastforward.png",
+          "sha256": "a0df8d3b4003b0de54c424e67e3f4c58c4b10a55b3857e472fbca277e93658c8"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_fastforward.png",
+          "sha256": "a5c7d5634e92a5fb63bf36d5f90e2b27f060c7ecd37d3e5f81acea0a4f4449b2"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_fastforward.png",
+          "sha256": "33986362c6d7eec4cf6f94a972397595e73b0ab096c7dd411525b78418fc506f"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 145,
+            "text": "*   <li><b>{@code exo_legacy_controls_fastforward}</b> - The fast forward icon."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_fullscreen_enter",
+      "sourceAlias": "exo_icon_fullscreen_enter",
+      "effectiveChain": [
+        "exo_legacy_controls_fullscreen_enter",
+        "exo_icon_fullscreen_enter"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fullscreen_enter.xml",
+          "sha256": "388658ad43d5d8b465fe259aa150acd5a1222316918a13be269d4f0cd2910fce"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_fullscreen_enter.png",
+          "sha256": "08e96bb2201939b8fc86da6501ad51d469420aa9650aa7b9af89e8b8c4f7bcf0"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_fullscreen_enter.png",
+          "sha256": "3b9bc9995c5f8421940b2572caa814023b349f681b76697a3c944b88aecd9c3c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_fullscreen_enter.png",
+          "sha256": "060725c86c5a869565a2219f10384c07f8cfd5cc41640d772de97b66453e24ce"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_fullscreen_enter.png",
+          "sha256": "c201d538b8ceb02e5a01712247d35ca532c3234304cf952e62cdd2848457572d"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_fullscreen_enter.png",
+          "sha256": "4a0fbf30f378526f6d6f173223c39df9ad8930168fc102cc38facea2efc85510"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [],
+        "layoutOrStyleReferences": [
+          {
+            "path": "source/media3-ui/original-resources/res/values/values.xml",
+            "sha256": "1764a96e8404cd0b597d67bff860ed3e06e879c3513dd6a549230b07b9956065"
+          }
+        ]
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_fullscreen_exit",
+      "sourceAlias": "exo_icon_fullscreen_exit",
+      "effectiveChain": [
+        "exo_legacy_controls_fullscreen_exit",
+        "exo_icon_fullscreen_exit"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fullscreen_exit.xml",
+          "sha256": "74c254c8128f42431162a941a433c179e37930a0739da26a37eafa162c7e15e9"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_fullscreen_exit.png",
+          "sha256": "c323e761a355ff118be5c0acf88f0c118b13cfe4f3972c09dee8d08b5d7db340"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_fullscreen_exit.png",
+          "sha256": "4578ae8c9e9472c97c0edcdb02b062a3e8717b3c58a76bd11c77ab408b6bf956"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_fullscreen_exit.png",
+          "sha256": "36e6c0847eaa72ebb182e4aa6698ad561d45f32a91d9740432d2bdf8113bf570"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_fullscreen_exit.png",
+          "sha256": "bcdcd52d56fa7f248b4d2a867d22b18656c3a75dfc0c7a72fd423128451c080d"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_fullscreen_exit.png",
+          "sha256": "c6960a93295fdc86181817f10ad2b34c547d77a66ff48b0932399a41925e9937"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [],
+        "layoutOrStyleReferences": [
+          {
+            "path": "source/media3-ui/original-resources/res/values/values.xml",
+            "sha256": "1764a96e8404cd0b597d67bff860ed3e06e879c3513dd6a549230b07b9956065"
+          }
+        ]
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_next",
+      "sourceAlias": "exo_icon_next",
+      "effectiveChain": [
+        "exo_legacy_controls_next",
+        "exo_icon_next"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_next.xml",
+          "sha256": "14ab85a15644a6dd83cb1e942e99be336f66e4cdf5fb54ea1c503759dc013f1a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_next.png",
+          "sha256": "7626f61df4f0d2e0d6cc76848563a181e3550e92157f7e506519aed669c20a02"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_next.png",
+          "sha256": "816dffefaa5e5fa18327db5c7856ad2220150ea85185463977ebb4a255537833"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_next.png",
+          "sha256": "7d88944e8062c9f04b4a1c0cba6a57115dfb6f0ac74d9e9710c55f220c4812d0"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_next.png",
+          "sha256": "d4a12afb754d61b3a95fa242fbb2bd31696ab8d8b6a694b7ce1901b25760c7f5"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_next.png",
+          "sha256": "d90e992018fa0bc5bfe6075889b5618fe0eb8c7609bd96c0ed51d667d26c5425"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 147,
+            "text": "*   <li><b>{@code exo_legacy_controls_next}</b> - The next icon."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_pause",
+      "sourceAlias": "exo_icon_pause",
+      "effectiveChain": [
+        "exo_legacy_controls_pause",
+        "exo_icon_pause"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_pause.xml",
+          "sha256": "8c8a4ddd858ab2fb07ba9f6815d8809988f11d705d533434ba81aad645b90807"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_pause.png",
+          "sha256": "158672fbac7706849ed6d07bfed214c71c9bd2fb234e2835b1c396d24dd9398a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_pause.png",
+          "sha256": "af5233f498f505cafff2a05425737209dec892ae7057d9c3d88506de15e93fc7"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_pause.png",
+          "sha256": "aa82a88aae367b8d84ba9d0fdd9bfd124b9ad2d445549eb72e88529dddac6500"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_pause.png",
+          "sha256": "cb6ad001ba879e3a7db7158fc4273ec4fa8de6705432b2bbb007bcbeeb563d11"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_pause.png",
+          "sha256": "9fafcd809251df20fe7c7131e352ca482f2c3bc7e7b79c9e1ca06fde72116574"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 143,
+            "text": "*   <li><b>{@code exo_legacy_controls_pause}</b> - The pause icon."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_play",
+      "sourceAlias": "exo_icon_play",
+      "effectiveChain": [
+        "exo_legacy_controls_play",
+        "exo_icon_play"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_play.xml",
+          "sha256": "57966d9c92678633a39f3dcc9274a7b87180ae44fda16a3e23cae7aa2bfd11be"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_play.png",
+          "sha256": "52e4df6817904e8beccf60c07af9ef3c98511205633f1ac3225c3ac8c1e6aeab"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_play.png",
+          "sha256": "3e9cf50286f92b06fb3cbea4af1cadd14ac152a3302bf7e44ff674f70240eda4"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_play.png",
+          "sha256": "456d2f4faa7cf25035f2223ff7dda1e2b2876b9ffaab56c871bf94b31338f996"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_play.png",
+          "sha256": "4c1377c03a352a18769fdb1695bbbeda5348c76740ed093da7bd4854f9607443"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_play.png",
+          "sha256": "ed555b25c9d460e889ceab734787d1d4b1464efc5f33bbd8c08696b1909b06fd"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 142,
+            "text": "*   <li><b>{@code exo_legacy_controls_play}</b> - The play icon."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_previous",
+      "sourceAlias": "exo_icon_previous",
+      "effectiveChain": [
+        "exo_legacy_controls_previous",
+        "exo_icon_previous"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_previous.xml",
+          "sha256": "f6e6ba0e142cf8a611c1baafe488a2101c7722c3c5a553693d3c7e16eb06a4d1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_previous.png",
+          "sha256": "a5c0c4f2627a0e78cb0fcf2669b77981f2fc37ca0c802c5cab2172f0f1eaca50"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_previous.png",
+          "sha256": "bd8c3ba58c864d5b6a3e799d215d5589b40575cbeef73c41fd7856b71186603c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_previous.png",
+          "sha256": "2ec8d396d7185b702d6f787e568d55e67fbbefb09538b8ffa05341ded8957bbf"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_previous.png",
+          "sha256": "9a6071533254af545b37965b5e922ac4afffd9a5295614163f3f94bcda97c9b9"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_previous.png",
+          "sha256": "130ccff499f51f277394cc8c5a6e9fbb47642463a0e397dc4ed311e8d4b57498"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 146,
+            "text": "*   <li><b>{@code exo_legacy_controls_previous}</b> - The previous icon."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_repeat_all",
+      "sourceAlias": "exo_icon_repeat_all",
+      "effectiveChain": [
+        "exo_legacy_controls_repeat_all",
+        "exo_icon_repeat_all"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+          "sha256": "33cfe04db3849afaa84a066d4f51d7dc55ade42394a58a6d7fe6fb47f2507cb1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_repeat_all.png",
+          "sha256": "d498ca07b1b949f3667d1e2d20582014604ade13ae702ac6d654dd8e7d1c804d"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_repeat_all.png",
+          "sha256": "97da735e777ed47155c24e272966bef05d9b2ee7866a4e27ddbffab36aceaf1c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_repeat_all.png",
+          "sha256": "27bbcb597e8b5fd424fa90222d50b6f78d2ec14d08681591d9c9e0c00c0cd1a3"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_repeat_all.png",
+          "sha256": "06648e14b1826079273b34866a305f43e52bdbd9123ca06ab79fc75aa5e4c275"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_repeat_all.png",
+          "sha256": "0afa5d5b1a018125da8b3a3ebe05a5f9a9f0573a824cf620463a7ca8aa608607"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 152,
+            "text": "*   <li><b>{@code exo_legacy_controls_repeat_all}</b> - The repeat icon for {@link"
+          },
+          {
+            "line": 199,
+            "text": "*             {@code exo_legacy_controls_repeat_all}. See the section above for information on"
+          },
+          {
+            "line": 511,
+            "text": "getDrawable(context, resources, R.drawable.exo_legacy_controls_repeat_all);"
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_repeat_off",
+      "sourceAlias": "exo_icon_repeat_off",
+      "effectiveChain": [
+        "exo_legacy_controls_repeat_off",
+        "exo_icon_repeat_off"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+          "sha256": "36320855fbb300cea55d9c4ea82b32595440e5f10bcedd826f148c24072209b5"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_repeat_off.png",
+          "sha256": "2974f272232e2ed914f2109c953532038257b0677958348e85251fbdd84782f9"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_repeat_off.png",
+          "sha256": "39d6ef683355f7e176dbdd12581510addcfe1dbd20a8c7729b4f92ddd8092a9b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_repeat_off.png",
+          "sha256": "a7b23a82d794c08f108ecf3c627bde8b6ecda41c772d078fe9fe386d31a2fd90"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_repeat_off.png",
+          "sha256": "d58af871904f307930136276f672f93fb2642cdcd70b1e9a89a433090caea7af"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_repeat_off.png",
+          "sha256": "9c8efe05feab6ab5c1c057cb00b9b04e8d654ad2229fb5a7dcdd3f7c57fa32ab"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 148,
+            "text": "*   <li><b>{@code exo_legacy_controls_repeat_off}</b> - The repeat icon for {@link"
+          },
+          {
+            "line": 198,
+            "text": "*             {@code exo_legacy_controls_repeat_off}, {@code exo_legacy_controls_repeat_one} and"
+          },
+          {
+            "line": 507,
+            "text": "getDrawable(context, resources, R.drawable.exo_legacy_controls_repeat_off);"
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_repeat_one",
+      "sourceAlias": "exo_icon_repeat_one",
+      "effectiveChain": [
+        "exo_legacy_controls_repeat_one",
+        "exo_icon_repeat_one"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+          "sha256": "33ac407a93533508391e3a4df62fef8e96abfdbb1e7ac03393dce0cb9debb3c4"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_repeat_one.png",
+          "sha256": "fa6e2026ac1b283d4df5d7ff841417108c87d1be9befd86d05e1e7c5cb855213"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_repeat_one.png",
+          "sha256": "c73b3469df710cec5318359ab62683f846708b74812f7cfb84def8b030f53941"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_repeat_one.png",
+          "sha256": "f5e7ebd42942247ce2e4122e9d1e3f2c95f22853812215d89d7725fb2c8c0165"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_repeat_one.png",
+          "sha256": "7421e7b1a19d91d1c5d7c22bb9011d2d331636db3709373a287a1628c3f7f51d"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_repeat_one.png",
+          "sha256": "f96c36013399e4c25b87c1db213bb7df225f4fbe0458981c9be24b8bf71b1167"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 150,
+            "text": "*   <li><b>{@code exo_legacy_controls_repeat_one}</b> - The repeat icon for {@link"
+          },
+          {
+            "line": 198,
+            "text": "*             {@code exo_legacy_controls_repeat_off}, {@code exo_legacy_controls_repeat_one} and"
+          },
+          {
+            "line": 509,
+            "text": "getDrawable(context, resources, R.drawable.exo_legacy_controls_repeat_one);"
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_rewind",
+      "sourceAlias": "exo_icon_rewind",
+      "effectiveChain": [
+        "exo_legacy_controls_rewind",
+        "exo_icon_rewind"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+          "sha256": "4284259fb05b0ab3af0cc22d69b4e43aeb5708c7d33db7c2acdb47a0fe52a885"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_rewind.png",
+          "sha256": "87a456fcace171a99d20d827d2d8fa81416475a18c9a58d30c41d11ed67b721f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_rewind.png",
+          "sha256": "8a6b907d4dd1f6959d1a08270aa314b30ffe3a5255e1005066b8cf110cd26eee"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_rewind.png",
+          "sha256": "6d4e1b09125d412076d5bb8bb1a5900ba41250252f27963d7083a2416322ee3b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_rewind.png",
+          "sha256": "fc5ffc7a5718a08e25785c1900e8ff6a0e25d43ca1b523c6ea7ab838a21cb261"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_rewind.png",
+          "sha256": "0f6878047b81dd9452156f19e56b51ae837f73d28d66f495bfde1dccca58bdc7"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 144,
+            "text": "*   <li><b>{@code exo_legacy_controls_rewind}</b> - The rewind icon."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_shuffle_off",
+      "sourceAlias": "exo_icon_shuffle_off",
+      "effectiveChain": [
+        "exo_legacy_controls_shuffle_off",
+        "exo_icon_shuffle_off"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+          "sha256": "9628c7280fed8654f59872745296ec9784b4b92e70f3bf047f535af1ec06d640"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_shuffle_off.png",
+          "sha256": "ebb0d56032f799aa558ac2e04f9e3dd5f62f8e43578966516ec09101cfd8e45f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_shuffle_off.png",
+          "sha256": "46970dc913767f377971e7949a0e87f8dd1a2724f765f0eb2bf9988637062881"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_shuffle_off.png",
+          "sha256": "b3f53f8d207b20d9aafd5cfc8914fd16c5ad125afb8c175d5c242e3903eb7897"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_shuffle_off.png",
+          "sha256": "38ed8f29810584687e7f7611eac467bff7e2a14c034b119c13d0881ca82949f1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_shuffle_off.png",
+          "sha256": "681874018630ba4956b42b33ce0ea39ca0a3712f428077062c0229234c25735c"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 154,
+            "text": "*   <li><b>{@code exo_legacy_controls_shuffle_off}</b> - The shuffle icon when shuffling is"
+          },
+          {
+            "line": 207,
+            "text": "*             exo_legacy_controls_shuffle_off} and {@code exo_legacy_controls_shuffle_on}. See the"
+          },
+          {
+            "line": 515,
+            "text": "getDrawable(context, resources, R.drawable.exo_legacy_controls_shuffle_off);"
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_shuffle_on",
+      "sourceAlias": "exo_icon_shuffle_on",
+      "effectiveChain": [
+        "exo_legacy_controls_shuffle_on",
+        "exo_icon_shuffle_on"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+          "sha256": "2b5b4a738dbea931973ffbe0269aac45eb042fd88e6204237dea633de60afc19"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_shuffle_on.png",
+          "sha256": "e06a1e1e7e95e6bcef5620a8a5aa2b6bc8b5082f51c23bc1a71a2121d3c6063c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_shuffle_on.png",
+          "sha256": "c2c8e9c0c6fc7c8f0eafe4ffbd7092bf7e12dda8d0b417037426a3d44d65fbd1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_shuffle_on.png",
+          "sha256": "4b5ade79ba9a38334784a61e997bc3ebaf87a71f47a07cdc5b963e1c62005e4c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_shuffle_on.png",
+          "sha256": "f653f64de935b06f498ec6bffdee32585ccdd081c26e4062e00a1ba3d3e7eb8e"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_shuffle_on.png",
+          "sha256": "c5fedfb81f882882ce2ae11a3c23d3ca05e9fb49de6434359a720a6892015825"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 156,
+            "text": "*   <li><b>{@code exo_legacy_controls_shuffle_on}</b> - The shuffle icon when shuffling is enabled."
+          },
+          {
+            "line": 207,
+            "text": "*             exo_legacy_controls_shuffle_off} and {@code exo_legacy_controls_shuffle_on}. See the"
+          },
+          {
+            "line": 513,
+            "text": "getDrawable(context, resources, R.drawable.exo_legacy_controls_shuffle_on);"
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_legacy_controls_vr",
+      "sourceAlias": "exo_icon_vr",
+      "effectiveChain": [
+        "exo_legacy_controls_vr",
+        "exo_icon_vr"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_vr.png",
+          "sha256": "86b98d5052ca09473b54a454eb0ed2738e0e431724e20ec6e8883de847518286"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_vr.png",
+          "sha256": "5e657d3c6f66583e6bb01ba33dc7f6d645c2139b405166749469df660f6ba69c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_vr.png",
+          "sha256": "8ca9277e1962c804d463895a0ccc8b3f7154ac85fc4b8e9fc04658ec9cbd9b9e"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_vr.png",
+          "sha256": "c3aa9130cf52bd20885f7d20cb080771fd7f454c871886f458f1d02dd3b32ee8"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_vr.png",
+          "sha256": "12c3e20d46259bb2808367cdf3b0a45c8117ece54d7e97bb7b29c92220b8379d"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/LegacyPlayerControlView.java",
+        "sha256": "90254879703343d18d316e6851697f2d5442135c9d58df910792dd492090efb3",
+        "references": [
+          {
+            "line": 157,
+            "text": "*   <li><b>{@code exo_legacy_controls_vr}</b> - The VR icon."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_notification_fastforward",
+      "sourceAlias": "exo_icon_fastforward",
+      "effectiveChain": [
+        "exo_notification_fastforward",
+        "exo_icon_fastforward"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+          "sha256": "cd3f6c4c03f5d63e77cd240025907ef13d31768b8147c7872642abe89ede1c7f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_fastforward.png",
+          "sha256": "dd6399b11d5363698f819466b9b29dfd829992ecaf2004e454e5dfc594166889"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_fastforward.png",
+          "sha256": "3bb93ccd29534d11945f44f7d8102d54573322cfea9b132b27deb5b2ac9466ce"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_fastforward.png",
+          "sha256": "a0df8d3b4003b0de54c424e67e3f4c58c4b10a55b3857e472fbca277e93658c8"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_fastforward.png",
+          "sha256": "a5c7d5634e92a5fb63bf36d5f90e2b27f060c7ecd37d3e5f81acea0a4f4449b2"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_fastforward.png",
+          "sha256": "33986362c6d7eec4cf6f94a972397595e73b0ab096c7dd411525b78418fc506f"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+        "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+        "references": [
+          {
+            "line": 164,
+            "text": "*   <li><b>{@code exo_notification_fastforward}</b> - The fast forward icon."
+          },
+          {
+            "line": 376,
+            "text": "fastForwardActionIconResourceId = R.drawable.exo_notification_fastforward;"
+          },
+          {
+            "line": 512,
+            "text": "* <p>The default is {@code R.drawable#exo_notification_fastforward}."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_notification_next",
+      "sourceAlias": "exo_icon_next",
+      "effectiveChain": [
+        "exo_notification_next",
+        "exo_icon_next"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_next.xml",
+          "sha256": "14ab85a15644a6dd83cb1e942e99be336f66e4cdf5fb54ea1c503759dc013f1a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_next.png",
+          "sha256": "7626f61df4f0d2e0d6cc76848563a181e3550e92157f7e506519aed669c20a02"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_next.png",
+          "sha256": "816dffefaa5e5fa18327db5c7856ad2220150ea85185463977ebb4a255537833"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_next.png",
+          "sha256": "7d88944e8062c9f04b4a1c0cba6a57115dfb6f0ac74d9e9710c55f220c4812d0"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_next.png",
+          "sha256": "d4a12afb754d61b3a95fa242fbb2bd31696ab8d8b6a694b7ce1901b25760c7f5"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_next.png",
+          "sha256": "d90e992018fa0bc5bfe6075889b5618fe0eb8c7609bd96c0ed51d667d26c5425"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+        "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+        "references": [
+          {
+            "line": 166,
+            "text": "*   <li><b>{@code exo_notification_next}</b> - The next icon."
+          },
+          {
+            "line": 378,
+            "text": "nextActionIconResourceId = R.drawable.exo_notification_next;"
+          },
+          {
+            "line": 536,
+            "text": "* <p>The default is {@code R.drawable#exo_notification_next}."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_notification_pause",
+      "sourceAlias": "exo_icon_pause",
+      "effectiveChain": [
+        "exo_notification_pause",
+        "exo_icon_pause"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_pause.xml",
+          "sha256": "8c8a4ddd858ab2fb07ba9f6815d8809988f11d705d533434ba81aad645b90807"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_pause.png",
+          "sha256": "158672fbac7706849ed6d07bfed214c71c9bd2fb234e2835b1c396d24dd9398a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_pause.png",
+          "sha256": "af5233f498f505cafff2a05425737209dec892ae7057d9c3d88506de15e93fc7"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_pause.png",
+          "sha256": "aa82a88aae367b8d84ba9d0fdd9bfd124b9ad2d445549eb72e88529dddac6500"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_pause.png",
+          "sha256": "cb6ad001ba879e3a7db7158fc4273ec4fa8de6705432b2bbb007bcbeeb563d11"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_pause.png",
+          "sha256": "9fafcd809251df20fe7c7131e352ca482f2c3bc7e7b79c9e1ca06fde72116574"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+        "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+        "references": [
+          {
+            "line": 162,
+            "text": "*   <li><b>{@code exo_notification_pause}</b> - The pause icon."
+          },
+          {
+            "line": 373,
+            "text": "pauseActionIconResourceId = R.drawable.exo_notification_pause;"
+          },
+          {
+            "line": 475,
+            "text": "* <p>The default is {@code R.drawable#exo_notification_pause}."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_notification_play",
+      "sourceAlias": "exo_icon_play",
+      "effectiveChain": [
+        "exo_notification_play",
+        "exo_icon_play"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_play.xml",
+          "sha256": "57966d9c92678633a39f3dcc9274a7b87180ae44fda16a3e23cae7aa2bfd11be"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_play.png",
+          "sha256": "52e4df6817904e8beccf60c07af9ef3c98511205633f1ac3225c3ac8c1e6aeab"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_play.png",
+          "sha256": "3e9cf50286f92b06fb3cbea4af1cadd14ac152a3302bf7e44ff674f70240eda4"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_play.png",
+          "sha256": "456d2f4faa7cf25035f2223ff7dda1e2b2876b9ffaab56c871bf94b31338f996"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_play.png",
+          "sha256": "4c1377c03a352a18769fdb1695bbbeda5348c76740ed093da7bd4854f9607443"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_play.png",
+          "sha256": "ed555b25c9d460e889ceab734787d1d4b1464efc5f33bbd8c08696b1909b06fd"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+        "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+        "references": [
+          {
+            "line": 161,
+            "text": "*   <li><b>{@code exo_notification_play}</b> - The play icon."
+          },
+          {
+            "line": 372,
+            "text": "playActionIconResourceId = R.drawable.exo_notification_play;"
+          },
+          {
+            "line": 463,
+            "text": "* <p>The default is {@code R.drawable#exo_notification_play}."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_notification_previous",
+      "sourceAlias": "exo_icon_previous",
+      "effectiveChain": [
+        "exo_notification_previous",
+        "exo_icon_previous"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_previous.xml",
+          "sha256": "f6e6ba0e142cf8a611c1baafe488a2101c7722c3c5a553693d3c7e16eb06a4d1"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_previous.png",
+          "sha256": "a5c0c4f2627a0e78cb0fcf2669b77981f2fc37ca0c802c5cab2172f0f1eaca50"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_previous.png",
+          "sha256": "bd8c3ba58c864d5b6a3e799d215d5589b40575cbeef73c41fd7856b71186603c"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_previous.png",
+          "sha256": "2ec8d396d7185b702d6f787e568d55e67fbbefb09538b8ffa05341ded8957bbf"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_previous.png",
+          "sha256": "9a6071533254af545b37965b5e922ac4afffd9a5295614163f3f94bcda97c9b9"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_previous.png",
+          "sha256": "130ccff499f51f277394cc8c5a6e9fbb47642463a0e397dc4ed311e8d4b57498"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+        "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+        "references": [
+          {
+            "line": 165,
+            "text": "*   <li><b>{@code exo_notification_previous}</b> - The previous icon."
+          },
+          {
+            "line": 377,
+            "text": "previousActionIconResourceId = R.drawable.exo_notification_previous;"
+          },
+          {
+            "line": 524,
+            "text": "* <p>The default is {@code R.drawable#exo_notification_previous}."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_notification_rewind",
+      "sourceAlias": "exo_icon_rewind",
+      "effectiveChain": [
+        "exo_notification_rewind",
+        "exo_icon_rewind"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+          "sha256": "4284259fb05b0ab3af0cc22d69b4e43aeb5708c7d33db7c2acdb47a0fe52a885"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_rewind.png",
+          "sha256": "87a456fcace171a99d20d827d2d8fa81416475a18c9a58d30c41d11ed67b721f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_rewind.png",
+          "sha256": "8a6b907d4dd1f6959d1a08270aa314b30ffe3a5255e1005066b8cf110cd26eee"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_rewind.png",
+          "sha256": "6d4e1b09125d412076d5bb8bb1a5900ba41250252f27963d7083a2416322ee3b"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_rewind.png",
+          "sha256": "fc5ffc7a5718a08e25785c1900e8ff6a0e25d43ca1b523c6ea7ab838a21cb261"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_rewind.png",
+          "sha256": "0f6878047b81dd9452156f19e56b51ae837f73d28d66f495bfde1dccca58bdc7"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+        "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+        "references": [
+          {
+            "line": 163,
+            "text": "*   <li><b>{@code exo_notification_rewind}</b> - The rewind icon."
+          },
+          {
+            "line": 375,
+            "text": "rewindActionIconResourceId = R.drawable.exo_notification_rewind;"
+          },
+          {
+            "line": 499,
+            "text": "* <p>The default is {@code R.drawable#exo_notification_rewind}."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_notification_small_icon",
+      "sourceAlias": "exo_icon_circular_play",
+      "effectiveChain": [
+        "exo_notification_small_icon",
+        "exo_icon_circular_play"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_circular_play.png",
+          "sha256": "b8f72870960706c64e11d70ac8c8eb5481d9a65235c7d7babcc0f0f448b4eaca"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_circular_play.png",
+          "sha256": "035a0fb2ebb43c10068d61546b44c2b590b8f0924b375c9a7dd3bc9d9ada4927"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_circular_play.png",
+          "sha256": "8f92699de32f5f781ffcb3238911bd93be6ebd45570ddd7abfa7655d3c2fb51f"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_circular_play.png",
+          "sha256": "804c5a64a4bc8e6c3b7693bb29f2dfd20807919b04e65a03f46aa8baa62ced25"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_circular_play.png",
+          "sha256": "eea87a962b45eff12a286371ed7f60b6e8b142d3a6b8cfd484b20683e08462fc"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxxhdpi-v4/exo_icon_circular_play.png",
+          "sha256": "38ad79c3744379b41a7cc06b034147cc48ae77b34e323f2e4d5c14ba9fc4bc55"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+        "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+        "references": [
+          {
+            "line": 158,
+            "text": "*   <li><b>{@code exo_notification_small_icon}</b> - The icon passed by default to {@link"
+          },
+          {
+            "line": 371,
+            "text": "smallIconResourceId = R.drawable.exo_notification_small_icon;"
+          },
+          {
+            "line": 451,
+            "text": "* <p>The default is {@code R.drawable#exo_notification_small_icon}."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    },
+    {
+      "alias": "exo_notification_stop",
+      "sourceAlias": "exo_icon_stop",
+      "effectiveChain": [
+        "exo_notification_stop",
+        "exo_icon_stop"
+      ],
+      "originalLeavesBytePreserved": [
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_stop.xml",
+          "sha256": "1135800337a01dff7e11c3d906aa9fbd7600da92a867e7bc401f3edd311863a7"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-hdpi-v4/exo_icon_stop.png",
+          "sha256": "c3c75a3a94a9b694a2f9f13ca77b8a638220edbf81f2be53c09c4ea0c518728a"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-ldpi-v4/exo_icon_stop.png",
+          "sha256": "cb96de13eaa0b38ad84622b9bf10de3e0d08cabf7556f83702a31df7c7c1e294"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-mdpi-v4/exo_icon_stop.png",
+          "sha256": "e36b0b8ad799dae89888a6c73e162d5bf17e1a82481c5593e7b1975b0532b6a4"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xhdpi-v4/exo_icon_stop.png",
+          "sha256": "0e3b79e7f6c572b759cd16e92fe75a1d774d0ef9749ae956abc38b55329e31f8"
+        },
+        {
+          "path": "source/media3-ui/original-resources/res/drawable-xxhdpi-v4/exo_icon_stop.png",
+          "sha256": "581f1d038f2a1aea88ffedc808ba712bcbab9148a4cb8b04f878d7c4a5059834"
+        }
+      ],
+      "consumerSource": {
+        "path": "source/media3-ui/original-java/androidx/media3/ui/PlayerNotificationManager.java",
+        "sha256": "1a092c394a8f687efa7ac097d74b95c1af93e38a3cbd5b50d23ba1af59c749b8",
+        "references": [
+          {
+            "line": 167,
+            "text": "*   <li><b>{@code exo_notification_stop}</b> - The stop icon."
+          },
+          {
+            "line": 374,
+            "text": "stopActionIconResourceId = R.drawable.exo_notification_stop;"
+          },
+          {
+            "line": 487,
+            "text": "* <p>The default is {@code R.drawable#exo_notification_stop}."
+          }
+        ],
+        "layoutOrStyleReferences": []
+      },
+      "decision": "PRESERVE_NATIVE_SHARED_CONSUMER_CONTRACT",
+      "sourceReviewed": true,
+      "nativeRuntimeAcceptance": "NOT RUN"
+    }
+  ],
+  "sharedAliasesAffectedByForge26LeafOverrides": [
+    "exo_legacy_controls_fastforward",
+    "exo_legacy_controls_repeat_all",
+    "exo_legacy_controls_repeat_off",
+    "exo_legacy_controls_repeat_one",
+    "exo_legacy_controls_rewind",
+    "exo_legacy_controls_shuffle_off",
+    "exo_legacy_controls_shuffle_on",
+    "exo_notification_fastforward",
+    "exo_notification_rewind"
+  ],
+  "currentPlayerAliasesRetargeted": {
+    "exo_styled_controls_audiotrack": "cg_gl_m3_exo_ic_audiotrack",
+    "exo_styled_controls_check": "cg_gl_m3_exo_ic_check",
+    "exo_styled_controls_overflow_hide": "cg_gl_m3_exo_ic_chevron_left",
+    "exo_styled_controls_overflow_show": "cg_gl_m3_exo_ic_chevron_right",
+    "exo_styled_controls_fastforward": "cg_gl_m3_exo_ic_forward",
+    "exo_styled_controls_fullscreen_enter": "cg_gl_m3_exo_ic_fullscreen_enter",
+    "exo_styled_controls_fullscreen_exit": "cg_gl_m3_exo_ic_fullscreen_exit",
+    "exo_styled_controls_pause": "cg_gl_m3_exo_ic_pause_circle_filled",
+    "exo_styled_controls_play": "cg_gl_m3_exo_ic_play_circle_filled",
+    "exo_styled_controls_rewind": "cg_gl_m3_exo_ic_rewind",
+    "exo_styled_controls_settings": "cg_gl_m3_exo_ic_settings",
+    "exo_styled_controls_next": "cg_gl_m3_exo_ic_skip_next",
+    "exo_styled_controls_previous": "cg_gl_m3_exo_ic_skip_previous",
+    "exo_styled_controls_speed": "cg_gl_m3_exo_ic_speed",
+    "exo_styled_controls_subtitle_off": "cg_gl_m3_exo_ic_subtitle_off",
+    "exo_styled_controls_subtitle_on": "cg_gl_m3_exo_ic_subtitle_on",
+    "exo_styled_controls_simple_fastforward": "cg_gl_m3_exo_icon_fastforward",
+    "exo_styled_controls_repeat_all": "cg_gl_m3_exo_icon_repeat_all",
+    "exo_styled_controls_repeat_off": "cg_gl_m3_exo_icon_repeat_off",
+    "exo_styled_controls_repeat_one": "cg_gl_m3_exo_icon_repeat_one",
+    "exo_styled_controls_simple_rewind": "cg_gl_m3_exo_icon_rewind",
+    "exo_styled_controls_shuffle_off": "cg_gl_m3_exo_icon_shuffle_off",
+    "exo_styled_controls_shuffle_on": "cg_gl_m3_exo_icon_shuffle_on"
+  },
+  "nativeOtherConsumerAliasesPreserved": 22,
+  "sourceMembersVerified": 344,
+  "nativePngConfigurationsUnchanged": 1680,
+  "result": "PASS",
+  "wholeGoalComplete": false
+}

@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "command": [
+    "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\java.exe",
+    "-cp",
+    "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\fb794be912bab43196dfa974b3e6d447e7f03d34.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\9f249d08de3bff8d3acfecf573ba2127de5ecb0b.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\7f17dad029fa6bfeaac39f6ee5731d70db3ede8e.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\89a3cf103abd43eded75766c132240c5335c1e68.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\1df3a347835cc5d85c9818a60b44791f3f86576e.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d933c19fb9dd651120321d619cb60869033c4642.jar;C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\0b174bffda33e2e13047e5dd2dadd7e392079e58.jar",
+    "org.jetbrains.kotlin.cli.jvm.K2JVMCompiler",
+    "-version"
+  ],
+  "exitCode": 0,
+  "output": "info: kotlinc-jvm 2.2.0-custom-branch-22 (JRE 21.0.10+-14961533-b1163.108)\nwarning: unable to find kotlin-stdlib.jar in the Kotlin home directory. Pass either '-no-stdlib' to prevent adding it to the classpath, or the correct '-kotlin-home'\nwarning: unable to find kotlin-script-runtime.jar in the Kotlin home directory. Pass either '-no-stdlib' to prevent adding it to the classpath, or the correct '-kotlin-home'\nwarning: unable to find kotlin-reflect.jar in the Kotlin home directory. Pass either '-no-reflect' or '-no-stdlib' to prevent adding it to the classpath, or the correct '-kotlin-home'\n",
+  "revision": "200271076d3a9dc6b576497792a4a6fad78994fc",
+  "allCompilerInputsHashVerified": true,
+  "wholeGoalComplete": false
+}
