@@ -1,0 +1,473 @@
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_audiotrack.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_audiotrack" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_check.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_check" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_chevron_left.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_chevron_left" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_chevron_right.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_chevron_right" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_forward.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_forward" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_fullscreen_enter.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_fullscreen_enter" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_fullscreen_exit.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_fullscreen_exit" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_pause_circle_filled.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_pause_circle_filled" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_play_circle_filled.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_play_circle_filled" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_rewind.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_rewind" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_settings.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_settings" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_skip_next.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_skip_next" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_skip_previous.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_skip_previous" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_speed.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_speed" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_subtitle_off.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_subtitle_off" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_ic_subtitle_on.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_subtitle_on" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_fastforward.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_fastforward" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_all.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_repeat_all" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_off.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_repeat_off" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_repeat_one.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_repeat_one" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_rewind.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_rewind" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_shuffle_off.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_shuffle_off" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/drawable-anydpi-v21/cg_gl_m3_exo_icon_shuffle_on.xml
+@@ -0,0 +1,3 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_shuffle_on" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_audiotrack.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_audiotrack" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_check.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_check" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_chevron_left.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_chevron_left" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_chevron_right.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_chevron_right" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_forward.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_forward" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_fullscreen_enter" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_fullscreen_exit" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_pause_circle_filled" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_play_circle_filled" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_rewind.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_rewind" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_settings.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_settings" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_skip_next.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_skip_next" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_skip_previous.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_skip_previous" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_speed.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_speed" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_subtitle_off" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_ic_subtitle_on" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_icon_fastforward.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_fastforward" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_icon_repeat_all.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_repeat_all" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_icon_repeat_off.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_repeat_off" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_icon_repeat_one.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_repeat_one" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_icon_rewind.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_rewind" app:cg_forge_source_value_mode="dynamic" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_shuffle_off" app:cg_forge_source_value_mode="false_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml
++++ /dev/null
+@@ -1,3 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!-- Craftageddon: source-owned layered material; actual value and interaction remain distinct. -->
+-<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_icon_shuffle_on" app:cg_forge_source_value_mode="true_value" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/cg_gl_launcher_foreground.xml
++++ b/app/src/main/res/drawable/cg_gl_launcher_foreground.xml
+@@ -1 +1 @@
+-<inset xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/cg_gl_app_gallery_cold" android:inset="20%"/>
+\ No newline at end of file
++<inset xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/ic_launcher_foreground" android:inset="0dp"/>
+--- /dev/null
++++ b/app/src/main/res/drawable/cg_gl_player_error_panel.xml
+@@ -0,0 +1 @@
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.glimpse.forge.ForgeDrawable" app:cg_forge_family="cg_gl_panel" app:cg_forge_source_value_mode="false_value"/>
+--- a/app/src/main/res/drawable/ic_launcher_background.xml
++++ b/app/src/main/res/drawable/ic_launcher_background.xml
+@@ -1,26 +1,3 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <group>
+-        <clip-path android:pathData="M0,0h108v108h-108z" />
+-        <path
+-            android:fillColor="#CBDEFB"
+-            android:pathData="M0,0h108v108h-108z" />
+-        <path
+-            android:fillColor="#00354A"
+-            android:pathData="M15,108L78,45L141,108H15Z" />
+-        <path
+-            android:fillColor="#0092E4"
+-            android:pathData="M-18,108L45,45L108,108H-18Z" />
+-        <path
+-            android:fillColor="#F09F38"
+-            android:pathData="M61,13L45,29L61,45L77,29L61,13Z" />
+-    </group>
++<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
++ <path android:pathData="M0,0h108v108h-108z" android:fillColor="@color/cg_gl_icon_background"/>
+ </vector>
+--- a/app/src/main/res/drawable/ic_launcher_foreground.xml
++++ b/app/src/main/res/drawable/ic_launcher_foreground.xml
+@@ -1,37 +1,5 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:aapt="http://schemas.android.com/aapt"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <group>
+-        <clip-path android:pathData="M0,0h108v108h-108z" />
+-        <path
+-            android:fillColor="#ffffff"
+-            android:fillType="evenOdd"
+-            android:pathData="M108,0H0V108H108V0ZM34,38C31.791,38 30,39.791 30,42V66C30,68.209 31.791,70 34,70H74C76.209,70 78,68.209 78,66V42C78,39.791 76.209,38 74,38H34Z" />
+-        <path
+-            android:fillAlpha="0.6"
+-            android:pathData="M28.54,28.54m-72,0a72,72 0,1 1,144 0a72,72 0,1 1,-144 0">
+-            <aapt:attr name="android:fillColor">
+-                <gradient
+-                    android:centerX="28.54"
+-                    android:centerY="28.54"
+-                    android:gradientRadius="72"
+-                    android:type="radial">
+-                    <item
+-                        android:color="#19FFFFFF"
+-                        android:offset="0" />
+-                    <item
+-                        android:color="#00FFFFFF"
+-                        android:offset="1" />
+-                </gradient>
+-            </aapt:attr>
+-        </path>
+-    </group>
+-</vector>
++<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
++ <item android:width="108dp" android:height="108dp" android:gravity="center">
++  <inset android:inset="20%"><bitmap android:src="@drawable/cg_gl_app_gallery_cold" android:gravity="fill" android:filter="true"/></inset>
++ </item>
++</layer-list>
+--- /dev/null
++++ b/app/src/main/res/layout/cg_gl_player_view.xml
+@@ -0,0 +1,81 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2020 The Android Open Source Project
++
++     Licensed under the Apache License, Version 2.0 (the "License");
++     you may not use this file except in compliance with the License.
++     You may obtain a copy of the License at
++
++          http://www.apache.org/licenses/LICENSE-2.0
++
++     Unless required by applicable law or agreed to in writing, software
++     distributed under the License is distributed on an "AS IS" BASIS,
++     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++     See the License for the specific language governing permissions and
++     limitations under the License.
++-->
++<merge xmlns:android="http://schemas.android.com/apk/res/android">
++
++  <androidx.media3.ui.AspectRatioFrameLayout android:id="@id/exo_content_frame"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:layout_gravity="center">
++
++    <!-- Video surface will be inserted as the first child of the content frame. -->
++
++    <View android:id="@id/exo_shutter"
++      android:layout_width="match_parent"
++      android:layout_height="match_parent"
++      android:background="@android:color/black"/>
++
++    <ImageView android:id="@id/exo_image"
++      android:layout_width="match_parent"
++      android:layout_height="match_parent"
++      android:scaleType="fitXY"
++      android:contentDescription="@null"/>
++
++    <ImageView android:id="@id/exo_artwork"
++      android:layout_width="match_parent"
++      android:layout_height="match_parent"
++      android:scaleType="fitXY"
++      android:contentDescription="@null"/>
++
++    <androidx.media3.ui.SubtitleView android:id="@id/exo_subtitles"
++      android:layout_width="match_parent"
++      android:layout_height="match_parent"/>
++
++    <ProgressBar android:id="@id/exo_buffering"
++      android:layout_width="wrap_content"
++      android:layout_height="wrap_content"
++      android:indeterminate="true"
++      android:layout_gravity="center"/>
++
++    <TextView android:id="@id/exo_error_message"
++      android:layout_width="wrap_content"
++      android:layout_height="@dimen/exo_error_message_height"
++      android:layout_gravity="center"
++      android:layout_marginBottom="@dimen/exo_error_message_margin_bottom"
++      android:gravity="center"
++      android:textColor="@color/exo_white"
++      android:textSize="@dimen/exo_error_message_text_size"
++      android:background="@drawable/cg_gl_player_error_panel"
++      android:paddingLeft="@dimen/exo_error_message_text_padding_horizontal"
++      android:paddingRight="@dimen/exo_error_message_text_padding_horizontal"
++      android:paddingTop="@dimen/exo_error_message_text_padding_vertical"
++      android:paddingBottom="@dimen/exo_error_message_text_padding_vertical"/>
++
++  </androidx.media3.ui.AspectRatioFrameLayout>
++
++  <FrameLayout android:id="@id/exo_ad_overlay"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"/>
++
++  <FrameLayout android:id="@id/exo_overlay"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"/>
++
++  <View android:id="@id/exo_controller_placeholder"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"/>
++
++</merge>
++
+--- a/app/src/main/res/layout/media_view.xml
++++ b/app/src/main/res/layout/media_view.xml
+@@ -22,6 +22,7 @@
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:visibility="gone"
++        app:player_layout_id="@layout/cg_gl_player_view"
+         app:controller_layout_id="@layout/cg_gl_player_controls"
+         app:show_next_button="false"
+         app:show_previous_button="false"
+--- a/app/src/main/res/mipmap-anydpi/ic_launcher.xml
++++ b/app/src/main/res/mipmap-anydpi/ic_launcher.xml
+@@ -4,7 +4,7 @@
+      SPDX-License-Identifier: Apache-2.0
+ -->
+ <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+-    <background android:drawable="@color/cg_gl_icon_background" />
+-    <foreground android:drawable="@drawable/cg_gl_launcher_foreground" />
++    <background android:drawable="@drawable/ic_launcher_background" />
++    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+     <monochrome android:drawable="@drawable/ic_launcher_monochrome" />
+ </adaptive-icon>
+--- /dev/null
++++ b/app/src/main/res/values/cg_gallery_media3_aliases.xml
+@@ -0,0 +1,2 @@
++<?xml version='1.0' encoding='utf-8'?>
++<resources><drawable name="exo_styled_controls_audiotrack">@drawable/cg_gl_m3_exo_ic_audiotrack</drawable><drawable name="exo_styled_controls_check">@drawable/cg_gl_m3_exo_ic_check</drawable><drawable name="exo_styled_controls_overflow_hide">@drawable/cg_gl_m3_exo_ic_chevron_left</drawable><drawable name="exo_styled_controls_overflow_show">@drawable/cg_gl_m3_exo_ic_chevron_right</drawable><drawable name="exo_styled_controls_fastforward">@drawable/cg_gl_m3_exo_ic_forward</drawable><drawable name="exo_styled_controls_fullscreen_enter">@drawable/cg_gl_m3_exo_ic_fullscreen_enter</drawable><drawable name="exo_styled_controls_fullscreen_exit">@drawable/cg_gl_m3_exo_ic_fullscreen_exit</drawable><drawable name="exo_styled_controls_pause">@drawable/cg_gl_m3_exo_ic_pause_circle_filled</drawable><drawable name="exo_styled_controls_play">@drawable/cg_gl_m3_exo_ic_play_circle_filled</drawable><drawable name="exo_styled_controls_rewind">@drawable/cg_gl_m3_exo_ic_rewind</drawable><drawable name="exo_styled_controls_settings">@drawable/cg_gl_m3_exo_ic_settings</drawable><drawable name="exo_styled_controls_next">@drawable/cg_gl_m3_exo_ic_skip_next</drawable><drawable name="exo_styled_controls_previous">@drawable/cg_gl_m3_exo_ic_skip_previous</drawable><drawable name="exo_styled_controls_speed">@drawable/cg_gl_m3_exo_ic_speed</drawable><drawable name="exo_styled_controls_subtitle_off">@drawable/cg_gl_m3_exo_ic_subtitle_off</drawable><drawable name="exo_styled_controls_subtitle_on">@drawable/cg_gl_m3_exo_ic_subtitle_on</drawable><drawable name="exo_styled_controls_simple_fastforward">@drawable/cg_gl_m3_exo_icon_fastforward</drawable><drawable name="exo_styled_controls_repeat_all">@drawable/cg_gl_m3_exo_icon_repeat_all</drawable><drawable name="exo_styled_controls_repeat_off">@drawable/cg_gl_m3_exo_icon_repeat_off</drawable><drawable name="exo_styled_controls_repeat_one">@drawable/cg_gl_m3_exo_icon_repeat_one</drawable><drawable name="exo_styled_controls_simple_rewind">@drawable/cg_gl_m3_exo_icon_rewind</drawable><drawable name="exo_styled_controls_shuffle_off">@drawable/cg_gl_m3_exo_icon_shuffle_off</drawable><drawable name="exo_styled_controls_shuffle_on">@drawable/cg_gl_m3_exo_icon_shuffle_on</drawable></resources>

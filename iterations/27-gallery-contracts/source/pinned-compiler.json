@@ -1,0 +1,71 @@
+{
+  "project": "external/kotlinc",
+  "revision": "200271076d3a9dc6b576497792a4a6fad78994fc",
+  "files": [
+    {
+      "path": "lib/annotations-13.0.jar",
+      "url": "https://android.googlesource.com/platform/external/kotlinc/+/200271076d3a9dc6b576497792a4a6fad78994fc/lib/annotations-13.0.jar?format=TEXT",
+      "gitBlobSha1": "fb794be912bab43196dfa974b3e6d447e7f03d34",
+      "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
+      "bytes": 17536,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\fb794be912bab43196dfa974b3e6d447e7f03d34.jar",
+      "participatesInVerifiedCompilerClasspath": true
+    },
+    {
+      "path": "lib/kotlin-compiler.jar",
+      "url": "https://android.googlesource.com/platform/external/kotlinc/+/200271076d3a9dc6b576497792a4a6fad78994fc/lib/kotlin-compiler.jar?format=TEXT",
+      "gitBlobSha1": "9f249d08de3bff8d3acfecf573ba2127de5ecb0b",
+      "sha256": "6f1a8eea4cf61dc5de2f36734bfe945b7bb0b64dd2f92b2f63243fe2a56c1248",
+      "bytes": 57697164,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\9f249d08de3bff8d3acfecf573ba2127de5ecb0b.jar",
+      "participatesInVerifiedCompilerClasspath": true
+    },
+    {
+      "path": "lib/kotlin-reflect.jar",
+      "url": "https://android.googlesource.com/platform/external/kotlinc/+/200271076d3a9dc6b576497792a4a6fad78994fc/lib/kotlin-reflect.jar?format=TEXT",
+      "gitBlobSha1": "7f17dad029fa6bfeaac39f6ee5731d70db3ede8e",
+      "sha256": "0e99ae3df53ee3aeae29790c1c15fb00ee16575b32c2e701a3932e7fd9c55c23",
+      "bytes": 3298635,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\7f17dad029fa6bfeaac39f6ee5731d70db3ede8e.jar",
+      "participatesInVerifiedCompilerClasspath": true
+    },
+    {
+      "path": "lib/kotlin-script-runtime.jar",
+      "url": "https://android.googlesource.com/platform/external/kotlinc/+/200271076d3a9dc6b576497792a4a6fad78994fc/lib/kotlin-script-runtime.jar?format=TEXT",
+      "gitBlobSha1": "89a3cf103abd43eded75766c132240c5335c1e68",
+      "sha256": "04b7d4fa5d26909c41d5b575a030d31ab65390919a54a2ff2a3b6ebb41958be0",
+      "bytes": 44762,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\89a3cf103abd43eded75766c132240c5335c1e68.jar",
+      "participatesInVerifiedCompilerClasspath": true
+    },
+    {
+      "path": "lib/kotlin-stdlib.jar",
+      "url": "https://android.googlesource.com/platform/external/kotlinc/+/200271076d3a9dc6b576497792a4a6fad78994fc/lib/kotlin-stdlib.jar?format=TEXT",
+      "gitBlobSha1": "1df3a347835cc5d85c9818a60b44791f3f86576e",
+      "sha256": "073d176769242ecc972d6b6499c8343ac4c83c86062fed6f43b6b4f5af8a81ff",
+      "bytes": 1750378,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\1df3a347835cc5d85c9818a60b44791f3f86576e.jar",
+      "participatesInVerifiedCompilerClasspath": true
+    },
+    {
+      "path": "lib/kotlinx-coroutines-core-jvm.jar",
+      "url": "https://android.googlesource.com/platform/external/kotlinc/+/200271076d3a9dc6b576497792a4a6fad78994fc/lib/kotlinx-coroutines-core-jvm.jar?format=TEXT",
+      "gitBlobSha1": "d933c19fb9dd651120321d619cb60869033c4642",
+      "sha256": "9860906a1937490bf5f3b06d2f0e10ef451e65b95b269f22daf68a3d1f5065c5",
+      "bytes": 1548360,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\d933c19fb9dd651120321d619cb60869033c4642.jar",
+      "participatesInVerifiedCompilerClasspath": true
+    },
+    {
+      "path": "lib/trove4j.jar",
+      "url": "https://android.googlesource.com/platform/external/kotlinc/+/200271076d3a9dc6b576497792a4a6fad78994fc/lib/trove4j.jar?format=TEXT",
+      "gitBlobSha1": "0b174bffda33e2e13047e5dd2dadd7e392079e58",
+      "sha256": "c5fd725bffab51846bf3c77db1383c60aaaebfe1b7fe2f00d23fe1b7df0a439d",
+      "bytes": 572985,
+      "localBuildCache": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-dependencies\\files\\0b174bffda33e2e13047e5dd2dadd7e392079e58.jar",
+      "participatesInVerifiedCompilerClasspath": true
+    }
+  ],
+  "executed": true,
+  "executionEvidence": "verification/evidence/native-compiler-version.json"
+}

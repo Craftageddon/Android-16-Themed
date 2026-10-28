@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "libraryNamespacesGenerated": 33,
+  "realNonzeroResourceIds": 11109,
+  "originalStyleableIndexEntriesPreserved": 3167,
+  "appRClasses": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-resources-20261028-072627-530580\\app-r-classes",
+  "frameworkAttrCount": 1551,
+  "sdk36Sha256": "d9eb9da824d9e247a352f570f01e1169e725b2954bca9e283a71786c59b59f9a",
+  "resourceLinkSha256": "9705b6aeccf4e379bac0c177073579f30bfaeecf3d7d2fd9865f014922c78eb9",
+  "generatedFromRealResourcesNotPlaceholderIds": true,
+  "nativeInflation": "NOT RUN",
+  "wholeGoalComplete": false
+}

@@ -1,3 +1,5 @@
+Current progress, 28 October 2026: [checkpoint 27](../iterations/27-gallery-contracts/README.md) compiles all actual Gallery owners and links the complete manual resource set, protects shared aliases, and records two authored icon-leaf decisions. 9,575 baseline decisions remain OPEN. W03/W07, partial W04/W05, wider semantic/reuse/owner coverage, new dependency artwork and final independent whole-goal review remain required. The goal remains ACTIVE.
+
 # Current full-corpus goal — 26 October 2026
 
 Current objective: **Continue working on what was identified as missing or awaiting reuse approval. Finish the semantic review and then double check a final time.**

@@ -1,0 +1,38 @@
+{
+  "result": "AUTHORED",
+  "originalSourceRoles": {
+    "background": "Landscape behind the white aperture/photo frame",
+    "foreground": "White even-odd photo aperture with radial highlight"
+  },
+  "newCompositeRoles": {
+    "background": "Opaque fixed dark field, original vector and108dp viewport contract retained",
+    "foreground": "Approved cold steel photo badge in an explicit108dp item,20percent safe-circle inset"
+  },
+  "sourceComposition": {
+    "manifestIcon": "@mipmap/ic_launcher",
+    "background": "@drawable/ic_launcher_background",
+    "foreground": "@drawable/ic_launcher_foreground",
+    "monochrome": "@drawable/ic_launcher_monochrome"
+  },
+  "reusedMaster": {
+    "path": "masters/cg_gl_app_gallery.svg",
+    "sha256": "1de9502259c4d146dfe3b63fb96c77815705904abfaffecee01ce2ab414a9cb8"
+  },
+  "sourceLeaves": [
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "originalSha256": "5db1cf4513fe352a599316c510f73fe621ee0f4c7be5e8cb4e77d536481a3613",
+      "patchedSha256": "8a31181f11e2e1a4b3466538a7216237cd07f154ad52799ac6aca92830779c9e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "originalSha256": "e405affb0c53d16e3a671a9d7538660645c02677fa4295bf97163626fe5f39d2",
+      "patchedSha256": "925875d6d6b8e931f627d4a9413a37442671ece288924d1dfe132fb2b62f6001"
+    }
+  ],
+  "newRasterOrBakedEmission": false,
+  "originalSourcesPreserved": true,
+  "reviewBasis": "Joint original composition, approved photo identity geometry, fixed intrinsic size and actual retained native adaptive child references; not absence of consumers",
+  "nativeInflationAndDeviceAcceptance": "NOT RUN",
+  "wholeGoalComplete": false
+}

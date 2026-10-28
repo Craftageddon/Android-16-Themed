@@ -1,0 +1,51 @@
+{
+  "result": "PASS",
+  "patch": "Glimpse-forge-workflows.patch",
+  "patchSha256": "30d36341d0b2f01d75f87a4daf9c05c5631e27afddc517d5414783344b0b4fec",
+  "textFiles": 114,
+  "deletedPaths": [],
+  "byteParity": true,
+  "commands": [
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.bare=false",
+        "init",
+        "-q"
+      ],
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.bare=false",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--check",
+        "--whitespace=nowarn",
+        "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\27-gallery-contracts\\Glimpse-forge-workflows.patch"
+      ],
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.bare=false",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--whitespace=nowarn",
+        "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\27-gallery-contracts\\Glimpse-forge-workflows.patch"
+      ],
+      "exitCode": 0,
+      "output": ""
+    }
+  ],
+  "nativeDeviceOperations": false
+}

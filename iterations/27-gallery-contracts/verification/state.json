@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "cfa0b73009361dbf0acb78947469cf91be51f965d79a7b97bea1747fa2121995"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-28T12:42:46+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "310f632bd69dd7b0d80ecaaa141b156d793f19dee0b2aa1f66d27e661063d78c",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-28T12:42:46+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "72400d9c5956229de4fec723208773deaff8e04b22ac726cdb0c5a6f61b5ef7c",
+      "independence": null,
+      "method": "Fresh pinned source/pixel/hash/reuse audit; all actual app owners and 925 native source dependencies compiled with exact native compiler;82 AAR pinned SDK 36 resource link; real nonzero R namespaces and45 compiled aliases; clean/upgrade patch parity; actual compiled policy/geometry probes; English desktop rendering review.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-28T12:42:46+00:00",
+  "project": "27-gallery-contracts",
+  "schema": 1,
+  "status": "V2_PASS"
+}

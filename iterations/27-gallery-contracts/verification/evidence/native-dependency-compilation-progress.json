@@ -1,0 +1,3872 @@
+{
+  "work": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015",
+  "modules": [
+    {
+      "module": "jsr305",
+      "project": "external/jsr305",
+      "sourceFiles": [
+        {
+          "path": "ri/src/main/java/javax/annotation/CheckForNull.java",
+          "sha256": "4807942043605b325f0fefa243344db0d11e32cebd8f133df2b7c5d8486f2312"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/CheckForSigned.java",
+          "sha256": "9c3d742fe9ab8e5fb08d5562ab0cb0255e2960facf94f83349be542b6557f3c1"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/CheckReturnValue.java",
+          "sha256": "fc328c2dbc79fb3bc25d47a7f0486410fe8a04e6d6ceadf97f7ed44fa6dc0ebb"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/Detainted.java",
+          "sha256": "7d272cf814d47c8cf89dd0d2f283ddfc88a26405122fd98f2842dbcb0789ed0e"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/MatchesPattern.java",
+          "sha256": "ff2ffbca3823c1a3f5333630878068c724f67058264cca7396d9abef821897dd"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/Nonnegative.java",
+          "sha256": "73b83d783bc7cdf7b5c9f4331a928154c6dc4e97ba349a5e5124e026ba4221b0"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/Nonnull.java",
+          "sha256": "eb2d5ac7cd628dd3c59e5f7b14378fea531d5c76857df837cfe8f9a2ece1dddc"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/Nullable.java",
+          "sha256": "511c9e8888bbdc13e0388eb5c3a882f43ff21160093b404c870ce94e83a1f509"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/OverridingMethodsMustInvokeSuper.java",
+          "sha256": "5d786c4fff3f381babab9f745252dd80ba10210c402bd4c15161ce9b63decca6"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/ParametersAreNonnullByDefault.java",
+          "sha256": "94233ca1ca4fb6d457bed883f8369019d4f0016be81d4e5ccfc01f5d50bf946e"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/ParametersAreNullableByDefault.java",
+          "sha256": "4d3071c90d749713d08689aaf28cbd6168d01d849a54c6cf7b8faf15f8800e5b"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/PropertyKey.java",
+          "sha256": "5559001d0f69e49487f1cc0cfa82d37e064b04436ccc7026a3d8a5aa30215d7d"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/RegEx.java",
+          "sha256": "7b08d091734672f8f8f320fdaa7cde6ba48c786a2fdca94c9e2407e1e2af2aba"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/Signed.java",
+          "sha256": "76633adce590e7c771ef7f727b575f9ae54389539d666677a9ca1a9e4256e374"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/Syntax.java",
+          "sha256": "63c05bd38c7c279d147058d6e154a44ee1da62c92cc6849a573bdc6c345869e0"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/Tainted.java",
+          "sha256": "9b755d095cf2c4a41a8e064b5bd0ab3e556845048b705d2cc98e8635b8bda6f2"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/Untainted.java",
+          "sha256": "e44096a654f825c9f8f3fb9ba099f805155b3daf41918c177d7193558bb11981"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/WillClose.java",
+          "sha256": "1c81ea1c7284c37c5d66b436fc63267877667da03b2b646fc6c11ea2a8dfac08"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/WillCloseWhenClosed.java",
+          "sha256": "b3c6e342b4dfc4c62d33857f8920cfe077e9f2c31379d8f627495e0c4a06cb13"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/WillNotClose.java",
+          "sha256": "6c258758fcf54c9657052dc9e86d0abc780f8a4580804e3a0a8b8b376529e453"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/concurrent/GuardedBy.java",
+          "sha256": "f2650971001cbfd4c127487e0115e7a9539d64fd6a98dd8dd0675330ae3b790d"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/concurrent/Immutable.java",
+          "sha256": "47f9a076a4396c492a373eec9622a15497b56b633a67af97ca51bd3b1142a08d"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/concurrent/NotThreadSafe.java",
+          "sha256": "73060a8907c01ee7a72bfbd9c74a037ff1953bd7a4510b8997fdcec0a5741a19"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/concurrent/ThreadSafe.java",
+          "sha256": "bcfd9f7a27af49a6505734ab03259f02a7222d3bd052821caa6d94d930bdfc9a"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/meta/Exclusive.java",
+          "sha256": "0b0405f1dc140ac2ebdb4cdd3bbbfdcf19e22d724bc57a89d530b33e8c9b7ff5"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/meta/Exhaustive.java",
+          "sha256": "c9b4085041acd1602691ee49535a6a91afc2b67d6bd9d9fb4e1ab2169d627a6f"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/meta/TypeQualifier.java",
+          "sha256": "828fffa618ac1cda2fc07fcc0e5e58785aadfe4bc481c0e4e8dc5fc23d662ce5"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/meta/TypeQualifierDefault.java",
+          "sha256": "27faa048d7c23bd6d79d3515816ec1f356758ae140c0edc702a74b91f9215395"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/meta/TypeQualifierNickname.java",
+          "sha256": "309cf58e837f1bc63183fc9443b231904157f1ac25bfee0e5cebcae52f44eb51"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/meta/TypeQualifierValidator.java",
+          "sha256": "4d1e2ca6f465ce130a8233086053acc991e5fd389f7e31c88a0cd19ef32c666a"
+        },
+        {
+          "path": "ri/src/main/java/javax/annotation/meta/When.java",
+          "sha256": "d79dfa99e03fa1eb6d0e6f024833ef16c1029b98975e2e767f760b2dbf4d8790"
+        }
+      ],
+      "sourceFileCount": 31,
+      "commonSourceFileCount": 0,
+      "jar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\jsr305.jar",
+      "jarSha256": "eea5da80cad20ce7d08ef5533a9e28a93cb5ed82cc3415fc0531735186e7df22",
+      "originalBuildFlags": [],
+      "nativeSoongInvocation": false,
+      "moduleKind": "java_library_static",
+      "hostJdkSymbolsEnabled": false
+    },
+    {
+      "module": "jspecify",
+      "project": "external/jspecify",
+      "sourceFiles": [
+        {
+          "path": "src/main/java/org/jspecify/annotations/NonNull.java",
+          "sha256": "8390201385dab1ee94cdfbc57832bd907dda815c999d48ca3761274af0b57aac"
+        },
+        {
+          "path": "src/main/java/org/jspecify/annotations/NullMarked.java",
+          "sha256": "1e4a39f5ca51f7f9cf769e3002d08a7e01a1942bfe86e9923c4607a09ac906f8"
+        },
+        {
+          "path": "src/main/java/org/jspecify/annotations/NullUnmarked.java",
+          "sha256": "863266a1f0b280fbb976323d81d6411306fc54bfeaddb3ec19cce4c2147d4846"
+        },
+        {
+          "path": "src/main/java/org/jspecify/annotations/Nullable.java",
+          "sha256": "416c1b33b4553d97e3361b3e93710c70602ad737b700287e6a2e52ae94fe7164"
+        },
+        {
+          "path": "src/main/java/org/jspecify/annotations/package-info.java",
+          "sha256": "27bc5c9b3ece7f8c38b67288c59e48c93afd4b413dde116f0a9a7793e984ba0f"
+        }
+      ],
+      "sourceFileCount": 5,
+      "commonSourceFileCount": 0,
+      "jar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\jspecify.jar",
+      "jarSha256": "c73df7bc94cadcd75ad604cdfcd97f66552a1480c975d92a6c60ad31e888da49",
+      "originalBuildFlags": [],
+      "nativeSoongInvocation": false,
+      "moduleKind": "java_library",
+      "hostJdkSymbolsEnabled": false
+    },
+    {
+      "module": "error_prone_annotations",
+      "project": "external/error_prone",
+      "sourceFiles": [
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/CanIgnoreReturnValue.java",
+          "sha256": "66c06b3c92923fb451d38ba059e1a734d61de17dcfd2a11c143b293feae3894d"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/CheckReturnValue.java",
+          "sha256": "6bb3481be928f21d7ace3fc127fd5cd1122c5763fc8f19976fba6e0d717dbac8"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/CompatibleWith.java",
+          "sha256": "625734d315ca4ca92910d30d306b945bbbfc4a4abcf20eee7f75146f59c8f4df"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/CompileTimeConstant.java",
+          "sha256": "2bda724df7c0422f5dc045a7688726caee2b9beac7f8c39cf5562ce827f67103"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/DoNotCall.java",
+          "sha256": "91e1b24c8fd6b34cae7f147d7379cf8740534a21ab5fcb39037dc08fe7cd3009"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/DoNotMock.java",
+          "sha256": "f9fafefa9032f677a1afff12cf50dcc2101acb2944ba0455a9a9144219df4a5c"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/ForOverride.java",
+          "sha256": "537d2c22144408e70e467339cf9be7be5b77c8d7ff9a08fe84a0bb708d3be9e5"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/FormatMethod.java",
+          "sha256": "f8d0960170f892da0b476dfef8267f7f8f05a9064652c76a4dbdae4914dcd89a"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/FormatString.java",
+          "sha256": "09370c8693dced3cddde9f25ffc4d4101e87e28cad7c2be81ee2acdad00f6c70"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/Immutable.java",
+          "sha256": "a6eb49931e65dcc633d641bca1c2e54925cb44bfddbd217f2bffe52aeb5fef04"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/ImmutableTypeParameter.java",
+          "sha256": "d611c790240ad01819b2be10f674ab62c562085a6beab36547d4c218236a0931"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/IncompatibleModifiers.java",
+          "sha256": "508f986533d7e7f1311257b46f8bce922433995a531732766e3ba6ef54810320"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/InlineMe.java",
+          "sha256": "daa26553d2c08d21de97540402003ea0c8989e8f3e5d3797ceeb4c77b2bc2db3"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/InlineMeValidationDisabled.java",
+          "sha256": "387a714177a98abba728b226392ae041ee5fb2dccd84c7e78af1b64e56e4d772"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/Keep.java",
+          "sha256": "8eb12c29b1cbe2c2f1f630aa3a1f0fb15db023bdb73c112f77da1b3488713fcc"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/Modifier.java",
+          "sha256": "28e9d88cf4bf0cbd9f805161edb82053198e6d311998edd72b52d44f59bfe1a9"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/MustBeClosed.java",
+          "sha256": "55734cbb3c33e5dbbb65cf571b89ac091c5bea9c672df27c38204a08f4aba375"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/NoAllocation.java",
+          "sha256": "d883a08f7bd2318371936d8cdf267ee9f28526ded73d0ded073815329517e0ef"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/OverridingMethodsMustInvokeSuper.java",
+          "sha256": "69b739a13c51e689301792dc422786b307bfc7f10fb9dd935465243c459dd8c8"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/RequiredModifiers.java",
+          "sha256": "1c9695bdbc6af35c194776085cd87fe17223bf97f9e6da243817ef9675d12887"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/RestrictedApi.java",
+          "sha256": "6100da102932e84e4b189a883ad880fd895f53b5deca4c1e4b27ba78462e195a"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/SuppressPackageLocation.java",
+          "sha256": "14f45ff5901310638e28cc7e5fabcfa715126178e45fcf9be409bf4da876e0b6"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/ThreadSafe.java",
+          "sha256": "45bec077770e86fc267a9b3c82083bc2a4da5423fe08b7a8838efe9862332dca"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/ThreadSafeTypeParameter.java",
+          "sha256": "207ac13cca461ee2881e2933b547efa6e1f4392f5da8b478ef9785c33b622e3a"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/Var.java",
+          "sha256": "761bb12299c6728350aad5763c202a82ea3709b3742abf67c4e95a9dccf7c6f6"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/concurrent/GuardedBy.java",
+          "sha256": "6b5926e264bf8bd4c52a83098e4ddc027cc125475c32694b1551988989755552"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/concurrent/LazyInit.java",
+          "sha256": "b59124e59f5c819d0346160d27d003cfc8f175437edefcede7cbb3e45c63a1dd"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/concurrent/LockMethod.java",
+          "sha256": "882aa8fa436dd94f52b38a1fc78e3f39a9a312aa05dcc1d814d600611cd2145b"
+        },
+        {
+          "path": "annotations/src/main/java/com/google/errorprone/annotations/concurrent/UnlockMethod.java",
+          "sha256": "90dc91dcf3bfe77e9d1686678f7fbde74a28dbf7ec50c4a08d6abc3fa6f0971c"
+        }
+      ],
+      "sourceFileCount": 29,
+      "commonSourceFileCount": 0,
+      "jar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\error_prone_annotations.jar",
+      "jarSha256": "5c95657c99fa1c1f602b1d5486a0a618d6b0e79c761d5d7e772885fbae7af0c9",
+      "originalBuildFlags": [],
+      "nativeSoongInvocation": false,
+      "moduleKind": "java_library",
+      "hostJdkSymbolsEnabled": false
+    },
+    {
+      "module": "guava-android-annotation-stubs",
+      "project": "external/guava",
+      "sourceFiles": [
+        {
+          "path": "android-annotation-stubs/src/com/google/j2objc/annotations/J2ObjCIncompatible.java",
+          "sha256": "53d61e0a074a6173d33fcf9842d3aa2e587d4ffc42917e73234f2814f64253c0"
+        },
+        {
+          "path": "android-annotation-stubs/src/com/google/j2objc/annotations/ReflectionSupport.java",
+          "sha256": "e2e848849fdd30dad423206d173b674fcdcf990bffb733a76bc7b1006b481e3d"
+        },
+        {
+          "path": "android-annotation-stubs/src/com/google/j2objc/annotations/RetainedWith.java",
+          "sha256": "ee3f580fce759cbfd6ba42643ed72f89169be86049028704d3303bc0c268373b"
+        },
+        {
+          "path": "android-annotation-stubs/src/com/google/j2objc/annotations/Weak.java",
+          "sha256": "5f595ed8cd8d3c0220cb9813799974ed038a34bb787e68093085b8037188368f"
+        },
+        {
+          "path": "android-annotation-stubs/src/com/google/j2objc/annotations/WeakOuter.java",
+          "sha256": "5b5ea8854d8970e8d9e6315faef7e15548a83d2296dead119367445a0b46ae32"
+        },
+        {
+          "path": "android-annotation-stubs/src/org/checkerframework/checker/nullness/compatqual/MonotonicNonNullDecl.java",
+          "sha256": "f41bb33025f3ab7eac4aa4cff8c54a0270cefa29b552ee25618ab396cc697bbf"
+        },
+        {
+          "path": "android-annotation-stubs/src/org/checkerframework/checker/nullness/compatqual/NonNullDecl.java",
+          "sha256": "ff1a7ede9048d62a6fe91e31e40c51bf6edce72419a07a32e4fe1cb9e0d44826"
+        },
+        {
+          "path": "android-annotation-stubs/src/org/checkerframework/checker/nullness/compatqual/NullableDecl.java",
+          "sha256": "0275206fa676ecf1c7460be1704120f3551fbbbe84a0886a1af6de9be8f3b15b"
+        },
+        {
+          "path": "android-annotation-stubs/src/org/checkerframework/checker/nullness/qual/MonotonicNonNull.java",
+          "sha256": "4cf358252ad9c090d42c7ae61f97e1e3bbc38510f2ee6628ae1973d0ae595375"
+        },
+        {
+          "path": "android-annotation-stubs/src/org/checkerframework/checker/nullness/qual/NonNull.java",
+          "sha256": "e614a172b4c48b0c8322c0c7aed6a0912145299bfc1e87d5c567a1b37ecc2684"
+        },
+        {
+          "path": "android-annotation-stubs/src/org/checkerframework/checker/nullness/qual/Nullable.java",
+          "sha256": "a36914441b37feb263fa3e931e0b57fc1843f6d7909a8b89444d934f665ba1d1"
+        },
+        {
+          "path": "android-annotation-stubs/src/org/codehaus/mojo/animal_sniffer/IgnoreJRERequirement.java",
+          "sha256": "cbdade9c1a7024d97a7f0b977384385d4ffa8b4944b2f23d83c7e3348235f08f"
+        }
+      ],
+      "sourceFileCount": 12,
+      "commonSourceFileCount": 0,
+      "jar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\guava-android-annotation-stubs.jar",
+      "jarSha256": "100b2d143114e0c47fe8a114baabfe4968d8835e3d9542d3d33c0524f09cacf7",
+      "originalBuildFlags": [],
+      "nativeSoongInvocation": false,
+      "moduleKind": "java_library",
+      "hostJdkSymbolsEnabled": false
+    },
+    {
+      "module": "guava-android-host",
+      "project": "external/guava",
+      "sourceFiles": [
+        {
+          "path": "android/guava/src/com/google/common/annotations/Beta.java",
+          "sha256": "20e001c0ee0769c78935fa9fb9f0306a441767a70366a03988f2b05e4b39e357"
+        },
+        {
+          "path": "android/guava/src/com/google/common/annotations/GwtCompatible.java",
+          "sha256": "d5dc61e0afb723873aaef947194f95ca685343936e0fd7826050eb3f7734ebdb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/annotations/GwtIncompatible.java",
+          "sha256": "df8e63b782bafe2262a38240b5c207b00fcc8b06c00dd801215d3d6aac801ade"
+        },
+        {
+          "path": "android/guava/src/com/google/common/annotations/J2ktIncompatible.java",
+          "sha256": "92c8df6c7082daf1aa50fbdf05e27598badeb0de8fe20932a94067b4e9f80e30"
+        },
+        {
+          "path": "android/guava/src/com/google/common/annotations/VisibleForTesting.java",
+          "sha256": "552d4299aa7d945810a381c9c71fb0b9eb96006c296e00fc277acf19bd306bea"
+        },
+        {
+          "path": "android/guava/src/com/google/common/annotations/package-info.java",
+          "sha256": "7f4d384ef200b0336fa4085852829061f01954271ac613fc5ff12c8abc5560df"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Absent.java",
+          "sha256": "72899b65f1ca0e7cf97f1cab9b75f57292bdde2b7d0a4438cbd650d95e0bead6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/AbstractIterator.java",
+          "sha256": "38a92ea61943b267dcba788f4320e026e26242226fb31612a9e8a722938c1cfd"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Ascii.java",
+          "sha256": "d3724ab831cdfed6a1da8efcb2041d381b540996ad38be47fb4ea8ec74ebcf0b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/CaseFormat.java",
+          "sha256": "ad162f329e0cbe67a8e119b33fa958e55efc3606ab114309056b58eeb586982e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/CharMatcher.java",
+          "sha256": "7d2713c583018feeac4d131b183af687d18f2901e27c925b17a8e2d000741b26"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Charsets.java",
+          "sha256": "ca5fb3efb0a30911a48d6f374af793355576d846f4c18672cc87c3701c936afa"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/CommonMatcher.java",
+          "sha256": "871dd137a4fec0d703be9099a19378f5b8562f1d36cba66932b9edf13b16d3b3"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/CommonPattern.java",
+          "sha256": "8f314b53053f83078d715c487bad6d4a6cb209ea65c1ebd613635d0d282d66da"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Converter.java",
+          "sha256": "5fa063675cfedce957090588d7546a08f04acf067ef50117df3abc784f8f1772"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Defaults.java",
+          "sha256": "c0b40729af5aca4237b48f507672c178a320377c085eb469656d2a75ef91bddd"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/ElementTypesAreNonnullByDefault.java",
+          "sha256": "02f9954dd02ee1ecb0b64ffd44cd547cb826bbca2f523657f71eea88e06eedfb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Enums.java",
+          "sha256": "955776b25b9d09815d14e13693b71b084a1faea5769acce6f026507b7043acd4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Equivalence.java",
+          "sha256": "9aea804f4ada5eb75097bb267e2e1b5a19b5fc06cc392c55d272e78cac13689a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/ExtraObjectsMethodsForWeb.java",
+          "sha256": "6c831a57b80113cf8ba0e32c8dbfdb276f4f6e59b93fc6aec50d55590ff8f5e8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/FinalizablePhantomReference.java",
+          "sha256": "8dd155b592ca4cc1b59268c6412ca72269d3547a50f24f511a6113cf148f63a6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/FinalizableReference.java",
+          "sha256": "bd076fe1774d53f7bc15767632245672dcbba52fcd619a929677eca04dc9663c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/FinalizableReferenceQueue.java",
+          "sha256": "cc5bb5771bde459b392dfb29459f3c31a74abd5a7b13139e89dec8d10ea629e7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/FinalizableSoftReference.java",
+          "sha256": "ee32587fb7dcd540fe41de120aeac8e948b5ca63a49bd5a083d99ae6dd1edd7f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/FinalizableWeakReference.java",
+          "sha256": "a942e09712360c167b7cb728588a8d76a4e51726e24adf04787d61472d23ce3d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Function.java",
+          "sha256": "6637f80c6b4d5307ee6416c6b2240aec9f9db4c943fbaac2260f1df6bc82c2f4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/FunctionalEquivalence.java",
+          "sha256": "cdd2b4dc918db902e91d48a1df058d95094755998fb602c8f76676e28b94b6cb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Functions.java",
+          "sha256": "cdadb708ad22c1efcd862315d462186bc78a0a93e1c1d007c2d77878878b4332"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/IgnoreJRERequirement.java",
+          "sha256": "7f6c5ca9607e9a83eca9dd7a41cad57b318f346a5dd092554e362f2c2af74569"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Internal.java",
+          "sha256": "6fb003d4d4dadac49e75ae05d1f26516da7fef9b1905b84343fff7a725a071f4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Java8Compatibility.java",
+          "sha256": "9c6ea379ab15df2b275d9ca133c37dfe9dace86f18ea9dbb0150d6393f4ac584"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/JdkPattern.java",
+          "sha256": "75bf4fd6ef9dec2f6f0bc5c1044e60c6f426329b6e3abcf2085a11fdd4f4468f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Joiner.java",
+          "sha256": "e012894cb75daf0dc6ed01c458aa2753c04ade96c5a2c54957dc8ac1fe89412a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/MoreObjects.java",
+          "sha256": "d09a27f3930aa5af78d85fcafc93dff5d3f440459164596ef8d357f8121e7d75"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/NullnessCasts.java",
+          "sha256": "9daa7a94f0677f13b3a5258cedafb3b28166092373149fd9f91ca3f31d3f0d21"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Objects.java",
+          "sha256": "944f7b6112245930d8b6eb8edc79f88e9203bf0e41327e9ac66601b48c42feed"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Optional.java",
+          "sha256": "1eca114236061a6da2a0d7ec78c4e195fbbcbc835b39bbbfc01c5b56f235ee04"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/PairwiseEquivalence.java",
+          "sha256": "9bd0a981223677cbe68b3d658e772b0bfe88424384f8bfb4c0951f946d90f2b3"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/ParametricNullness.java",
+          "sha256": "860649da7052eab3cecd2b4050aa6882eed159a97a23da44c0c6c3a456b741a2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/PatternCompiler.java",
+          "sha256": "14f14d02bf125ed6227f43ee9970c65195726e52f8127f42058956497018e2bc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Platform.java",
+          "sha256": "3147e264d92b3e8fc741ffaf5330f0c2dfc193d272e8c61ca55b19d7dc8a4869"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Preconditions.java",
+          "sha256": "5b0a629a57b9d78d4112dc48359a0a553e49f44465e5d3afd53797dfb8830840"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Predicate.java",
+          "sha256": "9cf6a5e56c7d2e9aa06902ae20585223348baff459c5c6015f8d8d6663ff30ee"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Predicates.java",
+          "sha256": "4b643dc918ae1df909a97a093ca964694bc2ffea0f44df26f091d934b21b4ddc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Present.java",
+          "sha256": "8588753ce0a1846a15c6a7594d9a16d4642e65db035d5daaa48fa78b57c6ce16"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/SmallCharMatcher.java",
+          "sha256": "578398bbf063f75d5fa6c53b012e7924191e579fa2d77bfd81d2569804077375"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Splitter.java",
+          "sha256": "bd5384573099aedc9a3a2ef7ba632c0f6caa128a1e2db44451343daf90734f95"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/StandardSystemProperty.java",
+          "sha256": "86a5f78cf36e8de3281bfb6fe8838821ba871e98800d1461f04ac2a279680602"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Stopwatch.java",
+          "sha256": "3a0011d25d52226ae6be8df2bfb732ffa8494a2442053cfc32f84ef905ffe305"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Strings.java",
+          "sha256": "fb28f1768e951bd2a0a93961f75e664671d01b01ed009133d776257206e1f1ee"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Supplier.java",
+          "sha256": "389bb72ed6e02a72b165e5fd9fe38e046db74cb94b462af20e1796b41e22b308"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Suppliers.java",
+          "sha256": "db708d828f5dc271bfab9d0afba0053df3d699cb3f6623c6ed0f6a99f76f7b90"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Throwables.java",
+          "sha256": "ec35da6339d5b7a37d06fb8f2be6a1f3191e4c2101aa2c2daed6071ddf227ad0"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Ticker.java",
+          "sha256": "654a87c128225edf4b16613375bc314aa897c12b7b02dac2a422256dabc6181c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Utf8.java",
+          "sha256": "d6c86b1a67cbd3246f78a22314ef05439ce7876fc143e1ca3bd85b01bc1127ab"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/Verify.java",
+          "sha256": "177cbbd7e31c06bf2b00458f6a2000cd566785f5816197112e72c75f49dacfaf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/VerifyException.java",
+          "sha256": "25f0a53a05ef403689055c6d205b4dfa6b8bd46df56bbeac1587c038f8b5626d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/internal/Finalizer.java",
+          "sha256": "627c2f38e31edf919f0fd7b72fdc8422ec0f6941176b4d3d2af4aa23dfd10047"
+        },
+        {
+          "path": "android/guava/src/com/google/common/base/package-info.java",
+          "sha256": "3864381a290b52d8a75d4d9f0ac3a4266d70611193e2a21596a70d58a3a7bc6a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/AbstractCache.java",
+          "sha256": "8cf47e9d455869c9860c69e5ed6a70d91fc78c8721ed816dad55e1c832184543"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/AbstractLoadingCache.java",
+          "sha256": "95b5666953cfde767d4a87ae0cc57e762096d8badb691af7f82b0500a12efcf1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/Cache.java",
+          "sha256": "e03f5cca93b2d433e24d74566f6d0f54499f16f7373c1d68602fd50b9c1a9404"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/CacheBuilder.java",
+          "sha256": "b42245e7d966a6101b4775e16ae817fe8f9c4a5cb0f1348f4c33f11b314e645b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/CacheBuilderSpec.java",
+          "sha256": "622ea3667e074212ae580b97c7539cb5f318d98997b1c208c7a6e4430b778dae"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/CacheLoader.java",
+          "sha256": "c30c783b958d6e03815dfa9b3f5a610d5af4d60c6cbeeffba046175ebf6ed18f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/CacheStats.java",
+          "sha256": "190f5f2cff85b25f23a6325d0b5e24c66c625780a1fcf6504b879dfd787e7b5b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/ElementTypesAreNonnullByDefault.java",
+          "sha256": "e5fcb01e9d0a46a5e5a908144428d5f4e47bc9a5a9cd4f7a30aea84f701c2b93"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/ForwardingCache.java",
+          "sha256": "54f28fe2ac29ab7cca20ab97804027ce01ac6938b74d9caf432810b704c30d48"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/ForwardingLoadingCache.java",
+          "sha256": "5dc8bf1812c2310e794db1849fd2f7236bddb7b738329f7318aeb54481cf54ca"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/IgnoreJRERequirement.java",
+          "sha256": "87027216b04eb6c5da0537770638e35847153574c420904055dae212e9ed62ec"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/LoadingCache.java",
+          "sha256": "51298288988298ea09a5a6fbbe8b4cff308605c9036a08ba8281f2bc152de6a7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/LocalCache.java",
+          "sha256": "b944523ad433423fc2c838a0506d44ba3defa2914708aaa636f31ee8bb6b7226"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/LongAddable.java",
+          "sha256": "11a0cffd9a46b779f153f1fb96d5cd3ab93e7f5f8729b68260d5f1b20f5d1712"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/LongAddables.java",
+          "sha256": "a6ac620512c01e2de835c9ffe697715a5f948cb7a8c1e83db61d481bea7daa22"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/LongAdder.java",
+          "sha256": "5a4c04b560dc1d1395ae3063aaeaf4ef368ecb0eee65b37404fa38d2d8532ecc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/ParametricNullness.java",
+          "sha256": "3595fefd3582e167b83170f20f9d32709489fa2c50d71b58e96c6e567453eb9a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/ReferenceEntry.java",
+          "sha256": "6845b916aacb581d43787405ad6030e486f62a9222a1e3022fa98e04694badae"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/RemovalCause.java",
+          "sha256": "ea559af6aa65a90e137e96bb1ecc011b797ba0482adf585468db0fb4f866ab7f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/RemovalListener.java",
+          "sha256": "4d944a03bb1998e57f493cb3aa07165bdf1d051f9de2a2994b454c976076f46e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/RemovalListeners.java",
+          "sha256": "be2e2784b62d5d2312511a721b6e01f2e597f800b24bba6c26587e9881fe8bdf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/RemovalNotification.java",
+          "sha256": "ff25dd7e57a69e6f6b61ebef824b460fc2b6a5f2ca2f64c7ab12b95d4fafa865"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/Striped64.java",
+          "sha256": "9d579b55af4b90eea0549fbec6bd9588f91261d7c84470bd9501305978fa5209"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/Weigher.java",
+          "sha256": "55f51e2c74da67382471e9ec6f76b75647a9e96485cc61cab132869821450ebf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/cache/package-info.java",
+          "sha256": "b61d92e6680f9ee1dd838f11720017741646221016b178ee31961098aa9fb1e4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractBiMap.java",
+          "sha256": "df1fc0a51de5ce3c9c32c009e6a487d693bba95ec1851f1a621666078645b2f5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractIndexedListIterator.java",
+          "sha256": "8dfabf31c1da79eb72f7497333983af25a8e95a8861ad21bf11c2996d19254e1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractIterator.java",
+          "sha256": "fd77a9179689c4a9fe0ca2e58d3b2be5f8832b0b154e0d0cd6b609dba9923364"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractListMultimap.java",
+          "sha256": "9e804c87bf05fc3073782ff0cae430a73ec444692cd0ee463f15510cbe3175d3"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractMapBasedMultimap.java",
+          "sha256": "b993ac9c753b2d5961d55d93642bae9acae60865769c77f278a59ba9d6381c93"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractMapBasedMultiset.java",
+          "sha256": "acf0f830301caea56d8d6126aeb4dc0b42b9652f3d0a4755ca1d0a5014803eb5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractMapEntry.java",
+          "sha256": "eaf6b375899bf688e8d0b955d4dcad2bc4b671c451bde56d4c8647c377561afc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractMultimap.java",
+          "sha256": "9d2ccef720c3c65f62223000a06b734dbea654ef513ca781817514a1899af0b8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractMultiset.java",
+          "sha256": "87b95421105485da51ce244f7bc3eadcc150de67691135035572d29101c57474"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractNavigableMap.java",
+          "sha256": "a92152032f24e02221f090b2297c31abc9d8ca5f38241651c94427505b337821"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractRangeSet.java",
+          "sha256": "dc8e9983bd364e9e1af3b77bc2a05b47f744f2031cdb56f967fb6b4173740853"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractSequentialIterator.java",
+          "sha256": "a76324b23af7068d9c7098bd5e2ccdcddab6fe57511e6bc4068503b51a657803"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractSetMultimap.java",
+          "sha256": "d8ee484a3ea538de23ba6636afb71fd2ad1ecb853745924c02480d8ef72df331"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractSortedKeySortedSetMultimap.java",
+          "sha256": "17668046d4d9b8e8f64c08826e4bb1c63e5c2649d079a07afa377e169c4a4684"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractSortedMultiset.java",
+          "sha256": "847750a39c59ce489ef51ff4e1ded01c753376996c9472bf8c5b1cbf8ef331d5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractSortedSetMultimap.java",
+          "sha256": "b0a422c5be66035d8b3e835d7446f0c9cb17a954ed392a7b959434ab829553f7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AbstractTable.java",
+          "sha256": "6f720d485ac23a57daed8087dff597dff75d0e37b2acb3e75272b81b45d71fc1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/AllEqualOrdering.java",
+          "sha256": "a2da6b2f761baeb5b024b8d290ed20bdfc699c00891867bf5ad065be8272fcb1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ArrayListMultimap.java",
+          "sha256": "c08f44eabbfed55a74ac616db21b3c40459724d8463440c786c5f5cc0a189495"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ArrayListMultimapGwtSerializationDependencies.java",
+          "sha256": "1faaaf762e5e0a8043c34fb8307ce8c4d57cdbac6692b8e85d6f5337285e68bf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ArrayTable.java",
+          "sha256": "9571aa3c338564280400976e11898ee32c374a76f403d5987230c722992ab834"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/BaseImmutableMultimap.java",
+          "sha256": "e4d53d86e063033d2a0c46214b9f0b97347ee63ca67dcc40fb34a301de03833b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/BiMap.java",
+          "sha256": "dc7c0478088c5319b3d97a9255a06b85e85ce3aa92568b212309f977349ea8fa"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/BoundType.java",
+          "sha256": "acff28b73363f655c12b8d643abbc170f315b02d13fb28f995cafb042a737da2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ByFunctionOrdering.java",
+          "sha256": "609befd6ed6bbdc84113e783b3d260e7efcb5d8a285ab35af9fa652f20752aa1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/CartesianList.java",
+          "sha256": "7ccfc48c51ad672529103846853f19f01e9df795bef20013e0f3b4c3cc5b21be"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ClassToInstanceMap.java",
+          "sha256": "f915cbd51397b46a3ed8b72317d63403f9543e88c0d9f15b7e9a6d78db03508e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/CollectCollectors.java",
+          "sha256": "f551e62da9147a5277b04613b0d160131ae88c696468da49fa154ebdcdd28a6a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/CollectPreconditions.java",
+          "sha256": "ee46879ed0cb546c94507955b5de6bca4b1cd60180b113b2a5501191759ccdc8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Collections2.java",
+          "sha256": "f870da18d4a06d131c0508a2709c55a9fed4b2dac3f7461071848efab8188425"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/CompactHashMap.java",
+          "sha256": "5ddc47d23d701f8d059b39790dd8438fcc336e6dd1716b281f1cddaeee333a83"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/CompactHashSet.java",
+          "sha256": "0ba24074a43d372a03a679e5dce1af85b14eda9de4bdadc0a180800fb49679bc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/CompactHashing.java",
+          "sha256": "efae8a65c33c00a5a8d4e71fd6a4555c713a23e9bc2f4be687a202481bc33a94"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/CompactLinkedHashMap.java",
+          "sha256": "ffbc5f4abc055061ba6012129091e8c908dd7715320e706df62713136b9673cb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/CompactLinkedHashSet.java",
+          "sha256": "fd7e906c0d9d27dda146f4869e5185e5e7e9615ca7fd48dbac95f94f7616b6fd"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ComparatorOrdering.java",
+          "sha256": "21a475ba6ac2c6f79ee8790287c38148fe2dd79cc0e5df131b1e7c262f449a68"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Comparators.java",
+          "sha256": "af0c3bd7a7a89b4d2863d32b3405f0d020f5a06269509fbd51fc1e7cccb7c5e9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ComparisonChain.java",
+          "sha256": "1bf27b2dd611c9289b4c044c7620844e719a650376f193c254086eb282caab71"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/CompoundOrdering.java",
+          "sha256": "cf98bacbe33610e1d64fc7bf03c38ae4bcd8752c3d5f8eec7456027e45bf6554"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ComputationException.java",
+          "sha256": "9f669533655c0b4d67a1dff7f34285f1a43136f52af56e1c1d32419d90e78929"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ConcurrentHashMultiset.java",
+          "sha256": "15860daae37b84a798204101201e44a8aa27c38c99be9a78e17f4d13ddb1d34c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ConsumingQueueIterator.java",
+          "sha256": "b0e1e32b296603bb2605564f77b89ee7f2e23574db89141d6a5cc5c9a2f946f4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ContiguousSet.java",
+          "sha256": "e8747dce429bdec0421964f70544449fa7749cd25e4b07fb726ab6ef3863f0c4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Count.java",
+          "sha256": "189f5670f48cd965f0529c129b8273ee7711674ccbcf370d9577cf8120cf27ac"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Cut.java",
+          "sha256": "e3aa00b8d717623346f3045f358ebf053d4b65f17e73003ee9f8fd77cdee8ed1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/DenseImmutableTable.java",
+          "sha256": "c3d90facfefb19e1835eb1e50c3df209158e67ab02eb912b721b8f29cca2e658"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/DescendingImmutableSortedMultiset.java",
+          "sha256": "8c0889e6064a8867a4b50d321f012327990a13e6dd497d55719d72a71506d602"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/DescendingImmutableSortedSet.java",
+          "sha256": "69b5550286258e47fd3ea92ef7411b826cb84dd170acc147268a34ae05f04259"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/DescendingMultiset.java",
+          "sha256": "ee919b405a1b80803dd57ef5aac5babfbc49e735de9cc17c2b887a1002ccaa24"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/DiscreteDomain.java",
+          "sha256": "e4301d4efe1b6589d403000c2ed6b68653124d26b694186464341673d9c5649a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ElementTypesAreNonnullByDefault.java",
+          "sha256": "eb8eb3000f8149d14a31e9283185f4154bb241713f127966cf37f95ac825eeaf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/EmptyContiguousSet.java",
+          "sha256": "e0a39afced64d075b7551aef800798272cd2ea5151379e8e5a0ece659f95668a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/EmptyImmutableListMultimap.java",
+          "sha256": "17c8bbf069fd0a18bc9c42a224cee2fd74e893081987cdf03364bd932a1dffb1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/EmptyImmutableSetMultimap.java",
+          "sha256": "db462e099889a1d78f67f46d651e404ab98cc9c8c6073b9c118815bd9e72c012"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/EnumBiMap.java",
+          "sha256": "a75c1cda7f1a990d17c4327a61ece875cab6537ab841a76358a951f06cfd28d5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/EnumHashBiMap.java",
+          "sha256": "d02a61ba257361b77ada1f6abc646fa8871a8f87a3ce560e1956498128a66f29"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/EnumMultiset.java",
+          "sha256": "ce988188b5b2d6861056c9e7cb2129367947bb2f4826f8b1f36c2e51068321b0"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/EvictingQueue.java",
+          "sha256": "32cb912906c2237a8745a8a14e8a0dd1e3465b3f30b006b27af83c737944bd71"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ExplicitOrdering.java",
+          "sha256": "d1e8e710e34dc2ebaa12dba07fdee96437466a62225e87018aa4a2938073558f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/FilteredEntryMultimap.java",
+          "sha256": "7176681e97a1cc64abb8d982eca8f41fdb4c6749bf430bfb9055aa303b5911db"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/FilteredEntrySetMultimap.java",
+          "sha256": "92f15fbe1ef4e2f60461defc59d4377c1a5ffcdb5ab3527bbd20cdb52b9a6dc3"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/FilteredKeyListMultimap.java",
+          "sha256": "0d8550482de73cfb53c736e8b8902ef7b0985260f9aa20731aa42cc16e0603f4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/FilteredKeyMultimap.java",
+          "sha256": "5beb9e36f9f46e9a5ccb987c5928289b4cfebaa7f941ffd033834ea633f671fa"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/FilteredKeySetMultimap.java",
+          "sha256": "bfd782d97765d48c999530127a591717d40584277dc43d098a59e7e302b88a2e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/FilteredMultimap.java",
+          "sha256": "85c915ff6e9d0d4128354f4cc8f45893ec48da84b91234a79699683763b12872"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/FilteredMultimapValues.java",
+          "sha256": "c9028886bb8fc6e9a5fdf8b03d090d3af1bdd834cca7b5d460c81b452d0a0220"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/FilteredSetMultimap.java",
+          "sha256": "78f638f4977545f28a51a4e9f50acc410c9c726b743e946ef67e956bd0604dcf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/FluentIterable.java",
+          "sha256": "705d33befa5e8484ef358885775ab5e0296dd9727c52ae4f5980446d1572b268"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingBlockingDeque.java",
+          "sha256": "a799b56bd2d7c1ec85024a12696f430a3d57d088e6a124a9a387eef26a68fc1e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingCollection.java",
+          "sha256": "fc9afebb996324219345457394d4af3c0efdb72208fbdd8d731a800db42f0653"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingConcurrentMap.java",
+          "sha256": "a73c3904d2085e01f79dfa29577ae2a0478c675db1220246c8506e964bce31f8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingDeque.java",
+          "sha256": "777bdbc6f4d4ab35e34d0e9c58aec2395aa8d4e75748e85b299aa11ffb27b612"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingImmutableCollection.java",
+          "sha256": "e605fc54f52b57a68b45000272f8687fdbabae08794dd9c20f2a393a3b5d3c54"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingImmutableList.java",
+          "sha256": "9eeadb0e7ad11214f418b3d1176ddbfe8e8f1dda939cb7e159a6b0b426310558"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingImmutableMap.java",
+          "sha256": "4b0507eb574e14220083b7830415cb7946d82cccc82dfb144c91e8855ed027c1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingImmutableSet.java",
+          "sha256": "99841081b39c8e1e5b7910fff640249bebe9d912ffedaf643fe75acf91b3be05"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingIterator.java",
+          "sha256": "cb13799dd04d73e84c87fdc8b9649b612a74261874ab987f8a4d79e27d33acd8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingList.java",
+          "sha256": "6cb45a558ef66f2965788107f3dd47ebc5624d88a22fc45ae7122595584b84fa"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingListIterator.java",
+          "sha256": "5797e1bb288ca7bf232513a6321d310c4a9c81238c44dee5563da40aa6cf4f57"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingListMultimap.java",
+          "sha256": "ed3bd2722e80d81c800aa89926c7b7012fb2c96addce1386dd6074b74a5b327f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingMap.java",
+          "sha256": "5dfde84788762dacc73d84739f68326b9f0a971c4e19f9a3e1b3c2a0f9f05158"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingMapEntry.java",
+          "sha256": "6f06f034177a53f792be8cdf5fa4316c8cb3c175edb6d0bb80b4033d6d74f97b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingMultimap.java",
+          "sha256": "2ec27dab45a67831c1eea76b83f1d9946d715c3b4682cc5ef0659c715a40b5ff"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingMultiset.java",
+          "sha256": "edf3f85c621cc4f75874175d3f3c6763d2b0d6de273ea1a021def9846b6426ee"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingNavigableMap.java",
+          "sha256": "a28e5f8c0e66b04dfa1d0e1b2b2dfc2dc68e47b1c782812d8cce4ae0fb534dc6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingNavigableSet.java",
+          "sha256": "656b7539927158b3454a2689e74a26cbf9691e8b7f3a643bd048232fbf183957"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingObject.java",
+          "sha256": "a17fd632dd669f47c86b6bace42537b73dda975f9f4e367ce9257bc4d05a0d24"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingQueue.java",
+          "sha256": "f153c34a9c9a9a74a1c2ae6520cfb8a29978f05e5ad4a2e754c2b4bbc368badf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingSet.java",
+          "sha256": "e54284ad9b3987a06ffe20a42401ab2208887238003486bf04fc2ef16e9c4973"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingSetMultimap.java",
+          "sha256": "63d281c57442aed7adb00e59cc5057a9fbcb2ebcd2a126f3179786dbbc7ddf2a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingSortedMap.java",
+          "sha256": "10729ae5bd258c7b429d28029e7785979071d8b4a73a9d93772b07614cadac5b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingSortedMultiset.java",
+          "sha256": "bf037b8145649a66a8fe73c511461c0e8ad7dc404cf2d83c83260f2097b8782a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingSortedSet.java",
+          "sha256": "a8535a11f9f935dbd9ded52391cdfa5dc752c6ef91d829bd95242d26702d7942"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingSortedSetMultimap.java",
+          "sha256": "4a390a6e7212b0400e11c774bbd0c5ed03b3c246a0508be4507fa3d74ad015e4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ForwardingTable.java",
+          "sha256": "f1b0fbe12cb395381cc1f7aaf8ad3b8d73cde74a326bc62dfd38e1ada9857616"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/GeneralRange.java",
+          "sha256": "47528b304e0b701483a33c03091612984ef113dcfc2cc1704831f0e082958743"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/GwtTransient.java",
+          "sha256": "db6d61d0ac837e01db9f2ff2d8b35185941d1798423affdca4741a3d486aed25"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/HashBasedTable.java",
+          "sha256": "e95b47a8cc504ec41ec4edc4171727a0ebcfdbc70705fa2bd14f94c18c98ccbc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/HashBiMap.java",
+          "sha256": "371caa5345fadfee91b53e263427a2d4a2bbe9e86daa394a8f302f33fd17d01a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/HashMultimap.java",
+          "sha256": "a7656f64626a710806e354c9ca125d0104b45b67e55db4fb01043b3138fb5550"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/HashMultimapGwtSerializationDependencies.java",
+          "sha256": "9dac31d9dcba5de31e3ed8f60287a13cc84bd17c2f35905d284422fce1c562d7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/HashMultiset.java",
+          "sha256": "a5f9d450b4db27422b33db83a6b36d4403201ae56dc9d87b9c6fd5d0a9094d91"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Hashing.java",
+          "sha256": "58c26b1f80dfca4bfe27db75e367b2dda5cab5315716f605ec362891cdae9bab"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/IgnoreJRERequirement.java",
+          "sha256": "4e2b9beda19b05821fffc1e54ae7b6050b147c69e7a4a86fa86e7c9a8f7b00d1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableAsList.java",
+          "sha256": "9c198bcab9c350e196cf4629c5dd0a0bc8bf9d679d03ea87a990ab1c7ddb5c27"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableBiMap.java",
+          "sha256": "774ad5326ef73d361b7fcb3a8ca2c9dedbbd75591bbb5ee98c14d2e13b50cc83"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableClassToInstanceMap.java",
+          "sha256": "6b67ee135fcfe13dba22e6cc197f69d367a088de5bbefc1eb7d4ed329a90fbc5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableCollection.java",
+          "sha256": "9081d48ff7a6f531d1cfa8030ff3a41a45a565d63cbba732ccf98991e6d417c8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableEntry.java",
+          "sha256": "73d121f96bd3025202664c4b3fa1e5856a4b9a168936a72023b72cff5bb8329b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableEnumMap.java",
+          "sha256": "2830eba89956c262e77bcf8807dbb0282dce96a74326061c64105da2eb446d80"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableEnumSet.java",
+          "sha256": "096a36b784a7769c62818936f62cbaa0dbb8f6ee9c7046c6f4c1eb75368f992f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableList.java",
+          "sha256": "2acd561bb1c647aa4edcf6e866b8c49a27b1af8f3d328b1b690691f14f9d3d9e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableListMultimap.java",
+          "sha256": "2029eb11dbc2361836a7f3cfa74ed225c6e2cd9fb115b860658a0b81d8aa4aaf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableMap.java",
+          "sha256": "4005d850a04cf356a40c374367183bae63fe94144c70fd40a1be5503adafd0bb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableMapEntrySet.java",
+          "sha256": "ddc08f0022d260a1efbd17dddc031b2dbd23e975536bdb93345c8bc0735ff930"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableMapKeySet.java",
+          "sha256": "c54cc4e8f66a63c7b707b579053a1779a0c040bfb08ac5c0706cc711a7dff78b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableMapValues.java",
+          "sha256": "e711fbc4684812cbbeaa1137691f860659b32cc3768e3bf15c4d1506a67bbec1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableMultimap.java",
+          "sha256": "468fbbe5febb72c31fb60bb6e603203405782b01df480c61b74f9ad93cf902ce"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableMultiset.java",
+          "sha256": "9a99191dbbcd3e6a72306c80dfb70571a1c4e912b6cf0af5563319feb933fd43"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableMultisetGwtSerializationDependencies.java",
+          "sha256": "d4a587c8e86f747d7c96cd067d364347b8118d7c4c355f962711583baeafdff6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableRangeMap.java",
+          "sha256": "d2bfeff5917408ae621452a80a2931414d13022b96c3b875b440f047f3fc2019"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableRangeSet.java",
+          "sha256": "12b95968ece3bf88ef90ab714542088ca6d26f077fa79f46e57f9861271fd74e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableSet.java",
+          "sha256": "baf11ae5ec05b021b2348d28fc8f74b1914aa8080a270f30c79742e4820dc6fc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableSetMultimap.java",
+          "sha256": "d8c4fb2f91d7adfcd0b2e919e6d6d4ef007b3f880c80aea771e8d90dcee5635e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableSortedMap.java",
+          "sha256": "3cfaadd6b222db0d02dc9167bafdeaf31f988c1e6f4b64d33ead12e13148573c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableSortedMultiset.java",
+          "sha256": "95b8a55a9439664b8ff83acfa8762445786223e11d7c8f83d0aad3b2cd6e8852"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableSortedSet.java",
+          "sha256": "c2ca27f45713855c8721ff86752839162edc7ccfb9b31c8a1182fec7b952e8e5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ImmutableTable.java",
+          "sha256": "404bd4e6f42ab36bf0fdf58bef5cff632bdb81c599a511aaabf476d02ae2e73d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/IndexedImmutableSet.java",
+          "sha256": "f316495d658f3ad29a66230e45c22d4b7ffcd9da43356acfe14b86c2e1972915"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Interner.java",
+          "sha256": "71a661f5e63994ec6059c494c745638a005e9641271c3901c5449ce2deba4a64"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Interners.java",
+          "sha256": "00717055865b2d3b182c59e4247e86f6fa96c90b706c25e0b92e39653beed9ff"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Iterables.java",
+          "sha256": "28da4c470c333a2115ba1dacc6cba03cefdee68ad120c1dd6824c1f497418e56"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Iterators.java",
+          "sha256": "8428ab2d2fae8056271ff365200cefa4ec1e8635f288a963c9fe3959bc5f8e17"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/LexicographicalOrdering.java",
+          "sha256": "4026d0da703dcf2e191e2896c7716dd876d985f002f5a01427c499a4b87b6955"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/LinkedHashMultimap.java",
+          "sha256": "f84d2578454ffbb0e1e075a0f89011313998845c3603d98db89b778362059de4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/LinkedHashMultimapGwtSerializationDependencies.java",
+          "sha256": "b147f64946114eba0609eb37ecfebe75fc97fd8d4785e2573f5e01f905c88e71"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/LinkedHashMultiset.java",
+          "sha256": "1cc753dbe5b0b1fa1fce943d69f7ff512ef6f041259f0350a45fa79a6969d723"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/LinkedListMultimap.java",
+          "sha256": "68a77d25cb806f767d65681a2559a79226d6133074753d83aa573372df136b0c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ListMultimap.java",
+          "sha256": "cfd7241b17ca000b043e79e0ccecad3f5b589b81f3367ced93b19293f177a94a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Lists.java",
+          "sha256": "d21baa2a522864bf5386468e50c3b21b0d08a3b5d05bfb605c2ffcbdc59f5034"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/MapDifference.java",
+          "sha256": "5fbf3d6c2ddd4fa6f0eb353fcc37ea7756a864519fd6f5fcbf0004e8fe0c59a4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/MapMaker.java",
+          "sha256": "0f3956e0f9d73bd6f01cfddaeefffea042b27da3b8ed5e15cac754d7090a9a9c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/MapMakerInternalMap.java",
+          "sha256": "57dee107a5cab98411484e4efe977220650b8454284dc93997ff477b6521e222"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Maps.java",
+          "sha256": "be527aa4949a63f8dda9ae1968436a3f80d006f45b1e042b2ef66aac1886e650"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/MinMaxPriorityQueue.java",
+          "sha256": "efda8af200c01a502bee66b9d24b333ed0770f414c9a19bc02f187b7b1617548"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/MoreCollectors.java",
+          "sha256": "ffb11fe080a97c4f14a5f8c88db0d529df4280fb816ae39d5928641588d5c26c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Multimap.java",
+          "sha256": "a0710682c03a08811dff81203043f5a57d66fff0a1377cd91630e9c43940a9bd"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/MultimapBuilder.java",
+          "sha256": "87762b1d3f3c11406713640fb16c03a07c62427821491afd26748dfc5abaaa8f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Multimaps.java",
+          "sha256": "99a4a566a83a990a9fd0b198092d35f6656537a098576f4e9e74a4a2b0d8995b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Multiset.java",
+          "sha256": "d9a5e6eebb7a99e9d4234066700c1f4fefeb3606007d45cbf28fad8f53921df5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Multisets.java",
+          "sha256": "2e899a1abe3d5aaea30f5e07f30cb47714e5d7b3b70a365b30ebe036d72aede5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/MutableClassToInstanceMap.java",
+          "sha256": "7dbf7086bdf5aa7b29a5bd340c072ab93884ce755b71c5629ca6c34a732fd971"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/NaturalOrdering.java",
+          "sha256": "fe6af04bc45f9068c9d6dfa6e1cf6814e1189626dd833409dbf8769eaa9498a7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/NullnessCasts.java",
+          "sha256": "6f496c9db1dd144c831c051a367983e31499202f42b790a945e2c6b61ffa13fe"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/NullsFirstOrdering.java",
+          "sha256": "4f87eb21b89c34e73a1e90a94d5d6631e8338a40e2a9b3c1ee3de6500e87a7eb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/NullsLastOrdering.java",
+          "sha256": "afeab2add6268f5ea5585ac34096cc0b5c4436bab417b60645a3f558be6cc380"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ObjectArrays.java",
+          "sha256": "0c588af14173f3c4d69af9fb17c548a2e9155676bcc395a94aff26f7977e289b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ObjectCountHashMap.java",
+          "sha256": "3a026e6b38f139b575f411e86b7c98c6d47f8a155abda4caf7fc6e5c13451748"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ObjectCountLinkedHashMap.java",
+          "sha256": "67ecda237f0f1c86f43a221e34ce5b6fc7015db4d5af299cdf64610030d54154"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Ordering.java",
+          "sha256": "ef080a71fcbe0886d79a346a5d89338a0a5a4b6295d6712a9224c5fc6c4963ba"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ParametricNullness.java",
+          "sha256": "116a9f7fa110655bda16b4cb816408852c3554e04d49ab32c6832eb608ee3960"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/PeekingIterator.java",
+          "sha256": "4fa0363b155afbdc6c2c7e15d237151d0c5d90508b52051108ea56ef615145c4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Platform.java",
+          "sha256": "030f450a76a11e6dd7fcfa3151ba71ccd168d258ae5c957917a208d9b50002e6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Queues.java",
+          "sha256": "40d9860e0cc978db243ef4802457e51109e017b093e6bb08dbbd46240a760985"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Range.java",
+          "sha256": "08aba32353cce9f3cef8120077c1880d7aea1cd02e3607ee2e4a75670da05aa2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RangeGwtSerializationDependencies.java",
+          "sha256": "aaba4374cd1331d3dbdc396f82e96593b552fc81948495864a1af9e0e1e2a64e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RangeMap.java",
+          "sha256": "74c9f9fce6c48ebaea94b7c0151493d0b86799bf5553ca0c9060ce500e956725"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RangeSet.java",
+          "sha256": "c696fac7c0043a3492c4f43a57557e76ea7406c2b9db9f678c0a4e40414238de"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RegularContiguousSet.java",
+          "sha256": "a4cf13b6e2f4f05e56cb894e486273f66d245febdfa324b499084e002e7b15eb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RegularImmutableAsList.java",
+          "sha256": "acaf517c84296aa8a197fa0fce81635a3ec58f039f032b4ff9a5e017ed24d0ac"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RegularImmutableBiMap.java",
+          "sha256": "054d9d2840e74f9a3231726b944fe729290b3693a3dce736fe20d86360a21358"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RegularImmutableList.java",
+          "sha256": "739498f0dd715be632785aa817b2f517a5fb49d5a89294cbfce96a0c61cca5b3"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RegularImmutableMap.java",
+          "sha256": "68e9699f9b81b50fc9482daf9796b7d8499a648209fb39c559e636dd6eaa0ef2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RegularImmutableMultiset.java",
+          "sha256": "c31c64d7bd10ae8041ea26e927af9cb71dc3bc44ebb35271f818c2a21bfe5b60"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RegularImmutableSet.java",
+          "sha256": "28390b154ae41cb2b0aff5265c630a368990894825937affc734edb681a3900d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RegularImmutableSortedMultiset.java",
+          "sha256": "4564ab35c36ba7ddd601283c95dc109e33e7f687b4453d95fd4dfe0526782321"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RegularImmutableSortedSet.java",
+          "sha256": "6c60704a148a6d27d0d41294647a393bd84d83adca49d99ba46224486c7fda43"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RegularImmutableTable.java",
+          "sha256": "bf97b00331f8e89371a161437f623ced1671b5a5e0cab57d086dabd75f78ddcf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ReverseNaturalOrdering.java",
+          "sha256": "236cdca57570c4725aa95e9d11ca98eac31a56740cbca939fc7d5d59bc854273"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/ReverseOrdering.java",
+          "sha256": "ffd01dae392e8145e36cf1308ac2224def2af1da8afe2c0616fe14e1df2d264d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/RowSortedTable.java",
+          "sha256": "33099e974e33ca91b313e3ca893f2ec2a6086e930024447cc9aac930cb209839"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Serialization.java",
+          "sha256": "9d71e987ff98d9eca04f409c24b6092958bb0b62392d6a8a3cdc289e638a6339"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SetMultimap.java",
+          "sha256": "05fafaa9c645f4f9b10c65dae5453628e84b8ca4339c9c4fda9f6c7a2ae833df"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Sets.java",
+          "sha256": "381d10551d82e5f367656510ac47d8842e1f1746912e1df8761d7f331035de0d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SingletonImmutableSet.java",
+          "sha256": "7a10f502429a83dfc740658e77183f5fcabd004bc09b897ecc733ffed138dd57"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SingletonImmutableTable.java",
+          "sha256": "1aaf6ba330afb23dd1cb94244d2e6eec5810d018d002e9c4e6643122361f3376"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SortedIterable.java",
+          "sha256": "59b90043afbe1a10c3b36f6a02e38a660c33f24e989b8763deb4f3d8c161bed2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SortedIterables.java",
+          "sha256": "07f48a2053c3315d2363a7f031045f49b3f3f24bdd35819f34da17e727ea25a2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SortedLists.java",
+          "sha256": "f2e58df79fbafec0a6b309225528dab9f60af8472eef64143ac399501d231f34"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SortedMapDifference.java",
+          "sha256": "c506300a59c94c90e5f190566fb768d8a51dc6064811fc6415d6decd3c5a7611"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SortedMultiset.java",
+          "sha256": "b6cb540e3f2b5342a71358e8a60ace97906fb9435700563de23bc2e420a398e9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SortedMultisetBridge.java",
+          "sha256": "9fa7304714b3aca95e7f63c9a90da79729faa9d2bdc980716597f283a63201f6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SortedMultisets.java",
+          "sha256": "4e9ceb57f296b8f5b8a89b72e65e34979593b447d078ea181e65210b88785e0b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SortedSetMultimap.java",
+          "sha256": "cbaba2f26b7311fdb06c53ebb0b470a6b616e90db8629a9d8c36d0b5b1b16480"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/SparseImmutableTable.java",
+          "sha256": "a04e153ffdabe5dcfa6a15065b287675f212f2e0e1a2bfa0e9ea677f9d2d0bd0"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/StandardRowSortedTable.java",
+          "sha256": "2cd9f62f207d4716155b4f77dca76c432a590d97b1312c933c9df318c033e0ff"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/StandardTable.java",
+          "sha256": "2e52e888117880a666244059303a6dd87b2f189a9c56244380ef6659bd81291f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Synchronized.java",
+          "sha256": "ec649556658fbb72d281323adbc2deca3ddcfbee67e027c619973f4abd63bcd2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Table.java",
+          "sha256": "0d955c6d930065b7b93b762cd30f10c8e66914d48da869d5c1053db6f96bcf3d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/TableCollectors.java",
+          "sha256": "bf1b92f16e65bc103261ee8299fb0c0fe2418b8aa0eb031f491042eee15c95ba"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/Tables.java",
+          "sha256": "874a65abc01dad2a2aa837e1af06efd1872e1f576016548f36eea0d90550c810"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/TopKSelector.java",
+          "sha256": "cbbfc1786c13bab04a92a7e8516a33ce378d1c7b1efae147b7eef36d2f360504"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/TransformedIterator.java",
+          "sha256": "05602c4f60802eeb536d44334e46748a2d780f7949d785bd3fd2db91b329b3a9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/TransformedListIterator.java",
+          "sha256": "99ca0f3e2de114954e75ac40148120303b453dd076e98f470fe423576548f25b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/TreeBasedTable.java",
+          "sha256": "61aa2408ed05b8d8d2d4ca7f8997b137988327e817ffe92d47de6b2c739822ac"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/TreeMultimap.java",
+          "sha256": "4385bf205235d11e9db2994f525fecf116acc0fa92bea8a5ca02d1530af6fbf5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/TreeMultiset.java",
+          "sha256": "b6af6eabf6f809c6a5f38d803463384597fbbdd08a0912786825c31a193b76e4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/TreeRangeMap.java",
+          "sha256": "16068606f8b57a36769a6eef44e29f1f60e43d8be1837ad8218d9fe89eb91063"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/TreeRangeSet.java",
+          "sha256": "5a27746153b10bf5a23b3630af6fedc776446e5b7080b192f78022e61145fd28"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/TreeTraverser.java",
+          "sha256": "ece5ff15491f77debe56cbb475aa81ef2fe3e63db2e5dd4fffed27ba75ce7f66"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/UnmodifiableIterator.java",
+          "sha256": "039411955630c2e427609e0781efd08de615bade1a52c1d3194609f9d043376c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/UnmodifiableListIterator.java",
+          "sha256": "322dd10a50d36d4705dd8fef00d8e9e9608a9ab1c4f409422ddb9b5dcc2f19d7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/UnmodifiableSortedMultiset.java",
+          "sha256": "a9b92092d1c45d2449b2434ec15e4eec52b2fe7d202e127b9a4bdb270fa3274d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/UsingToStringOrdering.java",
+          "sha256": "4842337d09fd532edf69e5fd178edf08d43677c0251ccd6ab781d8db63d3aa64"
+        },
+        {
+          "path": "android/guava/src/com/google/common/collect/package-info.java",
+          "sha256": "d4b730659a563354d6464ad68565b1a772e307c7e3881e7adcb9144b0d4a9d13"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/ArrayBasedCharEscaper.java",
+          "sha256": "9ffeaa0c1de9aad9083a1f2a3b647c8049e56080ca2536616bc41dc10bd819af"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/ArrayBasedEscaperMap.java",
+          "sha256": "80581c5ff0e022c0d4cfde12d67e240f38f65f9d907aaad930ceca186cd75cd2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/ArrayBasedUnicodeEscaper.java",
+          "sha256": "5c25b883786dea467922c15613c3c416678465ac1c2322ed3452dbca5a88720b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/CharEscaper.java",
+          "sha256": "8c51638a69511a1de541e08b5d04e86a0255f8879c10985d7e9fa8ac7c7f53e1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/CharEscaperBuilder.java",
+          "sha256": "5503b0b45cc34adde0d55a6eee15c14ffe28c83e56018af43450784e07972550"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/ElementTypesAreNonnullByDefault.java",
+          "sha256": "7808555813c0709d7e639f550c41b403a5e5ce4b87a5829f899b5ea0fad10793"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/Escaper.java",
+          "sha256": "fcb50c392e26d1c45d3965e0c4c5bd52b38eefa9e62a06fc1632581b9c33c9ba"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/Escapers.java",
+          "sha256": "898a9917445006b59e55c7a5ea6641aeb14d9e536d3dedfe9d729f0b69473a68"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/ParametricNullness.java",
+          "sha256": "0965a5b8b2f822fe14f840e6ffb9e6a8d948009c83dcea6f95edd73429e4ddae"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/Platform.java",
+          "sha256": "092fda2cb776e54e0d21a7c67ce762559f03c6856e4a59ce895188e9021ecd4d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/UnicodeEscaper.java",
+          "sha256": "6e93c961a4ac05011a0ed7796d40117273a246a639b85f8f380bd47e10fdf44a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/escape/package-info.java",
+          "sha256": "52ef75bb6ec33494400202618418777abacd4b3dd64743d7cdc6880580a86b38"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/AllowConcurrentEvents.java",
+          "sha256": "2aeb97d8c1f00416155047d44fd562ca65de3914d01f1cdc717d52c0ab1f1dea"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/AsyncEventBus.java",
+          "sha256": "397c8d2dcd65ac5be47570392a6479e1263b98e556ad43891bd4f6ef77d7c381"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/DeadEvent.java",
+          "sha256": "e549e213d2d8a3f3084d097cbcd48fbfaaaecf35b79d809b4d228fca4f9f8f6f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/Dispatcher.java",
+          "sha256": "25a7454bdc79bbb47d501e6f1b1148d9b988355fbc49c22c25310b286e993535"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/ElementTypesAreNonnullByDefault.java",
+          "sha256": "07a3e20facf56333447b9c68427ecf3b9e966a9808b11c41eb98f720ffbcc808"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/EventBus.java",
+          "sha256": "2f64b54ef57cadabad9c74b316cb197127a793f17e4a1010f4f8726fb12335a5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/ParametricNullness.java",
+          "sha256": "770f412748e7600e928927d76d89c2cf11c095350578b201110a6f521a90fdfb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/Subscribe.java",
+          "sha256": "39cd8d3010ae0aaadecca63ec51dc1078f7b3eee6ff3781b08cf150a994c9bea"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/Subscriber.java",
+          "sha256": "374ee990bc28cb4b7f7bf01ff2178f8d073714d584998a8675f7924565ac30f8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/SubscriberExceptionContext.java",
+          "sha256": "1ed48b2eac846f5d317fba783f035a2a14d49f1cce54adb4d3f9abb22f275306"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/SubscriberExceptionHandler.java",
+          "sha256": "b143fc53885c289c2f08a15e768dc0337da0cd7386b7f05adeec2cb2acc61ced"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/SubscriberRegistry.java",
+          "sha256": "ab4a4a0b05cda9de98e1550fb42ce91e090bae109b419c26609d6bc37ca2cd40"
+        },
+        {
+          "path": "android/guava/src/com/google/common/eventbus/package-info.java",
+          "sha256": "56f4d495ff74469ad863df34006d14b84587fa6f6a1eb4ee408342cc34c144fe"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/AbstractBaseGraph.java",
+          "sha256": "6c632b7d72960b464cf51df7740dedad9d3b28789e29a18fb359f4523d7473ca"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/AbstractDirectedNetworkConnections.java",
+          "sha256": "246e5902899bc69d6eccfd43d5a352ae7c70546b848d3c21868fc9244e7c2126"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/AbstractGraph.java",
+          "sha256": "d5c087e22884e2077664de3b2165fe805ade8c19f6fce7e003248130f45a7ce0"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/AbstractGraphBuilder.java",
+          "sha256": "6dce4ccf196b8d68039649ffc0bf7ee9028e066c3cc66364e3b17c40ff99f2bc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/AbstractNetwork.java",
+          "sha256": "c9a75de935d53ff4419f591cc82dac15cf31e2341b3acd705a0e9466e00191c1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/AbstractUndirectedNetworkConnections.java",
+          "sha256": "8c877151d3cfc27eb56792c6f9cfdf84ecfa057d65947c9b062bccacb911c2f5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/AbstractValueGraph.java",
+          "sha256": "3f3505869cbc6092dea2e023e269326430663426cff1de84fe097f0941a63dec"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/BaseGraph.java",
+          "sha256": "37af1f419815128ddd48088ddd14329eaffa7fbd814cc9bd0ef586526127a1a4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/DirectedGraphConnections.java",
+          "sha256": "6e03957d0711d1e434a5d2df38508cfa6bbf0aa19b82dc061ad2447533dad523"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/DirectedMultiNetworkConnections.java",
+          "sha256": "29d8d8c7859d092b6df2b3ce1d41e473d20621c991a19b8b392973f9dc423939"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/DirectedNetworkConnections.java",
+          "sha256": "6958f9463fb85256fca194bc5a9f199b8319764aa88dbcf7391316805b06ba07"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/EdgesConnecting.java",
+          "sha256": "aaab09cc74797fea3ba37cef417148ab71ec3ba741a2e88b17eb6188ffe5f804"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ElementOrder.java",
+          "sha256": "7355840cf84e31a5f529d0122ead172c00d1406b4949b8bd511bd90202359966"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ElementTypesAreNonnullByDefault.java",
+          "sha256": "42c6964e779b79c5f79673d000fdd839f170a80d1bf6325d78524735ad966501"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/EndpointPair.java",
+          "sha256": "8d398b48a0b34d20ba8e43e870f6531c0f0e55a7432dc667c521c61fdde89acc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/EndpointPairIterator.java",
+          "sha256": "c6fe9784a963b1745ffd15c78e5e3719853b8d0745359a00ae3b920526482170"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ForwardingGraph.java",
+          "sha256": "321754778c95d4fb08b030c23d11833b0360e51accc6bd82a0a1ada54cf5c221"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ForwardingNetwork.java",
+          "sha256": "875644962ae53dc041454cd3c14662e43a066f119e514c2cbcdd9e0305fc2ef9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ForwardingValueGraph.java",
+          "sha256": "a4b7b99875b9be1ca61c2b749600d2c88845dbc166a5a3cb3e02221e1b0deda4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/Graph.java",
+          "sha256": "74ddb62f167eeea6ddee5383afbfb4778b7dc40d8ed7d33c5d00a3070689caa3"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/GraphBuilder.java",
+          "sha256": "c028b61cff3a447d79bcb7380636fd0503e20f5b11bad5856ea45f1e4eea2d0f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/GraphConnections.java",
+          "sha256": "561caa0a5c955ca98079e331dc8cc6f6bd9b3b5d35166fd3e3624d42567eac4d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/GraphConstants.java",
+          "sha256": "b2a36f624931d0189bcbc7406c9bc5bdb7bb24ebf555381def8743c433546d3e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/Graphs.java",
+          "sha256": "67ffbf880979a1c6f2b6016ff2337ec3dd66e8a57a58e482ffa62f6b93c946e9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/GraphsBridgeMethods.java",
+          "sha256": "d4c795b68fd385bbf849ca531cf9f0eb3d921c3881db9c8584eca13aa0af3159"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ImmutableGraph.java",
+          "sha256": "7ae412782fceab170a12c553a3821534ecdc32dcc620f9f2e9cd242aaa83c477"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ImmutableNetwork.java",
+          "sha256": "7f6f81fddb3145d249a171d1d6d76d2d3a3e0bae508a00a30ce16a00e6b2dad8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ImmutableValueGraph.java",
+          "sha256": "4f92e44937731834c0fd350dfed5ba9dc04bb5445d2aa4a4f843be49f8640952"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/IncidentEdgeSet.java",
+          "sha256": "86383d7a093aefcffbe5c0f3a344d7aa9389ae6512150123737c14095aa3093f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/InvalidatableSet.java",
+          "sha256": "aaf246ca80bd53461b59f6b73fca49983afb8ac8ec0349e7486e3db19ce4ca04"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/MapIteratorCache.java",
+          "sha256": "b8455b549def041cae7791b1b1894dffd50d659142ed6eb3f4d9e947173555c5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/MapRetrievalCache.java",
+          "sha256": "e3c39ebd4e63f74e52f898d7da44f36fdf5ff6c92db642ab1dc448d9fff5bb14"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/MultiEdgesConnecting.java",
+          "sha256": "df28ca01d00ba52a1b769a15da30c2d9aa5e08b71de127b6fe8046bc33510349"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/MutableGraph.java",
+          "sha256": "93b8eb31a5bcb61c8566271c4e8f33d3cd5c2ea0c613693e4e5e721279bddbc4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/MutableNetwork.java",
+          "sha256": "f954712f76eab90aca99c9f43aff17111b992c723ca0be2f791a253a4c7ac5c2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/MutableValueGraph.java",
+          "sha256": "1a28598ab7982fd4ef574d8cb595ad41286029aa3667d815242ec6520a56f9ef"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/Network.java",
+          "sha256": "d5b858ffb1107225afa40c0122bdce3eb9fe0e838548468c95617b05c8cebfc2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/NetworkBuilder.java",
+          "sha256": "891486391f4b503dda706b978352356897aae689af0ff95bfd26473975a75709"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/NetworkConnections.java",
+          "sha256": "1c7f9b027072984f51405055b10a7995b6883f7e79f86426eb7038e0ad0ba9cc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ParametricNullness.java",
+          "sha256": "e0ba89aa26a19775c69bc822beecb82776c58af065880b25690cbf0f5076d748"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/PredecessorsFunction.java",
+          "sha256": "e9c17d12b9b338b0be179f9ada6710bbb21cd157769a29349d7541691a10785d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/StandardMutableGraph.java",
+          "sha256": "8b5f88e20a3c94df1b2cb1d5ffad07352a980af2c4ccad3df524fb36b361741a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/StandardMutableNetwork.java",
+          "sha256": "96a4c84869508b54ea362a1814444782ae4c5698f81ac973b76897456605a602"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/StandardMutableValueGraph.java",
+          "sha256": "b4838425caea44ff221b7af40f35883023c20cdea457e618d2dac21d313d61d2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/StandardNetwork.java",
+          "sha256": "7b8043be71016b5ded57b3bfc2262d5f19b3e157e4b7557b2d224992a2d82d8b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/StandardValueGraph.java",
+          "sha256": "da36af43cffd0f65b5cf84d8c855949b14158f044f4ded34f90803e88928e6d8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/SuccessorsFunction.java",
+          "sha256": "df583e3b6adfcf16dc9409fe720c19748073293189e68aae2ed8ba8cecd8511b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/Traverser.java",
+          "sha256": "d497b1be0eb078d2e9844d25eb7eb0d49c207ad694e1db7b741706df0bd74876"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/UndirectedGraphConnections.java",
+          "sha256": "979947ebc98da4ab47bf9b62c145aadfae5ae60a5557aae1abd441b89be9c949"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/UndirectedMultiNetworkConnections.java",
+          "sha256": "461652986e856a77f5b5c40ec4e96740007add30cca699fdbb5800bdd692da3c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/UndirectedNetworkConnections.java",
+          "sha256": "862f59ab4dd565f93c16054a38e241a1e924f1eadf826a1b057dc4bbc230dd83"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ValueGraph.java",
+          "sha256": "d4ae13cd459a382d4dde23bbc6f230dda1adb6ad19528a1f1ace16b2c7ca5d4d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/ValueGraphBuilder.java",
+          "sha256": "0ff5d2c069d49b6bc4e85b50739316ea00d7baf5a53f8f14ade1740eda164cce"
+        },
+        {
+          "path": "android/guava/src/com/google/common/graph/package-info.java",
+          "sha256": "c9ad78d9d71b85e510c94d2a9979ab9689b459cbc2247110b321f36312ddfc60"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/AbstractByteHasher.java",
+          "sha256": "214383be4f8c57c07fa497656b9ed5716c9cc62b6e00110c836a953e2d8978ef"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/AbstractCompositeHashFunction.java",
+          "sha256": "19d690cd21c715fe0097ec428ffc9cf15de7b3887a72168bc241ae390438bb4c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/AbstractHashFunction.java",
+          "sha256": "b27e34094db36d82d922617d79e5edfb8a928efcbcc009984e5dc64d78bae16d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/AbstractHasher.java",
+          "sha256": "40096cb92c97aa1ec0471586052778d1efa0496af9b98dfc4f0a4220a880f56e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/AbstractNonStreamingHashFunction.java",
+          "sha256": "34ab28b210ad6029121467d93eaf2b25bc8d76a7223304776835e3538c76a4b6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/AbstractStreamingHasher.java",
+          "sha256": "35dfc4cc7dd1a66699399deb2bc2f1a2baebd02f574fc251141ec1024639d096"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/BloomFilter.java",
+          "sha256": "4d5b1841bfebd2f7f8a73ebe9454d48177abc84f1f98e42495302860156e0468"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/BloomFilterStrategies.java",
+          "sha256": "e945a2b8e6fda2b20591dac7daeaecc9a38b91ff9c084c8c05137e9f6f2cc2d6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/ChecksumHashFunction.java",
+          "sha256": "f6ccf4f4a6a0d4d3268707324722dac3f661ba73fb98909274eaf1d51fdcab92"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/Crc32cHashFunction.java",
+          "sha256": "04bf337bad7ef4bfcb48536120dd987381b980fbd628748e19deef601422a376"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/ElementTypesAreNonnullByDefault.java",
+          "sha256": "354d01dd9b49c937b84e48744803743ed2067ef3757137282729de94b79b19af"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/FarmHashFingerprint64.java",
+          "sha256": "5794b46102b0066f3bfe749a5c08e039af304a75058d96ee5ef66bbe4dfb5c47"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/Fingerprint2011.java",
+          "sha256": "9fc4c7ccf960ac6a144a69c3d246192ae6a26b5dba649e4695178bdd7bcd642e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/Funnel.java",
+          "sha256": "ecf34d21798ef9053b816cfae7c07ee00bbf7a0c9842feb13f122ff6ca2efdbb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/Funnels.java",
+          "sha256": "75bdf315b3b02946841b7a9bb302d6fc58f1cee79bc2ba72a0fccb7faebb841a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/HashCode.java",
+          "sha256": "d38ab45b8c84b6a35298ccdd8e6c570e3c8ef4dc1594699993a565222d501c86"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/HashFunction.java",
+          "sha256": "3bf81225839bfc6ba6d6268d0352143da3627b3b8ede0b952694c5f1b7e1d8aa"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/Hasher.java",
+          "sha256": "fa5a65695ac019e1a29889f83810d84d9496fab26d192bad3cf912a13860d2fb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/Hashing.java",
+          "sha256": "2d0391cdec103ef49dff4a888c8b01096c882b6eb37d40f84e9f7960d8593e57"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/HashingInputStream.java",
+          "sha256": "c9421fa389405ef7ea194d7243af6951e1bb128d2cdbfa454097082611e5b744"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/HashingOutputStream.java",
+          "sha256": "924d88019081f137d56f076da72050b9ace2a8273bd256448eb861d580a2017b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/IgnoreJRERequirement.java",
+          "sha256": "6b4ace80b9046ef553fe371edce7412102867544060abf8e73baa3a673c7081a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/ImmutableSupplier.java",
+          "sha256": "8054a18d57febcf0ba4b916fd5817ea6585c784da5d79a13fcef2cba6f4366e6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/Java8Compatibility.java",
+          "sha256": "dda7faf6bef7a2ba39c03c1568f999864496e6e0560bf705a40297748acff81c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/LittleEndianByteArray.java",
+          "sha256": "565b5976ae412a4a2234327a45e54cfeca05b431da6f41ef9ad599ed90f325c6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/LongAddable.java",
+          "sha256": "4d41302d93788d7c02a4e4edbec6d612b0ac5bf13c7c0f93745cc925626f4efc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/LongAddables.java",
+          "sha256": "52c69ecd026fee36e3d272fb80619c868bb3b7d167086ed1fa9b2ca37a4648af"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/LongAdder.java",
+          "sha256": "8abae13df4dd9e24608f83d41c30325680e15ce82e318cf1df0cdfa169e405b6"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/MacHashFunction.java",
+          "sha256": "4a47e96790ee886518bd8fb52e5f41cd33993a1b7b46c004d237589023ec38c1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/MessageDigestHashFunction.java",
+          "sha256": "93dae270ccc8aa1e77e45de56b00d9167e801f9f8d4d95ac74864f4a3ab85d22"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/Murmur3_128HashFunction.java",
+          "sha256": "4e3f06f43e3c7671c2e703fc989d995b2878069a9a8e626a0ee29fc26f729611"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/Murmur3_32HashFunction.java",
+          "sha256": "9428ef71f91d99fa6cce384e74d73b15514d587c6d882aebfb57b801e1c8e1c4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/ParametricNullness.java",
+          "sha256": "a0c9f4747f0766b8149ba377669e0667d794589af470414e2d7ea0c62c9898b8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/PrimitiveSink.java",
+          "sha256": "e6714ce304e360dca4ab3cce57e1c9ffbf6e54a063c780f07c6ba83a5bb13179"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/SipHashFunction.java",
+          "sha256": "39ec31e1da44ddaef712e722d84b4a633083dab669d5b063a98b605cac795582"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/Striped64.java",
+          "sha256": "9163a7a54f6698bc53c3f99128f8304d422fce2aacc7d28a0e966a832141adcd"
+        },
+        {
+          "path": "android/guava/src/com/google/common/hash/package-info.java",
+          "sha256": "192093733e15fd3f8f076b7c31678511e35fbd9ea9d7d8a143f07477690c21cf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/html/ElementTypesAreNonnullByDefault.java",
+          "sha256": "0ae59fafdd1caf19d94e8aa57b21fb619829d7e53d17d4cf5de73f447876d3b0"
+        },
+        {
+          "path": "android/guava/src/com/google/common/html/HtmlEscapers.java",
+          "sha256": "48e31656de6b4e50ca6fb35e1360f11a4702cfd9dda3bef162689c0391c98d69"
+        },
+        {
+          "path": "android/guava/src/com/google/common/html/ParametricNullness.java",
+          "sha256": "7367ed050c0f01c49902136586fe6058d4a9128f2c12e4a5056d369070c638be"
+        },
+        {
+          "path": "android/guava/src/com/google/common/html/package-info.java",
+          "sha256": "92c9b64e98ba0d9df44a7e34c7e3163df473a31950ee21e265322c04f482f875"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/AppendableWriter.java",
+          "sha256": "1040406a0cef4b3e75ae61b8f6f95c0a0b584e3fd73d6885aca3b4a665ba7f74"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/BaseEncoding.java",
+          "sha256": "1949fe5a6c9b0d2e9098d616a5f85c982a86c988376fb5db87e8fd50e7ef2816"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/ByteArrayDataInput.java",
+          "sha256": "6931f07925464420f16bbf9297ed358c5471454b988f30cfb9e3cd597c860680"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/ByteArrayDataOutput.java",
+          "sha256": "7009dc33cd4d511222e91aa78fa588a59e58933be5febd326533d9f9acc9391f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/ByteProcessor.java",
+          "sha256": "afae00e48ede1007829188a681f58a19f63237271d146556aad92ec8507a6e44"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/ByteSink.java",
+          "sha256": "ec3cba9d0560bceff377918f3733842304936360fe8773ad328c250b31a72f7f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/ByteSource.java",
+          "sha256": "255c77cea5927f89038b66a49fed44bb8b38f0ea58d06d24e570f4d97be69234"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/ByteStreams.java",
+          "sha256": "19053f0e5ef38aa7cace4a359837feaab8d5da9f114cf0844d62e13639e449d2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/CharSequenceReader.java",
+          "sha256": "ee92dd3e2dcecbe83e85bcae6e9d6aaa3bbb06d7a094f1f1370df2a04b21fd46"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/CharSink.java",
+          "sha256": "6b11e563880a3ad9d3dc5c16a480de1a4d961cfb2f58258b26f9a16fac3e719f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/CharSource.java",
+          "sha256": "24db56e2bfb4fde7a531302931ab4b6687036e9c87733fbff57266780c7d9acd"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/CharStreams.java",
+          "sha256": "441bcce38e9b2a800ed0231462c3efb34487b8fe559688c90feb494d22823c81"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/Closeables.java",
+          "sha256": "eb60eee673f2249e125ff5d82ee073beaa385330245a7162d3446fb3a8b07c69"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/Closer.java",
+          "sha256": "0698ed11a7a083c523a9598c11c015001658565bec305a76c2c0228861d958ab"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/CountingInputStream.java",
+          "sha256": "ccded39409d32966a782e5423afe720f47f14450173406afd26263849e5bad80"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/CountingOutputStream.java",
+          "sha256": "5cae7d3b2d159388a7f333ce6fc25afb6895c8b8e428429d409082a49c337378"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/ElementTypesAreNonnullByDefault.java",
+          "sha256": "88583c00a998b9fd493eab1d583ac3c0b637d4598285a5ce764a2791ae893ce7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/FileBackedOutputStream.java",
+          "sha256": "9135595782b21b57aceeb50a188b8395a7353321209eb91a9e3d94c0ada09f41"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/FileWriteMode.java",
+          "sha256": "3f5834e2cd03786cb4b4e3a9750281f62d9474b082d0ef5f021ba129e63063c3"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/Files.java",
+          "sha256": "825d75026e734e0dda2c8dd762f4aab1f96d68a5397a67d9cc51e6ee44884aa3"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/Flushables.java",
+          "sha256": "0701c82c1caa7ab54d3419263d31fb25952826f1c44137d96feac23f27aa3da5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/IgnoreJRERequirement.java",
+          "sha256": "7991a39d6536fdf21396bd0a86f5e82076b94362db59c6eb79d167988ad45b0b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/Java8Compatibility.java",
+          "sha256": "f23a50ad1ee076c8c77dc63a7187fb2208fa72232c72da9cf9a18ce0260bd4af"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/LineBuffer.java",
+          "sha256": "8a4bc48bac2ca41a2ed4ffd7ec6c70f5f013d58f85e00702091d7546a2016e5c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/LineProcessor.java",
+          "sha256": "e5ba85447b809533775a702aad677088f1399bf7b38f8dc894a1735a64789a95"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/LineReader.java",
+          "sha256": "a0d7cd779c1778aeaae8a82e51cc147b7308dcb3df7cb9207b6f6fd4432b3f40"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/LittleEndianDataInputStream.java",
+          "sha256": "3c05c1ed4e9c1a37cfb3f70e629088db233e3a0a55dfdb28399a7ea2613ed7e2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/LittleEndianDataOutputStream.java",
+          "sha256": "02811f2549c98a600b9e7c1e0e6a8521730eb9825f21ccc440ceb6796fe00424"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/MultiInputStream.java",
+          "sha256": "b21153bd4d275bb1f3567907f8123f80e28dae3bbcac41f5187a2d01cea23451"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/MultiReader.java",
+          "sha256": "62ca4a36704d86447ddae207f98cf491cf36b8ba162bbd8732c51a99f4fcf547"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/ParametricNullness.java",
+          "sha256": "486f529d2d5f5e7cdd31b88f002bbbf4a06700c067e977fd8367a37ae450529e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/PatternFilenameFilter.java",
+          "sha256": "2e83022554515aba9adca3538ac45199ed470b873f589aaf3e030c5de5d61556"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/ReaderInputStream.java",
+          "sha256": "419d7b3ef1389bc67ac953b747bc11be1a60493faeaba6c4522a7fa1670fb8dc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/Resources.java",
+          "sha256": "f7c92a7feaf6b1e3bf6f66c064e19220aa7f2697bbe39317535c1814985b80bb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/TempFileCreator.java",
+          "sha256": "8ac29ce74a2525e5a3b4d3f2b02e41ec3c484293866f3b96e5457213b9cae7d5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/io/package-info.java",
+          "sha256": "1583fa714aafa108c163b06c55b5351af0a7ae1c44101528f520749a3c716b67"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/BigDecimalMath.java",
+          "sha256": "2f9e421b1c260debbc080dc3a5ea06edbf69ba646ba8c4c5fd7765c51ce54c6b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/BigIntegerMath.java",
+          "sha256": "edf34d83397fb90b750e6a41f6848af672442f64af3ea356ae647a9f1339efff"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/DoubleMath.java",
+          "sha256": "d43e44d124fadb91b67b2ce07221d4bba9c1e71b2c7f18d657bcc7fe7b62ec5c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/DoubleUtils.java",
+          "sha256": "ec0e6a29acddff008cf9d44ac337efad17f11d38e124a182625f9793f0a486f4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/ElementTypesAreNonnullByDefault.java",
+          "sha256": "ee32bb98f6945ab07db18f22594d83eec054b12694d8e80902fd4ed2692ac9ca"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/IntMath.java",
+          "sha256": "56d0db4089a7a03897f2671ecf09fb88db0e275d4adb2dd8fec73449c849c923"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/LinearTransformation.java",
+          "sha256": "8a8867fa2f62f48402a838204ad49189e5439081f9e4c14044d11ba1e3d3ff65"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/LongMath.java",
+          "sha256": "e03072b205c27739f3ed8cb444f7690f18f00b4615b6a308fa335a4f4f4900cc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/MathPreconditions.java",
+          "sha256": "ff04b3cd15a1d6c32ca38c2e4b46b16ccef7bfdc00848f1052da112aa9a72f74"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/PairedStats.java",
+          "sha256": "90e41c52c1abd7d14d8a9321377d754925b36c48233e757c85ef657baaff387f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/PairedStatsAccumulator.java",
+          "sha256": "fc952d973af30ce212d487ef0d775422f6523dfb4e9e40993897eafc46cbe008"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/ParametricNullness.java",
+          "sha256": "902100d1977187e7ff3aad3f316b2a2fcb310261ba1d4c2524d10a0b7efe0d5b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/Quantiles.java",
+          "sha256": "a7e45fff10f82defdc03a97af7d0eede1e227a3578dfa2a03993ec1be75821a7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/Stats.java",
+          "sha256": "b8cb2f8386819c2726fd0aee5d7bf69e91138bd3f5bc613f91f1ffac9a2bc8f7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/StatsAccumulator.java",
+          "sha256": "3d68d4e15e98dd9a4b018f35baae3e6d642d48cca0a13c0cfdc64dbdc1cc4741"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/ToDoubleRounder.java",
+          "sha256": "b45d8fec1d834fc8ef4fc9fd1fc72919e53c30706385876d01bab9dfca216087"
+        },
+        {
+          "path": "android/guava/src/com/google/common/math/package-info.java",
+          "sha256": "ed9d217fdd10412466bbee71560a763747724367f56df57366f63bb906fd0144"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/ElementTypesAreNonnullByDefault.java",
+          "sha256": "547011f1494688a737d60a5bff49409fede7cf09fad30d4769a62c9128f96876"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/HostAndPort.java",
+          "sha256": "268015566d9bc7567d4b44f0b8d41943624e1138a96bfbbf5a1823f536c27dcf"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/HostSpecifier.java",
+          "sha256": "6aff8c20feb244dd03efb40c8b56e7dc0e83d93a929eb5ea9e3c0b900aeee28e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/HttpHeaders.java",
+          "sha256": "9b7bb15a6ce89f65a16f2604b83a29bed7bbbfa7fc6592f75bff307e11313c87"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/InetAddresses.java",
+          "sha256": "1bbdde691f4d9fc0902183560ba1d12962a873580646464f8ffab448700eee8f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/InternetDomainName.java",
+          "sha256": "4c0240a0af7af3aacfd6a560b088d64ce4bee1772a32864729d23de7665e928b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/MediaType.java",
+          "sha256": "82d5b88493820be2cf483978d98e944fc72d127faf918339f225fcc716556546"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/ParametricNullness.java",
+          "sha256": "444eef29b19a27df2ecd5620f62ffbbe363c9b1738f6caf8138076c9c50148c8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/PercentEscaper.java",
+          "sha256": "6048f0ddf15b69e50be42e99e57f62ccc60e9b401e6b429a4f845c45328fca90"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/UrlEscapers.java",
+          "sha256": "484406f8a6c772d29f97146388945f9ebbd1c90b2134b8f33d24610597d0b395"
+        },
+        {
+          "path": "android/guava/src/com/google/common/net/package-info.java",
+          "sha256": "dd42e11d1a630de9c95dc04ff1642c249ea4a87471cc3334754a2654e189a6fc"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/Booleans.java",
+          "sha256": "fb02e72fe4ec793aea50fca031ed414786d581971479a17001e77198811b11ce"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/Bytes.java",
+          "sha256": "1e1b06a03394eee07438829216d0ad2265fbca25932102e53b7fd4d619702912"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/Chars.java",
+          "sha256": "8b87f7f067a7ded96a8d51bcda611fd562fd28ef82fd4934d17fa5c89d50a4c5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/Doubles.java",
+          "sha256": "77af047567e3c5e5a116b60b2d369f305d90efea0666d49d0859aff4944601b1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/DoublesMethodsForWeb.java",
+          "sha256": "a8d17283245849009b0e1897435cb219bf53d8ef00584a97a5b944f2916e5612"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/ElementTypesAreNonnullByDefault.java",
+          "sha256": "6b6472f49fd91e86e70e2c7ec7a53d769ca876fbef359e663332da0ea6455b57"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/Floats.java",
+          "sha256": "2e7d7b15a636494dbce878776350d7574e94ad88c9f437d50317922f15c5584b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/FloatsMethodsForWeb.java",
+          "sha256": "0b4af6f95ae8b79bf456582510e985252d087a08f9f95dac84bd5066e4c4fe48"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/ImmutableDoubleArray.java",
+          "sha256": "43ce7882eaabea275c7ecbbaf8fd2ff4a9e024dabfb8312daab6f533935af67a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/ImmutableIntArray.java",
+          "sha256": "7c12d443d299b58883fc7a79eb925bf86a614ce1131ae28f3919c33d795df610"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/ImmutableLongArray.java",
+          "sha256": "51de3e9ca03c116670f20a064c36e67b1f42f8bfb9c6a4df03ec5f00764444f8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/Ints.java",
+          "sha256": "fdade7533a37feabe680713eff2de1d353a371b556200005123a4f265e2dee7e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/IntsMethodsForWeb.java",
+          "sha256": "b2dc3dc5f8cd0f770c79f52c24114b79bcd41eb28b54e751863598ab8d49ce76"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/Longs.java",
+          "sha256": "0fc38c57123516c83f08c2f6e0ae2abdd6ae2f6245a3e062e4bf7216b85477fa"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/ParametricNullness.java",
+          "sha256": "493da5925c7964ad3f86cd647e34cd3388c2a17cc0cc5d80ba5181e17947d9cd"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/ParseRequest.java",
+          "sha256": "6c94fd23d83bea5b9f5fd51e3916a0ed0a55767ebff1c305101dcf82f6a21cfd"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/Primitives.java",
+          "sha256": "8dae67f75caac9e0fe1d2af89dcdd6661e6e2e22bf94d7f9a1f4f4184614c542"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/Shorts.java",
+          "sha256": "2f3f148970edccc31461c268d57a6e9c88032ef2510430c2851c427ff44a0190"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/ShortsMethodsForWeb.java",
+          "sha256": "bacba8e4b9036f1569156e2a824aeac33ac8d2d48644979b99ee5b9f38828fbd"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/SignedBytes.java",
+          "sha256": "952d00f4b6a2165a3da2843faf6e6aa7fb830293046603946eead91381e66799"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/UnsignedBytes.java",
+          "sha256": "22643a03d66a6bd6908c88bd7b262ee1a94be845b1a841930a39d5ee52c328ad"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/UnsignedInteger.java",
+          "sha256": "b8a843a0b07eb2c3623d66ed1f68440fbea98b7e2c101162d78e8e00313d2240"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/UnsignedInts.java",
+          "sha256": "542d7f79cb131816fb9d86d9eaaadd065f9292259f10a72bf9a1693fa1497d5f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/UnsignedLong.java",
+          "sha256": "4bdb83a47febbedd15c9e1381873aa359238a02ee367a1f110806b715fd17edb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/UnsignedLongs.java",
+          "sha256": "4c01bab449294389e2eb5dff05407f1534b087dd180dd5810af806774b766f17"
+        },
+        {
+          "path": "android/guava/src/com/google/common/primitives/package-info.java",
+          "sha256": "429a7f6dc798e227e479b2bc6713979ca5daaa40ff8e151123c0b1fa9a965185"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/AbstractInvocationHandler.java",
+          "sha256": "26fa35fedc7ff0b9423f0378d1f2b7fae0a569206c9319de0161b39331c44726"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/ClassPath.java",
+          "sha256": "eff927a2cd46c3e41a00f389a240d5853bbd0a0b01acc2fceff166f2f558da30"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/ElementTypesAreNonnullByDefault.java",
+          "sha256": "2f7020b508b0b095fa91d52bcf9e7c81900c020205a852237c33580e6cfcacba"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/IgnoreJRERequirement.java",
+          "sha256": "b3c75226da260d3c218653fb127231fecdc01db5a9711707a218c3951366f205"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/ImmutableTypeToInstanceMap.java",
+          "sha256": "d0782c95c5fd6ca6e32d9b60e26172eb46b0f220d3de032d77955202b98f979a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/Invokable.java",
+          "sha256": "4e7375b9c13128f7b6077920f2e07f45db763988b2379732b0106bb478d7c608"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/MutableTypeToInstanceMap.java",
+          "sha256": "ba4666a9435fbedabecba1555c0be5f17634b3bdd24b7a4224a5b96264b1a0fb"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/Parameter.java",
+          "sha256": "69831e0d4c91ca070a4d1d6f4f9de1a11546082c9621760d4abe8c1f6d24d8ac"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/ParametricNullness.java",
+          "sha256": "70feebc327aea167ab40c63aba904daceb1ea98710f7f1b1d730535f07a02c06"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/Reflection.java",
+          "sha256": "2681ac1c2f303bb3bf950d6dd6a1713934b882a46f890ee5c111166fe9f8b27c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/TypeCapture.java",
+          "sha256": "dd530a2d19a2ca4fae4ac59eba54b7feb859125c32b3512153f90e304df58da4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/TypeParameter.java",
+          "sha256": "d18c4022ad934b117810facc8e5e15d90eb697d152a53262b85704eae8e05bf0"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/TypeResolver.java",
+          "sha256": "ad0c74af9eb6e25183387bf2e46dfe4df733e3b6d3f4f7f3a2d9098e9cd017f9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/TypeToInstanceMap.java",
+          "sha256": "c531c94502f93d05c971ed806400ba4bd2d9f5e991462a91ffa2da3379fd0796"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/TypeToken.java",
+          "sha256": "ffa0da6cfc20e18c7cf2fe5d9e5228d1ab118597f749a370877741d6fd3d2a82"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/TypeVisitor.java",
+          "sha256": "0e5e9520e1c9964e5686c51079b5d163714a45e73681e44c4e231c9ab72c015c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/Types.java",
+          "sha256": "5bac911cd9912ae0e8b856de2fe7cca24f7c13dfbf418faa94bd5e9ffde8d9e4"
+        },
+        {
+          "path": "android/guava/src/com/google/common/reflect/package-info.java",
+          "sha256": "9282d4c8b97dc8f9f25fe50a12a5c96ac4c22c9792e98185da3b2d29d8944225"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AbstractCatchingFuture.java",
+          "sha256": "dc93020100741c6031c860a2cec663defbf9e110b8c4e41d02b9ffc3afc7c120"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AbstractExecutionThreadService.java",
+          "sha256": "3a7d8fe4cb80b13696f4df56e00d6b0ba45c7c5b55d730d6adc1640990a0f63a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AbstractFuture.java",
+          "sha256": "e1fa5e209d6f2ef091c38e3b76827df49c1943a9836be59f415d3aba75c8220d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AbstractIdleService.java",
+          "sha256": "6a88465d7a1f431c27d280fba27b564d8c1a3962b7d3a1038c7cf5256779212a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AbstractListeningExecutorService.java",
+          "sha256": "484cee5bd47bf504e0177ccdf554bd136a7c97647c96fa11739b2f36faa3df19"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AbstractScheduledService.java",
+          "sha256": "80875aa808a8740267ff3089e10496b8ca2572613bf89aa1d66d518aa6ddf464"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AbstractService.java",
+          "sha256": "8aee99ad2e8423500d5c9646fc10e13ec1e02cfe35ffce1c893e822e41bbd7f5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AbstractTransformFuture.java",
+          "sha256": "a864d67225a4eae5759dfcaf42241c636c74a81f3d89598dcd91c1a8189eae15"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AggregateFuture.java",
+          "sha256": "ecca959ee1ab9ed571682e448543ac6223ad6e3500cd3786dbb5eddea2aa4a50"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AggregateFutureState.java",
+          "sha256": "5d6c81fe421d955c96a046322b3defbf8946c175b51b0f0dd929c1c7bd21b648"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AsyncCallable.java",
+          "sha256": "34971a783fe72f425c50d405fc3fa381c23ebe9d8e431d01611177d0e68622a9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AsyncFunction.java",
+          "sha256": "c8d50e1a338c83539df52a0689e21adaa9f17c91acf1eb5b7266b779be8a662d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AtomicDouble.java",
+          "sha256": "e5ba248f121be15045da54ce3236745ca2766495dec0f2410b2318b7318a8de9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AtomicDoubleArray.java",
+          "sha256": "8e58b9c298fb2a2976b0b3c9a609fa18c56b80045954480473039da00dedd083"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/AtomicLongMap.java",
+          "sha256": "9a83a09483cb352e190578398efb3b124fb613e301116d4fad80b4ebb1c78dce"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/Atomics.java",
+          "sha256": "2f682c314dad74df1482d6489b4d9c865c151c6ce8023e801e2a8553c804ed5b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/Callables.java",
+          "sha256": "458c4c2c57f495e772128f7b48ce903317203df4dd3aa65c3e5b7ef6f6fcab9e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ClosingFuture.java",
+          "sha256": "d7a686be728ae3af4e0978b9ddd1f78ede029b4b72d913cc8c24e97badcc2c4b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/CollectionFuture.java",
+          "sha256": "28a6a897859f6be83339ec141e3a6ba855f9a8297109c5db4d71a43a064c04a5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/CombinedFuture.java",
+          "sha256": "23db099b0e839bb75f7aadf381c2d62e5a2c82d0fdf95f11b94ce2023196ca1f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/CycleDetectingLockFactory.java",
+          "sha256": "d3656189888075c69ee8d70073a85cf9b87784191eea927785a56ebd77eeb2b7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/DirectExecutor.java",
+          "sha256": "eff106710b249df54ba1089b941b7cb14310670d00daf78bc661037940b5b8ff"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/DirectExecutorService.java",
+          "sha256": "c90cbe881776d97b266d2d78dfddee257e5f91828855ac5545f36b31d940c65e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java",
+          "sha256": "b1d946e224dedf4d7cbd694b8060c153771e206e5de3e5068095f4764d553d2b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ExecutionError.java",
+          "sha256": "e08e742a978628924064339ee5cad3b12c3df96daa5345e7d111b0a664449ee1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ExecutionList.java",
+          "sha256": "e7706a57e338a21315a2d684ab44f0eab2ea70a14c29e7ff3c1f661fb0e514de"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ExecutionSequencer.java",
+          "sha256": "642462e8d543156f64d5ff22ba56ff893b9642a0f43889750d1a4406a8b752a7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/FakeTimeLimiter.java",
+          "sha256": "e93e1ea7fb17aae4c0e5ed1ccfd3f5303b87ba286a99e2e302b28a0cf2487540"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/FluentFuture.java",
+          "sha256": "e8bf5abe85bdfd74ac13c80ea91ce6cd33109c82c30233e595e54e7a713a56d1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ForwardingBlockingDeque.java",
+          "sha256": "2d373ab018665c972b90e10f9cc00cf2ad4707853e49e7643812fd98ae3a7d9a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ForwardingBlockingQueue.java",
+          "sha256": "e61ba9bff12c04ad465238e9cc86418762aabbb5eba28e7644ae8964594c509a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ForwardingCondition.java",
+          "sha256": "6bad6ad93646fa870756d10040c3ef9ed6c2c5dd1dd95d117ca37014c183b478"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ForwardingExecutorService.java",
+          "sha256": "3c55376ab39493b43174f95cf7649614f3f2c89110d718db6f040e52672d832b"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ForwardingFluentFuture.java",
+          "sha256": "e7ea2d15da9e35bf0f25db283b30d4dc7a53a7de944d85127987dc2dd1d67488"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ForwardingFuture.java",
+          "sha256": "976de0051f40b6251d4285ee74f22982b8990173329e50997b0f06ebe6d9d09e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ForwardingListenableFuture.java",
+          "sha256": "a6551eef8efa912d5ed34ab4c673f664a7db35c5660cfac24c43512b11750ef7"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ForwardingListeningExecutorService.java",
+          "sha256": "942a62d62b018fdf74662500855bbd8128f999500e83eff0f935c851a67e6a5f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ForwardingLock.java",
+          "sha256": "986594f7ff4f3354df6ff2d3fe24046eb65c631b06b752cfa8495e4366d73d4f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/FutureCallback.java",
+          "sha256": "b2fa13e0d5904281089dd01fd22c157c0c9e0acde08b85dbd871165b616d745d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/Futures.java",
+          "sha256": "53bb0fc8013a2ca07e364494debf363ba754b7ab4522f4cbf1e71ed3f33b03c2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/FuturesGetChecked.java",
+          "sha256": "365cf44d12f2d8f5d1419bc74427e40fb3234f3ccc0e00f5d7e32a8ee161a274"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/GwtFluentFutureCatchingSpecialization.java",
+          "sha256": "7af5df44bbbbd46b45c66efbb723cf05342cdb73f636d6f60b21808b6ce2d79c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/GwtFuturesCatchingSpecialization.java",
+          "sha256": "f4a59c55d99a2e4b8e63d6ffb6dace5a6d4d45cde0a9f4020afe4e31104a61ab"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ImmediateFuture.java",
+          "sha256": "a179caef69c5e7d03f17e3ee1636817b98a54b29b0f8fed2b51aad52dcaff761"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/InterruptibleTask.java",
+          "sha256": "fb0627ccfb15385214153431e1325a46f487d0ec9fae4b52b382274d2ae6d812"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/JdkFutureAdapters.java",
+          "sha256": "7bf4399686c5434740d2452f634282f216792e393f3898f815a4ee9e7a0c0450"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/LazyLogger.java",
+          "sha256": "610b22a944ffd029098aa15442010a910c91b90d2eac5ad2ace6340ea5166582"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ListenableFuture.java",
+          "sha256": "e32a6d8842666901a00940b91622bc63b77fc4d82b3a7538227f9ebf377edf80"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ListenableFutureTask.java",
+          "sha256": "c9c34ebba295dcebef9f04f4ee1538505ac68313b17a0b4ed7c9364c6187ad99"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ListenableScheduledFuture.java",
+          "sha256": "64f55d0d5cbab262d7a2a2c8f9117b76a8772ab90397806c16a7158624d7810d"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ListenerCallQueue.java",
+          "sha256": "9bf914141a46685af6053de74770549c65f2d0860a19dea79a1046dfa0c26d94"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ListeningExecutorService.java",
+          "sha256": "92454fa7fc311fcff35f9d57076e41104f878e8a75afe79497c18c58e16ae259"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ListeningScheduledExecutorService.java",
+          "sha256": "96c6ba906d5eb2782848ade03527241a68f9d5800a963e5f50744b23f2ed7256"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/Monitor.java",
+          "sha256": "5ac63d3f530d1ff79be1cd4cbf3ef871a1395e0eb6ed1869296f855db8fde6c5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/MoreExecutors.java",
+          "sha256": "746145f0ac5a04c093035fc55ff9eacc2135daef6c4c247a932dd54fff3495d5"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/NullnessCasts.java",
+          "sha256": "bbf835b56dcdc63278a4c8ba632310e05d961b0db4135c70ce78bd93e8a602ea"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/OverflowAvoidingLockSupport.java",
+          "sha256": "764602e983541273e82e8f1bd1e71d71dd3a5d9398d29cea49ff0a0e25c64e29"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ParametricNullness.java",
+          "sha256": "2fa1619dee3113eafc1d109fbecd209c65011263423770575ed590c498a1de5a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/Partially.java",
+          "sha256": "5efb1c67e1039f1c9657fb653c9399f7ba736a4a5bafdc63e7f8c4996ccab12f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/Platform.java",
+          "sha256": "e93e4fe480ed39f785bedc589294e490bd767dc30ff434c911feac9b5807c519"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/RateLimiter.java",
+          "sha256": "c8475e9480af036154fb99ca7e378138715e0bc7d8baf3616b11b3c3e1037342"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/Runnables.java",
+          "sha256": "8a8fa51e80017bdf182cfa2c674da059cb9d4869cb027f953f85d30ec1dfdcad"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/SequentialExecutor.java",
+          "sha256": "1fd9fdd10cfd13e3fa289de4b5eb41c39f60cedea1effdafc53ed92d60748047"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/Service.java",
+          "sha256": "8184218123f1bed24fc27ce5b7eea2ea9c47e6d1b6771cd2b016e9aff89b3d11"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ServiceManager.java",
+          "sha256": "f2f56ddcbb7d024b4dbff3d5117723f5bf6c5f79a5ae291f8aaf9001f0353bca"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ServiceManagerBridge.java",
+          "sha256": "24e98199b7e2e976b805f501159ce0345fee636261f46cdc95248497833d5ad8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/SettableFuture.java",
+          "sha256": "5226c62a21eb7999949621bea22defc95d193f8463bf8e305c62e914dfa945d8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/SimpleTimeLimiter.java",
+          "sha256": "9c1f67ec005f691a1ce4ec7f0881957a307a4385c4d1882481e052bf734d8ca9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/SmoothRateLimiter.java",
+          "sha256": "4ba4bd9fe74dc4d468dd77c7d37751c0d088f0ace273eb9d78db9ca989bff1b9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/Striped.java",
+          "sha256": "b2688ca4b0a8474bdec70428739357201dab12ced73f9d2f524faf0ac78d5b7a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/ThreadFactoryBuilder.java",
+          "sha256": "78f18545a410a56d105f61dc76ab41ac1aa55b70973cca470add84b77e5ce34e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/TimeLimiter.java",
+          "sha256": "d58ca556b80a91404e3032f1a744d07cfc5b61e5c0d7c084739cdf45aeb0507e"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/TimeoutFuture.java",
+          "sha256": "0b03b1f00d85a05356256d8059811f90a3595b57d01fb9f77ea9818c6eed9622"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/TrustedListenableFutureTask.java",
+          "sha256": "fbc3bfecd721c836f28cd6b8c5b58acdaa4c87fbfd707c1949f9fb8a82a7ae16"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/UncaughtExceptionHandlers.java",
+          "sha256": "70f94669a1bf2be6cdc20fd1432ffa71ee0182aa8d7d51c740ef5184c0bcd3c2"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/UncheckedExecutionException.java",
+          "sha256": "525c29adfa9d860c0cffb315b796af93d15c46c8430f4caefdcc4d61df2f8d9c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/UncheckedTimeoutException.java",
+          "sha256": "e0de0f396d1f900185dd3bc9e8b6d5c708b17b50d8ef533a65368f13eb2612c8"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/Uninterruptibles.java",
+          "sha256": "e7db7b2e580829c3c8f61efe13760f1f783f6f62cb4d4f4ab664f7e13f8b19a9"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/WrappingExecutorService.java",
+          "sha256": "5757d9ef08f2c18fa8bea758f24738de3384e05e0e1e3cd1bbd99c034f9f3ec1"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/WrappingScheduledExecutorService.java",
+          "sha256": "b7a47b75fc3b4248776c2d3c081a4cca130fb33d6a3d35ab64a844379a2bf480"
+        },
+        {
+          "path": "android/guava/src/com/google/common/util/concurrent/package-info.java",
+          "sha256": "f8242d9767bd91313e42f2aaef3865287d1994c472b38e07821f64af8257f21a"
+        },
+        {
+          "path": "android/guava/src/com/google/common/xml/ElementTypesAreNonnullByDefault.java",
+          "sha256": "03822392bd1408eef557c61bba35c1cdd8b780e3453eef9c7ae02c293ba861ca"
+        },
+        {
+          "path": "android/guava/src/com/google/common/xml/ParametricNullness.java",
+          "sha256": "d77851e41cc1b5f3a7a1b725490ba8180214c1a07a0434a179c665085d92c40f"
+        },
+        {
+          "path": "android/guava/src/com/google/common/xml/XmlEscapers.java",
+          "sha256": "bf0eb97b1e664ea6232ee658f44902fdd270b1ec2a08ca0db6676b2bd143319c"
+        },
+        {
+          "path": "android/guava/src/com/google/common/xml/package-info.java",
+          "sha256": "c249090059a192978ea05252c054b56b42f0b0b39ef37ae2e5cac63dd574e37e"
+        },
+        {
+          "path": "android/guava/src/com/google/thirdparty/publicsuffix/PublicSuffixPatterns.java",
+          "sha256": "6401e43183078d22da65354181e56b6d7f1d65ccfbbcf10e533af1877b08c86e"
+        },
+        {
+          "path": "android/guava/src/com/google/thirdparty/publicsuffix/PublicSuffixType.java",
+          "sha256": "eb04aa0d9d61523e067eea4c47c842e2823c885f789816560ba8ae63f3587396"
+        },
+        {
+          "path": "android/guava/src/com/google/thirdparty/publicsuffix/TrieParser.java",
+          "sha256": "be8b5d651a9139f5362359f8a8ff3a6843aae67efd52ce142ce05633728d1869"
+        },
+        {
+          "path": "futures/failureaccess/src/com/google/common/util/concurrent/internal/InternalFutureFailureAccess.java",
+          "sha256": "745df6c9adaf5a144bf57e17d9222919a15a129c1174fcc04966093bf3b1ec32"
+        },
+        {
+          "path": "futures/failureaccess/src/com/google/common/util/concurrent/internal/InternalFutures.java",
+          "sha256": "e5b7d647e394134095d8b9ff473b510dc1c34324332a13af27ad8db9a490b091"
+        }
+      ],
+      "sourceFileCount": 617,
+      "commonSourceFileCount": 0,
+      "jar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\guava-android-host.jar",
+      "jarSha256": "320abff158f58c33a465953c71a43164e5736983da4800cefd848b112a7d4161",
+      "originalBuildFlags": [],
+      "nativeSoongInvocation": false,
+      "moduleKind": "java_library_host",
+      "hostJdkSymbolsEnabled": true
+    },
+    {
+      "module": "kotlinx-coroutines-android-annotation-stubs",
+      "project": "external/kotlinx.coroutines",
+      "sourceFiles": [
+        {
+          "path": "android-annotation-stubs/src/org/codehaus/mojo/animal_sniffer/IgnoreJRERequirement.java",
+          "sha256": "9e1cf715dc9f9d79edb0126b2e3ca424cb26f9807a0f9c5da2d7b4fcd06ea021"
+        }
+      ],
+      "sourceFileCount": 1,
+      "commonSourceFileCount": 0,
+      "jar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx-coroutines-android-annotation-stubs.jar",
+      "jarSha256": "d179694aa8176b01d0e545fce1dc3e4a083ac1439ebae83fc2454e40e87b736e",
+      "originalBuildFlags": [],
+      "nativeSoongInvocation": false,
+      "moduleKind": "java_library",
+      "hostJdkSymbolsEnabled": false
+    },
+    {
+      "module": "kotlinx_atomicfu",
+      "project": "external/kotlinx.atomicfu",
+      "sourceFiles": [
+        {
+          "path": "atomicfu/src/jvmMain/kotlin/kotlinx/atomicfu/AtomicFU.kt",
+          "sha256": "724389e5e6ae793ed78b1afe35079fcb1a7cd8c2dd1560d7b150acf1ffc7709a"
+        },
+        {
+          "path": "atomicfu/src/jvmMain/kotlin/kotlinx/atomicfu/Trace.kt",
+          "sha256": "fa839e35139b620ed1f56859176a9287cf9047f5b8e9204b9b040f742a7d2f6c"
+        },
+        {
+          "path": "atomicfu/src/jvmMain/kotlin/kotlinx/atomicfu/locks/Synchronized.kt",
+          "sha256": "dc0c0243cd2c0a9afab813ddb1f6bf60579c131757e2c280eee910e8bf05e885"
+        },
+        {
+          "path": "atomicfu/src/commonMain/kotlin/kotlinx/atomicfu/AtomicFU.common.kt",
+          "sha256": "546025ae5fe6752144db655492c97fb53c7a37578fd63fc72832a1dfa9fbcfe4"
+        },
+        {
+          "path": "atomicfu/src/commonMain/kotlin/kotlinx/atomicfu/MangledJsNames.kt",
+          "sha256": "beee100ee08d156ec29b6b3d96ef03ee7cd453f9ce4a09d7401d982eaee3bfa2"
+        },
+        {
+          "path": "atomicfu/src/commonMain/kotlin/kotlinx/atomicfu/OptionalJsName.kt",
+          "sha256": "db24f18a083b7d9ab7bafbb2dede2a447cef2f3d79330ec1f42280e64459e5e8"
+        },
+        {
+          "path": "atomicfu/src/commonMain/kotlin/kotlinx/atomicfu/Trace.common.kt",
+          "sha256": "cb7e1752a31095f5121e268bb0972a501473bb81d30576028c4405e3ea22f8b6"
+        },
+        {
+          "path": "atomicfu/src/commonMain/kotlin/kotlinx/atomicfu/TraceFormat.kt",
+          "sha256": "87900b0ac008ffdca77033c728474eda322cc20c78c425c86e3ce903a9f1bcf3"
+        },
+        {
+          "path": "atomicfu/src/commonMain/kotlin/kotlinx/atomicfu/locks/Synchronized.common.kt",
+          "sha256": "7af90b31ab27ecce36f7a1810da3d466e79df19ba6254fb0c14ecca7ccc48818"
+        }
+      ],
+      "sourceFileCount": 9,
+      "commonSourceFileCount": 6,
+      "jar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx_atomicfu.jar",
+      "jarSha256": "b0c39f0fdae830afe8c7ba0bdd51189507a92487a9914d6af96d2e76a20a64e8",
+      "originalBuildFlags": [
+        "-Xmulti-platform"
+      ],
+      "nativeSoongInvocation": false,
+      "moduleKind": "java_library",
+      "hostJdkSymbolsEnabled": false
+    },
+    {
+      "module": "kotlinx_coroutines-host",
+      "project": "external/kotlinx.coroutines",
+      "sourceFiles": [
+        {
+          "path": "kotlinx-coroutines-core/jdk8/src/future/Future.kt",
+          "sha256": "d7bebb0b0ebf27c1acf08e4d5a857d88a70603c9070db3f05f5c8b8a4a5fe7e9"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jdk8/src/stream/Stream.kt",
+          "sha256": "0d8a21d171d1f22d188470d716ffd4afcaffddb03cf421a748ba7305a4a19c42"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jdk8/src/time/Time.kt",
+          "sha256": "dcaa6bac4342ee80b36913cce73bb0e35fd83c5300a7746db593d8aa3a7d4074"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/AbstractTimeSource.kt",
+          "sha256": "6a2adb578abf832e0434c66302ae7c31a7a15810273379164672c0c6f290f9ea"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/Builders.kt",
+          "sha256": "ef032418925e12322ca9daa6303446e0ec9b51d17582ce4369d8e30e94c6506b"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/CoroutineContext.kt",
+          "sha256": "7623cf36cbf592abce111d5362676eced79f37a0a05358c06c5342cdf82cab59"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/Debug.kt",
+          "sha256": "5469b4251ec8c8293e664371a0baeb5e6202bae320378a4d129e0cb5dbb8a28a"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/DebugStrings.kt",
+          "sha256": "58f81c5fef9140ffd6baea691f9614eeb0954c55c8ba8ca38c05b1aebd83df8c"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/DefaultExecutor.kt",
+          "sha256": "7c3c7a78525022c894168d588a47e3e39daf2bde1bd19b02e0821323fc9a6ae1"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/Dispatchers.kt",
+          "sha256": "1577801706cf3bbd068108d95efb39174fef2940a2a8414616d13864870f8a83"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/EventLoop.kt",
+          "sha256": "f4a5c28da93ca6cd3e1ee5833ce90aee160f939d602d166ebe21f7041bc88cf0"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/Exceptions.kt",
+          "sha256": "68e887c423fe546950b08a94ccfc30ba5e65a445441a8f32870ce3a0547175e9"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/Executors.kt",
+          "sha256": "2d2a67962686f378147ff6e460f478b5674e04c5e28289ba9da2128a576a892c"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/Future.kt",
+          "sha256": "b2691872bef83c28725f2340e36565adf64d8fb9bfec4f0811c1972b983a4d16"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/Interruptible.kt",
+          "sha256": "b27853dcf1847e7b0cf59f4945b1b6d31ba6fbbee4d505f9b5b528162be70961"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/Runnable.kt",
+          "sha256": "213c5fd63729b9b7d10af15b52c567cf54a75f62ee5b0e4b4f742fc0f3cd87b4"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/SchedulerTask.kt",
+          "sha256": "3666eba47d5477d0b6e896da7c98544eb24cbe69fa15c0397f2c651ccbd83ac6"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/ThreadContextElement.kt",
+          "sha256": "1971e19baf5f77cfede37d5969abd068531233e0d03086ddf1d639b45d150650"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/ThreadPoolDispatcher.kt",
+          "sha256": "837b9f18f0100721f5ce8478f70bc394a03fbbae098cc90ea7899e9187403a6e"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/channels/Actor.kt",
+          "sha256": "fef0f04d12cabc5fdccb4f496d1ea169af5e188fc61620a18687f0adcc34536f"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/channels/TickerChannels.kt",
+          "sha256": "cf1bde75ddc9a3f3d424be179fe4f32787b004e22058ab12573dd4f2818b70c3"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/debug/CoroutineDebugging.kt",
+          "sha256": "07fc2e625dc712850d3789db968b516dd340c228f0c1323935e7398a55bbf7ed"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/debug/internal/AgentInstallationType.kt",
+          "sha256": "dd104bf1b43fdead31c70cfe534872ad1bc25ab5a41a8430bd61ea4e0b3cbc41"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/debug/internal/AgentPremain.kt",
+          "sha256": "ce2c48e1461020e19b2c8244ed1e9bfbe2f3d4c6b7753a1027fb777cd06128fd"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/debug/internal/ConcurrentWeakMap.kt",
+          "sha256": "91ae4cad6218547769d1fbfd1dc59feee65f6b38488facb15975430b2cb16455"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/debug/internal/DebugCoroutineInfo.kt",
+          "sha256": "d20227936db1797cbe61653fab5f38a82c771a65016eacebc06d11c66ba6f5ce"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/debug/internal/DebugCoroutineInfoImpl.kt",
+          "sha256": "b4d44dacde00207006213a7b54b36abaa0896f29ff9899065f1f91b371664cd6"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/debug/internal/DebugProbes.kt",
+          "sha256": "7a7f30ec0fcd3ff1a251f4960a798124d9e80084c3b70e783ed1c282a8d06c03"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/debug/internal/DebugProbesImpl.kt",
+          "sha256": "0b0e955bc08fcb271d00d8797000bf48707ba732c4f74514e9484496fa635ff2"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/debug/internal/DebuggerInfo.kt",
+          "sha256": "a79f366b9839b2b4ff9721680fff71c8b4f8632964f0f7e1130c05b18eaecf3f"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/debug/internal/StackTraceFrame.kt",
+          "sha256": "ac61dfd665de02dee03f6e1ed226be1158e8962a58f65c2792ab1952da83f9f3"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/flow/internal/FlowExceptions.kt",
+          "sha256": "8194af9e31e5e0071db7eb182c32a032133d4c19d9a8bd482cbb18ec89bf48ff"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/flow/internal/SafeCollector.kt",
+          "sha256": "d98df411eceef4d58098088a7e948d42fce1555eaec57d4bfd83a0b81d12be84"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/Concurrent.kt",
+          "sha256": "092fc52d4bc0848a870740188ac16f230a46f19bfcd522064e4a736ed6a36f21"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/CoroutineExceptionHandlerImpl.kt",
+          "sha256": "037155bec1940a5660a1bcce7c060fa44fd95486217c45aad37d9e2db207416e"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/ExceptionsConstructor.kt",
+          "sha256": "7a95141a4e5da30d5125ecc49a0a96b351f348d76dd59f9232e800459b237bb4"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/FastServiceLoader.kt",
+          "sha256": "270f875504e1cfdeba08f47a634da50c507f60284c2f75aa75b02c5e4174765d"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/InternalAnnotations.kt",
+          "sha256": "f5824120524ed05d86e1311b36da431d521e055173c17c404a1238115bd73f77"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/LocalAtomics.kt",
+          "sha256": "6e8a435815e211e15e75bfb2061fc4229f8d4f078f9575abc360e2adec753a3b"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/MainDispatchers.kt",
+          "sha256": "3e17a238299dfdfa95fbb8b98c21bb2c262c69feb56ff4736e9d5abd3c287e24"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/ProbesSupport.kt",
+          "sha256": "73b545332060b8a7d5bb58e8b7eec529bae3c5778cd7ad661d6dcc51fe9e8af4"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/ResizableAtomicArray.kt",
+          "sha256": "e0f2c19742be16be780733fbd83081967f91b8c265474eb4537c6bcfa5c275e6"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/StackTraceRecovery.kt",
+          "sha256": "c7ec20ca0c752875637c19eb2136af8ad745e9bfdbb6df6e559e697ac683cf1f"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/Synchronized.kt",
+          "sha256": "4584bcf7fcdfe4e8e439c566f608964bf9da987b2e6e9293ce47e94809cd98fe"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/SystemProps.kt",
+          "sha256": "3628dbc7571e269c12be8c1c41d92c3edf1c1e4d47708964f28391c831e0d713"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/ThreadContext.kt",
+          "sha256": "d957b246383910b270029185168215ed4996e5b64437b70c061d28bc90f37113"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/internal/ThreadLocal.kt",
+          "sha256": "6841c668631a16886ca111e4e0008e8dc9ec51bbf22a237b71294ccbb5cc820a"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/scheduling/CoroutineScheduler.kt",
+          "sha256": "a5c2dd58f6c2667a124d2581f9a28bdedd09875deb8251736e5cd143dadf01e5"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/scheduling/Dispatcher.kt",
+          "sha256": "ab6c1c9b93be4c528c70939c49ba117caa602f11b7270c5477b1b47fcef1275a"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/scheduling/Tasks.kt",
+          "sha256": "65ea5dbde89fcdbdea8843f81ab384b8d7a40caf4f9897e78f4bf8b80d61ca8d"
+        },
+        {
+          "path": "kotlinx-coroutines-core/jvm/src/scheduling/WorkQueue.kt",
+          "sha256": "6a07b15169a975b0662cbbb2fd17609ce05696b05b26a9fe5f7b1f9d93227c48"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/AbstractCoroutine.kt",
+          "sha256": "086016d6fc6666362e7bc2a4f925688fc778681b17518d58b29b269fca8d3d36"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Annotations.kt",
+          "sha256": "9ee965f0ff68171a8b7e5596ed0eaa8c7ed20235dae7e75911d75d862b264ac5"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Await.kt",
+          "sha256": "0ac8b68f77fdfdfd2978473852f7e652fab539b0027c0c3cc4b3f321bb44a1a3"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Builders.common.kt",
+          "sha256": "f2e57d42ec23d7f281334899835c747ddf5a63de54dc30e6c882f498a6962a51"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CancellableContinuation.kt",
+          "sha256": "52a640007f50b525ed1de18e20ba27a6c567b9621c385ae5a62d8ddf91625ea4"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CancellableContinuationImpl.kt",
+          "sha256": "6ff01e13c4b6ae56735748e2ed239a616533dc774da82900c92b51beb40eaf77"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CloseableCoroutineDispatcher.kt",
+          "sha256": "51311acaaad633b53b21e30c8921de993f55f5e4d98512c95cee8cbadb655397"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CompletableDeferred.kt",
+          "sha256": "a8fba33698c026419becb4fc26479543130369901681247c0137e3cdc065f756"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CompletableJob.kt",
+          "sha256": "e84cda5d02cd25c120f9df4a892d7082c4a041e0b960e1c87271dfa11c3da090"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CompletionHandler.common.kt",
+          "sha256": "acceed5ad6d2b32043717db89a212113ffdb933cc3800bef1fd26efc4ea885fb"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CompletionState.kt",
+          "sha256": "2cfbfc6fa4f8a2185f19784eb8fcfc1efdf922a1f4701e3e0e0721dc00821a7f"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CoroutineContext.common.kt",
+          "sha256": "892a9e9cce337258e9a7d90bfbf566c52f76b88e810a0a6578de8ea60021f886"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CoroutineDispatcher.kt",
+          "sha256": "f8aa389b10da4c1690913f698109f590335d1ec271b34673f0e0996356fe65b9"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CoroutineExceptionHandler.kt",
+          "sha256": "1e0ac03cace0b5e8b77d37d637e75e4d02a6b60c740a1c59944ea4b672ee56bf"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CoroutineName.kt",
+          "sha256": "981e1bdf88b73f447004a4d8c1a77cbc92fbc9f54538cd90a0f02f1c9da1b66d"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CoroutineScope.kt",
+          "sha256": "76455d2cf29cc84f20d7c106a605e2a4c771b18632faca2012b712940582ca5d"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/CoroutineStart.kt",
+          "sha256": "9df59f4965653b91ae93440ea1b3e9a546d1acbb2bb3037fef4ba8ec4b038a58"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Debug.common.kt",
+          "sha256": "831eef3510e63f6d2c5bb8292f237a11df6e54aaf45bdf71d8d3725c7a5d3b8a"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Deferred.kt",
+          "sha256": "3e533ec2f85fbf714b13ea21e4d621068eff6327ca6a938cdcc6beebc7ac3ae5"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Delay.kt",
+          "sha256": "daf81a48985d890509e3622fa3537561c98dcddb48c865298d4a79b3c6176fea"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Dispatchers.common.kt",
+          "sha256": "0d107c93e06ae6b7547fd6f1b12b168121d3010f9896c875b6378e390aee2bd3"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/EventLoop.common.kt",
+          "sha256": "e88d37b96e3cffb91d876f9e5b1dd093000a3f70ca36f44615428ef1a703c982"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Exceptions.common.kt",
+          "sha256": "526326ac2a833a2dd548f6ffcb4a295c5be545fd598572d8d75e06f8e76b1cdf"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Job.kt",
+          "sha256": "909b0bd7f8bab85cfbb7206fb1a5e708d7b3110b68c8b3ef0e20c21d09e5e63c"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/JobSupport.kt",
+          "sha256": "c845aa8de90238a6471baa6c9ae39bb5957b121051016cf29f52a2750fd94860"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/MainCoroutineDispatcher.kt",
+          "sha256": "4ffe3b8f3aef6fdd87e88e12cb072a79f67b5780f2e6c03f6d3d1d07fd0f8bed"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/NonCancellable.kt",
+          "sha256": "7d9235a25cd736921339152ab9fdb3280bad93f45a129f425867eeab7cfff78a"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Runnable.common.kt",
+          "sha256": "4a51325a544ee2df5726578d5b8d61e988d77f090e66945ce2cc3fed796af699"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/SchedulerTask.common.kt",
+          "sha256": "150bd82255d8fe42725440ec8f4460b980dffc2a96156c6e4646ac67e90f3d14"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Supervisor.kt",
+          "sha256": "c85d66aa6b95261df72d90d55c8b55656fb6233383c9d3958c8c31715f8f3a88"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Timeout.kt",
+          "sha256": "eb132f9402904b0d4754d3d8f77d4705b4e2ca7cc04c3ebeb494481831a06e96"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Unconfined.kt",
+          "sha256": "caeae92ec98ce383c78be3f9df394a8ecd13dfc9184fcfb7fb26cdf0f13c6cd4"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Waiter.kt",
+          "sha256": "2732642a001f3f97993fa6f2001d94cde05f5451789bbebcb2467fe961cbacfb"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/Yield.kt",
+          "sha256": "516ed1bb53a907128cd3b8b9d596d63d76ae0bfe29e6ff7c10198fa3ffc67678"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/channels/Broadcast.kt",
+          "sha256": "7527ba91b7dbec0e009d0ba683b469fa5b7364b0982e867c17fe0dee077bf164"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/channels/BroadcastChannel.kt",
+          "sha256": "592f1956fcbfb5d3cb713ef43a9983d871263d2a996a8321a593a5095341f0ff"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/channels/BufferOverflow.kt",
+          "sha256": "c4a13c1838738e82ecb8e19316913a4b65d0a8e9e2415b85334ecf4364ee2636"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/channels/BufferedChannel.kt",
+          "sha256": "c029c72b1bf096994d09533d6a9ad1f625400085fc9aaec12b48ce5a1624d1b9"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/channels/Channel.kt",
+          "sha256": "3150323700bf9e21bb0491bdd6f48a9dab67caf53456c636046fe09ce5c88e48"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/channels/ChannelCoroutine.kt",
+          "sha256": "5990623d9423ee64d4a6da404a39446dbfaad6a629262845f6062098625daa8b"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/channels/Channels.common.kt",
+          "sha256": "2620db6ed9912a45d09c62b38d7791ca36fae8083cb8da3d8ecbed2fdb383ee7"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/channels/ConflatedBufferedChannel.kt",
+          "sha256": "abdb0f8992533ab2481dafa6bb4961c3d7465eed88da09680de7d4a04b75070f"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/channels/Deprecated.kt",
+          "sha256": "7abb72209f4e8af281583430bc95725d4631fc8ed5fe60524535e5339c1734b3"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/channels/Produce.kt",
+          "sha256": "d986a2d34cc3bc560bdf7ea3b4d7ce4391ac77c1aa1225b478d942641313e13b"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/Builders.kt",
+          "sha256": "de467ccfedd9e1f8639fe9e3dd934267bb15c7989a5973176f60825135370d48"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/Channels.kt",
+          "sha256": "9be0fd41fb0bf5877a1c9e919379c6cfe78ee341458c8588032a467ef6a13d3b"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/Flow.kt",
+          "sha256": "68704e19dd01e14e46d9b4fac489bd993440e32390580d143c2802f2b5c447d9"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/FlowCollector.kt",
+          "sha256": "7548eb948dfaad0b43ae4483be2beb1ae68c73262c030c901160b21ed60c0439"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/Migration.kt",
+          "sha256": "9415625fcdb934fb7534fbae6a63297f3bc2ee7b2f0c8ee89f622982bee8b14a"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/SharedFlow.kt",
+          "sha256": "2a833275e436112e797084ac92d602126f397880801a36e7f67a3d70ad933d78"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/SharingStarted.kt",
+          "sha256": "72518f841d9b7266d97d4ea856418354352ab7ec25da9972e6c205ea9217f33f"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/StateFlow.kt",
+          "sha256": "98008ea8c791fcebd57d4356c1eccd5bc11c7979b4405dcefae99cc890632343"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/internal/AbstractSharedFlow.kt",
+          "sha256": "f5323dd16f0e1dcb3353f78a682685398d312cb7be22a047e636250681b073db"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/internal/ChannelFlow.kt",
+          "sha256": "3889cfef2152956db4980e0b5be63389a6b55483dc873ad7adb86f1e36a235c1"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/internal/Combine.kt",
+          "sha256": "ccb54a5bd80e952a1e52bb0c3ee9b57c5484bbb49425d041852b44390159c43c"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/internal/FlowCoroutine.kt",
+          "sha256": "1a26289ac7cbda38e09beb36ae4e3ff5dc958e7caebd50d799f2dd7b9766fc4a"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/internal/FlowExceptions.common.kt",
+          "sha256": "a77abda8f59a61ba40dfba26704fbbc5506080d107b4216235bfcc5ec6a7da41"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/internal/Merge.kt",
+          "sha256": "1215e857d8e901f921f0fa9ecfde13e06b14a482116a1683005b6c91a8dcaf6e"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/internal/NopCollector.kt",
+          "sha256": "5cf8e1ed183ed427f4d9c6b41fdad106f3a142f954e34dd05c7d77294aee1939"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/internal/NullSurrogate.kt",
+          "sha256": "bf0c7cbc9c7eb66287d9dce89e41fa11886ef6b3aa31f7e4328e2e20cb8827ed"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/internal/SafeCollector.common.kt",
+          "sha256": "d0c74c365cee8fc8f8b4ec86613c765b24e09c028c74a1581f4ea496b880fc3a"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/internal/SendingCollector.kt",
+          "sha256": "7151176ca48ff126df2f6fdde1bfd799a230b5a0c913363697758a8da8d63e14"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Context.kt",
+          "sha256": "e64ceccd2a9e5613a05a4242a90a5fd6e05b709db487a27fbe757bf2d0f03b75"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Delay.kt",
+          "sha256": "16487775ffc7d1fdf0ecb3633aaa14e8fd7554e684f70fcea4b5ff5183779cc9"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Distinct.kt",
+          "sha256": "1c5239c297e17f4ee1431a2b6978d792e676a1475de6637a07e239b20dd95880"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Emitters.kt",
+          "sha256": "4901407926be05fc8a15624ec1859995d518d93c99c5b6c03ff9dce7bb41535f"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Errors.kt",
+          "sha256": "1a7c5f3997111e17f49a9ea9f3566f3ca42b8441ad269869ed95984e999b0915"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Limit.kt",
+          "sha256": "e29179953a4cf930530826e052a6ba2f7863fcd668e830fffdb7d93273d12a3e"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Lint.kt",
+          "sha256": "c3cd6e6a9685d80f686f286751d20d28224a6b55380f2a4787ad1a61ae79ccbd"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Merge.kt",
+          "sha256": "45e300fe74817ecd0f391264ec52ef2fd69ab6fb7d5e637d654792de965d62fb"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Share.kt",
+          "sha256": "10aff1fe90cb5d8e0fe0ebfa9fc4686dc69a096b16a9e58d8b8bd01b2f0bcfc1"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Transform.kt",
+          "sha256": "52c1f07d68f1de9dce210845e88f143326df6f4276c795494f4c15cabed71255"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/operators/Zip.kt",
+          "sha256": "0f937daeec5cd5bc31faf1747e788a97817690bf6e74698e0f04b9964cbc06d2"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/terminal/Collect.kt",
+          "sha256": "c1f921a1c5369af673c337bd61975141c19634c38ddc71e720bbe158612a2e38"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/terminal/Collection.kt",
+          "sha256": "9b6b191b8eb2bd53d4ee2456ee6f2d7f3db7678749296cd33fdab7634ee61d02"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/terminal/Count.kt",
+          "sha256": "72636a20b264d437b23f13b163f534a5d79a47c2a46a7f58bcf15e7af4f86d98"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/terminal/Logic.kt",
+          "sha256": "cdc088cad67a07119abbc735893643112b9d4b167baf4f3b56103cfab257bbde"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/flow/terminal/Reduce.kt",
+          "sha256": "01fc5b4ab636a875f6ada8fc2de4ac2d234d97903ccd061939911fad92299ccc"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/Concurrent.common.kt",
+          "sha256": "9679fd13041edfc32db9208c465af1cc0fb3ebb2c8c7f058b08507d84d4dbc6f"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/ConcurrentLinkedList.kt",
+          "sha256": "5de9569d8fa2babb4a948ef9375b052462f32df74b2c66b5540b9afb2f2e21bc"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/CoroutineExceptionHandlerImpl.common.kt",
+          "sha256": "e6761d53459ae4940d6998b90d679aba6eb27f6dfd32f7c8d4a8d5eebbb170a9"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/DispatchedContinuation.kt",
+          "sha256": "d65b214123b186a13bd7b140db3fe38c2060151973595b36243ef5be6a6fb2f3"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/DispatchedTask.kt",
+          "sha256": "5ccc9ca485685e52fb8dc591f439d9435330fb7c441d1e72572b62a1e6a332c1"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/InlineList.kt",
+          "sha256": "d5bf63365bd3b4fff97b85c50bac719a8db97d6755a02d028c0ed6a71b0d61aa"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/InternalAnnotations.common.kt",
+          "sha256": "f02ec49acc3882fc3d5f2d3721451e3c8d36683919b1772178e0e12471fb1298"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/LimitedDispatcher.kt",
+          "sha256": "fd718362996cdcbfad98f24f4d26597234fd818e5b09bc6fa487b401a698d42f"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/LocalAtomics.common.kt",
+          "sha256": "7b921435d0c38df0a1120aebde002a5c8bdc4050a34a2c4ad6260be31c578f87"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/LockFreeTaskQueue.kt",
+          "sha256": "d9b6c7aae183526fc28d37d5c1c1ffff5727c75218391a400dff535a950ca1fe"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/MainDispatcherFactory.kt",
+          "sha256": "d0288ae128dcfef192a23048972b422f68fca0d4444014c8e455c7c776e4f99a"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/NamedDispatcher.kt",
+          "sha256": "7e7a6d07fafcb09a1e750b9831694f6090744ce7244f1031c1aeeb5453cd1a9e"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/OnUndeliveredElement.kt",
+          "sha256": "93a87bd2096b1bbf0fea9717bd35043641d3a4b30f6fefa81e9c3372d3a1fe82"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/ProbesSupport.common.kt",
+          "sha256": "f3b7b727cdda092c7c3d4dee8ca6afdc0eead31c5c2355835af1ef28736b6b06"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/Scopes.kt",
+          "sha256": "80d740a6600a2eea6d8f0fdfaff1de2a9730e02f14bde1d76c91a281ff07dcf9"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/StackTraceRecovery.common.kt",
+          "sha256": "f0b785a045b5357aab2b98e6d3b7f707971d8b07ad60b904f208718f834ed7aa"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/Symbol.kt",
+          "sha256": "b2a9fde8f11534a89928e38be73ee368649128829e8d67115075ccd1539def98"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/Synchronized.common.kt",
+          "sha256": "016ce418633fb379be70b0c57eb4d92e841a2aa3517e5516d4f5b0f51c101ca3"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/SystemProps.common.kt",
+          "sha256": "c9e039104923c25b07cb43826493fe7618d1e421982a2f8ce8ef64951e112fad"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/ThreadContext.common.kt",
+          "sha256": "58ed2df66d5bafa275b46de3166461c9fa876041cae06de7a92adb62d0ce5cce"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/ThreadLocal.common.kt",
+          "sha256": "db7afb7f2182f3df60192166492980d1a3b23f544c14a46d420b905071a7f8c9"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/internal/ThreadSafeHeap.kt",
+          "sha256": "2852a43083af5da2fdf392733bf8d1b4c5f08d61c1f5ccdcabce21a726c8d2e4"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/intrinsics/Cancellable.kt",
+          "sha256": "c809d5707904559290ecd490a0ada22d66124ef5e8092c66881d5ce5cb0b38bf"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/intrinsics/Undispatched.kt",
+          "sha256": "6a2582b86ac3bf8f20bda37fb84af265b9be53bf20add398dc7451fa307097e1"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/selects/OnTimeout.kt",
+          "sha256": "0ebb99b12f37554f7ddfe17216fc32ae976faca0f29313d11b5790f8e3a89f09"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/selects/Select.kt",
+          "sha256": "cc9fafce25579abdc6cb2334524e5ca6d2e76ba4279dd6799b75f5c95e647737"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/selects/SelectOld.kt",
+          "sha256": "4a2241d338155c847f77c13068c341c1c9077a682f5c13dcf4d470b8336cb48d"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/selects/SelectUnbiased.kt",
+          "sha256": "057168a810007f7fbfd8211ec10317383aba2eb660ae36fa1404be2df2c4aaa6"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/selects/WhileSelect.kt",
+          "sha256": "379d6e3ba61a3ecd2399dd02c096d405285117d9b0f3c3955cfa87fda085d4ba"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/sync/Mutex.kt",
+          "sha256": "1d071256d7d747badec70eab774d9c23d9efcd3cd4bf22dfdb96cde8a37e8726"
+        },
+        {
+          "path": "kotlinx-coroutines-core/common/src/sync/Semaphore.kt",
+          "sha256": "eed09fdd68efd006722d439bd36be904769d0231a03f55ad3fa7f785033407af"
+        },
+        {
+          "path": "kotlinx-coroutines-core/concurrent/src/Builders.concurrent.kt",
+          "sha256": "e86327fd3de592c0dc1b600d845523d4a46ce43e4b271ba5c80a0f362587b496"
+        },
+        {
+          "path": "kotlinx-coroutines-core/concurrent/src/Dispatchers.kt",
+          "sha256": "4f53e79893d64976e4ee21a11aa7ce9a6c37a9251f0030c24a5c4fe6a2f32256"
+        },
+        {
+          "path": "kotlinx-coroutines-core/concurrent/src/MultithreadedDispatchers.common.kt",
+          "sha256": "d56cd003c3707bac0b0f40159eaba0f9ad40477fbc444bd5fafb3bb8768c54ea"
+        },
+        {
+          "path": "kotlinx-coroutines-core/concurrent/src/channels/Channels.kt",
+          "sha256": "23808d3e3bc39133d63110fa43d3de30825357f7d7b728aedaba36a3d61d12aa"
+        },
+        {
+          "path": "kotlinx-coroutines-core/concurrent/src/internal/LockFreeLinkedList.kt",
+          "sha256": "7d19a75afd731c557bd742ddd2b6643c07fb365e39f48cd5bba99de5d7a6c9e7"
+        },
+        {
+          "path": "kotlinx-coroutines-core/concurrent/src/internal/OnDemandAllocatingPool.kt",
+          "sha256": "599470b3fa73a0780b69ee90296c1ffa2da77b62d6a7b59f7bcd786fb9782a80"
+        }
+      ],
+      "sourceFileCount": 166,
+      "commonSourceFileCount": 115,
+      "jar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx_coroutines-host.jar",
+      "jarSha256": "5e97053f5921638707474636eedbbef94c6dc1bee1be3490a596a212a2f61015",
+      "originalBuildFlags": [
+        "-Xmulti-platform",
+        "-Xexpect-actual-classes",
+        "-opt-in=kotlin.RequiresOptIn",
+        "-opt-in=kotlin.experimental.ExperimentalTypeInference",
+        "-opt-in=kotlin.ExperimentalMultiplatform",
+        "-opt-in=kotlinx.coroutines.DelicateCoroutinesApi",
+        "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
+        "-opt-in=kotlinx.coroutines.ObsoleteCoroutinesApi",
+        "-opt-in=kotlinx.coroutines.InternalCoroutinesApi",
+        "-opt-in=kotlinx.coroutines.FlowPreview"
+      ],
+      "nativeSoongInvocation": false,
+      "moduleKind": "java_library_host",
+      "hostJdkSymbolsEnabled": true
+    },
+    {
+      "module": "kotlinx_coroutines_android",
+      "project": "external/kotlinx.coroutines",
+      "sourceFiles": [
+        {
+          "path": "ui/kotlinx-coroutines-android/src/AndroidExceptionPreHandler.kt",
+          "sha256": "c74b956a1f8d1e977d2ab52e948dd37cf2a7491e731e874ba645ededbaadae51"
+        },
+        {
+          "path": "ui/kotlinx-coroutines-android/src/HandlerDispatcher.kt",
+          "sha256": "6bd1b65863c9df78a8c9c993d55fa158aa48142f9ee38765655bf5d8c91ba862"
+        }
+      ],
+      "sourceFileCount": 2,
+      "commonSourceFileCount": 0,
+      "jar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx_coroutines_android.jar",
+      "jarSha256": "6e2663ad0f2f03df6dc2d3c32fed3282264186bac9b2e56743c0312d3625231c",
+      "originalBuildFlags": [
+        "-opt-in=kotlinx.coroutines.InternalCoroutinesApi",
+        "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi"
+      ],
+      "nativeSoongInvocation": false,
+      "moduleKind": "java_library",
+      "hostJdkSymbolsEnabled": false
+    },
+    {
+      "module": "kotlinx_serialization_core",
+      "project": "external/kotlinx.serialization",
+      "sourceFiles": [
+        {
+          "path": "core/jvmMain/src/kotlinx/serialization/SerializersJvm.kt",
+          "sha256": "8795efe9ac9f9f4f2f298d6ee958d25bbe281654075024365cc43a552f2750c8"
+        },
+        {
+          "path": "core/jvmMain/src/kotlinx/serialization/internal/Caching.kt",
+          "sha256": "a241a8b6e0c10b7fe1a37d63e4231c99991a5e66ca6b5dbe441662a0f51fb5bf"
+        },
+        {
+          "path": "core/jvmMain/src/kotlinx/serialization/internal/Platform.kt",
+          "sha256": "5a546e1ea663b7a9e1cb5d4672a2de41d4303aee599d580eca53b4326ed0a311"
+        },
+        {
+          "path": "core/jvmMain/src/kotlinx/serialization/internal/SuppressAnimalSniffer.kt",
+          "sha256": "5f5c266ca635bf92e558893272910a9c43f9933a88b4966536d4db281b97f7b5"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/Annotations.kt",
+          "sha256": "60344f0e04b04bbec452bce92ffaa174ddfb33d6750b26a63e0767006a273729"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/ApiLevels.kt",
+          "sha256": "b53262729010e764312e3a9e09aa24b74a750a3f8596f156b973dca4c56bb6f8"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/ContextualSerializer.kt",
+          "sha256": "360b03b6644c90e874301209de5c84993d294c18c3c3808e1940f6b89e3a392a"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/KSerializer.kt",
+          "sha256": "b68b995a76572057d2d999ff50efdb8f9178a9f2ec5358217a18b5a4947a654e"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/PolymorphicSerializer.kt",
+          "sha256": "97d97557a58530ade408a9dd0c25ac2ce4aa7bf076851274eb20d1aa52234c9c"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/SealedSerializer.kt",
+          "sha256": "9d3dc8a6c35ac467a7cc6dfc2ae45bc24f3330358acbf3a531519eb615c30a35"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/SerialFormat.kt",
+          "sha256": "19d862c06e531e93f2fc5683f92cd121adfc91174fa480747494ecab53cfd0fe"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/SerializationExceptions.kt",
+          "sha256": "32e90b4826519919d460e0fb86e225bddba3c1d92d5d2fa3bb25c7215348b7e7"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/Serializers.kt",
+          "sha256": "e5c5a9dfe5e26a8068c8c4d48dd83b4f9be937e150e57192e19abd253f69fad6"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/SerializersCache.kt",
+          "sha256": "c8eec6d46fb31ab544f7149b359a18dc4aa9f641c2491f8fe43cbf16cc648227"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/builtins/BuiltinSerializers.kt",
+          "sha256": "ecb6b34f1feab45e245262ccb9385cd9a6997549e3261ae332f4c1ab6630a6bb"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/builtins/LongAsStringSerializer.kt",
+          "sha256": "cddf8a8f1653d1b7bee000d32144bf25319cbd2f1e0d8a9458fe7a07bb767ad7"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/descriptors/ContextAware.kt",
+          "sha256": "55c64c400d1ae672ecc8d3dabb155d966f08549c06559c7c5a1a701ff913802e"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/descriptors/SerialDescriptor.kt",
+          "sha256": "1144b9c45ba60acb0355c32f385fec6fe209788982d10dd9a748beb406f00001"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/descriptors/SerialDescriptors.kt",
+          "sha256": "1cc770cf531fe02bba8015cc3f18adf1faa62ba76f41b9b8b8a5c1b3899ff8e8"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/descriptors/SerialKinds.kt",
+          "sha256": "046daedfbe697ba04b1229201738c908d0e691649392e8e4d45b63beb0ef7257"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/encoding/AbstractDecoder.kt",
+          "sha256": "05772f417c6eb63c66c358479c5ebc3a508775f5a50cbdf46cfff893b0d0fcdd"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/encoding/AbstractEncoder.kt",
+          "sha256": "ce5f4191942c08cd8c5f0ca85f52e78e32275566b394ed5ae54ebece505d372f"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/encoding/ChunkedDecoder.kt",
+          "sha256": "72abed4f61247933563d7804cd8745a55b5875f19ff89e1708f4580b5bbfc249"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/encoding/Decoding.kt",
+          "sha256": "849c7b2907438bd29403a21e4d55c57c499f3a62d393fe82512098cdb3b4fb48"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/encoding/Encoding.kt",
+          "sha256": "62b1a629dff1bf4a2e5275288cf911820f06f606d88002d3cddd9a6a33bbdfb6"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/AbstractPolymorphicSerializer.kt",
+          "sha256": "d339cd8f36c4d0bb1865fdad72be4c467fdc601a13c3137964fd682a5038ec34"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/BuiltInSerializers.kt",
+          "sha256": "969188495123bbcf329125bc86670823e0eb12c9681173295086506e15364368"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/CachedNames.kt",
+          "sha256": "221de558cb5be8773298fc18045d19c1358958ce99df5d61544628b9cd4bddc0"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/CollectionDescriptors.kt",
+          "sha256": "90c632156ba7402bce0f71cec670c8b2a4321d5c326aead7b105b35c43bb2b63"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/CollectionSerializers.kt",
+          "sha256": "95600b5a7fff6d7eb038a2f3d312a72be013273790791b7e4b4c5465c24d88c4"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/ElementMarker.kt",
+          "sha256": "d1bf5dadedd0bc5d1963751b7e510596dcb7ec1be8f4644e6c8ab8dc6f4739bb"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/Enums.kt",
+          "sha256": "e05a59c12feee35d58d6e21fb505cec03d57a92fffa78b1ded7dd0d107be7506"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/InlineClassDescriptor.kt",
+          "sha256": "59de75eebdba5b097c018c224df91d9b8785c6d900f33a6316154f464c4ba918"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/JsonInternalDependencies.kt",
+          "sha256": "dacc066496cffbf60b46b3940198ddfa755c72f950c597c7d9a6489337053790"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/NamedCompanion.kt",
+          "sha256": "cc05ade9016f985ae23938272c975f12e2ae3684f0b178de91a41732a065d296"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/NoOpEncoder.kt",
+          "sha256": "bc3bb9e83cb2330f70d5dfd3d4dd6ebdcedf4b7c037ad4cdbf3f9dc116b616ee"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/NothingSerialDescriptor.kt",
+          "sha256": "6026873cdd2f98ab5e1aef67205d45a806a33a1e825651c870c5e7e4b4d2de99"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/NullableSerializer.kt",
+          "sha256": "5f966fef24ca15852edc486a0afe916f666c179ec2da4f164ba12cc92531c6f8"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/ObjectSerializer.kt",
+          "sha256": "40e659537ffb65fb214021261f18b211b697b778ec4fb70ff9c5c2b6eca2e6ca"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/Platform.common.kt",
+          "sha256": "276892d5cbe5225a80e905319701ca01fe6e197cc95927303a2388e2fa875e35"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/PluginExceptions.kt",
+          "sha256": "ba27f5d52688b25a25dee572b8b129022b4925c72a7658f121d0164db0b12f97"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/PluginGeneratedSerialDescriptor.kt",
+          "sha256": "4946c3570b6081691a9b931ae9e000997e06ba7f991d44e126dffe6a2179682f"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/PluginHelperInterfaces.kt",
+          "sha256": "85a332a3f70d4176c0303158c54ee27b83f8972e9b3c3d792cb81849f66a1c07"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/PrimitiveArraysSerializers.kt",
+          "sha256": "64b4bb76a6fe5e46a27d9164ee5e3b3ad3d9946eb99024b6324b4fedf28cc151"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/Primitives.kt",
+          "sha256": "eebc88f52b180b03922b741be5b499c84a3236ed92dc98c827e8fdbfdbe9ef18"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/SerializationConstructorMarker.kt",
+          "sha256": "4a0bf6e68e840704abd14aee6b05923f822ede5968e63658f9c8ceec48acf7e1"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/Tagged.kt",
+          "sha256": "053d50ba5484a12eb4a546d0c00bcc18c8b237f86ffc083dd67f3ec20be25ab5"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/Tuples.kt",
+          "sha256": "ef15fce102ef23c2dc0ddbb3e8c828b5ffca82999780f78241ebdc6b41ad4fc5"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/internal/ValueClasses.kt",
+          "sha256": "6843ab93b6cad260d0e8706906ff725e37f0e7f528f2940274c7af4ec22de7ef"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/modules/PolymorphicModuleBuilder.kt",
+          "sha256": "bfb2623c19283edb20dee984ae845bf618364c5727daac5b26c288c865a90abe"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/modules/SerializersModule.kt",
+          "sha256": "60ed047438e85f5cce58e5d4a182622fcfae4e1ffcccf04751eb69990075f053"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/modules/SerializersModuleBuilders.kt",
+          "sha256": "af5b0ebe187fec3e71cedac66a7dc3817e990cdf4abdd145bfc48525276de093"
+        },
+        {
+          "path": "core/commonMain/src/kotlinx/serialization/modules/SerializersModuleCollector.kt",
+          "sha256": "7af3eb81c57daf95b563d9f722ca524e987b7dc0ae7fc3c5a97be3ac61a22d04"
+        }
+      ],
+      "sourceFileCount": 53,
+      "commonSourceFileCount": 49,
+      "jar": "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\build-work\\gallery27-native-libs-20261028-070954-137015\\kotlinx_serialization_core.jar",
+      "jarSha256": "8d0bed9492dccd3191ac662b8752d30139ea3492952d76f36ec020f122283d46",
+      "originalBuildFlags": [
+        "-Xexpect-actual-classes",
+        "-Xmulti-platform",
+        "-Xjvm-default=all-compatibility",
+        "-opt-in=kotlin.ExperimentalMultiplatform",
+        "-opt-in=kotlin.ExperimentalStdlibApi",
+        "-opt-in=kotlinx.serialization.ExperimentalSerializationApi",
+        "-opt-in=kotlinx.serialization.InternalSerializationApi",
+        "-opt-in=kotlinx.serialization.internal.CoreFriendModuleApi",
+        "-opt-in=kotlinx.serialization.SealedSerializationApi"
+      ],
+      "nativeSoongInvocation": false,
+      "moduleKind": "java_library",
+      "hostJdkSymbolsEnabled": false
+    }
+  ],
+  "wholeGoalComplete": false
+}

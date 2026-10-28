@@ -1,0 +1,8 @@
+cold|false|1.0|0.0|0.0|0.0|0.0|0.0|0.0
+focused|false|1.0|0.0|0.0|0.0|0.0|1.0|0.0
+hovered|false|1.0|0.0|0.0|0.0|0.0|1.0|0.0
+pressed|true|1.0|0.6|0.92|1.0|1.0|0.0|1.0
+on|true|1.0|0.32|0.72|1.0|0.82|0.0|1.0
+on-locked|true|0.42|0.192|0.43200004|0.6|0.492|0.0|0.6
+off-locked|false|0.42|0.0|0.0|0.0|0.0|0.0|0.0
+PASS policyAssertions=14076 cases=1536 mediaOperations=0

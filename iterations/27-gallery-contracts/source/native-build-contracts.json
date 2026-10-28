@@ -1,0 +1,61 @@
+{
+  "files": [
+    {
+      "project": "build/soong",
+      "revision": "183e59578606687d66096cbce86cb50c27f4e9d7",
+      "path": "java/aar.go",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_build_soong/183e59578606687d66096cbce86cb50c27f4e9d7/java/aar.go",
+      "saved": "source/native-build-contracts/java/aar.go",
+      "sha256": "8c7d2ebba4e6ae119f8a850551e5754385c6f9878d9cac48b92ed040c58a00b5",
+      "gitBlobSha1": "3a67546ec44922623fcc4213ad2ebf737d93cdc7"
+    },
+    {
+      "project": "build/soong",
+      "revision": "183e59578606687d66096cbce86cb50c27f4e9d7",
+      "path": "java/builder.go",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_build_soong/183e59578606687d66096cbce86cb50c27f4e9d7/java/builder.go",
+      "saved": "source/native-build-contracts/java/builder.go",
+      "sha256": "22994fb88075dd005e4503d04feddb5cbd484ec036ce09c37b8028e18a394d89",
+      "gitBlobSha1": "d421adede696574861fa30961c3a566ea4f8f215"
+    },
+    {
+      "project": "build/soong",
+      "revision": "183e59578606687d66096cbce86cb50c27f4e9d7",
+      "path": "java/java.go",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_build_soong/183e59578606687d66096cbce86cb50c27f4e9d7/java/java.go",
+      "saved": "source/native-build-contracts/java/java.go",
+      "sha256": "d0e7568abc7ad77414d4edc612a9136d1138d08c8a7aa948695aaee3a57e61a1",
+      "gitBlobSha1": "24fe478dd3657d9a1f6e8ffd9a75a8bc6f49f98b"
+    },
+    {
+      "project": "build/soong",
+      "revision": "183e59578606687d66096cbce86cb50c27f4e9d7",
+      "path": "java/kotlin.go",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_build_soong/183e59578606687d66096cbce86cb50c27f4e9d7/java/kotlin.go",
+      "saved": "source/native-build-contracts/java/kotlin.go",
+      "sha256": "3cd594815e4ab33f58aa33a7af1f7bd69f5dfec3fd1d7d19cc71c65a7a84cea8",
+      "gitBlobSha1": "f47a169b7a93523831032017a8e62cdd134a0857"
+    },
+    {
+      "project": "build/soong",
+      "revision": "183e59578606687d66096cbce86cb50c27f4e9d7",
+      "path": "java/config/kotlin.go",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_build_soong/183e59578606687d66096cbce86cb50c27f4e9d7/java/config/kotlin.go",
+      "saved": "source/native-build-contracts/java/config/kotlin.go",
+      "sha256": "81d23777d3f07cfd491ba66edfabd08750922c92785a3d0ec91afa3e00efbda9",
+      "gitBlobSha1": "c1696a433d3b8a48e07f4bbcc72ca252da49b821"
+    },
+    {
+      "project": "build/blueprint",
+      "revision": "7f2058de8155b05ea3c3f8317d33bfe732cacf8b",
+      "path": "depset/depset.go",
+      "saved": "source/native-build-contracts/blueprint/depset/depset.go",
+      "sha256": "968cf2cd3cb61cf87016ece37f9447512719e6d57171d348c553ed6288acd8fd",
+      "gitBlobSha1": "6e4185db01de843fb1d8f05b1841ffc7e48cc2ac"
+    }
+  ],
+  "resourceOrderInterpretation": "Dependency-first stable order derived from the pinned AAR resource-node order and overlay reversal; both native Material providers retained.",
+  "classOrderInterpretation": "Native PREORDER transitive header/static class providers; paired real R namespace jars and original native library inputs.",
+  "actualInvocation": "Manual resource linking and real full source compilation, not official Soong, ABI generation, dex, R8 or device execution.",
+  "wholeGoalComplete": false
+}

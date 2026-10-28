@@ -1,0 +1,75 @@
+{
+  "result": "PASS",
+  "patch": "Glimpse-forge26-to27.patch",
+  "patchSha256": "3a7e6e87d9bfbdfa2a06de6336bdaddd5401c831e12a756712e99b533457320a",
+  "textFiles": 54,
+  "deletedPaths": [
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_check.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_forward.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_rewind.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_settings.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_speed.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+    "app/src/main/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml"
+  ],
+  "byteParity": true,
+  "commands": [
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.bare=false",
+        "init",
+        "-q"
+      ],
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.bare=false",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--check",
+        "--whitespace=nowarn",
+        "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\27-gallery-contracts\\Glimpse-forge26-to27.patch"
+      ],
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.bare=false",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--whitespace=nowarn",
+        "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\27-gallery-contracts\\Glimpse-forge26-to27.patch"
+      ],
+      "exitCode": 0,
+      "output": ""
+    }
+  ],
+  "nativeDeviceOperations": false
+}
