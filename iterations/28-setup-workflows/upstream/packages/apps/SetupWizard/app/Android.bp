@@ -1,0 +1,38 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "LineageSetupWizard",
+
+    srcs: ["src/main/java/**/*.kt"],
+    resource_dirs: ["src/main/res"],
+    manifest: "src/main/AndroidManifest.xml",
+
+    certificate: "platform",
+    privileged: true,
+    privapp_allowlist: "org.lineageos.setupwizard.xml",
+    system_ext_specific: true,
+    platform_apis: true,
+
+    overrides: ["Provision"],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+
+    static_libs: [
+        "androidx.activity_activity",
+        "androidx.leanback_leanback",
+        "SettingsLib",
+        "setupcompat",
+        "setupdesign",
+        "setupdesign-lottie-animation-view",
+        "SystemUISharedLib",
+        "zxing-core",
+        "org.lineageos.platform.internal",
+    ],
+
+    libs: ["telephony-common"],
+}

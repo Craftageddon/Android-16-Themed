@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2021 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources>
+
+  <color name="sud_system_primary_text">@color/sud_primary_default_text_dark</color>
+  <color name="sud_system_secondary_text">@color/sud_secondary_default_text_dark</color>
+  <color name="sud_system_tertiary_text_inactive">@color/sud_inactive_default_dark</color>
+  <color name="sud_system_error_warning">@color/sud_error_warning_default_dark</color>
+  <color name="sud_system_success_done">@color/success_color_device_default_dark</color>
+  <color name="sud_system_fallback_accent">@color/fallback_color_device_default_dark</color>
+
+  <color name="sud_portal_pending_progress">@color/sud_portal_pending_progress_dark</color>
+
+
+  <color name="sud_uniformity_backdrop_color">#2A2B2E</color>
+
+
+  <color name="sud_color_primary">@color/sud_system_primary_dark</color>
+  <color name="sud_system_on_primary">@color/sud_system_on_primary_dark</color>
+  <color name="sud_color_primary_container">@color/sud_system_primary_container_dark</color>
+  <color name="sud_color_secondary">@color/sud_system_secondary_dark</color>
+  <color name="sud_color_secondary_container">@color/sud_system_secondary_container_dark</color>
+  <color name="sud_on_secondary_container">@color/sud_system_on_secondary_container_dark</color>
+  <color name="sud_color_on_surface">@color/sud_neutral90</color>
+  <color name="sud_color_surface_bright">@color/sud_system_surface_bright_dark</color>
+  <color name="sud_color_surface_container_high">@color/sud_system_surface_container_high_dark</color>
+  <color name="sud_color_surface_container_highest">@color/sud_neutral22</color>
+  <color name="sud_on_surface_variant">@color/sud_system_on_surface_variant_dark</color>
+  <color name="sud_color_tertiary">@color/sud_system_tertiary_dark</color>
+  <color name="sud_color_on_tertiary">@color/sud_system_on_tertiary_dark</color>
+  <color name="sud_color_tertiary_container">@color/sud_system_tertiary_container_dark</color>
+  <color name="sud_color_on_tertiary_container">@color/sud_system_on_tertiary_container_dark</color>
+
+  <!-- Glif expressive style -->
+  <!-- neutral_variant80 -->
+  <color name="sud_glif_expressive_footer_secondary_button_disable_text_color">#ffcac4d0</color>
+
+  <color name="sud_accessibility_button_background_color">@color/sud_system_secondary_container_dark</color>
+  <color name="sud_card_view_selected_background_color">@color/sud_system_primary_container_dark</color>
+</resources>

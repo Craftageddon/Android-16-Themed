@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "sourceGeometryTreatments": 17,
+  "newLetteringFreeLanguageGlobe": 1,
+  "editableLayeredMasters": 18,
+  "densityPngConfigurations": 504,
+  "higherResolutionNodpiLayers": 126,
+  "totalPngConfigurations": 630,
+  "coldPngConfigurations": 90,
+  "neutralMaskPngConfigurations": 540,
+  "sourcePathGeometryPreservedFor17OriginalGlyphs": true,
+  "originalNativeAspectRatiosPreserved": true,
+  "productionImageTextBaked": false,
+  "runtimeGlowBakedIntoColdImages": false,
+  "priorSteelTextureHash": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+  "nativeSourceBindings": "16 positive consumer bridges authored;2 unbound glyphs remain pending",
+  "nativeCompileInflationDeviceAcceptance": "NOT RUN",
+  "baselineFamilyDecisionsClosed": 0,
+  "wholeGoalComplete": false
+}

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2021 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@color/sud_system_*">
+  <!-- Default color for BC -->
+
+  <color name="sud_color_accent_glif_v3_dark">#ff669df6</color>
+
+  <color name="sud_color_accent_glif_v3_light">#ff1a73e8</color>
+
+  <!-- Accent color -->
+  <color name="sud_dynamic_color_accent_glif_v3">@color/sud_dynamic_color_accent_glif_v3_light</color>
+  <color name="sud_dynamic_color_accent_glif_v3_dark">@color/sud_system_accent1_100</color>
+  <color name="sud_dynamic_color_accent_glif_v3_light">@color/sud_system_accent1_600</color>
+
+
+  <color name="sud_error_warning_default_dark">#F28B82</color>
+
+  <color name="sud_error_warning_default_light">#EA4335</color>
+
+
+
+  <color name="sud_system_accent1_0">@android:color/system_accent1_0</color>
+
+  <color name="sud_system_accent1_100">@android:color/system_accent1_100</color>
+
+  <color name="sud_system_accent1_200">@android:color/system_accent1_200</color>
+
+  <color name="sud_system_accent1_300">@android:color/system_accent1_300</color>
+
+  <color name="sud_system_accent1_600">@android:color/system_accent1_600</color>
+
+  <color name="sud_system_accent1_800">@android:color/system_accent1_800</color>
+
+
+
+  <color name="sud_system_accent2_100">@android:color/system_accent2_100</color>
+
+  <color name="sud_system_accent2_200">@android:color/system_accent2_200</color>
+
+  <color name="sud_system_accent2_600">@android:color/system_accent2_600</color>
+
+  <color name="sud_system_accent2_900">@android:color/system_accent2_900</color>
+
+
+
+  <color name="sud_system_accent3_100">@android:color/system_accent3_100</color>
+
+  <color name="sud_system_accent3_200">@android:color/system_accent3_200</color>
+
+  <color name="sud_system_accent3_600">@android:color/system_accent3_600</color>
+
+
+
+
+  <color name="sud_system_neutral1_0">@android:color/system_neutral1_0</color>
+
+  <color name="sud_system_neutral1_10">@android:color/system_neutral1_10</color>
+
+  <color name="sud_system_neutral1_50">@android:color/system_neutral1_50</color>
+
+  <color name="sud_system_neutral1_200">@android:color/system_neutral1_200</color>
+
+  <color name="sud_system_neutral1_300">@android:color/system_neutral1_300</color>
+
+  <color name="sud_system_neutral1_400">@android:color/system_neutral1_400</color>
+
+  <color name="sud_system_neutral1_500">@android:color/system_neutral1_500</color>
+
+  <color name="sud_system_neutral1_600">@android:color/system_neutral1_600</color>
+
+  <color name="sud_system_neutral1_700">@android:color/system_neutral1_700</color>
+
+  <color name="sud_system_neutral1_800">@android:color/system_neutral1_800</color>
+
+  <color name="sud_system_neutral1_900">@android:color/system_neutral1_900</color>
+
+  <color name="sud_system_neutral1_1000">@android:color/system_neutral1_1000</color>
+
+
+
+  <color name="sud_system_neutral2_50">@android:color/system_neutral2_50</color>
+
+  <color name="sud_system_neutral2_100">@android:color/system_neutral2_100</color>
+
+  <color name="sud_system_neutral2_200">@android:color/system_neutral2_200</color>
+
+  <color name="sud_system_neutral2_300">@android:color/system_neutral2_300</color>
+
+  <color name="sud_system_neutral2_400">@android:color/system_neutral2_400</color>
+
+  <color name="sud_system_neutral2_500">@android:color/system_neutral2_500</color>
+
+  <color name="sud_system_neutral2_700">@android:color/system_neutral2_700</color>
+
+
+  <color name="sud_system_primary_text">@color/sud_system_neutral1_900</color>
+  <color name="sud_system_secondary_text">@color/sud_system_neutral2_700</color>
+  <color name="sud_system_tertiary_text_inactive">@color/sud_system_neutral2_500</color>
+  <color name="sud_system_error_warning">@color/sud_error_warning_default_light</color>
+  <color name="sud_system_background_surface">@color/sud_system_neutral1_50</color>
+  <color name="sud_system_accent_icon_text_button">@color/sud_system_accent1_600</color>
+  <color name="sud_system_button_surface">@color/sud_system_accent1_100</color>
+  <color name="sud_system_button_text">@color/sud_system_neutral1_900</color>
+  <color name="sud_system_dividing_line">@color/sud_system_neutral2_300</color>
+  <color name="sud_system_hyperlink_text">@color/sud_system_accent1_600</color>
+  <color name="sud_system_surface">@color/sud_system_neutral1_50</color>
+
+
+  <color name="sud_dynamic_switch_thumb_off_light">@color/sud_system_neutral2_300</color>
+
+  <color name="sud_dynamic_switch_track_off_dark">@color/sud_system_neutral1_700</color>
+
+  <color name="sud_dynamic_switch_thumb_off_dark">@color/sud_system_neutral1_400</color>
+
+
+  <color name="sud_dynamic_switch_track_on_light">@color/sud_system_accent1_600</color>
+
+  <color name="sud_dynamic_switch_thumb_on_light">@color/sud_system_accent1_100</color>
+
+  <color name="sud_dynamic_switch_thumb_on_dark">@color/sud_system_accent1_100</color>
+
+
+  <color name="sud_color_on_surface">@color/sud_system_neutral1_900</color>
+  <color name="sud_color_surface_container_highest">@color/sud_system_neutral2_100</color>
+
+  <!-- Light dynamic system palette -->
+  <color name="sud_system_primary_light">@android:color/system_accent1_600</color>
+  <color name="sud_system_on_primary_light">@android:color/system_accent1_0</color>
+  <color name="sud_system_primary_container_light">@android:color/system_accent1_100</color>
+  <color name="sud_system_on_primary_container_light">@android:color/system_accent1_900</color>
+  <color name="sud_system_primary_inverse_light">@android:color/system_accent1_200</color>
+  <color name="sud_system_primary_fixed_light">@android:color/system_accent1_100</color>
+  <color name="sud_system_primary_fixed_dim_light">@android:color/system_accent1_200</color>
+  <color name="sud_system_on_primary_fixed_light">@android:color/system_accent1_900</color>
+  <color name="sud_system_on_primary_fixed_variant_light">@android:color/system_accent1_700</color>
+
+  <color name="sud_system_secondary_light">@android:color/system_accent2_600</color>
+  <color name="sud_system_on_secondary_light">@android:color/system_accent2_0</color>
+  <color name="sud_system_secondary_container_light">@android:color/system_accent2_100</color>
+  <color name="sud_system_on_secondary_container_light">@android:color/system_accent2_900</color>
+  <color name="sud_system_secondary_fixed_light">@android:color/system_accent2_100</color>
+  <color name="sud_system_secondary_fixed_dim_light">@android:color/system_accent2_200</color>
+  <color name="sud_system_on_secondary_fixed_light">@android:color/system_accent2_900</color>
+  <color name="sud_system_on_secondary_fixed_variant_light">@android:color/system_accent2_700</color>
+
+  <color name="sud_system_tertiary_light">@android:color/system_accent3_600</color>
+  <color name="sud_system_on_tertiary_light">@android:color/system_accent3_0</color>
+  <color name="sud_system_tertiary_container_light">@android:color/system_accent3_100</color>
+  <color name="sud_system_on_tertiary_container_light">@android:color/system_accent3_900</color>
+  <color name="sud_system_tertiary_fixed_light">@android:color/system_accent3_100</color>
+  <color name="sud_system_tertiary_fixed_dim_light">@android:color/system_accent3_200</color>
+  <color name="sud_system_on_tertiary_fixed_light">@android:color/system_accent3_900</color>
+  <color name="sud_system_on_tertiary_fixed_variant_light">@android:color/system_accent3_700</color>
+
+  <color name="sud_system_error_light">@color/m3_ref_palette_error40</color>
+  <color name="sud_system_on_error_light">@android:color/white</color>
+  <color name="sud_system_error_container_light">@color/m3_ref_palette_error90</color>
+  <color name="sud_system_on_error_container_light">@color/m3_ref_palette_error10</color>
+  <color name="sud_system_outline_light">@android:color/system_neutral2_500</color>
+  <color name="sud_system_outline_variant_light">@android:color/system_neutral2_200</color>
+  <color name="sud_system_background_light">@color/m3_ref_palette_dynamic_neutral_variant98</color>
+  <color name="sud_system_on_background_light">@android:color/system_neutral1_900</color>
+  <color name="sud_system_surface_light">@color/m3_ref_palette_dynamic_neutral_variant98</color>
+  <color name="sud_system_on_surface_light">@android:color/system_neutral1_900</color>
+  <color name="sud_system_surface_variant_light">@android:color/system_neutral2_100</color>
+  <color name="sud_system_on_surface_variant_light">@android:color/system_neutral2_700</color>
+  <color name="sud_system_surface_inverse_light">@android:color/system_neutral1_800</color>
+  <color name="sud_system_on_surface_inverse_light">@android:color/system_neutral1_50</color>
+  <color name="sud_system_surface_bright_light">@color/m3_ref_palette_dynamic_neutral_variant98</color>
+  <color name="sud_system_surface_dim_light">@color/m3_ref_palette_dynamic_neutral_variant87</color>
+  <color name="sud_system_surface_container_light">@color/m3_ref_palette_dynamic_neutral_variant94</color>
+  <color name="sud_system_surface_container_low_light">@color/m3_ref_palette_dynamic_neutral_variant96</color>
+  <color name="sud_system_surface_container_lowest_light">@android:color/system_neutral2_0</color>
+  <color name="sud_system_surface_container_high_light">@color/m3_ref_palette_dynamic_neutral_variant92</color>
+  <color name="sud_system_surface_container_highest_light">@android:color/system_neutral2_100</color>
+
+
+  <!-- Dark dynamic system palette -->
+  <color name="sud_system_primary_dark">@android:color/system_accent1_200</color>
+  <color name="sud_system_on_primary_dark">@android:color/system_accent1_800</color>
+  <color name="sud_system_primary_container_dark">@android:color/system_accent1_700</color>
+  <color name="sud_system_on_primary_container_dark">@android:color/system_accent1_100</color>
+  <color name="sud_system_primary_inverse_dark">@android:color/system_accent1_600</color>
+  <color name="sud_system_primary_fixed_dark">@android:color/system_accent1_100</color>
+  <color name="sud_system_primary_fixed_dim_dark">@android:color/system_accent1_200</color>
+  <color name="sud_system_on_primary_fixed_dark">@android:color/system_accent1_900</color>
+  <color name="sud_system_on_primary_fixed_variant_dark">@android:color/system_accent1_700</color>
+
+  <color name="sud_system_secondary_dark">@android:color/system_accent2_200</color>
+  <color name="sud_system_on_secondary_dark">@android:color/system_accent2_800</color>
+  <color name="sud_system_secondary_container_dark">@android:color/system_accent2_700</color>
+  <color name="sud_system_on_secondary_container_dark">@android:color/system_accent2_100</color>
+  <color name="sud_system_secondary_fixed_dark">@android:color/system_accent2_100</color>
+  <color name="sud_system_secondary_fixed_dim_dark">@android:color/system_accent2_200</color>
+  <color name="sud_system_on_secondary_fixed_dark">@android:color/system_accent2_900</color>
+  <color name="sud_system_on_secondary_fixed_variant_dark">@android:color/system_accent2_700</color>
+
+  <color name="sud_system_tertiary_dark">@android:color/system_accent3_200</color>
+  <color name="sud_system_on_tertiary_dark">@android:color/system_accent3_800</color>
+  <color name="sud_system_tertiary_container_dark">@android:color/system_accent3_700</color>
+  <color name="sud_system_on_tertiary_container_dark">@android:color/system_accent3_100</color>
+  <color name="sud_system_tertiary_fixed_dark">@android:color/system_accent3_100</color>
+  <color name="sud_system_tertiary_fixed_dim_dark">@android:color/system_accent3_200</color>
+  <color name="sud_system_on_tertiary_fixed_dark">@android:color/system_accent3_900</color>
+  <color name="sud_system_on_tertiary_fixed_variant_dark">@android:color/system_accent3_700</color>
+
+  <color name="sud_system_error_dark">@color/m3_ref_palette_error80</color>
+  <color name="sud_system_on_error_dark">@color/m3_ref_palette_error20</color>
+  <color name="sud_system_error_container_dark">@color/m3_ref_palette_error30</color>
+  <color name="sud_system_on_error_container_dark">@color/m3_ref_palette_error90</color>
+  <color name="sud_system_outline_dark">@android:color/system_neutral2_400</color>
+  <color name="sud_system_outline_variant_dark">@android:color/system_neutral2_700</color>
+  <color name="sud_system_background_dark">@color/m3_ref_palette_dynamic_neutral_variant6</color>
+  <color name="sud_system_on_background_dark">@android:color/system_neutral1_100</color>
+  <color name="sud_system_surface_dark">@color/m3_ref_palette_dynamic_neutral_variant6</color>
+  <color name="sud_system_on_surface_dark">@android:color/system_neutral1_100</color>
+  <color name="sud_system_surface_variant_dark">@android:color/system_neutral2_700</color>
+  <color name="sud_system_on_surface_variant_dark">@android:color/system_neutral2_200</color>
+  <color name="sud_system_surface_inverse_dark">@android:color/system_neutral1_100</color>
+  <color name="sud_system_on_surface_inverse_dark">@android:color/system_neutral1_800</color>
+  <color name="sud_system_surface_bright_dark">@color/m3_ref_palette_dynamic_neutral_variant24</color>
+  <color name="sud_system_surface_dim_dark">@color/m3_ref_palette_dynamic_neutral_variant6</color>
+  <color name="sud_system_surface_container_dark">@color/m3_ref_palette_dynamic_neutral_variant12</color>
+  <color name="sud_system_surface_container_low_dark">@android:color/system_neutral2_900</color>
+  <color name="sud_system_surface_container_lowest_dark">@color/m3_ref_palette_dynamic_neutral_variant4</color>
+  <color name="sud_system_surface_container_high_dark">@color/m3_ref_palette_dynamic_neutral_variant17</color>
+  <color name="sud_system_surface_container_highest_dark">@color/m3_ref_palette_dynamic_neutral_variant22</color>
+</resources>

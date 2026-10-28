@@ -1,0 +1,134 @@
+[
+  {
+    "path": "app/Android.bp",
+    "beforeSha256": "9f25d5434cbed2c27501621f23999623f44003b509fba34597fa2186c5277a99",
+    "afterSha256": "7e9fb7b48b2a9975d6259617873a458262ae2f8ae8316a549c75f57bab1197d4",
+    "deleted": false
+  },
+  {
+    "path": "app/proguard.flags",
+    "beforeSha256": "fce6236a3ecbd2d557908669721aa7884f35274375815bbbc556a6a9304d97db",
+    "afterSha256": "721cb15579db1688b1e584fee4885fc8ec151fde9a88b614ab3b392bc3f2fd1f",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/setupwizard/forge/ForgeDrawable.java",
+    "beforeSha256": null,
+    "afterSha256": "1d6983ffd3d692d22451767b7186aa7fc740ebd6d9917af9ebe922a0055ff13e",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/setupwizard/forge/ForgeResources.java",
+    "beforeSha256": null,
+    "afterSha256": "2e8f950a54ed6408167f5aba3e5e0ea7e69389b725750e8d252460f159e211b3",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/java/org/lineageos/setupwizard/forge/ForgeStatePolicy.java",
+    "beforeSha256": null,
+    "afterSha256": "afc18b379c7fe573bfa74561af4ccb5e1f6f288251749fe9a596e40717576822",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_accessibility.xml",
+    "beforeSha256": "527ec9a41bf095e6e9f8767645bb9792f6fbe81049517e65bac00d46c05d1592",
+    "afterSha256": "d8154421084bf9095911a3620aa518d8117dc0fca88fe34ce3caddaf4c93ec63",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_arrow_forward.xml",
+    "beforeSha256": "0c416ce8c3b9f4510fde0747a1d1726baa7e881350a06ec6d7dcef895ef020e5",
+    "afterSha256": "e355caac3cf0cf60b625e11ee8e7ffc6ef21692a486b5e18b8d489c55a2f77eb",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_check.xml",
+    "beforeSha256": "3dab8255c62edc41fea45b81459c86f86b98669755ee4b2e353f54b7b2196976",
+    "afterSha256": "a1b2e6822aa3529cfe56ff9a8619dba0c75e1d4fd7ecd60fa49be3896ab71f45",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_datetime.xml",
+    "beforeSha256": "992469d6a606c811c0f45ba283dc09693b119adb951c80906afbb8acf54e820a",
+    "afterSha256": "36471cc8fccd34f4f2146a9221a82ceb267437536dbd676e6be8adf618e1a23c",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_emergency_dial.xml",
+    "beforeSha256": "3932ab188bffae84f96096b87f4522547d02f087d2c2564b922439af74dcae12",
+    "afterSha256": "e2725818a0058fff0acc6082756e4c115c1fcb41eb2d6ecbe1c343b5f5e7f10c",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_info.xml",
+    "beforeSha256": "0dca8f97ea6b729ffe12fff83cd54322a0b747375c85137540861d76d0e7ab9f",
+    "afterSha256": "b014d6d645ee54462e4374d09f18dc4610f4915d54dd52b14304d98fabe4587a",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_locale.xml",
+    "beforeSha256": "5cac52df639583e6645f01b50d8e515a6fdca0a2795c4764e8d555140393eccf",
+    "afterSha256": "f0116d4bbebbade2e86374c008eff5ee020d2efb264cf7893b0ebaeca639e6e1",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_location.xml",
+    "beforeSha256": "d94e5b8fd767d5ba50f425dd2767775e613dd7ba96f4cff86a4e4f7a94c3ca61",
+    "afterSha256": "e912658f471c9ca4cace9f40d2465732a1836ba07ce7c28fb65474f772ca4022",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_nav_home.xml",
+    "beforeSha256": "32b0861415be971bf5208a4cabd817487a8d660009d2eda22ed8dc3b813a2fe6",
+    "afterSha256": "75e6bdd744ea5baaa3e5d6436d9aff4062b92315c9b368a2d8d1f38ec2e6eb71",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_navigation.xml",
+    "beforeSha256": "b370a6aaca0ccf37d17b29c65f8b2f308545bff6dbd12757a3c7a2cc6e9ce621",
+    "afterSha256": "5331937364c86e1558b84ae34cffc60739d789d354181ff29259d1fcba2a6f53",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_palette.xml",
+    "beforeSha256": "9217afce64cc13384a0566fedec244877fc05273634446280746c403ae46747a",
+    "afterSha256": "7d058b946081d6f7f26c3368b1f83fece6f11adb4f3444abd46230085e21e3d5",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_restore.xml",
+    "beforeSha256": "f7bb2262ebd95350a408777f1d513341ec015f96ea041683157eee212040b5cf",
+    "afterSha256": "83189254b4d199fb5c51e3bc736ad532d74da587f724f721d1388c3653037cc2",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_sim.xml",
+    "beforeSha256": "578907553c1d051978985d70610c9463222a3a852569bde9c176eb472ec88edf",
+    "afterSha256": "4979ebf528598d7fb88729d85adb22a664a5fb6738992addbcd06e3e3539253e",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_swipe_up.xml",
+    "beforeSha256": "905dd760409030ff8dea3b666ce8a9e33812b6823a4564d804c6cdb758ef6eb3",
+    "afterSha256": "5efd3216376977e870da65e6769cd0a559bb9cdef44cecf12687f58a582100e1",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_system_update.xml",
+    "beforeSha256": "6e5370223907a009608d08ee327dbe5d4c35b9ced51de78ffea023ae9e27d655",
+    "afterSha256": "479cf57e6f3f5ba8f812bfb02cb860396e117028ca9c3fb82fd255d347f7a0e0",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/drawable/ic_tv_expand.xml",
+    "beforeSha256": "923518de0919dfe39f5534fb4b1a9ec64672294b1940b72d943360534717e219",
+    "afterSha256": "35e6ec4fbbf996417debe0139b3e2c9c3e7ba458a46652e40c61c05b9cf53c59",
+    "deleted": false
+  },
+  {
+    "path": "app/src/main/res/values/cg_setup_attrs.xml",
+    "beforeSha256": null,
+    "afterSha256": "57f9b3d4b2b31f02bd5da37370ae988042c5dbbe1afe48c5ed90c8f0c28c046f",
+    "deleted": false
+  }
+]

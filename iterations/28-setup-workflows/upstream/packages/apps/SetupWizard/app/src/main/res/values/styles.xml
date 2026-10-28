@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2013 The CyanogenMod Project
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <style name="Theme.Setup" parent="@style/SudThemeGlifExpressive.DayNight">
+        <item name="sucUsePartnerResource">true</item>
+        <item name="sudUsePartnerHeavyTheme">true</item>
+    </style>
+
+    <!-- TV -->
+    <style name="Theme.Setup.Tv" />
+
+    <style name="SpinnerItem">
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">@dimen/content_margin_left</item>
+    </style>
+
+    <style name="NoDisplay" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+
+    <style name="WelcomeTitle">
+        <item name="android:textSize">@dimen/welcome_title_text_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:gravity">start</item>
+        <item name="android:paddingBottom">@dimen/welcome_title_padding_bottom</item>
+        <item name="android:lineHeight">@dimen/welcome_title_line_height</item>
+    </style>
+
+    <style name="WelcomeIconButton" parent="Widget.Material3.Button.IconButton.Outlined">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">0dp</item>
+        <item name="cornerRadius">@dimen/welcome_footer_button_radius</item>
+    </style>
+
+    <style name="EdgeToEdgeWallpaperBackground" parent="Theme.Setup">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">?attr/android:windowBackground</item>
+        <item name="android:navigationBarColor">?attr/android:windowBackground</item>
+    </style>
+</resources>
