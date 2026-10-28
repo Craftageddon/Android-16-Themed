@@ -1,0 +1,48 @@
+{
+  "archive": "complete-assets.zip",
+  "sha256": "02665776776eed18472b48fcd83c9a10f0409489e4fcbdf2b395d2c6576c897b",
+  "bytes": 7994202,
+  "parts": [
+    {
+      "path": "archive-parts/complete-assets.zip.part01",
+      "sha256": "5c34baa01d4286be3db3b53b4f2941a6eac3d144dfc92e404a52eff92c133b5e",
+      "bytes": 1048576
+    },
+    {
+      "path": "archive-parts/complete-assets.zip.part02",
+      "sha256": "0eb647adef1842f9fb060a116dff8c4a53a1a262ddb563dfad24b55aea9da7d9",
+      "bytes": 1048576
+    },
+    {
+      "path": "archive-parts/complete-assets.zip.part03",
+      "sha256": "1eb129d2bbc93db8fd1fd254233e177cf7cf827a436b2a6fba5750d7e6c4276a",
+      "bytes": 1048576
+    },
+    {
+      "path": "archive-parts/complete-assets.zip.part04",
+      "sha256": "d5671280ac0c02f90454784a42521e9b0355db1184e212e099d791c8dbf4ab39",
+      "bytes": 1048576
+    },
+    {
+      "path": "archive-parts/complete-assets.zip.part05",
+      "sha256": "08f74bba43b8cd7968b63944c8a3295388b9cb2b1112a84a7a96c84efe5dfb86",
+      "bytes": 1048576
+    },
+    {
+      "path": "archive-parts/complete-assets.zip.part06",
+      "sha256": "74c535adf763a4d47b06af262554d48ed0539e2bb0f63c905d7a2692e65d372d",
+      "bytes": 1048576
+    },
+    {
+      "path": "archive-parts/complete-assets.zip.part07",
+      "sha256": "1956c40f27959c5a1d5581dcf2db7e5d7bff71cf3cbdf022fb88baf90314f283",
+      "bytes": 1048576
+    },
+    {
+      "path": "archive-parts/complete-assets.zip.part08",
+      "sha256": "e81223529ab2126564559747f4590dcf9a9e58c8cc0716de2ffa4bda9fd1938b",
+      "bytes": 654170
+    }
+  ],
+  "reassembly": "Concatenate archive-parts/complete-assets.zip.part01 through part08 in numbered order as binary bytes; verify the archive SHA-256 before extracting. Full local ZIP is also delivered separately."
+}

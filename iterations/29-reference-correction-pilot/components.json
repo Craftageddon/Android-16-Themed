@@ -1,0 +1,806 @@
+[
+  {
+    "id": "location",
+    "label": "Filled symbol",
+    "nativeReviewSizePxAtMdpi": 24,
+    "sourceBefore": "iterations/28-setup-workflows/masters/cg_sw_location.svg",
+    "sourceBeforeSha256": "c6a229a344f768182f0505436ab1b278335bdc29fc805f9c15a5dc2fb260b2a2",
+    "master": "masters/location.svg",
+    "masterSha256": "afe602671ceb96686df9802c1e87c4a09a49cbee8483a3006d33fffe058dbc33",
+    "exports": [
+      {
+        "path": "exports/location.cold@1x.png",
+        "sha256": "919ba9ef062db589021a73d134f7bbb9f5f78b92f0baa0b04a00e0c9d4dd1724",
+        "layer": "cold",
+        "size": [
+          24,
+          24
+        ]
+      },
+      {
+        "path": "exports/location.reflection@1x.png",
+        "sha256": "1730a36448f0265571ddea3c39b9ed0355bc3aa0b9415cf95220d29c5fab7070",
+        "layer": "reflection",
+        "size": [
+          24,
+          24
+        ]
+      },
+      {
+        "path": "exports/location.spill@1x.png",
+        "sha256": "2859a2860af86ba246a2928c57291ba6e78888b6d658c3019a356f399dfcb874",
+        "layer": "spill",
+        "size": [
+          24,
+          24
+        ]
+      },
+      {
+        "path": "exports/location.seam@1x.png",
+        "sha256": "3e8e9ec4fc38f9beab9b6617ac1e4238e431d3b9493a9d8d620ef44652ae25ea",
+        "layer": "seam",
+        "size": [
+          24,
+          24
+        ]
+      },
+      {
+        "path": "exports/location.core@1x.png",
+        "sha256": "1621bc5b4548770654f67f415f48ab93cd2c6066339c455f3b9c98293dba29d7",
+        "layer": "core",
+        "size": [
+          24,
+          24
+        ]
+      },
+      {
+        "path": "exports/location.focus@1x.png",
+        "sha256": "73af7a37c0e1c0eb7a127ae402ea438e8e36a98b4ae5612f65400013ce836d17",
+        "layer": "focus",
+        "size": [
+          24,
+          24
+        ]
+      },
+      {
+        "path": "exports/location.symbol@1x.png",
+        "sha256": "73af7a37c0e1c0eb7a127ae402ea438e8e36a98b4ae5612f65400013ce836d17",
+        "layer": "symbol",
+        "size": [
+          24,
+          24
+        ]
+      },
+      {
+        "path": "exports/location.cold@2x.png",
+        "sha256": "2b8f2dcb8c83a3a7001faa57ebfcf63f38605d7ca4dc44b9cb991544f12fb1dc",
+        "layer": "cold",
+        "size": [
+          48,
+          48
+        ]
+      },
+      {
+        "path": "exports/location.reflection@2x.png",
+        "sha256": "5cadc4904d314c0155ad9dc721db9bdd069718230b356372885b8da2204673a3",
+        "layer": "reflection",
+        "size": [
+          48,
+          48
+        ]
+      },
+      {
+        "path": "exports/location.spill@2x.png",
+        "sha256": "2b67fb6b504c91d213941b47c86287e4b8a6569eb5d3df760730293c49e23d33",
+        "layer": "spill",
+        "size": [
+          48,
+          48
+        ]
+      },
+      {
+        "path": "exports/location.seam@2x.png",
+        "sha256": "9fea748b2fb2fa72594cf539a84923443eb6a6e0f485c3eb33d1be4d557692ac",
+        "layer": "seam",
+        "size": [
+          48,
+          48
+        ]
+      },
+      {
+        "path": "exports/location.core@2x.png",
+        "sha256": "75bd77c8af9a8182e9a6f83fb0d0ceb8dd4f561f2a702a04baaf9cf3c058fcb0",
+        "layer": "core",
+        "size": [
+          48,
+          48
+        ]
+      },
+      {
+        "path": "exports/location.focus@2x.png",
+        "sha256": "b0a78e5095d79f7cb384f8e12a88ff3aed39844b52d0f217d5104db496475f4b",
+        "layer": "focus",
+        "size": [
+          48,
+          48
+        ]
+      },
+      {
+        "path": "exports/location.symbol@2x.png",
+        "sha256": "b0a78e5095d79f7cb384f8e12a88ff3aed39844b52d0f217d5104db496475f4b",
+        "layer": "symbol",
+        "size": [
+          48,
+          48
+        ]
+      },
+      {
+        "path": "exports/location.cold@3x.png",
+        "sha256": "5bf06689f4cde15cd55cb55329467c6146c582b08e081cfeddb0ebac0c5958c8",
+        "layer": "cold",
+        "size": [
+          72,
+          72
+        ]
+      },
+      {
+        "path": "exports/location.reflection@3x.png",
+        "sha256": "a72c54b00e0b64ebcc36d9c5eaed0d7db65cd3ea2ac137a7f9a2dfdfa787a948",
+        "layer": "reflection",
+        "size": [
+          72,
+          72
+        ]
+      },
+      {
+        "path": "exports/location.spill@3x.png",
+        "sha256": "ac2263d0a8e64b05a46375b9e9dd71f3d0ee73bc8fae69dca8846bd827723afb",
+        "layer": "spill",
+        "size": [
+          72,
+          72
+        ]
+      },
+      {
+        "path": "exports/location.seam@3x.png",
+        "sha256": "2913278617fff5bafccaa2ed309b912de21e7657d9d8970a81de89f5a5f1dded",
+        "layer": "seam",
+        "size": [
+          72,
+          72
+        ]
+      },
+      {
+        "path": "exports/location.core@3x.png",
+        "sha256": "dcd43e456ccd6292d3fddb206944203dc8579d628828c95d748a6440fcb5f7f5",
+        "layer": "core",
+        "size": [
+          72,
+          72
+        ]
+      },
+      {
+        "path": "exports/location.focus@3x.png",
+        "sha256": "e440dba224b2533c4331b4bcbed6663ea62f253365552e02475187bbd47ae807",
+        "layer": "focus",
+        "size": [
+          72,
+          72
+        ]
+      },
+      {
+        "path": "exports/location.symbol@3x.png",
+        "sha256": "e440dba224b2533c4331b4bcbed6663ea62f253365552e02475187bbd47ae807",
+        "layer": "symbol",
+        "size": [
+          72,
+          72
+        ]
+      }
+    ],
+    "nativeBindingsModified": false
+  },
+  {
+    "id": "close",
+    "label": "Thin control",
+    "nativeReviewSizePxAtMdpi": 32,
+    "sourceBefore": "iterations/23-magnification/masters/close.svg",
+    "sourceBeforeSha256": "cb35562bba25937a58ac6aa3b693bc6d0e2fbb9ea7e9d09042535fd045403db3",
+    "master": "masters/close.svg",
+    "masterSha256": "7fe01b6590f40c5edee7258e7b1886c91081e5d28b317a53cfa7ee003152bf7f",
+    "exports": [
+      {
+        "path": "exports/close.cold@1x.png",
+        "sha256": "313a3b4dadeaee19cdfdd0d3e69f9d3ecdcd5f0e0524d92a6ca71e1713171197",
+        "layer": "cold",
+        "size": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "exports/close.reflection@1x.png",
+        "sha256": "8446c826deb69e1f17a0d78907f00016f39dcf556f47126ede41d5cbbd89f7a8",
+        "layer": "reflection",
+        "size": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "exports/close.spill@1x.png",
+        "sha256": "38e4dcd9d7008e05113b9729c6ce119dc98edd43e6bed86f843e17307bcab515",
+        "layer": "spill",
+        "size": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "exports/close.seam@1x.png",
+        "sha256": "81a1006930eeedbf7c343d0b6db870d7b985d16eb2a7c2dbae45b757fe06bd4b",
+        "layer": "seam",
+        "size": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "exports/close.core@1x.png",
+        "sha256": "bdca27bb612ba036331d4cdd072a4dc17b5780f76f8e6c7e3b768b762b2b2102",
+        "layer": "core",
+        "size": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "exports/close.focus@1x.png",
+        "sha256": "39a8e1a8884affb1ccc0de22f9a4f83ac061a57d92b0b2142d7eea719591eb1a",
+        "layer": "focus",
+        "size": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "exports/close.symbol@1x.png",
+        "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+        "layer": "symbol",
+        "size": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "exports/close.cold@2x.png",
+        "sha256": "8d0212c4ec5d27d5125c8cb028ec83c596f41472c3913c757fc787b9291f8ac2",
+        "layer": "cold",
+        "size": [
+          64,
+          64
+        ]
+      },
+      {
+        "path": "exports/close.reflection@2x.png",
+        "sha256": "3809cb0640b0caff77d3408a7a49c9df3fdc777b1bb3ccb7d9ff145d634bcc41",
+        "layer": "reflection",
+        "size": [
+          64,
+          64
+        ]
+      },
+      {
+        "path": "exports/close.spill@2x.png",
+        "sha256": "edb7e0f9f4b327fee722115c9d11cee7846612a616fc90c8cd3576d16e091fb9",
+        "layer": "spill",
+        "size": [
+          64,
+          64
+        ]
+      },
+      {
+        "path": "exports/close.seam@2x.png",
+        "sha256": "c351833d8d76a05baa895cd029414e56cf1c0c07808e4cc93525b38fa170b05c",
+        "layer": "seam",
+        "size": [
+          64,
+          64
+        ]
+      },
+      {
+        "path": "exports/close.core@2x.png",
+        "sha256": "391de0c07c3ba9c85c6996fbb2ca64e4929cdbc9beae4f8a5459f1c9770b1e82",
+        "layer": "core",
+        "size": [
+          64,
+          64
+        ]
+      },
+      {
+        "path": "exports/close.focus@2x.png",
+        "sha256": "bea34d0776078db6e4da1d32a49c4512704b806d4392f32497853d058375420b",
+        "layer": "focus",
+        "size": [
+          64,
+          64
+        ]
+      },
+      {
+        "path": "exports/close.symbol@2x.png",
+        "sha256": "052c48aa8b5e4f2c40bcd0d1bb7a4b93276276285dfa3e8a971b435dc88fdfee",
+        "layer": "symbol",
+        "size": [
+          64,
+          64
+        ]
+      },
+      {
+        "path": "exports/close.cold@3x.png",
+        "sha256": "d3f8b400751932cbdd76e18bcf92f094cd4e2bbf02d9b45287e65b3ec503a673",
+        "layer": "cold",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/close.reflection@3x.png",
+        "sha256": "1ac6f00f8f7718079780f69797eed537c0da0bdc99d198edd9baa45513c69319",
+        "layer": "reflection",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/close.spill@3x.png",
+        "sha256": "e53d2418bc6151c65a3e9c53d5ae6a3e271f9920800f2d894c324061dbc14ca3",
+        "layer": "spill",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/close.seam@3x.png",
+        "sha256": "8036f60a1371b1fb7d6d2afbcba5d5d259bbbad75ef74e6ee2e37cc04f0fb24b",
+        "layer": "seam",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/close.core@3x.png",
+        "sha256": "bf55f7976da4fc44b01222c86237c4bd0f4e81581f41192ddaefc784160af6e7",
+        "layer": "core",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/close.focus@3x.png",
+        "sha256": "09730e1a52f2b9f74b98d0ccb251117d8262755c2de930a2b9389f14abed3e1c",
+        "layer": "focus",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/close.symbol@3x.png",
+        "sha256": "e93cf7cf69e59a49eaaa011e5f0ec7b6e385408ba1b4025b9231832d7c87ec46",
+        "layer": "symbol",
+        "size": [
+          96,
+          96
+        ]
+      }
+    ],
+    "nativeBindingsModified": false
+  },
+  {
+    "id": "photo_frame",
+    "label": "Photo frame",
+    "nativeReviewSizePxAtMdpi": 96,
+    "sourceBefore": "iterations/26-gallery-workflows/masters/cg_gl_media_frame.svg",
+    "sourceBeforeSha256": "0bdf3985bd4057372578ce1675d96b9e56ede240a1c554ea6adfcce1e3bbdbf5",
+    "master": "masters/photo_frame.svg",
+    "masterSha256": "e45e9bb7946f342f469efa423d0e03206d2fc85acc9595f2240cad7494161570",
+    "exports": [
+      {
+        "path": "exports/photo_frame.cold@1x.png",
+        "sha256": "afe9c86d7676b865c33f6b66241c997aaa3d001433a53dd8e963dc3b036b59fa",
+        "layer": "cold",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/photo_frame.reflection@1x.png",
+        "sha256": "2b124dd72858dab71cf6630ad0d8c775ffc49871b851d108484ccd5ec06eb8b8",
+        "layer": "reflection",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/photo_frame.spill@1x.png",
+        "sha256": "4f73821481e06ebb56139491e66b9c6abf54a9e89bc2972ac4b1e7d9710435a6",
+        "layer": "spill",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/photo_frame.seam@1x.png",
+        "sha256": "3a2989f8f057248bcbb2cd5dff8646fcfa29107a9f0c012dacc9319bd11d6cf5",
+        "layer": "seam",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/photo_frame.core@1x.png",
+        "sha256": "c8e06efd2e5add97f084af39c8162908d139e93461a6f0683ceddd1c39c007d0",
+        "layer": "core",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/photo_frame.focus@1x.png",
+        "sha256": "fe92b8576c26474914ff240c0b00b4d95608b2163d445905e2a84f96bf5370c0",
+        "layer": "focus",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/photo_frame.symbol@1x.png",
+        "sha256": "e93cf7cf69e59a49eaaa011e5f0ec7b6e385408ba1b4025b9231832d7c87ec46",
+        "layer": "symbol",
+        "size": [
+          96,
+          96
+        ]
+      },
+      {
+        "path": "exports/photo_frame.cold@2x.png",
+        "sha256": "c8591a2a47b533289283407b11291a92ee5fc418bafa1895512b72b05f2dfe8b",
+        "layer": "cold",
+        "size": [
+          192,
+          192
+        ]
+      },
+      {
+        "path": "exports/photo_frame.reflection@2x.png",
+        "sha256": "c865820702955ff7ec8c21b2e878395df3f1f276aa069f314bb11208c6bb6602",
+        "layer": "reflection",
+        "size": [
+          192,
+          192
+        ]
+      },
+      {
+        "path": "exports/photo_frame.spill@2x.png",
+        "sha256": "81c97ba757d8ad67a13d732edef3c407c9b8fa40ea859afa51b827f0fa3341dd",
+        "layer": "spill",
+        "size": [
+          192,
+          192
+        ]
+      },
+      {
+        "path": "exports/photo_frame.seam@2x.png",
+        "sha256": "46bf3a6aa61fa8c6aa723c8b03e3324f7b3d3a60ab664497f24771f08e3cbc27",
+        "layer": "seam",
+        "size": [
+          192,
+          192
+        ]
+      },
+      {
+        "path": "exports/photo_frame.core@2x.png",
+        "sha256": "5f7ff998427fa534453b893a255587a841a29a715339dcffd374d9e514a80e30",
+        "layer": "core",
+        "size": [
+          192,
+          192
+        ]
+      },
+      {
+        "path": "exports/photo_frame.focus@2x.png",
+        "sha256": "f7b8e0726ffaac78489304b0198c6be930c028aef7acd17ef4d49a94eb7223a6",
+        "layer": "focus",
+        "size": [
+          192,
+          192
+        ]
+      },
+      {
+        "path": "exports/photo_frame.symbol@2x.png",
+        "sha256": "f268df2d470b51c70480570f6725cac907ba6523812da140c66bbd1a9017ddcf",
+        "layer": "symbol",
+        "size": [
+          192,
+          192
+        ]
+      },
+      {
+        "path": "exports/photo_frame.cold@3x.png",
+        "sha256": "1d92367bd2a591e19192abbf9c989091d912a9580465b4e078a6e80bd0c20ec2",
+        "layer": "cold",
+        "size": [
+          288,
+          288
+        ]
+      },
+      {
+        "path": "exports/photo_frame.reflection@3x.png",
+        "sha256": "4932810ca06d01c4de486737a3a073fd53d83bfaface8571a4d469db2325fb8a",
+        "layer": "reflection",
+        "size": [
+          288,
+          288
+        ]
+      },
+      {
+        "path": "exports/photo_frame.spill@3x.png",
+        "sha256": "7550f07f078664922c262cf895c8672300543f6b693b12767d64d7a93a4dc26f",
+        "layer": "spill",
+        "size": [
+          288,
+          288
+        ]
+      },
+      {
+        "path": "exports/photo_frame.seam@3x.png",
+        "sha256": "eb05e4dfa6b9c6696c788008764a59a923a00b3579ea803a44ec035b35fba415",
+        "layer": "seam",
+        "size": [
+          288,
+          288
+        ]
+      },
+      {
+        "path": "exports/photo_frame.core@3x.png",
+        "sha256": "a0f5254a8bec671abb50a65f4b591083910780dc50a7c7d01f7f85df01926b87",
+        "layer": "core",
+        "size": [
+          288,
+          288
+        ]
+      },
+      {
+        "path": "exports/photo_frame.focus@3x.png",
+        "sha256": "a0ed4a82c12bb6fce6e8fe0f7640778693afd752cbb8f96b34e6f706eb77697f",
+        "layer": "focus",
+        "size": [
+          288,
+          288
+        ]
+      },
+      {
+        "path": "exports/photo_frame.symbol@3x.png",
+        "sha256": "66eb66b979da9da100c1bfef6e71db40ced9b7562fcd9ac0211947d4506098c9",
+        "layer": "symbol",
+        "size": [
+          288,
+          288
+        ]
+      }
+    ],
+    "nativeBindingsModified": false
+  },
+  {
+    "id": "gallery_badge",
+    "label": "App badge",
+    "nativeReviewSizePxAtMdpi": 128,
+    "sourceBefore": "iterations/26-gallery-workflows/masters/cg_gl_app_gallery.svg",
+    "sourceBeforeSha256": "1de9502259c4d146dfe3b63fb96c77815705904abfaffecee01ce2ab414a9cb8",
+    "master": "masters/gallery_badge.svg",
+    "masterSha256": "e5ef97e9f5ed496a4845fe8a7ed8a39a2330236385e62abb64c38e4bdbe5d356",
+    "exports": [
+      {
+        "path": "exports/gallery_badge.cold@1x.png",
+        "sha256": "df83ed2c8eb368b6fdd3d6eb0a348a5b32ff4b989a95b54f3b4ec68ac00adb05",
+        "layer": "cold",
+        "size": [
+          128,
+          128
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.reflection@1x.png",
+        "sha256": "17ada6877d90fb6f610619c4d5dccc83180ad97b3884e4eee3ece10a5dd46932",
+        "layer": "reflection",
+        "size": [
+          128,
+          128
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.spill@1x.png",
+        "sha256": "03ee4cb5026688ad0804ff26eb8269e899f47aadf55e6e89fbb6c1c4554057cf",
+        "layer": "spill",
+        "size": [
+          128,
+          128
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.seam@1x.png",
+        "sha256": "72629d343c8a0998eff41de2107be8c8d90af7d32d50211e8de5e6a6ae0df738",
+        "layer": "seam",
+        "size": [
+          128,
+          128
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.core@1x.png",
+        "sha256": "53f2d7c794c20fcbcd0260e4c35d2d7d58552b42af01aae36a574f2e80fe5cd7",
+        "layer": "core",
+        "size": [
+          128,
+          128
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.focus@1x.png",
+        "sha256": "1594258d650464372a84556d099c6f0fad9551bbf0efe58e7403336fee183eee",
+        "layer": "focus",
+        "size": [
+          128,
+          128
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.symbol@1x.png",
+        "sha256": "1594258d650464372a84556d099c6f0fad9551bbf0efe58e7403336fee183eee",
+        "layer": "symbol",
+        "size": [
+          128,
+          128
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.cold@2x.png",
+        "sha256": "45f042b58577a40cdafec4b33801bc2eebc3c2b234b243b170b43f560acca458",
+        "layer": "cold",
+        "size": [
+          256,
+          256
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.reflection@2x.png",
+        "sha256": "9b380886591cc661bf3822bb268f992244ba82af0fca20eb41895635ba936079",
+        "layer": "reflection",
+        "size": [
+          256,
+          256
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.spill@2x.png",
+        "sha256": "8b31e127f113d042a22c6e7a522de2e8a0583670a106806d6aff0bff479904db",
+        "layer": "spill",
+        "size": [
+          256,
+          256
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.seam@2x.png",
+        "sha256": "a00804de255d1122380129a1dfc16fd169ff9c54b501d6e7ebab44283ac27155",
+        "layer": "seam",
+        "size": [
+          256,
+          256
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.core@2x.png",
+        "sha256": "7277525afd58efa6f6be4a8c50854a21629b658a3ac198d77df1aa7ee74177b2",
+        "layer": "core",
+        "size": [
+          256,
+          256
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.focus@2x.png",
+        "sha256": "aebc86755d7beb8b01bcd992ab44e1133afcb473511b7832eb82228be275473f",
+        "layer": "focus",
+        "size": [
+          256,
+          256
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.symbol@2x.png",
+        "sha256": "aebc86755d7beb8b01bcd992ab44e1133afcb473511b7832eb82228be275473f",
+        "layer": "symbol",
+        "size": [
+          256,
+          256
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.cold@3x.png",
+        "sha256": "06b6902d186797affc9d1c70937c7ab0b44e605c929a96cae818c254fecb1099",
+        "layer": "cold",
+        "size": [
+          384,
+          384
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.reflection@3x.png",
+        "sha256": "bea5b40226d25f54ad6acc7745698633b28b1c27e2a169ddd5ff4fac5b970cce",
+        "layer": "reflection",
+        "size": [
+          384,
+          384
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.spill@3x.png",
+        "sha256": "8808f7319b95a6ab1e804b627c36add4ad6817b2a4ccfb50808accaddf130e9c",
+        "layer": "spill",
+        "size": [
+          384,
+          384
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.seam@3x.png",
+        "sha256": "40444defa4dc332e93196b2192639d8a670dff2836f11ac5ec4575e3efcea37e",
+        "layer": "seam",
+        "size": [
+          384,
+          384
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.core@3x.png",
+        "sha256": "9e6cee0c0ce11cbc8b7a284c63db48152c1ca49962f8fd17ffc2576166f08347",
+        "layer": "core",
+        "size": [
+          384,
+          384
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.focus@3x.png",
+        "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+        "layer": "focus",
+        "size": [
+          384,
+          384
+        ]
+      },
+      {
+        "path": "exports/gallery_badge.symbol@3x.png",
+        "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+        "layer": "symbol",
+        "size": [
+          384,
+          384
+        ]
+      }
+    ],
+    "nativeBindingsModified": false
+  }
+]
