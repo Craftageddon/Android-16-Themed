@@ -1,0 +1,74 @@
+/*
+ * SPDX-FileCopyrightText: 2016 The CyanogenMod Project
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+package org.lineageos.setupwizard.privacy
+
+import android.location.LocationManager
+import android.os.Bundle
+import android.os.Process
+import android.os.UserManager
+import android.provider.Settings
+import com.google.android.setupdesign.items.SwitchItem
+import org.lineageos.setupwizard.R
+import org.lineageos.setupwizard.base.BaseSetupWizardActivity
+
+class LocationSettingsActivity : BaseSetupWizardActivity() {
+
+    private val locationAccess by lazy {
+        itemAdapter.findItemById(R.id.location_item) as SwitchItem
+    }
+    private val locationAgpsAccess by lazy {
+        itemAdapter.findItemById(R.id.location_agps_item) as SwitchItem
+    }
+
+    private val locationManager by lazy { getSystemService(LocationManager::class.java) }
+    private val userManager by lazy { getSystemService(UserManager::class.java) }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setDescriptionText(getString(R.string.location_summary))
+
+        locationAgpsAccess.isVisible = userManager.isMainUser
+
+        itemAdapter.setOnItemSelectedListener { item ->
+            if (item is SwitchItem) {
+                item.isChecked = !item.isChecked
+            }
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        var checked = locationManager.isLocationEnabled
+        if (userManager.isManagedProfile) {
+            checked =
+                checked and userManager.hasUserRestriction(UserManager.DISALLOW_SHARE_LOCATION)
+        }
+        locationAccess.isChecked = checked
+    }
+
+    override fun onNextPressed() {
+        locationManager.setLocationEnabledForUser(locationAccess.isChecked, Process.myUserHandle())
+        if (userManager.isManagedProfile) {
+            userManager.setUserRestriction(
+                UserManager.DISALLOW_SHARE_LOCATION,
+                !locationAccess.isChecked,
+            )
+        }
+        Settings.Global.putInt(
+            contentResolver,
+            Settings.Global.ASSISTED_GPS_ENABLED,
+            if (locationAgpsAccess.isChecked) 1 else 0,
+        )
+        super.onNextPressed()
+    }
+
+    override val layoutResId = R.layout.location_settings
+
+    override val titleResId = R.string.setup_location
+
+    override val iconResId = R.drawable.ic_location
+}

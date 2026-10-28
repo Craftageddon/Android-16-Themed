@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "scope": "Current setup source/glyph pass only; remaining workflow/art/dependencies and native acceptance unfinished",
+  "checks": {
+    "pinnedAppSourceFilesVerified": 130,
+    "pinnedTemplateInputsVerified": 52,
+    "sourceGeometryGlyphs": 17,
+    "coldPngs": 90,
+    "neutralMaskPngs": 540,
+    "newLetteringFreeGlobe": 1,
+    "positiveNativeGlyphBridges": 16,
+    "unboundGlyphsNotOverridden": 2,
+    "reversibleBuildEdits": 2,
+    "priorCanonicalMastersPreserved": 472
+  },
+  "actualPublicJavaRendererClassesCompiled": 3,
+  "policyCases": 1536,
+  "policyAssertions": 14076,
+  "originalIntrinsicSizesValidated": 18,
+  "actualLinkedLayerIdsValidated": 126,
+  "nativeKotlinOwnersChanged": 0,
+  "privateNativeAppCompilation": "NOT RUN",
+  "nativeInflationAndDeviceAcceptance": "NOT RUN",
+  "baselineSemanticDecisionsClosed": 0,
+  "wholeGoalComplete": false
+}

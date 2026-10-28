@@ -1,0 +1,24 @@
+[
+  {
+    "path": "app/Android.bp",
+    "sourceSha256": "9f25d5434cbed2c27501621f23999623f44003b509fba34597fa2186c5277a99",
+    "patchedSha256": "7e9fb7b48b2a9975d6259617873a458262ae2f8ae8316a549c75f57bab1197d4",
+    "operation": {
+      "before": "srcs: [\"src/main/java/**/*.kt\"],",
+      "after": "srcs: [\"src/main/java/**/*.kt\", \"src/main/java/**/*.java\"],",
+      "count": 1
+    },
+    "reverseByteParity": true
+  },
+  {
+    "path": "app/proguard.flags",
+    "sourceSha256": "fce6236a3ecbd2d557908669721aa7884f35274375815bbbc556a6a9304d97db",
+    "patchedSha256": "721cb15579db1688b1e584fee4885fc8ec151fde9a88b614ab3b392bc3f2fd1f",
+    "operation": {
+      "before": "-dontwarn androidx.**",
+      "after": "-dontwarn androidx.**\n\n# Public no-arg XML Drawable constructor; actual optimization acceptance remains pending.\n-keep public class org.lineageos.setupwizard.forge.ForgeDrawable {\n    public <init>();\n}",
+      "count": 1
+    },
+    "reverseByteParity": true
+  }
+]

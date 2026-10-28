@@ -1,0 +1,29 @@
+{
+  "baseCommit": "3848a61e5df38a0e3bb64fa398c65ef18f23fb09",
+  "workflow": "W-03",
+  "project": {
+    "name": "LineageOS/android_packages_apps_SetupWizard",
+    "path": "packages/apps/SetupWizard",
+    "revision": "69174527a30bc72a28a5d55acdec8ce5edaba9e0",
+    "upstream": "refs/heads/lineage-24.0",
+    "dest-branch": "refs/heads/lineage-24.0"
+  },
+  "sourceFiles": 130,
+  "artworkAndOwnerAdaptation": "First artwork pass:17 source-geometry glyph masters plus1 newly drawn lettering-free language globe and630 separate cold/mask PNG configurations, including126 higher-resolution header layers. Native owner bindings, larger illustrations/identity/Lottie/template work remain pending.",
+  "nativeCompilationAndDeviceAcceptance": "NOT RUN",
+  "openBaselineFamilyDecisions": 9575,
+  "wholeGoalComplete": false,
+  "sourceResourceAndAcceptanceMap": "source-owner-resource-map.json",
+  "sourceOwnerMapping": "39 production Kotlin owners mapped, privileged private-platform build distinguished from public core checks",
+  "baselineSetupFamilyDecisionsClosed": 0,
+  "nativeGlyphBindingsAuthored": 16,
+  "nativeGlyphBindingsPending": 2,
+  "javaCoreClassesAuthored": 3,
+  "fullPrivilegedModuleCompilation": "NOT RUN",
+  "nativeKotlinOwnersChanged": 0,
+  "publicGlyphCoreCompilation": "PASS -3 actual renderer classes and actual linked glyph resource bank, public SDK37 compatibility only",
+  "actualPolicyCases": 1536,
+  "actualPolicyAssertions": 14076,
+  "highResolutionLayersPreserveIntrinsicDp": true,
+  "densityChangeResourceInvalidation": true
+}

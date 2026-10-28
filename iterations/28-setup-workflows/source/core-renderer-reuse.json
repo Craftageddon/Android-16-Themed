@@ -1,0 +1,16 @@
+[
+  {
+    "source": "iterations/27-gallery-contracts/native-patch/packages/apps/Glimpse/app/src/main/java/org/lineageos/glimpse/forge/ForgeDrawable.java",
+    "sourceSha256": "95f5535beb40bf545e4871023d0513330aa02b74766da00c9c78371bd21cce8c",
+    "target": "app/src/main/java/org/lineageos/setupwizard/forge/ForgeDrawable.java",
+    "targetSha256": "1d6983ffd3d692d22451767b7186aa7fc740ebd6d9917af9ebe922a0055ff13e",
+    "changes": "Package/R namespace; Drawable uses original intrinsic dp metadata so high-resolution layers do not enlarge native layout"
+  },
+  {
+    "source": "iterations/27-gallery-contracts/native-patch/packages/apps/Glimpse/app/src/main/java/org/lineageos/glimpse/forge/ForgeStatePolicy.java",
+    "sourceSha256": "fb0cae02ab9dd67b6473e96e74fe2e6745f012c3136aa2d0725d8cadfe2f6d5e",
+    "target": "app/src/main/java/org/lineageos/setupwizard/forge/ForgeStatePolicy.java",
+    "targetSha256": "afc18b379c7fe573bfa74561af4ccb5e1f6f288251749fe9a596e40717576822",
+    "changes": "Package/R namespace; Drawable uses original intrinsic dp metadata so high-resolution layers do not enlarge native layout"
+  }
+]

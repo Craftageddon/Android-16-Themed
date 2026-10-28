@@ -1,0 +1,1 @@
+<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_swipe_up" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>

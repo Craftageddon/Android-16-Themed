@@ -1,0 +1,527 @@
+{
+  "files": [
+    {
+      "project": "external/setupcompat",
+      "revision": "15f79d6014e9cc3c70819d81ccb70687ed2dab28",
+      "path": "Android.bp",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_external_setupcompat/15f79d6014e9cc3c70819d81ccb70687ed2dab28/Android.bp",
+      "gitBlobSha1": "4f8ed8aad9c94342df3aa1954de492729e072388",
+      "sha256": "6fead94cfea66c443de04ac6a89cf5160c2366dea4d71cd6db1bd5ba804b0fd7",
+      "saved": "source/setupcompat/Android.bp",
+      "executed": false
+    },
+    {
+      "project": "external/setupcompat",
+      "revision": "15f79d6014e9cc3c70819d81ccb70687ed2dab28",
+      "path": "main/java/com/google/android/setupcompat/PartnerCustomizationLayout.java",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_external_setupcompat/15f79d6014e9cc3c70819d81ccb70687ed2dab28/main/java/com/google/android/setupcompat/PartnerCustomizationLayout.java",
+      "gitBlobSha1": "97d16c8414867d0b5673cb768f6e4ff8ec611945",
+      "sha256": "418a8b20deef07f42f070d749a930ab2ae88c6d07824f82f6cefbb20671d8c02",
+      "saved": "source/setupcompat/main/java/com/google/android/setupcompat/PartnerCustomizationLayout.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupcompat",
+      "revision": "15f79d6014e9cc3c70819d81ccb70687ed2dab28",
+      "path": "main/java/com/google/android/setupcompat/template/FooterActionButton.java",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_external_setupcompat/15f79d6014e9cc3c70819d81ccb70687ed2dab28/main/java/com/google/android/setupcompat/template/FooterActionButton.java",
+      "gitBlobSha1": "212f86e80d7a7b7d4c323de668ac82fbe0a3262b",
+      "sha256": "533df843fe7a5f3a2f382e0926cc4142c8de37f0a415f0e3fc6f0b552e5f6d20",
+      "saved": "source/setupcompat/main/java/com/google/android/setupcompat/template/FooterActionButton.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupcompat",
+      "revision": "15f79d6014e9cc3c70819d81ccb70687ed2dab28",
+      "path": "main/java/com/google/android/setupcompat/template/FooterBarMixin.java",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_external_setupcompat/15f79d6014e9cc3c70819d81ccb70687ed2dab28/main/java/com/google/android/setupcompat/template/FooterBarMixin.java",
+      "gitBlobSha1": "3fcccdf9f7db7a35cff1a6b00d12917c9ea431d1",
+      "sha256": "54072ac632ab1df2d6f7b689dc2acc970f66a1a378bc0bf7464aadbcea0b9cb0",
+      "saved": "source/setupcompat/main/java/com/google/android/setupcompat/template/FooterBarMixin.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupcompat",
+      "revision": "15f79d6014e9cc3c70819d81ccb70687ed2dab28",
+      "path": "main/java/com/google/android/setupcompat/template/FooterButton.java",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_external_setupcompat/15f79d6014e9cc3c70819d81ccb70687ed2dab28/main/java/com/google/android/setupcompat/template/FooterButton.java",
+      "gitBlobSha1": "1c20bddff26db070408192f7c1f5751ff08bdf7d",
+      "sha256": "088ced13a0814c841dfd53448c269fb5be82014886084b3df3b56a2e035eae9e",
+      "saved": "source/setupcompat/main/java/com/google/android/setupcompat/template/FooterButton.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupcompat",
+      "revision": "15f79d6014e9cc3c70819d81ccb70687ed2dab28",
+      "path": "main/java/com/google/android/setupcompat/template/IFooterActionButton.java",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_external_setupcompat/15f79d6014e9cc3c70819d81ccb70687ed2dab28/main/java/com/google/android/setupcompat/template/IFooterActionButton.java",
+      "gitBlobSha1": "59f7bed9a3c7a0eab4efaaf7434335a3b33bc629",
+      "sha256": "66133f46996c827b8f70afa7ba2ce5bcf70a0654ff1ef3d0823c89e7b1bdc935",
+      "saved": "source/setupcompat/main/java/com/google/android/setupcompat/template/IFooterActionButton.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupcompat",
+      "revision": "15f79d6014e9cc3c70819d81ccb70687ed2dab28",
+      "path": "main/java/com/google/android/setupcompat/template/MaterialFooterActionButton.java",
+      "url": "https://raw.githubusercontent.com/LineageOS/android_external_setupcompat/15f79d6014e9cc3c70819d81ccb70687ed2dab28/main/java/com/google/android/setupcompat/template/MaterialFooterActionButton.java",
+      "gitBlobSha1": "da867462ce1adf98a6c35da6c28722ee950cf480",
+      "sha256": "01dc5fcd6ff12a74f3f3b284bd80e1544f0d866f516130b8afe39e6ebc7b85d2",
+      "saved": "source/setupcompat/main/java/com/google/android/setupcompat/template/MaterialFooterActionButton.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "Android.bp",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/Android.bp?format=TEXT",
+      "gitBlobSha1": "88dba33a8afe4a57a01e5f1582437736950d7a1b",
+      "sha256": "0cf98251e0231c6dc4e35302e2c72d40dcce00550d18914cbcbfa77f0d137c9c",
+      "saved": "source/setupdesign/Android.bp",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/src/com/google/android/setupdesign/GlifLayout.java",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/src/com/google/android/setupdesign/GlifLayout.java?format=TEXT",
+      "gitBlobSha1": "bbaa143714008509b41da91f411d68ed6b33b50b",
+      "sha256": "59129dbaccb23da35f37b5026b91dca0fbeba7e41e136ff1a64d35126d828859",
+      "saved": "source/setupdesign/main/src/com/google/android/setupdesign/GlifLayout.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/src/com/google/android/setupdesign/GlifRecyclerLayout.java",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/src/com/google/android/setupdesign/GlifRecyclerLayout.java?format=TEXT",
+      "gitBlobSha1": "69571caead900569791e829c07fa01bbb05e30a9",
+      "sha256": "3cf3bd03501300f8f32f79e3a05297631febeabef9566cc15474e5a2602d04fc",
+      "saved": "source/setupdesign/main/src/com/google/android/setupdesign/GlifRecyclerLayout.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/src/com/google/android/setupdesign/template/IconMixin.java",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/src/com/google/android/setupdesign/template/IconMixin.java?format=TEXT",
+      "gitBlobSha1": "bac254ed98a7a0c095db63525e8a07bbb3ecd497",
+      "sha256": "45f98ce86a7df60cef60c3e72c4d29857689ea513a8d4f904c24d3c3e9b621cc",
+      "saved": "source/setupdesign/main/src/com/google/android/setupdesign/template/IconMixin.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/src/com/google/android/setupdesign/template/HeaderMixin.java",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/src/com/google/android/setupdesign/template/HeaderMixin.java?format=TEXT",
+      "gitBlobSha1": "3e17f70f72ea37d077e8e1aed6e2bc01b68713a8",
+      "sha256": "bcd2fd35371c8ea8c9c7a30d6e840f5eec9c5e97e3a509a68615aff9d40bb001",
+      "saved": "source/setupdesign/main/src/com/google/android/setupdesign/template/HeaderMixin.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/src/com/google/android/setupdesign/items/SwitchItem.java",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/src/com/google/android/setupdesign/items/SwitchItem.java?format=TEXT",
+      "gitBlobSha1": "87eba4607bb2a8f69257785b99362a3ff64ebf82",
+      "sha256": "bb61e741801d5787c73bd352c20b47ccc942974792da2251ebb615173bac90ef",
+      "saved": "source/setupdesign/main/src/com/google/android/setupdesign/items/SwitchItem.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/src/com/google/android/setupdesign/items/RecyclerItemAdapter.java",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/src/com/google/android/setupdesign/items/RecyclerItemAdapter.java?format=TEXT",
+      "gitBlobSha1": "2c10dac0b545c2616cddb4346d7b35273f858b2f",
+      "sha256": "22fd239ceaf9e180e3f716d166e76db1729ff737c8e6a26da519148dee8f6954",
+      "saved": "source/setupdesign/main/src/com/google/android/setupdesign/items/RecyclerItemAdapter.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/src/com/google/android/setupdesign/items/ItemInflater.java",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/src/com/google/android/setupdesign/items/ItemInflater.java?format=TEXT",
+      "gitBlobSha1": "e2135987135fc19dc2d35f23d89f0337a7c141da",
+      "sha256": "2b45c7bca5927fde81647f8184a59b4a748c3f15d91f9001ef0bbe3997b4e328",
+      "saved": "source/setupdesign/main/src/com/google/android/setupdesign/items/ItemInflater.java",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-h480dp/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-h480dp/dimens.xml?format=TEXT",
+      "gitBlobSha1": "61a5992ae060362c83d3160f36e5fd5cc29760a1",
+      "sha256": "323af87dc9ac04e187111654a4714d38090b9f6d659e18c84094bfdd543e3447",
+      "saved": "source/setupdesign/main/res/values-h480dp/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-h720dp/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-h720dp/dimens.xml?format=TEXT",
+      "gitBlobSha1": "e495f71e290943cdd08252237e173893054d6ba2",
+      "sha256": "6aac910f42fd01baac30f26790159879dc19a592a9009afb52d2ca7b1b800d90",
+      "saved": "source/setupdesign/main/res/values-h720dp/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-land-v31/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-land-v31/dimens.xml?format=TEXT",
+      "gitBlobSha1": "5accbbdfb41d287d3fa26bf5275b293f4fec09a4",
+      "sha256": "08ad28fccf59021889ff2b80081bc12059f49a10a19b4feccf8c9df55cae602a",
+      "saved": "source/setupdesign/main/res/values-land-v31/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-land/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-land/dimens.xml?format=TEXT",
+      "gitBlobSha1": "9b74b4f6748ebceb8dd33dc95fbc4bcec88e8747",
+      "sha256": "09b21ed75656c8d1a49ab5d7659f19265da2bdf98b00f86fc9dabca55c9da1d6",
+      "saved": "source/setupdesign/main/res/values-land/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-land/styles.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-land/styles.xml?format=TEXT",
+      "gitBlobSha1": "fabc07163d221a7b899c646082e2f27967794719",
+      "sha256": "13a9b33f6d2bd65160e40bf26c33fefbfb359deca564edba98fadf529a10797c",
+      "saved": "source/setupdesign/main/res/values-land/styles.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-night-v31/colors.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-night-v31/colors.xml?format=TEXT",
+      "gitBlobSha1": "2c4c46bd0c8e3d7d5bbb21861bb29277462815e2",
+      "sha256": "d99f21b33223d6749efee68d2c57f509de54745b3a24daacaf0f28eed909f143",
+      "saved": "source/setupdesign/main/res/values-night-v31/colors.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-night-v33/colors.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-night-v33/colors.xml?format=TEXT",
+      "gitBlobSha1": "5bb3d39746f207733115f469b8b0638c95883e24",
+      "sha256": "118ef1484cafa36a4ef1496e27051c292a33ce8ba1cb4d96a33103e0790cc46b",
+      "saved": "source/setupdesign/main/res/values-night-v33/colors.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-night-v34/colors.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-night-v34/colors.xml?format=TEXT",
+      "gitBlobSha1": "8eef2008091282d534bb6a4e38cb6b8f217e3e65",
+      "sha256": "34c9a0b4d87240a2e48a56480a450ab6e55d052ad10ab6352d83b09d642ea11c",
+      "saved": "source/setupdesign/main/res/values-night-v34/colors.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-night/colors.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-night/colors.xml?format=TEXT",
+      "gitBlobSha1": "236190a3d56322fcf4684688165c3048a14116f1",
+      "sha256": "da14582610788a30adc606b3a41b1e49d52615ab46e1f661d7febae4dc147058",
+      "saved": "source/setupdesign/main/res/values-night/colors.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-night/styles.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-night/styles.xml?format=TEXT",
+      "gitBlobSha1": "9e54382e03cfa01ee97ab68f104d1ea8e09d598d",
+      "sha256": "c4ab92cb0fcc03c8d63fe0c178a6e248ebd57b681bf873a4339213d3eeb0b47f",
+      "saved": "source/setupdesign/main/res/values-night/styles.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-sw360dp/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-sw360dp/dimens.xml?format=TEXT",
+      "gitBlobSha1": "2b3ee193e93ca01e3d9765f9972d5c36682d0e2b",
+      "sha256": "138e1358853d9d667c82375b2d10c3dbf914502ab6b9a1c7ffa7b71f947ed632",
+      "saved": "source/setupdesign/main/res/values-sw360dp/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-sw600dp-land-v31/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-sw600dp-land-v31/dimens.xml?format=TEXT",
+      "gitBlobSha1": "da43b3b21ea1f64554dc0de86b7caa23cec1873a",
+      "sha256": "ecc5653def83a6e324edcc3cda1dff16a9d05ad68238081e730fd94d1d480136",
+      "saved": "source/setupdesign/main/res/values-sw600dp-land-v31/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-sw600dp-land-v33/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-sw600dp-land-v33/dimens.xml?format=TEXT",
+      "gitBlobSha1": "d672ce61d586a8f8f810ad80075fdf05bc02566a",
+      "sha256": "9c087654d9f2308dae9b8128e28863b4974582150bf5aec59c703576f2cb51a6",
+      "saved": "source/setupdesign/main/res/values-sw600dp-land-v33/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-sw600dp-land/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-sw600dp-land/dimens.xml?format=TEXT",
+      "gitBlobSha1": "aa70031c2bc499c71e8f9d9f9125fe2259c7409a",
+      "sha256": "7c29f96fa4666b7da7adccbcd078f629c6bc7e2b010be7ef68aa8cab1e76b87f",
+      "saved": "source/setupdesign/main/res/values-sw600dp-land/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-sw600dp-v31/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-sw600dp-v31/dimens.xml?format=TEXT",
+      "gitBlobSha1": "fd9215e1ef76a3e7bbd8360dbdc1515bf56068ce",
+      "sha256": "18b869a19d52d82b5d02f47a46c5bba32d0df9b2b381f81e2e4859ba1307d3ed",
+      "saved": "source/setupdesign/main/res/values-sw600dp-v31/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-sw600dp/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-sw600dp/dimens.xml?format=TEXT",
+      "gitBlobSha1": "16c77ecacd426a3b380bf3728f06e9890891b8c4",
+      "sha256": "c3b04b961efaabec633fa7ef680e45eadf6cd960b751aafc38a329637ba15336",
+      "saved": "source/setupdesign/main/res/values-sw600dp/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-sw800dp/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-sw800dp/dimens.xml?format=TEXT",
+      "gitBlobSha1": "9530dd78ab1da7a4f9ff2c438ee314f4732b3bcd",
+      "sha256": "a3ab469b89d7e9102350137cc95844ca9c1af61ddd128e0ff7f7134d595f2ec8",
+      "saved": "source/setupdesign/main/res/values-sw800dp/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v11/styles.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v11/styles.xml?format=TEXT",
+      "gitBlobSha1": "301a9d42c966d1833945a35195d2ea5ac6e95f15",
+      "sha256": "4b2ef1c2ebac37587a6a0204fca50cb2d08ca4b70afa565384c69cde3078e7dc",
+      "saved": "source/setupdesign/main/res/values-v11/styles.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v21/styles.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v21/styles.xml?format=TEXT",
+      "gitBlobSha1": "c9617457da8317344d6679ade41b16792454073d",
+      "sha256": "44ee81ff37683a38c7d20d999c7eadbec1dd15fee07a35a42e53305f0cf42e06",
+      "saved": "source/setupdesign/main/res/values-v21/styles.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v22/styles.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v22/styles.xml?format=TEXT",
+      "gitBlobSha1": "b4d89b0128e1bd5854343c9ae9cc80b2d1083791",
+      "sha256": "32c16fd6851531031e9cac870662a6f6a99a05987604ffaf424b54c01186bd9e",
+      "saved": "source/setupdesign/main/res/values-v22/styles.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v27/styles.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v27/styles.xml?format=TEXT",
+      "gitBlobSha1": "c24f538bf6775d53fdccf82ecdceef1255594ce7",
+      "sha256": "7a42202384bc1a21f114d53da1f0027085dcb695a8481146446eb992c0beb9ad",
+      "saved": "source/setupdesign/main/res/values-v27/styles.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v31/colors.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v31/colors.xml?format=TEXT",
+      "gitBlobSha1": "46dcd5e880f98ec5cdf9392b83b92234de35c74c",
+      "sha256": "988fb5bb3053751078b08ec911e982e94054ef253e33b8d21f98df0b9132bf6f",
+      "saved": "source/setupdesign/main/res/values-v31/colors.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v31/styles.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v31/styles.xml?format=TEXT",
+      "gitBlobSha1": "5af5d4f21b62a5d5201f88fdee804aa2b17f4f87",
+      "sha256": "e305ba438c6c2fb7447fcc2a951688c7d664838b9d142bc7efc3d19f66bac785",
+      "saved": "source/setupdesign/main/res/values-v31/styles.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v33/colors.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v33/colors.xml?format=TEXT",
+      "gitBlobSha1": "37e3b37fb2b146435b9f24b6b7b88a2db021c8d1",
+      "sha256": "614f79a005b709b349f78d2701de6876275f4f3e9fd2d8a81339316c7ad41921",
+      "saved": "source/setupdesign/main/res/values-v33/colors.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v33/styles.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v33/styles.xml?format=TEXT",
+      "gitBlobSha1": "b8b53b2db4a879e7f83434eaf0b0a3748c7ea734",
+      "sha256": "291d4bf65e267d0fd8ce2ed8f00c4ede31c55d946f07583e9c8969e5cfefafd1",
+      "saved": "source/setupdesign/main/res/values-v33/styles.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v34/colors.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v34/colors.xml?format=TEXT",
+      "gitBlobSha1": "df7cd49e1f26dc8ee5569160d16d25c894c5c24d",
+      "sha256": "c5d53b3c6e658253a79dbb2acb59224ed6ada65a6cfa1a7aea01c774f20722be",
+      "saved": "source/setupdesign/main/res/values-v34/colors.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v34/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v34/dimens.xml?format=TEXT",
+      "gitBlobSha1": "84b245cc5bc107efd8d6e13849cd2c87b1eda08f",
+      "sha256": "de8adcc40295e580d3e72658b051a85f41b890dc593ebc075c2d450cea3acf76",
+      "saved": "source/setupdesign/main/res/values-v34/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-v34/styles.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-v34/styles.xml?format=TEXT",
+      "gitBlobSha1": "24411e205f3806fd4dfe2b7d129eb961fff78399",
+      "sha256": "686f9a64e8af3d3799abd9e4b7ec3ae777beb2f84289836c2a7fcdf4abd38266",
+      "saved": "source/setupdesign/main/res/values-v34/styles.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-w600dp-h900dp/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-w600dp-h900dp/dimens.xml?format=TEXT",
+      "gitBlobSha1": "ee520c4d32af4e81fcc762b7d588565c1f098adc",
+      "sha256": "ba47a4cb30edcbdfeab8d7e9da34bed7b159057f6ac291146985a77ca95812b7",
+      "saved": "source/setupdesign/main/res/values-w600dp-h900dp/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-w600dp/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-w600dp/dimens.xml?format=TEXT",
+      "gitBlobSha1": "22d78c6daa3bd43f4ae1d81aec8d09a4c536a82f",
+      "sha256": "fdd9bbd326a01e5c3d8d8413e3b009397f5b470de69cb3bd688f09770a6177bc",
+      "saved": "source/setupdesign/main/res/values-w600dp/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-w840dp-h480dp/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-w840dp-h480dp/dimens.xml?format=TEXT",
+      "gitBlobSha1": "53234f1285e4a55d512818d6267d72059ef8d670",
+      "sha256": "d2f6a91d9d8ae5a036a2010df7e456516facdd7df848f5fa90408312c12e4d11",
+      "saved": "source/setupdesign/main/res/values-w840dp-h480dp/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-w840dp-h900dp/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-w840dp-h900dp/dimens.xml?format=TEXT",
+      "gitBlobSha1": "994f93482a580f9edb0f4fc57339027206b23505",
+      "sha256": "4065b153a14078961eb5abca4a86fbd3b9778594fbd2feaa122d58208b001505",
+      "saved": "source/setupdesign/main/res/values-w840dp-h900dp/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values-w840dp/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values-w840dp/dimens.xml?format=TEXT",
+      "gitBlobSha1": "4afd44556c6bb1ae43e4e174054294928f3892a7",
+      "sha256": "56b3786d4373453aedb249ba3452c1c11aa70a08eeda36b473593de1dd129681",
+      "saved": "source/setupdesign/main/res/values-w840dp/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values/attrs.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values/attrs.xml?format=TEXT",
+      "gitBlobSha1": "782ec5e43af8a7345afc2fcd5d370a5e9c5cac05",
+      "sha256": "259793c01f708db81b7cddad2a678b47d9caff35e1f4ba055083d462d56a743f",
+      "saved": "source/setupdesign/main/res/values/attrs.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values/colors.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values/colors.xml?format=TEXT",
+      "gitBlobSha1": "78051e303d5e23c4368feb190cd844525af4cb78",
+      "sha256": "ebea5955d6fde951568ddc444013c533e2ed8d4bec0e433cca9eee85db621910",
+      "saved": "source/setupdesign/main/res/values/colors.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values/dimens.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values/dimens.xml?format=TEXT",
+      "gitBlobSha1": "57a2b693fda6fdedd0ec12b7ac87290ae7349fb7",
+      "sha256": "dd9b3f35bf6f764f3d0724da3f5b5bb7ca9aa9194ba13dd60e7af41160560e26",
+      "saved": "source/setupdesign/main/res/values/dimens.xml",
+      "executed": false
+    },
+    {
+      "project": "external/setupdesign",
+      "revision": "79dbf5860322236cd02e74e2ca0855591d95195c",
+      "path": "main/res/values/styles.xml",
+      "url": "https://android.googlesource.com/platform/external/setupdesign/+/79dbf5860322236cd02e74e2ca0855591d95195c/main/res/values/styles.xml?format=TEXT",
+      "gitBlobSha1": "b3cfbcf11939b9f9b033d23f65feb78d509fe92b",
+      "sha256": "7b35b0b6861195a9bf9818d0f57e8074ea9d48bb5de6e8148f07b105631291b6",
+      "saved": "source/setupdesign/main/res/values/styles.xml",
+      "executed": false
+    }
+  ],
+  "nativePrivateAppCompilation": "NOT RUN",
+  "sourceCodeExecuted": false,
+  "wholeGoalComplete": false
+}

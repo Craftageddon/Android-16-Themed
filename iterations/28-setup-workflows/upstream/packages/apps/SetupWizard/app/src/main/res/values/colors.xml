@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2013 The CyanogenMod Project
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <color name="lineage_accent">#167C80</color>
+
+    <color name="button_bar_text_enabled">#ff1e1e1e</color>
+    <color name="button_bar_text_disabled">#321e1e1e</color>
+
+
+    <color name="setup_compat_footer_primary_button_bg_color">@*android:color/system_primary_light
+    </color>
+    <color name="setup_compat_footer_primary_button_text_color">
+        @*android:color/system_on_primary_light
+    </color>
+
+    <color name="materialColorPrimary">@*android:color/system_primary_light</color>
+    <color name="materialColorOnPrimary">@*android:color/system_on_primary_light</color>
+
+    <color name="finish_swipe_arrow">#82D5C7</color>
+
+    <!-- TV -->
+    <color name="tv_background">#000000</color>
+    <color name="tv_welcome_title">#FFFFFF</color>
+    <color name="tv_list_item_focused">#F1F3F4</color>
+    <color name="tv_list_item_text">#E3E3E3</color>
+    <color name="tv_list_item_text_focused">#1B1B1B</color>
+</resources>

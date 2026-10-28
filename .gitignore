@@ -79,3 +79,9 @@ iterations/26-gallery-workflows/semantic-family-ledger.json
 
 iterations/27-gallery-contracts/complete-assets.zip
 iterations/27-gallery-contracts/semantic-family-ledger.json
+
+# Setup glyph foundation: complete PNG banks are in the signed archive.
+iterations/28-setup-workflows/complete-assets.zip
+iterations/28-setup-workflows/semantic-family-ledger.json
+iterations/28-setup-workflows/artwork-resources/
+iterations/28-setup-workflows/native-patch/packages/apps/SetupWizard/app/src/main/res/drawable-*/*.png

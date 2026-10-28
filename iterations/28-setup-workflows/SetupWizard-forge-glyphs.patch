@@ -1,0 +1,638 @@
+--- a/app/Android.bp
++++ b/app/Android.bp
+@@ -1,38 +1,38 @@
+-//
+-// SPDX-FileCopyrightText: The LineageOS Project
+-// SPDX-License-Identifier: Apache-2.0
+-//
+-
+-android_app {
+-    name: "LineageSetupWizard",
+-
+-    srcs: ["src/main/java/**/*.kt"],
+-    resource_dirs: ["src/main/res"],
+-    manifest: "src/main/AndroidManifest.xml",
+-
+-    certificate: "platform",
+-    privileged: true,
+-    privapp_allowlist: "org.lineageos.setupwizard.xml",
+-    system_ext_specific: true,
+-    platform_apis: true,
+-
+-    overrides: ["Provision"],
+-
+-    optimize: {
+-        proguard_flags_files: ["proguard.flags"],
+-    },
+-
+-    static_libs: [
+-        "androidx.activity_activity",
+-        "androidx.leanback_leanback",
+-        "SettingsLib",
+-        "setupcompat",
+-        "setupdesign",
+-        "setupdesign-lottie-animation-view",
+-        "SystemUISharedLib",
+-        "zxing-core",
+-        "org.lineageos.platform.internal",
+-    ],
+-
+-    libs: ["telephony-common"],
+-}
++//
++// SPDX-FileCopyrightText: The LineageOS Project
++// SPDX-License-Identifier: Apache-2.0
++//
++
++android_app {
++    name: "LineageSetupWizard",
++
++    srcs: ["src/main/java/**/*.kt", "src/main/java/**/*.java"],
++    resource_dirs: ["src/main/res"],
++    manifest: "src/main/AndroidManifest.xml",
++
++    certificate: "platform",
++    privileged: true,
++    privapp_allowlist: "org.lineageos.setupwizard.xml",
++    system_ext_specific: true,
++    platform_apis: true,
++
++    overrides: ["Provision"],
++
++    optimize: {
++        proguard_flags_files: ["proguard.flags"],
++    },
++
++    static_libs: [
++        "androidx.activity_activity",
++        "androidx.leanback_leanback",
++        "SettingsLib",
++        "setupcompat",
++        "setupdesign",
++        "setupdesign-lottie-animation-view",
++        "SystemUISharedLib",
++        "zxing-core",
++        "org.lineageos.platform.internal",
++    ],
++
++    libs: ["telephony-common"],
++}
+--- a/app/proguard.flags
++++ b/app/proguard.flags
+@@ -1,16 +1,21 @@
+-# SPDX-FileCopyrightText: 2015 The CyanogenMod Project
+-# SPDX-FileCopyrightText: The LineageOS Project
+-# SPDX-License-Identifier: Apache-2.0
+-
+--keep class * extends java.util.ListResourceBundle {
+-    protected Object[][] getContents();
+-}
+-
+-# Needed for Parcelable/SafeParcelable Creators to not get stripped
+--keepnames class * implements android.os.Parcelable {
+-    public static final ** CREATOR;
+-}
+-
+-# Needed when building against the Marshmallow SDK
+--dontwarn org.apache.http.**
+--dontwarn androidx.**
++# SPDX-FileCopyrightText: 2015 The CyanogenMod Project
++# SPDX-FileCopyrightText: The LineageOS Project
++# SPDX-License-Identifier: Apache-2.0
++
++-keep class * extends java.util.ListResourceBundle {
++    protected Object[][] getContents();
++}
++
++# Needed for Parcelable/SafeParcelable Creators to not get stripped
++-keepnames class * implements android.os.Parcelable {
++    public static final ** CREATOR;
++}
++
++# Needed when building against the Marshmallow SDK
++-dontwarn org.apache.http.**
++-dontwarn androidx.**
++
++# Public no-arg XML Drawable constructor; actual optimization acceptance remains pending.
++-keep public class org.lineageos.setupwizard.forge.ForgeDrawable {
++    public <init>();
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/setupwizard/forge/ForgeDrawable.java
+@@ -0,0 +1,109 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.setupwizard.forge;
++import android.content.res.Resources;
++import android.content.res.TypedArray;
++import org.lineageos.setupwizard.R;
++import android.content.res.ColorStateList;
++import android.graphics.Canvas;
++import android.graphics.ColorFilter;
++import android.graphics.PixelFormat;
++import android.graphics.PorterDuff;
++import android.graphics.Rect;
++import android.graphics.drawable.Drawable;
++import android.util.AttributeSet;
++import org.xmlpull.v1.XmlPullParser;
++import org.xmlpull.v1.XmlPullParserException;
++import java.io.IOException;
++/** Native XML-loadable separate layers. Whole-icon tint never recolors cold steel. */
++public final class ForgeDrawable extends Drawable {
++ private static final String NS="http://schemas.android.com/apk/res/android";
++ private static final int[] COLORS={0xffdc5920,0xffff4908,0xffff5b0b,0xffffd083,0xffd5e7f2,0xffffe5bc};
++ private final Drawable[] layers=new Drawable[7];
++ private Resources resources;private String family;private boolean momentary=true,mirrored,feature;
++ private int mode,alpha=255,width=-1,height=-1;
++ private ForgeStatePolicy policy=ForgeStatePolicy.resolve(0,true,false,false,false,false,false,false,false,true);
++ /** Required by the pinned framework DrawableInflater public no-arg constructor contract. */
++ public ForgeDrawable(){}
++ public ForgeDrawable(Resources r,Resources.Theme theme,String family){
++     init(r,theme,family,0,true,false);
++ }
++ private ForgeDrawable(Resources r,Resources.Theme theme,String f,int m,boolean press,boolean mirror){
++     init(r,theme,f,m,press,mirror);
++ }
++ private void init(Resources r,Resources.Theme theme,String f,int m,boolean press,boolean mirror){
++  resources=r;family=f;mode=m;momentary=press;mirrored=mirror;
++  int[] ids=ForgeResources.layers(f);
++  for(int i=0;i<7;i++){
++   layers[i]=r.getDrawable(ids[i],theme).mutate();
++   if(i>0)layers[i].setColorFilter(COLORS[i-1],PorterDuff.Mode.SRC_IN);
++  }
++  int[] dp=ForgeResources.intrinsicDp(f);float density=r.getDisplayMetrics().density;
++  width=Math.round(dp[0]*density);height=Math.round(dp[1]*density);setChangingConfigurations(getChangingConfigurations()|android.content.pm.ActivityInfo.CONFIG_DENSITY);
++  setState(new int[]{android.R.attr.state_enabled});onStateChange(getState());
++ }
++ @Override public void inflate(Resources r,XmlPullParser parser,AttributeSet attrs,Resources.Theme theme)
++       throws XmlPullParserException,IOException{
++  super.inflate(r,parser,attrs,theme);
++  TypedArray a=theme==null?r.obtainAttributes(attrs,R.styleable.ForgeDrawable):
++      theme.obtainStyledAttributes(attrs,R.styleable.ForgeDrawable,0,0);
++  String f;int m;boolean press;
++  try{f=a.getString(R.styleable.ForgeDrawable_cg_forge_family);
++      m=a.getInt(R.styleable.ForgeDrawable_cg_forge_source_value_mode,0);
++      press=a.getBoolean(R.styleable.ForgeDrawable_cg_forge_momentary,true);
++  }finally{a.recycle();}
++  if(f==null)throw new XmlPullParserException("A Forge family is required");
++  if(m<0||m>2)throw new XmlPullParserException("Invalid Forge source-value mode");
++  init(r,theme,f,m,press,attrs.getAttributeBooleanValue(NS,"autoMirrored",false));
++ }
++ public void setFeatureActive(boolean value){
++  if(feature!=value){feature=value;onStateChange(getState());}
++ }
++ private static boolean has(int[] s,int a){for(int v:s)if(v==a)return true;return false;}
++ @Override protected boolean onStateChange(int[] s){
++  policy=ForgeStatePolicy.resolve(mode,has(s,android.R.attr.state_enabled),
++      has(s,android.R.attr.state_checked),has(s,android.R.attr.state_selected),
++      has(s,android.R.attr.state_activated),has(s,android.R.attr.state_focused),
++      has(s,android.R.attr.state_hovered),has(s,android.R.attr.state_pressed),feature,momentary);
++  invalidateSelf();return true;
++ }
++ @Override public boolean isStateful(){return true;}
++ @Override protected void onBoundsChange(Rect b){if(layers[0]!=null)for(Drawable d:layers)d.setBounds(b);}
++ @Override public void draw(Canvas canvas){
++  if(layers[0]==null)return;
++  int saved=canvas.save();
++  if(mirrored&&getLayoutDirection()==1)canvas.scale(-1f,1f,getBounds().exactCenterX(),getBounds().exactCenterY());
++  layers[0].setAlpha(Math.round(alpha*policy.base));layers[0].draw(canvas);
++  for(int i=1;i<7;i++)if(policy.gains[i-1]>0){
++   layers[i].setAlpha(Math.round(alpha*policy.gains[i-1]));layers[i].draw(canvas);
++  }
++  canvas.restoreToCount(saved);
++ }
++ @Override public boolean getPadding(Rect p){if(layers[0]==null){p.set(0,0,0,0);return false;}return layers[0].getPadding(p);}
++ @Override public int getIntrinsicWidth(){return width;}
++ @Override public int getIntrinsicHeight(){return height;}
++ @Override public void setAlpha(int a){alpha=Math.max(0,Math.min(255,a));invalidateSelf();}
++ @Override public int getAlpha(){return alpha;}
++ @Override public void setColorFilter(ColorFilter ignored){}
++ @Override public void setTint(int ignored){}
++ @Override public void setTintList(ColorStateList ignored){}
++ @Override public void setTintMode(PorterDuff.Mode ignored){}
++ @Override public int getOpacity(){return PixelFormat.TRANSLUCENT;}
++ @Override public void setAutoMirrored(boolean value){mirrored=value;invalidateSelf();}
++ @Override public boolean isAutoMirrored(){return mirrored;}
++ @Override public boolean onLayoutDirectionChanged(int direction){invalidateSelf();return mirrored;}
++ /** Every clone gets independent layer objects and cold initial state. Never cache a mutable instance. */
++ @Override public ConstantState getConstantState(){
++  if(resources==null)return null;
++  final Resources original=resources;final String f=family;final int m=mode;
++  final boolean press=momentary,mirror=mirrored;final int changing=getChangingConfigurations();
++  return new ConstantState(){
++   @Override public Drawable newDrawable(){return new ForgeDrawable(original,null,f,m,press,mirror);}
++   @Override public Drawable newDrawable(Resources r){return new ForgeDrawable(r==null?original:r,null,f,m,press,mirror);}
++   @Override public Drawable newDrawable(Resources r,Resources.Theme t){return new ForgeDrawable(r==null?original:r,t,f,m,press,mirror);}
++   @Override public int getChangingConfigurations(){return changing;}
++  };
++ }
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/setupwizard/forge/ForgeResources.java
+@@ -0,0 +1,48 @@
++/* SPDX-FileCopyrightText:2026 Craftageddon; SPDX-License-Identifier:CC0-1.0 */
++package org.lineageos.setupwizard.forge;
++import org.lineageos.setupwizard.R;
++final class ForgeResources {
++ private ForgeResources(){}
++ static int[] layers(String family){switch(family){
++case "cg_sw_accessibility":return new int[]{R.drawable.cg_sw_accessibility_hi_cold,R.drawable.cg_sw_accessibility_hi_reflection,R.drawable.cg_sw_accessibility_hi_spill,R.drawable.cg_sw_accessibility_hi_seam,R.drawable.cg_sw_accessibility_hi_core,R.drawable.cg_sw_accessibility_hi_focus,R.drawable.cg_sw_accessibility_hi_symbol};
++case "cg_sw_arrow_forward":return new int[]{R.drawable.cg_sw_arrow_forward_hi_cold,R.drawable.cg_sw_arrow_forward_hi_reflection,R.drawable.cg_sw_arrow_forward_hi_spill,R.drawable.cg_sw_arrow_forward_hi_seam,R.drawable.cg_sw_arrow_forward_hi_core,R.drawable.cg_sw_arrow_forward_hi_focus,R.drawable.cg_sw_arrow_forward_hi_symbol};
++case "cg_sw_check":return new int[]{R.drawable.cg_sw_check_hi_cold,R.drawable.cg_sw_check_hi_reflection,R.drawable.cg_sw_check_hi_spill,R.drawable.cg_sw_check_hi_seam,R.drawable.cg_sw_check_hi_core,R.drawable.cg_sw_check_hi_focus,R.drawable.cg_sw_check_hi_symbol};
++case "cg_sw_datetime":return new int[]{R.drawable.cg_sw_datetime_hi_cold,R.drawable.cg_sw_datetime_hi_reflection,R.drawable.cg_sw_datetime_hi_spill,R.drawable.cg_sw_datetime_hi_seam,R.drawable.cg_sw_datetime_hi_core,R.drawable.cg_sw_datetime_hi_focus,R.drawable.cg_sw_datetime_hi_symbol};
++case "cg_sw_dialer":return new int[]{R.drawable.cg_sw_dialer_hi_cold,R.drawable.cg_sw_dialer_hi_reflection,R.drawable.cg_sw_dialer_hi_spill,R.drawable.cg_sw_dialer_hi_seam,R.drawable.cg_sw_dialer_hi_core,R.drawable.cg_sw_dialer_hi_focus,R.drawable.cg_sw_dialer_hi_symbol};
++case "cg_sw_emergency_dial":return new int[]{R.drawable.cg_sw_emergency_dial_hi_cold,R.drawable.cg_sw_emergency_dial_hi_reflection,R.drawable.cg_sw_emergency_dial_hi_spill,R.drawable.cg_sw_emergency_dial_hi_seam,R.drawable.cg_sw_emergency_dial_hi_core,R.drawable.cg_sw_emergency_dial_hi_focus,R.drawable.cg_sw_emergency_dial_hi_symbol};
++case "cg_sw_eye":return new int[]{R.drawable.cg_sw_eye_hi_cold,R.drawable.cg_sw_eye_hi_reflection,R.drawable.cg_sw_eye_hi_spill,R.drawable.cg_sw_eye_hi_seam,R.drawable.cg_sw_eye_hi_core,R.drawable.cg_sw_eye_hi_focus,R.drawable.cg_sw_eye_hi_symbol};
++case "cg_sw_info":return new int[]{R.drawable.cg_sw_info_hi_cold,R.drawable.cg_sw_info_hi_reflection,R.drawable.cg_sw_info_hi_spill,R.drawable.cg_sw_info_hi_seam,R.drawable.cg_sw_info_hi_core,R.drawable.cg_sw_info_hi_focus,R.drawable.cg_sw_info_hi_symbol};
++case "cg_sw_locale":return new int[]{R.drawable.cg_sw_locale_hi_cold,R.drawable.cg_sw_locale_hi_reflection,R.drawable.cg_sw_locale_hi_spill,R.drawable.cg_sw_locale_hi_seam,R.drawable.cg_sw_locale_hi_core,R.drawable.cg_sw_locale_hi_focus,R.drawable.cg_sw_locale_hi_symbol};
++case "cg_sw_location":return new int[]{R.drawable.cg_sw_location_hi_cold,R.drawable.cg_sw_location_hi_reflection,R.drawable.cg_sw_location_hi_spill,R.drawable.cg_sw_location_hi_seam,R.drawable.cg_sw_location_hi_core,R.drawable.cg_sw_location_hi_focus,R.drawable.cg_sw_location_hi_symbol};
++case "cg_sw_nav_home":return new int[]{R.drawable.cg_sw_nav_home_hi_cold,R.drawable.cg_sw_nav_home_hi_reflection,R.drawable.cg_sw_nav_home_hi_spill,R.drawable.cg_sw_nav_home_hi_seam,R.drawable.cg_sw_nav_home_hi_core,R.drawable.cg_sw_nav_home_hi_focus,R.drawable.cg_sw_nav_home_hi_symbol};
++case "cg_sw_navigation":return new int[]{R.drawable.cg_sw_navigation_hi_cold,R.drawable.cg_sw_navigation_hi_reflection,R.drawable.cg_sw_navigation_hi_spill,R.drawable.cg_sw_navigation_hi_seam,R.drawable.cg_sw_navigation_hi_core,R.drawable.cg_sw_navigation_hi_focus,R.drawable.cg_sw_navigation_hi_symbol};
++case "cg_sw_palette":return new int[]{R.drawable.cg_sw_palette_hi_cold,R.drawable.cg_sw_palette_hi_reflection,R.drawable.cg_sw_palette_hi_spill,R.drawable.cg_sw_palette_hi_seam,R.drawable.cg_sw_palette_hi_core,R.drawable.cg_sw_palette_hi_focus,R.drawable.cg_sw_palette_hi_symbol};
++case "cg_sw_restore":return new int[]{R.drawable.cg_sw_restore_hi_cold,R.drawable.cg_sw_restore_hi_reflection,R.drawable.cg_sw_restore_hi_spill,R.drawable.cg_sw_restore_hi_seam,R.drawable.cg_sw_restore_hi_core,R.drawable.cg_sw_restore_hi_focus,R.drawable.cg_sw_restore_hi_symbol};
++case "cg_sw_sim":return new int[]{R.drawable.cg_sw_sim_hi_cold,R.drawable.cg_sw_sim_hi_reflection,R.drawable.cg_sw_sim_hi_spill,R.drawable.cg_sw_sim_hi_seam,R.drawable.cg_sw_sim_hi_core,R.drawable.cg_sw_sim_hi_focus,R.drawable.cg_sw_sim_hi_symbol};
++case "cg_sw_swipe_up":return new int[]{R.drawable.cg_sw_swipe_up_hi_cold,R.drawable.cg_sw_swipe_up_hi_reflection,R.drawable.cg_sw_swipe_up_hi_spill,R.drawable.cg_sw_swipe_up_hi_seam,R.drawable.cg_sw_swipe_up_hi_core,R.drawable.cg_sw_swipe_up_hi_focus,R.drawable.cg_sw_swipe_up_hi_symbol};
++case "cg_sw_system_update":return new int[]{R.drawable.cg_sw_system_update_hi_cold,R.drawable.cg_sw_system_update_hi_reflection,R.drawable.cg_sw_system_update_hi_spill,R.drawable.cg_sw_system_update_hi_seam,R.drawable.cg_sw_system_update_hi_core,R.drawable.cg_sw_system_update_hi_focus,R.drawable.cg_sw_system_update_hi_symbol};
++case "cg_sw_tv_expand":return new int[]{R.drawable.cg_sw_tv_expand_hi_cold,R.drawable.cg_sw_tv_expand_hi_reflection,R.drawable.cg_sw_tv_expand_hi_spill,R.drawable.cg_sw_tv_expand_hi_seam,R.drawable.cg_sw_tv_expand_hi_core,R.drawable.cg_sw_tv_expand_hi_focus,R.drawable.cg_sw_tv_expand_hi_symbol};
++default:throw new IllegalArgumentException("Unknown Forge family "+family);
++}}
++ static int[] intrinsicDp(String family){switch(family){
++case "cg_sw_accessibility":return new int[]{24,24};
++case "cg_sw_arrow_forward":return new int[]{24,24};
++case "cg_sw_check":return new int[]{24,24};
++case "cg_sw_datetime":return new int[]{24,24};
++case "cg_sw_dialer":return new int[]{24,24};
++case "cg_sw_emergency_dial":return new int[]{24,24};
++case "cg_sw_eye":return new int[]{24,24};
++case "cg_sw_info":return new int[]{24,24};
++case "cg_sw_locale":return new int[]{24,24};
++case "cg_sw_location":return new int[]{24,24};
++case "cg_sw_nav_home":return new int[]{61,55};
++case "cg_sw_navigation":return new int[]{24,24};
++case "cg_sw_palette":return new int[]{24,24};
++case "cg_sw_restore":return new int[]{45,40};
++case "cg_sw_sim":return new int[]{24,24};
++case "cg_sw_swipe_up":return new int[]{61,55};
++case "cg_sw_system_update":return new int[]{24,24};
++case "cg_sw_tv_expand":return new int[]{24,24};
++default:throw new IllegalArgumentException("Unknown Forge family "+family);
++}}
++}
+--- /dev/null
++++ b/app/src/main/java/org/lineageos/setupwizard/forge/ForgeStatePolicy.java
+@@ -0,0 +1,22 @@
++/*
++ * SPDX-FileCopyrightText: 2026 Craftageddon
++ * SPDX-License-Identifier: CC0-1.0
++ */
++package org.lineageos.setupwizard.forge;
++/** Source-owned values, interaction and neutral focus remain distinct. No clock or media action. */
++public final class ForgeStatePolicy {
++ public static final int DYNAMIC=0, TRUE_VALUE=1, FALSE_VALUE=2;
++ public final boolean active; public final float base; public final float[] gains;
++ private ForgeStatePolicy(boolean a,float b,float[] g){active=a;base=b;gains=g;}
++ public static ForgeStatePolicy resolve(int mode,boolean enabled,boolean checked,boolean selected,
++         boolean activated,boolean focused,boolean hovered,boolean pressed,boolean feature,boolean momentary){
++  if(mode<0||mode>2)throw new IllegalArgumentException("Unknown source value mode");
++  boolean active=mode==TRUE_VALUE || (mode==DYNAMIC &&
++      (checked||selected||activated||feature||(enabled&&momentary&&pressed)));
++  float[] g=new float[6];float strength=enabled?1f:.6f;
++  if(active){g[0]=(enabled&&pressed?.60f:.32f)*strength;g[1]=(enabled&&pressed?.92f:.72f)*strength;
++      g[2]=strength;g[3]=(enabled&&pressed?1f:.82f)*strength;g[5]=strength;}
++  g[4]=enabled&&(focused||hovered)?1f:0f;
++  return new ForgeStatePolicy(active,enabled?1f:.42f,g);
++ }
++}
+--- a/app/src/main/res/drawable/ic_accessibility.xml
++++ b/app/src/main/res/drawable/ic_accessibility.xml
+@@ -1,15 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M12,2c1.1,0 2,0.9 2,2s-0.9,2 -2,2 -2,-0.9 -2,-2 0.9,-2 2,-2zM21,9h-6v13h-2v-6h-2v6H9V9H3V7h18v2z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_accessibility" app:cg_forge_source_value_mode="dynamic" app:cg_forge_momentary="true" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_arrow_forward.xml
++++ b/app/src/main/res/drawable/ic_arrow_forward.xml
+@@ -1,16 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The Android Open Source Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:autoMirrored="true"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M647,520H160V440H647L423,216l57,-56L800,480L480,800l-57,-56L647,520Z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_arrow_forward" app:cg_forge_source_value_mode="dynamic" app:cg_forge_momentary="true" android:autoMirrored="true"/>
+--- a/app/src/main/res/drawable/ic_check.xml
++++ b/app/src/main/res/drawable/ic_check.xml
+@@ -1,15 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M9,16.17L4.83,12l-1.42,1.41L9,19 21,7l-1.41,-1.41z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_check" app:cg_forge_source_value_mode="true_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_datetime.xml
++++ b/app/src/main/res/drawable/ic_datetime.xml
+@@ -1,17 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-
+-    <path android:pathData="M0 0h24v24H0z" />
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99 .9 -1.99 2L3 19c0 1.1 .89 2 2 2h14c1.1 0
+-2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_datetime" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_emergency_dial.xml
++++ b/app/src/main/res/drawable/ic_emergency_dial.xml
+@@ -1,15 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The Android Open Source Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M640,440V360h80v80H640Zm0,-160V80h80V280H640ZM798,840q-125,0 -247,-54.5T329,631T174.5,409T120,162q0,-18 12,-30t30,-12H324q14,0 25,9.5T362,152l26,140q2,16 -1,27t-11,19l-97,98q20,37 47.5,71.5T387,574q31,31 65,57.5T524,680l94,-94q9,-9 23.5,-13.5T670,570l138,28q14,4 23,14.5t9,23.5V798q0,18 -12,30t-30,12Z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_emergency_dial" app:cg_forge_source_value_mode="dynamic" app:cg_forge_momentary="true" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_info.xml
++++ b/app/src/main/res/drawable/ic_info.xml
+@@ -1,15 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M11,7h2v2h-2zM11,11h2v6h-2zM12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM12,20c-4.41,0 -8,-3.59 -8,-8s3.59,-8 8,-8 8,3.59 8,8 -3.59,8 -8,8z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_info" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_locale.xml
++++ b/app/src/main/res/drawable/ic_locale.xml
+@@ -1,20 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-
+-    <path android:pathData="M0 0h24v24H0z" />
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M12.87 15.07l-2.54-2.51 .03 -.03c1.74-1.94 2.98-4.17
+-3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3
+-9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11 .76
+--2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12
+-17h-3.24z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_locale" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_location.xml
++++ b/app/src/main/res/drawable/ic_location.xml
+@@ -1,17 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0
+-9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+-    <path android:pathData="M0 0h24v24H0z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_location" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_nav_home.xml
++++ b/app/src/main/res/drawable/ic_nav_home.xml
+@@ -1,15 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="61dp"
+-    android:height="55dp"
+-    android:viewportWidth="61"
+-    android:viewportHeight="55">
+-
+-    <path
+-        android:fillColor="@color/finish_swipe_arrow"
+-        android:pathData="M30.5,0a27.5,27.5 0 1,0 0,55a27.5,27.5 0 1,0 0,-55Z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_nav_home" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_navigation.xml
++++ b/app/src/main/res/drawable/ic_navigation.xml
+@@ -1,15 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: Material Design Authors / Google LLC
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M4.59,6.89C5.29,6.18 6,5.54 6.3,5.67C6.8,5.87 6.3,6.7 6,7.19C5.75,7.61 3.14,11.08 3.14,13.5C3.14,14.78 3.62,15.84 4.5,16.5C5.23,17.04 6.22,17.21 7.12,16.94C8.19,16.63 9.07,15.54 10.18,14.17C11.39,12.68 13,10.73 14.26,10.73C15.89,10.73 15.91,11.74 16,12.5C12.24,13.16 10.64,16.19 10.64,17.89C10.64,19.59 12.08,21 13.85,21C15.5,21 18.14,19.65 18.54,14.88H21V12.38H18.53C18.38,10.73 17.44,8.18 14.5,8.18C12.25,8.18 10.32,10.09 9.56,11C9,11.75 7.5,13.5 7.27,13.74C7,14.04 6.59,14.58 6.16,14.58C5.71,14.58 5.44,13.75 5.8,12.66C6.15,11.57 7.2,9.8 7.65,9.14C8.43,8 8.95,7.22 8.95,5.86C8.95,3.69 7.31,3 6.44,3C5.12,3 3.97,4 3.72,4.25C3.36,4.61 3.06,4.91 2.84,5.18L4.59,6.89M13.88,18.55C13.57,18.55 13.14,18.29 13.14,17.83C13.14,17.23 13.87,15.63 16,15.07C15.71,17.76 14.58,18.55 13.88,18.55Z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_navigation" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_palette.xml
++++ b/app/src/main/res/drawable/ic_palette.xml
+@@ -1,15 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: 2024 The Android Open Source Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M480,880Q398,880 325,848.5Q252,817 197.5,762.5Q143,708 111.5,635Q80,562 80,480Q80,397 112.5,324Q145,251 200.5,197Q256,143 330,111.5Q404,80 488,80Q568,80 639,107.5Q710,135 763.5,183.5Q817,232 848.5,298.5Q880,365 880,442Q880,557 810,618.5Q740,680 640,680L566,680Q557,680 553.5,685Q550,690 550,696Q550,708 565,730.5Q580,753 580,782Q580,832 552.5,856Q525,880 480,880ZM260,520Q286,520 303,503Q320,486 320,460Q320,434 303,417Q286,400 260,400Q234,400 217,417Q200,434 200,460Q200,486 217,503Q234,520 260,520ZM380,360Q406,360 423,343Q440,326 440,300Q440,274 423,257Q406,240 380,240Q354,240 337,257Q320,274 320,300Q320,326 337,343Q354,360 380,360ZM580,360Q606,360 623,343Q640,326 640,300Q640,274 623,257Q606,240 580,240Q554,240 537,257Q520,274 520,300Q520,326 537,343Q554,360 580,360ZM700,520Q726,520 743,503Q760,486 760,460Q760,434 743,417Q726,400 700,400Q674,400 657,417Q640,434 640,460Q640,486 657,503Q674,520 700,520Z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_palette" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_restore.xml
++++ b/app/src/main/res/drawable/ic_restore.xml
+@@ -1,15 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="45dp"
+-    android:height="40dp"
+-    android:viewportWidth="45"
+-    android:viewportHeight="40">
+-
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M36.457,16.2164C37.5547,15.8921 38.7103,16.5162 39.043,17.6139C39.5253,19.2354 39.7754,20.915 39.7754,22.6197C39.7754,32.1997 31.9828,40.0006 22.3945,40.0006C20.0163,40.0006 17.7046,39.5257 15.5342,38.5944C14.4781,38.1452 13.9953,36.9229 14.4443,35.8668C14.8934,34.8108 16.1168,34.3206 17.1729,34.7779C18.8193,35.4847 20.574,35.8424 22.3867,35.8424C29.6797,35.8423 35.6084,29.9128 35.6084,22.6197C35.6084,21.3225 35.4176,20.0419 35.0518,18.8111C34.7274,17.7134 35.3515,16.5578 36.4492,16.2252L36.457,16.2164ZM22.3779,5.23986C23.5837,5.23986 24.7903,5.3644 25.9629,5.61388C27.0851,5.84691 27.7999,6.95248 27.5674,8.07482C27.3345,9.19747 26.2281,9.91314 25.1055,9.68029C24.2158,9.48908 23.3009,9.39709 22.3779,9.39709C15.085,9.39725 9.15634,15.3268 9.15625,22.6197H14.1533L7.07715,29.6969L0,22.6197H4.99805C4.99814,13.0399 12.7898,5.24003 22.3779,5.23986ZM29.5469,0.00841401C29.7047,-0.0246141 29.8539,0.0425001 29.9453,0.158805C31.5087,2.12137 32.3826,4.49957 32.499,6.93615H32.5068C32.5484,7.85074 32.4817,8.74864 32.3154,9.6383C32.2988,9.72146 32.2823,9.80514 32.2656,9.8883C32.1908,10.2625 32.0998,10.6284 31.9834,10.986C31.9668,11.0358 31.958,11.0943 31.9414,11.1442C31.9413,11.1605 31.9253,11.1691 31.917,11.1774C31.7424,11.7013 31.5419,12.217 31.3008,12.7076C32.1656,12.1006 33.1223,11.6267 34.1201,11.3024C34.1284,11.3024 34.1368,11.2859 34.1533,11.2858C34.1949,11.2691 34.245,11.2599 34.2949,11.2516C34.6192,11.1518 34.9521,11.0691 35.293,11.0026C35.3595,10.9859 35.4345,10.9689 35.501,10.9606C36.2991,10.8109 37.1056,10.753 37.9287,10.7945C40.1158,10.911 42.2536,11.6929 44.0166,13.0983C44.1329,13.198 44.1909,13.3481 44.166,13.4977C44.141,13.6472 44.0324,13.772 43.8828,13.8219C42.8102,14.1628 41.7123,14.3375 40.623,14.3375C38.3363,14.3375 36.0824,13.5886 34.2197,12.1666C32.831,12.6489 31.5419,13.4313 30.4775,14.4957L30.4863,14.4791L25.6045,19.3522C26.3196,20.1588 26.7607,21.2231 26.7607,22.3873C26.7606,24.9152 24.7066,26.9693 22.1787,26.9694C19.6507,26.9694 17.5968,24.9153 17.5967,22.3873C17.5967,19.8593 19.6507,17.8053 22.1787,17.8053C23.2431,17.8053 24.2164,18.1709 24.998,18.7779L28.4658,15.3102C29.6631,14.1045 30.5445,12.6492 31.085,11.0777C28.7399,8.0092 28.0326,4.00049 29.2217,0.291617C29.2716,0.14193 29.3889,0.0333619 29.5469,0.00841401Z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_restore" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_sim.xml
++++ b/app/src/main/res/drawable/ic_sim.xml
+@@ -1,17 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24"
+-    android:viewportHeight="24">
+-
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M19.99 4c0-1.1-.89-2-1.99-2h-8L4 8v12c0 1.1 .9 2 2 2h12.01c1.1 0 1.99-.9
+-1.99-2l-.01-16zM9 19H7v-2h2v2zm8 0h-2v-2h2v2zm-8-4H7v-4h2v4zm4
+-4h-2v-4h2v4zm0-6h-2v-2h2v2zm4 2h-2v-4h2v4z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_sim" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_swipe_up.xml
++++ b/app/src/main/res/drawable/ic_swipe_up.xml
+@@ -1,22 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="61dp"
+-    android:height="55dp"
+-    android:viewportWidth="61"
+-    android:viewportHeight="55">
+-
+-    <path
+-        android:fillColor="@color/finish_swipe_arrow"
+-        android:pathData="M44.0379,11.3508C42.293,8.58194 40.5171,5.77473 38.1579,3.57611C35.7987,1.37202
+-32.7426,-0.185108 29.609,0.0177565C26.8574,0.19869 24.3072,1.72292 22.2939,3.71318C20.2805,5.70345
+-18.7163,8.15428 17.1779,10.5832C13.017,17.1406 8.851,23.6981 4.6901,30.261C2.71291,33.3753
+-0.684085,36.6266 0.136871,40.3385C-0.523915,44.8234 1.25711,49.3906 4.4165,52.3733C7.72043,55.493
+-13.0738,55.2408 17.0953,54.3855C21.504,53.4479 25.8146,51.6825 30.3111,51.6879C34.1622,51.6879
+-37.8843,52.9929 41.6322,53.9414C45.375,54.8844 49.3965,55.4656 53.0101,54.062C57.4963,52.324
+-60.7176,47.3839 60.6298,42.3123C60.5472,37.6848 55.612,29.7018 55.612,29.7018C55.612,29.7018
+-47.8951,17.4683 44.0379,11.3508Z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_swipe_up" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_system_update.xml
++++ b/app/src/main/res/drawable/ic_system_update.xml
+@@ -1,15 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The LineageOS Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="24.0"
+-    android:viewportHeight="24.0">
+-
+-    <path
+-        android:fillColor="?android:colorControlNormal"
+-        android:pathData="M17,1.01L7,1c-1.1,0 -2,0.9 -2,2v18c0,1.1 0.9,2 2,2h10c1.1,0 2,-0.9 2,-2L19,3c0,-1.1 -0.9,-1.99 -2,-1.99zM17,19L7,19L7,5h10v14zM16,13h-3L13,8h-2v5L8,13l4,4 4,-4z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_system_update" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- a/app/src/main/res/drawable/ic_tv_expand.xml
++++ b/app/src/main/res/drawable/ic_tv_expand.xml
+@@ -1,15 +1 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<!--
+-     SPDX-FileCopyrightText: The Android Open Source Project
+-     SPDX-License-Identifier: Apache-2.0
+--->
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="24dp"
+-    android:height="24dp"
+-    android:viewportWidth="960"
+-    android:viewportHeight="960">
+-
+-    <path
+-        android:fillColor="@android:color/white"
+-        android:pathData="M480,616L240,376l56,-56l184,184l184,-184l56,56L480,616Z" />
+-</vector>
++<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_tv_expand" app:cg_forge_source_value_mode="false_value" app:cg_forge_momentary="false" android:autoMirrored="false"/>
+--- /dev/null
++++ b/app/src/main/res/values/cg_setup_attrs.xml
+@@ -0,0 +1,5 @@
++<resources><declare-styleable name="ForgeDrawable">
++ <attr name="cg_forge_family" format="string"/>
++ <attr name="cg_forge_source_value_mode"><enum name="dynamic" value="0"/><enum name="true_value" value="1"/><enum name="false_value" value="2"/></attr>
++ <attr name="cg_forge_momentary" format="boolean"/>
++</declare-styleable></resources>

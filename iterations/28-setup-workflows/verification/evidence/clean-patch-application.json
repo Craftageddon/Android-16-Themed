@@ -1,0 +1,51 @@
+{
+  "result": "PASS",
+  "patch": "SetupWizard-forge-glyphs.patch",
+  "patchSha256": "ed1a497bec6ba20f58a3e5e58254dc1d73d9bfeeeb49ccf2a2f45f9ba1fd5de9",
+  "textFiles": 22,
+  "deletedPaths": [],
+  "byteParity": true,
+  "commands": [
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.bare=false",
+        "init",
+        "-q"
+      ],
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.bare=false",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--check",
+        "--whitespace=nowarn",
+        "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\28-setup-workflows\\SetupWizard-forge-glyphs.patch"
+      ],
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.bare=false",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--whitespace=nowarn",
+        "C:\\Users\\spencerm\\Craftageddon Assets\\Android-16-Themed\\iterations\\28-setup-workflows\\SetupWizard-forge-glyphs.patch"
+      ],
+      "exitCode": 0,
+      "output": ""
+    }
+  ],
+  "nativeDeviceOperations": false
+}

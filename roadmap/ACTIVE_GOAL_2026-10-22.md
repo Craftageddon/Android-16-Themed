@@ -1,3 +1,5 @@
+Setup progress, 28 October 2026: [glyph foundation 28](../iterations/28-setup-workflows/README.md) adds 18 layered treatments, 630 unique PNG configurations and 16 positive source bridges. Public renderer/resource/state checks pass; W03 remains partial, and all 9,575 baseline OPEN decisions plus wider artwork/owner/native gates and final independent review remain required.
+
 Current progress, 28 October 2026: [checkpoint 27](../iterations/27-gallery-contracts/README.md) compiles all actual Gallery owners and links the complete manual resource set, protects shared aliases, and records two authored icon-leaf decisions. 9,575 baseline decisions remain OPEN. W03/W07, partial W04/W05, wider semantic/reuse/owner coverage, new dependency artwork and final independent whole-goal review remain required. The goal remains ACTIVE.
 
 # Current full-corpus goal — 26 October 2026

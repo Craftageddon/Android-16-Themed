@@ -1,0 +1,361 @@
+[
+  {
+    "resource": "ic_accessibility",
+    "family": "cg_sw_accessibility",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_accessibility.xml",
+    "sourceSha256": "527ec9a41bf095e6e9f8767645bb9792f6fbe81049517e65bac00d46c05d1592",
+    "target": "app/src/main/res/drawable/ic_accessibility.xml",
+    "targetSha256": "d8154421084bf9095911a3620aa518d8117dc0fca88fe34ce3caddaf4c93ec63",
+    "sourceValueMode": 0,
+    "modeProof": "Positive momentary action consumers; enabled does not imply on",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/res/layout/welcome_activity.xml",
+        "sha256": "b4912d513623fc7008cc37cc0003086338a1948ca314540f195b8e58e2877ff3",
+        "line": 71,
+        "text": "app:icon=\"@drawable/ic_accessibility\""
+      },
+      {
+        "path": "app/src/main/res/layout-w600dp/welcome_activity.xml",
+        "sha256": "7ea569a260131c2e27f9b187ddf5b21628a751edf912677600ff46ef8dae14da",
+        "line": 69,
+        "text": "app:icon=\"@drawable/ic_accessibility\""
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_arrow_forward",
+    "family": "cg_sw_arrow_forward",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_arrow_forward.xml",
+    "sourceSha256": "0c416ce8c3b9f4510fde0747a1d1726baa7e881350a06ec6d7dcef895ef020e5",
+    "target": "app/src/main/res/drawable/ic_arrow_forward.xml",
+    "targetSha256": "e355caac3cf0cf60b625e11ee8e7ffc6ef21692a486b5e18b8d489c55a2f77eb",
+    "sourceValueMode": 0,
+    "modeProof": "Positive momentary action consumers; enabled does not imply on",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/res/layout/welcome_activity.xml",
+        "sha256": "b4912d513623fc7008cc37cc0003086338a1948ca314540f195b8e58e2877ff3",
+        "line": 91,
+        "text": "app:icon=\"@drawable/ic_arrow_forward\""
+      },
+      {
+        "path": "app/src/main/res/layout-w600dp/welcome_activity.xml",
+        "sha256": "7ea569a260131c2e27f9b187ddf5b21628a751edf912677600ff46ef8dae14da",
+        "line": 85,
+        "text": "app:icon=\"@drawable/ic_arrow_forward\""
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_check",
+    "family": "cg_sw_check",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_check.xml",
+    "sourceSha256": "3dab8255c62edc41fea45b81459c86f86b98669755ee4b2e353f54b7b2196976",
+    "target": "app/src/main/res/drawable/ic_check.xml",
+    "targetSha256": "a1b2e6822aa3529cfe56ff9a8619dba0c75e1d4fd7ecd60fa49be3896ab71f45",
+    "sourceValueMode": 1,
+    "modeProof": "Actual checked group only; helper removes icon from other children",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+        "sha256": "18fb17b4552e195cde8dd4a89c1a66ed0dc1e0ea74165be7cc359209c6c4dc66",
+        "line": 71,
+        "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)"
+      },
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+        "sha256": "18fb17b4552e195cde8dd4a89c1a66ed0dc1e0ea74165be7cc359209c6c4dc66",
+        "line": 95,
+        "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)"
+      },
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+        "sha256": "a8e477f18f56a3ebf95b042b65b353f17be923c61ca6919fd573062010070d94",
+        "line": 55,
+        "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)"
+      },
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+        "sha256": "a8e477f18f56a3ebf95b042b65b353f17be923c61ca6919fd573062010070d94",
+        "line": 62,
+        "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)"
+      }
+    ],
+    "extraCheckProof": {
+      "path": "app/src/main/java/org/lineageos/setupwizard/util/ButtonGroupUtils.kt",
+      "sha256": "07ca7b5304fb6e50ea4f53909fc4b99cd8585090dc49ccdba61670bca73c9580"
+    },
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_datetime",
+    "family": "cg_sw_datetime",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_datetime.xml",
+    "sourceSha256": "992469d6a606c811c0f45ba283dc09693b119adb951c80906afbb8acf54e820a",
+    "target": "app/src/main/res/drawable/ic_datetime.xml",
+    "targetSha256": "36471cc8fccd34f4f2146a9221a82ceb267437536dbd676e6be8adf618e1a23c",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+        "sha256": "1fafa9ddaac844ed51a486e74a03fc197c869d542a44b76dedc35c7fc3483ddb",
+        "line": 119,
+        "text": "override val iconResId = R.drawable.ic_datetime"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_emergency_dial",
+    "family": "cg_sw_emergency_dial",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_emergency_dial.xml",
+    "sourceSha256": "3932ab188bffae84f96096b87f4522547d02f087d2c2564b922439af74dcae12",
+    "target": "app/src/main/res/drawable/ic_emergency_dial.xml",
+    "targetSha256": "e2725818a0058fff0acc6082756e4c115c1fcb41eb2d6ecbe1c343b5f5e7f10c",
+    "sourceValueMode": 0,
+    "modeProof": "Positive momentary action consumers; enabled does not imply on",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+        "sha256": "d0ff5b24c0c9cd872f0d18e804c714336a97e38acdca5dcde219cfce99fef616",
+        "line": 140,
+        "text": "setIconResource(R.drawable.ic_emergency_dial)"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_info",
+    "family": "cg_sw_info",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_info.xml",
+    "sourceSha256": "0dca8f97ea6b729ffe12fff83cd54322a0b747375c85137540861d76d0e7ab9f",
+    "target": "app/src/main/res/drawable/ic_info.xml",
+    "targetSha256": "b014d6d645ee54462e4374d09f18dc4610f4915d54dd52b14304d98fabe4587a",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+        "sha256": "15f3224164dd21e8aab3585df27ae1c4d9d49b3df8babb4afb30907e91298730",
+        "line": 82,
+        "text": "override val iconResId = R.drawable.ic_info"
+      },
+      {
+        "path": "app/src/main/res/layout/welcome_info_button.xml",
+        "sha256": "b4e8e63e18b2ab20e8a6c1903bfb299c6d38f3d588a298a230242734e5f23d8d",
+        "line": 18,
+        "text": "app:icon=\"@drawable/ic_info\""
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_locale",
+    "family": "cg_sw_locale",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_locale.xml",
+    "sourceSha256": "5cac52df639583e6645f01b50d8e515a6fdca0a2795c4764e8d555140393eccf",
+    "target": "app/src/main/res/drawable/ic_locale.xml",
+    "targetSha256": "f0116d4bbebbade2e86374c008eff5ee020d2efb264cf7893b0ebaeca639e6e1",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/locale/LocaleActivity.kt",
+        "sha256": "4bde9f4b7e53aeb056cccaefbb6d37b9a4aad36c84b5ea2758757538a3c12eca",
+        "line": 112,
+        "text": "override val iconResId = R.drawable.ic_locale"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_location",
+    "family": "cg_sw_location",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_location.xml",
+    "sourceSha256": "d94e5b8fd767d5ba50f425dd2767775e613dd7ba96f4cff86a4e4f7a94c3ca61",
+    "target": "app/src/main/res/drawable/ic_location.xml",
+    "targetSha256": "e912658f471c9ca4cace9f40d2465732a1836ba07ce7c28fb65474f772ca4022",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/privacy/LocationSettingsActivity.kt",
+        "sha256": "dc5fb805e059af146d2aba25ae6656851b3160c3d0831573120cc25967ca90fc",
+        "line": 73,
+        "text": "override val iconResId = R.drawable.ic_location"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_nav_home",
+    "family": "cg_sw_nav_home",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_nav_home.xml",
+    "sourceSha256": "32b0861415be971bf5208a4cabd817487a8d660009d2eda22ed8dc3b813a2fe6",
+    "target": "app/src/main/res/drawable/ic_nav_home.xml",
+    "targetSha256": "75e6bdd744ea5baaa3e5d6436d9aff4062b92315c9b368a2d8d1f38ec2e6eb71",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+        "sha256": "e378f25cb52f2b6358fad5bb79cfaf364ef9ed74f74ea1ce835004f2ac6d0652",
+        "line": 137,
+        "text": "swipeHintIcon.setImageResource(R.drawable.ic_nav_home)"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_navigation",
+    "family": "cg_sw_navigation",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_navigation.xml",
+    "sourceSha256": "b370a6aaca0ccf37d17b29c65f8b2f308545bff6dbd12757a3c7a2cc6e9ce621",
+    "target": "app/src/main/res/drawable/ic_navigation.xml",
+    "targetSha256": "5331937364c86e1558b84ae34cffc60739d789d354181ff29259d1fcba2a6f53",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+        "sha256": "18fb17b4552e195cde8dd4a89c1a66ed0dc1e0ea74165be7cc359209c6c4dc66",
+        "line": 120,
+        "text": "override val iconResId = R.drawable.ic_navigation"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_palette",
+    "family": "cg_sw_palette",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_palette.xml",
+    "sourceSha256": "9217afce64cc13384a0566fedec244877fc05273634446280746c403ae46747a",
+    "target": "app/src/main/res/drawable/ic_palette.xml",
+    "targetSha256": "7d058b946081d6f7f26c3368b1f83fece6f11adb4f3444abd46230085e21e3d5",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+        "sha256": "a8e477f18f56a3ebf95b042b65b353f17be923c61ca6919fd573062010070d94",
+        "line": 105,
+        "text": "override val iconResId = R.drawable.ic_palette"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_restore",
+    "family": "cg_sw_restore",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_restore.xml",
+    "sourceSha256": "f7bb2262ebd95350a408777f1d513341ec015f96ea041683157eee212040b5cf",
+    "target": "app/src/main/res/drawable/ic_restore.xml",
+    "targetSha256": "83189254b4d199fb5c51e3bc736ad532d74da587f724f721d1388c3653037cc2",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+        "sha256": "1a4d055cdf9bdf161061e9ee3e921a2d0c5b88853746c65b0bfbefec25991cbb",
+        "line": 47,
+        "text": "override val iconResId = R.drawable.ic_restore"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_sim",
+    "family": "cg_sw_sim",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_sim.xml",
+    "sourceSha256": "578907553c1d051978985d70610c9463222a3a852569bde9c176eb472ec88edf",
+    "target": "app/src/main/res/drawable/ic_sim.xml",
+    "targetSha256": "4979ebf528598d7fb88729d85adb22a664a5fb6738992addbcd06e3e3539253e",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+        "sha256": "612b19727f0470a02a928a5f47c9f4e2be09f0b4dd581d0b9e5b75b803e8ffa4",
+        "line": 95,
+        "text": "override val iconResId = R.drawable.ic_sim"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_swipe_up",
+    "family": "cg_sw_swipe_up",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_swipe_up.xml",
+    "sourceSha256": "905dd760409030ff8dea3b666ce8a9e33812b6823a4564d804c6cdb758ef6eb3",
+    "target": "app/src/main/res/drawable/ic_swipe_up.xml",
+    "targetSha256": "5efd3216376977e870da65e6769cd0a559bb9cdef44cecf12687f58a582100e1",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/res/layout/finish_activity.xml",
+        "sha256": "7bdf5a4ff58e07b7494641edb2bc78c67c2e1f867adaf146abc7fcc74abee248",
+        "line": 53,
+        "text": "android:src=\"@drawable/ic_swipe_up\" />"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_system_update",
+    "family": "cg_sw_system_update",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_system_update.xml",
+    "sourceSha256": "6e5370223907a009608d08ee327dbe5d4c35b9ced51de78ffea023ae9e27d655",
+    "target": "app/src/main/res/drawable/ic_system_update.xml",
+    "targetSha256": "479cf57e6f3f5ba8f812bfb02cb860396e117028ca9c3fb82fd255d347f7a0e0",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+        "sha256": "6b52f3d1b871b6a59b0976a01188a6fceb62ad772ff9e61a6c89c237b2564105",
+        "line": 70,
+        "text": "override val iconResId = R.drawable.ic_system_update"
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  },
+  {
+    "resource": "ic_tv_expand",
+    "family": "cg_sw_tv_expand",
+    "source": "upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_tv_expand.xml",
+    "sourceSha256": "923518de0919dfe39f5534fb4b1a9ec64672294b1940b72d943360534717e219",
+    "target": "app/src/main/res/drawable/ic_tv_expand.xml",
+    "targetSha256": "35e6ec4fbbf996417debe0139b3e2c9c3e7ba458a46652e40c61c05b9cf53c59",
+    "sourceValueMode": 2,
+    "modeProof": "Cold header/cue or mixed header/action glyph; cool focus only",
+    "positiveConsumers": [
+      {
+        "path": "app/src/main/res/layout/tv_list_item.xml",
+        "sha256": "0721681900a4d4fc5c82a6b8a29feb71d4673296bb10c77bf379cb68257a3c45",
+        "line": 67,
+        "text": "android:src=\"@drawable/ic_tv_expand\""
+      }
+    ],
+    "extraCheckProof": null,
+    "nativeAcceptance": "NOT RUN"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "complete-assets.zip": "71d3d5ba98c945f80861b6f68bdceb95ffdf1d2056c6ae90417b16a3a96c06f7"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-28T14:02:37+00:00",
+      "evidence": "verification/evidence/V1.txt",
+      "evidence_sha256": "1c52aff4fb3851778858d46c854c63072c50b25654caa5cabde44665d4517303",
+      "independence": null,
+      "method": "Roadmap and component-family source inspection",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    },
+    "2": {
+      "date_utc": "2026-10-28T14:02:37+00:00",
+      "evidence": "verification/evidence/V2.txt",
+      "evidence_sha256": "713cb0612c1927d2a24350842bb1fbefbf238696fc3f39db23812c6288b7094f",
+      "independence": null,
+      "method": "Pinned source hashes,630 unique PNG/mask and native-copy checks, real public renderer/resource compilation,1536 state cases,18 original intrinsic-size oracles/126 real linked IDs, clean patch byte parity, desktop material review and prior canonical/archive preservation.",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex desktop verification"
+    }
+  },
+  "created_at": "2026-10-28T14:02:37+00:00",
+  "project": "28-setup-workflows",
+  "schema": 1,
+  "status": "V2_PASS"
+}

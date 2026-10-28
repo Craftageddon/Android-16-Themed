@@ -1,0 +1,10 @@
+[
+  {
+    "resource": "ic_dialer",
+    "reason": "No positive local consumer established. This is not approval by absence. Source geometry artwork retained; no native override authored."
+  },
+  {
+    "resource": "ic_eye",
+    "reason": "No positive local consumer established. This is not approval by absence. Source geometry artwork retained; no native override authored."
+  }
+]

@@ -1,0 +1,3025 @@
+{
+  "revision": "69174527a30bc72a28a5d55acdec8ce5edaba9e0",
+  "actualModule": "LineageSetupWizard",
+  "platformApis": true,
+  "privilegedPlatformSigned": true,
+  "sourceFilesHashVerified": 130,
+  "productionKotlinOwners": 39,
+  "baselineFamilies": 63,
+  "baselineFamiliesStillOpen": 56,
+  "nativeOwners": [
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+      "sha256": "1a4d055cdf9bdf161061e9ee3e921a2d0c5b88853746c65b0bfbefec25991cbb",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+          "line": 21,
+          "text": "setDescriptionText(getString(R.string.intro_restore_subtitle, getString(R.string.os_name)))",
+          "kind": "string",
+          "name": "intro_restore_subtitle"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+          "line": 21,
+          "text": "setDescriptionText(getString(R.string.intro_restore_subtitle, getString(R.string.os_name)))",
+          "kind": "string",
+          "name": "os_name"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+          "line": 22,
+          "text": "setNextText(R.string.intro_restore_button)",
+          "kind": "string",
+          "name": "intro_restore_button"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+          "line": 43,
+          "text": "override val layoutResId = R.layout.intro_restore_activity",
+          "kind": "layout",
+          "name": "intro_restore_activity"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+          "line": 45,
+          "text": "override val titleResId = R.string.intro_restore_title",
+          "kind": "string",
+          "name": "intro_restore_title"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+          "line": 47,
+          "text": "override val iconResId = R.drawable.ic_restore",
+          "kind": "drawable",
+          "name": "ic_restore"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/base/BaseSetupWizardActivity.kt",
+      "sha256": "89b11792220d2429e23c0512fa57b32580c999f9a28b9a62bcf04f7d044f35ff",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/BaseSetupWizardActivity.kt",
+          "line": 146,
+          "text": ".setText(if (isLastStep()) R.string.finish else R.string.next)",
+          "kind": "string",
+          "name": "finish"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/BaseSetupWizardActivity.kt",
+          "line": 146,
+          "text": ".setText(if (isLastStep()) R.string.finish else R.string.next)",
+          "kind": "string",
+          "name": "next"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/BaseSetupWizardActivity.kt",
+          "line": 155,
+          "text": ".setText(R.string.skip)",
+          "kind": "string",
+          "name": "skip"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/BaseSetupWizardActivity.kt",
+          "line": 248,
+          "text": "if (findViewById<View>(R.id.setup_wizard_layout) == null) {",
+          "kind": "id",
+          "name": "setup_wizard_layout"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/BaseSetupWizardActivity.kt",
+          "line": 266,
+          "text": "when (val root = requireViewById<View>(R.id.setup_wizard_layout)) {",
+          "kind": "id",
+          "name": "setup_wizard_layout"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/BaseSetupWizardActivity.kt",
+          "line": 273,
+          "text": "get() = requireViewById(R.id.setup_wizard_layout)",
+          "kind": "id",
+          "name": "setup_wizard_layout"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/base/GlifTemplate.kt",
+      "sha256": "53c8ca04fcde9c6896b5b174a3ee4450946b6858ef0680a6701edb8dc91ffb12",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/base/LeanbackTemplate.kt",
+      "sha256": "e376ee7cf2b032168c2d5631797346f235fa4416bf5be44130ac88d2f675ee84",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/LeanbackTemplate.kt",
+          "line": 26,
+          "text": "root.findViewById<TextView>(R.id.setup_header)?.text = text",
+          "kind": "id",
+          "name": "setup_header"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/LeanbackTemplate.kt",
+          "line": 30,
+          "text": "root.findViewById<TextView>(R.id.setup_description)?.text = text",
+          "kind": "id",
+          "name": "setup_description"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/LeanbackTemplate.kt",
+          "line": 34,
+          "text": "root.findViewById<ImageView>(R.id.setup_icon)?.setImageDrawable(icon)",
+          "kind": "id",
+          "name": "setup_icon"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/LeanbackTemplate.kt",
+          "line": 39,
+          "text": "root.findViewById(R.id.setup_items)",
+          "kind": "id",
+          "name": "setup_items"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/base/SetupTemplate.kt",
+      "sha256": "69a86689ac998ee81b7ff2738865d75e473b598d75d8d014fffaeefaf2222952",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/base/SetupToggle.kt",
+      "sha256": "8012e20bfb0008b82e58814be56ff83469fea6907c78bf32541cf24ec7a7ae89",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/base/SubBaseActivity.kt",
+      "sha256": "1c58d40502e6f07c3741b945f478993f05345fba1c171f654c202fbee55069ae",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/SubBaseActivity.kt",
+          "line": 95,
+          "text": "override val layoutResId = R.layout.setup_loading_page",
+          "kind": "layout",
+          "name": "setup_loading_page"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/SubBaseActivity.kt",
+          "line": 97,
+          "text": "override val titleResId = R.string.loading",
+          "kind": "string",
+          "name": "loading"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/base/SwitchItemToggle.kt",
+      "sha256": "7278bf4a3b1214b54de27111ff7d9a20ff639768cce932227916b771fecbb943",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+      "sha256": "e378f25cb52f2b6358fad5bb79cfaf364ef9ed74f74ea1ce835004f2ac6d0652",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 90,
+          "text": "rootView = findViewById(R.id.root)",
+          "kind": "id",
+          "name": "root"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 91,
+          "text": "swipeHint = findViewById(R.id.swipe_hint)",
+          "kind": "id",
+          "name": "swipe_hint"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 92,
+          "text": "swipeHintIcon = findViewById(R.id.swipe_hint_icon)",
+          "kind": "id",
+          "name": "swipe_hint_icon"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 93,
+          "text": "swipeHintText = findViewById(R.id.swipe_hint_text)",
+          "kind": "id",
+          "name": "swipe_hint_text"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 94,
+          "text": "background = findViewById(R.id.background)",
+          "kind": "id",
+          "name": "background"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 95,
+          "text": "brandLogo = findViewById(R.id.brand_logo)",
+          "kind": "id",
+          "name": "brand_logo"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 106,
+          "text": "val linearLayout = findViewById<View>(R.id.linear_layout)",
+          "kind": "id",
+          "name": "linear_layout"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 133,
+          "text": "R.string.press_center_to_go_home",
+          "kind": "string",
+          "name": "press_center_to_go_home"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 135,
+          "text": "R.string.tap_home_to_go_home",
+          "kind": "string",
+          "name": "tap_home_to_go_home"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 137,
+          "text": "swipeHintIcon.setImageResource(R.drawable.ic_nav_home)",
+          "kind": "drawable",
+          "name": "ic_nav_home"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 337,
+          "text": "override val layoutResId = R.layout.finish_activity",
+          "kind": "layout",
+          "name": "finish_activity"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 348,
+          "text": ".apply { applyStyle(R.style.EdgeToEdgeWallpaperBackground, true) }",
+          "kind": "style",
+          "name": "EdgeToEdgeWallpaperBackground"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 390,
+          "text": "findViewById<View>(R.id.linear_layout)",
+          "kind": "id",
+          "name": "linear_layout"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/locale/LocaleActivity.kt",
+      "sha256": "4bde9f4b7e53aeb056cccaefbb6d37b9a4aad36c84b5ea2758757538a3c12eca",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/LocaleActivity.kt",
+          "line": 108,
+          "text": "override val layoutResId = R.layout.setup_locale",
+          "kind": "layout",
+          "name": "setup_locale"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/LocaleActivity.kt",
+          "line": 110,
+          "text": "override val titleResId = R.string.setup_locale",
+          "kind": "string",
+          "name": "setup_locale"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/LocaleActivity.kt",
+          "line": 112,
+          "text": "override val iconResId = R.drawable.ic_locale",
+          "kind": "drawable",
+          "name": "ic_locale"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/LocaleActivity.kt",
+          "line": 246,
+          "text": "getString(R.string.sim_locale_changed, locale.displayName),",
+          "kind": "string",
+          "name": "sim_locale_changed"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/LocaleActivity.kt",
+          "line": 294,
+          "text": "view.findViewById<View>(R.id.tv_list_item_expand)?.visibility =",
+          "kind": "id",
+          "name": "tv_list_item_expand"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/locale/WelcomeLocaleActivity.kt",
+      "sha256": "b116ca65ea549e4cc87d0f773a24891c308a5f4ee4744da73d8c682dd1a91ad9",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/WelcomeLocaleActivity.kt",
+          "line": 18,
+          "text": "findViewById<TextView>(R.id.welcome_title).text =",
+          "kind": "id",
+          "name": "welcome_title"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/WelcomeLocaleActivity.kt",
+          "line": 20,
+          "text": "getString(R.string.setup_managed_profile_welcome_message)",
+          "kind": "string",
+          "name": "setup_managed_profile_welcome_message"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/WelcomeLocaleActivity.kt",
+          "line": 22,
+          "text": "getString(R.string.setup_welcome_message, getString(R.string.os_name))",
+          "kind": "string",
+          "name": "setup_welcome_message"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/WelcomeLocaleActivity.kt",
+          "line": 22,
+          "text": "getString(R.string.setup_welcome_message, getString(R.string.os_name))",
+          "kind": "string",
+          "name": "os_name"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/WelcomeLocaleActivity.kt",
+          "line": 26,
+          "text": "override val layoutResId = R.layout.welcome_locale_activity",
+          "kind": "layout",
+          "name": "welcome_locale_activity"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/WelcomeLocaleActivity.kt",
+          "line": 32,
+          "text": "override val localeItemLayoutResId = R.layout.tv_list_item",
+          "kind": "layout",
+          "name": "tv_list_item"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/network/BluetoothSetupActivity.kt",
+      "sha256": "387b0e7532273170ba1f236c6b7c23f0e9862542e4f77b9709e5b411ef8e26a7",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/network/EuccRepository.kt",
+      "sha256": "9b970bb83f4be84864e6d3529823df4f71b9abce425d055caf212d3ed0e33c5e",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/network/NetworkSetupActivity.kt",
+      "sha256": "be0097e26bd435b00d0ff2fe93e510467ca2a0b958b605e4154770fa50c297c2",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+      "sha256": "612b19727f0470a02a928a5f47c9f4e2be09f0b4dd581d0b9e5b75b803e8ffa4",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 30,
+          "text": "setDescriptionText(getString(R.string.esim_support_summary))",
+          "kind": "string",
+          "name": "esim_support_summary"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 31,
+          "text": "setNextText(R.string.setup_euicc)",
+          "kind": "string",
+          "name": "setup_euicc"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 33,
+          "text": "setDescriptionText(getString(R.string.sim_missing_summary))",
+          "kind": "string",
+          "name": "sim_missing_summary"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 79,
+          "text": ".setTitle(R.string.sim_missing_skip_title)",
+          "kind": "string",
+          "name": "sim_missing_skip_title"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 80,
+          "text": ".setMessage(R.string.sim_missing_skip_message)",
+          "kind": "string",
+          "name": "sim_missing_skip_message"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 81,
+          "text": ".setPositiveButton(R.string.skip) { _, _ ->",
+          "kind": "string",
+          "name": "skip"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 84,
+          "text": ".setNegativeButton(R.string.cancel, null)",
+          "kind": "string",
+          "name": "cancel"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 91,
+          "text": "override val layoutResId = R.layout.sim_missing_page",
+          "kind": "layout",
+          "name": "sim_missing_page"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 93,
+          "text": "override val titleResId = R.string.setup_sim_missing",
+          "kind": "string",
+          "name": "setup_sim_missing"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 95,
+          "text": "override val iconResId = R.drawable.ic_sim",
+          "kind": "drawable",
+          "name": "ic_sim"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/privacy/LocationSettingsActivity.kt",
+      "sha256": "dc5fb805e059af146d2aba25ae6656851b3160c3d0831573120cc25967ca90fc",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/privacy/LocationSettingsActivity.kt",
+          "line": 21,
+          "text": "itemAdapter.findItemById(R.id.location_item) as SwitchItem",
+          "kind": "id",
+          "name": "location_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/privacy/LocationSettingsActivity.kt",
+          "line": 24,
+          "text": "itemAdapter.findItemById(R.id.location_agps_item) as SwitchItem",
+          "kind": "id",
+          "name": "location_agps_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/privacy/LocationSettingsActivity.kt",
+          "line": 32,
+          "text": "setDescriptionText(getString(R.string.location_summary))",
+          "kind": "string",
+          "name": "location_summary"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/privacy/LocationSettingsActivity.kt",
+          "line": 69,
+          "text": "override val layoutResId = R.layout.location_settings",
+          "kind": "layout",
+          "name": "location_settings"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/privacy/LocationSettingsActivity.kt",
+          "line": 71,
+          "text": "override val titleResId = R.string.setup_location",
+          "kind": "string",
+          "name": "setup_location"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/privacy/LocationSettingsActivity.kt",
+          "line": 73,
+          "text": "override val iconResId = R.drawable.ic_location",
+          "kind": "drawable",
+          "name": "ic_location"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/receiver/PartnerReceiver.kt",
+      "sha256": "7f7e10642d7077ccd2a973e0d2453c6f5df6213345bae37c5a81c192c1265afa",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+      "sha256": "d6a97a3b9e1493a117542c656e9a085584c5d4238df33b1b4b5d3ab39800745f",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 23,
+          "text": "private val metricsItem by lazy { toggle(R.id.metrics_item) }",
+          "kind": "id",
+          "name": "metrics_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 24,
+          "text": "private val navKeysItem by lazy { toggle(R.id.nav_keys_item) }",
+          "kind": "id",
+          "name": "nav_keys_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 31,
+          "text": "val osName = getString(R.string.os_name)",
+          "kind": "string",
+          "name": "os_name"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 34,
+          "text": "val metricsHelpImproveLineage = getString(R.string.services_help_improve_cm, osName)",
+          "kind": "string",
+          "name": "services_help_improve_cm"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 36,
+          "text": "getString(R.string.services_metrics_label, metricsHelpImproveLineage, osName, osName)",
+          "kind": "string",
+          "name": "services_metrics_label"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 54,
+          "text": "override val layoutResId = R.layout.setup_lineage_settings",
+          "kind": "layout",
+          "name": "setup_lineage_settings"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 56,
+          "text": "override val titleResId = R.string.setup_services",
+          "kind": "string",
+          "name": "setup_services"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 58,
+          "text": "override val iconResId = R.drawable.logo",
+          "kind": "drawable",
+          "name": "logo"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 60,
+          "text": "override val itemEntriesResId = R.xml.lineage_settings_items",
+          "kind": "xml",
+          "name": "lineage_settings_items"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 65,
+          "text": "R.string.services_full_description,",
+          "kind": "string",
+          "name": "services_full_description"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 66,
+          "text": "getString(R.string.services_pp_explanation, osName),",
+          "kind": "string",
+          "name": "services_pp_explanation"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 67,
+          "text": "getString(R.string.services_find_privacy_policy),",
+          "kind": "string",
+          "name": "services_find_privacy_policy"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 70,
+          "text": "getText(R.string.services_privacy_policy_uri),",
+          "kind": "string",
+          "name": "services_privacy_policy_uri"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+      "sha256": "18fb17b4552e195cde8dd4a89c1a66ed0dc1e0ea74165be7cc359209c6c4dc66",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 45,
+          "text": "setDescriptionText(getString(R.string.navigation_summary))",
+          "kind": "string",
+          "name": "navigation_summary"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 47,
+          "text": "val modeGroup = findViewById<MaterialButtonToggleGroup>(R.id.navigation_mode_group)",
+          "kind": "id",
+          "name": "navigation_mode_group"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 48,
+          "text": "val gestureButton = findViewById<MaterialButton>(R.id.mode_gesture)",
+          "kind": "id",
+          "name": "mode_gesture"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 49,
+          "text": "val swKeysButton = findViewById<MaterialButton>(R.id.mode_sw_keys)",
+          "kind": "id",
+          "name": "mode_sw_keys"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 50,
+          "text": "val navigationIllustration = findViewById<LottieAnimationView>(R.id.navigation_illustration)",
+          "kind": "id",
+          "name": "navigation_illustration"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 51,
+          "text": "hideGesturalHint = findViewById(R.id.hide_navigation_hint)",
+          "kind": "id",
+          "name": "hide_navigation_hint"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 52,
+          "text": "hideGesturalHintCard = findViewById(R.id.hide_navigation_hint_card)",
+          "kind": "id",
+          "name": "hide_navigation_hint_card"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 59,
+          "text": "R.id.mode_gesture -> {",
+          "kind": "id",
+          "name": "mode_gesture"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 61,
+          "text": "navigationIllustration.setAnimation(R.raw.lottie_system_nav_fully_gestural)",
+          "kind": "raw",
+          "name": "lottie_system_nav_fully_gestural"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 65,
+          "text": "R.id.mode_sw_keys -> {",
+          "kind": "id",
+          "name": "mode_sw_keys"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 67,
+          "text": "navigationIllustration.setAnimation(R.raw.lottie_system_nav_3_button)",
+          "kind": "raw",
+          "name": "lottie_system_nav_3_button"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 71,
+          "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)",
+          "kind": "drawable",
+          "name": "ic_check"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 78,
+          "text": "modeGroup.check(R.id.mode_sw_keys)",
+          "kind": "id",
+          "name": "mode_sw_keys"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 95,
+          "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)",
+          "kind": "drawable",
+          "name": "ic_check"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 116,
+          "text": "override val layoutResId = R.layout.setup_navigation",
+          "kind": "layout",
+          "name": "setup_navigation"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 118,
+          "text": "override val titleResId = R.string.setup_navigation",
+          "kind": "string",
+          "name": "setup_navigation"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 120,
+          "text": "override val iconResId = R.drawable.ic_navigation",
+          "kind": "drawable",
+          "name": "ic_navigation"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+      "sha256": "a8e477f18f56a3ebf95b042b65b353f17be923c61ca6919fd573062010070d94",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 30,
+          "text": "setDescriptionText(getString(R.string.theme_summary))",
+          "kind": "string",
+          "name": "theme_summary"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 32,
+          "text": "val modeGroup = findViewById<MaterialButtonToggleGroup>(R.id.theme_mode_group)",
+          "kind": "id",
+          "name": "theme_mode_group"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 33,
+          "text": "val blackTheme = findViewById<MaterialSwitch>(R.id.black_theme)",
+          "kind": "id",
+          "name": "black_theme"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 34,
+          "text": "blackThemeCard = findViewById(R.id.black_theme_card)",
+          "kind": "id",
+          "name": "black_theme_card"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 35,
+          "text": "roundPreviewWallpaper(findViewById(R.id.theme_preview_wallpaper))",
+          "kind": "id",
+          "name": "theme_preview_wallpaper"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 54,
+          "text": "modeGroup.check(if (isNight) R.id.mode_dark else R.id.mode_light)",
+          "kind": "id",
+          "name": "mode_dark"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 54,
+          "text": "modeGroup.check(if (isNight) R.id.mode_dark else R.id.mode_light)",
+          "kind": "id",
+          "name": "mode_light"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 55,
+          "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)",
+          "kind": "drawable",
+          "name": "ic_check"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 61,
+          "text": "val night = checkedId == R.id.mode_dark",
+          "kind": "id",
+          "name": "mode_dark"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 62,
+          "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)",
+          "kind": "drawable",
+          "name": "ic_check"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 101,
+          "text": "override val layoutResId = R.layout.setup_theme",
+          "kind": "layout",
+          "name": "setup_theme"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 103,
+          "text": "override val titleResId = R.string.setup_theme",
+          "kind": "string",
+          "name": "setup_theme"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 105,
+          "text": "override val iconResId = R.drawable.ic_palette",
+          "kind": "drawable",
+          "name": "ic_palette"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/SetupWizardActivity.kt",
+      "sha256": "f9c413d1f24f0b9a123aca9bf9316aa900cec78543cd7824a55972abbbbbe103",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/SetupWizardActivity.kt",
+          "line": 32,
+          "text": "SetupWizardUtils.isOwner() -> R.string.lineage_wizard_script_uri",
+          "kind": "string",
+          "name": "lineage_wizard_script_uri"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/SetupWizardActivity.kt",
+          "line": 34,
+          "text": "R.string.lineage_wizard_script_managed_profile_uri",
+          "kind": "string",
+          "name": "lineage_wizard_script_managed_profile_uri"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/SetupWizardActivity.kt",
+          "line": 35,
+          "text": "else -> R.string.lineage_wizard_script_user_uri",
+          "kind": "string",
+          "name": "lineage_wizard_script_user_uri"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/SetupWizardApp.kt",
+      "sha256": "be17a07dccb8ae1ccc54f42398bfece91a073b626fb9dfe13a3b9f9e8a00eea9",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+      "sha256": "15f3224164dd21e8aab3585df27ae1c4d9d49b3df8babb4afb30907e91298730",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+          "line": 22,
+          "text": "setNextText(R.string.ok)",
+          "kind": "string",
+          "name": "ok"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+          "line": 45,
+          "text": "getString(R.string.device_info_imei_slot, slot + 1)",
+          "kind": "string",
+          "name": "device_info_imei_slot"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+          "line": 47,
+          "text": "getString(R.string.device_info_imei)",
+          "kind": "string",
+          "name": "device_info_imei"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+          "line": 56,
+          "text": "identifiers += getString(R.string.device_info_eid) to eid",
+          "kind": "string",
+          "name": "device_info_eid"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+          "line": 61,
+          "text": "identifiers += getString(R.string.device_info_serial) to serial",
+          "kind": "string",
+          "name": "device_info_serial"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+          "line": 78,
+          "text": "override val layoutResId = R.layout.device_info_activity",
+          "kind": "layout",
+          "name": "device_info_activity"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+          "line": 80,
+          "text": "override val titleResId = R.string.device_information",
+          "kind": "string",
+          "name": "device_information"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+          "line": 82,
+          "text": "override val iconResId = R.drawable.ic_info",
+          "kind": "drawable",
+          "name": "ic_info"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoItem.kt",
+      "sha256": "e86ba65c3238fa43a7e79f044cdf8924f2de495d77e504c731ad09b7de63844f",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoItem.kt",
+          "line": 28,
+          "text": "setLayoutResource(R.layout.device_info_item)",
+          "kind": "layout",
+          "name": "device_info_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoItem.kt",
+          "line": 34,
+          "text": "val barcodeView = view.findViewById<ImageView>(R.id.device_info_barcode)",
+          "kind": "id",
+          "name": "device_info_barcode"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoItem.kt",
+          "line": 35,
+          "text": "val expandButton = view.findViewById<ImageView>(R.id.device_info_expand)",
+          "kind": "id",
+          "name": "device_info_expand"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/system/DeviceSpecificActivity.kt",
+      "sha256": "b036b4784013d0851ad7b166e30c01e4b4615e8f0d8b9afa9b2aa6ba940b0633",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+      "sha256": "6b52f3d1b871b6a59b0976a01188a6fceb62ad772ff9e61a6c89c237b2564105",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 21,
+          "text": "private val updateRecoveryItem by lazy { toggle(R.id.update_recovery_item) }",
+          "kind": "id",
+          "name": "update_recovery_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 28,
+          "text": "R.string.update_recovery_full_description,",
+          "kind": "string",
+          "name": "update_recovery_full_description"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 29,
+          "text": "getString(R.string.update_recovery_description),",
+          "kind": "string",
+          "name": "update_recovery_description"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 30,
+          "text": "getString(R.string.update_recovery_warning),",
+          "kind": "string",
+          "name": "update_recovery_warning"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 66,
+          "text": "override val layoutResId = R.layout.update_recovery_page",
+          "kind": "layout",
+          "name": "update_recovery_page"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 68,
+          "text": "override val titleResId = R.string.update_recovery_title",
+          "kind": "string",
+          "name": "update_recovery_title"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 70,
+          "text": "override val iconResId = R.drawable.ic_system_update",
+          "kind": "drawable",
+          "name": "ic_system_update"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 72,
+          "text": "override val itemEntriesResId = R.xml.update_recovery_items",
+          "kind": "xml",
+          "name": "update_recovery_items"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/time/DatePickerFragment.kt",
+      "sha256": "8480804627d019075b38e9ab76fd6a32162b1eb588b35895f23337cc7cabf39d",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+      "sha256": "1fafa9ddaac844ed51a486e74a03fc197c869d542a44b76dedc35c7fc3483ddb",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 40,
+          "text": "private val dateItem by lazy { itemAdapter.findItemById(R.id.date_item) as Item }",
+          "kind": "id",
+          "name": "date_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 41,
+          "text": "private val dateFormatItem by lazy { itemAdapter.findItemById(R.id.date_format_item) as Item }",
+          "kind": "id",
+          "name": "date_format_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 42,
+          "text": "private val timeItem by lazy { itemAdapter.findItemById(R.id.time_item) as Item }",
+          "kind": "id",
+          "name": "time_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 43,
+          "text": "private val timeZoneItem by lazy { itemAdapter.findItemById(R.id.time_zone_item) as Item }",
+          "kind": "id",
+          "name": "time_zone_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 45,
+          "text": "itemAdapter.findItemById(R.id.time_format_item) as SwitchItem",
+          "kind": "id",
+          "name": "time_format_item"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 59,
+          "text": "setDescriptionText(getString(R.string.date_time_summary))",
+          "kind": "string",
+          "name": "date_time_summary"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 115,
+          "text": "override val layoutResId = R.layout.setup_datetime_page",
+          "kind": "layout",
+          "name": "setup_datetime_page"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 117,
+          "text": "override val titleResId = R.string.setup_datetime",
+          "kind": "string",
+          "name": "setup_datetime"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 119,
+          "text": "override val iconResId = R.drawable.ic_datetime",
+          "kind": "drawable",
+          "name": "ic_datetime"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 144,
+          "text": ".setTitle(R.string.setup_time_zone)",
+          "kind": "string",
+          "name": "setup_time_zone"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 161,
+          "text": "'d' -> getString(R.string.date_format_day)",
+          "kind": "string",
+          "name": "date_format_day"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 162,
+          "text": "'M' -> getString(R.string.date_format_month)",
+          "kind": "string",
+          "name": "date_format_month"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 163,
+          "text": "else -> getString(R.string.date_format_year)",
+          "kind": "string",
+          "name": "date_format_year"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 225,
+          "text": "val to = intArrayOf(android.R.id.text1, android.R.id.text2)",
+          "kind": "id",
+          "name": "text1"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 225,
+          "text": "val to = intArrayOf(android.R.id.text1, android.R.id.text2)",
+          "kind": "id",
+          "name": "text2"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 233,
+          "text": "R.layout.date_time_setup_custom_list_item_2,",
+          "kind": "layout",
+          "name": "date_time_setup_custom_list_item_2"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/time/TimePickerFragment.kt",
+      "sha256": "0d3e3ac6f2936491179532d09fef410e31738a6af21a3828a878b490e3b93c34",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/user/BiometricActivity.kt",
+      "sha256": "d515b6ea2627615bfbcff6a6d0500314ba7ff63d92bab7c98450e9c1b7e52707",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/user/ScreenLockActivity.kt",
+      "sha256": "4fc516bd55e759ea7a9ea37f0cf34899f32868c194dfbcc60aa16e8f604ad7e0",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/util/ButtonGroupUtils.kt",
+      "sha256": "07ca7b5304fb6e50ea4f53909fc4b99cd8585090dc49ccdba61670bca73c9580",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/util/SetupWizardUtils.kt",
+      "sha256": "4a944c19defaeccc1ff5fef40189d96d2a999dbec687659055d8d11af2d66fb2",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+      "sha256": "d0ff5b24c0c9cd872f0d18e804c714336a97e38acdca5dcde219cfce99fef616",
+      "resourceReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 55,
+          "text": "findViewById<View>(R.id.start).setOnClickListener { onNextPressed() }",
+          "kind": "id",
+          "name": "start"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 56,
+          "text": "findViewById<View>(R.id.launch_accessibility).setOnClickListener {",
+          "kind": "id",
+          "name": "launch_accessibility"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 60,
+          "text": "val welcomeTitle: TextView = findViewById(R.id.welcome_title)",
+          "kind": "id",
+          "name": "welcome_title"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 63,
+          "text": "getString(R.string.setup_managed_profile_welcome_message)",
+          "kind": "string",
+          "name": "setup_managed_profile_welcome_message"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 65,
+          "text": "getString(R.string.setup_welcome_message, getString(R.string.os_name))",
+          "kind": "string",
+          "name": "setup_welcome_message"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 65,
+          "text": "getString(R.string.setup_welcome_message, getString(R.string.os_name))",
+          "kind": "string",
+          "name": "os_name"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 89,
+          "text": "val infoButton = layoutInflater.inflate(R.layout.welcome_info_button, row, false)",
+          "kind": "layout",
+          "name": "welcome_info_button"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 124,
+          "text": "mixin.actionButton?.applyChipStyle(getString(R.string.skip))",
+          "kind": "string",
+          "name": "skip"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 140,
+          "text": "setIconResource(R.drawable.ic_emergency_dial)",
+          "kind": "drawable",
+          "name": "ic_emergency_dial"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 143,
+          "text": "applyChipStyle(getString(R.string.emergency_call))",
+          "kind": "string",
+          "name": "emergency_call"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 147,
+          "text": "override val layoutResId = R.layout.welcome_activity",
+          "kind": "layout",
+          "name": "welcome_activity"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/widget/RevealHoleView.kt",
+      "sha256": "c22b925667c39f0e26cd334ffd1b4d4490701144ef56395048169f090255760c",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/wizardmanager/WizardAction.kt",
+      "sha256": "e11a177f19e1600feff3106dccfc7be30e3430daf523ba39ff3729a21b588ec1",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/wizardmanager/WizardManager.kt",
+      "sha256": "3493de220e20598566d9e86e2325c0dd626f3cf299c4baf5a76d1ce6e58857e8",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/wizardmanager/WizardScript.kt",
+      "sha256": "38fe99549014d903b61ef0b6a3ed9ffe7dda24b5ceee634805a2d35f0490dae6",
+      "resourceReferences": []
+    },
+    {
+      "path": "app/src/main/java/org/lineageos/setupwizard/wizardmanager/WizardTransitions.kt",
+      "sha256": "71a2d9d87f95c3244eeed0acdedfc57dc3fe906961f2202e477bdf9196c80016",
+      "resourceReferences": []
+    }
+  ],
+  "resources": [
+    {
+      "path": "app/src/main/res/anim/translucent_enter.xml",
+      "sha256": "ac86634147600f5d1c1d4d602b4a4b0bed9bed8a9a0f48c3cdfe1090bb1eddd9",
+      "bytes": 433,
+      "qualifier": "anim",
+      "resource": "translucent_enter",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "set",
+      "widgets": [
+        "alpha",
+        "set"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/anim/translucent_exit.xml",
+      "sha256": "111f2476ab5c170b2d2e321466a3a7977e7f7d404fac53d7950c997ed67fd763",
+      "bytes": 431,
+      "qualifier": "anim",
+      "resource": "translucent_exit",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "set",
+      "widgets": [
+        "alpha",
+        "set"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/color/button_bar_text.xml",
+      "sha256": "527d220ea198d9d363ae32dc8f580d38c26edef064002af0b3620cf579d48b58",
+      "bytes": 380,
+      "qualifier": "color",
+      "resource": "button_bar_text",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "selector",
+      "widgets": [
+        "item",
+        "selector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/color/tv_list_item_foreground.xml",
+      "sha256": "5376a985e77f7bbe3a967ae857747e943fdb5c76a55ec3118fe4bb1fa1895546",
+      "bytes": 367,
+      "qualifier": "color",
+      "resource": "tv_list_item_foreground",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "selector",
+      "widgets": [
+        "item",
+        "selector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_accessibility.xml",
+      "sha256": "527ec9a41bf095e6e9f8767645bb9792f6fbe81049517e65bac00d46c05d1592",
+      "bytes": 541,
+      "qualifier": "drawable",
+      "resource": "ic_accessibility",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_arrow_forward.xml",
+      "sha256": "0c416ce8c3b9f4510fde0747a1d1726baa7e881350a06ec6d7dcef895ef020e5",
+      "bytes": 535,
+      "qualifier": "drawable",
+      "resource": "ic_arrow_forward",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_check.xml",
+      "sha256": "3dab8255c62edc41fea45b81459c86f86b98669755ee4b2e353f54b7b2196976",
+      "bytes": 495,
+      "qualifier": "drawable",
+      "resource": "ic_check",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 71,
+          "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 95,
+          "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 55,
+          "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)"
+        },
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 62,
+          "text": "modeGroup.updateCheckedIcons(R.drawable.ic_check)"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_datetime.xml",
+      "sha256": "992469d6a606c811c0f45ba283dc09693b119adb951c80906afbb8acf54e820a",
+      "bytes": 610,
+      "qualifier": "drawable",
+      "resource": "ic_datetime",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 119,
+          "text": "override val iconResId = R.drawable.ic_datetime"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_dialer.xml",
+      "sha256": "8d527214943ea61247418929bd63d9982d9bdfd409ece6157cb2260e70111f94",
+      "bytes": 856,
+      "qualifier": "drawable",
+      "resource": "ic_dialer",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_emergency_dial.xml",
+      "sha256": "3932ab188bffae84f96096b87f4522547d02f087d2c2564b922439af74dcae12",
+      "bytes": 736,
+      "qualifier": "drawable",
+      "resource": "ic_emergency_dial",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 140,
+          "text": "setIconResource(R.drawable.ic_emergency_dial)"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_eye.xml",
+      "sha256": "e14d64239ea42a99787ffb523deb0c997bc5ccbbd5659f3ce921fb203b3bdc1e",
+      "bytes": 727,
+      "qualifier": "drawable",
+      "resource": "ic_eye",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_info.xml",
+      "sha256": "0dca8f97ea6b729ffe12fff83cd54322a0b747375c85137540861d76d0e7ab9f",
+      "bytes": 607,
+      "qualifier": "drawable",
+      "resource": "ic_info",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+          "line": 82,
+          "text": "override val iconResId = R.drawable.ic_info"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "sha256": "96c418e00209bb3356d254f550bd667369a95c0aa13e3a76d6c145cbad82044a",
+      "bytes": 432,
+      "qualifier": "drawable",
+      "resource": "ic_launcher_background",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "dee7b847e46afd44ad50fc0d3ca39442e036e47a5fe5356d324ded7dc02e5431",
+      "bytes": 2753,
+      "qualifier": "drawable",
+      "resource": "ic_launcher_foreground",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "clip-path",
+        "gradient",
+        "group",
+        "item",
+        "path",
+        "vector",
+        "{http://schemas.android.com/aapt}attr"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_locale.xml",
+      "sha256": "5cac52df639583e6645f01b50d8e515a6fdca0a2795c4764e8d555140393eccf",
+      "bytes": 776,
+      "qualifier": "drawable",
+      "resource": "ic_locale",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/LocaleActivity.kt",
+          "line": 112,
+          "text": "override val iconResId = R.drawable.ic_locale"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_location.xml",
+      "sha256": "d94e5b8fd767d5ba50f425dd2767775e613dd7ba96f4cff86a4e4f7a94c3ca61",
+      "bytes": 630,
+      "qualifier": "drawable",
+      "resource": "ic_location",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/privacy/LocationSettingsActivity.kt",
+          "line": 73,
+          "text": "override val iconResId = R.drawable.ic_location"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_nav_home.xml",
+      "sha256": "32b0861415be971bf5208a4cabd817487a8d660009d2eda22ed8dc3b813a2fe6",
+      "bytes": 479,
+      "qualifier": "drawable",
+      "resource": "ic_nav_home",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 137,
+          "text": "swipeHintIcon.setImageResource(R.drawable.ic_nav_home)"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_navigation.xml",
+      "sha256": "b370a6aaca0ccf37d17b29c65f8b2f308545bff6dbd12757a3c7a2cc6e9ce621",
+      "bytes": 1228,
+      "qualifier": "drawable",
+      "resource": "ic_navigation",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 120,
+          "text": "override val iconResId = R.drawable.ic_navigation"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_palette.xml",
+      "sha256": "9217afce64cc13384a0566fedec244877fc05273634446280746c403ae46747a",
+      "bytes": 1358,
+      "qualifier": "drawable",
+      "resource": "ic_palette",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 105,
+          "text": "override val iconResId = R.drawable.ic_palette"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_restore.xml",
+      "sha256": "f7bb2262ebd95350a408777f1d513341ec015f96ea041683157eee212040b5cf",
+      "bytes": 2694,
+      "qualifier": "drawable",
+      "resource": "ic_restore",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+          "line": 47,
+          "text": "override val iconResId = R.drawable.ic_restore"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_sim.xml",
+      "sha256": "578907553c1d051978985d70610c9463222a3a852569bde9c176eb472ec88edf",
+      "bytes": 608,
+      "qualifier": "drawable",
+      "resource": "ic_sim",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 95,
+          "text": "override val iconResId = R.drawable.ic_sim"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_swipe_up.xml",
+      "sha256": "905dd760409030ff8dea3b666ce8a9e33812b6823a4564d804c6cdb758ef6eb3",
+      "bytes": 1109,
+      "qualifier": "drawable",
+      "resource": "ic_swipe_up",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_system_update.xml",
+      "sha256": "6e5370223907a009608d08ee327dbe5d4c35b9ced51de78ffea023ae9e27d655",
+      "bytes": 594,
+      "qualifier": "drawable",
+      "resource": "ic_system_update",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 70,
+          "text": "override val iconResId = R.drawable.ic_system_update"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_tv_expand.xml",
+      "sha256": "923518de0919dfe39f5534fb4b1a9ec64672294b1940b72d943360534717e219",
+      "bytes": 490,
+      "qualifier": "drawable",
+      "resource": "ic_tv_expand",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/logo.xml",
+      "sha256": "aaeb158c32453a61b1df968de8ec24f00c68f42d9586481050dc74bbc42593b0",
+      "bytes": 911,
+      "qualifier": "drawable",
+      "resource": "logo",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 58,
+          "text": "override val iconResId = R.drawable.logo"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable/setup_item_card_background.xml",
+      "sha256": "bbce06d11f3ef5de4050ab848d13bb3297b7ad906c546e0e5105a9c0d0ea83ac",
+      "bytes": 382,
+      "qualifier": "drawable",
+      "resource": "setup_item_card_background",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "shape",
+      "widgets": [
+        "corners",
+        "shape",
+        "solid"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/theme_preview_qs.xml",
+      "sha256": "c295ac245eee5d7b9526304d1c45dddfe3dc5710f122dddbdecc0b73e4c4e30a",
+      "bytes": 50191,
+      "qualifier": "drawable",
+      "resource": "theme_preview_qs",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "vector",
+      "widgets": [
+        "clip-path",
+        "group",
+        "path",
+        "vector"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable/tv_list_item_background.xml",
+      "sha256": "a818e3d85fe7ad30d3d323bdedafa9f5f1d5d59bc2c94365f3be8cef1a314e1b",
+      "bytes": 684,
+      "qualifier": "drawable",
+      "resource": "tv_list_item_background",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "selector",
+      "widgets": [
+        "corners",
+        "item",
+        "selector",
+        "shape",
+        "solid"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/theme_preview_wallpaper.jpg",
+      "sha256": "218bcd35d3a057bd3961f733cbbe0bbf0f33dd985b5a22216574f37d2b3142b6",
+      "bytes": 7986,
+      "qualifier": "drawable-nodpi",
+      "resource": "theme_preview_wallpaper",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/layout/date_time_setup_custom_list_item_2.xml",
+      "sha256": "f9c1fb07c1f4113966b6dc813d925aa473d6ade052ad873aaa1c78ad8aa5e408",
+      "bytes": 1280,
+      "qualifier": "layout",
+      "resource": "date_time_setup_custom_list_item_2",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "LinearLayout",
+      "widgets": [
+        "LinearLayout",
+        "TextView"
+      ],
+      "nativeIds": [
+        "@android:id/text1",
+        "@android:id/text2"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 233,
+          "text": "R.layout.date_time_setup_custom_list_item_2,"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/device_info_activity.xml",
+      "sha256": "b83209fa0415b9d7616f034f6344cfc069e8cb46fbdfc97a9b438dfb848fb554",
+      "bytes": 376,
+      "qualifier": "layout",
+      "resource": "device_info_activity",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifRecyclerLayout",
+      "widgets": [
+        "com.google.android.setupdesign.GlifRecyclerLayout"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoActivity.kt",
+          "line": 78,
+          "text": "override val layoutResId = R.layout.device_info_activity"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/device_info_item.xml",
+      "sha256": "c9ac368942dba3aa0bd77addaff863befbfde38df172b5bb2092da9fd068f895",
+      "bytes": 2700,
+      "qualifier": "layout",
+      "resource": "device_info_item",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "LinearLayout",
+      "widgets": [
+        "FrameLayout",
+        "ImageView",
+        "LinearLayout",
+        "com.google.android.setupdesign.view.RichTextView"
+      ],
+      "nativeIds": [
+        "@id/sud_items_icon_container",
+        "@id/sud_items_icon",
+        "@id/sud_items_title",
+        "@id/sud_items_summary",
+        "@+id/device_info_expand",
+        "@+id/device_info_barcode"
+      ],
+      "nativeTextReferences": [
+        "@null",
+        "@null"
+      ],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/DeviceInfoItem.kt",
+          "line": 28,
+          "text": "setLayoutResource(R.layout.device_info_item)"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/finish_activity.xml",
+      "sha256": "7bdf5a4ff58e07b7494641edb2bc78c67c2e1f867adaf146abc7fcc74abee248",
+      "bytes": 2566,
+      "qualifier": "layout",
+      "resource": "finish_activity",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "android.widget.FrameLayout",
+      "widgets": [
+        "ImageView",
+        "LinearLayout",
+        "TextView",
+        "android.widget.FrameLayout",
+        "org.lineageos.setupwizard.widget.RevealHoleView"
+      ],
+      "nativeIds": [
+        "@+id/root",
+        "@+id/background",
+        "@+id/linear_layout",
+        "@+id/brand_logo",
+        "@+id/swipe_hint",
+        "@+id/swipe_hint_icon",
+        "@+id/swipe_hint_text"
+      ],
+      "nativeTextReferences": [
+        "@null",
+        "@string/swipe_up_to_go_home"
+      ],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/FinishActivity.kt",
+          "line": 337,
+          "text": "override val layoutResId = R.layout.finish_activity"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/intro_restore_activity.xml",
+      "sha256": "aee6d05314a968f33ba04d4d9da44bbab00b2320bd743b62172db0f179b7e752",
+      "bytes": 856,
+      "qualifier": "layout",
+      "resource": "intro_restore_activity",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifLayout",
+      "widgets": [
+        "LinearLayout",
+        "View",
+        "com.google.android.setupdesign.GlifLayout"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout",
+        "@+id/page"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/backup/RestoreIntroActivity.kt",
+          "line": 43,
+          "text": "override val layoutResId = R.layout.intro_restore_activity"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/location_settings.xml",
+      "sha256": "04c3eb0485d461287d8449090729a2f74e25c5dcfb00e0cf908e0855651996da",
+      "bytes": 476,
+      "qualifier": "layout",
+      "resource": "location_settings",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifRecyclerLayout",
+      "widgets": [
+        "com.google.android.setupdesign.GlifRecyclerLayout"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/privacy/LocationSettingsActivity.kt",
+          "line": 69,
+          "text": "override val layoutResId = R.layout.location_settings"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/setup_datetime_page.xml",
+      "sha256": "6454602429b151b67e8e0b9f124885f3a8b8b57b545d30ab48aad7a3790c5a30",
+      "bytes": 476,
+      "qualifier": "layout",
+      "resource": "setup_datetime_page",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifRecyclerLayout",
+      "widgets": [
+        "com.google.android.setupdesign.GlifRecyclerLayout"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/time/DateTimeActivity.kt",
+          "line": 115,
+          "text": "override val layoutResId = R.layout.setup_datetime_page"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/setup_device_specific.xml",
+      "sha256": "b31dbe27cbf3f194f7550db64c760423d5c9bfb752a89e565eaf35547020636a",
+      "bytes": 332,
+      "qualifier": "layout",
+      "resource": "setup_device_specific",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "LinearLayout",
+      "widgets": [
+        "LinearLayout"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/layout/setup_items_switch.xml",
+      "sha256": "c00518dfd40ecce16c956d4f7875d5b41d0fc8aacdffb1af9c6028be857aa254",
+      "bytes": 2408,
+      "qualifier": "layout",
+      "resource": "setup_items_switch",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "LinearLayout",
+      "widgets": [
+        "FrameLayout",
+        "ImageView",
+        "LinearLayout",
+        "com.google.android.material.materialswitch.MaterialSwitch",
+        "com.google.android.setupdesign.view.RichTextView"
+      ],
+      "nativeIds": [
+        "@+id/sud_items_icon_container",
+        "@+id/sud_items_icon",
+        "@+id/sud_items_title",
+        "@+id/sud_items_summary",
+        "@+id/sud_items_switch"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/layout/setup_lineage_settings.xml",
+      "sha256": "5b719520add5f1ecabc08c99f7bb1a7aed5be87b35e3dd2f5a1d4e13ce74dca4",
+      "bytes": 484,
+      "qualifier": "layout",
+      "resource": "setup_lineage_settings",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifRecyclerLayout",
+      "widgets": [
+        "com.google.android.setupdesign.GlifRecyclerLayout"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 54,
+          "text": "override val layoutResId = R.layout.setup_lineage_settings"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/setup_loading_page.xml",
+      "sha256": "805ca6155def0a6391d9f214b9ce5342fe6fef2a82b6bbd5bc92a710c26d6274",
+      "bytes": 1205,
+      "qualifier": "layout",
+      "resource": "setup_loading_page",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifLayout",
+      "widgets": [
+        "FrameLayout",
+        "LinearLayout",
+        "ProgressBar",
+        "com.google.android.setupdesign.GlifLayout"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout",
+        "@+id/progressBar1",
+        "@+id/page"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/base/SubBaseActivity.kt",
+          "line": 95,
+          "text": "override val layoutResId = R.layout.setup_loading_page"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/setup_locale.xml",
+      "sha256": "5488fc158715195fdf318708c819c152ba112a7f3e59e530dd07c12643b30b2c",
+      "bytes": 434,
+      "qualifier": "layout",
+      "resource": "setup_locale",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifRecyclerLayout",
+      "widgets": [
+        "com.google.android.setupdesign.GlifRecyclerLayout"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/LocaleActivity.kt",
+          "line": 108,
+          "text": "override val layoutResId = R.layout.setup_locale"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/setup_navigation.xml",
+      "sha256": "fea174679eb20aed6f2396e43ccd0c5379c3820783d67aa7fe720450c9cc50ac",
+      "bytes": 4612,
+      "qualifier": "layout",
+      "resource": "setup_navigation",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifLayout",
+      "widgets": [
+        "FrameLayout",
+        "LinearLayout",
+        "com.airbnb.lottie.LottieAnimationView",
+        "com.google.android.material.button.MaterialButton",
+        "com.google.android.material.button.MaterialButtonToggleGroup",
+        "com.google.android.material.materialswitch.MaterialSwitch",
+        "com.google.android.setupdesign.GlifLayout",
+        "com.google.android.setupdesign.view.RichTextView"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout",
+        "@+id/navigation_illustration",
+        "@+id/navigation_mode_group",
+        "@+id/mode_gesture",
+        "@+id/mode_sw_keys",
+        "@+id/hide_navigation_hint_card",
+        "@+id/hide_navigation_hint"
+      ],
+      "nativeTextReferences": [
+        "@string/gesture_navigation_short",
+        "@string/navbar_navigation_short",
+        "@string/hide_gesture_hint"
+      ],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 116,
+          "text": "override val layoutResId = R.layout.setup_navigation"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/setup_theme.xml",
+      "sha256": "1e263b3c789c52e39b65de6148b100dd2e225ca74a725b14a22a191270be4768",
+      "bytes": 4876,
+      "qualifier": "layout",
+      "resource": "setup_theme",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifLayout",
+      "widgets": [
+        "FrameLayout",
+        "ImageView",
+        "LinearLayout",
+        "com.google.android.material.button.MaterialButton",
+        "com.google.android.material.button.MaterialButtonToggleGroup",
+        "com.google.android.material.materialswitch.MaterialSwitch",
+        "com.google.android.setupdesign.GlifLayout",
+        "com.google.android.setupdesign.view.RichTextView"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout",
+        "@+id/theme_preview_wallpaper",
+        "@+id/theme_mode_group",
+        "@+id/mode_dark",
+        "@+id/mode_light",
+        "@+id/black_theme_card",
+        "@+id/black_theme"
+      ],
+      "nativeTextReferences": [
+        "@null",
+        "@string/theme_preview",
+        "@string/dark",
+        "@string/light",
+        "@string/pure_black_theme"
+      ],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/ThemeSettingsActivity.kt",
+          "line": 101,
+          "text": "override val layoutResId = R.layout.setup_theme"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/sim_missing_page.xml",
+      "sha256": "f28e8415866e56e3c12d8c9fc49c30f6403d0bbb97ed5c4562fb0858bd06ba97",
+      "bytes": 1093,
+      "qualifier": "layout",
+      "resource": "sim_missing_page",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifLayout",
+      "widgets": [
+        "FrameLayout",
+        "LinearLayout",
+        "com.google.android.setupdesign.GlifLayout"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout",
+        "@+id/page"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/network/SimMissingActivity.kt",
+          "line": 91,
+          "text": "override val layoutResId = R.layout.sim_missing_page"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/tv_list_item.xml",
+      "sha256": "0721681900a4d4fc5c82a6b8a29feb71d4673296bb10c77bf379cb68257a3c45",
+      "bytes": 2802,
+      "qualifier": "layout",
+      "resource": "tv_list_item",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "LinearLayout",
+      "widgets": [
+        "FrameLayout",
+        "ImageView",
+        "LinearLayout",
+        "TextView"
+      ],
+      "nativeIds": [
+        "@id/sud_items_icon_container",
+        "@id/sud_items_icon",
+        "@id/sud_items_title",
+        "@id/sud_items_summary",
+        "@+id/tv_list_item_expand"
+      ],
+      "nativeTextReferences": [
+        "@null",
+        "@null"
+      ],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/WelcomeLocaleActivity.kt",
+          "line": 32,
+          "text": "override val localeItemLayoutResId = R.layout.tv_list_item"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/update_recovery_page.xml",
+      "sha256": "5fe9e02ed7b1af8dc5cd8297fb0b9894e118997b588d95794eb815cfcf52f9f2",
+      "bytes": 483,
+      "qualifier": "layout",
+      "resource": "update_recovery_page",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifRecyclerLayout",
+      "widgets": [
+        "com.google.android.setupdesign.GlifRecyclerLayout"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 66,
+          "text": "override val layoutResId = R.layout.update_recovery_page"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/welcome_activity.xml",
+      "sha256": "b4912d513623fc7008cc37cc0003086338a1948ca314540f195b8e58e2877ff3",
+      "bytes": 4202,
+      "qualifier": "layout",
+      "resource": "welcome_activity",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifLayout",
+      "widgets": [
+        "LinearLayout",
+        "Space",
+        "TextView",
+        "com.google.android.material.button.MaterialButton",
+        "com.google.android.setupdesign.GlifLayout",
+        "com.google.android.setupdesign.view.SudLottieAnimationView"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout",
+        "@+id/brand_logo",
+        "@+id/welcome_title",
+        "@+id/launch_accessibility",
+        "@+id/start"
+      ],
+      "nativeTextReferences": [
+        "@string/accessibility_settings",
+        "@string/start"
+      ],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 147,
+          "text": "override val layoutResId = R.layout.welcome_activity"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/welcome_info_button.xml",
+      "sha256": "b4e8e63e18b2ab20e8a6c1903bfb299c6d38f3d588a298a230242734e5f23d8d",
+      "bytes": 944,
+      "qualifier": "layout",
+      "resource": "welcome_info_button",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.material.button.MaterialButton",
+      "widgets": [
+        "com.google.android.material.button.MaterialButton"
+      ],
+      "nativeIds": [
+        "@+id/device_info"
+      ],
+      "nativeTextReferences": [
+        "@string/device_info"
+      ],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 89,
+          "text": "val infoButton = layoutInflater.inflate(R.layout.welcome_info_button, row, false)"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/welcome_locale_activity.xml",
+      "sha256": "c3fc973190bae67769f71c410b05b43717de5fb110b7556c2cdb027d03468cf2",
+      "bytes": 2962,
+      "qualifier": "layout",
+      "resource": "welcome_locale_activity",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "FrameLayout",
+      "widgets": [
+        "FrameLayout",
+        "LinearLayout",
+        "Space",
+        "TextView",
+        "androidx.leanback.widget.VerticalGridView",
+        "com.airbnb.lottie.LottieAnimationView"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout",
+        "@+id/brand_logo",
+        "@+id/welcome_title",
+        "@id/setup_items"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/locale/WelcomeLocaleActivity.kt",
+          "line": 26,
+          "text": "override val layoutResId = R.layout.welcome_locale_activity"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/layout/welcome_template.xml",
+      "sha256": "2638dad75de8f0e650e921ed5aeeacad07a934809a04245c0fadee7d1bc33d15",
+      "bytes": 919,
+      "qualifier": "layout",
+      "resource": "welcome_template",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "androidx.core.view.insets.ProtectionLayout",
+      "widgets": [
+        "androidx.core.view.insets.ProtectionLayout",
+        "com.google.android.setupcompat.view.StatusBarBackgroundLayout",
+        "include"
+      ],
+      "nativeIds": [
+        "@+id/sud_layout_protection",
+        "@+id/suc_layout_status"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/layout-w600dp/welcome_activity.xml",
+      "sha256": "7ea569a260131c2e27f9b187ddf5b21628a751edf912677600ff46ef8dae14da",
+      "bytes": 4209,
+      "qualifier": "layout-w600dp",
+      "resource": "welcome_activity",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "com.google.android.setupdesign.GlifLayout",
+      "widgets": [
+        "LinearLayout",
+        "Space",
+        "TextView",
+        "com.google.android.material.button.MaterialButton",
+        "com.google.android.setupdesign.GlifLayout",
+        "com.google.android.setupdesign.view.SudLottieAnimationView"
+      ],
+      "nativeIds": [
+        "@+id/setup_wizard_layout",
+        "@+id/brand_logo",
+        "@+id/welcome_title",
+        "@+id/launch_accessibility",
+        "@+id/start"
+      ],
+      "nativeTextReferences": [
+        "@string/accessibility_settings",
+        "@string/start"
+      ],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/WelcomeActivity.kt",
+          "line": 147,
+          "text": "override val layoutResId = R.layout.welcome_activity"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "sha256": "e26439e5672e38040375ad4e182a4944301a9cd98ccd0c7b579811cbeae59801",
+      "bytes": 374,
+      "qualifier": "mipmap-anydpi",
+      "resource": "ic_launcher",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "adaptive-icon",
+      "widgets": [
+        "adaptive-icon",
+        "background",
+        "foreground"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/raw/lineage_wizard_script.xml",
+      "sha256": "6a78e365e095fbb2d32bf3eaaaa0420de82babbf41bdc986426c42e080bfd3f1",
+      "bytes": 3720,
+      "qualifier": "raw",
+      "resource": "lineage_wizard_script",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "WizardScript",
+      "widgets": [
+        "WizardAction",
+        "WizardScript",
+        "result"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/raw/lineage_wizard_script_managed_profile.xml",
+      "sha256": "9def5cb9821bc6d0a0d068fbff74eb47bcdd344702b19e5e4e340656e6242f32",
+      "bytes": 1235,
+      "qualifier": "raw",
+      "resource": "lineage_wizard_script_managed_profile",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "WizardScript",
+      "widgets": [
+        "WizardAction",
+        "WizardScript",
+        "result"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/raw/lineage_wizard_script_user.xml",
+      "sha256": "9f47d74dc5c5183fb9f69cf2de3c3cda68edf5025d01e17bf90d95a6dcaed241",
+      "bytes": 2063,
+      "qualifier": "raw",
+      "resource": "lineage_wizard_script_user",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "WizardScript",
+      "widgets": [
+        "WizardAction",
+        "WizardScript",
+        "result"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/raw/lottie_system_nav_3_button.json",
+      "sha256": "a2fe0e5c403785bdb223a2de97e5e39c45a3ef951154407a6ec7a19660beab4a",
+      "bytes": 119402,
+      "qualifier": "raw",
+      "resource": "lottie_system_nav_3_button",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 67,
+          "text": "navigationIllustration.setAnimation(R.raw.lottie_system_nav_3_button)"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/raw/lottie_system_nav_fully_gestural.json",
+      "sha256": "2974ce0d0c9b78972c09a79914b197b9603252c1bf448f43122f6d893ebd1e2f",
+      "bytes": 178959,
+      "qualifier": "raw",
+      "resource": "lottie_system_nav_fully_gestural",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/NavigationSettingsActivity.kt",
+          "line": 61,
+          "text": "navigationIllustration.setAnimation(R.raw.lottie_system_nav_fully_gestural)"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/raw/lottie_welcome.json",
+      "sha256": "9951abf6a1c1522c128e23813fee33847e5c7242c5e12fd0488ff73f8042a604",
+      "bytes": 4578,
+      "qualifier": "raw",
+      "resource": "lottie_welcome",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/raw/wizard_script.xml",
+      "sha256": "f4bb95b18b2492439dd9a9b50f64ac68b22261db5dcd9aa8ca330c74769ac882",
+      "bytes": 15529,
+      "qualifier": "raw",
+      "resource": "wizard_script",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "WizardScript",
+      "widgets": [
+        "WizardAction",
+        "WizardScript",
+        "result"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/raw/wizard_script_user.xml",
+      "sha256": "a1e9370ce91f9aacd310b57122e8a0790e26c9238f4291d705c6fa124c172dc4",
+      "bytes": 6886,
+      "qualifier": "raw",
+      "resource": "wizard_script_user",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "WizardScript",
+      "widgets": [
+        "WizardAction",
+        "WizardScript",
+        "result"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/raw-television/lineage_wizard_script.xml",
+      "sha256": "c4eb6ce6905761fa6b3221c6cee29a20c74e8594513dcdaaa0f9d4f685e623e5",
+      "bytes": 1761,
+      "qualifier": "raw-television",
+      "resource": "lineage_wizard_script",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "WizardScript",
+      "widgets": [
+        "WizardAction",
+        "WizardScript",
+        "result"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values/attrs.xml",
+      "sha256": "be509ebfa914c5e1dc37789d519b4a74b7b6582f00f0dfcb3cf4351cbd21717a",
+      "bytes": 1073,
+      "qualifier": "values",
+      "resource": "attrs",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "attr",
+        "declare-styleable",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "sha256": "edcdaab94024de0988529f62f791759b8bfa35bba1dea59318e577cea44c46c6",
+      "bytes": 1145,
+      "qualifier": "values",
+      "resource": "colors",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "color",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values/config.xml",
+      "sha256": "31d8bb4455564805a8097924479d9abda30a079385a70b01ec24a83cd15be46b",
+      "bytes": 655,
+      "qualifier": "values",
+      "resource": "config",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "bool",
+        "integer",
+        "resources",
+        "string"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values/config_partner.xml",
+      "sha256": "4df7b15e71cdb1da6f98871c586be557e078ec45f8fbc2134228014e02db276b",
+      "bytes": 373,
+      "qualifier": "values",
+      "resource": "config_partner",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "bool",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values/dimens.xml",
+      "sha256": "134d0fb59fd2c2ad94afe952251196bf026bc3ef42190991a975494f2de17bc3",
+      "bytes": 3043,
+      "qualifier": "values",
+      "resource": "dimens",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "dimen",
+        "item",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values/dimens_tv.xml",
+      "sha256": "ad68a83e944bd242d0ff14926f5bf47ecbed7c0e2a1ae5c6f07e3ad16c1662c1",
+      "bytes": 1393,
+      "qualifier": "values",
+      "resource": "dimens_tv",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "dimen",
+        "item",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values/ids.xml",
+      "sha256": "95a1b4f9119e87d76e48c1d771200d9ca1776ab98ec336c2847bf1ef5f8c0eeb",
+      "bytes": 339,
+      "qualifier": "values",
+      "resource": "ids",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "item",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values/integers_tv.xml",
+      "sha256": "e278d12cb9370c3f65f68cdd75281f9c71385c815de900dc406dd96985ab84a0",
+      "bytes": 228,
+      "qualifier": "values",
+      "resource": "integers_tv",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "integer",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "b3bb988d2a1023a3686623eb4ab626128b4f27421a184c51c4571d41b0f1f5ce",
+      "bytes": 8180,
+      "qualifier": "values",
+      "resource": "strings",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "b",
+        "resources",
+        "string",
+        "{urn:oasis:names:tc:xliff:document:1.2}g"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values/styles.xml",
+      "sha256": "4d4777eb795283ebe039af20819fc8f39c039bce5bb2b07df26b97175ca544aa",
+      "bytes": 2642,
+      "qualifier": "values",
+      "resource": "styles",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "item",
+        "resources",
+        "style"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values-night/colors.xml",
+      "sha256": "05b7c448162855f1628f88f16176e6fd1214f894cc0ece4ba79f8eee3c6d0bd5",
+      "bytes": 555,
+      "qualifier": "values-night",
+      "resource": "colors",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "color",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values-television/config.xml",
+      "sha256": "6f56b281e7708ed0a923dff8786f09ba599ed98432a7d40f03b5cef867ccab80",
+      "bytes": 216,
+      "qualifier": "values-television",
+      "resource": "config",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "bool",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values-television/dimens.xml",
+      "sha256": "32ae63261456200274dabcfdb4a13e92c764d7575f71978c8bee48f433a3e5d1",
+      "bytes": 323,
+      "qualifier": "values-television",
+      "resource": "dimens",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "dimen",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values-television/styles.xml",
+      "sha256": "8cd9b5bbdfdd64d1e908930fb27a876764a61ed8b61aaef883f574a5e7fe8d40",
+      "bytes": 1063,
+      "qualifier": "values-television",
+      "resource": "styles",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "item",
+        "resources",
+        "style"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values-w600dp/dimens.xml",
+      "sha256": "b26788c94693984f77f75a8a1e7fa057e2c6f8d6ce5d4de400888cd77e255a2a",
+      "bytes": 216,
+      "qualifier": "values-w600dp",
+      "resource": "dimens",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "dimen",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values-w600dp-h480dp/dimens.xml",
+      "sha256": "0b4cd531bf9ad8e61fa7c6478203016167c70a676adda30e8ad22bc1297722c6",
+      "bytes": 411,
+      "qualifier": "values-w600dp-h480dp",
+      "resource": "dimens",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "dimen",
+        "item",
+        "resources"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/values-w600dp-television/styles.xml",
+      "sha256": "f6433c542e454174cf762f3518a46d26fd0959e7ed2e67341741f5e707c59aa0",
+      "bytes": 400,
+      "qualifier": "values-w600dp-television",
+      "resource": "styles",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "resources",
+      "widgets": [
+        "item",
+        "resources",
+        "style"
+      ],
+      "nativeIds": [],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/xml/datetime_items.xml",
+      "sha256": "0327419492f6a091e99bf863c9b90a8861d30befc7d9860059723a5edee7b81c",
+      "bytes": 1064,
+      "qualifier": "xml",
+      "resource": "datetime_items",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "ItemGroup",
+      "widgets": [
+        "Item",
+        "ItemGroup",
+        "NonActionableItem",
+        "SectionItem",
+        "SwitchItem"
+      ],
+      "nativeIds": [
+        "@+id/date_item",
+        "@+id/date_format_item",
+        "@+id/time_zone_item",
+        "@+id/time_item",
+        "@+id/time_format_item"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/xml/lineage_settings_items.xml",
+      "sha256": "c78175903597c26cb285d0198095e347c0a784dbff006bd1562b756232c6c90c",
+      "bytes": 562,
+      "qualifier": "xml",
+      "resource": "lineage_settings_items",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "ItemGroup",
+      "widgets": [
+        "ItemGroup",
+        "SwitchItem"
+      ],
+      "nativeIds": [
+        "@+id/metrics_item",
+        "@+id/nav_keys_item"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/settings/LineageSettingsActivity.kt",
+          "line": 60,
+          "text": "override val itemEntriesResId = R.xml.lineage_settings_items"
+        }
+      ]
+    },
+    {
+      "path": "app/src/main/res/xml/location_items.xml",
+      "sha256": "88337dfd629cdfe67090083bb904ca3773070cebdf82f94a0f572bb0101c5fd8",
+      "bytes": 719,
+      "qualifier": "xml",
+      "resource": "location_items",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "ItemGroup",
+      "widgets": [
+        "ItemGroup",
+        "SwitchItem"
+      ],
+      "nativeIds": [
+        "@+id/location_item",
+        "@+id/location_agps_item"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": []
+    },
+    {
+      "path": "app/src/main/res/xml/update_recovery_items.xml",
+      "sha256": "46355d68aa8660d1b16e40936866c74c7467f1a50ec1f1339ac8449256636771",
+      "bytes": 400,
+      "qualifier": "xml",
+      "resource": "update_recovery_items",
+      "semanticDecision": "PENDING - source map does not approve artwork or reuse",
+      "xmlRoot": "ItemGroup",
+      "widgets": [
+        "ItemGroup",
+        "SwitchItem"
+      ],
+      "nativeIds": [
+        "@+id/update_recovery_item"
+      ],
+      "nativeTextReferences": [],
+      "directCodeReferences": [
+        {
+          "source": "app/src/main/java/org/lineageos/setupwizard/system/UpdateRecoveryActivity.kt",
+          "line": 72,
+          "text": "override val itemEntriesResId = R.xml.update_recovery_items"
+        }
+      ]
+    }
+  ],
+  "acceptanceGates": [
+    {
+      "area": "Native source/build",
+      "required": "Official platform API build for privileged LineageSetupWizard with SettingsLib, setupcompat, setupdesign, Lottie, SystemUISharedLib, Lineage internal and telephony-common. Public SDK core checks alone cannot establish complete app compatibility.",
+      "status": "NOT RUN"
+    },
+    {
+      "area": "Actual source values",
+      "required": "SwitchItem.isChecked and MaterialSwitch.isChecked drive toggle ember. Theme/navigation checked groups drive selection. NextAllowed/enabled, focus/hover and generic loading do not imply on.",
+      "status": "OWNER PROOF MAPPED; IMPLEMENTATION PENDING"
+    },
+    {
+      "area": "Live data/actions",
+      "required": "Keep wizard scripts/results, restored focus, locale and timezone data, permission/security/touch filtering, telephony/managed-profile/TV conditions, callbacks and settings/overlay operations in their original owners. Execute no setup action during artwork work.",
+      "status": "SOURCE CONTRACT MAPPED"
+    },
+    {
+      "area": "Finish/reveal",
+      "required": "Keep RevealHoleView CLEAR compositing, wallpaper reveal, native animation/swipe/key state machine and alpha punch contract. Do not cover the reveal with opaque decoration.",
+      "status": "SOURCE CONTRACT MAPPED; PRESENTATION PENDING"
+    },
+    {
+      "area": "Partner templates",
+      "required": "Inspect actual pinned Glif/Footer/Icon mixin source and partner overlay/theme behavior before binding custom textures or removing tints.",
+      "status": "DEPENDENCY REVIEW REQUIRED"
+    },
+    {
+      "area": "Native target acceptance",
+      "required": "Native inflation/text, large fonts/scrolling, focus/controller, accessibility, rotation/dual display, effective overlays and independent final acceptance. Device explicitly deferred.",
+      "status": "NOT RUN"
+    }
+  ],
+  "newDiscoveredScope": [
+    "Actual external setupcompat/setupdesign templates and Lottie widget resources",
+    "SettingsLib/Material/Leanback and platform widget presentation dependencies",
+    "Theme preview includes native vector/JPEG artwork; new live labels and separate cold/light layering need a scoped composition",
+    "All three native Lottie resources need motion/content-preserving treatment; native motion completion not inferred from static masters"
+  ],
+  "wholeGoalComplete": false
+}

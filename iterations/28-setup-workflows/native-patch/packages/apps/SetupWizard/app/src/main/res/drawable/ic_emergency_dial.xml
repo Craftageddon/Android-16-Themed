@@ -1,0 +1,1 @@
+<drawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" class="org.lineageos.setupwizard.forge.ForgeDrawable" app:cg_forge_family="cg_sw_emergency_dial" app:cg_forge_source_value_mode="dynamic" app:cg_forge_momentary="true" android:autoMirrored="false"/>

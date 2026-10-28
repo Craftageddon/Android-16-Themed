@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (C) 2015 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Device default style -->
+
+    <!-- Copy from Widget.DeviceDefault.Button.ButtonBar.AlertDialog -->
+    <!-- Dialog button bar width -->
+    <dimen name="sud_alert_dialog_button_bar_width">64dp</dimen>
+    <!-- Dialog button bar height -->
+    <dimen name="sud_alert_dialog_button_bar_height">48dip</dimen>
+
+    <!-- Dialog button bar button text size -->
+    <dimen name="sud_alert_dialog_button_bar_button_text_size">14sp</dimen>
+    <!-- Dialog title text size -->
+    <dimen name="sud_alert_dialog_title_text_size">20sp</dimen>
+
+    <dimen name="sud_alert_dialog_title_text_size_material_you">24sp</dimen>
+
+    <!-- General -->
+    <dimen name="sud_layout_margin_sides">40dp</dimen>
+
+    <dimen name="sud_glif_button_corner_radius">2dp</dimen>
+    <!-- Calculated by (sud_glif_margin_start - 4dp internal padding of button) -->
+    <dimen name="sud_glif_button_margin_end">20dp</dimen>
+    <!-- Calculated by (sud_glif_margin_start - sud_glif_button_padding) -->
+    <dimen name="sud_glif_button_margin_start">8dp</dimen>
+    <dimen name="sud_glif_button_padding">16dp</dimen>
+    <dimen name="sud_glif_button_min_height">48dp</dimen>
+    <!-- Negative of sud_glif_button_padding -->
+    <dimen name="sud_glif_negative_button_padding">-16dp</dimen>
+    <dimen name="sud_glif_footer_padding_vertical">8dp</dimen>
+    <dimen name="sud_glif_footer_padding_start">8dp</dimen>
+    <!-- Calculated by (sud_glif_margin_end - 4dp internal padding of button) -->
+    <dimen name="sud_glif_footer_padding_end">20dp</dimen>
+    <dimen name="sud_glif_footer_bar_min_height">72dp</dimen>
+    <dimen name="sud_glif_footer_button_middle_spacing">0dp</dimen>
+    <dimen name="sud_glif_margin_start">24dp</dimen>
+    <dimen name="sud_glif_margin_end">24dp</dimen>
+    <dimen name="sud_glif_icon_margin_top">56dp</dimen>
+    <dimen name="sud_glif_content_padding_top">0dp</dimen>
+    <dimen name="sud_horizontal_icon_height">32dp</dimen>
+
+    <dimen name="sud_glif_alert_dialog_corner_radius">8dp</dimen>
+    <dimen name="sud_glif_alert_dialog_footer_bar_padding_start">8dp</dimen>
+    <dimen name="sud_glif_v3_button_corner_radius">4dp</dimen>
+    <dimen name="sud_glif_device_default_dialog_corner_radius">28dp</dimen>
+    <dimen name="sud_glif_land_header_area_weight">1</dimen>
+    <dimen name="sud_glif_land_content_area_weight">1</dimen>
+    <dimen name="sud_glif_land_middle_horizontal_spacing">48dp</dimen>
+
+    <!-- Content styles -->
+    <dimen name="sud_check_box_line_spacing_extra">4sp</dimen>
+    <dimen name="sud_check_box_margin_bottom">12dp</dimen>
+    <dimen name="sud_check_box_margin_start">1dp</dimen>
+    <dimen name="sud_check_box_margin_top">24dp</dimen>
+    <dimen name="sud_check_box_padding_start">15dp</dimen>
+
+    <dimen name="sud_content_frame_padding_top">0dp</dimen>
+    <dimen name="sud_content_frame_padding_bottom">16dp</dimen>
+
+    <dimen name="sud_description_margin_top">24dp</dimen>
+    <dimen name="sud_description_margin_bottom">12dp</dimen>
+    <dimen name="sud_description_margin_bottom_lists">24dp</dimen>
+    <dimen name="sud_description_line_spacing_extra">4sp</dimen>
+    <dimen name="sud_description_text_size">16sp</dimen>
+    <!-- This value is the margin bottom difference between DescriptionItem and DescriptionMixin. -->
+    <dimen name="sud_description_margin_top_extra">1dp</dimen>
+    <dimen name="sud_description_margin_bottom_extra">12dp</dimen>
+
+    <!-- TODO: Remove sud_description_glif_margin_xxx once all apps migrate to sud_glif_description_margin_xxx -->
+    <dimen name="sud_description_glif_margin_top">3dp</dimen>
+    <dimen name="sud_description_glif_margin_bottom_lists">24dp</dimen>
+
+    <dimen name="sud_content_glif_margin_top">32dp</dimen>
+    <dimen name="sud_content_glif_margin_bottom">6dp</dimen>
+
+    <dimen name="sud_content_illustration_max_height">312dp</dimen>
+    <dimen name="sud_content_illustration_max_width">312dp</dimen>
+    <dimen name="sud_content_illustration_min_height">172dp</dimen>
+    <dimen name="sud_content_illustration_min_width">172dp</dimen>
+    <dimen name="sud_content_illustration_padding_vertical">24dp</dimen>
+
+    <!-- Loading content styles -->
+    <dimen name="sud_content_loading_frame_padding_top">0dp</dimen>
+    <dimen name="sud_content_loading_frame_padding_start">40dp</dimen>
+    <dimen name="sud_content_loading_frame_padding_end">40dp</dimen>
+    <dimen name="sud_content_loading_frame_padding_bottom">144dp</dimen>
+
+    <dimen name="sud_loading_header_height">274dp</dimen>
+
+    <!--  Glif Content info text -->
+    <dimen name="sud_content_info_text_size">16sp</dimen>
+    <dimen name="sud_content_info_line_spacing_extra">3sp</dimen>
+    <dimen name="sud_content_info_icon_size">18dp</dimen>
+    <dimen name="sud_content_info_icon_margin_end">16dp</dimen>
+    <dimen name="sud_content_info_padding_top">0dp</dimen>
+    <dimen name="sud_content_info_padding_bottom">0dp</dimen>
+
+    <!-- Margin on the start to offset for margin in the drawable -->
+    <dimen name="sud_radio_button_margin_start">-6dp</dimen>
+    <dimen name="sud_radio_button_margin_top">0dp</dimen>
+    <dimen name="sud_radio_button_margin_bottom">12dp</dimen>
+    <dimen name="sud_radio_button_padding_start">18dp</dimen>
+    <dimen name="sud_radio_button_line_spacing_extra">5sp</dimen>
+
+    <!-- Card layout (for tablets) -->
+    <dimen name="sud_card_corner_radius">2dp</dimen>
+    <dimen name="sud_card_elevation">5dp</dimen>
+    <dimen name="sud_card_land_header_text_margin_top">128dp</dimen>
+    <dimen name="sud_card_port_margin_sides">56dp</dimen>
+
+    <dimen name="sud_card_title_padding_end">0dp</dimen>
+    <dimen name="sud_card_title_padding_start">0dp</dimen>
+    <dimen name="sud_card_title_padding_top">16dp</dimen>
+    <dimen name="sud_card_title_padding_bottom">28dp</dimen>
+
+    <!-- Decor view (illustration or the header without illustration) -->
+    <dimen name="sud_decor_padding_top">0dp</dimen>
+
+    <!-- GLIF card layout (for tablets) -->
+    <dimen name="sud_glif_card_elevation">5dp</dimen>
+    <dimen name="sud_glif_card_width">560dp</dimen>
+    <dimen name="sud_glif_card_height">672dp</dimen>
+
+    <!-- Header layout (for phones) -->
+    <dimen name="sud_title_area_elevation">3dp</dimen>
+    <!-- Hack to force the header (and its shadow) to be drawn on top of the list contents -->
+    <dimen name="sud_header_elevation_hack">1dp</dimen>
+
+    <dimen name="sud_header_title_size">24sp</dimen>
+    <dimen name="sud_header_title_margin_bottom">16dp</dimen>
+    <dimen name="sud_header_title_padding_top">16dp</dimen>
+    <dimen name="sud_header_title_padding_bottom">2dp</dimen>
+    <!-- This is the extra spacing required to make the leading exactly 32sp -->
+    <dimen name="sud_header_title_line_spacing_extra">3.67sp</dimen>
+
+    <dimen name="sud_glif_header_title_margin_top">16dp</dimen>
+    <dimen name="sud_glif_header_title_margin_bottom">2dp</dimen>
+    <dimen name="sud_header_container_margin_bottom">0dp</dimen>
+
+    <!-- Account information -->
+    <dimen name="sud_account_name_text_size">14sp</dimen>
+    <dimen name="sud_account_name_text_spacing_extra">6sp</dimen>
+    <dimen name="sud_account_avatar_margin_end">8dp</dimen>
+    <dimen name="sud_account_avatar_max_height">24dp</dimen>
+
+    <!-- This value leverages sud_description_glif_margin_top -->
+    <dimen name="sud_glif_description_margin_top">3dp</dimen>
+    <dimen name="sud_glif_description_margin_bottom">12dp</dimen>
+
+    <dimen name="sud_glif_icon_max_height">32dp</dimen>
+    <!-- Illustration -->
+    <item name="sud_illustration_aspect_ratio" format="float" type="dimen">2.22</item>
+
+    <!-- Footer Button-->
+    <dimen name="sud_glif_footer_button_text_size">14sp</dimen>
+    <dimen name="sud_glif_footer_button_line_spacing_extra">8sp</dimen>
+    <dimen name="sud_glif_primary_button_button_margin_start">0dp</dimen>
+    <dimen name="sud_glif_secondary_button_button_margin_start">0dp</dimen>
+
+    <!-- Items -->
+    <dimen name="sud_items_icon_container_width">48dp</dimen>
+    <!-- TODO: Remove it when all attributes being used migrated into new one. -->
+    <dimen name="sud_items_padding_vertical">15dp</dimen>
+    <dimen name="sud_items_verbose_padding_vertical">20dp</dimen>
+    <dimen name="sud_items_title_text_size">16sp</dimen>
+    <dimen name="sud_items_summary_text_size">14sp</dimen>
+    <dimen name="sud_items_summary_margin_top">4dp</dimen>
+    <dimen name="sud_items_padding_top">15dp</dimen>
+    <dimen name="sud_items_padding_bottom">15dp</dimen>
+    <dimen name="sud_items_divder_width">2dp</dimen>
+    <dimen name="sud_items_background_padding_start">16dp</dimen>
+    <dimen name="sud_items_background_padding_end">16dp</dimen>
+    <dimen name="sud_items_radio_button_padding_end">16dp</dimen>
+    <dimen name="sud_items_radio_button_min_height">48dp</dimen>
+
+    <!-- General Material You -->
+    <dimen name="sud_glif_land_middle_horizontal_spacing_material_you">48dp</dimen>
+    <dimen name="sud_glif_content_padding_top_material_you">8dp</dimen>
+
+    <!-- Content styles Material You -->
+    <dimen name="sud_content_text_size_material_you">18sp</dimen>
+
+    <!--  Glif Content info text Material You -->
+    <dimen name="sud_content_info_text_size_material_you">16sp</dimen>
+    <dimen name="sud_content_info_line_spacing_extra_material_you">8sp</dimen>
+    <dimen name="sud_content_info_icon_size_material_you">18dp</dimen>
+    <dimen name="sud_content_info_icon_margin_end_material_you">16dp</dimen>
+    <dimen name="sud_content_info_padding_top_material_you">16dp</dimen>
+    <dimen name="sud_content_info_padding_bottom_material_you">16dp</dimen>
+
+    <!-- Header layout Material You (for phones) -->
+    <dimen name="sud_header_title_max_size_material_you">36sp</dimen>
+    <dimen name="sud_header_title_min_size_material_you">28sp</dimen>
+    <dimen name="sud_header_title_line_spacing_extra_material_you">8sp</dimen>
+
+    <!-- Page Margins Material You -->
+    <dimen name="sud_glif_margin_start_material_you">40dp</dimen>
+    <dimen name="sud_glif_margin_end_material_you">24dp</dimen>
+
+    <!-- Footer Button Material You-->
+    <dimen name="sud_footer_bar_button_radius_material_you">20dp</dimen>
+    <dimen name="sud_glif_button_min_height_material_you">48dp</dimen>
+    <dimen name="sud_glif_footer_button_text_size_material_you">14sp</dimen>
+    <dimen name="sud_glif_primary_button_button_margin_start_material_you">0dp</dimen>
+
+    <!-- Footer Bar Material You -->
+    <dimen name="sud_glif_footer_bar_padding_vertical_material_you">6dp</dimen>
+    <dimen name="sud_glif_footer_bar_padding_start_material_you">8dp</dimen>
+    <!-- Calculated by (sud_glif_margin_end - 4dp internal padding of button) -->
+    <dimen name="sud_glif_footer_bar_padding_end_material_you">20dp</dimen>
+    <dimen name="sud_glif_footer_bar_min_height_material_you">72dp</dimen>
+
+    <!-- Header Area Material You -->
+    <dimen name="sud_header_container_margin_bottom_material_you">24dp</dimen>
+    <dimen name="sud_glif_header_title_size_material_you">36sp</dimen>
+    <dimen name="sud_glif_header_title_margin_top_material_you">24dp</dimen>
+    <dimen name="sud_glif_header_title_margin_bottom_material_you">0dp</dimen>
+    <dimen name="sud_glif_description_text_size_material_you">18sp</dimen>
+    <dimen name="sud_glif_description_margin_top_material_you">24dp</dimen>
+    <dimen name="sud_glif_description_margin_bottom_material_you">0dp</dimen>
+
+    <dimen name="sud_glif_icon_margin_top_material_you">32dp</dimen>
+    <dimen name="sud_glif_icon_max_height_material_you">48dp</dimen>
+
+    <!-- Items Material You -->
+    <dimen name="sud_items_padding_top_material_you">16dp</dimen>
+    <dimen name="sud_items_padding_bottom_material_you">16dp</dimen>
+    <dimen name="sud_items_title_text_size_material_you">20sp</dimen>
+    <dimen name="sud_items_summary_text_size_material_you">14sp</dimen>
+    <dimen name="sud_items_summary_margin_top_material_you">4dp</dimen>
+    <dimen name="sud_items_min_height_material_you">72dp</dimen>
+
+    <!-- Bullet Point-->
+    <dimen name="sud_bullet_point_padding_top">16dp</dimen>
+    <dimen name="sud_bullet_point_padding_bottom">16dp</dimen>
+    <dimen name="sud_bullet_point_icon_padding_end">16dp</dimen>
+    <dimen name="sud_bullet_point_title_text_size">16sp</dimen>
+
+    <!-- Info footer-->
+    <dimen name="sud_info_footer_padding_top">16dp</dimen>
+    <dimen name="sud_info_footer_padding_bottom">16dp</dimen>
+    <dimen name="sud_info_footer_icon_padding_end">16dp</dimen>
+    <dimen name="sud_info_footer_icon_padding_bottom">8dp</dimen>
+    <dimen name="sud_info_footer_icon_size">18dp</dimen>
+    <dimen name="sud_info_footer_text_size">14sp</dimen>
+    <dimen name="sud_info_footer_text_line_height">20sp</dimen>
+
+    <!-- Progress bar -->
+    <dimen name="sud_progress_bar_margin_top_material_you">16dp</dimen>
+    <dimen name="sud_progress_bar_margin_bottom_material_you">-7dp</dimen>
+
+    <!-- Ignore UnusedResources: can be used by clients -->
+    <dimen name="sud_items_icon_divider_inset" tools:ignore="UnusedResources">88dp</dimen>
+    <!-- Ignore UnusedResources: can be used by clients -->
+    <dimen name="sud_items_text_divider_inset" tools:ignore="UnusedResources">40dp</dimen>
+
+    <!-- Ignore UnusedResources: can be used by clients -->
+    <dimen name="sud_items_glif_icon_divider_inset" tools:ignore="UnusedResources">72dp</dimen>
+    <!-- Ignore UnusedResources: can be used by clients -->
+    <dimen name="sud_items_glif_text_divider_inset" tools:ignore="UnusedResources">24dp</dimen>
+
+    <!-- Extra padding in the bottom to compensate for difference between descent and (top) internal leading -->
+    <dimen name="sud_items_padding_bottom_extra">1dp</dimen>
+    <dimen name="sud_items_verbose_padding_bottom_extra">0dp</dimen>
+    <dimen name="sud_items_preferred_height">56dp</dimen>
+
+    <!-- Navigation bar -->
+    <!-- TODO: Move this dimen to gingerbread, or see if it should be in platform style as well -->
+    <dimen name="sud_navbar_button_drawable_padding" tools:ignore="UnusedResources">6dp</dimen>
+    <dimen name="sud_navbar_button_padding_sides">10dp</dimen>
+    <dimen name="sud_navbar_height">56dp</dimen>
+    <dimen name="sud_navbar_ic_intrinsic_size">24dp</dimen>
+    <dimen name="sud_navbar_padding_sides">24dp</dimen>
+    <dimen name="sud_navbar_text_size">16sp</dimen>
+
+    <!-- Progress bar -->
+    <!-- The margin to compensate for the padding built-in to the widget itself -->
+    <dimen name="sud_progress_bar_margin_vertical">-7dp</dimen>
+    <dimen name="sud_progress_bar_margin_top">-7dp</dimen>
+    <dimen name="sud_progress_bar_margin_bottom">-7dp</dimen>
+    <dimen name="sud_glif_expressive_progress_bar_margin_top">0dp</dimen>
+    <dimen name="sud_glif_expressive_progress_bar_margin_bottom">23dp</dimen>
+    <dimen name="sud_glif_progress_bar_margin_vertical">7dp</dimen>
+    <dimen name="sud_glif_progress_bar_padding">40dp</dimen>
+
+    <!-- Edit Text dimensions -->
+    <dimen name="sud_edit_text_min_height">56dp</dimen>
+    <dimen name="sud_edit_text_padding_horizontal">12dp</dimen>
+    <dimen name="sud_edit_text_corner_radius">28dp</dimen>
+
+    <!-- SwitchItem -->
+    <dimen name="sud_switch_padding_start">16dp</dimen>
+    <dimen name="sud_switch_padding_end">0dp</dimen>
+    <dimen name="sud_switch_padding_top">39dp</dimen>
+    <dimen name="sud_switch_divider_height">32dp</dimen>
+    <dimen name="sud_switch_divider_padding_top">36dp</dimen>
+    <dimen name="sud_switch_content_padding_end">16dp</dimen>
+
+    <!-- ExpandableSwithItem -->
+    <dimen name="sud_expand_arrow_drawable_padding">4dp</dimen>
+
+    <!-- SwitchBar -->
+    <!-- Minimum width of switch -->
+    <dimen name="sud_switch_min_width">52dp</dimen>
+    <!-- Margin of switch thumb -->
+    <dimen name="sud_switch_thumb_margin">4dp</dimen>
+    <!-- Size of switch thumb -->
+    <dimen name="sud_switch_thumb_size">20dp</dimen>
+    <!-- Width of switch track -->
+    <dimen name="sud_switch_track_width">52dp</dimen>
+    <!-- Height of switch track -->
+    <dimen name="sud_switch_track_height">28dp</dimen>
+    <!-- Radius of switch track -->
+    <dimen name="sud_switch_track_radius">35dp</dimen>
+
+    <!-- IconUniformityAppImageView -->
+    <!-- Set 0dp since we don't want shadow. -->
+    <dimen name="sud_icon_uniformity_elevation">0dp</dimen>
+
+    <!-- Embedded Activity -->
+    <dimen name="sud_glif_footer_padding_start_embedded_activity">24dp</dimen>
+    <dimen name="sud_glif_footer_padding_end_embedded_activity">24dp</dimen>
+    <dimen name="sud_glif_margin_start_embedded_activity">24dp</dimen>
+    <dimen name="sud_glif_margin_end_embedded_activity">24dp</dimen>
+    <dimen name="sud_glif_header_title_margin_top_embedded_activity">24dp</dimen>
+    <dimen name="sud_header_title_size_embedded_activity">44sp</dimen>
+
+
+    <!-- General dimension for glif expressive theme -->
+    <!-- Page Margins Glif Expressive -->
+    <dimen name="sud_glif_expressive_margin_start">24dp</dimen>
+    <dimen name="sud_glif_expressive_margin_end">24dp</dimen>
+    <dimen name="sud_glif_expressive_land_middle_horizontal_spacing">24dp</dimen>
+
+    <!-- Items Expressive -->
+    <dimen name="sud_items_summary_margin_top_expressive">0dp</dimen>
+    <dimen name="sud_items_icon_container_width_expressive">52dp</dimen>
+    <dimen name="sud_items_min_height_expressive">56dp</dimen>
+    <dimen name="sud_items_summary_text_size_expressive">14sp</dimen>
+    <dimen name="sud_items_title_text_size_expressive">16sp</dimen>
+    <dimen name="sud_items_padding_top_expressive">12dp</dimen>
+    <dimen name="sud_items_padding_bottom_expressive">12dp</dimen>
+    <dimen name="sud_items_padding_bottom_extra_expressive">0dp</dimen>
+    <dimen name="sud_items_expand_button_size">48dp</dimen>
+    <dimen name="sud_items_expand_title_container_margin_top">-2dp</dimen>
+    <dimen name="sud_items_expand_title_container_margin_bottom">-2dp</dimen>
+    <!-- The check box need addtional 8dp to make the check box follow the Accessibility request-->
+    <dimen name="sud_items_check_box_margin_top">-4dp</dimen>
+    <dimen name="sud_items_check_box_margin_bottom">-4dp</dimen>
+    <dimen name="sud_items_check_box_min_size">48dp</dimen>
+
+    <dimen name="sud_glif_expressive_button_padding">16dp</dimen>
+    <!-- Calculated by (sud_glif_expressive_margin_start - 4dp internal padding of button) -->
+    <dimen name="sud_glif_expressive_button_margin_end">20dp</dimen>
+    <!-- Calculated by (sud_glif_expressive_margin_start - sud_glif_expressive_button_padding) -->
+    <dimen name="sud_glif_expressive_button_margin_start">8dp</dimen>
+    <dimen name="sud_glif_expressive_description_margin_top">0dp</dimen>
+    <dimen name="sud_glif_expreesive_description_margin_bottom">32dp</dimen>
+    <dimen name="sud_glif_expressive_icon_margin_top">8dp</dimen>
+    <dimen name="sud_glif_expressive_content_padding_top">0dp</dimen>
+    <dimen name="sud_glif_expressive_item_corner_radius">4dp</dimen>
+    <dimen name="sud_glif_expressive_promo_card_icon_corner_radius">20dp</dimen>
+    <dimen name="sud_glif_expressive_promo_card_icon_padding">18dp</dimen>
+    <dimen name="sud_glif_expressive_promo_card_icon_margin_end">16dp</dimen>
+    <dimen name="sud_glif_expressive_item_icon_padding_end">12dp</dimen>
+    <dimen name="sud_glif_expressive_items_icon_padding_top">-4dp</dimen>
+    <dimen name="sud_glif_expressive_items_icon_padding_bottom">-4dp</dimen>
+    <dimen name="sud_glif_expressive_items_icon_padding_start">0dp</dimen>
+    <dimen name="sud_glif_expressive_items_icon_padding_end">0dp</dimen>
+    <dimen name="sud_glif_expressive_items_icon_width">40dp</dimen>
+    <dimen name="sud_glif_expressive_item_summary_line_height">20sp</dimen>
+    <dimen name="sud_glif_expressive_item_title_line_height">24sp</dimen>
+    <!-- the switch toggle has 4dp for touch area top and bottom, should remove the item bound padding-->
+    <dimen name="sud_glif_expressive_expandable_items_content_margin_top">-4dp</dimen>
+    <dimen name="sud_glif_expressive_expandable_items_summary_padding_top">4dp</dimen>
+    <dimen name="sud_glif_expressive_expandable_items_more_info_padding_top">16dp</dimen>
+    <dimen name="sud_glif_expressive_expandable_items_more_info_padding_bottom">4dp</dimen>
+    <dimen name="sud_glif_expressive_list_divider_height">24dp</dimen>
+    <dimen name="sud_items_section_header_padding_top">20dp</dimen>
+    <dimen name="sud_items_section_header_padding_bottom">8dp</dimen>
+    <dimen name="sud_items_section_header_text_size">14sp</dimen>
+    <dimen name="sud_items_illustration_item_padding_bottom">32dp</dimen>
+    <dimen name="sud_items_illustration_item_max_width">494dp</dimen>
+    <dimen name="sud_expressive_switch_padding_start">12dp</dimen>
+
+    <!-- Promo card -->
+    <dimen name="sud_glif_promo_card_title_line_height">24sp</dimen>
+    <dimen name="sud_glif_promo_card_summary_line_height">20sp</dimen>
+
+    <!-- Header layout expressive -->
+    <dimen name="sud_glif_expressive_header_container_margin_bottom">0dp</dimen>
+    <dimen name="sud_glif_expressive_header_title_size">32sp</dimen>
+    <dimen name="sud_glif_expressive_header_title_line_height">40sp</dimen>
+    <dimen name="sud_glif_expressive_header_title_margin_bottom">16dp</dimen>
+    <dimen name="sud_glif_expressive_description_text_size">16sp</dimen>
+    <dimen name="sud_glif_expressive_description_line_height">24sp</dimen>
+    <dimen name="sud_glif_expressive_back_button_padding_start">4dp</dimen>
+    <dimen name="sud_glif_expressive_icon_size">48dp</dimen>
+
+    <!-- Progress indicator -->
+    <dimen name="sud_glif_expressive_progress_indicator_margin_vertical">16dp</dimen>
+    <dimen name="sud_glif_expressive_progress_indicator_margin_top">0dp</dimen>
+    <!-- The sum of margin bottom 16dp and progress indicator height 7dp -->
+    <dimen name="sud_glif_expressive_progress_indicator_margin_bottom">23dp</dimen>
+    <dimen name="sud_glif_expressive_progress_indicator_padding_bottom">7dp</dimen>
+
+    <!-- Material floating back button -->
+    <dimen name="sud_glif_expressive_back_button_margin_top">8dp</dimen>
+    <dimen name="sud_glif_expressive_back_button_height">48dp</dimen>
+    <!-- Calculated by (sud_glif_expressive_margin_start - 4dp internal padding of button) -->
+    <dimen name="sud_glif_expressive_back_button_margin_start">20dp</dimen>
+    <dimen name="sud_glif_expressive_back_button_min_size">48dp</dimen>
+
+    <!-- Material floating setup progress indicator -->
+    <!-- Calculated by (sud_glif_expressive_margin_end - 4dp internal padding of indicator) -->
+    <dimen name="sud_glif_expressive_setup_progress_indicator_margin_end">20dp</dimen>
+    <!-- Same as sud_glif_expressive_back_button_min_size -->
+    <dimen name="sud_glif_expressive_setup_progress_indicator_container_min_size">48dp</dimen>
+    <!-- Same as the internal padding of the back button -->
+    <dimen name="sud_glif_expressive_setup_progress_indicator_container_padding">4dp</dimen>
+    <!-- Calculated by (sud_glif_expressive_setup_progress_indicator_container_min_size - 2 * sud_glif_expressive_setup_progress_indicator_container_padding) -->
+    <dimen name="sud_glif_expressive_setup_progress_indicator_min_size">40dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_indicator_icon_size">30dp</dimen>
+    <!-- Calculated by (sud_glif_expressive_setup_progress_indicator_icon_size - 24dp icon_size)/2 -->
+    <dimen name="sud_glif_expressive_setup_progress_indicator_icon_padding">3dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_indicator_track_thickness">4dp</dimen>
+
+    <!-- Material setup progress bottom sheet -->
+    <dimen name="sud_glif_expressive_setup_progress_bs_padding_horizontal">24dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_padding_vertical">0dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_icon_size">32dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_card_indicator_track_thickness">2dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_item_space">16dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_progress_percentage_margin_start">12dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_card_margin_bottom">4dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_card_padding">16dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_card_icon_size">24dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_card_icon_margin_end">16dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_card_item_space">4dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_button_min_height">56dp</dimen>
+    <dimen name="sud_glif_expressive_setup_progress_bs_button_margin_bottom">18dp</dimen>
+
+    <!-- Glif expressive Additional body text -->
+    <dimen name="sud_glif_expressive_additional_body_text_size">16sp</dimen>
+    <dimen name="sud_glif_expressive_additional_body_text_line_height">24sp</dimen>
+    <dimen name="sud_additional_body_text_padding_bottom">32dp</dimen>
+
+    <!-- Glif expressive Info footer -->
+    <dimen name="sud_glif_expressive_info_footer_icon_size">24dp</dimen>
+
+    <!-- Glif expressive footer bar -->
+    <!-- footer bar padding -->
+    <!-- TODO: b/365906034 - Add padding attributes and values to the SUW side. -->
+    <dimen name="sud_glif_expressive_footer_bar_min_height">72dp</dimen>
+    <!-- Calculated by (Spec = 24dp - 4dp internal padding of button) -->
+    <dimen name="sud_glif_expressive_footer_bar_padding_start">20dp</dimen>
+    <!-- Calculated by (Spec = 24dp - 4dp internal padding of button) -->
+    <dimen name="sud_glif_expressive_footer_bar_padding_end">20dp</dimen>
+    <dimen name="sud_glif_expressive_footer_button_min_height">56dp</dimen>
+    <dimen name="sud_glif_expressive_footer_button_radius">28dp</dimen>
+    <dimen name="sud_glif_expressive_footer_button_text_size">16sp</dimen>
+    <dimen name="sud_glif_expressive_footer_button_text_line_spacing_extra">8dp</dimen>
+    <dimen name="sud_glif_expressive_footer_button_middle_spacing">8dp</dimen>
+    <dimen name="sud_glif_expressive_footer_padding_top">16dp</dimen>
+    <dimen name="sud_glif_expressive_footer_padding_bottom">8dp</dimen>
+    <dimen name="sud_glif_expressive_down_button_icon_size">24dp</dimen>
+
+    <!-- Glif expressive alert dialog -->
+    <dimen name="sud_glif_expressive_alert_dialog_title_font_size">24sp</dimen>
+    <dimen name="sud_glif_expressive_alert_dialog_button_margin_start">8dp</dimen>
+    <dimen name="sud_glif_expressive_alert_dialog_button_min_height">48dp</dimen>
+    <dimen name="sud_glif_expressive_alert_dialog_button_inset_top">8dp</dimen>
+    <dimen name="sud_glif_expressive_alert_dialog_button_text_size">14sp</dimen>
+    <dimen name="sud_glif_expressive_alert_dialog_button_padding_horizontal">16dp</dimen>
+
+    <!-- GLif card view styles -->
+    <!-- Card view container -->
+    <dimen name="sud_card_view_container_padding_start">16dp</dimen>
+    <dimen name="sud_card_view_container_padding_end">16dp</dimen>
+    <dimen name="sud_card_view_container_min_height">100dp</dimen>
+    <dimen name="sud_card_view_container_default_radius">12dp</dimen>
+
+    <!-- Default radius for the card view container -->
+    <dimen name="sud_card_view_container_selected_default_radius">12dp</dimen>
+    <!-- Card view icon -->
+    <dimen name="sud_card_view_icon_size">24dp</dimen>
+    <dimen name="sud_card_view_icon_container_margin_top">16dp</dimen>
+    <!-- Card view title -->
+    <dimen name="sud_card_view_title_text_size">16sp</dimen>
+    <dimen name="sud_card_view_title_line_spacing_extra">6sp</dimen>
+    <dimen name="sud_card_view_title_spacing_top">4dp</dimen>
+    <dimen name="sud_card_view_title_margin_bottom">16dp</dimen>
+    <dimen name="sud_card_view_title_font_weight">400</dimen>
+
+    <!-- Camera preview -->
+    <dimen name="sud_expressive_camera_preview_corner_radius">36dp</dimen>
+    <dimen name="sud_expressive_camera_preview_padding">8dp</dimen>
+
+    <!-- Glif expressive progress indicator -->
+    <dimen name="sud_glif_expressive_progress_indicator_waveAmplitude">3dp</dimen>
+    <dimen name="sud_glif_expressive_progress_indicator_wavelength">40dp</dimen>
+    <dimen name="sud_glif_expressive_progress_indicator_wavelength_indeterminate">30dp</dimen>
+    <item name="sud_glif_expressive_progress_indicator_indeterminate_animator_duration_scale" format="float" type="dimen">1.5</item>
+
+    <!-- Glif expressive account container -->
+    <dimen name="sud_glif_expressive_account_container_margin_top">0dp</dimen>
+    <dimen name="sud_glif_expressive_account_container_margin_bottom">16dp</dimen>
+
+    <!-- Glif expressive recylcer view -->
+    <dimen name="sud_glif_expressive_scroll_view_padding_top">120dp</dimen>
+    <dimen name="sud_glif_expressive_scroll_view_margin_top">-120dp</dimen>
+    <dimen name="sud_glif_expressive_scroll_view_padding_bottom">120dp</dimen>
+    <dimen name="sud_glif_expressive_scroll_view_margin_bottom">-120dp</dimen>
+
+    <!-- Tooltip overlay -->
+    <dimen name="sud_setup_tooltip_padding_top">104dp</dimen>
+    <dimen name="sud_setup_tooltip_padding_bottom">92dp</dimen>
+    <dimen name="sud_setup_tooltip_min_height">336dp</dimen>
+    <dimen name="sud_setup_tooltip_min_width">336dp</dimen>
+    <dimen name="sud_setup_tooltip_width">220dp</dimen>
+    <dimen name="sud_setup_tooltip_secondary_text_padding_top">12dp</dimen>
+    <dimen name="sud_setup_tooltip_button_margin_top">16dp</dimen>
+    <dimen name="sud_setup_tooltip_button_text_size">14sp</dimen>
+    <dimen name="sud_setup_tooltip_button_corner_radius">20dp</dimen>
+    <dimen name="sud_setup_tooltip_button_stroke_width">1dp</dimen>
+    <dimen name="sud_setup_tooltip_diagonal_padding">12dp</dimen>
+
+</resources>
