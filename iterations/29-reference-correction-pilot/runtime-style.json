@@ -1,0 +1,87 @@
+{
+  "colors": {
+    "reflection": "#dc5920",
+    "spill": "#ff4908",
+    "seam": "#ff5b0b",
+    "core": "#ffd083",
+    "focus": "#d5e7f2",
+    "symbol": "#ffe5bc"
+  },
+  "layers": [
+    "cold",
+    "reflection",
+    "spill",
+    "seam",
+    "core",
+    "focus",
+    "symbol"
+  ],
+  "states": {
+    "cold": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "on": [
+      1,
+      0.32,
+      0.72,
+      1,
+      0.62,
+      0,
+      0
+    ],
+    "focused_off": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "selected_focused": [
+      1,
+      0.32,
+      0.72,
+      1,
+      0.62,
+      1,
+      1
+    ],
+    "pressed_off": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "disabled": [
+      0.42,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "reduced_motion_on": [
+      1,
+      0.32,
+      0.72,
+      1,
+      0.62,
+      0,
+      0
+    ]
+  },
+  "activation": "enabled && (on || checked || selected); off press/focus/hover do not activate ember",
+  "motion": "Static pilot; no animation. Reduced motion uses same steady on state.",
+  "nativeIntegration": "NOT RUN; no owner state or resource binding changed"
+}

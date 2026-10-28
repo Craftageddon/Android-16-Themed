@@ -1,0 +1,52 @@
+{
+  "result": "PASS",
+  "samples": 4,
+  "coldAndNeutralPngs": 84,
+  "neutralPngs": 72,
+  "transparentExports": 84,
+  "states": 7,
+  "scales": [
+    1,
+    2,
+    3
+  ],
+  "checks": [
+    {
+      "id": "location",
+      "beforeColdMedianVisibleLuma": 73.24,
+      "correctedColdMedianVisibleLuma": 35.07,
+      "neutralMasks": true,
+      "coldPressedOffIdentical": true,
+      "reducedMotionStaticOnIdentical": true
+    },
+    {
+      "id": "close",
+      "beforeColdMedianVisibleLuma": 180.87,
+      "correctedColdMedianVisibleLuma": 41.43,
+      "neutralMasks": true,
+      "coldPressedOffIdentical": true,
+      "reducedMotionStaticOnIdentical": true
+    },
+    {
+      "id": "photo_frame",
+      "beforeColdMedianVisibleLuma": 49.66,
+      "correctedColdMedianVisibleLuma": 31.79,
+      "neutralMasks": true,
+      "coldPressedOffIdentical": true,
+      "reducedMotionStaticOnIdentical": true
+    },
+    {
+      "id": "gallery_badge",
+      "beforeColdMedianVisibleLuma": 39.16,
+      "correctedColdMedianVisibleLuma": 32.0,
+      "neutralMasks": true,
+      "coldPressedOffIdentical": true,
+      "reducedMotionStaticOnIdentical": true
+    }
+  ],
+  "originalTextureSha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df",
+  "originalReferenceSha256": "2c9111e342e9412da5b19f367106ae57a165c6b5a02bcb4983f63ca3f8e6aac8",
+  "visualApproval": "PENDING USER REVIEW",
+  "deviceRendering": "NOT RUN",
+  "independentValidation": "PENDING"
+}
