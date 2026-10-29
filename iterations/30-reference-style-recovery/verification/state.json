@@ -1,0 +1,34 @@
+{
+  "artifacts": {
+    "ARTIFACTS.json": "0f5f31240ba84a585e30618c31f26ce2301800f92189170456e250921104c398",
+    "README.md": "d9a99f74ef78548047e3e7430e49818f37bbafe6fc50c1a12080e6a402145f04",
+    "components.json": "177762ff4b2c7163ba1eb7c0f60f09c25a7d48fef7eacaa361ef0930bc98a570",
+    "index.html": "0fd3508b76277b2561ddf1e5ab677f7b4c6b8e4fd4bce7a5eb5d922e5c8e13ae"
+  },
+  "checks": {
+    "1": {
+      "date_utc": "2026-10-29T11:36:32+00:00",
+      "evidence": "verification/evidence/internal-visual-review.md",
+      "evidence_sha256": "6e2f2b8638a0bdf9dcf4cfe19eb37f1b13a60e8a69fe092ff1300e3148bceac5",
+      "independence": null,
+      "method": "Original reference and all group sheets; bounded internal material review",
+      "name": "Requirements and design",
+      "result": "PASS",
+      "reviewer": "Codex"
+    },
+    "2": {
+      "date_utc": "2026-10-29T11:36:32+00:00",
+      "evidence": "verification/evidence/technical-review.md",
+      "evidence_sha256": "3ff92fde9eec575def23a28cfd92c606dc268547c129872085b378b25f072f79",
+      "independence": null,
+      "method": "Independent saved-output reopening, metadata, geometry and state checks",
+      "name": "Technical and functional",
+      "result": "PASS",
+      "reviewer": "Codex"
+    }
+  },
+  "created_at": "2026-10-29T11:36:32+00:00",
+  "project": "Reference style recovery 0.2.0",
+  "schema": 1,
+  "status": "V2_PASS"
+}

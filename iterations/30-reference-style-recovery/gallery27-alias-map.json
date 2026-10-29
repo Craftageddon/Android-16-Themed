@@ -1,0 +1,320 @@
+[
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_albums.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_albums.svg",
+    "correctedMaster": "masters/gallery/cg_gl_albums.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_back.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_back.svg",
+    "correctedMaster": "masters/gallery/cg_gl_back.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_camera.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_camera.svg",
+    "correctedMaster": "masters/gallery/cg_gl_camera.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_check.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_check.svg",
+    "correctedMaster": "masters/gallery/cg_gl_check.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_check_circle.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_check_circle.svg",
+    "correctedMaster": "masters/gallery/cg_gl_check_circle.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_check_circle_outline.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_check_circle_outline.svg",
+    "correctedMaster": "masters/gallery/cg_gl_check_circle_outline.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_close.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_close.svg",
+    "correctedMaster": "masters/gallery/cg_gl_close.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_contact_page.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_contact_page.svg",
+    "correctedMaster": "masters/gallery/cg_gl_contact_page.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_delete.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_delete.svg",
+    "correctedMaster": "masters/gallery/cg_gl_delete.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_delete_forever.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_delete_forever.svg",
+    "correctedMaster": "masters/gallery/cg_gl_delete_forever.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_delete_sweep.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_delete_sweep.svg",
+    "correctedMaster": "masters/gallery/cg_gl_delete_sweep.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_done.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_done.svg",
+    "correctedMaster": "masters/gallery/cg_gl_done.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_edit.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_edit.svg",
+    "correctedMaster": "masters/gallery/cg_gl_edit.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_image.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_image.svg",
+    "correctedMaster": "masters/gallery/cg_gl_image.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_info.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_info.svg",
+    "correctedMaster": "masters/gallery/cg_gl_info.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_library.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_library.svg",
+    "correctedMaster": "masters/gallery/cg_gl_library.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_location_on.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_location_on.svg",
+    "correctedMaster": "masters/gallery/cg_gl_location_on.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_motion_play.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_motion_play.svg",
+    "correctedMaster": "masters/gallery/cg_gl_motion_play.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_no_photography.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_no_photography.svg",
+    "correctedMaster": "masters/gallery/cg_gl_no_photography.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_person.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_person.svg",
+    "correctedMaster": "masters/gallery/cg_gl_person.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_photo_size_select_actual.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_photo_size_select_actual.svg",
+    "correctedMaster": "masters/gallery/cg_gl_photo_size_select_actual.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_play_circle_outline.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_play_circle_outline.svg",
+    "correctedMaster": "masters/gallery/cg_gl_play_circle_outline.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_restore_from_trash.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_restore_from_trash.svg",
+    "correctedMaster": "masters/gallery/cg_gl_restore_from_trash.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_settings.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_settings.svg",
+    "correctedMaster": "masters/gallery/cg_gl_settings.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_share.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_share.svg",
+    "correctedMaster": "masters/gallery/cg_gl_share.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_star.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_star.svg",
+    "correctedMaster": "masters/gallery/cg_gl_star.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_star_border.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_star_border.svg",
+    "correctedMaster": "masters/gallery/cg_gl_star_border.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_video_camera_back.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_video_camera_back.svg",
+    "correctedMaster": "masters/gallery/cg_gl_video_camera_back.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_audiotrack.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_audiotrack.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_audiotrack.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_check.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_check.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_check.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_chevron_left.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_chevron_left.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_chevron_left.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_chevron_right.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_chevron_right.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_chevron_right.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_forward.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_forward.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_forward.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_fullscreen_enter.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_fullscreen_enter.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_fullscreen_enter.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_fullscreen_exit.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_fullscreen_exit.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_fullscreen_exit.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_pause_circle_filled.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_pause_circle_filled.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_pause_circle_filled.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_play_circle_filled.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_play_circle_filled.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_play_circle_filled.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_rewind.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_rewind.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_rewind.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_settings.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_settings.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_settings.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_skip_next.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_skip_next.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_skip_next.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_skip_previous.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_skip_previous.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_skip_previous.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_speed.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_speed.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_speed.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_subtitle_off.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_subtitle_off.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_subtitle_off.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_ic_subtitle_on.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_ic_subtitle_on.svg",
+    "correctedMaster": "masters/gallery/cg_gl_ic_subtitle_on.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_icon_fastforward.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_icon_fastforward.svg",
+    "correctedMaster": "masters/gallery/cg_gl_icon_fastforward.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_icon_repeat_all.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_icon_repeat_all.svg",
+    "correctedMaster": "masters/gallery/cg_gl_icon_repeat_all.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_icon_repeat_off.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_icon_repeat_off.svg",
+    "correctedMaster": "masters/gallery/cg_gl_icon_repeat_off.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_icon_repeat_one.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_icon_repeat_one.svg",
+    "correctedMaster": "masters/gallery/cg_gl_icon_repeat_one.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_icon_rewind.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_icon_rewind.svg",
+    "correctedMaster": "masters/gallery/cg_gl_icon_rewind.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_icon_shuffle_off.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_icon_shuffle_off.svg",
+    "correctedMaster": "masters/gallery/cg_gl_icon_shuffle_off.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_icon_shuffle_on.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_icon_shuffle_on.svg",
+    "correctedMaster": "masters/gallery/cg_gl_icon_shuffle_on.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_media_frame.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_media_frame.svg",
+    "correctedMaster": "masters/gallery/cg_gl_media_frame.svg",
+    "configs": 28
+  },
+  {
+    "sourceAlias": "iterations/27-gallery-contracts/masters/cg_gl_app_gallery.svg",
+    "sameAs": "iterations/26-gallery-workflows/masters/cg_gl_app_gallery.svg",
+    "correctedMaster": "masters/gallery/cg_gl_app_gallery.svg",
+    "configs": 28
+  }
+]
