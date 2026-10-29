@@ -1,0 +1,26 @@
+✔ all 114 original IDs resolve to actual artwork, without placeholder sources (19.1476ms)
+✔ all reconciled layers and part channels stay finite and bounded across playback (7.7639ms)
+✔ new composite reduced-motion poses are invariant in time and preserve target values (1.281ms)
+✔ back commit exposes the destination; cancelled back exactly restores the source (0.1884ms)
+✔ three-tile edit reordering has no collisions at 101 intermediate poses (0.4784ms)
+✔ display drag reaches the lower content area; hinge leaves share a fixed pivot (0.1427ms)
+✔ unselected D-pad and face buttons remain cold while one pressed control owns emission (0.106ms)
+✔ hold, scan, shimmer, milestones, temperature and trigger travel have actual dedicated channels (0.3245ms)
+✔ stopping or reducing a profile selector preserves exactly one selected choice and focus (0.1735ms)
+✔ exact imported catalog and English visible wording (2.2518ms)
+✔ every recipe yields finite bounded frames throughout playback (5.9841ms)
+✔ off, focus alone and explicit off-value locks never emit (1.4853ms)
+✔ reduced motion, zero animator scale and power saving remain static (2.4933ms)
+✔ hidden, detached and suspended states cannot run or emit (0.6176ms)
+✔ finite recipes finish at exact counted duration; loops require an active owner (0.1452ms)
+✔ mode selection lights one layer; all other choices remain cold (0.1312ms)
+✔ status and focus-only variants stay geometrically steady (0.1066ms)
+✔ invalid clocks and unknown kinds reject rather than fall back to generic pulse (0.2312ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115.8599

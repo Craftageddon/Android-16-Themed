@@ -1,0 +1,14 @@
+{
+  "scope": "Repeat source-artwork style check, with the user-deferred device gate preserved",
+  "requirements": {
+    "authoredCatalogCovered": true,
+    "distinctEffectiveContentsChecked": true,
+    "coldSteelAndNeutralMasks": true,
+    "confirmedExtraMaterialDefectCorrected": true,
+    "earlierRecoveryPreserved": true,
+    "motionStateTests": "18 tests pass, zero fail; actual host test output included",
+    "visualReferenceReview": "20 canonical sheets,9 recovery sheets,2 semantic gap sheets,2 app sheets,1 semantic correction sheet and3 scene specimens inspected"
+  },
+  "actualDeviceAcceptance": "NOT RUN; explicitly deferred by user, not required to finish this source-artwork audit",
+  "releaseFinalized": false
+}

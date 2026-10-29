@@ -1,0 +1,434 @@
+[
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-button_destructive.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-check_checked.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-check_mixed.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-error_field.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-icon_button.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-menu_item.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-notification_compact.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-notification_expanded.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-notification_group.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-notification_persistent.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-progress_full.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-progress_half.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-progress_indeterminate.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-progress_ring.svg",
+    "tag": "circle",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-search_field.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-settings_row.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/control-switch_on.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-battery.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-battery.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-battery.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-battery.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-battery.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-display_route.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-game_profile.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-gaming_menu.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-icon_socket.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-navigation.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-notification.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-performance.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-quick_tile.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-quick_tile.svg",
+    "tag": "circle",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-slider.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-wifi.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/12-forge-controls-and-screens/masters/pilot-wifi.svg",
+    "tag": "circle",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/biometric_socket.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/biometric_socket.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/biometric_socket.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/biometric_socket.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/biometric_socket.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/charge_limit.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/chord_link.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/mapping_slot.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/media_cell.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/pattern_node.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/rgb_zone.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/stick_gate.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/thermal_gauge.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/trigger_gauge.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/13-forge-android-and-thor-flows/masters/unavailable.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/14-forge-atmosphere/masters/loading_aperture.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/14-forge-atmosphere/masters/loading_aperture.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/14-forge-atmosphere/masters/loading_aperture.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/14-forge-atmosphere/masters/loading_aperture.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/14-forge-atmosphere/masters/loading_aperture.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/14-forge-atmosphere/masters/loading_aperture.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/14-forge-atmosphere/masters/loading_aperture.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/14-forge-atmosphere/masters/loading_aperture.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/biometric_scan.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/biometric_scan.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/biometric_scan.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/biometric_scan.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/biometric_scan.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/loading_shimmer.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/media_option.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  },
+  {
+    "source": "iterations/16-forge-motion/masters/trigger_meter.svg",
+    "tag": "path",
+    "role": "Persistent semantic/value/contrast mark; not a broad steel face",
+    "optical": "component"
+  }
+]
