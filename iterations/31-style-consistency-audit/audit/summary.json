@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "activeSourceRecords": 833,
+  "distinctEffectiveMasterContents": 652,
+  "canonicalRecordsVerified": 472,
+  "canonicalPortableImagesVerified": 10,
+  "earlierScreenCompositionsHashVerified": 189,
+  "latestRecoveryArtifactsFreshlyRehashed": 4695,
+  "mainPaletteFilesChecked": 9,
+  "activeColdLinearGradientsChecked": 751,
+  "resolvedMaskDefinitionsChecked": 1306,
+  "directAndReferencedMaskPaintsNeutral": true,
+  "visibleMasterTextNodes": 0,
+  "remainingDefects": 0,
+  "sourceLevelOnly": true,
+  "nativeTintContrastAndTargetDeviceAcceptance": "NOT RUN",
+  "historicalSupersededMastersAreNotCountedAsNewFailures": true
+}

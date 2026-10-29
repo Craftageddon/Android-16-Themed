@@ -1,0 +1,3 @@
+CHECK: V3
+RESULT: NOT RUN
+No independent target-device renderer, native tint/contrast, install, input or device performance acceptance was executed. The user explicitly chose to continue without the Thor. This review checkpoint is not a finalized production release.

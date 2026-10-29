@@ -1,0 +1,142 @@
+{
+  "source": "iterations/12-forge-controls-and-screens/masters/control-scrollbar.svg",
+  "sourceSha256": "39885b8ccf13515a3cbfdb24e934640a7d5035cd0826ea70933c305dd6d0fa5e",
+  "corrected": "masters/control-scrollbar.svg",
+  "correctedSha256": "1c0f2626a95b82b482f7ca6ac3607ccefed6413d3cb0c316624b927bb51c5b4a",
+  "scope": "One additional untextured scrollbar-thumb surface; material and clipped bevel only",
+  "pathDataUnchanged": true,
+  "canvasAndAspectUnchanged": true,
+  "neutralMasksPixelIdentical": true,
+  "coldChangesConfinedToThumbRegion": true,
+  "productionLayerPngs": 14,
+  "nativeIntegrated": false,
+  "deviceVerified": false,
+  "files": [
+    {
+      "path": "exports/control-scrollbar.cold.32.png",
+      "sha256": "1b3d9908832a316652135d9daee3346dc14505220be4ca442f6e5506bd47a1aa",
+      "layer": "cold",
+      "size": [
+        32,
+        192
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.cold.64.png",
+      "sha256": "98e3f911958ef6fd1b3d5f033445e71a9609f793c47cb5cda9781e9a42349623",
+      "layer": "cold",
+      "size": [
+        64,
+        384
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.reflection.32.png",
+      "sha256": "0f0ebd834fc1ce443faeff8efe3815fcf8c570f1524f6de819014f8d00b2fd80",
+      "layer": "reflection",
+      "size": [
+        32,
+        192
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.reflection.64.png",
+      "sha256": "b8a57b1d028d85620b551209cb2d67ad04b09d1fe8f825bfa2d1e82f252002bb",
+      "layer": "reflection",
+      "size": [
+        64,
+        384
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.spill.32.png",
+      "sha256": "85136899658e663f433d3eb7c105d22d0da7a4ee0cd65757401d0e30d3a08cea",
+      "layer": "spill",
+      "size": [
+        32,
+        192
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.spill.64.png",
+      "sha256": "b13110d3276329c3f1a4f90fa59aede127ad8249cec88d387ed92f0613f4dcc9",
+      "layer": "spill",
+      "size": [
+        64,
+        384
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.seam.32.png",
+      "sha256": "4f1908e41b3802a134ed4a388a36cf6a9a133feb2f1081b50ca17af370c44d43",
+      "layer": "seam",
+      "size": [
+        32,
+        192
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.seam.64.png",
+      "sha256": "f93cf65e731386b4cc2dcba62be6e2e5d846767c30962a25f080d660a9711535",
+      "layer": "seam",
+      "size": [
+        64,
+        384
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.core.32.png",
+      "sha256": "f944058226a8fc57f9500a9fb568e9c76b8d39cf43cb2d44c7789dd5680c1f92",
+      "layer": "core",
+      "size": [
+        32,
+        192
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.core.64.png",
+      "sha256": "76de33bbc5d6df2516d4cb651995c550592907dd09063f71ba59b8f81b5b6de6",
+      "layer": "core",
+      "size": [
+        64,
+        384
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.focus.32.png",
+      "sha256": "ee13e12a16be4a4144835147b89be90f46cbf7f474def8de3af8daa3aa2893af",
+      "layer": "focus",
+      "size": [
+        32,
+        192
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.focus.64.png",
+      "sha256": "d3553eb4602fdcb7a54b64a730c557d34d9eb4442fc8ab25ca76af1c35bd5ee1",
+      "layer": "focus",
+      "size": [
+        64,
+        384
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.symbol.32.png",
+      "sha256": "ee13e12a16be4a4144835147b89be90f46cbf7f474def8de3af8daa3aa2893af",
+      "layer": "symbol",
+      "size": [
+        32,
+        192
+      ]
+    },
+    {
+      "path": "exports/control-scrollbar.symbol.64.png",
+      "sha256": "d3553eb4602fdcb7a54b64a730c557d34d9eb4442fc8ab25ca76af1c35bd5ee1",
+      "layer": "symbol",
+      "size": [
+        64,
+        384
+      ]
+    }
+  ]
+}

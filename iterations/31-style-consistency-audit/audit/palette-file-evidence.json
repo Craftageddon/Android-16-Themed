@@ -1,0 +1,110 @@
+[
+  {
+    "path": "iterations/11-forge-symbol-library/runtime-style.json",
+    "sha256": "d3052fd6a6cfbfb4f6ecf5cccda357456fdcc0424952746eb34d1df2a18bb9d4",
+    "mainPalette": {
+      "reflection": "#dc5920",
+      "spill": "#ff4908",
+      "seam": "#ff5b0b",
+      "core": "#ffd083",
+      "focus": "#d5e7f2",
+      "symbol": "#ffe5bc"
+    }
+  },
+  {
+    "path": "iterations/12-forge-controls-and-screens/runtime-style.json",
+    "sha256": "c80aa8bed38b41c591da08b3e6c2ee790ce49dac08911208605c8b9fb496ead1",
+    "mainPalette": {
+      "reflection": "#dc5920",
+      "spill": "#ff4908",
+      "seam": "#ff5b0b",
+      "core": "#ffd083",
+      "focus": "#d5e7f2",
+      "symbol": "#ffe5bc"
+    }
+  },
+  {
+    "path": "iterations/13-forge-android-and-thor-flows/runtime-style.json",
+    "sha256": "c80aa8bed38b41c591da08b3e6c2ee790ce49dac08911208605c8b9fb496ead1",
+    "mainPalette": {
+      "reflection": "#dc5920",
+      "spill": "#ff4908",
+      "seam": "#ff5b0b",
+      "core": "#ffd083",
+      "focus": "#d5e7f2",
+      "symbol": "#ffe5bc"
+    }
+  },
+  {
+    "path": "iterations/14-forge-atmosphere/runtime-style.json",
+    "sha256": "c80aa8bed38b41c591da08b3e6c2ee790ce49dac08911208605c8b9fb496ead1",
+    "mainPalette": {
+      "reflection": "#dc5920",
+      "spill": "#ff4908",
+      "seam": "#ff5b0b",
+      "core": "#ffd083",
+      "focus": "#d5e7f2",
+      "symbol": "#ffe5bc"
+    }
+  },
+  {
+    "path": "iterations/17-forge-coverage/runtime-style.json",
+    "sha256": "c80aa8bed38b41c591da08b3e6c2ee790ce49dac08911208605c8b9fb496ead1",
+    "mainPalette": {
+      "reflection": "#dc5920",
+      "spill": "#ff4908",
+      "seam": "#ff5b0b",
+      "core": "#ffd083",
+      "focus": "#d5e7f2",
+      "symbol": "#ffe5bc"
+    }
+  },
+  {
+    "path": "iterations/20-semantic-review/runtime-style.json",
+    "sha256": "c80aa8bed38b41c591da08b3e6c2ee790ce49dac08911208605c8b9fb496ead1",
+    "mainPalette": {
+      "reflection": "#dc5920",
+      "spill": "#ff4908",
+      "seam": "#ff5b0b",
+      "core": "#ffd083",
+      "focus": "#d5e7f2",
+      "symbol": "#ffe5bc"
+    }
+  },
+  {
+    "path": "iterations/23-magnification/runtime-style.json",
+    "sha256": "c80aa8bed38b41c591da08b3e6c2ee790ce49dac08911208605c8b9fb496ead1",
+    "mainPalette": {
+      "reflection": "#dc5920",
+      "spill": "#ff4908",
+      "seam": "#ff5b0b",
+      "core": "#ffd083",
+      "focus": "#d5e7f2",
+      "symbol": "#ffe5bc"
+    }
+  },
+  {
+    "path": "iterations/29-reference-correction-pilot/runtime-style.json",
+    "sha256": "be039edf4b202a890999613ff19343dab1a5b1ddc1a8f0db1b402445f260db7a",
+    "mainPalette": {
+      "reflection": "#dc5920",
+      "spill": "#ff4908",
+      "seam": "#ff5b0b",
+      "core": "#ffd083",
+      "focus": "#d5e7f2",
+      "symbol": "#ffe5bc"
+    }
+  },
+  {
+    "path": "iterations/30-reference-style-recovery/runtime-style.json",
+    "sha256": "649f4ab82f7cbd4bfe3bc90ea5f415555d0754669a069155ef700e337e721627",
+    "mainPalette": {
+      "reflection": "#dc5920",
+      "spill": "#ff4908",
+      "seam": "#ff5b0b",
+      "core": "#ffd083",
+      "focus": "#d5e7f2",
+      "symbol": "#ffe5bc"
+    }
+  }
+]

@@ -1,0 +1,3 @@
+CHECK: V2
+RESULT: PASS
+833 records and652 distinct effective master contents checked;751 used cold gradients,1,306 referenced mask definitions and9 style files checked. The latest4,695 recovery artifacts,472 canonical original/portable pairs and189 older composition pairs were freshly hash checked. The new14 PNG exports preserve size, occupied bounds and all six neutral masks; cold changes are confined to the thumb.18 actual motion/semantic tests pass against114 recipes. These are source/host checks, not native rendering or independent target-device acceptance.

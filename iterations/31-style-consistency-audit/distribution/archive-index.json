@@ -1,0 +1,12 @@
+{
+  "archive": "complete-assets.zip",
+  "bytes": 383740,
+  "sha256": "46397d77b239eb2f7f75d9ee5e2b29d644ee7d62afb6d4eb38a84db9d4ff314d",
+  "parts": [
+    {
+      "path": "archive-parts/complete-assets.zip.part001",
+      "bytes": 383740,
+      "sha256": "46397d77b239eb2f7f75d9ee5e2b29d644ee7d62afb6d4eb38a84db9d4ff314d"
+    }
+  ]
+}
