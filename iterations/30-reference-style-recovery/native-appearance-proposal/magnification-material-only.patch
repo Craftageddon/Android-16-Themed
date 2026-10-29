@@ -1,0 +1,20 @@
+--- a/frameworks/base/packages/SystemUI/src/com/android/systemui/accessibility/ForgeMagnificationBorderDrawable.java
++++ b/frameworks/base/packages/SystemUI/src/com/android/systemui/accessibility/ForgeMagnificationBorderDrawable.java
+@@ -123,7 +123,7 @@
+         Matrix transform = new Matrix(); transform.setScale(density, density);
+         transform.postTranslate(bounds.left, bounds.top); texture.setLocalMatrix(transform);
+         Shader bevel = new LinearGradient(bounds.left, bounds.top, bounds.left, bounds.bottom,
+-                new int[] {0xff9da9b2,0xff394957,0xff101924,0xff576b7b,0xffb0bec8},
++                new int[] {0xff84817a,0xff4b4c49,0xff282b2c,0xff66645f,0xff252829},
+                 new float[] {0,.22f,.52f,.78f,1}, Shader.TileMode.CLAMP);
+         coldShader = new ComposeShader(texture, bevel, PorterDuff.Mode.MULTIPLY);
+         if (role == WINDOW_EDIT) {
+@@ -147,7 +147,7 @@
+         paint.setShader(coldShader); paint.setStrokeWidth(stroke);
+         paint.setColor(Color.WHITE); paint.setAlpha(Math.round(getAlpha()*(enabled ? 1f : .42f)));
+         canvas.drawPath(main, paint);
+-        stroke(canvas, main, Math.min(density*.75f,stroke*.12f), 0xffb2bdc6, enabled?.7f:.294f);
++        stroke(canvas, main, Math.min(density*.75f,stroke*.12f), 0xff77776f, enabled?.7f:.294f);
+         // Soft light is a set of independent neutral-width masks evaluated on
+         // the native path. It stays inside the original shell; no magnified
+         // pixels or touchable/content regions are tinted or widened.

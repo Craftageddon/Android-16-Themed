@@ -1,0 +1,1067 @@
+[
+  {
+    "original": "iterations/11-forge-symbol-library/masters/back__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/back__detailed.svg",
+    "sha256": "54b345388a5a620c5db71f9f5286dacbded4b5bc149c6dd639a5153fb61edbbd"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/check__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/check__detailed.svg",
+    "sha256": "8fd2216adb9be7d1548d30b55bd642bea96d09a55fedb5d3e3a875025a6e55ae"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/close__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/close__detailed.svg",
+    "sha256": "a93c5513786a79e5bb2d288df72e4cd4a279381b36db99955278686cdcab15a1"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/delete__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/delete__detailed.svg",
+    "sha256": "69b3d29c8b4e155b2fe645af206cfad32739dcd6917b65435b3ab3d74bff90cd"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/edit__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/edit__detailed.svg",
+    "sha256": "2ccb62ab72d149f1706675504ab3a7c311e33bdb1ab4f6d7486ad5ba85d52dc0"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/info__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/info__detailed.svg",
+    "sha256": "c55eb314e8d011becf37b8d2eb075295a1bfd9cac3a4a9d5729b2f10b3edf42a"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/location_on__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/location_on__detailed.svg",
+    "sha256": "f1725cb6afba4bc87826a4502f6f9a23369edf4c63aa5b1fcbe2ac2f4b170f56"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/pause__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/pause__detailed.svg",
+    "sha256": "8706a3ec431da12f7eda215365f759c6ded6cdc856026881f712d12174df6962"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/person__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/person__detailed.svg",
+    "sha256": "4bff4d91b29ba2b8fa0c84a22eebdfb5f3ca2a91409a85d4bcf42f62799387a9"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/play__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/play__detailed.svg",
+    "sha256": "5341c31a43b9ef7d5198e3b97d6220ba7d88ddba08fe184e63cf64bfff81bb22"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/settings__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/settings__detailed.svg",
+    "sha256": "d48101e4201616476517a11e99c2895ebf59db7a3dd2b62ba85d20b9abe323ce"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/masters/share__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/masters/share__detailed.svg",
+    "sha256": "55806b9a406b8ee3f3eef4619a7f35ade78be292c82bfb0c694989072bbca47b"
+  },
+  {
+    "original": "iterations/11-forge-symbol-library/source/steel-material.png",
+    "copied": "source/provenance-inputs/iterations/11-forge-symbol-library/source/steel-material.png",
+    "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+  },
+  {
+    "original": "iterations/17-forge-coverage/masters/app-gallery.svg",
+    "copied": "source/provenance-inputs/iterations/17-forge-coverage/masters/app-gallery.svg",
+    "sha256": "720adbd20683aa3eb8c47478c921ee75518e57b46f00e210fcf3d689ccdf57c1"
+  },
+  {
+    "original": "iterations/17-forge-coverage/source/steel-material.png",
+    "copied": "source/provenance-inputs/iterations/17-forge-coverage/source/steel-material.png",
+    "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+  },
+  {
+    "original": "iterations/20-semantic-review/masters/favorite__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/20-semantic-review/masters/favorite__detailed.svg",
+    "sha256": "ecb874f01b534c44ebad32017ecf0485a2d66fe6b8e67e1ab88ab803b04451ba"
+  },
+  {
+    "original": "iterations/20-semantic-review/masters/favorite_outline__detailed.svg",
+    "copied": "source/provenance-inputs/iterations/20-semantic-review/masters/favorite_outline__detailed.svg",
+    "sha256": "be43b4a6b638fc02984fb19a37bf61b52c4c217c04e0b95b210d9f0103985e15"
+  },
+  {
+    "original": "iterations/20-semantic-review/source/steel-material.png",
+    "copied": "source/provenance-inputs/iterations/20-semantic-review/source/steel-material.png",
+    "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+  },
+  {
+    "original": "iterations/21-native-workflows/masters/ayn_dot.svg",
+    "copied": "source/provenance-inputs/iterations/21-native-workflows/masters/ayn_dot.svg",
+    "sha256": "ce872b4148d24a76a27bcb38dd51120936e679ba024f4ae9adfdca400a547d7c"
+  },
+  {
+    "original": "iterations/21-native-workflows/source/steel-material.png",
+    "copied": "source/provenance-inputs/iterations/21-native-workflows/source/steel-material.png",
+    "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+  },
+  {
+    "original": "iterations/23-magnification/masters/close.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/close.svg",
+    "sha256": "cb35562bba25937a58ac6aa3b693bc6d0e2fbb9ea7e9d09042535fd045403db3"
+  },
+  {
+    "original": "iterations/23-magnification/masters/controller.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/controller.svg",
+    "sha256": "9242125d8a6b429c4684ea22f0813f14c718f8c91339b2549d2abc9fea87197c"
+  },
+  {
+    "original": "iterations/23-magnification/masters/corner_bottom_left.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/corner_bottom_left.svg",
+    "sha256": "d5a16133065f79b91fe4d9475ff12627e0c34f801cea79ea58dc88f27e5755d5"
+  },
+  {
+    "original": "iterations/23-magnification/masters/corner_bottom_right.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/corner_bottom_right.svg",
+    "sha256": "93538961257862f9188ef6a4cd02a70587ba15fd05151131e73930f548f4c550"
+  },
+  {
+    "original": "iterations/23-magnification/masters/corner_top_left.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/corner_top_left.svg",
+    "sha256": "980e387e98a319af6a2f01361f973e3328a95687849386822daf2d4af7aad31a"
+  },
+  {
+    "original": "iterations/23-magnification/masters/corner_top_right.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/corner_top_right.svg",
+    "sha256": "e8da27ce2dc74ce59eb1ee5c851833c877d7cc26a0757c31befb1bf9725910f0"
+  },
+  {
+    "original": "iterations/23-magnification/masters/fullscreen.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/fullscreen.svg",
+    "sha256": "b98bd3a9f759dc68fd7018ef4b39f75ef4a9583fd99e96fbb03e36fa70bf821e"
+  },
+  {
+    "original": "iterations/23-magnification/masters/move.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/move.svg",
+    "sha256": "c4e01c43972a66d604f58dee9436c576d88f27c121263f2061614802b36ce06c"
+  },
+  {
+    "original": "iterations/23-magnification/masters/resize_a.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/resize_a.svg",
+    "sha256": "67e7e68e3978d96debaee7a2240308e921eb10443f850ddd6d4fd2465f126515"
+  },
+  {
+    "original": "iterations/23-magnification/masters/resize_b.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/resize_b.svg",
+    "sha256": "2ca793f3f07d68cba556231b2f75a34b8999cdb06b99759011f54b120cd072b5"
+  },
+  {
+    "original": "iterations/23-magnification/masters/settings_gear.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/settings_gear.svg",
+    "sha256": "a248d9fdd1fcfb5bf091ac680d30ae81dc84281855bbf928060a3083e5f3de0b"
+  },
+  {
+    "original": "iterations/23-magnification/masters/size_large.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/size_large.svg",
+    "sha256": "73c5278c6d3a11a100614567347da9b087541d344d87f998b71052f9f604f20c"
+  },
+  {
+    "original": "iterations/23-magnification/masters/size_medium.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/size_medium.svg",
+    "sha256": "b128dd90f42ed7a3a24018e5890b154a6cb66704b81c8582849d7330ea865aef"
+  },
+  {
+    "original": "iterations/23-magnification/masters/size_small.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/size_small.svg",
+    "sha256": "b8a084efe769dcc5377bf244d0ee5b32e8e90859d5b64031cb41d0563b69b3d3"
+  },
+  {
+    "original": "iterations/23-magnification/masters/zoom_in.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/zoom_in.svg",
+    "sha256": "d0918ed08e514b2e13f3dba5f1de375b5fa2284f88fbd20eb7faa39a91c120d9"
+  },
+  {
+    "original": "iterations/23-magnification/masters/zoom_out.svg",
+    "copied": "source/provenance-inputs/iterations/23-magnification/masters/zoom_out.svg",
+    "sha256": "1ddba826a1c2bc9e60261c4f6e2852268d7f4ff685a59bbeec787680a73073de"
+  },
+  {
+    "original": "iterations/23-magnification/source/steel-material.png",
+    "copied": "source/provenance-inputs/iterations/23-magnification/source/steel-material.png",
+    "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_add.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_add.xml",
+    "sha256": "c1ab5450be15d9e1581dd8b697eaae4be3b1488ff0c61ca13e0d748834fceeb3"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_arrow_top_left_and_bottom_right.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_arrow_top_left_and_bottom_right.xml",
+    "sha256": "1dcca42806075a4064f8a55c619bf56a60904c04072d0f05391dbb33c5d72258"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_arrow_top_right_and_bottom_left.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_arrow_top_right_and_bottom_left.xml",
+    "sha256": "8c9b125b4ee49c13e49d97cd246f2e1c151ff453498327304eb62bacbf6aa945"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_control_magnification_grey.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_control_magnification_grey.xml",
+    "sha256": "012a3836c7c31e5568e385142c0bd487124ae10a55ec3c5a553c33b02ccd8bb2"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_corner_bottom_left.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_corner_bottom_left.xml",
+    "sha256": "e14e8bd3efb1ceba915e955c7828e6fb5bb470114fde3eadbfb7a73a3c09c2a2"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_corner_bottom_right.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_corner_bottom_right.xml",
+    "sha256": "a311c3cd9b378a2a58ff241c6e8db09f8a69f4e857eb1484ed35c635091ea63c"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_corner_top_left.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_corner_top_left.xml",
+    "sha256": "9be3df2a92a178bbdc0f302554612e86a2c478868f5ed277cdb67918c373430a"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_corner_top_right.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_corner_top_right.xml",
+    "sha256": "a4b2eae42a806fe6d65fab8f604d7875316ed627e1d766c2ae581fd185e8b40c"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_menu_close.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_menu_close.xml",
+    "sha256": "888a17a2ffa562694ac8338c2f0b13e43f40ddd748eec2f1c5d355ca6a809a4a"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_menu_large.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_menu_large.xml",
+    "sha256": "ed514f96d95a1f8112fcad6d273cb13f74433c1e8790c0c6e6c3b60d0ea17592"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_menu_medium.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_menu_medium.xml",
+    "sha256": "7833b1308b31440c8aa6ccef3dbae8c8be4022e627426c545f6cfdc365d26bd3"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_menu_small.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_magnification_menu_small.xml",
+    "sha256": "1a211fc106a571c6da78dc2340c113630981607ad74f2de9cd76fe6c875978d0"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_move_magnification.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_move_magnification.xml",
+    "sha256": "8a77abe436fc991e8264f6b8975020b1a7fb87001514460df5085b3fd004a04a"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_open_in_full.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_open_in_full.xml",
+    "sha256": "c979519ce30ccb9ec55bfac0ca54f429632038e3534bdfaac226eee505a33f7f"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_open_in_new_window.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_open_in_new_window.xml",
+    "sha256": "446da1c1601d7ed091815f8895eb853aaac90f3c854d59a1508406f410485ded"
+  },
+  {
+    "original": "iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_remove.xml",
+    "copied": "source/provenance-inputs/iterations/23-magnification/upstream/frameworks/base/packages/SystemUI/res/drawable/ic_remove.xml",
+    "sha256": "8357e46fe3826386102b0c9569312674456c5b066e5242fd0ee6607516d7b62f"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/glyph_collapse.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/glyph_collapse.svg",
+    "sha256": "00cc2ccd398d16b5c82fce555b565e65d9bdeafbf4c27f3087dc92497c31c512"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/glyph_expand.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/glyph_expand.svg",
+    "sha256": "b328e30872e626035216ddd1b9dcfb026e587649272d36c194ad8fb51f67b4a9"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/glyph_local.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/glyph_local.svg",
+    "sha256": "bee9ee9406099d3a309a0e671918d6b94ac7c6938c6af4855d2f314c26c11cb2"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/glyph_more.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/glyph_more.svg",
+    "sha256": "caf1fe7e252be3accec75a8fed6e2142d26a123fc713fa874d4d7cf2250d9e43"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/glyph_remote.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/glyph_remote.svg",
+    "sha256": "fe6ebc4d031c74664b22d68d2918719051e7ca1bb68a45421794f93c780661f5"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/optical_app_updater.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/optical_app_updater.svg",
+    "sha256": "3ada675adc1a0ec4e73954169d14c0ee3a481fb45834ef9b70d2f299e9edd6bc"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/optical_pause_32.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/optical_pause_32.svg",
+    "sha256": "3fb511152ef27f1808944afc1bbf9f77560430e300ed2871245712946b2737fd"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/optical_play_32.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/optical_play_32.svg",
+    "sha256": "97e017da361e4bb5f19b2693ced3e49d5689564753a309febe03d83d97284bf7"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/update_error.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/update_error.svg",
+    "sha256": "6d9f97f91a71253d1fa9567e5a07c6c625685e2e8329128c24ec562124b9a074"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/update_ready.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/update_ready.svg",
+    "sha256": "19cc16b8faa95c51411c1d56de1f610f00e5acdf466d424f7f4ddd5f46b582ba"
+  },
+  {
+    "original": "iterations/25-updater-workflows/masters/update_scan.svg",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/masters/update_scan.svg",
+    "sha256": "2648b93e856552e32c542b2df2bcf33382f094defcf0fc8cc4db04a8a82aed02"
+  },
+  {
+    "original": "iterations/25-updater-workflows/source/steel-material.png",
+    "copied": "source/provenance-inputs/iterations/25-updater-workflows/source/steel-material.png",
+    "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_albums.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_albums.svg",
+    "sha256": "aad1189307d840839c527f526009e0c02e8ac47ba8972d831f9df8e559acf9a5"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_app_gallery.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_app_gallery.svg",
+    "sha256": "1de9502259c4d146dfe3b63fb96c77815705904abfaffecee01ce2ab414a9cb8"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_back.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_back.svg",
+    "sha256": "f2f5f5df8ebb8091e65c1d2e0dc90ef5d75b1aa3fff92ea0820eac02277205ed"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_camera.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_camera.svg",
+    "sha256": "84b9edf65cd1f3811188e29314848839f219eabdf05591d0afb618574086c991"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_check.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_check.svg",
+    "sha256": "7b84ae9d47900a17ed3ece81ff48a1dcc801fa030128601ba9502ecdcd45671a"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_check_circle.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_check_circle.svg",
+    "sha256": "ebccba38fbb77309c19a136e3ad9cb56dc41323d968b84229dc356da36c18646"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_check_circle_outline.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_check_circle_outline.svg",
+    "sha256": "3851cd598a8cf5baf3bd9aa041fc567e499d1629c6cca09422206d216026c10e"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_close.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_close.svg",
+    "sha256": "2bf43be695d79b3d0914be7351a84330f9453705a1f6322647aefdfea769cde0"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_contact_page.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_contact_page.svg",
+    "sha256": "3f882d3cfba6a65faed3b97346dbe913e21d9d94317c53fdf3780f1b2dbb7a11"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_delete.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_delete.svg",
+    "sha256": "4dd37c1843d6905993f716b865159409d971dffc3c1212c9b684f37819c785be"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_delete_forever.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_delete_forever.svg",
+    "sha256": "801444f1f21e3f95a9ce15a9a38afe48afd75ceb3ca0304e5827ae6f10e877b9"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_delete_sweep.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_delete_sweep.svg",
+    "sha256": "a6f62148d1ade245ca5ccf1e8d40e85278ac7561454e2195d3fed89a88827c99"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_done.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_done.svg",
+    "sha256": "e150e3abe5126024dc18ec2e724d70c65d8c0a28ff636d3dc1b765c33478d9ee"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_edit.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_edit.svg",
+    "sha256": "152979f4f3566b2963a2b11a92b968477f8906342a632837a79bca207004d0a5"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_audiotrack.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_audiotrack.svg",
+    "sha256": "62676898c03c0c96845f81f66a079f7a80163177f7471bb421771a64f4d27062"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_check.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_check.svg",
+    "sha256": "f33d3384ff582026778fe5b470978ca5bc1c58a1a5d6bfc35262f6e16cee1b7e"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_chevron_left.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_chevron_left.svg",
+    "sha256": "c129546955ff46bef95782186ec0d6ff3d8eb28e9442bc928420ff2dfa6e6dac"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_chevron_right.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_chevron_right.svg",
+    "sha256": "2a3fde3b7cf4582324a77f210a04fbf24663fd585b45ebfec4cbb6a4fa202221"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_forward.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_forward.svg",
+    "sha256": "f69b9270b9e6e3568fe72be73f2daf09f66bc0ecd34045f44a08c7a86e156dc3"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_fullscreen_enter.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_fullscreen_enter.svg",
+    "sha256": "beb21ae23bfc5840be31bba1955d828b3e4b3a29c36b64053d9c66d438b2fede"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_fullscreen_exit.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_fullscreen_exit.svg",
+    "sha256": "1c77ceb899dbb4911149678150ce2e4b76dcecd5c63a4e712d9747443af23073"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_pause_circle_filled.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_pause_circle_filled.svg",
+    "sha256": "026f580c06a7cf759c8cef3f9c8783cb65b5cb9aaaa6438ded11ae1c73766510"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_play_circle_filled.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_play_circle_filled.svg",
+    "sha256": "a030c8c20c3c0eff2d35b3dc929406a4391593713278b66937d4775def11bb4e"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_rewind.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_rewind.svg",
+    "sha256": "f70e7b6ba55d0513a751f7d468d063a2b1d51c3ff8d5e1bde2fa4220e28b74c3"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_settings.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_settings.svg",
+    "sha256": "bb38a39e60d4208af40687143fbb553442e232cdc65e7120051f2e456fb6d8d1"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_skip_next.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_skip_next.svg",
+    "sha256": "98f8a8ecbfcb891c046a754425334d4ad352f48d64da2ab5787c46f1a3a4fa14"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_skip_previous.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_skip_previous.svg",
+    "sha256": "c21933a9e51f76003b37c6979bb30081e19d1e90b584ef669046e934c00f3a17"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_speed.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_speed.svg",
+    "sha256": "c176abf49901b289e7d6d6c7201f92d52e85791cb3382aa4ff2ed99d0839686a"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_subtitle_off.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_subtitle_off.svg",
+    "sha256": "aadac1711fc7d706fa210be3ea110ed7d13f4f7184911c306e093707fb1f947b"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_ic_subtitle_on.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_ic_subtitle_on.svg",
+    "sha256": "e691cc5374f905cfef89e78ce67a77f10c61b775796ddbc11cdfd170b320b02a"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_icon_fastforward.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_icon_fastforward.svg",
+    "sha256": "48d36e1d14773a60a9adbb20380c6794c32a48c6bd2b9f9a46f6c6538714d094"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_icon_repeat_all.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_icon_repeat_all.svg",
+    "sha256": "55eb8cbd9bc4273ff6b2dfdcaf9d21d5f717d8c4b16df31b005a88936545f307"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_icon_repeat_off.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_icon_repeat_off.svg",
+    "sha256": "162c40bd9848cd1f7f1ccc91d910879ac3730f4135dc739a98857139cbe0b76a"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_icon_repeat_one.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_icon_repeat_one.svg",
+    "sha256": "3ccdc923929a3fd7264d381033043405818b610d92ae3d0346db34268d90c424"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_icon_rewind.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_icon_rewind.svg",
+    "sha256": "8c5865cad9dae8c6e4e21ad7f2c0ae8c308e45ce1067f896d7615356650200a7"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_icon_shuffle_off.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_icon_shuffle_off.svg",
+    "sha256": "86585ba6c0188a2de26471bc7178f84af672a24569d439a4f6bb8d5887528ec6"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_icon_shuffle_on.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_icon_shuffle_on.svg",
+    "sha256": "a23c32f8071cd2dee3eb99d6297f533de5fe4515f742a5b8d905d607e7482cd9"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_image.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_image.svg",
+    "sha256": "976be8bf76254aacb169b51e01dd039f5b066e2cbc994f8852e87e6f0a28d978"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_info.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_info.svg",
+    "sha256": "e959a86db4729ed3be3981b0228e1d2d2bc149094a0b7e36a33d8910329de1b8"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_library.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_library.svg",
+    "sha256": "0fafea7eb7c433dff2984e7ac800b4c9f5ec51af7fa1540c10d429658c831665"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_location_on.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_location_on.svg",
+    "sha256": "16648052032bcc3d78cad56ef58655cddd17b408073a6e410a413279f676b924"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_media_frame.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_media_frame.svg",
+    "sha256": "0bdf3985bd4057372578ce1675d96b9e56ede240a1c554ea6adfcce1e3bbdbf5"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_motion_play.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_motion_play.svg",
+    "sha256": "beb78469e050aa1c38627d927c9755100563a43f12b668e2345368b6a82a4134"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_no_photography.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_no_photography.svg",
+    "sha256": "03a493c733a0f6a135a57e881e839d16871d22168ac4914cb20e521b89ee1ec6"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_person.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_person.svg",
+    "sha256": "536a7a32386c625931f58620a7e26e0ac9a7f3722214f337e2940e77b11a920a"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_photo_size_select_actual.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_photo_size_select_actual.svg",
+    "sha256": "b5f9eb0b828b726168fd029a437e8be5dd75acbc46289965ec45adaaa8e32e33"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_play_circle_outline.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_play_circle_outline.svg",
+    "sha256": "df549b763cedc421e207f2e9bb45888c7b8dca3a40919f2eee8ad7f1c18054de"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_restore_from_trash.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_restore_from_trash.svg",
+    "sha256": "93afa3dadf2d23c49e954bcdada407d6299b101a8b265e01b704b6c309a6f52f"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_settings.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_settings.svg",
+    "sha256": "1cc892e45955fbdb84f9567fa4d6fa6e65dcc195e8aae4236781233d7f913161"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_share.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_share.svg",
+    "sha256": "52dc7cec76e8b0f938827a76fd587cac5d8afe759c18f09b10ff1d86a4c40f14"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_star.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_star.svg",
+    "sha256": "e5399313ff86c00f006d6838415dff517a09e8d76123a523da04b235f958d291"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_star_border.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_star_border.svg",
+    "sha256": "aca11643a01736bafb5829a12ac6062152bee6d4c228bf13b30588a0884cc193"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/masters/cg_gl_video_camera_back.svg",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/masters/cg_gl_video_camera_back.svg",
+    "sha256": "81a2c24d2c250c6efbc976489964f768d0c83417ca3300f529120cb06f843d03"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+    "sha256": "4f91b3b36e339fb81c46ca098ce77414f6ceaf6ee2aa6753804a6b6832fa19b9"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_check.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_check.xml",
+    "sha256": "98c86b1e4f2a3c3dc9a6899d4b7888bccfe4e831dc3b44c6cbb44c903060b3de"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+    "sha256": "e99ea1867e61e31330848419b1ccf5f94cfdd0c81a73368396be34407f34c9dc"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+    "sha256": "3db1e9b9a083a972a4eaa9fc94fb0986f91eb1cf12e17fd2f035b1869272bc03"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_forward.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_forward.xml",
+    "sha256": "2b2ef130c9da8e517f844faa522e04677b4dfa2ff980d2db353b8b5375098f72"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+    "sha256": "e8b0e7f1e9f987113af8da234beb39f5b49b55b694efe28bded5169688ff8fb1"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+    "sha256": "682923ba58428c63636bf3a23e30bf1a8a1e9b465aad773e74927b71791049e9"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+    "sha256": "ab26504472191b4658f51d57d89dda2ea7c36c42403af31be802c351054f14bb"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+    "sha256": "bb826d006a37764e565e12b000b6a2a8533ecf8cadf422043cdc8f49b52131dc"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_rewind.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_rewind.xml",
+    "sha256": "9609bb155607a0cfd0f18531eefec33a5f1e68806ef1343cc741f38362e8ad97"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_settings.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_settings.xml",
+    "sha256": "9b64b9a7eed443b5e183613ab4812e979a5f47e63a14c979f2d172f9e13ce879"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+    "sha256": "7a05bd66b77b0f50ae2cbf34e14edb90b5e68f1ccffd0b61d8e696747489d947"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+    "sha256": "db7fee363c20483613fdb32385c60a3276d7189391d112d610d7d689a831e40f"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_speed.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_speed.xml",
+    "sha256": "1acc5feec8ddd950ddf213b9ed0eaa71f78360a99988455b2c25fd358f169452"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+    "sha256": "c465905453aa19f2b34af9d323b1548de2b85e89e1729da03ff4c143ffe46bf8"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+    "sha256": "4b18246da6700ef722f0ce64cee316e4c25c187eb3e77d9f9ce706bc05209be4"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+    "sha256": "cd3f6c4c03f5d63e77cd240025907ef13d31768b8147c7872642abe89ede1c7f"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+    "sha256": "33cfe04db3849afaa84a066d4f51d7dc55ade42394a58a6d7fe6fb47f2507cb1"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+    "sha256": "36320855fbb300cea55d9c4ea82b32595440e5f10bcedd826f148c24072209b5"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_repeat_one.xml",
+    "sha256": "33ac407a93533508391e3a4df62fef8e96abfdbb1e7ac03393dce0cb9debb3c4"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_rewind.xml",
+    "sha256": "4284259fb05b0ab3af0cc22d69b4e43aeb5708c7d33db7c2acdb47a0fe52a885"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml",
+    "sha256": "9628c7280fed8654f59872745296ec9784b4b92e70f3bf047f535af1ec06d640"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/media3-ui/original-resources/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml",
+    "sha256": "2b5b4a738dbea931973ffbe0269aac45eb042fd88e6204237dea633de60afc19"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/source/steel-material.png",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/source/steel-material.png",
+    "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_albums.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_albums.xml",
+    "sha256": "51e0a48bafbbc87dc0a6ffe191e691b5fc219571e374cc6c05e30eb48041568f"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_camera.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_camera.xml",
+    "sha256": "f1206992434129833e938cbbe83e21afe6a88d4d87ea5965c5d1272d9493cb21"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_check_circle.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_check_circle.xml",
+    "sha256": "58bb864cb10d437b53d7d0a7cb46ca3ec9ed0df5b11deca51d95d2c3d90fcec1"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_check_circle_outline.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_check_circle_outline.xml",
+    "sha256": "b0fb71b353999d0f72dd545075bdaa31efa7314dbacde86d3fe8e94e8ce701cf"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_contact_page.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_contact_page.xml",
+    "sha256": "22073b3d84d7d923689c238b5ed2a42228d02843531ead3df9bf622bafddc28b"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_delete_forever.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_delete_forever.xml",
+    "sha256": "7df61019573964d3893580a3099729dcd072f13eaf7e9e6bb1f8559b96f9ebd4"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_delete_sweep.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_delete_sweep.xml",
+    "sha256": "db4dc41a9cc7c35dfdc01d784795fdf4a3efc01bf36abe4917f0d33316a611ce"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_done.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_done.xml",
+    "sha256": "d24fcd67faf413269925dede52940e75a8182d75bda1133c8dcb0d7b331d5cce"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_image.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_image.xml",
+    "sha256": "a939d9b5d4f0634340035105b8ff489bb8a694d26c01fc7108f1b58332ea0634"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_library.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_library.xml",
+    "sha256": "809376bd1f70dd3307161983da5cde5a2b7f793736e24ad10725dab33ac68028"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_motion_play.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_motion_play.xml",
+    "sha256": "a2751e04eb8e9792815a60bb73c4b22d4f2a1c997cd3205a64d739e95c456f47"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_no_photography.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_no_photography.xml",
+    "sha256": "51bdb7d7fdd36963eb374beec6f4ce84399112344a26f514c8a2b3fe45cfabbd"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_photo_size_select_actual.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_photo_size_select_actual.xml",
+    "sha256": "d77e49c38721893cda12bc330c3af52dfa3f70bf744e706c576f67f9c6bdcadb"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_play_circle_outline.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_play_circle_outline.xml",
+    "sha256": "250753e6dda407e095fb8f443d992aca7df49e568d61afa39bac9af5499b9290"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_restore_from_trash.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_restore_from_trash.xml",
+    "sha256": "d27c8eb9293841e9fc7f2499589d2fe8e5a8cbd0611316a6929c77a46a8afbb7"
+  },
+  {
+    "original": "iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_video_camera_back.xml",
+    "copied": "source/provenance-inputs/iterations/26-gallery-workflows/upstream/packages/apps/Glimpse/app/src/main/res/drawable/ic_video_camera_back.xml",
+    "sha256": "028feb4d9dbcc2c794e6672df6abf13e10e2955f25d2020161d8b512822166aa"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_accessibility.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_accessibility.svg",
+    "sha256": "d0bd997df9b4de7059603166ff14b8d6374a4fb0ed151fbee0d8cb56e05d2488"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_arrow_forward.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_arrow_forward.svg",
+    "sha256": "07c4cd3206094b356e59a062fa9b197876c9a3ff37b66c36d3a6ecb5c7caa5fb"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_check.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_check.svg",
+    "sha256": "73c0820109a3b841496873bc26da536189a68778544e6964f4b8161c96747fac"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_datetime.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_datetime.svg",
+    "sha256": "e7eaaab2e31df9d72ffafa40c1661156beeabadfe53ffa65beddc04bfac628be"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_dialer.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_dialer.svg",
+    "sha256": "c22c62617151f035f3bfbfb75fe2057da948764fe843b8e08381dae2507f1acd"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_emergency_dial.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_emergency_dial.svg",
+    "sha256": "e01982603bc1d3b19bbb1f49ca0ac83558c6bc0b7c9c7257b34f71e3a00b72f9"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_eye.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_eye.svg",
+    "sha256": "a0e4b1b54b9aa353290a24548a14fe05cb2f331478dfc101753b0329e6eeb008"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_info.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_info.svg",
+    "sha256": "7bdc576fe1119d8068ebdbef63e162ce3749094555c1ecc8b85f6a20240cec3c"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_locale.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_locale.svg",
+    "sha256": "7bef45a2e7e1ee4598971977e1ad2d0aa98ba9060d0d9f796c364d5e9e818b74"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_location.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_location.svg",
+    "sha256": "c6a229a344f768182f0505436ab1b278335bdc29fc805f9c15a5dc2fb260b2a2"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_nav_home.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_nav_home.svg",
+    "sha256": "9772adc2e61732e21daed6f8cee320bee67bcae60814bc9138534f6dec76d87e"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_navigation.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_navigation.svg",
+    "sha256": "bbfc27ba962c7ea57492e11b7c7502299c446d589ccc6c612cbae1feab079055"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_palette.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_palette.svg",
+    "sha256": "8b1a85d2eda81732adff172e3850dedb2c7110316c30281dd2c77c9f31c001cd"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_restore.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_restore.svg",
+    "sha256": "e5eabadd66d6b0fbf7cc2493bace28fa7c3fa971b7c3223fcd29c7f873411e51"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_sim.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_sim.svg",
+    "sha256": "06382e082265f04ff3468cbcc5629e15972cd40b35500a7a9ae32fcc75c8e4bd"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_swipe_up.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_swipe_up.svg",
+    "sha256": "f6936e812c7a66627837f4b59578b5417ca0e5064b98b6c24486df7bff49d577"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_system_update.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_system_update.svg",
+    "sha256": "ea9f0151bf5a8f354661c7588bdfadd5043ebafdf63b0374cf82d834bc0ad4b2"
+  },
+  {
+    "original": "iterations/28-setup-workflows/masters/cg_sw_tv_expand.svg",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/masters/cg_sw_tv_expand.svg",
+    "sha256": "f3bc6dd21bddd07256b44641e4e10328ca0f4c1d1d6358237fea9271635388b7"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_accessibility.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_accessibility.xml",
+    "sha256": "f953f1277556d6797bfe9f187f22e464a38d652b078e6d391c5a2e5384115da4"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_arrow_forward.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_arrow_forward.xml",
+    "sha256": "5f5b32c1139ba7ece44812e5a02ea76a6c99523848f135eb60827f65dabd6da5"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_check.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_check.xml",
+    "sha256": "fcc96f26142097a5641fd4a45c2dcb5b3cf4d53bca0a1f141538af113050f0b4"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_datetime.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_datetime.xml",
+    "sha256": "0ad55d844ed0e9c79050f209503f2064f07fa7c9b5b370ccf9709aa9aa8de9ff"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_dialer.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_dialer.xml",
+    "sha256": "b1e81f45737ec43165e5add7474b916dfa282f6a49330038d2d257d8748e0cf1"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_emergency_dial.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_emergency_dial.xml",
+    "sha256": "1af2bc277257d9ec14ecd8075c00eb24af654ac7ba696384a0510b9ced6a43ff"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_eye.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_eye.xml",
+    "sha256": "2f4d9c3d36ef28bd75e6e6d0b95998485b0014440fd091685959cad9a4f47b23"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_info.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_info.xml",
+    "sha256": "880cba345ed8138eff354225a2dcfd7ec40ee204d8654dfac5b50da009efe1ba"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_locale.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_locale.xml",
+    "sha256": "21c98bb7499750b985b84a0a46830acb99b9526e5b372131dba67ab892ac41b4"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_location.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_location.xml",
+    "sha256": "bb0281462c7f6a10252d8de50b7bfdd9a2ac78d540fba3772ed7532e55937069"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_nav_home.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_nav_home.xml",
+    "sha256": "2310e60a3042469c95fc5f94e27654f654f54358c45ffcfe70cfd431265f30af"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_navigation.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_navigation.xml",
+    "sha256": "6adbc50758826f4b23007beb600759d3d9cf6b7502b84a7319cb44a01984ee13"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_palette.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_palette.xml",
+    "sha256": "f5c877e596ec6b753a0c8ff4571621d52a9396efdc17846c79003a5d33a30c86"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_restore.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_restore.xml",
+    "sha256": "1393f498ebba40e32feb84808650517de38f8615d934b29261993c150a9dff83"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_sim.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_sim.xml",
+    "sha256": "21bf4f7c852940a4cb5d0e613abc44a9e818882b47339e679d62fcda2a9d92fc"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_swipe_up.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_swipe_up.xml",
+    "sha256": "7265758bd5acafbc7b10f06abde0bd8640c8c965991f0c889514573a2f4ec2d8"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_system_update.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_system_update.xml",
+    "sha256": "71a5096244f3410c8a193b4a8e7795a6845c3ca5486c53deb0b6f7a239d1eaa5"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/geometry-inputs/ic_tv_expand.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/geometry-inputs/ic_tv_expand.xml",
+    "sha256": "597d13db34386d24f9d9dca9a91e1b9319917a8a95687b6abdf64466804e70df"
+  },
+  {
+    "original": "iterations/28-setup-workflows/source/steel-material.png",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/source/steel-material.png",
+    "sha256": "839add77b350e6bb00d261963a8981dd004bff6b8d812c038a7734176a59d6df"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_accessibility.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_accessibility.xml",
+    "sha256": "527ec9a41bf095e6e9f8767645bb9792f6fbe81049517e65bac00d46c05d1592"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_arrow_forward.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_arrow_forward.xml",
+    "sha256": "0c416ce8c3b9f4510fde0747a1d1726baa7e881350a06ec6d7dcef895ef020e5"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_check.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_check.xml",
+    "sha256": "3dab8255c62edc41fea45b81459c86f86b98669755ee4b2e353f54b7b2196976"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_datetime.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_datetime.xml",
+    "sha256": "992469d6a606c811c0f45ba283dc09693b119adb951c80906afbb8acf54e820a"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_dialer.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_dialer.xml",
+    "sha256": "8d527214943ea61247418929bd63d9982d9bdfd409ece6157cb2260e70111f94"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_emergency_dial.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_emergency_dial.xml",
+    "sha256": "3932ab188bffae84f96096b87f4522547d02f087d2c2564b922439af74dcae12"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_eye.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_eye.xml",
+    "sha256": "e14d64239ea42a99787ffb523deb0c997bc5ccbbd5659f3ce921fb203b3bdc1e"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_info.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_info.xml",
+    "sha256": "0dca8f97ea6b729ffe12fff83cd54322a0b747375c85137540861d76d0e7ab9f"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_locale.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_locale.xml",
+    "sha256": "5cac52df639583e6645f01b50d8e515a6fdca0a2795c4764e8d555140393eccf"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_location.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_location.xml",
+    "sha256": "d94e5b8fd767d5ba50f425dd2767775e613dd7ba96f4cff86a4e4f7a94c3ca61"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_nav_home.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_nav_home.xml",
+    "sha256": "32b0861415be971bf5208a4cabd817487a8d660009d2eda22ed8dc3b813a2fe6"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_navigation.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_navigation.xml",
+    "sha256": "b370a6aaca0ccf37d17b29c65f8b2f308545bff6dbd12757a3c7a2cc6e9ce621"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_palette.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_palette.xml",
+    "sha256": "9217afce64cc13384a0566fedec244877fc05273634446280746c403ae46747a"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_restore.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_restore.xml",
+    "sha256": "f7bb2262ebd95350a408777f1d513341ec015f96ea041683157eee212040b5cf"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_sim.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_sim.xml",
+    "sha256": "578907553c1d051978985d70610c9463222a3a852569bde9c176eb472ec88edf"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_swipe_up.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_swipe_up.xml",
+    "sha256": "905dd760409030ff8dea3b666ce8a9e33812b6823a4564d804c6cdb758ef6eb3"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_system_update.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_system_update.xml",
+    "sha256": "6e5370223907a009608d08ee327dbe5d4c35b9ced51de78ffea023ae9e27d655"
+  },
+  {
+    "original": "iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_tv_expand.xml",
+    "copied": "source/provenance-inputs/iterations/28-setup-workflows/upstream/packages/apps/SetupWizard/app/src/main/res/drawable/ic_tv_expand.xml",
+    "sha256": "923518de0919dfe39f5534fb4b1a9ec64672294b1940b72d943360534717e219"
+  }
+]

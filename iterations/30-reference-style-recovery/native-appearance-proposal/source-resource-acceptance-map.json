@@ -1,0 +1,27 @@
+{
+  "source": "iterations/23-magnification/native-patch/frameworks/base/packages/SystemUI/src/com/android/systemui/accessibility/ForgeMagnificationBorderDrawable.java",
+  "sourceSha256": "0b0ca911a09646e285870eda9da23cdf606a2e11447dfc99e9a4149c2762b63b",
+  "proposal": "native-appearance-proposal/frameworks/base/packages/SystemUI/src/com/android/systemui/accessibility/ForgeMagnificationBorderDrawable.java",
+  "proposalSha256": "06b2bfc07af6b14a966cde8760c5afac7923a00819e59381d7d897144ee36c92",
+  "exactChange": "Six color literals only; shader operations, alpha, paths, dimensions, radius, state and callbacks unchanged",
+  "nativeGeometryOwner": "ForgeBorderGeometry",
+  "resourcesUnchanged": [
+    "magnifier_border_width",
+    "magnifier_border_width_fullscreen",
+    "magnifier_border_width_fullscreen_with_offset",
+    "magnifier_corner_radius",
+    "magnifier_edit_corner_radius",
+    "magnifier_edit_dash_gap"
+  ],
+  "materialChanges": {
+    "0xff9da9b2": "0xff84817a",
+    "0xff394957": "0xff4b4c49",
+    "0xff101924": "0xff282b2c",
+    "0xff576b7b": "0xff66645f",
+    "0xffb0bec8": "0xff252829",
+    "0xffb2bdc6": "0xff77776f"
+  },
+  "compile": "NOT RUN for this cosmetic proposal",
+  "nativeInflationDeviceAndPerformance": "NOT RUN",
+  "hardwareOperations": false
+}

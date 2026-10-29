@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "groups": [
+    {
+      "group": "magnification",
+      "fixtures": 9,
+      "materialSource": "Corrected PNG bank and corrected vector border palette"
+    },
+    {
+      "group": "updater",
+      "fixtures": 25,
+      "materialSource": "Corrected PNG bank; existing error semantics retained"
+    },
+    {
+      "group": "gallery",
+      "fixtures": 26,
+      "materialSource": "Corrected PNG bank; 25 existing workflows plus adaptive identity sample"
+    },
+    {
+      "group": "ayn",
+      "fixtures": 11,
+      "materialSource": "Corrected live-position ornament; original gate/RGB data unchanged"
+    }
+  ],
+  "totalFixtures": 71,
+  "fixtureVisuals": "English editable offline specimens; pinned prior source labels and original sample values",
+  "nativeScreenshots": false,
+  "actualAndroidStateInputAndDeviceAcceptance": "NOT RUN"
+}

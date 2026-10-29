@@ -1,0 +1,23 @@
+[
+  {
+    "source": "iterations/23-magnification/masters/border-fullscreen-parameter-example.svg",
+    "sourceSha256": "544de172d31c4097b561fe3c281d376cc67a43b622b25727d5693783a0005b15",
+    "corrected": "masters/border-examples/border-fullscreen-parameter-example.svg",
+    "sha256": "0bc58c33c925bbb2909e8ee0b995826b1b1c4b7b8dde0eabf06de008a4c6f256",
+    "productionPngConfigurations": 0
+  },
+  {
+    "source": "iterations/23-magnification/masters/border-window-edit-parameter-example.svg",
+    "sourceSha256": "88454d79f0e8a10d87ec4092366d38e47decae9922fb4ccc22df379782c786b4",
+    "corrected": "masters/border-examples/border-window-edit-parameter-example.svg",
+    "sha256": "72079a55962b7d22e8b110a6ff38cf087452e32e76940eedb87e97065e639eb6",
+    "productionPngConfigurations": 0
+  },
+  {
+    "source": "iterations/23-magnification/masters/border-window-parameter-example.svg",
+    "sourceSha256": "6f96fd303e9bc2e2575d1dd613e3ed506e2e623cc3f03e7a2496beb9831be497",
+    "corrected": "masters/border-examples/border-window-parameter-example.svg",
+    "sha256": "3ed47e0cc97aa03b2d95e27ef32b9d160f0a944572ea3a5bf37d8b8cccc7e721",
+    "productionPngConfigurations": 0
+  }
+]

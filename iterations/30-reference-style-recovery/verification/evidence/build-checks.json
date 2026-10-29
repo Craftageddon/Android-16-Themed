@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "productionMasters": 99,
+  "priorMaterialDriftMasters": 98,
+  "additionalAynMarker": 1,
+  "additionalBorderExamples": 3,
+  "uniquePngConfigurations": 2895,
+  "coldPngConfigurations": 413,
+  "neutralMaskConfigurations": 2482,
+  "preservedEarlierMasters": 764,
+  "gallery27DuplicatedMastersNotDoubleCounted": 53,
+  "compactRecordsPreserved": 183,
+  "visualAcceptance": "PENDING",
+  "nativeDeviceRendering": "NOT RUN"
+}
